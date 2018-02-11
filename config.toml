@@ -261,10 +261,10 @@ defaultContentLanguageInSubdir = false
   url = "#contact"
   weight = 4
 
-[[menu.main]]
-  name = "中文"
-  url = "/zh"
-  weight = 5
+# [[menu.main]]
+#   name = "中文"
+#   url = "/zh"
+#   weight = 5
 
 # Languages
 #   Create a [languages.X] block for each language you want, where X is the language ID.
@@ -291,10 +291,10 @@ defaultContentLanguageInSubdir = false
     url = "#contact"
     weight = 4
   
-  [[languages.zh.menu.main]]
-    name = "English"
-    url = "../"
-    weight = 5
+  # [[languages.zh.menu.main]]
+  #   name = "English"
+  #   url = "../"
+  #   weight = 5
 
 [languages.en]
   languageCode = "en-us"
