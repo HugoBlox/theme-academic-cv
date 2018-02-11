@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resume - Renxin Lin on Resume - Renxin Lin</title>
+    <link>http://oxxd.me/</link>
+    <description>Recent content in Resume - Renxin Lin on Resume - Renxin Lin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Renxin Lin</copyright>
+    <lastBuildDate>Sun, 11 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Deploy Node.js Apps using Sinacloud</title>
+      <link>http://oxxd.me/publication/nodejs-sinacloud/</link>
+      <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://oxxd.me/publication/nodejs-sinacloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deploy Node.js Apps using AWS</title>
+      <link>http://oxxd.me/publication/nodejs-aws/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://oxxd.me/publication/nodejs-aws/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

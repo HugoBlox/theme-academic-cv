@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="http://oxxd.me/zh/publication/nodejs-sinacloud/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="http://oxxd.me/publication/nodejs-sinacloud/" hreflang="en"/>
+    
+      <loc>http://oxxd.me/zh/publication/nodejs-sinacloud/</loc>
+      <lastmod>2017-03-29T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="http://oxxd.me/zh/categories/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="http://oxxd.me/categories/" hreflang="en"/>
+    
+      <loc>http://oxxd.me/zh/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="http://oxxd.me/zh/publication/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="http://oxxd.me/publication/" hreflang="en"/>
+    
+      <loc>http://oxxd.me/zh/publication/</loc>
+      <lastmod>2017-03-29T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="http://oxxd.me/zh/tags/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="http://oxxd.me/tags/" hreflang="en"/>
+    
+      <loc>http://oxxd.me/zh/tags/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="http://oxxd.me/zh/publication/nodejs-aws/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="http://oxxd.me/publication/nodejs-aws/" hreflang="en"/>
+    
+      <loc>http://oxxd.me/zh/publication/nodejs-aws/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="http://oxxd.me/zh/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="http://oxxd.me/" hreflang="en"/>
+    
+      <loc>http://oxxd.me/zh/</loc>
+      <lastmod>2018-02-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+</urlset>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="http://oxxd.me/publication/nodejs-sinacloud/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://oxxd.me/zh/publication/nodejs-sinacloud/" hreflang="zh"/>
+    
+      <loc>http://oxxd.me/publication/nodejs-sinacloud/</loc>
+      <lastmod>2017-03-29T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="http://oxxd.me/publication/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://oxxd.me/zh/publication/" hreflang="zh"/>
+    
+      <loc>http://oxxd.me/publication/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://oxxd.me/talk/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://oxxd.me/post/</loc>
+      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="http://oxxd.me/categories/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://oxxd.me/zh/categories/" hreflang="zh"/>
+    
+      <loc>http://oxxd.me/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="http://oxxd.me/publication/nodejs-aws/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://oxxd.me/zh/publication/nodejs-aws/" hreflang="zh"/>
+    
+      <loc>http://oxxd.me/publication/nodejs-aws/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="http://oxxd.me/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://oxxd.me/zh/" hreflang="zh"/>
+    
+      <loc>http://oxxd.me/</loc>
+      <lastmod>2018-02-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="http://oxxd.me/tags/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="http://oxxd.me/zh/tags/" hreflang="zh"/>
+    
+      <loc>http://oxxd.me/tags/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+</urlset>

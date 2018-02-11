@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Resume - Renxin Lin</title>
+    <link>http://oxxd.me/home/</link>
+    <description>Recent content in Homes on Resume - Renxin Lin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Renxin Lin</copyright>
+    <lastBuildDate>Sun, 11 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://oxxd.me/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://oxxd.me/home/about/</link>
+      <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://oxxd.me/home/about/</guid>
+      <description>Summary Renxin Lin is a novice frontend web developer. He has strong knowledge of Javascript, jQuery, Vue and frontend web development. With these skills, he created a few applications and websites. He also dedicated to keep learning and become a full stack software engineer.
+Renxin Lin also loves movies, reading and gaming. He is always willing to try new things, and keeping to learn from them.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://oxxd.me/home/projects/</link>
+      <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://oxxd.me/home/projects/</guid>
+      <description>I built and worked on these projects:
+fakesteam Website
+A fake Steam Store website built with jQuery and Node.js for learing purpose.
+React Music Player Website
+Music player built with React, learn how to use React</description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>http://oxxd.me/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>http://oxxd.me/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Experience</title>
+      <link>http://oxxd.me/home/experience/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://oxxd.me/home/experience/</guid>
+      <description> Oct. 2017 ~ now Frontend Web Develper Intern, 才秀人人, Xiamen
+ Frontend web development  Oct. 2014 ~ Oct. 2015 Interior design, 港福达装饰, Xiamen
+ Interior design  Oct. 2012 ~ April. 2013 Java Intern, 上海曦贝, Shanghai
+ Java development  </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://oxxd.me/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://oxxd.me/home/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
