@@ -3,14 +3,13 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = "http://oxxd.me"
 
 # Title of your site
-title = "Academic"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018"
+copyright = "&copy; 2018 Renxin Lin"
 
 theme = "academic"
 enableEmoji = true
@@ -50,20 +49,19 @@ defaultContentLanguageInSubdir = false
   font = "default"
 
   # Your details.
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
+
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Stanford University", url = "" } ]
+  organizations = [ { name = "Blog", url = "http://blog.oxxd.me" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
+  avatar = "avataaar.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  email = "oxxd@me.com"
+  address = "Xiamen"
+  office_hours = "Please send an email for appointment"
+  phone = ""
+  skype = ""
   telegram = ""
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
@@ -217,22 +215,22 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:test@example.org"
+    link = "mailto:oxxd@me.com"
 
   [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
-    link = "//twitter.com/GeorgeCushen"
+    link = "//twitter.com/oxxd"
 
   [[params.social]]
-    icon = "google-scholar"
-    icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+    icon = "weibo"
+    icon_pack = "fa"
+    link = "https://weibo.com/forlalone"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/gcushen"
+    link = "//github.com/oxxd"
 
 
 # Navigation Links
@@ -249,39 +247,65 @@ defaultContentLanguageInSubdir = false
   weight = 1
 
 [[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
+  name = "Projects"
+  url = "#projects"
   weight = 2
 
 [[menu.main]]
   name = "Posts"
-  url = "#posts"
+  url = "#publications"
   weight = 3
-
-[[menu.main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 4
-
-[[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
-  weight = 5
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 6
+  weight = 4
 
-# Taxonomies.
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-  publication_type = "publication_types"
+[[menu.main]]
+  name = "中文"
+  url = "/zh"
+  weight = 5
 
 # Languages
 #   Create a [languages.X] block for each language you want, where X is the language ID.
 
 # Configure the English version of the website.
-[Languages.en]
+
+  [[languages.zh.menu.main]]
+  name = "主页"
+  url = "#about"
+  weight = 1
+
+  [[languages.zh.menu.main]]
+    name = "项目"
+    url = "#projects"
+    weight = 2
+
+  [[languages.zh.menu.main]]
+    name = "博客"
+    url = "#publications"
+    weight = 3
+
+  [[languages.zh.menu.main]]
+    name = "联系"
+    url = "#contact"
+    weight = 4
+  
+  [[languages.zh.menu.main]]
+    name = "English"
+    url = "../"
+    weight = 5
+
+[languages.en]
   languageCode = "en-us"
+  title = "Resume - Renxin Lin"
+  name = "Renxin Lin"
+  role = "Frontend Web Developer" 
+  office_hours = "Please send an email for appointment"
+
+[languages.zh]
+  languageCode = "zh"
+  title = "简历 - 林仁鑫"
+  name = "林仁鑫"
+  role = "前端开发"
+  office_hours = "预约会面请先邮件联系"

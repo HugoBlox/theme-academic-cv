@@ -4,7 +4,7 @@ widget = "projects"
 active = true
 date = "2018-02-11T00:00:00"
 
-title = "Projects"
+title = "项目经验"
 subtitle = ""
 
 # Order that this section will appear in.
@@ -42,15 +42,15 @@ filter_default = 0
 
 +++
 
-I built and worked on these projects:
+ 我创建了以下项目：
 
 ### [fakesteam](https://github.com/oxxd/fakesteam)
-<span class="dim">Website</span>
+<span class="dim">网页</span>
 
-A fake Steam Store website built with jQuery and Node.js for learing purpose.
+独立完成游戏商城项目(仿 Steam Store)的架构设计, 前后端开发, 数据库搭建。实现了首页、搜索模块、产品模块、用户模块的功能实现。已部署上线新浪云, [AWS](http://fakesteam.oxxd.me)
 
 ### [React Music Player](https://github.com/oxxd/react-music-player)
-<span class="dim">Website</span>
+<span class="dim">网页</span>
 
-Music player built with React, learn how to use React 
+参考课程使用 React 实现的网页音乐播放器。使用 React 编写 + React Router 实现页面跳转。使用 webpack 打包资源文件， react-hot-loader 和 HMR 热加载进行开发。
 
