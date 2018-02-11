@@ -3,8 +3,8 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "http://oxxd.me"
-publishDir = "docs"
+baseurl = "http://oxxd.me/"
+# publishDir = "docs"
 
 # Title of your site
 
