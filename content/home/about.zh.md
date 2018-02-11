@@ -25,6 +25,6 @@ weight = 5
 
 # 概要
 
-林仁鑫现在是一名现在专注于前端开发的开发者。他熟悉前端各项技术 JavaScript/DOM/ES6，jQuery/AJAX，HTML/CSS/LESS。了解并使用 Vue.js, React, Angular 等前端框架进行开发。熟练的使用各种前端开发工具 Git, webpack, npm, Chrome Devtool 调试。他保持长期的英文信息阅读习惯和较强的学习能力, 能在短时间内学习入门。
+林仁鑫现在是一名专注于前端开发的开发者。他熟悉前端各项技术 JavaScript/DOM/ES6，jQuery/AJAX，HTML/CSS/LESS。了解并使用 Vue.js, React, Angular 等前端框架进行开发。熟练的使用各种前端开发工具 Git, webpack, npm, Chrome Devtool 调试。他保持长期的英文信息阅读习惯和较强的学习能力, 能在短时间内学习入门。
 
 同时也热爱电影，游戏以及互联网。他总是乐于尝试新鲜事物，并且持续地从这些新鲜事物中进行学习。对技术、高效率工具具有强烈兴趣，立志成为合格和全面的程序员
