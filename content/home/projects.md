@@ -44,12 +44,14 @@ filter_default = 0
 
 I built and worked on these projects:
 
-### [fakesteam](https://github.com/oxxd/fakesteam)
+<!-- ### [fakesteam](https://github.com/oxxd/fakesteam) -->
+### [fakesteam](http://fakesteam.oxxd.me)
 <span class="dim">Website</span>
 
 A fake Steam Store website built with jQuery and Node.js for learing purpose.
 
-### [React Music Player](https://github.com/oxxd/react-music-player)
+<!-- ### [React Music Player](https://github.com/oxxd/react-music-player) -->
+### [React Music Player](https://oxxd.github.io/react-music-player)
 <span class="dim">Website</span>
 
 Music player built with React, learn how to use React 

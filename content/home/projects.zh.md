@@ -44,12 +44,14 @@ filter_default = 0
 
  我创建了以下项目：
 
-### [fakesteam](https://github.com/oxxd/fakesteam)
+<!-- ### [fakesteam](https://github.com/oxxd/fakesteam) -->
+### [fakesteam](http://fakesteam.oxxd.me)
 <span class="dim">网页</span>
 
 独立完成游戏商城项目(仿 Steam Store)的架构设计, 前后端开发, 数据库搭建。实现了首页、搜索模块、产品模块、用户模块的功能实现。已部署上线新浪云, [AWS](http://fakesteam.oxxd.me)
 
-### [React Music Player](https://github.com/oxxd/react-music-player)
+<!-- ### [React Music Player](https://github.com/oxxd/react-music-player) -->
+### [React Music Player](https://oxxd.github.io/react-music-player)
 <span class="dim">网页</span>
 
 参考课程使用 React 实现的网页音乐播放器。使用 React 编写 + React Router 实现页面跳转。使用 webpack 打包资源文件， react-hot-loader 和 HMR 热加载进行开发。

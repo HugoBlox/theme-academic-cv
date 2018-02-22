@@ -262,6 +262,11 @@ defaultContentLanguageInSubdir = false
   url = "#contact"
   weight = 4
 
+[[menu.main]]
+  name = "PDF"
+  url = "https://github.com/OXXD/resume/blob/master/static/resume/Lin's%20Resume%20Fronend%20cn.pdf"
+  weight = 5
+
 # [[menu.main]]
 #   name = "中文"
 #   url = "/zh"
@@ -273,9 +278,9 @@ defaultContentLanguageInSubdir = false
 # Configure the English version of the website.
 
   [[languages.zh.menu.main]]
-  name = "主页"
-  url = "#about"
-  weight = 1
+    name = "主页"
+    url = "#about"
+    weight = 1
 
   [[languages.zh.menu.main]]
     name = "项目"
@@ -291,6 +296,11 @@ defaultContentLanguageInSubdir = false
     name = "联系"
     url = "#contact"
     weight = 4
+
+  [[languages.zh.menu.main]]
+    name = "PDF"
+    url = "https://github.com/OXXD/resume/blob/master/static/resume/Lin's%20Resume%20Fronend%20cn.pdf"
+    weight = 5
   
   # [[languages.zh.menu.main]]
   #   name = "English"
