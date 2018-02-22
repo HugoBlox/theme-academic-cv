@@ -1,5 +1,6 @@
 # Resume(PDF)
 * [两页正式简历](https://github.com/OXXD/resume/blob/master/static/resume/Lin's%20Resume%20Fronend%20cn.pdf)
+* [两页正式简历(供下载)](https://github.com/OXXD/resume/blob/master/static/resume/林仁鑫-前端开发.pdf)
 
 # Resume(Web)
 * [网页版](https://oxxd.me)
