@@ -18,7 +18,7 @@
 
 * 熟悉后端技术 Node.js, Express, PHP, MySQL。有项目部署经验(新浪云, AWS)  
 
-* 使用过 Vue.js, React 进行项目开发, 使用过常见前端框架 Bootstrap, Angular, Ionic, React Native.  
+* 使用过 Vue.js, React 进行项目开发, 使用过常见前端框架 Bootstrap, Angular, Ionic, React Native  
 
 * 对前端工程化、组件化、前后端分离开发模式有基本认知   
 
@@ -33,12 +33,17 @@
 * Steam 游戏商城  
 **技术栈:** jQuery, AJAX, Node.js, Express, MySQL  
 **项目介绍:** 独立完成游戏商城项目的架构设计, 前后端开发, 数据库搭建。首页、搜索模块、产品模块、用户模块的功能实现。  
-前端使用 jQuery 实现页面效果以及与服务器通信展示数据: 轮播、下拉菜单、二级菜单、分类搜索、筛选搜索、分页、用户登录注册与验证等. 已部署上线新浪云, AWS.  
+前端使用 jQuery 实现页面效果以及与服务器通信展示数据: 轮播、下拉菜单、二级菜单、分类搜索、筛选搜索、分页、用户登录注册与验证等. 已部署上线新浪云, AWS  
 **项目地址:** [在线演示](http://fakesteam.oxxd.me) (http://fakesteam.oxxd.me)  
+
+* 响应式企业主站  
+**技术栈:** Bootstrap, jQuery   
+**项目介绍:** 使用 Bootstrap 开发的适应不同界面的响应式企业主页。使用 Bootstrap 栅格系统 (Grid) 布局和媒体查询, 使用 jQuery 和 CSS animation 实现简单动画效果:滚动加载, 卡片展示, 拖动效果等   
+**项目地址:** [在线演示](http://bigcanyon.work) (http://bigcanyon.work)  
 
 * 个人页面  
 **技术栈:** Hugo, Academic Theme, Netlify, Git  
-**项目介绍:** 这是使用 Hugo 框架快速搭建的在线响应式个人简历。并且已部署到 Netlify, 并且自定义域名，绑定 SSL。  
+**项目介绍:** 这是使用 Hugo 框架快速搭建的在线响应式个人简历。并且部署到 Netlify, 使用自定义域名，绑定 SSL。  
 **项目地址:** [在线演示](https://oxxd.me) (https://oxxd.me)  
 
 * React 音乐播放器  

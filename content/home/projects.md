@@ -50,6 +50,11 @@ I built and worked on these projects:
 
 A fake Steam Store website built with jQuery and Node.js for learing purpose.
 
+### [Big Canyon Studio](http://bigcanyon.work)
+<span class="dim">Website</span>
+
+Big Canyon Studio's main website with Responsive Design using Bootstrap and jQuery.
+
 <!-- ### [React Music Player](https://github.com/oxxd/react-music-player) -->
 ### [React Music Player](https://oxxd.github.io/react-music-player)
 <span class="dim">Website</span>

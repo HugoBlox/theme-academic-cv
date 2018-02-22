@@ -50,6 +50,11 @@ filter_default = 0
 
 独立完成游戏商城项目(仿 Steam Store)的架构设计, 前后端开发, 数据库搭建。实现了首页、搜索模块、产品模块、用户模块的功能实现。已部署上线新浪云, [AWS](http://fakesteam.oxxd.me)
 
+### [Big Canyon Studio](http://bigcanyon.work)
+<span class="dim">网页</span>
+
+使用 Bootstrap 开发的适应不同界面的响应式企业主页。使用 Bootstrap 栅格系统 (Grid) 布局和媒体查询, 使用 jQuery 和 CSS animation 实现简单动画效果。
+
 <!-- ### [React Music Player](https://github.com/oxxd/react-music-player) -->
 ### [React Music Player](https://oxxd.github.io/react-music-player)
 <span class="dim">网页</span>
