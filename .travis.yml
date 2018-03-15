@@ -1,0 +1,19 @@
+# Clean and don't fail
+install:
+  - rm -rf public
+
+# Build the website
+script:
+  - ./exec/hugo
+  - cp CNAME public/
+
+# Deploy to GitHub pages
+deploy:
+  edge:
+    branch: v1.8.47
+  provider: pages
+  skip_cleanup: true
+  local_dir: public
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  on:
+    branch: master
