@@ -19,7 +19,7 @@ weight = 5
 [[education.courses]]
   course = "PhD (c) in Network and Information Technologies"
   institution = "Universitat Oberta de Catalunya"
-  year = 2019*
+  year = 2019
 
 [[education.courses]]
   course = "MSc in Operations Research"
