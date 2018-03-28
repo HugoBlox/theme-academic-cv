@@ -60,10 +60,11 @@ defaultContentLanguageInSubdir = false
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "edelahoz@utb.edu.co"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
+  address = "Campus Tecnológico Km 1. Vía Turbaco. Facultad de Ingeniería
+"
   office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
+  phone = "+57(5)6535200 ext. 337"
+  skype = "endel007"
   telegram = ""
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
@@ -217,22 +218,22 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:test@example.org"
+    link = "mailto:endel007@utb.edu.co"
 
   [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
-    link = "//twitter.com/GeorgeCushen"
+    link = "//twitter.com/endel007"
 
   [[params.social]]
     icon = "google-scholar"
     icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+    link = "https://scholar.google.com/citations?user=7zQLPRQAAAAJ&hl=es"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/gcushen"
+    link = "//github.com/endel007"
 
 
 # Navigation Links
