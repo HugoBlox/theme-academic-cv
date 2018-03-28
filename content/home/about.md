@@ -10,9 +10,9 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Learning Analytics",
+    "Machine Learning",
+    "Recommender Systems"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -28,7 +28,7 @@ weight = 5
 
 [[education.courses]]
   course = "BSc in Industrial Engineering"
-  institution = "Universida Libre de Colombia"
+  institution = "Universidad Libre de Colombia"
   year = 2006
  
 +++
