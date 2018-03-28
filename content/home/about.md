@@ -17,24 +17,22 @@ weight = 5
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
+  course = "PhD (c) in Network and Information Technologies"
+  institution = "Universitat Oberta de Catalunya"
+  year = 2019*
 
 [[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
+  course = "MSc in Operations Research"
+  institution = "Universitat de Barcelona - UPC"
+  year = 2016
 
 [[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
+  course = "BSc in Industrial Engineering"
+  institution = "Universida Libre de Colombia"
+  year = 2006
  
 +++
 
 # Biography
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+I am a full time Professor of the Industrial Engineering Department at UTB (Technological University of Bolivar) in Cartagena de Indias - Colombia. In this moment I’m developing a doctorate in Network and Information Technologies, my thesis topic is related to develop a recommender system in Virtual Learning Environments (VLE). My research focuses on applying machine learning techniques in social phenomenas. My research is driven by the need for good models to evaluate the impact of new public policy in education, criminology and economics. I am passionate about using data to provide solutions and answers, fostering the objectives decisions based on data. I teach graduate-level courses at UTB on Data Science, Quality Control and Operations Research. 
