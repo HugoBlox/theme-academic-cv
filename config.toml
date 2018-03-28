@@ -60,10 +60,9 @@ defaultContentLanguageInSubdir = false
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "edelahoz@utb.edu.co"
-  address = "Campus Tecnologico Km 1. Via Turbaco. Facultad de Ingenieria
-"
+  address = "Campus Tecnologico Km 1. Via Turbaco. Facultad de Ingenieria"
   office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "+57(5)6535200 ext. 337"
+  phone = ""
   skype = "endel007"
   telegram = ""
 
