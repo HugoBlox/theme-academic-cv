@@ -58,7 +58,7 @@ defaultContentLanguageInSubdir = false
   organizations = [ { name = "Technological University of Bolivar", url = "" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "PHOTO_ME_BCN.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "edelahoz@utb.edu.co"
   address = "Campus Tecnologico Km 1. Via Turbaco. Facultad de Ingenieria"
   office_hours = "Monday 10:00 to 13:00 or email for appointment"
