@@ -1,6 +1,7 @@
 +++
 title = "CLASSIFICATION OF READERS PROFILES OF A DIGITAL JOURNAL"
 date = "2017-12-14"
+ encoding = "utf-8"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["E De La Hoz, AA Mendoza, H OJEDA"]
@@ -17,7 +18,7 @@ authors = ["E De La Hoz, AA Mendoza, H OJEDA"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "In * Revista U.D.C.A. Actualidad & Divulgación Científica*"
+publication = "In * Revista U.D.C.A. Actualidad & DivulgaciÃ³n CientÃ­fica*"
 publication_short = "In *Rev. U.D.C.A Act. & Div. Cient*"
 
 # Abstract and optional shortened version.
