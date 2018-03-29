@@ -1,9 +1,10 @@
 +++
 title = "Solution to Vehicle Routing Problem with Genetic Algorithm"
 date = "2013-09-01"
+ encoding = "utf-8"
 
 # Authors. Comma separated list, e.g. `["E DE LA HOZ", "AA MENDOZA", "K"]`.
-authors = ["E DE LA HOZ", "AA MENDOZA", "K PEÑA"]
+authors = ["E DE LA HOZ", "AA MENDOZA", "K PEÃ‘A"]
 
 # Publication type.
 # Legend:
