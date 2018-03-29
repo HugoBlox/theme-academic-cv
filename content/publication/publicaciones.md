@@ -1,5 +1,5 @@
 +++
-title = "JÓVENES CREANDO EMPRESAS Y CAMBIANDO REALIDADES"
+title = "JÃ“VENES CREANDO EMPRESAS Y CAMBIANDO REALIDADES"
 date = "2013-09-01"
 
 # Authors. Comma separated list, e.g. `["E DE LA HOZ", "AA MENDOZA", "K"]`.
@@ -21,7 +21,7 @@ publication = "In *Academia Libre*"
 publication_short = "In *Academia Libre*"
 
 # Abstract and optional shortened version.
-abstract = "Basta con preguntar cuándo fue la última vez que revisó su cuenta de Facebook, Whatsapp, Waze o Tinder, para demostrar la importancia del desarrollo de empresas basadas en el conocimiento creadas por jóvenes en el curso normal de nuestras actividades diarias."
+abstract = "Basta con preguntar cuÃ¡ndo fue la Ãºltima vez que revisÃ³ su cuenta de Facebook, Whatsapp, Waze o Tinder, para demostrar la importancia del desarrollo de empresas basadas en el conocimiento creadas por jÃ³venes en el curso normal de nuestras actividades diarias."
 
 # Featured image thumbnail (optional)
 image_preview = ""
@@ -60,3 +60,5 @@ caption = ""
 +++
 
 More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
+
+enconding = "utf8"
