@@ -260,7 +260,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Our Team"
-  url = "#our_team"
+  url = "our_team"
   weight = 5
 
 [[menu.main]]
