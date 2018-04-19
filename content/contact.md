@@ -2,7 +2,7 @@
 # Contact widget.
 widget = "contact"
 active = true
-date = "2016-04-20T00:00:00"
+date = "2018-04-19"
 
 title = "Contact"
 subtitle = ""
@@ -15,3 +15,4 @@ autolink = true
 
 +++
 
+If you have questions, feedback, or comments please contact us at [marcus@rtcharity.org](mailto:marcus@rtcharity.org).

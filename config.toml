@@ -265,7 +265,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Contact"
-  url = "#contact"
+  url = "contact"
   weight = 6
 
 # Taxonomies.
