@@ -11,4 +11,4 @@ weight = 10
 image = "rocky_ascent.jpg"
 
 +++
-![Header Placeholder]()
+![Header Placeholder](rocky_ascent.jpg)
