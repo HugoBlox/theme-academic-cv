@@ -8,7 +8,7 @@ title = "Projects"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 50
+weight = 30
 
 # Content.
 # Display content from the following folder.
@@ -42,3 +42,8 @@ filter_default = 0
 
 +++
 
+Right now, our research agenda is focused on:
+
+* trying to learn how to apply cost-effectiveness frameworks to uncertain domains. (As an example, see our first post on [vaccine research and development]({{< ref "post/how_long_to_research_develop_vaccine.md" >}}).)
+* prioritization and research work within interventions aimed at nonhuman animals (as research progress here looks uniquely tractable compared to other cause areas)
+* assisting [LEAN](https://rtcharity.org/lean/) and [SHIC](https://shicschools.org/) in gathering evidence about EA movement building (as research here looks tractable and neglected)

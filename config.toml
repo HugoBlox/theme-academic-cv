@@ -105,7 +105,7 @@ defaultContentLanguageInSubdir = false
   time_format = "3:04 PM"
 
   # Show estimated reading time for posts?
-  reading_time = true
+  reading_time = false
 
   # Display comment count? Requires commenting to be enabled.
   comment_count = true
@@ -244,33 +244,28 @@ defaultContentLanguageInSubdir = false
   align_right = true
 
 [[menu.main]]
-  name = "Home"
-  url = "#about"
-  weight = 1
-
-[[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
+  name = "Blog"
+  url = "post/"
   weight = 2
 
-[[menu.main]]
-  name = "Blog"
-  url = "#posts"
-  weight = 3
+# [[menu.main]]
+#   name = "Projects"
+#   url = "#projects"
+#   weight = 3
 
 [[menu.main]]
-  name = "Projects"
-  url = "#projects"
+  name = "About"
+  url = "about"
   weight = 4
 
 [[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
+  name = "Our Team"
+  url = "our_team"
   weight = 5
 
 [[menu.main]]
   name = "Contact"
-  url = "#contact"
+  url = "contact"
   weight = 6
 
 # Taxonomies.
