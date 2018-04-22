@@ -4,7 +4,7 @@ title = "Hugo Future Imperfect"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
-disqusShortname = "shortname"
+disqusShortname = "rethink_priorities"
 googleAnalytics = ""
 pluralizeListTitles = false
 # Set the followings to true as part of your site SEO
@@ -13,7 +13,7 @@ canonifyURLs = true
 
 [params]
   # Sets the meta tag description
-  description          = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
+  description          = "Rethink Priorities: Doing foundational research on neglected causes in a highly empirical and transparent manner"
   # Sets the navbarTitle that appears in the top left of the navigation bar
   navbarTitle          = "Rethink Priorities"
   # Sets where "View More Posts" links
@@ -102,7 +102,7 @@ canonifyURLs = true
     # Sets Image to be Future Imperfect's hexagon
     imperfect = true
     width     = ""
-    alt       = "Hugo Future Imperfect"
+    # alt       = "RP"
 
 [params.postAmount]
 # Sets the number of recent posts to show in the sidebar. The default value is 5.
@@ -119,7 +119,7 @@ canonifyURLs = true
 [[menu.main]]
   name = "About"
   url = "/about/"
-  identifier = "fa fa-id-card-o"
+  identifier = "fa fa-list"
   weight = 3
 
 [[menu.main]]
@@ -131,7 +131,7 @@ canonifyURLs = true
 [[menu.main]]
   name = "Our Team"
   url = "/our_team/staff"
-  identifier = "fa fa-list"
+  identifier = "fa fa-id-card-o"
   weight = 4
 
 [[menu.main]]
