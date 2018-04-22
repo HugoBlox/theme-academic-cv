@@ -22,7 +22,7 @@ preview = true
 
 _This essay was jointly written by Peter Hurford and Marcus A. Davis._
 
-Previously, [we estimated how long it takes to research and develop a vaccine]({{< ref "post/how_long_to_research_develop_vaccine.md" >}}) and came up with a conclusion that it would take “an average of 29 years [to develop a] typical vaccine, though with high uncertainty based on uncertainties in each approach and on many particular vaccines not being typical”. However, if we want to know the cost-effectiveness of vaccine research, it’s not enough to know how long a vaccine takes, but how much total money it would cost.
+Previously, [we estimated how long it takes to research and develop a vaccine]({{< ref "blog/how_long_to_research_develop_vaccine.md" >}}) and came up with a conclusion that it would take “an average of 29 years [to develop a] typical vaccine, though with high uncertainty based on uncertainties in each approach and on many particular vaccines not being typical”. However, if we want to know the cost-effectiveness of vaccine research, it’s not enough to know how long a vaccine takes, but how much total money it would cost.
 
 ## Literature
 

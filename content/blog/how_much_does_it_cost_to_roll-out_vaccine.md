@@ -23,7 +23,7 @@ preview = true
 
 _This essay was jointly written by Peter Hurford and Marcus A. Davis._
 
-[We previously estimated the cost of developing a vaccine]({{< ref "post/cost_to_research_and_develop_vaccine.md" >}}) from scratch to be $460M to $1.9B with a mean of $960M. However, this still does not tell us the full cost of a vaccine, because developing a vaccine but then not ever using it accomplishes nothing. Instead, you need to roll out the vaccine to people, which costs more money. Thus, vaccine R&D could be thought of as “unlocking” the opportunity to roll-out a vaccine, and the hope is that the high cost-effectiveness of rolling out a vaccine will help offset the high cost of vaccine R&D.
+[We previously estimated the cost of developing a vaccine]({{< ref "blog/cost_to_research_and_develop_vaccine.md" >}}) from scratch to be $460M to $1.9B with a mean of $960M. However, this still does not tell us the full cost of a vaccine, because developing a vaccine but then not ever using it accomplishes nothing. Instead, you need to roll out the vaccine to people, which costs more money. Thus, vaccine R&D could be thought of as “unlocking” the opportunity to roll-out a vaccine, and the hope is that the high cost-effectiveness of rolling out a vaccine will help offset the high cost of vaccine R&D.
 
 ## Understanding Roll-out Costs
 

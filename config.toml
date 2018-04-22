@@ -120,17 +120,17 @@ canonifyURLs = true
   name = "About"
   url = "/about/"
   identifier = "fa fa-id-card-o"
-  weight = 2
+  weight = 3
 
 [[menu.main]]
   name = "Blog"
   url = "/blog/"
   identifier = "fa fa-newspaper-o"
-  weight = 3
+  weight = 2
 
 [[menu.main]]
-  name = "Itemized"
-  url = "/itemized/"
+  name = "Our Team"
+  url = "our_team"
   identifier = "fa fa-list"
   weight = 4
 
