@@ -31,7 +31,7 @@ canonifyURLs = true
   # Sets Categories to sort by number of posts instead of alphabetical
   categoriesByCount    = true
   # set to show or to hide categories in the sidebar
-  showSidebarCategories = true
+  showSidebarCategories = false
   # Sets Estimated Reading Time to appear in post headers
   includeReadingTime   = true
   # Sets the Favicon and Version for the site. Default support is for
@@ -135,7 +135,7 @@ canonifyURLs = true
   weight = 4
 
 [[menu.main]]
-  name = "Categories"
+  name = "Cause Areas"
   url = "/categories/"
   identifier = "fa fa-sitemap"
   weight = 5
