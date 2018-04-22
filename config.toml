@@ -1,6 +1,6 @@
-baseurl = "/"
+baseurl = "https://rtcharity.github.io/rethink-priorities/"
 languageCode = "en-us"
-title = "Hugo Future Imperfect"
+title = "Rethink Priorities"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
@@ -10,6 +10,10 @@ pluralizeListTitles = false
 # Set the followings to true as part of your site SEO
 enableRobotsTXT = true
 canonifyURLs = true
+
+# Organizations/Affiliations.
+  #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
+  organizations = [ { name = "Rethink Charity", url = "https://rtcharity.org" } ]
 
 [params]
   # Sets the meta tag description
