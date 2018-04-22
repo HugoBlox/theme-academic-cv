@@ -1,26 +1,24 @@
 +++
-title = "How Much Does it Cost to Research and Develop a Vaccine?"
-date = 2018-02-24
-draft = false
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["vaccines", "global health"]
-categories = []
+categories = ["vaccines", "global health"]
 
-# Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-# Use `caption` to display an image caption.
-#   Markdown linking is allowed, e.g. `caption = "[Image credit](http://example.org)"`.
-# Set `preview` to `false` to disable the thumbnail in listings.
-[header]
-image = ""
-caption = ""
+# author = ["Peter Hurford"]
+tags = ["vaccines", "global health"]
+date = 2018-02-24
+draft = false
+description = "Analyzing the cost of vaccine research"
+# featured = "pic03.jpg"
+# featuredalt = "Pic 3"
+featuredpath = "date"
+linktitle = ""
+title = "How much does it cost to research and develop a vaccine?"
+type = "post"
 preview = true
+# summary = "Previously, [we estimated how long it takes to research and develop a vaccine]({{< ref "blog/how_long_to_research_develop_vaccine.md" >}}) and came up with a conclusion that it would take “an average of 29 years [to develop a] typical vaccine, though with high uncertainty based on uncertainties in each approach and on many particular vaccines not being typical”. However, if we want to know the cost-effectiveness of vaccine research, it’s not enough to know how long a vaccine takes, but how much total money it would cost."
 
 +++
-
-_This essay was jointly written by Peter Hurford and Marcus A. Davis._
 
 Previously, [we estimated how long it takes to research and develop a vaccine]({{< ref "blog/how_long_to_research_develop_vaccine.md" >}}) and came up with a conclusion that it would take “an average of 29 years [to develop a] typical vaccine, though with high uncertainty based on uncertainties in each approach and on many particular vaccines not being typical”. However, if we want to know the cost-effectiveness of vaccine research, it’s not enough to know how long a vaccine takes, but how much total money it would cost.
 
@@ -97,6 +95,8 @@ Despite thoroughly searching as much as we did for other vaccines, we were not a
 ## Guesstimate Model
 
 We generally assume that the costs of developing a vaccine are equal to paying for salaries, paying for clinical trials, and paying for equipment and other overhead costs. Salaries and overhead costs would be a function of the number of employees, while clinical trial costs would be a function of the number of vaccines tried. When we attempt to do a very rough Fermi calculation of this, we end up with [a model pointing to the cost of developing a vaccine](https://www.getguesstimate.com/models/8751) $460M to $1.9B with a mean of $960M.
+
+_This essay was jointly written by Peter Hurford and Marcus A. Davis._
 
 ## Endnotes 
 
