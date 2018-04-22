@@ -130,7 +130,7 @@ canonifyURLs = true
 
 [[menu.main]]
   name = "Our Team"
-  url = "our_team"
+  url = "/our_team/staff"
   identifier = "fa fa-list"
   weight = 4
 

@@ -1,6 +1,5 @@
 +++
 title = "About"
-<!-- date = 2018-04-15T14:41:38-07:00 -->
 +++
 
 Rethink Priorities, a project of [Rethink Charity](https://rtcharity.org/), is dedicated to doing foundational research on neglected causes in a highly empirical and transparent manner.

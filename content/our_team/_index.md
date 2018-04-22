@@ -1,17 +1,6 @@
 +++
-# Our Team widget.
-widget = "about"
-active = true
-date = "2018-04-15T00:00:00"
+title = "Our Team"
 
-# Order that this section will appear in.
-weight = 5
-
-# List your academic interests.
-
-
-# List your qualifications (such as academic degrees).
- 
 +++
 
 # Our Team
