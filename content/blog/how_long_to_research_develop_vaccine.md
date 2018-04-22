@@ -1,26 +1,25 @@
 +++
-title = "How long does it take to research and develop a vaccine?"
-date = 2017-06-28
-draft = false
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["vaccines", "global health"]
-categories = []
+categories = ["vaccines", "global health"]
 
-# Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-# Use `caption` to display an image caption.
-#   Markdown linking is allowed, e.g. `caption = "[Image credit](http://example.org)"`.
-# Set `preview` to `false` to disable the thumbnail in listings.
-[header]
-image = ""
-caption = ""
+# author = ["Peter Hurford"]
+tags = ["vaccines", "global health"]
+date = 2017-06-28
+draft = false
+description = "Analyzing the timeline of vaccine research"
+# featured = "pic03.jpg"
+# featuredalt = "Pic 3"
+featuredpath = "date"
+linktitle = ""
+title = "How long does it take to research and develop a vaccine?"
+type = "post"
 preview = true
+# summary = "Interventions related to vaccines seem to be highly cost-effective. The World Health Organization calls vaccines “one of the most powerful and cost-effective of all health interventions." ([WHO, 2009](http://apps.who.int/iris/bitstream/10665/44169/1/9789241563864_eng.pdf), pXIV) and the Copenhagen Consensus says that "[v]accination may be the most effective public health intervention of all time” ([Copenhagen Consensus Center Guide to Giving](https://issuu.com/copenhagenconsensus/docs/guidetogiving) 2011, p37). GiveWell finds vaccine-related interventions [to be highly cost-effective](http://www.givewell.org/international/technical/programs/immunization) and have recommended one-off donations to vaccines on multiple occasions [^1] through [Incubation Grants](http://www.givewell.org/research/incubation-grants). However, GiveWell [has historically struggled to find room for more funding](http://blog.givewell.org/2016/07/06/dont-currently-recommend-charities-focused-vaccine-distribution/) in this area[^2]."
+
 
 +++
-
-*This essay was jointly written by Peter Hurford and Marcus A. Davis. It was originally authored before the creation of Rethink Priorities and posted to the [EA Forum](http://effective-altruism.com/ea/1c5/how_long_does_it_take_to_research_and_develop_a/). It's hosted here for completeness of our research on vaccines.*
 
 Interventions related to vaccines seem to be highly cost-effective. The World Health Organization calls vaccines “one of the most powerful and cost-effective of all health interventions." ([WHO, 2009](http://apps.who.int/iris/bitstream/10665/44169/1/9789241563864_eng.pdf), pXIV) and the Copenhagen Consensus says that "[v]accination may be the most effective public health intervention of all time” ([Copenhagen Consensus Center Guide to Giving](https://issuu.com/copenhagenconsensus/docs/guidetogiving) 2011, p37). GiveWell finds vaccine-related interventions [to be highly cost-effective](http://www.givewell.org/international/technical/programs/immunization) and have recommended one-off donations to vaccines on multiple occasions [^1] through [Incubation Grants](http://www.givewell.org/research/incubation-grants). However, GiveWell [has historically struggled to find room for more funding](http://blog.givewell.org/2016/07/06/dont-currently-recommend-charities-focused-vaccine-distribution/) in this area[^2].  
 
@@ -121,6 +120,8 @@ It’s unclear what conclusions we should draw from either of these approaches. 
 However, if you compare the eight vaccines that started development after 1940 and have completed with the 16 vaccines developed _before_ 1940 and have completed[^14], the difference in completion time is marginally significant at best (t-test p = 0.12[^15]).
 
 Lastly, it’s interesting to see the difference between the timeline pointed to by the academic literature (“12-15 years” for medicine generally and around 20 years for vaccines), the timeline pointed to by GSK (“20-50 years”), and the timeline implied by the historical record (“mean of 31.2 years”). Taken together and weighing these three sources of evidence evenly, this suggests an average of 29 years for the typical vaccine[^16], though with high uncertainty based on uncertainties in each approach and on many particular vaccines not being typical.
+
+*This essay was jointly written by Peter Hurford and Marcus A. Davis. It was originally authored before the creation of Rethink Priorities and posted to the [EA Forum](http://effective-altruism.com/ea/1c5/how_long_does_it_take_to_research_and_develop_a/). It's hosted here for completeness of our research on vaccines.*
 
 **Endnotes**
 

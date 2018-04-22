@@ -1,6 +1,5 @@
 +++
 title = "About"
-date = 2018-04-15T14:41:38-07:00
 +++
 
 Rethink Priorities, a project of [Rethink Charity](https://rtcharity.org/), is dedicated to doing foundational research on neglected causes in a highly empirical and transparent manner.
@@ -23,4 +22,12 @@ In doing this research, we focus on the following principles:
 
 * __Shutting the project down if it doesn’t generate impact__ to avoid wasting our time and effort. We are pre-committing to an initial six month test phase and pivoting as necessary. We will completely shut down if there’s no discernable impact within the first year. If our work isn’t helping others make better decisions, we should try something else.
 
-This work is currently led by Marcus A. Davis and Peter Hurford, with Marcus working full-time and Peter working part-time.  For more information about their backgrounds, see our [team page]({{< ref "/our_team.md" >}}).
+This work is currently led by Marcus A. Davis and Peter Hurford, with Marcus working full-time and Peter working part-time.  For more information about their backgrounds, see our [team page]({{< ref "/our_team/staff.md" >}}).
+
+Right now, our research agenda is focused on:
+
+* trying to learn how to apply cost-effectiveness frameworks to uncertain domains. (As an example, see our first post on [vaccine research and development]({{< ref "blog/how_long_to_research_develop_vaccine.md" >}}))
+* prioritization and research work within interventions aimed at nonhuman animals (as research progress here looks uniquely tractable compared to other cause areas)
+* assisting [LEAN](https://rtcharity.org/lean/) and [SHIC](https://shicschools.org/) in gathering evidence about EA movement building (as research here looks tractable and neglected)
+
+Our research agenda and approach are still in the very early stages and may change significantly as we grow and learn.

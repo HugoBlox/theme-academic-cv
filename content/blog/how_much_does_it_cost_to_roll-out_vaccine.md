@@ -1,29 +1,26 @@
 +++
-title = "How much does it cost to roll-out a vaccine?"
-date = 2018-02-26
-draft = false
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["vaccines", "global health"]
-categories = []
 
-# Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-# Use `caption` to display an image caption.
-#   Markdown linking is allowed, e.g. `caption = "[Image credit](http://example.org)"`.
-# Set `preview` to `false` to disable the thumbnail in listings.
-[header]
-image = ""
-caption = ""
+# author = ["Peter Hurford"]
+tags = ["vaccines", "global health"]
+categories = ["vaccines", "global health"]
+date = 2018-02-26
+draft = false
+description = "Analyzing the cost of vaccine distribution"
+# featured = "pic03.jpg"
+# featuredalt = "Pic 3"
+featuredpath = "date"
+linktitle = ""
+title = "How much does it cost to roll-out a vaccine?"
+type = "post"
 preview = true
+# summary = "Insert here"
 
 +++
 
-
-_This essay was jointly written by Peter Hurford and Marcus A. Davis._
-
-[We previously estimated the cost of developing a vaccine]({{< ref "post/cost_to_research_and_develop_vaccine.md" >}}) from scratch to be $460M to $1.9B with a mean of $960M. However, this still does not tell us the full cost of a vaccine, because developing a vaccine but then not ever using it accomplishes nothing. Instead, you need to roll out the vaccine to people, which costs more money. Thus, vaccine R&D could be thought of as “unlocking” the opportunity to roll-out a vaccine, and the hope is that the high cost-effectiveness of rolling out a vaccine will help offset the high cost of vaccine R&D.
+[We previously estimated the cost of developing a vaccine]({{< ref "blog/cost_to_research_and_develop_vaccine.md" >}}) from scratch to be $460M to $1.9B with a mean of $960M. However, this still does not tell us the full cost of a vaccine, because developing a vaccine but then not ever using it accomplishes nothing. Instead, you need to roll out the vaccine to people, which costs more money. Thus, vaccine R&D could be thought of as “unlocking” the opportunity to roll-out a vaccine, and the hope is that the high cost-effectiveness of rolling out a vaccine will help offset the high cost of vaccine R&D.
 
 ## Understanding Roll-out Costs
 
@@ -86,3 +83,5 @@ In our historical sample, the rollout cost of a vaccine ranged between $0.73 to 
 Disregarding that and taking the mean of our six ranges produces a mean range of $13.21 to $53.05 and a median range of $2.78 to $33 (though again it’s unclear how meaningful these numbers are). [Brenzel (2015)](https://www.sciencedirect.com/science/article/pii/S0264410X15000225) finds that routine immunization costs on average $27-42 per fully immunized child including all costs to deliver all routine vaccines, with significant regional variation, though this would be biased downwards compared to our estimate, as it would not include the more expensive HIV and HPV vaccines.
 
 Thus it is difficult to figure out what it would mean to estimate the “typical” roll-out cost for a new vaccine, should one exist. For example, if we were to roll out the ebola or malaria vaccines widely, how expensive would we expect them to be? Understanding this number, along with the price of research and development, is important for understanding the marginal costs and benefits of new vaccination.
+
+_This essay was jointly written by Peter Hurford and Marcus A. Davis._
