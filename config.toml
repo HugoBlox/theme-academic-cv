@@ -4,7 +4,7 @@ title = "Rethink Priorities"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
-disqusShortname = "rethink_priorities"
+disqusShortname = ""
 googleAnalytics = ""
 pluralizeListTitles = false
 # Set the followings to true as part of your site SEO
