@@ -134,7 +134,7 @@ canonifyURLs = true
 
 [[menu.main]]
   name = "Our Team"
-  url = "/our_team/staff"
+  url = "/team/staff"
   identifier = "fa fa-id-card-o"
   weight = 4
 
