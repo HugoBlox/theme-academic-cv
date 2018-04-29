@@ -24,5 +24,5 @@ title = "Our Team"
   <b>Rethink Charity Co-founder and Board Member</b><br>
 </p>
 
-  Peter is a data scientist working from Chicago. He co-founded Rethink Charity, and is on the board of Charity Science and Animal Charity Evaluators. He has reviewed and produced research on cause prioritization and effective altruism since 2013.
+  Peter is a Data Scientist at Data Robot. He co-founded Rethink Charity, and is on the board of Charity Science and Animal Charity Evaluators. He has reviewed and produced research on cause prioritization and effective altruism since 2013. He works directly on Rethink Priorities research and strategy. He also works with Rethink Charity on focus projects, in particular the EA Survey, for which he heads the tech team.
   <br>
