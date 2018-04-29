@@ -22,7 +22,7 @@ In doing this research, we focus on the following principles:
 
 * __Shutting the project down if it doesn’t generate impact__ to avoid wasting our time and effort. We are pre-committing to an initial six month test phase and pivoting as necessary. We will completely shut down if there’s no discernable impact within the first year. If our work isn’t helping others make better decisions, we should try something else.
 
-This work is currently led by Marcus A. Davis and Peter Hurford, with Marcus working full-time and Peter working part-time.  For more information about their backgrounds, see our [team page]({{< ref "/our_team/staff.md" >}}).
+This work is currently led by Marcus A. Davis and Peter Hurford, with Marcus working full-time and Peter working part-time.  For more information about their backgrounds, see our [team page]({{< ref "/team/staff.md" >}}).
 
 Right now, our research agenda is focused on:
 
