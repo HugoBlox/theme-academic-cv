@@ -4,7 +4,7 @@ title = "Rethink Priorities"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
-disqusShortname = "rethink_priorities"
+disqusShortname = ""
 googleAnalytics = ""
 pluralizeListTitles = false
 # Set the followings to true as part of your site SEO
@@ -100,7 +100,7 @@ canonifyURLs = true
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
   [params.intro.pic]
-    src       = "/img/main/logo.jpg"
+    src       = "/img/rc_logo-1-2.png"
     # Sets Image to be a cirlce
     circle    = false
     # Sets Image to be Future Imperfect's hexagon
@@ -134,7 +134,7 @@ canonifyURLs = true
 
 [[menu.main]]
   name = "Our Team"
-  url = "/our_team/staff"
+  url = "/team/staff"
   identifier = "fa fa-id-card-o"
   weight = 4
 

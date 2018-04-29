@@ -24,9 +24,7 @@ One such site visit exploring what this looks was seen in [GiveWell’s 2012 Ken
 
 ## First Visit: Abattoir
 
-**Media here (pictures and video!): [https://www.facebook.com/seba.sanchez.3998/media_set?set=a.10156676891004377.1073741837.634404376&type=3&pnref=story  
-
-](https://www.facebook.com/seba.sanchez.3998/media_set?set=a.10156676891004377.1073741837.634404376&type=3&pnref=story)**
+**Media here (pictures and video!): [https://www.facebook.com/seba.sanchez.3998/media_set?set=a.10156676891004377.1073741837.634404376&type=3&pnref=story](https://www.facebook.com/seba.sanchez.3998/media_set?set=a.10156676891004377.1073741837.634404376&type=3&pnref=story)**
 
 On 1 September 2017, with the help of his guide, David, who introduced him to a taxi driver named Muulu, Sebas visited one of two slaughterhouses in Livingstone, Zambia where he was staying. Sebas was able to get permission to enter the abattoir after tipping the wife of one of the workers. The other slaughterhouse was more modern and could be seen from this slaughterhouse.
 
