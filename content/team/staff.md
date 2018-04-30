@@ -11,7 +11,7 @@ title = "Our Team"
 <p align="center">
   <img src="/img/marcus.jpg" alt="Marcus A. Davis" style="width:250px"><br>
   <b>Marcus A. Davis</b><br>
-  <b>Head of Research</b><br>
+  <b>Senior Researcher</b><br>
 
   Marcus is a co-founder of Charity Entrepreneurship and Charity Science Health, where he systematically analyzed global poverty interventions, led cost-effectiveness analyses, and oversaw all technical aspects of the project. Before joining the Charity Science team, he ran Effective Altruism Chicago and worked with LEAN coordinating outreach to local EA groups around the globe.
   <br>
