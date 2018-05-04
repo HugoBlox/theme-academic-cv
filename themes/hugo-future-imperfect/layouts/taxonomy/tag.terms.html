@@ -1,0 +1,37 @@
+{{ partial "general-title" . }}
+
+{{ partial "header" . }}
+    {{ partial "navbar" . }}
+    <!-- Main -->
+    <div id="main">
+        {{ if .Site.Params.categoriesByCount }}
+            {{ $.Scratch.Set "tags" .Data.Terms.ByCount }}
+        {{ else }}
+            {{ $.Scratch.Set "tags" .Data.Terms.Alphabetical }}
+        {{ end }}
+
+        <ul class="posts">
+            <header>
+                <h1>{{ .Data.Plural }}</h1>
+            </header>
+            {{ $data := .Data }}
+            {{ range $key, $value := $.Scratch.Get "tags" }}
+                <li>
+                    <article>
+                        <header>
+                            {{ if ne $value.Name "" }}
+                                <a href="{{ printf "/%s/%s" $data.Plural $value.Name | urlize | relLangURL }}">{{ $value.Name }}</a>
+                                <span style="float:right;">{{ $value.Count }}</span>
+                            {{ else }}
+                                {{ i18n "uncategorized" }}
+                                <span style="float:right;">{{ $value.Count }}</span>
+                            {{ end }}
+                        </header>
+                    </article>
+                </li>
+            {{ end }}
+        </ul>
+    </div>
+
+    {{ partial "sidebar" . }}
+{{ partial "footer" . }}

@@ -1,0 +1,11 @@
+<ul class="actions pagination">
+    {{ if .PrevInSection }}
+        <li><a href="{{ .PrevInSection.RelPermalink }}"
+                class="button big previous">{{ .PrevInSection.Title }}</a></li>
+    {{ end }}
+
+    {{ if .NextInSection }}
+        <li><a href="{{ .NextInSection.RelPermalink }}"
+                class="button big next">{{ .NextInSection.Title }}</a></li>
+    {{ end }}
+</ul>

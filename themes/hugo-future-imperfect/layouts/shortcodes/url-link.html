@@ -1,0 +1,10 @@
+{{ $numOfParams := len .Params }}
+{{ if and (ge $numOfParams 2) (le $numOfParams 3) }}
+    {{ if eq $numOfParams 3 }}
+        {{ $.Scratch.Set "target" (.Get 2) }}
+    {{ else }}
+        {{ $.Scratch.Set "target" "_blank" }}
+    {{ end }}
+
+    <a href="{{ .Get 1 }}" target='{{ $.Scratch.Get "target"}}'>{{ .Get 0 }}</a>
+{{ end }}

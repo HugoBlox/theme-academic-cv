@@ -1,0 +1,21 @@
+<header>
+    <div class="title">
+        {{ if $.Scratch.Get "h1" }}
+            <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+            {{ $.Scratch.Set "h1" false }}
+        {{ else }}
+            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        {{ end }}
+        {{ with .Description }}
+            <p>{{ . }}</p>
+        {{ end }}
+    </div>
+    <div class="meta">
+
+      <span class="author">{{ .Params.author }}</span>
+      <span class="author">{{ .Params.format }}</span>
+      {{ if isset .Params "link" }}
+        <a href="{{ .Params.link }}" target="_blank">{{ .Params.linktitle }}</a>
+      {{ end }}
+    </div>
+</header>

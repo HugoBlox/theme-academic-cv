@@ -1,0 +1,15 @@
+{{ partial "general-title" . }}
+
+{{ partial "header" . }}
+    {{ partial "navbar" . }}
+    <!-- Main -->
+    <div id="main">
+        {{ $paginator := .Paginate .Data.Pages }}
+        {{ range .Paginator.Pages }}
+            {{ .Render "content-list" }}
+        {{ end }}
+
+        {{ partial "pagination" . }}
+    </div>
+    {{ partial "sidebar" . }}
+{{ partial "footer" . }}
