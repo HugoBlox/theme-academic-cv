@@ -5,11 +5,11 @@
     <div id="main">
         <article class="post">
           <header>
-          {{ .Render "header" }}
-          </header>
             <div class="title">
-                {{ .Content }}
+                {{ .Render "header" }}
             </div>
+          </header>
+                {{ .Content }}
         </article>
         {{ range first 1 (where .Site.Pages "Type" "post") }}
             {{ .Render "content-single" }}
