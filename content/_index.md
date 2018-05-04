@@ -1,5 +1,7 @@
 +++
-title = "Home"
+title = "Rethink Priorities"
+description = "About Us"
+type = "default"
 +++
 
 Rethink Priorities, a project of [Rethink Charity](https://rtcharity.org/), is dedicated to doing foundational research on neglected causes in a highly empirical and transparent manner.

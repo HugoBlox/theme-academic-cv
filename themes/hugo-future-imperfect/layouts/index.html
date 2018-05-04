@@ -3,6 +3,14 @@
     {{ partial "navbar" . }}
     <!-- Main -->
     <div id="main">
+        <article class="post">
+          <header>
+          {{ .Render "header" }}
+          </header>
+            <div class="title">
+                {{ .Content }}
+            </div>
+        </article>
         {{ range first 1 (where .Site.Pages "Type" "post") }}
             {{ .Render "content-single" }}
 
