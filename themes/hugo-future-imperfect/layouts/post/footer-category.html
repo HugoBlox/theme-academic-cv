@@ -1,0 +1,30 @@
+<ul class="stats">
+  <li class="categories">
+    <ul>
+        {{ if isset .Params "categories" }}
+            {{ $categoriesLen := len .Params.categories }}
+            {{ if gt $categoriesLen 0 }}
+                <i class="fa fa-folder"></i>
+                {{ range $k, $v := .Params.categories }}
+                {{ $url := printf "categories/%s" (. | urlize | lower) }}
+                <li><a class="article-category-link" href="{{ $url | absLangURL }}">{{ . }}</a></li>
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    </ul>
+  </li>
+  <li class="tags">
+    <ul>
+        {{ if isset .Params "tags" }}
+            {{ $tagsLen := len .Params.tags }}
+            {{ if gt $tagsLen 0 }}
+                <i class="fa fa-tags"></i>
+                {{ range $k, $v := .Params.tags }}
+                {{ $url := printf "tags/%s" (. | urlize | lower) }}
+                <li><a class="article-category-link" href="{{ $url | absLangURL }}">{{ . }}</a></li>
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    </ul>
+  </li>
+</ul>

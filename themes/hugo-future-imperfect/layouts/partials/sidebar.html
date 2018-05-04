@@ -1,0 +1,144 @@
+<!-- Sidebar -->
+<section id="sidebar">
+
+  <!-- Intro -->
+  <section id="intro">
+    {{ $pic := .Site.Params.intro.pic }}
+    {{ with $pic.src }}
+      {{ if $pic.circle }}
+        <a href='{{"/" | relURL}}'><img src="{{ . | relURL }}" class="intro-circle" width="{{ $pic.width }}" alt="{{ $pic.alt }}" /></a>
+      {{ else if $pic.imperfect }}
+        <a href='{{"/" | relURL}}' class="logo"><img src="{{ . | relURL }}" alt="{{ $pic.alt }}" /></a>
+      {{ else }}
+        <a href='{{"/" | relURL}}'><img src="{{ . | relURL }}" width="{{ $pic.width }}" alt="{{ $pic.alt }}" /></a>
+      {{ end }}
+    {{ end }}
+    {{ with .Site.Params.intro }}
+      <header>
+        <h2>{{ .header }}</h2>
+        <p>{{ .paragraph | safeHTML }}</p>
+      </header>
+    {{ end }}
+    {{ if .Site.Params.socialAppearAtTop }}
+      <ul class="icons">
+        {{ if .Site.Params.rssAppearAtTop }}
+          {{ partial "rss-icon" . }}
+        {{ end }}
+        {{ partial "social" . }}
+      </ul>
+    {{ end }}
+  </section>
+
+  <!-- Posts List -->
+  <section class="recent-posts">
+    <div class="mini-posts">
+      <header>
+        <h3>Recent Posts</h3>
+      </header>
+      <div class="posts-container">
+        {{ $.Scratch.Set "recentPosts" .Site.Pages }}
+
+        {{ with .Site.Params.postAmount.sidebar }}
+          {{ $.Scratch.Set "postLimit" . }}
+        {{ else }}
+          {{ $.Scratch.Set "postLimit" 5 }}
+        {{ end }}
+
+        {{ range first ($.Scratch.Get "postLimit") (where ($.Scratch.Get "recentPosts") "Type" "post") }}
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              </h3>
+              {{ $.Scratch.Set "dateType" .Date }}
+              <time class="published" datetime='{{ ($.Scratch.Get "dateType").Format "2006-01-02" }}'>
+                {{ ($.Scratch.Get "dateType").Format "January 2, 2006" }}
+              </time>
+            </header>
+            {{ .Render "featured" }}
+          </article>
+        {{ end }}
+      </div>
+
+      {{ if ge (len (where .Site.Pages "Type" "post")) ($.Scratch.Get "postLimit") }}
+        <a href=
+          {{ with .Site.Params.viewMorePostLink }}
+            {{ . }}
+          {{ else }}
+            "/post/"
+          {{ end }}
+        class="button">View more posts</a>
+      {{ end }}
+    </div>
+  </section>
+
+  <!-- This if statement only applies if someone goes to the /categories url -->
+  <!-- Otherwise this section is shown for all other links -->
+  {{ if .Site.Params.showSidebarCategories  }}
+  {{ if ne ($.Scratch.Get "showCategories") false }}
+  <!-- Categories List -->
+    <section id="categories">
+      <header>
+        <h3>
+          <a href="/categories/">Categories</a>
+        </h3>
+      </header>
+        {{ if .Site.Params.categoriesByCount }}
+          {{ $.Scratch.Set "categories" .Site.Taxonomies.categories.ByCount }}
+        {{ else }}
+          {{ $.Scratch.Set "categories" .Site.Taxonomies.categories.Alphabetical }}
+        {{ end }}
+
+        {{ range $key, $value := $.Scratch.Get "categories" }}
+        <p>
+          <article>
+            <header>
+              {{ if ne $value.Name "" }}
+                <a href="/categories/{{ $value.Name | urlize }}/">{{ $value.Name }}</a>
+                <span style="float:right;">{{ $value.Count }}</span>
+              {{ else }}
+                Uncategorized
+                <span style="float:right;">{{ $value.Count }}</span>
+              {{ end }}
+            </header>
+          </article>
+        </p>
+        {{ end }}
+    </section>
+  {{ end }}
+  {{ end }}
+
+  <!-- About -->
+  {{ with .Site.Params.intro.about }}
+    <section id="mini-bio">
+      <h3>About</h3>
+      <p>{{ . | safeHTML }}</p>
+      <a href="/about/" class="button">Learn More</a>
+    </section>
+  {{ end }}
+
+  <!-- Footer -->
+  <section id="footer">
+    {{ if .Site.Params.socialAppearAtBottom }}
+      <ul class="icons">
+        {{ if .Site.Params.rssAppearAtBottom }}
+          {{ partial "rss-icon" . }}
+        {{ end }}
+        {{ partial "social" . }}
+      </ul>
+    {{ end }}
+    <p class="copyright">
+      {{ with .Site.Copyright | safeHTML }}
+        {{ . }}
+      {{ else }}
+        &copy; {{ .Site.LastChange.Year }}
+        {{if isset .Site.Params "author" }}
+          {{ .Site.Params.author}}
+        {{ else }}
+          {{ .Site.Title }}
+        {{ end }}
+      {{end}}.
+      Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
+    </p>
+  </section>
+</section>

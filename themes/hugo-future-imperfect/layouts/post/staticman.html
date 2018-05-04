@@ -1,0 +1,48 @@
+<h2>Say something</h2>
+{{ with .Site.Params.staticman }}
+  <form class="post-new-comment" method="POST" action="https://api.staticman.net/v2/entry/{{ .username }}/{{ .repo }}/{{ .branch }}/comments">
+{{ end }}
+    <input type="hidden" name="options[redirect]" value="{{ .Site.BaseURL }}{{ .RelPermalink }}">
+    <input type="hidden" name="options[entryId]" value="{{ .UniqueID }}">
+    <input required name="fields[name]" type="text" placeholder="Your name (Required)">
+    <input name="fields[website]" type="text" placeholder="Your website">
+    <input required name="fields[email]" type="email" placeholder="Your email address (Required for Gravatar)">
+    <textarea required name="fields[body]" placeholder='Your message. Feel free to use Markdown (Google "Markdown Cheat Sheet").' rows="10"></textarea>
+    <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ .Site.Params.staticman.recaptcha.sitekey }}">
+    <input type="hidden" name="options[reCaptcha][secret]" value="{{ .Site.Params.staticman.recaptcha.secret }}">
+    <div class="g-recaptcha" data-sitekey="{{ .Site.Params.staticman.recaptcha.sitekey }}"></div>
+    <input type="submit" value="Submit">
+  </form>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+<h2>Comments</h2>
+
+{{ $comments := readDir "data/comments" }}
+{{ $.Scratch.Add "hasComments" 0 }}
+{{ $entryId := .UniqueID }}
+
+{{ range $comments }}
+  {{ if eq .Name $entryId }}
+    {{ $.Scratch.Add "hasComments" 1 }}
+    {{ range $index, $comments := (index $.Site.Data.comments $entryId ) }}
+    <article id="{{ .uniqueID }}" class="post-comment">
+      <img class="post-comment-avatar" src="https://www.gravatar.com/avatar/{{ .email }}?s=100">
+      <h3 class="post-comment-author">
+        <a rel="external nofollow" href="{{ .website }}">{{ .name }}</a>
+      </h3>
+      <div class="post-comment-timestamp">
+        <a href="#{{ .uniqueID }}" title="Permalink to this comment">
+          <time datetime="{{ .date }}">{{ dateFormat "02/01/2006" .date }}</time>
+        </a>
+      </div>
+      <div class="post-comment-content">
+        {{ .body | markdownify }}
+      </div>
+    </article>
+    {{ end }}
+{{ end }}
+{{ end }}
+
+{{ if eq ($.Scratch.Get "hasComments") 0 }}
+  <p>Nothing yet.</p>
+{{ end }}

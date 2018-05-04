@@ -1,0 +1,48 @@
+{{ partial "general-title" . }}
+
+{{ partial "header" . }}
+    {{ partial "navbar" . }}
+    <!-- Main -->
+    <div id="main">
+        <article class="post">
+          <header>
+              <div class="title">
+                  {{ if $.Scratch.Get "h1" }}
+                      <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+                      {{ $.Scratch.Set "h1" false }}
+                  {{ else }}
+                      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+                  {{ end }}
+                  {{ with .Description }}
+                      <p>{{ . }}</p>
+                  {{ end }}
+              </div>
+          </header>
+            <div id="content">
+                {{ .Content }}
+                <div class="contact-container">
+                {{ if .Params.netlify }}
+                  <form name="contact" action="thank-you" netlify center width="300px">
+                {{ else }}
+                  <form id="contact" action="//{{ .Params.emailservice }}" method="post" center width="300px">
+                {{ end }}
+                  <h4>Replies Typically Within 24 Hours.</h4>
+                  <fieldset>
+                   <input placeholder="{{ .Params.contactname }}" type="text" name="name" tabindex="1" required autofocus>
+                  </fieldset>
+                  <fieldset>
+                   <input placeholder="{{ .Params.contactemail}}" type="email" name="email" tabindex="2" required>
+                  </fieldset>
+                  <fieldset>
+                   <textarea placeholder="{{ .Params.contactmessage}}" name="message" tabindex="3" required></textarea>
+                  </fieldset>
+                  <fieldset>
+                   <button name="submit" class="button" type="submit" id="contact-submit" tabindex="4">Submit</button>
+                  </fieldset>
+              </form>
+            </div>
+            </div>
+        </article>
+    </div>
+    {{ partial "sidebar" . }}
+{{ partial "footer" . }}

@@ -1,0 +1,75 @@
+<!-- params 4-n(3rd odd value + 1)
+     Strictly positional
+     Can create a gallery of multiple rows
+     with multiple images using this shortcode
+
+     position 0
+        Pass in the width of the column in the row, e.g 6u
+        - The width has a max size of 12
+        - Set the value by also adding the letter u at the end like so: 4u
+        - Can also end the row and start a new one
+          by adding the character $ like so: 8u$
+
+     position 1
+        Pass in the name of the file including the extension of the file type
+
+     position 2
+        Alt name for image, can be left as an empty string "" if no text is desired
+
+     position 3
+        same as position 0
+
+     position 4
+        same as position 1
+
+     position 5
+        same as position 2
+     ...
+     position n-4
+
+     position n-3
+
+     position n-2
+
+     position n-1
+        Can pass in the following values:
+            title: will use /img/LinkTitle as the path
+            date: will use /img/year/month as the path
+            /path/to/img: can pass in the explicit path to the image
+-->
+{{ $numOfParams := sub (len .Params) 1 }}
+{{ if and (ge $numOfParams 3) (not (modBool $numOfParams 2)) }}
+    {{ $.Scratch.Set "path" (.Get $numOfParams) }}
+
+    {{ $.Scratch.Set "structType" "shortcode" }}
+    {{ partial "img-path" . }}
+    {{ $path := $.Scratch.Get "path" }}
+
+    <div class="box alt">
+        <div class="row uniform">
+        {{ $.Scratch.Set "count" 1 }}
+        {{ $.Scratch.Set "imgFile" "" }}
+        {{ range first $numOfParams .Params }}
+            {{ if eq ($.Scratch.Get "count") 1 }}
+                <div class="{{ . }}">
+            {{ else if eq ($.Scratch.Get "count") 2 }}
+                {{ if eq . "" }}
+                    </div>
+                    {{ $.Scratch.Set "imgFile" "" }}
+                {{ else }}
+                    {{ $.Scratch.Set "imgFile" . }}
+                    <span class="image fit">
+                {{ end }}
+            {{ else }}
+                {{ if ne ($.Scratch.Get "imgFile") "" }}
+                        <img src='{{ $path }}/{{ $.Scratch.Get "imgFile" }}'
+                            alt="{{ . }}">
+                    </span></div>
+                {{ end }}
+                {{ $.Scratch.Set "count" 0 }}
+            {{ end }}
+            {{ $.Scratch.Add "count" 1 }}
+        {{ end }}
+        </div>
+    </div>
+{{ end }}
