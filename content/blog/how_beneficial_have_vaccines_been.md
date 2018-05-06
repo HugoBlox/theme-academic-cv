@@ -129,11 +129,9 @@ C - This figure is 70% of the 2016 global burden from cervical cancer of 7,390,0
 
 D - All ebola estimates here are a 5 year average from 2012-2016 and assumes a vaccine that is 50% effective.
 
-<br>
+<br></br>
 
 _Smallpox Vaccine_
-
-</div>
 
 Fenner, et. al. (1988) estimates that before the intensification of the eradication campaign in 1967, between 1.5 and 2 million people died from smallpox, and between 10 and 15 million contracted the disease (Ibid., Chapter 31, pg 1363). They also cited pre-eradication campaign estimates of $0.83 ($0.10 in 1960) per person per vaccination in developing countries and  approximately $48 ($6.50 in 1960) per person per vaccination in developed countries (Ibid., Chapter 31, pg 1364; Chapter 9, pg 369, 413). At these costs, smallpox was costing approximately $10.4 billion per year and it’s elimination results in a [net benefit of ~$8.2 billion per year](https://docs.google.com/spreadsheets/d/1wGC8m8rYCZdIXakvHyYcf61YKeBXEWYOO7_Sjjt9hJs/edit?usp=sharing).
 
