@@ -16,7 +16,7 @@ linktitle = ""
 title = "How beneficial have vaccines been?"
 type = "post"
 preview = true
-# summary = "Previously we estimated [how expensive it is to research and develop a vaccine]({{< ref "blog/how_long_to_research_develop_vaccine.md" >}}) and also [how expensive it is to roll-out a vaccine]({{< ref "blog/how_much_does_it_cost_to_roll-out_vaccine" >}}). If vaccines are to be cost-effective, we need to realise significant benefits in return for this expenditure. So let’s take a closer look at the specific and tangible benefits that vaccines have shown to provide, both for our health and the economy."
+# summary = "Previously we estimated [how expensive it is to research and develop a vaccine]({{< ref "blog/how_long_to_research_develop_vaccine.md" >}}) and also [how expensive it is to roll-out a vaccine]({{< ref "blog/how_much_does_it_cost_to_roll-out_vaccine.md" >}}). If vaccines are to be cost-effective, we need to realise significant benefits in return for this expenditure. So let’s take a closer look at the specific and tangible benefits that vaccines have shown to provide, both for our health and the economy."
 
 +++
   
