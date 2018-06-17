@@ -269,8 +269,18 @@ enableGitInfo = false
   weight = 2
 
 [[menu.main]]
+  name = "Software"
+  url = "#software"
+  weight = 3
+
+[[menu.main]]
   name = "Teaching"
   url = "#teaching"
+  weight = 4
+
+[[menu.main]]
+  name = "Other"
+  url = "#other"
   weight = 5
 
 [[menu.main]]

@@ -10,7 +10,7 @@ title = "Selected Publications"
 subtitle = "[All Publications](https://scholar.google.com/citations?user=IEu32BQAAAAJ)"
 
 # Order that this section will appear in.
-weight = 10
+weight = 20
 
 # List format.
 #   0 = Simple
