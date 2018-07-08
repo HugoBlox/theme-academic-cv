@@ -37,7 +37,7 @@ selected = true
 
 # Links (optional).
 url_pdf = "https://ieeexplore.ieee.org/abstract/document/7763860/"
-url_preprint = "https://arxiv.org/pdf/1512.04644.pdf"
+url_preprint = ""
 url_code = ""
 url_dataset = ""
 url_project = ""
@@ -45,6 +45,7 @@ url_slides = ""
 url_video = ""
 url_poster = ""
 url_source = ""
+url_custom = [{name = "arXiv", url = "https://arxiv.org/pdf/1512.04644.pdf"}]
 
 # Does the content use math formatting?
 math = true

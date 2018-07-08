@@ -36,7 +36,6 @@ selected = true
 # projects = ["deep-learning"]
 
 # Links (optional).
-url_pdf = "https://arxiv.org/abs/1707.00355"
 url_preprint = ""
 url_code = "https://github.com/lanl-ansi/bqpjson"
 url_dataset = ""
@@ -45,6 +44,7 @@ url_slides = ""
 url_video = ""
 url_poster = ""
 url_source = ""
+url_custom = [{name = "arXiv", url = "https://arxiv.org/abs/1707.00355"}]
 
 # Does the content use math formatting?
 math = true
