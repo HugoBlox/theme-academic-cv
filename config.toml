@@ -1,5 +1,8 @@
 # Configuration of Academic
 # Documentation: https://sourcethemes.com/academic/
+#
+# This file is formatted using TOML syntax - learn more at https://learnxinyminutes.com/docs/toml/
+# Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
@@ -38,7 +41,7 @@ enableGitInfo = false
   section = [ "HTML", "RSS" ]
 
 # Configure BlackFriday Markdown rendering.
-#   See: https://gohugo.io/readfiles/bfconfig/
+#   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
 [blackfriday]
   hrefTargetBlank = true  # `true` opens external links in a new tab.
   fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
@@ -102,7 +105,7 @@ enableGitInfo = false
   longitude = "-122.1697"
   zoom = 15
 
-  # Date and time format (refer to Go's date format: http://fuckinggodateformat.com )
+  # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
   date_format = "Jan 2, 2006"
   #   Examples: "3:04 pm" or "15:04"
@@ -189,7 +192,7 @@ enableGitInfo = false
 
   # Configuration of publication pages.
   [params.publications]
-    # Date format (refer to Go's date format: http://fuckinggodateformat.com )
+    # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
     #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
     date_format = "January, 2006"
 
@@ -243,6 +246,12 @@ enableGitInfo = false
     icon_pack = "fa"
     link = "//github.com/gcushen"
 
+  # Link to a PDF of your resume/CV from the About widget.
+  # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+  # [[params.social]]
+  #   icon = "cv"
+  #   icon_pack = "ai"
+  #   link = "files/cv.pdf"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -281,6 +290,13 @@ enableGitInfo = false
   name = "Contact"
   url = "#contact"
   weight = 6
+
+# Link to a PDF of your resume/CV from the menu.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+# [[menu.main]]
+#    name = "CV"
+#    url = "files/cv.pdf"
+#    weight = 7
 
 # Taxonomies.
 [taxonomies]
