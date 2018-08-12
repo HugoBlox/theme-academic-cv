@@ -37,8 +37,14 @@ defaultContentLanguageInSubdir = false
 enableGitInfo = false
 
 [outputs]
-  home = [ "HTML", "CSS", "RSS" ]
+  home = [ "HTML", "CSS", "RSS", "search" ]
   section = [ "HTML", "RSS" ]
+
+[outputFormats.search]
+  baseName = "search"
+  isPlainText = true
+  mediaType = "application/json"
+  notAlternative = true
 
 # Configure BlackFriday Markdown rendering.
 #   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
@@ -133,9 +139,7 @@ enableGitInfo = false
   #
   #   highlight_languages
   #     Add support for highlighting additional languages. Support for
-  #     languages mentioned here will be included in all pages. You
-  #     can also set this variable for a particular page in that
-  #     page's preamble.
+  #     languages mentioned here will be included in all pages.
   #
   #     Example: highlight_languages = ["go", "lisp", "ocaml"]
   #
@@ -150,7 +154,7 @@ enableGitInfo = false
   #   https://cdnjs.com/libraries/highlight.js/
   #
   #   For more info on the highlighting options, see:
-  #   https://sourcethemes.com/academic/post/writing-markdown-latex/#highlighting-options
+  #   https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
   highlight = true
   highlight_languages = []
   # highlight_style = "github"
@@ -298,6 +302,22 @@ enableGitInfo = false
 #    url = "files/cv.pdf"
 #    weight = 7
 
+# Search.
+[params.search]
+  # Search provider:
+  #   0: No search engine
+  #   1: Built-in (Fuse)
+  #   2: Algolia (https://www.algolia.com)
+  engine = 1
+
+  # Configuration of Algolia search engine.
+  # Paste the values from your Algolia dashboard.
+  [params.search.algolia]
+    app_id = ""
+    api_key = ""
+    index_name = ""
+    show_logo = false
+
 # Taxonomies.
 [taxonomies]
   tag = "tags"
@@ -306,7 +326,20 @@ enableGitInfo = false
 
 # Languages
 #   Create a [languages.X] block for each language you want, where X is the language ID.
+#   Refer to https://sourcethemes.com/academic/docs/language/
 
 # Configure the English version of the website.
-[Languages.en]
+[languages.en]
   languageCode = "en-us"
+
+# Uncomment the lines below to configure your website in a second language.
+#[languages.zh]
+#  languageCode = "zh-Hans"
+#  title = "Chinese website title..."
+#  [languages.zh.params]
+#    name = "Your name in Chinese..."
+#    role = "Your role in Chinese..."
+#  [[languages.zh.menu.main]]
+#    name = "Wo"
+#    url = "#about"
+#    weight = 1
