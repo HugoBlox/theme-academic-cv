@@ -25,7 +25,7 @@ Los Alamos National Laboratory 2017 Early Career Researcher Award for _Large-Sca
 
 PES 2014, [Application of Modern Heuristic Optimization Algorithms](https://www.uni-due.de/ieee-wgmho/competition2014) for _Solving Optimal Power Flow Problems_, finalist (1 of 5), for Heuristic MINLP for Optimal Power Flow Problems
 
-Northeastern INFORMS 2011, Student Poster Competition, First Place, for _Vehicle Routing for the Last Mine of Power System Restoration_
+Northeastern INFORMS 2011, Student Poster Competition, First Place, for _Vehicle Routing for the Last Mile of Power System Restoration_
 
 INFORMS 2010 [Doing Good with Good OR Competition](https://www.informs.org/Recognizing-Excellence/INFORMS-Prizes/Doing-Good-with-Good-OR-Student-Paper-Competition) finalist (1 of 6), for [_Strategic Planning for Disaster Recovery with Stochastic Last Mile Distribution_](http://www.springerlink.com/content/j13v80g77l1p436t/)
 
