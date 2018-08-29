@@ -35,7 +35,7 @@ las acreditaciones internacionales, tamaño de las facultades de ingeniería y e
 la agrupación de los programas de estudio. La investigación permitió clasificar tres grandes componentes
 principales y perfiles de programas acreditados."
 
-abstract_short = "Clasificación de programas de Ingeniería Industrial usando mineria de datos"
+abstract_short = "Clasificación de programas de Ingeniería Industrial usando mineria de datos."
 
 # Featured image thumbnail (optional)
 image_preview = ""
