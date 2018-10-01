@@ -17,6 +17,8 @@ weight = 60
 
 ## Awards
 
+Los Alamos National Laboratory 2018 LAAP Award for _Leadership in the Quantum Computation Summer School_
+
 Los Alamos National Laboratory 2018 LAAP Award for _C2S Development Efforts_
 
 Los Alamos National Laboratory 2017 LAAP Award for _Exploration of Quantum Computation_
