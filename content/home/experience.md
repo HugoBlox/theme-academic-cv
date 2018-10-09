@@ -19,27 +19,31 @@ date_format = "January 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Graduate Student"
+  company = "Saint Louis University"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  location = "Missouri"
+  date_start = "2018-08-15"
   date_end = ""
   description = """
   Responsibilities include:
   
-  * Analysing
-  * Modelling
-  * Deploying
+  * Teaching Assistant for Jon Jacobs
+  
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Graduate Teaching Assistant"
+  company = "Oklahoma State University"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  location = "Oklahoma"
+  date_start = "2015-08-15"
+  date_end = "2017-08-01"
+  description = """Kept regular office hours to further facilitate students’ mastery of philosophical concepts taught in class. 90% of the
+students whom I met with reported better understanding of the concepts taught in class.
+■ Participated in various student coursework evaluation processes using a variety of methods and techniques. Used this
+feedback to constantly improve the manner in which I presented the material.
+■ Helped with ongoing development and design of the curriculum in a manner supporting a research-led and scholarly
+approach to student learning."""
 
 +++
