@@ -7,7 +7,7 @@ active = true
 date = 2016-04-20T00:00:00
 
 # Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
-title = "True-Convenience Blog"
+title = "[True-Convenience Blog](https://www.google.com "Google's Homepage")"
 subtitle = "A blog Dedicated to Alvin Plantinga's EAAN"
 
 # Order that this section will appear in.

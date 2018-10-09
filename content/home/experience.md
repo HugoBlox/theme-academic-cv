@@ -39,11 +39,12 @@ date_format = "January 2006"
   location = "Oklahoma"
   date_start = "2015-08-15"
   date_end = "2017-08-01"
-  description = """Kept regular office hours to further facilitate students’ mastery of philosophical concepts taught in class. 90% of the
-students whom I met with reported better understanding of the concepts taught in class.
-■ Participated in various student coursework evaluation processes using a variety of methods and techniques. Used this
-feedback to constantly improve the manner in which I presented the material.
-■ Helped with ongoing development and design of the curriculum in a manner supporting a research-led and scholarly
+  description = """
+    * Kept regular office hours to further facilitate students’ mastery of philosophical concepts taught in class. 
+    * 90% of the students whom I met with reported better understanding of the concepts taught in class.
+    * Participated in various student coursework evaluation processes using a variety of methods and techniques. 
+    * Used given feedback to constantly improve the manner in which I presented the material.
+    * Helped with ongoing development and design of the curriculum in a manner supporting a research-led and scholarly
 approach to student learning."""
 
 +++
