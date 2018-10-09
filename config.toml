@@ -59,7 +59,7 @@ enableGitInfo = false
   organizations = [ { name = "Department of Philosophy", url = "https://www.slu.edu/colleges/AS/philos/site/" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "self-portrait"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "/Users/monty/Desktop/Curriculum-Vitae-Web/My_Website/static/img/self-portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
   email = "montaque.reynolds@slu.edu"
