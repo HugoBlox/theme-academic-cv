@@ -1,4 +1,15 @@
 # Academic Kickstart
+## Notes on deploying Alexander Lab Website:
+
+The code here is used to generate the website: (AlexanderLabWHOI.github.io)
+
+### Instructions for website modification:
+  - Make changes to the md files in the content folder or the config file
+  - Add, commit, and push changes to https://github.com/AlexanderLabWHOI/academic-kickstart
+  - Run `deploy.sh` to (1) build with hugo, (2) add, commit, and push website changes to `AlexanderLabWHOI.github.io`
+
+## Notes on Academic Theme: 
+
 
 **Academic** is a framework to help you create a beautiful website quickly. Perfect for personal, student, or academic websites. [Check out the latest demo](https://themes.gohugo.io/theme/academic/) of what you'll get in less than 10 minutes or [view the documentation](https://sourcethemes.com/academic/docs/).
 
@@ -24,10 +35,10 @@ Prerequisites:
 * [Download and install Git](https://git-scm.com/downloads)
 * [Download and install Hugo](https://gohugo.io/getting-started/installing/#quick-install)
 
-1. Clone (or [Fork](https://github.com/sourcethemes/academic-kickstart#fork-destination-box) or [download](https://github.com/sourcethemes/academic-kickstart/archive/master.zip)) the *Academic Kickstart* repository with Git: 
+1. Clone (or [Fork](https://github.com/sourcethemes/academic-kickstart#fork-destination-box) or [download](https://github.com/sourcethemes/academic-kickstart/archive/master.zip)) the *Academic Kickstart* repository with Git:
 
        git clone https://github.com/sourcethemes/academic-kickstart.git My_Website
-    
+
     *Note that if you forked Academic Kickstart, the above command should be edited to clone your fork.*
 
 2. Initialize the theme:
@@ -36,11 +47,11 @@ Prerequisites:
        git submodule update --init --recursive
 
 3. View your new website:
-      
+
        hugo server
 
     Now you can go to [localhost:1313](http://localhost:1313) and your new Academic powered website should appear.
-  
+
 4. Read the [Quick Start Guide](https://sourcethemes.com/academic/docs/) to learn how to add Markdown content, customize your site, and deploy it.
 
 ## License
