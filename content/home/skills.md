@@ -4,7 +4,7 @@ widget = "featurette"  # Do not modify this line!
 date = 2017-09-20T00:00:00
 
 # Activate this widget? true/false
-active = true
+active = false
 
 title = "Skills"
 subtitle = ""
@@ -13,9 +13,9 @@ subtitle = ""
 weight = 7
 
 # Showcase personal skills or business features.
-# 
+#
 # Add/remove as many `[[feature]]` blocks below as you like.
-# 
+#
 # Available icon packs and icons:
 # * fas - Font Awesome standard icons (see https://fontawesome.com/icons)
 # * fab - Font Awesome brand icons (see https://fontawesome.com/icons)
@@ -26,13 +26,13 @@ weight = 7
   icon_pack = "fab"
   name = "R"
   description = "90%"
-  
+
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
   name = "Statistics"
   description = "100%"  
-  
+
 [[feature]]
   icon = "camera-retro"
   icon_pack = "fas"
