@@ -188,9 +188,9 @@ enableGitInfo = false
   #   translated.
   publication_types = [
     'Uncategorized',  # 0
-    'Conference paper',  # 1
+    'Review article',  # 1
     'Journal article',  # 2
-    'Manuscript',  # 3
+    'In prep',  # 3
     'Report',  # 4
     'Book',  # 5
     'Book section'  # 6
@@ -291,7 +291,7 @@ enableGitInfo = false
 
 [[menu.main]]
   name = "Publications"
-  url = "#publications_selected"
+  url = "/publication"
   weight = 2
 
 [[menu.main]]
@@ -304,10 +304,17 @@ enableGitInfo = false
   url = "#projects"
   weight = 4
 
+  [[menu.main]]
+    name = "Conduct"
+    url = "/conduct"
+    weight = 5
+
+
 [[menu.main]]
   name = "Contact"
   url = "#contact"
   weight = 6
+
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
