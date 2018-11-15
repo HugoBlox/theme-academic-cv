@@ -22,4 +22,4 @@ Harassment includes offensive verbal comments related to gender, gender identity
 
 Members asked to stop any harassing behavior are expected to comply immediately.
 
-If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact Harriet Alexander immediately. If Harriet is the cause of your concern or you are not comfortable speaking with her please see the [WHOI's Code of Conduct procedure for reporting](http://www.whoi.edu/website/institution-policy/index?ct=901&cid=1582#4) for alternative options.   
+If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact Harriet Alexander immediately. If Harriet is the cause of your concern or you are not comfortable speaking with her please see the [WHOI's Code of Conduct reporting procedure](http://www.whoi.edu/website/institution-policy/index?ct=901&cid=1582#4) for alternative options.   
