@@ -1,11 +1,12 @@
 +++
-title = "The transcriptome and proteome of the diatom *Thalassiosira pseudonana* reveal a diverse phosphorus stress response."
+title = "The transcriptome and proteome of the diatom Thalassiosira pseudonana reveal a diverse phosphorus stress response"
 date = 2012-01-01
-authors = ["Sonya T Dyhrman", "Bethany D Jenkins", "Tatiana A Rynearson", "Mak A Saito", "Melissa L Mercier", "Harriet Alexander", "Leann P Whitney", "Andrea Drzewianowski", "Vladimir V Bulygin", "Erin M Bertrand", "Zhijin Wu", "Claudia Benitez-Nelson", "Abigail Heithoff"]
+authors = ["Sonya T Dyhrman", "Bethany D Jenkins", "Tatiana A Rynearson", "Mak A Saito", "Melissa L Mercier", "**Harriet Alexander**", "Leann P Whitney", "Andrea Drzewianowski", "Vladimir V Bulygin", "Erin M Bertrand", "Zhijin Wu", "Claudia Benitez-Nelson", "Abigail Heithoff"]
 publication_types = ["2"]
-abstract = ""
+abstract = "Phosphorus (P) is a critical driver of phytoplankton growth and ecosystem function in the ocean. Diatoms are an abundant class of marine phytoplankton that are responsible for significant amounts of primary production. With the control they exert on the oceanic carbon cycle, there have been a number of studies focused on how diatoms respond to limiting macro and micronutrients such as iron and nitrogen. However, diatom physiological responses to P deficiency are poorly understood. Here, we couple deep sequencing of transcript tags and quantitative proteomics to analyze the diatom *Thalassiosira pseudonana* grown under P-replete and P-deficient conditions. A total of 318 transcripts were differentially regulated with a false discovery rate of <0.05, and a total of 136 proteins were differentially abundant (p<0.05). Significant changes in the abundance of transcripts and proteins were observed and coordinated for multiple biochemical pathways, including glycolysis and translation. Patterns in transcript and protein abundance were also linked to physiological changes in cellular P distributions, and enzyme activities. These data demonstrate that diatom P deficiency results in changes in cellular P allocation through polyphosphate production, increased P transport, a switch to utilization of dissolved organic P through increased production of metalloenzymes, and a remodeling of the cell surface through production of sulfolipids. Together, these findings reveal that *T. pseudonana* has evolved a sophisticated response to P deficiency involving multiple biochemical strategies that are likely critical to its ability to respond to variations in environmental P availability."
 selected = "false"
 publication = "*PloS one*"
-tags = ["Biological Transport", "Diatoms", "Diatoms: genetics", "Diatoms: metabolism", "Glycolysis", "Glycolysis: genetics", "Phosphorus", "Phosphorus: metabolism", "Physiological", "Protein Biosynthesis", "Protein Biosynthesis: genetics", "Proteome", "Stress", "Transcriptome", "proteome", "transcriptome"]
+tags = ["diatom", "phosphorus",  "proteomics", "stress", "transcriptomics", "Thalassiosira pseudonana", 'gene expression']
 doi = "10.1371/journal.pone.0033768"
+url_pdf = 'https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0033768'
 +++

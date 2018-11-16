@@ -1,11 +1,13 @@
 +++
 title = "What are the type, direction, and strength of species, community, and ecosystem responses to warming in aquatic mesocosm studies and their dependency on experimental characteristics? A systematic review protocol"
 date = 2017-12-01
-authors = ["Tamar Guy-Haim", "Harriet Alexander", "Tom W. Bell", "Raven L. Bier", "Lauren E. Bortolotti", "Christian Briseño-Avena", "Xiaoli Dong", "Alison M. Flanagan", "Julia Grosse", "Lars Grossmann", "Sarah Hasnain", "Rachel Hovel", "Cora A. Johnston", "Dan R. Miller", "Mario Muscarella", "Akana E. Noto", "Alexander J. Reisinger", "Heidi J. Smith", "Karen Stamieszkin"]
+authors = ["Tamar Guy-Haim", "**Harriet Alexander**", "Tom W. Bell", "Raven L. Bier", "Lauren E. Bortolotti", "Christian Briseño-Avena", "Xiaoli Dong", "Alison M. Flanagan", "Julia Grosse", "Lars Grossmann", "Sarah Hasnain", "Rachel Hovel", "Cora A. Johnston", "Dan R. Miller", "Mario Muscarella", "Akana E. Noto", "Alexander J. Reisinger", "Heidi J. Smith", "Karen Stamieszkin"]
 publication_types = ["2"]
-abstract = ""
+abstract = " **Background:** Mesocosm experiments have become increasingly popular in climate change research as they bridge the gap between small-scale, less realistic, microcosm experiments, and large-scale, more complex, natural systems. Characteristics of aquatic mesocosm designs (e.g., mesocosm volume, study duration, and replication) vary widely, potentially affecting the magnitude and direction of effect sizes measured in experiments. In this global systematic review we aim to identify the type, direction and strength of climate warming effects on aquatic species, communities and ecosystems in mesocosm experiments. Furthermore, we will investigate the context-dependency of the observed effects on several a priori determined effect moderators (ecological and methodological). Our conclusions will provide recommendations for aquatic scientists designing mesocosm experiments, as well as guidelines for interpretation of experimental results by scientists, policy-makers and the general public. **Methods:** We will conduct a systematic search using multiple online databases to gather evidence from the scientific literature on the effects of warming experimentally tested in aquatic mesocosms. Data from relevant studies will be extracted and used in a random effects meta-analysis to estimate the overall effect sizes of warming experiments on species performance, biodiversity and ecosystem functions. Experimental characteristics (e.g., mesocosm size and shape, replication-level, experimental duration and design, biogeographic region, community type, crossed manipulation) will be further analysed using subgroup analyses."
 selected = "false"
 publication = "*Environmental Evidence*"
 doi = "10.1186/s13750-017-0084-0"
+tags = ["climate change", "global warming", "mesocosm", "microcosm", "aquatic",
+"marine","estuarine",'freshwater', 'experimental design', 'methodology']
+url_pdf = 'https://environmentalevidencejournal.biomedcentral.com/articles/10.1186/s13750-017-0084-0'
 +++
-

@@ -1,12 +1,12 @@
 +++
 title = "Conserved transcriptional responses to nutrient stress in bloom-forming algae"
 date = 2017-07-01
-authors = ["Matthew J. Harke", "Andrew R. Juhl", "Sheean T. Haley", "Harriet Alexander", "Sonya T. Dyhrman"]
+authors = ["Matthew J. Harke", "Andrew R. Juhl", "Sheean T. Haley", "**Harriet Alexander**", "Sonya T. Dyhrman"]
 publication_types = ["2"]
-abstract = ""
+abstract = "The concentration and composition of bioavailable nitrogen (N) and phosphorus (P) in the upper ocean shape eukaryotic phytoplankton communities and influence their physiological responses. Phytoplankton are known to exhibit similar physiological responses to limiting N and P conditions such as decreased growth rates, chlorosis, and increased assimilation of N and P. Are these responses similar at the molecular level across multiple species? To interrogate this question, five species from biogeochemically important, bloom-forming taxa (Bacillariophyta, Dinophyta, and Haptophyta) were grown under similar low N, low P, and replete nutrient conditions to identify transcriptional patterns and associated changes in biochemical pools related to N and P stress. Metabolic profiles, revealed through the transcriptomes of these taxa, clustered together based on species rather than nutrient stressor, suggesting that the global metabolic response to nutrient stresses was largely, but not exclusively, species-specific. Nutrient stress led to few transcriptional changes in the two dinoflagellates, consistent with other research. An orthologous group analysis examined functionally conserved (i.e., similarly changed) responses to nutrient stress and therefore focused on the diatom and haptophytes. Most conserved ortholog changes were specific to a single nutrient treatment, but a small number of orthologs were similarly changed under both N and P stress in 2 or more species. Many of these orthologs were related to photosynthesis and may represent generalized stress responses. A greater number of orthologs were conserved across more than one species under low P compared to low N. Screening the conserved orthologs for functions related to N and P metabolism revealed increased relative abundance of orthologs for nitrate, nitrite, ammonium, and amino acid transporters under N stress, and increased relative abundance of orthologs related to acquisition of inorganic and organic P substrates under P stress. Although the global transcriptional responses were dominated by species-specific changes, the analysis of conserved responses revealed functional similarities in resource acquisition pathways among different phytoplankton taxa. This overlap in nutrient stress responses observed among species may be useful for tracking the physiological ecology of phytoplankton field populations."
 selected = "false"
 publication = "*Frontiers in Microbiology*"
-tags = ["Conserved response", "MMETSP", "Nitrogen", "Phosphorus", "Phytoplankton", "Transcriptome"]
+tags = ["conserved response", "MMETSP", "nitrogen", "phosphorus", "phytoplankton", "transcriptomics", 'diatom', 'gene expression']
 doi = "10.3389/fmicb.2017.01279"
+url_pdf = 'https://www.frontiersin.org/articles/10.3389/fmicb.2017.01279/full'
 +++
-

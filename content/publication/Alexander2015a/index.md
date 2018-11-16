@@ -1,10 +1,12 @@
 +++
 title = "Functional group-specific traits drive phytoplankton dynamics in the oligotrophic ocean"
 date = 2015-11-01
-authors = ["Harriet Alexander", "Mónica Rouco", "Sheean T. Haley", "Samuel T. Wilson", "David M. Karl", "Sonya T. Dyhrman"]
+authors = ["**Harriet Alexander**", "Mónica Rouco", "Sheean T. Haley", "Samuel T. Wilson", "David M. Karl", "Sonya T. Dyhrman"]
 publication_types = ["2"]
-abstract = ""
+abstract = "A diverse microbial assemblage in the ocean is responsible for nearly half of global primary production. It has been hypothesized and experimentally demonstrated that nutrient loading can stimulate blooms of large eukaryotic phytoplankton in oligotrophic systems. Although central to balancing biogeochemical models, knowledge of the metabolic traits that govern the dynamics of these bloom-forming phytoplankton is limited. We used eukaryotic metatranscriptomic techniques to identify the metabolic basis of functional group-specific traits that may drive the shift between net heterotrophy and autotrophy in the oligotrophic ocean. Replicated blooms were simulated by deep seawater (DSW) addition to mimic nutrient loading in the North Pacific Subtropical Gyre, and the transcriptional responses of phytoplankton functional groups were assayed. Responses of the diatom, haptophyte, and dinoflagellate functional groups in simulated blooms were unique, with diatoms and haptophytes significantly (95% confidence) shifting their quantitative metabolic fingerprint from the in situ condition, whereas dinoflagellates showed little response. Significantly differentially abundant genes identified the importance of colimitation by nutrients, metals, and vitamins in eukaryotic phytoplankton metabolism and bloom formation in this system. The variable transcript allocation ratio, used to quantify transcript reallocation following DSW amendment, differed for diatoms and haptophytes, reflecting the long-standing paradigm of phytoplankton r- and K-type growth strategies. Although the underlying metabolic potential of the large eukaryotic phytoplankton was consistently present, the lack of a bloom during the study period suggests a crucial dependence on physical and biogeochemical forcing, which are susceptible to alteration with changing climate."
 selected = "true"
 publication = "*Proceedings of the National Academy of Sciences*"
 doi = "10.1073/pnas.1518165112"
+tags = ["metatranscriptomics", 'phytoplankton', 'ecological traits', 'biogeochemistry', 'blooms', 'Station ALOHA', 'gene expression']
+url_pdf = 'http://www.pnas.org/content/112/44/E5972'
 +++
