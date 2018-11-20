@@ -13,7 +13,7 @@ categories = ["Development"]
 
 # Some background
 
-I would like to import the articles I write for my [personal website](sergiorosello.com) directly into my [medium account](https://medium.com/@SergioRM). This is something I thought Medium would have as a feature, but it seems it doesn't.  
+I would like to import the articles I write for my [personal website](http://www.sergiorosello.com) directly into my [medium account](https://medium.com/@SergioRM). This is something I thought Medium would have as a feature, but it seems it doesn't.  
 Searching on-line I came across medium's own [API](https://github.com/Medium/medium-api-docs) and was surprised to see that their own API supported uploading a file formatted with Markdown so I decided to use their [Go SDK](https://github.com/Medium/medium-sdk-go) to create my own importer script and learn go in the process.
 
 # Why do it in Go?
