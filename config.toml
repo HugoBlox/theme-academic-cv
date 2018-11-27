@@ -6,7 +6,7 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = "https://hang-zou.github.io"
 
 # Title of your site
 title = "Academic"
@@ -34,7 +34,7 @@ hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
 
 # Get last modified date for content from Git?
-enableGitInfo = false
+enableGitInfo = true
 
 [outputs]
   home = [ "HTML", "CSS", "RSS", "JSON" ]
@@ -51,24 +51,24 @@ enableGitInfo = false
   # AUTHOR SETUP
 
   # Your details.
-  name = "Hang ZOU"
-  role = "PhD student at CentraleSupélec"
+  name = "Hang Zou"
+  role = "PhD student at Labaratoires des Sgniaux et Systèmes"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "University of Paris-Scalay", url = "" } ]
+  organizations = [ { name = "CentraleSupélec & University of Paris-Scalay", url = "https://www.universite-paris-saclay.fr/fr" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
+  email = "hang.zou@l2s.centralesupelc.fr"
+  address = "Building Breguet, 3 rue Joliot Curie, 91192 Gif sur Yvette, France"
+  office_hours = "09:00-11:30 & 14:00-19:30 Monday to Friday"
+  phone = "+33659816187"
+  skype = "null"
   telegram = ""
-  keybase = ""  # Your keybase.io username.
+  keybase = "hang-zou.github.io"  # Your keybase.io username.
 
   # Discussion link (e.g. link to a forum, mailing list, or chat).
   #   Uncomment line below to use.
@@ -91,8 +91,8 @@ enableGitInfo = false
   #   3: OpenStreetMap (Mapbox)
   map = 0
   map_api_key = ""
-  latitude = "37.4275"
-  longitude = "-122.1697"
+  latitude = " 2.164564"
+  longitude = "48.708809"
   zoom = 15
 
   # SITE SETUP
