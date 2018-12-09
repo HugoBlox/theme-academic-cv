@@ -17,7 +17,7 @@ This is part 2 of a multipart post on how to create and upload a website for you
 In this short little tutorial, I will show you how to create a S3 bucket on [AWS](https://aws.amazon.com/es/).  
 There are however some prerequisites:  
 
-1. Have completed successfully the [first post]({{<ref "post/uploadToS3.md" >}})
+1. Have completed successfully the [first post]({{<ref "/post/uploadToS3/index.md" >}})
 2. Have a AWS account
 3. Have CLI access to S3 (Alternatively you can use your web browser)
 

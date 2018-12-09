@@ -13,7 +13,8 @@ weight = 5
     "Open source",
     "Vim",
     "Linux",
-    "AWS"
+    "AWS",
+    "Photography"
   ]
 
 # List your qualifications (such as academic degrees).

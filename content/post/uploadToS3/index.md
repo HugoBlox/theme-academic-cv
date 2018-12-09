@@ -13,7 +13,7 @@ categories = []
 summary = "We will create a very simple and basic static website with Hugo and upload it to a S3 bucket"
 +++
 
-This project is long overdue. I've been meaning to create my own personal website since I purchased the web domain [sergiorosello.com](sergiorosello.com) but as a good friend of mine always says, life happens.
+This project is long overdue. I've been meaning to create my own personal website since I purchased the web domain [sergiorosello.com](http://sergiorosello.com) but as a good friend of mine always says, life happens.
 
 This morning I was surfing through the web wen I came across [Hugo](https://gohugo.io/). It's slogan `The world’s fastest framework for building websites` sold it for me. I wanted to be up and running in no time at all, so I gave it a try. These are the steps I followed, feel free to adapt them to your specific workflow.
 
