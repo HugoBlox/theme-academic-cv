@@ -6,9 +6,9 @@ The code here is used to generate the website: (AlexanderLabWHOI.github.io)
 ### Instructions for website modification:
   - Make changes to the md files in the content folder or the config file
   - Add, commit, and push changes to https://github.com/AlexanderLabWHOI/academic-kickstart
-  - Run `deploy.sh` to (1) build with hugo, (2) add, commit, and push website changes to `AlexanderLabWHOI.github.io`
+  - Run `deploy_site.sh` to (1) build with hugo, (2) add, commit, and push website changes to `AlexanderLabWHOI.github.io`
 
-## Notes on Academic Theme: 
+## Notes on Academic Theme:
 
 
 **Academic** is a framework to help you create a beautiful website quickly. Perfect for personal, student, or academic websites. [Check out the latest demo](https://themes.gohugo.io/theme/academic/) of what you'll get in less than 10 minutes or [view the documentation](https://sourcethemes.com/academic/docs/).
