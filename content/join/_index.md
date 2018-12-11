@@ -16,7 +16,9 @@ caption = ""
 
 ## Undergraduate students
 
-I am open to hosting students through organized programs at WHOI, such as the [Summer Student Fellows (SSF)](https://www.whoi.edu/main/summer-student-fellowship) Program or the [Semester at WHOI (SAW)](http://www.whoi.edu/semester-at-whoi/) Program. Please refer to these websites for more information and feel free to indicate your interest in joining the lab.
+I will host students through organized programs at WHOI, such as the [Summer Student Fellows (SSF)](https://www.whoi.edu/main/summer-student-fellowship) Program or the [Semester at WHOI (SAW)](http://www.whoi.edu/semester-at-whoi/) Program. Please refer to these websites for more information and feel free to indicate your interest in joining the lab.
+
+For the summer of 2019 I am recruiting a SSF to work on a joint computational project between my lab and Maria Pachiadaki's lab. You can find the details of the project [here](http://www.whoi.edu/page.do?pid=149016&tid=7342&cid=272129). 
 
 ## Graduate students
 
