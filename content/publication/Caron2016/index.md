@@ -9,5 +9,4 @@ publication = "*Nature Reviews Microbiology*"
 doi = "10.1038/nrmicro.2016.160"
 url_pdf = 'https://www.nature.com/articles/nrmicro.2016.160'
 tags = ["transcriptomics", 'MMETSP', 'protists', 'evolution', 'functional diversity']
-
 +++

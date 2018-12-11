@@ -1,5 +1,5 @@
 +++
-title = "Join the Lab"
+title = "Join the Lab!"
 date = 2017-01-01T00:00:00
 
 # List format.
@@ -10,7 +10,7 @@ list_format = 1
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = ""
+image = "banners/penguin_communication.jpg"
 caption = ""
 +++
 
@@ -18,7 +18,7 @@ caption = ""
 
 I will host students through organized programs at WHOI, such as the [Summer Student Fellows (SSF)](https://www.whoi.edu/main/summer-student-fellowship) Program or the [Semester at WHOI (SAW)](http://www.whoi.edu/semester-at-whoi/) Program. Please refer to these websites for more information and feel free to indicate your interest in joining the lab.
 
-For the summer of 2019 I am recruiting a SSF to work on a joint computational project between my lab and Maria Pachiadaki's lab. You can find the details of the project [here](http://www.whoi.edu/page.do?pid=149016&tid=7342&cid=272129). 
+For the summer of 2019, I am recruiting an SSF to work on a joint computational project between my lab and Maria Pachiadaki's lab. You can find the details of the project [here](http://www.whoi.edu/page.do?pid=149016&tid=7342&cid=272129).
 
 ## Graduate students
 

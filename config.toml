@@ -309,6 +309,10 @@ enableGitInfo = false
     url = "/conduct"
     weight = 5
 
+    [[menu.main]]
+      name = "Join"
+      url = "/join"
+      weight = 5
 
 [[menu.main]]
   name = "Contact"

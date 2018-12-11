@@ -10,7 +10,7 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Phytoplankton Ecology",
+    "Plankton Ecology",
     "Biological Oceanography",
     "Bioinformatics"
   ]
