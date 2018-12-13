@@ -1,0 +1,12 @@
++++
+title = "Re-assembly, quality evaluation, and annotation of 678 microbial eukaryotic reference transcriptomes"
+date = 2018-12-01
+authors = ["Lisa K Johnson", "**Harriet Alexander**", "C Titus Brown"]
+publication_types = ["2"]
+abstract = "**Background** De novo transcriptome assemblies are required prior to analyzing RNAseq data from a species without an existing reference genome or transcriptome. Despite the prevalence of transcriptomic studies, the effects of using different workflows, or “pipelines”, on the resulting assemblies are poorly understood. Here, a pipeline was programmatically automated and used to assemble and annotate raw transcriptomic short read data collected by the Marine Microbial Eukaryotic Transcriptome Sequencing Project (MMETSP). The resulting transcriptome assemblies were evaluated and compared against assemblies that were previously generated with a different pipeline developed by the National Center for Genome Research (NCGR). **Results** New transcriptome assemblies contained the majority of previous contigs as well as new content. On average, 7.8% of the annotated contigs in the new assemblies were novel gene names not found in the previous assemblies. Taxonomic trends were observed in the assembly metrics. Assemblies from the Dinoflagellata showed a higher number of contigs and unique k-mers than transcriptomes from other phyla while assemblies from Ciliophora had a lower percentage of open reading frames compared to other phyla. **Conclusions** Given current bioinformatics approaches, there is no single ‘best’ reference transcriptome for a particular set of raw data. As the optimum transcriptome is a moving target, improving (or not) with new tools and approaches, automated and programmable pipelines are invaluable for managing the computationally-intensive tasks required for re-processing large sets of samples with revised pipelines and ensuring a common evaluation workflow is applied to all samples. Thus, re-assembling existing data with new tools using automated and programmable pipelines may yield more accurate identification of taxon-specific trends across samples in addition to novel and useful products for the community.
+Key"
+selected = "false"
+publication = "*GigaScience*"
+url_pdf = "https://academic.oup.com/gigascience/advance-article/doi/10.1093/gigascience/giy158/5241890"
+doi = "10.1093/gigascience/giy158"
++++
