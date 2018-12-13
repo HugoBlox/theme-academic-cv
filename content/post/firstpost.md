@@ -3,7 +3,7 @@ date = "2018-11-11"
 
 title = "Hello, world."
 
-summary = "Leveling up: welcome to independent scientific position"
+summary = "Leveling up: welcome to your independent scientific position"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""
@@ -12,7 +12,7 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = ""
+image = "posts/IMG_4229.jpg"
 caption = "New lab."
 +++
 
