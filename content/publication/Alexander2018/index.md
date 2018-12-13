@@ -8,4 +8,5 @@ selected = "false"
 publication = "*GigaScience*"
 url_pdf = "https://academic.oup.com/gigascience/advance-article/doi/10.1093/gigascience/giy159/5241892"
 doi = "10.1093/gigascience/giy159"
+tags = ['reproducibility', 'data reuse', 'open data', "automated pipeline", "re-analysis"]
 +++
