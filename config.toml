@@ -57,7 +57,7 @@ enableGitInfo = false
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Rotman Research Institute", url = "" } ]
+  organizations = [ { name = "Rotman Research Institute", url = "https://www.baycrest.org/Baycrest/Research-Innovation/About-Us/Rotman-Research-Institute" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "Eugenie Roudaia 2017 2.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
@@ -113,13 +113,13 @@ enableGitInfo = false
   font = "playfair"
 
   # Description for social sharing and search engines. If undefined, author role is used in place.
-  description = ""
+  description = "Eugenie Roudaia, PhD. Researchers in visual perception and cognitive neuroscience"
 
   # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
   sharing_image = ""
 
   # Twitter username (without @). Used when a vistor shares your site on Twitter.
-  twitter = ""
+  twitter = "eyebraineugenie"
 
   # Diplay a logo in navigation bar rather than title (optional).
   #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
@@ -132,7 +132,7 @@ enableGitInfo = false
   time_format = "3:04 PM"
 
   # Show estimated reading time for posts?
-  reading_time = true
+  reading_time = false
 
   # Display comment count? Requires commenting to be enabled.
   comment_count = true
@@ -179,7 +179,7 @@ enableGitInfo = false
   # Privacy pack
   #   Show a cookie consent message to visitors
   #   Anonymize IP in Google Analytics (if enabled)
-  privacy_pack = false
+  privacy_pack = true
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
@@ -231,7 +231,7 @@ enableGitInfo = false
     #   2 = APA
     #   3 = MLA
     #   4 = Stream
-    publication_format = 4
+    publication_format = 2
 
     # Talk list format.
     #   0 = Simple
@@ -282,7 +282,7 @@ enableGitInfo = false
    [[params.social]]
      icon = "cv"
      icon_pack = "ai"
-     link = "files/Roudaia-CV-17_2018.pdf"
+     link = "files/cv.pdf"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -307,27 +307,28 @@ enableGitInfo = false
   url = "#posts"
   weight = 3
 
-#[[menu.main]]
- # name = "Projects"
-  #url = "#projects"
- # weight = 4
-
-#[[menu.main]]
- # name = "Tutorials"
- # url = "/tutorial/"
- # weight = 5
+[[menu.main]]
+  name = "Projects"
+  url = "#projects"
+  weight = 4
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
   weight = 6
 
-# Link to a PDF of your resume/CV from the menu.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# [[menu.main]]
-#    name = "CV"
-#    url = "files/cv.pdf"
-#    weight = 7
+
+ # [[menu.main]]
+ # name = "Tutorials"
+ # url = "/tutorial/"
+ # weight = 5
+
+#Link to a PDF of your resume/CV from the menu.
+ #To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+ [[menu.main]]
+    name = "CV"
+    url = "files/cv.pdf"
+    weight = 5
 
 # Search.
 [params.search]
