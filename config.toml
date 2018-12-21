@@ -9,7 +9,7 @@
 baseurl = "/"
 
 # Title of your site
-title = "Academic"
+title = "Eugenie Roudaia, PhD"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
@@ -53,25 +53,22 @@ enableGitInfo = false
 
   # Your details.
   name = "Eugenie Roudaia"
-  role = "Professor of Artificial Intelligence"
+  role = "Scientific Associate"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Stanford University", url = "" } ]
+  organizations = [ { name = "Rotman Research Institute", url = "" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "Eugenie Roudaia 2017 2.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
+  email = "eroudaia@research.baycrest.ca"
+  address = ""
   office_hours = """
-  Monday 10:00 to 13:00\\
-  Wednesday 09:00 to 10:00\\
-  Otherwise email to book an appointment
   """
-  phone = "888 888 88 88"
-  skype = "echo123"
+  phone = ""
+  skype = "eugenie.roudaia"
   telegram = ""
   keybase = ""  # Your keybase.io username.
 
@@ -99,21 +96,21 @@ enableGitInfo = false
   #   3: OpenStreetMap (Mapbox)
   map = 0
   map_api_key = ""
-  latitude = "37.4275"
-  longitude = "-122.1697"
-  zoom = 15
+  latitude = ""
+  longitude = ""
+  zoom = 0
 
   # SITE SETUP
 
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
-  color_theme = "forest"
+  color_theme = "dark"
   # Enable users to switch between day and night mode?
   day_night = true
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
-  font = "classic"
+  font = "playfair"
 
   # Description for social sharing and search engines. If undefined, author role is used in place.
   description = ""
