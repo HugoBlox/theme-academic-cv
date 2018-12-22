@@ -32,7 +32,7 @@ bibtex_2academic <- function(bibfile,
                                  document_type == "Book" ~ "5",
                                  document_type == "InCollection" ~ "6",
                                  document_type == "InBook" ~ "6",
-                                 document_type == "Misc" ~ "0",
+                                 document_type == "Misc" ~ "1",
                                  TRUE ~ "0"))
   
   # create a function which populates the md template based on the info

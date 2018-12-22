@@ -7,12 +7,19 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
+
+  install.packages("RefManageR")
+  #require(dplyr)
+  install.packages("stringr")
+  install.packages("anytime")
+
 ```
 
 ## Exploring
 ```{r cars}
 
-my_bibfile <- "./publicationsER2.bib"
+bibfile <- "./publicationsER2.bib"
 out_fold   <- "./"
 
 bibtex_2academic(bibfile  = my_bibfile, 
