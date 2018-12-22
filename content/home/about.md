@@ -17,8 +17,8 @@ weight = 5
 # List your qualifications (such as academic degrees).
 [[education.courses]] 
 	course = "PhD in Psychology" 
-	institution = "McMaster
-	University" year = 2013
+	institution = "McMaster University" 
+	year = 2013
 
 [[education.courses]] 
 	course = "BSc in Mathematics & Statistics" 
