@@ -8,9 +8,8 @@ weight = 5
 # List your academic interests.
 [interests] interests = [ "Visual and multisensory perception", "Effects of
 aging on perception and cognition", "Behavioural interventions, perceptual
-learning" "Psychophysics, EEG"
-  ]
-  ]  ]
+learning" "Psychophysics, EEG"]
+
 # List your qualifications (such as academic degrees).
 [[education.courses]] course = "PhD in Psychology" institution = "McMaster
 University" year = 2013
@@ -32,3 +31,4 @@ In 2012, I joined the Multisensory Cognition Research Group, headed by Dr. Fiona
 to research multisensory processing and to work on a translational project in collaboration with industry partners, in which we designed and evaluated a video game as an intervention for older adults with a fear of falling.
 In 2014, I returned to Montreal to join the Faubert Lab, where my research focused on the effects of aging on attention, distribution of attention in depth, and audiovisual interactions in motion. 
 In 2017, I came back to work with Drs. Sekuler and Bennett, concentrating on studies using EEG, as well as working on examining visual and audiovisual perception in older adults with cognitive impairment and dementia, amongst other projects. 
+

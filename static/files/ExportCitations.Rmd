@@ -1,0 +1,31 @@
+---
+title: "ExportCitations"
+author: "Eugenie Roudaia"
+date: "December 21, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Exploring
+```{r cars}
+
+my_bibfile <- "./publicationsER2.bib"
+out_fold   <- "./"
+
+bibtex_2academic(bibfile  = my_bibfile, 
+                 outfold   = out_fold, 
+                 abstract  = FALSE)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
