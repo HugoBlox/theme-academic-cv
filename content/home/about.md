@@ -20,7 +20,6 @@ University" year = 2013
 +++
 
 # Biography
-# 
 I grew up in Montréal, Québec, after we immigrated there when I was 10 years old from Kiev, Ukraine (big thanks to my family!). 
 I became interested in psychology and neuroscience after my favourite college calculus professor
  was waxing lyrical about how the brain is amazing (thank you, Dr. Tom Foxe).
