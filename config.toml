@@ -13,7 +13,7 @@ title = "Ian Eve Perry"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018"
+copyright = "Ian Eve Perry &copy; 2018"
 
 theme = "academic"
 enableEmoji = true
@@ -53,7 +53,7 @@ enableGitInfo = true
 
   # Your details.
   name = "Ian Eve Perry"
-  role = "Healthcare and Labor Policy Researcher"
+  role = "Health Care and Labor Policy Researcher"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
