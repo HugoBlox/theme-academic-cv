@@ -186,7 +186,7 @@ enableGitInfo = true
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  custom_css = []
+  custom_css = ["custom_css.css"]
   custom_js  = []
 
   # Publication types.
