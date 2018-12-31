@@ -28,5 +28,5 @@ weight = 5
  
 +++
 
-Ian Eve Perry is a research and policy associate at the Labor Center. They focus on health care and low-wage policy research.
+Ian Eve Perry is a research and policy associate at the UC Berkeley Labor Center. They focus on health care and low-wage policy research.
  
