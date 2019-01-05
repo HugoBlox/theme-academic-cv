@@ -198,12 +198,14 @@ enableGitInfo = true
   #   translated.
   publication_types = [
     'Uncategorized',  # 0
-    'Conference paper',  # 1
-    'Journal article',  # 2
-    'Manuscript',  # 3
-    'Report',  # 4
-    'Book',  # 5
-    'Book section'  # 6
+    'Policy brief', # 1
+    'Interactive', # 2
+    'Conference paper',  # 3
+    'Journal article',  # 4
+    'Manuscript',  # 5
+    'Report',  # 6
+    'Book',  # 7
+    'Book section'  # 8
   ]
 
   # Configuration of talk pages.
