@@ -22,6 +22,24 @@ weight = 7
 # * ai - academic icons (see https://jpswalsh.github.io/academicons/)
 
 [[feature]]
+  icon = "vote-yea"
+  icon_pack = "fas"
+  name = "Policy Analysis"
+  #description = "100%"
+
+[[feature]]
+  icon = "table"
+  icon_pack = "fas"
+  name = "Data Analysis"
+  #description = "100%"
+
+[[feature]]
+  icon = "chart-area"
+  icon_pack = "fas"
+  name = "Data Visulization"
+  #description = "100%"
+
+[[feature]]
   icon = "r-project"
   icon_pack = "fab"
   name = "R"
@@ -32,11 +50,30 @@ weight = 7
   icon_pack = "fas"
   name = "Stata"
   #description = "90%"
+
+[[feature]]
+  icon = "database"
+  icon_pack = "fas"
+  name = "SQL"
+  #description = "100%"
   
 [[feature]]
-  icon = "chart-line"
-  icon_pack = "fas"
-  name = "Statistics"
+  icon = "git"
+  icon_pack = "fab"
+  name = "Git"
   #description = "100%"
+
+[[feature]]
+  icon = "html5"
+  icon_pack = "fab"
+  name = "HTML"
+  #description = "100%"
+
+[[feature]]
+  icon = "css3"
+  icon_pack = "fab"
+  name = "CSS"
+  #description = "100%"
+
 
 +++
