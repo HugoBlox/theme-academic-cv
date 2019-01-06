@@ -284,10 +284,10 @@ enableGitInfo = true
 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-  # [[params.social]]
-  #   icon = "cv"
-  #   icon_pack = "ai"
-  #   link = "files/cv.pdf"
+  [[params.social]]
+    icon = "cv"
+    icon_pack = "ai"
+    link = "files/ian-eve-perry-cv.pdf"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -304,7 +304,7 @@ enableGitInfo = true
 
 [[menu.main]]
   name = "Publications"
-  url = "#publications_selected"
+  url = "/publication/"
   weight = 2
 
 #[[menu.main]]
@@ -329,10 +329,10 @@ enableGitInfo = true
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# [[menu.main]]
-#    name = "CV"
-#    url = "files/cv.pdf"
-#    weight = 7
+ [[menu.main]]
+    name = "CV"
+    url = "files/ian-eve-perry-cv.pdf"
+    weight = 7
 
 # Search.
 [params.search]
