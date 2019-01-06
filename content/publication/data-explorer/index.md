@@ -4,7 +4,7 @@ date = 2018-08-16
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Ian Perry"]
+authors = ["Ian Eve Perry"]
 
 # Publication type.
 # Legend:
@@ -18,7 +18,7 @@ authors = ["Ian Perry"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "Low-Wage Work in California Data Explorer"
+publication = "UC Berkeley Labor Center"
 publication_short = ""
 
 # Abstract and optional shortened version.
