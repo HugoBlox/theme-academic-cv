@@ -18,7 +18,7 @@ description = ""
 sharing_image = ""
 
 # Twitter username (without @). Used when a vistor shares your site on Twitter.
-twitter = ""
+twitter = "charliebrummitt"
 
 # Diplay a logo in navigation bar rather than title (optional).
 #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
@@ -41,7 +41,7 @@ section_pager = false
 
 # Enable global LaTeX math rendering?
 #   If false, you can enable it locally on a per page basis.
-math = false
+math = true
 
 # Enable global source code highlighting? true/false
 # Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
@@ -58,17 +58,17 @@ sharing = true
 privacy_pack = false
 
 # Get user avatars from Gravatar.com? (true/false)
-gravatar = false
+gravatar = true
 
 # Contact Widget setup
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
+  email = "brummitt@gmail.com"
+  address = "500 Rutherford Ave, Suite 201, Boston MA 02129"
   # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
-  office_hours = """Monday 10:00 to 13:00<br>
-                    Wednesday 09:00 to 10:00<br>
-                    Otherwise email to book an appointment"""
-  phone = "888 888 88 88"
-  skype = "echo123"
+  # office_hours = """Monday 10:00 to 13:00<br>
+  #                   Wednesday 09:00 to 10:00<br>
+  #                   Otherwise email to book an appointment"""
+  # phone = "888 888 88 88"
+  skype = ""
   telegram = ""
   keybase = ""  # Your keybase.io username.
 
@@ -128,7 +128,7 @@ custom_js  = []
 # Configuration of talk pages.
 [talks]
   # Show talk time?
-  time = true
+  time = false
 
 # Configuration of publication pages.
 [publications]
