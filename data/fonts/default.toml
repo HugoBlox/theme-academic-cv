@@ -1,0 +1,15 @@
+# Font style metadata
+name = "Default"
+
+# Optional Google font URL
+google_fonts = "Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono|ZCOOL+KuaiLe|Open+Sans:400,500"
+
+# Font families
+heading_font = "Open Sans"
+body_font = "Open Sans"
+nav_font = "Open Sans"
+mono_font = "Open Sans"
+
+# Font size
+font_size = "20"
+font_size_small = "16"
