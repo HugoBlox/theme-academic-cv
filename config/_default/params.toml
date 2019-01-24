@@ -26,9 +26,9 @@ logo = ""
 
 # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
 #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-date_format = "Jan 2, 2006"
+date_format = "2 Jan 2006"
 #   Examples: "3:04 pm" or "15:04"
-time_format = "3:04 PM"
+time_format = "15:04"
 
 # Show estimated reading time for posts?
 reading_time = true
@@ -61,16 +61,16 @@ privacy_pack = false
 gravatar = false
 
 # Contact Widget setup
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
+  email = "augenstein@di.ku.dk"
+  address = "Universitetsparken 1, Copenhagen, Denmark"
   # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
-  office_hours = """Monday 10:00 to 13:00<br>
-                    Wednesday 09:00 to 10:00<br>
-                    Otherwise email to book an appointment"""
-  phone = "888 888 88 88"
-  skype = "echo123"
-  telegram = ""
-  keybase = ""  # Your keybase.io username.
+#  office_hours = """Monday 10:00 to 13:00<br>
+#                    Wednesday 09:00 to 10:00<br>
+#                    Otherwise email to book an appointment"""
+# phone = "888 888 88 88"
+#  skype = "echo123"
+#  telegram = ""
+#  keybase = ""  # Your keybase.io username.
 
   # Enter an optional link for booking appointments (e.g. calendly.com).
   appointment_url = ""
@@ -94,10 +94,10 @@ gravatar = false
   #   1: Google Maps
   #   2: OpenStreetMap (Mapnik)
   #   3: OpenStreetMap (Mapbox)
-  map = 0
+  map = 1
   map_api_key = ""
-  latitude = "37.4275"
-  longitude = "-122.1697"
+  latitude = "55.702084"
+  longitude = "12.561103"
   zoom = 15
 
 # Publication types.

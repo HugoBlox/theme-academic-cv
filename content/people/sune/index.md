@@ -39,22 +39,17 @@ tags = ["Alumni"]
 [[social]]
 icon = "envelope"
 icon_pack = "fas"
-link = "#contact"  # For a direct email link, use "mailto:test@example.org".
+link = "mailto:sad@archii.ai"  # For a direct email link, use "mailto:test@example.org".
 
 [[social]]
-icon = "twitter"
+icon = "linkedin"
 icon_pack = "fab"
-link = "https://twitter.com/GeorgeCushen"
-
-[[social]]
-icon = "google-scholar"
-icon_pack = "ai"
-link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+link = "https://dk.linkedin.com/in/sune-debel-756893a8"
 
 [[social]]
 icon = "github"
 icon_pack = "fab"
-link = "https://github.com/gcushen"
+link = "https://github.com/suned"
 
 
 # Optional external URL for project (replaces project detail page).

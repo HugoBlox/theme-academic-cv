@@ -1,45 +1,26 @@
 +++
 # Display name
-name = "Nelson Bighetti"
+name = "CopeNLU"
 
 # Is this the primary user of the site?
 superuser = true
 
 # Role/position
-role = "Professor of Artificial Intelligence"
+role = "Natural Language Understanding Research Group"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Stanford University", url = "" } ]
+organizations = [ { name = "Machine Learning Section, Department of Computer Science, University of Copenhagen", url = "https://di.ku.dk/english/research/machine-learning" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "My research interests include distributed robotics, mobile computing and programmable matter."
+bio = "CopeNLU is a Natural Language Processing research group with a focus on researching methods for tasks that require a deep understanding of language, as opposed to shallow pattern recognition. We are affiliated with the Machine Learning Section at the Department of Computer Science, University of Copenhagen."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = ""
 
 # List (academic) interests or hobbies
-interests = [
-  "Artificial Intelligence",
-  "Computational Linguistics",
-  "Information Retrieval"
-]
+interests = ["Natural Language Understanding", "Learning with Limited Labelled Data", "Fact Checking", "Knowledge Base Population", "Question Answering"]
 
-# List qualifications (such as academic degrees)
-[[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
-
-[[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
-
-[[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
 
 # Social/Academic Networking
 #
@@ -62,22 +43,17 @@ interests = [
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "#contact"  # For a direct email link, use "mailto:test@example.org".
+  link = "mailto:augenstein@di.ku.dk"  # For a direct email link, use "mailto:test@example.org".
 
 [[social]]
   icon = "twitter"
   icon_pack = "fab"
-  link = "https://twitter.com/GeorgeCushen"
-
-[[social]]
-  icon = "google-scholar"
-  icon_pack = "ai"
-  link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+  link = "https://twitter.com/IAugenstein"
 
 [[social]]
   icon = "github"
   icon_pack = "fab"
-  link = "https://github.com/gcushen"
+  link = "https://github.com/copenlu"
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -88,6 +64,5 @@ interests = [
 
 +++
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+CopeNLU is a Natural Language Processing research group with a focus on researching methods for tasks that require a deep understanding of language, as opposed to shallow processing.
+We are affiliated with the <a href="https://di.ku.dk/english/research/machine-learning">Machine Learning Section</a> at the Department of Computer Science, University of Copenhagen, as well as <a href="https://di.ku.dk/english/research/imagesection/nlp/">NLP the University of Copenhagen</a>. We are interested in core methodology research on, among others, learning with limited training data; as well as applications thereof to tasks such as fact checking, knowledge base population and question answering.
