@@ -1,22 +1,22 @@
 +++
 # Display name
-title = "Sune Debel"
+title = "NN PhD Student"
 
 # Role/position
-role = "Research Assistant"
+role = "PhD Student"
 
 # Short bio (displayed in user profile at end of posts)
-bio = "Now a lead data scientist at Archii"
+bio = "This is a new PhD student, joining in Spring 2019"
 
 # External website link
-external_link = "https://dk.linkedin.com/in/sune-debel-756893a8"
+# external_link = "http://isabelleaugenstein.github.io/"
 
 # Date this page was created. Entries are sorted by most recent one.
-date = 2017-01-20T17:09:01
+date = 2019-01-18T17:07:01
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Alumni"]
+tags = ["Members"]
 
 # Social/Academic Networking
 #
@@ -36,20 +36,6 @@ tags = ["Alumni"]
 #
 #   Full list: https://jpswalsh.github.io/academicons/
 
-[[social]]
-icon = "envelope"
-icon_pack = "fas"
-link = "mailto:sad@archii.ai"  # For a direct email link, use "mailto:test@example.org".
-
-[[social]]
-icon = "linkedin"
-icon_pack = "fab"
-link = "https://dk.linkedin.com/in/sune-debel-756893a8"
-
-[[social]]
-icon = "github"
-icon_pack = "fab"
-link = "https://github.com/suned"
 
 
 # Optional external URL for project (replaces project detail page).

@@ -11,12 +11,12 @@ bio = "This is Johannes"
 # External website link
 external_link = "http://bjerva.github.io/"
 
-# Date this page was created.
+# Date this page was created. Entries are sorted by most recent one.
 date = 2019-01-19T17:09:01
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Current"]
+tags = ["Members"]
 
 # Social/Academic Networking
 #

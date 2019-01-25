@@ -6,7 +6,7 @@ title = "Isabelle Augenstein"
 role = "Assistant Professor"
 
 # Short bio (displayed in user profile at end of posts)
-bio = "This is Isabelle"
+bio = "Isabelle's main research interests are natural language understanding and learning with limited training data."
 
 # External website link
 external_link = "http://isabelleaugenstein.github.io/"
@@ -16,7 +16,7 @@ date = 2019-01-20T17:07:01
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Current"]
+tags = ["Members"]
 
 # Social/Academic Networking
 #
@@ -39,12 +39,12 @@ tags = ["Current"]
 [[social]]
 icon = "envelope"
 icon_pack = "fas"
-link = "#contact"  # For a direct email link, use "mailto:test@example.org".
+link = "mailto:augenstein@di.ku.dk"  # For a direct email link, use "mailto:test@example.org".
 
 [[social]]
 icon = "twitter"
 icon_pack = "fab"
-link = "https://twitter.com/GeorgeCushen"
+link = "https://twitter.com/IAugenstein"
 
 [[social]]
 icon = "linkedin"
@@ -59,7 +59,7 @@ link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
 [[social]]
 icon = "github"
 icon_pack = "fab"
-link = "https://github.com/gcushen"
+link = "https://github.com/isabelleaugenstein"
 
 
 # Optional external URL for project (replaces project detail page).

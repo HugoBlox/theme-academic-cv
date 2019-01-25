@@ -38,8 +38,12 @@ filter_default = 0
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
 
 [[filter]]
-  name = "Current"
-  tag = "Current"
+  name = "Members"
+  tag = "Members"
+  
+[[filter]]
+  name = "Affiliated"
+  tag = "Affiliated"
 
 [[filter]]
   name = "Alumni"

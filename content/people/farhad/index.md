@@ -1,22 +1,22 @@
 +++
 # Display name
-title = "Sune Debel"
+title = "Farhad Nooralahzadeh"
 
 # Role/position
-role = "Research Assistant"
+role = "PhD Intern"
 
 # Short bio (displayed in user profile at end of posts)
-bio = "Now a lead data scientist at Archii"
+bio = "Farhad is a PhD Student at the University of Oslo, and is visiting CopeNLU in Spring 2019 to work on domain adaptation for information extraction."
 
 # External website link
-external_link = "https://dk.linkedin.com/in/sune-debel-756893a8"
+external_link = "https://www.mn.uio.no/ifi/english/people/aca/farhadno/"
 
 # Date this page was created. Entries are sorted by most recent one.
-date = 2017-01-20T17:09:01
+date = 2019-01-15T17:07:01
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Alumni"]
+tags = ["Members"]
 
 # Social/Academic Networking
 #
@@ -39,17 +39,27 @@ tags = ["Alumni"]
 [[social]]
 icon = "envelope"
 icon_pack = "fas"
-link = "mailto:sad@archii.ai"  # For a direct email link, use "mailto:test@example.org".
+link = "mailto:farhadno@ifi.uio.no"  # For a direct email link, use "mailto:test@example.org".
+
+[[social]]
+icon = "twitter"
+icon_pack = "fab"
+link = "https://twitter.com/farhadnz"
 
 [[social]]
 icon = "linkedin"
 icon_pack = "fab"
-link = "https://dk.linkedin.com/in/sune-debel-756893a8"
+link = "https://no.linkedin.com/in/farhad-nooralahzadeh"
+
+[[social]]
+icon = "google-scholar"
+icon_pack = "ai"
+link = "https://scholar.google.co.uk/citations?user=iCPxe4UAAAAJ"
 
 [[social]]
 icon = "github"
 icon_pack = "fab"
-link = "https://github.com/suned"
+link = "https://github.com/nooralahzadeh"
 
 
 # Optional external URL for project (replaces project detail page).

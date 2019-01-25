@@ -1,22 +1,22 @@
 +++
 # Display name
-title = "Sune Debel"
+title = "Mareike Hartmann"
 
 # Role/position
-role = "Research Assistant"
+role = "PhD Student"
 
 # Short bio (displayed in user profile at end of posts)
-bio = "Now a lead data scientist at Archii"
+bio = "This is Mareike. She's a member of the CoAStaL NLP group and co-supervised by Isabelle."
 
 # External website link
-external_link = "https://dk.linkedin.com/in/sune-debel-756893a8"
+external_link = "https://di.ku.dk/english/staff/?pure=en%2Fpersons%2Flwp876-lwp876(99595ec3-7933-430e-9103-399722d7e684).html"
 
 # Date this page was created. Entries are sorted by most recent one.
-date = 2017-01-20T17:09:01
+date = 2018-01-18T17:07:01
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Alumni"]
+tags = ["Affiliated"]
 
 # Social/Academic Networking
 #
@@ -39,17 +39,17 @@ tags = ["Alumni"]
 [[social]]
 icon = "envelope"
 icon_pack = "fas"
-link = "mailto:sad@archii.ai"  # For a direct email link, use "mailto:test@example.org".
+link = "mailto:hartmann@di.ku.dk"  # For a direct email link, use "mailto:test@example.org".
 
 [[social]]
-icon = "linkedin"
-icon_pack = "fab"
-link = "https://dk.linkedin.com/in/sune-debel-756893a8"
+icon = "google-scholar"
+icon_pack = "ai"
+link = "https://scholar.google.co.uk/citations?f-NzaE8AAAAJ"
 
 [[social]]
 icon = "github"
 icon_pack = "fab"
-link = "https://github.com/suned"
+link = "https://github.com/mahartmann"
 
 
 # Optional external URL for project (replaces project detail page).

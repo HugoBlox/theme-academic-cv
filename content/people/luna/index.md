@@ -1,22 +1,22 @@
 +++
 # Display name
-title = "Sune Debel"
+title = "Luna De Bruyne"
 
 # Role/position
-role = "Research Assistant"
+role = "PhD Intern"
 
 # Short bio (displayed in user profile at end of posts)
-bio = "Now a lead data scientist at Archii"
+bio = "Luna is a PhD Student at Ghent University, and is visiting CopeNLU in Spring 2019 to work on emotion detection."
 
 # External website link
-external_link = "https://dk.linkedin.com/in/sune-debel-756893a8"
+external_link = "https://research.flw.ugent.be/en/luna.debruyne"
 
 # Date this page was created. Entries are sorted by most recent one.
-date = 2017-01-20T17:09:01
+date = 2019-01-16T17:07:01
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Alumni"]
+tags = ["Members"]
 
 # Social/Academic Networking
 #
@@ -39,17 +39,7 @@ tags = ["Alumni"]
 [[social]]
 icon = "envelope"
 icon_pack = "fas"
-link = "mailto:sad@archii.ai"  # For a direct email link, use "mailto:test@example.org".
-
-[[social]]
-icon = "linkedin"
-icon_pack = "fab"
-link = "https://dk.linkedin.com/in/sune-debel-756893a8"
-
-[[social]]
-icon = "github"
-icon_pack = "fab"
-link = "https://github.com/suned"
+link = "mailto:luna.debruyne@ugent.be"  # For a direct email link, use "mailto:test@example.org".
 
 
 # Optional external URL for project (replaces project detail page).

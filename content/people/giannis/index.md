@@ -1,22 +1,22 @@
 +++
 # Display name
-title = "Sune Debel"
+title = "Giannis Bekoulis"
 
 # Role/position
-role = "Research Assistant"
+role = "PhD Intern"
 
 # Short bio (displayed in user profile at end of posts)
-bio = "Now a lead data scientist at Archii"
+bio = "Giannis is a PhD Student at Ghent University, and is visiting CopeNLU in Spring 2019 to work on joint information extraction."
 
 # External website link
-external_link = "https://dk.linkedin.com/in/sune-debel-756893a8"
+external_link = "https://bekou.github.io/"
 
 # Date this page was created. Entries are sorted by most recent one.
-date = 2017-01-20T17:09:01
+date = 2019-01-17T17:07:01
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Alumni"]
+tags = ["Members"]
 
 # Social/Academic Networking
 #
@@ -39,17 +39,17 @@ tags = ["Alumni"]
 [[social]]
 icon = "envelope"
 icon_pack = "fas"
-link = "mailto:sad@archii.ai"  # For a direct email link, use "mailto:test@example.org".
+link = "mailto:giannis.bekoulis@ugent.be"  # For a direct email link, use "mailto:test@example.org".
 
 [[social]]
-icon = "linkedin"
+icon = "twitter"
 icon_pack = "fab"
-link = "https://dk.linkedin.com/in/sune-debel-756893a8"
+link = "https://twitter.com/g_bekou"
 
 [[social]]
 icon = "github"
 icon_pack = "fab"
-link = "https://github.com/suned"
+link = "https://github.com/bekou"
 
 
 # Optional external URL for project (replaces project detail page).

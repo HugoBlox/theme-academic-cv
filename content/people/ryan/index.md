@@ -1,22 +1,22 @@
 +++
 # Display name
-title = "Sune Debel"
+title = "Ryan Cotterell"
 
 # Role/position
-role = "Research Assistant"
+role = "Lecturer"
 
 # Short bio (displayed in user profile at end of posts)
-bio = "Now a lead data scientist at Archii"
+bio = "This is Ryan. He's a lecturer at the University of Cambridge and a frequent collaborator of the CopeNLU group."
 
 # External website link
-external_link = "https://dk.linkedin.com/in/sune-debel-756893a8"
+external_link = "https://ryancotterell.github.io/"
 
 # Date this page was created. Entries are sorted by most recent one.
-date = 2017-01-20T17:09:01
+date = 2018-01-21T17:07:01
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Alumni"]
+tags = ["Affiliated"]
 
 # Social/Academic Networking
 #
@@ -39,17 +39,22 @@ tags = ["Alumni"]
 [[social]]
 icon = "envelope"
 icon_pack = "fas"
-link = "mailto:sad@archii.ai"  # For a direct email link, use "mailto:test@example.org".
+link = "mailto:ryan.cotterell@gmail.com"  # For a direct email link, use "mailto:test@example.org".
 
 [[social]]
-icon = "linkedin"
+icon = "twitter"
 icon_pack = "fab"
-link = "https://dk.linkedin.com/in/sune-debel-756893a8"
+link = "https://twitter.com/_shrdlu_"
+
+[[social]]
+icon = "google-scholar"
+icon_pack = "ai"
+link = "https://scholar.google.com/citations?user=DexOqtoAAAAJ"
 
 [[social]]
 icon = "github"
 icon_pack = "fab"
-link = "https://github.com/suned"
+link = "https://github.com/ryancotterell"
 
 
 # Optional external URL for project (replaces project detail page).
@@ -59,7 +64,7 @@ external_link = "http://example.org"
 # To use, add an image named `featured.jpg/png` to your project's folder. 
 [image]
   # Caption (optional)
-  # caption = "Photo by Toa Heftiba on Unsplash"
+  #  caption = "Photo by Toa Heftiba on Unsplash"
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
