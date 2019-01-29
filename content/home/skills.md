@@ -25,18 +25,15 @@ weight = 7
   icon = "r-project"
   icon_pack = "fab"
   name = "R"
-  description = "90%"
   
 [[feature]]
-  icon = "chart-line"
+  icon = "chalkboard-teacher"
   icon_pack = "fas"
-  name = "Statistics"
-  description = "100%"  
+  name = "Teaching and Collaboration"
   
 [[feature]]
-  icon = "camera-retro"
+  icon = "running"
   icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "Running"
 
 +++
