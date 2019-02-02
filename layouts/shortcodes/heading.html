@@ -1,0 +1,8 @@
+<!-- layouts/shortcodes/heading.html -->
+
+{{ $anchorized := anchorize .Inner }}
+
+<h2 id="{{ $anchorized }}">
+  <a href="#{{ $anchorized }}">#</a>
+  {{ .Inner }}
+</h2>
