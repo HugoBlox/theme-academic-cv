@@ -148,7 +148,7 @@ sharing = true
   #   0 = Simple
   #   1 = Detailed
   #   2 = Stream
-  talk_format = 2
+  talk_format = 0
 
 # Search.
 [search]
