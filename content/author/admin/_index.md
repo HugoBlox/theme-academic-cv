@@ -20,9 +20,9 @@ email = "rudra@cse.iitb.ac.in"
 
 # List (academic) interests or hobbies
 interests = [
-  "Artificial Intelligence",
-  "Computational Linguistics",
-  "Information Retrieval"
+  "Natural Language Processing",
+  "Deep Learning",
+  "Multilingual Learning"
 ]
 
 # List qualifications (such as academic degrees)
