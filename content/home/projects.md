@@ -41,12 +41,12 @@ filter_default = 0
   tag = "*"
 
 [[filter]]
-  name = "Deep Learning"
-  tag = "Deep Learning"
+  name = "Language Understanding"
+  tag = "nlu"
 
 [[filter]]
-  name = "Other"
-  tag = "Demo"
+  name = "Weak Supervision"
+  tag = "lld"
 
 +++
 
