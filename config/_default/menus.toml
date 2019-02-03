@@ -9,11 +9,6 @@
   weight = 1
 
 [[main]]
-  name = "Research Summary"
-  url = "#teaching"
-  weight = 6
-
-[[main]]
   name = "Publications"
   url = "#publications_featured"
   weight = 2
@@ -31,7 +26,7 @@
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 6
+  weight = 5
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

@@ -84,3 +84,8 @@ interests = [
 +++
 
 Hi, I am a Research Scholar working under Professor. Pushpak Bhattacharyya. My interests are in Natural Language Processing(NLP) and Deep Learning. I am working on application of Deep Learning to NLP. Currently my work is focused on Multilingual Neural Named Entity Recognition.
+
+#### Research Summary
+
+> **Pinky:** Gee, Brain, What do you want to do today?  
+> **Brain:** The same thing we do everyday, Pinky. Borrow features from high-resource language to improve NLP Task performance in low-resource languages
