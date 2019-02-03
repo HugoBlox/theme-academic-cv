@@ -5,11 +5,11 @@
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
 # Title of your site
-title = "Academic"
+title = "Rudra Murthy"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = "https://murthyrudra.github.io/"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`.
@@ -29,7 +29,7 @@ disqusShortname = ""
 theme = "academic"
 
 # Get last modified date for content from Git?
-enableGitInfo = false
+enableGitInfo = true
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
@@ -60,3 +60,17 @@ preserveTaxonomyNames = true
   category = "categories"
   publication_type = "publication_types"
   author = "authors"
+
+[author]
+  name = "Rudra Murthy V"
+  # bio = "Super bio with markdown support **COOL**"
+  job = "PhD Student"
+  location = "Mumbai, India"
+  # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
+  # gravatarEmail = "rudra@cse.iitb.ac.in"
+  # Your profile picture
+  # Overwritten by your gravatar image if `author.gravatarEmail` is filled
+  picture = "/img/profile.jpg"
+  # Your Twitter username without the @. E.g : thibaudlepretre
+  twitter = "rudramurthyv"
+  # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311

@@ -1,0 +1,10 @@
++++
+title = "A Deep Learning Solution to Named Entity Recognition"
+date = 2018-01-01
+authors = ["Rudra Murthy", "Pushpak Bhattacharyya"]
+publication_types = ["1"]
+abstract = "Identifying named entities is vital for many Natural Language Processing (NLP) applications. Much of the earlier work for identifying named entities focused on using handcrafted features and knowledge resources (feature engineering). This is a barrier for resource-scarce languages as many resources are not readily available. Recently, Deep Learning techniques have been proposed for various NLP tasks requiring little/no hand-crafted features and knowledge resources, instead the features are learned from the data. Many proposed deep learning solutions for Named Entity Recognition (NER) still rely on feature engineering as opposed to feature learning. However, it is not clear whether the deep learning system or the engineered features are responsible for the positive results reported. This is in contrast with the goal of deep learning systems i.e., to learn the features from the data itself. In this study, we show that a feature learned deep learning system is a viable solution to NER task. We test our deep learning systems on CoNLL English and Spanish NER datasets. Our system is able to give comparable results with the existing state-of-the-art feature engineered systems for English. We report the best performance of 89.27 F-Score for English when comparing with systems which do not use any handcrafted features or knowledge resources. Evaluation of our trained system on out-of-domain data indicate that the results are promising with the reported results. Our system when tested on Spanish NER achieves the best reported F-Score of 82.59 indicating its applicability to other languages."
+selected = false
+publication = "*Computational Linguistics and Intelligent Text Processing*"
++++
+

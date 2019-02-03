@@ -1,22 +1,22 @@
 +++
 # Display name
-name = "Nelson Bighetti"
+name = "Rudra Murthy V"
 
 # Is this the primary user of the site?
 superuser = true
 
 # Role/position
-role = "Professor of Artificial Intelligence"
+role = "PhD Student"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Stanford University", url = "" } ]
+organizations = [ { name = "Indian Institute Of Technology Bombay", url = "http://iitb.ac.in/" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "My research interests include distributed robotics, mobile computing and programmable matter."
+bio = "My research interests include multilingual learning for various Natural Language Processing Tasks."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = ""
+email = "rudra@cse.iitb.ac.in"
 
 # List (academic) interests or hobbies
 interests = [
@@ -27,19 +27,14 @@ interests = [
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
+  course = "ME in Data Mining"
+  institution = "Indian Institute Of Science, Bengaluru"
+  year = 2013
 
 [[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
-
-[[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
+  course = "BE in Computer Science"
+  institution = "RNS Institute of Technology, Bengaluru"
+  year = 2011
 
 # Social/Academic Networking
 #
@@ -67,17 +62,17 @@ interests = [
 [[social]]
   icon = "twitter"
   icon_pack = "fab"
-  link = "https://twitter.com/GeorgeCushen"
+  link = "https://twitter.com/rudramurthyv"
 
 [[social]]
   icon = "google-scholar"
   icon_pack = "ai"
-  link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+  link = "https://scholar.google.co.in/citations?user=5bjj_9cAAAAJ&hl=en"
 
 [[social]]
   icon = "github"
   icon_pack = "fab"
-  link = "https://github.com/gcushen"
+  link = "https://github.com/murthyrudra"
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -88,6 +83,4 @@ interests = [
 
 +++
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+Hi, I am a Research Scholar working under Professor. Pushpak Bhattacharyya. My interests are in Natural Language Processing(NLP) and Deep Learning. I am working on application of Deep Learning to NLP. Currently my work is focused on Multilingual Neural Named Entity Recognition.
