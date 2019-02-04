@@ -6,7 +6,7 @@ title = "Pepa Atanasova"
 role = "PhD Student"
 
 # Short bio (displayed in user profile at end of posts)
-bio = "This is Pepa"
+bio = "Pepa's research interests are multilingual fact checking and question answering."
 
 # External website link
 external_link = "https://scholar.google.co.uk/citations?user=CLOC3rEAAAAJ"

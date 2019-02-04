@@ -6,7 +6,7 @@ title = "Johannes Bjerva"
 role = "Postdoc"
 
 # Short bio (displayed in user profile at end of posts)
-bio = "This is Johannes"
+bio = "Johannes researches multi-lingual and multi-task learning, with a particular focus on exploiting similarities between languages."
 
 # External website link
 external_link = "http://bjerva.github.io/"

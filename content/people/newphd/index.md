@@ -6,7 +6,7 @@ title = "NN PhD Student"
 role = "PhD Student"
 
 # Short bio (displayed in user profile at end of posts)
-bio = "This is a new PhD student, joining in Spring 2019"
+bio = "This is a new PhD student, joining in Spring 2019."
 
 # External website link
 # external_link = "http://isabelleaugenstein.github.io/"
