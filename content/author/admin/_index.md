@@ -83,9 +83,13 @@ interests = [
 
 +++
 
-Hi, I am a Research Scholar working under Professor. Pushpak Bhattacharyya. My interests are in Natural Language Processing(NLP) and Deep Learning. I am working on application of Deep Learning to NLP. Currently my work is focused on Multilingual Neural Named Entity Recognition.
+Hi, I am a Research Scholar working under Professor. Pushpak Bhattacharyya. My area of interest is application of Deep Learning to various Natural Language Processing(NLP) tasks. Currently my work is focused on Multilingual Neural Named Entity Recognition.
 
 #### Research Summary
 
 > **Pinky:** Gee, Brain, What do you want to do today?  
 > **Brain:** The same thing we do everyday, Pinky. Borrow features from high-resource language to improve NLP Task performance in low-resource languages
+
+Deep Learning techniques have become the *de-facto* approach for any Natural Language Processing (NLP) task. Deep neural networks coupled with unsupervised learning (in the form of pre-trained word embeddings or initial training of language model followed by supervised training) have revolutionised the area of NLP, at least for resource-rich languages. However, the success of deep learning techniques needs to be taken with a pinch of salt. The deep learning techniques have known to perform badly for low-resource languages when trained on very small data. To be fair even traditional machine learning models would perform badly if not for feature engineering. Due to limited data the model cannot reliably establish correlations with features and class labels leading to poor performance.
+
+In my thesis, I focus on borrowing features (implictly statistics) from a related language (also known as multilingual learning). This should minimize the impact of data sparsity and lead to imrpovements in the low-resource language for the task in hand. We apply the above intuition to Named Entity recognition (NER) task. We show that borrowing features from a related languages infact helps improve the NER performance in low-resource languages. However, the improvements gained is limited by the lexical gap between the two languages. Though the lexical gap can be overcome by use of crosslingual embeddings, these embeddings have known to be of poor quality for Indian languages. Currently, my research is focused on obtaining better crosslingual embeddings for Indian languages.
