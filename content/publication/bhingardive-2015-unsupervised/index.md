@@ -6,6 +6,6 @@ publication_types = ["1"]
 abstract = ""
 featured = false
 publication = "*Proceedings of the 2015 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*"
-tags = ["Word Embeddings", "Word Sense Disambiguation"]
+tags = ["word embeddings", "word sense disambiguation"]
 +++
 
