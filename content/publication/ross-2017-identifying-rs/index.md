@@ -4,7 +4,7 @@ date = 2017-01-01
 authors = ["Joe Cheri Ross", "Rudra Murthy", "Kaustuv Kanti Ganguli", "Pushpak Bhattacharyya"]
 publication_types = ["1"]
 abstract = ""
-selected = false
+featured = false
 publication = "*13th International Symposium on Computer Music Multidisciplinary Research*"
 +++
 
