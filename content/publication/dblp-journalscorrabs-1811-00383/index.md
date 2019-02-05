@@ -6,6 +6,7 @@ publication_types = ["2"]
 abstract = ""
 featured = false
 publication = "*CoRR*"
+tags = ["Indian languages", "Neural Machine Translation", "low-resource languages", "Pre-Ordering"]
 url_pdf = "http://arxiv.org/abs/1811.00383"
 +++
 
