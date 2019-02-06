@@ -3,10 +3,10 @@ title = "Judicious Selection of Training Data in Assisting Language for Multilin
 date = 2018-01-01
 authors = ["Rudra Murthy", "Anoop Kunchukuttan", "Pushpak Bhattacharyya"]
 publication_types = ["1"]
-abstract = "Multilingual  learning  for  Neural  NamedEntity    Recognition    (NNER)    involvesjointly   training   a   neural   network   formultiple languages.  Typically, the goal isimproving th    e NER performance of one ofthe languages (the primary language) us-ing the other assisting languages. We showthat the divergence in the tag distributionsof  the  common  named  entities  betweenthe  p    rimary  and  assisting  languages  canreduce  the  effectiveness  of  multilinguallearning.    To  alleviate  this  problem,  wepropose a metric based on symmetric KLdivergence  to  filter  out  the      highly  diver-gent  training  instances  in  the  assistinglanguage.   We  empirically  show  that  ourdata selection strategy improves NER per-formance  in  many  languages,  includingthose with very     limited training data."
+abstract = "Multilingual learning for Neural Named Entity Recognition (NNER) involves jointly training a neural network for multiple languages. Typically, the goal is improving the NER performance of one of the languages (the primary language) using the other assisting languages. We show that the divergence in the tag distributions of the common named entities between the primary and assisting languages can reduce the effectiveness of multilingual learning. To alleviate this problem, we propose a metric based on symmetric KL divergence to filter out the highly divergent training instances in the assisting language. We empirically show that our data selection strategy improves NER performance in many languages, including those with very limited training data."
 featured = true
 publication = "*Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)*"
-tags = ["Indian languages", "named entity recognition", "deep learning", "low-resource languages", "multilingual learning"]
+tags = ["indian languages", "named entity recognition", "deep learning", "low-resource languages", "multilingual learning"]
 url_pdf = "http://aclweb.org/anthology/P18-2064"
 +++
 
