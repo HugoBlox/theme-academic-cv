@@ -12,6 +12,7 @@ list_format = 2
 [header]
 image = ""
 caption = ""
+discussionId = 2
 +++
 
 The Neural NER system implemented by me as part of the papers [TALLIP paper]({{< ref "/publication/low-resource-tallip/index.md" >}}) and [ACL 2018 Paper]({{< ref "/publication/p-18-2064/index.md" >}}) achieves the following *F1-Scores* on various languages.

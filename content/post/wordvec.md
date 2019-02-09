@@ -12,6 +12,7 @@ list_format = 2
 [header]
 image = ""
 caption = ""
+discussionId = 3
 +++
 
 If language is a medium of communication then words are symbols of communication. Words represent some concepts which when agreed upon by both the parties involved, make the information conveyed unambiguous. How do these words behave? Can we somehow model the behaviour of words?

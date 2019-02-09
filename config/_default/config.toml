@@ -75,3 +75,7 @@ preserveTaxonomyNames = true
   # Your Twitter username without the @. E.g : thibaudlepretre
   twitter = "rudramurthyv"
   # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
+
+[params]
+  talkyardServerUrl = "https://comments-for-murthyrudra-github-io.talkyard.net"
+
