@@ -16,19 +16,19 @@
 
 - 原生 JavaScript, DOM, ES6. 熟练使用 jQuery, AJAX 进行页面效果开发以及前后端数据交互
 
-- 熟悉后端技术 Node.js, Express, PHP, MySQL。有项目部署经验(新浪云, AWS)
+- 熟悉后端技术 Node.js, Express, MySQL。有项目部署经验(新浪云, AWS)
 
-- 使用过 Vue.js, React 进行项目开发, 使用过  常见前端框架 Bootstrap, Angular, Ionic, React Native
+- 使用过 Vue.js, React 进行项目开发, 使用过常见前端框架
 
 - 对前端工程化、组件化、前后端分离开发模式有基本认知
 
 - 静态网页编写以及样式布局 HTML, CSS, LESS
 
-- 常见开发工具的使用 Git, Terminal, npm, webpack, VSCode, macOS. 使用 Chrome Devtool 调试
+- 常见开发工具的使用 Git, Terminal, npm, webpack, Gulp, VSCode, macOS. 使用 Chrome Devtool 调试
 
 - 能阅读英文文档, 长期的英文信息阅读习惯
 
-**项目经验**
+**个人项目**
 
 - Steam 游戏商城  
   **技术栈:** jQuery, AJAX, Node.js, Express, MySQL  
