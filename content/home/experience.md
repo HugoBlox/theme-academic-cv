@@ -14,9 +14,15 @@ weight = 60
 
 +++
 
-### Oct. 2017 ~ now
+### March. 2018 ~ now
 
-Frontend Web Develper Intern, 才秀人人, Xiamen
+Frontend Web Developer, 农大侠(厦门)信息技术有限公司, Xiamen
+
+- Frontend web development
+
+### Oct. 2017 ~ March. 2018
+
+Frontend Web Developer Intern, 才秀人人, Xiamen
 
 - Frontend web development
 
@@ -31,4 +37,3 @@ Interior design, 港福达装饰, Xiamen
 Java Intern, 上海曦贝, Shanghai
 
 - Java development
-
