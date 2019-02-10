@@ -1,5 +1,5 @@
 +++
-# Recent and Upcoming Talks widget.
+# News widget, based on Recent and Upcoming Talks widget.
 widget = "talks"
 active = true
 date = 2019-02-10
