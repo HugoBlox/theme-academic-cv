@@ -13,7 +13,7 @@ role = "Natural Language Understanding Research Group"
 organizations = [ { name = "Machine Learning Section, Department of Computer Science, University of Copenhagen", url = "https://di.ku.dk/english/research/machine-learning" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "CopeNLU is a Natural Language Processing research group with a focus on researching methods for tasks that require a deep understanding of language, as opposed to shallow pattern recognition. We are affiliated with the Machine Learning Section at the Department of Computer Science, University of Copenhagen."
+bio = "CopeNLU is a Natural Language Processing research group lead by Isabelle Augenstein with a focus on researching methods for tasks that require a deep understanding of language, as opposed to shallow pattern recognition. We are affiliated with the Machine Learning Section at the Department of Computer Science, University of Copenhagen."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = ""
@@ -64,5 +64,5 @@ interests = ["Natural Language Understanding", "Learning with Limited Labelled D
 
 +++
 
-CopeNLU is a Natural Language Processing research group with a focus on researching methods for tasks that require a deep understanding of language, as opposed to shallow processing.
+CopeNLU is a Natural Language Processing research group lead by <a href="http://isabelleaugenstein.github.io">Isabelle Augenstein</a> with a focus on researching methods for tasks that require a deep understanding of language, as opposed to shallow processing.
 We are affiliated with the <a href="https://di.ku.dk/english/research/machine-learning">Machine Learning Section</a> at the Department of Computer Science, University of Copenhagen, as well as <a href="https://di.ku.dk/english/research/imagesection/nlp/">NLP at the University of Copenhagen</a>. We are interested in core methodology research on, among others, learning with limited training data; as well as applications thereof to tasks such as fact checking, knowledge base population and question answering.

@@ -128,7 +128,7 @@ custom_js  = []
 # Configuration of talk pages.
 [talks]
   # Show talk time?
-  time = true
+  time = false
 
 # Configuration of publication pages.
 [publications]
