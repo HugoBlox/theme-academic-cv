@@ -50,4 +50,4 @@ filter_default = 0
 
 +++
 
-* Worked on Information Extraction on SMS related to LG products consultancy project for LGsoft Bangalore from June 2017 to December 2017
+* Worked on **Information Extraction on SMS related to LG products** consultancy project for LGsoft Bangalore from June 2017 to December 2017
