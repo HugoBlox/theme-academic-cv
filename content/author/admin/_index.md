@@ -83,7 +83,7 @@ interests = [
 
 +++
 
-Hi, I am a Research Scholar working under Professor. Pushpak Bhattacharyya. My area of interest is application of Deep Learning to various Natural Language Processing(NLP) tasks. Currently my work is focused on Multilingual Neural Named Entity Recognition.
+Hi, I am a Research Scholar from [Center For Indian Language Technology](http://www.cfilt.iitb.ac.in/) lab headed by [Professor. Pushpak Bhattacharyya](www.cse.iitbacin/~pb). My area of interest is Deep Multilingual Learning to various Natural Language Processing(NLP) tasks.
 
 #### Research Summary
 
