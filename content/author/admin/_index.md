@@ -83,7 +83,7 @@ interests = [
 
 +++
 
-Hi, I am a Research Scholar from [Center For Indian Language Technology](http://www.cfilt.iitb.ac.in/) lab headed by [Professor. Pushpak Bhattacharyya](https://www.cse.iitb.ac.in/~pb/). My area of interest is Deep Multilingual Learning to various Natural Language Processing(NLP) tasks.
+Hi, I am a Research Scholar from [Center For Indian Language Technology](http://www.cfilt.iitb.ac.in/) lab headed by [Professor. Pushpak Bhattacharyya](https://www.cse.iitb.ac.in/~pb/). My area of interest is Deep Multilingual Learning to various Natural Language Processing(NLP) tasks. To know more about me click [here]({{< ref "/about/index.hmd" >}})
 
 #### Research Summary
 
