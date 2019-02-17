@@ -17,6 +17,6 @@
 # Personal Works Collection
 
 - [fakesteam](http://fakesteam.oxxd.me)
-- [React Musci Player](http://oxxd.github.io/react-music-player)
+- [React Music Player](http://oxxd.github.io/react-music-player)
 - [Blog](http://oxxd.github.io)
 - [个人页面](https://oxxd.me)
