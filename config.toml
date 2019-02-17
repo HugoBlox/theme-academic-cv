@@ -3,7 +3,7 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "http://oxxd.me/"
+baseurl = "https://oxxd.me/"
 # publishDir = "docs"
 
 # Title of your site
@@ -301,7 +301,7 @@ defaultContentLanguageInSubdir = false
     name = "PDF"
     url = "https://github.com/OXXD/resume/blob/master/static/resume/林仁鑫-前端开发.pdf"
     weight = 5
-  
+
   # [[languages.zh.menu.main]]
   #   name = "English"
   #   url = "../"
@@ -311,7 +311,7 @@ defaultContentLanguageInSubdir = false
   languageCode = "en-us"
   title = "Resume - Renxin Lin"
   name = "Renxin Lin"
-  role = "Frontend Web Developer" 
+  role = "Frontend Web Developer"
   office_hours = "Please send an email for appointment"
 
 [languages.zh]
