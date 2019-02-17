@@ -2,9 +2,11 @@
 
 姓名: 林仁鑫
 
-求职意向: 前端开发实习／前端开发工程师
+求职意向: 前端开发工程师
 
 出生年月: 1995 年 2 月
+
+工作经验: 一年以上
 
 最高学历: 大专
 
@@ -16,7 +18,7 @@
 
 - 原生 JavaScript, DOM, ES6. 熟练使用 jQuery, AJAX 进行页面效果开发以及前后端数据交互
 
-- 熟悉后端技术 Node.js, Express, MySQL。有项目部署经验(新浪云, AWS)
+- 熟悉后端技术 Node.js, Express, MySQL。有项目部署经验(新浪云, AWS, CentOS)
 
 - 使用过 Vue.js, React 进行项目开发, 使用过常见前端框架
 
@@ -24,9 +26,26 @@
 
 - 静态网页编写以及样式布局 HTML, CSS, LESS
 
-- 常见开发工具的使用 Git, Terminal, npm, webpack, Gulp, VSCode, macOS. 使用 Chrome Devtool 调试
+- 常见开发工具的使用 Git, Terminal, npm, webpack, Gulp, VSCode, macOS. 使用 Chrome Devtools 调试
 
 - 能阅读英文文档, 长期的英文信息阅读习惯
+
+**项目经验**
+
+- P2P 金融项目 PC 网站重构  
+  **技术栈:** jQuery, Node.js, Egg.js, dubbo2.js, EJS, Less, Gulp, Echart.js  
+  **项目介绍:** 独立负责完整项目开发，旧系统使用 PHP，需要迁移到 JAVA 并使用新技术开发。前端方面独立负责 PC 系统的开发，使用 Node.js + EJS 进行服务端渲染（SSR），使用 dubbo2.js 调用后端 JAVA 接口。  
+  **项目地址:** [在线地址](https://www.360qfw.com) (https://www.360qfw.com)
+
+- 各类后台项目  
+  **技术栈:** Vue, Element-UI, Node.js, Express, Egg.js, dubbo2.js, Less, Echart.js  
+  **项目介绍:** 各种后台项目，基本都是使用 Vue + Element-UI 开发，使用 Node.js + dubbo2.js 通过 RPC 调用后端 JAVA 服务。Node 方面一开始使用简单的 Express 都后来稍微完整的阿里的 Node 框架 Egg.js。后台项目功能也都是比较常见的各类表单，表格数据展示，用户、角色权限、订单、各种业务模块管理，还有一些图表使用 Echart.js 实现。  
+  **项目地址:** [项目 1](http://admin.ops.1fendb.com), [项目 2](http://booking.meg-star.com:8880/mocao-ops/)
+
+- 沙县小吃后台，H5 在线点餐系统  
+  **技术栈:** Vue, Element-UI, Node.js, Egg.js, dubbo2.js, Less, Echart.js  
+  **项目介绍:** 后台和其他后台项目开发模式基本相同，独立负责。这个项目较大，还有供应商后台，和 H5 在线点餐系统（类似饿了么，美团外卖）。 H5 方面负责开发了订单模块，地理位置，店铺菜品搜索。  
+  **项目地址:** [后台](http://admin.ops.1fendb.com), [H5](http://h5.1fendb.com)
 
 **个人项目**
 
@@ -43,19 +62,19 @@
 
 - 个人页面  
   **技术栈:** Hugo, Academic Theme, Netlify, Git  
-  **项目介绍:** 这是使用 Hugo 框架快速搭建的在线响应式个人简历。并且部署到 Netlify, 使用自定义域名，绑定 SSL。  
+  **项目介绍:** 这是使用 Hugo 框架快速搭建的在线响应式个人简历。并且部署到 Netlify, 使用自定义域名，绑定 HTTPS。  
   **项目地址:** [在线演示](https://oxxd.me) (https://oxxd.me)
 
-- React 音乐播放器  
-  **技术栈:** React, React Router, webpack, webpack-dev-server, jPlayer  
-  **项目介绍:** 参考课程使用 React 实现的网页音乐播放器。  
-  使用 React 编写, React Router 实现页面跳转, Pubsub 管理事件。使用 webpack 打包资源文件， react-hot-loader 和 HMR 热加载进行开发。使用 jPlayer 控制音乐播放状态, Less 进行样式布局  
-  **项目地址:** [在线演示](https://oxxd.github.io/react-music-player/) (https://oxxd.github.io/react-music-player/)
+<!-- - React 音乐播放器
+  **技术栈:** React, React Router, webpack, webpack-dev-server, jPlayer
+  **项目介绍:** 参考课程使用 React 实现的网页音乐播放器。
+  使用 React 编写, React Router 实现页面跳转, Pubsub 管理事件。使用 webpack 打包资源文件， react-hot-loader 和 HMR 热加载进行开发。使用 jPlayer 控制音乐播放状态, Less 进行样式布局
+  **项目地址:** [在线演示](https://oxxd.github.io/react-music-player/) (https://oxxd.github.io/react-music-player/) -->
 
 **工作经验**
 
-- 农大侠(厦门)信息技术有限公司 2018.3  
-  前端开发工程师
+- 农大侠(厦门)信息技术有限公司 2018.3 至今  
+  前端开发工程师，主要使用 Vue，Node.js 参与了各类项目开发，PC，H5，后台项目。
 
 - 才秀人人 2017.9-2018.3  
   前端开发实习
@@ -64,7 +83,7 @@
   设计师实习
 
 - 上海曦贝信息技术有限公司 2012-2013  
-  Java 开发实习. 零基础学习 Java, J2EE, Spring, Tomcat, MySQL 之后参与了简单的企业内部项目开发.
+  Java 开发实习. 零基础学习 Java, J2EE, Spring, Tomcat, MySQL 之后参与了简单的企业内部项目开发。
 
 **自我介绍**
 
