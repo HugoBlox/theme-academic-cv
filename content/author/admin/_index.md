@@ -76,7 +76,7 @@ interests = [
 
 [[social]]
     icon = "linkedin"
-    icon_pack = "fa"
+    icon_pack = "fab"
     link = "https://www.linkedin.com/in/rudra-murthy-96521a45"
 
 # Link to a PDF of your resume/CV from the About widget.
