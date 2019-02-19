@@ -74,6 +74,11 @@ interests = [
   icon_pack = "fab"
   link = "https://github.com/murthyrudra"
 
+ [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fa"
+    link = "https://www.linkedin.com/in/rudra-murthy-96521a45"
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # [[social]]
