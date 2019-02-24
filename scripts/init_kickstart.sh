@@ -3,7 +3,9 @@
 # WARNING: this will reset the project to the Kickstart template!
 
 # Update Academic
-source ../update_academic.sh
+cd ..
+source update_academic.sh
+cd scripts/
 
 #################################################
 
