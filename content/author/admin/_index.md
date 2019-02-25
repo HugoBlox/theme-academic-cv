@@ -33,7 +33,7 @@ interests = [
   year = 2018
 
 [[education.courses]]
-  course = "Honours B.Com in Management Information Systems"
+  course = "B.Com in Management Information Systems"
   institution = "University of Ottawa"
   year = 2016
 
