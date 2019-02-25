@@ -15,7 +15,7 @@ role = "Master of Data Science Student and Data Viz Enthusiast"
 bio = "I want to create intuitive data visualizations using data science techniques and algorithms."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = ""
+email = "milibankeyim@gmail.com"
 
 # List (academic) interests or hobbies
 interests = [
