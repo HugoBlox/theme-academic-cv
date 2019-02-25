@@ -21,8 +21,8 @@ weight = 7
   name = "R"
   
 [[feature]]
-  icon = "Adobe"
-  icon_pack = "fas"
+  icon = "adobe"
+  icon_pack = "fab"
   name = "Adobe CS"
   
 [[feature]]
