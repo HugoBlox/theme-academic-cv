@@ -16,18 +16,49 @@ weight = 7
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
-  icon = "r-project"
-  icon_pack = "fab"
-  name = "R"
+  icon = "chart-bar"
+  icon_pack = "fas"
+  name = "Visualization"
   
 [[feature]]
   icon = "adobe"
   icon_pack = "fab"
   name = "Adobe CS"
+
+[[feature]]
+  icon = "python"
+  icon_pack = "fab"
+  name = "Python"
+
+[[feature]]
+  icon = "r-project"
+  icon_pack = "fab"
+  name = "R"
   
 [[feature]]
-  icon = "camera-retro"
+  icon = "database"
   icon_pack = "fas"
-  name = "Photography"
+  name = "SQL"
+  
+[[feature]]
+  icon = "linode"
+  icon_pack = "fab"
+  name = "Machine Learning"
+  
+[[feature]]
+  icon = "percentage"
+  icon_pack = "fas"
+  name = "Statistics"
+  
+[[feature]]
+  icon = "search-plus"
+  icon_pack = "fas"
+  name = "Data Analysis"
+  
+[[feature]]
+  icon = "utensils"
+  icon_pack = "fas"
+  name = "Cooking"
+
 
 +++
