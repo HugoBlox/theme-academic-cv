@@ -22,7 +22,7 @@ interests = [
   "Data Visualization",
   "Machine Learning",
   "Statistical Inference & Analysis",
-  "Data Analysiss"
+  "Data Analysis"
 ]
 
 
@@ -35,7 +35,7 @@ interests = [
 [[education.courses]]
   course = "Honours B.Com in Management Information Systems"
   institution = "University of Ottawa"
-  year = 2006
+  year = 2016
 
 
 # Social/Academic Networking
