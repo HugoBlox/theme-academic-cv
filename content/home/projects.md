@@ -12,7 +12,8 @@ weight = 50
 # Content.
 # Display content from the following folder.
 # For example, `folder = "project"` displays content from `content/project/`.
-folder = "project"
+ # Optional external URL for project (replaces project detail page).
+ external_link = "[http://example.org](http://example.org/)"
 
 # View.
 #   1 = List
