@@ -78,3 +78,11 @@ $$\begin{align}
 &= \sum \log \frac{\exp^{c^Tw}}{\sum\_{k} \exp^{k^Tw}}
 \end{align}$$
 We have now arrived at the skip-gram definition.
+
+#### References
+
+* Mikolov, Tomas; et al. "Efficient Estimation of Word Representations in Vector Space"
+* Mikolov, Tomas, Ilya Sutskever, Kai Chen, Greg S. Corrado, and Jeff Dean. "Distributed representations of words and phrases and their compositionality." In Advances in neural information processing systems, pp. 3111-3119. 2013.
+* Mikolov, Tomas, Wen-tau Yih, and Geoffrey Zweig. "Linguistic regularities in continuous space word representations." In Proceedings of the 2013 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pp. 746-751. 2013.
+* Goldberg, Yoav, and Omer Levy. "word2vec Explained: deriving Mikolov et al.'s negative-sampling word-embedding method." arXiv preprint arXiv:1402.3722 (2014).
+* Rudolph, Maja, Francisco Ruiz, Stephan Mandt, and David Blei. "Exponential family embeddings." In Advances in Neural Information Processing Systems, pp. 478-486. 2016.
