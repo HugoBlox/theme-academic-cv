@@ -10,9 +10,9 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Health Insurance",
-    "Low-Wage Work",
-    "Data Science"
+    "Health insurance",
+    "Low-wage work",
+    "Data science"
   ]
 
 # List your qualifications (such as academic degrees).
