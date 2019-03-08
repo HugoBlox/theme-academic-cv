@@ -10,3 +10,4 @@ tags = ["indian languages", "named entity recognition", "deep learning", "low-re
 url_pdf = "http://aclweb.org/anthology/P18-2064"
 +++
 
+The Marathi named entity annotated data described in the paper can be downloaded [here](http://www.cfilt.iitb.ac.in/ner/download_data.html).
