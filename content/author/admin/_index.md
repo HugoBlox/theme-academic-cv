@@ -85,7 +85,7 @@ user_groups = ["Researchers", "Visitors"]
 
 WELCOME!
 
-So either you stumbled upon this page or you were directed here. In case, welcome to the home of Robert Underwood. Obviously, I’m Robert Underwood. Let me tell you a bit about myself.
+So either you stumbled upon this page or you were directed here. In any case, welcome to the home of Robert Underwood. Obviously, I’m Robert Underwood. Let me tell you a bit about myself.
 
 I was born and raised in Pittsburgh, PA. As class valedictorian at Oliver High School in 2005, I was expected to do great things. Then I graduated with a Bachelor of Science in Mathematical Sciences from Carnegie Mellon University in 2009 into the worst recession seen since the Great Depression.
 
