@@ -6,7 +6,7 @@ name = "Uddeshya Upadhyay"
 superuser = true
 
 # Role/position
-role = "Graduate student | Computer Science and Engineering"
+role = "Undergrad | Computer Science and Engineering"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
