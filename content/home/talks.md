@@ -3,7 +3,7 @@
 # This section displays recent talks from `content/talk/`.
 
 widget = "pages"  # Do not modify this line!
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false
 weight = 70  # Order that this section will appear.
 
 title = "Recent & Upcoming Talks"

@@ -1,0 +1,220 @@
+---
+title: Low Birth Weights
+summary: 'A brief analysis of the birth weight dataset in R'
+author: 'Robert Underwood'
+date: '2017-03-12'
+slug: low-birth-weights
+categories: ['data analysis', 'predictive analytics']
+tags: ['data analysis', 'predictive analytics']
+slides: ""
+comments: no
+showcomments: yes
+showpagemeta: yes
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+Health care providers, governments, and parents want children to grow up to be healthy, productive citizens.  As a result, billions of dollars have been plunged into helping families from birth through adulthood.  The first step in this process is to ensure that children are born healthy.  In 1986, Baystate Medical Center in Springfield, MA collected data on the birth weights of 189 children.  The goal is to use this data to create a few models to determine what factors go into determining whether a child is born at a healthy weight or not.  These models can then be used to provide potential mothers with the best information possible for keeping their children healthy.
+
+This dataset is in the MASS package in R.  Some of the variables include the mother's age and weight and whether the mother smoked during the pregnancy.  
+
+```{r}
+library(MASS)
+data(birthwt)
+head(birthwt)
+```
+
+Of these 189 women, the ages ranged from 14 to 45 and the mothers had a pre-pregnancy weight between 80 and 250 lbs.  96 where white, 26 where black, and 67 had another ethnicity.  74 smoked during the pregnancy while 30 had a history of premature labors.  12 had high blood pressure.  28 had a presence of uterine irritability.  100 did not visit a physician during the first trimester.  Low birth weight is determined if a child's birth weight is under 2500 or 2.5 kg.  There were 59 children out of 189 which had a low birth weight.  It appears that the numerical birth weight data is somewhat normal.
+
+```{r}
+table(birthwt$low)
+barplot(table(birthwt$low), col="green", main="Birth Weight Barplot")
+hist(birthwt$bwt, col="red", main="Birth Weight Histogram", xlab="Birth Weight (g)")
+qqnorm(birthwt$bwt)
+qqline(birthwt$bwt, col="red")
+```
+
+There are two fortunate things about this dataset.  None of the predictor variables are highly correlated and there are no missing data points.
+
+```{r}
+cor(birthwt, use="complete.obs")
+missing.data = 0
+for (i in 1:length(birthwt))
+{
+  for (j in 1:length(birthwt[i,]))
+  {
+    if (is.na(birthwt[i,j])==TRUE){missing.data=missing.data+1}
+  }
+}
+missing.data
+```
+
+# Modeling
+There are two options for creating a model:  attempt to predict the numerical birth weights or attempt to predict which children would have a low birth weight.  However, there are a few categorical variables that require a transformation into dummy variables.  A sample of 126 points were used to build the models while 63 were set aside.
+
+```{r}
+race1 = factor(birthwt$race, labels = c("white", "black", "other"))
+race1=relevel(race1, ref="white")
+low1 = factor(birthwt$low, labels = c("no", "yes"))
+low1=relevel(low1, ref="no")
+smoke1=factor(birthwt$smoke, labels = c("no", "yes"))
+smoke1=relevel(smoke1, ref="no")
+ht1= factor(birthwt$ht, labels = c("no", "yes"))
+ht1=relevel(ht1, ref="no")
+ui1= factor(birthwt$ui, labels = c("no", "yes"))
+ui1=relevel(ui1, ref="no")
+birthwt1 = cbind(birthwt, low1, race1, smoke1, ht1, ui1)
+set.seed(1)
+train = sample(1:nrow(birthwt1), 126) #The test set is 63 which plays nice with 189
+```
+
+## Linear Regression
+To attempt to predict the birth weights, an OLS model was used.  The mother's weight, race, smoking, and UI showed to be significant, so a model was built with these variables.  
+
+```{r}
+library(car)
+OLS.full = lm(bwt~age+lwt+race1+smoke1+ptl+ht1+ui1+ftv, data=birthwt1, subset=train)
+summary(OLS.full)
+library(leaps)
+OLS.subset=regsubsets(bwt~age+lwt+race1+smoke1+ptl+ht1+ui1+ftv, data=birthwt1, subset=train)
+summary(OLS.subset)
+OLS.reduced=lm(bwt~race1+smoke1+ui1+lwt, data=birthwt1, subset=train)
+summary(OLS.reduced)
+anova(OLS.full, OLS.reduced)
+vif(OLS.reduced)
+library(lmtest)
+bptest(OLS.reduced, data=birthwt1)
+plot(OLS.reduced, which=1)
+```
+
+Based on the resiudal plot and the Breusch-Pagan Test being insignificant, heteroscedasticity does not appear to be a concern.  The variance inflation factors indicate that multicollinearity is not a concern either.
+
+Interestingly, non-whites, smokers, and those with a history of UI have smaller children than their counterparts.  For each additional pound a mother weighs, the child is 44.5 grams heavier. While the OLS model with all of the variables had more predictive power according to the ANOVA test, and R-squared, the reduced model was selected due to less variables being used.  Neither of these models do a decent job of predicting the birth weight.  Additional models, including interactive models, did not add any valuable information.  
+
+To show how ineffective this model is at prediction, it was used against the test data to show how well it can predict if a child has a low birth weight.
+
+```{r}
+reg.pred = predict(OLS.reduced, birthwt1[-train,])
+reg.low=ifelse(reg.pred>2500, 0, 1)
+reg.table=table(reg.low, birthwt1$low[-train])
+reg.table
+true.negatives.reg = reg.table[1,1]
+true.positives.reg = reg.table[2,2]
+
+false.positives.reg = reg.table[2,1]
+false.negatives.reg = reg.table[1,2]
+
+all.positives.reg = true.positives.reg+false.negatives.reg
+all.negatives.reg = true.negatives.reg+false.positives.reg 
+
+all.obs.reg = all.positives.reg+all.negatives.reg
+error.rate.reg = (false.positives.reg+false.negatives.reg)/all.obs.reg
+
+sensitivity.reg=true.positives.reg/all.positives.reg
+specificity.reg=true.negatives.reg/all.negatives.reg
+
+results.reg = c(error.rate.reg, sensitivity.reg, specificity.reg)
+names(results.reg) = c("Error Rate", "Sensitivity", "Specificity")
+results.reg
+```
+There is an acceptable error rate of 38%, but the sensitivity rate is only 16%, meaning it doesn't do a good job of prediciting which children have a low birth weight.
+
+##Binomial Logistic Regression
+A better attempt at creating a model was done using binomial logistic regression.  The goal is to predict if a child is born with a low birth weight.  Similar to the OLS model, Race, weight, smoking, and UI showed to be significant.
+```{r}
+bi.log = glm(low1~lwt+race1+smoke1+ui1, data=birthwt1, subset=train, 
+             family=binomial(link="logit"))
+summary(bi.log)
+log.odds = coef(bi.log)
+odds <- exp(log.odds)
+prob = odds/(1+odds)
+cbind(log.odds, odds, prob)
+```
+Non-whites, smokers, or those with a history of UI are more likely to have children with a low birth weight than their respective counterparts while heavier women are not.  To further evaluate how this model does at prediction, a classification matrix was creatred.
+
+```{r}
+log.pred = predict(bi.log, birthwt1[-train,], type="response")
+pred.log.low = ifelse(log.pred>0.5, 1, 0)
+log.table=table(pred.log.low, birthwt1$low[-train])
+true.negatives = log.table[1,1]
+true.positives = log.table[2,2]
+
+false.positives = log.table[2,1]
+false.negatives = log.table[1,2]
+
+all.positives = true.positives+false.negatives 
+all.negatives = true.negatives+false.positives 
+
+all.obs = all.positives+all.negatives
+
+
+error.rate.log = (false.positives+false.negatives)/all.obs
+
+sensitivity.log=true.positives/all.positives
+specificity.log=true.negatives/all.negatives
+
+results.log = c(error.rate.log, sensitivity.log, specificity.log)
+names(results.log) = c("Error Rate", "Sensitivity", "Specificity")
+results.log
+rbind(results.reg, results.log)
+```
+
+In comparison to the OLS model, this appears to be a worse job of prediction overall.  The error rate is higher while both the sensitivity and specificity rates are lower.
+
+##Classification Tree
+Another attempt involving a classification tree was used to determine if a child had a low birth weight.  The full tree indicated an entire node where the results were "no" regardless of the path.  As a result, the tree was pruned.
+```{r}
+library(tree)
+class.tree = tree(low1~age+lwt+race1+smoke1+ptl+ht1+ui1+ftv, data=birthwt1, subset=train)
+plot(class.tree)
+text(class.tree,pretty=0)
+
+prune.classtree.fit= prune.misclass(class.tree,best=5)
+plot(prune.classtree.fit)
+text(prune.classtree.fit, pretty=0)
+```
+
+Compared to the previous models, the most important variable appears to be the number of premature labors followed by pre-pregnancy weight then age and a history of UI.  Interestingly, race and smoking doesn't appear to have an effect.  Using the pruned tree, an attempt was made to predict if a child has a low birth weight.
+
+```{r}
+prune.predict=predict(prune.classtree.fit, birthwt1[-train,], type="class")
+prune.predict.table=table(prune.predict, birthwt1$low[-train])
+prune.predict.table
+true.negatives.prune.predict = prune.predict.table[1,1]
+true.positives.prune.predict = prune.predict.table[2,2]
+
+false.positives.prune.predict = prune.predict.table[2,1]
+false.negatives.prune.predict = prune.predict.table[1,2]
+
+all.positives.prune.predict = true.negatives.prune.predict+false.negatives.prune.predict 
+all.negatives.prune.predict = true.negatives.prune.predict+false.positives.prune.predict 
+
+all.obs.prune.predict = all.positives.prune.predict+all.negatives.prune.predict
+
+
+error.rate.prune.predict = (false.positives.prune.predict+false.negatives.prune.predict)/all.obs.prune.predict
+
+sensitivity.prune.predict=true.positives.prune.predict/all.positives.prune.predict
+specificity.prune.predict=true.negatives.prune.predict/all.negatives.prune.predict
+
+results.prune.predict = c(error.rate.prune.predict, sensitivity.prune.predict, specificity.prune.predict)
+names(results.prune.predict) = c("Error Rate", "Sensitivity", "Specificity")
+results.prune.predict
+
+rbind(results.reg, results.log, results.prune.predict)
+```
+While the predictions overall are very accurate and it does a great job of predicting which children won't have a low birth weight, it does a poor job of indicating which children do have a low birth weight.  Boosting and bagging trees were also attempted, but lead to similar results.
+
+# Conclusion
+Based on most of the models, race, smoking, and UI presence are useful predictors for if a child is born with a low birth rate.  As initially anticipated, there are other factors which can determine a child's weight that was not presented in the data.  For as bad as smoking is, alcohol and illegal drugs are more harmful to fetal development.  Another interesting variable would have been household income to determine if there is a disparity between poorer and wealthier households.  It is unknown how many of these women were married or single.
+
+```{r}
+hist(birthwt$age, col="cyan", main="Age Histogram", xlab="Mother's Age")
+```
+
+One somewhat shocking surprise was that age was not significant in most of the models.  Typically, younger women have to be more viligant on prenatal car because their bodies are less likely to handle a child.  There doesn't appear to be anything unusual about the data on this variable.
+
+The data, and as a result the model, is restricted to only the Baystate Medical Center.  A further study of other hospitals in the area and outside the area is needed to come to any major conclusions.  However, it is useful as an initial insight into a major health concern.

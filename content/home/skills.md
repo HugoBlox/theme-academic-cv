@@ -19,18 +19,45 @@ weight = 30
   icon = "r-project"
   icon_pack = "fab"
   name = "R"
-  description = "90%"
+  
+  [[feature]]
+  icon = "python"
+  icon_pack = "fab"
+  name = "Python"
+  
+  [[feature]]
+  icon = "database"
+  icon_pack = "fas"
+  name = "SQL"
+  
+  [[feature]]
+  icon = "file-excel"
+  icon_pack = "fas"
+  name = "Microsoft Excel"
   
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
   name = "Statistics"
-  description = "100%"  
   
 [[feature]]
-  icon = "camera-retro"
+  icon = "diagnoses"
   icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "Data Analysis"
+  
+[[feature]]
+  icon = "chart-area"
+  icon_pack = "fas"
+  name = "Data Modeling"
+
+[[feature]]
+  icon = "file-powerpoint"
+  icon_pack = "fas"
+  name = "Data Visualization including Power BI and Tableau"
+  
+  
+  
+   
+  
 
 +++
