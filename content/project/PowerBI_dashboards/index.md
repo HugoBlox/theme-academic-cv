@@ -19,7 +19,7 @@ summary = "Interactive dashboards with Automotive and Pharma Databases."
 slides = ""
 
 #Optional external URL for project (replaces project detail page).
-external_link = "https://pall-v.shinyapps.io/wine_viz_mkpv/"
+external_link = ""
 
 #Links (optional).
 
@@ -43,3 +43,10 @@ caption = ""
 
 focal_point = "" 
 +++
+
+<img src="https://raw.githubusercontent.com/mkeyim/mkeyim.github.io/master/project/PowerBI_dashboards/part_specific_sales.gif">
+
+
+<img src='https://raw.githubusercontent.com/mkeyim/mkeyim.github.io/master/project/PowerBI_dashboards/sales_dashboard.gif'>
+
+<img src = "https://raw.githubusercontent.com/mkeyim/mkeyim.github.io/master/project/PowerBI_dashboards/pharma_overview.gif">

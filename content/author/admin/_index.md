@@ -57,6 +57,8 @@ interests = [
   icon = "github"
   icon_pack = "fab"
   link = "https://github.com/mkeyim"
+  
+
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -64,6 +66,11 @@ interests = [
    icon = "cv"
    icon_pack = "ai"
    link = "files/resume.pdf"
+   
+[[social]]
+  icon = "drumstick-bite"
+  icon_pack = "fas"
+  link = "https://letsdinein.blog/"
 
 +++
 
