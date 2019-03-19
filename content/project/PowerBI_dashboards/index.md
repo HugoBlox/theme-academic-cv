@@ -4,6 +4,8 @@ date = 2019-02-26T03:15:12-07:00
 draft = false
 
 #Tags: can be used for filtering projects.
+tags = ['Power BI', 'Microsoft', "data visualization", "auto"]
+
 
 #Example: tags = ["machine-learning", "deep-learning"]
 #Project summary to display on homepage.
@@ -41,7 +43,7 @@ caption = ""
 #Focal point (optional)
 #Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
 
-focal_point = "" 
+focal_point = "Smart" 
 +++
 
 <img src="https://raw.githubusercontent.com/mkeyim/mkeyim.github.io/master/project/PowerBI_dashboards/part_specific_sales.gif">
