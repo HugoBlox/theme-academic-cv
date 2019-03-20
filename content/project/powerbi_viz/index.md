@@ -10,7 +10,7 @@ tags = ['Power BI', 'Microsoft', "data visualization", "auto"]
 #Example: tags = ["machine-learning", "deep-learning"]
 #Project summary to display on homepage.
 
-summary = "Interactive dashboards with Automotive and Pharma Databases."
+summary = "Sample Interactive dashboards with Automotive and Pharma clients."
 
 #Slides (optional).
 #Associate this page with Markdown slides.
