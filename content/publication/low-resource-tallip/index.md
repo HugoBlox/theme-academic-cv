@@ -11,5 +11,5 @@ url_pdf = "http://doi.acm.org/10.1145/3238797"
 doi = "10.1145/3238797"
 +++
 
-The Marathi named entity annotated data described in the paper can be downloaded [here](http://www.cfilt.iitb.ac.in/ner/download_data.html).
+The Marathi Named Entity annotated data described in the paper can be downloaded [here](http://www.cfilt.iitb.ac.in/ner/download_data.html).
 
