@@ -74,4 +74,4 @@ interests = [
 
 +++
 
-I have a creative passion and experience in the areas of data visualization, data analysis/retrieval, and marketing. With both a MIS degree and a Master of Data Science, I aim to increase to my knowledge and ability in the world of machine learning, user experience interfaces, and market related data modeling.
+I am a passionate communicator of ideas, with experience and education in data visualization, data retrieval and analysis, and marketing. With a Bachelor's in Management Information Systems,a Master of Data Science, and experience in the private industry and government in communicating with data and solving problems, I seek to address the challenges of the future with my skill and drive. I am interested in learning more in machine learning, user experience interfaces, and market related data modeling. As I am finishing my Master's, I am seeking full-time roles for September 2019 in data analytics and visualization in Montreal and Ottawa.
