@@ -36,8 +36,8 @@ Los Alamos National Laboratory 2010 LAAP Award for _Outstanding Summer Research 
 ## Professional Service
 
 - IEEE Power & Energy Society, Power System Operations Committee, [_Benchmarks for Validation of Emerging Power System Algorithms_](https://power-grid-lib.github.io/) Task Force Chair, 2016 - Present
-- Los Alamos National Laboratory, [_Quantum Computing Summer School_](https://quantumcomputing.lanl.gov/), Co-Lead, 2018
-- Los Alamos National Laboratory, [_Grid Science Winter School_](http://www.cvent.com/events/2017-grid-science-winter-school-conference/event-summary-a84a476bbd734a898ff41548a756ac96.aspx), Program Committee, 2017
+- Los Alamos National Laboratory, [_Quantum Computing Summer School_](https://quantumcomputing.lanl.gov/), Co-Lead, 2018-2019
+- Los Alamos National Laboratory, [_Grid Science Winter School_](http://www.cvent.com/events/2017-grid-science-winter-school-conference/event-summary-a84a476bbd734a898ff41548a756ac96.aspx), Program Committee, 2017-2019
 - 28th Australasian Joint Conference on Artificial Intelligence, Student Symposium Chair, 2015
 - Principles and Practice of Constraint Programming, _Doctoral Program_, Program Committee, 2015
 - Reviewer: IEEE Transactions on Power Systems 2012-Present, Smart Grid 2014-Present; PSCC 2016, 2018; IEEE PES GM 2016; AAAI 2014, 2015; IJCAI 2013, 2015; CP 2011
