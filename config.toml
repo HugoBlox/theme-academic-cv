@@ -59,10 +59,9 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   anchor = "smart"  # Anchor for cropping. Options include Smart and Center.
   
   
-  [[menu.main]]
-  name = "Posts"
-  url = "/post/"
-  weight = 3
+[permalinks]
+Posts = "/post/:slug/"
+
 
 # Taxonomies.
 [taxonomies]
