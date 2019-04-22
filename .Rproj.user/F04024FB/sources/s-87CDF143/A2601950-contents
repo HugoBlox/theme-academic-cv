@@ -57,10 +57,6 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   resampleFilter = "lanczos"
   quality = 90
   anchor = "smart"  # Anchor for cropping. Options include Smart and Center.
-  
-  
-[permalinks]
-Posts = "/post/:slug/"
 
 
 # Taxonomies.
