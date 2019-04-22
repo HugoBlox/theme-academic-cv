@@ -29,7 +29,7 @@ interests = [
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-## user_groups = ["Researchers", "Visitors"]
+# user_groups = ["Researchers", "Visitors"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
@@ -37,12 +37,12 @@ interests = [
   institution = "Stanford University"
   year = 2019
 
-##[[education.courses]]
+[[education.courses]]
   course = "MEng in Artificial Intelligence"
   institution = "Massachusetts Institute of Technology"
   year = 2009
 
-##[[education.courses]]
+[[education.courses]]
   course = "BSc in Artificial Intelligence"
   institution = "Massachusetts Institute of Technology"
   year = 2008
@@ -55,17 +55,17 @@ interests = [
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:mikaylaedwards19@gmail.com"  # For a direct email link, use "mailto:test@example.org".
+  link = "mailto:mikaylaedwards19@gmail.com"  
 
 [[social]]
-  icon = "LinkedIn"
+  icon = "linkedin"
   icon_pack = "fab"
-  link = "https://twitter.com/GeorgeCushen"
+  link = "https://linkedin.com/mikaylaedwards19"
 
-#[[social]]
-#  icon = "google-scholar"
-#  icon_pack = "ai"
-#  link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+[[social]]
+  icon = "google-scholar"
+  icon_pack = "ai"
+  link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
 
 [[social]]
   icon = "github"
