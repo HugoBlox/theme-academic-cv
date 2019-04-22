@@ -61,7 +61,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   
   [[menu.main]]
   name = "Posts"
-  url = "/posts/"
+  url = "/post/"
   weight = 3
 
 # Taxonomies.
