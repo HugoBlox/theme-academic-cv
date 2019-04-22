@@ -1,0 +1,39 @@
+---
+title: "Wait Times at Walt Disney World"
+author: ''
+date: '2019-04-22'
+slug: wait-times-at-walt-disney-world
+tags: []
+categories: []
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r,warning=FALSE,message=FALSE}
+library(tidyverse)
+library(lubridate)
+library(corrplot)
+library(caret)
+library(skimr)
+library(ModelMetrics)
+library(janitor)
+library(broom)
+```
+
+```{r,warning=FALSE,message=FALSE}
+meta<-read_csv("metadata.csv")
+merged_rides<- read_csv("merged_rides_.csv")
+merged_rides$datetime <- as_datetime(merged_rides$datetime)
+```
+
+```{r}
+head(merged_rides)
+```
+
+```{r}
+merged_rides %>% gather(key="ride",value="wait_time",-datetime) %>% 
+ggplot(aes(ride, wait_time, group = ride)) +
+  geom_boxplot(colour = "black", fill = "#56B4E9",notch = T) +
+  ylab("Wait time")
+```

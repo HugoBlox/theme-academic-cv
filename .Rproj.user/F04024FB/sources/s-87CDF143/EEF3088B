@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1555955461180.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "EEF3088B",
+    "lastKnownWriteTime" : 1555956271,
+    "last_content_update" : 1555956271079,
+    "path" : "~/academic1/content/post/2019-04-22-wait-times-at-walt-disney-world.Rmd",
+    "project_path" : "content/post/2019-04-22-wait-times-at-walt-disney-world.Rmd",
+    "properties" : {
+        "cursorPosition" : "25,44",
+        "scrollLine" : "0",
+        "working_dir" : "current"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
