@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3134612618",
+    "hash" : "2946428138",
     "id" : "A2601950",
-    "lastKnownWriteTime" : 1555959541,
-    "last_content_update" : 1555959541266,
+    "lastKnownWriteTime" : 1555959987,
+    "last_content_update" : 1555959987673,
     "path" : "~/academic1/config.toml",
     "project_path" : "config.toml",
     "properties" : {
-        "cursorPosition" : "58,76",
+        "cursorPosition" : "56,13",
         "scrollLine" : "43"
     },
     "relative_order" : 3,
