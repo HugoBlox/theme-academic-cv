@@ -23,27 +23,26 @@ email = ""
 
 # List (academic) interests or hobbies
 interests = [
-  "Artificial Intelligence",
-  "Computational Linguistics",
-  "Information Retrieval"
+  "Data Science",
+  "Machine Learning"
 ]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Researchers", "Visitors"]
+## user_groups = ["Researchers", "Visitors"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
+  course = "B.S. Management Science & Engineering"
   institution = "Stanford University"
-  year = 2012
+  year = 2019
 
-[[education.courses]]
+##[[education.courses]]
   course = "MEng in Artificial Intelligence"
   institution = "Massachusetts Institute of Technology"
   year = 2009
 
-[[education.courses]]
+##[[education.courses]]
   course = "BSc in Artificial Intelligence"
   institution = "Massachusetts Institute of Technology"
   year = 2008
@@ -56,22 +55,22 @@ user_groups = ["Researchers", "Visitors"]
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "#contact"  # For a direct email link, use "mailto:test@example.org".
+  link = "mailto:mikaylaedwards19@gmail.com"  # For a direct email link, use "mailto:test@example.org".
 
 [[social]]
-  icon = "twitter"
+  icon = "LinkedIn"
   icon_pack = "fab"
   link = "https://twitter.com/GeorgeCushen"
 
-[[social]]
-  icon = "google-scholar"
-  icon_pack = "ai"
-  link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+#[[social]]
+#  icon = "google-scholar"
+#  icon_pack = "ai"
+#  link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
 
 [[social]]
   icon = "github"
   icon_pack = "fab"
-  link = "https://github.com/gcushen"
+  link = "https://github.com/mikaylaedwards"
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -82,6 +81,8 @@ user_groups = ["Researchers", "Visitors"]
 
 +++
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hi, I'm Mikayla. I love all things Disney, data science, and machine learning. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+I'm a recent graduate of Stanford University (2019), where I studied Management Science & Engineering. Currently, I work as a data & analytics intern @ Disney. 
+
+I made this site to share the projects I'm working on and what I've learned in the process. Although I prefer and primarily work in R, I use Python as well and like to go back and forth when convenient. 
