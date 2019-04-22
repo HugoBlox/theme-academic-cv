@@ -21,7 +21,7 @@ library(janitor)
 library(broom)
 ```
 
-```{r}
+```{r,warning=FALSE,message=FALSE}
 meta<-read_csv("metadata.csv")
 merged_rides<- read_csv("merged_rides_.csv")
 merged_rides$datetime <- as_datetime(merged_rides$datetime)
