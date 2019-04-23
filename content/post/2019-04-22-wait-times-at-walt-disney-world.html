@@ -26,8 +26,8 @@ library(kableExtra)</code></pre>
 <pre class="r"><code>meta&lt;-read_csv(&quot;metadata.csv&quot;)
 merged_rides&lt;- read_csv(&quot;merged_rides_.csv&quot;)
 merged_rides$datetime &lt;- as_datetime(merged_rides$datetime)</code></pre>
-<pre class="r"><code>kable(head(merged_rides)) %&gt;%   kable_styling(bootstrap_options = &quot;striped&quot;, full_width = F)</code></pre>
-<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<pre class="r"><code>kable(head(merged_rides)) %&gt;%   kable_styling(font_size = 7,bootstrap_options = &quot;striped&quot;, full_width = F)</code></pre>
+<table class="table table-striped" style="font-size: 7px; width: auto !important; margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
 <th style="text-align:left;">
@@ -234,11 +234,42 @@ meta1$date&lt;-as.character(meta1$DATE)
 meta1$date &lt;-ymd(mdy(meta1$date))
 meta1$DATE&lt;-NULL
 meta1&lt;-meta1 %&gt;% clean_names()  
-meta1$holidayn&lt;-fct_explicit_na(meta1$holidayn, &quot;no holiday&quot;)
-kable(head(meta1)) %&gt;% kable_styling(bootstrap_options = &quot;striped&quot;, full_width = F)</code></pre>
-<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
+meta1$holidayn&lt;-fct_explicit_na(meta1$holidayn, &quot;no holiday&quot;)</code></pre>
+<pre class="r"><code>mrides&lt;-rides1 %&gt;% 
+merge(meta1,by=&quot;date&quot;)%&gt;% 
+arrange(date,hour) %&gt;% mutate(
+  hour=as.factor(hour),  
+  month=as.factor(month(date)),
+  year=as.factor(year(date))) 
+
+kable(head(mrides)) %&gt;% kable_styling(bootstrap_options = &quot;striped&quot;, full_width = F,font_size = 7)</code></pre>
+<table class="table table-striped" style="font-size: 7px; width: auto !important; margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
+<th style="text-align:left;">
+date
+</th>
+<th style="text-align:left;">
+hour
+</th>
+<th style="text-align:right;">
+toy_story_mania
+</th>
+<th style="text-align:right;">
+rockin_rollercoaster
+</th>
+<th style="text-align:right;">
+seven_dwarfs
+</th>
+<th style="text-align:right;">
+splash_mountain
+</th>
+<th style="text-align:right;">
+space_earth
+</th>
+<th style="text-align:right;">
+soarin
+</th>
 <th style="text-align:right;">
 wd_wevent
 </th>
@@ -267,108 +298,39 @@ holidayn
 holiday
 </th>
 <th style="text-align:left;">
-date
+month
+</th>
+<th style="text-align:left;">
+year
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-5
+<td style="text-align:left;">
+2014-05-23
 </td>
 <td style="text-align:left;">
-nyd
+9
 </td>
 <td style="text-align:right;">
-1
-</td>
-<td style="text-align:left;">
-2012-01-01
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-0
+67.72727
 </td>
 <td style="text-align:right;">
-0
+30.00000
 </td>
 <td style="text-align:right;">
-0
+58.18182
 </td>
 <td style="text-align:right;">
-0
+10.90909
 </td>
 <td style="text-align:right;">
-0
+5.909091
 </td>
 <td style="text-align:right;">
-2
+45.90909
 </td>
-<td style="text-align:right;">
-5
-</td>
-<td style="text-align:left;">
-no holiday
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:left;">
-2012-01-02
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-3
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:left;">
-no holiday
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:left;">
-2012-01-03
-</td>
-</tr>
-<tr>
 <td style="text-align:right;">
 0
 </td>
@@ -388,7 +350,7 @@ no holiday
 4
 </td>
 <td style="text-align:right;">
-0
+3
 </td>
 <td style="text-align:left;">
 no holiday
@@ -397,44 +359,36 @@ no holiday
 0
 </td>
 <td style="text-align:left;">
-2012-01-04
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
 5
 </td>
-<td style="text-align:right;">
-0
-</td>
 <td style="text-align:left;">
-no holiday
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:left;">
-2012-01-05
+2014
 </td>
 </tr>
 <tr>
+<td style="text-align:left;">
+2014-05-23
+</td>
+<td style="text-align:left;">
+10
+</td>
 <td style="text-align:right;">
-0
+80.00000
+</td>
+<td style="text-align:right;">
+31.66667
+</td>
+<td style="text-align:right;">
+60.00000
+</td>
+<td style="text-align:right;">
+34.58333
+</td>
+<td style="text-align:right;">
+15.000000
+</td>
+<td style="text-align:right;">
+89.16667
 </td>
 <td style="text-align:right;">
 0
@@ -449,10 +403,13 @@ no holiday
 0
 </td>
 <td style="text-align:right;">
-6
+0
 </td>
 <td style="text-align:right;">
-0
+4
+</td>
+<td style="text-align:right;">
+3
 </td>
 <td style="text-align:left;">
 no holiday
@@ -461,14 +418,318 @@ no holiday
 0
 </td>
 <td style="text-align:left;">
-2012-01-06
+5
+</td>
+<td style="text-align:left;">
+2014
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2014-05-23
+</td>
+<td style="text-align:left;">
+11
+</td>
+<td style="text-align:right;">
+80.00000
+</td>
+<td style="text-align:right;">
+46.00000
+</td>
+<td style="text-align:right;">
+60.00000
+</td>
+<td style="text-align:right;">
+35.00000
+</td>
+<td style="text-align:right;">
+40.000000
+</td>
+<td style="text-align:right;">
+87.50000
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:left;">
+no holiday
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+5
+</td>
+<td style="text-align:left;">
+2014
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2014-05-23
+</td>
+<td style="text-align:left;">
+12
+</td>
+<td style="text-align:right;">
+70.00000
+</td>
+<td style="text-align:right;">
+34.00000
+</td>
+<td style="text-align:right;">
+60.00000
+</td>
+<td style="text-align:right;">
+72.50000
+</td>
+<td style="text-align:right;">
+40.000000
+</td>
+<td style="text-align:right;">
+60.00000
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:left;">
+no holiday
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+5
+</td>
+<td style="text-align:left;">
+2014
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2014-05-23
+</td>
+<td style="text-align:left;">
+13
+</td>
+<td style="text-align:right;">
+55.00000
+</td>
+<td style="text-align:right;">
+48.57143
+</td>
+<td style="text-align:right;">
+60.00000
+</td>
+<td style="text-align:right;">
+67.14286
+</td>
+<td style="text-align:right;">
+40.000000
+</td>
+<td style="text-align:right;">
+61.42857
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:left;">
+no holiday
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+5
+</td>
+<td style="text-align:left;">
+2014
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2014-05-23
+</td>
+<td style="text-align:left;">
+14
+</td>
+<td style="text-align:right;">
+82.50000
+</td>
+<td style="text-align:right;">
+40.00000
+</td>
+<td style="text-align:right;">
+41.25000
+</td>
+<td style="text-align:right;">
+68.12500
+</td>
+<td style="text-align:right;">
+33.750000
+</td>
+<td style="text-align:right;">
+60.00000
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:left;">
+no holiday
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+5
+</td>
+<td style="text-align:left;">
+2014
 </td>
 </tr>
 </tbody>
 </table>
-<pre class="r"><code>mrides&lt;-rides1 %&gt;% 
-merge(meta1,by=&quot;date&quot;)%&gt;% 
-arrange(date,hour) %&gt;% mutate(
-  hour=as.factor(hour),  
-  month=as.factor(month(date)),
-  year=as.factor(year(date)))  </code></pre>
+<p>With this data, we can look at how ride wait times are affected by holidays.</p>
+<pre class="r"><code>mrides %&gt;% group_by(holiday,hour) %&gt;% summarize_at(
+  vars(toy_story_mania:soarin),
+  ~mean(.)
+) %&gt;% 
+  gather(key=&quot;ride&quot;,value=&quot;wait_time&quot;,toy_story_mania:soarin) %&gt;% 
+  ggplot(aes(x=hour,y=wait_time,color=as.logical(holiday)))+geom_line(aes(group=holiday))+facet_wrap(~ride,scales = &quot;free_x&quot;)</code></pre>
+<p><img src="/post/2019-04-22-wait-times-at-walt-disney-world_files/figure-html/unnamed-chunk-9-1.png" width="672" />
+This shows that the hourly average wait is higher on holidays but has a similar slope.</p>
+<p>Next, using the tidyverse list-column workflow, we can build a separate model for each ride within the same dataframe.</p>
+<pre class="r"><code>rides_nest&lt;-mrides %&gt;% gather(key=&quot;ride&quot;,value=&quot;wait_time&quot;,toy_story_mania:soarin)%&gt;%  group_by(ride) %&gt;% nest()
+head(rides_nest)</code></pre>
+<pre><code>## # A tibble: 6 x 2
+##   ride                 data                  
+##   &lt;chr&gt;                &lt;list&gt;                
+## 1 toy_story_mania      &lt;tibble [20,793 × 14]&gt;
+## 2 rockin_rollercoaster &lt;tibble [20,793 × 14]&gt;
+## 3 seven_dwarfs         &lt;tibble [20,793 × 14]&gt;
+## 4 splash_mountain      &lt;tibble [20,793 × 14]&gt;
+## 5 space_earth          &lt;tibble [20,793 × 14]&gt;
+## 6 soarin               &lt;tibble [20,793 × 14]&gt;</code></pre>
+<p>The data column is a <list> where each element is a tibble that stores the data corresponding to the ride variable.
+Now, we append a “model” variable to the data tibble for each ride. Using the broom package, we can easily extract model results. The “tidy” function, for example, retrieves the coefficient values of the linear model.</p>
+<pre class="r"><code>##building model for each ride
+nest_model&lt;-rides_nest %&gt;% 
+  mutate(model=map(data,~lm(formula =wait_time~.,data=.x)))
+
+##retrieve coef         
+coef&lt;-nest_model %&gt;% 
+  mutate(coef=map(model,~tidy(.x))) %&gt;% 
+  unnest(coef)
+
+coef %&gt;% select(ride:estimate) %&gt;% filter(term!=&#39;(Intercept)&#39;) %&gt;%  group_by(ride) %&gt;% top_n(5,estimate) %&gt;%  ggplot(aes(x=term,y=estimate))+geom_bar(stat=&quot;identity&quot;) + facet_wrap(~ride,scales=&quot;free_y&quot;) +
+  coord_flip()</code></pre>
+<p><img src="/post/2019-04-22-wait-times-at-walt-disney-world_files/figure-html/unnamed-chunk-11-1.png" width="672" />
+This shows the variables with the highest coefficient estimate for each ride. We can see that “nye” (New Years Eve) is in the top 5 for every ride. For seven dwarfs, the mid-day hours are particularly significant.</p>
+<p>We can also compare different holidays, such as New Years Eve, Christmas Eve, and Independence Day.</p>
+<pre class="r"><code>mrides %&gt;% 
+  filter(stringr::str_detect(holidayn, &quot;nye|cme|ind&quot;) ) %&gt;% gather(key=&quot;ride&quot;,value=&quot;wait_time&quot;,toy_story_mania:soarin) %&gt;% group_by(ride,hour,holidayn) %&gt;% summarize(avg_wait=mean(wait_time)) %&gt;% 
+  ggplot(aes(x=hour,y=avg_wait,group=holidayn,color=holidayn))+geom_line(aes(group=holidayn))+facet_wrap(~ride,scales=&quot;free_y&quot;,&quot;free_x&quot;)</code></pre>
+<p><img src="/post/2019-04-22-wait-times-at-walt-disney-world_files/figure-html/unnamed-chunk-12-1.png" width="672" />
+NYE seems to have the highest wait times for all rides. This is consistent with the coefficient importance results shown above. For some rides,the wait time difference is more significant(e.g.soarin).This is also reflected in the coefficient estimate above. For splash mountain, however, independence day (July 4th) times are also very high. This makes sense given that it’s a water ride whose popularity we would expect to be highest in summer.</p>
+<p>Now, we can compare the model performance for each ride. Broom has a “glance” function that provides a data frame with model performance statistics and an “augment” function through which we can derive model predictions.
+Here, I compare the mean absolute error (mae) for each ride model.</p>
+<pre class="r"><code>model_perf&lt;-nest_model %&gt;% 
+  mutate(
+    fit=map(model,~glance(.x)),
+    augmented=map(model,~augment(.x))
+  )
+
+aug &lt;- model_perf %&gt;%
+  unnest(augmented)
+  ##calc mae for each ride model
+  aug_mae &lt;- aug %&gt;% group_by(ride) %&gt;%
+  transmute(mae = mae(wait_time, .fitted)) %&gt;% distinct()
+  
+  aug_mae %&gt;% ggplot(aes(x = ride, y = mae)) + geom_segment(aes(
+  x = ride ,
+  xend = ride,
+  y = 0,
+  yend = mae
+  ), color = &quot;black&quot;) +
+  geom_point(size = 3, color = &quot;deepskyblue&quot;) + geom_text(aes(label = round(mae,2), y = mae + 0.75),
+  position = position_dodge(0.9),
+  vjust = 0) + coord_flip()</code></pre>
+<p><img src="/post/2019-04-22-wait-times-at-walt-disney-world_files/figure-html/unnamed-chunk-13-1.png" width="672" />
+The highest mae (mean absolute error) is observed for seven dwarfs. Spaceship Earth has the lowest, which makes sense given its minimal variation. We can interpret the mae as being the average size of the prediction error (i.e. the absolute difference between the model prediction and the actual wait time). So the seven dwarfs model was off, on average, by about 17 minutes.</p>
+<pre class="r"><code>ggplot(aug,aes(wait_time,.fitted))+geom_smooth()+geom_abline(intercept=0,slope=1)+facet_wrap(~ride)</code></pre>
+<pre><code>## `geom_smooth()` using method = &#39;gam&#39; and formula &#39;y ~ s(x, bs = &quot;cs&quot;)&#39;</code></pre>
+<p><img src="/post/2019-04-22-wait-times-at-walt-disney-world_files/figure-html/unnamed-chunk-14-1.png" width="672" />
+By plotting our predictions (y axis) against the actual time (x axis), we can see that out models were generally much better at predicting low wait times. They did not accurately capture the high wait times. This is particularly true for splash mountain, where our predictions were very low (50-75) despite high observed wait times (200-300).</p>

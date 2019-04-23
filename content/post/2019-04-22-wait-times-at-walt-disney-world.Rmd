@@ -35,7 +35,7 @@ merged_rides$datetime <- as_datetime(merged_rides$datetime)
 ```
 
 ```{r}
-kable(head(merged_rides)) %>%   kable_styling(bootstrap_options = "striped", full_width = F)
+kable(head(merged_rides)) %>%   kable_styling(font_size = 7,bootstrap_options = "striped", full_width = F)
 ```
 
 ```{r}
@@ -84,7 +84,6 @@ meta1$date <-ymd(mdy(meta1$date))
 meta1$DATE<-NULL
 meta1<-meta1 %>% clean_names()  
 meta1$holidayn<-fct_explicit_na(meta1$holidayn, "no holiday")
-kable(head(meta1)) %>% kable_styling(bootstrap_options = "striped", full_width = F)
 ```
 
 ```{r}
@@ -93,6 +92,85 @@ merge(meta1,by="date")%>%
 arrange(date,hour) %>% mutate(
   hour=as.factor(hour),  
   month=as.factor(month(date)),
-  year=as.factor(year(date)))  
+  year=as.factor(year(date))) 
+
+kable(head(mrides)) %>% kable_styling(bootstrap_options = "striped", full_width = F,font_size = 7)
+```
+With this data, we can look at how ride wait times are affected by holidays. 
+```{r}
+mrides %>% group_by(holiday,hour) %>% summarize_at(
+  vars(toy_story_mania:soarin),
+  ~mean(.)
+) %>% 
+  gather(key="ride",value="wait_time",toy_story_mania:soarin) %>% 
+  ggplot(aes(x=hour,y=wait_time,color=as.logical(holiday)))+geom_line(aes(group=holiday))+facet_wrap(~ride,scales = "free_x")
+```
+This shows that the hourly average wait is higher on holidays but has a similar slope. 
+
+Next, using the tidyverse list-column workflow, we can build a separate model for each ride within the same dataframe.  
+```{r}
+rides_nest<-mrides %>% gather(key="ride",value="wait_time",toy_story_mania:soarin)%>%  group_by(ride) %>% nest()
+head(rides_nest)
+```
+The data column is a <list> where each element is a tibble that stores the data corresponding to the ride variable. 
+Now, we append a "model" variable to the data tibble for each ride. Using the broom package, we can easily extract model results. The "tidy" function, for example, retrieves the coefficient values of the linear model. 
+```{r}
+##building model for each ride
+nest_model<-rides_nest %>% 
+  mutate(model=map(data,~lm(formula =wait_time~.,data=.x)))
+
+##retrieve coef         
+coef<-nest_model %>% 
+  mutate(coef=map(model,~tidy(.x))) %>% 
+  unnest(coef)
+
+coef %>% select(ride:estimate) %>% filter(term!='(Intercept)') %>%  group_by(ride) %>% top_n(5,estimate) %>%  ggplot(aes(x=term,y=estimate))+geom_bar(stat="identity") + facet_wrap(~ride,scales="free_y") +
+  coord_flip()
+```
+This shows the variables with the highest coefficient estimate for each ride. We can see that "nye" (New Years Eve) is in the top 5 for every ride. For seven dwarfs, the mid-day hours are particularly significant. 
+
+We can also compare different holidays, such as New Years Eve, Christmas Eve, and Independence Day. 
+```{r,message=FALSE,warning=FALSE}
+mrides %>% 
+  filter(stringr::str_detect(holidayn, "nye|cme|ind") ) %>% gather(key="ride",value="wait_time",toy_story_mania:soarin) %>% group_by(ride,hour,holidayn) %>% summarize(avg_wait=mean(wait_time)) %>% 
+  ggplot(aes(x=hour,y=avg_wait,group=holidayn,color=holidayn))+geom_line(aes(group=holidayn))+facet_wrap(~ride,scales="free_y","free_x")
+```
+NYE seems to have the highest wait times for all rides. This is consistent with the coefficient importance results shown above. For some rides,the wait time difference is more significant(e.g.soarin).This is also reflected in the coefficient estimate above. For splash mountain, however, independence day (July 4th) times are also very high. This makes sense given that it's a water ride whose popularity we would expect to be highest in summer. 
+
+Now, we can compare the model performance for each ride. Broom has a "glance" function that provides a data frame with model performance statistics and an "augment" function through which we can derive model predictions. 
+Here, I compare the mean absolute error (mae) for each ride model. 
+```{r}
+model_perf<-nest_model %>% 
+  mutate(
+    fit=map(model,~glance(.x)),
+    augmented=map(model,~augment(.x))
+  )
+
+aug <- model_perf %>%
+  unnest(augmented)
+  ##calc mae for each ride model
+  aug_mae <- aug %>% group_by(ride) %>%
+  transmute(mae = mae(wait_time, .fitted)) %>% distinct()
+  
+  aug_mae %>% ggplot(aes(x = ride, y = mae)) + geom_segment(aes(
+  x = ride ,
+  xend = ride,
+  y = 0,
+  yend = mae
+  ), color = "black") +
+  geom_point(size = 3, color = "deepskyblue") + geom_text(aes(label = round(mae,2), y = mae + 0.75),
+  position = position_dodge(0.9),
+  vjust = 0) + coord_flip()
+  
+```
+The highest mae (mean absolute error) is observed for seven dwarfs. Spaceship Earth has the lowest, which makes sense given its minimal variation. We can interpret the mae as being the average size of the prediction error (i.e. the absolute difference between the model prediction and the actual wait time). So the seven dwarfs model was off, on average, by about 17 minutes. 
+
+
+```{r}
+ggplot(aug,aes(wait_time,.fitted))+geom_smooth()+geom_abline(intercept=0,slope=1)+facet_wrap(~ride)
+```
+By plotting our predictions (y axis) against the actual time (x axis), we can see that out models were generally much better at predicting low wait times. They did not accurately capture the high wait times. This is particularly true for splash mountain, where our predictions were very low (50-75) despite high observed wait times (200-300).
+```{r}
+
 ```
 
