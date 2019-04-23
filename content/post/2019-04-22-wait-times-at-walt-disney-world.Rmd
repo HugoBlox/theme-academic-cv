@@ -23,6 +23,7 @@ library(ModelMetrics)
 library(janitor)
 library(broom)
 library(forcats)
+library(kableExtra)
 ```
 
 There was a separate csv file for each ride. I originally merged & cleaned this data using Python. I then created a new file (merged_rides), which I load here. I also load the metadata file, which contains additional information about each observed date (e.g. holidays, WDW events, etc.). This will later be merged with the ride wait time data for modeling.
@@ -34,7 +35,7 @@ merged_rides$datetime <- as_datetime(merged_rides$datetime)
 ```
 
 ```{r}
-kable(head(merged_rides))
+kable(head(merged_rides)) %>%   kable_styling(bootstrap_options = "striped", full_width = F)
 ```
 
 ```{r}
@@ -71,7 +72,7 @@ rides1 %>%
 ggplot(aes(x = wait, fill = as.factor(ride))) + 
   geom_density(alpha = .3)+xlim(5,220)+ labs(title="Wait Time Dist.")+scale_fill_discrete(name="Ride")
 ```
-Spaceship Earth's distribution apepars skewed leftward because wait times are consistenly low.
+Spaceship Earth's distribution appeairs skewed leftward because wait times are consistenly low.
 
 Now, we bring in the metadata file to examine additional features that can be used as we build various models to predict the ride wait times. 
 ```{r}
@@ -83,7 +84,7 @@ meta1$date <-ymd(mdy(meta1$date))
 meta1$DATE<-NULL
 meta1<-meta1 %>% clean_names()  
 meta1$holidayn<-fct_explicit_na(meta1$holidayn, "no holiday")
-kable(head(meta1))
+kable(head(meta1)) %>% kable_styling(bootstrap_options = "striped", full_width = F)
 ```
 
 ```{r}

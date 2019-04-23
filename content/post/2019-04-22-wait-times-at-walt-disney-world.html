@@ -125,7 +125,7 @@ All rides have the lowest average wait in September. Splash Mountain sees the la
 ggplot(aes(x = wait, fill = as.factor(ride))) + 
   geom_density(alpha = .3)+xlim(5,220)+ labs(title=&quot;Wait Time Dist.&quot;)+scale_fill_discrete(name=&quot;Ride&quot;)</code></pre>
 <p><img src="/post/2019-04-22-wait-times-at-walt-disney-world_files/figure-html/unnamed-chunk-6-1.png" width="672" />
-Spaceship Earth’s distribution apepars skewed leftward because wait times are consistenly low.</p>
+Spaceship Earth’s distribution appears skewed leftward because wait times are consistenly low.</p>
 <p>Now, we bring in the metadata file to examine additional features that can be used as we build various models to predict the ride wait times.</p>
 <pre class="r"><code>##selecting features to explore
 meta1&lt;-meta %&gt;% select(DATE, contains(&#39;event&#39;),-contains(&#39;eventN&#39;),contains(&#39;HOLIDAY&#39;),-contains(&#39;DAYS&#39;),-contains(&#39;STREAK&#39;),-HOLIDAYJ)
