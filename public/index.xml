@@ -13,11 +13,13 @@
     
     <item>
       <title>Wait Times at Walt Disney World</title>
-      <link>/post/2019/04/22/wait-times-at-walt-disney-world/</link>
+      <link>/post/wait-times-at-walt-disney-world/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019/04/22/wait-times-at-walt-disney-world/</guid>
-      <description> library(tidyverse) library(lubridate) library(corrplot) library(caret) library(skimr) library(ModelMetrics) library(janitor) library(broom) meta&amp;lt;-read_csv(&amp;quot;metadata.csv&amp;quot;) merged_rides&amp;lt;- read_csv(&amp;quot;merged_rides_.csv&amp;quot;) merged_rides$datetime &amp;lt;- as_datetime(merged_rides$datetime) head(merged_rides) ## # A tibble: 6 x 7 ## datetime toy_story_mania rockin_rollerco… seven_dwarfs ## &amp;lt;dttm&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; ## 1 2014-05-23 09:14:00 50 30 60 ## 2 2014-05-23 09:15:00 50 30 60 ## 3 2014-05-23 09:27:00 50 30 60 ## 4 2014-05-23 09:29:00 50 30 55 ## 5 2014-05-23 09:37:00 50 30 55 ## 6 2014-05-23 09:40:00 85 30 55 ## # … with 3 more variables: splash_mountain &amp;lt;dbl&amp;gt;, space_earth &amp;lt;dbl&amp;gt;, ## # soarin &amp;lt;dbl&amp;gt; merged_rides %&amp;gt;% gather(key=&amp;quot;ride&amp;quot;,value=&amp;quot;wait_time&amp;quot;,-datetime) %&amp;gt;% ggplot(aes(ride, wait_time, group = ride)) + geom_boxplot(colour = &amp;quot;black&amp;quot;, fill = &amp;quot;#56B4E9&amp;quot;,notch = T) + ylab(&amp;quot;Wait time&amp;quot;) </description>
+      <guid>/post/wait-times-at-walt-disney-world/</guid>
+      <description>The data used for this analysis was originally published by Touring Plans.
+I used the data for six rides: two from the Magic Kingdom (Seven Dwarfs Mine Train &amp;amp; Splash Mountain), two from Hollywood Studios (Toy Story Mania &amp;amp; The Rockin Rollercoaster), and two from Epcot (Soarin &amp;amp; Spaceship Earth).
+library(tidyverse) library(lubridate) library(corrplot) library(caret) library(skimr) library(ModelMetrics) library(janitor) library(broom) library(forcats) There was a separate csv file for each ride. I originally merged &amp;amp; cleaned this data using Python.</description>
     </item>
     
   </channel>

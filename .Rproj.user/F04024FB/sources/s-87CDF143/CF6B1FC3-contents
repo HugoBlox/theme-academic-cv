@@ -23,6 +23,7 @@ library(broom)
 
 
 ```{r pressure, echo=FALSE}
+setwd('/Users/mikaylaedwards/academic1/content/post')
 meta<-read_csv("metadata.csv")
 merged_rides<- read_csv("merged_rides_.csv")
 merged_rides$datetime <- as_datetime(merged_rides$datetime)
@@ -40,7 +41,7 @@ ggplot(aes(ride, wait_time, group = ride)) +
   ylab("Wait time")
 
 ```
-
+This shows the distribution of wait times by ride. We see, for example, that Seven Dwarfs has the highest median wait time, while Spaceship Earth has the lowest.
 ```{r}
 # merged_rides<-merged_rides %>% filter(
 #   seven_dwarfs<150,
@@ -54,13 +55,13 @@ ggplot(aes(ride, wait_time, group = ride)) +
 
 ```{r}
 rides1<-merged_rides%>%
-mutate(hour=hour(datetime),
-  date=date(datetime)) %>%
-group_by(hour,date)%>% filter(hour<21 & hour>8) %>%
-summarize_at(
-  vars(toy_story_mania:soarin),
-~mean(.,na.rm =TRUE)
-)
+  mutate(hour=hour(datetime),
+         date=date(datetime)) %>%
+  group_by(hour,date)%>% filter(hour<21 & hour>8) %>%
+  summarize_at(
+    vars(toy_story_mania:soarin),
+    ~mean(.,na.rm =TRUE)
+  )
 head(rides1)
 ```
 
@@ -76,13 +77,11 @@ corrplot(type = "upper", order = "hclust",addCoef.col = "black",
 ```
 
 ```{r}
-avg_by_month<-rides1 %>% 
-mutate(month=month(date,label=TRUE)) %>%
-  group_by(month) %>% 
-  summarize_at(
-  vars(toy_story_mania:soarin),
-~mean(.,na.rm =TRUE)
-)
+avg_by_month <- rides1 %>%
+  mutate(month = month(date, label = TRUE)) %>%
+  group_by(month) %>%
+  summarize_at(vars(toy_story_mania:soarin),
+  ~ mean(., na.rm = TRUE))
 ```
 
 ```{r}
@@ -120,7 +119,9 @@ meta1<-meta %>% select(DATE, contains('event'),-contains('eventN'),contains('HOL
 meta1$date<-as.character(meta1$DATE)
 meta1$date <-ymd(mdy(meta1$date))
 meta1$DATE<-NULL
-
+meta1<-meta1 %>% clean_names()  
+meta1$holidayn<-fct_explicit_na(meta1$holidayn, "no holiday")
+kabble(head(meta1))
 ```
 
 ```{r}
@@ -137,7 +138,6 @@ arrange(date,hour) %>% mutate(
   month=as.factor(month(date)),
   year=as.factor(year(date)))   
            
-mrides<-mrides %>% clean_names()  
 head(mrides)
 
 ```

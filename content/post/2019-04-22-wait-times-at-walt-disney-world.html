@@ -1,6 +1,6 @@
 ---
 title: "Wait Times at Walt Disney World"
-author: ''
+author: 'Mikayla'
 date: '2019-04-22'
 slug: wait-times-at-walt-disney-world
 tags: []
@@ -9,6 +9,8 @@ categories: []
 
 
 
+<p>The data used for this analysis was originally published by <a href="https://touringplans.com/blog/2018/06/25/disney-world-wait-times-available-for-data-science-and-machine-learning/">Touring Plans</a>.</p>
+<p>I used the data for six rides: two from the Magic Kingdom (Seven Dwarfs Mine Train &amp; Splash Mountain), two from Hollywood Studios (Toy Story Mania &amp; The Rockin Rollercoaster), and two from Epcot (Soarin &amp; Spaceship Earth).</p>
 <pre class="r"><code>library(tidyverse)
 library(lubridate)
 library(corrplot)
@@ -16,24 +18,211 @@ library(caret)
 library(skimr)
 library(ModelMetrics)
 library(janitor)
-library(broom)</code></pre>
+library(broom)
+library(forcats)</code></pre>
+<p>There was a separate csv file for each ride. I originally merged &amp; cleaned this data using Python. I then created a new file (merged_rides), which I load here. I also load the metadata file, which contains additional information about each observed date (e.g. holidays, WDW events, etc.). This will later be merged with the ride wait time data for modeling.</p>
 <pre class="r"><code>meta&lt;-read_csv(&quot;metadata.csv&quot;)
 merged_rides&lt;- read_csv(&quot;merged_rides_.csv&quot;)
 merged_rides$datetime &lt;- as_datetime(merged_rides$datetime)</code></pre>
-<pre class="r"><code>head(merged_rides)</code></pre>
-<pre><code>## # A tibble: 6 x 7
-##   datetime            toy_story_mania rockin_rollerco… seven_dwarfs
-##   &lt;dttm&gt;                        &lt;dbl&gt;            &lt;dbl&gt;        &lt;dbl&gt;
-## 1 2014-05-23 09:14:00              50               30           60
-## 2 2014-05-23 09:15:00              50               30           60
-## 3 2014-05-23 09:27:00              50               30           60
-## 4 2014-05-23 09:29:00              50               30           55
-## 5 2014-05-23 09:37:00              50               30           55
-## 6 2014-05-23 09:40:00              85               30           55
-## # … with 3 more variables: splash_mountain &lt;dbl&gt;, space_earth &lt;dbl&gt;,
-## #   soarin &lt;dbl&gt;</code></pre>
+<pre class="r"><code>kable(head(merged_rides))</code></pre>
+<table>
+<thead>
+<tr class="header">
+<th align="center">datetime</th>
+<th align="center">toy_story_mania</th>
+<th align="center">rockin_rollercoaster</th>
+<th align="center">seven_dwarfs</th>
+<th align="center">splash_mountain</th>
+<th align="center">space_earth</th>
+<th align="center">soarin</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">2014-05-23 09:14:00</td>
+<td align="center">50</td>
+<td align="center">30</td>
+<td align="center">60</td>
+<td align="center">10</td>
+<td align="center">5</td>
+<td align="center">45</td>
+</tr>
+<tr class="even">
+<td align="center">2014-05-23 09:15:00</td>
+<td align="center">50</td>
+<td align="center">30</td>
+<td align="center">60</td>
+<td align="center">10</td>
+<td align="center">5</td>
+<td align="center">45</td>
+</tr>
+<tr class="odd">
+<td align="center">2014-05-23 09:27:00</td>
+<td align="center">50</td>
+<td align="center">30</td>
+<td align="center">60</td>
+<td align="center">10</td>
+<td align="center">5</td>
+<td align="center">45</td>
+</tr>
+<tr class="even">
+<td align="center">2014-05-23 09:29:00</td>
+<td align="center">50</td>
+<td align="center">30</td>
+<td align="center">55</td>
+<td align="center">10</td>
+<td align="center">5</td>
+<td align="center">45</td>
+</tr>
+<tr class="odd">
+<td align="center">2014-05-23 09:37:00</td>
+<td align="center">50</td>
+<td align="center">30</td>
+<td align="center">55</td>
+<td align="center">10</td>
+<td align="center">5</td>
+<td align="center">45</td>
+</tr>
+<tr class="even">
+<td align="center">2014-05-23 09:40:00</td>
+<td align="center">85</td>
+<td align="center">30</td>
+<td align="center">55</td>
+<td align="center">10</td>
+<td align="center">5</td>
+<td align="center">45</td>
+</tr>
+</tbody>
+</table>
 <pre class="r"><code>merged_rides %&gt;% gather(key=&quot;ride&quot;,value=&quot;wait_time&quot;,-datetime) %&gt;% 
 ggplot(aes(ride, wait_time, group = ride)) +
   geom_boxplot(colour = &quot;black&quot;, fill = &quot;#56B4E9&quot;,notch = T) +
   ylab(&quot;Wait time&quot;)</code></pre>
-<p><img src="/post/2019-04-22-wait-times-at-walt-disney-world_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<p><img src="/post/2019-04-22-wait-times-at-walt-disney-world_files/figure-html/unnamed-chunk-4-1.png" width="672" />
+This shows the distribution of wait times by ride. We see, for example, that Seven Dwarfs has the highest median wait time, while Spaceship Earth has the lowest.</p>
+<pre class="r"><code>rides1&lt;-merged_rides%&gt;%
+  mutate(hour=hour(datetime),
+         date=date(datetime)) %&gt;%
+  group_by(hour,date)%&gt;% filter(hour&lt;21 &amp; hour&gt;8) %&gt;%
+  summarize_at(
+    vars(toy_story_mania:soarin),
+    ~mean(.,na.rm =TRUE)
+  )
+avg_by_month &lt;- rides1 %&gt;%
+  mutate(month = month(date, label = TRUE)) %&gt;%
+  group_by(month) %&gt;%
+  summarize_at(vars(toy_story_mania:soarin),
+  ~ mean(., na.rm = TRUE))
+
+avg_by_month %&gt;% gather(key=&quot;ride&quot;,value=&quot;avg_wait&quot;,-month,) %&gt;% 
+ggplot(aes(x=month,y=avg_wait,color=ride)) + geom_line(aes(group = ride)) +
+geom_point() + xlab(&quot;Month&quot;)</code></pre>
+<p><img src="/post/2019-04-22-wait-times-at-walt-disney-world_files/figure-html/unnamed-chunk-5-1.png" width="672" />
+All rides have the lowest average wait in September. Splash Mountain sees the largest decline.</p>
+<pre class="r"><code>rides1 %&gt;%
+  keep(is.numeric) %&gt;% 
+  gather(key=&quot;ride&quot;,value=&quot;wait&quot;,-hour) %&gt;% 
+ggplot(aes(x = wait, fill = as.factor(ride))) + 
+  geom_density(alpha = .3)+xlim(5,220)+ labs(title=&quot;Wait Time Dist.&quot;)+scale_fill_discrete(name=&quot;Ride&quot;)</code></pre>
+<p><img src="/post/2019-04-22-wait-times-at-walt-disney-world_files/figure-html/unnamed-chunk-6-1.png" width="672" />
+Spaceship Earth’s distribution apepars skewed leftward because wait times are consistenly low.</p>
+<p>Now, we bring in the metadata file to examine additional features that can be used as we build various models to predict the ride wait times.</p>
+<pre class="r"><code>##selecting features to explore
+meta1&lt;-meta %&gt;% select(DATE, contains(&#39;event&#39;),-contains(&#39;eventN&#39;),contains(&#39;HOLIDAY&#39;),-contains(&#39;DAYS&#39;),-contains(&#39;STREAK&#39;),-HOLIDAYJ)
+
+meta1$date&lt;-as.character(meta1$DATE)
+meta1$date &lt;-ymd(mdy(meta1$date))
+meta1$DATE&lt;-NULL
+meta1&lt;-meta1 %&gt;% clean_names()  
+meta1$holidayn&lt;-fct_explicit_na(meta1$holidayn, &quot;no holiday&quot;)
+kable(head(meta1))</code></pre>
+<table>
+<thead>
+<tr class="header">
+<th align="center">wd_wevent</th>
+<th align="center">m_kevent</th>
+<th align="center">e_pevent</th>
+<th align="center">h_sevent</th>
+<th align="center">a_kevent</th>
+<th align="center">holidaypx</th>
+<th align="center">holidaym</th>
+<th align="center">holidayn</th>
+<th align="center">holiday</th>
+<th align="center">date</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">nyd</td>
+<td align="center">1</td>
+<td align="center">2012-01-01</td>
+</tr>
+<tr class="even">
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">2</td>
+<td align="center">5</td>
+<td align="center">no holiday</td>
+<td align="center">0</td>
+<td align="center">2012-01-02</td>
+</tr>
+<tr class="odd">
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">3</td>
+<td align="center">0</td>
+<td align="center">no holiday</td>
+<td align="center">0</td>
+<td align="center">2012-01-03</td>
+</tr>
+<tr class="even">
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">4</td>
+<td align="center">0</td>
+<td align="center">no holiday</td>
+<td align="center">0</td>
+<td align="center">2012-01-04</td>
+</tr>
+<tr class="odd">
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">5</td>
+<td align="center">0</td>
+<td align="center">no holiday</td>
+<td align="center">0</td>
+<td align="center">2012-01-05</td>
+</tr>
+<tr class="even">
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">6</td>
+<td align="center">0</td>
+<td align="center">no holiday</td>
+<td align="center">0</td>
+<td align="center">2012-01-06</td>
+</tr>
+</tbody>
+</table>

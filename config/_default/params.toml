@@ -113,7 +113,7 @@ gravatar = false
 menu_align_right = false
 
 # Show estimated reading time for posts? (true/false)
-reading_time = true
+reading_time = false
 
 # Display comment count (if commenting enabled in config.toml)? (true/false)
 comment_count = true
@@ -122,7 +122,7 @@ comment_count = true
 section_pager = false
 
 # Enable in-built social sharing buttons? (true/false)
-sharing = true
+sharing = false
 
 # Configuration of publication pages.
 [publications]
