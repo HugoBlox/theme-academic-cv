@@ -7,6 +7,7 @@ tags: []
 categories: []
 ---
 
+<script src="/rmarkdown-libs/kePrint/kePrint.js"></script>
 
 
 <p>The data used for this analysis was originally published by <a href="https://touringplans.com/blog/2018/06/25/disney-world-wait-times-available-for-data-science-and-machine-learning/">Touring Plans</a>.</p>
@@ -19,78 +20,177 @@ library(skimr)
 library(ModelMetrics)
 library(janitor)
 library(broom)
-library(forcats)</code></pre>
+library(forcats)
+library(kableExtra)</code></pre>
 <p>There was a separate csv file for each ride. I originally merged &amp; cleaned this data using Python. I then created a new file (merged_rides), which I load here. I also load the metadata file, which contains additional information about each observed date (e.g. holidays, WDW events, etc.). This will later be merged with the ride wait time data for modeling.</p>
 <pre class="r"><code>meta&lt;-read_csv(&quot;metadata.csv&quot;)
 merged_rides&lt;- read_csv(&quot;merged_rides_.csv&quot;)
 merged_rides$datetime &lt;- as_datetime(merged_rides$datetime)</code></pre>
-<pre class="r"><code>kable(head(merged_rides))</code></pre>
-<table>
+<pre class="r"><code>kable(head(merged_rides)) %&gt;%   kable_styling(bootstrap_options = &quot;striped&quot;, full_width = F)</code></pre>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <thead>
-<tr class="header">
-<th align="center">datetime</th>
-<th align="center">toy_story_mania</th>
-<th align="center">rockin_rollercoaster</th>
-<th align="center">seven_dwarfs</th>
-<th align="center">splash_mountain</th>
-<th align="center">space_earth</th>
-<th align="center">soarin</th>
+<tr>
+<th style="text-align:left;">
+datetime
+</th>
+<th style="text-align:right;">
+toy_story_mania
+</th>
+<th style="text-align:right;">
+rockin_rollercoaster
+</th>
+<th style="text-align:right;">
+seven_dwarfs
+</th>
+<th style="text-align:right;">
+splash_mountain
+</th>
+<th style="text-align:right;">
+space_earth
+</th>
+<th style="text-align:right;">
+soarin
+</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td align="center">2014-05-23 09:14:00</td>
-<td align="center">50</td>
-<td align="center">30</td>
-<td align="center">60</td>
-<td align="center">10</td>
-<td align="center">5</td>
-<td align="center">45</td>
+<tr>
+<td style="text-align:left;">
+2014-05-23 09:14:00
+</td>
+<td style="text-align:right;">
+50
+</td>
+<td style="text-align:right;">
+30
+</td>
+<td style="text-align:right;">
+60
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+45
+</td>
 </tr>
-<tr class="even">
-<td align="center">2014-05-23 09:15:00</td>
-<td align="center">50</td>
-<td align="center">30</td>
-<td align="center">60</td>
-<td align="center">10</td>
-<td align="center">5</td>
-<td align="center">45</td>
+<tr>
+<td style="text-align:left;">
+2014-05-23 09:15:00
+</td>
+<td style="text-align:right;">
+50
+</td>
+<td style="text-align:right;">
+30
+</td>
+<td style="text-align:right;">
+60
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+45
+</td>
 </tr>
-<tr class="odd">
-<td align="center">2014-05-23 09:27:00</td>
-<td align="center">50</td>
-<td align="center">30</td>
-<td align="center">60</td>
-<td align="center">10</td>
-<td align="center">5</td>
-<td align="center">45</td>
+<tr>
+<td style="text-align:left;">
+2014-05-23 09:27:00
+</td>
+<td style="text-align:right;">
+50
+</td>
+<td style="text-align:right;">
+30
+</td>
+<td style="text-align:right;">
+60
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+45
+</td>
 </tr>
-<tr class="even">
-<td align="center">2014-05-23 09:29:00</td>
-<td align="center">50</td>
-<td align="center">30</td>
-<td align="center">55</td>
-<td align="center">10</td>
-<td align="center">5</td>
-<td align="center">45</td>
+<tr>
+<td style="text-align:left;">
+2014-05-23 09:29:00
+</td>
+<td style="text-align:right;">
+50
+</td>
+<td style="text-align:right;">
+30
+</td>
+<td style="text-align:right;">
+55
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+45
+</td>
 </tr>
-<tr class="odd">
-<td align="center">2014-05-23 09:37:00</td>
-<td align="center">50</td>
-<td align="center">30</td>
-<td align="center">55</td>
-<td align="center">10</td>
-<td align="center">5</td>
-<td align="center">45</td>
+<tr>
+<td style="text-align:left;">
+2014-05-23 09:37:00
+</td>
+<td style="text-align:right;">
+50
+</td>
+<td style="text-align:right;">
+30
+</td>
+<td style="text-align:right;">
+55
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+45
+</td>
 </tr>
-<tr class="even">
-<td align="center">2014-05-23 09:40:00</td>
-<td align="center">85</td>
-<td align="center">30</td>
-<td align="center">55</td>
-<td align="center">10</td>
-<td align="center">5</td>
-<td align="center">45</td>
+<tr>
+<td style="text-align:left;">
+2014-05-23 09:40:00
+</td>
+<td style="text-align:right;">
+85
+</td>
+<td style="text-align:right;">
+30
+</td>
+<td style="text-align:right;">
+55
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+45
+</td>
 </tr>
 </tbody>
 </table>
@@ -125,7 +225,7 @@ All rides have the lowest average wait in September. Splash Mountain sees the la
 ggplot(aes(x = wait, fill = as.factor(ride))) + 
   geom_density(alpha = .3)+xlim(5,220)+ labs(title=&quot;Wait Time Dist.&quot;)+scale_fill_discrete(name=&quot;Ride&quot;)</code></pre>
 <p><img src="/post/2019-04-22-wait-times-at-walt-disney-world_files/figure-html/unnamed-chunk-6-1.png" width="672" />
-Spaceship Earth’s distribution appears skewed leftward because wait times are consistenly low.</p>
+Spaceship Earth’s distribution appeairs skewed leftward because wait times are consistenly low.</p>
 <p>Now, we bring in the metadata file to examine additional features that can be used as we build various models to predict the ride wait times.</p>
 <pre class="r"><code>##selecting features to explore
 meta1&lt;-meta %&gt;% select(DATE, contains(&#39;event&#39;),-contains(&#39;eventN&#39;),contains(&#39;HOLIDAY&#39;),-contains(&#39;DAYS&#39;),-contains(&#39;STREAK&#39;),-HOLIDAYJ)
@@ -135,94 +235,240 @@ meta1$date &lt;-ymd(mdy(meta1$date))
 meta1$DATE&lt;-NULL
 meta1&lt;-meta1 %&gt;% clean_names()  
 meta1$holidayn&lt;-fct_explicit_na(meta1$holidayn, &quot;no holiday&quot;)
-kable(head(meta1))</code></pre>
-<table>
+kable(head(meta1)) %&gt;% kable_styling(bootstrap_options = &quot;striped&quot;, full_width = F)</code></pre>
+<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <thead>
-<tr class="header">
-<th align="center">wd_wevent</th>
-<th align="center">m_kevent</th>
-<th align="center">e_pevent</th>
-<th align="center">h_sevent</th>
-<th align="center">a_kevent</th>
-<th align="center">holidaypx</th>
-<th align="center">holidaym</th>
-<th align="center">holidayn</th>
-<th align="center">holiday</th>
-<th align="center">date</th>
+<tr>
+<th style="text-align:right;">
+wd_wevent
+</th>
+<th style="text-align:right;">
+m_kevent
+</th>
+<th style="text-align:right;">
+e_pevent
+</th>
+<th style="text-align:right;">
+h_sevent
+</th>
+<th style="text-align:right;">
+a_kevent
+</th>
+<th style="text-align:right;">
+holidaypx
+</th>
+<th style="text-align:right;">
+holidaym
+</th>
+<th style="text-align:left;">
+holidayn
+</th>
+<th style="text-align:right;">
+holiday
+</th>
+<th style="text-align:left;">
+date
+</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td align="center">0</td>
-<td align="center">0</td>
-<td align="center">0</td>
-<td align="center">0</td>
-<td align="center">0</td>
-<td align="center">0</td>
-<td align="center">5</td>
-<td align="center">nyd</td>
-<td align="center">1</td>
-<td align="center">2012-01-01</td>
+<tr>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:left;">
+nyd
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:left;">
+2012-01-01
+</td>
 </tr>
-<tr class="even">
-<td align="center">0</td>
-<td align="center">0</td>
-<td align="center">0</td>
-<td align="center">0</td>
-<td align="center">0</td>
-<td align="center">2</td>
-<td align="center">5</td>
-<td align="center">no holiday</td>
-<td align="center">0</td>
-<td align="center">2012-01-02</td>
+<tr>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:left;">
+no holiday
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+2012-01-02
+</td>
 </tr>
-<tr class="odd">
-<td align="center">0</td>
-<td align="center">0</td>
-<td align="center">0</td>
-<td align="center">0</td>
-<td align="center">0</td>
-<td align="center">3</td>
-<td align="center">0</td>
-<td align="center">no holiday</td>
-<td align="center">0</td>
-<td align="center">2012-01-03</td>
+<tr>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+no holiday
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+2012-01-03
+</td>
 </tr>
-<tr class="even">
-<td align="center">0</td>
-<td align="center">0</td>
-<td align="center">0</td>
-<td align="center">0</td>
-<td align="center">0</td>
-<td align="center">4</td>
-<td align="center">0</td>
-<td align="center">no holiday</td>
-<td align="center">0</td>
-<td align="center">2012-01-04</td>
+<tr>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+no holiday
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+2012-01-04
+</td>
 </tr>
-<tr class="odd">
-<td align="center">0</td>
-<td align="center">0</td>
-<td align="center">0</td>
-<td align="center">0</td>
-<td align="center">0</td>
-<td align="center">5</td>
-<td align="center">0</td>
-<td align="center">no holiday</td>
-<td align="center">0</td>
-<td align="center">2012-01-05</td>
+<tr>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+no holiday
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+2012-01-05
+</td>
 </tr>
-<tr class="even">
-<td align="center">0</td>
-<td align="center">0</td>
-<td align="center">0</td>
-<td align="center">0</td>
-<td align="center">0</td>
-<td align="center">6</td>
-<td align="center">0</td>
-<td align="center">no holiday</td>
-<td align="center">0</td>
-<td align="center">2012-01-06</td>
+<tr>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+no holiday
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+2012-01-06
+</td>
 </tr>
 </tbody>
 </table>
+<pre class="r"><code>mrides&lt;-rides1 %&gt;% 
+merge(meta1,by=&quot;date&quot;)%&gt;% 
+arrange(date,hour) %&gt;% mutate(
+  hour=as.factor(hour),  
+  month=as.factor(month(date)),
+  year=as.factor(year(date)))  </code></pre>

@@ -88,6 +88,11 @@ kable(head(meta1)) %>% kable_styling(bootstrap_options = "striped", full_width =
 ```
 
 ```{r}
-
+mrides<-rides1 %>% 
+merge(meta1,by="date")%>% 
+arrange(date,hour) %>% mutate(
+  hour=as.factor(hour),  
+  month=as.factor(month(date)),
+  year=as.factor(year(date)))  
 ```
 

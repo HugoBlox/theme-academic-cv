@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>admin on Academic</title>
-    <link>/authors/admin/</link>
+    <link>https://mikaylaedwards.netlify.com/authors/admin/</link>
     <description>Recent content in admin on Academic</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mikaylaedwards.netlify.com/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>/author/admin/</link>
+      <link>https://mikaylaedwards.netlify.com/author/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/author/admin/</guid>
+      <guid>https://mikaylaedwards.netlify.com/author/admin/</guid>
       <description>Hi, I&amp;rsquo;m Mikayla. I love all things Disney, data science, and machine learning.
 I&amp;rsquo;m a recent graduate of Stanford University (2019), where I studied Management Science &amp;amp; Engineering. Currently, I work as a data &amp;amp; analytics intern @ Disney.
 I made this site to share the projects I&amp;rsquo;m working on and what I&amp;rsquo;ve learned in the process. Although I prefer and primarily work in R, I use Python as well and like to go back and forth when convenient.</description>

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Academic</title>
-    <link>/post/</link>
+    <link>https://mikaylaedwards.netlify.com/post/</link>
     <description>Recent content in Posts on Academic</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 22 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mikaylaedwards.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Wait Times at Walt Disney World</title>
-      <link>/post/wait-times-at-walt-disney-world/</link>
+      <link>https://mikaylaedwards.netlify.com/post/wait-times-at-walt-disney-world/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/wait-times-at-walt-disney-world/</guid>
+      <guid>https://mikaylaedwards.netlify.com/post/wait-times-at-walt-disney-world/</guid>
       <description>The data used for this analysis was originally published by Touring Plans.
 I used the data for six rides: two from the Magic Kingdom (Seven Dwarfs Mine Train &amp;amp; Splash Mountain), two from Hollywood Studios (Toy Story Mania &amp;amp; The Rockin Rollercoaster), and two from Epcot (Soarin &amp;amp; Spaceship Earth).
-library(tidyverse) library(lubridate) library(corrplot) library(caret) library(skimr) library(ModelMetrics) library(janitor) library(broom) library(forcats) There was a separate csv file for each ride. I originally merged &amp;amp; cleaned this data using Python.</description>
+library(tidyverse) library(lubridate) library(corrplot) library(caret) library(skimr) library(ModelMetrics) library(janitor) library(broom) library(forcats) library(kableExtra) There was a separate csv file for each ride.</description>
     </item>
     
   </channel>
