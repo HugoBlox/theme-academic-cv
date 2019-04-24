@@ -35,7 +35,7 @@ merged_rides$datetime <- as_datetime(merged_rides$datetime)
 ```
 
 ```{r}
-kable(head(merged_rides)) %>%   kable_styling(font_size = 7,bootstrap_options = "striped", full_width = F)
+kable(head(merged_rides)) %>%   kable_styling(font_size = 9,bootstrap_options = "striped", full_width = F)
 ```
 
 ```{r}
@@ -94,7 +94,7 @@ arrange(date,hour) %>% mutate(
   month=as.factor(month(date)),
   year=as.factor(year(date))) 
 
-kable(head(mrides)) %>% kable_styling(bootstrap_options = "striped", full_width = F,font_size = 7)
+kable(head(mrides)) %>% kable_styling(bootstrap_options = "striped", full_width = F,font_size = 8)
 ```
 With this data, we can look at how ride wait times are affected by holidays. 
 ```{r}
@@ -107,12 +107,13 @@ mrides %>% group_by(holiday,hour) %>% summarize_at(
 ```
 This shows that the hourly average wait is higher on holidays but has a similar slope. 
 
-Next, using the tidyverse list-column workflow, we can build a separate model for each ride within the same dataframe.  
+#### Part I. Linear Model for Each Ride
+Using the tidyverse list-column workflow, we can build a separate model for each ride within the same dataframe.  
 ```{r}
 rides_nest<-mrides %>% gather(key="ride",value="wait_time",toy_story_mania:soarin)%>%  group_by(ride) %>% nest()
 head(rides_nest)
 ```
-The data column is a <list> where each element is a tibble that stores the data corresponding to the ride variable. 
+The data column shown above is a <list> where each element is a tibble that stores the data corresponding to the ride variable. 
 Now, we append a "model" variable to the data tibble for each ride. Using the broom package, we can easily extract model results. The "tidy" function, for example, retrieves the coefficient values of the linear model. 
 ```{r}
 ##building model for each ride
@@ -170,7 +171,70 @@ The highest mae (mean absolute error) is observed for seven dwarfs. Spaceship Ea
 ggplot(aug,aes(wait_time,.fitted))+geom_smooth()+geom_abline(intercept=0,slope=1)+facet_wrap(~ride)
 ```
 By plotting our predictions (y axis) against the actual time (x axis), we can see that out models were generally much better at predicting low wait times. They did not accurately capture the high wait times. This is particularly true for splash mountain, where our predictions were very low (50-75) despite high observed wait times (200-300).
-```{r}
 
+#### Part II. XGboost Model
+Instead of building a separate model for each ride, we could instead have a single model that uses ride as a feature in the dataset.  Here, I will use eXtreme Gradient Boosting (XGboost), an implementation of the gradient boosted decision tree algorithm. To give a short explanation, gradient boosting is an ensemble technique that sequentially creates new models to predict the residuals (errors) of previous models. The gradient descent algorithm is used to minimize the loss between subsequent models. The residuals are added together when the model makes a final prediction. 
+```{r,message=FALSE}
+library (xgboost)
+set.seed(1234)
+
+#select numeric features
+mrides_long<-mrides %>% gather(key="ride",value="wait_time",toy_story_mania:soarin) %>% mutate_if(is.factor,as.character) 
+mrides_long_numeric<-mrides_long %>% select(-date) %>% select_if(is.numeric)
+
+
+#get vector of training labels
+waitLabels <- mrides_long_numeric %>% mutate(wait_time=as.numeric(wait_time)) %>% select(wait_time)
+waitLabels<-as.vector(waitLabels$wait_time)
+
+#remove outcome variable
+mrides_long_numeric<-mrides_long_numeric %>% select(-wait_time)
+
+#one-hot encoding for categorical variables (holidayn,hour,month, etc. )
+holiday_name <- model.matrix(~holidayn-1, mrides_long)
+hour_mat <- model.matrix(~hour-1, mrides_long)
+mon_mat <- model.matrix(~month-1, mrides_long)
+year_mat <- model.matrix(~year-1, mrides_long)
+ride_mat<- model.matrix(~ride-1, mrides_long)
+
+#column bind existing numeric data with one-hot encoded categorical variables
+mrides_long<- cbind(mrides_long_numeric, holiday_name,hour_mat,mon_mat,year_mat,ride_mat) 
+
+#convert to numeric & create matrix
+mrides_long<-mrides_long %>% mutate_if(is.integer,as.numeric)
+mrides_matrix <- data.matrix(mrides_long)
+```
+To accurately measure the performance of our model, we can split the data to create training and testing sets. Below, I use a 70/30 train/test split, which means that 70% of the data is used to train the model. 
+```{r}
+# get the 70/30 training test split
+numberOfTrainingSamples <- round(length(waitLabels) * .7)
+
+# training data
+train_data <- mrides_matrix[1:numberOfTrainingSamples,]
+train_labels <- waitLabels[1:numberOfTrainingSamples]
+
+# testing data
+test_data <- mrides_matrix[-(1:numberOfTrainingSamples),]
+test_labels <- waitLabels[-(1:numberOfTrainingSamples)]
+
+# put testing & training data into seperate Dmatrix objects
+dtrain <- xgb.DMatrix(data = train_data, label= train_labels)
+dtest <- xgb.DMatrix(data = test_data, label= test_labels)
+```
+
+```{r}
+xgb <- xgboost(data = dtrain,   
+                nrounds = 200,print_every_n = 50, early_stop_round = 20, verbose = 1)
+
+#model prediction
+xgbpred <- predict (xgb,dtest)
+xgb_mae<- mae(test_labels, xgbpred)
+print(xgb_mae)
+```
+
+```{r}
+## Plot the feature importance
+importance_matrix <- xgb.importance(colnames(dtrain), model = xgb)
+xgb.plot.importance(importance_matrix = importance_matrix[1:20])
 ```
 

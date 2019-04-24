@@ -26,8 +26,8 @@ library(kableExtra)</code></pre>
 <pre class="r"><code>meta&lt;-read_csv(&quot;metadata.csv&quot;)
 merged_rides&lt;- read_csv(&quot;merged_rides_.csv&quot;)
 merged_rides$datetime &lt;- as_datetime(merged_rides$datetime)</code></pre>
-<pre class="r"><code>kable(head(merged_rides)) %&gt;%   kable_styling(font_size = 7,bootstrap_options = &quot;striped&quot;, full_width = F)</code></pre>
-<table class="table table-striped" style="font-size: 7px; width: auto !important; margin-left: auto; margin-right: auto;">
+<pre class="r"><code>kable(head(merged_rides)) %&gt;%   kable_styling(font_size = 9,bootstrap_options = &quot;striped&quot;, full_width = F)</code></pre>
+<table class="table table-striped" style="font-size: 9px; width: auto !important; margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
 <th style="text-align:left;">
@@ -242,8 +242,8 @@ arrange(date,hour) %&gt;% mutate(
   month=as.factor(month(date)),
   year=as.factor(year(date))) 
 
-kable(head(mrides)) %&gt;% kable_styling(bootstrap_options = &quot;striped&quot;, full_width = F,font_size = 7)</code></pre>
-<table class="table table-striped" style="font-size: 7px; width: auto !important; margin-left: auto; margin-right: auto;">
+kable(head(mrides)) %&gt;% kable_styling(bootstrap_options = &quot;striped&quot;, full_width = F,font_size = 8)</code></pre>
+<table class="table table-striped" style="font-size: 8px; width: auto !important; margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
 <th style="text-align:left;">
@@ -671,7 +671,9 @@ no holiday
   ggplot(aes(x=hour,y=wait_time,color=as.logical(holiday)))+geom_line(aes(group=holiday))+facet_wrap(~ride,scales = &quot;free_x&quot;)</code></pre>
 <p><img src="/post/2019-04-22-wait-times-at-walt-disney-world_files/figure-html/unnamed-chunk-9-1.png" width="672" />
 This shows that the hourly average wait is higher on holidays but has a similar slope.</p>
-<p>Next, using the tidyverse list-column workflow, we can build a separate model for each ride within the same dataframe.</p>
+<div id="part-i.-linear-model-for-each-ride" class="section level4">
+<h4>Part I. Linear Model for Each Ride</h4>
+<p>Using the tidyverse list-column workflow, we can build a separate model for each ride within the same dataframe.</p>
 <pre class="r"><code>rides_nest&lt;-mrides %&gt;% gather(key=&quot;ride&quot;,value=&quot;wait_time&quot;,toy_story_mania:soarin)%&gt;%  group_by(ride) %&gt;% nest()
 head(rides_nest)</code></pre>
 <pre><code>## # A tibble: 6 x 2
@@ -683,7 +685,7 @@ head(rides_nest)</code></pre>
 ## 4 splash_mountain      &lt;tibble [20,793 × 14]&gt;
 ## 5 space_earth          &lt;tibble [20,793 × 14]&gt;
 ## 6 soarin               &lt;tibble [20,793 × 14]&gt;</code></pre>
-<p>The data column is a <list> where each element is a tibble that stores the data corresponding to the ride variable.
+<p>The data column shown above is a <list> where each element is a tibble that stores the data corresponding to the ride variable.
 Now, we append a “model” variable to the data tibble for each ride. Using the broom package, we can easily extract model results. The “tidy” function, for example, retrieves the coefficient values of the linear model.</p>
 <pre class="r"><code>##building model for each ride
 nest_model&lt;-rides_nest %&gt;% 
@@ -733,3 +735,67 @@ The highest mae (mean absolute error) is observed for seven dwarfs. Spaceship Ea
 <pre><code>## `geom_smooth()` using method = &#39;gam&#39; and formula &#39;y ~ s(x, bs = &quot;cs&quot;)&#39;</code></pre>
 <p><img src="/post/2019-04-22-wait-times-at-walt-disney-world_files/figure-html/unnamed-chunk-14-1.png" width="672" />
 By plotting our predictions (y axis) against the actual time (x axis), we can see that out models were generally much better at predicting low wait times. They did not accurately capture the high wait times. This is particularly true for splash mountain, where our predictions were very low (50-75) despite high observed wait times (200-300).</p>
+</div>
+<div id="part-ii.-xgboost-model" class="section level4">
+<h4>Part II. XGboost Model</h4>
+<p>Instead of building a separate model for each ride, we could instead have a single model that uses ride as a feature in the dataset. Here, I will use eXtreme Gradient Boosting (XGboost), an implementation of the gradient boosted decision tree algorithm. To give a short explanation, gradient boosting is an ensemble technique that sequentially creates new models to predict the residuals (errors) of previous models. The gradient descent algorithm is used to minimize the loss between subsequent models. The residuals are added together when the model makes a final prediction.</p>
+<pre class="r"><code>library (xgboost)
+set.seed(1234)
+
+#select numeric features
+mrides_long&lt;-mrides %&gt;% gather(key=&quot;ride&quot;,value=&quot;wait_time&quot;,toy_story_mania:soarin) %&gt;% mutate_if(is.factor,as.character) 
+mrides_long_numeric&lt;-mrides_long %&gt;% select(-date) %&gt;% select_if(is.numeric)
+
+
+#get vector of training labels
+waitLabels &lt;- mrides_long_numeric %&gt;% mutate(wait_time=as.numeric(wait_time)) %&gt;% select(wait_time)
+waitLabels&lt;-as.vector(waitLabels$wait_time)
+
+#remove outcome variable
+mrides_long_numeric&lt;-mrides_long_numeric %&gt;% select(-wait_time)
+
+#one-hot encoding for categorical variables (holidayn,hour,month, etc. )
+holiday_name &lt;- model.matrix(~holidayn-1, mrides_long)
+hour_mat &lt;- model.matrix(~hour-1, mrides_long)
+mon_mat &lt;- model.matrix(~month-1, mrides_long)
+year_mat &lt;- model.matrix(~year-1, mrides_long)
+ride_mat&lt;- model.matrix(~ride-1, mrides_long)
+
+#column bind existing numeric data with one-hot encoded categorical variables
+mrides_long&lt;- cbind(mrides_long_numeric, holiday_name,hour_mat,mon_mat,year_mat,ride_mat) 
+
+#convert to numeric &amp; create matrix
+mrides_long&lt;-mrides_long %&gt;% mutate_if(is.integer,as.numeric)
+mrides_matrix &lt;- data.matrix(mrides_long)</code></pre>
+<p>To accurately measure the performance of our model, we can split the data to create training and testing sets. Below, I use a 70/30 train/test split, which means that 70% of the data is used to train the model.</p>
+<pre class="r"><code># get the 70/30 training test split
+numberOfTrainingSamples &lt;- round(length(waitLabels) * .7)
+
+# training data
+train_data &lt;- mrides_matrix[1:numberOfTrainingSamples,]
+train_labels &lt;- waitLabels[1:numberOfTrainingSamples]
+
+# testing data
+test_data &lt;- mrides_matrix[-(1:numberOfTrainingSamples),]
+test_labels &lt;- waitLabels[-(1:numberOfTrainingSamples)]
+
+# put testing &amp; training data into seperate Dmatrix objects
+dtrain &lt;- xgb.DMatrix(data = train_data, label= train_labels)
+dtest &lt;- xgb.DMatrix(data = test_data, label= test_labels)</code></pre>
+<pre class="r"><code>xgb &lt;- xgboost(data = dtrain,   
+                nrounds = 200,print_every_n = 50, early_stop_round = 20, verbose = 1)</code></pre>
+<pre><code>## [1]  train-rmse:51.618259 
+## [51] train-rmse:18.232658 
+## [101]    train-rmse:16.940174 
+## [151]    train-rmse:16.177061 
+## [200]    train-rmse:15.608088</code></pre>
+<pre class="r"><code>#model prediction
+xgbpred &lt;- predict (xgb,dtest)
+xgb_mae&lt;- mae(test_labels, xgbpred)
+print(xgb_mae)</code></pre>
+<pre><code>## [1] 14.50678</code></pre>
+<pre class="r"><code>## Plot the feature importance
+importance_matrix &lt;- xgb.importance(colnames(dtrain), model = xgb)
+xgb.plot.importance(importance_matrix = importance_matrix[1:20])</code></pre>
+<p><img src="/post/2019-04-22-wait-times-at-walt-disney-world_files/figure-html/unnamed-chunk-18-1.png" width="672" /></p>
+</div>
