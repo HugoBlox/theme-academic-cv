@@ -224,7 +224,8 @@ test_labels <- waitLabels[-(1:numberOfTrainingSamples)]
 dtrain <- xgb.DMatrix(data = train_data, label= train_labels)
 dtest <- xgb.DMatrix(data = test_data, label= test_labels)
 ```
-Now we train an xgboost model on the training set. I use 200 rounds of boosting. The "early_stop_round" hyper-parameter (set to 20) specifies the number of rounds after which the algorithm will stop if performance has not improved.
+Now we train an xgboost model on the training set. 
+For this model, I use 200 rounds of boosting. The "early_stop_round" hyper-parameter (set to 20) specifies the number of rounds after which the algorithm will stop if performance has not improved. This is just a baseline to see the performance of the xgboost package. I will conduct hyper-parameter tuning later in this post with the mlr package. 
 
 ```{r}
 xgb <- xgboost(data = dtrain,   
@@ -242,12 +243,15 @@ The model performance on the training data steadily improved as the number of bo
 importance_matrix <- xgb.importance(colnames(dtrain), model = xgb)
 xgb.plot.importance(importance_matrix = importance_matrix[1:20],xlab="Gain")
 ```
+
 The plot above shows the most important features for our xgboost model. Specifying the ride as a feature was obviously important for performance (which makes sense: we expect that we would need to know which ride we were making a prediction on in order to be accurate).
 
-We can conduct hyper-parameter tuning to improve performance. I will use the mlr package for tuning. Unlike xgboost, which requires a matrix, mlr functions take in a dataframe as input. So I will use the mrides_long df again.
+We can conduct hyper-parameter tuning to improve performance. I will use the mlr package for tuning. Unlike xgboost, which requires a matrix, mlr functions take in a dataframe. So I will use the mrides_long df again.
 ```{r,message=FALSE}
 library(mlr)
 library(caret)
+
+set.seed(1)
 
 # Split df into train/test
 
@@ -259,15 +263,8 @@ test_df=mrides_long_numeric[-idTrain,]
 
 ```
 
-
-```{r,message=FALSE}
-#convert characters to factors
-fact_col <- colnames(train_df)[sapply(train_df,is.character)]
-for(i in fact_col)
-        set(train_df,j=i,value = factor(train_df[[i]]))
-for(i in fact_col)
-        set(test_df,j=i,value = factor(test_df[[i]]))
-
+#### Baseline performance with mlr: no hyper-parameter tuning
+```{r,message=FALSE,warning=FALSE}
 
 #define task: regression, predict wait_time
 train_task = makeRegrTask(data = train_df, target = "wait_time")
@@ -277,7 +274,21 @@ test_task = makeRegrTask(data = test_df, target = "wait_time")
 xgb_learner <- makeLearner(
   "regr.xgboost", predict.type = "response", eval_metric="mae")
 
-#tune eta hyper-param
+xgb_model <- mlr::train(xgb_learner, task = train_task)
+
+result <- predict(xgb_model, test_task)
+performance(result,measures = mae)
+```
+The above model uses the default hyper-parameter for nrounds (1). It has a pretty high MAE and is off by almost 40 minutes on average. However, we did not specify any hyper-parameters and defaults were used.
+
+We can improve model performance by tuning our parameters. Below we can see all available parameters. 
+```{r}
+# To see all the parameters of the xgboost regr
+getParamSet("regr.xgboost")
+```
+Below we will tune the nrounds, max_depth, eta, and lambda hyper-parameters.
+```{r,message=FALSE,warning=FALSE}
+
 xgb_params <- makeParamSet(makeIntegerParam("nrounds", lower = 100, upper = 300),
   # number of splits in each tree
   makeIntegerParam("max_depth", lower = 1, upper = 10),
@@ -299,26 +310,22 @@ tuned_params <- tuneParams(
   par.set = xgb_params,
   control = control
 )
-```
-
-```{r}
-xgb_tuned_param <- setHyperPars(
+xgb_tuned_learner<- setHyperPars(
   learner = xgb_learner,
   par.vals = tuned_params$x
 )
-print(xgb_tuned_param)
+print(xgb_tuned_learner)
 
 ```
-
-
+The Hyperparameter results from tuning are shown above. Now, we can re-train our model with these results. 
 ```{r}
 # Re-train parameters using tuned hyperparameters (and full training set)
-xgb_model <- mlr::train(xgb_tuned_param, train_task)
+xgb_tuned_model <- mlr::train(xgb_tuned_learner, train_task)
 
 # Make a new prediction
-result <- predict(xgb_model, test_task)
-performance(result,measures = mae)
+result_tuned <- predict(xgb_tuned_model, test_task)
+performance(result_tuned,measures = mae)
 ```
-```{r}
-```
+Our performance improved significantly with hyper-parameter tuning. This model performs better than the one created with the xgboost package (although we did not tune that model).
+
 

@@ -783,7 +783,8 @@ test_labels &lt;- waitLabels[-(1:numberOfTrainingSamples)]
 # put testing &amp; training data into seperate Dmatrix objects
 dtrain &lt;- xgb.DMatrix(data = train_data, label= train_labels)
 dtest &lt;- xgb.DMatrix(data = test_data, label= test_labels)</code></pre>
-<p>Now we train an xgboost model on the training set. I use 200 rounds of boosting. The “early_stop_round” hyper-parameter (set to 20) specifies the number of rounds after which the algorithm will stop if performance has not improved.</p>
+<p>Now we train an xgboost model on the training set.
+For this model, I use 200 rounds of boosting. The “early_stop_round” hyper-parameter (set to 20) specifies the number of rounds after which the algorithm will stop if performance has not improved. This is just a baseline to see the performance of the xgboost package. I will conduct hyper-parameter tuning later in this post with the mlr package.</p>
 <pre class="r"><code>xgb &lt;- xgboost(data = dtrain,   
                 nrounds = 200,print_every_n = 50, early_stop_round = 20, eval_metric=&#39;mae&#39;,verbose = 1)</code></pre>
 <pre><code>## [1]  train-mae:42.753963 
@@ -800,11 +801,13 @@ print(xgb_mae)</code></pre>
 <pre class="r"><code>## Plot the feature importance
 importance_matrix &lt;- xgb.importance(colnames(dtrain), model = xgb)
 xgb.plot.importance(importance_matrix = importance_matrix[1:20],xlab=&quot;Gain&quot;)</code></pre>
-<p><img src="/post/2019-04-22-wait-times-at-walt-disney-world_files/figure-html/unnamed-chunk-18-1.png" width="672" />
-The plot above shows the most important features for our xgboost model. Specifying the ride as a feature was obviously important for performance (which makes sense: we expect that we would need to know which ride we were making a prediction on in order to be accurate).</p>
-<p>We can conduct hyper-parameter tuning to improve performance. I will use the mlr package for tuning. Unlike xgboost, which requires a matrix, mlr functions take in a dataframe as input. So I will use the mrides_long df again.</p>
+<p><img src="/post/2019-04-22-wait-times-at-walt-disney-world_files/figure-html/unnamed-chunk-18-1.png" width="672" /></p>
+<p>The plot above shows the most important features for our xgboost model. Specifying the ride as a feature was obviously important for performance (which makes sense: we expect that we would need to know which ride we were making a prediction on in order to be accurate).</p>
+<p>We can conduct hyper-parameter tuning to improve performance. I will use the mlr package for tuning. Unlike xgboost, which requires a matrix, mlr functions take in a dataframe. So I will use the mrides_long df again.</p>
 <pre class="r"><code>library(mlr)
 library(caret)
+
+set.seed(1)
 
 # Split df into train/test
 
@@ -813,25 +816,97 @@ names(mrides_long_numeric)&lt;-gsub(x=names(mrides_long_numeric),&quot;\\|&quot;
 idTrain=createDataPartition(y=mrides_long_numeric$wait_time,p=0.7,list=FALSE)
 train_df=mrides_long_numeric[idTrain,]
 test_df=mrides_long_numeric[-idTrain,]</code></pre>
-<pre class="r"><code>#convert characters to factors
-fact_col &lt;- colnames(train_df)[sapply(train_df,is.character)]
-for(i in fact_col)
-        set(train_df,j=i,value = factor(train_df[[i]]))
-for(i in fact_col)
-        set(test_df,j=i,value = factor(test_df[[i]]))
-
-
-#define task: regression, predict wait_time
+</div>
+<div id="baseline-performance-with-mlr-no-hyper-parameter-tuning" class="section level4">
+<h4>Baseline performance with mlr: no hyper-parameter tuning</h4>
+<pre class="r"><code>#define task: regression, predict wait_time
 train_task = makeRegrTask(data = train_df, target = &quot;wait_time&quot;)
 test_task = makeRegrTask(data = test_df, target = &quot;wait_time&quot;)
 
 #learner
 xgb_learner &lt;- makeLearner(
-  &quot;regr.xgboost&quot;, predict.type = &quot;response&quot;, eval_metric=&quot;mae&quot;)</code></pre>
+  &quot;regr.xgboost&quot;, predict.type = &quot;response&quot;, eval_metric=&quot;mae&quot;)
+
+xgb_model &lt;- mlr::train(xgb_learner, task = train_task)
+
+result &lt;- predict(xgb_model, test_task)
+performance(result,measures = mae)</code></pre>
+<pre><code>##      mae 
+## 38.41872</code></pre>
+<p>The above model uses the default hyper-parameter for nrounds (1). It has a pretty high MAE and is off by almost 40 minutes on average. However, we did not specify any hyper-parameters and defaults were used.</p>
+<p>We can improve model performance by tuning our parameters. Below we can see all available parameters.</p>
+<pre class="r"><code># To see all the parameters of the xgboost regr
+getParamSet(&quot;regr.xgboost&quot;)</code></pre>
 <pre><code>## Warning in makeParam(id = id, type = &quot;numeric&quot;, learner.param = TRUE, lower = lower, : NA used as a default value for learner parameter missing.
 ## ParamHelpers uses NA as a special value for dependent parameters.</code></pre>
-<pre class="r"><code>#tune eta hyper-param
-xgb_params &lt;- makeParamSet(makeIntegerParam(&quot;nrounds&quot;, lower = 100, upper = 300),
+<pre><code>##                                 Type  len        Def               Constr
+## booster                     discrete    -     gbtree gbtree,gblinear,dart
+## watchlist                    untyped    -     &lt;NULL&gt;                    -
+## eta                          numeric    -        0.3               0 to 1
+## gamma                        numeric    -          0             0 to Inf
+## max_depth                    integer    -          6             1 to Inf
+## min_child_weight             numeric    -          1             0 to Inf
+## subsample                    numeric    -          1               0 to 1
+## colsample_bytree             numeric    -          1               0 to 1
+## colsample_bylevel            numeric    -          1               0 to 1
+## num_parallel_tree            integer    -          1             1 to Inf
+## lambda                       numeric    -          1             0 to Inf
+## lambda_bias                  numeric    -          0             0 to Inf
+## alpha                        numeric    -          0             0 to Inf
+## objective                    untyped    - reg:linear                    -
+## eval_metric                  untyped    -       rmse                    -
+## base_score                   numeric    -        0.5          -Inf to Inf
+## max_delta_step               numeric    -          0             0 to Inf
+## missing                      numeric    -                     -Inf to Inf
+## monotone_constraints   integervector &lt;NA&gt;          0              -1 to 1
+## tweedie_variance_power       numeric    -        1.5               1 to 2
+## nthread                      integer    -          -             1 to Inf
+## nrounds                      integer    -          1             1 to Inf
+## feval                        untyped    -     &lt;NULL&gt;                    -
+## verbose                      integer    -          1               0 to 2
+## print_every_n                integer    -          1             1 to Inf
+## early_stopping_rounds        integer    -     &lt;NULL&gt;             1 to Inf
+## maximize                     logical    -     &lt;NULL&gt;                    -
+## sample_type                 discrete    -    uniform     uniform,weighted
+## normalize_type              discrete    -       tree          tree,forest
+## rate_drop                    numeric    -          0               0 to 1
+## skip_drop                    numeric    -          0               0 to 1
+## callbacks                    untyped    -                               -
+##                        Req Tunable Trafo
+## booster                  -    TRUE     -
+## watchlist                -   FALSE     -
+## eta                      -    TRUE     -
+## gamma                    -    TRUE     -
+## max_depth                -    TRUE     -
+## min_child_weight         -    TRUE     -
+## subsample                -    TRUE     -
+## colsample_bytree         -    TRUE     -
+## colsample_bylevel        -    TRUE     -
+## num_parallel_tree        -    TRUE     -
+## lambda                   -    TRUE     -
+## lambda_bias              -    TRUE     -
+## alpha                    -    TRUE     -
+## objective                -   FALSE     -
+## eval_metric              -   FALSE     -
+## base_score               -   FALSE     -
+## max_delta_step           -    TRUE     -
+## missing                  -   FALSE     -
+## monotone_constraints     -    TRUE     -
+## tweedie_variance_power   Y    TRUE     -
+## nthread                  -   FALSE     -
+## nrounds                  -    TRUE     -
+## feval                    -   FALSE     -
+## verbose                  -   FALSE     -
+## print_every_n            Y   FALSE     -
+## early_stopping_rounds    -   FALSE     -
+## maximize                 -   FALSE     -
+## sample_type              Y    TRUE     -
+## normalize_type           Y    TRUE     -
+## rate_drop                Y    TRUE     -
+## skip_drop                Y    TRUE     -
+## callbacks                -   FALSE     -</code></pre>
+<p>Below we will tune the nrounds, max_depth, eta, and lambda hyper-parameters.</p>
+<pre class="r"><code>xgb_params &lt;- makeParamSet(makeIntegerParam(&quot;nrounds&quot;, lower = 100, upper = 300),
   # number of splits in each tree
   makeIntegerParam(&quot;max_depth&quot;, lower = 1, upper = 10),
   # &quot;shrinkage&quot; - prevents overfitting
@@ -851,25 +926,27 @@ tuned_params &lt;- tuneParams(
   resampling = resample_desc,
   par.set = xgb_params,
   control = control
-)</code></pre>
-<pre class="r"><code>xgb_tuned_param &lt;- setHyperPars(
+)
+xgb_tuned_learner&lt;- setHyperPars(
   learner = xgb_learner,
   par.vals = tuned_params$x
 )
-print(xgb_tuned_param)</code></pre>
+print(xgb_tuned_learner)</code></pre>
 <pre><code>## Learner regr.xgboost from package xgboost
 ## Type: regr
 ## Name: eXtreme Gradient Boosting; Short name: xgboost
 ## Class: regr.xgboost
 ## Properties: numerics,weights,featimp,missings
 ## Predict-Type: response
-## Hyperparameters: nrounds=294,verbose=0,eval_metric=mae,max_depth=1,eta=0.326,lambda=0.299</code></pre>
+## Hyperparameters: nrounds=242,verbose=0,eval_metric=mae,max_depth=4,eta=0.107,lambda=0.598</code></pre>
+<p>The Hyperparameter results from tuning are shown above. Now, we can re-train our model with these results.</p>
 <pre class="r"><code># Re-train parameters using tuned hyperparameters (and full training set)
-xgb_model &lt;- mlr::train(xgb_tuned_param, train_task)
+xgb_tuned_model &lt;- mlr::train(xgb_tuned_learner, train_task)
 
 # Make a new prediction
-result &lt;- predict(xgb_model, test_task)
-performance(result,measures = mae)</code></pre>
-<pre><code>##     mae 
-## 16.9018</code></pre>
+result_tuned &lt;- predict(xgb_tuned_model, test_task)
+performance(result_tuned,measures = mae)</code></pre>
+<pre><code>##      mae 
+## 13.92094</code></pre>
+<p>Our performance improved significantly with hyper-parameter tuning. This model performs better than the one created with the xgboost package (although we did not tune that model).</p>
 </div>
