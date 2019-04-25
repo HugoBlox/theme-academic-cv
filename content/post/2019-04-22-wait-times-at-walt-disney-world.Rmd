@@ -1,4 +1,4 @@
----
+l---
 title: "Wait Times at Walt Disney World"
 author: 'Mikayla'
 date: '2019-04-22'
@@ -16,14 +16,13 @@ I used the data for six rides: two from the Magic Kingdom (Seven Dwarfs Mine Tra
 ```{r,warning=FALSE,message=FALSE}
 library(tidyverse)
 library(lubridate)
-library(corrplot)
-library(caret)
 library(skimr)
 library(ModelMetrics)
 library(janitor)
 library(broom)
 library(forcats)
 library(kableExtra)
+library(stringr)
 ```
 
 There was a separate csv file for each ride. I originally merged & cleaned this data using Python. I then created a new file (merged_rides), which I load here. I also load the metadata file, which contains additional information about each observed date (e.g. holidays, WDW events, etc.). This will later be merged with the ride wait time data for modeling.
@@ -83,7 +82,7 @@ meta1$date<-as.character(meta1$DATE)
 meta1$date <-ymd(mdy(meta1$date))
 meta1$DATE<-NULL
 meta1<-meta1 %>% clean_names()  
-meta1$holidayn<-fct_explicit_na(meta1$holidayn, "no holiday")
+meta1$holidayn<-fct_explicit_na(meta1$holidayn, "no_holiday")
 ```
 
 ```{r}
@@ -94,7 +93,8 @@ arrange(date,hour) %>% mutate(
   month=as.factor(month(date)),
   year=as.factor(year(date))) 
 
-kable(head(mrides)) %>% kable_styling(bootstrap_options = "striped", full_width = F,font_size = 8)
+kable(head(mrides)) %>% 
+  kable_styling(bootstrap_options = "striped", full_width = F,font_size = 8)
 ```
 With this data, we can look at how ride wait times are affected by holidays. 
 ```{r}
@@ -110,10 +110,11 @@ This shows that the hourly average wait is higher on holidays but has a similar 
 #### Part I. Linear Model for Each Ride
 Using the tidyverse list-column workflow, we can build a separate model for each ride within the same dataframe.  
 ```{r}
-rides_nest<-mrides %>% gather(key="ride",value="wait_time",toy_story_mania:soarin)%>%  group_by(ride) %>% nest()
+rides_nest<-mrides %>% gather(key="ride",value="wait_time",toy_story_mania:soarin)%>%
+  group_by(ride) %>% nest()
 head(rides_nest)
 ```
-The data column shown above is a <list> where each element is a tibble that stores the data corresponding to the ride variable. 
+The data column shown above is a list where each element is a tibble that stores the data corresponding to the ride variable. 
 Now, we append a "model" variable to the data tibble for each ride. Using the broom package, we can easily extract model results. The "tidy" function, for example, retrieves the coefficient values of the linear model. 
 ```{r}
 ##building model for each ride
@@ -173,7 +174,8 @@ ggplot(aug,aes(wait_time,.fitted))+geom_smooth()+geom_abline(intercept=0,slope=1
 By plotting our predictions (y axis) against the actual time (x axis), we can see that out models were generally much better at predicting low wait times. They did not accurately capture the high wait times. This is particularly true for splash mountain, where our predictions were very low (50-75) despite high observed wait times (200-300).
 
 #### Part II. XGboost Model
-Instead of building a separate model for each ride, we could instead have a single model that uses ride as a feature in the dataset.  Here, I will use eXtreme Gradient Boosting (XGboost), an implementation of the gradient boosted decision tree algorithm. To give a short explanation, gradient boosting is an ensemble technique that sequentially creates new models to predict the residuals (errors) of previous models. The gradient descent algorithm is used to minimize the loss between subsequent models. The residuals are added together when the model makes a final prediction. 
+Instead of building a separate model for each ride, we could instead have a single model that uses ride as a feature in the dataset.  Here, I will use eXtreme Gradient Boosting (XGboost), an implementation of the gradient boosted decision tree algorithm.  To give a short explanation, gradient boosting is an ensemble technique that sequentially creates new models to predict the residuals (errors) of previous models. The gradient descent algorithm is used to minimize the loss between subsequent models. The residuals are added together when the model makes a final prediction. 
+
 ```{r,message=FALSE}
 library (xgboost)
 set.seed(1234)
@@ -187,9 +189,6 @@ mrides_long_numeric<-mrides_long %>% select(-date) %>% select_if(is.numeric)
 waitLabels <- mrides_long_numeric %>% mutate(wait_time=as.numeric(wait_time)) %>% select(wait_time)
 waitLabels<-as.vector(waitLabels$wait_time)
 
-#remove outcome variable
-mrides_long_numeric<-mrides_long_numeric %>% select(-wait_time)
-
 #one-hot encoding for categorical variables (holidayn,hour,month, etc. )
 holiday_name <- model.matrix(~holidayn-1, mrides_long)
 hour_mat <- model.matrix(~hour-1, mrides_long)
@@ -198,11 +197,14 @@ year_mat <- model.matrix(~year-1, mrides_long)
 ride_mat<- model.matrix(~ride-1, mrides_long)
 
 #column bind existing numeric data with one-hot encoded categorical variables
-mrides_long<- cbind(mrides_long_numeric, holiday_name,hour_mat,mon_mat,year_mat,ride_mat) 
+mrides_long_numeric<- cbind(mrides_long_numeric, holiday_name,hour_mat,mon_mat,year_mat,ride_mat) 
+
+#remove outcome variable
+mrides_long_num_no_resp<-mrides_long_numeric %>% select(-wait_time)
 
 #convert to numeric & create matrix
-mrides_long<-mrides_long %>% mutate_if(is.integer,as.numeric)
-mrides_matrix <- data.matrix(mrides_long)
+mrides_long_num_no_resp<-mrides_long_num_no_resp %>% mutate_if(is.integer,as.numeric)
+mrides_matrix <- data.matrix(mrides_long_num_no_resp)
 ```
 To accurately measure the performance of our model, we can split the data to create training and testing sets. Below, I use a 70/30 train/test split, which means that 70% of the data is used to train the model. 
 ```{r}
@@ -221,20 +223,101 @@ test_labels <- waitLabels[-(1:numberOfTrainingSamples)]
 dtrain <- xgb.DMatrix(data = train_data, label= train_labels)
 dtest <- xgb.DMatrix(data = test_data, label= test_labels)
 ```
+Now we train an xgboost model on the training set. I use 200 rounds of boosting. The "early_stop_round" hyper-parameter (set to 20) specifies the number of rounds after which the algorithm will stop if performance has not improved.
 
 ```{r}
 xgb <- xgboost(data = dtrain,   
-                nrounds = 200,print_every_n = 50, early_stop_round = 20, verbose = 1)
+                nrounds = 200,print_every_n = 50, early_stop_round = 20, eval_metric='mae',verbose = 1)
 
 #model prediction
 xgbpred <- predict (xgb,dtest)
 xgb_mae<- mae(test_labels, xgbpred)
 print(xgb_mae)
 ```
+The model performance on the training data steadily improved as the number of boosting rounds increased, although gains were diminishing. Overall, it had a mean absolute error of ~14.5 minutes on the test data. This is pretty good considering it was predicting across the entire span of rides (as opposed to only one ride like the separate linear models above). 
 
 ```{r}
 ## Plot the feature importance
 importance_matrix <- xgb.importance(colnames(dtrain), model = xgb)
-xgb.plot.importance(importance_matrix = importance_matrix[1:20])
+xgb.plot.importance(importance_matrix = importance_matrix[1:20],xlab="Gain")
+```
+The plot above shows the most important features for our xgboost model. Specifying the ride as a feature was obviously important for performance (which makes sense: we expect that we would need to know which ride we were making a prediction on in order to be accurate).
+
+We can conduct hyper-parameter tuning to improve performance. I will use the mlr package for tuning. Unlike xgboost, which requires a matrix, mlr functions take in a dataframe as input. So I will use the mrides_long df again.
+```{r,message=FALSE}
+library(mlr)
+library(caret)
+
+# Split df into train/test
+
+names(mrides_long_numeric)<-gsub(x=names(mrides_long_numeric),"\\|","_") 
+
+idTrain=createDataPartition(y=mrides_long_numeric$wait_time,p=0.7,list=FALSE)
+train_df=mrides_long_numeric[idTrain,]
+test_df=mrides_long_numeric[-idTrain,]
+
+```
+
+
+```{r,message=FALSE}
+#convert characters to factors
+fact_col <- colnames(train_df)[sapply(train_df,is.character)]
+for(i in fact_col)
+        set(train_df,j=i,value = factor(train_df[[i]]))
+for(i in fact_col)
+        set(test_df,j=i,value = factor(test_df[[i]]))
+
+
+#define task: regression, predict wait_time
+train_task = makeRegrTask(data = train_df, target = "wait_time")
+test_task = makeRegrTask(data = test_df, target = "wait_time")
+
+#learner
+xgb_learner <- makeLearner(
+  "regr.xgboost", predict.type = "response", eval_metric="mae")
+
+#tune eta hyper-param
+xgb_params <- makeParamSet(makeIntegerParam("nrounds", lower = 100, upper = 300),
+  # number of splits in each tree
+  makeIntegerParam("max_depth", lower = 1, upper = 10),
+  # "shrinkage" - prevents overfitting
+  makeNumericParam("eta", lower = .1, upper = .5),
+  # L2 regularization - prevents overfitting
+  makeNumericParam("lambda", lower = -1, upper = 0, trafo = function(x) 10^x)
+)
+control <- makeTuneControlRandom(maxit = 1)
+
+# Choose a resampling strategy
+resample_desc = makeResampleDesc("CV", iters = 2)
+
+# tuning 
+tuned_params <- tuneParams(
+  learner = xgb_learner,
+  task = train_task,
+  resampling = resample_desc,
+  par.set = xgb_params,
+  control = control
+)
+```
+
+```{r}
+xgb_tuned_param <- setHyperPars(
+  learner = xgb_learner,
+  par.vals = tuned_params$x
+)
+print(xgb_tuned_param)
+
+```
+
+
+```{r}
+# Re-train parameters using tuned hyperparameters (and full training set)
+xgb_model <- mlr::train(xgb_tuned_param, train_task)
+
+# Make a new prediction
+result <- predict(xgb_model, test_task)
+performance(result,measures = mae)
+```
+```{r}
 ```
 

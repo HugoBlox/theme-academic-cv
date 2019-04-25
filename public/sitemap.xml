@@ -3,23 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mikaylaedwards.netlify.com/</loc>
-    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
+    <loc>https://mikaylaedwards.netlify.com/author/admin/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mikaylaedwards.netlify.com/post/2019-04-22-wait-times-at-walt-disney-world/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mikaylaedwards.netlify.com/post/</loc>
-    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mikaylaedwards.netlify.com/post/wait-times-at-walt-disney-world/</loc>
-    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mikaylaedwards.netlify.com/author/admin/</loc>
+    <loc>https://mikaylaedwards.netlify.com/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -35,6 +29,10 @@
   <url>
     <loc>https://mikaylaedwards.netlify.com/categories/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mikaylaedwards.netlify.com/post/</loc>
   </url>
   
   <url>
