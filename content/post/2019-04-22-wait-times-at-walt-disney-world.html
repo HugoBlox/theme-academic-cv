@@ -21,7 +21,8 @@ library(broom)
 library(forcats)
 library(kableExtra)
 library(stringr)</code></pre>
-<p>There was a separate csv file for each ride. I originally merged &amp; cleaned this data using Python. I then created a new file (merged_rides), which I load here. I also load the metadata file, which contains additional information about each observed date (e.g. holidays, WDW events, etc.). This will later be merged with the ride wait time data for modeling.</p>
+<p>There was a separate csv file for each ride. I originally merged &amp; cleaned this data using Python, which can be found <a href="https://github.com/mikaylaedwards/Disney-wait-times/blob/master/wait%20comparison.ipynb">here</a>.
+I then created a new file (merged_rides), which I load below. I also load the metadata file, which contains additional information about each observed date (e.g. holidays, WDW events, etc.). This will later be merged with the ride wait time data for modeling.</p>
 <pre class="r"><code>meta&lt;-read_csv(&quot;metadata.csv&quot;)
 merged_rides&lt;- read_csv(&quot;merged_rides_.csv&quot;)
 merged_rides$datetime &lt;- as_datetime(merged_rides$datetime)</code></pre>
@@ -939,8 +940,8 @@ print(xgb_tuned_learner)</code></pre>
 ## Properties: numerics,weights,featimp,missings
 ## Predict-Type: response
 ## Hyperparameters: nrounds=242,verbose=0,eval_metric=mae,max_depth=4,eta=0.107,lambda=0.598</code></pre>
-<p>The Hyperparameter results from tuning are shown above. Now, we can re-train our model with these results.</p>
-<pre class="r"><code># Re-train parameters using tuned hyperparameters (and full training set)
+<p>The optimal hyperparameter results from tuning are shown above. Now, we can re-train our model with these results.</p>
+<pre class="r"><code># Re-train parameters using tuned hyperparameters 
 xgb_tuned_model &lt;- mlr::train(xgb_tuned_learner, train_task)
 
 # Make a new prediction
@@ -948,5 +949,11 @@ result_tuned &lt;- predict(xgb_tuned_model, test_task)
 performance(result_tuned,measures = mae)</code></pre>
 <pre><code>##      mae 
 ## 13.92094</code></pre>
-<p>Our performance improved significantly with hyper-parameter tuning. This model performs better than the one created with the xgboost package (although we did not tune that model).</p>
+<p>The performance improved significantly with hyper-parameter tuning. This model performs better than the one created originally with the xgboost package.</p>
+<pre class="r"><code>feat_imp&lt;-getFeatureImportance(xgb_tuned_model)
+
+#plot top 20 features
+feat_imp$res %&gt;% gather(key=&quot;feature&quot;,value=&quot;importance&quot;) %&gt;% top_n(20,importance) %&gt;% ggplot(aes(x=fct_reorder(feature,importance))) + geom_col(aes(y=importance))+coord_flip()</code></pre>
+<p><img src="/post/2019-04-22-wait-times-at-walt-disney-world_files/figure-html/unnamed-chunk-24-1.png" width="672" />
+This feature importance plot is very similar to that found above using xgboost untuned. The ride type is the most important feature in this model as well. Additionally, we see that the hour, holiday metric (holidaym), and month are significant.</p>
 </div>

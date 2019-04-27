@@ -19,7 +19,7 @@
       <guid>https://mikaylaedwards.netlify.com/post/wait-times-at-walt-disney-world/</guid>
       <description>The data used for this analysis was originally published by Touring Plans.
 I used the data for six rides: two from the Magic Kingdom (Seven Dwarfs Mine Train &amp;amp; Splash Mountain), two from Hollywood Studios (Toy Story Mania &amp;amp; The Rockin Rollercoaster), and two from Epcot (Soarin &amp;amp; Spaceship Earth).
-library(tidyverse) library(lubridate) library(skimr) library(ModelMetrics) library(janitor) library(broom) library(forcats) library(kableExtra) library(stringr) There was a separate csv file for each ride. I originally merged &amp;amp; cleaned this data using Python.</description>
+library(tidyverse) library(lubridate) library(skimr) library(ModelMetrics) library(janitor) library(broom) library(forcats) library(kableExtra) library(stringr) There was a separate csv file for each ride. I originally merged &amp;amp; cleaned this data using Python, which can be found here.</description>
     </item>
     
   </channel>

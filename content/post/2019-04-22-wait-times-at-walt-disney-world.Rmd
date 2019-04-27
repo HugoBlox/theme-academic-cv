@@ -26,7 +26,8 @@ library(kableExtra)
 library(stringr)
 ```
 
-There was a separate csv file for each ride. I originally merged & cleaned this data using Python. I then created a new file (merged_rides), which I load here. I also load the metadata file, which contains additional information about each observed date (e.g. holidays, WDW events, etc.). This will later be merged with the ride wait time data for modeling.
+There was a separate csv file for each ride. I originally merged & cleaned this data using Python, which can be found [here](https://github.com/mikaylaedwards/Disney-wait-times/blob/master/wait%20comparison.ipynb). 
+I then created a new file (merged_rides), which I load below. I also load the metadata file, which contains additional information about each observed date (e.g. holidays, WDW events, etc.). This will later be merged with the ride wait time data for modeling.
 
 ```{r,warning=FALSE,message=FALSE}
 meta<-read_csv("metadata.csv")
@@ -317,15 +318,22 @@ xgb_tuned_learner<- setHyperPars(
 print(xgb_tuned_learner)
 
 ```
-The Hyperparameter results from tuning are shown above. Now, we can re-train our model with these results. 
+The optimal hyperparameter results from tuning are shown above. Now, we can re-train our model with these results. 
 ```{r}
-# Re-train parameters using tuned hyperparameters (and full training set)
+# Re-train parameters using tuned hyperparameters 
 xgb_tuned_model <- mlr::train(xgb_tuned_learner, train_task)
 
 # Make a new prediction
 result_tuned <- predict(xgb_tuned_model, test_task)
 performance(result_tuned,measures = mae)
 ```
-Our performance improved significantly with hyper-parameter tuning. This model performs better than the one created with the xgboost package (although we did not tune that model).
 
+The performance improved significantly with hyper-parameter tuning. This model performs better than the one created originally with the xgboost package. 
+```{r}
+feat_imp<-getFeatureImportance(xgb_tuned_model)
+
+#plot top 20 features
+feat_imp$res %>% gather(key="feature",value="importance") %>% top_n(20,importance) %>% ggplot(aes(x=fct_reorder(feature,importance))) + geom_col(aes(y=importance))+coord_flip()
+```
+This feature importance plot is very similar to that found above using xgboost untuned. The ride type is the most important feature in this model as well.  Additionally, we see that the hour, holiday metric (holidaym), and month are significant.
 
