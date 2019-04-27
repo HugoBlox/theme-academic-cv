@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NLP on Academic</title>
+    <link>/tags/nlp/</link>
+    <description>Recent content in NLP on Academic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Grand Floridian Hotel Reviews</title>
+      <link>/post/grand-floridian-hotel-reviews/</link>
+      <pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/grand-floridian-hotel-reviews/</guid>
+      <description>##Grand Floridian Hotel Reviews: Sentiment Analysis and NLP #### The data for this analysis was obtained from the reviews posted on TripAdvisor. I used RSelenium and rvest to extract the data from the first 3000 dynamic web-pages on the TripAdvisor site, which was 2,350 reviews in total. The code used to do this is published on my GitHub. Here, I load the the Rda file I saved from that extraction.</description>
+    </item>
+    
+  </channel>
+</rss>

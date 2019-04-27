@@ -1,0 +1,260 @@
+---
+title: Grand Floridian Hotel Reviews
+author: ''
+date: '2019-04-26'
+slug: grand-floridian-hotel-reviews
+categories: []
+tags:
+  - sentiment analysis
+  - NLP
+---
+
+
+
+<p>##Grand Floridian Hotel Reviews: Sentiment Analysis and NLP
+#### The data for this analysis was obtained from the reviews posted on TripAdvisor. I used RSelenium and rvest to extract the data from the first 3000 dynamic web-pages on the TripAdvisor site, which was 2,350 reviews in total. The code used to do this is published on my GitHub. Here, I load the the Rda file I saved from that extraction.</p>
+<pre class="r"><code>library(tidyverse)
+library(zoo)
+library(knitr)
+rdf&lt;-readRDS(&quot;first_3000.Rda&quot;)
+str(rdf)</code></pre>
+<pre><code>## &#39;data.frame&#39;:    2350 obs. of  3 variables:
+##  $ rating : int  5 5 5 5 5 3 5 5 4 5 ...
+##  $ id_date: Factor w/ 75 levels &quot;Date of stay: April 2019&quot;,..: 1 3 2 2 2 1 2 2 2 3 ...
+##  $ reviews: Factor w/ 2344 levels &quot;Family Vacation dreams come true.  We have always wanted to stay at Grand Floridian and this time we finally we&quot;| __truncated__,..: 4 3 1 2 5 10 7 9 6 8 ...</code></pre>
+<p>This is the raw version of the data as obtained from the site: it has the text content of the review, the star rating (1-5), and the date of stay (month/year).
+It requires a bit of cleaning to get in the form we want.</p>
+<pre class="r"><code>#rename &amp; change variable type
+rdf &lt;- rdf %&gt;% rename(stay_date = id_date,
+review = reviews) %&gt;%
+mutate_at(vars(stay_date, review),
+~ as.character(.)) %&gt;%
+mutate(rating = as.factor(rating))
+
+#change stay_date variable from character to date type
+
+rdf$stay_date &lt;- gsub(&quot;Date of stay: &quot;, &quot;&quot;, rdf$stay_date)
+rdf$stay_date &lt;- as.yearmon(rdf$stay_date, &quot;%b %Y&quot;)
+head(rdf)</code></pre>
+<pre><code>##   rating stay_date
+## 1      5  Apr 2019
+## 2      5  Oct 2018
+## 3      5  Mar 2019
+## 4      5  Mar 2019
+## 5      5  Mar 2019
+## 6      3  Apr 2019
+##                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          review
+## 1 We have stayed throughout the Deluxe resorts on Disney property.  We are a Disney family and have &quot;grown up&quot; in our accommodation needs starting at Animal Kingdom, through the Epcot resorts and this year, our first year staying at the Grand Floridian. With older kids, we decided to make this our home for our stay this year and we couldn&#39;t have made a better choice.  The main lobby is impressive and part way through our stay the easter eggs made their impressive appearance for the next few weeks.  Dumbo on a Marbled egg is simply amazing!We arrived by Uber this year and we were, as typical for the Deluxe Resorts, greeted immediately by name and handed off to a cast member that would help with the check-in process.  We were staying on the &quot;club level&quot; which we have always done (in anyone wants to know why, ping me...  it is a HUGE benefit when executed properly).  We were there early, so our luggage was handled and we were brought directly to the Club building where we could start our day and informed that when our room was ready, we would be notified by text and through the Disney app. The family split up to pools, and monorail rides to enjoy Disney.  And fairly early in the afternoon, our room was ready.  The rooms are a bit larger in Grand Floridian than they are in some of the other resorts and they make good use of that space.  Two queen beds and a single pullout bed made life easy for us.  Later that evening, we were planning to head out to watch the fireworks from the grounds but realized we could stand on our balcony and have a clear view which was great!  There are better views for sure, but you can&#39;t beat getting back into your room at 9:33 pm literally seconds after the fireworks end.Access to transportation is great with so many options from this resort.  Monorail, boat or bus (or the Minnie-Van&#39;s ;) ) to get you to where you need to go.  I&#39;m not sure if we were just lucky this year, but we never waited more than 5 minutes for any type of transportation.  We used all of the pools during our stay and although crowded, we always (eventually) found a spot to sit back and relax.  Virgin Strawberry Daiquiris were a hit (and a snack credit!!).  The pools were clean and well managed to say the least and the constant activities available at the smaller pool was so much fun to watch. The &quot;Club Level&quot; at Grand Floridian was without question the best of any that we have experienced.  Although a bit smaller than some, the quality of the options was amazing.  Even Mickey waffles in the mornings for those looking for a bit heartier start to the day.  There is rarely anything but raves regarding the staff at the Deluxe resorts and this stay was no different if not a step up.  I&#39;m not sure if there is a process or approach to who goes where but everyone was awesome!There are plenty of shops in the resort to keep you in whatever you need and regardless, spend some time just enjoying the main lobby while you are there.  The restaurant count is greater than any other resort (I think) although some on the high end of the range, but certainly options for everyone. We ended our stay with a trip back to the airport on Disney&#39;s Magical Express and as has been with every time using this service, it was flawless!  A great Disney Resort that deserves its reputation!
+## 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    This was our second stay at the Grand Floridian. This stay we were in the Main Building Club Level. The resort&#39;s attention to detail is extraordinary. Our room was clean and spacious with a wonderful view of Magic Kingdom. The staff was very accommodating during the stay. There is a fitness center and spa on property, and the location on the monorail makes it very convenient.
+## 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Family Vacation dreams come true.  We have always wanted to stay at Grand Floridian and this time we finally were able to.  The Grand Floridian was very clean and we were able to get a great nights rest thanks to the very comfortable beds.  My children loved the hidden murphy bed so much they traded out each night on who would sleep on it.  We loved that upon our arrival we went down to the dock to watch the fireworks from Magic Kingdom and we could even hear all the music from speakers on the dock.  We can not be more happy about out stay here.
+## 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      First experience staying at The Grand Floridian with my husband and almost two year old.  We had a blast! The hotel itself is stunning.  Grounds well kept, impressive lobby and very nice rooms.  The resort is spread out which is nice as there is not a ton of people you come across trying to get to your room from the lobby or pool area.  This is a nice escape from the hectic crowds you face at the parks.  One of the biggest pluses for this resort is the close proximity to Magic Kingdom.  The monorail makes getting around Epcot and Magic Kingdom a breeze.  It also makes bus lines less hectic to the other parks because many people are using the monorail to get to those monorail  parks!  1800 Park Fare was a lovely character dinner for my daughter.  The characters engaged with her really well even though she was quite shy.  My one piece of advise is that the pool areas need more chairs.  There were several occasions that there were no seats available and we needed a pool attendant to assist us (which they did).  Overall, this will likely become our go to Disney hotel!
+## 5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Words that come to mindMagicalnot a beat missed - stayed ten years ago at the club level concierge floor - the service got better!You are met at the hotel entrance by your hostAlberto was oursescorted to the private concierge floor, all details of stay outlined,then the roomOne Upon a Time pillowsfabulous mattress and bed dressings beyond ...loved the Softening Mint foot rub provided ( wonderful after a Magical Day in the parks )the food and desert presentations were beautiful and very tasty = Yum Yum!Always remember you pay for privilege - Australia knows GREAT
+## 6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Yes this is a beautiful place but I have been to resorts that had better amenities and service. It is on the disney resort with a hodgepodge of style. Old , new, beach, or lake not sure this place has its nitch. The food is why I knocked the stars down. The food is ok to say the least. As a first time visitor I was not wowed. You are not getting your bang for your buck. Open your wallet and throw your money out the window and make sure you get something to eat before you open your wallet.</code></pre>
+<pre class="r"><code>rdf %&gt;% 
+  ggplot(aes(x=stay_date))+geom_bar(aes(fill=rating))+scale_x_yearmon(format = &quot;%b-%y&quot;)</code></pre>
+<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<pre class="r"><code>colors&lt;-c(&quot;cadetblue1&quot;, &quot;deepskyblue&quot;, &quot;deepskyblue3&quot;,&quot;deepskyblue4&quot;,&quot;dodgerblue3&quot;)
+# rdf %&gt;% count(rating,stay_date,sort = T) %&gt;% group_by(stay_date) %&gt;%
+#   mutate(freq = n / sum(n)) %&gt;% arrange(desc(freq,stay_date))
+
+# %&gt;%  ggplot(aes(x=stay_date,y=freq,color=rating))+geom_line(aes(group=rating))+scale_x_yearmon(format = &quot;%b-%y&quot;)
+rdf %&gt;% 
+  ggplot(aes(x=rating,fill=rating))+geom_bar()+scale_fill_manual(values=colors)</code></pre>
+<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<pre class="r"><code>library(tidytext)
+library(SnowballC)
+
+rdf_tidy&lt;-rdf %&gt;% mutate(review_num=row_number()) %&gt;%
+  unnest_tokens(word, review) %&gt;%
+  anti_join(stop_words) %&gt;%filter(str_detect(word, &quot;^[a-z&#39;]+$&quot;)) %&gt;% 
+  distinct() </code></pre>
+<pre><code>## Joining, by = &quot;word&quot;</code></pre>
+<pre class="r"><code>most_common_words&lt;-rdf_tidy %&gt;%
+  group_by(word) %&gt;% 
+  summarize(
+  freq=n()) %&gt;% 
+  arrange(desc(freq)) 
+##rearrange by frequency, eliminate duplicates by reducing word to word to stem (e.g. stayed to stay)
+most_common_words %&gt;% 
+  mutate(word = reorder(word, freq)) %&gt;% 
+  head(25) %&gt;%  ggplot(aes(x=word,y=freq))+ geom_segment(aes(x=word ,xend=word, y=0, yend=freq),color=&quot;black&quot;) +
+  geom_point(size=3, color=&quot;deepskyblue&quot;)+
+  labs(title = &quot;Top 25 Most Common Words in Review Text&quot;, y = &quot;# times used&quot;, x=&quot;&quot;) + coord_flip()</code></pre>
+<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<pre class="r"><code>##group rating 1,2; rating 3,4; rating 5 &amp; examine most common in each category
+by_rate&lt;-rdf %&gt;% 
+   mutate(rating_group = case_when(rating == &quot;1&quot;|rating ==&quot;2&quot; ~ &quot;low&quot;,TRUE~&quot;high&quot;)) 
+
+##get inverse document frequency: which words appear frequently in one category but not in the others? (e.g. appears frequently in high reviews but not in low)
+
+by_rate_inverse&lt;-by_rate %&gt;% unnest_tokens(word, review) %&gt;%
+  count(rating_group,word,sort=TRUE) %&gt;% filter(!nchar(word) &lt;= 3) %&gt;% 
+  bind_tf_idf(word,rating_group,n) %&gt;% group_by(rating_group) %&gt;% 
+  mutate(rank = rank(desc(tf_idf),ties.method = &quot;first&quot;)) %&gt;%
+  arrange(rank)
+ 
+by_rate_inverse %&gt;% 
+  mutate(word = factor(word, levels = rev(unique(word)))) %&gt;% 
+  group_by(rating_group) %&gt;% filter(rank&lt;=3) %&gt;% 
+  ungroup() %&gt;%
+  ggplot(aes(word, tf_idf, fill = rating_group)) +
+  geom_col(show.legend = FALSE) +
+  labs(x = NULL, y = &quot;tf-idf&quot;) +
+  facet_wrap(~rating_group, ncol = 2, scales = &quot;free&quot;) +
+  coord_flip()</code></pre>
+<pre><code>## Warning in mutate_impl(.data, dots): Unequal factor levels: coercing to
+## character</code></pre>
+<pre><code>## Warning in mutate_impl(.data, dots): binding character and factor vector,
+## coercing into character vector
+
+## Warning in mutate_impl(.data, dots): binding character and factor vector,
+## coercing into character vector</code></pre>
+<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+<pre class="r"><code>##bigram: separate--&gt;filter out stop words; put back together--&gt;count
+bigram_filt&lt;-rdf %&gt;% 
+  unnest_tokens(bigram, review, token = &quot;ngrams&quot;, n = 2) %&gt;%
+  separate(bigram, c(&quot;word1&quot;, &quot;word2&quot;), sep = &quot; &quot;) %&gt;% 
+  filter(!word1 %in% stop_words$word) %&gt;%
+  filter(!word2 %in% stop_words$word) 
+
+
+bigram_count &lt;- bigram_filt %&gt;%
+  unite(bigram, word1, word2, sep = &quot; &quot;) %&gt;%
+  count(bigram, sort = TRUE)
+
+bigram_count %&gt;% filter(!str_detect(bigram,&quot;grand floridian&quot;)) %&gt;% head(25) %&gt;%  mutate(bigram = reorder(bigram, n)) %&gt;% 
+  ggplot(aes(x=bigram,y=n))+ geom_segment(aes(x=bigram ,xend=bigram, y=0, yend=n),color=&quot;black&quot;) +
+  geom_point(size=3, color=&quot;deepskyblue&quot;)+
+  labs(title = &quot;Top 25 Most Common Bigrams in Review Text&quot;, y = &quot;# times used&quot;, x=&quot;&quot;) + coord_flip()</code></pre>
+<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
+<pre class="r"><code>new_sentiments &lt;- sentiments %&gt;% #From the tidytext package
+  filter(lexicon != &quot;loughran&quot;) %&gt;% #Remove the finance lexicon
+  mutate( sentiment = ifelse(lexicon == &quot;AFINN&quot; &amp; score &gt;= 0, &quot;positive&quot;,
+                              ifelse(lexicon == &quot;AFINN&quot; &amp; score &lt; 0,
+                                     &quot;negative&quot;, sentiment))) %&gt;%
+  group_by(lexicon) %&gt;%
+  mutate(words_in_lexicon = n_distinct(word)) %&gt;%
+  ungroup()
+
+new_sentiments %&gt;%
+  group_by(lexicon, sentiment, words_in_lexicon) %&gt;%
+  summarise(distinct_words = n_distinct(word)) %&gt;%
+  ungroup() %&gt;%
+  spread(sentiment, distinct_words) </code></pre>
+<pre><code>## # A tibble: 3 x 12
+##   lexicon words_in_lexicon anger anticipation disgust  fear   joy negative
+##   &lt;chr&gt;              &lt;int&gt; &lt;int&gt;        &lt;int&gt;   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;
+## 1 AFINN               2476    NA           NA      NA    NA    NA     1597
+## 2 bing                6785    NA           NA      NA    NA    NA     4782
+## 3 nrc                 6468  1247          839    1058  1476   689     3324
+## # … with 4 more variables: positive &lt;int&gt;, sadness &lt;int&gt;, surprise &lt;int&gt;,
+## #   trust &lt;int&gt;</code></pre>
+<pre class="r"><code>rdf_tidy %&gt;%
+  mutate(words_in_reviews = n_distinct(word)) %&gt;%
+  inner_join(new_sentiments) %&gt;%
+  group_by(lexicon, words_in_reviews, words_in_lexicon) %&gt;%
+  summarise(lex_match_words = n_distinct(word)) %&gt;%
+  ungroup() %&gt;%
+  mutate(total_match_words = sum(lex_match_words), #Not used but good to have
+         match_ratio = lex_match_words / words_in_reviews) %&gt;%
+  select(lexicon, lex_match_words,  words_in_reviews, match_ratio)</code></pre>
+<pre><code>## Joining, by = &quot;word&quot;</code></pre>
+<pre><code>## # A tibble: 3 x 4
+##   lexicon lex_match_words words_in_reviews match_ratio
+##   &lt;chr&gt;             &lt;int&gt;            &lt;int&gt;       &lt;dbl&gt;
+## 1 AFINN               954            10983      0.0869
+## 2 bing               1687            10983      0.154 
+## 3 nrc                1923            10983      0.175</code></pre>
+<pre class="r"><code>##When were the most negative reviews given?
+bingnegative &lt;- get_sentiments(&quot;bing&quot;) %&gt;% 
+  filter(sentiment == &quot;negative&quot;)
+
+bingpositive&lt;- get_sentiments(&quot;bing&quot;) %&gt;% 
+  filter(sentiment == &quot;positive&quot;)
+
+##normalize w/count of total words in reviews for given stay date
+wordcounts &lt;- rdf_tidy %&gt;%
+  group_by(stay_date) %&gt;%
+  summarize(words = n())
+
+most_neg&lt;-rdf_tidy %&gt;%
+  semi_join(bingnegative) %&gt;%
+  group_by(stay_date) %&gt;%
+  summarize(negativewords = n()) %&gt;%
+  left_join(wordcounts, by = c(&quot;stay_date&quot;)) %&gt;%
+  mutate(ratio_neg = negativewords/words,ratio_pos=1-ratio_neg) %&gt;%
+  ungroup()</code></pre>
+<pre><code>## Joining, by = &quot;word&quot;</code></pre>
+<pre class="r"><code>most_neg %&gt;% ggplot(aes(x=stay_date,y=ratio_neg,color=ratio_neg))+scale_x_yearmon(format = &quot;%b-%y&quot;)+geom_line()</code></pre>
+<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-10-1.png" width="672" />
+AFINN lexicon provides a positivity score for each word, from -5 (most negative) to 5 (most positive)</p>
+<pre class="r"><code>##gives word and score 
+afinn &lt;- sentiments %&gt;%
+  filter(lexicon == &quot;AFINN&quot;) %&gt;%
+  select(word, afinn_score = score)
+
+reviews_sentiment &lt;- rdf_tidy %&gt;%
+  inner_join(afinn, by = &quot;word&quot;) %&gt;%  
+ group_by(review_num, rating) %&gt;%
+summarize(sentiment = mean(afinn_score))
+ reviews_sentiment</code></pre>
+<pre><code>## # A tibble: 2,328 x 3
+## # Groups:   review_num [?]
+##    review_num rating sentiment
+##         &lt;int&gt; &lt;fct&gt;      &lt;dbl&gt;
+##  1          1 5           2.14
+##  2          2 5           2.5 
+##  3          3 5           2.29
+##  4          4 5           1.5 
+##  5          5 5           1.4 
+##  6          6 3           3   
+##  7          7 5           1.16
+##  8          8 5           2.2 
+##  9          9 4          -1   
+## 10         10 5           2.06
+## # … with 2,318 more rows</code></pre>
+<pre class="r"><code>ggplot(reviews_sentiment, aes(rating, sentiment, group = rating)) +
+  geom_boxplot(colour = &quot;black&quot;, fill = &quot;#56B4E9&quot;,notch = T) +
+  ylab(&quot;Average sentiment score&quot;)</code></pre>
+<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-12-1.png" width="672" />
+Among 5 star reviews, there are outliers with low scores. There is largest gap between 25-50% in rating</p>
+<pre class="r"><code>##Which words tend to appear in positive/negative reviews?--&gt;per-word summary
+##returns how many times word used in each review
+count_words &lt;- rdf_tidy %&gt;%
+  count(review_num, rating, word) %&gt;%
+  ungroup() 
+
+#returns most negative words
+summary_neg&lt;- count_words %&gt;%  group_by(word) %&gt;%
+  summarize(reviews = n(),
+            uses = sum(n),
+            average_rat = mean(as.integer(rating))) %&gt;% filter(reviews&gt;10) %&gt;% arrange(average_rat)
+
+
+
+head(summary_neg,15) %&gt;% ggplot(aes(x=reviews,y=average_rat))+ geom_point() +
+  geom_label(aes(label = word), check_overlap = TRUE, vjust = 1, hjust = 0) +
+  # scale_x_log10() +
+  xlab(&quot;# of reviews&quot;) +
+  ylab(&quot;Average Stars&quot;) + expand_limits(x = c(10,40))</code></pre>
+<pre><code>## Warning: Ignoring unknown parameters: check_overlap</code></pre>
+<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-13-1.png" width="672" /></p>
+<pre class="r"><code>summary_pos&lt;- count_words %&gt;%  group_by(word) %&gt;%
+  summarize(reviews = n(),
+            uses = sum(n),
+            average_rat = mean(as.integer(rating))) %&gt;% filter(reviews&gt;50) %&gt;% arrange(desc(average_rat))
+
+head(summary_pos,15) %&gt;% ggplot(aes(x=reviews,y=average_rat))+ geom_point() +
+  geom_label(aes(label = word), check_overlap = TRUE, vjust = 1, hjust = 0) +
+  xlab(&quot;# of reviews&quot;) +
+  ylab(&quot;Average Stars&quot;)</code></pre>
+<pre><code>## Warning: Ignoring unknown parameters: check_overlap</code></pre>
+<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-14-1.png" width="672" /></p>
+<pre class="r"><code># library(quanteda)
+# ##Add Y response variable (pos/neg), remove rating =3
+# 
+# by_rate&lt;-rdf_tidy %&gt;% filter(!rating==3) %&gt;% 
+#    mutate(positive = case_when(rating == &quot;1&quot;|rating ==&quot;2&quot; ~ 0,TRUE~1)) %&gt;% select(-rating,-stay_date) 
+# head(by_rate)
+# 
+# reviewtokensdfm=dfm(by_rate,tolower = FALSE)</code></pre>

@@ -1,0 +1,248 @@
+---
+title: Grand Floridian Hotel Reviews
+author: ''
+date: '2019-04-26'
+slug: grand-floridian-hotel-reviews
+categories: []
+tags:
+  - sentiment analysis
+  - NLP
+---
+##Grand Floridian Hotel Reviews: Sentiment Analysis and NLP
+#### The data for this analysis was obtained from the reviews posted on TripAdvisor. I used RSelenium and rvest to extract the data from the first 3000 dynamic web-pages on the TripAdvisor site, which was 2,350 reviews in total. The code used to do this is published on my GitHub. Here, I load the the Rda file I saved from that extraction. 
+```{r,message=FALSE,warning=FALSE}
+library(tidyverse)
+library(zoo)
+library(knitr)
+rdf<-readRDS("first_3000.Rda")
+str(rdf)
+```
+This is the raw version of the data as obtained from the site: it has the text content of the review, the star rating (1-5), and the date of stay (month/year).
+It requires a bit of cleaning to get in the form we want. 
+```{r}
+#rename & change variable type
+rdf <- rdf %>% rename(stay_date = id_date,
+review = reviews) %>%
+mutate_at(vars(stay_date, review),
+~ as.character(.)) %>%
+mutate(rating = as.factor(rating))
+
+#change stay_date variable from character to date type
+
+rdf$stay_date <- gsub("Date of stay: ", "", rdf$stay_date)
+rdf$stay_date <- as.yearmon(rdf$stay_date, "%b %Y")
+head(rdf)
+
+```
+
+```{r}
+rdf %>% 
+  ggplot(aes(x=stay_date))+geom_bar(aes(fill=rating))+scale_x_yearmon(format = "%b-%y")
+```
+
+```{r}
+colors<-c("cadetblue1", "deepskyblue", "deepskyblue3","deepskyblue4","dodgerblue3")
+# rdf %>% count(rating,stay_date,sort = T) %>% group_by(stay_date) %>%
+#   mutate(freq = n / sum(n)) %>% arrange(desc(freq,stay_date))
+
+# %>%  ggplot(aes(x=stay_date,y=freq,color=rating))+geom_line(aes(group=rating))+scale_x_yearmon(format = "%b-%y")
+rdf %>% 
+  ggplot(aes(x=rating,fill=rating))+geom_bar()+scale_fill_manual(values=colors)
+```
+
+```{r}
+library(tidytext)
+library(SnowballC)
+
+rdf_tidy<-rdf %>% mutate(review_num=row_number()) %>%
+  unnest_tokens(word, review) %>%
+  anti_join(stop_words) %>%filter(str_detect(word, "^[a-z']+$")) %>% 
+  distinct() 
+
+most_common_words<-rdf_tidy %>%
+  group_by(word) %>% 
+  summarize(
+  freq=n()) %>% 
+  arrange(desc(freq)) 
+##rearrange by frequency, eliminate duplicates by reducing word to word to stem (e.g. stayed to stay)
+most_common_words %>% 
+  mutate(word = reorder(word, freq)) %>% 
+  head(25) %>%  ggplot(aes(x=word,y=freq))+ geom_segment(aes(x=word ,xend=word, y=0, yend=freq),color="black") +
+  geom_point(size=3, color="deepskyblue")+
+  labs(title = "Top 25 Most Common Words in Review Text", y = "# times used", x="") + coord_flip()
+
+```
+
+
+```{r}
+##group rating 1,2; rating 3,4; rating 5 & examine most common in each category
+by_rate<-rdf %>% 
+   mutate(rating_group = case_when(rating == "1"|rating =="2" ~ "low",TRUE~"high")) 
+
+##get inverse document frequency: which words appear frequently in one category but not in the others? (e.g. appears frequently in high reviews but not in low)
+
+by_rate_inverse<-by_rate %>% unnest_tokens(word, review) %>%
+  count(rating_group,word,sort=TRUE) %>% filter(!nchar(word) <= 3) %>% 
+  bind_tf_idf(word,rating_group,n) %>% group_by(rating_group) %>% 
+  mutate(rank = rank(desc(tf_idf),ties.method = "first")) %>%
+  arrange(rank)
+ 
+by_rate_inverse %>% 
+  mutate(word = factor(word, levels = rev(unique(word)))) %>% 
+  group_by(rating_group) %>% filter(rank<=3) %>% 
+  ungroup() %>%
+  ggplot(aes(word, tf_idf, fill = rating_group)) +
+  geom_col(show.legend = FALSE) +
+  labs(x = NULL, y = "tf-idf") +
+  facet_wrap(~rating_group, ncol = 2, scales = "free") +
+  coord_flip()
+
+```
+
+
+```{r}
+##bigram: separate-->filter out stop words; put back together-->count
+bigram_filt<-rdf %>% 
+  unnest_tokens(bigram, review, token = "ngrams", n = 2) %>%
+  separate(bigram, c("word1", "word2"), sep = " ") %>% 
+  filter(!word1 %in% stop_words$word) %>%
+  filter(!word2 %in% stop_words$word) 
+
+
+bigram_count <- bigram_filt %>%
+  unite(bigram, word1, word2, sep = " ") %>%
+  count(bigram, sort = TRUE)
+
+bigram_count %>% filter(!str_detect(bigram,"grand floridian")) %>% head(25) %>%  mutate(bigram = reorder(bigram, n)) %>% 
+  ggplot(aes(x=bigram,y=n))+ geom_segment(aes(x=bigram ,xend=bigram, y=0, yend=n),color="black") +
+  geom_point(size=3, color="deepskyblue")+
+  labs(title = "Top 25 Most Common Bigrams in Review Text", y = "# times used", x="") + coord_flip()
+
+
+```
+
+```{r}
+
+new_sentiments <- sentiments %>% #From the tidytext package
+  filter(lexicon != "loughran") %>% #Remove the finance lexicon
+  mutate( sentiment = ifelse(lexicon == "AFINN" & score >= 0, "positive",
+                              ifelse(lexicon == "AFINN" & score < 0,
+                                     "negative", sentiment))) %>%
+  group_by(lexicon) %>%
+  mutate(words_in_lexicon = n_distinct(word)) %>%
+  ungroup()
+
+new_sentiments %>%
+  group_by(lexicon, sentiment, words_in_lexicon) %>%
+  summarise(distinct_words = n_distinct(word)) %>%
+  ungroup() %>%
+  spread(sentiment, distinct_words) 
+```
+
+```{r}
+rdf_tidy %>%
+  mutate(words_in_reviews = n_distinct(word)) %>%
+  inner_join(new_sentiments) %>%
+  group_by(lexicon, words_in_reviews, words_in_lexicon) %>%
+  summarise(lex_match_words = n_distinct(word)) %>%
+  ungroup() %>%
+  mutate(total_match_words = sum(lex_match_words), #Not used but good to have
+         match_ratio = lex_match_words / words_in_reviews) %>%
+  select(lexicon, lex_match_words,  words_in_reviews, match_ratio)
+```
+
+```{r}
+##When were the most negative reviews given?
+bingnegative <- get_sentiments("bing") %>% 
+  filter(sentiment == "negative")
+
+bingpositive<- get_sentiments("bing") %>% 
+  filter(sentiment == "positive")
+
+##normalize w/count of total words in reviews for given stay date
+wordcounts <- rdf_tidy %>%
+  group_by(stay_date) %>%
+  summarize(words = n())
+
+most_neg<-rdf_tidy %>%
+  semi_join(bingnegative) %>%
+  group_by(stay_date) %>%
+  summarize(negativewords = n()) %>%
+  left_join(wordcounts, by = c("stay_date")) %>%
+  mutate(ratio_neg = negativewords/words,ratio_pos=1-ratio_neg) %>%
+  ungroup()
+
+
+most_neg %>% ggplot(aes(x=stay_date,y=ratio_neg,color=ratio_neg))+scale_x_yearmon(format = "%b-%y")+geom_line()
+```
+AFINN lexicon provides a positivity score for each word, from -5 (most negative) to 5 (most positive)
+```{r}
+##gives word and score 
+afinn <- sentiments %>%
+  filter(lexicon == "AFINN") %>%
+  select(word, afinn_score = score)
+
+reviews_sentiment <- rdf_tidy %>%
+  inner_join(afinn, by = "word") %>%  
+ group_by(review_num, rating) %>%
+summarize(sentiment = mean(afinn_score))
+ reviews_sentiment
+
+```
+
+```{r}
+ggplot(reviews_sentiment, aes(rating, sentiment, group = rating)) +
+  geom_boxplot(colour = "black", fill = "#56B4E9",notch = T) +
+  ylab("Average sentiment score")
+
+
+```
+Among 5 star reviews, there are outliers with low scores. There is largest gap between 25-50% in rating 
+```{r}
+##Which words tend to appear in positive/negative reviews?-->per-word summary
+##returns how many times word used in each review
+count_words <- rdf_tidy %>%
+  count(review_num, rating, word) %>%
+  ungroup() 
+
+#returns most negative words
+summary_neg<- count_words %>%  group_by(word) %>%
+  summarize(reviews = n(),
+            uses = sum(n),
+            average_rat = mean(as.integer(rating))) %>% filter(reviews>10) %>% arrange(average_rat)
+
+
+
+head(summary_neg,15) %>% ggplot(aes(x=reviews,y=average_rat))+ geom_point() +
+  geom_label(aes(label = word), check_overlap = TRUE, vjust = 1, hjust = 0) +
+  # scale_x_log10() +
+  xlab("# of reviews") +
+  ylab("Average Stars") + expand_limits(x = c(10,40))
+```
+
+```{r}
+summary_pos<- count_words %>%  group_by(word) %>%
+  summarize(reviews = n(),
+            uses = sum(n),
+            average_rat = mean(as.integer(rating))) %>% filter(reviews>50) %>% arrange(desc(average_rat))
+
+head(summary_pos,15) %>% ggplot(aes(x=reviews,y=average_rat))+ geom_point() +
+  geom_label(aes(label = word), check_overlap = TRUE, vjust = 1, hjust = 0) +
+  xlab("# of reviews") +
+  ylab("Average Stars")
+```
+
+```{r}
+# library(quanteda)
+# ##Add Y response variable (pos/neg), remove rating =3
+# 
+# by_rate<-rdf_tidy %>% filter(!rating==3) %>% 
+#    mutate(positive = case_when(rating == "1"|rating =="2" ~ 0,TRUE~1)) %>% select(-rating,-stay_date) 
+# head(by_rate)
+# 
+# reviewtokensdfm=dfm(by_rate,tolower = FALSE)
+
+```
+
+
+
