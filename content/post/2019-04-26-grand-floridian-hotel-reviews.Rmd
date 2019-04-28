@@ -8,16 +8,21 @@ tags:
   - sentiment analysis
   - NLP
 ---
-##Grand Floridian Hotel Reviews: Sentiment Analysis and NLP
-#### The data for this analysis was obtained from the reviews posted on TripAdvisor. I used RSelenium and rvest to extract the data from the first 3000 dynamic web-pages on the TripAdvisor site, which was 2,350 reviews in total. The code used to do this is published on my GitHub. Here, I load the the Rda file I saved from that extraction. 
+## Grand Floridian Hotel Reviews: Sentiment Analysis and NLP
+The data for this analysis was obtained from the reviews posted on TripAdvisor. I used RSelenium and rvest to extract the data from the first 3000 dynamic web-pages on the TripAdvisor site, which was 2,350 reviews in total. The code used to do this is published on my GitHub. Here, I load the the Rda file I saved from that extraction. 
 ```{r,message=FALSE,warning=FALSE}
 library(tidyverse)
 library(zoo)
 library(knitr)
+library(tidytext)
+library(SnowballC)
+
+#load data
 rdf<-readRDS("first_3000.Rda")
 str(rdf)
 ```
 This is the raw version of the data as obtained from the site: it has the text content of the review, the star rating (1-5), and the date of stay (month/year).
+
 It requires a bit of cleaning to get in the form we want. 
 ```{r}
 #rename & change variable type
@@ -34,72 +39,76 @@ rdf$stay_date <- as.yearmon(rdf$stay_date, "%b %Y")
 head(rdf)
 
 ```
-
+Now we can plot the share each rating category (1-5) over time.
 ```{r}
 rdf %>% 
   ggplot(aes(x=stay_date))+geom_bar(aes(fill=rating))+scale_x_yearmon(format = "%b-%y")
 ```
-
+It seems like most reviews have been consistenly positive. It also appears that not many reviews were given in early 2015. Though it is possible that the resort had fewer people stay during this time (e.g. renovations/construction), it is more likely that this data is missing. However, we can still analyze the distribution of reviews that we do have. For example, what is the total distribution of each rating category?
 ```{r}
+#set color
 colors<-c("cadetblue1", "deepskyblue", "deepskyblue3","deepskyblue4","dodgerblue3")
-# rdf %>% count(rating,stay_date,sort = T) %>% group_by(stay_date) %>%
-#   mutate(freq = n / sum(n)) %>% arrange(desc(freq,stay_date))
 
-# %>%  ggplot(aes(x=stay_date,y=freq,color=rating))+geom_line(aes(group=rating))+scale_x_yearmon(format = "%b-%y")
 rdf %>% 
   ggplot(aes(x=rating,fill=rating))+geom_bar()+scale_fill_manual(values=colors)
 ```
+##Sentiment Analysis
+Using the tidytext package, we first transform the text of the reviews into tidy format. We remove stop words and filter unwanted characters. Then, we can visualize the most common words in the text of all reviews.  
+```{r,message=FALSE}
 
-```{r}
-library(tidytext)
-library(SnowballC)
-
-rdf_tidy<-rdf %>% mutate(review_num=row_number()) %>%
+rdf_tidy <- rdf %>% mutate(review_num = row_number()) %>%
   unnest_tokens(word, review) %>%
-  anti_join(stop_words) %>%filter(str_detect(word, "^[a-z']+$")) %>% 
-  distinct() 
+  anti_join(stop_words) %>% filter(str_detect(word, "^[a-z']+$")) %>%
+  distinct()
 
-most_common_words<-rdf_tidy %>%
-  group_by(word) %>% 
-  summarize(
-  freq=n()) %>% 
-  arrange(desc(freq)) 
-##rearrange by frequency, eliminate duplicates by reducing word to word to stem (e.g. stayed to stay)
-most_common_words %>% 
-  mutate(word = reorder(word, freq)) %>% 
-  head(25) %>%  ggplot(aes(x=word,y=freq))+ geom_segment(aes(x=word ,xend=word, y=0, yend=freq),color="black") +
-  geom_point(size=3, color="deepskyblue")+
-  labs(title = "Top 25 Most Common Words in Review Text", y = "# times used", x="") + coord_flip()
+most_common_words <- rdf_tidy %>%
+  group_by(word) %>%
+  summarize(freq = n()) %>%
+  arrange(desc(freq))
 
-```
+#rearrange by frequency, eliminate duplicates
 
-
-```{r}
-##group rating 1,2; rating 3,4; rating 5 & examine most common in each category
-by_rate<-rdf %>% 
-   mutate(rating_group = case_when(rating == "1"|rating =="2" ~ "low",TRUE~"high")) 
-
-##get inverse document frequency: which words appear frequently in one category but not in the others? (e.g. appears frequently in high reviews but not in low)
-
-by_rate_inverse<-by_rate %>% unnest_tokens(word, review) %>%
-  count(rating_group,word,sort=TRUE) %>% filter(!nchar(word) <= 3) %>% 
-  bind_tf_idf(word,rating_group,n) %>% group_by(rating_group) %>% 
-  mutate(rank = rank(desc(tf_idf),ties.method = "first")) %>%
-  arrange(rank)
- 
-by_rate_inverse %>% 
-  mutate(word = factor(word, levels = rev(unique(word)))) %>% 
-  group_by(rating_group) %>% filter(rank<=3) %>% 
-  ungroup() %>%
-  ggplot(aes(word, tf_idf, fill = rating_group)) +
-  geom_col(show.legend = FALSE) +
-  labs(x = NULL, y = "tf-idf") +
-  facet_wrap(~rating_group, ncol = 2, scales = "free") +
-  coord_flip()
+most_common_words %>%
+  mutate(word = reorder(word, freq)) %>%
+  head(25) %>%  ggplot(aes(x = word, y = freq)) + geom_segment(aes(
+    x = word ,
+    xend = word,
+    y = 0,
+    yend = freq
+  ), color = "black") +
+  geom_point(size = 3, color = "deepskyblue") +
+  labs(title = "Top 25 Most Common Words in Review Text", y = "# times used", x =
+         "") + coord_flip()
 
 ```
 
+If we want to compare word usage between good and bad reviews, we can use the inverse document frequency. In other words, which words appear frequently in high reviews but not low (and vice versa)?
+```{r,message=FALSE}
+#group rating 1&2 into "low" category; rating 3,4,& 5 & into "high" category
+by_rate <- rdf %>%
+mutate(rating_group = case_when(rating == "1" |
+rating == "2" ~ "low", TRUE ~ "high"))
 
+
+by_rate_inverse <- by_rate %>% unnest_tokens(word, review) %>%
+count(rating_group, word, sort = TRUE) %>% filter(!nchar(word) <= 3) %>%
+bind_tf_idf(word, rating_group, n) %>% group_by(rating_group) %>%
+mutate(rank = rank(desc(tf_idf), ties.method = "first")) %>%
+arrange(rank)
+
+by_rate_inverse %>%
+mutate(word = factor(word, levels = rev(unique(word)))) %>%
+group_by(rating_group) %>% filter(rank <= 10) %>%
+ungroup() %>%
+ggplot(aes(word, tf_idf, fill = rating_group)) +
+geom_col(show.legend = FALSE) +
+labs(x = NULL, y = "tf-idf") +
+facet_wrap( ~ rating_group, ncol = 2, scales = "free") +
+coord_flip()
+
+```
+
+We can also visualize the most common "bigrams" (i.e. group of two words). To do this, we first separate the unnested bigram and filter for stop words. Then we put them back together and count the frequency of appearance.
 ```{r}
 ##bigram: separate-->filter out stop words; put back together-->count
 bigram_filt<-rdf %>% 
@@ -120,35 +129,30 @@ bigram_count %>% filter(!str_detect(bigram,"grand floridian")) %>% head(25) %>% 
 
 
 ```
-
+The tidytext package has several lexicons (stored as "sentiments") that can be used for sentiment analysis. Below, we explore the number of distint words in each lexicon. We exclude "loughran", the finance lexicon.
 ```{r}
 
-new_sentiments <- sentiments %>% #From the tidytext package
-  filter(lexicon != "loughran") %>% #Remove the finance lexicon
-  mutate( sentiment = ifelse(lexicon == "AFINN" & score >= 0, "positive",
-                              ifelse(lexicon == "AFINN" & score < 0,
-                                     "negative", sentiment))) %>%
+sentiment_lexicons <- sentiments %>% 
+  filter(lexicon != "loughran")%>% 
   group_by(lexicon) %>%
   mutate(words_in_lexicon = n_distinct(word)) %>%
   ungroup()
 
-new_sentiments %>%
-  group_by(lexicon, sentiment, words_in_lexicon) %>%
+sentiment_lexicons %>%
+  group_by(lexicon) %>%
   summarise(distinct_words = n_distinct(word)) %>%
-  ungroup() %>%
-  spread(sentiment, distinct_words) 
+  ungroup() 
 ```
-
+We can see how many words in the review text are found in each lexicon. 
 ```{r}
 rdf_tidy %>%
   mutate(words_in_reviews = n_distinct(word)) %>%
-  inner_join(new_sentiments) %>%
+  inner_join(sentiment_lexicons) %>%
   group_by(lexicon, words_in_reviews, words_in_lexicon) %>%
-  summarise(lex_match_words = n_distinct(word)) %>%
+  summarise(num_match = n_distinct(word)) %>%
   ungroup() %>%
-  mutate(total_match_words = sum(lex_match_words), #Not used but good to have
-         match_ratio = lex_match_words / words_in_reviews) %>%
-  select(lexicon, lex_match_words,  words_in_reviews, match_ratio)
+  mutate(match_ratio = num_match / words_in_reviews) %>%
+  select(lexicon, words_in_reviews, num_match, match_ratio)
 ```
 
 ```{r}

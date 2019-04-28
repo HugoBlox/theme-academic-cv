@@ -11,19 +11,24 @@ tags:
 
 
 
-<p>##Grand Floridian Hotel Reviews: Sentiment Analysis and NLP
-#### The data for this analysis was obtained from the reviews posted on TripAdvisor. I used RSelenium and rvest to extract the data from the first 3000 dynamic web-pages on the TripAdvisor site, which was 2,350 reviews in total. The code used to do this is published on my GitHub. Here, I load the the Rda file I saved from that extraction.</p>
+<div id="grand-floridian-hotel-reviews-sentiment-analysis-and-nlp" class="section level2">
+<h2>Grand Floridian Hotel Reviews: Sentiment Analysis and NLP</h2>
+<p>The data for this analysis was obtained from the reviews posted on TripAdvisor. I used RSelenium and rvest to extract the data from the first 3000 dynamic web-pages on the TripAdvisor site, which was 2,350 reviews in total. The code used to do this is published on my GitHub. Here, I load the the Rda file I saved from that extraction.</p>
 <pre class="r"><code>library(tidyverse)
 library(zoo)
 library(knitr)
+library(tidytext)
+library(SnowballC)
+
+#load data
 rdf&lt;-readRDS(&quot;first_3000.Rda&quot;)
 str(rdf)</code></pre>
 <pre><code>## &#39;data.frame&#39;:    2350 obs. of  3 variables:
 ##  $ rating : int  5 5 5 5 5 3 5 5 4 5 ...
 ##  $ id_date: Factor w/ 75 levels &quot;Date of stay: April 2019&quot;,..: 1 3 2 2 2 1 2 2 2 3 ...
 ##  $ reviews: Factor w/ 2344 levels &quot;Family Vacation dreams come true.  We have always wanted to stay at Grand Floridian and this time we finally we&quot;| __truncated__,..: 4 3 1 2 5 10 7 9 6 8 ...</code></pre>
-<p>This is the raw version of the data as obtained from the site: it has the text content of the review, the star rating (1-5), and the date of stay (month/year).
-It requires a bit of cleaning to get in the form we want.</p>
+<p>This is the raw version of the data as obtained from the site: it has the text content of the review, the star rating (1-5), and the date of stay (month/year).</p>
+<p>It requires a bit of cleaning to get in the form we want.</p>
 <pre class="r"><code>#rename &amp; change variable type
 rdf &lt;- rdf %&gt;% rename(stay_date = id_date,
 review = reviews) %&gt;%
@@ -50,42 +55,48 @@ head(rdf)</code></pre>
 ## 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      First experience staying at The Grand Floridian with my husband and almost two year old.  We had a blast! The hotel itself is stunning.  Grounds well kept, impressive lobby and very nice rooms.  The resort is spread out which is nice as there is not a ton of people you come across trying to get to your room from the lobby or pool area.  This is a nice escape from the hectic crowds you face at the parks.  One of the biggest pluses for this resort is the close proximity to Magic Kingdom.  The monorail makes getting around Epcot and Magic Kingdom a breeze.  It also makes bus lines less hectic to the other parks because many people are using the monorail to get to those monorail  parks!  1800 Park Fare was a lovely character dinner for my daughter.  The characters engaged with her really well even though she was quite shy.  My one piece of advise is that the pool areas need more chairs.  There were several occasions that there were no seats available and we needed a pool attendant to assist us (which they did).  Overall, this will likely become our go to Disney hotel!
 ## 5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Words that come to mindMagicalnot a beat missed - stayed ten years ago at the club level concierge floor - the service got better!You are met at the hotel entrance by your hostAlberto was oursescorted to the private concierge floor, all details of stay outlined,then the roomOne Upon a Time pillowsfabulous mattress and bed dressings beyond ...loved the Softening Mint foot rub provided ( wonderful after a Magical Day in the parks )the food and desert presentations were beautiful and very tasty = Yum Yum!Always remember you pay for privilege - Australia knows GREAT
 ## 6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Yes this is a beautiful place but I have been to resorts that had better amenities and service. It is on the disney resort with a hodgepodge of style. Old , new, beach, or lake not sure this place has its nitch. The food is why I knocked the stars down. The food is ok to say the least. As a first time visitor I was not wowed. You are not getting your bang for your buck. Open your wallet and throw your money out the window and make sure you get something to eat before you open your wallet.</code></pre>
+<p>Now we can plot the share each rating category (1-5) over time.</p>
 <pre class="r"><code>rdf %&gt;% 
   ggplot(aes(x=stay_date))+geom_bar(aes(fill=rating))+scale_x_yearmon(format = &quot;%b-%y&quot;)</code></pre>
-<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
-<pre class="r"><code>colors&lt;-c(&quot;cadetblue1&quot;, &quot;deepskyblue&quot;, &quot;deepskyblue3&quot;,&quot;deepskyblue4&quot;,&quot;dodgerblue3&quot;)
-# rdf %&gt;% count(rating,stay_date,sort = T) %&gt;% group_by(stay_date) %&gt;%
-#   mutate(freq = n / sum(n)) %&gt;% arrange(desc(freq,stay_date))
+<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-3-1.png" width="672" />
+It seems like most reviews have been consistenly positive. It also appears that not many reviews were given in early 2015. Though it is possible that the resort had fewer people stay during this time (e.g. renovations/construction), it is more likely that this data is missing. However, we can still analyze the distribution of reviews that we do have. For example, what is the total distribution of each rating category?</p>
+<pre class="r"><code>#set color
+colors&lt;-c(&quot;cadetblue1&quot;, &quot;deepskyblue&quot;, &quot;deepskyblue3&quot;,&quot;deepskyblue4&quot;,&quot;dodgerblue3&quot;)
 
-# %&gt;%  ggplot(aes(x=stay_date,y=freq,color=rating))+geom_line(aes(group=rating))+scale_x_yearmon(format = &quot;%b-%y&quot;)
 rdf %&gt;% 
   ggplot(aes(x=rating,fill=rating))+geom_bar()+scale_fill_manual(values=colors)</code></pre>
-<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
-<pre class="r"><code>library(tidytext)
-library(SnowballC)
-
-rdf_tidy&lt;-rdf %&gt;% mutate(review_num=row_number()) %&gt;%
+<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-4-1.png" width="672" />
+##Sentiment Analysis
+Using the tidytext package, we first transform the text of the reviews into tidy format. We remove stop words and filter unwanted characters. Then, we can visualize the most common words in the text of all reviews.</p>
+<pre class="r"><code>rdf_tidy &lt;- rdf %&gt;% mutate(review_num = row_number()) %&gt;%
   unnest_tokens(word, review) %&gt;%
-  anti_join(stop_words) %&gt;%filter(str_detect(word, &quot;^[a-z&#39;]+$&quot;)) %&gt;% 
-  distinct() </code></pre>
-<pre><code>## Joining, by = &quot;word&quot;</code></pre>
-<pre class="r"><code>most_common_words&lt;-rdf_tidy %&gt;%
-  group_by(word) %&gt;% 
-  summarize(
-  freq=n()) %&gt;% 
-  arrange(desc(freq)) 
-##rearrange by frequency, eliminate duplicates by reducing word to word to stem (e.g. stayed to stay)
-most_common_words %&gt;% 
-  mutate(word = reorder(word, freq)) %&gt;% 
-  head(25) %&gt;%  ggplot(aes(x=word,y=freq))+ geom_segment(aes(x=word ,xend=word, y=0, yend=freq),color=&quot;black&quot;) +
-  geom_point(size=3, color=&quot;deepskyblue&quot;)+
-  labs(title = &quot;Top 25 Most Common Words in Review Text&quot;, y = &quot;# times used&quot;, x=&quot;&quot;) + coord_flip()</code></pre>
+  anti_join(stop_words) %&gt;% filter(str_detect(word, &quot;^[a-z&#39;]+$&quot;)) %&gt;%
+  distinct()
+
+most_common_words &lt;- rdf_tidy %&gt;%
+  group_by(word) %&gt;%
+  summarize(freq = n()) %&gt;%
+  arrange(desc(freq))
+
+#rearrange by frequency, eliminate duplicates
+
+most_common_words %&gt;%
+  mutate(word = reorder(word, freq)) %&gt;%
+  head(25) %&gt;%  ggplot(aes(x = word, y = freq)) + geom_segment(aes(
+    x = word ,
+    xend = word,
+    y = 0,
+    yend = freq
+  ), color = &quot;black&quot;) +
+  geom_point(size = 3, color = &quot;deepskyblue&quot;) +
+  labs(title = &quot;Top 25 Most Common Words in Review Text&quot;, y = &quot;# times used&quot;, x =
+         &quot;&quot;) + coord_flip()</code></pre>
 <p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
-<pre class="r"><code>##group rating 1,2; rating 3,4; rating 5 &amp; examine most common in each category
+<p>If we want to compare word usage between good and bad reviews, we can use the inverse document frequency. In other words, which words appear frequently in high reviews but not low (and vice versa)?</p>
+<pre class="r"><code>#group rating 1&amp;2 into &quot;low&quot; category; rating 3,4,&amp; 5 &amp; into &quot;high&quot; category
 by_rate&lt;-rdf %&gt;% 
    mutate(rating_group = case_when(rating == &quot;1&quot;|rating ==&quot;2&quot; ~ &quot;low&quot;,TRUE~&quot;high&quot;)) 
 
-##get inverse document frequency: which words appear frequently in one category but not in the others? (e.g. appears frequently in high reviews but not in low)
 
 by_rate_inverse&lt;-by_rate %&gt;% unnest_tokens(word, review) %&gt;%
   count(rating_group,word,sort=TRUE) %&gt;% filter(!nchar(word) &lt;= 3) %&gt;% 
@@ -95,7 +106,7 @@ by_rate_inverse&lt;-by_rate %&gt;% unnest_tokens(word, review) %&gt;%
  
 by_rate_inverse %&gt;% 
   mutate(word = factor(word, levels = rev(unique(word)))) %&gt;% 
-  group_by(rating_group) %&gt;% filter(rank&lt;=3) %&gt;% 
+  group_by(rating_group) %&gt;% filter(rank&lt;=10) %&gt;% 
   ungroup() %&gt;%
   ggplot(aes(word, tf_idf, fill = rating_group)) +
   geom_col(show.legend = FALSE) +
@@ -258,3 +269,4 @@ head(summary_pos,15) %&gt;% ggplot(aes(x=reviews,y=average_rat))+ geom_point() +
 # head(by_rate)
 # 
 # reviewtokensdfm=dfm(by_rate,tolower = FALSE)</code></pre>
+</div>

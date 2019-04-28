@@ -17,7 +17,7 @@
       <pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/grand-floridian-hotel-reviews/</guid>
-      <description>##Grand Floridian Hotel Reviews: Sentiment Analysis and NLP #### The data for this analysis was obtained from the reviews posted on TripAdvisor. I used RSelenium and rvest to extract the data from the first 3000 dynamic web-pages on the TripAdvisor site, which was 2,350 reviews in total. The code used to do this is published on my GitHub. Here, I load the the Rda file I saved from that extraction.</description>
+      <description>Grand Floridian Hotel Reviews: Sentiment Analysis and NLP The data for this analysis was obtained from the reviews posted on TripAdvisor. I used RSelenium and rvest to extract the data from the first 3000 dynamic web-pages on the TripAdvisor site, which was 2,350 reviews in total. The code used to do this is published on my GitHub. Here, I load the the Rda file I saved from that extraction.</description>
     </item>
     
     <item>
