@@ -122,13 +122,16 @@ bigram_count <- bigram_filt %>%
   unite(bigram, word1, word2, sep = " ") %>%
   count(bigram, sort = TRUE)
 
-bigram_count %>% filter(!str_detect(bigram,"grand floridian")) %>% head(25) %>%  mutate(bigram = reorder(bigram, n)) %>% 
+bigram_count %>% filter(!str_detect(bigram,"floridian")) %>% head(25) %>%  mutate(bigram = reorder(bigram, n)) %>% 
   ggplot(aes(x=bigram,y=n))+ geom_segment(aes(x=bigram ,xend=bigram, y=0, yend=n),color="black") +
   geom_point(size=3, color="deepskyblue")+
   labs(title = "Top 25 Most Common Bigrams in Review Text", y = "# times used", x="") + coord_flip()
 
 
 ```
+Some of the bigram results are particularly interesting, such as "1900 park" (the on-site restaraunt) and "sugar load" (the name of the club level). It also makes sense that "Magic Kingdom" (located right next to the GF) is the most commonly used. 
+
+
 The tidytext package has several lexicons (stored as "sentiments") that can be used for sentiment analysis. Below, we explore the number of distint words in each lexicon. We exclude "loughran", the finance lexicon.
 ```{r}
 
@@ -202,7 +205,7 @@ ggplot(reviews_sentiment, aes(rating, sentiment, group = rating)) +
 
 ```
 Among 5 star reviews, there are outliers with low scores. There is largest gap between 25-50% in rating 
-```{r}
+```{r,warning=FALSE,message=FALSE}
 ##Which words tend to appear in positive/negative reviews?-->per-word summary
 ##returns how many times word used in each review
 count_words <- rdf_tidy %>%
@@ -224,7 +227,7 @@ head(summary_neg,15) %>% ggplot(aes(x=reviews,y=average_rat))+ geom_point() +
   ylab("Average Stars") + expand_limits(x = c(10,40))
 ```
 
-```{r}
+```{r,warning=FALSE,message=FALSE}
 summary_pos<- count_words %>%  group_by(word) %>%
   summarize(reviews = n(),
             uses = sum(n),
@@ -237,15 +240,82 @@ head(summary_pos,15) %>% ggplot(aes(x=reviews,y=average_rat))+ geom_point() +
 ```
 
 ```{r}
-# library(quanteda)
-# ##Add Y response variable (pos/neg), remove rating =3
-# 
-# by_rate<-rdf_tidy %>% filter(!rating==3) %>% 
-#    mutate(positive = case_when(rating == "1"|rating =="2" ~ 0,TRUE~1)) %>% select(-rating,-stay_date) 
-# head(by_rate)
-# 
-# reviewtokensdfm=dfm(by_rate,tolower = FALSE)
+##Add Y response variable (pos/neg), remove rating =3
 
+rdf_bin<-rdf %>% mutate(review_num = row_number()) %>% filter(!rating==3) %>%
+   mutate(positive = case_when(rating == "1"|rating =="2" ~ 0,TRUE~1)) %>% select(-rating,-stay_date)
+head(by_rate)
+
+
+```
+First, we tokenize the review text into a sequence of integers; each word will correspond to an integer. To get the 1,000 most frequent words in our text, we set num_words to 1,000.
+```{r}
+library(keras)
+
+text<-rdf_bin$review
+max_features <- 1000
+tokenizer <- text_tokenizer(num_words = max_features)
+
+#fit tokenizer to actual reviews
+tokenizer %>% 
+  fit_text_tokenizer(text)
+
+#num reviews (after removing rating=3)
+print(tokenizer$document_count)
+
+#create list of integers for reviews 
+text_seqs <- texts_to_sequences(tokenizer, text)
+
+```
+
+```{r}
+# Set parameters:
+maxlen <- 100
+batch_size <- 32
+embedding_dims <- 50
+filters <- 64
+kernel_size <- 3
+hidden_dims <- 50
+epochs <- 5
+
+x_train <- text_seqs %>%
+  pad_sequences(maxlen = maxlen)
+dim(x_train)
+
+y_train <- rdf_bin$positive
+length(y_train)
+
+```
+
+```{r}
+model <- keras_model_sequential() %>% 
+  layer_embedding(max_features, embedding_dims, input_length = maxlen) %>%
+  layer_dropout(0.2) %>%
+  layer_conv_1d(
+    filters, kernel_size, 
+    padding = "valid", activation = "relu", strides = 1
+  ) %>%
+  layer_global_max_pooling_1d() %>%
+  layer_dense(hidden_dims) %>%
+  layer_dropout(0.2) %>%
+  layer_activation("relu") %>%
+  layer_dense(1) %>%
+  layer_activation("sigmoid") %>% compile(
+  loss = "binary_crossentropy",
+  optimizer = "adam",
+  metrics = "accuracy"
+)
+```
+
+```{r}
+hist <- model %>%
+  fit(
+    x_train,
+    y_train,
+    batch_size = batch_size,
+    epochs = epochs,
+    validation_split = 0.3
+  )
 ```
 
 
