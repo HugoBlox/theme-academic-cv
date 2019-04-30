@@ -17,12 +17,16 @@ library(knitr)
 library(tidytext)
 library(SnowballC)
 library(keras)
+library(kableExtra)
 
+```
+
+This is the raw version of the data as obtained from the site: it has the text content of the review, the star rating (1-5), and the date of stay (month/year).
+```{r}
 #load data
 rdf<-readRDS("first_3000.Rda")
 str(rdf)
 ```
-This is the raw version of the data as obtained from the site: it has the text content of the review, the star rating (1-5), and the date of stay (month/year).
 
 It requires a bit of cleaning to get in the form we want. 
 ```{r}
@@ -240,19 +244,24 @@ head(summary_pos,15) %>% ggplot(aes(x=reviews,y=average_rat))+ geom_point() +
   ylab("Average Stars")
 ```
 
-```{r}
-##Add Y response variable (pos/neg), remove rating =3
+##Text Classification
+Now, we will use keras to build a deep-learning model that classifies reviews as positive or negative based on their text (i.e. the words used). 
 
+```{r}
+##Add response variable (pos/neg), remove rating =3
 rdf_bin<-rdf %>% mutate(review_num = row_number()) %>% filter(!rating==3) %>%
    mutate(positive = case_when(rating == "1"|rating =="2" ~ 0,TRUE~1)) %>% select(-rating,-stay_date)
-head(rdf_bin)
+
+kable(head(rdf_bin)) %>% 
+  kable_styling(bootstrap_options = "striped", full_width = F,font_size = 8) %>% 
+  scroll_box(width = "500px", height = "200px")
 
 
 ```
-First, we tokenize the review text into a sequence of integers; each word will correspond to an integer. To get the 1,000 most frequent words in our text, we set num_words to 1,000.
+To tokenize the review text into a sequence of integers; each word will correspond to an integer. To get the 1,000 most frequent words in our text, we set num_words to 1,000.
 ```{r}
 
-
+# get text of review
 text<-rdf_bin$review
 max_features <- 1000
 tokenizer <- text_tokenizer(num_words = max_features)
@@ -268,63 +277,92 @@ print(tokenizer$document_count)
 text_seqs <- texts_to_sequences(tokenizer, text)
 
 ```
-
+To begin constructing a neural network, we first define training data to map input tensors to target tensors. However, we can't feed the lists of integers (text_seqs) into the network--they must first be converted to tensors. This is accomplished by padding the lists to have the same length (with pad_sequences). Then the lists are converted into an integer tensor which has dimension num_reviews x max_length (2174x100). This is used to construct the first ("embedding") layer.
 ```{r}
-# Set parameters:
 maxlen <- 100
-batch_size <- 32
-embedding_dims <- 50
-filters <- 64
-kernel_size <- 3
-hidden_dims <- 50
-epochs <- 5
 
+#define train data
 x_train <- text_seqs %>%
   pad_sequences(maxlen = maxlen)
 dim(x_train)
 
 y_train <- rdf_bin$positive
 length(y_train)
-
 ```
 
 ```{r}
+# Network parameters
+batch_size <- 32
+embedding_dims <- 50
+filters <- 64
+kernel_size <- 3
+hidden_dims <- 50
+epochs <- 10
+
+
+```
+#### Build Network: Layers, Hidden Units, Activation Function
+Below, we build the model. 
+```{r}
+#vocab size same as max_feat (total vocabulary count used for reviews)
+vocab_size<-1000
+
 model <- keras_model_sequential() %>% 
-  layer_embedding(max_features, embedding_dims, input_length = maxlen) %>%
+  #embedding layer
+  layer_embedding(input_dim = vocab_size, embedding_dims, input_length = maxlen) %>%
   layer_dropout(0.2) %>%
   layer_conv_1d(
     filters, kernel_size, 
     padding = "valid", activation = "relu", strides = 1
   ) %>%
   layer_global_max_pooling_1d() %>%
-  layer_dense(hidden_dims) %>%
-  layer_dropout(0.2) %>%
-  layer_activation("relu") %>%
-  layer_dense(1) %>%
-  layer_activation("sigmoid") %>% compile(
+  layer_dense(units=hidden_dims, activation = "relu") %>%
+  layer_dropout(0.2) %>% 
+  layer_dense(units=1,activation = "sigmoid")
+
+model %>% summary()
+```
+The model is built by sequentially stacking layers. 
+1. The embedding layer input dimension is the vocab size. It looks up the embedding vector for each word-index and adds a dimension to the output.
+2.
+3.
+4.
+5. The final layer uses the sigmoid activation function to output a single node: a probability score between 0 and 1 indicating how likely a review is to be positive. 
+
+#### Choosing Loss Function & Optimizer
+We use the binary crossentropy loss function since we are solving a binary classification problem. The optimizer is a stochastic gradient descent (SGD) variant that specifies how the network weights will be updated. We also track accuracy metrics during training.
+```{r}
+model %>% compile(
   loss = "binary_crossentropy",
   optimizer = "adam",
   metrics = "accuracy"
 )
 ```
 
+We train the model in mini-batches of size 32 for 10 iterations (epochs) over the training set but set aside 20% of our reviews for validation. 
 ```{r,message=FALSE,warning=FALSE}
 hist <- model %>%
   fit(
     x_train,
     y_train,
-    batch_size = batch_size,
-    epochs = epochs,
-    validation_split = 0.3
+    batch_size = 32,
+    epochs = 10,
+    validation_split = 0.2
   )
+
+str(hist)
 ```
 
 ```{r}
 plot(hist)
 ```
-
+The training loss decreases with each epoch, while the accuracy increases. However, the validation data does not show this same trend, which indicates that we are overfitting to training data. 
 ```{r}
 hist
+```
+
+```{r}
+
 ```
 
 
