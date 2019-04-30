@@ -16,6 +16,7 @@ library(zoo)
 library(knitr)
 library(tidytext)
 library(SnowballC)
+library(keras)
 
 #load data
 rdf<-readRDS("first_3000.Rda")
@@ -244,13 +245,13 @@ head(summary_pos,15) %>% ggplot(aes(x=reviews,y=average_rat))+ geom_point() +
 
 rdf_bin<-rdf %>% mutate(review_num = row_number()) %>% filter(!rating==3) %>%
    mutate(positive = case_when(rating == "1"|rating =="2" ~ 0,TRUE~1)) %>% select(-rating,-stay_date)
-head(by_rate)
+head(rdf_bin)
 
 
 ```
 First, we tokenize the review text into a sequence of integers; each word will correspond to an integer. To get the 1,000 most frequent words in our text, we set num_words to 1,000.
 ```{r}
-library(keras)
+
 
 text<-rdf_bin$review
 max_features <- 1000
@@ -307,7 +308,7 @@ model <- keras_model_sequential() %>%
 )
 ```
 
-```{r}
+```{r,message=FALSE,warning=FALSE}
 hist <- model %>%
   fit(
     x_train,
@@ -316,6 +317,14 @@ hist <- model %>%
     epochs = epochs,
     validation_split = 0.3
   )
+```
+
+```{r}
+plot(hist)
+```
+
+```{r}
+hist
 ```
 
 
