@@ -93,16 +93,20 @@ Family Vacation dreams come true. We have always wanted to stay at Grand Floridi
 </tr>
 </tbody>
 </table>
-<p>Above we see three example reviews. Now we can plot the share each rating category (1-5) over time.</p>
+<p>Above we see three example reviews.
+Now we can plot the share each rating category (1-5) over time.</p>
 <pre class="r"><code>rdf %&gt;% 
   ggplot(aes(x=stay_date))+geom_bar(aes(fill=rating))+scale_x_yearmon(format = &quot;%b-%y&quot;)</code></pre>
-<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-4-1.png" width="672" /> It seems like most reviews have been consistenly positive. We can also analyze the distribution of reviews by each rating category.</p>
+<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-4-1.png" width="672" />
+It seems like most reviews have been consistenly positive. We can also analyze the distribution of reviews by each rating category.</p>
 <pre class="r"><code>#set color
 colors&lt;-c(&quot;cadetblue1&quot;, &quot;deepskyblue&quot;, &quot;deepskyblue3&quot;,&quot;deepskyblue4&quot;,&quot;dodgerblue3&quot;)
 
 rdf %&gt;% 
   ggplot(aes(x=rating,fill=rating))+geom_bar()+scale_fill_manual(values=colors)</code></pre>
-<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-5-1.png" width="672" /> ##Sentiment Analysis Using the tidytext package, we first transform the text of the reviews into tidy format. We remove stop words and filter unwanted characters. Then, we can visualize the most common words in the text of all reviews.</p>
+<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-5-1.png" width="672" />
+##Sentiment Analysis
+Using the tidytext package, we first transform the text of the reviews into tidy format. We remove stop words and filter unwanted characters. Then, we can visualize the most common words in the text of all reviews.</p>
 <pre class="r"><code>rdf_tidy &lt;- rdf %&gt;% mutate(review_num = row_number()) %&gt;%
   unnest_tokens(word, review) %&gt;%
   anti_join(stop_words) %&gt;% filter(str_detect(word, &quot;^[a-z&#39;]+$&quot;)) %&gt;%
@@ -167,7 +171,8 @@ bigram_count %&gt;% filter(!str_detect(bigram,&quot;floridian&quot;)) %&gt;% hea
   ggplot(aes(x=bigram,y=n))+ geom_segment(aes(x=bigram ,xend=bigram, y=0, yend=n),color=&quot;black&quot;) +
   geom_point(size=3, color=&quot;deepskyblue&quot;)+
   labs(title = &quot;Top 25 Most Common Bigrams in Review Text&quot;, y = &quot;# times used&quot;, x=&quot;&quot;) + coord_flip()</code></pre>
-<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-8-1.png" width="672" /> Some of the bigram results are particularly interesting, such as “1900 park” (the on-site restaraunt) and “sugar load” (the name of the club level). It also makes sense that “Magic Kingdom” (located right next to the GF) is the most commonly used.</p>
+<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-8-1.png" width="672" />
+Some of the bigram results are particularly interesting, such as “1900 park” (the on-site restaraunt) and “sugar load” (the name of the club level). It also makes sense that “Magic Kingdom” (located right next to the GF) is the most commonly used.</p>
 <p>The tidytext package has several lexicons (stored as “sentiments”) that can be used for sentiment analysis. Below, we explore the number of distint words in each lexicon. We exclude “loughran”, the finance lexicon.</p>
 <pre class="r"><code>sentiment_lexicons &lt;- sentiments %&gt;% 
   filter(lexicon != &quot;loughran&quot;)%&gt;% 
@@ -224,7 +229,8 @@ most_neg %&gt;% ggplot(aes(x=stay_date,y=ratio_neg,color=ratio_neg))+scale_x_yea
 <p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-11-1.png" width="672" /></p>
 <pre class="r"><code>mean(most_neg$ratio_neg)</code></pre>
 <pre><code>## [1] 0.04268044</code></pre>
-<p>From this, we can see that 8% is the max percentage of negative words used in reviews over a given month. On average, it’s about 4%. The AFINN lexicon provides a positivity score for each word, from -5 (most negative) to 5 (most positive). We can visualize how these positivity scores compare to the actual numeric rating (1-5) given.</p>
+<p>From this, we can see that 8% is the max percentage of negative words used in reviews over a given month. On average, it’s about 4%.
+The AFINN lexicon provides a positivity score for each word, from -5 (most negative) to 5 (most positive). We can visualize how these positivity scores compare to the actual numeric rating (1-5) given.</p>
 <pre class="r"><code>##gives word and score
 afinn &lt;- sentiments %&gt;%
 filter(lexicon == &quot;AFINN&quot;) %&gt;%
@@ -241,7 +247,8 @@ geom_boxplot(colour = &quot;black&quot;,
 fill = &quot;#56B4E9&quot;,
 notch = T) +
 ylab(&quot;Average sentiment score&quot;)</code></pre>
-<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-12-1.png" width="672" /> Although there are outliers with low scores among 5 star reviews, we see that sentiment scores roughly correlate with the rating given. There is the largest gap between the 25th and 50th percentile in rating 1 group, indicating that some reviews here were quite negative.</p>
+<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-12-1.png" width="672" />
+Although there are outliers with low scores among 5 star reviews, we see that sentiment scores roughly correlate with the rating given. There is the largest gap between the 25th and 50th percentile in rating 1 group, indicating that some reviews here were quite negative.</p>
 <p>Finally, we can visualize difference in word usage between positive and negative reviews by plotting the most frequently used words against average rating. To do this we obtain a per-word summary and find the average rating for its usage.</p>
 <pre class="r"><code>#count number of times word used in each review
 count_words &lt;- rdf_tidy %&gt;%
@@ -259,7 +266,8 @@ head(summary_neg,15) %&gt;% ggplot(aes(x=reviews,y=average_rat))+ geom_point() +
   geom_label(aes(label = word), check_overlap = TRUE, vjust = 1, hjust = 0) +
   xlab(&quot;# of reviews&quot;) +
   ylab(&quot;Average Rating&quot;) + expand_limits(x = c(10,40))</code></pre>
-<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-13-1.png" width="672" /> Many of these are words we would expect in negative reviews. However, “waldorf” is interesting because it may reflect guest making a comparison or speaking highly of another resort.</p>
+<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-13-1.png" width="672" />
+Many of these are words we would expect in negative reviews. However, “waldorf” is interesting because it may reflect guest making a comparison or speaking highly of another resort.</p>
 <pre class="r"><code>summary_pos&lt;- count_words %&gt;%  group_by(word) %&gt;%
   summarize(reviews = n(),
             average_rat = mean(as.integer(rating))) %&gt;% filter(reviews&gt;50) %&gt;% arrange(desc(average_rat))
@@ -268,15 +276,25 @@ head(summary_pos,15) %&gt;% ggplot(aes(x=reviews,y=average_rat))+ geom_point() +
   geom_label(aes(label = word), check_overlap = TRUE, vjust = 1, hjust = 0) +
   xlab(&quot;# of reviews&quot;) +
   ylab(&quot;Average Rating&quot;)</code></pre>
-<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-14-1.png" width="672" /> Similarly, many of these words are what we would expect in positive reviews–though “kitchen”,“pianist”,and “orchestra” are notable.</p>
-</div>
-<div id="text-classification" class="section level2">
-<h2>Text Classification</h2>
-<p>Now, we will use keras to build a deep-learning model that classifies reviews as positive or negative based on their text (i.e. the words used).</p>
+<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-14-1.png" width="672" />
+Similarly, many of these words are what we would expect in positive reviews–though “kitchen”,“pianist”,and “orchestra” are notable.</p>
+<p>##Text Classification
+Now, we will use keras to build a deep-learning model that classifies whether or not reviews are 5 star based on their text (i.e. the words used).</p>
 <pre class="r"><code>##Add response variable (pos/neg), remove rating =3
-rdf_bin&lt;-rdf %&gt;% mutate(review_num = row_number()) %&gt;% filter(!rating==3) %&gt;%
-   mutate(positive = case_when(rating == &quot;1&quot;|rating ==&quot;2&quot; ~ 0,TRUE~1)) %&gt;% select(-rating,-stay_date)</code></pre>
-<p>We tokenize the review text into a sequence of integers where each word will correspond to an integer. To get the 1,000 most frequent words in our text, we set num_words to 1,000.</p>
+# rdf_bin&lt;-rdf %&gt;% mutate(review_num = row_number()) %&gt;% filter(!rating==3) %&gt;%
+#    mutate(positive = case_when(rating == &quot;1&quot;|rating ==&quot;2&quot; ~ 0,TRUE~1)) %&gt;% select(-rating,-stay_date)
+# 
+# rdf_bin %&gt;% ggplot(aes(x=positive))+geom_bar()</code></pre>
+<pre class="r"><code>rdf_bin&lt;-rdf %&gt;% mutate(review_num = row_number()) %&gt;% 
+   mutate(five_star = case_when(rating!=5~ 0,TRUE~1)) %&gt;% select(-rating,-stay_date)
+
+rdf_bin %&gt;% ggplot(aes(x=five_star)) + 
+          geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat=&quot;count&quot;) + 
+          scale_y_continuous(labels=scales::percent) + scale_x_discrete()+
+          ylab(&quot;percent&quot;)</code></pre>
+<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-16-1.png" width="672" />
+Almost 70% of the reviews are five star. This will be helpful as we evaluate model performance.</p>
+<p>We tokenize the review text into a sequence of integers where each word will correspond to an integer. To get the 1000 most frequent words in our text, we set num_words to 1000.</p>
 <pre class="r"><code># get text of review
 text&lt;-rdf_bin$review
 max_features &lt;- 1000
@@ -286,9 +304,9 @@ tokenizer &lt;- text_tokenizer(num_words = max_features)
 tokenizer %&gt;% 
   fit_text_tokenizer(text)
 
-#num reviews (after removing rating=3)
+#num reviews
 print(tokenizer$document_count)</code></pre>
-<pre><code>## [1] 2174</code></pre>
+<pre><code>## [1] 2350</code></pre>
 <pre class="r"><code>#list of integers for reviews 
 text_seqs&lt;- texts_to_sequences(tokenizer, text)</code></pre>
 <p>To begin constructing a neural network, we first define training data to map input tensors to target tensors. However, we can’t feed the lists of integers (text_seqs) into the network–they must first be converted to tensors. This is accomplished by padding the lists to have the same length (with pad_sequences). Then the lists are converted into an integer tensor which has dimension num_reviews x max_length (2174x100). This is used to construct the first (“embedding”) layer.</p>
@@ -298,26 +316,26 @@ maxlen &lt;- 100
 #define train data
 x_train &lt;- pad_sequences(text_seqs, maxlen = maxlen)
 dim(x_train)</code></pre>
-<pre><code>## [1] 2174  100</code></pre>
-<pre class="r"><code>y_train &lt;- rdf_bin$positive
+<pre><code>## [1] 2350  100</code></pre>
+<pre class="r"><code>y_train &lt;- rdf_bin$five_star
 length(y_train)</code></pre>
-<pre><code>## [1] 2174</code></pre>
+<pre><code>## [1] 2350</code></pre>
+<p>The network will learn 50-dimensional embeddings for each of the 1000 words.</p>
 <pre class="r"><code># Network parameters
 batch_size &lt;- 32
 embedding_dims &lt;- 50
 filters &lt;- 64
-kernel_size &lt;- 3
+kernel_size &lt;- 5
 hidden_dims &lt;- 50
 epochs &lt;- 10</code></pre>
 <div id="build-network-layers-hidden-units-activation-function" class="section level4">
 <h4>Build Network: Layers, Hidden Units, Activation Function</h4>
 <p>Below, we build the model.</p>
-<pre class="r"><code>#vocab size same as max_feat (total vocabulary count used for reviews)
-vocab_size&lt;-1000
+<pre class="r"><code>#input max_feat (total vocabulary count used for reviews:1000)
 
 model &lt;- keras_model_sequential() %&gt;% 
   #embedding layer
-  layer_embedding(input_dim = vocab_size, embedding_dims, input_length = maxlen) %&gt;%
+  layer_embedding(input_dim = max_features, output_dim =embedding_dims, input_length = maxlen) %&gt;%
   layer_dropout(0.2) %&gt;%
   layer_conv_1d(
     filters, kernel_size, 
@@ -336,7 +354,7 @@ model %&gt;% summary()</code></pre>
 ## ___________________________________________________________________________
 ## dropout (Dropout)                (None, 100, 50)               0           
 ## ___________________________________________________________________________
-## conv1d (Conv1D)                  (None, 98, 64)                9664        
+## conv1d (Conv1D)                  (None, 96, 64)                16064       
 ## ___________________________________________________________________________
 ## global_max_pooling1d (GlobalMaxP (None, 64)                    0           
 ## ___________________________________________________________________________
@@ -346,11 +364,15 @@ model %&gt;% summary()</code></pre>
 ## ___________________________________________________________________________
 ## dense_1 (Dense)                  (None, 1)                     51          
 ## ===========================================================================
-## Total params: 62,965
-## Trainable params: 62,965
+## Total params: 69,365
+## Trainable params: 69,365
 ## Non-trainable params: 0
 ## ___________________________________________________________________________</code></pre>
-<p>The model is built by sequentially stacking layers. 1. The embedding layer input dimension is the vocab size. It looks up the embedding vector for each word-index and adds a dimension to the output. 2. 3. 4. 5. The final layer uses the sigmoid activation function to output a single node: a probability score between 0 and 1 indicating how likely a review is to be positive.</p>
+<p>The model is built by sequentially stacking layers:
+1. The embedding layer input dimension is the vocab size. It looks up the embedding vector for each word-index and adds a dimension to the output.
+2. 1D convolution layer using kernel size 5: recognize local patterns in sentence to learn words length &lt;5, can recognize in later context
+3. Additional dense layer with relu activation
+4. The final layer uses the sigmoid activation function to output a single node: a probability score between 0 and 1 indicating how likely a review is to be positive.</p>
 </div>
 <div id="choosing-loss-function-optimizer" class="section level4">
 <h4>Choosing Loss Function &amp; Optimizer</h4>
@@ -376,19 +398,73 @@ str(hist)</code></pre>
 ##   ..$ batch_size        : int 32
 ##   ..$ epochs            : int 10
 ##   ..$ steps             : NULL
-##   ..$ samples           : int 1739
+##   ..$ samples           : int 1880
 ##   ..$ verbose           : int 1
 ##   ..$ do_validation     : logi TRUE
 ##   ..$ metrics           : chr [1:4] &quot;loss&quot; &quot;acc&quot; &quot;val_loss&quot; &quot;val_acc&quot;
 ##   ..$ validation_steps  : NULL
-##   ..$ validation_samples: int 435
+##   ..$ validation_samples: int 470
 ##  $ metrics:List of 4
-##   ..$ val_loss: num [1:10] 0.235 0.224 0.22 0.217 0.216 ...
-##   ..$ val_acc : num [1:10] 0.936 0.936 0.936 0.936 0.936 ...
-##   ..$ loss    : num [1:10] 0.361 0.188 0.177 0.169 0.151 ...
-##   ..$ acc     : num [1:10] 0.93 0.951 0.951 0.951 0.951 ...
+##   ..$ val_loss: num [1:10] 0.67 0.666 0.634 0.562 0.615 ...
+##   ..$ val_acc : num [1:10] 0.609 0.609 0.619 0.713 0.694 ...
+##   ..$ loss    : num [1:10] 0.604 0.581 0.548 0.465 0.356 ...
+##   ..$ acc     : num [1:10] 0.702 0.702 0.712 0.799 0.855 ...
 ##  - attr(*, &quot;class&quot;)= chr &quot;keras_training_history&quot;</code></pre>
 <pre class="r"><code>plot(hist)</code></pre>
-<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-22-1.png" width="672" /> The training loss decreases with each epoch, while the accuracy increases. However, the validation data does not show this same trend, which indicates that we are overfitting to the training data. Le</p>
+<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-23-1.png" width="672" />
+The training loss decreases with each epoch, while the accuracy increases. However, the validation data does not show this same trend, which indicates that we are overfitting to the training data. The right number of epochs appears to be 6. Our accuracy is not very high using only the 1000 most common words and cutting reviews off at 100 words. Let’s see what happens if we increase this.</p>
+<pre class="r"><code>#increase num words for embedding
+max_features&lt;-5000
+maxlen&lt;-400
+#increase length of review considered
+x_train_long &lt;- pad_sequences(text_seqs, maxlen = maxlen)
+
+model &lt;- keras_model_sequential() %&gt;% 
+  #embedding layer
+  layer_embedding(input_dim = max_features, output_dim =embedding_dims, input_length = maxlen) %&gt;%
+  layer_dropout(0.2) %&gt;%
+  layer_conv_1d(
+    filters, kernel_size, 
+    padding = &quot;valid&quot;, activation = &quot;relu&quot;, strides = 1
+  ) %&gt;%
+  layer_global_max_pooling_1d() %&gt;%
+  layer_dense(units=hidden_dims, activation = &quot;relu&quot;) %&gt;%
+  layer_dropout(0.2) %&gt;% 
+  layer_dense(units=1,activation = &quot;sigmoid&quot;)
+
+model %&gt;% compile(
+  loss = &quot;binary_crossentropy&quot;,
+  optimizer = &quot;adam&quot;,
+  metrics = &quot;accuracy&quot;
+)</code></pre>
+<pre class="r"><code>hist &lt;- model %&gt;%
+  fit(
+    x_train_long,
+    y_train,
+    batch_size = 32,
+    epochs = 10,
+    validation_split = 0.2
+  )
+
+str(hist)</code></pre>
+<pre><code>## List of 2
+##  $ params :List of 9
+##   ..$ batch_size        : int 32
+##   ..$ epochs            : int 10
+##   ..$ steps             : NULL
+##   ..$ samples           : int 1880
+##   ..$ verbose           : int 1
+##   ..$ do_validation     : logi TRUE
+##   ..$ metrics           : chr [1:4] &quot;loss&quot; &quot;acc&quot; &quot;val_loss&quot; &quot;val_acc&quot;
+##   ..$ validation_steps  : NULL
+##   ..$ validation_samples: int 470
+##  $ metrics:List of 4
+##   ..$ val_loss: num [1:10] 0.674 0.664 0.624 0.594 0.538 ...
+##   ..$ val_acc : num [1:10] 0.609 0.609 0.662 0.694 0.738 ...
+##   ..$ loss    : num [1:10] 0.627 0.6 0.549 0.465 0.362 ...
+##   ..$ acc     : num [1:10] 0.689 0.702 0.717 0.773 0.848 ...
+##  - attr(*, &quot;class&quot;)= chr &quot;keras_training_history&quot;</code></pre>
+<pre class="r"><code>plot(hist)</code></pre>
+<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-26-1.png" width="672" /></p>
 </div>
 </div>
