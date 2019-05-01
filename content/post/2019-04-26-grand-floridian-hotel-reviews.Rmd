@@ -41,15 +41,17 @@ mutate(rating = as.factor(rating))
 
 rdf$stay_date <- gsub("Date of stay: ", "", rdf$stay_date)
 rdf$stay_date <- as.yearmon(rdf$stay_date, "%b %Y")
-head(rdf)
+kable(head(rdf,3)) %>% kable_styling(bootstrap_options = "striped", full_width = F,font_size = 8) 
 
 ```
+
+Above we see three example reviews. 
 Now we can plot the share each rating category (1-5) over time.
 ```{r}
 rdf %>% 
   ggplot(aes(x=stay_date))+geom_bar(aes(fill=rating))+scale_x_yearmon(format = "%b-%y")
 ```
-It seems like most reviews have been consistenly positive. It also appears that not many reviews were given in early 2015. Though it is possible that the resort had fewer people stay during this time (e.g. renovations/construction), it is more likely that this data is missing. However, we can still analyze the distribution of reviews that we do have. For example, what is the total distribution of each rating category?
+It seems like most reviews have been consistenly positive. We can also analyze the distribution of reviews by each rating category.
 ```{r}
 #set color
 colors<-c("cadetblue1", "deepskyblue", "deepskyblue3","deepskyblue4","dodgerblue3")
@@ -87,8 +89,9 @@ most_common_words %>%
 
 ```
 
+
 If we want to compare word usage between good and bad reviews, we can use the inverse document frequency. In other words, which words appear frequently in high reviews but not low (and vice versa)?
-```{r,message=FALSE}
+```{r,message=FALSE,warning=FALSE}
 #group rating 1&2 into "low" category; rating 3,4,& 5 & into "high" category
 by_rate <- rdf %>%
 mutate(rating_group = case_when(rating == "1" |
@@ -162,16 +165,13 @@ rdf_tidy %>%
   mutate(match_ratio = num_match / words_in_reviews) %>%
   select(lexicon, words_in_reviews, num_match, match_ratio)
 ```
-
-```{r}
-##When were the most negative reviews given?
+The bing lexicon classifies words as either positive or negative. Using this, we can see when the most negative words were used in reviews. 
+```{r,message=FALSE}
+#get negative words
 bingnegative <- get_sentiments("bing") %>% 
   filter(sentiment == "negative")
 
-bingpositive<- get_sentiments("bing") %>% 
-  filter(sentiment == "positive")
-
-##normalize w/count of total words in reviews for given stay date
+#normalize w/count of total words in reviews for given stay date
 wordcounts <- rdf_tidy %>%
   group_by(stay_date) %>%
   summarize(words = n())
@@ -186,33 +186,33 @@ most_neg<-rdf_tidy %>%
 
 
 most_neg %>% ggplot(aes(x=stay_date,y=ratio_neg,color=ratio_neg))+scale_x_yearmon(format = "%b-%y")+geom_line()
+mean(most_neg$ratio_neg)
 ```
-AFINN lexicon provides a positivity score for each word, from -5 (most negative) to 5 (most positive)
+From this, we can see that 8% is the max percentage of negative words used in reviews over a given month. On average, it's about 4%. 
+The AFINN lexicon provides a positivity score for each word, from -5 (most negative) to 5 (most positive). We can visualize how these positivity scores compare to the actual numeric rating (1-5) given. 
 ```{r}
-##gives word and score 
+##gives word and score
 afinn <- sentiments %>%
-  filter(lexicon == "AFINN") %>%
-  select(word, afinn_score = score)
+filter(lexicon == "AFINN") %>%
+select(word, afinn_score = score)
 
 reviews_sentiment <- rdf_tidy %>%
-  inner_join(afinn, by = "word") %>%  
- group_by(review_num, rating) %>%
+inner_join(afinn, by = "word") %>%
+group_by(review_num, rating) %>%
 summarize(sentiment = mean(afinn_score))
- reviews_sentiment
 
-```
 
-```{r}
 ggplot(reviews_sentiment, aes(rating, sentiment, group = rating)) +
-  geom_boxplot(colour = "black", fill = "#56B4E9",notch = T) +
-  ylab("Average sentiment score")
-
-
+geom_boxplot(colour = "black",
+fill = "#56B4E9",
+notch = T) +
+ylab("Average sentiment score")
 ```
-Among 5 star reviews, there are outliers with low scores. There is largest gap between 25-50% in rating 
+Although there are outliers with low scores among 5 star reviews, we see that sentiment scores roughly correlate with the rating given. There is the largest gap between the 25th and 50th percentile in rating 1 group, indicating that some reviews here were quite negative.
+
+Finally, we can visualize difference in word usage between positive and negative reviews by plotting the most frequently used words against average rating. To do this we obtain a per-word summary and find the average rating for its usage. 
 ```{r,warning=FALSE,message=FALSE}
-##Which words tend to appear in positive/negative reviews?-->per-word summary
-##returns how many times word used in each review
+#count number of times word used in each review
 count_words <- rdf_tidy %>%
   count(review_num, rating, word) %>%
   ungroup() 
@@ -220,29 +220,27 @@ count_words <- rdf_tidy %>%
 #returns most negative words
 summary_neg<- count_words %>%  group_by(word) %>%
   summarize(reviews = n(),
-            uses = sum(n),
             average_rat = mean(as.integer(rating))) %>% filter(reviews>10) %>% arrange(average_rat)
 
 
 
 head(summary_neg,15) %>% ggplot(aes(x=reviews,y=average_rat))+ geom_point() +
   geom_label(aes(label = word), check_overlap = TRUE, vjust = 1, hjust = 0) +
-  # scale_x_log10() +
   xlab("# of reviews") +
-  ylab("Average Stars") + expand_limits(x = c(10,40))
+  ylab("Average Rating") + expand_limits(x = c(10,40))
 ```
-
+Many of these are words we would expect in negative reviews. However, "waldorf" is interesting because it may reflect guest making a comparison or speaking highly of another resort.
 ```{r,warning=FALSE,message=FALSE}
 summary_pos<- count_words %>%  group_by(word) %>%
   summarize(reviews = n(),
-            uses = sum(n),
             average_rat = mean(as.integer(rating))) %>% filter(reviews>50) %>% arrange(desc(average_rat))
 
 head(summary_pos,15) %>% ggplot(aes(x=reviews,y=average_rat))+ geom_point() +
   geom_label(aes(label = word), check_overlap = TRUE, vjust = 1, hjust = 0) +
   xlab("# of reviews") +
-  ylab("Average Stars")
+  ylab("Average Rating")
 ```
+Similarly, many of these words are what we would expect in positive reviews--though "kitchen","pianist",and "orchestra" are notable. 
 
 ##Text Classification
 Now, we will use keras to build a deep-learning model that classifies reviews as positive or negative based on their text (i.e. the words used). 
@@ -252,13 +250,10 @@ Now, we will use keras to build a deep-learning model that classifies reviews as
 rdf_bin<-rdf %>% mutate(review_num = row_number()) %>% filter(!rating==3) %>%
    mutate(positive = case_when(rating == "1"|rating =="2" ~ 0,TRUE~1)) %>% select(-rating,-stay_date)
 
-kable(head(rdf_bin)) %>% 
-  kable_styling(bootstrap_options = "striped", full_width = F,font_size = 8) %>% 
-  scroll_box(width = "500px", height = "200px")
 
 
 ```
-To tokenize the review text into a sequence of integers; each word will correspond to an integer. To get the 1,000 most frequent words in our text, we set num_words to 1,000.
+We tokenize the review text into a sequence of integers where each word will correspond to an integer. To get the 1,000 most frequent words in our text, we set num_words to 1,000.
 ```{r}
 
 # get text of review
@@ -273,17 +268,19 @@ tokenizer %>%
 #num reviews (after removing rating=3)
 print(tokenizer$document_count)
 
-#create list of integers for reviews 
-text_seqs <- texts_to_sequences(tokenizer, text)
+#list of integers for reviews 
+text_seqs<- texts_to_sequences(tokenizer, text)
 
 ```
+
+
 To begin constructing a neural network, we first define training data to map input tensors to target tensors. However, we can't feed the lists of integers (text_seqs) into the network--they must first be converted to tensors. This is accomplished by padding the lists to have the same length (with pad_sequences). Then the lists are converted into an integer tensor which has dimension num_reviews x max_length (2174x100). This is used to construct the first ("embedding") layer.
 ```{r}
+#cut reviews off after 100 words
 maxlen <- 100
 
 #define train data
-x_train <- text_seqs %>%
-  pad_sequences(maxlen = maxlen)
+x_train <- pad_sequences(text_seqs, maxlen = maxlen)
 dim(x_train)
 
 y_train <- rdf_bin$positive
@@ -356,14 +353,13 @@ str(hist)
 ```{r}
 plot(hist)
 ```
-The training loss decreases with each epoch, while the accuracy increases. However, the validation data does not show this same trend, which indicates that we are overfitting to training data. 
-```{r}
-hist
-```
-
+The training loss decreases with each epoch, while the accuracy increases. However, the validation data does not show this same trend, which indicates that we are overfitting to the training data. 
+Le
 ```{r}
 
 ```
+
+
 
 
 
