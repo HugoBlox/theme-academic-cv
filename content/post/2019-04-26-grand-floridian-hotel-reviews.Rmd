@@ -243,15 +243,8 @@ head(summary_pos,15) %>% ggplot(aes(x=reviews,y=average_rat))+ geom_point() +
 Similarly, many of these words are what we would expect in positive reviews--though "kitchen","pianist",and "orchestra" are notable. 
 
 ##Text Classification
-Now, we will use keras to build a deep-learning model that classifies whether or not reviews are 5 star based on their text (i.e. the words used). 
 
-```{r}
-##Add response variable (pos/neg), remove rating =3
-# rdf_bin<-rdf %>% mutate(review_num = row_number()) %>% filter(!rating==3) %>%
-#    mutate(positive = case_when(rating == "1"|rating =="2" ~ 0,TRUE~1)) %>% select(-rating,-stay_date)
-# 
-# rdf_bin %>% ggplot(aes(x=positive))+geom_bar()
-```
+Now, we will use keras to build a deep-learning model that classifies whether or not reviews are 5 star based on their text (i.e. the words used). 
 
 
 ```{r,message=FALSE,warning=FALSE}
@@ -285,7 +278,6 @@ print(tokenizer$document_count)
 text_seqs<- texts_to_sequences(tokenizer, text)
 
 ```
-
 
 To begin constructing a neural network, we first define training data to map input tensors to target tensors. However, we can't feed the lists of integers (text_seqs) into the network--they must first be converted to tensors. This is accomplished by padding the lists to have the same length (with pad_sequences). Then the lists are converted into an integer tensor which has dimension num_reviews x max_length (2174x100). This is used to construct the first ("embedding") layer.
 ```{r}
@@ -332,9 +324,13 @@ model <- keras_model_sequential() %>%
 model %>% summary()
 ```
 The model is built by sequentially stacking layers: 
+
 1. The embedding layer input dimension is the vocab size. It looks up the embedding vector for each word-index and adds a dimension to the output.
+
 2. 1D convolution layer using kernel size 5: recognize local patterns in sentence to learn words length <5, can recognize in later context
+
 3. Additional dense layer with relu activation
+
 4. The final layer uses the sigmoid activation function to output a single node: a probability score between 0 and 1 indicating how likely a review is to be positive. 
 
 #### Choosing Loss Function & Optimizer

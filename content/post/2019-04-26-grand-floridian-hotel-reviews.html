@@ -278,13 +278,8 @@ head(summary_pos,15) %&gt;% ggplot(aes(x=reviews,y=average_rat))+ geom_point() +
   ylab(&quot;Average Rating&quot;)</code></pre>
 <p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-14-1.png" width="672" />
 Similarly, many of these words are what we would expect in positive reviews–though “kitchen”,“pianist”,and “orchestra” are notable.</p>
-<p>##Text Classification
-Now, we will use keras to build a deep-learning model that classifies whether or not reviews are 5 star based on their text (i.e. the words used).</p>
-<pre class="r"><code>##Add response variable (pos/neg), remove rating =3
-# rdf_bin&lt;-rdf %&gt;% mutate(review_num = row_number()) %&gt;% filter(!rating==3) %&gt;%
-#    mutate(positive = case_when(rating == &quot;1&quot;|rating ==&quot;2&quot; ~ 0,TRUE~1)) %&gt;% select(-rating,-stay_date)
-# 
-# rdf_bin %&gt;% ggplot(aes(x=positive))+geom_bar()</code></pre>
+<p>##Text Classification</p>
+<p>Now, we will use keras to build a deep-learning model that classifies whether or not reviews are 5 star based on their text (i.e. the words used).</p>
 <pre class="r"><code>rdf_bin&lt;-rdf %&gt;% mutate(review_num = row_number()) %&gt;% 
    mutate(five_star = case_when(rating!=5~ 0,TRUE~1)) %&gt;% select(-rating,-stay_date)
 
@@ -292,7 +287,7 @@ rdf_bin %&gt;% ggplot(aes(x=five_star)) +
           geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat=&quot;count&quot;) + 
           scale_y_continuous(labels=scales::percent) + scale_x_discrete()+
           ylab(&quot;percent&quot;)</code></pre>
-<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-16-1.png" width="672" />
+<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-15-1.png" width="672" />
 Almost 70% of the reviews are five star. This will be helpful as we evaluate model performance.</p>
 <p>We tokenize the review text into a sequence of integers where each word will correspond to an integer. To get the 1000 most frequent words in our text, we set num_words to 1000.</p>
 <pre class="r"><code># get text of review
@@ -368,11 +363,13 @@ model %&gt;% summary()</code></pre>
 ## Trainable params: 69,365
 ## Non-trainable params: 0
 ## ___________________________________________________________________________</code></pre>
-<p>The model is built by sequentially stacking layers:
-1. The embedding layer input dimension is the vocab size. It looks up the embedding vector for each word-index and adds a dimension to the output.
-2. 1D convolution layer using kernel size 5: recognize local patterns in sentence to learn words length &lt;5, can recognize in later context
-3. Additional dense layer with relu activation
-4. The final layer uses the sigmoid activation function to output a single node: a probability score between 0 and 1 indicating how likely a review is to be positive.</p>
+<p>The model is built by sequentially stacking layers:</p>
+<ol style="list-style-type: decimal">
+<li><p>The embedding layer input dimension is the vocab size. It looks up the embedding vector for each word-index and adds a dimension to the output.</p></li>
+<li><p>1D convolution layer using kernel size 5: recognize local patterns in sentence to learn words length &lt;5, can recognize in later context</p></li>
+<li><p>Additional dense layer with relu activation</p></li>
+<li><p>The final layer uses the sigmoid activation function to output a single node: a probability score between 0 and 1 indicating how likely a review is to be positive.</p></li>
+</ol>
 </div>
 <div id="choosing-loss-function-optimizer" class="section level4">
 <h4>Choosing Loss Function &amp; Optimizer</h4>
@@ -405,13 +402,13 @@ str(hist)</code></pre>
 ##   ..$ validation_steps  : NULL
 ##   ..$ validation_samples: int 470
 ##  $ metrics:List of 4
-##   ..$ val_loss: num [1:10] 0.67 0.666 0.634 0.562 0.615 ...
-##   ..$ val_acc : num [1:10] 0.609 0.609 0.619 0.713 0.694 ...
-##   ..$ loss    : num [1:10] 0.604 0.581 0.548 0.465 0.356 ...
-##   ..$ acc     : num [1:10] 0.702 0.702 0.712 0.799 0.855 ...
+##   ..$ val_loss: num [1:10] 0.683 0.658 0.634 0.594 0.544 ...
+##   ..$ val_acc : num [1:10] 0.609 0.609 0.626 0.704 0.73 ...
+##   ..$ loss    : num [1:10] 0.623 0.587 0.567 0.503 0.393 ...
+##   ..$ acc     : num [1:10] 0.671 0.702 0.703 0.759 0.832 ...
 ##  - attr(*, &quot;class&quot;)= chr &quot;keras_training_history&quot;</code></pre>
 <pre class="r"><code>plot(hist)</code></pre>
-<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-23-1.png" width="672" />
+<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-22-1.png" width="672" />
 The training loss decreases with each epoch, while the accuracy increases. However, the validation data does not show this same trend, which indicates that we are overfitting to the training data. The right number of epochs appears to be 6. Our accuracy is not very high using only the 1000 most common words and cutting reviews off at 100 words. Let’s see what happens if we increase this.</p>
 <pre class="r"><code>#increase num words for embedding
 max_features&lt;-5000
@@ -459,12 +456,12 @@ str(hist)</code></pre>
 ##   ..$ validation_steps  : NULL
 ##   ..$ validation_samples: int 470
 ##  $ metrics:List of 4
-##   ..$ val_loss: num [1:10] 0.674 0.664 0.624 0.594 0.538 ...
-##   ..$ val_acc : num [1:10] 0.609 0.609 0.662 0.694 0.738 ...
-##   ..$ loss    : num [1:10] 0.627 0.6 0.549 0.465 0.362 ...
-##   ..$ acc     : num [1:10] 0.689 0.702 0.717 0.773 0.848 ...
+##   ..$ val_loss: num [1:10] 0.674 0.647 0.631 0.571 0.541 ...
+##   ..$ val_acc : num [1:10] 0.609 0.619 0.647 0.709 0.74 ...
+##   ..$ loss    : num [1:10] 0.633 0.588 0.526 0.44 0.342 ...
+##   ..$ acc     : num [1:10] 0.667 0.703 0.738 0.799 0.852 ...
 ##  - attr(*, &quot;class&quot;)= chr &quot;keras_training_history&quot;</code></pre>
 <pre class="r"><code>plot(hist)</code></pre>
-<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-26-1.png" width="672" /></p>
+<p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-25-1.png" width="672" /></p>
 </div>
 </div>
