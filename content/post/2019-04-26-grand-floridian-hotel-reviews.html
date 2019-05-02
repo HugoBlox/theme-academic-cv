@@ -280,13 +280,20 @@ head(summary_pos,15) %&gt;% ggplot(aes(x=reviews,y=average_rat))+ geom_point() +
 Similarly, many of these words are what we would expect in positive reviews–though “kitchen”,“pianist”,and “orchestra” are notable.</p>
 <p>##Text Classification</p>
 <p>Now, we will use keras to build a deep-learning model that classifies whether or not reviews are 5 star based on their text (i.e. the words used).</p>
-<pre class="r"><code>rdf_bin&lt;-rdf %&gt;% mutate(review_num = row_number()) %&gt;% 
-   mutate(five_star = case_when(rating!=5~ 0,TRUE~1)) %&gt;% select(-rating,-stay_date)
+<pre class="r"><code>#set seed
+set.seed(42)
+#shuffle dataframe
+rows &lt;- sample(nrow(rdf))
+rdf &lt;- rdf[rows, ]
 
-rdf_bin %&gt;% ggplot(aes(x=five_star)) + 
-          geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat=&quot;count&quot;) + 
-          scale_y_continuous(labels=scales::percent) + scale_x_discrete()+
-          ylab(&quot;percent&quot;)</code></pre>
+
+rdf_bin &lt;- rdf %&gt;% mutate(review_num = row_number()) %&gt;%
+  mutate(five_star = case_when(rating != 5 ~ 0, TRUE ~ 1)) %&gt;% select(-rating, -stay_date)
+
+rdf_bin %&gt;% ggplot(aes(x = five_star)) +
+  geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat = &quot;count&quot;) +
+  scale_y_continuous(labels = scales::percent) + ylab(&quot;percent&quot;) +
+  scale_x_discrete()</code></pre>
 <p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-15-1.png" width="672" />
 Almost 70% of the reviews are five star. This will be helpful as we evaluate model performance.</p>
 <p>We tokenize the review text into a sequence of integers where each word will correspond to an integer. To get the 1000 most frequent words in our text, we set num_words to 1000.</p>
@@ -304,7 +311,7 @@ print(tokenizer$document_count)</code></pre>
 <pre><code>## [1] 2350</code></pre>
 <pre class="r"><code>#list of integers for reviews 
 text_seqs&lt;- texts_to_sequences(tokenizer, text)</code></pre>
-<p>To begin constructing a neural network, we first define training data to map input tensors to target tensors. However, we can’t feed the lists of integers (text_seqs) into the network–they must first be converted to tensors. This is accomplished by padding the lists to have the same length (with pad_sequences). Then the lists are converted into an integer tensor which has dimension num_reviews x max_length (2174x100). This is used to construct the first (“embedding”) layer.</p>
+<p>To begin constructing a neural network, we first define training data to map input tensors to target tensors. However, we can’t feed the lists of integers (text_seqs) into the network–they must first be converted to tensors. This is accomplished by padding the lists to have the same length (with pad_sequences). Then the lists are converted into an integer tensor which has dimension num_reviews x max_length (2350x100). This is used to construct the first (“embedding”) layer.</p>
 <pre class="r"><code>#cut reviews off after 100 words
 maxlen &lt;- 100
 
@@ -317,7 +324,6 @@ length(y_train)</code></pre>
 <pre><code>## [1] 2350</code></pre>
 <p>The network will learn 50-dimensional embeddings for each of the 1000 words.</p>
 <pre class="r"><code># Network parameters
-batch_size &lt;- 32
 embedding_dims &lt;- 50
 filters &lt;- 64
 kernel_size &lt;- 5
@@ -370,13 +376,14 @@ model %&gt;% summary()</code></pre>
 <li><p>Additional dense layer with relu activation</p></li>
 <li><p>The final layer uses the sigmoid activation function to output a single node: a probability score between 0 and 1 indicating how likely a review is to be positive.</p></li>
 </ol>
+<p>Additionally, dropout layers were added to combat overfitting. Weights below .2 were dropped by these layers.</p>
 </div>
 <div id="choosing-loss-function-optimizer" class="section level4">
 <h4>Choosing Loss Function &amp; Optimizer</h4>
-<p>We use the binary crossentropy loss function since we are solving a binary classification problem. The optimizer is a stochastic gradient descent (SGD) variant that specifies how the network weights will be updated. We also track accuracy metrics during training.</p>
+<p>We use the binary crossentropy loss function since we are solving a binary classification problem. The optimizer is a stochastic gradient descent (SGD) variant that specifies how the network weights will be updated. This can be modified via hyperparameter tuning, but I found that rmsprop performed better than others (e.g. adam) here. We also track accuracy metrics during training.</p>
 <pre class="r"><code>model %&gt;% compile(
   loss = &quot;binary_crossentropy&quot;,
-  optimizer = &quot;adam&quot;,
+  optimizer = &quot;rmsprop&quot;,
   metrics = &quot;accuracy&quot;
 )</code></pre>
 <p>We train the model in mini-batches of size 32 for 10 iterations (epochs) over the training set but set aside 20% of our reviews for validation.</p>
@@ -389,27 +396,16 @@ model %&gt;% summary()</code></pre>
     validation_split = 0.2
   )
 
-str(hist)</code></pre>
-<pre><code>## List of 2
-##  $ params :List of 9
-##   ..$ batch_size        : int 32
-##   ..$ epochs            : int 10
-##   ..$ steps             : NULL
-##   ..$ samples           : int 1880
-##   ..$ verbose           : int 1
-##   ..$ do_validation     : logi TRUE
-##   ..$ metrics           : chr [1:4] &quot;loss&quot; &quot;acc&quot; &quot;val_loss&quot; &quot;val_acc&quot;
-##   ..$ validation_steps  : NULL
-##   ..$ validation_samples: int 470
-##  $ metrics:List of 4
-##   ..$ val_loss: num [1:10] 0.683 0.658 0.634 0.594 0.544 ...
-##   ..$ val_acc : num [1:10] 0.609 0.609 0.626 0.704 0.73 ...
-##   ..$ loss    : num [1:10] 0.623 0.587 0.567 0.503 0.393 ...
-##   ..$ acc     : num [1:10] 0.671 0.702 0.703 0.759 0.832 ...
-##  - attr(*, &quot;class&quot;)= chr &quot;keras_training_history&quot;</code></pre>
+print(hist)</code></pre>
+<pre><code>## Trained on 1,880 samples, validated on 470 samples (batch_size=32, epochs=10)
+## Final epoch (plot to see history):
+## val_loss: 0.446
+##  val_acc: 0.8085
+##     loss: 0.1866
+##      acc: 0.9378</code></pre>
 <pre class="r"><code>plot(hist)</code></pre>
 <p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-22-1.png" width="672" />
-The training loss decreases with each epoch, while the accuracy increases. However, the validation data does not show this same trend, which indicates that we are overfitting to the training data. The right number of epochs appears to be 6. Our accuracy is not very high using only the 1000 most common words and cutting reviews off at 100 words. Let’s see what happens if we increase this.</p>
+The training loss decreases with each epoch, while the accuracy increases. However, the validation data does not show this same trend, which indicates that we are overfitting. The right number of epochs appears to be 6. Considering the fact that we only use the 1000 most common words and cut reviews off at 100 words, our model is fairly accurate (peaking at around 80% on the validation set). However, we can likely increase this by increasing the feature space and length of review considered.</p>
 <pre class="r"><code>#increase num words for embedding
 max_features&lt;-5000
 maxlen&lt;-400
@@ -431,7 +427,7 @@ model &lt;- keras_model_sequential() %&gt;%
 
 model %&gt;% compile(
   loss = &quot;binary_crossentropy&quot;,
-  optimizer = &quot;adam&quot;,
+  optimizer = &quot;rmsprop&quot;,
   metrics = &quot;accuracy&quot;
 )</code></pre>
 <pre class="r"><code>hist &lt;- model %&gt;%
@@ -443,25 +439,15 @@ model %&gt;% compile(
     validation_split = 0.2
   )
 
-str(hist)</code></pre>
-<pre><code>## List of 2
-##  $ params :List of 9
-##   ..$ batch_size        : int 32
-##   ..$ epochs            : int 10
-##   ..$ steps             : NULL
-##   ..$ samples           : int 1880
-##   ..$ verbose           : int 1
-##   ..$ do_validation     : logi TRUE
-##   ..$ metrics           : chr [1:4] &quot;loss&quot; &quot;acc&quot; &quot;val_loss&quot; &quot;val_acc&quot;
-##   ..$ validation_steps  : NULL
-##   ..$ validation_samples: int 470
-##  $ metrics:List of 4
-##   ..$ val_loss: num [1:10] 0.674 0.647 0.631 0.571 0.541 ...
-##   ..$ val_acc : num [1:10] 0.609 0.619 0.647 0.709 0.74 ...
-##   ..$ loss    : num [1:10] 0.633 0.588 0.526 0.44 0.342 ...
-##   ..$ acc     : num [1:10] 0.667 0.703 0.738 0.799 0.852 ...
-##  - attr(*, &quot;class&quot;)= chr &quot;keras_training_history&quot;</code></pre>
+print(hist)</code></pre>
+<pre><code>## Trained on 1,880 samples, validated on 470 samples (batch_size=32, epochs=10)
+## Final epoch (plot to see history):
+## val_loss: 0.4388
+##  val_acc: 0.8234
+##     loss: 0.154
+##      acc: 0.9548</code></pre>
 <pre class="r"><code>plot(hist)</code></pre>
 <p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-25-1.png" width="672" /></p>
+<p>Again, 6 appears to be the right number of epochs–beyond this we are overfitting. Although validation accuracy improves to about 84% (a 4% increase from the previous model), there is a tradeoff in that this model takes more than 2 times the amount of time to train. If rapid classification is necessary, the smaller feature space performance may be sufficient.</p>
 </div>
 </div>

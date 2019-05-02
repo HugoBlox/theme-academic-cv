@@ -248,13 +248,21 @@ Now, we will use keras to build a deep-learning model that classifies whether or
 
 
 ```{r,message=FALSE,warning=FALSE}
-rdf_bin<-rdf %>% mutate(review_num = row_number()) %>% 
-   mutate(five_star = case_when(rating!=5~ 0,TRUE~1)) %>% select(-rating,-stay_date)
+#set seed
+set.seed(42)
+#shuffle dataframe
+rows <- sample(nrow(rdf))
+rdf <- rdf[rows, ]
 
-rdf_bin %>% ggplot(aes(x=five_star)) + 
-          geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count") + 
-          scale_y_continuous(labels=scales::percent) + scale_x_discrete()+
-          ylab("percent")
+
+rdf_bin <- rdf %>% mutate(review_num = row_number()) %>%
+  mutate(five_star = case_when(rating != 5 ~ 0, TRUE ~ 1)) %>% select(-rating, -stay_date)
+
+rdf_bin %>% ggplot(aes(x = five_star)) +
+  geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat = "count") +
+  scale_y_continuous(labels = scales::percent) + ylab("percent") +
+  scale_x_discrete()
+
 
 ```
 Almost 70% of the reviews are five star. This will be helpful as we evaluate model performance. 
@@ -279,7 +287,7 @@ text_seqs<- texts_to_sequences(tokenizer, text)
 
 ```
 
-To begin constructing a neural network, we first define training data to map input tensors to target tensors. However, we can't feed the lists of integers (text_seqs) into the network--they must first be converted to tensors. This is accomplished by padding the lists to have the same length (with pad_sequences). Then the lists are converted into an integer tensor which has dimension num_reviews x max_length (2174x100). This is used to construct the first ("embedding") layer.
+To begin constructing a neural network, we first define training data to map input tensors to target tensors. However, we can't feed the lists of integers (text_seqs) into the network--they must first be converted to tensors. This is accomplished by padding the lists to have the same length (with pad_sequences). Then the lists are converted into an integer tensor which has dimension num_reviews x max_length (2350x100). This is used to construct the first ("embedding") layer.
 ```{r}
 #cut reviews off after 100 words
 maxlen <- 100
@@ -294,7 +302,6 @@ length(y_train)
 The network will learn 50-dimensional embeddings for each of the 1000 words. 
 ```{r}
 # Network parameters
-batch_size <- 32
 embedding_dims <- 50
 filters <- 64
 kernel_size <- 5
@@ -333,12 +340,14 @@ The model is built by sequentially stacking layers:
 
 4. The final layer uses the sigmoid activation function to output a single node: a probability score between 0 and 1 indicating how likely a review is to be positive. 
 
+Additionally, dropout layers were added to combat overfitting. Weights below .2 were dropped by these layers.
+
 #### Choosing Loss Function & Optimizer
-We use the binary crossentropy loss function since we are solving a binary classification problem. The optimizer is a stochastic gradient descent (SGD) variant that specifies how the network weights will be updated. We also track accuracy metrics during training.
+We use the binary crossentropy loss function since we are solving a binary classification problem. The optimizer is a stochastic gradient descent (SGD) variant that specifies how the network weights will be updated. This can be modified via hyperparameter tuning, but I found that rmsprop performed better than others (e.g. adam) here. We also track accuracy metrics during training.
 ```{r}
 model %>% compile(
   loss = "binary_crossentropy",
-  optimizer = "adam",
+  optimizer = "rmsprop",
   metrics = "accuracy"
 )
 ```
@@ -354,13 +363,13 @@ hist <- model %>%
     validation_split = 0.2
   )
 
-str(hist)
+print(hist)
 ```
 
 ```{r}
 plot(hist)
 ```
-The training loss decreases with each epoch, while the accuracy increases. However, the validation data does not show this same trend, which indicates that we are overfitting to the training data. The right number of epochs appears to be 6. Our accuracy is not very high using only the 1000 most common words and cutting reviews off at 100 words. Let's see what happens if we increase this. 
+The training loss decreases with each epoch, while the accuracy increases. However, the validation data does not show this same trend, which indicates that we are overfitting. The right number of epochs appears to be 6.  Considering the fact that we only use the 1000 most common words and cut reviews off at 100 words, our model is fairly accurate (peaking at around 80% on the validation set). However, we can likely increase this by increasing the feature space and length of review considered.
 
 ```{r}
 #increase num words for embedding
@@ -384,7 +393,7 @@ model <- keras_model_sequential() %>%
 
 model %>% compile(
   loss = "binary_crossentropy",
-  optimizer = "adam",
+  optimizer = "rmsprop",
   metrics = "accuracy"
 )
 ```
@@ -400,7 +409,7 @@ hist <- model %>%
     validation_split = 0.2
   )
 
-str(hist)
+print(hist)
 ```
 
 
@@ -408,7 +417,7 @@ str(hist)
 plot(hist)
 ```
 
-
+Again, 6 appears to be the right number of epochs--beyond this we are overfitting. Although validation accuracy improves to about 84% (a 4% increase from the previous model), there is a tradeoff in that this model takes more than 2 times the amount of time to train. If rapid classification is necessary, the smaller feature space performance may be sufficient. 
 
 
 
