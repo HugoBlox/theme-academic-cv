@@ -30,9 +30,10 @@ _Zoph et.al 2016_ quotes in his paper titled **Transfer Learning for Low-Resourc
 
 > A justification for this approach is that in scenarios where we have limited training data, we need a strong prior distribution over models. The parent model trained on a large amount of bilingual data can be considered an anchor point, the peak of our prior distribution in model space. When we train the child model initialized with the parent model, we fix parameters likely to be useful across tasks so that they will not be changed during child-model training. 
 
-#### Supervised Learning as Curve Fitting
+### Supervised Learning as Curve Fitting
 The goal of suprvised learning can be thought of as fitting a curve (function) given some data points _i.e.,_ $y = f(x)$ learn the fundtion $f$ given input values $x$ and corresponding output values $y$. If we had $y$ for every pint in the input space, we can fit the curve exactly. In real-life scenarios, we usually get $y$ for some sample of points in the input space. The values $y$ might be noisy for some values of $x$. Sometimes, the sample of points may be very small that it might not be indicator of the function at all.
 
+#### Fitting a Cosine Function
 Consider the task of fitting a **Cosine** function. We will use a deep feedfoward neural network for this purpose. We will first generate a set of data points and plot the curve.
 
 
@@ -43,12 +44,78 @@ X = np.random.randint(720, size=(200,1))
 X_rad = X * np.pi / 180
 # Get the corresponding cosine values for the inputs
 Y = np.cos(X_rad)
-
-# We will add some noise to the inputs
-mask = np.random.randint(2,size=(200))
-y_noise = Y
-y_noise[ (mask==1) ] += (0.001 - np.random.rand(1) * 0.01)
 ```
+
+The following figure plots the genrated data points {{< figure src="cosine.png" title="" >}} We now randomly select a subset of points to train our model. 
+```python
+X_small = X_rad[:20]
+Y_small = Y[:20]
+```
+
+The reduced set of data points leads to the following plot {{< figure src="cosine-small.png" title="" >}} Before proceeding further, let us define the deep learning model.
+```python
+class CurveFitter(nn.Module):
+
+	def __init__(self, inputDim, outDim, hidDim):
+		super(CurveFitter, self).__init__()
+
+		self.inputDim = inputDim
+		self.outDim = outDim
+		self.hidDim = hidDim
+
+		self.linear_l1 = nn.Linear(self.inputDim, self.hidDim)
+		self.nla_l1 = nn.ReLU()
+
+		self.linear_l2 = nn.Linear(self.hidDim, self.hidDim)
+		self.nla_l2 = nn.ReLU()
+
+		self.linear_l3 = nn.Linear(self.hidDim, self.hidDim)
+		self.nla_l3 = nn.ReLU()
+
+		self.linear_l4 = nn.Linear(self.hidDim, self.outDim)
+		self.nla_l4 = nn.Tanh()
+
+		self.mse_loss = nn.MSELoss()
+
+	def forward(self, x):
+
+		result = self.nla_l4( self.linear_l4( self.nla_l3( self.linear_l3( self.nla_l2( self.linear_l2( self.nla_l1( self.linear_l1(x) ) ) ) ) ) ) )
+
+		return result
+
+	def loss(self, x, y):
+
+		result = self.nla_l4( self.linear_l4( self.nla_l3( self.linear_l3( self.nla_l2( self.linear_l2( self.nla_l1( self.linear_l1(x) ) ) ) ) ) ) )
+
+		return self.mse_loss(result, y)
+```
+Let us instantiate the model and use _Adam_ optimizer to train the model.
+
+```python
+torch.manual_seed(9899999)
+network_cos = CurveFitter(1, 1, 200 )
+optim_alg_cos = Adam(network_cos.parameters(), lr=0.001)
+```
+Training the above model on the smaller set of points for different random initialization leads to the following curves {{< figure src="cosine-supervised.png" title="" >}}
+
+As observed, the model does well in areas where sufficient data is present. However, on the leftmost region where we have only one data point the model does poorly on fitting the curve.
+
+#### Transferring Knowledge from Sine Function
+
+Let us assume, that we have enough data points to train a Sine function. We will train the model using the earlier architecture. Unlike earlier, we will generate points from 0 to 1080 instead of 0 to 720.
+
+```python
+# We will generate 200 random points from 0 to 720
+X = np.random.randint(1080, size=(200,1))
+# Convert the values to radians
+X_rad = X * np.pi / 180
+# Get the corresponding cosine values for the inputs
+Y = np.sin(X_rad)
+```
+The training points for sine function is {{< figure src="sine.png" title="" >}} and the curve fit by the model is {{< figure src="sine-predicted.png" title="" >}} 
+We will use the trained model and further fine-tune the model on smaller set of points for the cosine function. The resulting fitted curve looks as below {{< figure src="cosine-transfer.png" title="" >}}
+
+Unlike the cosine model trained on smaller set of points, the fine-tuned cosine model does a reasonably decent job of mimicking the cosine function. This is what i believe _Zoph et.al 2016_ meant when they said that {{< hl >}} the parent model enforces a prior distribution on the function space, allowing the model to learn a function close-enough to the function to be fitted. Unlike random initializations where the possible function space is very large. {{< /hl >}}
 
 
 #### References
