@@ -12,7 +12,7 @@ list_format = 2
 [header]
 image = ""
 caption = ""
-discussionId = 3
+discussionId = 4
 +++
 
 Some of us are really excited about the prospect of learning a new language. Unlike in formal language classes, we usually begin wth by learning the vocabulary. We ask for translations of real-world objects and day-to-day activities. We do not try to learn already known concepts _for example the word **tree**_. We instead learn the word used to represent the concept (**tree**). This is different from how children first learn a language. We need to teach them concepts and also the symbols to represent those concept in their language. This is what **Transfer Learning** is all about. Transfer Learning is using knowledge gained from one task to solve a related task.
