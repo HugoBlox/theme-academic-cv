@@ -101,7 +101,7 @@ optim_alg_cos = Adam(network_cos.parameters(), lr=0.001)
 ```
 Training the above model on the smaller set of points leads to the following curve {{< figure src="cosine-supervised.png" title="" >}}
 
-As observed, the model does well in areas where sufficient data is present. However, on the leftmost region where we have only one data point the model does poorly on fitting the curve.
+As observed, the model does well in areas where sufficient data is present. However, on the rightmost region where we have only one data point the model does poorly on fitting the curve.
 
 #### Transferring Knowledge from Sine Function
 
