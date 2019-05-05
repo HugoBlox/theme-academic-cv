@@ -1,5 +1,5 @@
 +++
-title = "An Intuitive Explanation on Why Transfer Learning Works"
+title = "Intuitive Behind Transfer Learning"
 date = 2019-02-06T00:00:00
 
 # List format.
