@@ -16,7 +16,7 @@ role = "Undergrad Student"
 organizations = [ { name = "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET)", url = "http://www.conicet.gob.ar" }, {name="Universidad de San Martín", url="http://www.unsam.edu.ar"} ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = ""
+bio = "Please complete me..."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "@iib.unsam.edu.ar"
@@ -84,4 +84,16 @@ user_groups = ["Alumni"]
 
 +++
 
+# About me 
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac luctus
+lectus. Cras nec dolor eget mauris posuere lobortis. Proin at hendrerit
+nulla, non ultrices ligula. Duis mauris eros, bibendum nec sapien eget,
+imperdiet bibendum urna. Nulla rhoncus euismod ex ac pulvinar. Vivamus et
+pulvinar quam, eu sodales erat. Suspendisse nisi nunc, mollis nec vehicula
+at, pharetra et mi. Nulla a metus id massa luctus finibus in in massa. Cras
+varius aliquam nisi non interdum. Donec ut orci mattis, volutpat orci
+pretium, ornare turpis. Etiam tempor scelerisque augue vitae sagittis. Cras
+pulvinar velit eget sem rhoncus, in gravida est porta. Aliquam tempor
+tincidunt sapien sagittis consectetur. Praesent vel faucibus risus, sit amet
+pretium erat.
