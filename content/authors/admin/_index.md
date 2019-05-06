@@ -1,52 +1,53 @@
 +++
 # Display name
-name = "Nelson Bighetti"
+name = "Fernán Agüero"
 
 # Username (this should match the folder name)
-authors = ["admin"]
+authors = ["admin", "fernan"]
 
 # Is this the primary user of the site?
 superuser = true
 
 # Role/position
-role = "Professor of Artificial Intelligence"
+role = "Principal Investigator, Assistant Professor"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Stanford University", url = "" } ]
+organizations = [ { name = "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET)", url = "http://www.conicet.gob.ar" }, {name="Universidad de San Martín", url="http://www.unsam.edu.ar"} ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "My research interests include distributed robotics, mobile computing and programmable matter."
+bio = "Using and generating data to guide discovery of new drugs and diagnostics."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = ""
+email = "fernan@iib.unsam.edu.ar"
 
 # List (academic) interests or hobbies
 interests = [
-  "Artificial Intelligence",
-  "Computational Linguistics",
-  "Information Retrieval"
+  "Diagnostics",
+  "Drug Discovery",
+  "Bioinformatics",
+  "Genomics",
+  "Infectious Diseases",
+  "Neglected Diseases",
+  "Chagas Disease",
+  "Trypanosomes"
 ]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Researchers", "Visitors"]
+user_groups = ["Principal Investigators"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
+  course = "PhD in Chemistry"
+  institution = "Universidad de Buenos Aires"
+  year = 2001
 
 [[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
+  course = "BSc in Biology (Licenciatura)"
+  institution = "Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires"
+  year = 1995
 
-[[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -61,17 +62,27 @@ user_groups = ["Researchers", "Visitors"]
 [[social]]
   icon = "twitter"
   icon_pack = "fab"
-  link = "https://twitter.com/GeorgeCushen"
+  link = "https://twitter.com/fernan_aguero"
 
 [[social]]
   icon = "google-scholar"
   icon_pack = "ai"
-  link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+  link = "https://scholar.google.co.uk/citations?user=zycaIZQAAAAJ"
 
 [[social]]
   icon = "github"
   icon_pack = "fab"
-  link = "https://github.com/gcushen"
+  link = "https://github.com/fernan"
+
+[[social]]
+  icon = "orcid"
+  icon_pack = "ai"
+  link = "https://orcid.org/0000-0003-1331-5741"
+
+[[social]]
+  icon = "pubmed"
+  icon_pack = "ai"
+  link = "http://1.usa.gov/12p0C2W"
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -82,6 +93,21 @@ user_groups = ["Researchers", "Visitors"]
 
 +++
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I began my academic career at the University of Buenos Aires (UBA) with a
+degree in Biology in 1995. Then completed my PhD in 2001 working at the Luis
+F. Leloir Institute – Fundación Campomar (UBA) on biochemistry and molecular
+biology. The focus of his research was the metabolism of Echinococus
+granulosus, a helminth parasite. For my postdoctoral work at the University
+of San Martín, I focused on genomics and bioinformatics, working mainly with
+protozoan and bacterial pathogens (trypanosomes, Brucella, Campylobacter).
+My current interests are the identification and experimental validation of
+drug targets against trypanosomes, and the use of high-throughput genomic
+and proteomic platforms to study human immune responses against Trypanosoma
+cruzi (Chagas Disease) to guide development of much needed diagnostic
+applications. Over time my lab has used different strategic approaches
+(experimental bench work, bioinformatics). I also have an interest in
+teaching and training of human resources, and in the promotion of
+Bioinformatics. I teach a Computational Biology and Bioinformatics course
+and am a founding member of the Argentinian Society for Computational
+Biology and Bioinformatics (A2B2C).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
