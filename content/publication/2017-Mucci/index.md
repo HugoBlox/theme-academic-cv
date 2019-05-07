@@ -23,6 +23,7 @@ url_source = ""
 math = true
 highlight = true
 [header]
-image = ""
-caption = ""
+[image]
+  caption = "Bioinformatics selection of candidate diagnostic peptides"
+  focal_point = "TopLeft"
 +++

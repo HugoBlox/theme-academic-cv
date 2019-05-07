@@ -25,5 +25,8 @@ math = true
 highlight = true
 [header]
 image = ""
-caption = ""
+[image]
+  caption = "Mapping epitopes with high precision using high-density peptide arrays"
+  focal_point = "TopRight"
+
 +++

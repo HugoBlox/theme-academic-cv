@@ -23,6 +23,7 @@ url_source = ""
 math = true
 highlight = true
 [header]
-image = ""
-caption = ""
+[image]
+ caption = "Antigen enrichment plots obtained under different prioritization scenarios"
+ focal_point = "TopRight"
 +++
