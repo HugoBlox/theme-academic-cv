@@ -13,7 +13,7 @@ summary = "High-throuput screening and data integration for diagnostics tool dev
 tags = ["Immunomics"]
 
 # People in this project
-authors = ["@alejandro", "@leonel", "@fernan"]
+authors = ["@alejandro", "@leonel", "@santiago", "@fernan"]
 
 
 # Optional external URL for project (replaces project detail page).
