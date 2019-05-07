@@ -9,7 +9,7 @@ authors = ["trypanosomatics"]
 superuser = true
 
 # Role/position
-role = "The Trypanosome in the Shell"
+role = "A Trypanosome in the Shell"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -23,14 +23,7 @@ email = "info@trypanosomatics.org"
 
 # List (academic) interests or hobbies
 interests = [
-  "Diagnostics",
-  "Drug Discovery",
-  "Bioinformatics",
-  "Genomics",
-  "Infectious Diseases",
-  "Neglected Diseases",
-  "Chagas Disease",
-  "Trypanosomes"
+  "All things Data",
 ]
 
 # Organizational groups that you belong to (for People widget)
