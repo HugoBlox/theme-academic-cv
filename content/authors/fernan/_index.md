@@ -55,7 +55,7 @@ user_groups = ["Investigators"]
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "#contact"  # For a direct email link, use "mailto:test@example.org".
+  link = "mailto:fernan@iib.unsam.edu.ar"  # For a direct email link, use "mailto:test@example.org".
 
 [[social]]
   icon = "twitter"
@@ -81,6 +81,16 @@ user_groups = ["Investigators"]
   icon = "pubmed"
   icon_pack = "ai"
   link = "http://1.usa.gov/12p0C2W"
+
+[[social]]
+  icon = "publons"
+  icon_pack = "ai"
+  link = "https://publons.com/researcher/1369842/fernan-aguero/"
+
+[[social]]
+  icon = "researchgate"
+  icon_pack = "ai"
+  link = "https://www.researchgate.net/profile/Fernan_Agueero"
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
