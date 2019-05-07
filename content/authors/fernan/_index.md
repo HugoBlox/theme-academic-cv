@@ -92,6 +92,11 @@ user_groups = ["Investigators"]
   icon_pack = "ai"
   link = "https://www.researchgate.net/profile/Fernan_Agueero"
 
+[[social]]
+  icon = "zotero"
+  icon_pack = "ai"
+  link = "https://www.zotero.org/fernan.aguero"
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # [[social]]
