@@ -1,6 +1,6 @@
 +++
 title = "Molecular diversity of the Trypanosoma cruzi TcSMUG family of mucin genes and proteins"
-authors = ["Ivana Urban", "Lucía B Santurio", "Agustina Chidichimo", "Hai Yu", "Xi Chen", "Juan Mucci", "Fernán Agüero", "Carlos A Buscaglia"]
+authors = ["Ivana Urban", "Lucía B Santurio", "Agustina Chidichimo", "Hai Yu", "Xi Chen", "Juan Mucci", "@fernan", "Carlos A Buscaglia"]
 publication = "Biochemical Journal, (438), 2, _pp. 303-13_, https://doi.org/10.1042/BJ20110683"
 publication_short = "Biochem J, (438), 2, _pp. 303-13_, https://doi.org/10.1042/BJ20110683"
 date = "2011-09-01"

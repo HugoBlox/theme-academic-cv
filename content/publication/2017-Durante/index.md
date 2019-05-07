@@ -1,7 +1,7 @@
 +++
 title = "High-resolution profiling of linear B-cell epitopes from mucin-associated surface proteins (MASPs) of Trypanosoma cruzi during human infections."
 date = "2017-09-29"
-authors = ["Ignacio M Durante", "Pablo E La Spina", "Santiago J Carmona", "Fernán Agüero", "Carlos A Buscaglia"]
+authors = ["Ignacio M Durante", "Pablo E La Spina", "@santiago", "@fernan", "Carlos A Buscaglia"]
 publication_types = ["2"]
 publication = "PLOS Neglected Tropical Diseases, (11), 9, _pp. e0005986_, https://doi.org/10.1371/journal.pntd.0005986"
 publication_short = "PLOS Negl Trop Dis, (11), 9, _pp. e0005986_, https://doi.org/10.1371/journal.pntd.0005986"

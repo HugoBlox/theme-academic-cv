@@ -1,6 +1,6 @@
 +++
 title = "TcSNP: a database of genetic variation in Trypanosoma cruzi"
-authors = ["Alejandro A Ackermann", "Santiago J Carmona", "Fernán Agüero"]
+authors = ["Alejandro A Ackermann", "@santiago", "@fernan"]
 publication = "Nucleic Acids Research, (37), Database issue, _pp. D544-9_, http://doi.org/10.1093/nar/gkn874"
 publication_short = "Nucleic Acids Res, (37), Database issue, _pp. D544-9_, http://doi.org/10.1093/nar/gkn874"
 doi = "10.1093/nar/gkn874"
