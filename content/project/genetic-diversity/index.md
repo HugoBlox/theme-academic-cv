@@ -7,6 +7,9 @@ draft = false
 # Example: `tags = ["machine-learning", "deep-learning"]`
 tags = ["tcruzi", "SNPs", "strain typing", "genetic diversity"]
 
+# People in this project
+authors = ["@fernan", "@raul", "@leonardo", "@aleacker"]
+
 # Project summary to display on homepage.
 summary = "A map of genetic variation for _Trypanosoma cruzi_ and its use on strain typing applications"
 

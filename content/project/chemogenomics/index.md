@@ -10,7 +10,10 @@ summary = "Data integration for target prioritization and drug discovery or repu
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Chemogenomics"]
+tags = ["Chemogenomics", "networks", "drug-repositioning", "drug-discovery"]
+
+# People in this project
+authors = ["@lionel", "@mercedes", "@emir", "@paula", "@fernan"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
