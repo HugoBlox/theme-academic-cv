@@ -2,7 +2,7 @@
 name = "Leonardo G Panunzi"
 authors = ["leonardo"]
 email = "leonardopnnz@gmail.com"
-user_groups = ["Past Lab Members & Collaborators"]
+user_groups = ["Past Lab Members"]
 
 +++
 

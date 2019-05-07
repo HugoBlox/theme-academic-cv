@@ -2,7 +2,7 @@
 name = "María Paula Magariños"
 authors = ["paula"]
 email = "mpmagarinos@gmail.com"
-user_groups = ["Past Lab Members & Collaborators"]
+user_groups = ["Past Lab Members"]
 
 +++
 

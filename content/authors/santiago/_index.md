@@ -2,7 +2,7 @@
 name = "Santiago J Carmona"
 authors = ["santiago"]
 email = "sjcarmona@gmail.com"
-user_groups = ["Past Lab Members & Collaborators"]
+user_groups = ["Past Lab Members"]
 
 [[social]]
  icon = "google-scholar"

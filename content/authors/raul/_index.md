@@ -2,7 +2,7 @@
 name = "Raúl O Cosentino"
 authors = ["raul"]
 email = "rulicosentino@gmail.com"
-user_groups = ["Past Lab Members & Collaborators"]
+user_groups = ["Past Lab Members"]
 
 +++
 
