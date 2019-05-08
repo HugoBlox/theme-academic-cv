@@ -19,6 +19,9 @@
 {{ range $key, $value := $.Params.authors }}
 {{ $author := $value }}
 {{ $author_urlized = urlize $author }}
+{{ $ntax := "authors" }}
+{{ $profile_page := site.GetPage (printf "/%s/%s" $ntax $author_urlized) }}
+{{ with $profile_page.Params.role }}
 
 {{ $taxonomy := "authors" }}
 {{ $profile_page := site.GetPage (printf "/%s/%s" $taxonomy $author_urlized) }}
@@ -62,4 +65,5 @@
   </div>
 {{end}}{{/* Profile page block */}}
 {{end}}{{/* Show profile block */}}
+{{ end }}
 {{ end }}
