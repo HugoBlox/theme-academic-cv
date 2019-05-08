@@ -16,7 +16,7 @@ role = "PhD Student"
 organizations = [ { name = "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET)", url = "http://www.conicet.gob.ar" }, {name="Universidad de San Martín", url="http://www.unsam.edu.ar"} ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "Lionel Uran Landaburu holds an MS degree in Biotechnology from the Universidad Nacional de Quilmes, Argentina. Is passionate about, and has been working on since 2011, global health problems. He has had welcoming experiences in the wet lab, but is now aiming towards Bioinformatics as a PhD fellow at IIBIO-CONICET. He is currently doing research in applied chemogenomics, using genome-wide data and chemical libraries to find novel treatments for a wide variety of neglected diseases, Chagas disease in particular."
+bio = "PhD Fellow, teacher a science divulgation enthusiast."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "lionel.u.l@iib.unsam.edu.ar"
@@ -40,10 +40,10 @@ user_groups = ["Grad Students"]
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 
-#[[social]]
-#  icon = "envelope"
-#  icon_pack = "fas"
-#  link = "#contact"  # For a direct email link, use "mailto:test@example.org".
+[[social]]
+  icon = "envelope"
+  icon_pack = "fas"
+  link = "mailto:luranl@iib.unsam.edu.ar"
 #
 [[social]]
   icon = "twitter"

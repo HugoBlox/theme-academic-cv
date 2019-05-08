@@ -3,11 +3,21 @@ name = "Santiago J Carmona"
 authors = ["santiago"]
 email = "sjcarmona@gmail.com"
 user_groups = ["Past Lab Members"]
+role = "Former Trypanosomatics Lab Member (2007 -- 2015)"
+bio = "Present address: Ludwig Center for Cancer Research, University of Lausanne"
 
 [[social]]
  icon = "google-scholar"
  icon_pack = "ai"
  link = "https://scholar.google.com/citations?user=H7ILPkgAAAAJ"
+[[social]]
+ icon = "orcid"
+ icon_pack = "ai"
+ link = "https://orcid.org/0000-0002-2495-0671"
+[[social]]
+  icon = "researcherid"
+  icon_pack = "ai"
+  link = "http://www.researcherid.com/rid/E-9356-2015"
 
 +++
 

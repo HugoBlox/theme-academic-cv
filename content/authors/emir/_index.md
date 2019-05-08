@@ -16,7 +16,7 @@ role = "Associate Investigator"
 organizations = [ { name = "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET)", url = "http://www.conicet.gob.ar" }, {name="Universidad de San Martín", url="http://www.unsam.edu.ar"} ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "I began my academic career at the University of Habana (UH), Cuba, with a degree in Biochemistry in 2001. In 2006, I obtained a MSc degree in Protein Chemistry and Enzymology from UH and began my PhD work at this institution, focused on the identification, isolation and characterization of tight-binding inhibitors -from autochthonous natural sources- for cysteine proteases from the parasites Trypanosoma cruzi (Chagas Disease) and Plasmodium falciparum (malaria). After several years of PhD work, I moved to Argentine in 2012 and completed my PhD on biochemistry and molecular biology in 2013, working at the Instituto de Investigaciones Biotecnológicas, Universidad Nacional de San Martín (IIBIO-UNSAM). I have developed the rest of my academic career at IIBIO-UNSAM working in the identification of synthetic protease inhibitors as antiparasitic agents; first as postdoctoral fellow of the Argentine National Council for Science and Technology (CONICET) and since 2019, as an Assistant Investigator from CONICET. My current research interests include: The development of high-throughput capable enzymatic assays for the identification of target-specific inhibitors and the use of chemogenomic approaches for the reposition of bioactive compounds to a variety of parasitic diseases. I combine research with teaching activities in the Biotechnology career at IIBIO-UNSAM (Protein Biochemistry and Human Genetics)."
+bio = "Passionate about enzymes and drug discovery."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "emirsalas@gmail.com"
@@ -50,10 +50,10 @@ user_groups = ["Investigators"]
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 
-#[[social]]
-#  icon = "envelope"
-#  icon_pack = "fas"
-#  link = "#contact"  # For a direct email link, use "mailto:test@example.org".
+[[social]]
+  icon = "envelope"
+  icon_pack = "fas"
+  link = "mailto:esalas@iib.unsam.edu.ar" 
 #
 #[[social]]
 #  icon = "twitter"

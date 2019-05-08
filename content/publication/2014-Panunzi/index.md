@@ -1,7 +1,7 @@
 +++
 title = "A genome-wide analysis of genetic diversity in Trypanosoma cruzi intergenic regions"
 date = "2014-05-01"
-authors = ["Leonardo G Panunzi", "Fernán Agüero"]
+authors = ["@leonardo", "@fernan"]
 publication_types = ["2"]
 publication = "PLOS Neglected Tropical Diseases, (8), 5, _pp. e2839_, https://doi.org/10.1371/journal.pntd.0002839"
 publication_short = "PLOS Negl Trop Dis, (8), 5, _pp. e2839_, https://doi.org/10.1371/journal.pntd.0002839"

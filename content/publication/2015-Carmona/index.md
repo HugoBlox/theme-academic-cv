@@ -1,7 +1,7 @@
 +++
 title = "Towards High-throughput Immunomics for Infectious Diseases: Use of Next-generation Peptide Microarrays for Rapid Discovery and Mapping of Antigenic Determinants"
 date = "2015-07-01"
-authors = ["Santiago J Carmona", "Morten Nielsen", "Claus Schafer-Nielsen", "Juan Mucci", "Jaime Altcheh", "Virginia Balouz", "Valeria Tekiel", "Alberto C Frasch", "Oscar Campetella", "Carlos A Buscaglia", "Fernán Agüero"]
+authors = ["@santiago", "Morten Nielsen", "Claus Schafer-Nielsen", "Juan Mucci", "Jaime Altcheh", "Virginia Balouz", "Valeria Tekiel", "Alberto C Frasch", "Oscar Campetella", "Carlos A Buscaglia", "@fernan"]
 publication_types = ["2"]
 publication = "Molecular & Cellular Proteomics, (14), 7, _pp. 1871--84_, https://doi.org/10.1074/mcp.M114.045906"
 publication_short = "Mol. Cell Proteomics, (14), 7, _pp. 1871--84_, https://doi.org/10.1074/mcp.M114.045906"
@@ -25,5 +25,8 @@ math = true
 highlight = true
 [header]
 image = ""
-caption = ""
+[image]
+  caption = "Mapping epitopes with high precision using high-density peptide arrays"
+  focal_point = "TopRight"
+
 +++

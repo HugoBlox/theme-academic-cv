@@ -16,7 +16,7 @@ role = "PhD Student"
 organizations = [ { name = "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET)", url = "http://www.conicet.gob.ar" }, {name="Universidad de San Martín", url="http://www.unsam.edu.ar"} ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = ""
+bio = "Please complete me..."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "aricci@iib.unsam.edu.ar"
@@ -45,10 +45,10 @@ user_groups = ["Grad Students"]
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 
-#[[social]]
-#  icon = "envelope"
-#  icon_pack = "fas"
-#  link = "#contact"  # For a direct email link, use "mailto:test@example.org".
+[[social]]
+  icon = "envelope"
+  icon_pack = "fas"
+  link = "mailto:aricci@iib.unsam.edu.ar"
 #
 #[[social]]
 #  icon = "twitter"

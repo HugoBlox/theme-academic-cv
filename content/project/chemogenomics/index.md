@@ -10,7 +10,10 @@ summary = "Data integration for target prioritization and drug discovery or repu
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Chemogenomics"]
+tags = ["Chemogenomics", "networks", "drug-repositioning", "drug-discovery"]
+
+# People in this project
+authors = ["@lionel", "@mercedes", "@emir", "@paula", "@fernan"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -37,7 +40,7 @@ links = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitt
 # To use, add an image named `featured.jpg/png` to your project's folder. 
 [image]
   # Caption (optional)
-  caption = "Genomics based drug discovery, by @leitouran"
+  caption = "Genomics based drug discovery, by [@leitouran](/authors/lionel)"
   
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight

@@ -3,7 +3,8 @@ name = "María Paula Magariños"
 authors = ["paula"]
 email = "mpmagarinos@gmail.com"
 user_groups = ["Past Lab Members"]
-
+role = "Former Trypanosomatics Lab Member (2009 -- 2014)"
+bio = "Present address: ChEMBL Group (EMBL-EBI)"
 +++
 
 # Previous positions in the lab
@@ -15,3 +16,4 @@ user_groups = ["Past Lab Members"]
 
 ChEMBL Group, European Bioinformatics Institute (EBI) -- European Molecular
 Biology Laboratory, Hinxton, Cambridge, UK.
+https://www.ebi.ac.uk/about/people/maria-paula-magarinos

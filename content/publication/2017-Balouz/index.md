@@ -1,7 +1,7 @@
 +++
 title = "Chagas Disease Diagnostic Applications: Present Knowledge and Future Steps"
 date = "2017-01-01"
-authors = ["Virginia Balouz", "Fernán Agüero", "Carlos A Buscaglia"]
+authors = ["Virginia Balouz", "@fernan", "Carlos A Buscaglia"]
 publication_types = ["2"]
 publication = "Advances in Parasitology, (97), _pp. 1--45_, https://doi.org/10.1016/bs.apar.2016.10.001"
 publication_short = "Adv Parasitol, (97), _pp. 1--45_, https://doi.org/10.1016/bs.apar.2016.10.001"

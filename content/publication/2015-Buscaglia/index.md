@@ -1,7 +1,7 @@
 +++
 title = "Neglected Tropical Diseases in the Post-Genomic Era"
 date = "2015-10-01"
-authors = ["Carlos A Buscaglia", "Jessica C Kissinger", "Fernán Agüero"]
+authors = ["Carlos A Buscaglia", "Jessica C Kissinger", "@fernan"]
 publication_types = ["2"]
 publication = "Trends in Genetics, (31), 10, _pp. 539--555_, https://doi.org/10.1016/j.tig.2015.06.002"
 publication_short = "Trends Genet, (31), 10, _pp. 539--555_, https://doi.org/10.1016/j.tig.2015.06.002"

@@ -3,6 +3,8 @@ name = "Raúl O Cosentino"
 authors = ["raul"]
 email = "rulicosentino@gmail.com"
 user_groups = ["Past Lab Members"]
+role = "Former Trypanosomatics Lab Member (2007 -- 2014)"
+bio = "Present address: Biomedical Center Munich, Ludwig Maximilians Universität München"
 
 +++
 
@@ -13,4 +15,5 @@ user_groups = ["Past Lab Members"]
 
 # Current Position
 
-Siegel Laboratory, Biomedical Center Munich, Ludwig Maximilians Universität München, Martinsried, Germany
+Siegel Laboratory, Biomedical Center Munich, Ludwig Maximilians Universität München, Martinsried, Germany.
+https://www.molpara.vetmed.uni-muenchen.de/index.html

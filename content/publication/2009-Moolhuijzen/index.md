@@ -1,6 +1,6 @@
 +++
 title = "Genomic analysis of Campylobacter fetus subspecies: identification of candidate virulence determinants and diagnostic assay targets"
-authors = ["Paula M Moolhuijzen", "Ala E Lew-Tabor", "Bartosz M Wlodek", "Fernán Agüero", "Diego J Comerci", "Rodolfo A Ugalde", "Daniel O Sánchez", "Rudi Appels", "Matthew M Bellgard"]
+authors = ["Paula M Moolhuijzen", "Ala E Lew-Tabor", "Bartosz M Wlodek", "@fernan", "Diego J Comerci", "Rodolfo A Ugalde", "Daniel O Sánchez", "Rudi Appels", "Matthew M Bellgard"]
 publication = "BMC Microbiology, (9), _pp. 86_, http://doi.org/10.1186/1471-2180-9-86"
 publication_short = "BMC Microbiol, (9), _pp. 86_, http://doi.org/10.1186/1471-2180-9-86"
 date = "2009-05-08"

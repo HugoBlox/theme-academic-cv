@@ -2,7 +2,7 @@
 title = "FastqCleaner: an Interactive Bioconductor application for quality-control, filtering and trimming of FASTQ files"
 date = 2018-08-28
 draft = false
-authors = ["Leandro G Roser", "Fernán Agüero", "Daniel O Sánchez"]
+authors = ["Leandro G Roser", "@fernan", "Daniel O Sánchez"]
 publication = "BioRxiv, https://doi.org/10.1101/393140"
 publication_types = ["3"]
 
