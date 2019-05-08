@@ -16,28 +16,23 @@ role = "PhD Student"
 organizations = [ { name = "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET)", url = "http://www.conicet.gob.ar" }, {name="Universidad de San Martín", url="http://www.unsam.edu.ar"} ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = ""
+bio = "Lionel Uran Landaburu holds an MS degree in Biotechnology from the Universidad Nacional de Quilmes, Argentina. Is passionate about, and has been working on since 2011, global health problems. He has had welcoming experiences in the wet lab, but is now aiming towards Bioinformatics as a PhD fellow at IIBIO-CONICET. He is currently doing research in applied chemogenomics, using genome-wide data and chemical libraries to find novel treatments for a wide variety of neglected diseases, Chagas disease in particular."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "luranl@iib.unsam.edu.ar"
+email = "lionel.u.l@iib.unsam.edu.ar"
 
 # List (academic) interests or hobbies
-interests = [""]
+interests = ["Chemogenomics, Neglected diseases, Drug Discovery"]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups = ["Grad Students"]
 
 # List qualifications (such as academic degrees)
-#[[education.courses]]
-#  course = "PhD in Chemistry"
-#  institution = "Universidad de Buenos Aires"
-#  year = 2001
-#
-#[[education.courses]]
-#  course = "BSc in Biology (Licenciatura)"
-#  institution = "Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires"
-#  year = 1995
+[[education.courses]]
+  course = "Ms in Biotechnology"
+  institution = "Universidad Nacional de Quilmes"
+  year = 2015
 
 
 # Social/Academic Networking
@@ -50,26 +45,31 @@ user_groups = ["Grad Students"]
 #  icon_pack = "fas"
 #  link = "#contact"  # For a direct email link, use "mailto:test@example.org".
 #
-#[[social]]
-#  icon = "twitter"
-#  icon_pack = "fab"
-#  link = "https://twitter.com/fernan_aguero"
-#
+[[social]]
+  icon = "twitter"
+  icon_pack = "fab"
+  link = "https://twitter.com/leitouran"
+
 #[[social]]
 #  icon = "google-scholar"
 #  icon_pack = "ai"
 #  link = "https://scholar.google.co.uk/citations?user=zycaIZQAAAAJ"
-#
-#[[social]]
-#  icon = "github"
-#  icon_pack = "fab"
-#  link = "https://github.com/fernan"
-#
-#[[social]]
-#  icon = "orcid"
-#  icon_pack = "ai"
-#  link = "https://orcid.org/0000-0003-1331-5741"
-#
+
+[[social]]
+  icon = "linkedin"
+  icon_pack = "fab"
+  link = "https://www.linkedin.com/in/lionelul/"
+
+[[social]]
+  icon = "github"
+  icon_pack = "fab"
+  link = "https://github.com/leitouran"
+
+[[social]]
+  icon = "orcid"
+  icon_pack = "ai"
+  link = "https://orcid.org/0000-0002-6202-9779"
+
 #[[social]]
 #  icon = "pubmed"
 #  icon_pack = "ai"
@@ -86,14 +86,4 @@ user_groups = ["Grad Students"]
 
 # About me 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac luctus
-lectus. Cras nec dolor eget mauris posuere lobortis. Proin at hendrerit
-nulla, non ultrices ligula. Duis mauris eros, bibendum nec sapien eget,
-imperdiet bibendum urna. Nulla rhoncus euismod ex ac pulvinar. Vivamus et
-pulvinar quam, eu sodales erat. Suspendisse nisi nunc, mollis nec vehicula
-at, pharetra et mi. Nulla a metus id massa luctus finibus in in massa. Cras
-varius aliquam nisi non interdum. Donec ut orci mattis, volutpat orci
-pretium, ornare turpis. Etiam tempor scelerisque augue vitae sagittis. Cras
-pulvinar velit eget sem rhoncus, in gravida est porta. Aliquam tempor
-tincidunt sapien sagittis consectetur. Praesent vel faucibus risus, sit amet
-pretium erat.
+Lionel Uran Landaburu holds an MS degree in Biotechnology from the Universidad Nacional de Quilmes, Argentina. Is passionate about, and has been working on since 2011, global health problems. He has had welcoming experiences in the wet lab, but is now aiming towards Bioinformatics as a PhD fellow at IIBIO-CONICET. He is currently doing research in applied chemogenomics, using genome-wide data and chemical libraries to find novel treatments for a wide variety of neglected diseases, Chagas disease in particular.

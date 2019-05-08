@@ -16,28 +16,33 @@ role = "Associate Investigator"
 organizations = [ { name = "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET)", url = "http://www.conicet.gob.ar" }, {name="Universidad de San Martín", url="http://www.unsam.edu.ar"} ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = ""
+bio = "I began my academic career at the University of Habana (UH), Cuba, with a degree in Biochemistry in 2001. In 2006, I obtained a MSc degree in Protein Chemistry and Enzymology from UH and began my PhD work at this institution, focused on the identification, isolation and characterization of tight-binding inhibitors -from autochthonous natural sources- for cysteine proteases from the parasites Trypanosoma cruzi (Chagas Disease) and Plasmodium falciparum (malaria). After several years of PhD work, I moved to Argentine in 2012 and completed my PhD on biochemistry and molecular biology in 2013, working at the Instituto de Investigaciones Biotecnológicas, Universidad Nacional de San Martín (IIBIO-UNSAM). I have developed the rest of my academic career at IIBIO-UNSAM working in the identification of synthetic protease inhibitors as antiparasitic agents; first as postdoctoral fellow of the Argentine National Council for Science and Technology (CONICET) and since 2019, as an Assistant Investigator from CONICET. My current research interests include: The development of high-throughput capable enzymatic assays for the identification of target-specific inhibitors and the use of chemogenomic approaches for the reposition of bioactive compounds to a variety of parasitic diseases. I combine research with teaching activities in the Biotechnology career at IIBIO-UNSAM (Protein Biochemistry and Human Genetics)."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "esalas@iib.unsam.edu.ar"
+email = "emirsalas@gmail.com"
 
 # List (academic) interests or hobbies
-interests = [""]
+interests = ["Chemogenomics, Biochemistry, High-Throughput Screenings"]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups = ["Investigators"]
 
 # List qualifications (such as academic degrees)
-#[[education.courses]]
-#  course = "PhD in Chemistry"
-#  institution = "Universidad de Buenos Aires"
-#  year = 2001
-#
-#[[education.courses]]
-#  course = "BSc in Biology (Licenciatura)"
-#  institution = "Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires"
-#  year = 1995
+[[education.courses]]
+  course = "PhD in Molecular Biology and Biotechnology"
+  institution = "IIBIO-CONICET"
+  year = 2013
+
+[[education.courses]]
+  course = "Ms in Protein Chemistry and Enzymology"
+  institution = "Universidad de la Habana"
+  year = 2006
+
+[[education.courses]]
+  course = "BSc in Biochemistry "
+  institution = "Universidad de la Habana"
+  year = 2001
 
 
 # Social/Academic Networking
@@ -55,21 +60,26 @@ user_groups = ["Investigators"]
 #  icon_pack = "fab"
 #  link = "https://twitter.com/fernan_aguero"
 #
-#[[social]]
-#  icon = "google-scholar"
-#  icon_pack = "ai"
-#  link = "https://scholar.google.co.uk/citations?user=zycaIZQAAAAJ"
-#
+[[social]]
+  icon = "linkedin"
+  icon_pack = "fab"
+  link = "https://www.linkedin.com/in/emir-salas-sarduy-76179855"
+
+[[social]]
+  icon = "google-scholar"
+  icon_pack = "ai"
+  link = "https://scholar.google.ro/citations?user=mhUekKoAAAAJ&hl=es&oi=ao"
+
 #[[social]]
 #  icon = "github"
 #  icon_pack = "fab"
 #  link = "https://github.com/fernan"
 #
-#[[social]]
-#  icon = "orcid"
-#  icon_pack = "ai"
-#  link = "https://orcid.org/0000-0003-1331-5741"
-#
+[[social]]
+  icon = "orcid"
+  icon_pack = "ai"
+  link = "https://orcid.org/0000-0002-9709-7552"
+
 #[[social]]
 #  icon = "pubmed"
 #  icon_pack = "ai"
@@ -86,14 +96,4 @@ user_groups = ["Investigators"]
 
 # About me 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac luctus
-lectus. Cras nec dolor eget mauris posuere lobortis. Proin at hendrerit
-nulla, non ultrices ligula. Duis mauris eros, bibendum nec sapien eget,
-imperdiet bibendum urna. Nulla rhoncus euismod ex ac pulvinar. Vivamus et
-pulvinar quam, eu sodales erat. Suspendisse nisi nunc, mollis nec vehicula
-at, pharetra et mi. Nulla a metus id massa luctus finibus in in massa. Cras
-varius aliquam nisi non interdum. Donec ut orci mattis, volutpat orci
-pretium, ornare turpis. Etiam tempor scelerisque augue vitae sagittis. Cras
-pulvinar velit eget sem rhoncus, in gravida est porta. Aliquam tempor
-tincidunt sapien sagittis consectetur. Praesent vel faucibus risus, sit amet
-pretium erat.
+I began my academic career at the University of Habana (UH), Cuba, with a degree in Biochemistry in 2001. In 2006, I obtained a MSc degree in Protein Chemistry and Enzymology from UH and began my PhD work at this institution, focused on the identification, isolation and characterization of tight-binding inhibitors -from autochthonous natural sources- for cysteine proteases from the parasites Trypanosoma cruzi (Chagas Disease) and Plasmodium falciparum (malaria). After several years of PhD work, I moved to Argentine in 2012 and completed my PhD on biochemistry and molecular biology in 2013, working at the Instituto de Investigaciones Biotecnológicas, Universidad Nacional de San Martín (IIBIO-UNSAM). I have developed the rest of my academic career at IIBIO-UNSAM working in the identification of synthetic protease inhibitors as antiparasitic agents; first as postdoctoral fellow of the Argentine National Council for Science and Technology (CONICET) and since 2019, as an Assistant Investigator from CONICET. My current research interests include: The development of high-throughput capable enzymatic assays for the identification of target-specific inhibitors and the use of chemogenomic approaches for the reposition of bioactive compounds to a variety of parasitic diseases. I combine research with teaching activities in the Biotechnology career at IIBIO-UNSAM (Protein Biochemistry and Human Genetics).
