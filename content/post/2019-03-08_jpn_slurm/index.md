@@ -1,21 +1,42 @@
 +++
-date = "2019-03-11"
-
 title = "Running Jupyter Notebooks Remotely with Slurm"
+subtitle = ""
 
+# Add a summary to display on homepage (optional).
 summary = "Using SSH to tunnel into jupyter notebooks deployed remotely on slurm"
 
-# Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = ""
+date = 2019-03-11T18:30:13-04:00
+draft = false
+
+# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
+authors = ["halexand"]
+
+# Is this a featured post? (true/false)
+featured = true
+
+# Tags and categories
+# For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
 tags = ["conda", "jupyter", "HPC", "computing", "data analysis"]
-math = false
+categories = ["computation", "bioinformatics", "python"]
 
-# Optional featured image (relative to `static/img/` folder).
-[header]
-image = ""
-caption = ""
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["deep-learning"]` references
+#   `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+# projects = ["internal-project"]
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+[image]
+  # Caption (optional)
+  caption = ""
+
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = ""
 +++
-
 I run the bulk of my bioinformatic analyses remotely on a server or HPC, as they require more computational power or space than I have on my local computer. Rather than transfer the intermediate byproducts of these analyses (which may often be very large) to my local machine, I  prefer to examine and analyze the data remotely using Jupyter. As jupyter notebook are browser-based, if you run the command `jupyter notebook` on a remote machine you will not be able to automatically interact with the jupyter dashboard as you do not have access to a browser on the remote machine. Rather, you need to create a connection between your local browser and the remote Jupyter session. Here I am showing a special case, where you might want to run jupyter notebooks on a larger compute node via an interactive session with slurm.
 
 ## Starting your interactive job with slurm
