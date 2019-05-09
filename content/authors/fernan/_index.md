@@ -3,7 +3,7 @@
 name = "Fernán Agüero"
 
 # Username (this should match the folder name)
-authors = ["admin", "fernan"]
+authors = ["fernan"]
 
 # Is this the primary user of the site?
 superuser = true
@@ -99,10 +99,10 @@ user_groups = ["Investigators"]
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# [[social]]
-#   icon = "cv"
-#   icon_pack = "ai"
-#   link = "files/cv.pdf"
+[[social]]
+   icon = "cv"
+   icon_pack = "ai"
+   link = "files/cv-fernan-may-2019.pdf"
 
 +++
 
