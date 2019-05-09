@@ -68,6 +68,11 @@ user_groups = ["Investigators"]
   link = "https://scholar.google.co.uk/citations?user=zycaIZQAAAAJ"
 
 [[social]]
+  icon = "linkedin"
+  icon_pack = "fab"
+  link = "https://www.linkedin.com/in/fernan-aguero/"
+
+[[social]]
   icon = "github"
   icon_pack = "fab"
   link = "https://github.com/fernan"
@@ -80,7 +85,7 @@ user_groups = ["Investigators"]
 [[social]]
   icon = "pubmed"
   icon_pack = "ai"
-  link = "http://1.usa.gov/12p0C2W"
+  link = "https://www.ncbi.nlm.nih.gov/myncbi/fernan.aguero.1/bibliography/public/"
 
 [[social]]
   icon = "publons"
@@ -96,6 +101,7 @@ user_groups = ["Investigators"]
   icon = "zotero"
   icon_pack = "ai"
   link = "https://www.zotero.org/fernan.aguero"
+
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
