@@ -23,6 +23,7 @@ url_source = ""
 math = true
 highlight = true
 [header]
-image = ""
-caption = ""
+[image]
+ focal_point = "Bottom"
+ caption = "Epitope motifs in MASP proteins, by Ignacio"
 +++

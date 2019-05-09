@@ -6,5 +6,5 @@ active = true  # Activate this widget? true/false
 weight = 120  # Order that this section will appear.
 
 title = "Popular Topics"
-subtitle = ""
+subtitle = "Built from tags in projects and publications"
 +++
