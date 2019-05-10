@@ -26,7 +26,7 @@ hero_media = "hero-academic.png"
   gradient_end = "#2b94c3"
   
   # Background image.
-  image = "headers/bubbles-wide.jpg"  # Name of image in `static/img/`.
+  image = "headers/bubbles-wide-tryp-binary.jpg"  # Name of image in `static/img/`.
   # image = "headers/network-wide.png" 
   image_darken = 0.5  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
