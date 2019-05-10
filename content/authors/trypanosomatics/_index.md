@@ -13,7 +13,7 @@ role = "A Trypanosome in the Shell"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET)", url = "http://www.conicet.gob.ar" }, {name="Universidad de San Martín", url="http://www.unsam.edu.ar"} ]
+organizations = [ { name = "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET)", url = "http://www.conicet.gob.ar" }, {name="Universidad de San Martín (UNSAM)", url="http://www.unsam.edu.ar"} ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "Using and generating data to guide discovery of new drugs and diagnostics."
