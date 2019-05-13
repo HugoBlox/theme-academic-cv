@@ -150,7 +150,7 @@ jupyter notebook
 ```
 This will open the `jupyter notebook` home screen in browser window, showing your current directory. At the top right, you can click `New` and see which kernels you can use to start a notebook (hopefully, Python 3 or R).
 
-[Jupyter notebook dropdown](resources/_gen/images/jupyternb-browser.png)
+![Jupyter notebook dropdown](resources/_gen/images/jupyternb-browser.png)
 
 Select `R` under the 'New' dropdown menu (you can also launch a `Python3` notebook... but that isn't what we are doing right now), and a new Untitled.ipynb will open. In the first cell, enter `version` and execute the cell (SHIFT+ENTER to execute). This should print out the version of `R` that the notebook is running-- which should be `3.5.1`. You can also ensure this R notebook is running properly by loading some R libraries.
 
