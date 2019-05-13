@@ -16,7 +16,7 @@ featured = true
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["R", "Anaconda", "computation", "best practices"]
+tags = ["R", "Anaconda", "computation", "best practices", "RStudio", "jupyter notebook"]
 categories = []
 
 # Projects (optional).
@@ -38,7 +38,7 @@ categories = []
   focal_point = ""
 +++
 
-I recently found myself setting up a new computer, spinning up ~23864283.34 new projects in R, and wanting to stay somewhat organized in the process. After doing some digging, I decided to give Anaconda environments a try to keep my various R environments in order. I have decided to share my process.
+I recently found myself setting up a new computer, spinning up ~23864283.34 new projects in R, and wanting to stay somewhat organized in the process. After doing some digging, I decided to give Anaconda environments a try to have the ability to run different versions of R *and* do this across R on the command line, RStudio, and jupyter notebooks (IRKernel). I have decided to share my process.
 
 ## Installing Anaconda
 
@@ -128,7 +128,7 @@ Copyright (C) 2018 The R Foundation for Statistical Computing
 Platform: x86_64-apple-darwin13.4.0 (64-bit)
 ```
 
-Because we created this R environment and specified `r-essentials`, many popular packages have already been loaded. Check this by loading some basic libraries `library(ggplot2)` or 'library(dplyr)'. Convenient, eh?
+Because we created this R environment and specified `r-essentials`, many popular packages have already been loaded. Check this by loading some basic libraries `library(ggplot2)` or `library(dplyr)`. Convenient, eh?
 
 Quit R `quit()`, but don't deactivate the `r_3.5.1` environment.
 
@@ -150,15 +150,15 @@ jupyter notebook
 ```
 This will open the `jupyter notebook` home screen in browser window, showing your current directory. At the top right, you can click `New` and see which kernels you can use to start a notebook (hopefully, Python 3 or R).
 
-![Jupyter notebook dropdown](resources/_gen/images/jupyternb-browser.png)
+[Jupyter notebook dropdown](resources/_gen/images/jupyternb-browser.png)
 
 Select `R` under the 'New' dropdown menu (you can also launch a `Python3` notebook... but that isn't what we are doing right now), and a new Untitled.ipynb will open. In the first cell, enter `version` and execute the cell (SHIFT+ENTER to execute). This should print out the version of `R` that the notebook is running-- which should be `3.5.1`. You can also ensure this R notebook is running properly by loading some R libraries.
 
 To close the notebook, click `Logout` at the top right of the notebook open in your browser and/or CTRL+C in the terminal from where you launched the notebook. Close the browser windows.
 
-One of the major issues I have encountered is Jupyter calling the incorrect path (more below).
+**One of the major issues I have encountered is Jupyter calling the incorrect path (more below).**
 
-If for some reason when you create this new notebook and you notice that the version is incorrect you can dig a bit deeper into the kernel details. To do this, you can't use which R (as above) as that doesn't answer where Jupyter is looking. Rather, you can use `jupyter kernelspec`, a command that I have found invaluable in troubleshooting any PATH issues in jupyter notebooks (see tweet).
+If for some reason when you create this new notebook and you notice that the version is incorrect you can dig a bit deeper into the kernel details. To do this, you can't use which R (as above) as that doesn't answer where Jupyter is looking. Rather, you can use `jupyter kernelspec`, a command that I have found invaluable in troubleshooting any PATH issues in jupyter notebooks [see tweet](https://twitter.com/nekton4plankton/status/1116785847402209281).
 
 To see what paths are being called by jupyter notebook type this:
 ```
@@ -289,11 +289,11 @@ which rstudio
 ```
 If all things check out:
 
- [x] Correct `R` version in command line
- [x] Correct `R` version in RStudio
- [x] Correct `R` version in Jupyter Notebook
- [x] Path of `R` aligns with your specified conda environment
- [x] Path of `rstudio` aligns with your specified conda environment
+ *[x] Correct `R` version in command line
+ *[x] Correct `R` version in RStudio
+ *[x] Correct `R` version in Jupyter Notebook
+ *[x] Path of `R` aligns with your specified conda environment
+ *[x] Path of `rstudio` aligns with your specified conda environment
 
 You can safely go ahead and create a new alias within your `.bash_profile` :
 
@@ -352,7 +352,6 @@ conda install -c bioconda bioconductor-decontam
 conda install -c bioconda bioconductor-deseq
 conda install -c bioconda bioconductor-edger
 ```
-#
 
 ## Final thoughts
 
