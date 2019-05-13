@@ -15,7 +15,7 @@ role = ""
 organizations = [ { name = "Woods Hole Oceanographic Institution", url = "whoi.edu" } , {name = "Center for Dark Energy Biosphere Investigations", url = "darkenergybiosphere.org"}]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "Sarah is a Postdoctoral Fellow at WHOI investigating the ecological roles microbial eukaryotes play in marine ecosystems. She is currently focused on characterizing the microbial eukaryotic communities found at deep sea hydrothermal vents to understand their place in marine food webs in the deep biosphere."
+bio = "Sarah is a Postdoctoral Fellow in [Julie Huber's lab at WHOI](https://www2.whoi.edu/staff/jhuber/projects/) investigating the ecological roles single-celled microbial eukaryotes play in marine ecosystems. She is currently focused on understanding how the microbial eukaryotic communities found in deep-sea hydrothermal vent ecosystems contribute to microbial food web dynamics."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 # email = ""
