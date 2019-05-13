@@ -150,7 +150,7 @@ jupyter notebook
 ```
 This will open the `jupyter notebook` home screen in browser window, showing your current directory. At the top right, you can click `New` and see which kernels you can use to start a notebook (hopefully, Python 3 or R).
 
-![Jupyter notebook dropdown](resources/_gen/images/jupyternb-browser.png)
+~![Jupyter notebook dropdown](resources/_gen/images/jupyternb-browser.png)
 
 Select `R` under the 'New' dropdown menu (you can also launch a `Python3` notebook... but that isn't what we are doing right now), and a new Untitled.ipynb will open. In the first cell, enter `version` and execute the cell (SHIFT+ENTER to execute). This should print out the version of `R` that the notebook is running-- which should be `3.5.1`. You can also ensure this R notebook is running properly by loading some R libraries.
 
@@ -214,8 +214,6 @@ This command returns the paths (`resource_dir`) that the `jupyter notebook` when
 From my experience, a common issue I encountered was `jupyter notebook` trying to use an `R` version that was external to my environment (i.e. from an R version installed in my base environment or an old R version installed on my computer pre-anaconda). These issues manifest as IRKernel in `jupyter notebook` never becomes active or dying immediately after launch. This cause of this problem was revealed with the `kernelspec` command above.
 
 One of the main lessons I learned in troubleshooting: don't be afraid to **destroy everything**. More specifically, if you run into issues and find that one or all of these paths are not shuttling through the correct R conda environment of your choice... destroy and rebuild. Use this command (`jupyter kernelspec`) to locate and destroy this other R option that jupyter notebook is defaulting to (but make sure you are not deleting another whole environment!).
-
-#link to tweet from Harriet
 
 ### Opening RStudio within a conda environment
 
