@@ -289,11 +289,11 @@ which rstudio
 ```
 If all things check out:
 
- *[x] Correct `R` version in command line
- *[x] Correct `R` version in RStudio
- *[x] Correct `R` version in Jupyter Notebook
- *[x] Path of `R` aligns with your specified conda environment
- *[x] Path of `rstudio` aligns with your specified conda environment
+ - [x] Correct `R` version in command line
+ - [x] Correct `R` version in RStudio
+ - [x] Correct `R` version in Jupyter Notebook
+ - [x] Path of `R` aligns with your specified conda environment
+ - [x] Path of `rstudio` aligns with your specified conda environment
 
 You can safely go ahead and create a new alias within your `.bash_profile` :
 
