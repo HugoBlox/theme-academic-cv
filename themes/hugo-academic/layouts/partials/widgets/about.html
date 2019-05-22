@@ -1,0 +1,110 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
+{{ $author := "" }}
+{{ if .author }}
+  {{ $author = .author }}
+{{ else }}
+  {{ $author = $page.Params.author }}
+{{end}}
+
+{{ $person_page_path := (printf "/authors/%s" (urlize $author)) }}
+{{ $person_page := site.GetPage $person_page_path }}
+{{ if not $person_page }}
+  {{ errorf "Could not find an author page at `%s`. Please check the value of `author` in your About widget and create an associated author page if one does not already exist. See https://sourcethemes.com/academic/docs/page-builder/#about " $person_page_path }}
+{{end}}
+{{ $person := $person_page.Params }}
+{{ $avatar := ($person_page.Resources.ByType "image").GetMatch "*avatar*" }}
+
+<!-- About widget -->
+<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="{{ if site.Params.email }}person-email{{ end }}{{ if site.Params.phone }} person-telephone{{ end }}{{ if site.Params.address}} person-address{{ end }}">
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+
+      {{ if site.Params.gravatar }}
+      <img class="portrait" src="https://s.gravatar.com/avatar/{{ md5 $person.email }}?s=200')" itemprop="image" alt="Avatar">
+      {{ else if $avatar }}
+      {{ $avatar_image := $avatar.Fill "250x250 Center" }}
+      <img class="portrait" src="{{ $avatar_image.RelPermalink }}" itemprop="image" alt="Avatar">
+      {{ end }}
+
+      <div class="portrait-title">
+        <h2 itemprop="name">{{ $person.name }}</h2>
+        {{ with $person.role }}<h3 itemprop="jobTitle">{{ . | markdownify | emojify }}</h3>{{ end }}
+
+        {{ range $person.organizations }}
+        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+          {{ with .url }}<a href="{{ . }}" target="_blank" itemprop="url" rel="noopener">{{ end }}
+          <span itemprop="name">{{ .name }}</span>
+          {{ if .url }}</a>{{ end }}
+        </h3>
+        {{ end }}
+      </div>
+
+      <link itemprop="url" href="{{ .Permalink }}">
+
+      <ul class="network-icon" aria-hidden="true">
+        {{ range $person.social }}
+        {{ $pack := or .icon_pack "fas" }}
+        {{ $pack_prefix := $pack }}
+        {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+          {{ $pack_prefix = "fa" }}
+        {{ end }}
+        {{ $link := .link }}
+        {{ $scheme := (urls.Parse $link).Scheme }}
+        {{ $target := "" }}
+        {{ if not $scheme }}
+          {{ $link = .link | relLangURL }}
+        {{ else if in (slice "http" "https") $scheme }}
+          {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+        {{ end }}
+        <li>
+          <a itemprop="sameAs" href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
+            <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }} big-icon"></i>
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+
+    </div>
+  </div>
+  <div class="col-12 col-lg-8" itemprop="description">
+
+    {{/* Only display widget title in explicit instances of about widget, not in author pages. */}}
+    {{ if and $page.Params.widget $page.Title }}<h1>{{ $page.Title | markdownify | emojify }}</h1>{{ end }}
+
+    {{ $person_page.Content }}
+
+    <div class="row">
+
+      {{ with $person.interests }}
+      <div class="col-md-5">
+        <h3>{{ i18n "interests" | markdownify }}</h3>
+        <ul class="ul-interests">
+          {{ range . }}
+          <li>{{ . | markdownify | emojify }}</li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
+      {{ with $person.education }}
+      <div class="col-md-7">
+        <h3>{{ i18n "education" | markdownify }}</h3>
+        <ul class="ul-edu fa-ul">
+          {{ range .courses }}
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
+              <p class="institution">{{ .institution }}</p>
+            </div>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
+    </div>
+  </div>
+</div>

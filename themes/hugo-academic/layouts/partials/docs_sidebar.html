@@ -1,0 +1,37 @@
+{{ $current_page := . }}
+{{ $menu_name := (path.Base (path.Split .Path).Dir) }}
+{{ with (index site.Menus $menu_name) }}
+{{ else }}
+{{ errorf "Please define menu items named `[menu.%s]` in your %s front matter or define `[[menu.%s]]` in `config.toml`." $menu_name .Path $menu_name }}
+{{ end }}
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  {{ if eq site.Params.search.engine 1 }}
+  <input name="q" type="search" class="form-control" id="search-query" placeholder="{{ i18n "search_placeholder" }}" autocomplete="off">
+  {{ end }}
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  {{ with (index site.Menus $menu_name) }}
+  {{ range (index site.Menus $menu_name).ByWeight }}
+  <div class="docs-toc-item{{ if $current_page.IsMenuCurrent $menu_name . }} active{{ end }}">
+    <a class="docs-toc-link" {{ if .URL }}href="{{ .URL }}"{{else if .HasChildren }}href="{{ (index .Children 0).URL }}"{{end}}>{{ .Name }}</a>
+
+    {{- if .HasChildren }}
+    <ul class="nav docs-sidenav">
+      {{ range .Children }}
+      <li {{ if $current_page.IsMenuCurrent $menu_name . }}class="active"{{ end }}>
+        <a href="{{ .URL }}">{{ .Name }}</a>
+      </li>
+      {{ end }}
+    </ul>
+    {{ end }}
+
+  </div>
+  {{ end }}
+  {{ end }}
+</nav>
