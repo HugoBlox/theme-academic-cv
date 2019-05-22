@@ -1,0 +1,88 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+<div class="pub" itemscope itemtype="http://schema.org/Event">
+
+  {{ partial "page_header.html" . }}
+
+  <div class="article-container">
+
+    {{ if .Params.abstract }}
+      <h3>{{ i18n "abstract" }}</h3>
+      <p class="pub-abstract" itemprop="text">{{ .Params.abstract | markdownify | emojify }}</p>
+    {{ else }}
+      <br>
+    {{ end }}
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">{{ i18n "date" }}</div>
+          <div class="col-12 col-md-9" itemprop="datePublished">
+            {{ $date := .Date }}
+            {{ (time $date).Format site.Params.date_format }}
+            <div class="talk-time">
+              {{ if not .Params.all_day }}
+                {{ (time $date).Format (site.Params.time_format | default "3:04 PM") }}
+                {{ with .Params.date_end }}
+                  &mdash; {{ (time .).Format (site.Params.time_format | default "3:04 PM") }}
+                {{ end }}
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">{{ i18n "event" }}</div>
+          <div class="col-12 col-md-9">
+            {{ with .Params.event_url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
+            {{ .Params.event | markdownify }}
+            {{ if .Params.event_url }}</a>{{ end }}
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    {{ with .Params.location }}
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">{{ i18n "location" }}</div>
+          <div class="col-12 col-md-9">{{ . | markdownify }}</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    {{ end }}
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+      {{ .Content }}
+    </div>
+
+    {{ partial "tags.html" . }}
+    {{ partial "page_author.html" . }}
+
+  </div>
+</div>
+
+{{ if site.Params.section_pager }}
+<div class="article-container article-widget">
+  {{ partial "section_pager.html" . }}
+</div>
+{{ end }}
+
+{{ partial "footer_container.html" . }}
+{{ partial "footer.html" . }}

@@ -1,0 +1,17 @@
+# Font style metadata
+name = "Custom"
+
+# Optional Google font URL
+google_fonts = "Baloo Bhai|Dosis|Roboto|"
+
+#Permanent Marker|Alternate Gothic|Helvetica"
+
+# Font families
+heading_font = "Baloo Bhai"
+body_font = "Roboto"
+nav_font = "Baloo Bhai"
+mono_font = "Roboto"
+
+# Font size
+font_size = "18"
+font_size_small = "16"
