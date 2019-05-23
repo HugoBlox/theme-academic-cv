@@ -1,17 +1,17 @@
 +++
-# Project section created with the portfolio widget.
+# Blank home section created with the blank widget.
+# To create more space for photo
 widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 100 # Order that this section will appear.
+weight = 2 # Order that this section will appear.
 
-title = "Projects and Code"
+title = ""
 subtitle = ""
-# "Size-based interdisciplinary ecology and modelling"
 
 [content]
   # Page type to display. E.g. project.
-  page_type = "code"
+  page_type = "project"
   
   # Filter toolbar (optional).
   # Add or remove as many filters (`[[content.filter_button]]` instances) as you like.
@@ -22,21 +22,6 @@ subtitle = ""
   # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
   filter_default = 0
   
-  #[[content.filter_button]]
-   #name = "All"
-   #tag = "*"
-  
-  [[content.filter_button]]
-   name = "Climate change impacts"
-   tag = "Climate Change"
-  
-  [[content.filter_button]]
-   name = "Population size and other traits"
-   tag = "Size and traits"
-  
- [[content.filter_button]]
-  name = "Bacteria to Whales"
-  tag = "Bacteria to Whales"
 
   
 
@@ -60,16 +45,16 @@ subtitle = ""
   #   Any HTML color name or Hex value is valid.
   
   # Background color.
-  color = "light grey"
+  # color = "DeepSkyBlue3"
   
   # Background gradient.
   # gradient_start = "DeepSkyBlue"
   # gradient_end = "SkyBlue"
   
   # Background image.
-  image = "dolphins_fishies.jpg"  # Name of image in `static/img/`.
+    image = "amyspic.jpg"  # Name of image in `static/img/`.
   # image = "Rotto 3rd year trip iv (113) (1).JPG"  # Name of image in `static/img/`.
-   image_darken = 0.5  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+    image_darken = 0.5  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
    text_color_light = true
@@ -80,6 +65,7 @@ subtitle = ""
  
  # CSS class.
  css_class = ""
+ 
+# We work on research topics that range from fundamental ecology and evolution to more applied global ecology and sustainability. In particular, we study the ecological role of body size and how this influences individual to ecosystem processes. We also study the consequences of human population size and how changes in human demand and activities, coupled with environmental change, alter a complex social-ecological systems. 
 
 +++
-
