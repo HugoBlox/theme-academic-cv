@@ -1,6 +1,7 @@
 ---
 # Display name
 name: Kirsty Nash
+weight: 33
 
 # Username (this should match the folder name)
 authors:

@@ -20,17 +20,17 @@ height = "600px"
 [[item]]
   title = ""
   content = "Predicting changes in population size, body size and other traits"
-  align = ""
+  align = "center"
 
   overlay_color = "#555"  # An HTML color value.
   overlay_img = "fish_and_boats.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.5  # Darken the image. Value in range 0-1.
   
 # call-to-action buttons
- cta_label ="get started"
- cta_url = ""
- cta_icon-pack = "fas"
- cta_icon = "analytics"
+ cta_label ="Get mizer"
+ cta_url = "https://cran.r-project.org/web/packages/mizer/index.html"
+ cta_icon_pack = "fa"
+ cta_icon = "cogs"
 
 [[item]]
   title = ""

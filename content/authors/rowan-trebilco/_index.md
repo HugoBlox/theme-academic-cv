@@ -1,6 +1,7 @@
 ---
 # Display name
 name: Rowan Trebilco
+weight: 35
 
 # Username (this should match the folder name)
 authors:

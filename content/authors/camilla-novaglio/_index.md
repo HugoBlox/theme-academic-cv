@@ -1,6 +1,7 @@
 ---
 # Display name
 name: Camilla Novaglio
+weight: 34
 
 # Username (this should match the folder name)
 authors:

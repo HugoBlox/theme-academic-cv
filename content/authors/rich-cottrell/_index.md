@@ -1,6 +1,7 @@
 ---
 # Display name
 name: Richard Cottrell
+weight: 37
 
 # Username (this should match the folder name)
 authors:

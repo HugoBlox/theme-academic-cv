@@ -1,6 +1,7 @@
 ---
 # Display name
 name: Yannick Rousseau 
+weight: 36
 
 # Username (this should match the folder name)
 authors:

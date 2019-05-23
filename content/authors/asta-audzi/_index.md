@@ -1,6 +1,7 @@
 ---
 # Display name
 name: Asta Audzijonyte
+weight: 32
 
 # Username (this should match the folder name)
 authors:

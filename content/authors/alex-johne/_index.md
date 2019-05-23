@@ -1,6 +1,7 @@
 ---
 # Display name
 name: Alexandra Johne
+weight: 42
 
 # Username (this should match the folder name)
 authors:

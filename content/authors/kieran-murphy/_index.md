@@ -1,6 +1,7 @@
 ---
 # Display name
 name: Kieran Murphy
+weight: 38
 
 # Username (this should match the folder name)
 authors:

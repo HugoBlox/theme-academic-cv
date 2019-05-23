@@ -1,7 +1,7 @@
 ---
 # Display name
 name: Julia Blanchard
-
+weight: 31
 # Username (this should match the folder name)
 authors:
 - admin

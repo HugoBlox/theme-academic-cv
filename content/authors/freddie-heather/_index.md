@@ -1,6 +1,7 @@
 ---
 # Display name
 name: Freddie Heather
+weight: 39
 
 # Username (this should match the folder name)
 authors:

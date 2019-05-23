@@ -13,7 +13,8 @@ image_preview = ""
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["modelling", "size spectrum"]`
-tags = ["tools"]
+tag = "Size and traits"
+
 
 # Optional external URL for project (replaces project detail page).
 external_link = "https://cran.r-project.org/web/packages/mizer/index.html"
@@ -23,7 +24,7 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-#image = "headers/bubbles-wide.jpg"
+image = "trait_based_models.png"
 #caption = "My caption :smile:"
 
 +++

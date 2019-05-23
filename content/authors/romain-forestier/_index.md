@@ -1,6 +1,7 @@
 ---
 # Display name
 name: Romain Forestier
+weight: 40
 
 # Username (this should match the folder name)
 authors:

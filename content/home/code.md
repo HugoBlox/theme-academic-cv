@@ -1,17 +1,17 @@
 +++
-# About section created with the blank widget.
-widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
+# Project section created with the portfolio widget.
+widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 1 # Order that this section will appear.
+weight = 100 # Order that this section will appear.
 
-title = ""
+title = "Projects and Code"
 subtitle = ""
 # "Size-based interdisciplinary ecology and modelling"
 
 [content]
   # Page type to display. E.g. project.
-  page_type = "project"
+  page_type = "code"
   
   # Filter toolbar (optional).
   # Add or remove as many filters (`[[content.filter_button]]` instances) as you like.
@@ -22,6 +22,21 @@ subtitle = ""
   # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
   filter_default = 0
   
+  #[[content.filter_button]]
+   #name = "All"
+   #tag = "*"
+  
+  [[content.filter_button]]
+   name = "Climate change impacts"
+   tag = "Climate Change"
+  
+  [[content.filter_button]]
+   name = "Population size and other traits"
+   tag = "Size and traits"
+  
+ [[content.filter_button]]
+  name = "Bacteria to Whales"
+  tag = "Bacteria to Whales"
 
   
 
@@ -33,7 +48,7 @@ subtitle = ""
   #   1 = List
   #   3 = Card
   #   5 = Showcase
-  view = 3
+  view = 2
 
   # For Showcase view, flip alternate rows?
   flip_alt_rows = false
@@ -45,14 +60,14 @@ subtitle = ""
   #   Any HTML color name or Hex value is valid.
   
   # Background color.
-  # color = "navy"
+  color = "light grey"
   
   # Background gradient.
   # gradient_start = "DeepSkyBlue"
   # gradient_end = "SkyBlue"
   
   # Background image.
-   image = "static/img/amyspic.jpg"  # Name of image in `static/img/`.
+  image = "dolphins_fishies.jpg"  # Name of image in `static/img/`.
   # image = "Rotto 3rd year trip iv (113) (1).JPG"  # Name of image in `static/img/`.
    image_darken = 0.5  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
@@ -65,8 +80,6 @@ subtitle = ""
  
  # CSS class.
  css_class = ""
- 
- #Size Ecology Lab is an interdisciplinary ecology research group led by Asscoiate Professor Julia Blanchard at the Institute of Marine and Antarctic Studies (IMAS), University of Tasmania. Our group consists of a diverse team of macro- and microecologists, data analysts, mathematical modellers and socioecologists. 
 
 +++
 
