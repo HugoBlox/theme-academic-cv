@@ -28,7 +28,8 @@ logo = ""
 # Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
 highlight = true
 # highlight_languages = ["r"]  # Add support for highlighting additional languages
-# highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
+# highlight_style = "github"  # For supported languages, see
+# the languages listed in the file names (/languages/) hosted on this page: https://cdnjs.com/libraries/highlight.js/
 
 # Enable global LaTeX math rendering?
 #   If false, you can enable it locally on a per page basis.
