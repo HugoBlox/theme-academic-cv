@@ -183,110 +183,6 @@ word_freq %&gt;% mutate(word = reorder(word, freq)) %&gt;%
 <pre class="r"><code>word_cal %&gt;% tail(15) %&gt;%  ggplot(aes(x=fct_reorder(word,avg_calfat_perc),y=avg_cal,fill=avg_calfat_perc))+ geom_bar(stat = &quot;identity&quot;,position=&quot;dodge&quot;) +scale_fill_gradient()+coord_flip()</code></pre>
 <p><img src="/post/2019-04-10-fast-food-nutrition-analysis_files/figure-html/unnamed-chunk-14-1.png" width="672" />
 Meats: chicken,bacon,beef,turkey,steak</p>
-<pre class="r"><code># get the numb 70/30 training test split
-# numberOfTrainingSamples &lt;- round(nrow(food) * .7)
-# 
-# # training data
-# train_data &lt;- food[1:numberOfTrainingSamples,]
-# train_labels&lt;-food$calories[1:nrow(train_data)]
-# 
-# # testing data
-# test_data &lt;-food[-(1:numberOfTrainingSamples),]
-# test_labels &lt;- food$calories[-(1:numberOfTrainingSamples)]
-# 
-# #count num times each word used in item name (for each item num), inner join to get only training samples
-# train_sparse&lt;-food_words %&gt;% inner_join(train_data) %&gt;% count(item_num,word) %&gt;% cast_dtm(item_num,word,n)
-# test_sparse&lt;-food_words %&gt;% count(item_num,word) %&gt;% inner_join(test_data) %&gt;% cast_dtm(item_num,word,n)
-# 
-# #convert sparse matrix to non-sparse
-# options(na.action=&#39;na.pass&#39;) 
-# train_dtm&lt;-as.matrix(train_sparse,na.action=&#39;pass&#39;)
-# test_dtm&lt;-as.matrix(test_sparse)
-# 
-# #combine with outcome variable
-# train_df&lt;-data.frame(train_dtm,calories=train_data$calories)
-# test_df&lt;-data.frame(test_dtm,calories=test_data$calories)
-
-
-food_sparse&lt;-food_words %&gt;% count(item_num,word,calories) %&gt;% cast_dtm(item_num,word,n)
-train&lt;-as.matrix(food_sparse,na.action=&#39;pass&#39;)
-train &lt;- cbind(train, c(0, 1))
-colnames(train)[ncol(train)] &lt;- &#39;calories&#39;
-train &lt;- as.data.frame(train)
-train$calories &lt;- food$calories[1:512]
-train$calories</code></pre>
-<pre><code>##   [1]  380  840 1130  750  920  540  300  510  430  770  380  620  530  700
-##  [15]  250  290  640  580  740  350  380  480  580  520  680  570  530  530
-##  [29]  670  560  730  690  630  800  370  480  760 1210 1510 2430  180  270
-##  [43]  440  890 1770  640  960 1600  140  270  490  190  320  490  220  350
-##  [57]  520  430  310  270  120  230  350  470  500  130  190  260  390  970
-##  [71]  490  440   70  110  140  210  430  450  500  450  540  350  860  720
-##  [85]  710  640  340  410  380  450  600  870  640  650  740  710  720  800
-##  [99] 1280 1120 1130 1220 1120  450  450  450  610  680  430  570  450  280
-## [113]  470  740 1000 1350  380  560  350  610  970 1080 1190  330  440  550
-## [127]  730  100  370  430  410  340  320  500  210  830  320  330  400  450
-## [141]  630  650  690  690  540  650  690  550  540  360  510  640  480  710
-## [155]  740  750  610  300  680  710  840  240  360  600  680  550  710  520
-## [169]  800  620  740  590  600  430  650 1030  730  470  980  290  290  220
-## [183]  210  240  300  240  200   70  430  420  230  720 1550 1000  330  290
-## [197] 1040  730 1100  300  520  450  360  900  580 1220  260  550  990  940
-## [211]  310 1250  730  970 1100  770  900  990  660  760  340  380  590  720
-## [225]  550  690  530  670  560  700  320  450  220  230  830  440  530  410
-## [239]  480  730  290  190  290  950  470  570  580  430  670  470  330  310
-## [253]  300  630  340  410  840  210  530  410  700  760 1000  800  630  540
-## [267]  570  400  630 1030 1260  420  390  380  330  290  350  310  250  550
-## [281] 1050  760  260  470  400  640  540  350  780  580  910  350  500  640
-## [295]  520  280  600  350  380  150  360  280   20  550  320  640  430  860
-## [309]  580 1160  500 1000  180  290  580  330  660  570 1140  570 1140  460
-## [323]  920  370  740  470  940  410  820  550 1100  480  960  320  640  200
-## [337]  320  640  350  700  480  960  380  760  310  620  370  740  420  840
-## [351]  380  760  470  940  390  780  180  280  560  280  560  490  980  150
-## [365]  230  460  390  780  300  150  400  330  110  360  280  150  510  180
-## [379]  220  230  230  310  140  140  310  210  140  200  200  310  110  110
-## [393]   50  760  730  810  740  680  790  820  540  460  510  370  550  440
-## [407]  410  420  390  390  760  780  740  420  380  610  610  630  550  620
-## [421]  630  650  400  710  650  670  540  550  570  410  880  830  820  170
-## [435]  320  160  200  170  200  320  350  340  350  380  320  170  200  250
-## [449]  320  170  200  230  200  250  340  340  370  600  420  440  600  350
-## [463]  340  340  150  140  150  170  490  490  490  490  570  300  270  270
-## [477]  710  760  430  320  260  410  210  420  430  560  580  540  480  190
-## [491]  520  620  290  650  540  270  580  470  540  270  440  440  460  180
-## [505]  400  200  390  520  700  780  780  720</code></pre>
-<pre class="r"><code># library(rpart)
-# library(rpart.plot)
-# m1 &lt;- rpart(
-#   formula = calories ~ .,
-#   data    = train,
-#   method  = &quot;anova&quot;,
-#   control = rpart.control(minsplit = 10, cp = 0.0001)
-#   )</code></pre>
-<pre class="r"><code># printcp(m1)
-# plotcp(m1)
-# rpart.plot(m1,cex = 0.5)
-# 
-# 
-# #Prune down the tree
-# bestcp=m1$cptable[which.min(m1$cptable[,&quot;xerror&quot;]),&quot;CP&quot;]
-# bestcp
-# ptree=prune(m1,cp=bestcp)
-# rpart.plot(ptree,cex = 0.6)
-# summary(m1)</code></pre>
-<pre class="r"><code># library(broom)
-# 
-# (coefs &lt;- model$glmnet.fit %&gt;%
-#   tidy())
-# coefs %&gt;%
-#   group_by(estimate &gt; 0) %&gt;%
-#   top_n(10, abs(estimate)) %&gt;%
-#   ungroup() %&gt;%
-#   ggplot(aes(fct_reorder(term, estimate), estimate, fill = estimate &gt; 0)) +
-#   geom_col(alpha = 0.8, show.legend = FALSE) +
-#   coord_flip() +
-#   labs(
-#     x = NULL,
-#     title = &quot;Coefficients that increase/decrease probability the most&quot;,
-#     subtitle = &quot;A document mentioning Martians is unlikely to be written by Jane Austen&quot;
-#   )</code></pre>
 <p>Filter out instances where item title contains “w/o”</p>
 <pre class="r"><code>food&lt;-food %&gt;% filter(!str_detect(item,&quot;w/o&quot;)) %&gt;% mutate(
     meat_type = case_when(
@@ -317,9 +213,9 @@ meat_stat %&gt;%
   geom_bar(stat = &quot;identity&quot;) +
   facet_wrap(~stat,scales=&quot;free&quot;) +
   coord_flip()+ scale_x_discrete(labels = function(x) gsub(&quot;__.+$&quot;, &quot;&quot;, x)) +scale_fill_brewer()+theme_dark()</code></pre>
-<p><img src="/post/2019-04-10-fast-food-nutrition-analysis_files/figure-html/unnamed-chunk-21-1.png" width="672" /></p>
+<p><img src="/post/2019-04-10-fast-food-nutrition-analysis_files/figure-html/unnamed-chunk-17-1.png" width="672" /></p>
 <pre class="r"><code>food %&gt;% filter(meat_type!=&quot;other&quot;,calories&lt;1500) %&gt;%  ggplot()+geom_jitter(aes(x=total_carb,y=calories,color=&quot;total_carb&quot;))+ geom_jitter(aes(x=protein,y=calories,color=&quot;protein&quot;))+geom_jitter(aes(x=total_fat,y=calories,color=&quot;total_fat&quot;))+facet_wrap(~meat_type)+xlab(&quot;&quot;)+coord_flip()</code></pre>
-<p><img src="/post/2019-04-10-fast-food-nutrition-analysis_files/figure-html/unnamed-chunk-22-1.png" width="672" /></p>
+<p><img src="/post/2019-04-10-fast-food-nutrition-analysis_files/figure-html/unnamed-chunk-18-1.png" width="672" /></p>
 <pre class="r"><code>ggplotRegression &lt;- function(dat, xvar, yvar){
 
   fml &lt;- paste(yvar, &quot;~&quot;, xvar)
@@ -334,7 +230,7 @@ meat_stat %&gt;%
 ggplotRegression(food,&quot;total_carb&quot;, &quot;calories&quot;)
 ggplotRegression(food,&quot;protein&quot;, &quot;calories&quot;)
 ggplotRegression(food,&quot;total_fat&quot;, &quot;calories&quot;)</code></pre>
-<p><img src="/post/2019-04-10-fast-food-nutrition-analysis_files/figure-html/unnamed-chunk-23-1.png" width="33%" /><img src="/post/2019-04-10-fast-food-nutrition-analysis_files/figure-html/unnamed-chunk-23-2.png" width="33%" /><img src="/post/2019-04-10-fast-food-nutrition-analysis_files/figure-html/unnamed-chunk-23-3.png" width="33%" /></p>
+<p><img src="/post/2019-04-10-fast-food-nutrition-analysis_files/figure-html/unnamed-chunk-19-1.png" width="33%" /><img src="/post/2019-04-10-fast-food-nutrition-analysis_files/figure-html/unnamed-chunk-19-2.png" width="33%" /><img src="/post/2019-04-10-fast-food-nutrition-analysis_files/figure-html/unnamed-chunk-19-3.png" width="33%" /></p>
 <p>Have numeric only saved as food_num
 Correlation with calories</p>
 <pre class="r"><code>mycolors &lt;- colorRampPalette(brewer.pal(13, &quot;RdYlBu&quot;))(13)</code></pre>
@@ -343,9 +239,9 @@ Correlation with calories</p>
 <pre class="r"><code>cor_df&lt;-correlate(food_num)
 
 cor_df %&gt;% focus(calories) %&gt;% mutate(rowname=reorder(rowname,calories)) %&gt;% ggplot(aes(x=rowname,y=calories,fill=rowname))+geom_bar(stat = &quot;identity&quot;)+coord_flip()+scale_fill_manual(values=mycolors)</code></pre>
-<p><img src="/post/2019-04-10-fast-food-nutrition-analysis_files/figure-html/unnamed-chunk-24-1.png" width="672" /></p>
+<p><img src="/post/2019-04-10-fast-food-nutrition-analysis_files/figure-html/unnamed-chunk-20-1.png" width="672" /></p>
 <pre class="r"><code>cor_df %&gt;% focus(cal_fat) %&gt;% mutate(rowname=reorder(rowname,cal_fat)) %&gt;% ggplot(aes(x=rowname,y=cal_fat,fill=rowname))+geom_bar(stat = &quot;identity&quot;)+coord_flip()+scale_fill_manual(values=mycolors)</code></pre>
-<p><img src="/post/2019-04-10-fast-food-nutrition-analysis_files/figure-html/unnamed-chunk-25-1.png" width="672" /></p>
+<p><img src="/post/2019-04-10-fast-food-nutrition-analysis_files/figure-html/unnamed-chunk-21-1.png" width="672" /></p>
 <p>Want food high protein, low fat,low protein
 Which rest. has best selection of high protein, low fat (As percentage?)
 Add category bins
@@ -353,7 +249,7 @@ How many menu items at McD are l</p>
 <pre class="r"><code>#fat dist
 food %&gt;% ggplot(aes(total_fat))+geom_histogram()</code></pre>
 <pre><code>## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</code></pre>
-<p><img src="/post/2019-04-10-fast-food-nutrition-analysis_files/figure-html/unnamed-chunk-26-1.png" width="672" /></p>
+<p><img src="/post/2019-04-10-fast-food-nutrition-analysis_files/figure-html/unnamed-chunk-22-1.png" width="672" /></p>
 <pre class="r"><code>food %&gt;% select(restaurant,item,total_fat) %&gt;% top_n(10) %&gt;% arrange(desc(total_fat))</code></pre>
 <pre><code>## Selecting by total_fat</code></pre>
 <pre><code>## # A tibble: 12 x 3
@@ -376,7 +272,7 @@ food %&gt;% ggplot(aes(total_fat))+geom_histogram()</code></pre>
 ##    0.00   14.00   23.00   26.63   35.00  141.00</code></pre>
 <pre class="r"><code>food %&gt;% ggplot(aes(total_carb))+geom_histogram()</code></pre>
 <pre><code>## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</code></pre>
-<p><img src="/post/2019-04-10-fast-food-nutrition-analysis_files/figure-html/unnamed-chunk-27-1.png" width="672" />
+<p><img src="/post/2019-04-10-fast-food-nutrition-analysis_files/figure-html/unnamed-chunk-23-1.png" width="672" />
 Pass new variable name (e.g. “tfat_cat”) –&gt; use !!new_var:= within function</p>
 <pre class="r"><code># Function to create new binned categorical variables with specified cutoffs
 
@@ -417,7 +313,7 @@ complete(restaurant,tfat_cat) %&gt;% unique()%&gt;% mutate(n=replace(n,is.na(n),
 ## 10 Burger King low          0
 ## # … with 14 more rows</code></pre>
 <pre class="r"><code>rest_fat %&gt;% ggplot(aes(x=restaurant,y=n,fill=fct_reorder(tfat_cat,n)))+geom_col(position=&quot;fill&quot;)</code></pre>
-<p><img src="/post/2019-04-10-fast-food-nutrition-analysis_files/figure-html/unnamed-chunk-30-1.png" width="672" />
+<p><img src="/post/2019-04-10-fast-food-nutrition-analysis_files/figure-html/unnamed-chunk-26-1.png" width="672" />
 Burger King &amp; Sonic have no low fat menu items in the dataset. Chick-fil-A has the smallest percentage of high fat items, while Subway has the highest percentange of low fat items.</p>
 <p>```</p>
 </div>

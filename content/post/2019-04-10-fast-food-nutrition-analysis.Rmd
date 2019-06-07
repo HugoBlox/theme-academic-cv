@@ -148,90 +148,6 @@ word_cal %>% tail(15) %>%  ggplot(aes(x=fct_reorder(word,avg_calfat_perc),y=avg_
 ```
 Meats: chicken,bacon,beef,turkey,steak
 
-```{r}
-# get the numb 70/30 training test split
-# numberOfTrainingSamples <- round(nrow(food) * .7)
-# 
-# # training data
-# train_data <- food[1:numberOfTrainingSamples,]
-# train_labels<-food$calories[1:nrow(train_data)]
-# 
-# # testing data
-# test_data <-food[-(1:numberOfTrainingSamples),]
-# test_labels <- food$calories[-(1:numberOfTrainingSamples)]
-# 
-# #count num times each word used in item name (for each item num), inner join to get only training samples
-# train_sparse<-food_words %>% inner_join(train_data) %>% count(item_num,word) %>% cast_dtm(item_num,word,n)
-# test_sparse<-food_words %>% count(item_num,word) %>% inner_join(test_data) %>% cast_dtm(item_num,word,n)
-# 
-# #convert sparse matrix to non-sparse
-# options(na.action='na.pass') 
-# train_dtm<-as.matrix(train_sparse,na.action='pass')
-# test_dtm<-as.matrix(test_sparse)
-# 
-# #combine with outcome variable
-# train_df<-data.frame(train_dtm,calories=train_data$calories)
-# test_df<-data.frame(test_dtm,calories=test_data$calories)
-
-
-food_sparse<-food_words %>% count(item_num,word,calories) %>% cast_dtm(item_num,word,n)
-train<-as.matrix(food_sparse,na.action='pass')
-train <- cbind(train, c(0, 1))
-colnames(train)[ncol(train)] <- 'calories'
-train <- as.data.frame(train)
-train$calories <- food$calories[1:512]
-train$calories
-```
-
-
-```{r}
-# library(rpart)
-# library(rpart.plot)
-# m1 <- rpart(
-#   formula = calories ~ .,
-#   data    = train,
-#   method  = "anova",
-#   control = rpart.control(minsplit = 10, cp = 0.0001)
-#   )
-```
-
-```{r}
-# printcp(m1)
-# plotcp(m1)
-# rpart.plot(m1,cex = 0.5)
-# 
-# 
-# #Prune down the tree
-# bestcp=m1$cptable[which.min(m1$cptable[,"xerror"]),"CP"]
-# bestcp
-# ptree=prune(m1,cp=bestcp)
-# rpart.plot(ptree,cex = 0.6)
-# summary(m1)
-```
-
-
-
-```{r}
-# library(broom)
-# 
-# (coefs <- model$glmnet.fit %>%
-#   tidy())
-# coefs %>%
-#   group_by(estimate > 0) %>%
-#   top_n(10, abs(estimate)) %>%
-#   ungroup() %>%
-#   ggplot(aes(fct_reorder(term, estimate), estimate, fill = estimate > 0)) +
-#   geom_col(alpha = 0.8, show.legend = FALSE) +
-#   coord_flip() +
-#   labs(
-#     x = NULL,
-#     title = "Coefficients that increase/decrease probability the most",
-#     subtitle = "A document mentioning Martians is unlikely to be written by Jane Austen"
-#   )
-
-```
-
-
 Filter out instances where item title contains "w/o"
 ```{r}
 food<-food %>% filter(!str_detect(item,"w/o")) %>% mutate(
@@ -252,7 +168,6 @@ food<-food %>% filter(!str_detect(item,"w/o")) %>% mutate(
 
 
 ```{r}
-
 meat_stat<-food %>% 
   group_by(meat_type) %>%
   summarise_at(c("calories","total_carb","total_fat","protein"),~mean(.,na.rm = T)) %>%
@@ -279,7 +194,6 @@ meat_stat %>%
 
 
 ```{r}
- 
 food %>% filter(meat_type!="other",calories<1500) %>%  ggplot()+geom_jitter(aes(x=total_carb,y=calories,color="total_carb"))+ geom_jitter(aes(x=protein,y=calories,color="protein"))+geom_jitter(aes(x=total_fat,y=calories,color="total_fat"))+facet_wrap(~meat_type)+xlab("")+coord_flip()
 ```
 
