@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Academic</title>
+    <title>Posts on Mikayla Edwards</title>
     <link>/post/</link>
-    <description>Recent content in Posts on Academic</description>
+    <description>Recent content in Posts on Mikayla Edwards</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Apr 2019 00:00:00 +0000</lastBuildDate>
@@ -29,6 +29,15 @@
       <description>The data used for this analysis was originally published by Touring Plans.
 I used the data for six rides: two from the Magic Kingdom (Seven Dwarfs Mine Train &amp;amp; Splash Mountain), two from Hollywood Studios (Toy Story Mania &amp;amp; The Rockin Rollercoaster), and two from Epcot (Soarin &amp;amp; Spaceship Earth).
 library(tidyverse) library(lubridate) library(skimr) library(ModelMetrics) library(janitor) library(broom) library(forcats) library(kableExtra) library(stringr) There was a separate csv file for each ride. I originally merged &amp;amp; cleaned this data using Python, which can be found here.</description>
+    </item>
+    
+    <item>
+      <title>Fast Food Nutrition Analysis</title>
+      <link>/post/fast-food-nutrition-analysis/</link>
+      <pubDate>Wed, 10 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/fast-food-nutrition-analysis/</guid>
+      <description>library(tidyverse) ## ── Attaching packages ─────────────────────────────────────────────────────────────────────────────────────────────────────────── tidyverse 1.2.1 ── ## ✔ ggplot2 3.1.1 ✔ purrr 0.3.2 ## ✔ tibble 2.1.1 ✔ dplyr 0.8.0.1 ## ✔ tidyr 0.7.2 ✔ stringr 1.2.0 ## ✔ readr 1.1.1 ✔ forcats 0.2.0 ## Warning: package &amp;#39;tibble&amp;#39; was built under R version 3.4.4 ## Warning: package &amp;#39;purrr&amp;#39; was built under R version 3.4.4 ## Warning: package &amp;#39;dplyr&amp;#39; was built under R version 3.4.4 ## ── Conflicts ────────────────────────────────────────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ── ## ✖ dplyr::filter() masks stats::filter() ## ✖ dplyr::lag() masks stats::lag() library(ggthemes) library(tidytext) ## Warning: package &amp;#39;tidytext&amp;#39; was built under R version 3.</description>
     </item>
     
   </channel>

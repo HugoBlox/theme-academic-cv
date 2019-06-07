@@ -3,14 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
+    <loc>/post/grand-floridian-hotel-reviews/</loc>
     <lastmod>2019-04-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/grand-floridian-hotel-reviews/</loc>
+    <loc>/</loc>
     <lastmod>2019-04-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -39,6 +39,11 @@
   <url>
     <loc>/post/wait-times-at-walt-disney-world/</loc>
     <lastmod>2019-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/fast-food-nutrition-analysis/</loc>
+    <lastmod>2019-04-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>

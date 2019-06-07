@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>admin on Academic</title>
+    <title>admin on Mikayla Edwards</title>
     <link>/authors/admin/</link>
-    <description>Recent content in admin on Academic</description>
+    <description>Recent content in admin on Mikayla Edwards</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -17,8 +17,8 @@
       
       <guid>/author/admin/</guid>
       <description>Hi, I&amp;rsquo;m Mikayla.
-I&amp;rsquo;m a recent graduate of Stanford University (2019), where I studied Management Science &amp;amp; Engineering. Currently, I work as a data &amp;amp; analytics intern @ Disney.
-I love Disney, data science, and machine learning. I made this site to share the projects I&amp;rsquo;m working on and what I&amp;rsquo;ve learned in the process. Although I primarily work in R, I use Python as well and like to go back and forth when convenient.</description>
+I&amp;rsquo;m a recent graduate of Stanford University (2019), where I studied Management Science &amp;amp; Engineering.
+I love Disney, data science, and machine learning. I made this site to share the projects I&amp;rsquo;m working on and what I&amp;rsquo;ve learned in the process. Although I primarily work in R, I use Python as well and like to go back and forth when convenient. I built this site using R blogdown, and the source code can be found on my GitHub.</description>
     </item>
     
   </channel>

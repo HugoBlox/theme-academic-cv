@@ -1,5 +1,5 @@
 {
-    "path" : "~/mysite/content",
+    "path" : "~/mysite/public/post",
     "sortOrder" : [
         {
             "ascending" : true,
