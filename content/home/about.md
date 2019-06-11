@@ -10,8 +10,8 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Health insurance",
     "Low-wage work",
+    "Health insurance",
     "Data science"
   ]
 
@@ -28,5 +28,5 @@ weight = 5
  
 +++
 
-Ian Eve Perry is a research and policy associate at the UC Berkeley Labor Center. They focus on health care and low-wage policy research.
+Ian Eve Perry is a research and policy associate at the UC Berkeley Labor Center. They focus on low-wage work and health care policy research.
  
