@@ -11,19 +11,19 @@ title = "STUDY WITH ME"
 #hero_media = "hero-academic.png"
 
 [design.background]
-  # Apply a background color, gradient, or image.
-  #   Uncomment (by removing `#`) an option to apply it.
-  #   Choose a light or dark text color by setting `text_color_light`.
-  #   Any HTML color name or Hex value is valid.
+# Apply a background color, gradient, or image.
+#   Uncomment (by removing `#`) an option to apply it.
+#   Choose a light or dark text color by setting `text_color_light`.
+#   Any HTML color name or Hex value is valid.
 
-  # Background color.
-  # color = "navy"
+# Background color.
+# color = "navy"
   
-  # Background gradient.
+# Background gradient.
   gradient_start = "#4bb4e3"
   gradient_end = "#2b94c3"
   
-  # Background image.
+# Background image.
   image = "headers/library-wide.jpg"  # Name of image in `static/img/`.
   image_darken = 0.7  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
@@ -35,16 +35,16 @@ title = "STUDY WITH ME"
 #   Remove a link/note by deleting a cta/note block.
 [cta]
   url = "https://uas.arizona.edu/"
-  label = "<i class="fa fa-wpforms"></i>&nbsp; Apply now"
+  label = "Apply now"
   icon_pack = "fas"
   icon = "download"
-  
-[cta_alt]
+
+#[cta_alt]
 #  url = "https://sourcethemes.com/academic/"
 #  label = "View Documentation"
 
 # Note. An optional note to show underneath the links.
-[cta_note]
+#[cta_note]
 #  label = '<a id="academic-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release <!-- V --></a>'
 +++
 
