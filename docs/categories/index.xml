@@ -2,14 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on ryan straight</title>
-    <link>/categories/</link>
+    <link>https://ryanstraight.com/categories/</link>
     <description>Recent content in Categories on ryan straight</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Fri, 24 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://ryanstraight.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Personal</title>
+      <link>https://ryanstraight.com/categories/personal/</link>
+      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/categories/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Academic</title>
+      <link>https://ryanstraight.com/categories/academic/</link>
+      <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/categories/academic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conferences</title>
+      <link>https://ryanstraight.com/categories/conferences/</link>
+      <pubDate>Wed, 26 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/categories/conferences/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Travel</title>
+      <link>https://ryanstraight.com/categories/travel/</link>
+      <pubDate>Wed, 26 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/categories/travel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Writing</title>
+      <link>https://ryanstraight.com/categories/writing/</link>
+      <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/categories/writing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Professional</title>
+      <link>https://ryanstraight.com/categories/professional/</link>
+      <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/categories/professional/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

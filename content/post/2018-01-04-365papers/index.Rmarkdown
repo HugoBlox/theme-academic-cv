@@ -1,0 +1,116 @@
+---
+title: 365papers
+author: ryan
+date: '2018-01-04'
+#slug: 365papers
+categories:
+  - Academic
+tags:
+  - 365papers
+  - accountability
+  - scholarship
+  - twitter
+  - hashtag
+subtitle: ''
+summary: 'Well, a paper-a-day in 2018 was a bust, but we will try to keep this page going, shall we?'
+authors: []
+lastmod: '2018-01-04T09:02:06-07:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+```{r setup,  include=FALSE}
+library(blogdown)
+```
+
+The idea is to read (and keep track of) a paper a day in 2018. Sounds easy, right? We'll see.
+
+It stems from the [#365papers hashtag](https://twitter.com/search?q=%23365papers) on Twitter. I'm going with Brook's rules, too:
+
+`r blogdown::shortcode('tweet', '947898628839849984')`
+
+I'll be keeping track of my list below. No notes or anything, just the citations (with abstracts when available) in the order they were read. I'm including book chapters as papers as I've a lot of edited volumes and monographs I want to get through as well as discrete articles. Everything's in lazy APA.
+
+Be warned: this page could get *big*.
+
+---
+
+Olesen, F. (2012). Scientific Objectivity and Postphenomenological Perception. *Foundations of Science, 17*(4), 357–362. https://doi.org/10.1007/s10699-011-9241-z
+
+>Don Ihde’s paper “Stretching the in-between: Embodiment and beyond” appears to me as a stimulating, topical text with a number of important arguments about human embodiment as a dynamic and epistemically relevant dimension to scientific knowledge production. But, indirectly, the text also raises some basic questions about how to describe the (current) scope of technoscientific knowledge, and the potentials of postphenomenology to deal with this complicated, multi-stable issue.
+ 
+---
+
+van den Eede, Y. (2011). In Between Us: On the Transparency and opacity of technological mediation. *Foundations of Science, 16*(2–3), 139–159. https://doi.org/10.1007/s10699-010-9190-y
+
+>Different theoretical approaches each highlight only certain aspects of technologically mediated human existence. Philosophical theories of technology focus on mediation, but not on inter-human component. Theories of mediated interaction do not consider being-with-each-other an sich. Relationship scholars do not theorize technological mediation. This article considers different theories of technology, in order to devise a general theory of technological mediation. Technological mediation by its very nature, however, is transparent. How to approach it then? VDE explores the notion of transparency as it comes to the fore in the different perspectives on technology. The transparency-opacity in these theories all involve changing perspectives: from tool to use/medium to message/form to content/figure and ground, where opacity of the one means transparency of the other, and vice versa. Then, he systematized this into a broad analysis of technological mediation. In use relations, the transparency and opacity emerge in the “neutral” (efficient, easy) usage of the tool/medium/content/platform. In context relations, the transparency and opacity concern the social and political context of the technology: the (invisible) ways by which technologies produce and perpetuate social injustices. Use for FOLoF: the face is not a technology, but nevertheless it conjures a similar dynamic of transparency and opacity (faciality: you look at a collection of features, and see a person. Whole versus parts - Gestalt experience?) Question: which is the “us” in the title? VDE seems to be talking about technological mediation in a broad sense (which also includes technological mediation of self-world), but also about technological mediation of social interaction. He does not make this very relevant distinction clear, however!
+
+Adams, C. A., & Thompson, T. L. (2011). Interviewing objects: including educational technologies as qualitative research participants. *International Journal of Qualitative Studies in Education, 24*(6), 733–750. https://doi.org/10.1080/09518398.2010.529849
+
+>This article argues the importance of including significant technologies-in-use as key qualitative research participants when studying today’s digitally enhanced learning environments. We gather a set of eight heuristics to assist qualitative researchers in “interviewing” technologies-in-use (or other relevant objects), drawing on concrete examples from our own qualitative research projects. Our discussion is informed by Actor-Network Theory and hermeneutic phenomenology, as well as by the literatures of techno-science, media ecology, and the philosophy of technology.
+ 
+
+Hasse, C. (2008). Postphenomenology: Learning cultural perception in science. *Human Studies, 31*(1), 43–61. https://doi.org/10.1007/s10746-007-9075-4
+
+>In this article I propose that a postphenomenological approach to science and technology can open new analytical understandings of how material artifacts, embodiment and social agency co-produce learned perceptions of objects. In particle physics, physicists work in huge groups of scientists from many cultural backgrounds. Communication to some extent depends on material hermeneutics of flowcharts, models and other visual presentations. As it appears in an examination of physicists‚Äô scrutiny of visual renderings of different parts of a detector, perceptions vary in relation to social and bodily experiences. Vision in physics has seemingly allowed an objective perception at a convenient distance of the body. This article challenges this view and proposes that the variations can be analysed as cultural at two echelons with the help of a postphenomenological approach combined with cultural psychological theory of artifacts. A third echelon presumably constitutes the phenomenological limit to culture in science. Even this last resort of subjectivity can be embraced by a postphenomenological approach. The process of culturalization in physics can be defined as a process of situating knowledge in a body whose continuous learning of micro-and macro perceptions makes scientific renderings unstable. Taken together postphenomenology, following the distinctions between body one and body two, and combined with cultural psychological learning theory, enables new insight into what constitutes culture in science.
+ 
+
+Verbeek, P. P. (2008). Cyborg intentionality: Rethinking the phenomenology of human-technology relations. *Phenomenology and the Cognitive Sciences, 7*(3), 387–395. https://doi.org/10.1007/s11097-008-9099-x
+
+>This article investigates the types of intentionality involved in humantechnology relations. It aims to augment Don Ihdes analysis of the relations between human beings and technological artifacts, by analyzing a number of concrete examples at the limits of Ihdes analysis. The article distinguishes and analyzes three types of cyborg intentionality, which all involve specific blends of the human and the technological. Technologically mediated intentionality occurs when human intentionality takes place through technological artifacts; hybrid intentionality occurs when the technological actually merges with the human; and composite intentionality is the addition of human intentionality and the intentionality of technological artifacts.
+ 
+ 
+Dreyfus, H. (2009). Heidegger on Gaining a Free Relation to Technology. In D. M. Kaplan (Ed.), Readings in the Philosophy of Technology (2nd ed., pp. 25–33). London: Rowman & Littlefield Publishers, Inc.
+ 
+
+Moran, D. (2000). *Introduction to Phenomenology*. London: Routledge. 
+
+>(Preface) This book is an introduction to phenomenology, a movement which, in many ways, typifies the course of European philosophy in the twentieth century. Writing at the close of this era, the extent of this contribution can now be more clearly articulated, appreciated, and, inevitably, criticised. Phenomenology was announced by Edmund Husserl in 1900–1901 as a bold, radically new way of doing philosophy, an attempt to bring philosophy back from abstract metaphysical speculation wrapped up in pseudo-problems, in order to come into contact with the matters themselves, with concrete living experience. As Husserl originally envisaged it, phenomenology had much in common with William James’ radical empiricism, but more than anything else it was stimulated by Franz Brentano’s ground-breaking work in descriptive psychology, the a priori science of the acts and contents of consciousness. Somewhat later, Husserl came to realise the connection between his conception of phenomenology and Descartes’s project of providing a secure edifice for knowledge. Husserl eventually came to see that his own project had much in common with Neo-Kantianism, and thus his phenomenology became a form of transcendental idealism. But his studies of consciousness also led him to pursue investigations into our awareness of time, and history, which led to his development of the concept of the life-world, and to investigations of the evolution of culture reminiscent of Hegel’s phenomenology of spirit.
+ 
+
+Kline, S. J. (1985). What is technology? *Bulletin of Science, Technology & Society, 1*, 215–218. 
+
+>(Opening paragraphs) In the late 20th century, there is only one thing most people agree about concerning technology -- it is important. It is discussed almost as much as the weather, and sometimes it seems, with as little effect. But what is ’technology?’ If we look with even a little care, we find this same word is being used to represent things, actions, processes, methods and systems. ’Technology’ is also used symbolically as an epithet, for important working procedures, and to represent progress. This much conflict within the usage of one of our central terms won’t do; it can lead only to chaos. Even more important, the current vague use of the word ’technology’ hides from view two central concepts,and a central pattern of human behavior that we must have to make sense of our views of many critical questions in the current world including how we understand innovation, how we can communicate across Snow’s culture gap, and how we understand the way in which we humans make our living on the planet.
+ 
+
+Blitz, M. (2014). Understanding Heidegger on Technology. *The New Atlantis, 41*, 63–80. 
+
+>(Opening paragraph) Martin Heidegger (1889–1976) was perhaps the most divisive philosopher of the twentieth century. Many hold him to be the most original and important thinker of his era. Others spurn him as an obscurantist and a charlatan, while still others see his reprehensible affiliation with the Nazis as a reason to ignore or reject his thinking altogether. But Heidegger’s undoubted influence on contemporary philosophy and his unique insight into the place of technology in modern life make him a thinker worthy of careful study.
+ 
+
+Ihde, D. (2011). Stretching the In-between: Embodiment and beyond. *Foundations of Science, 16*(2–3), 109–118. https://doi.org/10.1007/s10699-010-9187-6
+
+>Today’s scientific imaging technologies are able to detect and image emissions and radiations from a much wider range of the electromagnetic spectrum than ever before. Such phenomena lie beyond the horizons of ordinary human perceptibility. I examine here the implications of such “translation mediations” for the production of scientific knowledge and show how human embodiment is implicit for all perceptual observational possibilities. The framework is that of a postphenomenology which is able to relate these new phenomena to human embodiment.
+ 
+
+Rosenberger, R. (2016). Notes on a Nonfoundational Phenomenology of Technology. *Foundations of Science, 22*(3), 1–24. https://doi.org/10.1007/s10699-015-9480-5
+
+>The emerging school of thought called postphenomenology’’ offers a distinct understanding of the ways that people experience technology usage. This perspective combines insights from the philosophical tradition of phenomenology with commitments to the anti-essentialism and nonfoundationalism of American pragmatism. One of post-phenomenology’s central positions is that technologies always remain multistable,’’ i.e., subject to different uses and meanings. But I suggest that as this perspective matures, philosophical problems are emerging around the notion of multistability, what I call the problem of invariance’’ and the problem of grounding.’’ These problems point out things that remain unclear within the postphenomenological framework, such as how it handles structural claims regarding a technology’s various stabilities, and how it grounds its claims. How can postphenomenology make structural claims about technology and yet remain anti-essentializing? And on what epistemological basis does it ground its claims about human-technology relations? The paper concludes with a series of prescriptions that, if followed, enable postphenomenology to make edifying claims about technology, all while avoiding the problems of invariance and grounding, and maintaining its commitments to anti-essentialism and nonfoundationalism.
+ 
+
+Aagaard, J. (2016). Introducing postphenomenological research: a brief and selective sketch of phenomenological research methods. *International Journal of Qualitative Studies in Education, 30*(6), 519–533. https://doi.org/10.1080/09518398.2016.1263884
+
+>In time, phenomenology has become a viable approach to conducting qualitative studies in education. Popular and well-established methods include descriptive and hermeneutic phenomenology. Based on critiques of the essentialism and receptivity of these two methods, however, this article offers a third variation of empirical phenomenology: Postphenomenology. The article introduces postphenomenology, a philosophy of technology that highlights the importance of technological mediation of experience: Technologies transform our perceptions (amplify/reduce) and translate our actions (invite/inhibit). Based on this framework, two approaches to empirical fieldwork are suggested: In-depth exploration of the typical use of a given technology and critical comparison of multiple versions of a technology. It is argued that using postphenomenology as a research method helps researchers explore technological mediation, a vital and oft-neglected aspect of educational practice, but the method simultaneously entails epistemological commitments such as multistability, reflexivity, and posthumanism. The article concludes by discussing future challenges for the postphenomenological method.
+ 
+
+Tripa thi, A. K. (2015). Postphenomenological investigations of technological experience. *AI and Society, 30*(2), 199–205. https://doi.org/10.1007/s00146-014-0575-2
+
+>Technology is inextricably woven into the social and cultural fabric of different cultures. Tool use technologies, created and used by our pre-sapiens relatives, preceded us by more than a million years. There are no human cultures that are pre-technological. All humans have a material culture with complexly patterned praxes involving artifacts; we have only recently begun to appreciate the completely of even what may be called technologically mediated cultures. Technologies either magnify or amplify human experiences and can change the ways we live. This non-neutral, transformative power of humans enhanced by technologies is essential feature of the human–technology relations. Technologies are the extension of our bodies. The technological form of life is part and parcel of culture, just as culture in the human sense inevitably implies technologies. Every technology, as a word, has a signifier and a meaning. The signifier can be seen as the hardware of the technology, while the meaning can be conceived of as the uses and the functions that the technology performs. However, a technology, like many words, tends to be ambiguous, that is its meaning is mutable. As a consequence, in order to make sense, a technology calls for a cultural context where to be embedded. In this essay, I will demonstrate how this relationship can be articulated and their main theoretical implications for the study of new technologies give rise to ethics.
+ 
+
+Tripathi, A. K. (2016). Culture of sedimentation in the human-technology interaction. *AI and Society, 31*(2), 233–242. https://doi.org/10.1007/s00146-015-0581-z
+
+>New technologies inspire new interface paradigms. Promising utility of new interfaces continues attracting their modification. It is argued that in order for human users to share phenomenological experiences through multi- modal systems, they need to deal with embedded computers. This paper discusses the embodied nature of communication and a need for the development of a postphenomenology of technology, which plays a vital role in the material culture
+
+O’Neal Irwin, S. (2016). *Digital Media: Human-Technology Connection*. Boulder, CO: Lexington Books. 
+
+>(Twelve chapters) Digital Media: Human-Technology Connection examines what it is like to be alive in today’s technologically textured world and showcases specific digital media technologies that make this kind of world possible. So much of human experience occurs through digital media that reflection on the process and proliferation of digital consumption has become necessary. This book takes on that task through an interdisciplinary array of sources including philosophy, media studies, film studies, media ecology, and philosophy of technology. When placed in the interpretive lenses of artifact, instrument, and tool, digital media can be studied in a uniquely different way that pushes the boundaries on production, distribution, and communication and alters the way humans and technology connect with each other and the world.
+ 
+
+Friis, J. K. B. O., & Crease, R. P. (Eds.). (2015). *Technoscience and Postphenomenology: The Manhattan Papers*. London: Lexington Books. 
+
+>(Seventeen chapters) Friis and Crease capture Postphenomenology, a new field that has attracted attention among scholars engaged in technology studies. Contributors to this edited collection seek to analyze, clarify, and develop postphenomenological language and concepts, expand the work of Don Ihde, the field’s founder, and scout into fields that Ihde never tackled. Many of the contributors to this collection had especially close ties to Ihde and have benefited from close work with him. This combined with the distinctive diversity of the contributors—18 people from 10 different countries—enables this volume to put on display the diversity of content and styles in this young movement.

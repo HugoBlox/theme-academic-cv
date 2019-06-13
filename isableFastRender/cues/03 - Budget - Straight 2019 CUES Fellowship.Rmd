@@ -1,0 +1,36 @@
+---
+title: "CUES Distinguished Fellowship Nomination"
+author:
+- Dr. Ryan Straight (ryanstraight\@email.arizona.edu)
+- Assistant Professor, Educational Technology
+subtitle: Budget
+output:
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Slack offers an "Education discount" at 85% off the standard paid plan, which our team has availed itself of since 2016^[https://get.slack.help/hc/en-us/articles/206646877-Slack-for-Education]. Providing a detailed budget for a project like this is difficult beyond stipends and salary. The reason for this being the nature of how Slack bills, which, ironically, though it makes our own budgeting more difficult is actually more cost effective^[https://get.slack.help/hc/en-us/articles/218915077-Fair-Billing-Policy]. For example, while a single user active for 365 days may be charged the full annual amount, the "fair billing" policy only charges for the time that user is active. As summers maintain fairly low enrollment in our programs, this money saved will make it possible to engage even more students, faculty, staff, and collaborators than the simple math would suggest.
+
+The budget outlined below includes a stipend for my own on-boarding, documentation and training development, and research, while a part-time student worker will be hired to assist in the administrative duties throughout the school year. Increasing amounts of funding for Slack licenses occur throughout the project (being supplemented by a reduction in my own stipend). The CUES Fellow salary would be paid entirely over the summer but in a show of support from my associate dean (department head), I have been provided with a course release for the 2019-2020 academic year to assist in the project's success.
+
+
+|                                                                                                      	|                  	|                 	|                 	|
+|------------------------------------------------------------------------------------------------------	|------------------	|-----------------	|-----------------	|
+| Personnel Salaries (include salary and ERE)                                                          	| 2020             	| 2021            	| 2022             	|
+| CUES Fellow *(includes ERE; paid entirely during summer)*                                            	| \$10,000        	| \$9,000         	| \$8,000           |
+| Faculty Collaborators                                                                                	| \$0             	| \$0              	| \$0             	|
+| Students                                                                                             	| \$0             	| \$0             	| \$0              	|
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Graduate                                                   	| \$0              	| \$0              	| \$0             	|
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Undergraduate *(50% fall, 50% spring)*                    	| \$7,000         	| \$7,000          	| \$7,000          	|
+| Post-docs                                                                                            	| \$0             	| \$0              	| \$0              	|
+| Other Professionals (list)                                                                           	| \$0             	| \$0              	| \$0              	|
+| Graduate Student Tuition Remission                                                                   	| \$0             	| \$0             	| \$0              	|
+| Travel                                                                                               	| \$0             	| \$0              	| \$0             	|
+| Materials, Supplies, & Other Project Costs (Slack licenses)                                          	| \$3,000         	| \$4,000         	| \$5,000         	|
+| **Total** (not to exceed \$20,000 in a single year)                                                 	| **\$20,000.00** 	| **\$20,000.00** 	| **\$20,000.00** 	|
+|                                                                                                      	|                  	|                  	|                 	|
+| Additional funds committed by Department, College, or Other Unit (requires verification signatures)* 	| \$-              	| \$-             	| \$-             	|

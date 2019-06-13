@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on ryan straight</title>
+    <link>https://ryanstraight.com/project/</link>
+    <description>Recent content in Projects on ryan straight</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Fri, 24 Aug 2018 09:47:44 -0700</lastBuildDate>
+    
+	    <atom:link href="https://ryanstraight.com/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Read, Watch, Woof</title>
+      <link>https://ryanstraight.com/project/read-watch-woof/</link>
+      <pubDate>Fri, 24 Aug 2018 09:47:44 -0700</pubDate>
+      
+      <guid>https://ryanstraight.com/project/read-watch-woof/</guid>
+      <description>&lt;p&gt;I have a newsletter: &lt;strong&gt;Read, Watch, Woof&lt;/strong&gt;! RWW goes out Fridays on TNP off-weeks. It consists, as you may have gathered from the title, a little bit of personal-ish writing by me (also featured here), an interesting and entertaining video to watch, and a picture of one (or more) of our dogs. Enjoy! (And don&amp;rsquo;t worry, I won&amp;rsquo;t give away your email address or spam you. Promise.)
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;form style=&#34;border:1px solid #ccc;padding:3px;text-align:center;&#34; action=&#34;https://tinyletter.com/ryanstraight&#34; method=&#34;post&#34; target=&#34;popupwindow&#34; onsubmit=&#34;window.open(&#39;https://tinyletter.com/ryanstraight&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=800,height=600&#39;);return true&#34;&gt;&lt;p&gt;&lt;label for=&#34;tlemail&#34;&gt;Enter your email address&lt;/label&gt;&lt;/p&gt;&lt;p&gt;&lt;input type=&#34;text&#34; style=&#34;width:140px&#34; name=&#34;email&#34; id=&#34;tlemail&#34; /&gt;&lt;/p&gt;&lt;input type=&#34;hidden&#34; value=&#34;1&#34; name=&#34;embed&#34;/&gt;&lt;input type=&#34;submit&#34; value=&#34;Subscribe&#34; /&gt;&lt;p&gt;&lt;a href=&#34;https://tinyletter.com&#34; target=&#34;_blank&#34;&gt;powered by TinyLetter&lt;/a&gt;&lt;/p&gt;&lt;/form&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

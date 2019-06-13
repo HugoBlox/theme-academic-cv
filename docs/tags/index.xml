@@ -2,148 +2,643 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on ryan straight</title>
-    <link>/tags/</link>
+    <link>https://ryanstraight.com/tags/</link>
     <description>Recent content in Tags on ryan straight</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Mon, 14 Nov 2016 19:44:35 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 28 Aug 2018 09:00:07 -0700</lastBuildDate>
     
-	    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://ryanstraight.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>AR</title>
-      <link>/tags/ar/</link>
-      <pubDate>Mon, 14 Nov 2016 19:44:35 -0700</pubDate>
+      <title>diversity and inclusion</title>
+      <link>https://ryanstraight.com/tags/diversity-and-inclusion/</link>
+      <pubDate>Tue, 28 Aug 2018 09:00:07 -0700</pubDate>
       
-      <guid>/tags/ar/</guid>
+      <guid>https://ryanstraight.com/tags/diversity-and-inclusion/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>augmented reality</title>
-      <link>/tags/augmented-reality/</link>
-      <pubDate>Mon, 14 Nov 2016 19:44:35 -0700</pubDate>
+      <title>faculty fellow</title>
+      <link>https://ryanstraight.com/tags/faculty-fellow/</link>
+      <pubDate>Tue, 28 Aug 2018 09:00:07 -0700</pubDate>
       
-      <guid>/tags/augmented-reality/</guid>
+      <guid>https://ryanstraight.com/tags/faculty-fellow/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>communities of practice</title>
-      <link>/tags/communities-of-practice/</link>
-      <pubDate>Mon, 14 Nov 2016 19:44:35 -0700</pubDate>
+      <title>invited talk</title>
+      <link>https://ryanstraight.com/tags/invited-talk/</link>
+      <pubDate>Tue, 28 Aug 2018 09:00:07 -0700</pubDate>
       
-      <guid>/tags/communities-of-practice/</guid>
+      <guid>https://ryanstraight.com/tags/invited-talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>panel</title>
+      <link>https://ryanstraight.com/tags/panel/</link>
+      <pubDate>Tue, 28 Aug 2018 09:00:07 -0700</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/panel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>evidence</title>
+      <link>https://ryanstraight.com/tags/evidence/</link>
+      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/evidence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nutrition</title>
+      <link>https://ryanstraight.com/tags/nutrition/</link>
+      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/nutrition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>read watch woof</title>
+      <link>https://ryanstraight.com/tags/read-watch-woof/</link>
+      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/read-watch-woof/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dogs</title>
+      <link>https://ryanstraight.com/tags/dogs/</link>
+      <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/dogs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>summer</title>
+      <link>https://ryanstraight.com/tags/summer/</link>
+      <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/summer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>the new professor</title>
+      <link>https://ryanstraight.com/tags/the-new-professor/</link>
+      <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/the-new-professor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Diamond Age</title>
+      <link>https://ryanstraight.com/tags/the-diamond-age/</link>
+      <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/the-diamond-age/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>education</title>
+      <link>https://ryanstraight.com/tags/education/</link>
+      <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>intelligence</title>
+      <link>https://ryanstraight.com/tags/intelligence/</link>
+      <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/intelligence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>quote</title>
+      <link>https://ryanstraight.com/tags/quote/</link>
+      <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/quote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>365papers</title>
+      <link>https://ryanstraight.com/tags/365papers/</link>
+      <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/365papers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>accountability</title>
+      <link>https://ryanstraight.com/tags/accountability/</link>
+      <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/accountability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hashtag</title>
+      <link>https://ryanstraight.com/tags/hashtag/</link>
+      <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/hashtag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scholarship</title>
+      <link>https://ryanstraight.com/tags/scholarship/</link>
+      <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/scholarship/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>twitter</title>
+      <link>https://ryanstraight.com/tags/twitter/</link>
+      <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/twitter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OLC Accelerate</title>
+      <link>https://ryanstraight.com/tags/olc-accelerate/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0700</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/olc-accelerate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>STEM</title>
+      <link>https://ryanstraight.com/tags/stem/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0700</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/stem/</guid>
       <description></description>
     </item>
     
     <item>
       <title>conference</title>
-      <link>/tags/conference/</link>
+      <link>https://ryanstraight.com/tags/conference/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0700</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>educational technology</title>
+      <link>https://ryanstraight.com/tags/educational-technology/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0700</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/educational-technology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>innovation</title>
+      <link>https://ryanstraight.com/tags/innovation/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0700</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/innovation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>podcast</title>
+      <link>https://ryanstraight.com/tags/podcast/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0700</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/podcast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>workshop</title>
+      <link>https://ryanstraight.com/tags/workshop/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0700</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>higher education</title>
+      <link>https://ryanstraight.com/tags/higher-education/</link>
+      <pubDate>Wed, 26 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/higher-education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lafayette cemetary</title>
+      <link>https://ryanstraight.com/tags/lafayette-cemetary/</link>
+      <pubDate>Wed, 26 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/lafayette-cemetary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>new orleans</title>
+      <link>https://ryanstraight.com/tags/new-orleans/</link>
+      <pubDate>Wed, 26 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/new-orleans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>olc innovate</title>
+      <link>https://ryanstraight.com/tags/olc-innovate/</link>
+      <pubDate>Wed, 26 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/olc-innovate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>personal</title>
+      <link>https://ryanstraight.com/tags/personal/</link>
+      <pubDate>Wed, 26 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>voodoo museum</title>
+      <link>https://ryanstraight.com/tags/voodoo-museum/</link>
+      <pubDate>Wed, 26 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/voodoo-museum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>class time</title>
+      <link>https://ryanstraight.com/tags/class-time/</link>
+      <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/class-time/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>john travolta</title>
+      <link>https://ryanstraight.com/tags/john-travolta/</link>
+      <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/john-travolta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>online programs</title>
+      <link>https://ryanstraight.com/tags/online-programs/</link>
+      <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/online-programs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>relationships</title>
+      <link>https://ryanstraight.com/tags/relationships/</link>
+      <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/relationships/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>socialization</title>
+      <link>https://ryanstraight.com/tags/socialization/</link>
+      <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/socialization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slack</title>
+      <link>https://ryanstraight.com/tags/slack/</link>
+      <pubDate>Thu, 06 Apr 2017 20:48:51 -0700</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/slack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>expertise</title>
+      <link>https://ryanstraight.com/tags/expertise/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/expertise/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>faculty</title>
+      <link>https://ryanstraight.com/tags/faculty/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/faculty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>growth</title>
+      <link>https://ryanstraight.com/tags/growth/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/growth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reflection</title>
+      <link>https://ryanstraight.com/tags/reflection/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/reflection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AR</title>
+      <link>https://ryanstraight.com/tags/ar/</link>
       <pubDate>Mon, 14 Nov 2016 19:44:35 -0700</pubDate>
       
-      <guid>/tags/conference/</guid>
+      <guid>https://ryanstraight.com/tags/ar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>augmented reality</title>
+      <link>https://ryanstraight.com/tags/augmented-reality/</link>
+      <pubDate>Mon, 14 Nov 2016 19:44:35 -0700</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/augmented-reality/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>communities of practice</title>
+      <link>https://ryanstraight.com/tags/communities-of-practice/</link>
+      <pubDate>Mon, 14 Nov 2016 19:44:35 -0700</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/communities-of-practice/</guid>
       <description></description>
     </item>
     
     <item>
       <title>e-learn</title>
-      <link>/tags/e-learn/</link>
+      <link>https://ryanstraight.com/tags/e-learn/</link>
       <pubDate>Mon, 14 Nov 2016 19:44:35 -0700</pubDate>
       
-      <guid>/tags/e-learn/</guid>
+      <guid>https://ryanstraight.com/tags/e-learn/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mentorship</title>
-      <link>/tags/mentorship/</link>
+      <link>https://ryanstraight.com/tags/mentorship/</link>
       <pubDate>Mon, 14 Nov 2016 19:44:35 -0700</pubDate>
       
-      <guid>/tags/mentorship/</guid>
+      <guid>https://ryanstraight.com/tags/mentorship/</guid>
       <description></description>
     </item>
     
     <item>
       <title>video games</title>
-      <link>/tags/video-games/</link>
+      <link>https://ryanstraight.com/tags/video-games/</link>
       <pubDate>Mon, 14 Nov 2016 19:44:35 -0700</pubDate>
       
-      <guid>/tags/video-games/</guid>
+      <guid>https://ryanstraight.com/tags/video-games/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>death</title>
+      <link>https://ryanstraight.com/tags/death/</link>
+      <pubDate>Wed, 15 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/death/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>family</title>
+      <link>https://ryanstraight.com/tags/family/</link>
+      <pubDate>Wed, 15 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/family/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>loss</title>
+      <link>https://ryanstraight.com/tags/loss/</link>
+      <pubDate>Wed, 15 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/loss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>citavi</title>
+      <link>https://ryanstraight.com/tags/citavi/</link>
+      <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/citavi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>evernote</title>
+      <link>https://ryanstraight.com/tags/evernote/</link>
+      <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/evernote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>grad school</title>
+      <link>https://ryanstraight.com/tags/grad-school/</link>
+      <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/grad-school/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>liquidplanner</title>
+      <link>https://ryanstraight.com/tags/liquidplanner/</link>
+      <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/liquidplanner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mendeley</title>
+      <link>https://ryanstraight.com/tags/mendeley/</link>
+      <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/mendeley/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paperless</title>
+      <link>https://ryanstraight.com/tags/paperless/</link>
+      <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/paperless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reviews</title>
+      <link>https://ryanstraight.com/tags/reviews/</link>
+      <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/reviews/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scrivener</title>
+      <link>https://ryanstraight.com/tags/scrivener/</link>
+      <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/scrivener/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>https://ryanstraight.com/tags/software/</link>
+      <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web services</title>
+      <link>https://ryanstraight.com/tags/web-services/</link>
+      <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/web-services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>workflow</title>
+      <link>https://ryanstraight.com/tags/workflow/</link>
+      <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/tags/workflow/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AACE</title>
-      <link>/tags/aace/</link>
+      <link>https://ryanstraight.com/tags/aace/</link>
       <pubDate>Mon, 07 Mar 2011 20:42:34 -0700</pubDate>
       
-      <guid>/tags/aace/</guid>
+      <guid>https://ryanstraight.com/tags/aace/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CALL</title>
-      <link>/tags/call/</link>
+      <link>https://ryanstraight.com/tags/call/</link>
       <pubDate>Mon, 07 Mar 2011 20:42:34 -0700</pubDate>
       
-      <guid>/tags/call/</guid>
+      <guid>https://ryanstraight.com/tags/call/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SITE</title>
-      <link>/tags/site/</link>
+      <link>https://ryanstraight.com/tags/site/</link>
       <pubDate>Mon, 07 Mar 2011 20:42:34 -0700</pubDate>
       
-      <guid>/tags/site/</guid>
+      <guid>https://ryanstraight.com/tags/site/</guid>
       <description></description>
     </item>
     
     <item>
       <title>computer-assisted language learning</title>
-      <link>/tags/computer-assisted-language-learning/</link>
+      <link>https://ryanstraight.com/tags/computer-assisted-language-learning/</link>
       <pubDate>Mon, 07 Mar 2011 20:42:34 -0700</pubDate>
       
-      <guid>/tags/computer-assisted-language-learning/</guid>
+      <guid>https://ryanstraight.com/tags/computer-assisted-language-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gaming</title>
-      <link>/tags/gaming/</link>
+      <link>https://ryanstraight.com/tags/gaming/</link>
       <pubDate>Mon, 07 Mar 2011 20:42:34 -0700</pubDate>
       
-      <guid>/tags/gaming/</guid>
+      <guid>https://ryanstraight.com/tags/gaming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>k-12</title>
-      <link>/tags/k-12/</link>
+      <link>https://ryanstraight.com/tags/k-12/</link>
       <pubDate>Mon, 07 Mar 2011 20:36:26 -0700</pubDate>
       
-      <guid>/tags/k-12/</guid>
+      <guid>https://ryanstraight.com/tags/k-12/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mobile apps</title>
-      <link>/tags/mobile-apps/</link>
+      <link>https://ryanstraight.com/tags/mobile-apps/</link>
       <pubDate>Mon, 07 Mar 2011 20:36:26 -0700</pubDate>
       
-      <guid>/tags/mobile-apps/</guid>
+      <guid>https://ryanstraight.com/tags/mobile-apps/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mobile learning</title>
-      <link>/tags/mobile-learning/</link>
+      <link>https://ryanstraight.com/tags/mobile-learning/</link>
       <pubDate>Mon, 07 Mar 2011 20:36:26 -0700</pubDate>
       
-      <guid>/tags/mobile-learning/</guid>
+      <guid>https://ryanstraight.com/tags/mobile-learning/</guid>
       <description></description>
     </item>
     

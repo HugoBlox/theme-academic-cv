@@ -1,0 +1,83 @@
+---
+title: Not that Kind of Hot Dog
+author: ryan
+date: '2018-07-24'
+#slug: not-that-kind-of-hot-dog
+categories:
+  - Personal
+tags:
+  - dogs
+  - the new professor
+  - summer
+subtitle: ''
+summary: 'It is hot outside in Arizona. I mean, it is hot virtually everywhere, to be fair. We are at the very beginning of an extreme heat advisory that lasts from yesterday (Monday) morning all the way through Wednesday night. Dangerous heat. Keep in mind it is actually hotter _today_ than it was yesterday.'
+authors: []
+lastmod: '2018-07-24T09:18:07-07:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+It's hot outside in Arizona. I mean, it's hot virtually everywhere, to be fair. We're at the very beginning of an extreme heat advisory that lasts from yesterday (July 23, 2018) morning all the way through Wednesday night. It's dangerously hot.[^1] Keep in mind it's actually hotter _today_ than it was yesterday. Today it's a high of 112F (44.4C). The images you'll find below were taken on a day with a high of 109F (42.7C).
+
+[^1]: https://www.wunderground.com/history/daily/KTUS/date/2018-7-23
+
+
+Now, you know about our dogs and how much we love them. (Read: spoil.) Considering the excessive heat warning, I began wondering just how hot the back yard gets during the day. I know the general numbers but what about in our actual back yard where our actual dogs actually walk around, actually?
+
+I wanted to demonstrate what I talked about back in my Thermoception episode of The New Professor[^2]: the difference between ambient air temperature and the temperature of the pavement. This is especially important for animals.
+
+[^2]: https://thenewprofessor.com/005
+
+Recently having procured an infrared thermometer to use when cooking, it occurred to me I could use it to really illustrate these dangers. These are taken in the same spots throughout the day. You'll see when and how the shade from the house alters the temperature. Please, think about this when you want to take your dogs out.
+
+While it's not a perfect analog, consider these water temperatures and time required for "deep burn."[^3]
+
+[^3]: http://burncentrecare.co.uk/what_can_cause_a_burn.htm
+
+
+
+<iframe src="figure/steak.html"></iframe>
+
+Below each picture and accompanying temperature is a description of a relative internal cooking temperature[^4] for comparison.
+
+[^4]: https://whatscookingamerica.net/Information/MeatTemperatureChart.htm
+
+## 11am
+
+{{< figure src="1100-gravel.jpg" title="Gravel at 11am" >}}
+
+{{< figure src="1100-patio.jpg" title="Patio at 11am" >}}
+
+## 12pm
+
+{{< figure src="1200-gravel.jpg" title="Gravel at 12pm" >}}
+
+{{< figure src="1200-patio.jpg" title="Gravel at 12pm" >}}
+
+## 1pm
+
+{{< figure src="1300-gravel.jpg" title="Gravel at 1pm" >}}
+
+{{< figure src="1300-patio.jpg" title="Patio at 1pm" >}}
+
+## 2:30pm
+
+{{< figure src="1430-gravel.jpg" title="Gravel at 2:30pm" >}}
+
+{{< figure src="1430-patio.jpg" title="Patio at 2:30pm" >}}
+
+## 3:30pm
+
+{{< figure src="1530-gravel.jpg" title="Gravel at 3:30pm" >}}
+
+{{< figure src="1530-patio.jpg" title="Patio at 3:30pm" >}}
+
+## 7:30pm
+Just so you can see how quickly it cools down after the sun stops beating down on it.
+
+{{< figure src="1930-patio.jpg" title="Patio at 7:30pm" >}}
+

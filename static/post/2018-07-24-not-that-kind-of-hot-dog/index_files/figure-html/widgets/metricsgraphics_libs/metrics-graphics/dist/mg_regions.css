@@ -1,0 +1,9 @@
+.mg-regions text {
+  fill: black;
+  font-size: 0.7rem;
+  opacity: 0.5;
+  stroke: none; }
+
+.mg-regions rect {
+  fill: red;
+  fill-opacity: 0.3; }

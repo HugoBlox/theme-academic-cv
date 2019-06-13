@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>profhacker on ryan straight</title>
+    <link>/tags/profhacker/</link>
+    <description>Recent content in profhacker on ryan straight</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Fri, 03 Nov 2017 09:55:32 -0700</lastBuildDate>
+    
+	    <atom:link href="/tags/profhacker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Profhacker Guest post: Scary Deep Learning Ai With Shelley</title>
+      <link>/2017/11/03/profhacker-guest-post-scary-deep-learning-ai-with-shelley/</link>
+      <pubDate>Fri, 03 Nov 2017 09:55:32 -0700</pubDate>
+      
+      <guid>/2017/11/03/profhacker-guest-post-scary-deep-learning-ai-with-shelley/</guid>
+      <description>&lt;p&gt;One of my first ProfHacker guest pieces: a &lt;a href=&#34;https://www.chronicle.com/blogs/profhacker/scary-deep-learning-ai-with-shelley/64489&#34; target=&#34;_blank&#34;&gt;Halloween-themed post about Shelley, an MIT horror writing bot&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Profhacker Guest Post Keybase Crypto for Almost Everyone</title>
+      <link>/2017/10/20/profhacker-guest-post-keybase-crypto-for-almost-everyone/</link>
+      <pubDate>Fri, 20 Oct 2017 10:06:10 -0700</pubDate>
+      
+      <guid>/2017/10/20/profhacker-guest-post-keybase-crypto-for-almost-everyone/</guid>
+      <description>&lt;p&gt;Head on over to &lt;a href=&#34;http://www.chronicle.com/blogs/profhacker/keybase-crypto-for-almost-everyone/64454&#34; target=&#34;_blank&#34;&gt;ProfHacker&lt;/a&gt; to read my first guest post there all about Keybase!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
