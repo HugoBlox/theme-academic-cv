@@ -6,31 +6,37 @@
 [[main]]
   name = "Home"
   url = "#about"
-  weight = 10
+  weight = 1
 
 [[main]]
   name = "Posts"
   url = "#posts"
-  weight = 20
+  weight = 2
 
 [[main]]
   name = "Projects"
   url = "#projects"
-  weight = 30
+  weight = 5
+
+[[main]]
+  name = "Blog"
+  url = "#blog"
+  weight = 4
 
 [[main]]
   name = "Publications"
   url = "#featured"
-  weight = 40
+  weight = 3
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 60
+  weight = 7
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# [[main]]
-#    name = "CV"
-#    url = "files/cv.pdf"
-#    weight = 70
+[[main]]
+  name = "CV"
+  url = "https://cv.ryanstraight.com/"
+  weight = 8
+

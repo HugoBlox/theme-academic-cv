@@ -1,0 +1,226 @@
+---
+title: "Dr. Ryan Straight's Academic CV"
+output:
+  pdf_document:
+    toc: no
+    toc_depth: '2'
+  html_document:
+    smart: yes
+    theme: cosmo
+    toc: yes
+    toc_depth: 2
+    toc_float: yes
+date: "August 5, 2018"
+subtitle: 1140 N Colomba Ave, Sierra Vista, AZ 85635 | ryanstraight@email.arizona.edu
+  | 520.458.8278
+---
+* * *
+
+# Employment
+
+## Academic Positions
+
+**Assistant Professor** - Educational Technology, University of Arizona, South. May 2017 - present
+
+**Senior Lecturer and Program Director **- Educational Technology, University of Arizona, South - January 2015 - May 2017.
+
+**Adjunct Instructor** - Educational Technology, University of Arizona, South - June 2014 - December 2014.
+
+## Professional Positions
+
+**Instructional Technology Training Specialist **- University Information Technology Services, University of Arizona - Tucson, AZ - April 2012 - January 2015.
+
+**Student System Testing Analyst** - Office of the University Registrar, Ohio University - Athens, OH - August 2010 to April 2012.
+
+**Undergraduate Catalog Manager** - Office of the University Registrar, Ohio University - Athens, OH - August 2009 to June 2010.
+
+# Education
+
+* Ph.D Degree, Instructional Technology, May 2015 (Ohio University)
+
+    * Dissertation title: An Exploratory Study of Augmented Reality and Mobile Games Examining Ingress Player Motivation and Potential Educational Value
+
+    * Advisor: Dr. Teresa Franklin, Ph.D
+
+* M.Ed Degree, Cultural Studies in Education, June 2009 (Ohio University)
+
+    * Seminar Paper: Religion and Public Education, A Review of the Literature
+
+    * Advisor: Dr. Najee E. Muhammad, Ed.D
+
+* BS.Ed. Degree, Integrated Language Arts, June 2005 (Ohio University)
+
+    * Major: Secondary English Education (7th - 12th grades American and British Literature)
+
+    * Minors: English Literature and Philosophy
+
+# Fields of Interest and Study
+
+Innovation in educational and instructional technology, asynchronous and synchronous communication in online education, technological mediation of experience, Postphenomenology, digital humanities, cyber operations and security, human-computer interaction, game-based learning and gamification.
+
+# Teaching
+
+## Undergraduate, University of Arizona
+
+ETCV 310 - Integrating Technology into the Curriculum
+
+ETCV 401 - Introduction to Human-Computer Interaction
+
+ETCV 404 - Principles and Practices of Distance Education
+
+ETCV 405 - Introduction to Serious Game Design
+
+ETCV 411 - Learning Technologies in the Digital Age
+
+HNRS 195H - First-Year Honors Seminar (Special topics: Postphenomenology)
+
+## Graduate, University of Arizona
+
+ETCV 510 - Learning Theory in Instructional Design
+
+ETCV 524 - Educational Gaming and Simulations
+
+ETCV 530 - Multimedia Applications in Education
+
+ETCV 538 - Mobile Technologies for Learning
+
+ETCV 622 - Introduction to Interface Design
+
+ETCV 623 - Designing Online Learning Environments
+
+ETCV 631 - Advanced Multimedia
+
+# Scholarly Activity and Research Interests
+
+## Conference Proceeding Publications
+
+* Straight, R. (2016). Emergent mentorship and learning communities of practice among players of augmented reality video games. In *Proceedings of E-Learn: World Conference on E-Learning in Corporate, Government, Healthcare, and Higher Education*. Washington, DC: AACE. 
+
+* Smith, J., Straight, R. & Franklin, T. (2011). Student occupational expectations: A web 2.5 geolocative study. *Proceedings of the Association for the Advancement of Computing in Education 2011 *(pp. 2522-2526)*. *Honolulu, HI: AACE.
+
+* Straight, R. (2011). Commercial off-the-shelf video games as computer-assisted language learning environments. In *Proceedings of Society for Information Technology & Teacher Education International Conference 2011*(pp. 1982-1986). Chesapeake, VA: AACE.
+
+* Straight, R. & Smith, J. (2011). The development and delivery of custom mobile apps for K-12 learning: Viable options for educators. In *Proceedings of the Society of Information Technology & Teacher Education International Conference 2011* (pp. 3102-3107). Chesapeake, VA: AACE.
+
+##  Presentations
+
+* Straight, R. (2017). "Slacking Off in Class: Cloud-Based Team Collaboration in Online Higher Education Programs." Presented as an Innovation Lab at the 2017 Online Learning Consortium Innovate conference, New Orleans, LA.
+
+* Straight, R. (2016). "Slack and the Online Classroom." Presented at the 2016 University of Arizona IT Summit, Tucson, AZ.
+
+* Straight, R. & Gunder, A. (2016). "Innovative Learning Projects: Promoting Leading-Edge Opportunities in Higher Education." Poster presented at the 2016 University of Arizona IT Summit, Tucson, AZ.
+
+* Straight, R. (2014). "Microsoft Outlook: Tips and Tricks You May Not Know." Presented at the University of Arizona Staff Advisory Council 2014 Crossroads Conference.
+
+* Smith, J., Straight, R. (2011). "New Technologies in Research Presentation: Broadcastr." Presented at the 2011 Association for the Advancement of Computing in Education Conference.
+
+* House, C., Smith, J., Straight, R. (2011). "The OHIO Map App Project." Presented at the 2011 OHIO Mobile Learning Symposium.
+
+* Straight, R. (2011). "Commercial Off-The-Shelf Video Games as Computer-Assisted Language Learning Environments: Heavy Rain." Presented at the 2011 Society of Information Technology & Teacher Education International Conference.
+
+* Smith, J., Straight, R. (2011). "The Development and Delivery of Custom Mobile Apps for K-12 Learning: Viable Options for Educators." Presented at the 2011 Society of Information Technology & Teacher Education International Conference.
+
+* Straight, R. (2010). "Commercial Video Games and Language Learning: Web-based Flash Games and TEFL/TESL" Presented at the Technology Fair, 2010 Ohio University CALL Conference "Language Learning in an Online World."
+
+## Writing Positions and Projects
+
+* Staff writer, _[Chronicle of Higher Education's ProfHacker blog](https://www.chronicle.com/blogs/profhacker)_ (2017 - current)
+
+##  Consultancies, Speaking Invitations, and Workshops
+
+* Featured panelist, *[TENWEST Festival - Social Impact Summit](https://entrepreneurship.eller.arizona.edu/events/16oct2017/social-impact-summit)[, "Innovation in Educational Technology](https://entrepreneurship.eller.arizona.edu/events/16oct2017/social-impact-summit),"  Tucson, AZ - 2017.
+
+* Invited speaker, "STEM Resources for Parents and 6-8th grade children," Gridley Middle School, Tucson, AZ - 2016.
+
+* Guest, Versatilist podcast - 2015.
+
+* Instructional advisor, NoteBowl, LLC - 2015.
+
+* Technology consultant, Pima County Board of Elections, 2015.
+
+* Workshop: "Integrating Technology Into the Classroom: A Workshop for Faculty and Instructors," Ohio University, September 21, 2011, Ohio University.
+
+* Invited Panel Discussion: "Using Mobile Apps in the Classroom-From a Teaching and Learning Perspective," OHIO Mobile Learning Symposium, May 16, 2011.
+
+## Journal Reviews And Editing
+
+* Reviewer: Issues and Trends in Educational Technology (Winter 2015-present)
+
+* Reviewer: Journal of Visual Literacy (2010 - 2013)
+
+* Reviewer: Turkish Online Journal of Educational Technology (2010 - 2013)
+
+* Guest editor: Democracy & Education, vol 6, no. 1 (2006), issue title "Reading the World: Popular Culture, Critical Media Literacy & Youth"
+
+# Professional Service
+
+## Awards, Honorary Positions, and Fellowships
+
+* Honors Professor, Honors College, spring 2018.
+
+* UA South Faculty Fellow, inaugural, 2017 - present.
+
+## Committees
+
+* Student Showcase organization committee, member (2018)
+
+* University Search Committee for Online Teaching and Learning Meeting Software (2017 - 2018)
+
+* UA South Policy Committee (2017 - 2018)
+
+* University Funding Committee (2017 - 2018)
+
+* UA South Technology Committee (2016 - 2018)
+
+* Graduate College Grievance Committee (2015 - 2018)
+
+* Outstanding Student Award, Undergraduate & Graduate (2015)
+
+* Student Showcase organization committee, chair (2015, 2016, 2017)
+
+## Oversight and Advisory
+
+* Innovative Learning Project (2016 - present)
+
+* Faculty advisor, Associated Students of Arizona South Student Government (2017 - present)
+
+* UA South Campuswide Slack Team, Owner and Administrator (2016-present)
+
+* UA South Program Assessment Team (2015)
+
+* Innovative Learning Oversight Team (2015)
+
+* Consultant/Subject Matter Expert, Campus Technology Upgrade Program, University of Arizona (2013 - present)
+
+## Development
+
+* Curriculum development: ETCV 538 - Mobile Technologies for Learning (approved Spring 2015)
+
+* Program development: Educational Technology Student Orientation course
+
+* Program development: Educational Technology Wiki creation
+
+* Program development: Implementation of program-level communication system (Slack)
+
+## Active Grants
+
+* Innovative Learning Project: 2016 (Co-PI, 20%)
+"Campuswide Novel Asynchronous Communication"
+One-time grant: $3,000
+
+## Professional Memberships And Activities
+
+AZTEA - Arizona Technology in Education Association - member
+
+HEVGA - Higher Education Video Game Alliance - charter member
+
+ITSA - Instructional Technology Scholars Association - president, 2010-11, 2011-12 academic years
+
+ISTE - International Society for Technology in Education - member
+
+AACE - Association for the Advancement of Computing in Education - member
+
+SITE - Society for Instructional Technology & Teacher Education - member
+
+AECT - Association for Educational Communications and Technology - member
+
