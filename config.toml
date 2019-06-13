@@ -48,6 +48,10 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   home = [ "HTML", "RSS", "JSON" ]
   section = [ "HTML", "RSS" ]
 
+# Adding the bundle permalink format
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+
 # Configure BlackFriday Markdown rendering.
 #   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
 [blackfriday]
