@@ -1,0 +1,14 @@
+body {
+  font-family: inherit;
+  font-size: .9rem;
+}
+
+.max-width-640 {
+  max-width: 960px;
+}
+
+.article-container {
+  max-width: 960px;
+  padding: 1rem 20px 0 20px;
+  margin: 0 auto 0 auto;
+}

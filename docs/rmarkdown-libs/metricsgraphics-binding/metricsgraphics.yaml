@@ -1,0 +1,18 @@
+dependencies:
+- name: jquery
+  version: 2.1.4
+  src: htmlwidgets/lib/jquery
+  script: dist/jquery.min.js
+- name: d3
+  version: 3.5.12
+  src: htmlwidgets/lib/d3
+  script: d3.min.js
+- name: metrics-graphics
+  version: 2.7.0
+  src: htmlwidgets/lib/metrics-graphics
+  script:
+    - dist/metricsgraphics.min.js
+    - dist/mg_regions.js
+  stylesheet:
+    - dist/metricsgraphics.css
+    - dist/mg_regions.css

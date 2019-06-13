@@ -1,0 +1,24 @@
+dependencies:
+  - name: jquery
+    version: 1.12.4
+    src: "htmlwidgets/lib/jquery"
+    script: jquery.min.js
+  - name: leaflet
+    version: 1.3.1
+    src: "htmlwidgets/lib/leaflet"
+    script: leaflet.js
+    stylesheet: leaflet.css
+  - name: leafletfix
+    version: 1.0.0
+    src: "htmlwidgets/lib/leafletfix"
+    stylesheet: leafletfix.css
+  - name: Proj4Leaflet
+    version: 1.0.1
+    src: "htmlwidgets/plugins/Proj4Leaflet"
+    script:
+      - proj4-compressed.js
+      - proj4leaflet.js
+  - name: rstudio_leaflet
+    version: 1.3.1 # match leaflet version
+    src: "htmlwidgets/lib/rstudio_leaflet"
+    stylesheet: rstudio_leaflet.css
