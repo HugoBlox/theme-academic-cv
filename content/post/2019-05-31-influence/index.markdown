@@ -1,0 +1,27 @@
+---
+draft: true
+title: Influence
+author: ryan
+date: '2019-05-31'
+slug: influence
+categories:
+  - Professional
+tags:
+  - teaching
+  - reflection
+  - performance
+  - influencer
+  - edtech
+subtitle: ''
+summary: 'I was included in a list of ''influencers.'' Neat.'
+authors: []
+lastmod: '2019-05-31T16:49:27-07:00'
+featured: no
+image:
+  caption: 'Via [Diggity Marketing on Unsplash](https://unsplash.com/photos/QFZ_72_NxIQ)'
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+It's been a long time since I was on the _Dean's List_ but it happened again last month (just not the way you probably think).

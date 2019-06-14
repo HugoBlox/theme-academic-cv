@@ -40,7 +40,7 @@ While it's not a perfect analog, consider these water temperatures and time requ
 
 
 
-<iframe src="figure/steak.html"></iframe>
+<iframe src="./figure/steak.html"></iframe>
 
 Below each picture and accompanying temperature is a description of a relative internal cooking temperature[^4] for comparison.
 

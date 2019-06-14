@@ -7,10 +7,19 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Fri, 24 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://ryanstraight.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Professional</title>
+      <link>https://ryanstraight.com/categories/professional/</link>
+      <pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/categories/professional/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Personal</title>
@@ -18,6 +27,24 @@
       <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ryanstraight.com/categories/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The New Professor</title>
+      <link>https://ryanstraight.com/categories/the-new-professor/</link>
+      <pubDate>Sun, 05 Aug 2018 09:47:44 -0700</pubDate>
+      
+      <guid>https://ryanstraight.com/categories/the-new-professor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social</title>
+      <link>https://ryanstraight.com/categories/social/</link>
+      <pubDate>Thu, 05 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstraight.com/categories/social/</guid>
       <description></description>
     </item>
     
@@ -54,15 +81,6 @@
       <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://ryanstraight.com/categories/writing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Professional</title>
-      <link>https://ryanstraight.com/categories/professional/</link>
-      <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://ryanstraight.com/categories/professional/</guid>
       <description></description>
     </item>
     

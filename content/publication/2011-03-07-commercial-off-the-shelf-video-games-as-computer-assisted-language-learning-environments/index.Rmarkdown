@@ -1,0 +1,70 @@
+---
+title: "Commercial Off-The-Shelf Video Games as Computer-Assisted Language Learning Environments"
+authors:
+- ryan
+date: "2013-07-01T00:00:00Z"
+doi: ""
+
+# Schedule page publish date (NOT publication's date).
+publishDate: "2011-03-07T00:00:00Z"
+
+# Publication type.
+# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
+# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
+# 7 = Thesis; 8 = Patent
+publication_types: ["1"]
+
+# Publication name and optional abbreviated publication name.
+publication: In *Society for Information Technology & Teacher Education International Conference*
+publication_short: "In *AACE: SITE*"
+
+abstract: Computer-Assisted Language Learning can be facilitated to a great degree using commercial off-the-shelf video games. This paper attempts to explore the nature of CALL, the pedagogic qualities of video games and how the two intersect to produce useful CALL environments. Also considered are aspects of fun, what causes second language acquisition students to respond to one form of CALL over another, and concepts of ludus, paidea and narratology. An example, Heavy Rain, is offered as a potential commercial off-the-shelf game to use in second language acquisition at the university or adult-learning level.
+
+# Summary. An optional shortened abstract.
+summary: []
+
+tags:
+- video games
+- computer assisted language learning
+- CALL
+- gaming
+- conference
+- SITE
+- AACE
+featured: false
+
+links:
+- name: Source
+  url: http://www.learntechlib.org/p/36592/
+url_pdf: http://www.learntechlib.org/primary/d/36592
+#url_code: '#'
+#url_dataset: '#'
+#url_poster: '#'
+#url_project: ''
+#url_slides: ''
+#url_source: '#'
+#url_video: '#'
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+image:
+  caption: ''
+  focal_point: ""
+  preview_only: false
+
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `internal-project` references `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
+projects: []
+
+# Slides (optional).
+#   Associate this publication with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   Otherwise, set `slides: ""`.
+slides: ""
+---
+
+

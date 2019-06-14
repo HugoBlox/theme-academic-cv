@@ -1,0 +1,72 @@
+---
+title: 'The Development and Delivery of Custom Mobile Apps for K-12 Learning: Viable  Options for Educators'
+authors:
+- ryan
+- Jamie Smith
+date: '2011-03-07'
+doi: ""
+#slug: the-development-and-delivery-of-custom-mobile-apps-for-k-12-learning-viable-options-for-educators
+
+tags:
+  - mobile learning
+  - mobile apps
+  - k-12
+  - SITE
+  - conference
+  - AACE
+
+# Schedule page publish date (NOT publication's date).
+publishDate: "2011-03-07T00:00:00Z"
+
+# Publication type.
+# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
+# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
+# 7 = Thesis; 8 = Patent
+publication_types: ["1"]
+
+# Publication name and optional abbreviated publication name.
+publication: In *Society for Information Technology & Teacher Education International Conference*
+publication_short: "In *AACE: SITE*"
+
+abstract: The advancements in mobile devices have great affordances for the field of education. Modern smartphones are powerful, portable, and prevalent and can yield informative, engaging and empowering user experiences for students in classroom settings and beyond. This paper explores current trends and issues in the use of mobile devices for learning (mLearning) and presents a variety of viable options for developing and delivering custom content in the form of mobile applications. Relevant applications, services, and skill sets are discussed with a focus on specific capabilities. Resources are presented along a continuum of prerequisite technical skill with the intent to demonstrate to K-12 teachers the approachability of creating custom mobile applications for learning at any level of experience.
+
+# Summary. An optional shortened abstract.
+summary: []
+
+featured: false
+
+links:
+- name: Source
+  url: http://www.learntechlib.org/p/36792/
+url_pdf: http://www.learntechlib.org/primary/d/36792
+#url_code: '#'
+#url_dataset: '#'
+#url_poster: '#'
+#url_project: ''
+#url_slides: ''
+#url_source: '#'
+#url_video: '#'
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+image:
+  caption: ''
+  focal_point: ""
+  preview_only: false
+
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `internal-project` references `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
+projects: []
+
+# Slides (optional).
+#   Associate this publication with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   Otherwise, set `slides: ""`.
+slides: ""
+---
+
+

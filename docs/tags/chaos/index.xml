@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>chaos on ryan straight</title>
-    <link>/tags/chaos/</link>
+    <link>https://ryanstraight.com/tags/chaos/</link>
     <description>Recent content in chaos on ryan straight</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Fri, 02 Nov 2018 08:10:23 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 02 Nov 2018 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/tags/chaos/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://ryanstraight.com/tags/chaos/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Finding Order in Chaos</title>
-      <link>/2018/11/02/finding-order-in-chaos/</link>
-      <pubDate>Fri, 02 Nov 2018 08:10:23 -0700</pubDate>
+      <link>https://ryanstraight.com/2018/11/02/finding-order-in-chaos/</link>
+      <pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/11/02/finding-order-in-chaos/</guid>
+      <guid>https://ryanstraight.com/2018/11/02/finding-order-in-chaos/</guid>
       <description>&lt;p&gt;I don&amp;rsquo;t want to say I&amp;rsquo;m the &lt;em&gt;typical&lt;/em&gt; professor (heck, I have &lt;a href=&#34;https://thenewprofessor.com&#34; target=&#34;_blank&#34;&gt;an entire podcast devoted to exploring just what the heck that means&lt;/a&gt;) but I certainly do occasionally resemble the clichéd &lt;em&gt;absent-minded professor&lt;/em&gt;. Remember: good thoughts are clear thoughts and that&amp;rsquo;s much harder than it sounds when your job is to think about so much, so often, for so long.&lt;/p&gt;
 
 &lt;p&gt;To put it simply, we have a lot of stuff in our heads. In my experience, one of the most difficult and daunting aspects of working in a primarily intellectual field is nothing more than the organization of thoughts and ideas. We&amp;rsquo;re confronted with new ideas, questions, corrections, updates, improvements, alterations, and retractions nearly every day as we learn more and more about virtually everything. So the question becomes: if we&amp;rsquo;re not superhuman, how do we keep track?&lt;/p&gt;
@@ -28,7 +28,8 @@
 
 &lt;p&gt;If you&amp;rsquo;ve listened to &lt;a href=&#34;https://thenewprofessor.com/019/&#34; target=&#34;_blank&#34;&gt;episode 19 of The New Professor&lt;/a&gt;, you already know what I&amp;rsquo;m going to say next: for me, even though it may sound like a lot of work, the best environment to off-load information and ideas is a &lt;strong&gt;&lt;a href=&#34;https://www.semantic-mediawiki.org/&#34; target=&#34;_blank&#34;&gt;Semantic MediaWiki&lt;/a&gt;&lt;/strong&gt;. If you want to know exactly how I do that or what it looks like&amp;hellip; you&amp;rsquo;ll have to wait on another post. (I&amp;rsquo;ve been keeping the wiki for nearly a decade and created a three-part series on how to set one up back in, probably, 2009 but that&amp;rsquo;s &lt;em&gt;long&lt;/em&gt; gone.)&lt;/p&gt;
 
-&lt;p&gt;So watch for those posts. Hopefully they can be of help to you. (Whenever they get here.)&lt;/p&gt;</description>
+&lt;p&gt;So watch for those posts. Hopefully they can be of help to you. (Whenever they get here.)&lt;/p&gt;
+</description>
     </item>
     
   </channel>

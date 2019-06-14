@@ -1,0 +1,33 @@
+---
+draft: true
+title: Teaching and Cooking
+author: ryan
+date: '2019-06-13'
+slug: teaching-and-cooking
+categories:
+  - Teaching
+tags:
+  - teaching
+  - cooking
+  - pedagogy
+subtitle: ''
+summary: 'Watching *MasterChef Junior* got me thinking about the similarities between cooking and teaching.'
+authors: []
+lastmod: '2019-06-13T16:50:47-07:00'
+featured: no
+image:
+  caption: 'Via [Cody Davis on Unsplash](https://unsplash.com/photos/MtqG1lWcUw0)'
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+Watching *MasterChef Junior* got me thinking about the similarities between cooking and teaching. It's a phenomenal show, if you haven't seen it.
+<!--more-->
+
+- mise en place
+- focus on technique
+- ability to improvise
+- quality resources
+- attention to detail
+- timing

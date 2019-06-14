@@ -2,71 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>teaching on ryan straight</title>
-    <link>/tags/teaching/</link>
+    <link>https://ryanstraight.com/tags/teaching/</link>
     <description>Recent content in teaching on ryan straight</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Wed, 05 Jun 2019 08:10:23 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 02 Nov 2018 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://ryanstraight.com/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Onboarding and First Impressions</title>
-      <link>/2019/06/05/onboarding-and-first-impressions/</link>
-      <pubDate>Wed, 05 Jun 2019 08:10:23 -0700</pubDate>
-      
-      <guid>/2019/06/05/onboarding-and-first-impressions/</guid>
-      <description>&lt;p&gt;That first day. That first class. That first meeting. That first minute&amp;rsquo;s rest. The beginning is the key and sets up everything that follows.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>In Defense of Interestingness</title>
-      <link>/2019/06/05/in-defense-of-interestingness/</link>
-      <pubDate>Wed, 05 Jun 2019 08:00:00 -0700</pubDate>
-      
-      <guid>/2019/06/05/in-defense-of-interestingness/</guid>
-      <description>&lt;p&gt;Yes, start with the pedagogy, but be &lt;em&gt;interesting&lt;/em&gt; (and don&amp;rsquo;t just rely on the content for that).&lt;/p&gt;
-
-&lt;p&gt;Okay, so, here&amp;rsquo;s the thing: teaching is performative. That, in itself, isn&amp;rsquo;t new or earth-shattering for anyone that&amp;rsquo;s taught for any period of time. Pretty pedestrian as far as teaching relevations go, I feel.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Influencers</title>
-      <link>/2019/06/05/influencers/</link>
-      <pubDate>Wed, 05 Jun 2019 08:00:00 -0700</pubDate>
-      
-      <guid>/2019/06/05/influencers/</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s been a long time since I was on the &lt;em&gt;Dean&amp;rsquo;s List&lt;/em&gt; but it happened again last month (just not the way you probably think).
-&lt;!-- more --&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Teaching and Cooking</title>
-      <link>/2019/06/01/teaching-and-cooking/</link>
-      <pubDate>Sat, 01 Jun 2019 11:25:53 -0700</pubDate>
-      
-      <guid>/2019/06/01/teaching-and-cooking/</guid>
-      <description>&lt;p&gt;Watching &lt;em&gt;MasterChef Junior&lt;/em&gt; got me thinking about the similarities between cooking and teaching. It&amp;rsquo;s a phenomenal show, if you haven&amp;rsquo;t seen it.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;mise en place&lt;/li&gt;
-&lt;li&gt;focus on technique&lt;/li&gt;
-&lt;li&gt;ability to improvise&lt;/li&gt;
-&lt;li&gt;quality resources&lt;/li&gt;
-&lt;li&gt;attention to detail&lt;/li&gt;
-&lt;li&gt;timing&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
     
     <item>
       <title>Finding Order in Chaos</title>
-      <link>/2018/11/02/finding-order-in-chaos/</link>
-      <pubDate>Fri, 02 Nov 2018 08:10:23 -0700</pubDate>
+      <link>https://ryanstraight.com/2018/11/02/finding-order-in-chaos/</link>
+      <pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/11/02/finding-order-in-chaos/</guid>
+      <guid>https://ryanstraight.com/2018/11/02/finding-order-in-chaos/</guid>
       <description>&lt;p&gt;I don&amp;rsquo;t want to say I&amp;rsquo;m the &lt;em&gt;typical&lt;/em&gt; professor (heck, I have &lt;a href=&#34;https://thenewprofessor.com&#34; target=&#34;_blank&#34;&gt;an entire podcast devoted to exploring just what the heck that means&lt;/a&gt;) but I certainly do occasionally resemble the clichéd &lt;em&gt;absent-minded professor&lt;/em&gt;. Remember: good thoughts are clear thoughts and that&amp;rsquo;s much harder than it sounds when your job is to think about so much, so often, for so long.&lt;/p&gt;
 
 &lt;p&gt;To put it simply, we have a lot of stuff in our heads. In my experience, one of the most difficult and daunting aspects of working in a primarily intellectual field is nothing more than the organization of thoughts and ideas. We&amp;rsquo;re confronted with new ideas, questions, corrections, updates, improvements, alterations, and retractions nearly every day as we learn more and more about virtually everything. So the question becomes: if we&amp;rsquo;re not superhuman, how do we keep track?&lt;/p&gt;
@@ -77,15 +28,16 @@
 
 &lt;p&gt;If you&amp;rsquo;ve listened to &lt;a href=&#34;https://thenewprofessor.com/019/&#34; target=&#34;_blank&#34;&gt;episode 19 of The New Professor&lt;/a&gt;, you already know what I&amp;rsquo;m going to say next: for me, even though it may sound like a lot of work, the best environment to off-load information and ideas is a &lt;strong&gt;&lt;a href=&#34;https://www.semantic-mediawiki.org/&#34; target=&#34;_blank&#34;&gt;Semantic MediaWiki&lt;/a&gt;&lt;/strong&gt;. If you want to know exactly how I do that or what it looks like&amp;hellip; you&amp;rsquo;ll have to wait on another post. (I&amp;rsquo;ve been keeping the wiki for nearly a decade and created a three-part series on how to set one up back in, probably, 2009 but that&amp;rsquo;s &lt;em&gt;long&lt;/em&gt; gone.)&lt;/p&gt;
 
-&lt;p&gt;So watch for those posts. Hopefully they can be of help to you. (Whenever they get here.)&lt;/p&gt;</description>
+&lt;p&gt;So watch for those posts. Hopefully they can be of help to you. (Whenever they get here.)&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>9x9x25 Challenge: The Harshest Mirror</title>
-      <link>/2018/10/16/9x9x25-challenge-the-harshest-mirror/</link>
-      <pubDate>Tue, 16 Oct 2018 08:10:23 -0700</pubDate>
+      <link>https://ryanstraight.com/2018/10/16/9x9x25-challenge-the-harshest-mirror/</link>
+      <pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/10/16/9x9x25-challenge-the-harshest-mirror/</guid>
+      <guid>https://ryanstraight.com/2018/10/16/9x9x25-challenge-the-harshest-mirror/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s almost Halloween. Let&amp;rsquo;s do something scary.&lt;/p&gt;
 
 &lt;p&gt;Reflection is hard. It can be scary. Not for lack of content but for the what it means to potentially confront your shortcomings. Yes, the goal is to improve but to do that you must admit where you are lacking. Of course, we can couch this in platitudes like, &amp;ldquo;It&amp;rsquo;s not that I&amp;rsquo;m &lt;em&gt;bad&lt;/em&gt; at it, just that&amp;hellip; it&amp;rsquo;s an area for growth.&amp;rdquo; And this is most likely true. Doesn&amp;rsquo;t change the fact that you still have to admit that first part.&lt;/p&gt;
@@ -101,10 +53,10 @@
     
     <item>
       <title>9x9x25 Challenge: An Introduction and a Plan</title>
-      <link>/2018/10/02/9x9x25-challenge-an-introduction-and-a-plan/</link>
-      <pubDate>Tue, 02 Oct 2018 07:42:59 -0700</pubDate>
+      <link>https://ryanstraight.com/2018/10/02/9x9x25-challenge-an-introduction-and-a-plan/</link>
+      <pubDate>Tue, 02 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/10/02/9x9x25-challenge-an-introduction-and-a-plan/</guid>
+      <guid>https://ryanstraight.com/2018/10/02/9x9x25-challenge-an-introduction-and-a-plan/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve decided to join yet another challenge: the &lt;strong&gt;9x9x25 Challenge&lt;/strong&gt;. So, here we go.&lt;/p&gt;
 
 &lt;p&gt;To start off with, let me say that I volunteered the &lt;a href=&#34;https://squadgoalsnetwork.com&#34; target=&#34;_blank&#34;&gt;#SquadGoalsNetwork&lt;/a&gt; for this challenge and take full responsibility for it. That said, I&amp;rsquo;m looking for the entire squad to do the challenge in total, not for each member to do their own 9x9x25 challenge. They can if they want but it&amp;rsquo;s far from necessary. I&amp;rsquo;m hard but I&amp;rsquo;m not cruel, sheesh. The SGN is (and continues to grow into) a collection of incredibly talented and reflective people, so the content produced should be impressive.&lt;/p&gt;
