@@ -1,0 +1,47 @@
+---
+---
+
+---
+
+## Results
+
+We can find each of these respective descriptives using individual commands, such as `mean(dfa$spending)`, `median(dfa$spending)`, `sd(dfa$spending)`, and `IQR(dfa$spending)`. We can even get a very basic histogram with the `hist(dfa$spending)` command.
+
+We could simply use an in-line R chunk like this: `` `r "\u0060r mean(dfa$spending)\u0060"` ``. This would show up in our RMarkdown files as `r mean(dfa$spending)`. Remember, the point of using RMarkdown is that you don't need to work out the answer and then paste it somewhere else. The inline R code lets you place the calculated answer wherever you want _that updates whenever the data is changed_. Add a few more rows to the bottom of the `spending.csv` and that mean calculation will change without you having to do a thing.
+
+That said, there are other ways to go about doing this.
+
+### Summary
+
+Here we have a summary of the `spending` data in two forms: descriptives and a table of relevant information like valid cases, missing cases, and a brief histogram. (You will need to install the **summarytools** package before this chunk will work.)
+
+```{r summary, echo = TRUE}
+#First, load the library
+library(summarytools)    # That's how you make sure this chunk will run even if you run it all on its own.
+
+# Next, display the summary.
+print(descr(dfa), method = 'render', style = 'rmarkdown', table.classes = 'st-small')
+```
+
+```{r dfsummary graph, include=TRUE, echo=FALSE, message=FALSE, results='asis'}
+print(dfSummary(dfa$spending), method = 'render')
+```
+
+### Histogram
+
+Though there is a small histogram displayed with the `dfSummary` output, we can plot a larger one to better see. Using R's build-in histogram function, `hist`:
+
+```{r histogram, echo = TRUE}
+hist(dfa$spending)
+```
+
+If we like, we can use the `ggplot2` plugin to create a more informative and visually pleasing one with labels, a different fill color, and a mean line:
+
+```{r ggplot2, echo = TRUE}
+library(ggplot2)
+ggplot(dfa, aes(x=dfa$spending)) +
+  geom_histogram(binwidth=2.5, color="black", fill="lightblue") +
+  geom_vline(aes(xintercept=mean(dfa$spending)), color="blue", linetype="dashed") +
+  labs(title="Spending histogram plot",x="Spent($USD), mean `r mean(dfa$spending)`", y = "Count") +
+  theme_classic()
+```

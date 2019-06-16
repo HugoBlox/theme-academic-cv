@@ -2,23 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 on ryan straight</title>
-    <link>https://ryanstraight.com/publication_types/1/</link>
+    <link>/publication_types/1/</link>
     <description>Recent content in 1 on ryan straight</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://ryanstraight.com/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>An example conference paper</title>
-      <link>https://ryanstraight.com/publication/2011-03-07-commercial-off-the-shelf-video-games-as-computer-assisted-language-learning-environments/</link>
+      <title>Commercial Off-The-Shelf Video Games as Computer-Assisted Language Learning Environments</title>
+      <link>/publication/2011-03-07-commercial-off-the-shelf-video-games/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanstraight.com/publication/2011-03-07-commercial-off-the-shelf-video-games-as-computer-assisted-language-learning-environments/</guid>
-      <description></description>
+      <guid>/publication/2011-03-07-commercial-off-the-shelf-video-games/</guid>
+      <description>
+
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>The Development and Delivery of Custom Mobile Apps for K-12 Learning: Viable  Options for Educators</title>
+      <link>/publication/2011-03-07-the-development-and-delivery-of-custom-mobile/</link>
+      <pubDate>Mon, 07 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2011-03-07-the-development-and-delivery-of-custom-mobile/</guid>
+      <description>
+
+
+
+</description>
     </item>
     
   </channel>

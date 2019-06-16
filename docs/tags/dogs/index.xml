@@ -2,240 +2,167 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dogs on ryan straight</title>
-    <link>https://ryanstraight.com/tags/dogs/</link>
+    <link>/tags/dogs/</link>
     <description>Recent content in dogs on ryan straight</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Tue, 24 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://ryanstraight.com/tags/dogs/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/tags/dogs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Not that Kind of Hot Dog</title>
-      <link>https://ryanstraight.com/2018/07/24/not-that-kind-of-hot-dog/</link>
+      <link>/2018/07/24/not-that-kind-of-hot-dog/</link>
       <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanstraight.com/2018/07/24/not-that-kind-of-hot-dog/</guid>
+      <guid>/2018/07/24/not-that-kind-of-hot-dog/</guid>
       <description>
+&lt;script src=&#34;/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/jquery/dist/jquery.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/d3/d3.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/rmarkdown-libs/metrics-graphics/dist/metricsgraphics.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;link href=&#34;/rmarkdown-libs/metrics-graphics/dist/mg_regions.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/metrics-graphics/dist/metricsgraphics.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/metrics-graphics/dist/mg_regions.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/metricsgraphics-binding/metricsgraphics.js&#34;&gt;&lt;/script&gt;
 
-&lt;p&gt;It&amp;rsquo;s hot outside in Arizona. I mean, it&amp;rsquo;s hot virtually everywhere, to be fair. We&amp;rsquo;re at the very beginning of an extreme heat advisory that lasts from yesterday (July 23, 2018) morning all the way through Wednesday night. It&amp;rsquo;s dangerously hot.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; Keep in mind it&amp;rsquo;s actually hotter &lt;em&gt;today&lt;/em&gt; than it was yesterday. Today it&amp;rsquo;s a high of 112F (44.4C). The images you&amp;rsquo;ll find below were taken on a day with a high of 109F (42.7C).&lt;/p&gt;
 
+&lt;p&gt;It’s hot outside in Arizona. I mean, it’s hot virtually everywhere, to be fair. We’re at the very beginning of an extreme heat advisory that lasts from yesterday (July 23, 2018) morning all the way through Wednesday night. It’s dangerously hot.&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; Keep in mind it’s actually hotter &lt;em&gt;today&lt;/em&gt; than it was yesterday. Today it’s a high of 112F (44.4C). The images you’ll find below were taken on a day with a high of 109F (42.7C).&lt;/p&gt;
 &lt;p&gt;Now, you know about our dogs and how much we love them. (Read: spoil.) Considering the excessive heat warning, I began wondering just how hot the back yard gets during the day. I know the general numbers but what about in our actual back yard where our actual dogs actually walk around, actually?&lt;/p&gt;
-
-&lt;p&gt;I wanted to demonstrate what I talked about back in my Thermoception episode of The New Professor&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;: the difference between ambient air temperature and the temperature of the pavement. This is especially important for animals.&lt;/p&gt;
-
-&lt;p&gt;Recently having procured an infrared thermometer to use when cooking, it occurred to me I could use it to really illustrate these dangers. These are taken in the same spots throughout the day. You&amp;rsquo;ll see when and how the shade from the house alters the temperature. Please, think about this when you want to take your dogs out.&lt;/p&gt;
-
-&lt;p&gt;While it&amp;rsquo;s not a perfect analog, consider these water temperatures and time required for &amp;ldquo;deep burn.&amp;rdquo;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;iframe src=&#34;./figure/steak.html&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Below each picture and accompanying temperature is a description of a relative internal cooking temperature&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; for comparison.&lt;/p&gt;
-
-&lt;h2 id=&#34;11am&#34;&gt;11am&lt;/h2&gt;
-
-
+&lt;p&gt;I wanted to demonstrate what I talked about back in my Thermoception episode of The New Professor&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;: the difference between ambient air temperature and the temperature of the pavement. This is especially important for animals.&lt;/p&gt;
+&lt;p&gt;Recently having procured an infrared thermometer to use when cooking, it occurred to me I could use it to really illustrate these dangers. These are taken in the same spots throughout the day. You’ll see when and how the shade from the house alters the temperature. Please, think about this when you want to take your dogs out.&lt;/p&gt;
+&lt;p&gt;While it’s not a perfect analog, consider these water temperatures and time required for “deep burn.”&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div id=&#34;mjs-cc20a9628e7db01b70b70622c04e10&#34; class=&#34;metricsgraphics html-widget&#34; style=&#34;width:672px;height:480px;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;mjs-cc20a9628e7db01b70b70622c04e10-legend&#34; class=&#34;metricsgraphics html-widget-legend&#34;&gt;&lt;/div&gt;
+&lt;script type=&#34;application/json&#34; data-for=&#34;mjs-cc20a9628e7db01b70b70622c04e10&#34;&gt;{&#34;x&#34;:{&#34;forCSS&#34;:null,&#34;regions&#34;:null,&#34;orig_posix&#34;:false,&#34;data&#34;:{&#34;temp&#34;:[127,133,140,148,155],&#34;sec&#34;:[60,15,5,2,1],&#34;stringssAsFactors&#34;:[false,false,false,false,false]},&#34;x_axis&#34;:true,&#34;y_axis&#34;:true,&#34;baseline_accessor&#34;:null,&#34;predictor_accessor&#34;:null,&#34;show_confidence_band&#34;:null,&#34;show_secondary_x_label&#34;:null,&#34;chart_type&#34;:&#34;line&#34;,&#34;xax_format&#34;:&#34;plain&#34;,&#34;x_label&#34;:&#34;Degrees Farenheit&#34;,&#34;y_label&#34;:&#34;Seconds of contact&#34;,&#34;markers&#34;:[{&#34;temp&#34;:133,&#34;label&#34;:&#34;Medium rare steak&#34;},{&#34;temp&#34;:153,&#34;label&#34;:&#34;Medium well steak&#34;}],&#34;baselines&#34;:null,&#34;linked&#34;:false,&#34;title&#34;:null,&#34;description&#34;:null,&#34;left&#34;:80,&#34;right&#34;:10,&#34;bottom&#34;:60,&#34;buffer&#34;:8,&#34;format&#34;:&#34;count&#34;,&#34;y_scale_type&#34;:&#34;linear&#34;,&#34;yax_count&#34;:5,&#34;xax_count&#34;:6,&#34;x_rug&#34;:false,&#34;y_rug&#34;:false,&#34;area&#34;:false,&#34;missing_is_hidden&#34;:false,&#34;size_accessor&#34;:null,&#34;color_accessor&#34;:null,&#34;color_type&#34;:&#34;number&#34;,&#34;color_range&#34;:[&#34;blue&#34;,&#34;red&#34;],&#34;size_range&#34;:[1,5],&#34;bar_height&#34;:20,&#34;min_x&#34;:null,&#34;max_x&#34;:null,&#34;min_y&#34;:null,&#34;max_y&#34;:null,&#34;bar_margin&#34;:1,&#34;binned&#34;:false,&#34;bins&#34;:null,&#34;least_squares&#34;:false,&#34;interpolate&#34;:&#34;cardinal&#34;,&#34;decimals&#34;:2,&#34;show_rollover_text&#34;:true,&#34;x_accessor&#34;:&#34;temp&#34;,&#34;y_accessor&#34;:&#34;sec&#34;,&#34;multi_line&#34;:null,&#34;geom&#34;:&#34;line&#34;,&#34;yax_units&#34;:&#34;&#34;,&#34;legend&#34;:null,&#34;legend_target&#34;:null,&#34;y_extended_ticks&#34;:false,&#34;x_extended_ticks&#34;:false,&#34;target&#34;:&#34;#mjs-cc20a9628e7db01b70b70622c04e10&#34;,&#34;full_width&#34;:true,&#34;full_height&#34;:true,&#34;animate_on_load&#34;:true,&#34;color&#34;:&#34;Red&#34;,&#34;colors&#34;:&#34;Red&#34;},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
+&lt;p&gt;Below each picture and accompanying temperature is a description of a relative internal cooking temperature&lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt; for comparison.&lt;/p&gt;
+&lt;div id=&#34;am&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;11am&lt;/h2&gt;
+&lt;p&gt;Gravel at 11am: 
 
 
 &lt;figure&gt;
 
-&lt;img src=&#34;1100-gravel.jpg&#34; /&gt;
+&lt;img src=&#34;1100-gravel.jpg&#34; alt=&#34;Gravel at 11am&#34; /&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Gravel at 11am&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
-
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Patio at 11am: 
 
 
 &lt;figure&gt;
 
-&lt;img src=&#34;1100-patio.jpg&#34; /&gt;
+&lt;img src=&#34;1100-patio.jpg&#34; alt=&#34;Patio at 11am&#34; /&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Patio at 11am&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
-&lt;h2 id=&#34;12pm&#34;&gt;12pm&lt;/h2&gt;
-
-
+&lt;/figure&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;pm&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;12pm&lt;/h2&gt;
+&lt;p&gt;Gravel at 12pm: 
 
 
 &lt;figure&gt;
 
-&lt;img src=&#34;1200-gravel.jpg&#34; /&gt;
+&lt;img src=&#34;1200-gravel.jpg&#34; alt=&#34;Gravel at 12pm&#34; /&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Gravel at 12pm&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
-
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Patio at 12pm: 
 
 
 &lt;figure&gt;
 
-&lt;img src=&#34;1200-patio.jpg&#34; /&gt;
+&lt;img src=&#34;1200-patio.jpg&#34; alt=&#34;Patio at 12pm&#34; /&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Gravel at 12pm&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
-&lt;h2 id=&#34;1pm&#34;&gt;1pm&lt;/h2&gt;
-
-
+&lt;/figure&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;pm-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;1pm&lt;/h2&gt;
+&lt;p&gt;Gravel at 1pm: 
 
 
 &lt;figure&gt;
 
-&lt;img src=&#34;1300-gravel.jpg&#34; /&gt;
+&lt;img src=&#34;1300-gravel.jpg&#34; alt=&#34;Gravel at 1pm&#34; /&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Gravel at 1pm&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
-
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Patio at 1pm: 
 
 
 &lt;figure&gt;
 
-&lt;img src=&#34;1300-patio.jpg&#34; /&gt;
+&lt;img src=&#34;1300-patio.jpg&#34; alt=&#34;Patio at 1pm&#34; /&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Patio at 1pm&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
-&lt;h2 id=&#34;2-30pm&#34;&gt;2:30pm&lt;/h2&gt;
-
-
+&lt;/figure&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;pm-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2:30pm&lt;/h2&gt;
+&lt;p&gt;Gravel at 2:30pm: 
 
 
 &lt;figure&gt;
 
-&lt;img src=&#34;1430-gravel.jpg&#34; /&gt;
+&lt;img src=&#34;1430-gravel.jpg&#34; alt=&#34;Gravel at 2:30pm&#34; /&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Gravel at 2:30pm&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
-
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Patio at 2:30pm: 
 
 
 &lt;figure&gt;
 
-&lt;img src=&#34;1430-patio.jpg&#34; /&gt;
+&lt;img src=&#34;1430-patio.jpg&#34; alt=&#34;Patio at 2:30pm&#34; /&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Patio at 2:30pm&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
-&lt;h2 id=&#34;3-30pm&#34;&gt;3:30pm&lt;/h2&gt;
-
-
+&lt;/figure&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;pm-3&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;3:30pm&lt;/h2&gt;
+&lt;p&gt;Gravel at 3:30pm: 
 
 
 &lt;figure&gt;
 
-&lt;img src=&#34;1530-gravel.jpg&#34; /&gt;
+&lt;img src=&#34;1530-gravel.jpg&#34; alt=&#34;Gravel at 3:30pm&#34; /&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Gravel at 3:30pm&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
-
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Patio at 3:30pm: 
 
 
 &lt;figure&gt;
 
-&lt;img src=&#34;1530-patio.jpg&#34; /&gt;
+&lt;img src=&#34;1530-patio.jpg&#34; alt=&#34;Patio at 3:30pm&#34; /&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Patio at 3:30pm&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
-&lt;h2 id=&#34;7-30pm&#34;&gt;7:30pm&lt;/h2&gt;
-
+&lt;/figure&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;pm-4&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;7:30pm&lt;/h2&gt;
 &lt;p&gt;Just so you can see how quickly it cools down after the sun stops beating down on it.&lt;/p&gt;
-
-
+&lt;p&gt;Patio at 7:30pm: 
 
 
 &lt;figure&gt;
 
-&lt;img src=&#34;1930-patio.jpg&#34; /&gt;
+&lt;img src=&#34;1930-patio.jpg&#34; alt=&#34;Patio at 7:30pm&#34; /&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Patio at 7:30pm&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
+&lt;/figure&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
-
 &lt;hr /&gt;
-
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;&lt;a href=&#34;https://www.wunderground.com/history/daily/KTUS/date/2018-7-23&#34; target=&#34;_blank&#34;&gt;https://www.wunderground.com/history/daily/KTUS/date/2018-7-23&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:2&#34;&gt;&lt;a href=&#34;https://thenewprofessor.com/005&#34; target=&#34;_blank&#34;&gt;https://thenewprofessor.com/005&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:2&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:3&#34;&gt;&lt;a href=&#34;http://burncentrecare.co.uk/what_can_cause_a_burn.htm&#34; target=&#34;_blank&#34;&gt;http://burncentrecare.co.uk/what_can_cause_a_burn.htm&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:3&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:4&#34;&gt;&lt;a href=&#34;https://whatscookingamerica.net/Information/MeatTemperatureChart.htm&#34; target=&#34;_blank&#34;&gt;https://whatscookingamerica.net/Information/MeatTemperatureChart.htm&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:4&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://www.wunderground.com/history/daily/KTUS/date/2018-7-23&#34; class=&#34;uri&#34;&gt;https://www.wunderground.com/history/daily/KTUS/date/2018-7-23&lt;/a&gt;&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://thenewprofessor.com/005&#34; class=&#34;uri&#34;&gt;https://thenewprofessor.com/005&lt;/a&gt;&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;&lt;a href=&#34;http://burncentrecare.co.uk/what_can_cause_a_burn.htm&#34; class=&#34;uri&#34;&gt;http://burncentrecare.co.uk/what_can_cause_a_burn.htm&lt;/a&gt;&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn4&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://whatscookingamerica.net/Information/MeatTemperatureChart.htm&#34; class=&#34;uri&#34;&gt;https://whatscookingamerica.net/Information/MeatTemperatureChart.htm&lt;/a&gt;&lt;a href=&#34;#fnref4&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>

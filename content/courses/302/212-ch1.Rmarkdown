@@ -1,0 +1,126 @@
+---
+title: 'Introduction to Statistics' 
+linktitle: 'Chapter 1: Introduction to Statistics'
+toc: true
+type: docs
+date: "2019-06-05T00:00:00-07:00"
+draft: false
+menu:
+  302:
+    weight: 50
+    parent: "mA"
+    identifier: "ch1"
+    name: "Chapter 1: Introduction to Statistics"
+
+
+# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
+weight: 50
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Learning Objectives for *Introduction to Inferential and Descriptive Statistics*
+
+These are the learning objectives for this portion of the class:
+
+1. Give examples of how statistics can lend credibility to an argument
+1. Distinguish between descriptive statistics and inferential statistics
+1. Distinguish between a sample and a population
+1. Distinguish between simple random sampling and stratified sampling
+1. Distinguish between random sampling and random assignment
+1. Define and distinguish between independent and dependent variables
+1. Define and distinguish between discrete and continuous variables
+1. Define and distinguish between qualitative and quantitative variables
+1. Define percentiles
+1. Define and distinguish among nominal, ordinal, interval, and ratio scales
+1. Define "distribution"
+1. Interpret a frequency distribution
+1. Distinguish between a frequency distribution and a probability distribution
+1. Construct a grouped frequency distribution for a continuous variable
+1. Identify the skew of a distribution
+1. Identify bimodal, leptokurtic, and platykurtic distributions
+1. Learn how to use summation notation
+1. Give the formula for a linear transformation
+1. Determine whether a transformation is linear
+
+## Consumables
+
+Each week there will be a number of items for you to consume, be it reading, watching, listening, or a combination thereof. This week, we will begin at the beginning:
+
+- [Chapter 1 of the Online Statistics Textbook](http://onlinestatbook.com/2/introduction/introduction.html)
+- *Manga Guide to Statistics* sections of interest^[Note that the Manga Guide does not follow our progression step-for-step but is intended as an approachable supplement.]:
+    - Chapters 1 and 2
+- [Introductory Statistics](https://www.youtube.com/watch?v=YHXadaW_lso)
+
+### R and R Studio
+
+The software we will be using to perform our statistical analyses and plotting/graphing is called **R** and its associated IDE (graphical interface) called **RStudio**. 
+
+* [Download R](https://cran.r-project.org/)
+* [Download RStudio](https://www.rstudio.com/products/rstudio/download/#download)
+
+You'll find more resources, guides, and tutorials for using R and RStudio on the [guides]({{< relref "421-rguides.markdown" >}}) page. 
+
+## Assignments
+
+Your assignments for this portion of week 1 are as follows:
+
+### Introductions
+
+We are more than just a collection of random people studying the same material; we are, in fact, a community! [Research has shown](http://wenger-trayner.com/resources/what-is-a-community-of-practice/) we’re all better off in this way so let’s get to know one another! So let’s jump in straight away with something really creative that will (hopefully!) set the tone for the rest of the class.
+
+#### Steps to Completion
+
+Using the questions below (some, hopefully all!) you will [create an Adobe Spark **Video**](https://spark.adobe.com) (not a Page or Post!) introduction of yourself and share the link in the [#etcv302 channel](https://uasouth.slack.com/messages/etcv302/whats_new/) of our Slack team. You should be using this assignment as a means of becoming familiar with how to use Slack and its various features.
+
+First, [watch this tutorial](https://www.youtube.com/watch?v=-nKTi5ydKbw) and/or [this tutorial](https://youtu.be/-iZyMWBU708?t=36s) on creating a Spark video. Keep in mind that the different options you’re given when making a video (Promote an Idea, A Hero’s Journey, etc.) simply give you prompts for scenes and have no real impact on what you can do.
+
+Here’s [a short sample of an introduction](https://www.youtube.com/watch?v=wnxDS670xgs) done by the director of Educational Technology at a Texas high school. Appropriate, isn’t it? And [here’s a great one](https://www.youtube.com/watch?v=AicrQOsLlLs), if very brief.
+
+Now, [go to the Spark website](https://spark.adobe.com) and start getting creative! Also, while you’re doing this [be sure to get access to the Adobe Creative Cloud now](https://adobe-student.arizona.edu/) if you don’t have it already (because it’s free and how cool is that?).
+
+Once this is done, watch your classmates' introductions and reply to all of them. You can respond to or acknowledge something they said, or just say 'hello' if you know them already. Be as chatty as you like while keeping in mind the netiquette guidelines posted on D2L. This is also a good time to remark on the possibility of collaborating later in the semester.
+
+**Please** be proactive in these kinds of assignments and do your best to include individuals that haven't had responses yet. If you wait until the last day of the week to post it makes 'dialogue' very difficult. These timely participation/response items generally result in better outcomes for everyone. Try to include as much info about yourself as you’re comfortable sharing. Use the following questions as a guide but feel free to include more and other content.
+
+1. Who are you? (Name, where you're from, what characterizes/identifies you, etc)
+1. Identify the general region in which you reside. Tucson? Amsterdam? The Moon?
+1. Major/minor/emphasis/speciality… what are you studying and what are you good at?
+1. Why are you taking this class?
+1. Favorite past-time/activity/hobby?
+1. Briefly explain your experience with online or hybrid classes.
+1. Give your peers a bit of friendly advice you've gathered on how to complete classes successfully (generally, specifically with your instructor, or both).
+
+### Get With Your Group
+
+You'll want to contact your group members *as soon as possible* to start your collaborative work. Creating [a private group in Slack](https://get.slack.help/hc/en-us/articles/212281468-Send-direct-messages#send-a-new-dm) is probably the best way to do this. How you organize is up to you. Your randomized groups are available in D2L in the navbar.
+
+### Quiz
+
+Don't forget about your chapter quiz! Find it in the Quizzes menu in D2L.
+
+### Chapter Questions
+
+Pick a question from OST Chapter 1's Exercises section that one one else has selected yet, and post how you solved it. Respond to one of your classmate's answers by the due date.
+
+* 2 pts per each chapter’s Slack channel (initial post AND response)
+* no partial credit for initial post only or response only
+
+You might be asking yourself: **How do I know no one else has chosen that question?** You should choose your question *early* and post it in the Slack channel, claiming your spot! When you go to choose your question make sure you're looking in the chapter channel to verify you're the first.
+
+#### Steps to completion
+
+1. Choose [a question from the end of the chapter in the section called "Exercises" to answer](http://onlinestatbook.com/2/introduction/ch1_exercises.html).  Post the question and your answer, and make sure to justify your response.
+
+ For example, if you determine that a type of statistic is descriptive, provide your reasoning being specific about the problem presented and your answer.
+
+1. Next, respond to another students' answers by asking a question for clarification, providing a personal experience, posting a thought-provoking question, taking a controversial, but professional stand, adding something new to the conversation, quoting another student's comment and add an additional idea based on this comment, etc.
+
+ Your responses should be respectful and offered in a professional manner. You may wish to review the [behavior Course Policies]({{< relref "101-syllabus.markdown" >}}) to help frame your response. Remember, you will be responding about the specific idea, issue, or question.
+
+
+**Do not consider question #9. For question #10, show detailed calculations.**
+
+*You may not answer a question that has been previously addressed.*

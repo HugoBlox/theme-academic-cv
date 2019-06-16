@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>INFV 401: Introduction to Human-Computer Interaction on ryan straight</title>
+    <link>/courses/401/</link>
+    <description>Recent content in INFV 401: Introduction to Human-Computer Interaction on ryan straight</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Wed, 12 Jun 2019 00:00:00 -0700</lastBuildDate>
+    
+	    <atom:link href="/courses/401/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Syllabus</title>
+      <link>/courses/401/syllabus/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/courses/401/syllabus/</guid>
+      <description>
+
+&lt;h2 id=&#34;course-info&#34;&gt;Course Info&lt;/h2&gt;
+
+&lt;h3 id=&#34;spring-2018-19-1st-7-5-weeks&#34;&gt;Spring 2018-19, 1st 7.5 weeks&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;January 9, 2019 - March 1, 2019&lt;/em&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Meeting time&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Fully online with synchronous online meetings held: Tuesdays from 6-8pm (Arizona local time; &lt;a href=&#34;https://d2l.arizona.edu&#34; target=&#34;_blank&#34;&gt;link in LMS&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;People&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Instructor: Dr. Ryan M. Straight&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Email&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;ryanstraight&amp;commat;email.arizona.edu&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Office Hours&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Virtual open-door: &lt;a href=&#34;https://arizona.zoom.us/my/ryanstraight&#34; target=&#34;_blank&#34;&gt;https://arizona.zoom.us/my/ryanstraight&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Slack&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&amp;commat;ryanstraight&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Twitter&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&amp;commat;ryanstraight&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;PGP&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://keybase.io/ryanstraight&#34; target=&#34;_blank&#34;&gt;https://keybase.io/ryanstraight&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;course-description&#34;&gt;Course Description&lt;/h2&gt;
+
+&lt;p&gt;This course is a beginning level exploration of human-computer design, interaction and interfaces. The students will be introduced to the theory of human-computer interaction (HCI) as well as to the principles of effective visual design using user experiences.&lt;/p&gt;
+
+&lt;h2 id=&#34;course-overview&#34;&gt;Course Overview&lt;/h2&gt;
+
+&lt;p&gt;On completing this course, students will have participated in each step of the interaction design process.  They will be familiar with the vocabulary, tools, and methodologies of an interaction designer and know the role of each member of an interaction design team.  Students will understand how human-computer interaction fits in the larger topic of interaction design.&lt;/p&gt;
+
+&lt;p&gt;This course utilizes a variety of educational activities to deliver and assess understanding of the course content.  Students will work in collaborative groups to complete weekly questions from the reading assignments, participate in activities during the weekly course meetings, complete a series of five independent projects, and engage in other activities as assigned.&lt;/p&gt;
+
+&lt;p&gt;We will cover many topics in this class, we will find ourselves in many places and times, and we will be both historians and futurists. Any study of the intersection of technology and education requires a foray into myriad topics, including psychology, sociology, media studies, gender studies, geo-politics, security, futurism and more. Be prepared to become both consumers and creators. Bring your passion to this collaborative experience and we will all benefit greatly.&lt;/p&gt;
+
+&lt;p&gt;This course has been updated for inclusion in the Cyber Security program. With this inclusion, the notions of security/usability balance, appropriate timing of security considerations, and the place of security at various points in the design, development, and testing of user interfaces is addressed. Through this, students will understand user interface issues that will affect the implementation and perception of security mechanisms and the behavioral impacts of various security ‘policies.’&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;course-objectives-tabset-tabset-fade&#34;&gt;Course Objectives {.tabset .tabset-fade}&lt;/h1&gt;
+
+&lt;p&gt;Based upon Association for Educational Communications and Technology&amp;rsquo;s &lt;a href=&#34;http://aect.site-ym.com/resource/resmgr/AECT_Documents/AECT_Standards_adopted7_16_2.pdf&#34; target=&#34;_blank&#34;&gt;AECT Standards for Professional Education Programs (2012 version)&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;This course is broken down into modules that last between 1 and 2 weeks.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;module-1&#34;&gt;Module 1&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Explain the difference between good and poor interaction design.&lt;/li&gt;
+&lt;li&gt;Explain what is good and bad about an interactive product in terms of the goals and core principles of interaction design.&lt;/li&gt;
+&lt;li&gt;Explain what is meant by problem space.&lt;/li&gt;
+&lt;li&gt;Describe what a conceptual model is and how to begin to formulate one.&lt;/li&gt;
+&lt;li&gt;Outline the core interaction types for informing the development of a conceptual model.&lt;/li&gt;
+&lt;li&gt;Explain what cognition is and why it is important for interaction design.&lt;/li&gt;
+&lt;li&gt;Explain what mental models are.&lt;/li&gt;
+&lt;li&gt;Practice generating and eliciting mental models from others.&lt;/li&gt;
+&lt;li&gt;Identify and explain implicit and explicit security policies in systems.&lt;/li&gt;
+&lt;li&gt;Analyze the role of social engineering and its continued use as a primary attack vector.&lt;/li&gt;
+&lt;li&gt;Discuss and describe the role of and best practices in authentication passwords.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;module-2&#34;&gt;Module 2&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Describe the social mechanisms that are used by people when communicating and collaborating.&lt;/li&gt;
+&lt;li&gt;Discuss how social media have changed the ways in which we keep in touch, make contact, and manage our social and work lives.&lt;/li&gt;
+&lt;li&gt;Describe some of the new forms of social behavior that have emerged as a result of using new social media and communication technologies.&lt;/li&gt;
+&lt;li&gt;Describe how emotions relate to the user experience&lt;/li&gt;
+&lt;li&gt;Identify examples of interfaces that are both pleasurable and usable.&lt;/li&gt;
+&lt;li&gt;Present well-known models and frameworks of emotion and pleasure.&lt;/li&gt;
+&lt;li&gt;Critique the persuasive impact of an online agent on customers.&lt;/li&gt;
+&lt;li&gt;Cite examples of different kinds of interfaces&lt;/li&gt;
+&lt;li&gt;Discuss the difference between graphical and natural user interfaces (GUIs vs NUIs).&lt;/li&gt;
+&lt;li&gt;Compare and select interfaces appropriate to given applications or activities.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;module-3&#34;&gt;Module 3&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Discuss how to plan and run a successful data gathering program.&lt;/li&gt;
+&lt;li&gt;List steps for planning and running a data gathering interview.&lt;/li&gt;
+&lt;li&gt;Cite important practices for questionnaire design&lt;/li&gt;
+&lt;li&gt;Describe frameworks for focusing an observation in the field&lt;/li&gt;
+&lt;li&gt;Discuss the difference between qualitative and quantitative data and analysis.&lt;/li&gt;
+&lt;li&gt;Analyze and report data gathered from a questionnaire.&lt;/li&gt;
+&lt;li&gt;Explain strategies for analyzing data from an interview or observation.&lt;/li&gt;
+&lt;li&gt;Evaluate and design authentication interfaces.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;module-4&#34;&gt;Module 4&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Explain the main principles of a user-centered approach to Interaction Design&lt;/li&gt;
+&lt;li&gt;Describe a simple lifecycle model of interaction design.&lt;/li&gt;
+&lt;li&gt;Perform each step of the interaction design lifecycle on a project with a given scope&lt;/li&gt;
+&lt;li&gt;Describe different kinds of requirements.&lt;/li&gt;
+&lt;li&gt;Identify different kinds of requirements from a simple description.&lt;/li&gt;
+&lt;li&gt;Match data gathering techniques to requirements gathering activities&lt;/li&gt;
+&lt;li&gt;Perform hierarchical task analysis on a simple description.&lt;/li&gt;
+&lt;li&gt;Describe prototyping and different types of prototyping activities.&lt;/li&gt;
+&lt;li&gt;Produce simple prototypes from the models developed during the requirements activity.&lt;/li&gt;
+&lt;li&gt;Create a conceptual model for a product and justify your choices.&lt;/li&gt;
+&lt;li&gt;Explain the use of scenarios and prototypes in design.&lt;/li&gt;
+&lt;li&gt;Analyze policies that users control and hidden policies controlled by a system.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;module-5&#34;&gt;Module 5&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Define key concepts and terms used in evaluation.&lt;/li&gt;
+&lt;li&gt;Describe a range of different types of evaluation methods.&lt;/li&gt;
+&lt;li&gt;Discuss some of the practical challenges that evaluators have to consider when doing evaluation.&lt;/li&gt;
+&lt;li&gt;Match different evaluation methods to their appropriate stages of the design process.&lt;/li&gt;
+&lt;li&gt;Define the components of the DECIDE framework described in the book.&lt;/li&gt;
+&lt;li&gt;Describe the components required to conduct a usability test and the kind of information that can be gathered&lt;/li&gt;
+&lt;li&gt;Conduct a simple usability test of an existing website or interactive product.&lt;/li&gt;
+&lt;li&gt;List and define the 10 heuristics identified by Nielsen, et al.&lt;/li&gt;
+&lt;li&gt;Conduct a heuristic evaluation of an existing website or interactive product.&lt;/li&gt;
+&lt;li&gt;Define and demonstrate how implementing security impacts the user experience.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;bonus&#34;&gt;Bonus&lt;/h2&gt;
+
+&lt;p&gt;In each module students may turn in an optional User Experience Analysis (UXA).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;required-readings&#34;&gt;Required Readings&lt;/h1&gt;
+
+&lt;p&gt;Preece, J., Sharp, H., &amp;amp; Rogers, Y. (2015). &lt;em&gt;Interaction Design: Beyond Human-Computer Interaction&lt;/em&gt;. 4th ed.  Chinchester, West Sussex, UK: Wiley. ISBN: 978-1119020752.&lt;a href=&#34;http://www.id-book.com&#34; target=&#34;_blank&#34;&gt;http://www.id-book.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Browsing &lt;a href=&#34;http://www.id-book.com/&#34; target=&#34;_blank&#34;&gt;the book’s website&lt;/a&gt; is highly encouraged.&lt;/p&gt;
+
+&lt;p&gt;Additional readings are also required and can be found in the LMS, including the OWASP Secure Coding and Testing guidelines: &lt;a href=&#34;https://www.owasp.org/&#34; target=&#34;_blank&#34;&gt;https://www.owasp.org/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;assignments-tabset-tabset-fade&#34;&gt;Assignments {.tabset .tabset-fade}&lt;/h1&gt;
+
+&lt;h2 id=&#34;point-values&#34;&gt;Point values&lt;/h2&gt;
+
+&lt;p&gt;Following is a basic list of assignments and their point values. Note that this may change throughout the semester depending on class needs.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Assignment&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Point value&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Weekly Assignments&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;160 (total)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Weekly reading responses&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;90 (10pts x 9 chapters)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Weekly participation&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;70 (10pts x 7 weeks)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Annotated Bibliography&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Project 1: The Conceptual Model&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;30&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Project 2: Personas&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;30&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Project 3: Lo-Fidelity Prototypes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;36&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Project 4: Heuristic Evaluation&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;30&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Project 5: Usability &amp;amp; Security Testing&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;50&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;‘Connections’ Reflection Paper&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;User Experience Analyses&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;25 (5pts x 5)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Final Reflection&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Total: 376&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;weekly-assignments&#34;&gt;Weekly Assignments&lt;/h2&gt;
+
+&lt;p&gt;Given the nature of this field, weekly participation in class-based discussion is essential and required. Students will work collaboratively weekly on a set of questions and prompts provided by the instructor. Participation points double as attendance points. If you will miss the class meeting you must &lt;strong&gt;a&lt;/strong&gt;) notify your instructor 24 hours in advance, &lt;strong&gt;b&lt;/strong&gt;)  watch the recorded class meeting, and &lt;strong&gt;c&lt;/strong&gt;) take and submit your notes for that class meeting to the dropbox. (If it wasn’t made clear earlier, you benefit greatly from coming to class.)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;160 points: 90 points spread out through 9 chapter response sets and 10 points per week for 7 weeks of in-class participation (varies from attendance and other requirements)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;annotated-bibliography&#34;&gt;Annotated Bibliography&lt;/h2&gt;
+
+&lt;p&gt;Students will produce an annotated bibliography with an introduction, a conclusion, and in proper APA 6th edition style. See the LMS for many resources on both writing an annotated bibliography and correctly using 6th edition APA. The topic of the bibliography is chosen by the student, so long as it fits within the realm of HCI.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;25 points, evaluation and point distribution in assignment rubric.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
+
+&lt;p&gt;Each module culminates in a project wherein students are provided with a real-world problem to solve. Projects are individual in nature but may require students to perform interview or testing simulations with third parties outside the class. Each project has an associated (entirely optional and bonus) User Experience Analysis that allows students to apply what they’ve accomplished in the project to a more personal, creative, familiar experience.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Project 1:  The Conceptual Model&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This project is intended to allow you to demonstrate your understanding of the conceptual model, how it fits into the larger realm of interaction design, and to flex your creative muscles. There is no required format for how the material should be presented beyond using a table where specified. Students will also reflect on the importance of and need to include security considerations at the conceptual stage.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;30 points, evaluation and point distribution in assignment rubric.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;5 bonus points for optional UXA&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Project 2: Personas&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This project aims at introducing students to the concept of personas and their usefulness and place in the interaction design process. Personas should be in narrative form and should include a photo, name, and personal details that bring the persona to life. Each persona must include likes, dislikes, and goals for visiting the site and be referenced to the analytics data when possible. Students are also introduced to Creative Commons and public domain materials.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;30 points, evaluation and point distribution in assignment rubric.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;5 bonus points for optional UXA&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Project 3: Lo-Fi Prototypes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Students are given a scenario in which they provide a low fidelity prototype to a client for testing. Students will provide an appropriate interface metaphor, interaction type, the paper prototype itself, a step-by-step documentation of the interactions within the prototype (as per the scenario), and a reflection of their process &lt;em&gt;and&lt;/em&gt; the experience of having someone else ‘test’ the prototype. Students’ artistic skills are not evaluated. Inclusion a of standards-based authentication module is required.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;36 points, evaluation and point distribution in assignment rubric.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;5 bonus points for optional UXA&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Project 4: The Heuristic Evaluation &amp;amp; Security Audit&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Students will be introduced to methods for testing the usability of websites and perform tests on real-world interfaces and best-practices for site security as per OWASP. They will define different methods for heuristically evaluating a website and choose the appropriate test given example sites at different stages of development. Students will propose methods for resolving issues given a site with a predefined set of issues. Students will also provide a detailed evaluation and tear-down of site security and provide industry-standard suggestions for improvement.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;30 points, evaluation and point distribution in assignment rubric.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;5 bonus points for optional UXA&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Project 5: User &amp;amp; Security Experience Testing&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Given a specific scenario, students will develop a usability testing plan for a website that addresses a particular client request. Students’ testing plans will cover the scope, purpose, testing sessions, participant descriptions, scenarios, quantitative and qualitative metrics, the roles performed by those in the testing group, and an analysis of user experience regarding current security measures in place on that website. Tests performed by the student will ultimately comply with standards presented by Usability.gov and in part the OWASP Testing Guide.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;50 points, evaluation and point distribution in assignment rubric.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;5 bonus points for optional UXA&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;reflections&#34;&gt;Reflections&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Connections: Single Point of Failure&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Students will reflect on the strength as well as the fragility of large-scale systems based on human-computer interaction. Introduced to the concept of the ‘single point of failure,’ students will critically examine HCI from both technical and societal standpoints, as well as their own assumptions and preconceptions about that complex intersection.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;15 points, evaluation and point distribution in assignment rubric.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Final Reflection&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Students will subjectively reflect on the class as a whole (both in content and delivery), addressing their expectations of the experience, what they perceived (specifically regarding the online environment), and what and how students felt were their biggest accomplishments and hurdles throughout the semester. This is not intended to be a replacement for TCEs.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;5 bonus points&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;assessment-tabset-tabset-fade&#34;&gt;Assessment {.tabset .tabset-fade}&lt;/h1&gt;
+
+&lt;h2 id=&#34;grading-methodology&#34;&gt;Grading Methodology&lt;/h2&gt;
+
+&lt;p&gt;I believe teaching a class should be like good jazz: there’s a basic structure with which you start but you shouldn’t be afraid to try variations on a theme. That is to say, the assignments’ and projects’ dates, point values, or even whether they are required may change throughout the term, as may the specifics of the topics we cover. Please be aware that with the exception of &lt;em&gt;extremely&lt;/em&gt; extraneous circumstances (death in the immediate family, hospitalization, etc.), **I *&lt;strong&gt;&lt;em&gt;&lt;em&gt;do not&lt;/em&gt;&lt;/em&gt;&lt;/strong&gt;* give out Incomplete grades**. You should be keeping an eye on your grade throughout the semester and, if you have any questions, do not hesitate to contact me. &lt;a href=&#34;http://catalog.arizona.edu/policy/grades-and-grading-system&#34; target=&#34;_blank&#34;&gt;http://catalog.arizona.edu/policy/grades-and-grading-system&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;example-score-breakdown&#34;&gt;Example Score Breakdown&lt;/h2&gt;
+
+&lt;p&gt;I use a simple point scale calculated to a percentage automatically by our LMS. I &lt;em&gt;do not&lt;/em&gt; round, so an effort to attain all points possible is highly encouraged. Below is an initial grading breakdown for this class. &lt;em&gt;Note: this may change as the semester moves along and point values shift or assignments are added or removed&lt;/em&gt;. Point values labeled with &lt;em&gt;italics&lt;/em&gt; are bonus and are not calculated into the final grade total.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Grade&lt;/th&gt;
+&lt;th&gt;Percentage&lt;/th&gt;
+&lt;th&gt;Points: Low&lt;/th&gt;
+&lt;th&gt;High&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;90%&lt;/td&gt;
+&lt;td&gt;338.4&lt;/td&gt;
+&lt;td&gt;376&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;B&lt;/td&gt;
+&lt;td&gt;80%&lt;/td&gt;
+&lt;td&gt;300.8&lt;/td&gt;
+&lt;td&gt;338.3&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;C&lt;/td&gt;
+&lt;td&gt;70%&lt;/td&gt;
+&lt;td&gt;263.2&lt;/td&gt;
+&lt;td&gt;300.7&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;D&lt;/td&gt;
+&lt;td&gt;60%&lt;/td&gt;
+&lt;td&gt;We need to talk.&lt;/td&gt;
+&lt;td&gt;Now.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;evaluation&#34;&gt;Evaluation&lt;/h2&gt;
+
+&lt;p&gt;You’ll notice this course does something a bit different with project grades: first, I expect everyone to aim for the highest level of achievement in a rubric; second, it is &lt;strong&gt;your&lt;/strong&gt; responsibility to explain &lt;strong&gt;how&lt;/strong&gt; you achieve that level of proficiency, not to simply state that you did. As such, you need to include in each submission a &lt;strong&gt;Grading Declaration&lt;/strong&gt;. On the last page of every assignment (even if there is a Works Cited page, it should go at the very end), simply copy the different criteria (Task 1: Objects, Task 2: Attributes, etc) and state clearly, concisely, and specifically &lt;strong&gt;how you addressed them in your project&lt;/strong&gt;. A couple examples from Project 1 could be (you should have a line for &lt;em&gt;each of the items in the rubric&lt;/em&gt;, not just what I have here):&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Task 2: Detail&lt;/strong&gt;: I created four conceptual model tables that are complete and each addresses one the four required sub-systems listed in the assignment document.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mechanics&lt;/strong&gt;: Both I and a classmate proofread my submission, looking for grammatical and spelling errors. I also double-checked my citations with the Purdue Online Writing Lab (OWL) criteria for APA formatting.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Each project has a rubric like the one below included in the assignment. &lt;em&gt;Use it as your&lt;/em&gt; &lt;strong&gt;guide&lt;/strong&gt; &lt;em&gt;to create your Declaration&lt;/em&gt;. See &lt;a href=&#34;https://docs.google.com/document/d/1Uu7PWCWwSLsR_3q23I7xstV_OUgMAkdvVRZJ4nw61HM/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;this Google document&lt;/a&gt; as an example (requires UA login).&lt;/p&gt;
+
+&lt;p&gt;Please note: While the majority of projects use rubrics, there are a few projects that you will receive points for simply by completing them. If a project does not have a rubric, I will note that in the assessment section of each project. &lt;strong&gt;You should still include a Grading Declaration that explains how you fulfilled the assignment requirements.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Rubrics vary in form so I have provided an example of the rubric from the Conceptual Model project.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Beginning (1pt)&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Progressing (2pts)&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Accomplishing (3pts&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Mechanics&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;More than three errors in spelling or grammar. Two or more citation errors.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;One or two errors in spelling or grammar. One citation error.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;No errors in spelling or grammar. All properly formatted citations.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Timeliness&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Submitted prior to due date.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Task 1: Objects&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Objects given include more than three non-task related elements&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Objects include a mix of task-related and non-task-related objects&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Objects are all task-related (nouns)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Task 1: Attributes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Attributes listed include more than three implementation-focused items&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Attributes listed include a mix of implementation-focused and task-focused attributes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Attributes listed are all task-focused&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Task 1: Operations&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Operations listed include more than three implementation-focused items&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Operations listed include a mix of implementation-focused and task-focused attributes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Operations listed are all task-focused (verbs)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Task 2: Goals&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Model accounts for two or fewer of the stated or student-generated goals for the system&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Model accounts for three of the stated or student-genertaed goals for the system&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Model accounts for at least four goals from the list or student-generated goals&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Task 2: Detail&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Models are shallow, missing obvious objects, attributes, or operations for each system&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Models are fairly complete, accounting for the major objects and operations of each subsystem&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Models are complete, accounting for major objects, attributes, and operations of each subsytem&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Task 2: Objects&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Objects given include more than three non-task related elements&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Objects include a mix of task-related and implementation-focused attributes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Objects are all task-related (nouns)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Task 2: Attributes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Attributes listed include more than three implementation-focused attributes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Attributes listed include a mix of implementation- and task-focused attributes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Attributes are all task-focused&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Task 2: Operations&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Operations listed include more th an three implementation-focused items&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Operations listed are a mix of implementation- and task-focused&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Operations listed are all task-focused (verbs)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;This rubric has ten main criteria (left-hand column) and is split into two major sections. The first section, Mechanics and Timeliness, involve the logistics of the assignment. The second, the Content, contains the criteria for the actual tasks involved in the assignment.&lt;/p&gt;
+
+&lt;p&gt;There are three levels of performance for each criteria - Accomplishing, Progressing, and Beginning. My rubrics all follow the same basic structure even if the performance level labels vary.&lt;/p&gt;
+
+&lt;p&gt;Notice that the criteria &lt;em&gt;Timeliness&lt;/em&gt; has no entry for the Progressing or Beginning levels as I expect the assignment to be submitted on time.&lt;/p&gt;
+
+&lt;h2 id=&#34;gateway-requirements&#34;&gt;Gateway Requirements&lt;/h2&gt;
+
+&lt;p&gt;Also be aware that there are &lt;strong&gt;gateway requirements&lt;/strong&gt; prior to reaching the assessment rubric. For example, if a project requires you to submit an 8-10 page paper and your submission is only 6 pages (ie, does not meet the gateway requirements) &lt;strong&gt;I will simply not grade it&lt;/strong&gt;. These gateway requirements are made clear in each assignment document.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;course-schedule&#34;&gt;Course Schedule&lt;/h1&gt;
+
+&lt;p&gt;The general course schedule is maintained in detail in the LMS. Recorded class sessions are also available there. Attending class sessions (or watching the recorded session if you missed class) and submitting your notes to the appropriate weekly dropbox is &lt;strong&gt;absolutely necessary and vital&lt;/strong&gt; to your success in this class.&lt;/p&gt;
+
+&lt;p&gt;For the purposes of this class, weeks begin on MONDAY and the short week at the beginning of the short semester is not figured into the schedule. Therefore, week 1 begins on January 14. (January 9-13 should be used to begin Week 1 assignments.)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;course-technology&#34;&gt;Course Technology&lt;/h1&gt;
+
+&lt;p&gt;This is a technology-driven course. As such, you are required to have ready access to a relatively modern computer and an account that allows you to install software on that computer. You should also &lt;em&gt;be excited&lt;/em&gt; to try and use new technologies. We do a lot of that.&lt;/p&gt;
+
+&lt;p&gt;The course website can be found on D2L at &lt;a href=&#34;https://d2l.arizona.edu/&#34; target=&#34;_blank&#34;&gt;https://d2l.arizona.edu/&lt;/a&gt;. Log in with your NetID. Note that course content lives primarily within D2L but usually as Google Documents that require you to use your UA account to access. Keep this in mind if you use multiple Gmail accounts.&lt;/p&gt;
+
+&lt;p&gt;We will have a full-class chatroom/discussion board/forum on &lt;a href=&#34;https://uasouth.slack.com&#34; target=&#34;_blank&#34;&gt;Slack&lt;/a&gt;. You will be able to log into Slack via your Google Apps for Education account (it will use WebAuth). &lt;strong&gt;Having the Slack application installed on your phone is required&lt;/strong&gt; (if possible).&lt;/p&gt;
+
+&lt;p&gt;Updating your profiles in both D2L and Slack is &lt;strong&gt;required&lt;/strong&gt;. We’re spending a lot of time together, so no excuse to just be a NetID the entire time. Picture, likes and dislikes, job title, degree, home campus, the works.&lt;/p&gt;
+
+&lt;p&gt;You may be asked to use software that requires more processing power than your computer has. Contact the instructor if you feel this will prevent you from participating.&lt;/p&gt;
+
+&lt;p&gt;You will need to use your Google Apps for Education account to access much of the course. My suggestion is to create a new browser profile, sign in using your Google account, and use &lt;em&gt;only&lt;/em&gt; that profile for schoolwork. I will not grant access to personal accounts.&lt;/p&gt;
+
+&lt;p&gt;Class meetings are hosted on Zoom. &lt;strong&gt;It is REQUIRED that you have a microphone and headphones for the class meetings&lt;/strong&gt;. (A cheap set of earbuds will work if your laptop has a mic and you will be from a relatively quiet place.) &lt;strong&gt;You &lt;em&gt;will be expected&lt;/em&gt; to use them&lt;/strong&gt;. Should we have a class activity that requires a microphone and you do not have one you &lt;em&gt;will not&lt;/em&gt; receive credit for that assignment. Having working headphones and a microphone is &lt;strong&gt;not negotiable&lt;/strong&gt;. The link to our Zoom class meeting room is available in the LMS.&lt;/p&gt;
+
+&lt;p&gt;You will need to install the latest edition of the &lt;a href=&#34;https://www.google.com/chrome/browser/&#34; target=&#34;_blank&#34;&gt;Chrome browser&lt;/a&gt; for this class. Tech support is vastly simpler if everyone uses the same browser.&lt;/p&gt;
+
+&lt;p&gt;Document submissions are required to be in PDF format unless otherwise noted. Assignments should also be in APA 6th ed. formatting, which is easily achieved using &lt;a href=&#34;http://uabookstore.arizona.edu/technology/campuslicensing/default.asp&#34; target=&#34;_blank&#34;&gt;Microsoft Word&lt;/a&gt; (free for students) or Google Documents (free for all) and following the APA template in the &lt;a href=&#34;supplemental.html&#34; target=&#34;_blank&#34;&gt;supplemental&lt;/a&gt; list.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;class-policies-tabset-tabset-fade&#34;&gt;Class Policies {.tabset .tabset-fade}&lt;/h1&gt;
+
+&lt;p&gt;These policies run across all of my classes. Take the time to read them if this is your first class with me (go ahead and read them again, even if it’s not). The following are in addition to or in concert with all policies found in the University Catalog: &lt;a href=&#34;http://catalog.arizona.edu/policies&#34; target=&#34;_blank&#34;&gt;http://catalog.arizona.edu/policies&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;the-gateway&#34;&gt;THE GATEWAY&lt;/h2&gt;
+
+&lt;p&gt;In order to access the content of the course you must first pass THE GATEWAY, a syllabus quiz of sorts. It can be found in the LMS. You &lt;strong&gt;must&lt;/strong&gt; get 100% on this &amp;ldquo;quiz.&amp;rdquo; Not having done this 7 days after the semester start date may result in you being administratively dropped from this class. (It sounds scary; it&amp;rsquo;s not.)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;the-7-5-week-semester&#34;&gt;The 7.5 Week Semester&lt;/h2&gt;
+
+&lt;p&gt;The material covered and assignments required in a shortened 7.5 week semester are equal to those in a full 16 week semester with half the time allotted. Time management and &amp;ldquo;working ahead&amp;rdquo; are practical necessities in an accelerated semester. &lt;strong&gt;Do not fall behind&lt;/strong&gt;. “I didn’t have time” is not an acceptable excuse for missing assignments or readings.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;final-exam&#34;&gt;Final Exam&lt;/h2&gt;
+
+&lt;p&gt;This course has no final exam, instead having a final project due the next-to-last day of the semester.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;use-of-student-work&#34;&gt;Use of Student Work&lt;/h2&gt;
+
+&lt;p&gt;Assignments completed for this course may be used as examples of student work in an instructor portfolio. Names and other identifying elements will be removed before inclusion. Students who do not wish their work to be used must inform the instructor in writing before the start of the second week of classes.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;student-workload&#34;&gt;Student Workload&lt;/h2&gt;
+
+&lt;p&gt;According to UA policy, at least 15 contact hours of recitation, lecture, discussion, seminar, or colloquium, as well as a minimum of 30 hours of student homework are required for each unit of student credit. A contact hour is the equivalent of 50 minutes of class time or 60 minutes of independent-study work. For an online course this equates to 45 hours of work per credit; 135 hours total for the semester in a 3-credit class (9 hours per week). The hour requirements specified above represent minimums for average students, and considerable deviation (more or less) of these requirements may occur. &lt;strong&gt;In shortened, accelerated 7.5 week classes this workload is doubled&lt;/strong&gt;. &lt;strong&gt;&lt;em&gt;You should expect to spend 18 hours per week on this class. Budget your time wisely and always look ahead.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://catalog.arizona.edu/policy/credit-definitions&#34; target=&#34;_blank&#34;&gt;http://catalog.arizona.edu/policy/credit-definitions&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;academic-dishonesty&#34;&gt;Academic Dishonesty&lt;/h2&gt;
+
+&lt;p&gt;Cheating and plagiarism are unethical. Students are expected to do their own work. Plagiarism includes copying or cutting and pasting from online sources, taking information from a book or article, copying someone else&amp;rsquo;s paper, or having someone else do your work for you. &lt;strong&gt;It also includes re-submitting work you&amp;rsquo;ve previously submitted for another class, something called self-plagiarism!&lt;/strong&gt; Research sources must be properly documented. Students found cheating or intentionally plagiarizing will receive a zero for the assignment and may be dismissed from the class with a failing grade, required to attend workshops, have a permanent note included on his or her transcript, or any combination thereof to the instructor’s discretion.&lt;/p&gt;
+
+&lt;p&gt;I take this &lt;strong&gt;very seriously&lt;/strong&gt; and, as professional academics in this field, I expect you to, as well. &lt;strong&gt;When in doubt, cite!&lt;/strong&gt; See our program website for a primer on APA style, citation, and avoiding plagiarism and cheating.&lt;/p&gt;
+
+&lt;p&gt;In a development course like this it is likely you will come across much in the way of inspiration, be it in class or through your own research. Keep a constant log of all assets you either use in your work (free vectors or audio clips, for example) or note down what the inspiration was for a particular development choice. Being &lt;em&gt;inspired&lt;/em&gt; by something you love is perfectly fine; simply &lt;em&gt;using&lt;/em&gt; it is not.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;plagiarism-and-cheating&#34;&gt;Plagiarism and Cheating&lt;/h2&gt;
+
+&lt;p&gt;Integrity and ethical behavior are expected of every student in all academic work. This Academic Integrity principle stands for honesty in all class work, and ethical conduct in all labs and clinical assignments. This principle is furthered by the student Code of Conduct and disciplinary procedures established by ABOR Policies 5-308 through 5-404, all provisions of which apply to all University of Arizona students. This Code of Academic Integrity is intended to fulfill the requirement imposed by ABOR Policy 5-403.A.4 and otherwise to supplement the Student Code of Conduct as permitted by ABOR Policy 5-308.C.1.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Code of Academic Integrity: &lt;a href=&#34;https://deanofstudents.arizona.edu/policies-and-codes/code-academic-integrity&#34; target=&#34;_blank&#34;&gt;https://deanofstudents.arizona.edu/policies-and-codes/code-academic-integrity&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;How to avoid plagiarism: &lt;a href=&#34;http://new.library.arizona.edu/research/citing/plagiarism&#34; target=&#34;_blank&#34;&gt;http://new.library.arizona.edu/research/citing/plagiarism&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;As a blanket policy&lt;/em&gt; I have automated plagiarism checking enabled for all assignments in all my classes. This is not meant to suggest I expect anyone to plagiarize but to demonstrate how seriously I take this.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;threatening-behavior&#34;&gt;Threatening Behavior&lt;/h2&gt;
+
+&lt;p&gt;The University seeks to promote a safe environment where students and employees may participate in the educational process without compromising their health, safety or welfare. The Arizona Board of Regents’ Student Code of Conduct, ABOR Policy 5-308, prohibits threats of physical harm to any member of the University community, including to one’s self. Threatening behavior can harm and disrupt the University, its community and its families.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Disruptive Behavior in an Instructional Setting: &lt;a href=&#34;http://policy.arizona.edu/education-and-student-affairs/disruptive-behavior-instructional-setting&#34; target=&#34;_blank&#34;&gt;http://policy.arizona.edu/education-and-student-affairs/disruptive-behavior-instructional-setting&lt;/a&gt;
+Disruptive Student Behavior policy: &lt;a href=&#34;https://deanofstudents.arizona.edu/accountability/disruptive-student-behavior&#34; target=&#34;_blank&#34;&gt;https://deanofstudents.arizona.edu/accountability/disruptive-student-behavior&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There will always be times when electronic communication will be necessary between students and between instructor and students. Please treat each other kindly and professionally!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;nondiscrimination-and-anti-harassment-policy&#34;&gt;Nondiscrimination and Anti-Harassment Policy&lt;/h2&gt;
+
+&lt;p&gt;The University is committed to creating and maintaining an environment free of discrimination.  Our classroom is a place where everyone is encouraged to express well-formed opinions and their reasons for those opinions. We also want to create a tolerant and open environment where such opinions can be expressed without resorting to bullying or discrimination of others.&lt;/p&gt;
+
+&lt;p&gt;See: &lt;a href=&#34;http://policy.arizona.edu/human-resources/nondiscrimination-and-anti-harassment-policy&#34; target=&#34;_blank&#34;&gt;http://policy.arizona.edu/human-resources/nondiscrimination-and-anti-harassment-policy&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;attendance&#34;&gt;Attendance&lt;/h2&gt;
+
+&lt;p&gt;You’re an adult &amp;ndash; be responsible for your attendance. Any absences &lt;strong&gt;must&lt;/strong&gt; be addressed with the instructor prior to class except in emergencies. Missed classes may require a make-up assignment submitted for partial credit. There are also a number of things that you are expected to complete within the first week of class (these are listed clearly in the LMS). Failure to do these can result in being administratively dropped from the class. Likewise, no/poor attendance throughout the beginning of the class can result in being administratively dropped from the class. *Note: instructors are &lt;strong&gt;&lt;em&gt;not&lt;/em&gt;&lt;/strong&gt; obligated to administratively drop students for failure to participate.* If a student is administratively dropped between weeks five through eight a &amp;ldquo;W&amp;rdquo; will be administered if he/she has maintained a passing grade (60% or higher). An “E” will be administered for anything lower unless extenuating circumstances dictate otherwise as deemed appropriate by the instructor. See the class attendance policy in the General Catalog: &lt;a href=&#34;http://catalog.arizona.edu/policy/class-attendance-participation-and-administrative-drop&#34; target=&#34;_blank&#34;&gt;http://catalog.arizona.edu/policy/class-attendance-participation-and-administrative-drop&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;paper-assignment-submission&#34;&gt;Paper/Assignment Submission&lt;/h2&gt;
+
+&lt;p&gt;All assignments, papers, projects should be submitted in the specified method based on the &lt;em&gt;system time&lt;/em&gt; in the class website. Due to the frantic nature of design and development projects, &lt;strong&gt;no late work will be accepted for partial points&lt;/strong&gt;. Keep in mind, however, that much work is iterative and &lt;strong&gt;you are still expected to complete it as later assignments/work are predicated on earlier assignments/work&lt;/strong&gt;. Be aware that instructors &lt;strong&gt;are not obligated&lt;/strong&gt; to accept late work at all. Students are responsible for ensuring proper delivery of their assignments/papers/projects. If an agreement has been made with the instructor to accept work after the due date or in a unique format it is &lt;strong&gt;the student’s responsibility&lt;/strong&gt; to let the instructor know when this is done. Submissions of this nature may not necessarily be graded and returned along the same schedule as others. This policy may change for individual assignments. &lt;strong&gt;Do not wait until the last minute to submit&lt;/strong&gt;. Your router going down or your computer’s clock being different from that of the LMS are &lt;strong&gt;not&lt;/strong&gt; valid reasons for being late. It is also highly suggested you keep your ‘working’ folder in Google Drive or some other cloud-copy backup location like Box.net. Your University of Arizona Google Apps for Education account comes with free, unlimited storage. Use it.&lt;/p&gt;
+
+&lt;p&gt;*All written assignments submitted should be properly formatted and stylized. I &lt;strong&gt;&lt;em&gt;require&lt;/em&gt;&lt;/strong&gt; that the American Psychological Association, 6&lt;strong&gt;th&lt;/strong&gt; ed, revised manual be followed. Period.*&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;grading-turn-around-time&#34;&gt;Grading Turn-Around Time&lt;/h2&gt;
+
+&lt;p&gt;Please note that I generally do not begin to grade an assignment until on or after the due date since it is my preference to grade all students’ submissions at one time, as well as return grades and feedback simultaneously. I will do my best to provide grades and useful feedback expediently.&lt;/p&gt;
+
+&lt;p&gt;However, some submissions require me to spend a significant time working through the materials. This may cause me to be delayed in grading that project. Additionally, if I am traveling I may be delayed in grading your submission. If this happens I will let everyone know.&lt;/p&gt;
+
+&lt;p&gt;NOTE: You are expected to retain an electronic copy of all work submitted. If transmission of the work fails, you are expected to &amp;ldquo;resend&amp;rdquo; the document or message (in the case of online discussions). This is entirely your responsibility.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;communication&#34;&gt;Communication&lt;/h2&gt;
+
+&lt;p&gt;I am nearly always available through electronic means. My policy is that I will respond &lt;em&gt;usually&lt;/em&gt; immediately, &lt;em&gt;mostly&lt;/em&gt; within 24 hours, and &lt;em&gt;at the latest&lt;/em&gt; to questions within 48 hours (or by Monday morning if sent during the weekend, during which I do not work). If I do not respond in this windows do not hesitate to bug me. All questions that are class-related and not personal in nature should be posted in Slack to the class channel so everyone can benefit from the response (or chime in). Personal issues may be sent via direct message (DM). &lt;strong&gt;All&lt;/strong&gt; emails sent to me should have subjects beginning with &lt;strong&gt;INFV 401&lt;/strong&gt; or &lt;strong&gt;ETCV 401&lt;/strong&gt;. All emails I send (that are not automatically created by the LMS) will have the same. This makes finding things considerably easier. Still, I reiterate: Slack is the better way to contact me.&lt;/p&gt;
+
+&lt;p&gt;Also note that I do not respond to communications about making up missed work or improving grades during the end of the semester. It is your responsibility to keep an eye on your grade throughout the semester and contact me with your concerns before the course is nearly ended. If you missed some points in week 2 you should not be petitioning me in week 7 to make them up.&lt;/p&gt;
+
+&lt;p&gt;tl;dr: in this order, use Slack, email, text, phone call&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;social-media-policy&#34;&gt;Social Media Policy&lt;/h2&gt;
+
+&lt;p&gt;Should this course require participation in social media you have the option of using &amp;ldquo;burner&amp;rdquo; accounts should you feel uncomfortable with using a personal account for academic work. You may even choose to use a unique, unrelated email account to sign up for various platforms. You are in no way required to follow, friend, etc., your instructor, only to provide information about the account you decided to use.&lt;/p&gt;
+
+&lt;p&gt;The reason for this policy is as follows: if you are active on social media already and want to combine your personal and professional/academic activities, you may; if you are active on social media and &lt;em&gt;do not&lt;/em&gt; want to mingle your personal and professional/academic activities, you have that option (this method is preferred for students); if you are &lt;em&gt;not&lt;/em&gt; active on social media and have no intention of maintaining a presence after this course, simply abandon or delete your burner account. It is your instructor’s wish to reap the benefits of developing personal learning networks and getting global perspectives while maintaining a safe, secure environment for you.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;office-hours-and-scheduling-meetings&#34;&gt;Office Hours and Scheduling Meetings&lt;/h2&gt;
+
+&lt;p&gt;I have a &lt;em&gt;virtual&lt;/em&gt; open-door policy. That is to say, feel free to send me a DM and see if I’m available to chat any time. I like to think of it as dropping by the department’s building and peeking your head in my door. Just as it is in person, I’m not always available right that second, so you’re welcome to ‘wait in the hall’ (until I’ve finished doing whatever I was doing) or schedule an appointment with me. I’m happy to do a video conference via Slack (preferably), Zoom meet in person on Main Campus or in my office on the Pima East campus, as I live in Tucson.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;accessibility-and-accommodations&#34;&gt;Accessibility and Accommodations&lt;/h1&gt;
+
+&lt;p&gt;At the University of Arizona we strive to make learning experiences as accessible as possible. If you anticipate or experience physical or academic barriers based on disability or pregnancy, you are welcome to let me know so that we can discuss options. You are also encouraged to contact Disability Resources (520) 621-3268 to explore reasonable accommodation.&lt;/p&gt;
+
+&lt;p&gt;If our class meets at a campus location: Please be aware that the accessible table and chairs in this room should remain available for students who find that standard classroom seating is not usable.&lt;/p&gt;
+
+&lt;p&gt;If you have special needs as addressed by the Americans with Disabilities Act and need course materials in alternative formats or need any special accommodations, please notify your course instructor(s) and contact the Disability Resource Center immediately at 520-621-3268 or get information from DRC web site: &lt;a href=&#34;http://drc.arizona.edu&#34; target=&#34;_blank&#34;&gt;http://drc.arizona.edu&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;basic-securities&#34;&gt;Basic Securities&lt;/h2&gt;
+
+&lt;p&gt;Any student who has difficulty affording groceries or accessing sufficient food to eat every day, or who lacks a safe and stable place to live, and believes this may affect their performance in the course, is urged to contact the Dean of Students for support. Furthermore, please notify the professor if you are comfortable in doing so. This will enable them to provide any resources that they may possess. (Adapted from &lt;a href=&#34;https://medium.com/@saragoldrickrab/basic-needs-security-and-the-syllabus-d24cc7afe8c9&#34; target=&#34;_blank&#34;&gt;Sara Goldrick-Rab&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h1&gt;
+
+&lt;p&gt;Given the nature of our field, it is entirely possible that materials considered adult, controversial, or objectionable in nature will crop up from time to time. We will be spending the majority of our time on the Internet and we should not only understand but respect the fact that it is a free and open place. As responsible adults, I encourage and expect everyone to be safe, smart, and secure when engaged online. Should you have any questions or concerns about content, please email me to discuss an alternative assignment.&lt;/p&gt;
+
+&lt;h2 id=&#34;non-endorsement-policy&#34;&gt;Non-Endorsement Policy&lt;/h2&gt;
+
+&lt;p&gt;In the course of accessing the online resources available in this course you will encounter a number of advertisements.  We can not remove them from the material so it is your choice if you explore any of the advertising you encounter. However, the University does not endorse any of these advertisements.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;a-personal-note&#34;&gt;A Personal Note&lt;/h1&gt;
+
+&lt;p&gt;We live in a digital age. We communicate through digital means. While I fully expect your submitted assignments to employ proper spelling, grammar, construction, and styling, I not only allow but expect and encourage you to express yourself using whatever communicative means you like. I will use emoticons; I will type in the text chat without using proper capitalization and punctuation; I will use ‘reaction gifs’ and make references to memes in casual situations; I will share entertaining but relevant media. If I can do it, so can you. Just remember: a place and time for everything, just as the way you speak with friends on a Friday night out is not the same as when you’re giving a conference presentation. Context is everything.&lt;/p&gt;
+
+&lt;p&gt;*The contents of this syllabus are subject to on-going change over the course of the semester as needed to accommodate students’ progress. Always &lt;strong&gt;&lt;em&gt;link&lt;/em&gt;&lt;/strong&gt; to this document instead of downloading a local copy.*&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Syllabus dated: &lt;em&gt;January 2, 2018&lt;/em&gt;&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Syllabus</title>
+      <link>/courses/401/info/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/courses/401/info/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1310 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.3.1">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Ryan Straight">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Week 2 (Activity A) Description A marketing consultant observed 50 consecutive shoppers at a grocery store, and recorded how much money each shopper spent in the store. The dataset is listed below.
+The Data First things first: create a new RStudio Project. Using a separate project for each assignment is probably best. Don&rsquo;t worry about version control unless you either a) plan on working on these assignments across multiple devices, or b) are already knowledgeable of and comfortable with Git or Subversion.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/courses/302/312-activitya/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/atom-one-light.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/atom-one-light.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Playfair+Display:400,700|Fauna+One">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.5c86e78f631350c2a004c2554f753e5c.css">
+
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-123447651-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/courses/302/312-activitya/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@ryanstraight">
+  <meta property="twitter:creator" content="@ryanstraight">
+  
+  <meta property="og:site_name" content="ryan straight">
+  <meta property="og:url" content="/courses/302/312-activitya/">
+  <meta property="og:title" content="Activity A | ryan straight">
+  <meta property="og:description" content="Week 2 (Activity A) Description A marketing consultant observed 50 consecutive shoppers at a grocery store, and recorded how much money each shopper spent in the store. The dataset is listed below.
+The Data First things first: create a new RStudio Project. Using a separate project for each assignment is probably best. Don&rsquo;t worry about version control unless you either a) plan on working on these assignments across multiple devices, or b) are already knowledgeable of and comfortable with Git or Subversion."><meta property="og:image" content="/img/icon-192.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2019-06-05T00:00:00-07:00">
+  
+  <meta property="article:modified_time" content="2019-06-05T00:00:00-07:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>Activity A | ryan straight</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">ryan straight</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Courses</span><span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/courses"><span>All</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/courses/302"><span>302 - Statistics in the Information Age</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/courses/401"><span>401 - Intro to Human-Computer Interaction</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/courses/405"><span>405 - Intro to Game Design</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/courses/406"><span>406 - Intro to Game Development</span></a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://cv.ryanstraight.com/" target="_blank" rel="noopener"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" id="search-query" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/302/">Home</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/302/101-syllabus/">Syllabus</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/302/211-modulea/">Module A</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/302/212-ch1/">Chapter 1: Introduction to Statistics</a>
+      </li>
+      
+      <li >
+        <a href="/courses/302/213-ch6/">Chapter 6: Research Design</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/302/221-moduleb/">Module B</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/302/222-ch2/">Chapter 2</a>
+      </li>
+      
+      <li >
+        <a href="/courses/302/223-ch3/">Chapter 3</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/302/231-modulec/">Module C</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/302/232-ch4/">Chapter 4</a>
+      </li>
+      
+      <li >
+        <a href="/courses/302/233-ch14/">Chapter 14</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/302/241-moduled/">Module D</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/302/242-ch5/">Chapter 5</a>
+      </li>
+      
+      <li >
+        <a href="/courses/302/243-ch7/">Chapter 7</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/302/251-modulee/">Module E</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/302/252-ch9/">Chapter 9</a>
+      </li>
+      
+      <li >
+        <a href="/courses/302/253-ch11/">Chapter 11</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/302/261-modulef/">Module F</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/302/262-ch12/">Chapter 12</a>
+      </li>
+      
+      <li >
+        <a href="/courses/302/263-ch15/">Chapter 15</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/302/271-moduleg/">Module G</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/302/311-assignments/">Assignments</a>
+    <ul class="nav docs-sidenav">
+      
+      <li class="active">
+        <a href="/courses/302/312-activitya/">Activity A</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/302/411-resources/">Resources</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/302/421-rguides/">R and RStudio</a>
+      </li>
+      
+      <li >
+        <a href="/courses/302/422-bigdata/">Big Data</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#week-2-activity-a-description">Week 2 (Activity A) Description</a></li>
+<li><a href="#the-data">The Data</a></li>
+<li><a href="#assignment">Assignment</a></li>
+<li><a href="#results">Results</a>
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#histogram">Histogram</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+
+      <div style="font-size: small;">
+  <ul class="connect-links fa-ul">
+    <li><i class="fa-li fas fa-graduation-cap"></i><a href="https://arizona.edu/" target="_blank">Back to UA</a></li>
+    <li><i class="fa-li fab fa-slack"></i><a href="https://uasouth.slack.com/" target="_blank">Slack</a></li>
+    <li><i class="fa-li fab fa-twitter"></i><a href="https://twitter.com/search?l=&q=%23infv" target="_blank">#INFV hashtag</a></li>
+    <li><i class="fa-li fas fa-edit"></i><a href="#">Edit this page</a></li>
+  </ul>
+</div>
+
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">Activity A</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            
+
+<h2 id="week-2-activity-a-description">Week 2 (Activity A) Description</h2>
+
+<p>A marketing consultant observed 50 consecutive shoppers at a grocery store, and recorded how much money each shopper spent in the store. The dataset is listed below.</p>
+
+<hr />
+
+<h2 id="the-data">The Data</h2>
+
+<p>First things first: create <a href="https://support.rstudio.com/hc/en-us/articles/200526207" target="_blank">a new RStudio Project</a>. Using a separate project for each assignment is probably best. Don&rsquo;t worry about version control unless you either a) plan on working on these assignments across multiple devices, or b) are already knowledgeable of and comfortable with Git or Subversion.</p>
+
+<p>You&rsquo;ll need to use this <strong><a href="https://302.ryanstraight.com/spending.csv" target="_blank">spending.csv</a></strong> data for your assignment. The data is also displayed below.</p>
+
+<p>Variable Name: <code>spending</code> = amount spent in USD. Use the following R code to import the data. Using the following code loads the file remotely. Alternatively, you can download it and keep a local copy and use <code>dfa &lt;- read.table(&quot;spending.csv&quot;, header = TRUE)</code>, though this assumes your .csv is in <a href="https://support.rstudio.com/hc/en-us/articles/200711843-Working-Directories-and-Workspaces" target="_blank">the project&rsquo;s working directory</a>.)</p>
+
+<p>Why are we calling it <code>dfa</code>? Well, <code>df</code> is often used as an abbreviation for <code>data frame</code>, which is what our new csv/table is called in R. It&rsquo;s <code>dfa</code> because it&rsquo;s the <code>data frame</code> for <code>Activity A</code>. It&rsquo;s important to name data and variables <strong>meaningfully</strong>.</p>
+
+<div class="alert alert-note">
+  <div>
+    If you want to reference the content in the <code>spending</code> column you&rsquo;ll need to reference the dataframe AND the variable: <code>dfa$spending</code>
+  </div>
+</div>
+
+<pre><code class="language-r"># Create the dataframe called dfa
+dfa &lt;- read.csv(url(&quot;https://302.ryanstraight.com/spending.csv&quot;), header = TRUE) # This loads the data from the remote .csv file and saves it in our environment.
+
+# Display our newly found data.
+kable(dfa, caption = &quot;Spending&quot;) # That displays the data frame we've just created as a nice looking table. You could also simply type dfa. Try them both out.
+</code></pre>
+
+<table>
+<thead>
+<tr>
+<th align="right">spending</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="right">2.32</td>
+</tr>
+
+<tr>
+<td align="right">6.61</td>
+</tr>
+
+<tr>
+<td align="right">6.90</td>
+</tr>
+
+<tr>
+<td align="right">8.04</td>
+</tr>
+
+<tr>
+<td align="right">9.45</td>
+</tr>
+
+<tr>
+<td align="right">10.26</td>
+</tr>
+
+<tr>
+<td align="right">11.34</td>
+</tr>
+
+<tr>
+<td align="right">11.63</td>
+</tr>
+
+<tr>
+<td align="right">12.66</td>
+</tr>
+
+<tr>
+<td align="right">12.95</td>
+</tr>
+
+<tr>
+<td align="right">13.67</td>
+</tr>
+
+<tr>
+<td align="right">13.72</td>
+</tr>
+
+<tr>
+<td align="right">14.35</td>
+</tr>
+
+<tr>
+<td align="right">14.52</td>
+</tr>
+
+<tr>
+<td align="right">14.55</td>
+</tr>
+
+<tr>
+<td align="right">15.01</td>
+</tr>
+
+<tr>
+<td align="right">15.33</td>
+</tr>
+
+<tr>
+<td align="right">16.55</td>
+</tr>
+
+<tr>
+<td align="right">17.15</td>
+</tr>
+
+<tr>
+<td align="right">18.22</td>
+</tr>
+
+<tr>
+<td align="right">18.30</td>
+</tr>
+
+<tr>
+<td align="right">18.71</td>
+</tr>
+
+<tr>
+<td align="right">19.54</td>
+</tr>
+
+<tr>
+<td align="right">19.55</td>
+</tr>
+
+<tr>
+<td align="right">20.58</td>
+</tr>
+
+<tr>
+<td align="right">20.89</td>
+</tr>
+
+<tr>
+<td align="right">20.91</td>
+</tr>
+
+<tr>
+<td align="right">21.13</td>
+</tr>
+
+<tr>
+<td align="right">23.85</td>
+</tr>
+
+<tr>
+<td align="right">26.04</td>
+</tr>
+
+<tr>
+<td align="right">27.07</td>
+</tr>
+
+<tr>
+<td align="right">28.76</td>
+</tr>
+
+<tr>
+<td align="right">29.15</td>
+</tr>
+
+<tr>
+<td align="right">30.54</td>
+</tr>
+
+<tr>
+<td align="right">31.99</td>
+</tr>
+
+<tr>
+<td align="right">32.82</td>
+</tr>
+
+<tr>
+<td align="right">33.26</td>
+</tr>
+
+<tr>
+<td align="right">33.80</td>
+</tr>
+
+<tr>
+<td align="right">34.76</td>
+</tr>
+
+<tr>
+<td align="right">36.22</td>
+</tr>
+
+<tr>
+<td align="right">37.52</td>
+</tr>
+
+<tr>
+<td align="right">39.28</td>
+</tr>
+
+<tr>
+<td align="right">40.80</td>
+</tr>
+
+<tr>
+<td align="right">43.97</td>
+</tr>
+
+<tr>
+<td align="right">45.58</td>
+</tr>
+
+<tr>
+<td align="right">52.36</td>
+</tr>
+
+<tr>
+<td align="right">61.57</td>
+</tr>
+
+<tr>
+<td align="right">63.85</td>
+</tr>
+
+<tr>
+<td align="right">64.30</td>
+</tr>
+
+<tr>
+<td align="right">69.49</td>
+</tr>
+</tbody>
+</table>
+
+<div class="alert alert-warning">
+  <div>
+    Except when instructed otherwise, make sure <code>echo = TRUE</code> flag is set on your <code>knitr::opts_chunk$set(echo = FALSE)</code> line in the <em>r setup</em> chunk! It defaults to <code>FALSE</code> so make sure you switch it to <code>TRUE</code>. This will display your code <em>and</em> the results.
+  </div>
+</div>
+
+<hr />
+
+<h2 id="assignment">Assignment</h2>
+
+<p>For this activity, create and submit a document with the following (doing the coding in an R script file and then putting that code in an RMarkdown file is required!):</p>
+
+<ol>
+<li>Summarize the data by creating <em>and describing</em> the following descriptive statistics:
+
+<ol>
+<li>mean</li>
+<li>median</li>
+<li>standard deviation</li>
+<li>interquartile range</li>
+<li>(optional) any other descriptive statistics you find interesting</li>
+</ol></li>
+<li>Show how a histogram that, although the distribution of the data is slightly skewed with a long right tail, is approximately normally distributed.</li>
+<li>It&rsquo;s easiest to write your code in a <code>.R</code> file (called an R script file) so you can easily test it while working. <em>Then</em>, when you&rsquo;ve got everything above taken care of, create a <code>.Rmd</code> file (RMarkdown) and use that to present your data rather than simply turning in code and the results. Here&rsquo;s a [great write-up on how code from an R script can be used in an R Markdown file]<a href="https://ourcodingclub.github.io/2016/11/24/rmarkdown-1.html)" target="_blank">https://ourcodingclub.github.io/2016/11/24/rmarkdown-1.html)</a>.
+
+<ol>
+<li>For this assignment and all others, having read the <a href="https://rmarkdown.rstudio.com/articles_intro.html" target="_blank">introduction to RMarkdown</a> page is absolutely key.</li>
+<li>This is very likely going to take some trial and error. Set aside 2-3 times the amount of time you think this will take to account for fixing errors and debugging. R code is relatively straight forward and easy to use but it can be somewhat intimidating to the beginner. You&rsquo;re encouraged to read through most of the <a href="https://rmarkdown.rstudio.com/lesson-2.html" target="_blank">R Markdown book</a> as it will make things <em>much</em> easier on  you in the long run. When in doubt: copy example code that works and tweak to your specifications.</li>
+</ol></li>
+<li>Submitting the assignment:
+
+<ol>
+<li>Submit <em>both</em> your <code>Rmd</code> and your <code>PDF</code> to the <em>Activity A</em> dropbox in the LMS by the stated due date and time.</li>
+<li>Remember: the point of using this file system is <em>reproducability</em>. If I can&rsquo;t see the content you won&rsquo;t get credit for it. That sounds obvious, right? This is why a PDF is important: if you just knit your <code>Rmd</code> file to <code>html</code>, you may be referencing local files in that page. Files that I don&rsquo;t have in the same location as you, possibly. So: <code>Rmd</code> AND <code>PDF</code> submissions, please!</li>
+</ol></li>
+</ol>
+
+<hr />
+
+<h2 id="results">Results</h2>
+
+<p>We can find each of these respective descriptives using individual commands, such as <code>mean(dfa$spending)</code>, <code>median(dfa$spending)</code>, <code>sd(dfa$spending)</code>, and <code>IQR(dfa$spending)</code>. We can even get a very basic histogram with the <code>hist(dfa$spending)</code> command.</p>
+
+<p>We could simply use an in-line R chunk like this: <code>`r mean(dfa$spending)`</code>. This would show up in our RMarkdown files as 25.8364. Remember, the point of using RMarkdown is that you don&rsquo;t need to work out the answer and then paste it somewhere else. The inline R code lets you place the calculated answer wherever you want <em>that updates whenever the data is changed</em>. Add a few more rows to the bottom of the <code>spending.csv</code> and that mean calculation will change without you having to do a thing.</p>
+
+<p>That said, there are other ways to go about doing this.</p>
+
+<h3 id="summary">Summary</h3>
+
+<p>Here we have a summary of the <code>spending</code> data in two forms: descriptives and a table of relevant information like valid cases, missing cases, and a brief histogram. (You will need to install the <strong>summarytools</strong> package before this chunk will work.)</p>
+
+<pre><code class="language-r">#First, load the library
+library(summarytools)    # That's how you make sure this chunk will run even if you run it all on its own.
+
+# Next, display the summary.
+print(descr(dfa), method = 'render', style = 'rmarkdown', table.classes = 'st-small')
+</code></pre>
+
+<p><!--html_preserve--><div class="container st-container">
+<h3>Descriptive Statistics</h3>
+<h4>spending</h4>
+<strong>N</strong>: 50
+<br/>
+<table class="table table-bordered table-striped st-table st-table-bordered st-table-striped st-descr-table st-small">
+  <thead>
+    <tr>
+      <th></th>
+      <th align="center" class="st-protect-top-border">spending</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <strong>Mean</strong></td>
+      <td><span>25.84</span></td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Std.Dev</strong></td>
+      <td><span>16.15</span></td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Min</strong></td>
+      <td><span>2.32</span></td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Q1</strong></td>
+      <td><span>14.35</span></td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Median</strong></td>
+      <td><span>20.73</span></td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Q3</strong></td>
+      <td><span>33.80</span></td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Max</strong></td>
+      <td><span>69.49</span></td>
+    </tr>
+    <tr>
+      <td>
+        <strong>MAD</strong></td>
+      <td><span>12.99</span></td>
+    </tr>
+    <tr>
+      <td>
+        <strong>IQR</strong></td>
+      <td><span>19.27</span></td>
+    </tr>
+    <tr>
+      <td>
+        <strong>CV</strong></td>
+      <td><span>0.63</span></td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Skewness</strong></td>
+      <td><span>1.04</span></td>
+    </tr>
+    <tr>
+      <td>
+        <strong>SE.Skewness</strong></td>
+      <td><span>0.34</span></td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Kurtosis</strong></td>
+      <td><span>0.38</span></td>
+    </tr>
+    <tr>
+      <td>
+        <strong>N.Valid</strong></td>
+      <td><span>50</span></td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Pct.Valid</strong></td>
+      <td><span>100.00</span></td>
+    </tr>
+  </tbody>
+</table>
+<p>Generated by <a href='https://github.com/dcomtois/summarytools'>summarytools</a> 0.9.3 (<a href='https://www.r-project.org/'>R</a> version 3.5.3)<br/>2019-06-16</p>
+</div><!--/html_preserve--></p>
+
+<p><!--html_preserve--><div class="container st-container">
+<h3>Data Frame Summary</h3>
+<h4>dfa</h4>
+<strong>Dimensions</strong>: 50 x 1
+  <br/><strong>Duplicates</strong>: 0
+<br/>
+<table class="table table-striped table-bordered st-table st-table-striped st-table-bordered st-multiline ">
+  <thead>
+    <tr>
+      <th align="center" class="no st-protect-top-border"><strong>No</strong></th>
+      <th align="center" class="variable st-protect-top-border"><strong>Variable</strong></th>
+      <th align="center" class="stats.values st-protect-top-border"><strong>Stats / Values</strong></th>
+      <th align="center" class="freqs.pct.valid st-protect-top-border"><strong>Freqs (% of Valid)</strong></th>
+      <th align="center" class="graph st-protect-top-border"><strong>Graph</strong></th>
+      <th align="center" class="valid st-protect-top-border"><strong>Valid</strong></th>
+      <th align="center" class="missing st-protect-top-border"><strong>Missing</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">1</td>
+      <td align="left">dfa
+[numeric]</td>
+      <td align="left">Mean (sd) : 25.8 (16.2)
+min &lt; med &lt; max:
+2.3 &lt; 20.7 &lt; 69.5
+IQR (CV) : 19.3 (0.6)</td>
+      <td align="left" style="vertical-align:middle">50 distinct values</td>
+      <td align="left" style="vertical-align:middle;padding:0;background-color:transparent"><img style="border:none;background-color:transparent;padding:0" src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAJgAAABuBAMAAAApJ8cWAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAD1BMVEX////9/v2mpqby8vL///8shn5hAAAAAnRSTlMAAHaTzTgAAAABYktHRACIBR1IAAAAB3RJTUUH4wYQBhYeYUeVtQAAAHhJREFUaN7t1rENwCAMAEGvQDaIswHZf7dU2EWsSLFcIPivXMBVIBChTM1S62x/e2HXPQIDAwMDAwMDAwMDAwMDA5sD06A0FkwdDAwMDGw9zJ+MAuyTAJsaO/wkFGC2rINFWPBTy2O+EQxsb8wvVgEWTXthWpJQpgfkmjDkkWFVKAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOS0wNi0xNlQxMzoyMjozMC0wNzowMCSkjLgAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTktMDYtMTZUMTM6MjI6MzAtMDc6MDBV+TQEAAAAAElFTkSuQmCC"></td>
+      <td align="center">50
+(100%)</td>
+      <td align="center">0
+(0%)</td>
+    </tr>
+  </tbody>
+</table>
+<p>Generated by <a href='https://github.com/dcomtois/summarytools'>summarytools</a> 0.9.3 (<a href='https://www.r-project.org/'>R</a> version 3.5.3)<br/>2019-06-16</p>
+</div><!--/html_preserve--></p>
+
+<h3 id="histogram">Histogram</h3>
+
+<p>Though there is a small histogram displayed with the <code>dfSummary</code> output, we can plot a larger one to better see. Using R&rsquo;s build-in histogram function, <code>hist</code>:</p>
+
+<pre><code class="language-r">hist(dfa$spending)
+</code></pre>
+
+<p><img src="/courses/302/312-activityA_files/figure-html/histogram-1.png" width="672" /></p>
+
+<p>If we like, we can use the <code>ggplot2</code> plugin to create a more informative and visually pleasing one with labels, a different fill color, and a mean line:</p>
+
+<pre><code class="language-r">library(ggplot2)
+ggplot(dfa, aes(x=dfa$spending)) +
+  geom_histogram(binwidth=2.5, color=&quot;black&quot;, fill=&quot;lightblue&quot;) +
+  geom_vline(aes(xintercept=mean(dfa$spending)), color=&quot;blue&quot;, linetype=&quot;dashed&quot;) +
+  labs(title=&quot;Spending histogram plot&quot;,x=&quot;Spent($USD), mean `r mean(dfa$spending)`&quot;, y = &quot;Count&quot;) +
+  theme_classic()
+</code></pre>
+
+<p><img src="/courses/302/312-activityA_files/figure-html/ggplot2-1.png" width="672" /></p>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/courses/302/311-assignments/" rel="next">Assignments</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/courses/302/411-resources/" rel="prev">Resources</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          Last updated on Jun 5, 2019
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2019 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.9ef1b53ee2bde6c7f33b150c6ba4d452.js"></script>
+
+    
+
+
+
+
+
+
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

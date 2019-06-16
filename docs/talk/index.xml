@@ -2,80 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks on ryan straight</title>
-    <link>https://ryanstraight.com/talk/</link>
+    <link>/talk/</link>
     <description>Recent content in Recent &amp; Upcoming Talks on ryan straight</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Tue, 28 Aug 2018 09:00:07 -0700</lastBuildDate>
     
-	    <atom:link href="https://ryanstraight.com/talk/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Perspective on Diversity and Inclusion Speaker Series: Faculty Fellows</title>
-      <link>https://ryanstraight.com/talk/perspective-on-diversity-and-inclusion-speaker-series-faculty-fellows/</link>
-      <pubDate>Tue, 28 Aug 2018 09:00:07 -0700</pubDate>
-      
-      <guid>https://ryanstraight.com/talk/perspective-on-diversity-and-inclusion-speaker-series-faculty-fellows/</guid>
-      <description>&lt;p&gt;Established in 1984, the Faculty Fellows consists of 60 exceptional faculty members who bring the feel of a small liberal arts college to a large, Research I university. With backgrounds ranging from Aerospace &amp;amp; Mechanical Engineering to Gender &amp;amp; Women’s Studies, there is one thing that all Faculty Fellows have in common – an unwavering commitment to student success. Each fellow is assigned to one of 44 sites on campus including residence halls, cultural centers, and Arizona Athletics. Spending dedicated time at their site each week provides students with an opportunity to build relationships with faculty outside of the classroom, breaking down traditional barriers and encouraging feelings of mattering and belonging. In this presentation, the Coordinator of Faculty Programs will recruit faculty fellows from across campus to speak about their experiences in the program, how the Fellows program benefits both students and faculty, and next steps for the program and creating a diverse and inclusive campus community.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>And We&#39;re Live! A Rough Guide on Academic Podcasting</title>
-      <link>https://ryanstraight.com/talk/and-were-live-a-rough-guide-on-academic-podcasting-olc-accelerate-18/</link>
-      <pubDate>Sun, 15 Oct 2017 00:00:00 -0700</pubDate>
-      
-      <guid>https://ryanstraight.com/talk/and-were-live-a-rough-guide-on-academic-podcasting-olc-accelerate-18/</guid>
-      <description>&lt;p&gt;This lively (and live!) BYOD, tech-crawl style workshop explores academic podcasting in its many forms and  from the perspectives of students, staff, and faculty. The presenters will highlight the opportunity to establish experiential student learning through podcast creation, and discuss its effectiveness as a scholastic assignment. When students are assigned the task of writing and creating podcasts in classes, they must master a vast array of transferable skills, from content research to writing for a potentially unfamiliar medium to media editing to public speaking. These key skills are widely applicable within an interdisciplinary array of fields, but are also easily scaffolded for students moving into the realm of media production or content creation.&lt;/p&gt;
-
-&lt;p&gt;Additionally, this session will cover the benefits for faculty and staff taking part in academic podcasting initiatives. They will cover effective practices that support the informal means of dissemination research, and thinking through new ideas in ways that aren’t held by the trappings of more formal writing or publication methods. Other benefits of academic podcasting will be discussed, including:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Holding conversations or interviews with co-authors or others in related fields that can lead to ideas or paths that may not have arisen otherwise;&lt;/li&gt;
-&lt;li&gt;Supporting a spirit of open scholarship&lt;/li&gt;
-&lt;li&gt;Giving staff agency and voice in their support of teaching and learning&lt;/li&gt;
-&lt;li&gt;Creating a personal learning network that extended beyond the traditional formats (Twitter) into authentic conversations and shared insights&lt;/li&gt;
-&lt;li&gt;Bringing people together, fostering communities of practice, and sharing stories (regardless of the topic or field)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This session is not a sit-and-get style education session. In a tech-crawl fashion, attendees will visit various stations to learn all the steps necessary to walk away with the knowledge and skills necessary to begin podcasting immediately. In fact, they will take part in a live podcast by simply coming to the session.  Stations will focus on the presenters’ four essential “P’s” of podcasting - Plan, Produce, Post and Promote. Additionally, stories will be shared from the presenters’ respective institutions on how they’ve implemented academic podcasts of varying scales and topics. This express workshop will allow participants to narrow down a particular topic or area of exploration that lends itself well to the affordances of the podcast medium. They will have an understanding of the logistics required to plan a podcast from the ground-up. They will know enough about the hardware and software necessary to produce professional-quality audio for little to no extra cost. They will also be able to do basic post-production audio editing necessary to publish polished radio-quality stories or interviews and industry-standard best practices. Finally, attendees will be able to market and share their podcast with larger audiences, as well as get potential buy-in from their institutions.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Innovation in Educational Technology</title>
-      <link>https://ryanstraight.com/talk/tenwest-innovation-in-edtech/</link>
-      <pubDate>Sun, 15 Oct 2017 00:00:00 -0700</pubDate>
-      
-      <guid>https://ryanstraight.com/talk/tenwest-innovation-in-edtech/</guid>
-      <description>&lt;p&gt;Panel discussion led by myself, &lt;a href=&#34;https://ichrisjohnson.com&#34; target=&#34;_blank&#34;&gt;Dr. Chris Johnson&lt;/a&gt;, and &lt;a href=&#34;http://odl.arizona.edu/person/katy-holt&#34; target=&#34;_blank&#34;&gt;Katie Holt&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>STEM at Home</title>
-      <link>https://ryanstraight.com/talk/stem-resources-for-parents/</link>
-      <pubDate>Sun, 15 Oct 2017 00:00:00 -0700</pubDate>
-      
-      <guid>https://ryanstraight.com/talk/stem-resources-for-parents/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Slacking Off in Class: Cloud-Based Team Collaboration in Online Higher Education Programs</title>
-      <link>https://ryanstraight.com/talk/slacking-off-in-class-olc-innovation-2017/</link>
-      <pubDate>Thu, 06 Apr 2017 20:48:51 -0700</pubDate>
-      
-      <guid>https://ryanstraight.com/talk/slacking-off-in-class-olc-innovation-2017/</guid>
-      <description>&lt;p&gt;Every classroom is different. Every instructor has his or her own unique way of facilitating that classroom. Still, whether that class focuses on political science, Shakespearean folios, or modern architecture, dialog is often at the center of that learning experience. Unfortunately, with the constant and inexorable march toward fully online education, some of that frenetic in-person discussion magic can be lost when our students are relegated to traditional threaded discussion formats. One potential method of mitigating this is by implementing a more organic, natural interface to support class discussions, one that more closely replicates the traditional back-and-forth of in-person dialog while blurring the line between synchronous and asynchronous environments. In this case, the tool in question is Slack.&lt;/p&gt;
-
-&lt;p&gt;In this lab, participants will be given the opportunity to be walked through the process of setting up just such an interface and to brainstorm with one another about the potential pros and cons. Dr. Straight acts as a guide by answering questions but also as a facilitator, helping participants discover their own unique flavor of learning environment. Participants will be provided a collection of best practices and novel ways to keep the content of their Slack teams fresh and relevant. The plan, however, is to build upon that list of best practices collectively. It&amp;rsquo;s a group effort!&lt;/p&gt;
-
-&lt;p&gt;Participants will be working hands-on in an actual Slack sandbox team that Dr. Straight has set up specifically for that lab, as well as having an in-person discussion. After the consortium is over, participants will continue to have access to that team, able to use it both as a template for their own teams they build later and as a continual source of discussion, feedback, and support with their peers. The team used during the lab comes pre-loaded with materials, from a semester-start checklist to the presentation materials used and even the content of the discussion had during the lab. While the consortium will end on April 7, Slacking Off in Class will live on.&lt;/p&gt;
-</description>
-    </item>
     
   </channel>
 </rss>

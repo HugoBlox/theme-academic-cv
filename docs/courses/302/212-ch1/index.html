@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.3.1">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Ryan Straight">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Learning Objectives for Introduction to Inferential and Descriptive Statistics These are the learning objectives for this portion of the class:
+ Give examples of how statistics can lend credibility to an argument Distinguish between descriptive statistics and inferential statistics Distinguish between a sample and a population Distinguish between simple random sampling and stratified sampling Distinguish between random sampling and random assignment Define and distinguish between independent and dependent variables Define and distinguish between discrete and continuous variables Define and distinguish between qualitative and quantitative variables Define percentiles Define and distinguish among nominal, ordinal, interval, and ratio scales Define &ldquo;distribution&rdquo; Interpret a frequency distribution Distinguish between a frequency distribution and a probability distribution Construct a grouped frequency distribution for a continuous variable Identify the skew of a distribution Identify bimodal, leptokurtic, and platykurtic distributions Learn how to use summation notation Give the formula for a linear transformation Determine whether a transformation is linear  Consumables Each week there will be a number of items for you to consume, be it reading, watching, listening, or a combination thereof.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/courses/302/212-ch1/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/atom-one-light.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/atom-one-light.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Playfair+Display:400,700|Fauna+One">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.5c86e78f631350c2a004c2554f753e5c.css">
+
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-123447651-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/courses/302/212-ch1/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@ryanstraight">
+  <meta property="twitter:creator" content="@ryanstraight">
+  
+  <meta property="og:site_name" content="ryan straight">
+  <meta property="og:url" content="/courses/302/212-ch1/">
+  <meta property="og:title" content="Introduction to Statistics | ryan straight">
+  <meta property="og:description" content="Learning Objectives for Introduction to Inferential and Descriptive Statistics These are the learning objectives for this portion of the class:
+ Give examples of how statistics can lend credibility to an argument Distinguish between descriptive statistics and inferential statistics Distinguish between a sample and a population Distinguish between simple random sampling and stratified sampling Distinguish between random sampling and random assignment Define and distinguish between independent and dependent variables Define and distinguish between discrete and continuous variables Define and distinguish between qualitative and quantitative variables Define percentiles Define and distinguish among nominal, ordinal, interval, and ratio scales Define &ldquo;distribution&rdquo; Interpret a frequency distribution Distinguish between a frequency distribution and a probability distribution Construct a grouped frequency distribution for a continuous variable Identify the skew of a distribution Identify bimodal, leptokurtic, and platykurtic distributions Learn how to use summation notation Give the formula for a linear transformation Determine whether a transformation is linear  Consumables Each week there will be a number of items for you to consume, be it reading, watching, listening, or a combination thereof."><meta property="og:image" content="/img/icon-192.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2019-06-05T00:00:00-07:00">
+  
+  <meta property="article:modified_time" content="2019-06-05T00:00:00-07:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>Introduction to Statistics | ryan straight</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">ryan straight</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Courses</span><span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/courses"><span>All</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/courses/302"><span>302 - Statistics in the Information Age</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/courses/401"><span>401 - Intro to Human-Computer Interaction</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/courses/405"><span>405 - Intro to Game Design</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/courses/406"><span>406 - Intro to Game Development</span></a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://cv.ryanstraight.com/" target="_blank" rel="noopener"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" id="search-query" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/302/">Home</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/302/101-syllabus/">Syllabus</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/302/211-modulea/">Module A</a>
+    <ul class="nav docs-sidenav">
+      
+      <li class="active">
+        <a href="/courses/302/212-ch1/">Chapter 1: Introduction to Statistics</a>
+      </li>
+      
+      <li >
+        <a href="/courses/302/213-ch6/">Chapter 6: Research Design</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/302/221-moduleb/">Module B</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/302/222-ch2/">Chapter 2</a>
+      </li>
+      
+      <li >
+        <a href="/courses/302/223-ch3/">Chapter 3</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/302/231-modulec/">Module C</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/302/232-ch4/">Chapter 4</a>
+      </li>
+      
+      <li >
+        <a href="/courses/302/233-ch14/">Chapter 14</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/302/241-moduled/">Module D</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/302/242-ch5/">Chapter 5</a>
+      </li>
+      
+      <li >
+        <a href="/courses/302/243-ch7/">Chapter 7</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/302/251-modulee/">Module E</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/302/252-ch9/">Chapter 9</a>
+      </li>
+      
+      <li >
+        <a href="/courses/302/253-ch11/">Chapter 11</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/302/261-modulef/">Module F</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/302/262-ch12/">Chapter 12</a>
+      </li>
+      
+      <li >
+        <a href="/courses/302/263-ch15/">Chapter 15</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/302/271-moduleg/">Module G</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/302/311-assignments/">Assignments</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/302/312-activitya/">Activity A</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/302/411-resources/">Resources</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/302/421-rguides/">R and RStudio</a>
+      </li>
+      
+      <li >
+        <a href="/courses/302/422-bigdata/">Big Data</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#learning-objectives-for-introduction-to-inferential-and-descriptive-statistics">Learning Objectives for <em>Introduction to Inferential and Descriptive Statistics</em></a></li>
+<li><a href="#consumables">Consumables</a>
+<ul>
+<li><a href="#r-and-r-studio">R and R Studio</a></li>
+</ul></li>
+<li><a href="#assignments">Assignments</a>
+<ul>
+<li><a href="#introductions">Introductions</a>
+<ul>
+<li><a href="#steps-to-completion">Steps to Completion</a></li>
+</ul></li>
+<li><a href="#get-with-your-group">Get With Your Group</a></li>
+<li><a href="#quiz">Quiz</a></li>
+<li><a href="#chapter-questions">Chapter Questions</a>
+<ul>
+<li><a href="#steps-to-completion-1">Steps to completion</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+
+      <div style="font-size: small;">
+  <ul class="connect-links fa-ul">
+    <li><i class="fa-li fas fa-graduation-cap"></i><a href="https://arizona.edu/" target="_blank">Back to UA</a></li>
+    <li><i class="fa-li fab fa-slack"></i><a href="https://uasouth.slack.com/" target="_blank">Slack</a></li>
+    <li><i class="fa-li fab fa-twitter"></i><a href="https://twitter.com/search?l=&q=%23infv" target="_blank">#INFV hashtag</a></li>
+    <li><i class="fa-li fas fa-edit"></i><a href="#">Edit this page</a></li>
+  </ul>
+</div>
+
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">Introduction to Statistics</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            
+
+<h2 id="learning-objectives-for-introduction-to-inferential-and-descriptive-statistics">Learning Objectives for <em>Introduction to Inferential and Descriptive Statistics</em></h2>
+
+<p>These are the learning objectives for this portion of the class:</p>
+
+<ol>
+<li>Give examples of how statistics can lend credibility to an argument</li>
+<li>Distinguish between descriptive statistics and inferential statistics</li>
+<li>Distinguish between a sample and a population</li>
+<li>Distinguish between simple random sampling and stratified sampling</li>
+<li>Distinguish between random sampling and random assignment</li>
+<li>Define and distinguish between independent and dependent variables</li>
+<li>Define and distinguish between discrete and continuous variables</li>
+<li>Define and distinguish between qualitative and quantitative variables</li>
+<li>Define percentiles</li>
+<li>Define and distinguish among nominal, ordinal, interval, and ratio scales</li>
+<li>Define &ldquo;distribution&rdquo;</li>
+<li>Interpret a frequency distribution</li>
+<li>Distinguish between a frequency distribution and a probability distribution</li>
+<li>Construct a grouped frequency distribution for a continuous variable</li>
+<li>Identify the skew of a distribution</li>
+<li>Identify bimodal, leptokurtic, and platykurtic distributions</li>
+<li>Learn how to use summation notation</li>
+<li>Give the formula for a linear transformation</li>
+<li>Determine whether a transformation is linear</li>
+</ol>
+
+<h2 id="consumables">Consumables</h2>
+
+<p>Each week there will be a number of items for you to consume, be it reading, watching, listening, or a combination thereof. This week, we will begin at the beginning:</p>
+
+<ul>
+<li><a href="http://onlinestatbook.com/2/introduction/introduction.html" target="_blank">Chapter 1 of the Online Statistics Textbook</a></li>
+<li><em>Manga Guide to Statistics</em> sections of interest<sup class="footnote-ref" id="fnref:Note-that-the-Ma"><a href="#fn:Note-that-the-Ma">1</a></sup>:
+
+<ul>
+<li>Chapters 1 and 2</li>
+</ul></li>
+<li><a href="https://www.youtube.com/watch?v=YHXadaW_lso" target="_blank">Introductory Statistics</a></li>
+</ul>
+
+<h3 id="r-and-r-studio">R and R Studio</h3>
+
+<p>The software we will be using to perform our statistical analyses and plotting/graphing is called <strong>R</strong> and its associated IDE (graphical interface) called <strong>RStudio</strong>.</p>
+
+<ul>
+<li><a href="https://cran.r-project.org/" target="_blank">Download R</a></li>
+<li><a href="https://www.rstudio.com/products/rstudio/download/#download" target="_blank">Download RStudio</a></li>
+</ul>
+
+<p>You&rsquo;ll find more resources, guides, and tutorials for using R and RStudio on the <a href="/courses/302/421-rguides/" target="_blank">guides</a> page.</p>
+
+<h2 id="assignments">Assignments</h2>
+
+<p>Your assignments for this portion of week 1 are as follows:</p>
+
+<h3 id="introductions">Introductions</h3>
+
+<p>We are more than just a collection of random people studying the same material; we are, in fact, a community! <a href="http://wenger-trayner.com/resources/what-is-a-community-of-practice/" target="_blank">Research has shown</a> we’re all better off in this way so let’s get to know one another! So let’s jump in straight away with something really creative that will (hopefully!) set the tone for the rest of the class.</p>
+
+<h4 id="steps-to-completion">Steps to Completion</h4>
+
+<p>Using the questions below (some, hopefully all!) you will <a href="https://spark.adobe.com" target="_blank">create an Adobe Spark <strong>Video</strong></a> (not a Page or Post!) introduction of yourself and share the link in the <a href="https://uasouth.slack.com/messages/etcv302/whats_new/" target="_blank">#etcv302 channel</a> of our Slack team. You should be using this assignment as a means of becoming familiar with how to use Slack and its various features.</p>
+
+<p>First, <a href="https://www.youtube.com/watch?v=-nKTi5ydKbw" target="_blank">watch this tutorial</a> and/or <a href="https://youtu.be/-iZyMWBU708?t=36s" target="_blank">this tutorial</a> on creating a Spark video. Keep in mind that the different options you’re given when making a video (Promote an Idea, A Hero’s Journey, etc.) simply give you prompts for scenes and have no real impact on what you can do.</p>
+
+<p>Here’s <a href="https://www.youtube.com/watch?v=wnxDS670xgs" target="_blank">a short sample of an introduction</a> done by the director of Educational Technology at a Texas high school. Appropriate, isn’t it? And <a href="https://www.youtube.com/watch?v=AicrQOsLlLs" target="_blank">here’s a great one</a>, if very brief.</p>
+
+<p>Now, <a href="https://spark.adobe.com" target="_blank">go to the Spark website</a> and start getting creative! Also, while you’re doing this <a href="https://adobe-student.arizona.edu/" target="_blank">be sure to get access to the Adobe Creative Cloud now</a> if you don’t have it already (because it’s free and how cool is that?).</p>
+
+<p>Once this is done, watch your classmates&rsquo; introductions and reply to all of them. You can respond to or acknowledge something they said, or just say &lsquo;hello&rsquo; if you know them already. Be as chatty as you like while keeping in mind the netiquette guidelines posted on D2L. This is also a good time to remark on the possibility of collaborating later in the semester.</p>
+
+<p><strong>Please</strong> be proactive in these kinds of assignments and do your best to include individuals that haven&rsquo;t had responses yet. If you wait until the last day of the week to post it makes &lsquo;dialogue&rsquo; very difficult. These timely participation/response items generally result in better outcomes for everyone. Try to include as much info about yourself as you’re comfortable sharing. Use the following questions as a guide but feel free to include more and other content.</p>
+
+<ol>
+<li>Who are you? (Name, where you&rsquo;re from, what characterizes/identifies you, etc)</li>
+<li>Identify the general region in which you reside. Tucson? Amsterdam? The Moon?</li>
+<li>Major/minor/emphasis/speciality… what are you studying and what are you good at?</li>
+<li>Why are you taking this class?</li>
+<li>Favorite past-time/activity/hobby?</li>
+<li>Briefly explain your experience with online or hybrid classes.</li>
+<li>Give your peers a bit of friendly advice you&rsquo;ve gathered on how to complete classes successfully (generally, specifically with your instructor, or both).</li>
+</ol>
+
+<h3 id="get-with-your-group">Get With Your Group</h3>
+
+<p>You&rsquo;ll want to contact your group members <em>as soon as possible</em> to start your collaborative work. Creating <a href="https://get.slack.help/hc/en-us/articles/212281468-Send-direct-messages#send-a-new-dm" target="_blank">a private group in Slack</a> is probably the best way to do this. How you organize is up to you. Your randomized groups are available in D2L in the navbar.</p>
+
+<h3 id="quiz">Quiz</h3>
+
+<p>Don&rsquo;t forget about your chapter quiz! Find it in the Quizzes menu in D2L.</p>
+
+<h3 id="chapter-questions">Chapter Questions</h3>
+
+<p>Pick a question from OST Chapter 1&rsquo;s Exercises section that one one else has selected yet, and post how you solved it. Respond to one of your classmate&rsquo;s answers by the due date.</p>
+
+<ul>
+<li>2 pts per each chapter’s Slack channel (initial post AND response)</li>
+<li>no partial credit for initial post only or response only</li>
+</ul>
+
+<p>You might be asking yourself: <strong>How do I know no one else has chosen that question?</strong> You should choose your question <em>early</em> and post it in the Slack channel, claiming your spot! When you go to choose your question make sure you&rsquo;re looking in the chapter channel to verify you&rsquo;re the first.</p>
+
+<h4 id="steps-to-completion-1">Steps to completion</h4>
+
+<ol>
+<li>Choose <a href="http://onlinestatbook.com/2/introduction/ch1_exercises.html" target="_blank">a question from the end of the chapter in the section called &ldquo;Exercises&rdquo; to answer</a>.  Post the question and your answer, and make sure to justify your response.</li>
+</ol>
+
+<p>For example, if you determine that a type of statistic is descriptive, provide your reasoning being specific about the problem presented and your answer.</p>
+
+<ol>
+<li>Next, respond to another students&rsquo; answers by asking a question for clarification, providing a personal experience, posting a thought-provoking question, taking a controversial, but professional stand, adding something new to the conversation, quoting another student&rsquo;s comment and add an additional idea based on this comment, etc.</li>
+</ol>
+
+<p>Your responses should be respectful and offered in a professional manner. You may wish to review the <a href="/courses/302/101-syllabus/" target="_blank">behavior Course Policies</a> to help frame your response. Remember, you will be responding about the specific idea, issue, or question.</p>
+
+<p><strong>Do not consider question #9. For question #10, show detailed calculations.</strong></p>
+
+<p><em>You may not answer a question that has been previously addressed.</em></p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:Note-that-the-Ma">Note that the Manga Guide does not follow our progression step-for-step but is intended as an approachable supplement. <a class="footnote-return" href="#fnref:Note-that-the-Ma"><sup>^</sup></a></li>
+</ol>
+</div>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/courses/302/211-modulea/" rel="next">Module A</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/courses/302/213-ch6/" rel="prev">Research Design</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          Last updated on Jun 5, 2019
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2019 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.9ef1b53ee2bde6c7f33b150c6ba4d452.js"></script>
+
+    
+
+
+
+
+
+
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

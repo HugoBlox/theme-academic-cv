@@ -1,0 +1,19 @@
+---
+title: 'Chapter 2' 
+linktitle: 'Chapter 2'
+toc: true
+type: docs
+date: "2019-06-05T00:00:00-07:00"
+draft: false
+menu:
+  302:
+    weight: 80
+    parent: "mB"
+    identifier: "ch2"
+    name: "Chapter 2"
+
+
+# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
+weight: 80
+---
+Chapter 2 content

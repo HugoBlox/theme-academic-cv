@@ -1,0 +1,81 @@
+---
+title: 'Activity A' 
+linktitle: 'Activity A'
+toc: true
+type: docs
+date: "2019-06-05T00:00:00-07:00"
+draft: false
+menu:
+  302:
+    weight: 312
+    parent: "Assignments"
+    identifier: "activityA"
+    name: "Activity A"
+
+
+# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
+weight: 312
+---
+
+```{r setup, include=TRUE, echo=FALSE}
+library(knitr)
+library(summarytools)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Week 2 (Activity A) Description
+
+A marketing consultant observed 50 consecutive shoppers at a grocery store, and recorded how much money each shopper spent in the store. The dataset is listed below.
+
+---
+
+## The Data
+
+First things first: create [a new RStudio Project](https://support.rstudio.com/hc/en-us/articles/200526207). Using a separate project for each assignment is probably best. Don't worry about version control unless you either a) plan on working on these assignments across multiple devices, or b) are already knowledgeable of and comfortable with Git or Subversion.
+
+You'll need to use this **[spending.csv](https://302.ryanstraight.com/spending.csv)** data for your assignment. The data is also displayed below.
+
+Variable Name: `spending` = amount spent in USD. Use the following R code to import the data. Using the following code loads the file remotely. Alternatively, you can download it and keep a local copy and use `dfa <- read.table("spending.csv", header = TRUE)`, though this assumes your .csv is in [the project's working directory](https://support.rstudio.com/hc/en-us/articles/200711843-Working-Directories-and-Workspaces).)
+
+Why are we calling it `dfa`? Well, `df` is often used as an abbreviation for `data frame`, which is what our new csv/table is called in R. It's `dfa` because it's the `data frame` for `Activity A`. It's important to name data and variables **meaningfully**.
+
+{{% alert note %}}
+If you want to reference the content in the `spending` column you'll need to reference the dataframe AND the variable: `dfa$spending`
+{{% /alert %}}
+
+```{r load data, echo=TRUE}
+
+# Create the dataframe called dfa
+dfa <- read.csv(url("https://302.ryanstraight.com/spending.csv"), header = TRUE) # This loads the data from the remote .csv file and saves it in our environment.
+
+# Display our newly found data.
+kable(dfa, caption = "Spending") # That displays the data frame we've just created as a nice looking table. You could also simply type dfa. Try them both out.
+```
+
+{{% alert warning %}}
+Except when instructed otherwise, make sure `echo = TRUE` flag is set on your `knitr::opts_chunk$set(echo = FALSE)` line in the *r setup* chunk! It defaults to `FALSE` so make sure you switch it to `TRUE`. This will display your code *and* the results.
+{{% /alert %}}
+
+---
+
+## Assignment
+
+For this activity, create and submit a document with the following (doing the coding in an R script file and then putting that code in an RMarkdown file is required!):
+
+1.  Summarize the data by creating *and describing* the following descriptive statistics:
+    1.  mean
+    1.  median
+    1.  standard deviation
+    1.  interquartile range
+    1.  (optional) any other descriptive statistics you find interesting
+1.  Show how a histogram that, although the distribution of the data is slightly skewed with a long right tail, is approximately normally distributed.
+1.  It's easiest to write your code in a `.R` file (called an R script file) so you can easily test it while working. *Then*, when you've got everything above taken care of, create a `.Rmd` file (RMarkdown) and use that to present your data rather than simply turning in code and the results. Here's a [great write-up on how code from an R script can be used in an R Markdown file]https://ourcodingclub.github.io/2016/11/24/rmarkdown-1.html).
+    1. For this assignment and all others, having read the [introduction to RMarkdown](https://rmarkdown.rstudio.com/articles_intro.html) page is absolutely key.
+    1. This is very likely going to take some trial and error. Set aside 2-3 times the amount of time you think this will take to account for fixing errors and debugging. R code is relatively straight forward and easy to use but it can be somewhat intimidating to the beginner. You're encouraged to read through most of the [R Markdown book](https://rmarkdown.rstudio.com/lesson-2.html) as it will make things *much* easier on  you in the long run. When in doubt: copy example code that works and tweak to your specifications.
+1. Submitting the assignment:
+    1. Submit *both* your `Rmd` and your `PDF` to the *Activity A* dropbox in the LMS by the stated due date and time.
+    1. Remember: the point of using this file system is *reproducability*. If I can't see the content you won't get credit for it. That sounds obvious, right? This is why a PDF is important: if you just knit your `Rmd` file to `html`, you may be referencing local files in that page. Files that I don't have in the same location as you, possibly. So: `Rmd` AND `PDF` submissions, please!
+
+
+```{r results, eval=TRUE, child="_312-activityA-results.Rmd"}
+```

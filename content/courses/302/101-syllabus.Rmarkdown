@@ -1,0 +1,126 @@
+---
+title: 'Syllabus'
+linktitle: 'Syllabus'
+toc: true
+type: docs
+date: "2019-05-05T00:00:00-07:00"
+draft: false
+weight: 30
+menu:
+  302:
+    identifier: Syllabus
+    name: Syllabus
+    weight: 30
+
+---
+
+# INFV 302 - Statistics in the Information Age
+
+## Spring 2018-19, 2nd 7.5 weeks
+
+|              	|   	|                                                                                                        	|
+|--------------	|---	|-------------------------------------------------------------------------------------------------------	|
+| Meeting&nbsp;time 	|   	| Fully online, synchronous meetings: **Mondays, 6-8pm Arizona time in course Zoom room**         |
+| People       	|   	| Instructor: Dr. Ryan Straight                                                                      	|
+| Email        	|   	| ryanstraight@email.arizona.edu                                                                  	|
+| Slack        	|   	| [ryanstraight](https://uasouth.slack.com/messages/ryanstraight/)                                                                                   	|
+| Twitter      	|   	| [ryanstraight](https://twitter.com/ryanstraight)                                                                                   	|
+| PGP          	|   	| https://keybase.io/ryanstraight                                                                 	|
+| Office&nbsp;hours 	|   	| I have a virtual open-door policy. Meetings can be scheduled if necessary.                            	|
+
+---
+
+## Course Description
+
+This course provides an introduction to descriptive and inferential statistics. It also presents an introduction to data complexity, uncertainty and variation in information age and discusses techniques for interpreting the data. 
+
+## Course Overview
+
+On completing this introductory statistics course, students will have explored the following topics: descriptive and inferential statistics, research design, bivariate data (correlation), regression, probability, normal & sampling distributions, hypothesis testing, t-tests, and analysis of variance.
+
+
+We will cover many topics in this class, we will find ourselves in many places and times, and we will be both historians and futurists. Any study of the intersection of technology and education requires a foray into myriad topics, including psychology, sociology, media studies, gender studies, geo-politics, security, futurism and more. Be prepared to become both consumers and creators. Bring your passion to this collaborative experience and we will all benefit greatly.
+
+---
+
+## Course Objectives
+
+Based upon Association for Educational Communications and Technology's [AECT Standards for Professional Education Programs (2012 version)](http://aect.site-ym.com/resource/resmgr/AECT_Documents/AECT_Standards_adopted7_16_2.pdf):
+
+This course is broken down into weekly topic and is constructed based on the following expected learning outcomes:
+
+* Understand and evaluate descriptive and inferential statistics using quantitative data.
+* Understand and evaluate visual methods of communicating statistics.
+* Describe statistical properties, concepts, and issues.
+* Collaborate with other students to understand statistics and solve problems.
+* Research an advanced topic, apply statistical tests, present results, and receive feedback from class.
+
+Through the achievement of these course objectives, the following Educational Technology program-level expected learning outcomes are met:
+
+* **ELO 4** – Research: Apply research skills and methodologies to advance and improve learning performance and practice.
+* **ELO 5** - Professional Practice: In their development as reflective practitioners, students apply their competencies by participating within a community of practice.
+
+---
+
+## Required Readings
+
+Lane, D. (2016).  *Online Statistics Education: A Multimedia Course of Study*. 2nd ed.  Houston: Rice University. [http://onlinestatbook.com/2/](http://onlinestatbook.com/2/). 
+
+Takahashi, S., & Trend-pro Co Content Provider. (2008). *The Manga Guide to Statistics*. San Francisco: No Starch Press. [Available for free through the UA library website.](https://arizona-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=01UA_ALMA51538828670003843&context=L&vid=01UA&search_scope=Everything&tab=default_tab&lang=en_US)
+
+Additional readings are also required and can be found in the LMS.
+
+---
+
+## Assignments 
+
+Following is a basic list of assignments and their point values. Note that this may change throughout the semester depending on class needs. Drill down into each assignment to learn more.
+
+| Assignment                                                             	|   	| Point value                                                             	|
+|------------------------------------------------------------------------	|---	|-------------------------------------------------------------------------	|
+| [Weekly quizzes](./quizzes.html)                                      	|   	| 150 (12 quizzes x 15 pts, drop 2 lowest)                                	|
+| [Participation](./participation.html)                                 	|   	| 36 (6 weeks x 4 pts (2 pts per chapter); 6 weeks x 2pts for attendance) 	|
+| Activities                                                            	|   	| 50 (10 pts x 5 activities)                                              	|
+| [Advanced topic research project](./project.html)                     	|   	| 60                                                                      	|
+| Final reflection                                                       	|   	| 4                                                                       	|
+|                                                                        	|   	| Total: 300                                                              	|
+
+
+---
+
+## Assessment Methodology
+
+I believe teaching a class should be like good jazz: there’s a basic structure with which you start but you shouldn’t be afraid to try variations on a theme. That is to say, the assignments’ and projects’ dates, point values, or even whether they are required may change throughout the term, as may the specifics of the topics we cover. Please be aware that with the exception of *extremely* extraneous circumstances (death in the immediate family, hospitalization, etc.), **I _do not_ give out Incomplete grades**. You should be keeping an eye on your grade throughout the semester and, if you have any questions, do not hesitate to contact me. [http://catalog.arizona.edu/policy/grades-and-grading-system](http://catalog.arizona.edu/policy/grades-and-grading-system) 
+
+---
+
+## Example Score Breakdown
+
+I use a simple point scale calculated to a percentage automatically by our LMS. I *do not* round, so an effort to attain all points possible is highly encouraged. Below is an initial grading breakdown for this class. *Note: this may change as the semester moves along and point values shift or assignments are added or removed*. Point values labeled in **Assignments** with *italics* are bonus and are not calculated into the final grade total.
+
+| Grade 	| Percentage      	| Points: Low     	| High   	|
+|-------	|-----------------	|------------------	|-------	|
+| A     	| 90% - 100%       	| 270              	| 300   	|
+| B     	| 80% - 89%        	| 240              	| 269    	|
+| C     	| 70% - 79%        	| 210              	| 239    	|
+| D     	| 60% - 69%        	| 180 	            | 209    	|
+| E     	| 0% - 59%        	| 0               	| 179    	|
+
+---
+
+## Evaluation
+
+Most points in this class come from quizzes and participation/discussion. However, the final project earns points based on a rubric. If you are not familiar with them, rubrics are an evaluation tool that provide you with all of the necessary criteria and my performance-level expectations before you begin the project. If you review the _Accomplishing_ level of the rubrics in the projects, you know exactly what you need to do to receive full credit.
+
+Please note: While the final project uses a rubrics, other assignments may receive points simply by completing them. If an assignment fits this description and does not have a rubric, I will note that in the assessment section.
+
+Also be aware that there are gateway requirements prior to reaching the assessment rubric. For example, if a project requires you to submit an 8-10 page paper, if your submission is only 6 pages I will simply not grade it. These gateway requirements are made clear in each assignment document. 
+
+See the **Assignments** sections for details.
+
+---
+
+```{r, child="_classpolicies.Rmd"}
+```
+
+_Syllabus dated *March 1, 2019*_.

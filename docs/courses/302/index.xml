@@ -1,0 +1,1436 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>INFV 302: Statistics in the Information Age on ryan straight</title>
+    <link>/courses/302/</link>
+    <description>Recent content in INFV 302: Statistics in the Information Age on ryan straight</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Wed, 12 Jun 2019 00:00:00 -0700</lastBuildDate>
+    
+	    <atom:link href="/courses/302/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Syllabus</title>
+      <link>/courses/302/101-syllabus/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/courses/302/101-syllabus/</guid>
+      <description>
+
+&lt;h1 id=&#34;infv-302-statistics-in-the-information-age&#34;&gt;INFV 302 - Statistics in the Information Age&lt;/h1&gt;
+
+&lt;h2 id=&#34;spring-2018-19-2nd-7-5-weeks&#34;&gt;Spring 2018-19, 2nd 7.5 weeks&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Meeting&amp;nbsp;time&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Fully online, synchronous meetings: &lt;strong&gt;Mondays, 6-8pm Arizona time in course Zoom room&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;People&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Instructor: Dr. Ryan Straight&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Email&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;ryanstraight@email.arizona.edu&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Slack&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://uasouth.slack.com/messages/ryanstraight/&#34; target=&#34;_blank&#34;&gt;ryanstraight&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Twitter&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://twitter.com/ryanstraight&#34; target=&#34;_blank&#34;&gt;ryanstraight&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;PGP&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://keybase.io/ryanstraight&#34; target=&#34;_blank&#34;&gt;https://keybase.io/ryanstraight&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Office&amp;nbsp;hours&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;I have a virtual open-door policy. Meetings can be scheduled if necessary.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;course-description&#34;&gt;Course Description&lt;/h2&gt;
+
+&lt;p&gt;This course provides an introduction to descriptive and inferential statistics. It also presents an introduction to data complexity, uncertainty and variation in information age and discusses techniques for interpreting the data.&lt;/p&gt;
+
+&lt;h2 id=&#34;course-overview&#34;&gt;Course Overview&lt;/h2&gt;
+
+&lt;p&gt;On completing this introductory statistics course, students will have explored the following topics: descriptive and inferential statistics, research design, bivariate data (correlation), regression, probability, normal &amp;amp; sampling distributions, hypothesis testing, t-tests, and analysis of variance.&lt;/p&gt;
+
+&lt;p&gt;We will cover many topics in this class, we will find ourselves in many places and times, and we will be both historians and futurists. Any study of the intersection of technology and education requires a foray into myriad topics, including psychology, sociology, media studies, gender studies, geo-politics, security, futurism and more. Be prepared to become both consumers and creators. Bring your passion to this collaborative experience and we will all benefit greatly.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;course-objectives&#34;&gt;Course Objectives&lt;/h2&gt;
+
+&lt;p&gt;Based upon Association for Educational Communications and Technology&amp;rsquo;s &lt;a href=&#34;http://aect.site-ym.com/resource/resmgr/AECT_Documents/AECT_Standards_adopted7_16_2.pdf&#34; target=&#34;_blank&#34;&gt;AECT Standards for Professional Education Programs (2012 version)&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;This course is broken down into weekly topic and is constructed based on the following expected learning outcomes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Understand and evaluate descriptive and inferential statistics using quantitative data.&lt;/li&gt;
+&lt;li&gt;Understand and evaluate visual methods of communicating statistics.&lt;/li&gt;
+&lt;li&gt;Describe statistical properties, concepts, and issues.&lt;/li&gt;
+&lt;li&gt;Collaborate with other students to understand statistics and solve problems.&lt;/li&gt;
+&lt;li&gt;Research an advanced topic, apply statistical tests, present results, and receive feedback from class.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Through the achievement of these course objectives, the following Educational Technology program-level expected learning outcomes are met:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ELO 4&lt;/strong&gt; – Research: Apply research skills and methodologies to advance and improve learning performance and practice.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ELO 5&lt;/strong&gt; - Professional Practice: In their development as reflective practitioners, students apply their competencies by participating within a community of practice.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;required-readings&#34;&gt;Required Readings&lt;/h2&gt;
+
+&lt;p&gt;Lane, D. (2016).  &lt;em&gt;Online Statistics Education: A Multimedia Course of Study&lt;/em&gt;. 2nd ed.  Houston: Rice University. &lt;a href=&#34;http://onlinestatbook.com/2/&#34; target=&#34;_blank&#34;&gt;http://onlinestatbook.com/2/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Takahashi, S., &amp;amp; Trend-pro Co Content Provider. (2008). &lt;em&gt;The Manga Guide to Statistics&lt;/em&gt;. San Francisco: No Starch Press. &lt;a href=&#34;https://arizona-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=01UA_ALMA51538828670003843&amp;amp;context=L&amp;amp;vid=01UA&amp;amp;search_scope=Everything&amp;amp;tab=default_tab&amp;amp;lang=en_US&#34; target=&#34;_blank&#34;&gt;Available for free through the UA library website.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Additional readings are also required and can be found in the LMS.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;assignments&#34;&gt;Assignments&lt;/h2&gt;
+
+&lt;p&gt;Following is a basic list of assignments and their point values. Note that this may change throughout the semester depending on class needs. Drill down into each assignment to learn more.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Assignment&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Point value&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;./quizzes.html&#34;&gt;Weekly quizzes&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;150 (12 quizzes x 15 pts, drop 2 lowest)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;./participation.html&#34;&gt;Participation&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;36 (6 weeks x 4 pts (2 pts per chapter); 6 weeks x 2pts for attendance)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Activities&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;50 (10 pts x 5 activities)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;./project.html&#34;&gt;Advanced topic research project&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;60&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Final reflection&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Total: 300&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;assessment-methodology&#34;&gt;Assessment Methodology&lt;/h2&gt;
+
+&lt;p&gt;I believe teaching a class should be like good jazz: there’s a basic structure with which you start but you shouldn’t be afraid to try variations on a theme. That is to say, the assignments’ and projects’ dates, point values, or even whether they are required may change throughout the term, as may the specifics of the topics we cover. Please be aware that with the exception of &lt;em&gt;extremely&lt;/em&gt; extraneous circumstances (death in the immediate family, hospitalization, etc.), &lt;strong&gt;I &lt;em&gt;do not&lt;/em&gt; give out Incomplete grades&lt;/strong&gt;. You should be keeping an eye on your grade throughout the semester and, if you have any questions, do not hesitate to contact me. &lt;a href=&#34;http://catalog.arizona.edu/policy/grades-and-grading-system&#34; target=&#34;_blank&#34;&gt;http://catalog.arizona.edu/policy/grades-and-grading-system&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;example-score-breakdown&#34;&gt;Example Score Breakdown&lt;/h2&gt;
+
+&lt;p&gt;I use a simple point scale calculated to a percentage automatically by our LMS. I &lt;em&gt;do not&lt;/em&gt; round, so an effort to attain all points possible is highly encouraged. Below is an initial grading breakdown for this class. &lt;em&gt;Note: this may change as the semester moves along and point values shift or assignments are added or removed&lt;/em&gt;. Point values labeled in &lt;strong&gt;Assignments&lt;/strong&gt; with &lt;em&gt;italics&lt;/em&gt; are bonus and are not calculated into the final grade total.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Grade&lt;/th&gt;
+&lt;th&gt;Percentage&lt;/th&gt;
+&lt;th&gt;Points: Low&lt;/th&gt;
+&lt;th&gt;High&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;90% - 100%&lt;/td&gt;
+&lt;td&gt;270&lt;/td&gt;
+&lt;td&gt;300&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;B&lt;/td&gt;
+&lt;td&gt;80% - 89%&lt;/td&gt;
+&lt;td&gt;240&lt;/td&gt;
+&lt;td&gt;269&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;C&lt;/td&gt;
+&lt;td&gt;70% - 79%&lt;/td&gt;
+&lt;td&gt;210&lt;/td&gt;
+&lt;td&gt;239&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;D&lt;/td&gt;
+&lt;td&gt;60% - 69%&lt;/td&gt;
+&lt;td&gt;180&lt;/td&gt;
+&lt;td&gt;209&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;0% - 59%&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;179&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;evaluation&#34;&gt;Evaluation&lt;/h2&gt;
+
+&lt;p&gt;Most points in this class come from quizzes and participation/discussion. However, the final project earns points based on a rubric. If you are not familiar with them, rubrics are an evaluation tool that provide you with all of the necessary criteria and my performance-level expectations before you begin the project. If you review the &lt;em&gt;Accomplishing&lt;/em&gt; level of the rubrics in the projects, you know exactly what you need to do to receive full credit.&lt;/p&gt;
+
+&lt;p&gt;Please note: While the final project uses a rubrics, other assignments may receive points simply by completing them. If an assignment fits this description and does not have a rubric, I will note that in the assessment section.&lt;/p&gt;
+
+&lt;p&gt;Also be aware that there are gateway requirements prior to reaching the assessment rubric. For example, if a project requires you to submit an 8-10 page paper, if your submission is only 6 pages I will simply not grade it. These gateway requirements are made clear in each assignment document.&lt;/p&gt;
+
+&lt;p&gt;See the &lt;strong&gt;Assignments&lt;/strong&gt; sections for details.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;course-schedule&#34;&gt;Course Schedule&lt;/h2&gt;
+
+&lt;p&gt;The general course schedule is maintained in detail in the LMS. Recorded class sessions are also available there. Attending class sessions (or watching the recorded session if you missed class) and submitting your notes to the appropriate weekly dropbox is &lt;strong&gt;absolutely necessary and vital&lt;/strong&gt; to your success in this class.&lt;/p&gt;
+
+&lt;p&gt;For the purposes of this class, weeks begin on MONDAY.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;communication&#34;&gt;Communication&lt;/h2&gt;
+
+&lt;p&gt;I am nearly always available through electronic means. My policy is that I will respond &lt;em&gt;usually&lt;/em&gt; immediately, &lt;em&gt;mostly&lt;/em&gt; within 24 hours, and  &lt;em&gt;at the latest&lt;/em&gt; to questions within 48 hours (or by Monday morning if sent during the weekend, during which I do not work). If I do not respond in this windows do not hesitate to bug me. All questions that are class-related and not personal in nature should be posted in Slack to the class channel so everyone can benefit from the response (or chime in). Personal issues may be sent via direct message (DM). &lt;strong&gt;All&lt;/strong&gt; emails sent to me should have subjects beginning with &lt;strong&gt;INFV ###&lt;/strong&gt; or &lt;strong&gt;ETCV ###&lt;/strong&gt;. All emails I send (that are not automatically created by the LMS) will have the same. This makes finding things considerably easier. Still, I reiterate: Slack is the better way to contact me.&lt;/p&gt;
+
+&lt;p&gt;Also note that I do not respond to communications about making up missed work or improving grades during the end of the semester. It is your responsibility to keep an eye on your grade throughout the semester and contact me with your concerns before the course is nearly ended. If you missed some points in week 2 you should not be petitioning me in week 7 to make them up.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;course-technology&#34;&gt;Course Technology&lt;/h2&gt;
+
+&lt;p&gt;This is a technology-driven course. As such, you are required to have ready access to a relatively modern computer and an account that allows you to install software on that computer. You should also &lt;em&gt;be excited&lt;/em&gt; to try and use new technologies. We do a lot of that.&lt;/p&gt;
+
+&lt;p&gt;The course website can be found on D2L at &lt;a href=&#34;https://d2l.arizona.edu/&#34; target=&#34;_blank&#34;&gt;https://d2l.arizona.edu/&lt;/a&gt;. Log in with your NetID. Note that course content lives primarily within D2L but usually as Google Documents that require you to use your UA account to access. Keep this in mind if you use multiple Gmail accounts.&lt;/p&gt;
+
+&lt;p&gt;We will have a full-class chatroom/discussion board/forum on &lt;a href=&#34;https://uasouth.slack.com&#34; target=&#34;_blank&#34;&gt;Slack&lt;/a&gt;. You will be able to log into Slack via your Google Apps for Education account (it will use WebAuth). &lt;strong&gt;Having the Slack application installed on your phone is required&lt;/strong&gt; (if possible).&lt;/p&gt;
+
+&lt;p&gt;Updating your profiles in both D2L and Slack is &lt;strong&gt;required&lt;/strong&gt;. We’re spending a lot of time together, so no excuse to just be a NetID for 16 weeks. Picture, likes and dislikes, job title, degree, home campus, the works.&lt;/p&gt;
+
+&lt;p&gt;You may be asked to use software that requires more processing power than your computer has. Contact the instructor if you feel this will prevent you from participating.&lt;/p&gt;
+
+&lt;p&gt;Class meetings are hosted via Zoom. &lt;strong&gt;It is REQUIRED that you have a microphone and headphones for the class meetings&lt;/strong&gt;. (A cheap set of earbuds will work if your laptop has a mic and you will be from a relatively quiet place.) &lt;strong&gt;You &lt;em&gt;will be expected&lt;/em&gt; to use them&lt;/strong&gt;. Should we have a class activity that requires a microphone and you do not have one you &lt;em&gt;will not&lt;/em&gt; receive credit for that assignment. Having working headphones and a microphone is &lt;strong&gt;not negotiable&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;You will need to install the latest edition of the &lt;a href=&#34;https://www.google.com/chrome/browser/&#34; target=&#34;_blank&#34;&gt;Chrome browser&lt;/a&gt; for this class. Tech support is vastly simpler if everyone uses the same browser.&lt;/p&gt;
+
+&lt;p&gt;Document submissions are required to be in PDF format unless otherwise noted. Assignments should also be in APA 6th ed. formatting, which is best achieved using &lt;a href=&#34;http://uabookstore.arizona.edu/technology/campuslicensing/default.asp&#34; target=&#34;_blank&#34;&gt;Microsoft Word&lt;/a&gt; (free for students) or Google Documents (free for all).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;class-policies&#34;&gt;Class Policies&lt;/h2&gt;
+
+&lt;p&gt;These policies run across all of my classes. Take the time to read them if this is your first class with me (go ahead and read them again, even if it’s not). The following are in addition to or in concert with all policies found in the University Catalog: &lt;a href=&#34;http://catalog.arizona.edu/policies&#34; target=&#34;_blank&#34;&gt;http://catalog.arizona.edu/policies&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;the-7-5-week-semester&#34;&gt;The 7.5 Week Semester&lt;/h2&gt;
+
+&lt;p&gt;The material covered and assignments required in a shortened 7.5 week semester are equal to those in a full 16 week semester with half the time allotted. Time management and &amp;ldquo;working ahead&amp;rdquo; are practical necessities in an accelerated semester. &lt;strong&gt;Do not fall behind&lt;/strong&gt;. “I didn’t have time” is not an acceptable excuse for missing assignments or readings.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;use-of-student-work&#34;&gt;Use of Student Work&lt;/h2&gt;
+
+&lt;p&gt;Assignments completed for this course may be used as examples of student work in an instructor portfolio. Names and other identifying elements will be removed before inclusion. Students who do not wish their work to be used must inform the instructor in writing before the start of the second week of classes.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;student-workload&#34;&gt;Student Workload&lt;/h2&gt;
+
+&lt;p&gt;According to UA policy, at least 15 contact hours of recitation, lecture, discussion, seminar, or colloquium, as well as a minimum of 30 hours of student homework are required for each unit of student credit. A contact hour is the equivalent of 50 minutes of class time or 60 minutes of independent-study work. For an online course this equates to 45 hours of work per credit; 135 hours total for the semester in a 3-credit class (9 hours per week). The hour requirements specified above represent minimums for average students, and considerable deviation (more or less) of these requirements may occur. &lt;strong&gt;In shortened, accelerated 7.5 week classes this workload is doubled&lt;/strong&gt;. &lt;strong&gt;&lt;em&gt;You should expect to spend 18 hours per week on this class. Budget your time wisely and always look ahead.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://catalog.arizona.edu/policy/credit-definitions&#34; target=&#34;_blank&#34;&gt;http://catalog.arizona.edu/policy/credit-definitions&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;tutoring&#34;&gt;Tutoring&lt;/h2&gt;
+
+&lt;p&gt;UA South provides free tutoring for writing and math, and various other related subjects, at multiple locations and fully online. Students can access free tutoring in- person at our Cochise and Yuma County locations, at the UA Think Tank in Tucson, as well as fully online from the UA Think Tank.&lt;/p&gt;
+
+&lt;p&gt;To find tutoring hours and availability near you, please select your location below to find the tutoring available at your learning center.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cochise.edu/academic-support/tutoring/&#34; target=&#34;_blank&#34;&gt;Sierra Vista &amp;amp; Douglas: http://www.cochise.edu/academic-support/tutoring/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://thinktank.arizona.edu/&#34; target=&#34;_blank&#34;&gt;Tucson: http://thinktank.arizona.edu/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.azwestern.edu/student-success-center/tutoring&#34; target=&#34;_blank&#34;&gt;Yuma: https://www.azwestern.edu/student-success-center/tutoring&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://thinktank.arizona.edu/online-tutoring&#34; target=&#34;_blank&#34;&gt;All Locations (Online): http://thinktank.arizona.edu/online-tutoring&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;academic-dishonesty&#34;&gt;Academic Dishonesty&lt;/h2&gt;
+
+&lt;p&gt;Cheating and plagiarism are unethical. Students are expected to do their own work. Plagiarism includes copying or cutting and pasting from online sources, taking information from a book or article, copying someone else&amp;rsquo;s paper, or having someone else do your work for you. Research sources must be properly documented. Students found cheating or intentionally plagiarizing will receive a zero for the assignment and may be dismissed from the class with a failing grade, required to attend workshops, have a permanent note included on his or her transcript, or any combination thereof to the instructor’s discretion.&lt;/p&gt;
+
+&lt;p&gt;I take this &lt;strong&gt;very seriously&lt;/strong&gt; and, as professional academics in this field, I expect you to, as well. &lt;strong&gt;When in doubt, cite!&lt;/strong&gt; See our program website for a primer on APA style, citation, and avoiding plagiarism and cheating.&lt;/p&gt;
+
+&lt;p&gt;In a development course like this it is likely you will come across much in the way of inspiration, be it in class or through your own research. Keep a constant log of all assets you either use in your work (free vectors or audio clips, for example) or note down what the inspiration was for a particular development choice. Being &lt;em&gt;inspired&lt;/em&gt; by something you love is perfectly fine; simply &lt;em&gt;using&lt;/em&gt; it is not.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;plagiarism-and-cheating&#34;&gt;Plagiarism and Cheating&lt;/h2&gt;
+
+&lt;p&gt;Integrity and ethical behavior are expected of every student in all academic work. This Academic Integrity principle stands for honesty in all class work, and ethical conduct in all labs and clinical assignments. This principle is furthered by the student Code of Conduct and disciplinary procedures established by ABOR Policies 5-308 through 5-404, all provisions of which apply to all University of Arizona students. This Code of Academic Integrity is intended to fulfill the requirement imposed by ABOR Policy 5-403.A.4 and otherwise to supplement the Student Code of Conduct as permitted by ABOR Policy 5-308.C.1.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Code of Academic Integrity: &lt;a href=&#34;https://deanofstudents.arizona.edu/policies-and-codes/code-academic-integrity&#34; target=&#34;_blank&#34;&gt;https://deanofstudents.arizona.edu/policies-and-codes/code-academic-integrity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;How to avoid plagiarism: &lt;a href=&#34;http://new.library.arizona.edu/research/citing/plagiarism&#34; target=&#34;_blank&#34;&gt;http://new.library.arizona.edu/research/citing/plagiarism&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;As a blanket policy&lt;/em&gt; I have automated plagiarism checking enabled for all assignments in all my classes. This is not meant to suggest I expect anyone to plagiarize but to demonstrate how seriously I take this.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;threatening-behavior&#34;&gt;Threatening Behavior&lt;/h2&gt;
+
+&lt;p&gt;The University seeks to promote a safe environment where students and employees may participate in the educational process without compromising their health, safety or welfare. The Arizona Board of Regents’ Student Code of Conduct, ABOR Policy 5-308, prohibits threats of physical harm to any member of the University community, including to one’s self. Threatening behavior can harm and disrupt the University, its community and its families.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Disruptive Behavior in an Instructional Setting: &lt;a href=&#34;http://policy.arizona.edu/education-and-student-affairs/disruptive-behavior-instructional-setting&#34; target=&#34;_blank&#34;&gt;http://policy.arizona.edu/education-and-student-affairs/disruptive-behavior-instructional-setting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Disruptive Student Behavior policy: &lt;a href=&#34;https://deanofstudents.arizona.edu/accountability/disruptive-student-behavior&#34; target=&#34;_blank&#34;&gt;https://deanofstudents.arizona.edu/accountability/disruptive-student-behavior&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There will always be times when electronic communication will be necessary between students and between instructor and students. Please treat each other kindly and professionally!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;nondiscrimination-and-anti-harassment-policy&#34;&gt;Nondiscrimination and Anti-Harassment Policy&lt;/h2&gt;
+
+&lt;p&gt;The University is committed to creating and maintaining an environment free of discrimination.  Our classroom is a place where everyone is encouraged to express well-formed opinions and their reasons for those opinions. We also want to create a tolerant and open environment where such opinions can be expressed without resorting to bullying or discrimination of others.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;See: &lt;a href=&#34;http://policy.arizona.edu/human-resources/nondiscrimination-and-anti-harassment-policy&#34; target=&#34;_blank&#34;&gt;http://policy.arizona.edu/human-resources/nondiscrimination-and-anti-harassment-policy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;attendance&#34;&gt;Attendance&lt;/h2&gt;
+
+&lt;p&gt;You’re an adult &amp;ndash; be responsible for your attendance. Any absences &lt;strong&gt;must&lt;/strong&gt; be addressed with the instructor prior to class except in emergencies. Missed classes may require a make-up assignment submitted for partial credit. There are also a number of things that you are expected to complete within the first week of class (these are listed clearly in the LMS). Failure to do these can result in being administratively dropped from the class. Likewise, no/poor attendance throughout the beginning of the class can result in being administratively dropped from the class. *Note: instructors are &lt;strong&gt;&lt;em&gt;not&lt;/em&gt;&lt;/strong&gt; obligated to administratively drop students for failure to participate.* If a student is administratively dropped between weeks five through eight a &amp;ldquo;W&amp;rdquo; will be administered if he/she has maintained a passing grade (60% or higher). An “E” will be administered for anything lower unless extenuating circumstances dictate otherwise as deemed appropriate by the instructor. See the class attendance policy in the General Catalog: &lt;a href=&#34;http://catalog.arizona.edu/policy/class-attendance-participation-and-administrative-drop&#34; target=&#34;_blank&#34;&gt;http://catalog.arizona.edu/policy/class-attendance-participation-and-administrative-drop&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;paper-assignment-submission&#34;&gt;Paper/Assignment Submission&lt;/h2&gt;
+
+&lt;p&gt;All assignments, papers, projects should be submitted in the specified method based on the &lt;em&gt;system time&lt;/em&gt; in the class website. Due to the frantic nature of game development projects, &lt;strong&gt;no late work will be accepted for partial points&lt;/strong&gt;. Keep in mind, however, that much work is iterative and &lt;strong&gt;you are still expected to complete it as later assignments/work are predicated on earlier assignments/work&lt;/strong&gt;. Be aware that instructors &lt;strong&gt;are not obligated&lt;/strong&gt; to accept late work at all. Students are responsible for ensuring proper delivery of their assignments/papers/projects. If an agreement has been made with the instructor to accept work after the due date or in a unique format it is &lt;strong&gt;the student’s responsibility&lt;/strong&gt; to let the instructor know when this is done. Submissions of this nature may not necessarily be graded and returned along the same schedule as others. This policy may change for individual assignments. &lt;strong&gt;Do not wait until the last minute to submit&lt;/strong&gt;. Your router going down or your computer’s clock being different from that of the LMS are &lt;strong&gt;not&lt;/strong&gt; valid reasons for being late. It is also highly suggested you keep your ‘working’ folder in Google Drive or some other cloud-copy backup location like Box.net. Your University of Arizona Google Apps for Education account comes with free, unlimited storage. Use it.&lt;/p&gt;
+
+&lt;p&gt;*All written assignments submitted should be properly formatted and stylized. I &lt;strong&gt;&lt;em&gt;require&lt;/em&gt;&lt;/strong&gt; that the American Psychological Association, 6^th^ ed, revised manual be followed. Period.*&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;grading-turn-around-time&#34;&gt;Grading Turn-Around Time&lt;/h2&gt;
+
+&lt;p&gt;Please note that I generally do not begin to grade an assignment until on or after the due date since it is my preference to grade all students’ submissions at one time, as well as return grades and feedback simultaneously. I will do my best to provide grades and useful feedback expediently.&lt;/p&gt;
+
+&lt;p&gt;However, some submissions require me to spend a significant time working through the materials. This may cause me to be delayed in grading that project. Additionally, if I am traveling I may be delayed in grading your submission. If this happens I will let everyone know.&lt;/p&gt;
+
+&lt;p&gt;NOTE: You are expected to retain an electronic copy of all work submitted. If transmission of the work fails, you are expected to &amp;ldquo;resend&amp;rdquo; the document or message (in the case of online discussions). This is entirely your responsibility.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;social-media-policy&#34;&gt;Social Media Policy&lt;/h2&gt;
+
+&lt;p&gt;Should this course require participation in social media you have the option of using &amp;ldquo;burner&amp;rdquo; accounts should you feel uncomfortable with using a personal account for academic work. You may even choose to use a unique, unrelated email account to sign up for various platforms. You are in no way required to follow, friend, etc., your instructor, only to provide information about the account you decided to use.&lt;/p&gt;
+
+&lt;p&gt;The reason for this policy is as follows: if you are active on social media already and want to combine your personal and professional/academic activities, you may; if you are active on social media and &lt;em&gt;do not&lt;/em&gt; want to mingle your personal and professional/academic activities, you have that option (this method is preferred for students); if you are &lt;em&gt;not&lt;/em&gt; active on social media and have no intention of maintaining a presence after this course, simply abandon or delete your burner account. It is your instructor’s wish to reap the benefits of developing personal learning networks and getting global perspectives while maintaining a safe, secure environment for you.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;The exception to this rule: students in the Educational Technology program are required to joint the program’s LinkedIn group and &amp;ldquo;connect&amp;rdquo; to the program’s instructors.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;office-hours-and-scheduling-meetings&#34;&gt;Office Hours and Scheduling Meetings&lt;/h2&gt;
+
+&lt;p&gt;I have a &lt;em&gt;virtual&lt;/em&gt; open-door policy. That is to say, feel free to send me a DM and see if I’m available to chat any time. I like to think of it as dropping by the department’s building and peeking your head in my door. Just as it is in person, I’m not always available right that second, so you’re welcome to ‘wait in the hall’ (until I’ve finished doing whatever I was doing) or schedule an appointment with me. I’m happy to do a video conference via Slack (preferably), Zoom meet in person on Main Campus or in my office on the Pima East campus, as I live in Tucson.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;accessibility-and-accommodations&#34;&gt;Accessibility and Accommodations&lt;/h2&gt;
+
+&lt;p&gt;If you have special needs as addressed by the Americans with Disabilities Act and need course materials in alternative formats or need any special accommodations, please notify your course instructor(s) and contact the Disability Resource Center immediately at 520-621-3268 or get information from DRC web site  &lt;a href=&#34;http://drc.arizona.edu&#34; target=&#34;_blank&#34;&gt;http://drc.arizona.edu&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;basic-securities&#34;&gt;Basic Securities&lt;/h2&gt;
+
+&lt;p&gt;Any student who has difficulty affording groceries or accessing sufficient food to eat every day, or who lacks a safe and stable place to live, and believes this may affect their performance in the course, is urged to contact the Dean of Students for support. Furthermore, please notify the professor if you are comfortable in doing so. This will enable them to provide any resources that they may possess. (Adapted from &lt;a href=&#34;https://medium.com/@saragoldrickrab/basic-needs-security-and-the-syllabus-d24cc7afe8c9&#34; target=&#34;_blank&#34;&gt;Sara Goldrick-Rab&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h2&gt;
+
+&lt;p&gt;Given the nature of our field, it is entirely possible that materials considered adult, controversial, or objectionable in nature will crop up from time to time. We will be spending the majority of our time on the Internet and we should not only understand but respect the fact that it is a free and open place. As responsible adults, I encourage and expect everyone to be safe, smart, and secure when engaged online. Should you have any questions or concerns about content, please email me to discuss an alternative assignment.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;non-endorsement-policy&#34;&gt;Non-Endorsement Policy&lt;/h2&gt;
+
+&lt;p&gt;In the course of accessing the online resources available in this course you will encounter a number of advertisements.  We can not remove them from the material so it is your choice if you explore any of the advertising you encounter. However, the University does not endorse any of these advertisements.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;a-personal-note&#34;&gt;A Personal Note&lt;/h2&gt;
+
+&lt;p&gt;We live in a digital age. We communicate through digital means. While I fully expect your submitted assignments to employ proper spelling, grammar, construction, and styling, I not only allow but expect and encourage you to express yourself using whatever communicative means you like. I will use emoticons; I will type in the text chat without using proper capitalization and punctuation; I will use ‘reaction gifs’ and make references to memes in casual situations; I will share entertaining but relevant media. If I can do it, so can you. Just remember: a place and time for everything, just as the way you speak with friends on a Friday night out is not the same as when you’re giving a conference presentation. Context is everything.&lt;/p&gt;
+
+&lt;p&gt;*The contents of this syllabus are subject to on-going change over the course of the semester as needed to accommodate students’ progress. Always &lt;strong&gt;link&lt;/strong&gt; to this document instead of downloading a local copy.*&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Syllabus dated &lt;em&gt;March 1, 2019&lt;/em&gt;&lt;/em&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Module A</title>
+      <link>/courses/302/211-modulea/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/courses/302/211-modulea/</guid>
+      <description>
+
+&lt;p&gt;Module A consists of readings from chapters 1 and 6 of the text.&lt;/p&gt;
+
+&lt;h2 id=&#34;chapter-1&#34;&gt;Chapter 1&lt;/h2&gt;
+
+&lt;p&gt;Chapter 1 is all about the &lt;a href=&#34;/courses/302/212-ch1/&#34; target=&#34;_blank&#34;&gt;introduction to &lt;em&gt;inferential and descriptive statistics&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;chapter-6&#34;&gt;Chapter 6&lt;/h2&gt;
+
+&lt;p&gt;Chapter 6 is all about an &lt;a href=&#34;/courses/302/213-ch6/&#34; target=&#34;_blank&#34;&gt;introduction to &lt;em&gt;designing research&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Statistics</title>
+      <link>/courses/302/212-ch1/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/courses/302/212-ch1/</guid>
+      <description>
+
+&lt;h2 id=&#34;learning-objectives-for-introduction-to-inferential-and-descriptive-statistics&#34;&gt;Learning Objectives for &lt;em&gt;Introduction to Inferential and Descriptive Statistics&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;These are the learning objectives for this portion of the class:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Give examples of how statistics can lend credibility to an argument&lt;/li&gt;
+&lt;li&gt;Distinguish between descriptive statistics and inferential statistics&lt;/li&gt;
+&lt;li&gt;Distinguish between a sample and a population&lt;/li&gt;
+&lt;li&gt;Distinguish between simple random sampling and stratified sampling&lt;/li&gt;
+&lt;li&gt;Distinguish between random sampling and random assignment&lt;/li&gt;
+&lt;li&gt;Define and distinguish between independent and dependent variables&lt;/li&gt;
+&lt;li&gt;Define and distinguish between discrete and continuous variables&lt;/li&gt;
+&lt;li&gt;Define and distinguish between qualitative and quantitative variables&lt;/li&gt;
+&lt;li&gt;Define percentiles&lt;/li&gt;
+&lt;li&gt;Define and distinguish among nominal, ordinal, interval, and ratio scales&lt;/li&gt;
+&lt;li&gt;Define &amp;ldquo;distribution&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Interpret a frequency distribution&lt;/li&gt;
+&lt;li&gt;Distinguish between a frequency distribution and a probability distribution&lt;/li&gt;
+&lt;li&gt;Construct a grouped frequency distribution for a continuous variable&lt;/li&gt;
+&lt;li&gt;Identify the skew of a distribution&lt;/li&gt;
+&lt;li&gt;Identify bimodal, leptokurtic, and platykurtic distributions&lt;/li&gt;
+&lt;li&gt;Learn how to use summation notation&lt;/li&gt;
+&lt;li&gt;Give the formula for a linear transformation&lt;/li&gt;
+&lt;li&gt;Determine whether a transformation is linear&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;consumables&#34;&gt;Consumables&lt;/h2&gt;
+
+&lt;p&gt;Each week there will be a number of items for you to consume, be it reading, watching, listening, or a combination thereof. This week, we will begin at the beginning:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://onlinestatbook.com/2/introduction/introduction.html&#34; target=&#34;_blank&#34;&gt;Chapter 1 of the Online Statistics Textbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Manga Guide to Statistics&lt;/em&gt; sections of interest&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:Note-that-the-Ma&#34;&gt;&lt;a href=&#34;#fn:Note-that-the-Ma&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;:
+
+&lt;ul&gt;
+&lt;li&gt;Chapters 1 and 2&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=YHXadaW_lso&#34; target=&#34;_blank&#34;&gt;Introductory Statistics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;r-and-r-studio&#34;&gt;R and R Studio&lt;/h3&gt;
+
+&lt;p&gt;The software we will be using to perform our statistical analyses and plotting/graphing is called &lt;strong&gt;R&lt;/strong&gt; and its associated IDE (graphical interface) called &lt;strong&gt;RStudio&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34;&gt;Download R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/products/rstudio/download/#download&#34; target=&#34;_blank&#34;&gt;Download RStudio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You&amp;rsquo;ll find more resources, guides, and tutorials for using R and RStudio on the &lt;a href=&#34;/courses/302/421-rguides/&#34; target=&#34;_blank&#34;&gt;guides&lt;/a&gt; page.&lt;/p&gt;
+
+&lt;h2 id=&#34;assignments&#34;&gt;Assignments&lt;/h2&gt;
+
+&lt;p&gt;Your assignments for this portion of week 1 are as follows:&lt;/p&gt;
+
+&lt;h3 id=&#34;introductions&#34;&gt;Introductions&lt;/h3&gt;
+
+&lt;p&gt;We are more than just a collection of random people studying the same material; we are, in fact, a community! &lt;a href=&#34;http://wenger-trayner.com/resources/what-is-a-community-of-practice/&#34; target=&#34;_blank&#34;&gt;Research has shown&lt;/a&gt; we’re all better off in this way so let’s get to know one another! So let’s jump in straight away with something really creative that will (hopefully!) set the tone for the rest of the class.&lt;/p&gt;
+
+&lt;h4 id=&#34;steps-to-completion&#34;&gt;Steps to Completion&lt;/h4&gt;
+
+&lt;p&gt;Using the questions below (some, hopefully all!) you will &lt;a href=&#34;https://spark.adobe.com&#34; target=&#34;_blank&#34;&gt;create an Adobe Spark &lt;strong&gt;Video&lt;/strong&gt;&lt;/a&gt; (not a Page or Post!) introduction of yourself and share the link in the &lt;a href=&#34;https://uasouth.slack.com/messages/etcv302/whats_new/&#34; target=&#34;_blank&#34;&gt;#etcv302 channel&lt;/a&gt; of our Slack team. You should be using this assignment as a means of becoming familiar with how to use Slack and its various features.&lt;/p&gt;
+
+&lt;p&gt;First, &lt;a href=&#34;https://www.youtube.com/watch?v=-nKTi5ydKbw&#34; target=&#34;_blank&#34;&gt;watch this tutorial&lt;/a&gt; and/or &lt;a href=&#34;https://youtu.be/-iZyMWBU708?t=36s&#34; target=&#34;_blank&#34;&gt;this tutorial&lt;/a&gt; on creating a Spark video. Keep in mind that the different options you’re given when making a video (Promote an Idea, A Hero’s Journey, etc.) simply give you prompts for scenes and have no real impact on what you can do.&lt;/p&gt;
+
+&lt;p&gt;Here’s &lt;a href=&#34;https://www.youtube.com/watch?v=wnxDS670xgs&#34; target=&#34;_blank&#34;&gt;a short sample of an introduction&lt;/a&gt; done by the director of Educational Technology at a Texas high school. Appropriate, isn’t it? And &lt;a href=&#34;https://www.youtube.com/watch?v=AicrQOsLlLs&#34; target=&#34;_blank&#34;&gt;here’s a great one&lt;/a&gt;, if very brief.&lt;/p&gt;
+
+&lt;p&gt;Now, &lt;a href=&#34;https://spark.adobe.com&#34; target=&#34;_blank&#34;&gt;go to the Spark website&lt;/a&gt; and start getting creative! Also, while you’re doing this &lt;a href=&#34;https://adobe-student.arizona.edu/&#34; target=&#34;_blank&#34;&gt;be sure to get access to the Adobe Creative Cloud now&lt;/a&gt; if you don’t have it already (because it’s free and how cool is that?).&lt;/p&gt;
+
+&lt;p&gt;Once this is done, watch your classmates&amp;rsquo; introductions and reply to all of them. You can respond to or acknowledge something they said, or just say &amp;lsquo;hello&amp;rsquo; if you know them already. Be as chatty as you like while keeping in mind the netiquette guidelines posted on D2L. This is also a good time to remark on the possibility of collaborating later in the semester.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Please&lt;/strong&gt; be proactive in these kinds of assignments and do your best to include individuals that haven&amp;rsquo;t had responses yet. If you wait until the last day of the week to post it makes &amp;lsquo;dialogue&amp;rsquo; very difficult. These timely participation/response items generally result in better outcomes for everyone. Try to include as much info about yourself as you’re comfortable sharing. Use the following questions as a guide but feel free to include more and other content.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Who are you? (Name, where you&amp;rsquo;re from, what characterizes/identifies you, etc)&lt;/li&gt;
+&lt;li&gt;Identify the general region in which you reside. Tucson? Amsterdam? The Moon?&lt;/li&gt;
+&lt;li&gt;Major/minor/emphasis/speciality… what are you studying and what are you good at?&lt;/li&gt;
+&lt;li&gt;Why are you taking this class?&lt;/li&gt;
+&lt;li&gt;Favorite past-time/activity/hobby?&lt;/li&gt;
+&lt;li&gt;Briefly explain your experience with online or hybrid classes.&lt;/li&gt;
+&lt;li&gt;Give your peers a bit of friendly advice you&amp;rsquo;ve gathered on how to complete classes successfully (generally, specifically with your instructor, or both).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;get-with-your-group&#34;&gt;Get With Your Group&lt;/h3&gt;
+
+&lt;p&gt;You&amp;rsquo;ll want to contact your group members &lt;em&gt;as soon as possible&lt;/em&gt; to start your collaborative work. Creating &lt;a href=&#34;https://get.slack.help/hc/en-us/articles/212281468-Send-direct-messages#send-a-new-dm&#34; target=&#34;_blank&#34;&gt;a private group in Slack&lt;/a&gt; is probably the best way to do this. How you organize is up to you. Your randomized groups are available in D2L in the navbar.&lt;/p&gt;
+
+&lt;h3 id=&#34;quiz&#34;&gt;Quiz&lt;/h3&gt;
+
+&lt;p&gt;Don&amp;rsquo;t forget about your chapter quiz! Find it in the Quizzes menu in D2L.&lt;/p&gt;
+
+&lt;h3 id=&#34;chapter-questions&#34;&gt;Chapter Questions&lt;/h3&gt;
+
+&lt;p&gt;Pick a question from OST Chapter 1&amp;rsquo;s Exercises section that one one else has selected yet, and post how you solved it. Respond to one of your classmate&amp;rsquo;s answers by the due date.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2 pts per each chapter’s Slack channel (initial post AND response)&lt;/li&gt;
+&lt;li&gt;no partial credit for initial post only or response only&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You might be asking yourself: &lt;strong&gt;How do I know no one else has chosen that question?&lt;/strong&gt; You should choose your question &lt;em&gt;early&lt;/em&gt; and post it in the Slack channel, claiming your spot! When you go to choose your question make sure you&amp;rsquo;re looking in the chapter channel to verify you&amp;rsquo;re the first.&lt;/p&gt;
+
+&lt;h4 id=&#34;steps-to-completion-1&#34;&gt;Steps to completion&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Choose &lt;a href=&#34;http://onlinestatbook.com/2/introduction/ch1_exercises.html&#34; target=&#34;_blank&#34;&gt;a question from the end of the chapter in the section called &amp;ldquo;Exercises&amp;rdquo; to answer&lt;/a&gt;.  Post the question and your answer, and make sure to justify your response.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For example, if you determine that a type of statistic is descriptive, provide your reasoning being specific about the problem presented and your answer.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Next, respond to another students&amp;rsquo; answers by asking a question for clarification, providing a personal experience, posting a thought-provoking question, taking a controversial, but professional stand, adding something new to the conversation, quoting another student&amp;rsquo;s comment and add an additional idea based on this comment, etc.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Your responses should be respectful and offered in a professional manner. You may wish to review the &lt;a href=&#34;/courses/302/101-syllabus/&#34; target=&#34;_blank&#34;&gt;behavior Course Policies&lt;/a&gt; to help frame your response. Remember, you will be responding about the specific idea, issue, or question.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Do not consider question #9. For question #10, show detailed calculations.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;You may not answer a question that has been previously addressed.&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:Note-that-the-Ma&#34;&gt;Note that the Manga Guide does not follow our progression step-for-step but is intended as an approachable supplement. &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:Note-that-the-Ma&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Research Design</title>
+      <link>/courses/302/213-ch6/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/courses/302/213-ch6/</guid>
+      <description>
+
+&lt;h1 id=&#34;learning-objectives-for-research-design&#34;&gt;Learning Objectives for &lt;em&gt;Research Design&lt;/em&gt;&lt;/h1&gt;
+
+&lt;p&gt;These are the learning objectives for this portion of the class:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Describe reliability in terms of true scores and error&lt;/li&gt;
+&lt;li&gt;Compute reliability from the true score and error variance&lt;/li&gt;
+&lt;li&gt;Define the standard error of measurement and state why it is valuable&lt;/li&gt;
+&lt;li&gt;State the effect of test length on reliability&lt;/li&gt;
+&lt;li&gt;Distinguish between reliability and validity&lt;/li&gt;
+&lt;li&gt;Define three types of validity&lt;/li&gt;
+&lt;li&gt;Recognize sampling bias&lt;/li&gt;
+&lt;li&gt;Distinguish among self-selection bias, undercoverage bias, and survivorship bias&lt;/li&gt;
+&lt;li&gt;Distinguish between between-subject and within-subject designs&lt;/li&gt;
+&lt;li&gt;Define &amp;ldquo;multi-factor design&amp;rdquo; and &amp;ldquo;factorial design&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Identify the levels of a variable in an experimental design&lt;/li&gt;
+&lt;li&gt;Explain how experimentation allows causal inferences&lt;/li&gt;
+&lt;li&gt;Explain the role of unmeasured variables&lt;/li&gt;
+&lt;li&gt;Explain how causation can be inferred in non-experimental designs&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;consumables&#34;&gt;Consumables&lt;/h1&gt;
+
+&lt;p&gt;Each week there will be a number of items for you to consume, be it reading, watching, listening, or a combination thereof.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://onlinestatbook.com/2/research_design/contents.html&#34; target=&#34;_blank&#34;&gt;Online Statistics Textbook, Chapter 6&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://onlinestatbook.com/2/research_design/research_design.pdf&#34; target=&#34;_blank&#34;&gt;PDF of the chapter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;assignments&#34;&gt;Assignments&lt;/h1&gt;
+
+&lt;p&gt;Your assignments for this week are as follows:&lt;/p&gt;
+
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+
+&lt;p&gt;Don&amp;rsquo;t forget about your chapter quiz! Find it in the Quizzes menu in D2L.&lt;/p&gt;
+
+&lt;h2 id=&#34;chapter-questions&#34;&gt;Chapter Questions&lt;/h2&gt;
+
+&lt;p&gt;Pick &lt;a href=&#34;http://onlinestatbook.com/2/research_design/exercises.html&#34; target=&#34;_blank&#34;&gt;a question from OST Chapter 6&amp;rsquo;s Exercises section&lt;/a&gt; that one one else has selected yet and post how you solved it.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2 pts per each chapter’s Slack channel (initial post AND response)&lt;/li&gt;
+&lt;li&gt;no partial credit for initial post only or response only&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;steps-to-completion&#34;&gt;Steps to completion&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Choose &lt;a href=&#34;http://onlinestatbook.com/2/graphing_distributions/ch2_exercises.html&#34; target=&#34;_blank&#34;&gt;a question from the end of the chapter in the section called &amp;ldquo;Exercises&amp;rdquo; to answer&lt;/a&gt;.  Post the question and your answer, and make sure to justify your response.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For example, if you determine that a type of statistic is descriptive, provide your reasoning being specific about the problem presented and your answer.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Next, respond to another students&amp;rsquo; answers by asking a question for clarification, providing a personal experience, posting a thought-provoking question, taking a controversial, but professional stand, adding something new to the conversation, quoting another student&amp;rsquo;s comment and add an additional idea based on this comment, etc.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Your responses should be respectful and offered in a professional manner. You may wish to review the &lt;a href=&#34;/courses/302/101-syllabus/&#34; target=&#34;_blank&#34;&gt;behavior Course Policies&lt;/a&gt; to help frame your response. Remember, you will be responding about the specific idea, issue, or question.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;You may not answer a question that has been previously addressed.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Module B</title>
+      <link>/courses/302/221-moduleb/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/courses/302/221-moduleb/</guid>
+      <description>&lt;p&gt;Module B&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chapter 2</title>
+      <link>/courses/302/222-ch2/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/courses/302/222-ch2/</guid>
+      <description>&lt;p&gt;Chapter 2 content&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chapter 3</title>
+      <link>/courses/302/223-ch3/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/courses/302/223-ch3/</guid>
+      <description>&lt;p&gt;Chapter 3 content&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Module C</title>
+      <link>/courses/302/231-modulec/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/courses/302/231-modulec/</guid>
+      <description>&lt;p&gt;Module C&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chapter 4</title>
+      <link>/courses/302/232-ch4/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/courses/302/232-ch4/</guid>
+      <description>&lt;p&gt;Chapter 4 content&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chapter 14</title>
+      <link>/courses/302/233-ch14/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/courses/302/233-ch14/</guid>
+      <description>&lt;p&gt;Chapter 14 content&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Module D</title>
+      <link>/courses/302/241-moduled/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/courses/302/241-moduled/</guid>
+      <description>&lt;p&gt;Module D&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chapter 5</title>
+      <link>/courses/302/242-ch5/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/courses/302/242-ch5/</guid>
+      <description>&lt;p&gt;Chapter 5 content&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chapter 7</title>
+      <link>/courses/302/243-ch7/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/courses/302/243-ch7/</guid>
+      <description>&lt;p&gt;Chapter 7 content&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Module E</title>
+      <link>/courses/302/251-modulee/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/courses/302/251-modulee/</guid>
+      <description>&lt;p&gt;Module E&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chapter 9</title>
+      <link>/courses/302/252-ch9/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/courses/302/252-ch9/</guid>
+      <description>&lt;p&gt;Chapter 9 content&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chapter 11</title>
+      <link>/courses/302/253-ch11/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/courses/302/253-ch11/</guid>
+      <description>&lt;p&gt;Chapter 11 content&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Module F</title>
+      <link>/courses/302/261-modulef/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/courses/302/261-modulef/</guid>
+      <description>&lt;p&gt;Module F&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chapter 12</title>
+      <link>/courses/302/262-ch12/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/courses/302/262-ch12/</guid>
+      <description>&lt;p&gt;Chapter 12 content&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chapter 15</title>
+      <link>/courses/302/263-ch15/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/courses/302/263-ch15/</guid>
+      <description>&lt;p&gt;Chapter 15 content&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Module G</title>
+      <link>/courses/302/271-moduleg/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/courses/302/271-moduleg/</guid>
+      <description>&lt;p&gt;Module G&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Assignments</title>
+      <link>/courses/302/311-assignments/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/courses/302/311-assignments/</guid>
+      <description>&lt;p&gt;Assignments for this class are basically broken into five types:&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Activity A</title>
+      <link>/courses/302/312-activitya/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/courses/302/312-activitya/</guid>
+      <description>
+
+&lt;h2 id=&#34;week-2-activity-a-description&#34;&gt;Week 2 (Activity A) Description&lt;/h2&gt;
+
+&lt;p&gt;A marketing consultant observed 50 consecutive shoppers at a grocery store, and recorded how much money each shopper spent in the store. The dataset is listed below.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;the-data&#34;&gt;The Data&lt;/h2&gt;
+
+&lt;p&gt;First things first: create &lt;a href=&#34;https://support.rstudio.com/hc/en-us/articles/200526207&#34; target=&#34;_blank&#34;&gt;a new RStudio Project&lt;/a&gt;. Using a separate project for each assignment is probably best. Don&amp;rsquo;t worry about version control unless you either a) plan on working on these assignments across multiple devices, or b) are already knowledgeable of and comfortable with Git or Subversion.&lt;/p&gt;
+
+&lt;p&gt;You&amp;rsquo;ll need to use this &lt;strong&gt;&lt;a href=&#34;https://302.ryanstraight.com/spending.csv&#34; target=&#34;_blank&#34;&gt;spending.csv&lt;/a&gt;&lt;/strong&gt; data for your assignment. The data is also displayed below.&lt;/p&gt;
+
+&lt;p&gt;Variable Name: &lt;code&gt;spending&lt;/code&gt; = amount spent in USD. Use the following R code to import the data. Using the following code loads the file remotely. Alternatively, you can download it and keep a local copy and use &lt;code&gt;dfa &amp;lt;- read.table(&amp;quot;spending.csv&amp;quot;, header = TRUE)&lt;/code&gt;, though this assumes your .csv is in &lt;a href=&#34;https://support.rstudio.com/hc/en-us/articles/200711843-Working-Directories-and-Workspaces&#34; target=&#34;_blank&#34;&gt;the project&amp;rsquo;s working directory&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;p&gt;Why are we calling it &lt;code&gt;dfa&lt;/code&gt;? Well, &lt;code&gt;df&lt;/code&gt; is often used as an abbreviation for &lt;code&gt;data frame&lt;/code&gt;, which is what our new csv/table is called in R. It&amp;rsquo;s &lt;code&gt;dfa&lt;/code&gt; because it&amp;rsquo;s the &lt;code&gt;data frame&lt;/code&gt; for &lt;code&gt;Activity A&lt;/code&gt;. It&amp;rsquo;s important to name data and variables &lt;strong&gt;meaningfully&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    If you want to reference the content in the &lt;code&gt;spending&lt;/code&gt; column you&amp;rsquo;ll need to reference the dataframe AND the variable: &lt;code&gt;dfa$spending&lt;/code&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# Create the dataframe called dfa
+dfa &amp;lt;- read.csv(url(&amp;quot;https://302.ryanstraight.com/spending.csv&amp;quot;), header = TRUE) # This loads the data from the remote .csv file and saves it in our environment.
+
+# Display our newly found data.
+kable(dfa, caption = &amp;quot;Spending&amp;quot;) # That displays the data frame we&#39;ve just created as a nice looking table. You could also simply type dfa. Try them both out.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;right&#34;&gt;spending&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;2.32&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;6.61&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;6.90&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;8.04&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;9.45&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;10.26&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;11.34&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;11.63&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;12.66&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;12.95&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;13.67&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;13.72&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;14.35&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;14.52&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;14.55&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;15.01&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;15.33&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;16.55&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;17.15&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;18.22&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;18.30&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;18.71&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;19.54&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;19.55&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;20.58&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;20.89&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;20.91&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;21.13&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;23.85&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;26.04&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;27.07&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;28.76&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;29.15&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;30.54&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;31.99&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;32.82&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;33.26&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;33.80&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;34.76&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;36.22&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;37.52&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;39.28&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;40.80&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;43.97&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;45.58&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;52.36&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;61.57&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;63.85&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;64.30&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;69.49&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Except when instructed otherwise, make sure &lt;code&gt;echo = TRUE&lt;/code&gt; flag is set on your &lt;code&gt;knitr::opts_chunk$set(echo = FALSE)&lt;/code&gt; line in the &lt;em&gt;r setup&lt;/em&gt; chunk! It defaults to &lt;code&gt;FALSE&lt;/code&gt; so make sure you switch it to &lt;code&gt;TRUE&lt;/code&gt;. This will display your code &lt;em&gt;and&lt;/em&gt; the results.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;assignment&#34;&gt;Assignment&lt;/h2&gt;
+
+&lt;p&gt;For this activity, create and submit a document with the following (doing the coding in an R script file and then putting that code in an RMarkdown file is required!):&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Summarize the data by creating &lt;em&gt;and describing&lt;/em&gt; the following descriptive statistics:
+
+&lt;ol&gt;
+&lt;li&gt;mean&lt;/li&gt;
+&lt;li&gt;median&lt;/li&gt;
+&lt;li&gt;standard deviation&lt;/li&gt;
+&lt;li&gt;interquartile range&lt;/li&gt;
+&lt;li&gt;(optional) any other descriptive statistics you find interesting&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;Show how a histogram that, although the distribution of the data is slightly skewed with a long right tail, is approximately normally distributed.&lt;/li&gt;
+&lt;li&gt;It&amp;rsquo;s easiest to write your code in a &lt;code&gt;.R&lt;/code&gt; file (called an R script file) so you can easily test it while working. &lt;em&gt;Then&lt;/em&gt;, when you&amp;rsquo;ve got everything above taken care of, create a &lt;code&gt;.Rmd&lt;/code&gt; file (RMarkdown) and use that to present your data rather than simply turning in code and the results. Here&amp;rsquo;s a [great write-up on how code from an R script can be used in an R Markdown file]&lt;a href=&#34;https://ourcodingclub.github.io/2016/11/24/rmarkdown-1.html)&#34; target=&#34;_blank&#34;&gt;https://ourcodingclub.github.io/2016/11/24/rmarkdown-1.html)&lt;/a&gt;.
+
+&lt;ol&gt;
+&lt;li&gt;For this assignment and all others, having read the &lt;a href=&#34;https://rmarkdown.rstudio.com/articles_intro.html&#34; target=&#34;_blank&#34;&gt;introduction to RMarkdown&lt;/a&gt; page is absolutely key.&lt;/li&gt;
+&lt;li&gt;This is very likely going to take some trial and error. Set aside 2-3 times the amount of time you think this will take to account for fixing errors and debugging. R code is relatively straight forward and easy to use but it can be somewhat intimidating to the beginner. You&amp;rsquo;re encouraged to read through most of the &lt;a href=&#34;https://rmarkdown.rstudio.com/lesson-2.html&#34; target=&#34;_blank&#34;&gt;R Markdown book&lt;/a&gt; as it will make things &lt;em&gt;much&lt;/em&gt; easier on  you in the long run. When in doubt: copy example code that works and tweak to your specifications.&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;Submitting the assignment:
+
+&lt;ol&gt;
+&lt;li&gt;Submit &lt;em&gt;both&lt;/em&gt; your &lt;code&gt;Rmd&lt;/code&gt; and your &lt;code&gt;PDF&lt;/code&gt; to the &lt;em&gt;Activity A&lt;/em&gt; dropbox in the LMS by the stated due date and time.&lt;/li&gt;
+&lt;li&gt;Remember: the point of using this file system is &lt;em&gt;reproducability&lt;/em&gt;. If I can&amp;rsquo;t see the content you won&amp;rsquo;t get credit for it. That sounds obvious, right? This is why a PDF is important: if you just knit your &lt;code&gt;Rmd&lt;/code&gt; file to &lt;code&gt;html&lt;/code&gt;, you may be referencing local files in that page. Files that I don&amp;rsquo;t have in the same location as you, possibly. So: &lt;code&gt;Rmd&lt;/code&gt; AND &lt;code&gt;PDF&lt;/code&gt; submissions, please!&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+
+&lt;p&gt;We can find each of these respective descriptives using individual commands, such as &lt;code&gt;mean(dfa$spending)&lt;/code&gt;, &lt;code&gt;median(dfa$spending)&lt;/code&gt;, &lt;code&gt;sd(dfa$spending)&lt;/code&gt;, and &lt;code&gt;IQR(dfa$spending)&lt;/code&gt;. We can even get a very basic histogram with the &lt;code&gt;hist(dfa$spending)&lt;/code&gt; command.&lt;/p&gt;
+
+&lt;p&gt;We could simply use an in-line R chunk like this: &lt;code&gt;`r mean(dfa$spending)`&lt;/code&gt;. This would show up in our RMarkdown files as 25.8364. Remember, the point of using RMarkdown is that you don&amp;rsquo;t need to work out the answer and then paste it somewhere else. The inline R code lets you place the calculated answer wherever you want &lt;em&gt;that updates whenever the data is changed&lt;/em&gt;. Add a few more rows to the bottom of the &lt;code&gt;spending.csv&lt;/code&gt; and that mean calculation will change without you having to do a thing.&lt;/p&gt;
+
+&lt;p&gt;That said, there are other ways to go about doing this.&lt;/p&gt;
+
+&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
+
+&lt;p&gt;Here we have a summary of the &lt;code&gt;spending&lt;/code&gt; data in two forms: descriptives and a table of relevant information like valid cases, missing cases, and a brief histogram. (You will need to install the &lt;strong&gt;summarytools&lt;/strong&gt; package before this chunk will work.)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;#First, load the library
+library(summarytools)    # That&#39;s how you make sure this chunk will run even if you run it all on its own.
+
+# Next, display the summary.
+print(descr(dfa), method = &#39;render&#39;, style = &#39;rmarkdown&#39;, table.classes = &#39;st-small&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;!--html_preserve--&gt;&lt;div class=&#34;container st-container&#34;&gt;
+&lt;h3&gt;Descriptive Statistics&lt;/h3&gt;
+&lt;h4&gt;spending&lt;/h4&gt;
+&lt;strong&gt;N&lt;/strong&gt;: 50
+&lt;br/&gt;
+&lt;table class=&#34;table table-bordered table-striped st-table st-table-bordered st-table-striped st-descr-table st-small&#34;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th align=&#34;center&#34; class=&#34;st-protect-top-border&#34;&gt;spending&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Mean&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span&gt;25.84&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Std.Dev&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span&gt;16.15&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Min&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span&gt;2.32&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Q1&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span&gt;14.35&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Median&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span&gt;20.73&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Q3&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span&gt;33.80&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Max&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span&gt;69.49&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;MAD&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span&gt;12.99&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;IQR&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span&gt;19.27&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;CV&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span&gt;0.63&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Skewness&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span&gt;1.04&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;SE.Skewness&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span&gt;0.34&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Kurtosis&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span&gt;0.38&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;N.Valid&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span&gt;50&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;strong&gt;Pct.Valid&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;span&gt;100.00&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Generated by &lt;a href=&#39;https://github.com/dcomtois/summarytools&#39;&gt;summarytools&lt;/a&gt; 0.9.3 (&lt;a href=&#39;https://www.r-project.org/&#39;&gt;R&lt;/a&gt; version 3.5.3)&lt;br/&gt;2019-06-16&lt;/p&gt;
+&lt;/div&gt;&lt;!--/html_preserve--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;!--html_preserve--&gt;&lt;div class=&#34;container st-container&#34;&gt;
+&lt;h3&gt;Data Frame Summary&lt;/h3&gt;
+&lt;h4&gt;dfa&lt;/h4&gt;
+&lt;strong&gt;Dimensions&lt;/strong&gt;: 50 x 1
+  &lt;br/&gt;&lt;strong&gt;Duplicates&lt;/strong&gt;: 0
+&lt;br/&gt;
+&lt;table class=&#34;table table-striped table-bordered st-table st-table-striped st-table-bordered st-multiline &#34;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th align=&#34;center&#34; class=&#34;no st-protect-top-border&#34;&gt;&lt;strong&gt;No&lt;/strong&gt;&lt;/th&gt;
+      &lt;th align=&#34;center&#34; class=&#34;variable st-protect-top-border&#34;&gt;&lt;strong&gt;Variable&lt;/strong&gt;&lt;/th&gt;
+      &lt;th align=&#34;center&#34; class=&#34;stats.values st-protect-top-border&#34;&gt;&lt;strong&gt;Stats / Values&lt;/strong&gt;&lt;/th&gt;
+      &lt;th align=&#34;center&#34; class=&#34;freqs.pct.valid st-protect-top-border&#34;&gt;&lt;strong&gt;Freqs (% of Valid)&lt;/strong&gt;&lt;/th&gt;
+      &lt;th align=&#34;center&#34; class=&#34;graph st-protect-top-border&#34;&gt;&lt;strong&gt;Graph&lt;/strong&gt;&lt;/th&gt;
+      &lt;th align=&#34;center&#34; class=&#34;valid st-protect-top-border&#34;&gt;&lt;strong&gt;Valid&lt;/strong&gt;&lt;/th&gt;
+      &lt;th align=&#34;center&#34; class=&#34;missing st-protect-top-border&#34;&gt;&lt;strong&gt;Missing&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+      &lt;td align=&#34;left&#34;&gt;dfa
+[numeric]&lt;/td&gt;
+      &lt;td align=&#34;left&#34;&gt;Mean (sd) : 25.8 (16.2)
+min &amp;lt; med &amp;lt; max:
+2.3 &amp;lt; 20.7 &amp;lt; 69.5
+IQR (CV) : 19.3 (0.6)&lt;/td&gt;
+      &lt;td align=&#34;left&#34; style=&#34;vertical-align:middle&#34;&gt;50 distinct values&lt;/td&gt;
+      &lt;td align=&#34;left&#34; style=&#34;vertical-align:middle;padding:0;background-color:transparent&#34;&gt;&lt;img style=&#34;border:none;background-color:transparent;padding:0&#34; src=&#34;data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAJgAAABuBAMAAAApJ8cWAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAD1BMVEX////9/v2mpqby8vL///8shn5hAAAAAnRSTlMAAHaTzTgAAAABYktHRACIBR1IAAAAB3RJTUUH4wYQBhYeYUeVtQAAAHhJREFUaN7t1rENwCAMAEGvQDaIswHZf7dU2EWsSLFcIPivXMBVIBChTM1S62x/e2HXPQIDAwMDAwMDAwMDAwMDA5sD06A0FkwdDAwMDGw9zJ+MAuyTAJsaO/wkFGC2rINFWPBTy2O+EQxsb8wvVgEWTXthWpJQpgfkmjDkkWFVKAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOS0wNi0xNlQxMzoyMjozMC0wNzowMCSkjLgAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTktMDYtMTZUMTM6MjI6MzAtMDc6MDBV+TQEAAAAAElFTkSuQmCC&#34;&gt;&lt;/td&gt;
+      &lt;td align=&#34;center&#34;&gt;50
+(100%)&lt;/td&gt;
+      &lt;td align=&#34;center&#34;&gt;0
+(0%)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Generated by &lt;a href=&#39;https://github.com/dcomtois/summarytools&#39;&gt;summarytools&lt;/a&gt; 0.9.3 (&lt;a href=&#39;https://www.r-project.org/&#39;&gt;R&lt;/a&gt; version 3.5.3)&lt;br/&gt;2019-06-16&lt;/p&gt;
+&lt;/div&gt;&lt;!--/html_preserve--&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;histogram&#34;&gt;Histogram&lt;/h3&gt;
+
+&lt;p&gt;Though there is a small histogram displayed with the &lt;code&gt;dfSummary&lt;/code&gt; output, we can plot a larger one to better see. Using R&amp;rsquo;s build-in histogram function, &lt;code&gt;hist&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;hist(dfa$spending)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;/courses/302/312-activityA_files/figure-html/histogram-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If we like, we can use the &lt;code&gt;ggplot2&lt;/code&gt; plugin to create a more informative and visually pleasing one with labels, a different fill color, and a mean line:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(ggplot2)
+ggplot(dfa, aes(x=dfa$spending)) +
+  geom_histogram(binwidth=2.5, color=&amp;quot;black&amp;quot;, fill=&amp;quot;lightblue&amp;quot;) +
+  geom_vline(aes(xintercept=mean(dfa$spending)), color=&amp;quot;blue&amp;quot;, linetype=&amp;quot;dashed&amp;quot;) +
+  labs(title=&amp;quot;Spending histogram plot&amp;quot;,x=&amp;quot;Spent($USD), mean `r mean(dfa$spending)`&amp;quot;, y = &amp;quot;Count&amp;quot;) +
+  theme_classic()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;/courses/302/312-activityA_files/figure-html/ggplot2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>/courses/302/411-resources/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/courses/302/411-resources/</guid>
+      <description>
+
+&lt;p&gt;This is a pretty resource-heavy class. Here&amp;rsquo;s a (not so) small collection of them.&lt;/p&gt;
+
+&lt;h2 id=&#34;texts&#34;&gt;Texts&lt;/h2&gt;
+
+&lt;p&gt;You have two main texts for this class, both of which are free and the latter available to to you as part of the University of Arizona.&lt;/p&gt;
+
+&lt;h3 id=&#34;online-statistics-textbook&#34;&gt;Online Statistics Textbook&lt;/h3&gt;
+
+&lt;p&gt;Lane, D. (2016).  &lt;em&gt;Online Statistics Education: A Multimedia Course of Study&lt;/em&gt;. 2nd ed.  Houston: Rice University. &lt;a href=&#34;http://onlinestatbook.com/2/&#34; target=&#34;_blank&#34;&gt;http://onlinestatbook.com/2/&lt;/a&gt;. (&lt;a href=&#34;Online_Statistics_Education.pdf&#34; target=&#34;_blank&#34;&gt;PDF backup&lt;/a&gt;)&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Online Statistics: An Interactive Multimedia Course of Study is a resource for learning and teaching introductory statistics. It contains material presented in textbook format and as video presentations. This resource features interactive demonstrations and simulations, case studies, and an analysis lab.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This is a &lt;em&gt;free&lt;/em&gt; text that covers nearly everything we focus on in this course. It is also available &lt;a href=&#34;http://onlinestatbook.com/Online_Statistics_Education.epub&#34; target=&#34;_blank&#34;&gt;as an e-Pub ebook file&lt;/a&gt; for those who want to read it on a Kindle or other e-reader.&lt;/p&gt;
+
+&lt;h3 id=&#34;manga-guide-to-statistics&#34;&gt;Manga Guide to Statistics&lt;/h3&gt;
+
+&lt;p&gt;Takahashi, S., &amp;amp; Trend-pro Co Content Provider. (2008). &lt;em&gt;The Manga Guide to Statistics&lt;/em&gt;. San Francisco: No Starch Press. &lt;a href=&#34;https://arizona-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=01UA_ALMA51538828670003843&amp;amp;context=L&amp;amp;vid=01UA&amp;amp;search_scope=Everything&amp;amp;tab=default_tab&amp;amp;lang=en_US&#34; target=&#34;_blank&#34;&gt;Available for free through the UA library website.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://nostarch.com/mg_statistics.htm&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;../mg_statistics_big.png&#34; alt=&#34;**The Manga Guide to Statistics** from No Starch Press&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;To access the Manga Guide, you&amp;rsquo;ll need to go through the University of Arizona library. The link provided should take care of that. Note that while this text doesn&amp;rsquo;t address everything we we need to in this class, what it &lt;em&gt;does&lt;/em&gt; is provide you with a very accessible, entertaining supplement to many of the concepts. If you&amp;rsquo;re fine with just the Online Stats Book you&amp;rsquo;re welcome to ignore the Manga Guide entirely.&lt;/p&gt;
+
+&lt;p&gt;Having said that, the appendices and supplemental exercises are pretty useful &lt;em&gt;and&lt;/em&gt; are avaiable as Excel files &lt;em&gt;and&lt;/em&gt; in R, so checking them out is encouraged.&lt;/p&gt;
+
+&lt;h2 id=&#34;guides&#34;&gt;Guides&lt;/h2&gt;
+
+&lt;p&gt;Lots of guides covering everything from how to get started with R to how to organize your research citations.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R and RStudio</title>
+      <link>/courses/302/421-rguides/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/courses/302/421-rguides/</guid>
+      <description>
+
+&lt;p&gt;We&amp;rsquo;re using an &lt;em&gt;incredibly&lt;/em&gt; powerful statistical software package in this class (in fact, this entire course site is built using it). Unfortunately, it does come with a &lt;em&gt;bit&lt;/em&gt; of a learning curve. You won&amp;rsquo;t be required to learn the nitty-gritty ins and outs of the R scripting language but you &lt;em&gt;will&lt;/em&gt; need to know the basics of what R can do. Luckily, we have &lt;strong&gt;RStudio&lt;/strong&gt; to really help out with that. Below are some introductory articles and videos.&lt;/p&gt;
+
+&lt;h2 id=&#34;download-r-https-cran-r-project-org&#34;&gt;&lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34;&gt;Download R&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;This simply needs to be installed. We&amp;rsquo;ll be using RStudio rather than the simple R console.&lt;/p&gt;
+
+&lt;h2 id=&#34;download-rstudio-https-www-rstudio-com-products-rstudio-download-download&#34;&gt;&lt;a href=&#34;https://www.rstudio.com/products/rstudio/download/#download&#34; target=&#34;_blank&#34;&gt;Download RStudio&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Pick the version for your operating system.&lt;/p&gt;
+
+&lt;h2 id=&#34;quick-r-r-tutorial-https-www-statmethods-net-r-tutorial-index-html&#34;&gt;&lt;a href=&#34;https://www.statmethods.net/r-tutorial/index.html&#34; target=&#34;_blank&#34;&gt;Quick-R R Tutorial&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;A quick (obviously) introduction to some of the most basic aspects of R.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-built-in-help-in-rstudio&#34;&gt;The built-in help in RStudio&lt;/h2&gt;
+
+&lt;p&gt;Inside RStudio, simply type &lt;strong&gt;help.start()&lt;/strong&gt; in the console and voila, the manuals and reference materials appear in the Help module. If you prefer a more organized manual, here&amp;rsquo;s a &lt;a href=&#34;http://www.cs.utexas.edu/~cannata/dataVis/Class%20Notes/Getting%20Started%20with%20RStudio.pdf&#34; target=&#34;_blank&#34;&gt;getting started&lt;/a&gt; book.&lt;/p&gt;
+
+&lt;h2 id=&#34;r-for-cats-https-rforcats-net&#34;&gt;&lt;a href=&#34;https://rforcats.net/&#34; target=&#34;_blank&#34;&gt;R for Cats&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;In case you like cats.&lt;/p&gt;
+
+&lt;h2 id=&#34;cheatsheets-https-www-rstudio-com-resources-cheatsheets&#34;&gt;&lt;a href=&#34;https://www.rstudio.com/resources/cheatsheets/&#34; target=&#34;_blank&#34;&gt;Cheatsheets&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Print them out and keep them at your desk. The RStudio IDE and RMarkdown cheatsheets are particularly useful.&lt;/p&gt;
+
+&lt;h2 id=&#34;swirl-https-swirlstats-com-students-html&#34;&gt;&lt;a href=&#34;https://swirlstats.com/students.html&#34; target=&#34;_blank&#34;&gt;swirl&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;swirl is a fantastic collection of courses (ranging between 10 and 20 minutes each) designed to help you learn R programming while immersed in R!&lt;/p&gt;
+
+&lt;h2 id=&#34;rmarkdown-for-beginners-https-shiny-rstudio-com-articles-rmarkdown-html&#34;&gt;&lt;a href=&#34;https://shiny.rstudio.com/articles/rmarkdown.html&#34; target=&#34;_blank&#34;&gt;RMarkdown for Beginners&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Guess what this website is built in. Yep! RMarkdown. If you want to create your assignments in RMarkdown and submit them that way you are &lt;em&gt;more&lt;/em&gt; than welcome to do so. You can even use a plugin called &lt;strong&gt;&lt;a href=&#34;https://github.com/crsh/papaja&#34; target=&#34;_blank&#34;&gt;papaja&lt;/a&gt;&lt;/strong&gt; to create perfectly formatted APA papers for you.&lt;/p&gt;
+
+&lt;h2 id=&#34;pandoc-http-www-pandoc-org-installing-html&#34;&gt;&lt;a href=&#34;http://www.pandoc.org/installing.html&#34; target=&#34;_blank&#34;&gt;Pandoc&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;If you need to convert files from one markup format into another, pandoc is your swiss-army knife. (It converts from everything to everything and you&amp;rsquo;ll never need to touch it; everything happens through RStudio. &amp;mdash;Dr S)&lt;/p&gt;
+
+&lt;h2 id=&#34;latex-variations&#34;&gt;LaTeX (variations)&lt;/h2&gt;
+
+&lt;p&gt;You will be wanting to save your R results as PDFs at some point. To do this you will need to install LaTeX, a mathetmatical typesetting system. It&amp;rsquo;s required to convert code into symbols. Here&amp;rsquo;s &lt;a href=&#34;http://keziamanlove.com/latex-in-rstudio/&#34; target=&#34;_blank&#34;&gt;a good but brief introduction&lt;/a&gt; to LaTeX with RStudio. You can install &lt;a href=&#34;https://miktex.org/2.9/setup&#34; target=&#34;_blank&#34;&gt;MiKTeX&lt;/a&gt; in Windows and &lt;a href=&#34;https://tug.org/mactex/mactex-download.html&#34; target=&#34;_blank&#34;&gt;MacTeX&lt;/a&gt; on a Mac.&lt;/p&gt;
+
+&lt;p&gt;So you can write something like:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;$$ y_{ij} = b_{ij} + \beta_{0} + \beta_{1} $$&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;and get the following displayed in your document (as copyable text!):&lt;/p&gt;
+
+&lt;p&gt;$ y_{ij} = b_{ij} + \beta_{0} + \beta_{1} $&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Big Data</title>
+      <link>/courses/302/422-bigdata/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/courses/302/422-bigdata/</guid>
+      <description>
+
+&lt;h2 id=&#34;what-is-big-data-a-super-simple-explanation-for-everyone-https-www-bernardmarr-com-default-asp-contentid-766&#34;&gt;&lt;a href=&#34;https://www.bernardmarr.com/default.asp?contentID=766&#34; target=&#34;_blank&#34;&gt;What Is Big Data? A Super Simple Explanation For Everyone&lt;/a&gt;&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt;The term “Big Data” may have been around for some time now, but there is still quite a lot of confusion about what it actually means. In truth, the concept is continually evolving and being reconsidered, as it remains the driving force behind many ongoing waves of digital transformation, including artificial intelligence, data science and the Internet of Things. But what exactly is Big Data and how is it changing our world?
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;what-is-big-data-https-www-businessnewsdaily-com-4522-big-data-html&#34;&gt;&lt;a href=&#34;https://www.businessnewsdaily.com/4522-big-data.html&#34; target=&#34;_blank&#34;&gt;What is Big Data?&lt;/a&gt;&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt;Big data encompasses a wide range of analytics and data-gathering strategies. Essentially, it&#39;s the ability to capture, store and analyze data on a mass scale to inform business decisions. It follows basic logic: The more you know about a problem or issue, the more reliable the solution.
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

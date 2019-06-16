@@ -2,25 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dlnchat on ryan straight</title>
-    <link>https://ryanstraight.com/tags/dlnchat/</link>
+    <link>/tags/dlnchat/</link>
     <description>Recent content in dlnchat on ryan straight</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Thu, 05 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://ryanstraight.com/tags/dlnchat/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/tags/dlnchat/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hi, EdSurge!</title>
-      <link>https://ryanstraight.com/2018/07/05/hi-edsurge/</link>
+      <link>/2018/07/05/hi-edsurge/</link>
       <pubDate>Thu, 05 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanstraight.com/2018/07/05/hi-edsurge/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;featured.webp&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+      <guid>/2018/07/05/hi-edsurge/</guid>
+      <description>
 
-&lt;p&gt;I&amp;rsquo;m featured as the July &lt;a href=&#34;https://twitter.com/hashtag/dlnchat&#34; target=&#34;_blank&#34;&gt;EdSurge #DLNchat&lt;/a&gt; Member of the Month!&lt;/p&gt;
+
+&lt;p&gt;&lt;embed src=&#34;featured.webp&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;I’m featured as the July &lt;a href=&#34;https://twitter.com/hashtag/dlnchat&#34;&gt;EdSurge #DLNchat&lt;/a&gt; Member of the Month!&lt;/p&gt;
 </description>
     </item>
     

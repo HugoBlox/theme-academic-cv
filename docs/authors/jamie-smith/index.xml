@@ -2,32 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jamie Smith on ryan straight</title>
-    <link>https://ryanstraight.com/authors/jamie-smith/</link>
+    <link>/authors/jamie-smith/</link>
     <description>Recent content in Jamie Smith on ryan straight</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Tue, 18 Oct 2011 20:29:35 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 07 Mar 2011 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://ryanstraight.com/authors/jamie-smith/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/authors/jamie-smith/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Student Occupational Expectations: A Geolocative Study</title>
-      <link>https://ryanstraight.com/publication/student-occupational-expectations/</link>
-      <pubDate>Tue, 18 Oct 2011 20:29:35 -0700</pubDate>
-      
-      <guid>https://ryanstraight.com/publication/student-occupational-expectations/</guid>
-      <description></description>
-    </item>
     
     <item>
-      <title>The Development and Delivery of Custom Mobile Apps for K-12 Learning: Viable Options for Educators</title>
-      <link>https://ryanstraight.com/publication/development-and-delivery-of-custom-mobile-apps/</link>
-      <pubDate>Mon, 07 Mar 2011 20:36:26 -0700</pubDate>
+      <title>The Development and Delivery of Custom Mobile Apps for K-12 Learning: Viable  Options for Educators</title>
+      <link>/publication/2011-03-07-the-development-and-delivery-of-custom-mobile/</link>
+      <pubDate>Mon, 07 Mar 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanstraight.com/publication/development-and-delivery-of-custom-mobile-apps/</guid>
-      <description></description>
+      <guid>/publication/2011-03-07-the-development-and-delivery-of-custom-mobile/</guid>
+      <description>
+
+
+
+</description>
     </item>
     
   </channel>

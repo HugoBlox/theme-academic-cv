@@ -2,85 +2,85 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on ryan straight</title>
-    <link>https://ryanstraight.com/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on ryan straight</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Fri, 02 Nov 2018 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://ryanstraight.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Professional</title>
-      <link>https://ryanstraight.com/categories/professional/</link>
+      <link>/categories/professional/</link>
       <pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanstraight.com/categories/professional/</guid>
+      <guid>/categories/professional/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Personal</title>
-      <link>https://ryanstraight.com/categories/personal/</link>
+      <link>/categories/personal/</link>
       <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanstraight.com/categories/personal/</guid>
+      <guid>/categories/personal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The New Professor</title>
-      <link>https://ryanstraight.com/categories/the-new-professor/</link>
+      <link>/categories/the-new-professor/</link>
       <pubDate>Sun, 05 Aug 2018 09:47:44 -0700</pubDate>
       
-      <guid>https://ryanstraight.com/categories/the-new-professor/</guid>
+      <guid>/categories/the-new-professor/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Social</title>
-      <link>https://ryanstraight.com/categories/social/</link>
+      <link>/categories/social/</link>
       <pubDate>Thu, 05 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanstraight.com/categories/social/</guid>
+      <guid>/categories/social/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Academic</title>
-      <link>https://ryanstraight.com/categories/academic/</link>
+      <link>/categories/academic/</link>
       <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanstraight.com/categories/academic/</guid>
+      <guid>/categories/academic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Conferences</title>
-      <link>https://ryanstraight.com/categories/conferences/</link>
+      <link>/categories/conferences/</link>
       <pubDate>Wed, 26 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanstraight.com/categories/conferences/</guid>
+      <guid>/categories/conferences/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Travel</title>
-      <link>https://ryanstraight.com/categories/travel/</link>
+      <link>/categories/travel/</link>
       <pubDate>Wed, 26 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanstraight.com/categories/travel/</guid>
+      <guid>/categories/travel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Writing</title>
-      <link>https://ryanstraight.com/categories/writing/</link>
+      <link>/categories/writing/</link>
       <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanstraight.com/categories/writing/</guid>
+      <guid>/categories/writing/</guid>
       <description></description>
     </item>
     

@@ -1,3 +1,32 @@
+# Notes to self:
+
+Built using version 4.4 in 2019 June
+
+Change TOC footer in `layouts / partials / docs_toc_foot.html`
+
+to:
+
+```
+<div style="font-size: small;">
+  <ul class="connect-links fa-ul">
+    <li><i class="fa-li fas fa-question-circle"></i><a href="#" target="_blank">Ask questions</a></li>
+    <li><i class="fa-li fas fa-comments"></i><a href="#" target="_blank">Request features</a></li>
+    <li><i class="fa-li fas fa-bug"></i><a href="#" target="_blank">Report issues</a></li>
+    <li><i class="fa-li fas fa-edit"></i><a href="#">Edit this page</a></li>
+  </ul>
+</div>
+```
+
+To show what a whole R code chunk looks like, use this syntax:
+
+````markdown
+`r ''````{r label}
+code here
+```
+````
+
+
+
 # [Academic Kickstart](https://sourcethemes.com/academic/)
 
 **Academic** makes it easy to create a beautiful website for free using Markdown, Jupyter, or RStudio. Customize anything on your site with widgets, themes, and language packs. [Check out the latest demo](https://academic-demo.netlify.com/) of what you'll get in less than 10 minutes, or [view the showcase](https://sourcethemes.com/academic/#expo).

@@ -1,0 +1,19 @@
+---
+title: 'Chapter 4' 
+linktitle: 'Chapter 4'
+toc: true
+type: docs
+date: "2019-06-05T00:00:00-07:00"
+draft: false
+menu:
+  302:
+    weight: 110
+    parent: "mC"
+    identifier: "ch4"
+    name: "Chapter 4"
+
+
+# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
+weight: 110
+---
+Chapter 4 content

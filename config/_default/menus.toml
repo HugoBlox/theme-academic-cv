@@ -6,37 +6,78 @@
 [[main]]
   name = "Home"
   url = "#about"
-  weight = 1
+  weight = 10
+
+[[main]]
+  name = "Courses"
+  identifier = "courses"
+  url = "/courses"
+  weight = 20
+
+[[main]]
+  parent = "courses"
+  name = "All"
+  url = "/courses"
+  weight = 10
+
+[[main]]
+  parent = "courses"
+  name = "302 - Statistics in the Information Age"
+  url = "/courses/302"
+  weight = 20
+
+[[main]]
+  parent = "courses"
+  name = "401 - Intro to Human-Computer Interaction"
+  url = "/courses/401"
+  weight = 30
+
+[[main]]
+  parent = "courses"
+  name = "405 - Intro to Game Design"
+  url = "/courses/405"
+  weight = 40
+
+[[main]]
+  parent = "courses"
+  name = "406 - Intro to Game Development"
+  url = "/courses/406"
+  weight = 50
 
 [[main]]
   name = "Posts"
   url = "#posts"
-  weight = 2
+  weight = 30
 
 [[main]]
   name = "Projects"
   url = "#projects"
-  weight = 5
-
-[[main]]
-  name = "Blog"
-  url = "#blog"
-  weight = 4
+  weight = 40
 
 [[main]]
   name = "Publications"
   url = "#featured"
-  weight = 3
+  weight = 50
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 7
+  weight = 70
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 [[main]]
   name = "CV"
   url = "https://cv.ryanstraight.com/"
-  weight = 8
+  weight = 80
 
+# Menu items for the different classes so they can look like the Academic Documentation
+# https://github.com/sourcethemes/academic-www/blob/master/config/_default/menus.toml and
+# https://raw.githubusercontent.com/sourcethemes/academic-www/master/content/docs/customization.md
+# 302 class
+
+[[302]]
+  pre = "<i class=\"fas fa-home\"></i>"
+  name = "Home"
+  weight = 10
+  url = "/courses/302/"

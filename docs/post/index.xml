@@ -2,394 +2,295 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on ryan straight</title>
-    <link>https://ryanstraight.com/post/</link>
+    <link>/post/</link>
     <description>Recent content in Posts on ryan straight</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Fri, 02 Nov 2018 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://ryanstraight.com/post/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Finding Order in Chaos</title>
-      <link>https://ryanstraight.com/2018/11/02/finding-order-in-chaos/</link>
+      <link>/2018/11/02/finding-order-in-chaos/</link>
       <pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanstraight.com/2018/11/02/finding-order-in-chaos/</guid>
-      <description>&lt;p&gt;I don&amp;rsquo;t want to say I&amp;rsquo;m the &lt;em&gt;typical&lt;/em&gt; professor (heck, I have &lt;a href=&#34;https://thenewprofessor.com&#34; target=&#34;_blank&#34;&gt;an entire podcast devoted to exploring just what the heck that means&lt;/a&gt;) but I certainly do occasionally resemble the clichéd &lt;em&gt;absent-minded professor&lt;/em&gt;. Remember: good thoughts are clear thoughts and that&amp;rsquo;s much harder than it sounds when your job is to think about so much, so often, for so long.&lt;/p&gt;
+      <guid>/2018/11/02/finding-order-in-chaos/</guid>
+      <description>
 
-&lt;p&gt;To put it simply, we have a lot of stuff in our heads. In my experience, one of the most difficult and daunting aspects of working in a primarily intellectual field is nothing more than the organization of thoughts and ideas. We&amp;rsquo;re confronted with new ideas, questions, corrections, updates, improvements, alterations, and retractions nearly every day as we learn more and more about virtually everything. So the question becomes: if we&amp;rsquo;re not superhuman, how do we keep track?&lt;/p&gt;
 
-&lt;p&gt;I suppose you could make it your priority to spend the entirety of your time and energy on memorizing the minutiae of everything but, let&amp;rsquo;s face it, we&amp;rsquo;re not all cut out for that kind of perfect recall. I, for one, need to keep notes or I just &lt;em&gt;forget&lt;/em&gt;. Maybe you&amp;rsquo;re the same. But then the question becomes: where do you keep them? How do you organize them? How much do you automate and how much do you update? Whether it&amp;rsquo;s your reading notes on one particular scholar&amp;rsquo;s &lt;em&gt;ouvre&lt;/em&gt; or a little reminder to add a particular resource to an assignment for a class, we (normally) can&amp;rsquo;t just keep all that in our heads. I know some people, like the prolific Raul Pacheco-Vega, that use physical bucket-style collections (in his case, the &amp;ldquo;Everything Notebook&amp;rdquo;). Others create hundreds or thousands of Google Documents or giant Scrivener projects. The important part is that it works &lt;em&gt;for them&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;It took me a very, very long time to figure out a system that a) is sustainable, b) I&amp;rsquo;ll actually use, and c) is designed in a way that mirrors (or at least generally reflects) the way my thought processes work. I tried virtually every organizational paradigm out there, from the Evernote-style bucket to physical notebooks (and, I have to say, I&amp;rsquo;m devastated that physical notebooks don&amp;rsquo;t do it for me because I &lt;em&gt;love&lt;/em&gt; them and own many, many blank ones). What I discovered is, beyond all that, that I love creating systems. What I love less than that is &lt;em&gt;maintaining&lt;/em&gt; them. So, my job became to find a system that I felt like I was creating &lt;em&gt;all the time&lt;/em&gt;, something malleable, something always growing and improving, and something within which I could automate the more mundane tasks.&lt;/p&gt;
-
-&lt;p&gt;If you&amp;rsquo;ve listened to &lt;a href=&#34;https://thenewprofessor.com/019/&#34; target=&#34;_blank&#34;&gt;episode 19 of The New Professor&lt;/a&gt;, you already know what I&amp;rsquo;m going to say next: for me, even though it may sound like a lot of work, the best environment to off-load information and ideas is a &lt;strong&gt;&lt;a href=&#34;https://www.semantic-mediawiki.org/&#34; target=&#34;_blank&#34;&gt;Semantic MediaWiki&lt;/a&gt;&lt;/strong&gt;. If you want to know exactly how I do that or what it looks like&amp;hellip; you&amp;rsquo;ll have to wait on another post. (I&amp;rsquo;ve been keeping the wiki for nearly a decade and created a three-part series on how to set one up back in, probably, 2009 but that&amp;rsquo;s &lt;em&gt;long&lt;/em&gt; gone.)&lt;/p&gt;
-
+&lt;p&gt;I don’t want to say I’m the &lt;em&gt;typical&lt;/em&gt; professor (heck, I have &lt;a href=&#34;https://thenewprofessor.com&#34;&gt;an entire podcast devoted to exploring just what the heck that means&lt;/a&gt;) but I certainly do occasionally resemble the clichéd &lt;em&gt;absent-minded professor&lt;/em&gt;. Remember: good thoughts are clear thoughts and that’s much harder than it sounds when your job is to think about so much, so often, for so long.&lt;/p&gt;
+&lt;p&gt;To put it simply, we have a lot of stuff in our heads. In my experience, one of the most difficult and daunting aspects of working in a primarily intellectual field is nothing more than the organization of thoughts and ideas. We’re confronted with new ideas, questions, corrections, updates, improvements, alterations, and retractions nearly every day as we learn more and more about virtually everything. So the question becomes: if we’re not superhuman, how do we keep track?&lt;/p&gt;
+&lt;p&gt;I suppose you could make it your priority to spend the entirety of your time and energy on memorizing the minutiae of everything but, let’s face it, we’re not all cut out for that kind of perfect recall. I, for one, need to keep notes or I just &lt;em&gt;forget&lt;/em&gt;. Maybe you’re the same. But then the question becomes: where do you keep them? How do you organize them? How much do you automate and how much do you update? Whether it’s your reading notes on one particular scholar’s &lt;em&gt;ouvre&lt;/em&gt; or a little reminder to add a particular resource to an assignment for a class, we (normally) can’t just keep all that in our heads. I know some people, like the prolific Raul Pacheco-Vega, that use physical bucket-style collections (in his case, the “Everything Notebook”). Others create hundreds or thousands of Google Documents or giant Scrivener projects. The important part is that it works &lt;em&gt;for them&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;It took me a very, very long time to figure out a system that a) is sustainable, b) I’ll actually use, and c) is designed in a way that mirrors (or at least generally reflects) the way my thought processes work. I tried virtually every organizational paradigm out there, from the Evernote-style bucket to physical notebooks (and, I have to say, I’m devastated that physical notebooks don’t do it for me because I &lt;em&gt;love&lt;/em&gt; them and own many, many blank ones). What I discovered is, beyond all that, that I love creating systems. What I love less than that is &lt;em&gt;maintaining&lt;/em&gt; them. So, my job became to find a system that I felt like I was creating &lt;em&gt;all the time&lt;/em&gt;, something malleable, something always growing and improving, and something within which I could automate the more mundane tasks.&lt;/p&gt;
+&lt;p&gt;If you’ve listened to &lt;a href=&#34;https://thenewprofessor.com/019/&#34;&gt;episode 19 of The New Professor&lt;/a&gt;, you already know what I’m going to say next: for me, even though it may sound like a lot of work, the best environment to off-load information and ideas is a &lt;strong&gt;&lt;a href=&#34;https://www.semantic-mediawiki.org/&#34;&gt;Semantic MediaWiki&lt;/a&gt;&lt;/strong&gt;. If you want to know exactly how I do that or what it looks like… you’ll have to wait on another post. (I’ve been keeping the wiki for nearly a decade and created a three-part series on how to set one up back in, probably, 2009 but that’s &lt;em&gt;long&lt;/em&gt; gone.)&lt;/p&gt;
 &lt;p&gt;So watch for those posts. Hopefully they can be of help to you. (Whenever they get here.)&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>October Squad Ghouls Network Take-Over: Postmortem</title>
-      <link>https://ryanstraight.com/2018/11/01/october-squad-ghouls-network-take-over-postmortem/</link>
+      <link>/2018/11/01/october-squad-ghouls-network-take-over-postmortem/</link>
       <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanstraight.com/2018/11/01/october-squad-ghouls-network-take-over-postmortem/</guid>
+      <guid>/2018/11/01/october-squad-ghouls-network-take-over-postmortem/</guid>
       <description>
 
-&lt;p&gt;Well, it wasn&amp;rsquo;t as scary as I thought it would be. It was also quieter than I&amp;rsquo;d expected.&lt;/p&gt;
 
-&lt;p&gt;For the month of October I was tasked with running the social media for the Squad Goals Network, a collective of pure academic and collaborative brilliance, of which I am honored to be a part. And you know what? I had a pretty good time. That said, let&amp;rsquo;s talk about it a bit.&lt;/p&gt;
-
+&lt;p&gt;Well, it wasn’t as scary as I thought it would be. It was also quieter than I’d expected.&lt;/p&gt;
+&lt;p&gt;For the month of October I was tasked with running the social media for the Squad Goals Network, a collective of pure academic and collaborative brilliance, of which I am honored to be a part. And you know what? I had a pretty good time. That said, let’s talk about it a bit.&lt;/p&gt;
 &lt;p&gt;My basic theme for the month was &lt;em&gt;fear&lt;/em&gt;. Partly because it encompassed Halloween and partly because I believe doing things that scare you is an integral part of growing as a fully-realized person. Speaking of which, over the month I came to realize a few things:&lt;/p&gt;
-
-&lt;h3 id=&#34;revelation-1-anticipation-is-always-scarier-than-immersion&#34;&gt;Revelation #1: Anticipation is always scarier than immersion&lt;/h3&gt;
-
-&lt;p&gt;Thinking about something is always going to be more terrifying than actually being in the situation. I kept thinking, &amp;ldquo;Is it going to be good enough?&amp;rdquo; or &amp;ldquo;Will I make a fool of myself?&amp;rdquo; or &amp;ldquo;What if I don&amp;rsquo;t have anything to say?&amp;rdquo; Upon reflection, that last one was never a real concern; the &lt;em&gt;real&lt;/em&gt; concern was &amp;ldquo;What if I don&amp;rsquo;t have anything &lt;em&gt;useful&lt;/em&gt; to say?&amp;rdquo; But here&amp;rsquo;s the point: there was never any expectation that the things I posted or wrote would all need to be meticulously crafted, thoughtful, brilliant nuggets of wisdom. If you spend all your time crafting you never actually produce anything, after all.&lt;/p&gt;
-
-&lt;h3 id=&#34;revelation-2-i-m-an-amplifier-not-a-bullhorn&#34;&gt;Revelation #2: I&amp;rsquo;m an amplifier, not a bullhorn&lt;/h3&gt;
-
-&lt;p&gt;There are some people&amp;mdash;my takeover predecessor Angela and successor Terry, just to name two&amp;mdash;who are fantastic at creating and shouting amazing things. They make connections with new people incredibly easily and actively seek out those connections. I, on the other hand, found myself being more of an amplifier for other people. In terms of Twitter, it manifested in many, many retweets but very few unique, composed tweets. There&amp;rsquo;s no right or wrong way to do this, of course. Each person has their own style and priorities. Still, if I had to choose which I find more useful&amp;hellip; it isn&amp;rsquo;t my version.&lt;/p&gt;
-
-&lt;h3 id=&#34;revelation-3-a-month-is-no-time-at-all&#34;&gt;Revelation #3: A month is &lt;strong&gt;no time at all&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;I mean, wow, did that go quickly. Though it&amp;rsquo;s probably compounded by my birthday being at the end of October and I was eager to have that over and done with. (Thirty seven is such a low-priority age, I feel.) Now that it&amp;rsquo;s November and I can get back into my regular routine it&amp;rsquo;s suddenly conference season and the holidays. There&amp;rsquo;s never enough time for &lt;em&gt;any of it&lt;/em&gt;. Life, I mean. Never.&lt;/p&gt;
-
-&lt;p&gt;So, thank you for putting up with me behind the wheel for a month. I&amp;rsquo;ll still be amplifying the voices of brilliance I&amp;rsquo;m surrounded by in this group and expect those that come after me to do even better (which, to be honest, ain&amp;rsquo;t hard).&lt;/p&gt;
+&lt;div id=&#34;revelation-1-anticipation-is-always-scarier-than-immersion&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Revelation #1: Anticipation is always scarier than immersion&lt;/h3&gt;
+&lt;p&gt;Thinking about something is always going to be more terrifying than actually being in the situation. I kept thinking, “Is it going to be good enough?” or “Will I make a fool of myself?” or “What if I don’t have anything to say?” Upon reflection, that last one was never a real concern; the &lt;em&gt;real&lt;/em&gt; concern was “What if I don’t have anything &lt;em&gt;useful&lt;/em&gt; to say?” But here’s the point: there was never any expectation that the things I posted or wrote would all need to be meticulously crafted, thoughtful, brilliant nuggets of wisdom. If you spend all your time crafting you never actually produce anything, after all.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;revelation-2-im-an-amplifier-not-a-bullhorn&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Revelation #2: I’m an amplifier, not a bullhorn&lt;/h3&gt;
+&lt;p&gt;There are some people—my takeover predecessor Angela and successor Terry, just to name two—who are fantastic at creating and shouting amazing things. They make connections with new people incredibly easily and actively seek out those connections. I, on the other hand, found myself being more of an amplifier for other people. In terms of Twitter, it manifested in many, many retweets but very few unique, composed tweets. There’s no right or wrong way to do this, of course. Each person has their own style and priorities. Still, if I had to choose which I find more useful… it isn’t my version.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;revelation-3-a-month-is-no-time-at-all&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Revelation #3: A month is &lt;strong&gt;no time at all&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;I mean, wow, did that go quickly. Though it’s probably compounded by my birthday being at the end of October and I was eager to have that over and done with. (Thirty seven is such a low-priority age, I feel.) Now that it’s November and I can get back into my regular routine it’s suddenly conference season and the holidays. There’s never enough time for &lt;em&gt;any of it&lt;/em&gt;. Life, I mean. Never.&lt;/p&gt;
+&lt;p&gt;So, thank you for putting up with me behind the wheel for a month. I’ll still be amplifying the voices of brilliance I’m surrounded by in this group and expect those that come after me to do even better (which, to be honest, ain’t hard).&lt;/p&gt;
+&lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>9x9x25 Challenge: The Harshest Mirror</title>
-      <link>https://ryanstraight.com/2018/10/16/9x9x25-challenge-the-harshest-mirror/</link>
+      <link>/2018/10/16/9x9x25-challenge-the-harshest-mirror/</link>
       <pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanstraight.com/2018/10/16/9x9x25-challenge-the-harshest-mirror/</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s almost Halloween. Let&amp;rsquo;s do something scary.&lt;/p&gt;
-
-&lt;p&gt;Reflection is hard. It can be scary. Not for lack of content but for the what it means to potentially confront your shortcomings. Yes, the goal is to improve but to do that you must admit where you are lacking. Of course, we can couch this in platitudes like, &amp;ldquo;It&amp;rsquo;s not that I&amp;rsquo;m &lt;em&gt;bad&lt;/em&gt; at it, just that&amp;hellip; it&amp;rsquo;s an area for growth.&amp;rdquo; And this is most likely true. Doesn&amp;rsquo;t change the fact that you still have to admit that first part.&lt;/p&gt;
-
-&lt;p&gt;This, I think, is fairly typical in higher education, especially for faculty whose entire &lt;em&gt;raison d&amp;rsquo;être&lt;/em&gt; is centered around expertise. It can feel like admitting one needs improvement can be to admit one has failed in some capacity. We all make mistakes, no doubt. We all have more to learn, of course. But it&amp;rsquo;s easier to do that in solitude, safer to make self-reflections private and not do what feels like laying bare your faults and shortcomings in public. Perhaps we all want to be the duck, legs paddling frantically under the water, but looking calm and collected on the surface. I know I do.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve written on imposter syndrome and becoming (or at least playing at being) a public intellectual and thinker. I&amp;rsquo;m not sure it comes easily and naturally to most people. For those for whom it does, it seems so &lt;em&gt;easy&lt;/em&gt;. They seem fearless and display the bright colors of poisonous animals that tells you, &amp;ldquo;I&amp;rsquo;m making myself vunerable to help others; attack at your own peril because you will &lt;em&gt;not&lt;/em&gt; like the outcome.&amp;rdquo; It&amp;rsquo;s something to which to aspire, don&amp;rsquo;t get me wrong. I &lt;strong&gt;wish&lt;/strong&gt; I had that sort of strength and fearlessness. As it happens&amp;hellip; I don&amp;rsquo;t. At least, not yet.&lt;/p&gt;
-
-&lt;p&gt;It took me a long time to be able to say, &amp;ldquo;I don&amp;rsquo;t know&amp;rdquo; when a student asked a really fantastic or insightful question that I felt like I &lt;em&gt;should&amp;rsquo;ve&lt;/em&gt; been able to answer. Perhaps I did know the answer but couldn&amp;rsquo;t recall it at the moment. Perhaps I understood the questions wrong. Perhaps it was just something I flat-out did not know. Of course, we all do the redirect and say something like, &amp;ldquo;That&amp;rsquo;s a great question. How about we all do some research and see what we come up with?&amp;rdquo; That is the goal, after all: to get learners to become self-directed. Still, &amp;ldquo;That&amp;rsquo;s a great question&amp;rdquo; is &lt;strong&gt;not&lt;/strong&gt; the same as specifically saying, &amp;ldquo;I don&amp;rsquo;t know.&amp;rdquo; I&amp;rsquo;m still somewhat afraid of that. Remember, there&amp;rsquo;s a difference between being simply ignorant of something and being unprepared.&lt;/p&gt;
-
-&lt;p&gt;This is precisely why I chose &amp;ldquo;fear&amp;rdquo; as my SGN topic for the month and why I want to talk about it today: my goal is to overcome that particular fear this year. This month, if I can. Forget the New Year&amp;rsquo;s Resolution; we need the Halloween Overcoming.&lt;/p&gt;</description>
+      <guid>/2018/10/16/9x9x25-challenge-the-harshest-mirror/</guid>
+      <description>&lt;/p&gt;
+&lt;p&gt;Reflection is hard. It can be scary. Not for lack of content but for the what it means to potentially confront your shortcomings. Yes, the goal is to improve but to do that you must admit where you are lacking. Of course, we can couch this in platitudes like, “It’s not that I’m &lt;em&gt;bad&lt;/em&gt; at it, just that… it’s an area for growth.” And this is most likely true. Doesn’t change the fact that you still have to admit that first part.&lt;/p&gt;
+&lt;p&gt;This, I think, is fairly typical in higher education, especially for faculty whose entire &lt;em&gt;raison d’être&lt;/em&gt; is centered around expertise. It can feel like admitting one needs improvement can be to admit one has failed in some capacity. We all make mistakes, no doubt. We all have more to learn, of course. But it’s easier to do that in solitude, safer to make self-reflections private and not do what feels like laying bare your faults and shortcomings in public. Perhaps we all want to be the duck, legs paddling frantically under the water, but looking calm and collected on the surface. I know I do.&lt;/p&gt;
+&lt;p&gt;I’ve written on imposter syndrome and becoming (or at least playing at being) a public intellectual and thinker. I’m not sure it comes easily and naturally to most people. For those for whom it does, it seems so &lt;em&gt;easy&lt;/em&gt;. They seem fearless and display the bright colors of poisonous animals that tells you, “I’m making myself vunerable to help others; attack at your own peril because you will &lt;em&gt;not&lt;/em&gt; like the outcome.” It’s something to which to aspire, don’t get me wrong. I &lt;strong&gt;wish&lt;/strong&gt; I had that sort of strength and fearlessness. As it happens… I don’t. At least, not yet.&lt;/p&gt;
+&lt;p&gt;It took me a long time to be able to say, “I don’t know” when a student asked a really fantastic or insightful question that I felt like I &lt;em&gt;should’ve&lt;/em&gt; been able to answer. Perhaps I did know the answer but couldn’t recall it at the moment. Perhaps I understood the questions wrong. Perhaps it was just something I flat-out did not know. Of course, we all do the redirect and say something like, “That’s a great question. How about we all do some research and see what we come up with?” That is the goal, after all: to get learners to become self-directed. Still, “That’s a great question” is &lt;strong&gt;not&lt;/strong&gt; the same as specifically saying, “I don’t know.” I’m still somewhat afraid of that. Remember, there’s a difference between being simply ignorant of something and being unprepared.&lt;/p&gt;
+&lt;p&gt;This is precisely why I chose “fear” as my SGN topic for the month and why I want to talk about it today: my goal is to overcome that particular fear this year. This month, if I can. Forget the New Year’s Resolution; we need the Halloween Overcoming.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>9x9x25 Challenge: An Introduction and a Plan</title>
-      <link>https://ryanstraight.com/2018/10/02/9x9x25-challenge-an-introduction-and-a-plan/</link>
+      <link>/2018/10/02/9x9x25-challenge-an-introduction-and-a-plan/</link>
       <pubDate>Tue, 02 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanstraight.com/2018/10/02/9x9x25-challenge-an-introduction-and-a-plan/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve decided to join yet another challenge: the &lt;strong&gt;9x9x25 Challenge&lt;/strong&gt;. So, here we go.&lt;/p&gt;
-
-&lt;p&gt;To start off with, let me say that I volunteered the &lt;a href=&#34;https://squadgoalsnetwork.com&#34; target=&#34;_blank&#34;&gt;#SquadGoalsNetwork&lt;/a&gt; for this challenge and take full responsibility for it. That said, I&amp;rsquo;m looking for the entire squad to do the challenge in total, not for each member to do their own 9x9x25 challenge. They can if they want but it&amp;rsquo;s far from necessary. I&amp;rsquo;m hard but I&amp;rsquo;m not cruel, sheesh. The SGN is (and continues to grow into) a collection of incredibly talented and reflective people, so the content produced should be impressive.&lt;/p&gt;
-
-&lt;p&gt;But first, let&amp;rsquo;s look at what the &lt;strong&gt;9x9x25 Challenge&lt;/strong&gt; is. I was introduced to it via Twitter by our own &lt;a href=&#34;http://squadgoalsnetwork.com/2018/09/19/meet-the-authors-terry-greene/&#34; target=&#34;_blank&#34;&gt;Terry Green&lt;/a&gt;. The challenge is &amp;ldquo;&lt;a href=&#34;https://extend-domains.ecampusontario.ca/the-9x9x25-challenge-more-but-not-all-the-details/&#34; target=&#34;_blank&#34;&gt;to write about your teaching in 9 posts, over 9 weeks, with a minimum of 25 sentences per post&lt;/a&gt;.&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;For my first reflection, I think it&amp;rsquo;s worth talking a bit about the details of my position: I teach entirely online at both the undergraduate and graduate levels at a very large Research-1 institution, and, while I&amp;rsquo;m at a giant R1, I&amp;rsquo;m what&amp;rsquo;s considered &amp;ldquo;career-track&amp;rdquo; faculty, which is to say I&amp;rsquo;m not tenure-track. My contract consists entirely of teaching and service requirements with no research expected (though, obviously, I still do it, which is the topic for another day). My normal schedule is 80% teaching (so 4 classes per semester, each counting as 20% of my time) and 20% service. This is pretty standard at our institution for career-track faculty, I believe.&lt;/p&gt;
-
-&lt;p&gt;Teaching entirely online&amp;mdash;and I mean entirely, not just hybrid or having an online section; the entire program is constructed and billed as being online&amp;mdash;makes for an interesting cocktail of convenience, agility, and distance, for both good and bad. We can collaborate in our pajamas, we can make changes and implement them at moment&amp;rsquo;s notice, and reach students that couldn&amp;rsquo;t physically reach us otherwise. It&amp;rsquo;s pretty phenomenal in that way.&lt;/p&gt;
-
-&lt;p&gt;It can get lonely, though. I go to great pains to build community with my students, within the program, and interdisciplinarily across the college and campus, but at the end of the day I&amp;rsquo;m still sitting in my home office, hitting keys to communicate. Sure, video conferencing has gotten considerably better over the past few years but, just as there&amp;rsquo;s an experiential difference between paper books and ebooks, it&amp;rsquo;s just not the same as sitting down in physical proximity with someone.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s this distance that actually caused me to accept the invitation to teach an Honors class on main campus every spring semester. But, I think I&amp;rsquo;ll leave that reflection topic for another day.&lt;/p&gt;
-
-&lt;p&gt;The point of the 9x9x25 challenge is, in part, to encourage us to be more thoughtful and reflective about our teaching practices. The hope I have is that I will really begin focusing on this next week as that&amp;rsquo;s a &amp;ldquo;new semester&amp;rdquo; for us (a second 7.5-week session within a larger fall semester) and I can begin with a new class experience. I have a TA (kind of, we call it something different and there are other requirements but it&amp;rsquo;s easier to just say &amp;ldquo;TA&amp;rdquo;) and am looking forward to reflecting on how I orchestrate the inclusion of her knowledge and talent into the class. The class that&amp;rsquo;s beginning is hands-down my most popular class, which makes it &lt;em&gt;much&lt;/em&gt; easier to be positive about reflections. (When students are excited and happy by default it leaves you with more energy to make improvements rather than feeling like you need to put out fires.)&lt;/p&gt;
-
-&lt;p&gt;Looking forward to reading others&amp;rsquo; reflections as the challenge progresses!&lt;/p&gt;</description>
+      <guid>/2018/10/02/9x9x25-challenge-an-introduction-and-a-plan/</guid>
+      <description>&lt;/p&gt;
+&lt;p&gt;To start off with, let me say that I volunteered the &lt;a href=&#34;https://squadgoalsnetwork.com&#34;&gt;#SquadGoalsNetwork&lt;/a&gt; for this challenge and take full responsibility for it. That said, I’m looking for the entire squad to do the challenge in total, not for each member to do their own 9x9x25 challenge. They can if they want but it’s far from necessary. I’m hard but I’m not cruel, sheesh. The SGN is (and continues to grow into) a collection of incredibly talented and reflective people, so the content produced should be impressive.&lt;/p&gt;
+&lt;p&gt;But first, let’s look at what the &lt;strong&gt;9x9x25 Challenge&lt;/strong&gt; is. I was introduced to it via Twitter by our own &lt;a href=&#34;http://squadgoalsnetwork.com/2018/09/19/meet-the-authors-terry-greene/&#34;&gt;Terry Green&lt;/a&gt;. The challenge is “&lt;a href=&#34;https://extend-domains.ecampusontario.ca/the-9x9x25-challenge-more-but-not-all-the-details/&#34;&gt;to write about your teaching in 9 posts, over 9 weeks, with a minimum of 25 sentences per post&lt;/a&gt;.”&lt;/p&gt;
+&lt;p&gt;For my first reflection, I think it’s worth talking a bit about the details of my position: I teach entirely online at both the undergraduate and graduate levels at a very large Research-1 institution, and, while I’m at a giant R1, I’m what’s considered “career-track” faculty, which is to say I’m not tenure-track. My contract consists entirely of teaching and service requirements with no research expected (though, obviously, I still do it, which is the topic for another day). My normal schedule is 80% teaching (so 4 classes per semester, each counting as 20% of my time) and 20% service. This is pretty standard at our institution for career-track faculty, I believe.&lt;/p&gt;
+&lt;p&gt;Teaching entirely online—and I mean entirely, not just hybrid or having an online section; the entire program is constructed and billed as being online—makes for an interesting cocktail of convenience, agility, and distance, for both good and bad. We can collaborate in our pajamas, we can make changes and implement them at moment’s notice, and reach students that couldn’t physically reach us otherwise. It’s pretty phenomenal in that way.&lt;/p&gt;
+&lt;p&gt;It can get lonely, though. I go to great pains to build community with my students, within the program, and interdisciplinarily across the college and campus, but at the end of the day I’m still sitting in my home office, hitting keys to communicate. Sure, video conferencing has gotten considerably better over the past few years but, just as there’s an experiential difference between paper books and ebooks, it’s just not the same as sitting down in physical proximity with someone.&lt;/p&gt;
+&lt;p&gt;It’s this distance that actually caused me to accept the invitation to teach an Honors class on main campus every spring semester. But, I think I’ll leave that reflection topic for another day.&lt;/p&gt;
+&lt;p&gt;The point of the 9x9x25 challenge is, in part, to encourage us to be more thoughtful and reflective about our teaching practices. The hope I have is that I will really begin focusing on this next week as that’s a “new semester” for us (a second 7.5-week session within a larger fall semester) and I can begin with a new class experience. I have a TA (kind of, we call it something different and there are other requirements but it’s easier to just say “TA”) and am looking forward to reflecting on how I orchestrate the inclusion of her knowledge and talent into the class. The class that’s beginning is hands-down my most popular class, which makes it &lt;em&gt;much&lt;/em&gt; easier to be positive about reflections. (When students are excited and happy by default it leaves you with more energy to make improvements rather than feeling like you need to put out fires.)&lt;/p&gt;
+&lt;p&gt;Looking forward to reading others’ reflections as the challenge progresses!&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>October 2018 SGN Social Media Takeover</title>
-      <link>https://ryanstraight.com/2018/10/01/october-2018-sgn-social-media-takeover/</link>
+      <link>/2018/10/01/october-2018-sgn-social-media-takeover/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanstraight.com/2018/10/01/october-2018-sgn-social-media-takeover/</guid>
-      <description>&lt;p&gt;As such, I wanted to share a little bit about the concept, the process, the expectations, and the theme of the month. The sheer organization, thoughtfulness, and inclusion of last month&amp;rsquo;s takeover by &lt;a href=&#34;http://angelagunder.com/&#34; target=&#34;_blank&#34;&gt;Angela Gunder&lt;/a&gt; means there are some pretty high standards for this month. That was in part the reason for this month&amp;rsquo;s theme: &lt;strong&gt;fear&lt;/strong&gt;. Fun theme, right? Right? I mean, I&amp;rsquo;ve even got one of the &lt;em&gt;Silent Hill&lt;/em&gt; game soundtracks on while I write this. I&amp;rsquo;m 100% committed to this theme, I&amp;rsquo;m tellin&amp;rsquo; ya.&lt;/p&gt;
+      <guid>/2018/10/01/october-2018-sgn-social-media-takeover/</guid>
+      <description>
 
-&lt;p&gt;So, why fear? Simple: we all experience it and we best overcome it with help from our support systems, and what is a network like SGN at its core if not a support system? We share thoughts to clarify them, we collaborate to produce ideas and results that we never could&amp;rsquo;ve achieved on our own (synergy, basically, but that word has been robbed of all impact over the years, I think), and we quite literally just ask each other for help sometimes.&lt;/p&gt;
 
-&lt;p&gt;One of the reasons I&amp;rsquo;m so glad to have been included in this network of brilliance (constellation, remember?) is that I&amp;rsquo;m usually pretty bad about connecting with people. I&amp;rsquo;m terrible with names, I&amp;rsquo;ll fall off the face of the planet for weeks or months at a time as I obsess with something new, and my memory is almost completely overrun with random facts in place of useful things like details about the people in my life. A group like SGN goes a long way to helping me either deal with, remedy, or overcome those shortfalls.&lt;/p&gt;
-
-&lt;p&gt;Part of overcoming fear is admitting one&amp;rsquo;s shortcomings to begin with. While I often think of and paint myself as a non-standard kind of academic (hence &lt;em&gt;The New Professor&lt;/em&gt;, my podcast), I recognize that I&amp;rsquo;m far from perfect and have many, many realms of improvement I can (and should) venture into. For some, like myself, even admitting that can be scary. It&amp;rsquo;s not like it&amp;rsquo;s a secret; nobody&amp;rsquo;s perfect. It&amp;rsquo;s about acknowledging that imperfect as areas for growth, not permanent and irreparable flaws. I sometimes feel we think of ourselves as marble statues, hoping to put on display the most perfect version of ourselves: polished, impressive, towering. Then when we make mistakes or simply fail at something, that patina of perfection is marred in some way that we just know someone is going to notice and it will permanently alter and diminish the persona we&amp;rsquo;ve so carefully sculpted.&lt;/p&gt;
-
-&lt;p&gt;As I get older and learn more and more than I know less and less about the world, it occurs to me that we&amp;rsquo;re not made of marble at all. We&amp;rsquo;re simply clay. We can be remolded and repaired, improved on and changed. This also makes us vulnerable as the wrong person can come along and take a chunk out of you. That&amp;rsquo;s where having a network, whether it&amp;rsquo;s a personal learning network or a support network comes in (though, as I said, I&amp;rsquo;d venture to say they&amp;rsquo;re often one and the same): not only do your friends and family and colleagues help you repair that damage, whatever it may be, but they help you become a better version of yourself. And that&amp;rsquo;s what we should all be striving for, after all.&lt;/p&gt;
-
-&lt;p&gt;And that&amp;rsquo;s what this month is all about, for me, at least: acknowledging our fears, admitting we all make mistakes and sometimes fail despite our best efforts, and understanding that &lt;em&gt;that&amp;rsquo;s okay&lt;/em&gt;. When students tell me they&amp;rsquo;re anxious about a defense, for example, I always say the same thing: that means you care. Fear can be a great motivator if you let it be, if you can accept it as a hurdle to overcome rather than a door being shut.&lt;/p&gt;
-
-&lt;p&gt;This month, I&amp;rsquo;d like you to share with me and the rest of the squad what you&amp;rsquo;re afraid of and, if we can, we can work on it together. Also, I make absolutely no apologies for the massive number of Halloween puns and jokes that I&amp;rsquo;ll be making this month. I&amp;rsquo;m a Halloween baby and it&amp;rsquo;s creeped into the very fabric of my being. So, join the &lt;a href=&#34;https://twitter.com/sqdglsntwrk&#34; target=&#34;_blank&#34;&gt;Squad Ghouls Network&lt;/a&gt; (see?) for a month of acknowledging, admitting, and overcoming your fears.&lt;/p&gt;
+&lt;p&gt;As such, I wanted to share a little bit about the concept, the process, the expectations, and the theme of the month. The sheer organization, thoughtfulness, and inclusion of last month’s takeover by &lt;a href=&#34;http://angelagunder.com/&#34;&gt;Angela Gunder&lt;/a&gt; means there are some pretty high standards for this month. That was in part the reason for this month’s theme: &lt;strong&gt;fear&lt;/strong&gt;. Fun theme, right? Right? I mean, I’ve even got one of the &lt;em&gt;Silent Hill&lt;/em&gt; game soundtracks on while I write this. I’m 100% committed to this theme, I’m tellin’ ya.&lt;/p&gt;
+&lt;p&gt;So, why fear? Simple: we all experience it and we best overcome it with help from our support systems, and what is a network like SGN at its core if not a support system? We share thoughts to clarify them, we collaborate to produce ideas and results that we never could’ve achieved on our own (synergy, basically, but that word has been robbed of all impact over the years, I think), and we quite literally just ask each other for help sometimes.&lt;/p&gt;
+&lt;p&gt;One of the reasons I’m so glad to have been included in this network of brilliance (constellation, remember?) is that I’m usually pretty bad about connecting with people. I’m terrible with names, I’ll fall off the face of the planet for weeks or months at a time as I obsess with something new, and my memory is almost completely overrun with random facts in place of useful things like details about the people in my life. A group like SGN goes a long way to helping me either deal with, remedy, or overcome those shortfalls.&lt;/p&gt;
+&lt;p&gt;Part of overcoming fear is admitting one’s shortcomings to begin with. While I often think of and paint myself as a non-standard kind of academic (hence &lt;em&gt;The New Professor&lt;/em&gt;, my podcast), I recognize that I’m far from perfect and have many, many realms of improvement I can (and should) venture into. For some, like myself, even admitting that can be scary. It’s not like it’s a secret; nobody’s perfect. It’s about acknowledging that imperfect as areas for growth, not permanent and irreparable flaws. I sometimes feel we think of ourselves as marble statues, hoping to put on display the most perfect version of ourselves: polished, impressive, towering. Then when we make mistakes or simply fail at something, that patina of perfection is marred in some way that we just know someone is going to notice and it will permanently alter and diminish the persona we’ve so carefully sculpted.&lt;/p&gt;
+&lt;p&gt;As I get older and learn more and more than I know less and less about the world, it occurs to me that we’re not made of marble at all. We’re simply clay. We can be remolded and repaired, improved on and changed. This also makes us vulnerable as the wrong person can come along and take a chunk out of you. That’s where having a network, whether it’s a personal learning network or a support network comes in (though, as I said, I’d venture to say they’re often one and the same): not only do your friends and family and colleagues help you repair that damage, whatever it may be, but they help you become a better version of yourself. And that’s what we should all be striving for, after all.&lt;/p&gt;
+&lt;p&gt;And that’s what this month is all about, for me, at least: acknowledging our fears, admitting we all make mistakes and sometimes fail despite our best efforts, and understanding that &lt;em&gt;that’s okay&lt;/em&gt;. When students tell me they’re anxious about a defense, for example, I always say the same thing: that means you care. Fear can be a great motivator if you let it be, if you can accept it as a hurdle to overcome rather than a door being shut.&lt;/p&gt;
+&lt;p&gt;This month, I’d like you to share with me and the rest of the squad what you’re afraid of and, if we can, we can work on it together. Also, I make absolutely no apologies for the massive number of Halloween puns and jokes that I’ll be making this month. I’m a Halloween baby and it’s creeped into the very fabric of my being. So, join the &lt;a href=&#34;https://twitter.com/sqdglsntwrk&#34;&gt;Squad Ghouls Network&lt;/a&gt; (see?) for a month of acknowledging, admitting, and overcoming your fears.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Evidence</title>
-      <link>https://ryanstraight.com/2018/08/24/evidence/</link>
+      <link>/2018/08/24/evidence/</link>
       <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanstraight.com/2018/08/24/evidence/</guid>
+      <guid>/2018/08/24/evidence/</guid>
       <description>
 
-&lt;p&gt;I&amp;rsquo;ve decided to start placing the &lt;em&gt;Read&lt;/em&gt; portion of the &lt;a href=&#34;https://ryanstraight.com/project/read-watch-woof/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Read, Watch, Woof&lt;/strong&gt;&lt;/a&gt; newsletters in the blog. So, while you can get the writing part of it, you&amp;rsquo;ll miss the dogs and the video if you&amp;rsquo;re not signed up. Jus&amp;rsquo; sayin&amp;rsquo;. So here&amp;rsquo;s a piece about evidence and being willing to change your mind.&lt;/p&gt;
 
+&lt;p&gt;I’ve decided to start placing the &lt;em&gt;Read&lt;/em&gt; portion of the [&lt;strong&gt;Read, Watch, Woof&lt;/strong&gt;]({{&amp;lt; ref “/project/read-watch-woof/index.md” &amp;gt;}}) newsletters in the blog. So, while you can get the writing part of it, you’ll miss the dogs and the video if you’re not signed up. Jus’ sayin’. So here’s a piece about evidence and being willing to change your mind.&lt;/p&gt;
 &lt;hr /&gt;
-
-&lt;p&gt;It&amp;rsquo;s the first week of fall semester and there is &lt;em&gt;much&lt;/em&gt; going on, as you can imagine. I know some of you dear readers are in the same academic boat as I am, so know that &lt;em&gt;you are seen&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Lately, I&amp;rsquo;ve been thinking a lot about &lt;strong&gt;evidence&lt;/strong&gt;. Not evidence in the Forensic Files sense (side note: have you noticed that a television channel called &lt;em&gt;Escape&lt;/em&gt; shows almost 24-7 &amp;ldquo;true crime&amp;rdquo; shows? what on earth does that say about us?) but in the how-we-make-the-best-decisions-in-an-attempt-to-live-our-best-lives sense. In this case, it&amp;rsquo;s actually about living our &lt;em&gt;longest&lt;/em&gt; lives. I&amp;rsquo;ll explain. (And add a caveat that I am &lt;em&gt;not&lt;/em&gt; an expert in nutrition; just somebody who really likes bacon but also really likes bread dipped in olive oil, which explains my weakness for Carbonara.)&lt;/p&gt;
-
-&lt;h2 id=&#34;let-s-talk-about-carbohydrates&#34;&gt;Let&amp;rsquo;s talk about carbohydrates&lt;/h2&gt;
-
-&lt;p&gt;A few weeks ago-ish, I wrote a bit about going &amp;ldquo;low-carb.&amp;rdquo; Since then, a study was released that is the largest of its sort ever published. It&amp;rsquo;s not perfect by any means (no study ever is and if anyone claims otherwise they&amp;rsquo;re trying to sell you something) but the results seem to support (pro-tip when talking about research: be wary of using absolutes like &amp;ldquo;confirm&amp;rdquo; or &amp;ldquo;prove&amp;rdquo;) the notion of All Things in Moderation. Turns out, according to the study, that going low-carb can actually shave years off your life. Turns out, the best diet is one that&amp;rsquo;s &lt;em&gt;balanced&lt;/em&gt; and &lt;em&gt;spread out&lt;/em&gt;, meaning doesn&amp;rsquo;t eschew one macronutrient entirely for another and actively seeks out variety. They say the ideal percentage of carbohydrates is about 50-55%. Should probably aim for the same protein-to-lean-mass ratio as usual, and then supplement with fat to reach your caloric goal.&lt;/p&gt;
-
-&lt;p&gt;It seems the &amp;ldquo;Eat food, not too much, mostly plants&amp;rdquo; adage isn&amp;rsquo;t far off. Does that mean everybody needs to go vegan? Of course not. But it really does suggest something closer to the Mediterranean diet is pretty ideal. At least now I have an excuse to buy that insanely expensive bottle of olive oil!&lt;/p&gt;
-
-&lt;p&gt;So, while I stand by my assertion that you should do what works for you, specifically, in concert with advice from your physician, this is simply more information that you can use to make an informed decision (along with your doctor).  See? Evidence. That&amp;rsquo;s the nature of being a skeptic and trusting in the scientific method: when new evidence that is gathered genuinely and presented with fidelity and neutrality goes against previous evidence (or, in many cases, assumptions), it&amp;rsquo;s important to incorporate that into your decision making without prejudice or embarrassment. Evidenced-based &lt;em&gt;anything&lt;/em&gt; is more likely to be beneficial than choices made based on whims or spurious assertions.&lt;/p&gt;
-
-&lt;h2 id=&#34;growth-and-i-m-not-just-talking-about-my-waistline-stupid-carbs&#34;&gt;Growth, and I&amp;rsquo;m not just talking about my waistline (&amp;hellip;stupid carbs)&lt;/h2&gt;
-
-&lt;p&gt;This brings us to evidence more broadly. I&amp;rsquo;m a firm believer in evidence-based policies, decisions, anything, really. Having said that, it is in our nature to conflate and incorporate our ideas, likes, and decisions (regardless of their premises) with our senses of &lt;em&gt;self&lt;/em&gt;. Ever gotten in an argument with someone about a band that they think is just &lt;em&gt;a-ma-zing&lt;/em&gt; and you simply don&amp;rsquo;t see it? And they take it personally? Your dislike of their favorite thing is converted into a dislike of &lt;em&gt;them&lt;/em&gt;. This is something I&amp;rsquo;m certain we&amp;rsquo;ve all experienced on both sides. (I will argue all night about whether &lt;em&gt;Dark Side of the Moon&lt;/em&gt; is the most perfect album of all time. Spoiler: it absolutely is.) This kind of internalization can be hugely damaging to both a healthy sense of identity and rational public discourse. I&amp;rsquo;ll simply point you toward any Facebook comment thread that devolves into a shouting match and personal insults because of something even remotely resembling a political stance.&lt;/p&gt;
-
-&lt;p&gt;We need to overcome this. We need to be better at separating our opinions from our identities. We need to learn again how to grow, admit past mistakes, and see an update to our thinking upon the presentation of new evidence as a &lt;em&gt;virtue&lt;/em&gt; rather than an admittance of fault. We are works-in-progress and should be thrilled when we get to make that progress, regardless of how it happens. In a video game, if you improve your character based on something you learn in-game or a mechanic you start understanding better, do you project embarrassment onto the character because they hadn&amp;rsquo;t been doing that all along? Would it even make sense to reject that new knowledge simply because it conflicts with an existing view? No. That would be lunacy. A self-imposed handicap, hamstringing yourself for the sake of pride. So why would we do that in reality?&lt;/p&gt;
-
-&lt;p&gt;I find it much more human to update your convictions and expand your thinking on a topic when presented with new information than to dig your heels in and resist simply because it means disagreeing with your past self. In politics, a change in position is often referred to as flip-flopping, but this is entirely different. If your position is that penguins live solely in the Great Lakes region of North America and, upon being presented with evidence that no, in fact, they&amp;rsquo;re from the southern hemisphere and do not actually spend any time with polar bears, you change your position about penguin habitat locations&amp;hellip; that is not flip-flopping. That&amp;rsquo;s correcting a faulty assumption. We need more of that.&lt;/p&gt;
-
+&lt;p&gt;It’s the first week of fall semester and there is &lt;em&gt;much&lt;/em&gt; going on, as you can imagine. I know some of you dear readers are in the same academic boat as I am, so know that &lt;em&gt;you are seen&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Lately, I’ve been thinking a lot about &lt;strong&gt;evidence&lt;/strong&gt;. Not evidence in the Forensic Files sense (side note: have you noticed that a television channel called &lt;em&gt;Escape&lt;/em&gt; shows almost 24-7 “true crime” shows? what on earth does that say about us?) but in the how-we-make-the-best-decisions-in-an-attempt-to-live-our-best-lives sense. In this case, it’s actually about living our &lt;em&gt;longest&lt;/em&gt; lives. I’ll explain. (And add a caveat that I am &lt;em&gt;not&lt;/em&gt; an expert in nutrition; just somebody who really likes bacon but also really likes bread dipped in olive oil, which explains my weakness for Carbonara.)&lt;/p&gt;
+&lt;div id=&#34;lets-talk-about-carbohydrates&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Let’s talk about carbohydrates&lt;/h2&gt;
+&lt;p&gt;A few weeks ago-ish, I wrote a bit about going “low-carb.” Since then, a study was released that is the largest of its sort ever published. It’s not perfect by any means (no study ever is and if anyone claims otherwise they’re trying to sell you something) but the results seem to support (pro-tip when talking about research: be wary of using absolutes like “confirm” or “prove”) the notion of All Things in Moderation. Turns out, according to the study, that going low-carb can actually shave years off your life. Turns out, the best diet is one that’s &lt;em&gt;balanced&lt;/em&gt; and &lt;em&gt;spread out&lt;/em&gt;, meaning doesn’t eschew one macronutrient entirely for another and actively seeks out variety. They say the ideal percentage of carbohydrates is about 50-55%. Should probably aim for the same protein-to-lean-mass ratio as usual, and then supplement with fat to reach your caloric goal.&lt;/p&gt;
+&lt;p&gt;It seems the “Eat food, not too much, mostly plants” adage isn’t far off. Does that mean everybody needs to go vegan? Of course not. But it really does suggest something closer to the Mediterranean diet is pretty ideal. At least now I have an excuse to buy that insanely expensive bottle of olive oil!&lt;/p&gt;
+&lt;p&gt;So, while I stand by my assertion that you should do what works for you, specifically, in concert with advice from your physician, this is simply more information that you can use to make an informed decision (along with your doctor). See? Evidence. That’s the nature of being a skeptic and trusting in the scientific method: when new evidence that is gathered genuinely and presented with fidelity and neutrality goes against previous evidence (or, in many cases, assumptions), it’s important to incorporate that into your decision making without prejudice or embarrassment. Evidenced-based &lt;em&gt;anything&lt;/em&gt; is more likely to be beneficial than choices made based on whims or spurious assertions.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;growth-and-im-not-just-talking-about-my-waistline-stupid-carbs&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Growth, and I’m not just talking about my waistline (…stupid carbs)&lt;/h2&gt;
+&lt;p&gt;This brings us to evidence more broadly. I’m a firm believer in evidence-based policies, decisions, anything, really. Having said that, it is in our nature to conflate and incorporate our ideas, likes, and decisions (regardless of their premises) with our senses of &lt;em&gt;self&lt;/em&gt;. Ever gotten in an argument with someone about a band that they think is just &lt;em&gt;a-ma-zing&lt;/em&gt; and you simply don’t see it? And they take it personally? Your dislike of their favorite thing is converted into a dislike of &lt;em&gt;them&lt;/em&gt;. This is something I’m certain we’ve all experienced on both sides. (I will argue all night about whether &lt;em&gt;Dark Side of the Moon&lt;/em&gt; is the most perfect album of all time. Spoiler: it absolutely is.) This kind of internalization can be hugely damaging to both a healthy sense of identity and rational public discourse. I’ll simply point you toward any Facebook comment thread that devolves into a shouting match and personal insults because of something even remotely resembling a political stance.&lt;/p&gt;
+&lt;p&gt;We need to overcome this. We need to be better at separating our opinions from our identities. We need to learn again how to grow, admit past mistakes, and see an update to our thinking upon the presentation of new evidence as a &lt;em&gt;virtue&lt;/em&gt; rather than an admittance of fault. We are works-in-progress and should be thrilled when we get to make that progress, regardless of how it happens. In a video game, if you improve your character based on something you learn in-game or a mechanic you start understanding better, do you project embarrassment onto the character because they hadn’t been doing that all along? Would it even make sense to reject that new knowledge simply because it conflicts with an existing view? No. That would be lunacy. A self-imposed handicap, hamstringing yourself for the sake of pride. So why would we do that in reality?&lt;/p&gt;
+&lt;p&gt;I find it much more human to update your convictions and expand your thinking on a topic when presented with new information than to dig your heels in and resist simply because it means disagreeing with your past self. In politics, a change in position is often referred to as flip-flopping, but this is entirely different. If your position is that penguins live solely in the Great Lakes region of North America and, upon being presented with evidence that no, in fact, they’re from the southern hemisphere and do not actually spend any time with polar bears, you change your position about penguin habitat locations… that is not flip-flopping. That’s correcting a faulty assumption. We need more of that.&lt;/p&gt;
 &lt;p&gt;Evidence gathered genuinely and presented without ulterior motive should not be seen as a threat or a personal attack on someone that held contradictory views. It should be accepted, reviewed, scrutinized, and incorporated in an existing body of evidence and used to make better, more informed decisions about our lives and the world at large.&lt;/p&gt;
-
-&lt;p&gt;I guess that&amp;rsquo;s a long way of saying I&amp;rsquo;m eating bread again.&lt;/p&gt;
+&lt;p&gt;I guess that’s a long way of saying I’m eating bread again.&lt;/p&gt;
+&lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Not that Kind of Hot Dog</title>
-      <link>https://ryanstraight.com/2018/07/24/not-that-kind-of-hot-dog/</link>
+      <link>/2018/07/24/not-that-kind-of-hot-dog/</link>
       <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanstraight.com/2018/07/24/not-that-kind-of-hot-dog/</guid>
+      <guid>/2018/07/24/not-that-kind-of-hot-dog/</guid>
       <description>
+&lt;script src=&#34;/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/jquery/dist/jquery.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/d3/d3.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/rmarkdown-libs/metrics-graphics/dist/metricsgraphics.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;link href=&#34;/rmarkdown-libs/metrics-graphics/dist/mg_regions.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/metrics-graphics/dist/metricsgraphics.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/metrics-graphics/dist/mg_regions.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/metricsgraphics-binding/metricsgraphics.js&#34;&gt;&lt;/script&gt;
 
-&lt;p&gt;It&amp;rsquo;s hot outside in Arizona. I mean, it&amp;rsquo;s hot virtually everywhere, to be fair. We&amp;rsquo;re at the very beginning of an extreme heat advisory that lasts from yesterday (July 23, 2018) morning all the way through Wednesday night. It&amp;rsquo;s dangerously hot.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; Keep in mind it&amp;rsquo;s actually hotter &lt;em&gt;today&lt;/em&gt; than it was yesterday. Today it&amp;rsquo;s a high of 112F (44.4C). The images you&amp;rsquo;ll find below were taken on a day with a high of 109F (42.7C).&lt;/p&gt;
 
+&lt;p&gt;It’s hot outside in Arizona. I mean, it’s hot virtually everywhere, to be fair. We’re at the very beginning of an extreme heat advisory that lasts from yesterday (July 23, 2018) morning all the way through Wednesday night. It’s dangerously hot.&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; Keep in mind it’s actually hotter &lt;em&gt;today&lt;/em&gt; than it was yesterday. Today it’s a high of 112F (44.4C). The images you’ll find below were taken on a day with a high of 109F (42.7C).&lt;/p&gt;
 &lt;p&gt;Now, you know about our dogs and how much we love them. (Read: spoil.) Considering the excessive heat warning, I began wondering just how hot the back yard gets during the day. I know the general numbers but what about in our actual back yard where our actual dogs actually walk around, actually?&lt;/p&gt;
-
-&lt;p&gt;I wanted to demonstrate what I talked about back in my Thermoception episode of The New Professor&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;: the difference between ambient air temperature and the temperature of the pavement. This is especially important for animals.&lt;/p&gt;
-
-&lt;p&gt;Recently having procured an infrared thermometer to use when cooking, it occurred to me I could use it to really illustrate these dangers. These are taken in the same spots throughout the day. You&amp;rsquo;ll see when and how the shade from the house alters the temperature. Please, think about this when you want to take your dogs out.&lt;/p&gt;
-
-&lt;p&gt;While it&amp;rsquo;s not a perfect analog, consider these water temperatures and time required for &amp;ldquo;deep burn.&amp;rdquo;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;iframe src=&#34;./figure/steak.html&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Below each picture and accompanying temperature is a description of a relative internal cooking temperature&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; for comparison.&lt;/p&gt;
-
-&lt;h2 id=&#34;11am&#34;&gt;11am&lt;/h2&gt;
-
-
+&lt;p&gt;I wanted to demonstrate what I talked about back in my Thermoception episode of The New Professor&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;: the difference between ambient air temperature and the temperature of the pavement. This is especially important for animals.&lt;/p&gt;
+&lt;p&gt;Recently having procured an infrared thermometer to use when cooking, it occurred to me I could use it to really illustrate these dangers. These are taken in the same spots throughout the day. You’ll see when and how the shade from the house alters the temperature. Please, think about this when you want to take your dogs out.&lt;/p&gt;
+&lt;p&gt;While it’s not a perfect analog, consider these water temperatures and time required for “deep burn.”&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div id=&#34;mjs-cc20a9628e7db01b70b70622c04e10&#34; class=&#34;metricsgraphics html-widget&#34; style=&#34;width:672px;height:480px;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;mjs-cc20a9628e7db01b70b70622c04e10-legend&#34; class=&#34;metricsgraphics html-widget-legend&#34;&gt;&lt;/div&gt;
+&lt;script type=&#34;application/json&#34; data-for=&#34;mjs-cc20a9628e7db01b70b70622c04e10&#34;&gt;{&#34;x&#34;:{&#34;forCSS&#34;:null,&#34;regions&#34;:null,&#34;orig_posix&#34;:false,&#34;data&#34;:{&#34;temp&#34;:[127,133,140,148,155],&#34;sec&#34;:[60,15,5,2,1],&#34;stringssAsFactors&#34;:[false,false,false,false,false]},&#34;x_axis&#34;:true,&#34;y_axis&#34;:true,&#34;baseline_accessor&#34;:null,&#34;predictor_accessor&#34;:null,&#34;show_confidence_band&#34;:null,&#34;show_secondary_x_label&#34;:null,&#34;chart_type&#34;:&#34;line&#34;,&#34;xax_format&#34;:&#34;plain&#34;,&#34;x_label&#34;:&#34;Degrees Farenheit&#34;,&#34;y_label&#34;:&#34;Seconds of contact&#34;,&#34;markers&#34;:[{&#34;temp&#34;:133,&#34;label&#34;:&#34;Medium rare steak&#34;},{&#34;temp&#34;:153,&#34;label&#34;:&#34;Medium well steak&#34;}],&#34;baselines&#34;:null,&#34;linked&#34;:false,&#34;title&#34;:null,&#34;description&#34;:null,&#34;left&#34;:80,&#34;right&#34;:10,&#34;bottom&#34;:60,&#34;buffer&#34;:8,&#34;format&#34;:&#34;count&#34;,&#34;y_scale_type&#34;:&#34;linear&#34;,&#34;yax_count&#34;:5,&#34;xax_count&#34;:6,&#34;x_rug&#34;:false,&#34;y_rug&#34;:false,&#34;area&#34;:false,&#34;missing_is_hidden&#34;:false,&#34;size_accessor&#34;:null,&#34;color_accessor&#34;:null,&#34;color_type&#34;:&#34;number&#34;,&#34;color_range&#34;:[&#34;blue&#34;,&#34;red&#34;],&#34;size_range&#34;:[1,5],&#34;bar_height&#34;:20,&#34;min_x&#34;:null,&#34;max_x&#34;:null,&#34;min_y&#34;:null,&#34;max_y&#34;:null,&#34;bar_margin&#34;:1,&#34;binned&#34;:false,&#34;bins&#34;:null,&#34;least_squares&#34;:false,&#34;interpolate&#34;:&#34;cardinal&#34;,&#34;decimals&#34;:2,&#34;show_rollover_text&#34;:true,&#34;x_accessor&#34;:&#34;temp&#34;,&#34;y_accessor&#34;:&#34;sec&#34;,&#34;multi_line&#34;:null,&#34;geom&#34;:&#34;line&#34;,&#34;yax_units&#34;:&#34;&#34;,&#34;legend&#34;:null,&#34;legend_target&#34;:null,&#34;y_extended_ticks&#34;:false,&#34;x_extended_ticks&#34;:false,&#34;target&#34;:&#34;#mjs-cc20a9628e7db01b70b70622c04e10&#34;,&#34;full_width&#34;:true,&#34;full_height&#34;:true,&#34;animate_on_load&#34;:true,&#34;color&#34;:&#34;Red&#34;,&#34;colors&#34;:&#34;Red&#34;},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
+&lt;p&gt;Below each picture and accompanying temperature is a description of a relative internal cooking temperature&lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt; for comparison.&lt;/p&gt;
+&lt;div id=&#34;am&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;11am&lt;/h2&gt;
+&lt;p&gt;Gravel at 11am: 
 
 
 &lt;figure&gt;
 
-&lt;img src=&#34;1100-gravel.jpg&#34; /&gt;
+&lt;img src=&#34;1100-gravel.jpg&#34; alt=&#34;Gravel at 11am&#34; /&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Gravel at 11am&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
-
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Patio at 11am: 
 
 
 &lt;figure&gt;
 
-&lt;img src=&#34;1100-patio.jpg&#34; /&gt;
+&lt;img src=&#34;1100-patio.jpg&#34; alt=&#34;Patio at 11am&#34; /&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Patio at 11am&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
-&lt;h2 id=&#34;12pm&#34;&gt;12pm&lt;/h2&gt;
-
-
+&lt;/figure&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;pm&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;12pm&lt;/h2&gt;
+&lt;p&gt;Gravel at 12pm: 
 
 
 &lt;figure&gt;
 
-&lt;img src=&#34;1200-gravel.jpg&#34; /&gt;
+&lt;img src=&#34;1200-gravel.jpg&#34; alt=&#34;Gravel at 12pm&#34; /&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Gravel at 12pm&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
-
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Patio at 12pm: 
 
 
 &lt;figure&gt;
 
-&lt;img src=&#34;1200-patio.jpg&#34; /&gt;
+&lt;img src=&#34;1200-patio.jpg&#34; alt=&#34;Patio at 12pm&#34; /&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Gravel at 12pm&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
-&lt;h2 id=&#34;1pm&#34;&gt;1pm&lt;/h2&gt;
-
-
+&lt;/figure&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;pm-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;1pm&lt;/h2&gt;
+&lt;p&gt;Gravel at 1pm: 
 
 
 &lt;figure&gt;
 
-&lt;img src=&#34;1300-gravel.jpg&#34; /&gt;
+&lt;img src=&#34;1300-gravel.jpg&#34; alt=&#34;Gravel at 1pm&#34; /&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Gravel at 1pm&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
-
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Patio at 1pm: 
 
 
 &lt;figure&gt;
 
-&lt;img src=&#34;1300-patio.jpg&#34; /&gt;
+&lt;img src=&#34;1300-patio.jpg&#34; alt=&#34;Patio at 1pm&#34; /&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Patio at 1pm&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
-&lt;h2 id=&#34;2-30pm&#34;&gt;2:30pm&lt;/h2&gt;
-
-
+&lt;/figure&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;pm-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2:30pm&lt;/h2&gt;
+&lt;p&gt;Gravel at 2:30pm: 
 
 
 &lt;figure&gt;
 
-&lt;img src=&#34;1430-gravel.jpg&#34; /&gt;
+&lt;img src=&#34;1430-gravel.jpg&#34; alt=&#34;Gravel at 2:30pm&#34; /&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Gravel at 2:30pm&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
-
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Patio at 2:30pm: 
 
 
 &lt;figure&gt;
 
-&lt;img src=&#34;1430-patio.jpg&#34; /&gt;
+&lt;img src=&#34;1430-patio.jpg&#34; alt=&#34;Patio at 2:30pm&#34; /&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Patio at 2:30pm&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
-&lt;h2 id=&#34;3-30pm&#34;&gt;3:30pm&lt;/h2&gt;
-
-
+&lt;/figure&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;pm-3&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;3:30pm&lt;/h2&gt;
+&lt;p&gt;Gravel at 3:30pm: 
 
 
 &lt;figure&gt;
 
-&lt;img src=&#34;1530-gravel.jpg&#34; /&gt;
+&lt;img src=&#34;1530-gravel.jpg&#34; alt=&#34;Gravel at 3:30pm&#34; /&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Gravel at 3:30pm&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
-
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Patio at 3:30pm: 
 
 
 &lt;figure&gt;
 
-&lt;img src=&#34;1530-patio.jpg&#34; /&gt;
+&lt;img src=&#34;1530-patio.jpg&#34; alt=&#34;Patio at 3:30pm&#34; /&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Patio at 3:30pm&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
-
-&lt;h2 id=&#34;7-30pm&#34;&gt;7:30pm&lt;/h2&gt;
-
+&lt;/figure&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;pm-4&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;7:30pm&lt;/h2&gt;
 &lt;p&gt;Just so you can see how quickly it cools down after the sun stops beating down on it.&lt;/p&gt;
-
-
+&lt;p&gt;Patio at 7:30pm: 
 
 
 &lt;figure&gt;
 
-&lt;img src=&#34;1930-patio.jpg&#34; /&gt;
+&lt;img src=&#34;1930-patio.jpg&#34; alt=&#34;Patio at 7:30pm&#34; /&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Patio at 7:30pm&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;
+&lt;/figure&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
-
 &lt;hr /&gt;
-
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;&lt;a href=&#34;https://www.wunderground.com/history/daily/KTUS/date/2018-7-23&#34; target=&#34;_blank&#34;&gt;https://www.wunderground.com/history/daily/KTUS/date/2018-7-23&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:2&#34;&gt;&lt;a href=&#34;https://thenewprofessor.com/005&#34; target=&#34;_blank&#34;&gt;https://thenewprofessor.com/005&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:2&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:3&#34;&gt;&lt;a href=&#34;http://burncentrecare.co.uk/what_can_cause_a_burn.htm&#34; target=&#34;_blank&#34;&gt;http://burncentrecare.co.uk/what_can_cause_a_burn.htm&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:3&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:4&#34;&gt;&lt;a href=&#34;https://whatscookingamerica.net/Information/MeatTemperatureChart.htm&#34; target=&#34;_blank&#34;&gt;https://whatscookingamerica.net/Information/MeatTemperatureChart.htm&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:4&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://www.wunderground.com/history/daily/KTUS/date/2018-7-23&#34; class=&#34;uri&#34;&gt;https://www.wunderground.com/history/daily/KTUS/date/2018-7-23&lt;/a&gt;&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://thenewprofessor.com/005&#34; class=&#34;uri&#34;&gt;https://thenewprofessor.com/005&lt;/a&gt;&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;&lt;a href=&#34;http://burncentrecare.co.uk/what_can_cause_a_burn.htm&#34; class=&#34;uri&#34;&gt;http://burncentrecare.co.uk/what_can_cause_a_burn.htm&lt;/a&gt;&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn4&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://whatscookingamerica.net/Information/MeatTemperatureChart.htm&#34; class=&#34;uri&#34;&gt;https://whatscookingamerica.net/Information/MeatTemperatureChart.htm&lt;/a&gt;&lt;a href=&#34;#fnref4&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
@@ -397,142 +298,113 @@
     
     <item>
       <title>Educated vs Intelligent</title>
-      <link>https://ryanstraight.com/2018/07/06/educated-vs-intelligent/</link>
+      <link>/2018/07/06/educated-vs-intelligent/</link>
       <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanstraight.com/2018/07/06/educated-vs-intelligent/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Nell,&amp;rdquo; the Constable continued, indicating through his tone of voice that the lesson was concluding, &amp;ldquo;the difference between ignorant and educated people is that the latter know more facts. But that has nothing to do with whether they are stupid or intelligent. The difference between stupid and intelligent people — and this is true whether or not they are well-educated — is that intelligent people can handle subtlety. They are not baffled by ambiguous or even contradictory situations — in fact, they expect them and are apt to become suspicious when things seem overly straightforward.&lt;/p&gt;
+      <guid>/2018/07/06/educated-vs-intelligent/</guid>
+      <description>
 
-&lt;p&gt;&amp;ldquo;In your Primer you have a resource that will make you highly educated, but it will never make you intelligent. That comes from life. Your life up to this point has given you all of the experience you need to be intelligent but you have to think about those experiences. If you don&amp;rsquo;t think about them, you&amp;rsquo;ll be psychologically unwell. If you do think about them, you will become not merely educated but intelligent&amp;hellip;.&amp;rdquo;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“Nell,” the Constable continued, indicating through his tone of voice that the lesson was concluding, &#34;the difference between ignorant and educated people is that the latter know more facts. But that has nothing to do with whether they are stupid or intelligent. The difference between stupid and intelligent people — and this is true whether or not they are well-educated — is that intelligent people can handle subtlety. They are not baffled by ambiguous or even contradictory situations — in fact, they expect them and are apt to become suspicious when things seem overly straightforward.&lt;/p&gt;
 &lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://amzn.to/2u9Qa3O&#34; target=&#34;_blank&#34;&gt;Stephenson, N. (2000). &lt;em&gt;The Diamond Age: or, A Young Lady&amp;rsquo;s Illustrated Primer&lt;/em&gt;. p. 256&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“In your Primer you have a resource that will make you highly educated, but it will never make you intelligent. That comes from life. Your life up to this point has given you all of the experience you need to be intelligent but you have to think about those experiences. If you don’t think about them, you’ll be psychologically unwell. If you do think about them, you will become not merely educated but intelligent….”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://amzn.to/2u9Qa3O&#34;&gt;Stephenson, N. (2000). &lt;em&gt;The Diamond Age: or, A Young Lady’s Illustrated Primer&lt;/em&gt;. p. 256&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Hi, EdSurge!</title>
-      <link>https://ryanstraight.com/2018/07/05/hi-edsurge/</link>
+      <link>/2018/07/05/hi-edsurge/</link>
       <pubDate>Thu, 05 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanstraight.com/2018/07/05/hi-edsurge/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;featured.webp&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+      <guid>/2018/07/05/hi-edsurge/</guid>
+      <description>
 
-&lt;p&gt;I&amp;rsquo;m featured as the July &lt;a href=&#34;https://twitter.com/hashtag/dlnchat&#34; target=&#34;_blank&#34;&gt;EdSurge #DLNchat&lt;/a&gt; Member of the Month!&lt;/p&gt;
+
+&lt;p&gt;&lt;embed src=&#34;featured.webp&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;I’m featured as the July &lt;a href=&#34;https://twitter.com/hashtag/dlnchat&#34;&gt;EdSurge #DLNchat&lt;/a&gt; Member of the Month!&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>365papers</title>
-      <link>https://ryanstraight.com/2018/01/04/365papers/</link>
+      <link>/2018/01/04/365papers/</link>
       <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanstraight.com/2018/01/04/365papers/</guid>
-      <description>&lt;p&gt;The idea is to read (and keep track of) a paper a day in 2018. Sounds easy, right? We&amp;rsquo;ll see.&lt;/p&gt;
+      <guid>/2018/01/04/365papers/</guid>
+      <description>
 
-&lt;p&gt;It stems from the &lt;a href=&#34;https://twitter.com/search?q=%23365papers&#34; target=&#34;_blank&#34;&gt;#365papers hashtag&lt;/a&gt; on Twitter. I&amp;rsquo;m going with Brook&amp;rsquo;s rules, too:&lt;/p&gt;
 
-&lt;p&gt;&lt;!--html_preserve--&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;I&amp;#39;m going to try to read &lt;a href=&#34;https://twitter.com/hashtag/365papers?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#365papers&lt;/a&gt; this year.  My own rules: a chapter counts as a paper, a paper I&amp;#39;m peer-reviewing counts, and it doesn&amp;#39;t have to be one paper a day for 365 days, but rather on average.  I&amp;#39;ll keep track in this thread.  Suggestions for papers welcome!&lt;/p&gt;&amp;mdash; Brook Danielle Lillehaugen (@blillehaugen) &lt;a href=&#34;https://twitter.com/blillehaugen/status/947898628839849984?ref_src=twsrc%5Etfw&#34;&gt;January 1, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;The idea is to read (and keep track of) a paper a day in 2018. Sounds easy, right? We’ll see.&lt;/p&gt;
+&lt;p&gt;It stems from the &lt;a href=&#34;https://twitter.com/search?q=%23365papers&#34;&gt;#365papers hashtag&lt;/a&gt; on Twitter. I’m going with Brook’s rules, too:&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;I&amp;#39;m going to try to read &lt;a href=&#34;https://twitter.com/hashtag/365papers?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#365papers&lt;/a&gt; this year.  My own rules: a chapter counts as a paper, a paper I&amp;#39;m peer-reviewing counts, and it doesn&amp;#39;t have to be one paper a day for 365 days, but rather on average.  I&amp;#39;ll keep track in this thread.  Suggestions for papers welcome!&lt;/p&gt;&amp;mdash; Brook Danielle Lillehaugen (@blillehaugen) &lt;a href=&#34;https://twitter.com/blillehaugen/status/947898628839849984?ref_src=twsrc%5Etfw&#34;&gt;January 1, 2018&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;!--/html_preserve--&gt;&lt;/p&gt;
 
-&lt;p&gt;I&amp;rsquo;ll be keeping track of my list below. No notes or anything, just the citations (with abstracts when available) in the order they were read. I&amp;rsquo;m including book chapters as papers as I&amp;rsquo;ve a lot of edited volumes and monographs I want to get through as well as discrete articles. Everything&amp;rsquo;s in lazy APA.&lt;/p&gt;
-
+&lt;p&gt;I’ll be keeping track of my list below. No notes or anything, just the citations (with abstracts when available) in the order they were read. I’m including book chapters as papers as I’ve a lot of edited volumes and monographs I want to get through as well as discrete articles. Everything’s in lazy APA.&lt;/p&gt;
 &lt;p&gt;Be warned: this page could get &lt;em&gt;big&lt;/em&gt;.&lt;/p&gt;
-
 &lt;hr /&gt;
-
-&lt;p&gt;Olesen, F. (2012). Scientific Objectivity and Postphenomenological Perception. &lt;em&gt;Foundations of Science, 17&lt;/em&gt;(4), 357–362. &lt;a href=&#34;https://doi.org/10.1007/s10699-011-9241-z&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1007/s10699-011-9241-z&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;Olesen, F. (2012). Scientific Objectivity and Postphenomenological Perception. &lt;em&gt;Foundations of Science, 17&lt;/em&gt;(4), 357–362. &lt;a href=&#34;https://doi.org/10.1007/s10699-011-9241-z&#34; class=&#34;uri&#34;&gt;https://doi.org/10.1007/s10699-011-9241-z&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Don Ihde’s paper “Stretching the in-between: Embodiment and beyond” appears to me as a stimulating, topical text with a number of important arguments about human embodiment as a dynamic and epistemically relevant dimension to scientific knowledge production. But, indirectly, the text also raises some basic questions about how to describe the (current) scope of technoscientific knowledge, and the potentials of postphenomenology to deal with this complicated, multi-stable issue.&lt;/p&gt;
 &lt;/blockquote&gt;
-
 &lt;hr /&gt;
-
-&lt;p&gt;van den Eede, Y. (2011). In Between Us: On the Transparency and opacity of technological mediation. &lt;em&gt;Foundations of Science, 16&lt;/em&gt;(2–3), 139–159. &lt;a href=&#34;https://doi.org/10.1007/s10699-010-9190-y&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1007/s10699-010-9190-y&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;van den Eede, Y. (2011). In Between Us: On the Transparency and opacity of technological mediation. &lt;em&gt;Foundations of Science, 16&lt;/em&gt;(2–3), 139–159. &lt;a href=&#34;https://doi.org/10.1007/s10699-010-9190-y&#34; class=&#34;uri&#34;&gt;https://doi.org/10.1007/s10699-010-9190-y&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Different theoretical approaches each highlight only certain aspects of technologically mediated human existence. Philosophical theories of technology focus on mediation, but not on inter-human component. Theories of mediated interaction do not consider being-with-each-other an sich. Relationship scholars do not theorize technological mediation. This article considers different theories of technology, in order to devise a general theory of technological mediation. Technological mediation by its very nature, however, is transparent. How to approach it then? VDE explores the notion of transparency as it comes to the fore in the different perspectives on technology. The transparency-opacity in these theories all involve changing perspectives: from tool to use/medium to message/form to content/figure and ground, where opacity of the one means transparency of the other, and vice versa. Then, he systematized this into a broad analysis of technological mediation. In use relations, the transparency and opacity emerge in the “neutral” (efficient, easy) usage of the tool/medium/content/platform. In context relations, the transparency and opacity concern the social and political context of the technology: the (invisible) ways by which technologies produce and perpetuate social injustices. Use for FOLoF: the face is not a technology, but nevertheless it conjures a similar dynamic of transparency and opacity (faciality: you look at a collection of features, and see a person. Whole versus parts - Gestalt experience?) Question: which is the “us” in the title? VDE seems to be talking about technological mediation in a broad sense (which also includes technological mediation of self-world), but also about technological mediation of social interaction. He does not make this very relevant distinction clear, however!&lt;/p&gt;
 &lt;/blockquote&gt;
-
-&lt;p&gt;Adams, C. A., &amp;amp; Thompson, T. L. (2011). Interviewing objects: including educational technologies as qualitative research participants. &lt;em&gt;International Journal of Qualitative Studies in Education, 24&lt;/em&gt;(6), 733–750. &lt;a href=&#34;https://doi.org/10.1080/09518398.2010.529849&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1080/09518398.2010.529849&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;Adams, C. A., &amp;amp; Thompson, T. L. (2011). Interviewing objects: including educational technologies as qualitative research participants. &lt;em&gt;International Journal of Qualitative Studies in Education, 24&lt;/em&gt;(6), 733–750. &lt;a href=&#34;https://doi.org/10.1080/09518398.2010.529849&#34; class=&#34;uri&#34;&gt;https://doi.org/10.1080/09518398.2010.529849&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;This article argues the importance of including significant technologies-in-use as key qualitative research participants when studying today’s digitally enhanced learning environments. We gather a set of eight heuristics to assist qualitative researchers in “interviewing” technologies-in-use (or other relevant objects), drawing on concrete examples from our own qualitative research projects. Our discussion is informed by Actor-Network Theory and hermeneutic phenomenology, as well as by the literatures of techno-science, media ecology, and the philosophy of technology.&lt;/p&gt;
 &lt;/blockquote&gt;
-
-&lt;p&gt;Hasse, C. (2008). Postphenomenology: Learning cultural perception in science. &lt;em&gt;Human Studies, 31&lt;/em&gt;(1), 43–61. &lt;a href=&#34;https://doi.org/10.1007/s10746-007-9075-4&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1007/s10746-007-9075-4&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;Hasse, C. (2008). Postphenomenology: Learning cultural perception in science. &lt;em&gt;Human Studies, 31&lt;/em&gt;(1), 43–61. &lt;a href=&#34;https://doi.org/10.1007/s10746-007-9075-4&#34; class=&#34;uri&#34;&gt;https://doi.org/10.1007/s10746-007-9075-4&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;In this article I propose that a postphenomenological approach to science and technology can open new analytical understandings of how material artifacts, embodiment and social agency co-produce learned perceptions of objects. In particle physics, physicists work in huge groups of scientists from many cultural backgrounds. Communication to some extent depends on material hermeneutics of flowcharts, models and other visual presentations. As it appears in an examination of physicists‚Äô scrutiny of visual renderings of different parts of a detector, perceptions vary in relation to social and bodily experiences. Vision in physics has seemingly allowed an objective perception at a convenient distance of the body. This article challenges this view and proposes that the variations can be analysed as cultural at two echelons with the help of a postphenomenological approach combined with cultural psychological theory of artifacts. A third echelon presumably constitutes the phenomenological limit to culture in science. Even this last resort of subjectivity can be embraced by a postphenomenological approach. The process of culturalization in physics can be defined as a process of situating knowledge in a body whose continuous learning of micro-and macro perceptions makes scientific renderings unstable. Taken together postphenomenology, following the distinctions between body one and body two, and combined with cultural psychological learning theory, enables new insight into what constitutes culture in science.&lt;/p&gt;
 &lt;/blockquote&gt;
-
-&lt;p&gt;Verbeek, P. P. (2008). Cyborg intentionality: Rethinking the phenomenology of human-technology relations. &lt;em&gt;Phenomenology and the Cognitive Sciences, 7&lt;/em&gt;(3), 387–395. &lt;a href=&#34;https://doi.org/10.1007/s11097-008-9099-x&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1007/s11097-008-9099-x&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;Verbeek, P. P. (2008). Cyborg intentionality: Rethinking the phenomenology of human-technology relations. &lt;em&gt;Phenomenology and the Cognitive Sciences, 7&lt;/em&gt;(3), 387–395. &lt;a href=&#34;https://doi.org/10.1007/s11097-008-9099-x&#34; class=&#34;uri&#34;&gt;https://doi.org/10.1007/s11097-008-9099-x&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;This article investigates the types of intentionality involved in humantechnology relations. It aims to augment Don Ihdes analysis of the relations between human beings and technological artifacts, by analyzing a number of concrete examples at the limits of Ihdes analysis. The article distinguishes and analyzes three types of cyborg intentionality, which all involve specific blends of the human and the technological. Technologically mediated intentionality occurs when human intentionality takes place through technological artifacts; hybrid intentionality occurs when the technological actually merges with the human; and composite intentionality is the addition of human intentionality and the intentionality of technological artifacts.&lt;/p&gt;
 &lt;/blockquote&gt;
-
-&lt;p&gt;Dreyfus, H. (2009). Heidegger on Gaining a Free Relation to Technology. In D. M. Kaplan (Ed.), Readings in the Philosophy of Technology (2nd ed., pp. 25–33). London: Rowman &amp;amp; Littlefield Publishers, Inc.&lt;/p&gt;
-
+&lt;p&gt;Dreyfus, H. (2009). Heidegger on Gaining a Free Relation to Technology. In D. M. Kaplan (Ed.), Readings in the Philosophy of Technology (2nd ed., pp. 25–33). London: Rowman &amp;amp; Littlefield Publishers, Inc.&lt;/p&gt;
 &lt;p&gt;Moran, D. (2000). &lt;em&gt;Introduction to Phenomenology&lt;/em&gt;. London: Routledge.&lt;/p&gt;
-
 &lt;blockquote&gt;
 &lt;p&gt;(Preface) This book is an introduction to phenomenology, a movement which, in many ways, typifies the course of European philosophy in the twentieth century. Writing at the close of this era, the extent of this contribution can now be more clearly articulated, appreciated, and, inevitably, criticised. Phenomenology was announced by Edmund Husserl in 1900–1901 as a bold, radically new way of doing philosophy, an attempt to bring philosophy back from abstract metaphysical speculation wrapped up in pseudo-problems, in order to come into contact with the matters themselves, with concrete living experience. As Husserl originally envisaged it, phenomenology had much in common with William James’ radical empiricism, but more than anything else it was stimulated by Franz Brentano’s ground-breaking work in descriptive psychology, the a priori science of the acts and contents of consciousness. Somewhat later, Husserl came to realise the connection between his conception of phenomenology and Descartes’s project of providing a secure edifice for knowledge. Husserl eventually came to see that his own project had much in common with Neo-Kantianism, and thus his phenomenology became a form of transcendental idealism. But his studies of consciousness also led him to pursue investigations into our awareness of time, and history, which led to his development of the concept of the life-world, and to investigations of the evolution of culture reminiscent of Hegel’s phenomenology of spirit.&lt;/p&gt;
 &lt;/blockquote&gt;
-
 &lt;p&gt;Kline, S. J. (1985). What is technology? &lt;em&gt;Bulletin of Science, Technology &amp;amp; Society, 1&lt;/em&gt;, 215–218.&lt;/p&gt;
-
 &lt;blockquote&gt;
-&lt;p&gt;(Opening paragraphs) In the late 20th century, there is only one thing most people agree about concerning technology &amp;ndash; it is important. It is discussed almost as much as the weather, and sometimes it seems, with as little effect. But what is ’technology?’ If we look with even a little care, we find this same word is being used to represent things, actions, processes, methods and systems. ’Technology’ is also used symbolically as an epithet, for important working procedures, and to represent progress. This much conflict within the usage of one of our central terms won’t do; it can lead only to chaos. Even more important, the current vague use of the word ’technology’ hides from view two central concepts,and a central pattern of human behavior that we must have to make sense of our views of many critical questions in the current world including how we understand innovation, how we can communicate across Snow’s culture gap, and how we understand the way in which we humans make our living on the planet.&lt;/p&gt;
+&lt;p&gt;(Opening paragraphs) In the late 20th century, there is only one thing most people agree about concerning technology – it is important. It is discussed almost as much as the weather, and sometimes it seems, with as little effect. But what is ’technology?’ If we look with even a little care, we find this same word is being used to represent things, actions, processes, methods and systems. ’Technology’ is also used symbolically as an epithet, for important working procedures, and to represent progress. This much conflict within the usage of one of our central terms won’t do; it can lead only to chaos. Even more important, the current vague use of the word ’technology’ hides from view two central concepts,and a central pattern of human behavior that we must have to make sense of our views of many critical questions in the current world including how we understand innovation, how we can communicate across Snow’s culture gap, and how we understand the way in which we humans make our living on the planet.&lt;/p&gt;
 &lt;/blockquote&gt;
-
 &lt;p&gt;Blitz, M. (2014). Understanding Heidegger on Technology. &lt;em&gt;The New Atlantis, 41&lt;/em&gt;, 63–80.&lt;/p&gt;
-
 &lt;blockquote&gt;
 &lt;p&gt;(Opening paragraph) Martin Heidegger (1889–1976) was perhaps the most divisive philosopher of the twentieth century. Many hold him to be the most original and important thinker of his era. Others spurn him as an obscurantist and a charlatan, while still others see his reprehensible affiliation with the Nazis as a reason to ignore or reject his thinking altogether. But Heidegger’s undoubted influence on contemporary philosophy and his unique insight into the place of technology in modern life make him a thinker worthy of careful study.&lt;/p&gt;
 &lt;/blockquote&gt;
-
-&lt;p&gt;Ihde, D. (2011). Stretching the In-between: Embodiment and beyond. &lt;em&gt;Foundations of Science, 16&lt;/em&gt;(2–3), 109–118. &lt;a href=&#34;https://doi.org/10.1007/s10699-010-9187-6&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1007/s10699-010-9187-6&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;Ihde, D. (2011). Stretching the In-between: Embodiment and beyond. &lt;em&gt;Foundations of Science, 16&lt;/em&gt;(2–3), 109–118. &lt;a href=&#34;https://doi.org/10.1007/s10699-010-9187-6&#34; class=&#34;uri&#34;&gt;https://doi.org/10.1007/s10699-010-9187-6&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Today’s scientific imaging technologies are able to detect and image emissions and radiations from a much wider range of the electromagnetic spectrum than ever before. Such phenomena lie beyond the horizons of ordinary human perceptibility. I examine here the implications of such “translation mediations” for the production of scientific knowledge and show how human embodiment is implicit for all perceptual observational possibilities. The framework is that of a postphenomenology which is able to relate these new phenomena to human embodiment.&lt;/p&gt;
 &lt;/blockquote&gt;
-
-&lt;p&gt;Rosenberger, R. (2016). Notes on a Nonfoundational Phenomenology of Technology. &lt;em&gt;Foundations of Science, 22&lt;/em&gt;(3), 1–24. &lt;a href=&#34;https://doi.org/10.1007/s10699-015-9480-5&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1007/s10699-015-9480-5&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;Rosenberger, R. (2016). Notes on a Nonfoundational Phenomenology of Technology. &lt;em&gt;Foundations of Science, 22&lt;/em&gt;(3), 1–24. &lt;a href=&#34;https://doi.org/10.1007/s10699-015-9480-5&#34; class=&#34;uri&#34;&gt;https://doi.org/10.1007/s10699-015-9480-5&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;The emerging school of thought called postphenomenology’’ offers a distinct understanding of the ways that people experience technology usage. This perspective combines insights from the philosophical tradition of phenomenology with commitments to the anti-essentialism and nonfoundationalism of American pragmatism. One of post-phenomenology’s central positions is that technologies always remain multistable,’’ i.e., subject to different uses and meanings. But I suggest that as this perspective matures, philosophical problems are emerging around the notion of multistability, what I call the problem of invariance’’ and the problem of grounding.’’ These problems point out things that remain unclear within the postphenomenological framework, such as how it handles structural claims regarding a technology’s various stabilities, and how it grounds its claims. How can postphenomenology make structural claims about technology and yet remain anti-essentializing? And on what epistemological basis does it ground its claims about human-technology relations? The paper concludes with a series of prescriptions that, if followed, enable postphenomenology to make edifying claims about technology, all while avoiding the problems of invariance and grounding, and maintaining its commitments to anti-essentialism and nonfoundationalism.&lt;/p&gt;
 &lt;/blockquote&gt;
-
-&lt;p&gt;Aagaard, J. (2016). Introducing postphenomenological research: a brief and selective sketch of phenomenological research methods. &lt;em&gt;International Journal of Qualitative Studies in Education, 30&lt;/em&gt;(6), 519–533. &lt;a href=&#34;https://doi.org/10.1080/09518398.2016.1263884&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1080/09518398.2016.1263884&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;Aagaard, J. (2016). Introducing postphenomenological research: a brief and selective sketch of phenomenological research methods. &lt;em&gt;International Journal of Qualitative Studies in Education, 30&lt;/em&gt;(6), 519–533. &lt;a href=&#34;https://doi.org/10.1080/09518398.2016.1263884&#34; class=&#34;uri&#34;&gt;https://doi.org/10.1080/09518398.2016.1263884&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;In time, phenomenology has become a viable approach to conducting qualitative studies in education. Popular and well-established methods include descriptive and hermeneutic phenomenology. Based on critiques of the essentialism and receptivity of these two methods, however, this article offers a third variation of empirical phenomenology: Postphenomenology. The article introduces postphenomenology, a philosophy of technology that highlights the importance of technological mediation of experience: Technologies transform our perceptions (amplify/reduce) and translate our actions (invite/inhibit). Based on this framework, two approaches to empirical fieldwork are suggested: In-depth exploration of the typical use of a given technology and critical comparison of multiple versions of a technology. It is argued that using postphenomenology as a research method helps researchers explore technological mediation, a vital and oft-neglected aspect of educational practice, but the method simultaneously entails epistemological commitments such as multistability, reflexivity, and posthumanism. The article concludes by discussing future challenges for the postphenomenological method.&lt;/p&gt;
 &lt;/blockquote&gt;
-
-&lt;p&gt;Tripa thi, A. K. (2015). Postphenomenological investigations of technological experience. &lt;em&gt;AI and Society, 30&lt;/em&gt;(2), 199–205. &lt;a href=&#34;https://doi.org/10.1007/s00146-014-0575-2&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1007/s00146-014-0575-2&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;Tripa thi, A. K. (2015). Postphenomenological investigations of technological experience. &lt;em&gt;AI and Society, 30&lt;/em&gt;(2), 199–205. &lt;a href=&#34;https://doi.org/10.1007/s00146-014-0575-2&#34; class=&#34;uri&#34;&gt;https://doi.org/10.1007/s00146-014-0575-2&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Technology is inextricably woven into the social and cultural fabric of different cultures. Tool use technologies, created and used by our pre-sapiens relatives, preceded us by more than a million years. There are no human cultures that are pre-technological. All humans have a material culture with complexly patterned praxes involving artifacts; we have only recently begun to appreciate the completely of even what may be called technologically mediated cultures. Technologies either magnify or amplify human experiences and can change the ways we live. This non-neutral, transformative power of humans enhanced by technologies is essential feature of the human–technology relations. Technologies are the extension of our bodies. The technological form of life is part and parcel of culture, just as culture in the human sense inevitably implies technologies. Every technology, as a word, has a signifier and a meaning. The signifier can be seen as the hardware of the technology, while the meaning can be conceived of as the uses and the functions that the technology performs. However, a technology, like many words, tends to be ambiguous, that is its meaning is mutable. As a consequence, in order to make sense, a technology calls for a cultural context where to be embedded. In this essay, I will demonstrate how this relationship can be articulated and their main theoretical implications for the study of new technologies give rise to ethics.&lt;/p&gt;
 &lt;/blockquote&gt;
-
-&lt;p&gt;Tripathi, A. K. (2016). Culture of sedimentation in the human-technology interaction. &lt;em&gt;AI and Society, 31&lt;/em&gt;(2), 233–242. &lt;a href=&#34;https://doi.org/10.1007/s00146-015-0581-z&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1007/s00146-015-0581-z&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;Tripathi, A. K. (2016). Culture of sedimentation in the human-technology interaction. &lt;em&gt;AI and Society, 31&lt;/em&gt;(2), 233–242. &lt;a href=&#34;https://doi.org/10.1007/s00146-015-0581-z&#34; class=&#34;uri&#34;&gt;https://doi.org/10.1007/s00146-015-0581-z&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;New technologies inspire new interface paradigms. Promising utility of new interfaces continues attracting their modification. It is argued that in order for human users to share phenomenological experiences through multi- modal systems, they need to deal with embedded computers. This paper discusses the embodied nature of communication and a need for the development of a postphenomenology of technology, which plays a vital role in the material culture&lt;/p&gt;
 &lt;/blockquote&gt;
-
 &lt;p&gt;O’Neal Irwin, S. (2016). &lt;em&gt;Digital Media: Human-Technology Connection&lt;/em&gt;. Boulder, CO: Lexington Books.&lt;/p&gt;
-
 &lt;blockquote&gt;
 &lt;p&gt;(Twelve chapters) Digital Media: Human-Technology Connection examines what it is like to be alive in today’s technologically textured world and showcases specific digital media technologies that make this kind of world possible. So much of human experience occurs through digital media that reflection on the process and proliferation of digital consumption has become necessary. This book takes on that task through an interdisciplinary array of sources including philosophy, media studies, film studies, media ecology, and philosophy of technology. When placed in the interpretive lenses of artifact, instrument, and tool, digital media can be studied in a uniquely different way that pushes the boundaries on production, distribution, and communication and alters the way humans and technology connect with each other and the world.&lt;/p&gt;
 &lt;/blockquote&gt;
-
 &lt;p&gt;Friis, J. K. B. O., &amp;amp; Crease, R. P. (Eds.). (2015). &lt;em&gt;Technoscience and Postphenomenology: The Manhattan Papers&lt;/em&gt;. London: Lexington Books.&lt;/p&gt;
-
 &lt;blockquote&gt;
 &lt;p&gt;(Seventeen chapters) Friis and Crease capture Postphenomenology, a new field that has attracted attention among scholars engaged in technology studies. Contributors to this edited collection seek to analyze, clarify, and develop postphenomenological language and concepts, expand the work of Don Ihde, the field’s founder, and scout into fields that Ihde never tackled. Many of the contributors to this collection had especially close ties to Ihde and have benefited from close work with him. This combined with the distinctive diversity of the contributors—18 people from 10 different countries—enables this volume to put on display the diversity of content and styles in this young movement.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -541,759 +413,102 @@
     
     <item>
       <title>New Orleans 2017</title>
-      <link>https://ryanstraight.com/2017/07/26/new-orleans-2017/</link>
+      <link>/2017/07/26/new-orleans-2017/</link>
       <pubDate>Wed, 26 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanstraight.com/2017/07/26/new-orleans-2017/</guid>
+      <guid>/2017/07/26/new-orleans-2017/</guid>
       <description>
 
+
 &lt;p&gt;New Orleans is one of my favorite cities to visit. The food, the sights, the art. Here are a bunch of photos we took!&lt;/p&gt;
-
-&lt;h2 id=&#34;lafayette-cemetery&#34;&gt;Lafayette Cemetery&lt;/h2&gt;
-
+&lt;div id=&#34;lafayette-cemetery&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Lafayette Cemetery&lt;/h2&gt;
 &lt;p&gt;We took a trip to Lafeyette Cemetery! Well, one of them. (Click on a photo to lightbox.)&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-&lt;div class=&#34;gallery&#34;&gt;
-
-  
-  
-  
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%281%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%281%29_huc9ef5781c2d73efb4b6728ff5a6818c4_518896_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2810%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2810%29_hubd0f64cfcb82e52db0ddb625420ddf70_445247_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2811%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2811%29_hucf87cf1014da8d2416f3c81d3c69a47d_428204_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2812%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2812%29_hu0140cdce171b2141520c7646d9ef2f41_427628_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2813%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2813%29_hu9debe93215ae7d2969851a365edda3e5_413913_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2814%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2814%29_hufb56aa8d9367fe03deb65f9b2c6c6339_398265_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2815%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2815%29_hufada45fab9eee3b45be54e906c0a1763_394193_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2816%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2816%29_hu6ee9f1c58d140d787fca571929613e92_386278_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2817%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2817%29_hucabbe132fbb944929a11561e6db9a71c_383983_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2818%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2818%29_hu99bad619684268e52a618f12247f48bc_381632_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2819%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2819%29_hu964a8e8c72494ecd42bc05d3082b0814_374210_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%282%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%282%29_hu678826dbd389bde4cdc6933e83d8294b_509769_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2820%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2820%29_hu3a64e6c1b6f3add65b4573c90a983b32_357807_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2821%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2821%29_hu906ff89e5178a386e5ee2bfd367cb321_354988_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2822%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2822%29_hu8c6c72abde3ea366d9337c9eb9a3e1ad_348241_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2823%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2823%29_hub4283e5fc81fabf7d0f45dd0c5eef400_347640_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2824%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2824%29_hu1b7e884433de4936db4fd37f81e6d6aa_338599_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2825%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2825%29_hu2aab8a1513a59c9528822831027a8b68_311339_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2826%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2826%29_hubb6e19a5f0b9e103d44a063d9592c837_305989_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2827%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2827%29_hu39ccfda6e189e20c8b260a0e4dbe989e_295226_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2828%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2828%29_hu1809f0747d30872d522f78637feadcbd_254015_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2829%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2829%29_huf3625983b7985102a29d8f2e3bf5101a_123977_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%283%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%283%29_hubd3f0f9658d31ec1123f031a6e0651ea_500614_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2830%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2830%29_hue2cf05733bc84cf34e604936e4206977_610358_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2831%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%2831%29_hucad5c9a91e660adcddd437b211f714e8_605558_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%284%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%284%29_hu3b94b5641dd12df06164fc976b569345_475642_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%285%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%285%29_hud3629cf0d9ea6f96c7e647c5c0a740fc_471266_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%286%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%286%29_hu423d4441acaebe30bf84644b12b6abb8_469870_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%287%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%287%29_huf59277ec794648066aec171c97fe1d76_459628_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%288%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%288%29_hu794a3dc0226070e2839d339081a0923f_457256_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-lafayette-cemetery&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%289%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/lafayette-cemetery/layfette-cemetary%20%289%29_huf764aa2099dde275505109ffc762606c_449009_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-
-  
+&lt;p&gt;{{&amp;lt; gallery album=“lafayette-cemetery” &amp;gt;}}&lt;/p&gt;
 &lt;/div&gt;
-
-&lt;h2 id=&#34;voodoo-museum&#34;&gt;Voodoo Museum&lt;/h2&gt;
-
+&lt;div id=&#34;voodoo-museum&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Voodoo Museum&lt;/h2&gt;
 &lt;p&gt;Then we went to the New Orleans Historic Voodoo Museum, of course.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-&lt;div class=&#34;gallery&#34;&gt;
-
-  
-  
-  
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-voodoo-museum&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%281%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%281%29_hu66102b9994789dfbf7301f3432302230_335446_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-voodoo-museum&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2810%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2810%29_huce934d373935cbd4b5d7e90f8979aaab_360539_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-voodoo-museum&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2811%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2811%29_huf6e28e2ed230d8418f7f460d209ff75f_331842_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-voodoo-museum&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2812%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2812%29_hu66c057a4f215ff9a127038b184dd18dc_354920_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-voodoo-museum&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2813%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2813%29_hu3d5fd4ee8d4ae39c32a6a6d16d830e68_317199_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-voodoo-museum&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2814%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2814%29_hud9aadb69c6d5ed1ac07809d72331627a_344628_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-voodoo-museum&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2815%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2815%29_hua089e4e631fa2f76a2b3fae5ee39a07d_195688_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-voodoo-museum&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2816%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2816%29_hu2dc5e5118761e7cb42b254f180196f86_297933_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-voodoo-museum&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2817%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2817%29_hu931f33f4ec11a50f89f46b931859c0f5_260241_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-voodoo-museum&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2818%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2818%29_hu684346e68b64532244497fce92de3a10_372848_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-voodoo-museum&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2819%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2819%29_hud5afd8fbbdec77e20a3d80e88a4629d0_233042_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-voodoo-museum&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%282%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%282%29_huaf068056a70f5d4c8485d63145c3b0e0_440948_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-voodoo-museum&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2820%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2820%29_hu4f0350aa982bb902bcb871813906ea77_324129_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-voodoo-museum&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2821%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2821%29_hu167602e8e579dc81dd562fbd9cca0ae1_407150_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-voodoo-museum&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2822%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2822%29_hua7c67a8e2d23ab9e52cd4c73ec544213_355932_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-voodoo-museum&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2823%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2823%29_hu132e522d288c70f3a7698b7f1717d661_321052_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-voodoo-museum&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2824%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2824%29_hu45be6bc8c823c812c8e4fad791fe7e2d_371989_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-voodoo-museum&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2825%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%2825%29_hu75ece68065892f44a7999f065f2f2459_357237_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-voodoo-museum&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%283%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%283%29_hu4e778df6a4c6a508ca5298bb1e77b4c1_419910_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-voodoo-museum&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%284%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%284%29_hu42cd815d7ca25e897da364bf5984c895_318230_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-voodoo-museum&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%285%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%285%29_hu573756e97ed81fadfee2b185abf6d480_428770_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-voodoo-museum&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%286%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%286%29_huf5378da3e280a39436c261cbf93bb66a_316287_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-voodoo-museum&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%287%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%287%29_huf8f3bcc43e197cd9a25678abe22dc302_219879_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-voodoo-museum&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%288%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%288%29_hua5554fab0c45b9ac0f41f6700d788194_443037_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-voodoo-museum&#34; href=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%289%29.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/new-orleans-2017/voodoo-museum/voodoo-museum%20%289%29_hu9adb28db79c95d39757ee67944cf537c_358941_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-
-  
+&lt;p&gt;{{&amp;lt; gallery album=“voodoo-museum” &amp;gt;}}&lt;/p&gt;
+&lt;p&gt;Oh, and if you’re wandering through the French Quarter, make sure to stop into Galatoires and ask for the Sazerac with a history lesson and the “special pour.”&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;special-pour.jpg&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
-
-&lt;p&gt;Oh, and if you&amp;rsquo;re wandering through the French Quarter, make sure to stop into Galatoires and ask for the Sazerac with a history lesson and the &amp;ldquo;special pour.&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;special-pour.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>OLC Innovate 2017</title>
-      <link>https://ryanstraight.com/2017/07/26/olc-innovate-2017/</link>
+      <link>/2017/07/26/olc-innovate-2017/</link>
       <pubDate>Wed, 26 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanstraight.com/2017/07/26/olc-innovate-2017/</guid>
-      <description>&lt;p&gt;OLC Innovate! First time. &lt;del&gt;Probably&lt;/del&gt; (2018 update: &lt;strong&gt;definitely&lt;/strong&gt;) not last. I had a great time that was compounded by being able to bring Adri long with me (not to the conference itself but she&amp;rsquo;d never been to New Orleans before and, boy, did she enjoy it).&lt;/p&gt;
-
-&lt;p&gt;The trip started out kinda strange, though&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;olc-innovate-2017/2017-07-26-08-07-29-IMG_20170404_202153.jpg&#34; alt=&#34;I think the person that designed the lighting in this model must&#39;ve been a fan of In the Mouth of Madness.&#34; /&gt;&lt;/p&gt;
+      <guid>/2017/07/26/olc-innovate-2017/</guid>
+      <description>
 
 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/upNphtZCvjs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;OLC Innovate! First time. &lt;del&gt;Probably&lt;/del&gt; (2018 update: &lt;strong&gt;definitely&lt;/strong&gt;) not last. I had a great time that was compounded by being able to bring Adri long with me (not to the conference itself but she’d never been to New Orleans before and, boy, did she enjoy it).&lt;/p&gt;
+&lt;p&gt;The trip started out kinda strange, though…&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;olc-innovate-2017/2017-07-26-08-07-29-IMG_20170404_202153.jpg&#34; alt=&#34;I think the person that designed the lighting in this model must’ve been a fan of In the Mouth of Madness.&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;I think the person that designed the lighting in this model must’ve been a fan of In the Mouth of Madness.&lt;/p&gt;
 &lt;/div&gt;
-
-
+&lt;p&gt;{{&amp;lt; youtube upNphtZCvjs &amp;gt;}}&lt;/p&gt;
 &lt;hr /&gt;
-
-&lt;p&gt;The &lt;a href=&#34;https://onlinelearningconsortium.org/attend-2018/innovate&#34; target=&#34;_blank&#34;&gt;OLC Innovate&lt;/a&gt; conference (happening in Nashville, TN next April) seeks to &amp;ldquo;conduct a series of engaging hands-on workshops aimed at fostering organic interactions and collaborative cross-disciplinary problem solving.&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;I spent my time in the &lt;a href=&#34;https://onlinelearningconsortium.org/innovate/program/innovation-lab/&#34; target=&#34;_blank&#34;&gt;Innovation Lab&lt;/a&gt;, a &amp;ldquo;dedicated space at the conference for you to explore the pervasive challenges we face in the classroom and to craft innovative approaches for better reaching our unique populations of learners.&amp;rdquo; Had a great time with the other lab techs&amp;ndash;folks like &lt;a href=&#34;http://daveg.msu.domains/about/&#34; target=&#34;_blank&#34;&gt;Dave&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/drsrcrawford&#34; target=&#34;_blank&#34;&gt;Steven&lt;/a&gt; and &lt;a href=&#34;http://keeganslw.com/&#34; target=&#34;_blank&#34;&gt;Keegan&lt;/a&gt; and &lt;a href=&#34;http://www.johnastewart.org/&#34; target=&#34;_blank&#34;&gt;John&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/bscragg&#34; target=&#34;_blank&#34;&gt;Ben&lt;/a&gt; and &lt;a href=&#34;http://annmusgrove.com/&#34; target=&#34;_blank&#34;&gt;Ann&lt;/a&gt; and &lt;a href=&#34;http://www.phylisebanner.com/&#34; target=&#34;_blank&#34;&gt;Phylise&lt;/a&gt;&amp;ndash;and am looking forward to working with them again in the future.&lt;/p&gt;
-
+&lt;p&gt;The &lt;a href=&#34;https://onlinelearningconsortium.org/attend-2018/innovate&#34;&gt;OLC Innovate&lt;/a&gt; conference (happening in Nashville, TN next April) seeks to “conduct a series of engaging hands-on workshops aimed at fostering organic interactions and collaborative cross-disciplinary problem solving.”&lt;/p&gt;
+&lt;p&gt;I spent my time in the &lt;a href=&#34;https://onlinelearningconsortium.org/innovate/program/innovation-lab/&#34;&gt;Innovation Lab&lt;/a&gt;, a “dedicated space at the conference for you to explore the pervasive challenges we face in the classroom and to craft innovative approaches for better reaching our unique populations of learners.” Had a great time with the other lab techs–folks like &lt;a href=&#34;http://daveg.msu.domains/about/&#34;&gt;Dave&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/drsrcrawford&#34;&gt;Steven&lt;/a&gt; and &lt;a href=&#34;http://keeganslw.com/&#34;&gt;Keegan&lt;/a&gt; and &lt;a href=&#34;http://www.johnastewart.org/&#34;&gt;John&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/bscragg&#34;&gt;Ben&lt;/a&gt; and &lt;a href=&#34;http://annmusgrove.com/&#34;&gt;Ann&lt;/a&gt; and &lt;a href=&#34;http://www.phylisebanner.com/&#34;&gt;Phylise&lt;/a&gt;–and am looking forward to working with them again in the future.&lt;/p&gt;
 &lt;p&gt;Anyway, here are some pictures from the conference.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-&lt;div class=&#34;gallery&#34;&gt;
-
-  
-  
-  
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://ryanstraight.com/2017/07/26/olc-innovate-2017/gallery/2018-08-10-11-08-03-IMG_20170407_110146-x1200.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/olc-innovate-2017/gallery/2018-08-10-11-08-03-IMG_20170407_110146-x1200_hu76461ef2c5eb621c939a0b309599067f_416610_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://ryanstraight.com/2017/07/26/olc-innovate-2017/gallery/2018-08-10-11-08-51-IMG_20170405_085636-x1200.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/olc-innovate-2017/gallery/2018-08-10-11-08-51-IMG_20170405_085636-x1200_huea1b329c11ec9dd34ceac5a1d94e0bba_311403_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://ryanstraight.com/2017/07/26/olc-innovate-2017/gallery/2018-08-10-11-08-57-IMG_-v6voxk-x1200.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/olc-innovate-2017/gallery/2018-08-10-11-08-57-IMG_-v6voxk-x1200_hu506c4468d0cfd521aacdf9d65b4b6d4d_211535_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://ryanstraight.com/2017/07/26/olc-innovate-2017/gallery/2018-08-10-11-08-57-IMG_20170407_110630-x1200.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/olc-innovate-2017/gallery/2018-08-10-11-08-57-IMG_20170407_110630-x1200_hu1f1b55c155200321dfa380b070f9deb4_381215_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://ryanstraight.com/2017/07/26/olc-innovate-2017/gallery/2018-08-10-11-08-57-IMG_20170407_112214-x1200.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/olc-innovate-2017/gallery/2018-08-10-11-08-57-IMG_20170407_112214-x1200_hu7ddfae5066325eed0cf49e33758b18e7_242826_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://ryanstraight.com/2017/07/26/olc-innovate-2017/gallery/2018-08-10-11-08-57-IMG_e802pb-x1200.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/olc-innovate-2017/gallery/2018-08-10-11-08-57-IMG_e802pb-x1200_hu1c8586564ced30ff63b0e1d85e611e25_190789_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;https://ryanstraight.com/2017/07/26/olc-innovate-2017/gallery/IMG_20170407_094154-x1200.jpg&#34; &gt;
-  &lt;img src=&#34;https://ryanstraight.com/2017/07/26/olc-innovate-2017/gallery/IMG_20170407_094154-x1200_hu783e31e7bc056efd531320a05b5b1400_255291_0x190_resize_q90_lanczos.jpg&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-
-  
-&lt;/div&gt;
-
+&lt;p&gt;{{&amp;lt; gallery album=“gallery” &amp;gt;}}&lt;/p&gt;
 &lt;hr /&gt;
-
 &lt;p&gt;I won a social media award, too!&lt;/p&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Another &lt;a href=&#34;https://twitter.com/hashtag/OLCInnovate?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#OLCInnovate&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/SocialNinja?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#SocialNinja&lt;/a&gt; is Dr. Ryan Straight who won for &amp;quot;Most Joyful Pic!&amp;quot; Congrats &lt;a href=&#34;https://twitter.com/RyanStraight?ref_src=twsrc%5Etfw&#34;&gt;@RyanStraight&lt;/a&gt;!&lt;/p&gt;&amp;mdash; OLC (@OLCToday) &lt;a href=&#34;https://twitter.com/OLCToday/status/853315746457419777?ref_src=twsrc%5Etfw&#34;&gt;April 15, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
-
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;It&amp;#39;s &lt;a href=&#34;https://twitter.com/kirstintalkstek?ref_src=twsrc%5Etfw&#34;&gt;@kirstintalkstek&lt;/a&gt; getting a year&amp;#39;s &lt;a href=&#34;https://twitter.com/OLCToday?ref_src=twsrc%5Etfw&#34;&gt;@OLCToday&lt;/a&gt; membership for winning Whose Design is it Anyway at the &lt;a href=&#34;https://twitter.com/hashtag/OLCInnovate?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#OLCInnovate&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/OLCInnovationLab?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#OLCInnovationLab&lt;/a&gt;! &lt;a href=&#34;https://t.co/TCZGwHOlgL&#34;&gt;pic.twitter.com/TCZGwHOlgL&lt;/a&gt;&lt;/p&gt;&amp;mdash; Dr. Ryan &amp;quot;It&amp;#39;s Summer Break&amp;quot; Straight (@RyanStraight) &lt;a href=&#34;https://twitter.com/RyanStraight/status/850381119975563264?ref_src=twsrc%5Etfw&#34;&gt;April 7, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
-
-&lt;p&gt;Of course, there&amp;rsquo;s more to New Orleans than just being a great conference town. If you want to see a &lt;em&gt;lot&lt;/em&gt; of photos, they&amp;rsquo;re over here&amp;hellip;&lt;/p&gt;
+&lt;p&gt;{{&amp;lt; tweet 853315746457419777 &amp;gt;}}&lt;/p&gt;
+&lt;p&gt;{{&amp;lt; tweet 850381119975563264 &amp;gt;}}&lt;/p&gt;
+&lt;p&gt;Of course, there’s more to New Orleans than just being a great conference town. If you want to see a &lt;em&gt;lot&lt;/em&gt; of photos, they’re over here…&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>The New Professor: An Experiment in Podcasting</title>
-      <link>https://ryanstraight.com/2017/05/21/the-new-professor-an-experiment-in-podcasting/</link>
+      <link>/2017/05/21/the-new-professor-an-experiment-in-podcasting/</link>
       <pubDate>Sun, 21 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanstraight.com/2017/05/21/the-new-professor-an-experiment-in-podcasting/</guid>
-      <description>&lt;p&gt;Since I don&amp;rsquo;t talk into a microphone enough teaching fully online (hah&amp;hellip; hah&amp;hellip; haaaah), I figured I&amp;rsquo;d up my game and start a podcast! I&amp;rsquo;m about halfway done building and recording three-or-so episodes to start before syndication in iTunes, Stitcher, etc.&lt;/p&gt;
+      <guid>/2017/05/21/the-new-professor-an-experiment-in-podcasting/</guid>
+      <description>
 
-&lt;p&gt;I&amp;rsquo;ve decided to brand it &lt;strong&gt;&lt;a href=&#34;https://thenewprofessor.com&#34; target=&#34;_blank&#34;&gt;The New Professor&lt;/a&gt;&lt;/strong&gt; to reflect both my new position (Assistant Professor) and my experience in higher education, a realm oft plagued by aversion to change and progress to match the frenetic pace of industry, commerce, and culture.&lt;/p&gt;
 
-&lt;p&gt;Keep an eye out for this in the coming weeks. In the meantime, feel free to begin following TNP&amp;rsquo;s &lt;a href=&#34;http://twitter.com/newprofcast&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; account and like the &lt;a href=&#34;https://www.facebook.com/thenewprofessor/&#34; target=&#34;_blank&#34;&gt;Facebook page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Since I don’t talk into a microphone enough teaching fully online (hah… hah… haaaah), I figured I’d up my game and start a podcast! I’m about halfway done building and recording three-or-so episodes to start before syndication in iTunes, Stitcher, etc.&lt;/p&gt;
+&lt;p&gt;I’ve decided to brand it &lt;strong&gt;&lt;a href=&#34;https://thenewprofessor.com&#34;&gt;The New Professor&lt;/a&gt;&lt;/strong&gt; to reflect both my new position (Assistant Professor) and my experience in higher education, a realm oft plagued by aversion to change and progress to match the frenetic pace of industry, commerce, and culture.&lt;/p&gt;
+&lt;p&gt;Keep an eye out for this in the coming weeks. In the meantime, feel free to begin following TNP’s &lt;a href=&#34;http://twitter.com/newprofcast&#34;&gt;Twitter&lt;/a&gt; account and like the &lt;a href=&#34;https://www.facebook.com/thenewprofessor/&#34;&gt;Facebook page&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Hang Out with Me After Class</title>
-      <link>https://ryanstraight.com/2017/04/26/hang-out-with-me-after-class/</link>
+      <link>/2017/04/26/hang-out-with-me-after-class/</link>
       <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanstraight.com/2017/04/26/hang-out-with-me-after-class/</guid>
-      <description>&lt;p&gt;I teach fully online. Not hybrid or via &lt;a href=&#34;https://www.lifesize.com/en/video-conferencing-cameras&#34; target=&#34;_blank&#34;&gt;ITV&lt;/a&gt; in an actual classroom, but 100% virtually from my home office. Only on rare occasions do I get the pleasure of physically meeting my students. Even then, that&amp;rsquo;s typically at graduation and there&amp;rsquo;s precious little time to spend with them at such an event. They, rightfully so, should be with their loved ones, basking in the glory of that achievement, not hanging out with their nerdy professor.&lt;/p&gt;
+      <guid>/2017/04/26/hang-out-with-me-after-class/</guid>
+      <description>
 
+
+&lt;p&gt;I teach fully online. Not hybrid or via &lt;a href=&#34;https://www.lifesize.com/en/video-conferencing-cameras&#34;&gt;ITV&lt;/a&gt; in an actual classroom, but 100% virtually from my home office. Only on rare occasions do I get the pleasure of physically meeting my students. Even then, that’s typically at graduation and there’s precious little time to spend with them at such an event. They, rightfully so, should be with their loved ones, basking in the glory of that achievement, not hanging out with their nerdy professor.&lt;/p&gt;
 &lt;p&gt;Teaching online is wonderful. It provides this neophile an opportunity to play with new technologies and delivery methods otherwise unavailable. It lets me meet, teach, and learn from students so geographically distant that I never would have otherwise. It affords students the temporal freedom of self-pacing (most of the time) and me the freedom to grade in my pajamas.&lt;/p&gt;
-
-&lt;p&gt;Having said all that, online education within a traditional university, as opposed to entities like Khan Academy, can be problematic. The spark for this was a tweet (since deleted) with this gif and the text, &amp;ldquo;When no students show up to your seminar&amp;hellip;&amp;rdquo;:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/dTfECToEK59M4/source.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Nostalgia. (Not for Pulp Fiction, though I really should rewatch it soon.) It occurred to me that this represents something that I miss about traditional face-to-face classes, though not directly. (Incidentally, I&amp;rsquo;m not generally anxious but I&amp;rsquo;ve seen conference talks and symposia suffering from similar attendance and just thinking about it is discomforting. Awk-ward.)&lt;/p&gt;
-
-&lt;p&gt;We never &amp;ldquo;meet&amp;rdquo; face-to-face for class though we do have frequent video meetings (my classes are relatively small) so there&amp;rsquo;s never a chance for us to hang out afterward or meet for lunch beforehand. We&amp;rsquo;re all over the world so going to a brown-bag or symposium like the one jokingly referenced to in the tweet isn&amp;rsquo;t an option (unless it&amp;rsquo;s a webinar, I suppose). Students don&amp;rsquo;t have the option to stay behind after class dismisses and chat with me about class and life (which was always one of my favorite parts of the college experience; maybe I was &amp;ldquo;that student,&amp;rdquo; I don&amp;rsquo;t know). Initially this was self-imposed as we were designed but not required to be fully online. Now we&amp;rsquo;re included in &lt;a href=&#34;http://uaonline.arizona.edu/program/educational-technology-ms&#34; target=&#34;_blank&#34;&gt;a fully online campus&lt;/a&gt; that by design provides no face-to-face physical meetings.&lt;/p&gt;
-
-&lt;p&gt;This is not to say an online program or class can&amp;rsquo;t be social. Far from it. There&amp;rsquo;s even &lt;a href=&#34;https://coi.athabascau.ca/coi-model/description-social-presence/&#34; target=&#34;_blank&#34;&gt;a framework for course design and implementation that has the social aspect built right in (CoI)&lt;/a&gt;. Behavior and thoughtful decision can improve the social experience for students in online environments and certainly has been proven as such. It&amp;rsquo;s still not the same. Nor is it supposed to be. These are different modalities with different expectations and affordances.&lt;/p&gt;
-
-&lt;p&gt;In my experience, two things mainly happen when students are on the other side of a computer rather than a desk and aren&amp;rsquo;t fully comfortable being &amp;lsquo;digital,&amp;rsquo; as it were: they either clam up and become incredibly passive or they can go overboard with the &amp;lsquo;bravery of being out of range.&amp;rsquo; (No, not &lt;em&gt;that&lt;/em&gt; Bravery of Being Out of Range, but let&amp;rsquo;s listen, anyway.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:HAHAHUGOSHORTCOD&#34;&gt;&lt;a href=&#34;#fn:HAHAHUGOSHORTCOD&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;) Digital interaction either emboldens or silences, often. One way to mitigate this is to force a layer of personalization by requiring the use of video chat in classes but this is problematic for a number of potential reasons:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Ever tried doing a Google Hangout with more than six people? It can be unbearable. Doing a video-chat meeting in a class with 400 students is both technically and practically impossible. (While Hangouts On Air is an option it removes the two-way communication that the video chat is trying to accomplish in the first place.) Remember, I&amp;rsquo;m specifically talking about video conferences where all users are simultaneously using video. Hangouts is limited to 25 people, Skype is limited to 10 in the free version (though Microsoft suggests 5 for the optimum experience). Zoom&amp;rsquo;s limit is 50 but I&amp;rsquo;d be curious to see just how noisy that can get. Even Slack limits video calls to 15 people.&lt;/li&gt;
-&lt;li&gt;While online programs provide education access to students that may live in extreme rural areas that often comes with bandwidth limitations. This is also something to consider when having students create or download large files. Believe it or not, &lt;a href=&#34;https://www.dailydot.com/debug/dvd-rental-windows-3-aol-2017/&#34; target=&#34;_blank&#34;&gt;some folks still use dial-up&lt;/a&gt; (through no fault of their own). But broadband as a human right s something I&amp;rsquo;ve talked about before so I&amp;rsquo;ll leave it at that.&lt;/li&gt;
-&lt;li&gt;Another draw of fully online programs is access to education for &lt;a href=&#34;https://themighty.com/2016/07/taking-classes-online-because-of-social-anxiety/&#34; target=&#34;_blank&#34;&gt;those with severe anxiety or socialization hurdles&lt;/a&gt;. In my experience, such students often product superior academic work but stumble when required to speak aloud or join video chats in a classroom setting.&lt;/li&gt;
-&lt;li&gt;Time differences for synchronous video classes is also a hurdle. I&amp;rsquo;ve had a class before that included students from 5 different time zones and every hemisphere. Even right now one of the instructors in our program is teaching from the other side of the planet, making a usual 6pm class in Arizona a 3am class in Belgium. Complicate this with students actively stationed in the military, moving from location to location (on top of their network connectivity restrictions) and you&amp;rsquo;ve got a recipe for a grab bag of different learner experiences while maintaining the same expectations of work.&lt;/li&gt;
+&lt;p&gt;Having said all that, online education within a traditional university, as opposed to entities like Khan Academy, can be problematic. The spark for this was a tweet (since deleted) with this gif and the text, “When no students show up to your seminar…”:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/dTfECToEK59M4/source.gif&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Nostalgia. (Not for Pulp Fiction, though I really should rewatch it soon.) It occurred to me that this represents something that I miss about traditional face-to-face classes, though not directly. (Incidentally, I’m not generally anxious but I’ve seen conference talks and symposia suffering from similar attendance and just thinking about it is discomforting. Awk-ward.)&lt;/p&gt;
+&lt;p&gt;We never “meet” face-to-face for class though we do have frequent video meetings (my classes are relatively small) so there’s never a chance for us to hang out afterward or meet for lunch beforehand. We’re all over the world so going to a brown-bag or symposium like the one jokingly referenced to in the tweet isn’t an option (unless it’s a webinar, I suppose). Students don’t have the option to stay behind after class dismisses and chat with me about class and life (which was always one of my favorite parts of the college experience; maybe I was “that student,” I don’t know). Initially this was self-imposed as we were designed but not required to be fully online. Now we’re included in &lt;a href=&#34;http://uaonline.arizona.edu/program/educational-technology-ms&#34;&gt;a fully online campus&lt;/a&gt; that by design provides no face-to-face physical meetings.&lt;/p&gt;
+&lt;p&gt;This is not to say an online program or class can’t be social. Far from it. There’s even &lt;a href=&#34;https://coi.athabascau.ca/coi-model/description-social-presence/&#34;&gt;a framework for course design and implementation that has the social aspect built right in (CoI)&lt;/a&gt;. Behavior and thoughtful decision can improve the social experience for students in online environments and certainly has been proven as such. It’s still not the same. Nor is it supposed to be. These are different modalities with different expectations and affordances.&lt;/p&gt;
+&lt;p&gt;In my experience, two things mainly happen when students are on the other side of a computer rather than a desk and aren’t fully comfortable being ‘digital,’ as it were: they either clam up and become incredibly passive or they can go overboard with the ‘bravery of being out of range.’ (No, not &lt;em&gt;that&lt;/em&gt; Bravery of Being Out of Range, but let’s listen, anyway.&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;) Digital interaction either emboldens or silences, often. One way to mitigate this is to force a layer of personalization by requiring the use of video chat in classes but this is problematic for a number of potential reasons:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Ever tried doing a Google Hangout with more than six people? It can be unbearable. Doing a video-chat meeting in a class with 400 students is both technically and practically impossible. (While Hangouts On Air is an option it removes the two-way communication that the video chat is trying to accomplish in the first place.) Remember, I’m specifically talking about video conferences where all users are simultaneously using video. Hangouts is limited to 25 people, Skype is limited to 10 in the free version (though Microsoft suggests 5 for the optimum experience). Zoom’s limit is 50 but I’d be curious to see just how noisy that can get. Even Slack limits video calls to 15 people.&lt;/li&gt;
+&lt;li&gt;While online programs provide education access to students that may live in extreme rural areas that often comes with bandwidth limitations. This is also something to consider when having students create or download large files. Believe it or not, &lt;a href=&#34;https://www.dailydot.com/debug/dvd-rental-windows-3-aol-2017/&#34;&gt;some folks still use dial-up&lt;/a&gt; (through no fault of their own). But broadband as a human right s something I’ve talked about before so I’ll leave it at that.&lt;/li&gt;
+&lt;li&gt;Another draw of fully online programs is access to education for &lt;a href=&#34;https://themighty.com/2016/07/taking-classes-online-because-of-social-anxiety/&#34;&gt;those with severe anxiety or socialization hurdles&lt;/a&gt;. In my experience, such students often product superior academic work but stumble when required to speak aloud or join video chats in a classroom setting.&lt;/li&gt;
+&lt;li&gt;Time differences for synchronous video classes is also a hurdle. I’ve had a class before that included students from 5 different time zones and every hemisphere. Even right now one of the instructors in our program is teaching from the other side of the planet, making a usual 6pm class in Arizona a 3am class in Belgium. Complicate this with students actively stationed in the military, moving from location to location (on top of their network connectivity restrictions) and you’ve got a recipe for a grab bag of different learner experiences while maintaining the same expectations of work.&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;p&gt;In no way do I wish what I&amp;rsquo;m saying here to be construed as derision or disappointment about the online teaching experience. Quite the opposite: it&amp;rsquo;s thrilling, enjoyable, and life-changing for many students (as well as many instructors, myself included). I simply want to point out some aspects about fully online programs that I believe we should not simply accept as shortcomings but begin to actively address. One way I&amp;rsquo;ve been inching toward shoring up the social presence in my classes, program, and campus is the use of Slack to provide everyone&amp;ndash;students, instructors, administrators, the whole shebang&amp;ndash;with a common platform and location to communicate and virtually exist.&lt;/p&gt;
-
-&lt;p&gt;What about you? Do you teach or study in a fully online program? What do you think about the lack of physical social interaction? &lt;a href=&#34;http://twitter.com/ryanstraight&#34; target=&#34;_blank&#34;&gt;Tweet at me&lt;/a&gt; and let me know.&lt;/p&gt;
+&lt;p&gt;In no way do I wish what I’m saying here to be construed as derision or disappointment about the online teaching experience. Quite the opposite: it’s thrilling, enjoyable, and life-changing for many students (as well as many instructors, myself included). I simply want to point out some aspects about fully online programs that I believe we should not simply accept as shortcomings but begin to actively address. One way I’ve been inching toward shoring up the social presence in my classes, program, and campus is the use of Slack to provide everyone–students, instructors, administrators, the whole shebang–with a common platform and location to communicate and virtually exist.&lt;/p&gt;
+&lt;p&gt;What about you? Do you teach or study in a fully online program? What do you think about the lack of physical social interaction? &lt;a href=&#34;http://twitter.com/ryanstraight&#34;&gt;Tweet at me&lt;/a&gt; and let me know.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
-
 &lt;hr /&gt;
-
 &lt;ol&gt;
-&lt;li id=&#34;fn:HAHAHUGOSHORTCOD&#34;&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/rtrn6-cKqkM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:HAHAHUGOSHORTCOD&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;{{&amp;lt; youtube rtrn6-cKqkM &amp;gt;}}&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
@@ -1301,32 +516,26 @@
     
     <item>
       <title>On Expertise and Being &#39;Out There&#39;</title>
-      <link>https://ryanstraight.com/2017/03/01/on-expertise-and-being-out-there/</link>
+      <link>/2017/03/01/on-expertise-and-being-out-there/</link>
       <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanstraight.com/2017/03/01/on-expertise-and-being-out-there/</guid>
-      <description>&lt;p&gt;I was reading Katie Linder&amp;rsquo;s Medium essay &lt;a href=&#34;https://medium.com/@katie__linder/when-do-you-call-yourself-an-expert-f273b17a02e9#.jpz9ksg5k&#34; target=&#34;_blank&#34;&gt;When Do You Call Yourself an Expert&lt;/a&gt; on the same day that listened to her &lt;a href=&#34;http://ygtpodcast.com/ep23/&#34; target=&#34;_blank&#34;&gt;Imposter Syndrome&lt;/a&gt; episode on the You&amp;rsquo;ve Got This podcast while getting ready for Faculty Forum. I don&amp;rsquo;t think that&amp;rsquo;s a coincidence, honestly. I mean, the timing might be but I&amp;rsquo;m clearly drawn to this topic. So, I thought I&amp;rsquo;d write up my own thoughts about it and publish them on the internet because, hey, bravery comes before confidence.&lt;/p&gt;
+      <guid>/2017/03/01/on-expertise-and-being-out-there/</guid>
+      <description>
 
-&lt;p&gt;The essay reminded me of what I feel like was my first out there moment in which I was also interviewed for a podcast. Hers was for the &lt;a href=&#34;http://teachinginhighered.com/episodes/&#34; target=&#34;_blank&#34;&gt;Teaching in Higher Ed podcast&lt;/a&gt; hosted by the wonderful &lt;a href=&#34;https://twitter.com/bonni208&#34; target=&#34;_blank&#34;&gt;Bonnie Stachowiak&lt;/a&gt;, while mine was the &lt;a href=&#34;https://immersivelrn.org/resources/the-versatilist-podcast/&#34; target=&#34;_blank&#34;&gt;Versatilist podcast&lt;/a&gt;, hosted by the wonderfully welcoming Patrick O&amp;rsquo;Shea. Like Katie, I can safely say the experience was enjoyable, there&amp;rsquo;s nothing wrong with it, and I&amp;rsquo;m not unhappy with the result. To be fair, I&amp;rsquo;ve never actually even listened to &lt;a href=&#34;https://www.podomatic.com/podcasts/versatilist/episodes/2015-10-26T10_27_09-07_00&#34; target=&#34;_blank&#34;&gt;my Versatilist podcast episode&lt;/a&gt; as I a) can&amp;rsquo;t abide the sound of my own voice (an unfortunate state of affairs considering I teach fully online and record myself teaching upwards of 4 times a week), and b) well, precisely what I&amp;rsquo;m getting into with this piece.&lt;/p&gt;
 
-&lt;p&gt;When I did the Versatilist I had just begun my teaching and had only just recently graduated with my Ph.D, though I was already full-time faculty and was taking over as Program Director while the former PD was on sabbatical. Needless to say, I was a bit out of my depth and unprepared, considering I got so few chances to teach while in graduate school as I was working full time as a trainer for the University&amp;rsquo;s IT department. Regardless, when I was asked to be on the podcast I thought, &amp;lsquo;Sure, why not?&amp;rsquo; Again, bravery before confidence, right?&lt;/p&gt;
-
-&lt;p&gt;So I did the podcast and I think it went fine. I enjoyed the 45-ish minutes and never really felt like I didn&amp;rsquo;t know what I was talking about, but I didn&amp;rsquo;t (and to a certain extent still don&amp;rsquo;t) feel like an &lt;em&gt;expert&lt;/em&gt; in any particular field. That&amp;rsquo;s not to say I&amp;rsquo;m not working on it but I don&amp;rsquo;t feel comfortable wearing the badge just quite yet. Maybe that&amp;rsquo;s why I was a good fit for the Versatilist: Jack of all trades and master of none? Who knows?&lt;/p&gt;
-
+&lt;p&gt;I was reading Katie Linder’s Medium essay &lt;a href=&#34;https://medium.com/@katie__linder/when-do-you-call-yourself-an-expert-f273b17a02e9#.jpz9ksg5k&#34;&gt;When Do You Call Yourself an Expert&lt;/a&gt; on the same day that listened to her &lt;a href=&#34;http://ygtpodcast.com/ep23/&#34;&gt;Imposter Syndrome&lt;/a&gt; episode on the You’ve Got This podcast while getting ready for Faculty Forum. I don’t think that’s a coincidence, honestly. I mean, the timing might be but I’m clearly drawn to this topic. So, I thought I’d write up my own thoughts about it and publish them on the internet because, hey, bravery comes before confidence.&lt;/p&gt;
+&lt;p&gt;The essay reminded me of what I feel like was my first out there moment in which I was also interviewed for a podcast. Hers was for the &lt;a href=&#34;http://teachinginhighered.com/episodes/&#34;&gt;Teaching in Higher Ed podcast&lt;/a&gt; hosted by the wonderful &lt;a href=&#34;https://twitter.com/bonni208&#34;&gt;Bonnie Stachowiak&lt;/a&gt;, while mine was the &lt;a href=&#34;https://immersivelrn.org/resources/the-versatilist-podcast/&#34;&gt;Versatilist podcast&lt;/a&gt;, hosted by the wonderfully welcoming Patrick O’Shea. Like Katie, I can safely say the experience was enjoyable, there’s nothing wrong with it, and I’m not unhappy with the result. To be fair, I’ve never actually even listened to &lt;a href=&#34;https://www.podomatic.com/podcasts/versatilist/episodes/2015-10-26T10_27_09-07_00&#34;&gt;my Versatilist podcast episode&lt;/a&gt; as I a) can’t abide the sound of my own voice (an unfortunate state of affairs considering I teach fully online and record myself teaching upwards of 4 times a week), and b) well, precisely what I’m getting into with this piece.&lt;/p&gt;
+&lt;p&gt;When I did the Versatilist I had just begun my teaching and had only just recently graduated with my Ph.D, though I was already full-time faculty and was taking over as Program Director while the former PD was on sabbatical. Needless to say, I was a bit out of my depth and unprepared, considering I got so few chances to teach while in graduate school as I was working full time as a trainer for the University’s IT department. Regardless, when I was asked to be on the podcast I thought, ‘Sure, why not?’ Again, bravery before confidence, right?&lt;/p&gt;
+&lt;p&gt;So I did the podcast and I think it went fine. I enjoyed the 45-ish minutes and never really felt like I didn’t know what I was talking about, but I didn’t (and to a certain extent still don’t) feel like an &lt;em&gt;expert&lt;/em&gt; in any particular field. That’s not to say I’m not working on it but I don’t feel comfortable wearing the badge just quite yet. Maybe that’s why I was a good fit for the Versatilist: Jack of all trades and master of none? Who knows?&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://pixabay.com/en/mike-sound-system-podcast-1737612/&#34;&gt;&lt;img src=&#34;mic.png&#34; align=&#34;right&#34; alt=&#34;By Mindthaw via Pixabay.&#34;&gt;&lt;/a&gt;
-One scary thing for me was the idea that there would now be a record of me rambling on about this and that, from my doctoral research to my experience teaching as new faculty, but that anyone could access it at any time and &lt;em&gt;I couldn&amp;rsquo;t be there to respond&lt;/em&gt;. If I tweet something or say something in class there&amp;rsquo;s an avenue for discussion, for dialog, be it synchronous or asynchronous. Being a guest on a podcast is, obviously, being interviewed and having that interview published: it&amp;rsquo;s out there and that sole fact invites scrutiny. (Going on another this week, coincidentally.) So maybe it&amp;rsquo;s more a fear of making a mistake and being caught out.&lt;/p&gt;
-
-&lt;p&gt;Anyway, one point I wanted to make in the podcast (and why we&amp;rsquo;ve taken this winding path) was that I think I&amp;rsquo;ve always been hungry for something different. I&amp;rsquo;m a neophile, a fan of novelty with a great love of the new-and-improved. That is to say, I&amp;rsquo;m always looking for more&amp;hellip; more information, more methods, more theories, more examples, more tools. More, more, more. I&amp;rsquo;m afraid that if I ever find myself settling comfortably into the &lt;em&gt;expert&lt;/em&gt; chair then that part of me could disappear, as if expertise were a destination and not a journey (to get all cat-hanging-from-a-ledge-motivational-poster for a minute). I don&amp;rsquo;t want that to happen. Satisfaction is having one foot in the grave or some such.&lt;/p&gt;
-
-&lt;p&gt;Maybe it would help new graduates or junior faculty to see that others at the same career point are also in the same boat, confidence- or bravery-wise. It&amp;rsquo;s a long road and not one that has any particular sign posts or even a decent map. We have to make our own ways, sometimes even cut our own paths&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:Did-you-know-you&#34;&gt;&lt;a href=&#34;#fn:Did-you-know-you&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Maybe we get lucky enough to find a mentor that has an idea about the ditches and bumps, but that&amp;rsquo;s no guarantee. Navigating all this is part of the process and, frankly, I think it&amp;rsquo;s good for us. Maybe not &lt;em&gt;good&lt;/em&gt;; maybe &lt;strong&gt;necessary&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Regardless, for now I think I&amp;rsquo;m most comfortable claiming that I&amp;rsquo;m on a constant path toward expertise. Maybe when I feel like I&amp;rsquo;ve finally claimed the prize I&amp;rsquo;ll let you know. Maybe, when I&amp;rsquo;m like Katie and have two-almost-three books under my belt, I&amp;rsquo;ll claim it. Until then, hi-ho, hi-ho.&lt;/p&gt;
+One scary thing for me was the idea that there would now be a record of me rambling on about this and that, from my doctoral research to my experience teaching as new faculty, but that anyone could access it at any time and &lt;em&gt;I couldn’t be there to respond&lt;/em&gt;. If I tweet something or say something in class there’s an avenue for discussion, for dialog, be it synchronous or asynchronous. Being a guest on a podcast is, obviously, being interviewed and having that interview published: it’s out there and that sole fact invites scrutiny. (Going on another this week, coincidentally.) So maybe it’s more a fear of making a mistake and being caught out.&lt;/p&gt;
+&lt;p&gt;Anyway, one point I wanted to make in the podcast (and why we’ve taken this winding path) was that I think I’ve always been hungry for something different. I’m a neophile, a fan of novelty with a great love of the new-and-improved. That is to say, I’m always looking for more… more information, more methods, more theories, more examples, more tools. More, more, more. I’m afraid that if I ever find myself settling comfortably into the &lt;em&gt;expert&lt;/em&gt; chair then that part of me could disappear, as if expertise were a destination and not a journey (to get all cat-hanging-from-a-ledge-motivational-poster for a minute). I don’t want that to happen. Satisfaction is having one foot in the grave or some such.&lt;/p&gt;
+&lt;p&gt;Maybe it would help new graduates or junior faculty to see that others at the same career point are also in the same boat, confidence- or bravery-wise. It’s a long road and not one that has any particular sign posts or even a decent map. We have to make our own ways, sometimes even cut our own paths&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. Maybe we get lucky enough to find a mentor that has an idea about the ditches and bumps, but that’s no guarantee. Navigating all this is part of the process and, frankly, I think it’s good for us. Maybe not &lt;em&gt;good&lt;/em&gt;; maybe &lt;strong&gt;necessary&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Regardless, for now I think I’m most comfortable claiming that I’m on a constant path toward expertise. Maybe when I feel like I’ve finally claimed the prize I’ll let you know. Maybe, when I’m like Katie and have two-almost-three books under my belt, I’ll claim it. Until then, hi-ho, hi-ho.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
-
 &lt;hr /&gt;
-
 &lt;ol&gt;
-&lt;li id=&#34;fn:Did-you-know-you&#34;&gt;Did you know you can buy machetes at Home Depot? They&amp;rsquo;re with the gardening tools. That blew my mind. Not sure where I thought they were sold before I discovered this. Not sure I&amp;rsquo;d ever thought about where they&amp;rsquo;re sold before then. It just struck me as odd. &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:Did-you-know-you&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Did you know you can buy machetes at Home Depot? They’re with the gardening tools. That blew my mind. Not sure where I thought they were sold before I discovered this. Not sure I’d ever thought about where they’re sold before then. It just struck me as odd.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
@@ -1334,127 +543,108 @@ One scary thing for me was the idea that there would now be a record of me rambl
     
     <item>
       <title>On the Loss of a Loved One</title>
-      <link>https://ryanstraight.com/2015/04/15/on-the-loss-of-a-loved-one/</link>
+      <link>/2015/04/15/on-the-loss-of-a-loved-one/</link>
       <pubDate>Wed, 15 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanstraight.com/2015/04/15/on-the-loss-of-a-loved-one/</guid>
-      <description>&lt;p&gt;The following is in reaction to yesterday’s passing of my beloved aunt Geraldine after a half-year long battle with (what started out as) gall bladder cancer. She is very much missed and, though I couldn&amp;rsquo;t be there, I believe was very well taken care of when her time came.&lt;/p&gt;
+      <guid>/2015/04/15/on-the-loss-of-a-loved-one/</guid>
+      <description>
 
+
+&lt;p&gt;The following is in reaction to yesterday’s passing of my beloved aunt Geraldine after a half-year long battle with (what started out as) gall bladder cancer. She is very much missed and, though I couldn’t be there, I believe was very well taken care of when her time came.&lt;/p&gt;
 &lt;p&gt;When I decided to write something on the loss of a loved one—both as a way of informing others of the passing of my aunt and as a way to cope with the loss, myself—I imagined it would flow easily and naturally from my fingers given what happened yesterday.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;PD_0001.jpg&#34; alt=&#34;The Family&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I thought, &amp;lsquo;Shouldn&amp;rsquo;t take much to produce something touching, heartfelt, poignant, and maybe a little tear-jerky. Just say how you feel.&amp;rsquo; And that&amp;rsquo;s the problem. It ain’t happening.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s not that I don&amp;rsquo;t feel anything. I feel a great many things: sadness, disappointment, anger, confusion, you name it. When my father passed in 2002 it was like a punch to the gut. I was as speechless as his passing was sudden. When my grandparents (any one of them) died, it was easier as they were elderly and ‘that’s what elderly people do.’ This time around&amp;mdash;though Jerre was in her 80s and, I suppose, in the ‘elderly’ category&amp;mdash;after hearing a six-months-to-live prognosis given six months ago to someone who was seemingly in good health, the passing of a loved one takes on a completely different color. It becomes something that weaves itself into your calendar, that you prepare for, that you make phone calls about. It’s the first time I’ve ever thought to myself, ‘I need to make sure my phone’s charged because someone is going to die.’ Not &lt;em&gt;might&lt;/em&gt;. &lt;em&gt;Is&lt;/em&gt;.&lt;/p&gt;
-
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;PD_0001.jpg&#34; alt=&#34;The Family&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;The Family&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;I thought, ‘Shouldn’t take much to produce something touching, heartfelt, poignant, and maybe a little tear-jerky. Just say how you feel.’ And that’s the problem. It ain’t happening.&lt;/p&gt;
+&lt;p&gt;It’s not that I don’t feel anything. I feel a great many things: sadness, disappointment, anger, confusion, you name it. When my father passed in 2002 it was like a punch to the gut. I was as speechless as his passing was sudden. When my grandparents (any one of them) died, it was easier as they were elderly and ‘that’s what elderly people do.’ This time around—though Jerre was in her 80s and, I suppose, in the ‘elderly’ category—after hearing a six-months-to-live prognosis given six months ago to someone who was seemingly in good health, the passing of a loved one takes on a completely different color. It becomes something that weaves itself into your calendar, that you prepare for, that you make phone calls about. It’s the first time I’ve ever thought to myself, ‘I need to make sure my phone’s charged because someone is going to die.’ Not &lt;em&gt;might&lt;/em&gt;. &lt;em&gt;Is&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;At the time it seems perfectly rational. Upon reflection it feels oddly cold. This is nobody and nothing’s fault; just something I noticed.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;PD_0045.jpg&#34; alt=&#34;Jerre and me&#34; /&gt;&lt;/p&gt;
-
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;PD_0045.jpg&#34; alt=&#34;Jerre and me&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Jerre and me&lt;/p&gt;
+&lt;/div&gt;
 &lt;p&gt;Some of my favorite memories of my childhood center around Jerre and her home, which the family simply refers to as The Farm. At one point it was a functioning farm where they had pigs and chickens, and rows upon rows of vegetables. I can still smell the damp stone of the cellar where the walls were lined with cans of every foodstuff imaginable. The kitchen always smelled like frying meat of some sort and in the winter the wood burner would impregnate the entire house with the smell of a campfire. Jerre would insist you eat something (even if you weren’t hungry) and always put others’ needs before her own. I’d ride my four-wheeler or dirt bike all over The Farm and she’d rule over the place like a queen. It’s just how things were.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;PD_0049.jpg&#34; alt=&#34;She was incredibly joyful.&#34; /&gt;&lt;/p&gt;
-
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;PD_0049.jpg&#34; alt=&#34;She was incredibly joyful.&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;She was incredibly joyful.&lt;/p&gt;
+&lt;/div&gt;
 &lt;p&gt;When my father passed unexpectedly, it left me and my mother alone, as my siblings (a half-brother and half-sister) are considerably older than me and were never in the ‘family unit,’ as it were. I was away at college about 90 minutes away from my family home and 60 minutes away from The Farm. Jerre’s role in my life changed slowly from being an aunt to being close to a surrogate parent, stepping in to help fill the void left by my father. She supported not just me, but my mother, as well. Our family is by-and-large pretty good at coping with loss and being alone, but it was comforting to not have to do that. Jerre, who had no children of her own and was unmarried, was there.&lt;/p&gt;
-
 &lt;p&gt;As the years went on, we grew closer. She got older and had trouble doing things around the house, so I (not as often as I’d liked to have, much to my regret) tried to make it over to The Farm when I could to do odd jobs, run wiring, pick up sticks in the yard, whatever she needed. The idea of her no longer being there never really crossed my mind. Jerre and The Farm were a permanent fixture in my life and there was no reason to even question that. Even after her cancer diagnosis, even during her chemotherapy, her being gone wasn’t something that seemed real or even possible. At least, not real enough to spend any energy on.&lt;/p&gt;
-
 &lt;p&gt;That probably falls under the category of ‘denial,’ but, I’m not a psychiatrist.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;PD_0183.jpg&#34; alt=&#34;We miss you.&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Regardless, as the end grew closer, she was in good spirits. She laughed and still bossed people around. She was even still making sure others’ needs were taken care of when she was lying on her death-bed. Then, at about 10pm on April 14th, she left us. For the week leading up she’d been surrounded by friends and family&amp;mdash;sometimes to the point that they needed to bring in more chairs. At the end, she was there with her sister and best friend, my mother.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;Pre-1964-127.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;PD_0183.jpg&#34; alt=&#34;We miss you.&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;We miss you.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Regardless, as the end grew closer, she was in good spirits. She laughed and still bossed people around. She was even still making sure others’ needs were taken care of when she was lying on her death-bed. Then, at about 10pm on April 14th, she left us. For the week leading up she’d been surrounded by friends and family—sometimes to the point that they needed to bring in more chairs. At the end, she was there with her sister and best friend, my mother.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Pre-1964-127.jpg&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;I hope she was happy. Our memories of her make us exactly that.&lt;/p&gt;
-
-&lt;p&gt;For Jerre and the millions of other people who are currently fighting, have beaten, or have lost to cancer, please consider &lt;a href=&#34;https://www.charitywatch.org/top-rated-charities&#34; target=&#34;_blank&#34;&gt;donating to any number of cancer charities&lt;/a&gt; or, at the very least, using &lt;a href=&#34;http://smile.amazon.com/&#34; target=&#34;_blank&#34;&gt;Amazon Smile&lt;/a&gt; whenever you buy goods online and choose from their extensive list of charities. Every bit helps.&lt;/p&gt;
+&lt;p&gt;For Jerre and the millions of other people who are currently fighting, have beaten, or have lost to cancer, please consider &lt;a href=&#34;https://www.charitywatch.org/top-rated-charities&#34;&gt;donating to any number of cancer charities&lt;/a&gt; or, at the very least, using &lt;a href=&#34;http://smile.amazon.com/&#34;&gt;Amazon Smile&lt;/a&gt; whenever you buy goods online and choose from their extensive list of charities. Every bit helps.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Electronic Academic Workflow: Paperless Researching</title>
-      <link>https://ryanstraight.com/2013/12/01/electronic-academic-workflow-paperless-researching/</link>
+      <link>/2013/12/01/electronic-academic-workflow-paperless-researching/</link>
       <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanstraight.com/2013/12/01/electronic-academic-workflow-paperless-researching/</guid>
+      <guid>/2013/12/01/electronic-academic-workflow-paperless-researching/</guid>
       <description>
 
+
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Note: this is old. Very old. I&amp;rsquo;m no longer a graduate student though I do still teach my graduate students to use these tools or a variation thereof. -RS, Feb 2017&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note: this is old. Very old. I’m no longer a graduate student though I do still teach my graduate students to use these tools or a variation thereof. -RS, Feb 2017&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-
 &lt;hr /&gt;
-
 &lt;p&gt;Below I’ve highlighted some of the tools that I use to keep myself from going insane while finishing my degree. I call it the Electronic Academic Workflow.&lt;/p&gt;
-
 &lt;hr /&gt;
-
-&lt;h1 id=&#34;mendeley-http-mendeley-com&#34;&gt;&lt;a href=&#34;http://mendeley.com/&#34; target=&#34;_blank&#34;&gt;Mendeley&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;mendeley.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Mendeley is free software used to collect, organize , and annotate research articles, books, and other references. The Microsoft Word plug-in allows you to include citations in the text of your writing and automatically create bibliographies based on only what is cited in the paper using the citation style of your choice. If a PDF is attached to a bibliographic entry in Mendeley, you can highlight, type on, and add notes to the file just as you would if it were printed out (but this way everything is searchable). Auto-import will bring in PDFs you save to your computer and fill in the appropriate database fields (authors, title, journal, etc.) automatically. The website has a collection of user groups that share papers and notes. It also backs up your collection to the cloud and has mobile apps for both Android (unofficially) and iPhone/iPad. Make sure to check with your school to see if you’re eligible to get the premium &lt;a href=&#34;http://www.mendeley.com/mendeley-institutional-edition/&#34; target=&#34;_blank&#34;&gt;Mendeley Institutional Edition&lt;/a&gt; for free!&lt;/p&gt;
-
+&lt;div id=&#34;mendeley&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;a href=&#34;http://mendeley.com/&#34;&gt;Mendeley&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;mendeley.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Mendeley is free software used to collect, organize , and annotate research articles, books, and other references. The Microsoft Word plug-in allows you to include citations in the text of your writing and automatically create bibliographies based on only what is cited in the paper using the citation style of your choice. If a PDF is attached to a bibliographic entry in Mendeley, you can highlight, type on, and add notes to the file just as you would if it were printed out (but this way everything is searchable). Auto-import will bring in PDFs you save to your computer and fill in the appropriate database fields (authors, title, journal, etc.) automatically. The website has a collection of user groups that share papers and notes. It also backs up your collection to the cloud and has mobile apps for both Android (unofficially) and iPhone/iPad. Make sure to check with your school to see if you’re eligible to get the premium &lt;a href=&#34;http://www.mendeley.com/mendeley-institutional-edition/&#34;&gt;Mendeley Institutional Edition&lt;/a&gt; for free!&lt;/p&gt;
 &lt;hr /&gt;
-
-&lt;h1 id=&#34;citavi-http-citavi-com&#34;&gt;&lt;a href=&#34;http://citavi.com/&#34; target=&#34;_blank&#34;&gt;Citavi&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;citavi.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Paid software to collect, organize, remark on, annotate, and cite research articles, books, etc. Does much of what Mendeley does but I prefer it more for the actual quotations and citations that I’m using in my papers. That is, Mendeley is where I do my active reading and note-taking, then I collect the quotes (both direct quotes and paraphrases) in Citavi to use in my papers. This just keeps things separate, which can be a good thing. If you have a text that isn’t scanned or available online (like a textbook), I suggest putting the bibliographic record in Mendeley just to keep it in your “library,” but breaking up the Citavi entries into chapters. Your organizational structure may vary, clearly. It also has a task system built in, but it isn’t quite as robust as LiquidPlanner or Asana. (Adding Citavi into the mix between Mendeley and Scrivener was an idea first, to my knowledge, posited by &lt;em&gt;&lt;a href=&#34;http://static1.squarespace.com/static/562a77a2e4b0ebb30f3df59c/562a821be4b0a3172623d1a9/562a823ae4b0a3172623d79d/1445626426776/?format=original&#34; target=&#34;_blank&#34;&gt;Mickey the BLOSSOMING-Fledgling Researcher&lt;/a&gt;&lt;/em&gt;.)&lt;/p&gt;
-
+&lt;/div&gt;
+&lt;div id=&#34;citavi&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;a href=&#34;http://citavi.com/&#34;&gt;Citavi&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;citavi.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Paid software to collect, organize, remark on, annotate, and cite research articles, books, etc. Does much of what Mendeley does but I prefer it more for the actual quotations and citations that I’m using in my papers. That is, Mendeley is where I do my active reading and note-taking, then I collect the quotes (both direct quotes and paraphrases) in Citavi to use in my papers. This just keeps things separate, which can be a good thing. If you have a text that isn’t scanned or available online (like a textbook), I suggest putting the bibliographic record in Mendeley just to keep it in your “library,” but breaking up the Citavi entries into chapters. Your organizational structure may vary, clearly. It also has a task system built in, but it isn’t quite as robust as LiquidPlanner or Asana. (Adding Citavi into the mix between Mendeley and Scrivener was an idea first, to my knowledge, posited by &lt;em&gt;&lt;a href=&#34;http://static1.squarespace.com/static/562a77a2e4b0ebb30f3df59c/562a821be4b0a3172623d1a9/562a823ae4b0a3172623d79d/1445626426776/?format=original&#34;&gt;Mickey the BLOSSOMING-Fledgling Researcher&lt;/a&gt;&lt;/em&gt;.)&lt;/p&gt;
 &lt;hr /&gt;
-
-&lt;h1 id=&#34;scrivener-https-www-literatureandlatte-com-scrivener-php&#34;&gt;&lt;a href=&#34;https://www.literatureandlatte.com/scrivener.php&#34; target=&#34;_blank&#34;&gt;Scrivener&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;scrivener.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Paid software for organizing your writing. Built for fiction or non-fiction. Mainly for Mac but a Windows version was recently released. Extremely feature-filled and is great for organizing the myriad and disparate ideas that go into a large academic project. The only downside to Scrivener is that it is visually very busy. While it will help you organize all your writing, it can take quite some time to get used to working in the environment. Sticking with it is well worth the time and effort, however. (&lt;a href=&#34;http://www2.palomar.edu/pages/kfalcone/2013/06/28/scrivenerapp-how-i-love-thee-my-dissertation-savior/&#34; target=&#34;_blank&#34;&gt;Screenshot via Kelly Falcone&lt;/a&gt;. Her write-up is worth reading.)&lt;/p&gt;
-
+&lt;/div&gt;
+&lt;div id=&#34;scrivener&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;a href=&#34;https://www.literatureandlatte.com/scrivener.php&#34;&gt;Scrivener&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;scrivener.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Paid software for organizing your writing. Built for fiction or non-fiction. Mainly for Mac but a Windows version was recently released. Extremely feature-filled and is great for organizing the myriad and disparate ideas that go into a large academic project. The only downside to Scrivener is that it is visually very busy. While it will help you organize all your writing, it can take quite some time to get used to working in the environment. Sticking with it is well worth the time and effort, however. (&lt;a href=&#34;http://www2.palomar.edu/pages/kfalcone/2013/06/28/scrivenerapp-how-i-love-thee-my-dissertation-savior/&#34;&gt;Screenshot via Kelly Falcone&lt;/a&gt;. Her write-up is worth reading.)&lt;/p&gt;
 &lt;hr /&gt;
-
-&lt;h1 id=&#34;liquidplanner-https-app-liquidplanner-com-signup-a-583-3b67a0fdecda3a0bee120c81c8dc149efcbd1162&#34;&gt;&lt;a href=&#34;https://app.liquidplanner.com/signup_a/583/3b67a0fdecda3a0bee120c81c8dc149efcbd1162&#34; target=&#34;_blank&#34;&gt;LiquidPlanner&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;liquidplanner.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
+&lt;/div&gt;
+&lt;div id=&#34;liquidplanner&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;a href=&#34;https://app.liquidplanner.com/signup_a/583/3b67a0fdecda3a0bee120c81c8dc149efcbd1162&#34;&gt;LiquidPlanner&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;liquidplanner.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Free (for teachers and students) project tracking. Fantastic for visualizing and keeping track of how much effort and time is required for projects, from individual class projects or your entire degree. Has mobile applications and social/team capabilities. Really helps you peg down your timeline. Open an account with the free trial first, then visit here to upgrade to the free education-based license. (Title is an affiliate link.)&lt;/p&gt;
-
 &lt;hr /&gt;
-
-&lt;h1 id=&#34;asana-http-asana-com&#34;&gt;&lt;a href=&#34;http://asana.com/&#34; target=&#34;_blank&#34;&gt;Asana&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;asana.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
+&lt;/div&gt;
+&lt;div id=&#34;asana&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;a href=&#34;http://asana.com/&#34;&gt;Asana&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;asana.jpeg&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Free web service for tracking tasks. Has mobile applications and social/team capabilities. The interface is intuitive and attractive. It’s preferable, for me, for just those one-off to-dos. “Return library book” or “Water the garden,” that sort of thing. I leave this and LiquidPlanner as pinned tabs in Chrome. There is a social aspect to it if you’re working in teams that needs a to-do manager, but I can’t speak to how well it works as everything I do is solo. It’s more for just keeping the list of things rather than trying to organize and visualize.&lt;/p&gt;
-
 &lt;hr /&gt;
-
-&lt;h1 id=&#34;evernote-http-evernote-com&#34;&gt;&lt;a href=&#34;http://evernote.com/&#34; target=&#34;_blank&#34;&gt;Evernote&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;![]evernote.jpeg)&lt;/p&gt;
-
-&lt;p&gt;Free software and web service for collecting … anything, really. Think of it as an “everything bucket.” Evernote is my repository for everything that’s not a research paper. Whether it’s just an article that I want to keep track of, notes from a meeting at work, or copies of important emails to and from my committee, it all goes here. The web clipper will snag anything from any page and import it. Plays very nicely with IFTTT and can automate a great deal of your online presence. There’s no shortage of write-ups on Evernote. For just about anything you’d need, check out &lt;a href=&#34;http://lifehacker.com/tag/evernote&#34; target=&#34;_blank&#34;&gt;Lifehacker’s Evernote tag&lt;/a&gt;. (Image displayed is the web service.)&lt;/p&gt;
-
+&lt;/div&gt;
+&lt;div id=&#34;evernote&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;a href=&#34;http://evernote.com/&#34;&gt;Evernote&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;[]evernote.jpeg)&lt;/p&gt;
+&lt;p&gt;Free software and web service for collecting … anything, really. Think of it as an “everything bucket.” Evernote is my repository for everything that’s not a research paper. Whether it’s just an article that I want to keep track of, notes from a meeting at work, or copies of important emails to and from my committee, it all goes here. The web clipper will snag anything from any page and import it. Plays very nicely with IFTTT and can automate a great deal of your online presence. There’s no shortage of write-ups on Evernote. For just about anything you’d need, check out &lt;a href=&#34;http://lifehacker.com/tag/evernote&#34;&gt;Lifehacker’s Evernote tag&lt;/a&gt;. (Image displayed is the web service.)&lt;/p&gt;
 &lt;hr /&gt;
-
-&lt;h1 id=&#34;redlaser-now-defunct&#34;&gt;RedLaser (Now defunct)&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;redlaser.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
+&lt;/div&gt;
+&lt;div id=&#34;redlaser-now-defunct&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;RedLaser (Now defunct)&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;redlaser.jpeg&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;App for scanning barcodes. Can create lists of them, which makes it easy to import a large collection of books into services like GoodReads or Citavi. Not really part of my workflow, but nice to have around when I need it, especially when you’re in a bookstore or someone’s office and they have a book you want to remember to get. Alternatively, in that case, you could just take a picture of the cover as an Evernote note. Available for Android, iOS, and Windows phones.&lt;/p&gt;
-
 &lt;hr /&gt;
-
-&lt;h1 id=&#34;phraseexpress-http-www-phraseexpress-com-textexpander-http-smilesoftware-com-textexpander-index-html-etc&#34;&gt;&lt;a href=&#34;http://www.phraseexpress.com/&#34; target=&#34;_blank&#34;&gt;PhraseExpress&lt;/a&gt;/&lt;a href=&#34;http://smilesoftware.com/TextExpander/index.html&#34; target=&#34;_blank&#34;&gt;TextExpander&lt;/a&gt;/Etc&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;phraseexpress.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
+&lt;/div&gt;
+&lt;div id=&#34;phraseexpresstextexpanderetc&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;a href=&#34;http://www.phraseexpress.com/&#34;&gt;PhraseExpress&lt;/a&gt;/&lt;a href=&#34;http://smilesoftware.com/TextExpander/index.html&#34;&gt;TextExpander&lt;/a&gt;/Etc&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;phraseexpress.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Text replacement software. For example, typing “mmr” could be set to replace an entire multivariate multiple regression SPSS syntax. I have a rather lengthy one set to “sig;” that inserts my full email signature, plus a random quote from a list of 200 or so. (Keeps the sig fresh, I feel.) Quicker than copying and pasting, and prevents user error. If you type something over and over and over then software like this becomes a huge boon and saves ridiculous amounts of time (not to mention the relief of knowing that if it’s right once, it’s right every time).&lt;/p&gt;
-
 &lt;p&gt;So, those are the main players that keep me going in a (relatively) smooth fashion. Need an APA citation real quick? Right-click the entry in Mendeley and copy as a citation. Need to find a quote but only remember a couple words? Citavi to the rescue. Unexpectedly got an extra couple hours free? LiquidPlanner shows me what I really need to be working on next. (This was originally posted on Medium.)&lt;/p&gt;
+&lt;/div&gt;
 </description>
     </item>
     

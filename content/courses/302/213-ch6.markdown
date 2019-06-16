@@ -1,0 +1,75 @@
+---
+title: 'Research Design' 
+linktitle: 'Chapter 6: Research Design'
+toc: true
+type: docs
+date: "2019-06-05T00:00:00-07:00"
+draft: false
+menu:
+  302:
+    weight: 60
+    parent: "mA"
+    identifier: "ch6"
+    name: "Chapter 6: Research Design"
+
+
+# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
+weight: 60
+---
+
+
+
+
+# Learning Objectives for *Research Design*
+
+These are the learning objectives for this portion of the class:
+
+1. Describe reliability in terms of true scores and error
+1. Compute reliability from the true score and error variance
+1. Define the standard error of measurement and state why it is valuable
+1. State the effect of test length on reliability
+1. Distinguish between reliability and validity
+1. Define three types of validity
+1. Recognize sampling bias
+1. Distinguish among self-selection bias, undercoverage bias, and survivorship bias
+1. Distinguish between between-subject and within-subject designs
+1. Define "multi-factor design" and "factorial design"
+1. Identify the levels of a variable in an experimental design
+1. Explain how experimentation allows causal inferences
+1. Explain the role of unmeasured variables
+1. Explain how causation can be inferred in non-experimental designs
+
+# Consumables
+
+Each week there will be a number of items for you to consume, be it reading, watching, listening, or a combination thereof.
+
+- [Online Statistics Textbook, Chapter 6](http://onlinestatbook.com/2/research_design/contents.html)
+    - [PDF of the chapter](http://onlinestatbook.com/2/research_design/research_design.pdf)
+
+# Assignments
+
+Your assignments for this week are as follows:
+
+## Quiz
+
+Don't forget about your chapter quiz! Find it in the Quizzes menu in D2L.
+
+## Chapter Questions
+
+Pick [a question from OST Chapter 6's Exercises section](http://onlinestatbook.com/2/research_design/exercises.html) that one one else has selected yet and post how you solved it.
+
+- 2 pts per each chapter’s Slack channel (initial post AND response)
+- no partial credit for initial post only or response only
+
+### Steps to completion
+
+1. Choose [a question from the end of the chapter in the section called "Exercises" to answer](http://onlinestatbook.com/2/graphing_distributions/ch2_exercises.html).  Post the question and your answer, and make sure to justify your response.
+
+ For example, if you determine that a type of statistic is descriptive, provide your reasoning being specific about the problem presented and your answer.
+
+1. Next, respond to another students' answers by asking a question for clarification, providing a personal experience, posting a thought-provoking question, taking a controversial, but professional stand, adding something new to the conversation, quoting another student's comment and add an additional idea based on this comment, etc.
+
+ Your responses should be respectful and offered in a professional manner. You may wish to review the [behavior Course Policies]({{< relref "101-syllabus.markdown" >}}) to help frame your response. Remember, you will be responding about the specific idea, issue, or question.
+
+
+*You may not answer a question that has been previously addressed.*

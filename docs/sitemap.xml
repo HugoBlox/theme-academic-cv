@@ -3,711 +3,809 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ryanstraight.com/categories/</loc>
+    <loc>/courses/302/</loc>
+    <lastmod>2019-06-13T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/401/</loc>
+    <lastmod>2019-06-13T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/401/syllabus/</loc>
+    <lastmod>2019-05-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/302/101-syllabus/</loc>
+    <lastmod>2019-05-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/302/211-modulea/</loc>
+    <lastmod>2019-06-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/401/info/</loc>
+    <lastmod>2019-06-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/302/212-ch1/</loc>
+    <lastmod>2019-06-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/302/213-ch6/</loc>
+    <lastmod>2019-06-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/302/221-moduleb/</loc>
+    <lastmod>2019-06-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/302/222-ch2/</loc>
+    <lastmod>2019-06-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/302/223-ch3/</loc>
+    <lastmod>2019-06-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/302/231-modulec/</loc>
+    <lastmod>2019-06-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/302/232-ch4/</loc>
+    <lastmod>2019-06-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/302/233-ch14/</loc>
+    <lastmod>2019-06-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/302/241-moduled/</loc>
+    <lastmod>2019-06-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/302/242-ch5/</loc>
+    <lastmod>2019-06-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/302/243-ch7/</loc>
+    <lastmod>2019-06-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/302/251-modulee/</loc>
+    <lastmod>2019-06-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/302/252-ch9/</loc>
+    <lastmod>2019-06-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/302/253-ch11/</loc>
+    <lastmod>2019-06-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/302/261-modulef/</loc>
+    <lastmod>2019-06-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/302/262-ch12/</loc>
+    <lastmod>2019-06-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/302/263-ch15/</loc>
+    <lastmod>2019-06-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/302/271-moduleg/</loc>
+    <lastmod>2019-06-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/302/311-assignments/</loc>
+    <lastmod>2019-06-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/302/312-activitya/</loc>
+    <lastmod>2019-06-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/302/411-resources/</loc>
+    <lastmod>2019-06-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/302/421-rguides/</loc>
+    <lastmod>2019-06-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/302/422-bigdata/</loc>
+    <lastmod>2019-06-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
     <lastmod>2019-06-13T16:30:26-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/2018/11/02/finding-order-in-chaos/</loc>
+    <loc>/categories/</loc>
+    <lastmod>2019-06-13T16:30:26-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/2018/11/02/finding-order-in-chaos/</loc>
     <lastmod>2018-11-02T16:44:29-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2019-06-13T16:30:26-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/categories/professional/</loc>
+    <loc>/categories/professional/</loc>
     <lastmod>2019-06-13T11:51:56-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2019-06-13T16:30:26-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/chaos/</loc>
+    <loc>/tags/chaos/</loc>
     <lastmod>2018-11-02T16:44:29-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/mediawiki/</loc>
+    <loc>/tags/mediawiki/</loc>
     <lastmod>2018-11-02T16:44:29-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/organization/</loc>
+    <loc>/tags/organization/</loc>
     <lastmod>2018-11-02T16:44:29-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/reflection/</loc>
+    <loc>/tags/reflection/</loc>
     <lastmod>2019-06-13T11:51:56-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/</loc>
-    <lastmod>2019-06-13T16:30:26-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ryanstraight.com/tags/semantic-annotation/</loc>
+    <loc>/tags/semantic-annotation/</loc>
     <lastmod>2018-11-02T16:44:29-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/teaching/</loc>
+    <loc>/tags/teaching/</loc>
     <lastmod>2019-06-13T11:51:56-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/2018/11/01/october-squad-ghouls-network-take-over-postmortem/</loc>
+    <loc>/2018/11/01/october-squad-ghouls-network-take-over-postmortem/</loc>
     <lastmod>2018-11-01T16:38:24-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/collaboration/</loc>
+    <loc>/tags/collaboration/</loc>
     <lastmod>2018-11-01T16:38:24-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/social/</loc>
+    <loc>/tags/social/</loc>
     <lastmod>2018-11-01T16:38:24-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/squad-goals-network/</loc>
+    <loc>/tags/squad-goals-network/</loc>
     <lastmod>2019-06-13T11:51:56-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/9x9x25/</loc>
+    <loc>/tags/9x9x25/</loc>
     <lastmod>2019-06-13T11:51:56-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/2018/10/16/9x9x25-challenge-the-harshest-mirror/</loc>
+    <loc>/2018/10/16/9x9x25-challenge-the-harshest-mirror/</loc>
     <lastmod>2019-06-13T11:51:56-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/challenge/</loc>
+    <loc>/tags/challenge/</loc>
     <lastmod>2019-06-13T11:51:56-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/2018/10/02/9x9x25-challenge-an-introduction-and-a-plan/</loc>
+    <loc>/2018/10/02/9x9x25-challenge-an-introduction-and-a-plan/</loc>
     <lastmod>2019-06-13T11:42:21-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/2018/10/01/october-2018-sgn-social-media-takeover/</loc>
+    <loc>/2018/10/01/october-2018-sgn-social-media-takeover/</loc>
     <lastmod>2019-06-13T11:38:40-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/fear/</loc>
-    <lastmod>2019-06-13T11:38:40-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ryanstraight.com/tags/halloween/</loc>
+    <loc>/tags/fear/</loc>
     <lastmod>2019-06-13T11:38:40-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/social-media/</loc>
+    <loc>/tags/halloween/</loc>
     <lastmod>2019-06-13T11:38:40-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/talk/perspective-on-diversity-and-inclusion-speaker-series-faculty-fellows/</loc>
-    <lastmod>2018-08-28T09:00:07-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ryanstraight.com/talk/</loc>
-    <lastmod>2018-08-28T09:00:07-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ryanstraight.com/tags/diversity-and-inclusion/</loc>
-    <lastmod>2018-08-28T09:00:07-07:00</lastmod>
+    <loc>/tags/social-media/</loc>
+    <lastmod>2019-06-13T11:38:40-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/faculty-fellow/</loc>
-    <lastmod>2018-08-28T09:00:07-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ryanstraight.com/tags/invited-talk/</loc>
-    <lastmod>2018-08-28T09:00:07-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ryanstraight.com/tags/panel/</loc>
-    <lastmod>2018-08-28T09:00:07-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ryanstraight.com/project/</loc>
+    <loc>/project/</loc>
     <lastmod>2018-08-24T09:47:44-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/project/read-watch-woof/</loc>
+    <loc>/project/read-watch-woof/</loc>
     <lastmod>2018-08-24T09:47:44-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/2018/08/24/evidence/</loc>
+    <loc>/2018/08/24/evidence/</loc>
     <lastmod>2018-08-24T09:40:23-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/categories/personal/</loc>
-    <lastmod>2018-08-24T09:40:23-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ryanstraight.com/tags/evidence/</loc>
+    <loc>/categories/personal/</loc>
     <lastmod>2018-08-24T09:40:23-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/nutrition/</loc>
+    <loc>/tags/evidence/</loc>
     <lastmod>2018-08-24T09:40:23-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/read-watch-woof/</loc>
+    <loc>/tags/nutrition/</loc>
     <lastmod>2018-08-24T09:40:23-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/professional/</loc>
-    <lastmod>2019-06-13T16:27:51-07:00</lastmod>
+    <loc>/tags/read-watch-woof/</loc>
+    <lastmod>2018-08-24T09:40:23-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/project/squad-goals-network-project/</loc>
+    <loc>/project/squad-goals-network-project/</loc>
     <lastmod>2018-08-05T09:47:44-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/categories/the-new-professor/</loc>
+    <loc>/categories/the-new-professor/</loc>
     <lastmod>2019-06-13T16:30:26-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/project/the-new-professor/</loc>
+    <loc>/project/the-new-professor/</loc>
     <lastmod>2018-08-05T09:47:44-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/podcast/</loc>
+    <loc>/tags/podcast/</loc>
     <lastmod>2019-06-13T16:30:26-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/the-new-professor/</loc>
+    <loc>/tags/professional/</loc>
+    <lastmod>2019-06-13T16:27:51-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/the-new-professor/</loc>
     <lastmod>2019-06-13T16:30:26-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/2018/07/24/not-that-kind-of-hot-dog/</loc>
+    <loc>/2018/07/24/not-that-kind-of-hot-dog/</loc>
     <lastmod>2018-07-24T09:18:07-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/dogs/</loc>
-    <lastmod>2018-07-24T09:18:07-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ryanstraight.com/tags/summer/</loc>
+    <loc>/tags/dogs/</loc>
     <lastmod>2018-07-24T09:18:07-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/2018/07/06/educated-vs-intelligent/</loc>
+    <loc>/tags/summer/</loc>
+    <lastmod>2018-07-24T09:18:07-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/2018/07/06/educated-vs-intelligent/</loc>
     <lastmod>2018-07-06T09:05:12-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/the-diamond-age/</loc>
+    <loc>/tags/the-diamond-age/</loc>
     <lastmod>2018-07-06T09:05:12-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/education/</loc>
+    <loc>/tags/education/</loc>
     <lastmod>2018-07-06T09:05:12-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/intelligence/</loc>
+    <loc>/tags/intelligence/</loc>
     <lastmod>2018-07-06T09:05:12-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/quote/</loc>
+    <loc>/tags/quote/</loc>
     <lastmod>2018-07-06T09:05:12-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/2018/07/05/hi-edsurge/</loc>
+    <loc>/2018/07/05/hi-edsurge/</loc>
     <lastmod>2019-06-13T16:27:51-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/categories/social/</loc>
-    <lastmod>2019-06-13T16:27:51-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ryanstraight.com/tags/dlnchat/</loc>
-    <lastmod>2019-06-13T16:27:51-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ryanstraight.com/tags/edsurge/</loc>
+    <loc>/categories/social/</loc>
     <lastmod>2019-06-13T16:27:51-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/365papers/</loc>
+    <loc>/tags/dlnchat/</loc>
+    <lastmod>2019-06-13T16:27:51-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/edsurge/</loc>
+    <lastmod>2019-06-13T16:27:51-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/365papers/</loc>
     <lastmod>2018-01-04T09:02:06-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/2018/01/04/365papers/</loc>
+    <loc>/2018/01/04/365papers/</loc>
     <lastmod>2018-01-04T09:02:06-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/categories/academic/</loc>
-    <lastmod>2018-01-04T09:02:06-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ryanstraight.com/tags/accountability/</loc>
+    <loc>/categories/academic/</loc>
     <lastmod>2018-01-04T09:02:06-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/hashtag/</loc>
+    <loc>/tags/accountability/</loc>
     <lastmod>2018-01-04T09:02:06-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/scholarship/</loc>
+    <loc>/tags/hashtag/</loc>
     <lastmod>2018-01-04T09:02:06-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/twitter/</loc>
+    <loc>/tags/scholarship/</loc>
     <lastmod>2018-01-04T09:02:06-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/talk/and-were-live-a-rough-guide-on-academic-podcasting-olc-accelerate-18/</loc>
-    <lastmod>2017-10-15T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ryanstraight.com/talk/tenwest-innovation-in-edtech/</loc>
-    <lastmod>2017-10-15T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ryanstraight.com/tags/olc-accelerate/</loc>
-    <lastmod>2017-10-15T00:00:00-07:00</lastmod>
+    <loc>/tags/twitter/</loc>
+    <lastmod>2018-01-04T09:02:06-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/stem/</loc>
-    <lastmod>2017-10-15T00:00:00-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ryanstraight.com/talk/stem-resources-for-parents/</loc>
-    <lastmod>2017-10-15T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ryanstraight.com/tags/conference/</loc>
-    <lastmod>2017-10-15T00:00:00-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ryanstraight.com/tags/educational-technology/</loc>
-    <lastmod>2017-10-15T00:00:00-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ryanstraight.com/tags/innovation/</loc>
-    <lastmod>2017-10-15T00:00:00-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ryanstraight.com/tags/workshop/</loc>
-    <lastmod>2017-10-15T00:00:00-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ryanstraight.com/categories/conferences/</loc>
+    <loc>/categories/conferences/</loc>
     <lastmod>2017-07-26T08:57:23-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/2017/07/26/new-orleans-2017/</loc>
+    <loc>/2017/07/26/new-orleans-2017/</loc>
     <lastmod>2017-07-26T08:38:04-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/2017/07/26/olc-innovate-2017/</loc>
+    <loc>/2017/07/26/olc-innovate-2017/</loc>
     <lastmod>2017-07-26T08:57:23-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/categories/travel/</loc>
+    <loc>/categories/travel/</loc>
     <lastmod>2017-07-26T08:38:04-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/higher-education/</loc>
-    <lastmod>2017-07-26T08:57:23-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ryanstraight.com/tags/lafayette-cemetary/</loc>
-    <lastmod>2017-07-26T08:38:04-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ryanstraight.com/tags/new-orleans/</loc>
+    <loc>/tags/conference/</loc>
     <lastmod>2017-07-26T08:57:23-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/olc-innovate/</loc>
+    <loc>/tags/educational-technology/</loc>
     <lastmod>2017-07-26T08:57:23-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/personal/</loc>
+    <loc>/tags/higher-education/</loc>
+    <lastmod>2017-07-26T08:57:23-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/lafayette-cemetary/</loc>
     <lastmod>2017-07-26T08:38:04-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/voodoo-museum/</loc>
+    <loc>/tags/new-orleans/</loc>
+    <lastmod>2017-07-26T08:57:23-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/olc-innovate/</loc>
+    <lastmod>2017-07-26T08:57:23-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/personal/</loc>
     <lastmod>2017-07-26T08:38:04-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/2017/05/21/the-new-professor-an-experiment-in-podcasting/</loc>
+    <loc>/tags/voodoo-museum/</loc>
+    <lastmod>2017-07-26T08:38:04-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/2017/05/21/the-new-professor-an-experiment-in-podcasting/</loc>
     <lastmod>2019-06-13T16:30:26-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/2017/04/26/hang-out-with-me-after-class/</loc>
+    <loc>/2017/04/26/hang-out-with-me-after-class/</loc>
     <lastmod>2017-04-26T09:09:32-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/categories/writing/</loc>
-    <lastmod>2017-04-26T09:09:32-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ryanstraight.com/tags/class-time/</loc>
+    <loc>/categories/writing/</loc>
     <lastmod>2017-04-26T09:09:32-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/john-travolta/</loc>
+    <loc>/tags/class-time/</loc>
     <lastmod>2017-04-26T09:09:32-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/online-programs/</loc>
+    <loc>/tags/john-travolta/</loc>
     <lastmod>2017-04-26T09:09:32-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/relationships/</loc>
+    <loc>/tags/online-programs/</loc>
     <lastmod>2017-04-26T09:09:32-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/socialization/</loc>
+    <loc>/tags/relationships/</loc>
     <lastmod>2017-04-26T09:09:32-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/slack/</loc>
-    <lastmod>2017-04-06T20:48:51-07:00</lastmod>
+    <loc>/tags/socialization/</loc>
+    <lastmod>2017-04-26T09:09:32-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/talk/slacking-off-in-class-olc-innovation-2017/</loc>
-    <lastmod>2017-04-06T20:48:51-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ryanstraight.com/2017/03/01/on-expertise-and-being-out-there/</loc>
+    <loc>/2017/03/01/on-expertise-and-being-out-there/</loc>
     <lastmod>2017-03-01T09:06:53-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/expertise/</loc>
+    <loc>/tags/expertise/</loc>
     <lastmod>2017-03-01T09:06:53-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/faculty/</loc>
+    <loc>/tags/faculty/</loc>
     <lastmod>2017-03-01T09:06:53-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/growth/</loc>
+    <loc>/tags/growth/</loc>
     <lastmod>2017-03-01T09:06:53-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/2015/04/15/on-the-loss-of-a-loved-one/</loc>
+    <loc>/2015/04/15/on-the-loss-of-a-loved-one/</loc>
     <lastmod>2015-04-15T09:12:01-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/death/</loc>
-    <lastmod>2015-04-15T09:12:01-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ryanstraight.com/tags/family/</loc>
+    <loc>/tags/death/</loc>
     <lastmod>2015-04-15T09:12:01-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/loss/</loc>
+    <loc>/tags/family/</loc>
     <lastmod>2015-04-15T09:12:01-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/2013/12/01/electronic-academic-workflow-paperless-researching/</loc>
-    <lastmod>2017-06-13T09:35:11-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ryanstraight.com/tags/citavi/</loc>
-    <lastmod>2017-06-13T09:35:11-07:00</lastmod>
+    <loc>/tags/loss/</loc>
+    <lastmod>2015-04-15T09:12:01-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/evernote/</loc>
+    <loc>/2013/12/01/electronic-academic-workflow-paperless-researching/</loc>
     <lastmod>2017-06-13T09:35:11-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/grad-school/</loc>
+    <loc>/tags/citavi/</loc>
     <lastmod>2017-06-13T09:35:11-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/liquidplanner/</loc>
+    <loc>/tags/evernote/</loc>
     <lastmod>2017-06-13T09:35:11-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/mendeley/</loc>
+    <loc>/tags/grad-school/</loc>
     <lastmod>2017-06-13T09:35:11-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/paperless/</loc>
+    <loc>/tags/liquidplanner/</loc>
     <lastmod>2017-06-13T09:35:11-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/reviews/</loc>
+    <loc>/tags/mendeley/</loc>
     <lastmod>2017-06-13T09:35:11-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/scrivener/</loc>
+    <loc>/tags/paperless/</loc>
     <lastmod>2017-06-13T09:35:11-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/software/</loc>
+    <loc>/tags/reviews/</loc>
     <lastmod>2017-06-13T09:35:11-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/web-services/</loc>
+    <loc>/tags/scrivener/</loc>
     <lastmod>2017-06-13T09:35:11-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/workflow/</loc>
+    <loc>/tags/software/</loc>
     <lastmod>2017-06-13T09:35:11-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/authors/ryan/</loc>
+    <loc>/tags/web-services/</loc>
+    <lastmod>2017-06-13T09:35:11-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/workflow/</loc>
+    <lastmod>2017-06-13T09:35:11-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/ryan/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/publication_types/1/</loc>
+    <loc>/publication_types/1/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/aace/</loc>
+    <loc>/tags/aace/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/publication/2011-03-07-commercial-off-the-shelf-video-games-as-computer-assisted-language-learning-environments/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ryanstraight.com/authors/</loc>
+    <loc>/authors/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/call/</loc>
+    <loc>/tags/call/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/publication_types/</loc>
+    <loc>/publication/2011-03-07-commercial-off-the-shelf-video-games/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/publication/</loc>
+    <loc>/publication/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/site/</loc>
+    <loc>/tags/site/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/computer-assisted-language-learning/</loc>
+    <loc>/tags/computer-assisted-language-learning/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/gaming/</loc>
+    <loc>/tags/gaming/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ryanstraight.com/tags/video-games/</loc>
+    <loc>/tags/video-games/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/jamie-smith/</loc>
+    <lastmod>2011-03-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication/2011-03-07-the-development-and-delivery-of-custom-mobile/</loc>
+    <lastmod>2011-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/k-12/</loc>
+    <lastmod>2011-03-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/mobile-apps/</loc>
+    <lastmod>2011-03-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/mobile-learning/</loc>
+    <lastmod>2011-03-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/courses/</loc>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
   </url>
   
 </urlset>

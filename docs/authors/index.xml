@@ -2,28 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on ryan straight</title>
-    <link>https://ryanstraight.com/authors/</link>
+    <link>/authors/</link>
     <description>Recent content in Authors on ryan straight</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://ryanstraight.com/authors/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://ryanstraight.com/authors/ryan/</link>
+      <link>/authors/ryan/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ryanstraight.com/authors/ryan/</guid>
+      <guid>/authors/ryan/</guid>
       <description>&lt;p&gt;Dr. Ryan Straight is an award-winning educator, writer, and researcher. He currently serves as an Assistant Professor at the University of Arizona. He is co-program director of the Master of Science and undergraduate minor programs in Educational Technology and teaches in the Informatics and Cyber Operations undergraduate programs. He also teaches an annual freshman seminar, &lt;em&gt;Cyborgs and Transhumanism&lt;/em&gt;, in the Honors College.&lt;/p&gt;
 
 &lt;p&gt;Here you will find a variety: travel exploits, reflections, expressions of stylistic pedagogy, reactions to technological and educational current events, and general musings on topics approaching Ryan&amp;rsquo;s academic research.&lt;/p&gt;
 
 &lt;p&gt;He lives in Tucson, AZ with his wife Adriana and their three dogs, Sofie, Menchi, and Chewie.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Jamie Smith</title>
+      <link>/authors/jamie-smith/</link>
+      <pubDate>Mon, 07 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/jamie-smith/</guid>
+      <description></description>
     </item>
     
   </channel>
