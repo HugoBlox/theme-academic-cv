@@ -42,7 +42,6 @@ While it's not a perfect analog, consider these water temperatures and time requ
 # Load the libraries
 library(htmltools)
 library(htmlwidgets)
-library(widgetframe)
 library(metricsgraphics)
 library(RColorBrewer)
 

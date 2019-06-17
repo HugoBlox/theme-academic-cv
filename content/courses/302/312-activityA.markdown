@@ -274,7 +274,7 @@ min < med < max:
 2.3 < 20.7 < 69.5
 IQR (CV) : 19.3 (0.6)</td>
       <td align="left" style="vertical-align:middle">50 distinct values</td>
-      <td align="left" style="vertical-align:middle;padding:0;background-color:transparent"><img style="border:none;background-color:transparent;padding:0" src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAJgAAABuBAMAAAApJ8cWAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAD1BMVEX////9/v2mpqby8vL///8shn5hAAAAAnRSTlMAAHaTzTgAAAABYktHRACIBR1IAAAAB3RJTUUH4wYQBiYJPdImgQAAAHhJREFUaN7t1rENwCAMAEGvQDaIswHZf7dU2EWsSLFcIPivXMBVIBChTM1S62x/e2HXPQIDAwMDAwMDAwMDAwMDA5sD06A0FkwdDAwMDGw9zJ+MAuyTAJsaO/wkFGC2rINFWPBTy2O+EQxsb8wvVgEWTXthWpJQpgfkmjDkkWFVKAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOS0wNi0xNlQxMzozODowOS0wNzowMOkfgYEAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTktMDYtMTZUMTM6Mzg6MDktMDc6MDCYQjk9AAAAAElFTkSuQmCC"></td>
+      <td align="left" style="vertical-align:middle;padding:0;background-color:transparent"><img style="border:none;background-color:transparent;padding:0" src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAJgAAABuBAMAAAApJ8cWAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAD1BMVEX////9/v2mpqby8vL///8shn5hAAAAAnRSTlMAAHaTzTgAAAABYktHRACIBR1IAAAAB3RJTUUH4wYQDA4ruHhMGQAAAHhJREFUaN7t1rENwCAMAEGvQDaIswHZf7dU2EWsSLFcIPivXMBVIBChTM1S62x/e2HXPQIDAwMDAwMDAwMDAwMDA5sD06A0FkwdDAwMDGw9zJ+MAuyTAJsaO/wkFGC2rINFWPBTy2O+EQxsb8wvVgEWTXthWpJQpgfkmjDkkWFVKAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOS0wNi0xNlQxOToxNDo0My0wNzowMLEq71wAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTktMDYtMTZUMTk6MTQ6NDMtMDc6MDDAd1fgAAAAAElFTkSuQmCC"></td>
       <td align="center">50
 (100%)</td>
       <td align="center">0
