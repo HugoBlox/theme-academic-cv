@@ -5,7 +5,7 @@ email = "rulicosentino@gmail.com"
 user_groups = ["Past Lab Members"]
 role = "Former Trypanosomatics Lab Member (2007 -- 2014)"
 bio = "Present address: Biomedical Center Munich, Ludwig Maximilians Universität München"
-
+weight = 10
 +++
 
 # Previous positions in the lab                                               

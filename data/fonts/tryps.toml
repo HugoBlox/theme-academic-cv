@@ -1,0 +1,15 @@
+# font style metadata
+name = "tryps"
+
+# optional google font URL
+google_fonts = "Play:400,700|Open+Sans:400,400italic,700|PT+Mono|Cookie:400,700"
+
+# font families
+heading_font = "Play"
+body_font = "Open Sans"
+nav_font = "Open Sans"
+mono_font = "PT Mono"
+
+# font size
+font_size = "16"
+font_size_small = "14"

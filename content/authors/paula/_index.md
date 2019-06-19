@@ -5,6 +5,7 @@ email = "mpmagarinos@gmail.com"
 user_groups = ["Past Lab Members"]
 role = "Former Trypanosomatics Lab Member (2009 -- 2014)"
 bio = "Present address: ChEMBL Group (EMBL-EBI)"
+weight = 10
 +++
 
 # Previous positions in the lab

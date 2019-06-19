@@ -2,6 +2,9 @@
 # Display name
 name = "Emir Salas Sarduy"
 
+# Author Weight -- for sort purposes
+weight = 20
+
 # Username (this should match the folder name)
 authors = ["emir"]
 

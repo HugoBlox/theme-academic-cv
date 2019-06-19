@@ -2,6 +2,9 @@
 # Display name
 name = "Trypanosomatics"
 
+# Author weight -- for sort purposes
+weight = 11
+
 # Username (this should match the folder name)
 authors = ["trypanosomatics"]
 
@@ -22,9 +25,9 @@ bio = "Using and generating data to guide discovery of new drugs and diagnostics
 email = "info@trypanosomatics.org"
 
 # List (academic) interests or hobbies
-interests = [
-  "Studying trypanosomes, one bit at a time",
-]
+#interests = [
+#  "Studying trypanosomes, one bit at a time",
+#]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -77,13 +80,16 @@ user_groups = ["Administration"]
 +++
 
 Our laboratory is interested in the study of human pathogens, particularly
-those that cause so-called *Neglected Tropical Diseases*. 
+trypanosomes and also others that cause so-called *Neglected Tropical Diseases*. 
 
-We leverage computational tools and large data sets to formulate and guide our
-research hypotheses in the quest for new drugs and diagnostics. 
+We develop computational tools and produce (and re-use) large data sets to
+formulate and guide our research hypotheses in the quest for new drugs and
+diagnostics. Smart and intensive data integration, data mining,
+and high-throughput assays and experiments are at the core of our research
+activities.
 
 In particular, we have a special interest in the study of trypanosomes such as
 _Trypanosoma cruzi_ (causative of Chagas disease). 
 
-
-
+Wellcome to our electronic home in the web. Feel free to browse and poke
+around. 

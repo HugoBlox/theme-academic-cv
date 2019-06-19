@@ -5,7 +5,7 @@ email = "leonardopnnz@gmail.com"
 user_groups = ["Past Lab Members"]
 role = "Former Trypanosomatics Lab Member (2007 -- 2014)"
 bio = "Present address: Institut Pasteur Paris, France"
-
+weight = 10
 +++
 
 # Previous positions in the lab

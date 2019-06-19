@@ -1,0 +1,13 @@
+.alert-note {
+  background-color: #CFF462;
+  border-color: #54914D;
+}
+
+div.alert>div:first-child::before {
+  color: #024452;
+}
+
+/* reduce the white space after navbar image */
+.home-section {
+  padding: 50px;
+}

@@ -1,0 +1,18 @@
+# Theme metadata
+name = "tryps"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#69870E"
+
+# Menu
+menu_primary = "#7DA211"
+menu_text = "#024452"
+menu_text_active = "#2962ff"
+menu_title = "#024452"
+
+# Home sections
+home_section_odd = "rgb(255, 255, 255)"
+home_section_even = "rgb(247, 247, 247)"
