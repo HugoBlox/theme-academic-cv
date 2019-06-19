@@ -23,7 +23,7 @@ email = "info@trypanosomatics.org"
 
 # List (academic) interests or hobbies
 interests = [
-  "All things Data",
+  "Studying trypanosomes, one bit at a time",
 ]
 
 # Organizational groups that you belong to (for People widget)
