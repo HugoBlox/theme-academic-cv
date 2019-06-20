@@ -5,7 +5,7 @@
 date = "2016-04-20T00:00:00"
 draft = false
 
-title = "Academic Activities"
+title = "Resources and Tools"
 subtitle = ""
 widget = "custom"
 
@@ -14,9 +14,7 @@ weight = 60
 
 +++
 
-* Attended Amazon Research Days Bangalore on 28th September 2018
-* Attended ACM-MSR Academic Research Summit 2018 at IIIT Hyderabad on 24th-25th January 2018
-* Conducted a training session on Deep Learning at LGSoft Bangalore in June 2017
-* Conducted a training session on NLP and Deep Learning at BNP Paribas Mumbai on 9th January 2015
-* Conducted Lab Session on WSD related activities at IASNLP 2014, IIIT Hyderabad from 1st July 2014 to 15th July 2014
-* Attended two week WSD and MWE workshop at IIIT Hyderabad from 18th June 2014 to 30th June 2014
+## Data
+Due to licensing issue we are unable to share the data for English and Indian languages (except Marathi). For Marathi, please fill the form [here](http://www.cfilt.iitb.ac.in/ner/download_data.html)
+
+However, Spanish and Dutch data are freely available [here](https://www.clips.uantwerpen.be/conll2002/ner/). German NER data is taken from [here](https://nlpado.de/~sebastian/software/ner_german.shtml). Also, we make a copy of Spanish, Dutch and German languages data available in the Data folder.
