@@ -21,4 +21,4 @@ However, Spanish and Dutch data are freely available [here](https://www.clips.ua
 
 
 ## NER Tool:
-We also provide NER tool as web service [here](www.cfilt.iitb.ac.in/multilingual-ner). The NER tool is available for English, Hindi, Marathi, Bengali, Malayalam and Tamil languages. 
+We also provide NER tool as web service [here](https://www.cfilt.iitb.ac.in/multilingual-ner). The NER tool is available for English, Hindi, Marathi, Bengali, Malayalam and Tamil languages. 
