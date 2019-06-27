@@ -65,7 +65,7 @@ preserveTaxonomyNames = true
 [author]
   name = "Rudra Murthy V"
   # bio = "Super bio with markdown support **COOL**"
-  job = "PhD Student"
+  job = "Research Scholar"
   location = "Mumbai, India"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   # gravatarEmail = "rudra@cse.iitb.ac.in"
