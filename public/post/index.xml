@@ -47,7 +47,7 @@ library(tidyverse) library(lubridate) library(skimr) library(ModelMetrics) libra
       <pubDate>Wed, 10 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/fast-food-nutrition-analysis/</guid>
-      <description>library(tidyverse) ## ── Attaching packages ─────────────────────────────────────────────────────────────────────────────────────────────────────────── tidyverse 1.2.1 ── ## ✔ ggplot2 3.1.1 ✔ purrr 0.3.2 ## ✔ tibble 2.1.1 ✔ dplyr 0.8.0.1 ## ✔ tidyr 0.7.2 ✔ stringr 1.2.0 ## ✔ readr 1.1.1 ✔ forcats 0.2.0 ## Warning: package &amp;#39;tibble&amp;#39; was built under R version 3.4.4 ## Warning: package &amp;#39;purrr&amp;#39; was built under R version 3.4.4 ## Warning: package &amp;#39;dplyr&amp;#39; was built under R version 3.4.4 ## ── Conflicts ────────────────────────────────────────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ── ## ✖ dplyr::filter() masks stats::filter() ## ✖ dplyr::lag() masks stats::lag() library(ggthemes) library(tidytext) ## Warning: package &amp;#39;tidytext&amp;#39; was built under R version 3.</description>
+      <description>library(tidyverse) library(ggthemes) library(tidytext) library(purrr) library(stats) library(corrr) library(RColorBrewer) R Markdown ## # A tibble: 6 x 18 ## X1 restaurant item calories cal_fat total_fat sat_fat trans_fat ## &amp;lt;int&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;int&amp;gt; &amp;lt;int&amp;gt; &amp;lt;int&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; ## 1 1 Mcdonalds Arti… 380 60 7 2 0 ## 2 2 Mcdonalds Sing… 840 410 45 17 1.5 ## 3 3 Mcdonalds Doub… 1130 600 67 27 3 ## 4 4 Mcdonalds Gril… 750 280 31 10 0.</description>
     </item>
     
   </channel>
