@@ -6,10 +6,20 @@
     <description>Recent content on Mikayla Edwards</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DVC Points Chart Analysis (Part 1)</title>
+      <link>/post/dvc-points-chart-analysis-part-1/</link>
+      <pubDate>Sun, 14 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/dvc-points-chart-analysis-part-1/</guid>
+      <description>In this series of posts, I will analyze and compare the 2020 points charts for Bay Lake Tower and the The Beach Club. Html versions of the charts (used here) can be found on DVC Request
+This post (part 1) will detail the code to extract the points charts from the html table format they are published in. I will use the rvest package as well as unpivotr to convert the data into a tabular dataframe.</description>
+    </item>
     
     <item>
       <title>Grand Floridian Hotel Reviews</title>

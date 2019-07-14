@@ -1,0 +1,128 @@
+---
+title: DVC Points Chart Analysis (Part 1)
+author: ''
+date: '2019-07-14'
+slug: dvc-points-chart-analysis-part-1
+categories: []
+tags: []
+---
+
+
+
+<p>In this series of posts, I will analyze and compare the 2020 points charts for Bay Lake Tower and the The Beach Club. Html versions of the charts (used here) can be found on <a href="https://www.dvcrequest.com/point-charts.asp">DVC Request</a></p>
+<p>This post (part 1) will detail the code to extract the points charts from the html table format they are published in. I will use the rvest package as well as unpivotr to convert the data into a tabular dataframe.</p>
+<pre class="r"><code>library(rvest)
+library(unpivotr)
+library(htmltools)
+library(tidyverse)</code></pre>
+<pre class="r"><code>#read in html data
+link&lt;-&quot;https://www.dvcrequest.com/point-chart/bay_lake_towers_2020.html&quot;
+hlink&lt;- read_html(link)
+
+table&lt;-hlink %&gt;% html_nodes(&quot;table&quot;) %&gt;% 
+  html_table(header=F,fill=T)
+table &lt;- table[[1]]
+
+#add the table to a dataframe, 
+dict &lt;- as.data.frame(table)
+cells &lt;- as_cells(table)
+cells&lt;-cells %&gt;% filter(col&gt;2,row&gt;1) %&gt;% select(-data_type)
+
+cells %&gt;% head(10)</code></pre>
+<pre><code>## # A tibble: 10 x 3
+##      row   col chr                   
+##    &lt;int&gt; &lt;int&gt; &lt;chr&gt;                 
+##  1     2     3 STUDIO(Sleeps up to 4)
+##  2     3     3 SV                    
+##  3     4     3 ADVENTURE             
+##  4     5     3 14                    
+##  5     6     3 16                    
+##  6     7     3 CHOICE                
+##  7     8     3 15                    
+##  8     9     3 17                    
+##  9    10     3 DREAM                 
+## 10    11     3 17</code></pre>
+<p>Although we now have the data in a usable data frame, it is all one long column. Therefore, we need to spread and restructure the dataframe.</p>
+<pre class="r"><code>cellstemp&lt;-
+   cells %&gt;% spread(row,chr) %&gt;% filter(!col %in% c(&#39;6&#39;,&#39;10&#39;,&#39;14&#39;))
+room_view&lt;-cellstemp[,2:3]
+#seasons
+adventure&lt;-cellstemp[,4:6]
+choice&lt;-cellstemp[,7:9]
+dream&lt;-cellstemp[,10:12]
+magic&lt;-cellstemp[,13:15]
+premier&lt;-cellstemp[,16:18]
+adventure&lt;-cbind(room_view,adventure)
+choice&lt;-cbind(room_view,choice)
+dream&lt;-cbind(room_view,dream)
+magic&lt;-cbind(room_view,magic)
+premier&lt;-cbind(room_view,premier)
+dfs&lt;-data.frame(Map(c,adventure,choice,dream,magic,premier))
+dfs %&gt;% head()</code></pre>
+<pre><code>##                                                 X2 X3        X4 X5 X6
+## 1                           STUDIO(Sleeps up to 4) SV ADVENTURE 14 16
+## 2                           STUDIO(Sleeps up to 4) LV ADVENTURE 17 19
+## 3                           STUDIO(Sleeps up to 4) MK ADVENTURE 19 23
+## 4 1-BEDROOM\r\n      VACATION HOME(Sleeps up to 5) SV ADVENTURE 26 32
+## 5 1-BEDROOM\r\n      VACATION HOME(Sleeps up to 5) LV ADVENTURE 31 36
+## 6 1-BEDROOM\r\n      VACATION HOME(Sleeps up to 5) MK ADVENTURE 37 44</code></pre>
+<p>That’s much better: now the room type, room view, season, and points each have their own columns. Now we can rename these columns and gather the points to a single column</p>
+<pre class="r"><code>dfs&lt;-dfs %&gt;% rename_at(c(1,2,3,4,5),~c(&quot;room&quot;,&quot;view&quot;,&quot;season&quot;,&quot;Sun_Th&quot;,&quot;Fri_Sat&quot;)) %&gt;%
+  mutate_at(vars(&#39;Sun_Th&#39;,&#39;Fri_Sat&#39;),as.character) %&gt;%
+  mutate_at(vars(&#39;Sun_Th&#39;,&#39;Fri_Sat&#39;),as.numeric)
+
+dfl&lt;-dfs %&gt;% gather(&quot;weekday&quot;, &quot;points&quot;,Sun_Th:Fri_Sat)
+dfl$room&lt;-as.character(dfl$room)
+head(dfl)</code></pre>
+<pre><code>##                                               room view    season weekday
+## 1                           STUDIO(Sleeps up to 4)   SV ADVENTURE  Sun_Th
+## 2                           STUDIO(Sleeps up to 4)   LV ADVENTURE  Sun_Th
+## 3                           STUDIO(Sleeps up to 4)   MK ADVENTURE  Sun_Th
+## 4 1-BEDROOM\r\n      VACATION HOME(Sleeps up to 5)   SV ADVENTURE  Sun_Th
+## 5 1-BEDROOM\r\n      VACATION HOME(Sleeps up to 5)   LV ADVENTURE  Sun_Th
+## 6 1-BEDROOM\r\n      VACATION HOME(Sleeps up to 5)   MK ADVENTURE  Sun_Th
+##   points
+## 1     14
+## 2     17
+## 3     19
+## 4     26
+## 5     31
+## 6     37</code></pre>
+<p>The room column entries need to be renamed as well.</p>
+<pre class="r"><code>#change naming of room type
+dfl[dfl$room == &quot;STUDIO(Sleeps up to 4)&quot;,&quot;room&quot;] = &quot;Studio&quot;
+dfl[dfl$room == &quot;1-BEDROOM\r\n      VACATION HOME(Sleeps up to 5)&quot;,&quot;room&quot;] = &quot;1-Bedroom&quot;
+dfl[dfl$room == &quot;2-BEDROOM\r\n      VACATION HOME(Sleeps up to 9)&quot;,&quot;room&quot;] = &quot;2-Bedroom&quot;
+dfl[dfl$room == &quot;3-BEDROOM\r\n  GRAND VILLA(Sleeps up to 12)&quot;,&quot;room&quot;] = &quot;3-Bedroom&quot;
+
+head(dfl)</code></pre>
+<pre><code>##        room view    season weekday points
+## 1    Studio   SV ADVENTURE  Sun_Th     14
+## 2    Studio   LV ADVENTURE  Sun_Th     17
+## 3    Studio   MK ADVENTURE  Sun_Th     19
+## 4 1-Bedroom   SV ADVENTURE  Sun_Th     26
+## 5 1-Bedroom   LV ADVENTURE  Sun_Th     31
+## 6 1-Bedroom   MK ADVENTURE  Sun_Th     37</code></pre>
+<p>Great, now the data can be easily explore and plotted.</p>
+<pre class="r"><code>dfl %&gt;% 
+  ggplot(aes(x=fct_reorder(room,points),y=points,fill=fct_reorder(view,points)))+
+  geom_boxplot()+
+  scale_fill_brewer(palette= &quot;OrRd&quot;)+
+  labs(x=&quot;&quot;,fill=&quot;View&quot;)</code></pre>
+<p><img src="/post/2019-07-14-dvc-points-chart-analysis-part-1_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+<pre class="r"><code>dfl %&gt;%
+  ggplot(aes(x=fct_reorder(season,points),y=points,fill=fct_reorder(view,points)))+geom_boxplot()+scale_fill_brewer(palette= &quot;OrRd&quot;)</code></pre>
+<p><img src="/post/2019-07-14-dvc-points-chart-analysis-part-1_files/figure-html/unnamed-chunk-7-1.png" width="672" />
+From the above boxplots, we can see that room type determines points more than does season (i.e. there is less variability within a room than within a season)</p>
+<pre class="r"><code>dfl %&gt;% filter(room %in% c(&quot;Studio&quot;, &quot;1-Bedroom&quot;)) %&gt;%
+  group_by(room, season) %&gt;% summarize(avg_point = mean(points)) %&gt;% 
+  ungroup() %&gt;%
+  ggplot(aes(x = fct_reorder(season, avg_point),y = avg_point,group = room))+ 
+  geom_col(aes(fill = room), position = &quot;dodge&quot;) + 
+  geom_text(aes(label =round(avg_point, 1)),position = position_dodge(0.9),vjust = 0) +
+  scale_fill_manual(values = c(&quot;skyblue&quot;, &quot;grey&quot;))</code></pre>
+<p><img src="/post/2019-07-14-dvc-points-chart-analysis-part-1_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
+<p>To prepare for the next post, where I will compare BLT and the Beach Club, I will add a column indicating the resort and save the RDS file.
+The same process documented above was done for the Beach Club point chart. This can be found on my github <a href="https://github.com/mikaylaedwards/DVC_analysis/blob/master/beachclub_analys.Rmd">here</a></p>
+<pre class="r"><code>df20&lt;-dfl %&gt;% mutate(resort=&quot;BLT&quot;)
+df20%&gt;% saveRDS(file = &quot;BLT2020.rds&quot;)</code></pre>
