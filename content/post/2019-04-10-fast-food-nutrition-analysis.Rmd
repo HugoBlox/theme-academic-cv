@@ -7,7 +7,7 @@ tags: []
 categories: []
 ---
 
-```{r,message=F,warning=F}
+```{r,message=FALSE,warning=FALSE}
 library(tidyverse)
 library(ggthemes)
 library(tidytext)
