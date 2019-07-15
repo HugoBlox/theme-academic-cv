@@ -31,7 +31,7 @@ dict <- as.data.frame(table)
 cells <- as_cells(table)
 cells<-cells %>% filter(col>2,row>1) %>% select(-data_type)
 
-cells %>% head() %>% kable()
+cells %>% head() %>% kable() %>% kable_styling(font_size = 7)
 ```
 Although we now have the data in a usable data frame, it is all one long column. Therefore, we need to spread and restructure the dataframe.
 
@@ -52,7 +52,7 @@ magic<-cbind(room_view,magic)
 premier<-cbind(room_view,premier)
 dfs<-data.frame(Map(c,adventure,choice,dream,magic,premier))
 
-dfs %>% head() %>% kable()
+dfs %>% head() %>% kable() %>% kable_styling(font_size = 7)
 ```
 That's much better: now the room type, room view, season, and points each have their own columns. Now we can rename these columns and gather the points to a single column
 ```{r}
@@ -63,7 +63,7 @@ dfs<-dfs %>% rename_at(c(1,2,3,4,5),~c("room","view","season","Sun_Th","Fri_Sat"
 dfl<-dfs %>% gather("weekday", "points",Sun_Th:Fri_Sat)
 dfl$room<-as.character(dfl$room)
 
-dfl %>% head() %>% kable()
+dfl %>% head() %>% kable() %>% kable_styling(font_size = 7)
 ```
 The room column entries need to be renamed as well. 
 ```{r}
@@ -73,7 +73,7 @@ dfl[dfl$room == "1-BEDROOM\r\n      VACATION HOME(Sleeps up to 5)","room"] = "1-
 dfl[dfl$room == "2-BEDROOM\r\n      VACATION HOME(Sleeps up to 9)","room"] = "2-Bedroom"
 dfl[dfl$room == "3-BEDROOM\r\n  GRAND VILLA(Sleeps up to 12)","room"] = "3-Bedroom"
 
-dfl %>% head() %>% kable()
+dfl %>% head() %>% kable() %>% kable_styling(font_size = 7)
 ```
 Great, now the data can be easily explore and plotted.
 

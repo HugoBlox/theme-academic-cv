@@ -7,6 +7,7 @@ categories: []
 tags: []
 ---
 
+<script src="/rmarkdown-libs/kePrint/kePrint.js"></script>
 
 
 <p>In this series of posts, I will analyze and compare the 2020 points charts for Bay Lake Tower and the The Beach Club. Html versions of the charts (used here) can be found on <a href="https://www.dvcrequest.com/point-charts.asp">DVC Request</a></p>
@@ -29,8 +30,8 @@ dict &lt;- as.data.frame(table)
 cells &lt;- as_cells(table)
 cells&lt;-cells %&gt;% filter(col&gt;2,row&gt;1) %&gt;% select(-data_type)
 
-cells %&gt;% head() %&gt;% kable()</code></pre>
-<table>
+cells %&gt;% head() %&gt;% kable() %&gt;% kable_styling(font_size = 7)</code></pre>
+<table class="table" style="font-size: 7px; margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
 <th style="text-align:right;">
@@ -130,8 +131,8 @@ magic&lt;-cbind(room_view,magic)
 premier&lt;-cbind(room_view,premier)
 dfs&lt;-data.frame(Map(c,adventure,choice,dream,magic,premier))
 
-dfs %&gt;% head() %&gt;% kable()</code></pre>
-<table>
+dfs %&gt;% head() %&gt;% kable() %&gt;% kable_styling(font_size = 7)</code></pre>
+<table class="table" style="font-size: 7px; margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
 <th style="text-align:left;">
@@ -267,8 +268,8 @@ ADVENTURE
 dfl&lt;-dfs %&gt;% gather(&quot;weekday&quot;, &quot;points&quot;,Sun_Th:Fri_Sat)
 dfl$room&lt;-as.character(dfl$room)
 
-dfl %&gt;% head() %&gt;% kable()</code></pre>
-<table>
+dfl %&gt;% head() %&gt;% kable() %&gt;% kable_styling(font_size = 7)</code></pre>
+<table class="table" style="font-size: 7px; margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
 <th style="text-align:left;">
@@ -403,8 +404,8 @@ dfl[dfl$room == &quot;1-BEDROOM\r\n      VACATION HOME(Sleeps up to 5)&quot;,&qu
 dfl[dfl$room == &quot;2-BEDROOM\r\n      VACATION HOME(Sleeps up to 9)&quot;,&quot;room&quot;] = &quot;2-Bedroom&quot;
 dfl[dfl$room == &quot;3-BEDROOM\r\n  GRAND VILLA(Sleeps up to 12)&quot;,&quot;room&quot;] = &quot;3-Bedroom&quot;
 
-dfl %&gt;% head() %&gt;% kable()</code></pre>
-<table>
+dfl %&gt;% head() %&gt;% kable() %&gt;% kable_styling(font_size = 7)</code></pre>
+<table class="table" style="font-size: 7px; margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
 <th style="text-align:left;">
