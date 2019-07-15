@@ -14,7 +14,8 @@ tags: []
 <pre class="r"><code>library(rvest)
 library(unpivotr)
 library(htmltools)
-library(tidyverse)</code></pre>
+library(tidyverse)
+library(kableExtra)</code></pre>
 <pre class="r"><code>#read in html data
 link&lt;-&quot;https://www.dvcrequest.com/point-chart/bay_lake_towers_2020.html&quot;
 hlink&lt;- read_html(link)
@@ -28,20 +29,90 @@ dict &lt;- as.data.frame(table)
 cells &lt;- as_cells(table)
 cells&lt;-cells %&gt;% filter(col&gt;2,row&gt;1) %&gt;% select(-data_type)
 
-cells %&gt;% head(10)</code></pre>
-<pre><code>## # A tibble: 10 x 3
-##      row   col chr                   
-##    &lt;int&gt; &lt;int&gt; &lt;chr&gt;                 
-##  1     2     3 STUDIO(Sleeps up to 4)
-##  2     3     3 SV                    
-##  3     4     3 ADVENTURE             
-##  4     5     3 14                    
-##  5     6     3 16                    
-##  6     7     3 CHOICE                
-##  7     8     3 15                    
-##  8     9     3 17                    
-##  9    10     3 DREAM                 
-## 10    11     3 17</code></pre>
+cells %&gt;% head() %&gt;% kable()</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align:right;">
+row
+</th>
+<th style="text-align:right;">
+col
+</th>
+<th style="text-align:left;">
+chr
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:left;">
+STUDIO(Sleeps up to 4)
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:left;">
+SV
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:left;">
+ADVENTURE
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:left;">
+14
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:left;">
+16
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:left;">
+CHOICE
+</td>
+</tr>
+</tbody>
+</table>
 <p>Although we now have the data in a usable data frame, it is all one long column. Therefore, we need to spread and restructure the dataframe.</p>
 <pre class="r"><code>cellstemp&lt;-
    cells %&gt;% spread(row,chr) %&gt;% filter(!col %in% c(&#39;6&#39;,&#39;10&#39;,&#39;14&#39;))
@@ -58,14 +129,135 @@ dream&lt;-cbind(room_view,dream)
 magic&lt;-cbind(room_view,magic)
 premier&lt;-cbind(room_view,premier)
 dfs&lt;-data.frame(Map(c,adventure,choice,dream,magic,premier))
-dfs %&gt;% head()</code></pre>
-<pre><code>##                                                 X2 X3        X4 X5 X6
-## 1                           STUDIO(Sleeps up to 4) SV ADVENTURE 14 16
-## 2                           STUDIO(Sleeps up to 4) LV ADVENTURE 17 19
-## 3                           STUDIO(Sleeps up to 4) MK ADVENTURE 19 23
-## 4 1-BEDROOM\r\n      VACATION HOME(Sleeps up to 5) SV ADVENTURE 26 32
-## 5 1-BEDROOM\r\n      VACATION HOME(Sleeps up to 5) LV ADVENTURE 31 36
-## 6 1-BEDROOM\r\n      VACATION HOME(Sleeps up to 5) MK ADVENTURE 37 44</code></pre>
+dfs %&gt;% head() %&gt;% kable()</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align:left;">
+X2
+</th>
+<th style="text-align:left;">
+X3
+</th>
+<th style="text-align:left;">
+X4
+</th>
+<th style="text-align:left;">
+X5
+</th>
+<th style="text-align:left;">
+X6
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+STUDIO(Sleeps up to 4)
+</td>
+<td style="text-align:left;">
+SV
+</td>
+<td style="text-align:left;">
+ADVENTURE
+</td>
+<td style="text-align:left;">
+14
+</td>
+<td style="text-align:left;">
+16
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+STUDIO(Sleeps up to 4)
+</td>
+<td style="text-align:left;">
+LV
+</td>
+<td style="text-align:left;">
+ADVENTURE
+</td>
+<td style="text-align:left;">
+17
+</td>
+<td style="text-align:left;">
+19
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+STUDIO(Sleeps up to 4)
+</td>
+<td style="text-align:left;">
+MK
+</td>
+<td style="text-align:left;">
+ADVENTURE
+</td>
+<td style="text-align:left;">
+19
+</td>
+<td style="text-align:left;">
+23
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+1-BEDROOM
+VACATION HOME(Sleeps up to 5)
+</td>
+<td style="text-align:left;">
+SV
+</td>
+<td style="text-align:left;">
+ADVENTURE
+</td>
+<td style="text-align:left;">
+26
+</td>
+<td style="text-align:left;">
+32
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+1-BEDROOM
+VACATION HOME(Sleeps up to 5)
+</td>
+<td style="text-align:left;">
+LV
+</td>
+<td style="text-align:left;">
+ADVENTURE
+</td>
+<td style="text-align:left;">
+31
+</td>
+<td style="text-align:left;">
+36
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+1-BEDROOM
+VACATION HOME(Sleeps up to 5)
+</td>
+<td style="text-align:left;">
+MK
+</td>
+<td style="text-align:left;">
+ADVENTURE
+</td>
+<td style="text-align:left;">
+37
+</td>
+<td style="text-align:left;">
+44
+</td>
+</tr>
+</tbody>
+</table>
 <p>That’s much better: now the room type, room view, season, and points each have their own columns. Now we can rename these columns and gather the points to a single column</p>
 <pre class="r"><code>dfs&lt;-dfs %&gt;% rename_at(c(1,2,3,4,5),~c(&quot;room&quot;,&quot;view&quot;,&quot;season&quot;,&quot;Sun_Th&quot;,&quot;Fri_Sat&quot;)) %&gt;%
   mutate_at(vars(&#39;Sun_Th&#39;,&#39;Fri_Sat&#39;),as.character) %&gt;%
@@ -73,21 +265,136 @@ dfs %&gt;% head()</code></pre>
 
 dfl&lt;-dfs %&gt;% gather(&quot;weekday&quot;, &quot;points&quot;,Sun_Th:Fri_Sat)
 dfl$room&lt;-as.character(dfl$room)
-head(dfl)</code></pre>
-<pre><code>##                                               room view    season weekday
-## 1                           STUDIO(Sleeps up to 4)   SV ADVENTURE  Sun_Th
-## 2                           STUDIO(Sleeps up to 4)   LV ADVENTURE  Sun_Th
-## 3                           STUDIO(Sleeps up to 4)   MK ADVENTURE  Sun_Th
-## 4 1-BEDROOM\r\n      VACATION HOME(Sleeps up to 5)   SV ADVENTURE  Sun_Th
-## 5 1-BEDROOM\r\n      VACATION HOME(Sleeps up to 5)   LV ADVENTURE  Sun_Th
-## 6 1-BEDROOM\r\n      VACATION HOME(Sleeps up to 5)   MK ADVENTURE  Sun_Th
-##   points
-## 1     14
-## 2     17
-## 3     19
-## 4     26
-## 5     31
-## 6     37</code></pre>
+
+dfl %&gt;% head() %&gt;% kable()</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align:left;">
+room
+</th>
+<th style="text-align:left;">
+view
+</th>
+<th style="text-align:left;">
+season
+</th>
+<th style="text-align:left;">
+weekday
+</th>
+<th style="text-align:right;">
+points
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+STUDIO(Sleeps up to 4)
+</td>
+<td style="text-align:left;">
+SV
+</td>
+<td style="text-align:left;">
+ADVENTURE
+</td>
+<td style="text-align:left;">
+Sun_Th
+</td>
+<td style="text-align:right;">
+14
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+STUDIO(Sleeps up to 4)
+</td>
+<td style="text-align:left;">
+LV
+</td>
+<td style="text-align:left;">
+ADVENTURE
+</td>
+<td style="text-align:left;">
+Sun_Th
+</td>
+<td style="text-align:right;">
+17
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+STUDIO(Sleeps up to 4)
+</td>
+<td style="text-align:left;">
+MK
+</td>
+<td style="text-align:left;">
+ADVENTURE
+</td>
+<td style="text-align:left;">
+Sun_Th
+</td>
+<td style="text-align:right;">
+19
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+1-BEDROOM
+VACATION HOME(Sleeps up to 5)
+</td>
+<td style="text-align:left;">
+SV
+</td>
+<td style="text-align:left;">
+ADVENTURE
+</td>
+<td style="text-align:left;">
+Sun_Th
+</td>
+<td style="text-align:right;">
+26
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+1-BEDROOM
+VACATION HOME(Sleeps up to 5)
+</td>
+<td style="text-align:left;">
+LV
+</td>
+<td style="text-align:left;">
+ADVENTURE
+</td>
+<td style="text-align:left;">
+Sun_Th
+</td>
+<td style="text-align:right;">
+31
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+1-BEDROOM
+VACATION HOME(Sleeps up to 5)
+</td>
+<td style="text-align:left;">
+MK
+</td>
+<td style="text-align:left;">
+ADVENTURE
+</td>
+<td style="text-align:left;">
+Sun_Th
+</td>
+<td style="text-align:right;">
+37
+</td>
+</tr>
+</tbody>
+</table>
 <p>The room column entries need to be renamed as well.</p>
 <pre class="r"><code>#change naming of room type
 dfl[dfl$room == &quot;STUDIO(Sleeps up to 4)&quot;,&quot;room&quot;] = &quot;Studio&quot;
@@ -95,14 +402,132 @@ dfl[dfl$room == &quot;1-BEDROOM\r\n      VACATION HOME(Sleeps up to 5)&quot;,&qu
 dfl[dfl$room == &quot;2-BEDROOM\r\n      VACATION HOME(Sleeps up to 9)&quot;,&quot;room&quot;] = &quot;2-Bedroom&quot;
 dfl[dfl$room == &quot;3-BEDROOM\r\n  GRAND VILLA(Sleeps up to 12)&quot;,&quot;room&quot;] = &quot;3-Bedroom&quot;
 
-head(dfl)</code></pre>
-<pre><code>##        room view    season weekday points
-## 1    Studio   SV ADVENTURE  Sun_Th     14
-## 2    Studio   LV ADVENTURE  Sun_Th     17
-## 3    Studio   MK ADVENTURE  Sun_Th     19
-## 4 1-Bedroom   SV ADVENTURE  Sun_Th     26
-## 5 1-Bedroom   LV ADVENTURE  Sun_Th     31
-## 6 1-Bedroom   MK ADVENTURE  Sun_Th     37</code></pre>
+dfl %&gt;% head() %&gt;% kable()</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align:left;">
+room
+</th>
+<th style="text-align:left;">
+view
+</th>
+<th style="text-align:left;">
+season
+</th>
+<th style="text-align:left;">
+weekday
+</th>
+<th style="text-align:right;">
+points
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Studio
+</td>
+<td style="text-align:left;">
+SV
+</td>
+<td style="text-align:left;">
+ADVENTURE
+</td>
+<td style="text-align:left;">
+Sun_Th
+</td>
+<td style="text-align:right;">
+14
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Studio
+</td>
+<td style="text-align:left;">
+LV
+</td>
+<td style="text-align:left;">
+ADVENTURE
+</td>
+<td style="text-align:left;">
+Sun_Th
+</td>
+<td style="text-align:right;">
+17
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Studio
+</td>
+<td style="text-align:left;">
+MK
+</td>
+<td style="text-align:left;">
+ADVENTURE
+</td>
+<td style="text-align:left;">
+Sun_Th
+</td>
+<td style="text-align:right;">
+19
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+1-Bedroom
+</td>
+<td style="text-align:left;">
+SV
+</td>
+<td style="text-align:left;">
+ADVENTURE
+</td>
+<td style="text-align:left;">
+Sun_Th
+</td>
+<td style="text-align:right;">
+26
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+1-Bedroom
+</td>
+<td style="text-align:left;">
+LV
+</td>
+<td style="text-align:left;">
+ADVENTURE
+</td>
+<td style="text-align:left;">
+Sun_Th
+</td>
+<td style="text-align:right;">
+31
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+1-Bedroom
+</td>
+<td style="text-align:left;">
+MK
+</td>
+<td style="text-align:left;">
+ADVENTURE
+</td>
+<td style="text-align:left;">
+Sun_Th
+</td>
+<td style="text-align:right;">
+37
+</td>
+</tr>
+</tbody>
+</table>
 <p>Great, now the data can be easily explore and plotted.</p>
 <pre class="r"><code>dfl %&gt;% 
   ggplot(aes(x=fct_reorder(room,points),y=points,fill=fct_reorder(view,points)))+
