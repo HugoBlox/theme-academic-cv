@@ -51,6 +51,7 @@ dream<-cbind(room_view,dream)
 magic<-cbind(room_view,magic)
 premier<-cbind(room_view,premier)
 dfs<-data.frame(Map(c,adventure,choice,dream,magic,premier))
+
 dfs %>% head() %>% kable()
 ```
 That's much better: now the room type, room view, season, and points each have their own columns. Now we can rename these columns and gather the points to a single column
