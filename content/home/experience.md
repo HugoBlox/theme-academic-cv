@@ -3,7 +3,7 @@
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+weight = 20  # Order that this section will appear.
 
 title = "Experience"
 subtitle = ""
@@ -17,28 +17,36 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
-[[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
-  description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
-  """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  title = "Research Assistant"
+  company = "Applied Machine Learning Lab"
+  date_start = "2018-10-30"
+  description = "Research into novel neural network algorithms for metalearning"
+
+[[experience]]
+  title = "Research Assistant"
+  company = "Data Mining Lab"
+  date_start = "2018-10-30"
+  description = "Research into understanding mental health and drug abuse using machine learning"
+
+[[experience]]
+  title = "Capstone Project"
+  company = "Adobe Analytics"
+  date_start = "2018-10-30"
+  date_end = "2019-04-15"
+  description = "Research into reading speed using natural langauge processing.  Improved standard model by 30%."
+
+[[experience]]
+  title = "Software Engineer"
+  company = "Qualtrics"
+  date_start = "2019-05-06"
+  date_end = "2019-08-30"
+
+[[experience]]
+  title = "Student Software Engineer"
+  company = "Digi International"
+  date_start = "2017-10-31"
+  date_end = "2019-01-15"
 
 +++
