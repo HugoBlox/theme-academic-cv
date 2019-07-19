@@ -1,23 +1,23 @@
 ---
-title: Internal Project
-summary: An example of using the in-built project page.
+title: BYU Housing 
+summary: An Android app to help BYU students find housing
 tags:
-- Deep Learning
+- Demo
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: App home screen
   focal_point: Smart
 
 links:
 - icon: twitter
   icon_pack: fab
-  name: Follow
-  url: https://twitter.com/georgecushen
-url_code: ""
+  name: Google Play
+  url: https://play.google.com/store/apps/details?id=com.orionweller.collegehousing&hl=en_US
+url_code: "www.github.com/orionw/byu-housing"
 url_pdf: ""
 url_slides: ""
 url_video: ""
