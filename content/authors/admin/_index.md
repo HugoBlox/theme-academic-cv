@@ -23,7 +23,7 @@ bio: My research interests include machine learning, natural language processing
 interests:
 - Machine Learning
 - Computational Linguistics
-- Information Retrieval
+- Natural Language Processing
 
 education:
   courses:
@@ -41,10 +41,10 @@ social:
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: linkedin
   icon_pack: fab
-  link: https://linkedin.com
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: www.linkedin.com/in/orionweller
+# - icon: google-scholar
+#   icon_pack: ai
+#   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/orionw
@@ -64,4 +64,4 @@ user_groups:
 - Visitors
 ---
 
-I'm an undergraduate student at Brigham Young University studying Computer Science and Statistics.  My research interests include Machine Learning and Computational Linguistics: specifically Question Answering, Natural Language Summarization / Generation, and Natural Language Understanding.
+I'm an undergraduate student at Brigham Young University studying Computer Science and Statistics.  My research interests include Machine Learning and Computational Linguistics.

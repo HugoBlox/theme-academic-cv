@@ -31,7 +31,7 @@ date_format = "Jan 2006"
   description = "Research into understanding mental health and drug abuse using machine learning"
 
 [[experience]]
-  title = "Capstone Project"
+  title = "Data Science Capstone Project"
   company = "Adobe Analytics"
   date_start = "2018-10-30"
   date_end = "2019-04-15"
@@ -42,11 +42,14 @@ date_format = "Jan 2006"
   company = "Qualtrics"
   date_start = "2019-05-06"
   date_end = "2019-08-30"
+  description = "Member of the Data Pipeline team managing data ingestion, flow, and storage."
 
 [[experience]]
   title = "Student Software Engineer"
   company = "Digi International"
   date_start = "2017-10-31"
   date_end = "2019-01-15"
+  description = "Lead the development of the Over the Air firmware update to meet Zigbee certifications and process error code handling"
+
 
 +++
