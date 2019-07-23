@@ -1,6 +1,6 @@
 +++
-title = "2019 07 24 Slurm Win"
-subtitle = ""
+title = "Running Jupyter Notebooks Remotely Using Windows"
+subtitle = "Potential workarounds when you don't have a fully-equipped native terminal."
 
 # Add a summary to display on homepage (optional).
 summary = ""
@@ -50,7 +50,7 @@ After you get the jupyter notebook spun up, you're done working on the remote, a
 
 ## Option 1: Windows PowerShell
 
-~![Windows PowerShell](resources/winpowershell.png)
+![Windows PowerShell](resources/winpowershell.png "PowerShell Interface")
 
 Once you get the hang of it, I think of this as the simplest option. I mentioned that PowerShell is a native install on Windows, however, to get some of the newest features, you might have to upgrade to PowerShell 6, which can be done through PowerShell itself. Just open up PowerShell and type:
 
