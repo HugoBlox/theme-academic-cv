@@ -123,6 +123,6 @@ Next, you need to change a few things. You need to tell PuTTY that your source p
 
 You also need to check the two boxes up top to make sure the ports are listening to each other (I forgot this while I was constructing this post).
 
-![PuTTY configuration with the boxes checkes](resoucrses/portforwardingputty_fixed.PNG "Fixed the checkboxes")
+![PuTTY configuration with the boxes checked](resources/portforwardingputty_fixed.PNG "Fixed the checkboxes")
 
 If this worked, you should be all set. Just make sure the ports match. I don't have a lot of luck with this and in the past I've used Firefox port forwarding to get it to work. Chrome is my browser of choice, so for multiple reasons I prefer options 1 and 2 in this post!
