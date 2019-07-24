@@ -150,7 +150,7 @@ jupyter notebook
 ```
 This will open the `jupyter notebook` home screen in browser window, showing your current directory. At the top right, you can click `New` and see which kernels you can use to start a notebook (hopefully, Python 3 or R).
 
-~![Jupyter notebook dropdown](resources/_gen/images/jupyternb-browser.png)
+[Jupyter notebook dropdown](resources/_gen/images/jupyternb-browser.png)
 
 Select `R` under the 'New' dropdown menu (you can also launch a `Python3` notebook... but that isn't what we are doing right now), and a new Untitled.ipynb will open. In the first cell, enter `version` and execute the cell (SHIFT+ENTER to execute). This should print out the version of `R` that the notebook is running-- which should be `3.5.1`. You can also ensure this R notebook is running properly by loading some R libraries.
 
@@ -158,7 +158,7 @@ To close the notebook, click `Logout` at the top right of the notebook open in y
 
 **One of the major issues I have encountered is Jupyter calling the incorrect path (more below).**
 
-If for some reason when you create this new notebook and you notice that the version is incorrect you can dig a bit deeper into the kernel details. To do this, you can't use which R (as above) as that doesn't answer where Jupyter is looking. Rather, you can use `jupyter kernelspec`, a command that I have found invaluable in troubleshooting any PATH issues in jupyter notebooks [see tweet](https://twitter.com/nekton4plankton/status/1116785847402209281).
+If for some reason when you create this new notebook and you notice that the version is incorrect you can dig a bit deeper into the kernel details. To do this, you can't use which R (as above) as that doesn't answer where Jupyter is looking. Rather, you can use `jupyter kernelspec`, a command that I have found invaluable in troubleshooting any PATH issues in jupyter notebooks [see twitter feed for that eureka moment](https://twitter.com/nekton4plankton/status/1116785847402209281).
 
 To see what paths are being called by jupyter notebook type this:
 ```
