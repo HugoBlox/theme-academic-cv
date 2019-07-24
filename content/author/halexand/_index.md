@@ -60,7 +60,7 @@ user_groups = ["Principal Investigator",]
 [[social]]
   icon = "github"
   icon_pack = "fab"
-  link = "https://github.com/AlexanderLabWHOI"
+  link = "https://github.com/halexand"
 
 [[social]]
   icon = "orcid"
