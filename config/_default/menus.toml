@@ -12,10 +12,15 @@
   url = "#publications"
   weight = 2
 
+  [[main]]
+    name = "People"
+    url = "#people"
+    weight = 2
+
 [[main]]
   name = "Posts"
   url = "/post"
-  weight = 3
+  weight = 4
 
   [[main]]
     name = "Conduct"
@@ -25,12 +30,12 @@
     [[main]]
       name = "Join"
       url = "/join"
-      weight = 5
+      weight = 6
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 6
+  weight = 7
 
 # Link to a PDF of your resume/CV from the
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
