@@ -39,6 +39,8 @@ enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
+enableRobotsTXT = true
+
 [outputs]
   home = [ "HTML", "RSS", "JSON" ]
   section = [ "HTML", "RSS" ]
