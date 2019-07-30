@@ -25,7 +25,7 @@ email = ""
 interests = [
   "Plankton Ecology",
   "Biological Oceanography",
-  "Bioinformatics", 
+  "Bioinformatics",
   "Modeling",
   "Computational Biology",
   "Algorithms",
@@ -47,7 +47,7 @@ user_groups = ["Grad Students","Joint Program Students",]
   course = "BS in Biological Sciences"
   institution = "Virginia Tech"
   year = 2019
-  
+
 [[education.courses]]
   course = "BS in Computational Modeling and Data Analytics"
   institution = "Virginia Tech"
@@ -82,7 +82,7 @@ user_groups = ["Grad Students","Joint Program Students",]
   icon = "cv"
   icon_pack = "ai"
   link = "https://drive.google.com/file/d/1HlU2_PcmyVSu9gMqWa5IeXsHOoZ1fCQV/view?usp=sharing"
-  
+
 [[social]]
   icon = "home"
   icon_pack = "fas"
@@ -97,11 +97,11 @@ user_groups = ["Grad Students","Joint Program Students",]
 #   link = "files/cv.pdf"
 
 +++
-Arianna Krinos is a graduate student in the MIT-WHOI Joint Program in Biological Oceanography. She graduated from Virginia Tech in the fields 
+Arianna Krinos is a graduate student in the MIT-WHOI Joint Program in Biological Oceanography. She graduated from Virginia Tech in the fields
 of computer science and biology in May 2019. Past research experiences include amphibian skin microbiology for community classification and
-disease ecology, modeling of potential harmful algal blooms in lake ecosystems using a 1-D hydrodynamic model, MCMC methods for modeling 
+disease ecology, modeling of potential harmful algal blooms in lake ecosystems using a 1-D hydrodynamic model, MCMC methods for modeling
 atmospheric carbon dioxide concentrations, the physiology of lobster calcification, and individual based modeling of blue crabs in the Chesapeake Bay.
 
 Arianna is excited to get started at the interface of modeling, bioinformatics, and experimental/field work in the Alexander Lab and with the Darwin
-Project at MIT. She hopes to soon gain experience with transcriptomics, spend more time on the HPC, and to nurture her ongoing fascination with 
+Project at MIT. She hopes to soon gain experience with transcriptomics, spend more time on the HPC, and to nurture her ongoing fascination with
 the phytoplankton and algal blooms.
