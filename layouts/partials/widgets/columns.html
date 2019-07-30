@@ -1,0 +1,20 @@
+{{ $st := .page }}
+
+<div class="row">
+  <div class="col-lg-12">
+    {{ with $st.Title }}<h1>{{ . | markdownify | emojify }}</h1>{{ end }}
+
+    <div class="row">
+      <div class="col-md-7">
+        {{ $st.Content }}
+      </div>
+
+      <div class="col-md-5">
+        <p><img src="img/lingcod.jpg", width=400></p>
+        <p><img src="img/ocean.JPG", width=400></p>
+      </div>
+
+    </div>
+
+  </div>
+</div>

@@ -1,75 +1,87 @@
----
++++
 # Display name
-name: Nelson Bighetti
+name = "Kiva Oken"
 
 # Username (this should match the folder name)
-authors:
-- admin
+authors = ["kiva-oken"]
 
 # Is this the primary user of the site?
-superuser: true
+superuser = true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role = "Assistant Professor"
 
 # Organizations/Affiliations
-organizations:
-- name: Stanford University
-  url: ""
+#   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
+organizations = [ {name = "she/her"}, { name = "Department of Wildlife, Fish, and Conservation Biology", url = "http://wfcb.ucdavis.edu" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio = "I rock."
 
-interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+# Enter email to display Gravatar (if Gravatar enabled in Config)
+email = ""
 
-education:
-  courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+# List (academic) interests or hobbies
+interests = [
+  "Fishery ecology and management",
+  "Ecological modeling",
+  "Statistical methods"
+]
+
+# Organizational groups that you belong to (for People widget)
+#   Set this to `[]` or comment out if you are not using People widget.
+user_groups = ["Faculty"]
+
+# List qualifications (such as academic degrees)
+[[education.courses]]
+  course = "PhD in Quantitative Ecology & Resource Management"
+  institution = "University of Washington"
+  year = 2016
+
+[[education.courses]]
+  course = "BA in Mathematics"
+  institution = "Carleton College"
+  year = 2010
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
-social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: github
-  icon_pack: fab
-  link: https://github.com/gcushen
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
 
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+[[social]]
+  icon = "envelope"
+  icon_pack = "fas"
+  link = "mailto:okenk@uw.edu"
+
+[[social]]
+  icon = "twitter"
+  icon_pack = "fab"
+  link = "https://twitter.com/KivaOken"
+
+[[social]]
+  icon = "google-scholar"
+  icon_pack = "ai"
+  link = "https://scholar.google.com/citations?user=1cjgLKQAAAAJ&hl=en"
   
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.  
-user_groups:
-- Researchers
-- Visitors
----
+[[social]]
+  icon = "orcid"
+  icon_pack = "ai"
+  link = "https://orcid.org/0000-0002-5627-6837"
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+[[social]]
+  icon = "github"
+  icon_pack = "fab"
+  link = "https://github.com/okenk"
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+# Link to a PDF of your resume/CV from the About widget.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+# [[social]]
+#   icon = "cv"
+#   icon_pack = "ai"
+#   link = "files/cv.pdf"
+
++++
+
+### Biography
+
+Kiva completed her BA in Math at Carleton College in 2010 and her PhD at the University of Washington in the Quantitative Ecology & Resource Management (QERM) program in 2016, followed by postdocs at Rutgers University and the University of Washington/NOAA Northwest Fisheries Science Center. Her research approach combines novel statistical methods and mechanistic mathematical models in order to study complex data sets, answer ecological questions, and help improve fisheries management. She's also easily distracted by colleagues' statistical quandries. When not writing beautiful R code, she enjoys eating good food with friends and propelling herself in a variety of modes over trails, roads, rocks, water, and snow.

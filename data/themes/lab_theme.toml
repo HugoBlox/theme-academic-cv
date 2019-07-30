@@ -1,0 +1,20 @@
+# Theme metadata
+name = "lab_theme"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#231e55"
+primary_light = "#757de8"
+primary_dark = "#002984"
+
+# Menu
+menu_primary = "#231e55" # 500
+menu_text = "#fff"
+menu_text_active = "#e0a192" # A100
+menu_title = "#fff"
+
+# Home sections
+home_section_odd = "rgb(255, 255, 255)"
+home_section_even = "rgb(247, 247, 247)"
