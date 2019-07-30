@@ -12,7 +12,7 @@ superuser = true
 role = "Assistant Scientist"
 
 # Organizations/Affiliations
-organizations = [ { name = "Woods Hole Oceanographic Institution", url = "whoi.edu" } ]
+organizations = [ { name = "Woods Hole Oceanographic Institution", url = "https://www.whoi.edu/" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "Harriet heads up the Alexander Lab and probably spends a bit too much time thinking about automation."

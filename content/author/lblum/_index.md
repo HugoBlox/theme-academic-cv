@@ -12,7 +12,7 @@ superuser = false
 role = "Undergraduate Researcher"
 
 # Organizations/Affiliations
-organizations = [{ name = "Middlebury College", url = "middlebury.edu" }]
+organizations = [{ name = "Middlebury College", url = "http://www.middlebury.edu/" }]
 
 
 # Short bio (displayed in user profile at end of posts)

@@ -12,8 +12,8 @@ superuser = false
 role = "Graduate Student"
 
 # Organizations/Affiliations
-organizations = [ { name = "Woods Hole Oceanographic Institution", url = "whoi.edu" },
-				  { name = "Massachusetts Institute of Technology", url = "mit.edu" }]
+organizations = [ { name = "Woods Hole Oceanographic Institution", url = "https://www.whoi.edu/" },
+				  { name = "Massachusetts Institute of Technology", url = "https://mit.edu" }]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "Arianna is a first-year graduate student in the Alexander Lab working with Harriet & Mick Follows at MIT."

@@ -12,7 +12,7 @@ superuser = true
 role = ""
 
 # Organizations/Affiliations
-organizations = [ { name = "Woods Hole Oceanographic Institution", url = "whoi.edu" } ]
+organizations = [ { name = "Woods Hole Oceanographic Institution", url = "https://www.whoi.edu/" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = ""
