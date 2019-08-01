@@ -9,7 +9,7 @@ date: "2016-04-27T00:00:00Z"
 external_link: ""
 
 image:
-  caption: App home screen
+  caption: App search screen
   focal_point: Smart
 
 links:

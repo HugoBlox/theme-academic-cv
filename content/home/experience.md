@@ -21,7 +21,7 @@ date_format = "Jan 2006"
 [[experience]]
   title = "Research Assistant"
   company = "Applied Machine Learning Lab"
-  date_start = "2018-10-30"
+  date_start = "2019-01-06"
   description = "Research into novel neural network algorithms for metalearning"
 
 [[experience]]
@@ -41,8 +41,7 @@ date_format = "Jan 2006"
   title = "Software Engineer"
   company = "Qualtrics"
   date_start = "2019-05-06"
-  date_end = "2019-08-30"
-  description = "Member of the Data Pipeline team managing data ingestion, flow, and storage."
+  description = "Member of the Data Pipeline team managing data ingestion, flow, and storage. Responsible for improving the edit system."
 
 [[experience]]
   title = "Student Software Engineer"
