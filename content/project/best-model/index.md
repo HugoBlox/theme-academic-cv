@@ -1,8 +1,8 @@
 ---
 title: BestModel - R Graphics Package
-summary: An R Package to return a variety of different model types, complete with hyper-parameter tuning
+summary: An R Package to plot a variety of different model types with hyperparameter tuning
 tags:
-- Demo
+- Machine Learning
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

@@ -3,6 +3,7 @@ title: BYU Housing
 summary: An Android app to help BYU students find housing
 tags:
 - Demo
+- Android
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
