@@ -7,7 +7,7 @@ weight: 2  # Order that this section will appear.
 
 # Publications
 
-Lab members are in bold. Many of these are open access, but please contact us if you'd like a copy of one behind a paywall!
+Many of these are open access, but please [get in touch]({{< ref "/#contact" >}}) if you'd like a copy of one behind a paywall!
 
 11. Jensen O.P., C.W. Martin, **K.L. Oken**, F.J. Fodrie, P.C. López-Duarte, K.W. Able, and B.J. Roberts. (In press) Simultaneous estimation of dispersal and survival of the Gulf Killifish (*Fundulus grandis*) from a batch tagging experiment. Marine Ecology Progress Series.
 10. Free C.M., J.T. Thorson, M.L. Pinsky, **K.L. Oken**, J. Wiedenmann, and O.P. Jensen. (2019) [Impacts of historical warming on fisheries production](https://science.sciencemag.org/content/363/6430/979). Science. 363:979-983.

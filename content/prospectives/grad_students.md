@@ -3,13 +3,13 @@ widget: "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless: true  # This file represents a page section.
 active: true  # Activate this widget? true/false
 weight: 10  # Order that this section will appear.
+
 design:
   columns: "1"
-  spacing:
-    padding: ["0", "0", "0", "0"]
+  # spacing:
+  #   padding: ["0", "0", "0", "0"]
 ---
-
-### Graduate students
+## **Graduate students**
 
 {{% alert note %}} 
 I am planning to accept one or two graduate students (MS or PhD) into my lab for Fall, 2020 through the [UC Davis Graduate Group in Ecology (GGE)](https://ecology.ucdavis.edu/admissions). Fee waivers are available for certain applicants for both the [application fee](https://grad.ucdavis.edu/admissions/admission-requirements/steps-applying)  (see "Graduate Preparation Program Participants") and the [GRE](https://www.ets.org/gre/revised_general/about/fees/reductions/) (which the GGE does require). Please get in touch if you're interested! (See advice below)

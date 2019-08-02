@@ -5,8 +5,8 @@ active: true  # Activate this widget? true/false
 weight: 20  # Order that this section will appear.
 design:
   columns: "1"
-  spacing:
-    padding: ["0", "0", "0", "0"]
+  # spacing:
+  #   padding: ["0", "0", "0", "0"]
 ---
 
 ### Postdocs
