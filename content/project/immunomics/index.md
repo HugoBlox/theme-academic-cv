@@ -10,7 +10,7 @@ summary = "High-throuput screening and data integration for diagnostics tool dev
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Immunomics"]
+tags = ["immunomics"]
 
 # People in this project
 authors = ["@alejandro", "@leonel", "@santiago", "@fernan"]
