@@ -27,16 +27,16 @@ interests:
 
 education:
   courses:
-  - course: DPhil in Economics
+  - course: DPhil Economics
     institution: University of Oxford
     year: 2018 - present
-  - course: MPhil in Economics
+  - course: MPhil Economics
     institution: University of Oxford
     year: 2018
-  - course: MRes in Financial Computing & Analytics
+  - course: MRes Financial Computing & Analytics
     institution: UCL
     year: 2016
-  - course: BA in Economics & Management
+  - course: BA Economics & Management
     institution: University of Oxford
     year: 2014
 
