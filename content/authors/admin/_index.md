@@ -33,6 +33,9 @@ education:
   - course: MPhil in Economics
     institution: University of Oxford
     year: 2018
+  - course: MRes in Financial Computing & Analytics
+    institution: UCL
+    year: 2016
   - course: BA in Economics & Management
     institution: University of Oxford
     year: 2014
