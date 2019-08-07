@@ -1,4 +1,11 @@
-# [Academic Kickstart](https://sourcethemes.com/academic/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cb559411-6b3a-4dc1-87e2-c7dc3f0c2514/deploy-status)](https://app.netlify.com/sites/trypanosomatics/deploys)
+
+# [Trypanosomatics Lab Web Site](https://trypanosomatics.org/)
+
+
+
+
+# Built with [Academic Kickstart](https://sourcethemes.com/academic/)
 
 **Academic** makes it easy to create a beautiful website for free using Markdown, Jupyter, or RStudio. Customize anything on your site with widgets, themes, and language packs. [Check out the latest demo](https://academic-demo.netlify.com/) of what you'll get in less than 10 minutes, or [view the showcase](https://sourcethemes.com/academic/#expo).
 
