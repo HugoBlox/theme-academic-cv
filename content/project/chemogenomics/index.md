@@ -46,7 +46,7 @@ links = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitt
   focal_point = "Top"
 +++
 
-A stem research line in Trypanosomatics Lab, which gives rise to a wide variety of projects: 
+This is a major research line in the Trypanosomatics Lab, which gives rise to a wide variety of projects: 
 
 <ul>
   <li><a href="{{< ref "/project/TDR-targets" >}}">TDR Targets</a></li>
@@ -54,4 +54,14 @@ A stem research line in Trypanosomatics Lab, which gives rise to a wide variety 
   <li><a href="{{< ref "/project/HTS" >}}">High-throughput screening of trypanocidal agents</a></li>
 </ul>
 
-All of these projects are intended to find novel ways to treat african and american trypanosomiasis (among other neglected diseases). 
+All these projects have in common the ultimate goal of finding new
+treatments (drugs) for infectious diseases. 
+
+Depending on the approach (computational vs hybrid vs experimental), we may
+target a large number of human pathogens (as in [TDR Targets]({{< ref
+"/project/TDR-Targets" >}})) or may concentrate only on Chagas Disease
+(American Trypanosomiasis, caused by _Trypanosoma cruzi_) or on Sleeping
+Sickness (Human African Trypanosomiasis, HAT, caused by _Trypanosoma
+brucei_). 
+
+Please check the pages for these subprojects for more information. 
