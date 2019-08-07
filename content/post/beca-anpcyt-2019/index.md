@@ -9,7 +9,7 @@ tags: ["beca", "agencia", "doctorado"]
 categories: []
 date: 2019-06-24T15:11:14-03:00
 lastmod: 2019-06-24T15:11:14-03:00
-featured: false
+featured: true
 draft: false
 
 # Featured image
