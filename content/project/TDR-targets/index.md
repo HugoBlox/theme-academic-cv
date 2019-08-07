@@ -1,9 +1,9 @@
 +++
 # Project title.
-title = "Chemogenomics"
+title = "TDR Targets"
 
 # Date this page was created.
-date = 2016-04-27T00:00:00
+date = 2019-08-03T00:00:00
 
 # Project summary to display on homepage.
 summary = "Data integration for target prioritization and drug discovery or repurposing"
@@ -12,7 +12,7 @@ summary = "Data integration for target prioritization and drug discovery or repu
 tags = ["chemogenomics", "networks", "drug-repositioning", "drug-discovery"]
 
 # People in this project
-authors = ["@lionel", "@mercedes", "@emir", "@paula", "@fernan"]
+authors = ["@lionel", "@paula", "@fernan"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -39,19 +39,11 @@ links = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitt
 # To use, add an image named `featured.jpg/png` to your project's folder. 
 [image]
   # Caption (optional)
-  caption = "Genomics based drug discovery, by [@leitouran](/authors/lionel)"
+  caption = "TDR Targets Logo, by [@leitouran](/authors/lionel)"
   
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = "Top"
 +++
 
-A stem research line in Trypanosomatics Lab, which gives rise to a wide variety of projects: 
-
-<ul>
-  <li><a href="{{< ref "/project/TDR-targets" >}}">TDR Targets</a></li>
-  <li><a href="{{< ref "/project/Yeast-repo" >}}">Yeast-to-Tryp Drug Repurposing</a></li>
-  <li><a href="{{< ref "/project/HTS" >}}">High-throughput screening of trypanocidal agents</a></li>
-</ul>
-
-All of these projects are intended to find novel ways to treat african and american trypanosomiasis (among other neglected diseases). 
+The volume of biological, chemical and functional data deposited in the public domain is growing rapidly, thanks to next generation sequencing, and highly-automated screening technologies. However, there is still a large data imbalance between model, well-funded organisms and pathogens causing neglected diseases (NDs). We developed a chemogenomics resource, (TDR Targets, <a href="http://tdrtargets.org">http://tdrtargets.org</a>), that aims to organize and integrate heterogeneous large datasets with a focus on drug discovery for human pathogens. The database also hosts chemical and genomic data from other organisms to leverage data for comparative and inference-based queries. One of the major impacts of TDR Targets is to facilitate target and chemical prioritizations by allowing users to formulate complex queries across diverse query spaces. 
