@@ -1,0 +1,256 @@
+---
+title: DVC Points Chart Analysis Part 2
+author: ''
+date: '2019-08-07'
+slug: dvc-points-chart-analysis-part-2
+categories: []
+tags: []
+---
+
+<script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
+<script src="/rmarkdown-libs/plotly-binding/plotly.js"></script>
+<script src="/rmarkdown-libs/typedarray/typedarray.min.js"></script>
+<script src="/rmarkdown-libs/jquery/jquery.min.js"></script>
+<link href="/rmarkdown-libs/crosstalk/css/crosstalk.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/crosstalk/js/crosstalk.min.js"></script>
+<link href="/rmarkdown-libs/plotly-htmlwidgets-css/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/plotly-main/plotly-latest.min.js"></script>
+
+
+<div id="dvc-analysis" class="section level2">
+<h2>DVC Analysis</h2>
+<p>In this post, I will expand on my analysis from <a href="https://mikaylaedwards.netlify.com/post/dvc-points-chart-analysis-part-1/">part 1</a>. Here, I will merge the points charts datasets I created for Bay Lake Tower (BLT) and The Beach Club (BC). By wrangling the charts into a “tidy” data structure, we can easily produce visualizations and insights comparing the two resorts.</p>
+<pre class="r"><code>library(tidyverse)
+library(lubridate)
+library(plotly)
+bc&lt;-readRDS(&quot;BC2020.rds&quot;)
+blt&lt;-readRDS(&quot;BLT2020.rds&quot;)
+comp&lt;-bind_rows(bc,blt)
+comp$resort&lt;-as.factor(comp$resort)
+head(comp)</code></pre>
+<pre><code>##        room    season weekday points     resort view
+## 1    Studio ADVENTURE  Sun_Th     15 Beach Club &lt;NA&gt;
+## 2 1-Bedroom ADVENTURE  Sun_Th     27 Beach Club &lt;NA&gt;
+## 3 2-Bedroom ADVENTURE  Sun_Th     37 Beach Club &lt;NA&gt;
+## 4    Studio    CHOICE  Sun_Th     15 Beach Club &lt;NA&gt;
+## 5 1-Bedroom    CHOICE  Sun_Th     29 Beach Club &lt;NA&gt;
+## 6 2-Bedroom    CHOICE  Sun_Th     38 Beach Club &lt;NA&gt;</code></pre>
+<p>Below I filter out 3 bedrooms, as Beach Club does not have this room type, and plot the average points required for each season, room type, and resort.</p>
+<pre class="r"><code>avg_points&lt;-comp %&gt;%
+  filter(room != &quot;3-Bedroom&quot;) %&gt;%
+  group_by(season,room,resort) %&gt;% summarise(avg_point=mean(points))
+
+avg_points %&gt;%
+  ungroup() %&gt;% 
+  ggplot(aes(x=fct_reorder(season,avg_point),y=avg_point, group=resort))+
+  geom_col(aes(fill=resort),position = &quot;dodge&quot;)+
+  geom_text(aes(label=round(avg_point,1)),position = position_dodge(0.9),vjust = 0)+
+  scale_fill_manual(values = c(&quot;skyblue&quot;,&quot;maroon&quot;))+
+  facet_wrap(~room)+
+  coord_flip()+
+  labs(y=&quot;Points&quot;,x=&quot;&quot;)</code></pre>
+<p><img src="/post/2019-08-07-dvc-points-chart-analysis-part-2_files/figure-html/unnamed-chunk-2-1.png" width="672" />
+What is the average difference per night between BLT &amp; the BC for each season &amp; room type?</p>
+<pre class="r"><code>diff&lt;-avg_points %&gt;%
+  group_by(season,room) %&gt;%
+  transmute(Diff = avg_point- lag(avg_point)) %&gt;% 
+  filter(!is.na(Diff)) %&gt;%
+  ungroup()
+pldiff&lt;-
+  diff %&gt;% ggplot(aes(x=season,y=Diff,group=room))+geom_line(aes(color=room))+geom_point()+labs(y=&quot;Avg Point Difference / Night   (BLT-BC)&quot;)
+ggplotly(pldiff)</code></pre>
+<p><div id="htmlwidget-1" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"data":[{"x":[1,2,3,4,5],"y":[5.33333333333334,5.5,5.16666666666666,6.66666666666666,6.16666666666666],"text":["room: 1-Bedroom<br />season: ADVENTURE<br />Diff:  5.333333<br />room: 1-Bedroom","room: 1-Bedroom<br />season: CHOICE<br />Diff:  5.500000<br />room: 1-Bedroom","room: 1-Bedroom<br />season: DREAM<br />Diff:  5.166667<br />room: 1-Bedroom","room: 1-Bedroom<br />season: MAGIC<br />Diff:  6.666667<br />room: 1-Bedroom","room: 1-Bedroom<br />season: PREMIER<br />Diff:  6.166667<br />room: 1-Bedroom"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(248,118,109,1)","dash":"solid"},"hoveron":"points","name":"1-Bedroom","legendgroup":"1-Bedroom","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[1,2,3,4,5],"y":[6.33333333333334,7.5,8.66666666666666,8.5,11.8333333333333],"text":["room: 2-Bedroom<br />season: ADVENTURE<br />Diff:  6.333333<br />room: 2-Bedroom","room: 2-Bedroom<br />season: CHOICE<br />Diff:  7.500000<br />room: 2-Bedroom","room: 2-Bedroom<br />season: DREAM<br />Diff:  8.666667<br />room: 2-Bedroom","room: 2-Bedroom<br />season: MAGIC<br />Diff:  8.500000<br />room: 2-Bedroom","room: 2-Bedroom<br />season: PREMIER<br />Diff: 11.833333<br />room: 2-Bedroom"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(0,186,56,1)","dash":"solid"},"hoveron":"points","name":"2-Bedroom","legendgroup":"2-Bedroom","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[1,2,3,4,5],"y":[2.5,3.33333333333333,3.5,3.33333333333333,4.16666666666667],"text":["room: Studio<br />season: ADVENTURE<br />Diff:  2.500000<br />room: Studio","room: Studio<br />season: CHOICE<br />Diff:  3.333333<br />room: Studio","room: Studio<br />season: DREAM<br />Diff:  3.500000<br />room: Studio","room: Studio<br />season: MAGIC<br />Diff:  3.333333<br />room: Studio","room: Studio<br />season: PREMIER<br />Diff:  4.166667<br />room: Studio"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(97,156,255,1)","dash":"solid"},"hoveron":"points","name":"Studio","legendgroup":"Studio","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[1,1,1,2,2,2,3,3,3,4,4,4,5,5,5],"y":[5.33333333333334,6.33333333333334,2.5,5.5,7.5,3.33333333333333,5.16666666666666,8.66666666666666,3.5,6.66666666666666,8.5,3.33333333333333,6.16666666666666,11.8333333333333,4.16666666666667],"text":["season: ADVENTURE<br />Diff:  5.333333<br />room: 1-Bedroom","season: ADVENTURE<br />Diff:  6.333333<br />room: 2-Bedroom","season: ADVENTURE<br />Diff:  2.500000<br />room: Studio","season: CHOICE<br />Diff:  5.500000<br />room: 1-Bedroom","season: CHOICE<br />Diff:  7.500000<br />room: 2-Bedroom","season: CHOICE<br />Diff:  3.333333<br />room: Studio","season: DREAM<br />Diff:  5.166667<br />room: 1-Bedroom","season: DREAM<br />Diff:  8.666667<br />room: 2-Bedroom","season: DREAM<br />Diff:  3.500000<br />room: Studio","season: MAGIC<br />Diff:  6.666667<br />room: 1-Bedroom","season: MAGIC<br />Diff:  8.500000<br />room: 2-Bedroom","season: MAGIC<br />Diff:  3.333333<br />room: Studio","season: PREMIER<br />Diff:  6.166667<br />room: 1-Bedroom","season: PREMIER<br />Diff: 11.833333<br />room: 2-Bedroom","season: PREMIER<br />Diff:  4.166667<br />room: Studio"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(0,0,0,1)","opacity":1,"size":5.66929133858268,"symbol":"circle","line":{"width":1.88976377952756,"color":"rgba(0,0,0,1)"}},"hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":26.2283105022831,"r":7.30593607305936,"b":40.1826484018265,"l":48.9497716894977},"plot_bgcolor":"rgba(235,235,235,1)","paper_bgcolor":"rgba(255,255,255,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[0.4,5.6],"tickmode":"array","ticktext":["ADVENTURE","CHOICE","DREAM","MAGIC","PREMIER"],"tickvals":[1,2,3,4,5],"categoryorder":"array","categoryarray":["ADVENTURE","CHOICE","DREAM","MAGIC","PREMIER"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"y","title":{"text":"season","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[2.03333333333333,12.3],"tickmode":"array","ticktext":["2.5","5.0","7.5","10.0"],"tickvals":[2.5,5,7.5,10],"categoryorder":"array","categoryarray":["2.5","5.0","7.5","10.0"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"x","title":{"text":"Avg Point Difference / Night   (BLT-BC)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":true,"legend":{"bgcolor":"rgba(255,255,255,1)","bordercolor":"transparent","borderwidth":1.88976377952756,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895},"y":0.913385826771654},"annotations":[{"text":"room","x":1.02,"y":1,"showarrow":false,"ax":0,"ay":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"xref":"paper","yref":"paper","textangle":-0,"xanchor":"left","yanchor":"bottom","legendTitle":true}],"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","showSendToCloud":false},"source":"A","attrs":{"b4a24bf9156":{"colour":{},"x":{},"y":{},"type":"scatter"},"b4a1cdeb7f3":{"x":{},"y":{}}},"cur_data":"b4a24bf9156","visdat":{"b4a24bf9156":["function (y) ","x"],"b4a1cdeb7f3":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+Studios have the smallest difference in points/night. Interestingly, the difference peaks in the Premier season for studios and 2-bedrooms, while for 1-bedrooms the largest difference is observed in the Magic season.</p>
+<p>Because BLT offers tiered room views, while the Beach Club does not, the average points per night are difficult to compare (as Magic Kingdom (MK) views are much higher than Standard Views (SV)). So it might be better to compare the difference between BLT SV rooms and Beach Club rooms.</p>
+<pre class="r"><code>#remove 3-Bed and MK/LV rooms (Beach Club does not have)
+sv_only&lt;-comp %&gt;%
+  filter(room != &quot;3-Bedroom&quot;, !view %in% c(&quot;MK&quot;,&quot;LV&quot;)) %&gt;%
+  group_by(season,room,resort) %&gt;% summarise(avg_point=mean(points))
+sv_only&lt;-sv_only %&gt;% 
+  #get difference
+  group_by(season,room) %&gt;%
+  transmute(Diff = avg_point- lag(avg_point)) %&gt;% 
+  filter(!is.na(Diff)) %&gt;% 
+  ungroup()
+difplot2&lt;- sv_only %&gt;% 
+  ggplot(aes(x=season,y=Diff,group=room))+
+  geom_line(aes(color=room))+
+  geom_point()+
+  labs(y=&quot;Point Difference / Night  (BLT-BC)&quot;)
+ggplotly(difplot2)</code></pre>
+<p><div id="htmlwidget-2" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-2">{"x":{"data":[{"x":[1,2,3,4,5],"y":[0,0.5,-0.5,0.5,-1.5],"text":["room: 1-Bedroom<br />season: ADVENTURE<br />Diff:  0.0<br />room: 1-Bedroom","room: 1-Bedroom<br />season: CHOICE<br />Diff:  0.5<br />room: 1-Bedroom","room: 1-Bedroom<br />season: DREAM<br />Diff: -0.5<br />room: 1-Bedroom","room: 1-Bedroom<br />season: MAGIC<br />Diff:  0.5<br />room: 1-Bedroom","room: 1-Bedroom<br />season: PREMIER<br />Diff: -1.5<br />room: 1-Bedroom"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(248,118,109,1)","dash":"solid"},"hoveron":"points","name":"1-Bedroom","legendgroup":"1-Bedroom","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[1,2,3,4,5],"y":[0.5,1,1,1,2.5],"text":["room: 2-Bedroom<br />season: ADVENTURE<br />Diff:  0.5<br />room: 2-Bedroom","room: 2-Bedroom<br />season: CHOICE<br />Diff:  1.0<br />room: 2-Bedroom","room: 2-Bedroom<br />season: DREAM<br />Diff:  1.0<br />room: 2-Bedroom","room: 2-Bedroom<br />season: MAGIC<br />Diff:  1.0<br />room: 2-Bedroom","room: 2-Bedroom<br />season: PREMIER<br />Diff:  2.5<br />room: 2-Bedroom"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(0,186,56,1)","dash":"solid"},"hoveron":"points","name":"2-Bedroom","legendgroup":"2-Bedroom","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[1,2,3,4,5],"y":[-0.5,0.5,0,0.5,0.5],"text":["room: Studio<br />season: ADVENTURE<br />Diff: -0.5<br />room: Studio","room: Studio<br />season: CHOICE<br />Diff:  0.5<br />room: Studio","room: Studio<br />season: DREAM<br />Diff:  0.0<br />room: Studio","room: Studio<br />season: MAGIC<br />Diff:  0.5<br />room: Studio","room: Studio<br />season: PREMIER<br />Diff:  0.5<br />room: Studio"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(97,156,255,1)","dash":"solid"},"hoveron":"points","name":"Studio","legendgroup":"Studio","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[1,1,1,2,2,2,3,3,3,4,4,4,5,5,5],"y":[0,0.5,-0.5,0.5,1,0.5,-0.5,1,0,0.5,1,0.5,-1.5,2.5,0.5],"text":["season: ADVENTURE<br />Diff:  0.0<br />room: 1-Bedroom","season: ADVENTURE<br />Diff:  0.5<br />room: 2-Bedroom","season: ADVENTURE<br />Diff: -0.5<br />room: Studio","season: CHOICE<br />Diff:  0.5<br />room: 1-Bedroom","season: CHOICE<br />Diff:  1.0<br />room: 2-Bedroom","season: CHOICE<br />Diff:  0.5<br />room: Studio","season: DREAM<br />Diff: -0.5<br />room: 1-Bedroom","season: DREAM<br />Diff:  1.0<br />room: 2-Bedroom","season: DREAM<br />Diff:  0.0<br />room: Studio","season: MAGIC<br />Diff:  0.5<br />room: 1-Bedroom","season: MAGIC<br />Diff:  1.0<br />room: 2-Bedroom","season: MAGIC<br />Diff:  0.5<br />room: Studio","season: PREMIER<br />Diff: -1.5<br />room: 1-Bedroom","season: PREMIER<br />Diff:  2.5<br />room: 2-Bedroom","season: PREMIER<br />Diff:  0.5<br />room: Studio"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(0,0,0,1)","opacity":1,"size":5.66929133858268,"symbol":"circle","line":{"width":1.88976377952756,"color":"rgba(0,0,0,1)"}},"hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":26.2283105022831,"r":7.30593607305936,"b":40.1826484018265,"l":37.2602739726027},"plot_bgcolor":"rgba(235,235,235,1)","paper_bgcolor":"rgba(255,255,255,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[0.4,5.6],"tickmode":"array","ticktext":["ADVENTURE","CHOICE","DREAM","MAGIC","PREMIER"],"tickvals":[1,2,3,4,5],"categoryorder":"array","categoryarray":["ADVENTURE","CHOICE","DREAM","MAGIC","PREMIER"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"y","title":{"text":"season","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-1.7,2.7],"tickmode":"array","ticktext":["-1","0","1","2"],"tickvals":[-1,0,1,2],"categoryorder":"array","categoryarray":["-1","0","1","2"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"x","title":{"text":"Point Difference / Night  (BLT-BC)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":true,"legend":{"bgcolor":"rgba(255,255,255,1)","bordercolor":"transparent","borderwidth":1.88976377952756,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895},"y":0.913385826771654},"annotations":[{"text":"room","x":1.02,"y":1,"showarrow":false,"ax":0,"ay":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"xref":"paper","yref":"paper","textangle":-0,"xanchor":"left","yanchor":"bottom","legendTitle":true}],"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","showSendToCloud":false},"source":"A","attrs":{"b4a3b6a5a67":{"colour":{},"x":{},"y":{},"type":"scatter"},"b4a43553eaa":{"x":{},"y":{}}},"cur_data":"b4a3b6a5a67","visdat":{"b4a3b6a5a67":["function (y) ","x"],"b4a43553eaa":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+From this, we see that SV rooms at BLT are much closer to BC rooms. In some seasons, the difference is actually negative (meaning BC rooms are more points).</p>
+<p>2-Bedrooms at BLT require more points across all seasons. For Studios and 1-Bedrooms, however, there are certain seasons during which Beach Club rooms are more expensive points-wise (BLT-BC is negative).In particular, a 1-Bedroom during the Premier season is an average of 1.5 more points/night at BC than at BLT.</p>
+<p>To visualize trends by date rather than season, we need to create a dataframe that links each date to a season and then join this with the points dataset.</p>
+<pre class="r"><code>#ymd() in lubridate package means &quot;month-day-year&quot;, which is used to convert
+#the string to date object
+start_date &lt;- ymd(&quot;2020-01-01&quot;)
+#calculate how many days in time interval
+date&lt;-start_date + days(0:365)
+date&lt;-as.data.frame(date)</code></pre>
+<p>Create vectors containing the intervals for each season.</p>
+<pre class="r"><code>ad_ints&lt;- c(interval(ymd(&quot;2020-01-01&quot;), ymd(&quot;2020-01-31&quot;)),interval(ymd(&quot;2020-09-01&quot;), ymd(&quot;2020-09-30&quot;)),interval(ymd(&quot;2020-12-01&quot;), ymd(&quot;2020-12-14&quot;)))
+choice_ints&lt;- c(interval(ymd(&quot;2020-10-01&quot;), ymd(&quot;2020-11-24&quot;)),interval(ymd(&quot;2020-11-28&quot;), ymd(&quot;2020-11-30&quot;)),interval(ymd(&quot;2020-12-15&quot;), ymd(&quot;2020-12-23&quot;)))
+dream_ints&lt;- c(interval(ymd(&quot;2020-02-01&quot;), ymd(&quot;2020-02-15&quot;)),interval(ymd(&quot;2020-05-01&quot;), ymd(&quot;2020-06-10&quot;)),interval(ymd(&quot;2020-08-16&quot;), ymd(&quot;2020-08-31&quot;)))
+magic_ints&lt;- c(interval(ymd(&quot;2020-02-16&quot;), ymd(&quot;2020-04-04&quot;)),interval(ymd(&quot;2020-04-19&quot;), ymd(&quot;2020-04-30&quot;)),interval(ymd(&quot;2020-06-11&quot;), ymd(&quot;2020-08-15&quot;)),interval(ymd(&quot;2020-11-25&quot;), ymd(&quot;2020-11-27&quot;)))
+premier_ints&lt;- c(interval(ymd(&quot;2020-04-05&quot;), ymd(&quot;2020-04-18&quot;)),interval(ymd(&quot;2020-12-24&quot;), ymd(&quot;2020-12-31&quot;)))</code></pre>
+<p>If a date falls within one of the intervals for a season, classify it accordingly. Creates dataframe with 2 columns: date and corresponding season name</p>
+<pre class="r"><code>df&lt;-date %&gt;% mutate(
+  season=case_when(
+    ##date falls within any 3 date ranges for each season
+    date %within% ad_ints[1] | date %within% ad_ints[2]| date %within% ad_ints[3]~ &quot;adventure&quot;,
+     date %within% dream_ints[1] | date %within% dream_ints[2]| date %within% dream_ints[3]~ &quot;dream&quot;,
+     date %within% magic_ints[1] | date %within% magic_ints[2]| date %within% magic_ints[3]| date %within% magic_ints[4]~ &quot;magic&quot;,
+     date %within% choice_ints[1] | date %within% choice_ints[2]| date %within% choice_ints[3]~ &quot;choice&quot;,
+     date %within% premier_ints[1] | date %within% premier_ints[2]| date %within% premier_ints[3]~ &quot;premier&quot;,
+  )
+)
+df %&gt;% head()</code></pre>
+<pre><code>##         date    season
+## 1 2020-01-01 adventure
+## 2 2020-01-02 adventure
+## 3 2020-01-03 adventure
+## 4 2020-01-04 adventure
+## 5 2020-01-05 adventure
+## 6 2020-01-06 adventure</code></pre>
+<p>Remove Magic Kingdom (MK) &amp; Lake View (LV) rooms and convert season column to lowercase. Left join to append dates dataframe to existing dataset.</p>
+<pre class="r"><code>comp&lt;-comp %&gt;% filter(!view %in% c(&quot;MK&quot;,&quot;LV&quot;)) %&gt;% select(-view) %&gt;% mutate(
+  season=map_chr(season,~str_to_lower(.x)))
+all_dates&lt;-left_join(df,comp,by=&quot;season&quot;)
+all_dates %&gt;% head()</code></pre>
+<pre><code>##         date    season      room weekday points     resort
+## 1 2020-01-01 adventure    Studio  Sun_Th     15 Beach Club
+## 2 2020-01-01 adventure 1-Bedroom  Sun_Th     27 Beach Club
+## 3 2020-01-01 adventure 2-Bedroom  Sun_Th     37 Beach Club
+## 4 2020-01-01 adventure    Studio Fri_Sat     16 Beach Club
+## 5 2020-01-01 adventure 1-Bedroom Fri_Sat     31 Beach Club
+## 6 2020-01-01 adventure 2-Bedroom Fri_Sat     43 Beach Club</code></pre>
+<p>Now our dataframe includes a column with a date for each row.</p>
+<p>How many days are in each season?</p>
+<pre class="r"><code>all_dates %&gt;% group_by(season,room,weekday,resort) %&gt;% 
+  summarize(num_days=n()) %&gt;% 
+  select(season,num_days) %&gt;% 
+  group_by(season) %&gt;% 
+  summarize(
+    total_num_days=max(num_days)
+  ) </code></pre>
+<pre><code>## # A tibble: 5 x 2
+##   season    total_num_days
+##   &lt;chr&gt;              &lt;int&gt;
+## 1 adventure             75
+## 2 choice                67
+## 3 dream                 72
+## 4 magic                130
+## 5 premier               22</code></pre>
+<p>Visualize points by time of year. Horizontal lines are season intervals. Compare Sun-Thursday stays for each room type. Only SV rooms at BLT are included.</p>
+<pre class="r"><code>#function to create plot
+plot_comp&lt;-function(roomtype,weekdaytype){
+all_dates %&gt;% filter(room==roomtype,weekday==weekdaytype) %&gt;% 
+  ggplot(aes(x=date,y=points,group=resort))+
+  geom_point(aes(color=season))+
+  scale_x_date(limits = as.Date(c(&quot;2020-01-01&quot;,&quot;2020-12-31&quot;)))+
+  labs(y=&quot;Points&quot;,x=&quot;&quot;)+
+  ggtitle(paste(roomtype,weekdaytype,sep = &quot;,&quot;))+
+    theme(panel.spacing = unit(2, &quot;lines&quot;))+
+  facet_wrap(~resort)
+}
+plot_comp(&quot;Studio&quot;,&quot;Sun_Th&quot;)</code></pre>
+<p><img src="/post/2019-08-07-dvc-points-chart-analysis-part-2_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
+<pre class="r"><code>plot_comp(&quot;1-Bedroom&quot;,&quot;Sun_Th&quot;)</code></pre>
+<p><img src="/post/2019-08-07-dvc-points-chart-analysis-part-2_files/figure-html/unnamed-chunk-10-2.png" width="672" /></p>
+<pre class="r"><code>plot_comp(&quot;2-Bedroom&quot;,&quot;Sun_Th&quot;)</code></pre>
+<p><img src="/post/2019-08-07-dvc-points-chart-analysis-part-2_files/figure-html/unnamed-chunk-10-3.png" width="672" />
+From this it is clear that Beach Club studios are the least economical during the adventure season, as BLT studios are lower only during this time. Sun-Th studios are equivalent for the choice &amp; premier seasons.
+1-Bedrooms Sun-Th are lower at BLT for every season.
+2-Bedrooms Sun-Th are the same for adventure, magic, and dream seasons. Beach Club 2-bedrooms are higher during the premier season, while BLT 2-bedrooms are higher during the choice season.</p>
+<p>Summary for Sun-Th:
+Studio (choice,premier) –&gt; same
+Studio (dream,magic) –&gt; BLT higher
+Studio (adventure)–&gt; BC higher</p>
+<p>1-BD –&gt; BC always higher</p>
+<p>2-BD (magic,dream,adventure)–&gt; same
+2-BD (premier)–&gt;BC higher
+2-BD (choice)–&gt;BLT higher</p>
+<p>Do the same comparison as above for Fri-sat</p>
+<pre class="r"><code>plot_comp(&quot;Studio&quot;,&quot;Fri_Sat&quot;)</code></pre>
+<p><img src="/post/2019-08-07-dvc-points-chart-analysis-part-2_files/figure-html/unnamed-chunk-11-1.png" width="672" /></p>
+<pre class="r"><code>plot_comp(&quot;1-Bedroom&quot;,&quot;Fri_Sat&quot;)</code></pre>
+<p><img src="/post/2019-08-07-dvc-points-chart-analysis-part-2_files/figure-html/unnamed-chunk-11-2.png" width="672" /></p>
+<pre class="r"><code>plot_comp(&quot;2-Bedroom&quot;,&quot;Fri_Sat&quot;)</code></pre>
+<p><img src="/post/2019-08-07-dvc-points-chart-analysis-part-2_files/figure-html/unnamed-chunk-11-3.png" width="672" />
+Studio (adventure, magic) –&gt; same
+Studio (premier, choice) –&gt; BLT higher
+Studio (dream)–&gt; BC higher</p>
+<p>1-BD (premier,dream) –&gt; same
+1-BD (magic,choice,adventure) –&gt; BLT higher</p>
+<p>2-BD –&gt; BLT always higher</p>
+<pre class="r"><code>#15 combinations of room &amp; season (3x5)
+#some ties kept
+  comp %&gt;% group_by(room,season,weekday) %&gt;% top_n(1,points) %&gt;% arrange(room,season,weekday)</code></pre>
+<pre><code>## # A tibble: 39 x 5
+## # Groups:   room, season, weekday [30]
+##    room      season    weekday points resort    
+##    &lt;chr&gt;     &lt;chr&gt;     &lt;chr&gt;    &lt;dbl&gt; &lt;fct&gt;     
+##  1 1-Bedroom adventure Fri_Sat     32 BLT       
+##  2 1-Bedroom adventure Sun_Th      27 Beach Club
+##  3 1-Bedroom choice    Fri_Sat     35 BLT       
+##  4 1-Bedroom choice    Sun_Th      29 Beach Club
+##  5 1-Bedroom dream     Fri_Sat     40 Beach Club
+##  6 1-Bedroom dream     Fri_Sat     40 BLT       
+##  7 1-Bedroom dream     Sun_Th      35 Beach Club
+##  8 1-Bedroom magic     Fri_Sat     44 BLT       
+##  9 1-Bedroom magic     Sun_Th      37 Beach Club
+## 10 1-Bedroom premier   Fri_Sat     56 Beach Club
+## # … with 29 more rows</code></pre>
+<pre class="r"><code> all_dates&lt;- all_dates %&gt;%
+    mutate(weekday_name=wday(date,label = T),
+           is_weekend=if_else(weekday_name %in% c(&quot;Fri&quot;,&quot;Sat&quot;),1,0)) %&gt;%
+    filter(weekday==&quot;Sun_Th&quot;&amp; is_weekend==0 |weekday==&quot;Fri_Sat&quot;&amp; is_weekend==1 ) %&gt;% 
+    arrange(room,season)
+all_dates %&gt;% head()</code></pre>
+<pre><code>##         date    season      room weekday points     resort weekday_name
+## 1 2020-01-01 adventure 1-Bedroom  Sun_Th     27 Beach Club          Wed
+## 2 2020-01-01 adventure 1-Bedroom  Sun_Th     26        BLT          Wed
+## 3 2020-01-02 adventure 1-Bedroom  Sun_Th     27 Beach Club          Thu
+## 4 2020-01-02 adventure 1-Bedroom  Sun_Th     26        BLT          Thu
+## 5 2020-01-03 adventure 1-Bedroom Fri_Sat     31 Beach Club          Fri
+## 6 2020-01-03 adventure 1-Bedroom Fri_Sat     32        BLT          Fri
+##   is_weekend
+## 1          0
+## 2          0
+## 3          0
+## 4          0
+## 5          1
+## 6          1</code></pre>
+<pre class="r"><code>all_dates %&gt;% select(-weekday,-is_weekend)-&gt;all_dates</code></pre>
+<p>Function will take a start and end date for a stay. Will return a dataframe that summarizes the number of points required for that stay at each resort in each room type.</p>
+<pre class="r"><code>rec_stay&lt;-function(dstart,dend){
+  
+  date_int&lt;-interval(ymd(dstart), ymd(dend))
+  
+ all_dates %&gt;%
+    filter(date %within% date_int) %&gt;% 
+    group_by(room,resort) %&gt;% 
+    summarize(
+      total_points=sum(points)) %&gt;%
+   ungroup() %&gt;% 
+  ggplot(aes(x=room,y=total_points,fill=resort))+
+  geom_col(position = &quot;dodge&quot;)+
+  xlab(&quot;room(SV)&quot;)+
+  scale_fill_manual(values = c(&quot;skyblue&quot;,&quot;grey&quot;))+
+   ggtitle(paste(dstart,dend,sep = &quot;---&quot;))
+ 
+}</code></pre>
+<p>User can enter their stay stay date (e.g. Jan 20th-25th 2020) and get a plot comparing how many points necessary for each room type by resort</p>
+<pre class="r"><code>tpoints&lt;-rec_stay(&quot;2020-01-20&quot;,&quot;2020-01-25&quot;)
+ggplotly(tpoints)</code></pre>
+<div id="htmlwidget-3" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-3">{"x":{"data":[{"orientation":"v","width":[0.45,0.45,0.45],"base":[0,0,0],"x":[0.775,1.775,2.775],"y":[170,234,92],"text":["room: 1-Bedroom<br />total_points: 170<br />resort: Beach Club","room: 2-Bedroom<br />total_points: 234<br />resort: Beach Club","room: Studio<br />total_points:  92<br />resort: Beach Club"],"type":"bar","marker":{"autocolorscale":false,"color":"rgba(135,206,235,1)","line":{"width":1.88976377952756,"color":"transparent"}},"name":"Beach Club","legendgroup":"Beach Club","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":[0.45,0.45,0.45],"base":[0,0,0],"x":[1.225,2.225,3.225],"y":[168,236,88],"text":["room: 1-Bedroom<br />total_points: 168<br />resort: BLT","room: 2-Bedroom<br />total_points: 236<br />resort: BLT","room: Studio<br />total_points:  88<br />resort: BLT"],"type":"bar","marker":{"autocolorscale":false,"color":"rgba(190,190,190,1)","line":{"width":1.88976377952756,"color":"transparent"}},"name":"BLT","legendgroup":"BLT","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":43.7625570776256,"r":7.30593607305936,"b":40.1826484018265,"l":43.1050228310502},"plot_bgcolor":"rgba(235,235,235,1)","paper_bgcolor":"rgba(255,255,255,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"title":{"text":"2020-01-20---2020-01-25","font":{"color":"rgba(0,0,0,1)","family":"","size":17.5342465753425},"x":0,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[0.4,3.6],"tickmode":"array","ticktext":["1-Bedroom","2-Bedroom","Studio"],"tickvals":[1,2,3],"categoryorder":"array","categoryarray":["1-Bedroom","2-Bedroom","Studio"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"y","title":{"text":"room(SV)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-11.8,247.8],"tickmode":"array","ticktext":["0","50","100","150","200"],"tickvals":[0,50,100,150,200],"categoryorder":"array","categoryarray":["0","50","100","150","200"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"x","title":{"text":"total_points","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":true,"legend":{"bgcolor":"rgba(255,255,255,1)","bordercolor":"transparent","borderwidth":1.88976377952756,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895},"y":0.913385826771654},"annotations":[{"text":"resort","x":1.02,"y":1,"showarrow":false,"ax":0,"ay":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"xref":"paper","yref":"paper","textangle":-0,"xanchor":"left","yanchor":"bottom","legendTitle":true}],"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","showSendToCloud":false},"source":"A","attrs":{"b4a4ce7798d":{"x":{},"y":{},"fill":{},"type":"bar"}},"cur_data":"b4a4ce7798d","visdat":{"b4a4ce7798d":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<p>What about a long stay in November/December?</p>
+<pre class="r"><code>tpoints&lt;-rec_stay(&quot;2020-11-28&quot;,&quot;2020-12-26&quot;)
+ggplotly(tpoints)</code></pre>
+<div id="htmlwidget-4" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-4">{"x":{"data":[{"orientation":"v","width":[0.45,0.45,0.45],"base":[0,0,0],"x":[0.775,1.775,2.775],"y":[916,1223,478],"text":["room: 1-Bedroom<br />total_points:  916<br />resort: Beach Club","room: 2-Bedroom<br />total_points: 1223<br />resort: Beach Club","room: Studio<br />total_points:  478<br />resort: Beach Club"],"type":"bar","marker":{"autocolorscale":false,"color":"rgba(135,206,235,1)","line":{"width":1.88976377952756,"color":"transparent"}},"name":"Beach Club","legendgroup":"Beach Club","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":[0.45,0.45,0.45],"base":[0,0,0],"x":[1.225,2.225,3.225],"y":[904,1250,473],"text":["room: 1-Bedroom<br />total_points:  904<br />resort: BLT","room: 2-Bedroom<br />total_points: 1250<br />resort: BLT","room: Studio<br />total_points:  473<br />resort: BLT"],"type":"bar","marker":{"autocolorscale":false,"color":"rgba(190,190,190,1)","line":{"width":1.88976377952756,"color":"transparent"}},"name":"BLT","legendgroup":"BLT","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":43.7625570776256,"r":7.30593607305936,"b":40.1826484018265,"l":48.9497716894977},"plot_bgcolor":"rgba(235,235,235,1)","paper_bgcolor":"rgba(255,255,255,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"title":{"text":"2020-11-28---2020-12-26","font":{"color":"rgba(0,0,0,1)","family":"","size":17.5342465753425},"x":0,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[0.4,3.6],"tickmode":"array","ticktext":["1-Bedroom","2-Bedroom","Studio"],"tickvals":[1,2,3],"categoryorder":"array","categoryarray":["1-Bedroom","2-Bedroom","Studio"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"y","title":{"text":"room(SV)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-62.5,1312.5],"tickmode":"array","ticktext":["0","400","800","1200"],"tickvals":[0,400,800,1200],"categoryorder":"array","categoryarray":["0","400","800","1200"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"x","title":{"text":"total_points","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":true,"legend":{"bgcolor":"rgba(255,255,255,1)","bordercolor":"transparent","borderwidth":1.88976377952756,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895},"y":0.913385826771654},"annotations":[{"text":"resort","x":1.02,"y":1,"showarrow":false,"ax":0,"ay":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"xref":"paper","yref":"paper","textangle":-0,"xanchor":"left","yanchor":"bottom","legendTitle":true}],"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","showSendToCloud":false},"source":"A","attrs":{"b4a7a19f587":{"x":{},"y":{},"fill":{},"type":"bar"}},"cur_data":"b4a7a19f587","visdat":{"b4a7a19f587":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>

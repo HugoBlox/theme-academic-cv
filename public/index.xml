@@ -6,10 +6,20 @@
     <description>Recent content on Mikayla Edwards</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DVC Points Chart Analysis Part 2</title>
+      <link>/post/dvc-points-chart-analysis-part-2/</link>
+      <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/dvc-points-chart-analysis-part-2/</guid>
+      <description>DVC Analysis In this post, I will expand on my analysis from part 1. Here, I will merge the points charts datasets I created for Bay Lake Tower (BLT) and The Beach Club (BC). By wrangling the charts into a “tidy” data structure, we can easily produce visualizations and insights comparing the two resorts.
+library(tidyverse) library(lubridate) library(plotly) bc&amp;lt;-readRDS(&amp;quot;BC2020.rds&amp;quot;) blt&amp;lt;-readRDS(&amp;quot;BLT2020.rds&amp;quot;) comp&amp;lt;-bind_rows(bc,blt) comp$resort&amp;lt;-as.factor(comp$resort) head(comp) ## room season weekday points resort view ## 1 Studio ADVENTURE Sun_Th 15 Beach Club &amp;lt;NA&amp;gt; ## 2 1-Bedroom ADVENTURE Sun_Th 27 Beach Club &amp;lt;NA&amp;gt; ## 3 2-Bedroom ADVENTURE Sun_Th 37 Beach Club &amp;lt;NA&amp;gt; ## 4 Studio CHOICE Sun_Th 15 Beach Club &amp;lt;NA&amp;gt; ## 5 1-Bedroom CHOICE Sun_Th 29 Beach Club &amp;lt;NA&amp;gt; ## 6 2-Bedroom CHOICE Sun_Th 38 Beach Club &amp;lt;NA&amp;gt; Below I filter out 3 bedrooms, as Beach Club does not have this room type, and plot the average points required for each season, room type, and resort.</description>
+    </item>
     
     <item>
       <title>DVC Points Chart Analysis (Part 1)</title>
