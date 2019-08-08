@@ -23,7 +23,7 @@ head(comp)
 
 
 Below I filter out 3 bedrooms, as Beach Club does not have this room type, and plot the average points required for each season, room type, and resort.
-```{r pressure, echo=FALSE}
+```{r}
 avg_points<-comp %>%
   filter(room != "3-Bedroom") %>%
   group_by(season,room,resort) %>% summarise(avg_point=mean(points))
@@ -41,7 +41,7 @@ avg_points %>%
 ```
 What is the average difference per night between BLT & the BC for each season & room type?
 
-```{r pressure, echo=FALSE}
+```{r}
 diff<-avg_points %>%
   group_by(season,room) %>%
   transmute(Diff = avg_point- lag(avg_point)) %>% 
