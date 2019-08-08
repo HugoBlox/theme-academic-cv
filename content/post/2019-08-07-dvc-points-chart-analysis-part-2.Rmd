@@ -1,0 +1,228 @@
+---
+title: DVC Points Chart Analysis Part 2
+author: ''
+date: '2019-08-07'
+slug: dvc-points-chart-analysis-part-2
+categories: []
+tags: []
+---
+## DVC Analysis
+
+In this post, I will expand on my analysis from [part 1](https://mikaylaedwards.netlify.com/post/dvc-points-chart-analysis-part-1/). Here, I will merge the points charts datasets I created for Bay Lake Tower (BLT) and The Beach Club (BC). By wrangling the charts into a "tidy" data structure, we can easily produce visualizations and insights comparing the two resorts. 
+
+```{r message=FALSE, warning=FALSE}
+library(tidyverse)
+library(lubridate)
+library(plotly)
+bc<-readRDS("BC2020.rds")
+blt<-readRDS("BLT2020.rds")
+comp<-bind_rows(bc,blt)
+comp$resort<-as.factor(comp$resort)
+head(comp)
+```
+
+
+Below I filter out 3 bedrooms, as Beach Club does not have this room type, and plot the average points required for each season, room type, and resort.
+```{r pressure, echo=FALSE}
+avg_points<-comp %>%
+  filter(room != "3-Bedroom") %>%
+  group_by(season,room,resort) %>% summarise(avg_point=mean(points))
+
+avg_points %>%
+  ungroup() %>% 
+  ggplot(aes(x=fct_reorder(season,avg_point),y=avg_point, group=resort))+
+  geom_col(aes(fill=resort),position = "dodge")+
+  geom_text(aes(label=round(avg_point,1)),position = position_dodge(0.9),vjust = 0)+
+  scale_fill_manual(values = c("skyblue","maroon"))+
+  facet_wrap(~room)+
+  coord_flip()+
+  labs(y="Points",x="")
+  
+```
+What is the average difference per night between BLT & the BC for each season & room type?
+
+```{r pressure, echo=FALSE}
+diff<-avg_points %>%
+  group_by(season,room) %>%
+  transmute(Diff = avg_point- lag(avg_point)) %>% 
+  filter(!is.na(Diff)) %>%
+  ungroup()
+pldiff<-
+  diff %>% ggplot(aes(x=season,y=Diff,group=room))+geom_line(aes(color=room))+geom_point()+labs(y="Avg Point Difference / Night   (BLT-BC)")
+ggplotly(pldiff)
+```
+Studios have the smallest difference in points/night. Interestingly, the difference peaks in the Premier season for studios and 2-bedrooms, while for 1-bedrooms the largest difference is observed in the Magic season.
+
+Because BLT offers tiered room views, while the Beach Club does not, the average points per night are difficult to compare (as Magic Kingdom (MK) views are much higher than Standard Views (SV)). So it might be better to compare the difference between BLT SV rooms and Beach Club rooms.
+
+```{r}
+#remove 3-Bed and MK/LV rooms (Beach Club does not have)
+sv_only<-comp %>%
+  filter(room != "3-Bedroom", !view %in% c("MK","LV")) %>%
+  group_by(season,room,resort) %>% summarise(avg_point=mean(points))
+sv_only<-sv_only %>% 
+  #get difference
+  group_by(season,room) %>%
+  transmute(Diff = avg_point- lag(avg_point)) %>% 
+  filter(!is.na(Diff)) %>% 
+  ungroup()
+difplot2<- sv_only %>% 
+  ggplot(aes(x=season,y=Diff,group=room))+
+  geom_line(aes(color=room))+
+  geom_point()+
+  labs(y="Point Difference / Night  (BLT-BC)")
+ggplotly(difplot2)
+```
+From this, we see that SV rooms at BLT are much closer to BC rooms. In some seasons, the difference is actually negative (meaning BC rooms are more points). 
+
+2-Bedrooms at BLT require more points across all seasons. For Studios and 1-Bedrooms, however, there are certain seasons during which Beach Club rooms are more expensive points-wise (BLT-BC is negative).In particular, a 1-Bedroom during the Premier season is an average of 1.5 more points/night at BC than at BLT.
+
+
+To visualize trends by date rather than season, we need to create a dataframe that links each date to a season and then join this with the points dataset.
+```{r}
+#ymd() in lubridate package means "month-day-year", which is used to convert
+#the string to date object
+start_date <- ymd("2020-01-01")
+#calculate how many days in time interval
+date<-start_date + days(0:365)
+date<-as.data.frame(date)
+
+```
+
+Create vectors containing the intervals for each season.
+```{r,message=FALSE}
+ad_ints<- c(interval(ymd("2020-01-01"), ymd("2020-01-31")),interval(ymd("2020-09-01"), ymd("2020-09-30")),interval(ymd("2020-12-01"), ymd("2020-12-14")))
+choice_ints<- c(interval(ymd("2020-10-01"), ymd("2020-11-24")),interval(ymd("2020-11-28"), ymd("2020-11-30")),interval(ymd("2020-12-15"), ymd("2020-12-23")))
+dream_ints<- c(interval(ymd("2020-02-01"), ymd("2020-02-15")),interval(ymd("2020-05-01"), ymd("2020-06-10")),interval(ymd("2020-08-16"), ymd("2020-08-31")))
+magic_ints<- c(interval(ymd("2020-02-16"), ymd("2020-04-04")),interval(ymd("2020-04-19"), ymd("2020-04-30")),interval(ymd("2020-06-11"), ymd("2020-08-15")),interval(ymd("2020-11-25"), ymd("2020-11-27")))
+premier_ints<- c(interval(ymd("2020-04-05"), ymd("2020-04-18")),interval(ymd("2020-12-24"), ymd("2020-12-31")))
+```
+
+If a date falls within one of the intervals for a season, classify it accordingly. Creates dataframe with 2 columns: date and corresponding season name
+```{r}
+df<-date %>% mutate(
+  season=case_when(
+    ##date falls within any 3 date ranges for each season
+    date %within% ad_ints[1] | date %within% ad_ints[2]| date %within% ad_ints[3]~ "adventure",
+     date %within% dream_ints[1] | date %within% dream_ints[2]| date %within% dream_ints[3]~ "dream",
+     date %within% magic_ints[1] | date %within% magic_ints[2]| date %within% magic_ints[3]| date %within% magic_ints[4]~ "magic",
+     date %within% choice_ints[1] | date %within% choice_ints[2]| date %within% choice_ints[3]~ "choice",
+     date %within% premier_ints[1] | date %within% premier_ints[2]| date %within% premier_ints[3]~ "premier",
+  )
+)
+df %>% head()
+```
+
+
+Remove Magic Kingdom (MK) & Lake View (LV) rooms and convert season column to lowercase. Left join to append dates dataframe to existing dataset. 
+```{r}
+comp<-comp %>% filter(!view %in% c("MK","LV")) %>% select(-view) %>% mutate(
+  season=map_chr(season,~str_to_lower(.x)))
+all_dates<-left_join(df,comp,by="season")
+all_dates %>% head()
+```
+Now our dataframe includes a column with a date for each row. 
+
+How many days are in each season?
+```{r,message=FALSE}
+all_dates %>% group_by(season,room,weekday,resort) %>% 
+  summarize(num_days=n()) %>% 
+  select(season,num_days) %>% 
+  group_by(season) %>% 
+  summarize(
+    total_num_days=max(num_days)
+  ) 
+```
+Visualize points by time of year. Horizontal lines are season intervals. Compare Sun-Thursday stays for each room type. Only SV rooms at BLT are included. 
+```{r}
+#function to create plot
+plot_comp<-function(roomtype,weekdaytype){
+all_dates %>% filter(room==roomtype,weekday==weekdaytype) %>% 
+  ggplot(aes(x=date,y=points,group=resort))+
+  geom_point(aes(color=season))+
+  scale_x_date(limits = as.Date(c("2020-01-01","2020-12-31")))+
+  labs(y="Points",x="")+
+  ggtitle(paste(roomtype,weekdaytype,sep = ","))+
+    theme(panel.spacing = unit(2, "lines"))+
+  facet_wrap(~resort)
+}
+plot_comp("Studio","Sun_Th")
+plot_comp("1-Bedroom","Sun_Th")
+plot_comp("2-Bedroom","Sun_Th")
+```
+From this it is clear that Beach Club studios are the least economical during the adventure season, as BLT studios are lower only during this time. Sun-Th studios are equivalent for the choice & premier seasons. 
+1-Bedrooms Sun-Th are lower at BLT for every season. 
+2-Bedrooms Sun-Th are the same for adventure, magic, and dream seasons. Beach Club 2-bedrooms are higher during the premier season, while BLT 2-bedrooms are higher during the choice season.
+
+Summary for Sun-Th:
+Studio (choice,premier)  --> same
+Studio (dream,magic) --> BLT higher
+Studio (adventure)--> BC higher
+
+1-BD --> BC always higher
+
+2-BD (magic,dream,adventure)--> same
+2-BD (premier)-->BC higher
+2-BD (choice)-->BLT higher
+
+Do the same comparison as above for Fri-sat
+```{r}
+plot_comp("Studio","Fri_Sat")
+plot_comp("1-Bedroom","Fri_Sat")
+plot_comp("2-Bedroom","Fri_Sat")
+```
+Studio (adventure, magic)  --> same
+Studio (premier, choice) --> BLT higher
+Studio (dream)--> BC higher
+
+1-BD (premier,dream)  --> same
+1-BD (magic,choice,adventure)  --> BLT higher
+
+2-BD --> BLT always higher
+
+```{r}
+#15 combinations of room & season (3x5)
+#some ties kept
+  comp %>% group_by(room,season,weekday) %>% top_n(1,points) %>% arrange(room,season,weekday)
+ all_dates<- all_dates %>%
+    mutate(weekday_name=wday(date,label = T),
+           is_weekend=if_else(weekday_name %in% c("Fri","Sat"),1,0)) %>%
+    filter(weekday=="Sun_Th"& is_weekend==0 |weekday=="Fri_Sat"& is_weekend==1 ) %>% 
+    arrange(room,season)
+all_dates %>% head()
+all_dates %>% select(-weekday,-is_weekend)->all_dates
+```
+
+Function will take a start and end date for a stay. Will return a dataframe that summarizes the number of points required for that stay at each resort in each room type. 
+```{r}
+rec_stay<-function(dstart,dend){
+  
+  date_int<-interval(ymd(dstart), ymd(dend))
+  
+ all_dates %>%
+    filter(date %within% date_int) %>% 
+    group_by(room,resort) %>% 
+    summarize(
+      total_points=sum(points)) %>%
+   ungroup() %>% 
+  ggplot(aes(x=room,y=total_points,fill=resort))+
+  geom_col(position = "dodge")+
+  xlab("room(SV)")+
+  scale_fill_manual(values = c("skyblue","grey"))+
+   ggtitle(paste(dstart,dend,sep = "---"))
+ 
+}
+```
+
+User can enter their stay stay date (e.g. Jan 20th-25th 2020) and get a plot comparing how many points necessary for each room type by resort
+```{r}
+tpoints<-rec_stay("2020-01-20","2020-01-25")
+ggplotly(tpoints)
+```
+
+What about a long stay in November/December?
+```{r}
+tpoints<-rec_stay("2020-11-28","2020-12-26")
+ggplotly(tpoints)
+```
+
