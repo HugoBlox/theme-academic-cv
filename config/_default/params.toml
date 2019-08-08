@@ -58,7 +58,7 @@ address = "Instituto de Investigaciones Biotecnológicas, Campus Miguelete UNSAM
 office_hours = """Monday &ndash; Friday 9:00 to 19:00 [ART](https://www.timeanddate.com/worldclock/argentina/buenos-aires)"""
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = "https://calendly.com"
+appointment_url = "https://calendly.com/trypanosomatics"
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
