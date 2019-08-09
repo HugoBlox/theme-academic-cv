@@ -5,7 +5,7 @@ title: "Beca ANPCyT 2019"
 subtitle: "PhD Position available"
 summary: ""
 authors: ["fernan"]
-tags: ["beca", "agencia", "doctorado"]
+tags: ["beca", "agencia", "doctorado", "posiciones", "vacantes"]
 categories: []
 date: 2019-06-24T15:11:14-03:00
 lastmod: 2019-06-24T15:11:14-03:00
@@ -43,7 +43,7 @@ Validación de nuevos antígenos y epitopes para mejoramiento diagnóstico de la
 **Investigadores a cargo:**
 Dr. Fernán Agüero y Dr. Emir Salas Sarduy
 
-**Inicio de actividades:** Julio/Agosto 2019
+**Inicio de actividades:** Agosto/Septiembre 2019
 
 **Lugar de Trabajo:** 
 Instituto de Investigaciones Biotecnologicas (IIB)
