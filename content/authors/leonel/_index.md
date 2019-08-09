@@ -19,29 +19,29 @@ role = "PhD Student"
 organizations = [ { name = "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET)", url = "http://www.conicet.gob.ar" }, {name="Universidad de San Martín", url="http://www.unsam.edu.ar"} ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "Please complete me..."
+bio = "PhD Fellow and teaching assistant."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "lbracco@iib.unsam.edu.ar"
 
 # List (academic) interests or hobbies
-interests = [""]
+interests = [
+  "Diagnostics",
+  "Bioinformatics",
+  "Neglected Diseases",
+  "Congenital Chagas",
+  "Trypanosomes"
+]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups = ["Grad Students"]
 
 # List qualifications (such as academic degrees)
-#[[education.courses]]
-#  course = "PhD in Chemistry"
-#  institution = "Universidad de Buenos Aires"
-#  year = 2001
-#
-#[[education.courses]]
-#  course = "BSc in Biology (Licenciatura)"
-#  institution = "Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires"
-#  year = 1995
-
+[[education.courses]]
+  course = "agrobiotechnology engineer"
+  institution = "Universidad Nacional de San Martín"
+  year = 2018
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -63,11 +63,11 @@ user_groups = ["Grad Students"]
 #  icon_pack = "ai"
 #  link = "https://scholar.google.co.uk/citations?user=zycaIZQAAAAJ"
 #
-#[[social]]
-#  icon = "github"
-#  icon_pack = "fab"
-#  link = "https://github.com/fernan"
-#
+[[social]]
+  icon = "github"
+  icon_pack = "fab"
+  link = "https://github.com/atm44"
+  
 #[[social]]
 #  icon = "orcid"
 #  icon_pack = "ai"
@@ -89,14 +89,7 @@ user_groups = ["Grad Students"]
 
 # About me 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac luctus
-lectus. Cras nec dolor eget mauris posuere lobortis. Proin at hendrerit
-nulla, non ultrices ligula. Duis mauris eros, bibendum nec sapien eget,
-imperdiet bibendum urna. Nulla rhoncus euismod ex ac pulvinar. Vivamus et
-pulvinar quam, eu sodales erat. Suspendisse nisi nunc, mollis nec vehicula
-at, pharetra et mi. Nulla a metus id massa luctus finibus in in massa. Cras
-varius aliquam nisi non interdum. Donec ut orci mattis, volutpat orci
-pretium, ornare turpis. Etiam tempor scelerisque augue vitae sagittis. Cras
-pulvinar velit eget sem rhoncus, in gravida est porta. Aliquam tempor
-tincidunt sapien sagittis consectetur. Praesent vel faucibus risus, sit amet
-pretium erat.
+Specialist in the computer analysis of large volumes of data with applications in biological or health sciences. Mainly focused on improving the diagnosis of congenital Chagas disease.
+As my master degree thesis, from 2016 to 2018, i carried out an exhaustive analysis of high density peptide microarrays that allowed the discovery of new candidate antigens for the diagnosis of congenital Chagas. Currently a doctoral fellow CONICET-UNSAM, with a place of work at the IIBIO and with the prospect of graduating in 2023, under the direction of Dr. Fernán Agüero. 
+Engineer in Agrobiotechnology, one of the first graduates in the UNSAM.
+
