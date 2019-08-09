@@ -41,12 +41,12 @@ links = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitt
 # To use, add an image named `featured.jpg/png` to your project's folder. 
 [image]
   # Caption (optional)
-  caption = "Colorized image of a high-density peptide microarray"
+  caption = "Project visual resume"
   preview_only = false
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "TopLeft"
+  focal_point = "Smart"
 +++
 
 We are conducting antigen discovery in Congenital Chagas, mapping and validation for the development of a serological diagnostic kit for application in neonates.
