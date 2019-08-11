@@ -1,5 +1,5 @@
 ---
-title: Grand Floridian Hotel Reviews: Sentiment Analysis & NLP
+title: Grand Floridian Hotel Reviews Sentiment Analysis & NLP
 author: ''
 date: '2019-08-11'
 slug: grand-floridian-hotel-reviews
