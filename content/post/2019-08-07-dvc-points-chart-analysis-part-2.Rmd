@@ -1,5 +1,5 @@
 ---
-title: DVC Points Chart Analysis Part 2
+title: DVC Points Chart Analysis(Part 2)
 author: ''
 date: '2019-08-07'
 slug: dvc-points-chart-analysis-part-2

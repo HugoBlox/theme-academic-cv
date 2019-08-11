@@ -145,23 +145,25 @@ Some of the bigram results are particularly interesting, such as "1900 park" (th
 
 The tidytext package has several lexicons (stored as "sentiments") that can be used for sentiment analysis. Below, we explore the number of distint words in each lexicon. We exclude "loughran", the finance lexicon.
 ```{r}
+bing<-get_sentiments(lexicon ="bing") %>% mutate(lexicon="bing")
+afinn<-get_sentiments(lexicon ="afinn") %>% rename(sentiment=value) %>% mutate(lexicon="afinn")
+sentiments_df<-rbind(bing,afinn)
 
-sentiment_lexicons <- sentiments %>% 
-  filter(lexicon != "loughran")%>% 
+sentiments_df <- sentiments_df %>%
   group_by(lexicon) %>%
   mutate(words_in_lexicon = n_distinct(word)) %>%
   ungroup()
 
-sentiment_lexicons %>%
+sentiments_df %>%
   group_by(lexicon) %>%
   summarise(distinct_words = n_distinct(word)) %>%
   ungroup() 
 ```
 We can see how many words in the review text are found in each lexicon. 
-```{r}
+```{r message=FALSE, warning=FALSE}
 rdf_tidy %>%
   mutate(words_in_reviews = n_distinct(word)) %>%
-  inner_join(sentiment_lexicons) %>%
+  inner_join(sentiments_df) %>%
   group_by(lexicon, words_in_reviews, words_in_lexicon) %>%
   summarise(num_match = n_distinct(word)) %>%
   ungroup() %>%
@@ -195,9 +197,8 @@ From this, we can see that 8% is the max percentage of negative words used in re
 The AFINN lexicon provides a positivity score for each word, from -5 (most negative) to 5 (most positive). We can visualize how these positivity scores compare to the actual numeric rating (1-5) given. 
 ```{r}
 ##gives word and score
-afinn <- sentiments %>%
-filter(lexicon == "AFINN") %>%
-select(word, afinn_score = score)
+afinn <- get_sentiments("afinn") %>% 
+select(word, afinn_score = value)
 
 reviews_sentiment <- rdf_tidy %>%
 inner_join(afinn, by = "word") %>%
