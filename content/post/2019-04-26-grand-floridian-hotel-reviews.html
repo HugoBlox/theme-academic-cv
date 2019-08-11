@@ -1,12 +1,13 @@
 ---
-title: Grand Floridian Hotel Reviews
+title: Grand Floridian Hotel Reviews Sentiment Analysis & NLP
 author: ''
-date: '2019-04-26'
+date: '2019-08-11'
 slug: grand-floridian-hotel-reviews
 categories: []
 tags:
   - sentiment analysis
   - NLP
+  - keras
 ---
 
 <script src="/rmarkdown-libs/kePrint/kePrint.js"></script>
@@ -14,7 +15,8 @@ tags:
 
 <div id="grand-floridian-hotel-reviews-sentiment-analysis-and-nlp" class="section level2">
 <h2>Grand Floridian Hotel Reviews: Sentiment Analysis and NLP</h2>
-<p>The data for this analysis was obtained from the reviews posted on TripAdvisor. I used RSelenium and rvest to extract the data from the first 3000 dynamic web-pages on the TripAdvisor site, which was 2,350 reviews in total. The code used to do this is published on my GitHub. Here, I load the the Rda file I saved from that extraction.</p>
+<p>The data for this analysis was obtained from the reviews posted on TripAdvisor. I used RSelenium and rvest to extract the data from the first 3000 dynamic web-pages on the TripAdvisor site, which was 2,350 reviews in total. The code used to do this is published on my GitHub <a href="https://github.com/mikaylaedwards/gf_reviews/blob/master/gf_reviews.Rmd">here</a></p>
+<p>Here, I load the the Rda file I saved from that extraction.</p>
 <pre class="r"><code>library(tidyverse)
 library(zoo)
 library(knitr)
@@ -174,38 +176,38 @@ bigram_count %&gt;% filter(!str_detect(bigram,&quot;floridian&quot;)) %&gt;% hea
 <p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-8-1.png" width="672" />
 Some of the bigram results are particularly interesting, such as “1900 park” (the on-site restaraunt) and “sugar load” (the name of the club level). It also makes sense that “Magic Kingdom” (located right next to the GF) is the most commonly used.</p>
 <p>The tidytext package has several lexicons (stored as “sentiments”) that can be used for sentiment analysis. Below, we explore the number of distint words in each lexicon. We exclude “loughran”, the finance lexicon.</p>
-<pre class="r"><code>sentiment_lexicons &lt;- sentiments %&gt;% 
-  filter(lexicon != &quot;loughran&quot;)%&gt;% 
+<pre class="r"><code>bing&lt;-get_sentiments(lexicon =&quot;bing&quot;) %&gt;% mutate(lexicon=&quot;bing&quot;)
+afinn&lt;-get_sentiments(lexicon =&quot;afinn&quot;) %&gt;% rename(sentiment=value) %&gt;% mutate(lexicon=&quot;afinn&quot;)
+sentiments_df&lt;-rbind(bing,afinn)
+
+sentiments_df &lt;- sentiments_df %&gt;%
   group_by(lexicon) %&gt;%
   mutate(words_in_lexicon = n_distinct(word)) %&gt;%
   ungroup()
 
-sentiment_lexicons %&gt;%
+sentiments_df %&gt;%
   group_by(lexicon) %&gt;%
   summarise(distinct_words = n_distinct(word)) %&gt;%
   ungroup() </code></pre>
-<pre><code>## # A tibble: 3 x 2
+<pre><code>## # A tibble: 2 x 2
 ##   lexicon distinct_words
 ##   &lt;chr&gt;            &lt;int&gt;
-## 1 AFINN             2476
-## 2 bing              6785
-## 3 nrc               6468</code></pre>
+## 1 afinn             2477
+## 2 bing              6783</code></pre>
 <p>We can see how many words in the review text are found in each lexicon.</p>
 <pre class="r"><code>rdf_tidy %&gt;%
   mutate(words_in_reviews = n_distinct(word)) %&gt;%
-  inner_join(sentiment_lexicons) %&gt;%
+  inner_join(sentiments_df) %&gt;%
   group_by(lexicon, words_in_reviews, words_in_lexicon) %&gt;%
   summarise(num_match = n_distinct(word)) %&gt;%
   ungroup() %&gt;%
   mutate(match_ratio = num_match / words_in_reviews) %&gt;%
   select(lexicon, words_in_reviews, num_match, match_ratio)</code></pre>
-<pre><code>## Joining, by = &quot;word&quot;</code></pre>
-<pre><code>## # A tibble: 3 x 4
+<pre><code>## # A tibble: 2 x 4
 ##   lexicon words_in_reviews num_match match_ratio
 ##   &lt;chr&gt;              &lt;int&gt;     &lt;int&gt;       &lt;dbl&gt;
-## 1 AFINN              10983       954      0.0869
-## 2 bing               10983      1687      0.154 
-## 3 nrc                10983      1923      0.175</code></pre>
+## 1 afinn              10983       954      0.0869
+## 2 bing               10983      1687      0.154</code></pre>
 <p>The bing lexicon classifies words as either positive or negative. Using this, we can see when the most negative words were used in reviews.</p>
 <pre class="r"><code>#get negative words
 bingnegative &lt;- get_sentiments(&quot;bing&quot;) %&gt;% 
@@ -232,9 +234,8 @@ most_neg %&gt;% ggplot(aes(x=stay_date,y=ratio_neg,color=ratio_neg))+scale_x_yea
 <p>From this, we can see that 8% is the max percentage of negative words used in reviews over a given month. On average, it’s about 4%.
 The AFINN lexicon provides a positivity score for each word, from -5 (most negative) to 5 (most positive). We can visualize how these positivity scores compare to the actual numeric rating (1-5) given.</p>
 <pre class="r"><code>##gives word and score
-afinn &lt;- sentiments %&gt;%
-filter(lexicon == &quot;AFINN&quot;) %&gt;%
-select(word, afinn_score = score)
+afinn &lt;- get_sentiments(&quot;afinn&quot;) %&gt;% 
+select(word, afinn_score = value)
 
 reviews_sentiment &lt;- rdf_tidy %&gt;%
 inner_join(afinn, by = &quot;word&quot;) %&gt;%
@@ -399,10 +400,10 @@ model %&gt;% summary()</code></pre>
 print(hist)</code></pre>
 <pre><code>## Trained on 1,880 samples, validated on 470 samples (batch_size=32, epochs=10)
 ## Final epoch (plot to see history):
-## val_loss: 0.446
-##  val_acc: 0.8085
-##     loss: 0.1866
-##      acc: 0.9378</code></pre>
+## val_loss: 0.524
+##  val_acc: 0.7851
+##     loss: 0.1833
+##      acc: 0.9415</code></pre>
 <pre class="r"><code>plot(hist)</code></pre>
 <p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-22-1.png" width="672" />
 The training loss decreases with each epoch, while the accuracy increases. However, the validation data does not show this same trend, which indicates that we are overfitting. The right number of epochs appears to be 6. Considering the fact that we only use the 1000 most common words and cut reviews off at 100 words, our model is fairly accurate (peaking at around 80% on the validation set). However, we can likely increase this by increasing the feature space and length of review considered.</p>
@@ -442,10 +443,10 @@ model %&gt;% compile(
 print(hist)</code></pre>
 <pre><code>## Trained on 1,880 samples, validated on 470 samples (batch_size=32, epochs=10)
 ## Final epoch (plot to see history):
-## val_loss: 0.4388
-##  val_acc: 0.8234
-##     loss: 0.154
-##      acc: 0.9548</code></pre>
+## val_loss: 0.4669
+##  val_acc: 0.8
+##     loss: 0.159
+##      acc: 0.9489</code></pre>
 <pre class="r"><code>plot(hist)</code></pre>
 <p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-25-1.png" width="672" /></p>
 <p>Again, 6 appears to be the right number of epochs–beyond this we are overfitting. Although validation accuracy improves to about 84% (a 4% increase from the previous model), there is a tradeoff in that this model takes more than 2 times the amount of time to train. If rapid classification is necessary, the smaller feature space performance may be sufficient.</p>

@@ -6,13 +6,23 @@
     <description>Recent content in Posts on Mikayla Edwards</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>DVC Points Chart Analysis Part 2</title>
+      <title>Grand Floridian Hotel Reviews Sentiment Analysis &amp; NLP</title>
+      <link>/post/grand-floridian-hotel-reviews/</link>
+      <pubDate>Sun, 11 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/grand-floridian-hotel-reviews/</guid>
+      <description>Grand Floridian Hotel Reviews: Sentiment Analysis and NLP The data for this analysis was obtained from the reviews posted on TripAdvisor. I used RSelenium and rvest to extract the data from the first 3000 dynamic web-pages on the TripAdvisor site, which was 2,350 reviews in total. The code used to do this is published on my GitHub here
+Here, I load the the Rda file I saved from that extraction.</description>
+    </item>
+    
+    <item>
+      <title>DVC Points Chart Analysis(Part 2)</title>
       <link>/post/dvc-points-chart-analysis-part-2/</link>
       <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
       
@@ -29,15 +39,6 @@ library(tidyverse) library(lubridate) library(plotly) bc&amp;lt;-readRDS(&amp;qu
       <guid>/post/dvc-points-chart-analysis-part-1/</guid>
       <description>In this series of posts, I will analyze and compare the 2020 points charts for Bay Lake Tower and the The Beach Club. Html versions of the charts (used here) can be found on DVC Request
 This post (part 1) will detail the code to extract the points charts from the html table format they are published in. I will use the rvest package as well as unpivotr to convert the data into a tabular dataframe.</description>
-    </item>
-    
-    <item>
-      <title>Grand Floridian Hotel Reviews</title>
-      <link>/post/grand-floridian-hotel-reviews/</link>
-      <pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/grand-floridian-hotel-reviews/</guid>
-      <description>Grand Floridian Hotel Reviews: Sentiment Analysis and NLP The data for this analysis was obtained from the reviews posted on TripAdvisor. I used RSelenium and rvest to extract the data from the first 3000 dynamic web-pages on the TripAdvisor site, which was 2,350 reviews in total. The code used to do this is published on my GitHub. Here, I load the the Rda file I saved from that extraction.</description>
     </item>
     
     <item>
