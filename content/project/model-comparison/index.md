@@ -1,24 +1,19 @@
 ---
-title: BYU Housing 
-summary: An Android app to help BYU students find housing
+title: ModelComparison - R Graphics Package
+summary: An R Package to plot a variety of different model types with hyperparameter tuning
 tags:
-- Demo
-- Android
+- Machine Learning
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
 image:
-  caption: App search screen
+  caption: Example plot
   focal_point: Smart
 
 links:
-- icon: twitter
-  icon_pack: fab
-  name: Google Play
-  url: https://play.google.com/store/apps/details?id=com.orionweller.collegehousing&hl=en_US
-url_code: "www.github.com/orionw/byu-housing"
+url_code: "https://github.com/orionw/ModelComparison"
 url_pdf: ""
 url_slides: ""
 url_video: ""
@@ -28,7 +23,7 @@ url_video: ""
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+slides: ""
 ---
 
 Description coming soon...
