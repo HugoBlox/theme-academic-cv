@@ -1,5 +1,5 @@
 ---
-title: "Preprint of [Paper in Submission to EMNLP 2019]"
+title: "Humor Detection: A Transformer gets the Last Laugh (EMNLP2019)"
 authors:
 - admin
 date: "2019-04-07T00:00:00Z"
@@ -12,13 +12,13 @@ publishDate: "2017-01-01T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
+publication: "Humor Detection: A Transformer gets the Last Laugh"
 publication_short: ""
 
-abstract: To be published after the anonymity phase.
+abstract: Much previous work has been done in attempting to identify humor in text.  In this paper we extend that capability by assessing whether or not a joke is humorous.  We propose a novel way of approaching this problem by building a model that learns to identify humorous jokes based on ratings gleaned from Reddit pages, consisting of almost 16,000 labeled instances.  Using these ratings to determine the level of humor, we then employ a Transformer architecture for its advantages in learning from sentence context.  We demonstrate the effectiveness of this approach and show results that are comparable to human performance.  We further demonstrate this model's increased capabilities on humor identification problems, such as the previously created datasets for short jokes and puns. These experiments show that this method outperforms all previous work done on these tasks, with F-measures in the low to upper 90s.
 
 # # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -28,31 +28,24 @@ tags:
 featured: false
 
 links:
-- name: Links will be added after the anonymity phase.
-  url: http://google.com
 url_pdf: http://arxiv.org/
 url_code: 'www.github.com/orionw'
 url_dataset: '#'
 url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
-url_video: '#'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://www.reddit.com/r/Jokes/)'
+  caption: 'Image credit: [Reddit r/Jokes](https://www.reddit.com/r/Jokes/)'
   focal_point: ""
-  preview_only: false
+  preview_only: False
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-- internal-project
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
