@@ -9,7 +9,7 @@ weight: 2  # Order that this section will appear.
 
 Many of these are open access, but please [get in touch]({{< ref "/#contact" >}}) if you'd like a copy of one behind a paywall!
 
-11. Jensen O.P., C.W. Martin, **K.L. Oken**, F.J. Fodrie, P.C. López-Duarte, K.W. Able, and B.J. Roberts. (In press) Simultaneous estimation of dispersal and survival of the Gulf Killifish (*Fundulus grandis*) from a batch tagging experiment. Marine Ecology Progress Series.
+11. Jensen O.P., C.W. Martin, **K.L. Oken**, F.J. Fodrie, P.C. López-Duarte, K.W. Able, and B.J. Roberts. (2019) [Simultaneous estimation of dispersal and survival of the Gulf Killifish (*Fundulus grandis*) from a batch tagging experiment](https://www.int-res.com/abstracts/meps/v624/p183-194/). Marine Ecology Progress Series. 624:183-194.
 10. Free C.M., J.T. Thorson, M.L. Pinsky, **K.L. Oken**, J. Wiedenmann, and O.P. Jensen. (2019) [Impacts of historical warming on fisheries production](https://science.sciencemag.org/content/363/6430/979). Science. 363:979-983.
   * [Rutgers press release](https://news.rutgers.edu/climate-change-shrinks-many-fisheries-globally-rutgers-led-study-finds/20190221#.XTTy7ohKg2y)
 9. Ward E.J., **K.L. Oken**, K.A. Rose, S. Sable, K. Watkins, E.E. Holmes, and M.D. Scheuerell. (2018) [Applying spatiotemporal models to monitoring data to quantify fish population responses to the Deepwater Horizon oil spill in the Gulf of Mexico](https://link.springer.com/article/10.1007/s10661-018-6912-z). Environmental Monitoring and Assessment. 190:530. 
