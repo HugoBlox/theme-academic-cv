@@ -25,7 +25,7 @@ bio = "Please complete me..."
 email = "aricci@iib.unsam.edu.ar"
 
 # List (academic) interests or hobbies
-interests = [""]
+interests = ["Chagas Disease", "Bioinformatics", "Neural Networks"]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -37,11 +37,10 @@ user_groups = ["Grad Students"]
 #  institution = "Universidad de Buenos Aires"
 #  year = 2001
 #
-#[[education.courses]]
-#  course = "BSc in Biology (Licenciatura)"
-#  institution = "Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires"
-#  year = 1995
-
+[[education.courses]]
+  course = "BSc in Biology (Licenciatura)"
+  institution = "Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires"
+  year = 2014
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -89,14 +88,10 @@ user_groups = ["Grad Students"]
 
 # About me 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac luctus
-lectus. Cras nec dolor eget mauris posuere lobortis. Proin at hendrerit
-nulla, non ultrices ligula. Duis mauris eros, bibendum nec sapien eget,
-imperdiet bibendum urna. Nulla rhoncus euismod ex ac pulvinar. Vivamus et
-pulvinar quam, eu sodales erat. Suspendisse nisi nunc, mollis nec vehicula
-at, pharetra et mi. Nulla a metus id massa luctus finibus in in massa. Cras
-varius aliquam nisi non interdum. Donec ut orci mattis, volutpat orci
-pretium, ornare turpis. Etiam tempor scelerisque augue vitae sagittis. Cras
-pulvinar velit eget sem rhoncus, in gravida est porta. Aliquam tempor
-tincidunt sapien sagittis consectetur. Praesent vel faucibus risus, sit amet
-pretium erat.
+I specialize in the use of bioinformatics to process data and draw conclussions from biological experiments, specially those resulting in large amounts of data, such as high-throughput microarrays. I also use said data to create predictors that infer new biological knowledge or help designing new experiments.
+
+I'm doing a PhD in Molecular Biology and Biotechnology in the "Instituto de Investigaciones Biotecnológicas" (IIB) at the "Universidad de San Martín" (UNSAM, Argentina).
+
+I gave talks about my research at the "VIII Congreso Argentino de Bioinformática y Biología Computacional" (Argentina, Misiones, 2017) and at “ASTMH 67th Annual Meeting” (United Stated, New Orleans, 2018), amongst other places.
+
+I have a Bachelor's Degree in Biological Sciences from the University of Buenos Aires (UBA).
