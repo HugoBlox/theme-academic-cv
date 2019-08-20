@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Nelson Bighetti
+name: Manuel Cantu Gutierrez
 
 # Username (this should match the folder name)
 authors:
@@ -10,32 +10,29 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: PhD Candidate
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
-  url: ""
+- name: Wythe Lab at Baylor College of Medicine
+  url: "https://wythelab.com"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include blood vessel development and genomics.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Angiogenesis
+- Vascular Specialization
+- Next Generation Sequencing Technology
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: PhD in Developmental Biology
+    institution: Baylor College of Medicine
+    year: Current
+  - course: BSc in Biology
+    institution: The University of Texas-Pan American
+    year: 2015
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -44,16 +41,14 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: '#contact'  # For a direct email link, use "mailto:mguiterr@bcm.edu".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/mcoffeewanderer
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: github
-  icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://scholar.google.com/citations?user=IxTqkrEAAAAJ&hl=en&oi=ao
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv
@@ -70,6 +65,9 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hello and Welcome!
+My name is Manuel and I am a PhD Student at BCM. Originally from Mexico I moved to Texas to pursue a Biology degree at The University of Texas-Pan American.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+During my college studies I had study neurodegeneration using pond snails (I know, not the fastest animal model) while completing my undergraduate education at The University of Texas-Pan American (now UTRGV) in Dr Dan Plas’ laboratory. Also as an undergraduate student and thanks to HHMI EXROP, I got the opportunity to perform research in Dr Hugo Bellen’s lab at BCM helping in the development of a genetic tool that allows for the tagging of genes and a reversible, spatial and temporal knockdown of proteins in fruit flies.
+
+Those experiences showed me the power of genetics and model organisms to the advance of our understanding of basic developmental biology and human disease. I started my PhD in Developmental Biology in the summer of 2015 and joined the Wythe Lab in 2016. My research in the Wythe Lab focuses on the study the molecular mechanisms that regulate angiogenesis during development using zebrafish and mice as model organisms. I hope that our studies will provide a better understanding into human pathologies that involve problems in vascularization like arteriovenous malformations. 

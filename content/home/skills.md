@@ -13,23 +13,35 @@ subtitle = ""
 # Add/remove as many `[[feature]]` blocks below as you like.
 # 
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
+[[feature]]
+  icon = "microscope"
+  icon_pack = "fas"
+  name = "Imaging"
+  description = "Trained in use of confocal and lightsheet microscopy" 
 
 [[feature]]
   icon = "r-project"
   icon_pack = "fab"
   name = "R"
-  description = "90%"
+  description = "Basic use of R to process next generation sequencing data including RNA-Seq, ATAC-Seq and Single Cell Sequencing"
+  
   
 [[feature]]
-  icon = "chart-line"
+  icon = "fish"
   icon_pack = "fas"
-  name = "Statistics"
-  description = "100%"  
+  name = "Experience with multiple model organisms"
+  description = "Conducted research with model organisms including mouse, zebrafish, fruit fly and pond snails"
   
-[[feature]]
-  icon = "camera-retro"
+  [[feature]]
+  icon = "globe-americas"
   icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "Bilingual"
+  description = "Fully fluent in English and Spanish"
+  
+  [[feature]]
+  icon = "dna"
+  icon_pack = "fas"
+  name = "Molecular Biology"
+  description = ""
 
 +++
