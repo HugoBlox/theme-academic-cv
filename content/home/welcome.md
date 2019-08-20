@@ -15,11 +15,13 @@ title = "**Quantitative Fisheries Ecology**"
 
   # Text color (true=light or false=dark).
   text_color_light = true
+  focal_point = "Center"
   
   [design.background]
   image = "header.jpg"
   image_darken = 0  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
   text_color_light = false
+  focal_point = "Center"
 [design.spacing]
   padding = ["10px", "0", "300px", "0"]
 +++

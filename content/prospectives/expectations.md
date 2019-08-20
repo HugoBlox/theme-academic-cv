@@ -15,8 +15,8 @@ Of course, I can't tell you what life will be like if you join the lab. However,
 
 * Approach work with curiosity, rigor, and humility. Being a member of the lab is our job, and we take our jobs seriously. It's also *just* a job.
 * Value each others' time.
-* Trust intent, own impact: gives others the benefit of the doubt, but own the consequences of our behaviors if someone approaches us feeling hurt.
-* Be an active and collaborative member of the lab, but provide feedback with empathy. Presenting new ideas and asking for help means taking a risk.
+* Trust intent, own impact: gives others the benefit of the doubt, but own the consequences of our behaviors.
+* Be an active and collaborative member of the lab. On the flip side, provide feedback with empathy.
 
 In addition, I have some extra responsibilies as your mentor:
 
