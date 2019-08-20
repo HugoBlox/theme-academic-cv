@@ -16,7 +16,7 @@ baseurl = "https://okenk.github.io/"
 copyright = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-119556526-1"
 
 ############################
 ## Advanced options below ##
