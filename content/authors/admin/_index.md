@@ -41,7 +41,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:mguiterr@bcm.edu".
+  link: 'mailto:mguiterr@bcm.edu'  # For a direct email link, use "mailto:mguiterr@bcm.edu".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/mcoffeewanderer
