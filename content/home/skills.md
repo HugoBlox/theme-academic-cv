@@ -8,6 +8,15 @@ weight = 30  # Order that this section will appear.
 title = "Skills"
 subtitle = ""
 
+
+[design.background]
+#Background image.
+image = "art2.jpg"  # Name of image in `static/img/`.
+image_darken = 0.7  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+
+# Text color (true=light or false=dark).
+  text_color_light = true 
+
 # Showcase personal skills or business features.
 # 
 # Add/remove as many `[[feature]]` blocks below as you like.
