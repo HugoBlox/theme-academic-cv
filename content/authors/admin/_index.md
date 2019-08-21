@@ -66,8 +66,9 @@ user_groups:
 ---
 
 
-Hello and Welcome!
-My name is Manuel and I am a PhD Student at BCM. Originally from Mexico I moved to Texas to pursue a Biology degree at The University of Texas-Pan American.
+Welcome 👨🏻
+💻!
+I am a PhD Student at BCM. Originally from Mexico I moved to Texas to pursue a Biology degree at The University of Texas-Pan American.
 
 In college, I studied neurodegeneration using pond snails (I know, not the fastest animal model) while completing my undergraduate education at UTPA (now UTRGV) in Dr Dan Plas’ laboratory. Also as an undergraduate student and thanks to HHMI EXROP, I got the opportunity to perform research in Dr Hugo Bellen’s lab at BCM helping in the development of a genetic tool that allows for the tagging of genes and a reversible, spatial and temporal knockdown of proteins in fruit flies.
 
