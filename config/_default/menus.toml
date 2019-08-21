@@ -8,6 +8,11 @@
   url = "#about"
   weight = 10
 
+[[main]]
+  name = "Skills"
+  url = "#Skills"
+  weight = 20
+
 #[[main]]
 #  name = "Posts"
 #  url = "#posts"
