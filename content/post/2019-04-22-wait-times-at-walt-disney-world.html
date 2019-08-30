@@ -1,7 +1,7 @@
 ---
-title: "Wait Times at Walt Disney World"
+title: "Predicting Wait Times at Walt Disney World: LM vs XGboost"
 author: 'Mikayla'
-date: '2019-04-22'
+date: '2019-07-22'
 slug: wait-times-at-walt-disney-world
 tags: []
 categories: []
@@ -833,7 +833,7 @@ xgb_model &lt;- mlr::train(xgb_learner, task = train_task)
 result &lt;- predict(xgb_model, test_task)
 performance(result,measures = mae)</code></pre>
 <pre><code>##      mae 
-## 38.41872</code></pre>
+## 38.33644</code></pre>
 <p>The above model uses the default hyper-parameter for nrounds (1). It has a pretty high MAE and is off by almost 40 minutes on average. However, we did not specify any hyper-parameters and defaults were used.</p>
 <p>We can improve model performance by tuning our parameters. Below we can see all available parameters.</p>
 <pre class="r"><code># To see all the parameters of the xgboost regr
@@ -939,7 +939,7 @@ print(xgb_tuned_learner)</code></pre>
 ## Class: regr.xgboost
 ## Properties: numerics,weights,featimp,missings
 ## Predict-Type: response
-## Hyperparameters: nrounds=242,verbose=0,eval_metric=mae,max_depth=4,eta=0.107,lambda=0.598</code></pre>
+## Hyperparameters: nrounds=131,verbose=0,eval_metric=mae,max_depth=7,eta=0.468,lambda=0.773</code></pre>
 <p>The optimal hyperparameter results from tuning are shown above. Now, we can re-train our model with these results.</p>
 <pre class="r"><code># Re-train parameters using tuned hyperparameters 
 xgb_tuned_model &lt;- mlr::train(xgb_tuned_learner, train_task)
@@ -948,7 +948,7 @@ xgb_tuned_model &lt;- mlr::train(xgb_tuned_learner, train_task)
 result_tuned &lt;- predict(xgb_tuned_model, test_task)
 performance(result_tuned,measures = mae)</code></pre>
 <pre><code>##      mae 
-## 13.92094</code></pre>
+## 10.83841</code></pre>
 <p>The performance improved significantly with hyper-parameter tuning. This model performs better than the one created originally with the xgboost package.</p>
 <pre class="r"><code>feat_imp&lt;-getFeatureImportance(xgb_tuned_model)
 
