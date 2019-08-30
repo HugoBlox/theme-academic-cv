@@ -7,12 +7,14 @@ tags:
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: http://orionweller.com/ttr
+external_link: ""
 
 image:
   caption: Website for Live Predictions of Time To Read
   focal_point: Smart
 ---
+
+Demo at [this link](http://orionweller.com/ttr/)
 
 For my Data Science Capstone project, I worked with Adobe Analytics to improve the standard time-to-read model of 240 wpm.  This naive model doesn't take any factors into account, other than the length of the article.  We conducted a statistical study on Mechanical Turk using fractional factorial design to gather data, then used machine learning techniques to improve upon the naive model.
 
