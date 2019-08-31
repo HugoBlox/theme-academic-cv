@@ -70,4 +70,4 @@ Hi, I'm Mikayla.
 
 I'm a recent graduate of Stanford University (2019), where I studied Management Science & Engineering. 
 
-I love Disney, data science, and machine learning. I made this site to share the projects I'm working on and what I've learned in the process. Although I primarily work in R, I use Python as well and like to go back and forth when convenient. I built this site using R blogdown, and the source code can be found on my GitHub. 
+I enjoy constructing datasets using unstructured data and unconventional sources. I do my analysis & modeling in R, primarily using the tidyverse suite. I made this site to share the projects I'm working on and what I've learned in the process. Although I primarily work in R, I use Python as well and like to go back and forth when convenient. I built this site using R blogdown, and the source code can be found on my GitHub. 
