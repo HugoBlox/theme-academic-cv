@@ -30,7 +30,7 @@ Here, I search for Walmart because I want the stores forecasting dataset
 ```{r fig.height=7, fig.width=5, paged.print=FALSE}
 walComps<-kgl_competitions_list(search = "Walmart")
 
-kable(walComps %>% select(ref,title,description,url)) %>%
+kable(walComps %>% select(ref,title,description,url,id)) %>%
   kable_styling(font_size =9 )
 ```
 

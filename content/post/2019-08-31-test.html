@@ -23,7 +23,7 @@ library(plotly)</code></pre>
 Here, I search for Walmart because I want the stores forecasting dataset</p>
 <pre class="r"><code>walComps&lt;-kgl_competitions_list(search = &quot;Walmart&quot;)
 
-kable(walComps %&gt;% select(ref,title,description,url)) %&gt;%
+kable(walComps %&gt;% select(ref,title,description,url,id)) %&gt;%
   kable_styling(font_size =9 )</code></pre>
 <table class="table" style="font-size: 9px; margin-left: auto; margin-right: auto;">
 <thead>
@@ -39,6 +39,9 @@ description
 </th>
 <th style="text-align:left;">
 url
+</th>
+<th style="text-align:right;">
+id
 </th>
 </tr>
 </thead>
@@ -56,6 +59,9 @@ Use market basket analysis to classify shopping trips
 <td style="text-align:left;">
 <a href="https://www.kaggle.com/c/walmart-recruiting-trip-type-classification" class="uri">https://www.kaggle.com/c/walmart-recruiting-trip-type-classification</a>
 </td>
+<td style="text-align:right;">
+4654
+</td>
 </tr>
 <tr>
 <td style="text-align:left;">
@@ -70,6 +76,9 @@ Use historical markdown data to predict store sales
 <td style="text-align:left;">
 <a href="https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting" class="uri">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting</a>
 </td>
+<td style="text-align:right;">
+3816
+</td>
 </tr>
 <tr>
 <td style="text-align:left;">
@@ -83,6 +92,9 @@ Predict how sales of weather-sensitive products are affected by snow and rain
 </td>
 <td style="text-align:left;">
 <a href="https://www.kaggle.com/c/walmart-recruiting-sales-in-stormy-weather" class="uri">https://www.kaggle.com/c/walmart-recruiting-sales-in-stormy-weather</a>
+</td>
+<td style="text-align:right;">
+4332
 </td>
 </tr>
 </tbody>
