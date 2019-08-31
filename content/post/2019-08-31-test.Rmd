@@ -1,11 +1,16 @@
 ---
-title: test
+title: Using Kaggle API
 author: ''
 date: '2018-08-31'
 slug: test
 categories: []
 tags: []
 ---
+Although there are many resources explaining how to use the Kaggle API for Python (for which it was developed), I could not find much information about using it from Rstudio. Therefore, in this post I will explain how to use the 
+
+
+## Installing packages
+
 ```{r}
 #devtools::install_github("mkearney/kaggler")
 library(kaggler)
