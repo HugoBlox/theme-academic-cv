@@ -27,9 +27,9 @@ food<-read_csv("fastfood_calories.csv")
 ```{r, echo=FALSE}
 head(food)
 ```
-What is up with the "salad" column?
 
-```{r, echo=FALSE}
+
+```{r}
 
 levels(as.factor(food$salad))
 #All salad levels are "Other." This column can be removed.
@@ -38,23 +38,14 @@ food$X1<-NULL
 
 #convert restaraunt to factor
 food$restaurant<-as.factor(food$restaurant)
-levels(food$restaurant)
 ```
 
-```{r,warning=FALSE}
-#select only 
-# library(microbenchmark)
-# microbenchmark(
-#     dplyr::select_if(food, is.numeric),
-#     Filter(is.numeric, food),
-#     purrr::keep(food,is.numeric)
-# )
-```
 
-## Subsetting Practice
 
-```{r,warning=FALSE}
-##replace NA content with 0
+## Subsetting
+
+```{r}
+#replace NA content with 0
 food<-food %>% mutate_if(is.numeric, ~replace(., is.na(.), 0))
 
 #using unlist(lapply(...)) is the same as sapply(...)
@@ -92,16 +83,31 @@ food[str_detect(food$item, "[Bb]acon|BLT|B.L.T"),]
 
 
 ```{r}
-bacon<-food %>% mutate(contains_bacon = str_detect(food$item, "[Bb]acon|BLT|B.L.T")) %>%
+bacon <-
+  food %>% mutate(contains_bacon = str_detect(food$item, "[Bb]acon|BLT|B.L.T")) %>%
   group_by(contains_bacon) %>% select_if(is.numeric) %>% summarise_at(
-    c("calories","sat_fat","trans_fat","total_fat","sodium","cholesterol"), list(~mean(.)),na.rm=TRUE)
+    c(
+      "calories",
+      "sat_fat",
+      "trans_fat",
+      "total_fat",
+      "sodium",
+      "cholesterol"
+    ),
+    list( ~ mean(.)),
+    na.rm = TRUE
+  )
 ```
 
 
 
 ```{r}
-bacon %>% gather(stat,content,-contains_bacon) %>% ggplot(aes(x=stat,y=content,fill=contains_bacon))+ geom_col(position = "dodge", stat = "identity")+ facet_wrap(~stat,scales="free")+xlab("")
+bacon %>% gather(stat,content,-contains_bacon) %>% 
+  ggplot(aes(x=stat,y=content,fill=contains_bacon))+ 
+  geom_col(position = "dodge", stat = "identity")+ facet_wrap(~stat,scales="free")+
+  xlab("")
 ```
+
 ```{r,message=FALSE}
 #show items that appear more than once
 dup<-food %>% select(restaurant,item) %>% duplicated()
@@ -132,33 +138,40 @@ word_freq %>% mutate(word = reorder(word, freq)) %>%
 
 
 ```{r}
-(word_cal<-food_words %>% group_by(word) %>% filter(length(word)>2) %>% mutate(cal_fat_perc=cal_fat/calories) %>% 
-  summarize(freq = n(),avg_cal=mean(calories),avg_cal_fat=mean(cal_fat), avg_calfat_perc=mean(cal_fat_perc)) %>% arrange(avg_cal))
+(word_cal<-food_words %>% group_by(word) %>% filter(length(word)>2) %>% 
+   mutate(cal_fat_perc=cal_fat/calories) %>% 
+   summarize(freq = n(),avg_cal=mean(calories),avg_cal_fat=mean(cal_fat), avg_calfat_perc=mean(cal_fat_perc)) %>% 
+   arrange(avg_cal))
 
 ```
 
 
 ```{r}
-word_cal %>% head(15) %>%  ggplot(aes(x=fct_reorder(word,avg_calfat_perc),y=avg_cal,fill=avg_calfat_perc))+ geom_bar(stat = "identity",position="dodge") +scale_fill_gradient()+coord_flip()
+word_cal %>% head(15) %>% 
+  ggplot(aes(x=fct_reorder(word,avg_calfat_perc),y=avg_cal,fill=avg_calfat_perc))+
+  geom_bar(stat = "identity",position="dodge")+
+  scale_fill_gradient()+coord_flip()
 ```
 
 
 ```{r}
-word_cal %>% tail(15) %>%  ggplot(aes(x=fct_reorder(word,avg_calfat_perc),y=avg_cal,fill=avg_calfat_perc))+ geom_bar(stat = "identity",position="dodge") +scale_fill_gradient()+coord_flip()
+word_cal %>% tail(15) %>%
+  ggplot(aes(x=fct_reorder(word,avg_calfat_perc),y=avg_cal,fill=avg_calfat_perc))+
+  geom_bar(stat = "identity",position="dodge") +scale_fill_gradient()+coord_flip()
 ```
 Meats: chicken,bacon,beef,turkey,steak
 
 Filter out instances where item title contains "w/o"
 ```{r}
 food<-food %>% filter(!str_detect(item,"w/o")) %>% mutate(
-    meat_type = case_when(
-      str_detect(item, "[Bb]acon|BLT|B.L.T") & !str_detect(item, "Bacon.*Chicken|Chicken.*Bacon") ~ "bacon",
-      str_detect(item, "Bacon.*Chicken|Chicken.*Bacon") ~ "bacon,chicken",
-      str_detect(item, "[Cc]hick") ~ "chicken",
-      str_detect(item, "[Bb]eef|[Cc]heeseburger|[Hh]amburger") ~ "beef",
-      str_detect(item, "[Tt]urkey") ~ "turkey",
-      str_detect(item, "[Ss]teak") ~ "steak",
-      TRUE~"other")) 
+  meat_type = case_when(
+    str_detect(item, "[Bb]acon|BLT|B.L.T") & !str_detect(item, "Bacon.*Chicken|Chicken.*Bacon") ~ "bacon",
+    str_detect(item, "Bacon.*Chicken|Chicken.*Bacon") ~ "bacon,chicken",
+    str_detect(item, "[Cc]hick") ~ "chicken",
+    str_detect(item, "[Bb]eef|[Cc]heeseburger|[Hh]amburger") ~ "beef",
+    str_detect(item, "[Tt]urkey") ~ "turkey",
+    str_detect(item, "[Ss]teak") ~ "steak",
+    TRUE~"other")) 
 
 ```
 ```{r}
@@ -181,7 +194,7 @@ meat_stat<-meat_stat %>%
   arrange(desc(mean_content)) %>% 
   ungroup() %>% 
   mutate(meat_type=factor(paste(meat_type,stat, sep = "__"), levels = rev(paste(meat_type,stat, sep = "__")))) 
-  
+
 
 meat_stat %>% 
   ggplot(aes(meat_type,mean_content,fill=stat)) + 
@@ -194,18 +207,22 @@ meat_stat %>%
 
 
 ```{r}
-food %>% filter(meat_type!="other",calories<1500) %>%  ggplot()+geom_jitter(aes(x=total_carb,y=calories,color="total_carb"))+ geom_jitter(aes(x=protein,y=calories,color="protein"))+geom_jitter(aes(x=total_fat,y=calories,color="total_fat"))+facet_wrap(~meat_type)+xlab("")+coord_flip()
+food %>% filter(meat_type!="other",calories<1500) %>%  
+  ggplot()+geom_jitter(aes(x=total_carb,y=calories,color="total_carb"))+ 
+  geom_jitter(aes(x=protein,y=calories,color="protein"))+
+  geom_jitter(aes(x=total_fat,y=calories,color="total_fat"))+
+  facet_wrap(~meat_type)+xlab("")+coord_flip()
 ```
 
 
 
 ```{r out.width=c('33%','33%','33%'),fig.show='hold'}
 ggplotRegression <- function(dat, xvar, yvar){
-
+  
   fml <- paste(yvar, "~", xvar)
-
+  
   fit <- lm(fml, dat)
-
+  
   ggplot(fit$model, aes_string(x = names(fit$model)[2], y = names(fit$model)[1])) +
     geom_point() +
     stat_smooth(method = "lm", col = "red") +
@@ -216,7 +233,7 @@ ggplotRegression(food,"protein", "calories")
 ggplotRegression(food,"total_fat", "calories")
 ```
 
-Have numeric only saved as food_num
+
 Correlation with calories
 ```{r,message=FALSE}
 
@@ -232,10 +249,8 @@ cor_df %>% focus(calories) %>% mutate(rowname=reorder(rowname,calories)) %>% ggp
 cor_df %>% focus(cal_fat) %>% mutate(rowname=reorder(rowname,cal_fat)) %>% ggplot(aes(x=rowname,y=cal_fat,fill=rowname))+geom_bar(stat = "identity")+coord_flip()+scale_fill_manual(values=mycolors)
 ```
 
-Want food high protein, low fat,low protein
-Which rest. has best selection of high protein, low fat (As percentage?)
-Add category bins
-How many menu items at McD are l
+Which restaraunt has best selection of high protein, low fat (As percentage?)
+
 ```{r}
 #fat dist
 food %>% ggplot(aes(total_fat))+geom_histogram()
@@ -254,10 +269,10 @@ Pass new variable name (e.g. "tfat_cat") --> use !!new_var:= within function
 
 new_cat<-function(new_var,old_var,low,medium,df){
   df %>% 
-  mutate(!!new_var:= case_when(
-    old_var<low ~"low",
-    old_var<medium~"medium ",
-    TRUE~"high"))
+    mutate(!!new_var:= case_when(
+      old_var<low ~"low",
+      old_var<medium~"medium ",
+      TRUE~"high"))
 }
 
 #create new binned categorical variables for total fat
@@ -268,8 +283,8 @@ food %>% group_by(tfat_cat) %>% count()
 
 ```{r}
 (rest_fat<-food %>% group_by(restaurant,tfat_cat) %>% count() %>% 
-##add missing low category for BK, Sonic
-complete(restaurant,tfat_cat) %>% unique()%>% mutate(n=replace(n,is.na(n), 0)))
+   ##add missing low category for BK, Sonic
+   complete(restaurant,tfat_cat) %>% unique()%>% mutate(n=replace(n,is.na(n), 0)))
 ```
 
 

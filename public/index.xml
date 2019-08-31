@@ -58,7 +58,7 @@ This post (part 1) will detail the code to extract the points charts from the ht
       <pubDate>Wed, 10 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/fast-food-nutrition-analysis/</guid>
-      <description>library(tidyverse)library(ggthemes)library(tidytext)library(purrr)library(stats)library(corrr)library(RColorBrewer)R Markdown## # A tibble: 6 x 18## X1 restaurant item calories cal_fat total_fat sat_fat trans_fat## &amp;lt;int&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;int&amp;gt; &amp;lt;int&amp;gt; &amp;lt;int&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;## 1 1 Mcdonalds Arti… 380 60 7 2 0 ## 2 2 Mcdonalds Sing… 840 410 45 17 1.5## 3 3 Mcdonalds Doub… 1130 600 67 27 3 ## 4 4 Mcdonalds Gril… 750 280 31 10 0.</description>
+      <description>library(tidyverse)library(ggthemes)library(tidytext)library(purrr)library(stats)library(corrr)library(RColorBrewer)R Markdown## # A tibble: 6 x 18## X1 restaurant item calories cal_fat total_fat sat_fat trans_fat## &amp;lt;dbl&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;## 1 1 Mcdonalds Arti~ 380 60 7 2 0 ## 2 2 Mcdonalds Sing~ 840 410 45 17 1.5## 3 3 Mcdonalds Doub~ 1130 600 67 27 3 ## 4 4 Mcdonalds Gril~ 750 280 31 10 0.</description>
     </item>
     
     <item>
