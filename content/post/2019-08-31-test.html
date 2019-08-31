@@ -7,6 +7,7 @@ categories: []
 tags: []
 ---
 
+<script src="/rmarkdown-libs/kePrint/kePrint.js"></script>
 
 
 <pre class="r"><code>#devtools::install_github(&quot;mkearney/kaggler&quot;)
@@ -48,12 +49,190 @@ library(plotly)</code></pre>
 ##     layout</code></pre>
 <p>Once your your key is recorded, you can search for competitions by name (or any keyword such as “classification”)
 Here, I search for Walmart because I want the stores forecasting dataset</p>
-<pre class="r"><code>walComps&lt;-kgl_competitions_list(search = &quot;Walmart&quot;)</code></pre>
-<pre><code>## Warning in kgl_api_get(&quot;competitions/list&quot;, page = page, search = search):
-## Unauthorized (HTTP 401).</code></pre>
-<pre class="r"><code>walComps</code></pre>
-<pre><code>## Response [https://www.kaggle.com/api/v1/competitions/list?page=1&amp;search=Walmart]
-##   Date: 2019-08-31 18:55
-##   Status: 401
-##   Content-Type: &lt;unknown&gt;
-## &lt;EMPTY BODY&gt;</code></pre>
+<pre class="r"><code>walComps&lt;-kgl_competitions_list(search = &quot;Walmart&quot;)
+walComps</code></pre>
+<pre><code>##                                           ref
+## 1 walmart-recruiting-trip-type-classification
+## 2  walmart-recruiting-store-sales-forecasting
+## 3  walmart-recruiting-sales-in-stormy-weather
+##                                                                                                                                                                                                             tags
+## 1 tabular data, multiclass classification, 88, 39, 74, 147, NA, NA, data type &gt; tabular data, problem type &gt; multiclass classification, FALSE, FALSE, tabular data, multiclass classification, 90, 270, 252, 456
+## 2                                                                                                                                                                                                           NULL
+## 3                                               tabular data, regression, 88, 14, 74, 42, NA, NA, data type &gt; tabular data, problem type &gt; regression, FALSE, FALSE, tabular data, regression, 90, 476, 252, 532
+##                                                                     description
+## 1                         Use market basket analysis to classify shopping trips
+## 2                           Use historical markdown data to predict store sales
+## 3 Predict how sales of weather-sensitive products are affected by snow and rain
+##     id                                          title
+## 1 4654   Walmart Recruiting: Trip Type Classification
+## 2 3816   Walmart Recruiting - Store Sales Forecasting
+## 3 4332 Walmart Recruiting II: Sales in Stormy Weather
+##                                                                    url
+## 1 https://www.kaggle.com/c/walmart-recruiting-trip-type-classification
+## 2  https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting
+## 3  https://www.kaggle.com/c/walmart-recruiting-sales-in-stormy-weather
+##               deadline    category reward organizationName organizationRef
+## 1 2015-12-27T23:59:00Z Recruitment   Jobs          Walmart         walmart
+## 2 2014-05-05T23:59:00Z Recruitment   Jobs          Walmart         walmart
+## 3 2015-05-25T23:59:00Z Recruitment   Jobs          Walmart         walmart
+##   kernelCount teamCount userHasEntered userRank mergerDeadline
+## 1           0      1046          FALSE       NA             NA
+## 2           0       690           TRUE       NA             NA
+## 3           0       485           TRUE       NA             NA
+##     newEntrantDeadline              enabledDate maxDailySubmissions
+## 1                 &lt;NA&gt;  2015-10-26T18:48:38.67Z                   5
+## 2 2014-04-28T23:59:00Z 2014-02-20T14:02:21.513Z                   5
+## 3 2015-05-18T23:59:00Z 2015-04-01T22:43:39.913Z                   5
+##   maxTeamSize                    evaluationMetric awardsPoints
+## 1           1                     Multiclass Loss         TRUE
+## 2           1        Weighted Mean Absolute Error         TRUE
+## 3           1 Root Mean Squared Logarithmic Error         TRUE
+##   isKernelsSubmissionsOnly submissionsDisabled
+## 1                    FALSE               FALSE
+## 2                    FALSE               FALSE
+## 3                    FALSE               FALSE</code></pre>
+<p>To download the data, I need the id column entry for the forecasting dataset</p>
+<pre class="r"><code>#get id for forecasting dataset
+forId&lt;-walComps %&gt;% 
+  filter(str_detect(ref,&quot;forecasting&quot;)) %&gt;% 
+  pull(id)
+
+forId</code></pre>
+<pre><code>## [1] 3816</code></pre>
+<p>Now I can see what data files are available for the competition (at the Id number)</p>
+<pre class="r"><code>#get data list
+dataList&lt;-kgl_competitions_data_list(forId)
+
+kable(dataList) %&gt;% 
+  kableExtra::kable_styling(font_size = 11)</code></pre>
+<table class="table" style="font-size: 11px; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+ref
+</th>
+<th style="text-align:left;">
+description
+</th>
+<th style="text-align:left;">
+name
+</th>
+<th style="text-align:right;">
+totalBytes
+</th>
+<th style="text-align:left;">
+url
+</th>
+<th style="text-align:left;">
+creationDate
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+features.csv.zip
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+features.csv.zip
+</td>
+<td style="text-align:right;">
+161700
+</td>
+<td style="text-align:left;">
+<a href="https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/features.csv.zip" class="uri">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/features.csv.zip</a>
+</td>
+<td style="text-align:left;">
+2014-02-03T19:56:04Z
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+sampleSubmission.csv.zip
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+sampleSubmission.csv.zip
+</td>
+<td style="text-align:right;">
+225538
+</td>
+<td style="text-align:left;">
+<a href="https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/sampleSubmission.csv.zip" class="uri">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/sampleSubmission.csv.zip</a>
+</td>
+<td style="text-align:left;">
+2014-02-03T19:56:09Z
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+stores.csv
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+stores.csv
+</td>
+<td style="text-align:right;">
+532
+</td>
+<td style="text-align:left;">
+<a href="https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/stores.csv" class="uri">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/stores.csv</a>
+</td>
+<td style="text-align:left;">
+2014-02-03T19:56:14Z
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+test.csv.zip
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+test.csv.zip
+</td>
+<td style="text-align:right;">
+240940
+</td>
+<td style="text-align:left;">
+<a href="https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/test.csv.zip" class="uri">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/test.csv.zip</a>
+</td>
+<td style="text-align:left;">
+2014-02-03T19:56:23Z
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+train.csv.zip
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+train.csv.zip
+</td>
+<td style="text-align:right;">
+2587161
+</td>
+<td style="text-align:left;">
+<a href="https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/train.csv.zip" class="uri">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/train.csv.zip</a>
+</td>
+<td style="text-align:left;">
+2014-02-03T19:56:28Z
+</td>
+</tr>
+</tbody>
+</table>
+<p>The following PowerShell CMD can be used to download files</p>
+<div class="figure">
+<img src="snip.png" alt="Caption for the picture." />
+<p class="caption">Caption for the picture.</p>
+</div>

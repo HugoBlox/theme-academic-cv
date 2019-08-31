@@ -26,3 +26,31 @@ walComps<-kgl_competitions_list(search = "Walmart")
 walComps
 ```
 
+To download the data, I need the id column entry for the forecasting dataset
+```{r}
+#get id for forecasting dataset
+forId<-walComps %>% 
+  filter(str_detect(ref,"forecasting")) %>% 
+  pull(id)
+
+forId
+
+```
+
+Now I can see what data files are available for the competition (at the Id number)
+```{r}
+#get data list
+dataList<-kgl_competitions_data_list(forId)
+
+kable(dataList) %>% 
+  kableExtra::kable_styling(font_size = 11)
+
+```
+The following PowerShell CMD can  be used to download files
+
+![Caption for the picture.](C:/Users\mikay\R projects\my_site\content\post\snip.png)
+
+
+
+
+
