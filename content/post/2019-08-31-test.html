@@ -1,0 +1,59 @@
+---
+title: test
+author: ''
+date: '2019-08-31'
+slug: test
+categories: []
+tags: []
+---
+
+
+
+<pre class="r"><code>#devtools::install_github(&quot;mkearney/kaggler&quot;)
+library(kaggler)
+library(tidyverse)</code></pre>
+<pre><code>## Registered S3 methods overwritten by &#39;ggplot2&#39;:
+##   method         from 
+##   [.quosures     rlang
+##   c.quosures     rlang
+##   print.quosures rlang</code></pre>
+<pre><code>## -- Attaching packages ----------------------------------------------------------------------------------- tidyverse 1.2.1 --</code></pre>
+<pre><code>## v ggplot2 3.1.1       v purrr   0.3.2  
+## v tibble  2.1.1       v dplyr   0.8.0.1
+## v tidyr   0.8.3       v stringr 1.4.0  
+## v readr   1.3.1       v forcats 0.4.0</code></pre>
+<pre><code>## -- Conflicts -------------------------------------------------------------------------------------- tidyverse_conflicts() --
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()</code></pre>
+<pre class="r"><code>library(kableExtra)</code></pre>
+<pre><code>## Warning: package &#39;kableExtra&#39; was built under R version 3.6.1</code></pre>
+<pre><code>## 
+## Attaching package: &#39;kableExtra&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:dplyr&#39;:
+## 
+##     group_rows</code></pre>
+<pre class="r"><code>library(knitr)
+library(plotly)</code></pre>
+<pre><code>## Warning: package &#39;plotly&#39; was built under R version 3.6.1</code></pre>
+<pre><code>## 
+## Attaching package: &#39;plotly&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:ggplot2&#39;:
+## 
+##     last_plot</code></pre>
+<pre><code>## The following object is masked from &#39;package:stats&#39;:
+## 
+##     filter</code></pre>
+<pre><code>## The following object is masked from &#39;package:graphics&#39;:
+## 
+##     layout</code></pre>
+<p>Once your your key is recorded, you can search for competitions by name (or any keyword such as “classification”)
+Here, I search for Walmart because I want the stores forecasting dataset</p>
+<pre class="r"><code>walComps&lt;-kgl_competitions_list(search = &quot;Walmart&quot;)</code></pre>
+<pre><code>## Warning in kgl_api_get(&quot;competitions/list&quot;, page = page, search = search):
+## Unauthorized (HTTP 401).</code></pre>
+<pre class="r"><code>walComps</code></pre>
+<pre><code>## Response [https://www.kaggle.com/api/v1/competitions/list?page=1&amp;search=Walmart]
+##   Date: 2019-08-31 18:54
+##   Status: 401
+##   Content-Type: &lt;unknown&gt;
+## &lt;EMPTY BODY&gt;</code></pre>

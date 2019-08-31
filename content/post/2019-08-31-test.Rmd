@@ -1,0 +1,28 @@
+---
+title: test
+author: ''
+date: '2019-08-31'
+slug: test
+categories: []
+tags: []
+---
+```{r}
+#devtools::install_github("mkearney/kaggler")
+library(kaggler)
+library(tidyverse)
+library(kableExtra)
+library(knitr)
+library(plotly)
+```
+
+
+```{r include=FALSE}
+kgl_auth(username = "mikaylaedwards", key = "5e9d32485455a485c3aaf2b94eee33a0")
+```
+Once your your key is recorded, you can search for competitions by name (or any keyword such as "classification")
+Here, I search for Walmart because I want the stores forecasting dataset
+```{r}
+walComps<-kgl_competitions_list(search = "Walmart")
+walComps
+```
+

@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Mikayla Edwards</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>test</title>
+      <link>/post/test/</link>
+      <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/test/</guid>
+      <description>#devtools::install_github(&amp;quot;mkearney/kaggler&amp;quot;)library(kaggler)library(tidyverse)## Registered S3 methods overwritten by &amp;#39;ggplot2&amp;#39;:## method from ## [.quosures rlang## c.quosures rlang## print.quosures rlang## -- Attaching packages ----------------------------------------------------------------------------------- tidyverse 1.2.1 --## v ggplot2 3.1.1 v purrr 0.3.2 ## v tibble 2.1.1 v dplyr 0.8.0.1## v tidyr 0.8.3 v stringr 1.4.0 ## v readr 1.3.1 v forcats 0.4.0## -- Conflicts -------------------------------------------------------------------------------------- tidyverse_conflicts() --## x dplyr::filter() masks stats::filter()## x dplyr::lag() masks stats::lag()library(kableExtra)## Warning: package &amp;#39;kableExtra&amp;#39; was built under R version 3.</description>
+    </item>
     
     <item>
       <title>Grand Floridian Hotel Reviews Sentiment Analysis &amp; NLP</title>
@@ -17,7 +26,7 @@
       <pubDate>Sun, 11 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/grand-floridian-hotel-reviews/</guid>
-      <description>Grand Floridian Hotel Reviews: Sentiment Analysis and NLP The data for this analysis was obtained from the reviews posted on TripAdvisor. I used RSelenium and rvest to extract the data from the first 3000 dynamic web-pages on the TripAdvisor site, which was 2,350 reviews in total. The code used to do this is published on my GitHub here
+      <description>Grand Floridian Hotel Reviews: Sentiment Analysis and NLPThe data for this analysis was obtained from the reviews posted on TripAdvisor. I used RSelenium and rvest to extract the data from the first 3000 dynamic web-pages on the TripAdvisor site, which was 2,350 reviews in total. The code used to do this is published on my GitHub here
 Here, I load the the Rda file I saved from that extraction.</description>
     </item>
     
@@ -27,8 +36,8 @@ Here, I load the the Rda file I saved from that extraction.</description>
       <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/dvc-points-chart-analysis-part-2/</guid>
-      <description>DVC Analysis In this post, I will expand on my analysis from part 1. Here, I will merge the points charts datasets I created for Bay Lake Tower (BLT) and The Beach Club (BC). By wrangling the charts into a “tidy” data structure, we can easily produce visualizations and insights comparing the two resorts.
-library(tidyverse) library(lubridate) library(plotly) bc&amp;lt;-readRDS(&amp;quot;BC2020.rds&amp;quot;) blt&amp;lt;-readRDS(&amp;quot;BLT2020.rds&amp;quot;) comp&amp;lt;-bind_rows(bc,blt) comp$resort&amp;lt;-as.factor(comp$resort) head(comp) ## room season weekday points resort view ## 1 Studio ADVENTURE Sun_Th 15 Beach Club &amp;lt;NA&amp;gt; ## 2 1-Bedroom ADVENTURE Sun_Th 27 Beach Club &amp;lt;NA&amp;gt; ## 3 2-Bedroom ADVENTURE Sun_Th 37 Beach Club &amp;lt;NA&amp;gt; ## 4 Studio CHOICE Sun_Th 15 Beach Club &amp;lt;NA&amp;gt; ## 5 1-Bedroom CHOICE Sun_Th 29 Beach Club &amp;lt;NA&amp;gt; ## 6 2-Bedroom CHOICE Sun_Th 38 Beach Club &amp;lt;NA&amp;gt; Below I filter out 3 bedrooms, as Beach Club does not have this room type, and plot the average points required for each season, room type, and resort.</description>
+      <description>DVC AnalysisIn this post, I will expand on my analysis from part 1. Here, I will merge the points charts datasets I created for Bay Lake Tower (BLT) and The Beach Club (BC). By wrangling the charts into a “tidy” data structure, we can easily produce visualizations and insights comparing the two resorts.
+library(tidyverse)library(lubridate)library(plotly)bc&amp;lt;-readRDS(&amp;quot;BC2020.rds&amp;quot;)blt&amp;lt;-readRDS(&amp;quot;BLT2020.rds&amp;quot;)comp&amp;lt;-bind_rows(bc,blt)comp$resort&amp;lt;-as.factor(comp$resort)head(comp)## room season weekday points resort view## 1 Studio ADVENTURE Sun_Th 15 Beach Club &amp;lt;NA&amp;gt;## 2 1-Bedroom ADVENTURE Sun_Th 27 Beach Club &amp;lt;NA&amp;gt;## 3 2-Bedroom ADVENTURE Sun_Th 37 Beach Club &amp;lt;NA&amp;gt;## 4 Studio CHOICE Sun_Th 15 Beach Club &amp;lt;NA&amp;gt;## 5 1-Bedroom CHOICE Sun_Th 29 Beach Club &amp;lt;NA&amp;gt;## 6 2-Bedroom CHOICE Sun_Th 38 Beach Club &amp;lt;NA&amp;gt;Below I filter out 3 bedrooms, as Beach Club does not have this room type, and plot the average points required for each season, room type, and resort.</description>
     </item>
     
     <item>
@@ -39,7 +48,7 @@ library(tidyverse) library(lubridate) library(plotly) bc&amp;lt;-readRDS(&amp;qu
       <guid>/post/wait-times-at-walt-disney-world/</guid>
       <description>The data used for this analysis was originally published by Touring Plans.
 I used the data for six rides: two from the Magic Kingdom (Seven Dwarfs Mine Train &amp;amp; Splash Mountain), two from Hollywood Studios (Toy Story Mania &amp;amp; The Rockin Rollercoaster), and two from Epcot (Soarin &amp;amp; Spaceship Earth).
-library(tidyverse) library(lubridate) library(skimr) library(ModelMetrics) library(janitor) library(broom) library(forcats) library(kableExtra) library(stringr) There was a separate csv file for each ride. I originally merged &amp;amp; cleaned this data using Python, which can be found here.</description>
+library(tidyverse)library(lubridate)library(skimr)library(ModelMetrics)library(janitor)library(broom)library(forcats)library(kableExtra)library(stringr)There was a separate csv file for each ride. I originally merged &amp;amp; cleaned this data using Python, which can be found here.</description>
     </item>
     
     <item>
@@ -58,7 +67,7 @@ This post (part 1) will detail the code to extract the points charts from the ht
       <pubDate>Wed, 10 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/fast-food-nutrition-analysis/</guid>
-      <description>library(tidyverse) library(ggthemes) library(tidytext) library(purrr) library(stats) library(corrr) library(RColorBrewer) R Markdown ## # A tibble: 6 x 18 ## X1 restaurant item calories cal_fat total_fat sat_fat trans_fat ## &amp;lt;int&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;int&amp;gt; &amp;lt;int&amp;gt; &amp;lt;int&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; ## 1 1 Mcdonalds Arti… 380 60 7 2 0 ## 2 2 Mcdonalds Sing… 840 410 45 17 1.5 ## 3 3 Mcdonalds Doub… 1130 600 67 27 3 ## 4 4 Mcdonalds Gril… 750 280 31 10 0.</description>
+      <description>library(tidyverse)library(ggthemes)library(tidytext)library(purrr)library(stats)library(corrr)library(RColorBrewer)R Markdown## # A tibble: 6 x 18## X1 restaurant item calories cal_fat total_fat sat_fat trans_fat## &amp;lt;int&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;int&amp;gt; &amp;lt;int&amp;gt; &amp;lt;int&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;## 1 1 Mcdonalds Arti… 380 60 7 2 0 ## 2 2 Mcdonalds Sing… 840 410 45 17 1.5## 3 3 Mcdonalds Doub… 1130 600 67 27 3 ## 4 4 Mcdonalds Gril… 750 280 31 10 0.</description>
     </item>
     
   </channel>
