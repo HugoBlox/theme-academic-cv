@@ -57,7 +57,7 @@ kable(dataList) %>%
 
 The following PowerShell CMD can  be used to download files
 
-![Caption for the picture.](C:/Users\mikay\R projects\my_site\content\post\snip.png)
+![Caption for the picture.](C:/Users\mikay\R projects\my_site\static\post\2019-08-31-test_files\snip.png)
 
 ```{r}
 
