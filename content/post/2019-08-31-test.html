@@ -22,16 +22,14 @@ library(plotly)</code></pre>
 <p>Once your your key is recorded, you can search for competitions by name (or any keyword such as “classification”)
 Here, I search for Walmart because I want the stores forecasting dataset</p>
 <pre class="r"><code>walComps&lt;-kgl_competitions_list(search = &quot;Walmart&quot;)
-kable(walComps) %&gt;%
+
+kable(walComps %&gt;% select(-tags)) %&gt;%
   kable_styling(font_size = 9,full_width = F)</code></pre>
 <table class="table" style="font-size: 9px; width: auto !important; margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
 <th style="text-align:left;">
 ref
-</th>
-<th style="text-align:left;">
-tags
 </th>
 <th style="text-align:left;">
 description
@@ -107,9 +105,6 @@ submissionsDisabled
 walmart-recruiting-trip-type-classification
 </td>
 <td style="text-align:left;">
-list(ref = c(“tabular data”, “multiclass classification”), competitionCount = c(88, 39), datasetCount = c(74, 147), description = c(NA, NA), fullPath = c(“data type &gt; tabular data”, “problem type &gt; multiclass classification”), isAutomatic = c(FALSE, FALSE), name = c(“tabular data”, “multiclass classification”), scriptCount = c(90, 270), totalCount = c(252, 456))
-</td>
-<td style="text-align:left;">
 Use market basket analysis to classify shopping trips
 </td>
 <td style="text-align:right;">
@@ -181,9 +176,6 @@ FALSE
 walmart-recruiting-store-sales-forecasting
 </td>
 <td style="text-align:left;">
-list()
-</td>
-<td style="text-align:left;">
 Use historical markdown data to predict store sales
 </td>
 <td style="text-align:right;">
@@ -253,9 +245,6 @@ FALSE
 <tr>
 <td style="text-align:left;">
 walmart-recruiting-sales-in-stormy-weather
-</td>
-<td style="text-align:left;">
-list(ref = c(“tabular data”, “regression”), competitionCount = c(88, 14), datasetCount = c(74, 42), description = c(NA, NA), fullPath = c(“data type &gt; tabular data”, “problem type &gt; regression”), isAutomatic = c(FALSE, FALSE), name = c(“tabular data”, “regression”), scriptCount = c(90, 476), totalCount = c(252, 532))
 </td>
 <td style="text-align:left;">
 Predict how sales of weather-sensitive products are affected by snow and rain
