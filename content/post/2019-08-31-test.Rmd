@@ -30,8 +30,8 @@ Here, I search for Walmart because I want the stores forecasting dataset
 ```{r fig.height=7, fig.width=5, paged.print=FALSE}
 walComps<-kgl_competitions_list(search = "Walmart")
 
-kable(walComps %>% select(-tags)) %>%
-  kable_styling()
+kable(walComps %>% select(ref,title,description,url)) %>%
+  kable_styling(font_size =9 )
 ```
 
 To download the data, I need the id column entry for the forecasting dataset
@@ -55,10 +55,12 @@ kable(dataList) %>%
 
 ```
 
-The following PowerShell CMD can  be used to download files
+The files can be downloaded by clicking the above urls or by using the following PowerShell CMD 
 
-$Credentials = Get-Credential
-Invoke-WebRequest -Uri "https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/features.csv.zip" -OutFile "C:/Users/username/R projects/projectname/features.csv" -Credential $Credentials
+```{r}
+# $Credentials = Get-Credential
+# Invoke-WebRequest -Uri "https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/features.csv.zip" -OutFile "C:/Users/username/R projects/projectname/features.csv" -Credential $Credentials
+```
 
 
 ```{r}
