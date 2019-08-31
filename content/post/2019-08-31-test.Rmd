@@ -27,11 +27,11 @@ kgl_auth(username = "mikaylaedwards", key = "5e9d32485455a485c3aaf2b94eee33a0")
 
 Once your your key is recorded, you can search for competitions by name (or any keyword such as "classification")
 Here, I search for Walmart because I want the stores forecasting dataset
-```{r}
+```{r fig.height=7, fig.width=5, paged.print=FALSE}
 walComps<-kgl_competitions_list(search = "Walmart")
 
 kable(walComps %>% select(-tags)) %>%
-  kable_styling(font_size = 9,full_width = F)
+  kable_styling()
 ```
 
 To download the data, I need the id column entry for the forecasting dataset
@@ -57,7 +57,9 @@ kable(dataList) %>%
 
 The following PowerShell CMD can  be used to download files
 
-![Caption for the picture.](C:/Users\mikay\R projects\my_site\static\post\2019-08-31-test_files\snip.png)
+$Credentials = Get-Credential
+Invoke-WebRequest -Uri "https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/features.csv.zip" -OutFile "C:/Users/username/R projects/projectname/features.csv" -Credential $Credentials
+
 
 ```{r}
 

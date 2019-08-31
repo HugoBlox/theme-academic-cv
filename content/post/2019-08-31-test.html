@@ -24,8 +24,8 @@ Here, I search for Walmart because I want the stores forecasting dataset</p>
 <pre class="r"><code>walComps&lt;-kgl_competitions_list(search = &quot;Walmart&quot;)
 
 kable(walComps %&gt;% select(-tags)) %&gt;%
-  kable_styling(font_size = 9,full_width = F)</code></pre>
-<table class="table" style="font-size: 9px; width: auto !important; margin-left: auto; margin-right: auto;">
+  kable_styling()</code></pre>
+<table class="table" style="margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
 <th style="text-align:left;">
@@ -456,8 +456,6 @@ train.csv.zip
 </tbody>
 </table>
 <p>The following PowerShell CMD can be used to download files</p>
-<div class="figure">
-<img src="C:/Users\mikay\R%20projects\my_site\static\post\2019-08-31-test_files\snip.png" alt="Caption for the picture." />
-<p class="caption">Caption for the picture.</p>
-</div>
+<p>$Credentials = Get-Credential
+Invoke-WebRequest -Uri “<a href="https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/features.csv.zip" class="uri">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/features.csv.zip</a>” -OutFile “C:/Users/username/R projects/projectname/features.csv” -Credential $Credentials</p>
 </div>
