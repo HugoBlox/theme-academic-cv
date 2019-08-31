@@ -10,90 +10,322 @@ tags: []
 <script src="/rmarkdown-libs/kePrint/kePrint.js"></script>
 
 
-<p>Although there are many resources explaining how to use the Kaggle API for Python (for which it was developed), I could not find much information about using it from Rstudio. Therefore, in this post I will explain how to use the</p>
+<p>Although there are many resources explaining how to use the Kaggle API for Python (for which it was developed), I could not find much information about using it from Rstudio. Therefore, in this post I will explain how to use the kaggle API via kaggler.</p>
 <div id="installing-packages" class="section level2">
 <h2>Installing packages</h2>
 <pre class="r"><code>#devtools::install_github(&quot;mkearney/kaggler&quot;)
 library(kaggler)
-library(tidyverse)</code></pre>
-<pre><code>## Registered S3 methods overwritten by &#39;ggplot2&#39;:
-##   method         from 
-##   [.quosures     rlang
-##   c.quosures     rlang
-##   print.quosures rlang</code></pre>
-<pre><code>## -- Attaching packages ----------------------------------------------------------------------------------- tidyverse 1.2.1 --</code></pre>
-<pre><code>## v ggplot2 3.1.1       v purrr   0.3.2  
-## v tibble  2.1.1       v dplyr   0.8.0.1
-## v tidyr   0.8.3       v stringr 1.4.0  
-## v readr   1.3.1       v forcats 0.4.0</code></pre>
-<pre><code>## -- Conflicts -------------------------------------------------------------------------------------- tidyverse_conflicts() --
-## x dplyr::filter() masks stats::filter()
-## x dplyr::lag()    masks stats::lag()</code></pre>
-<pre class="r"><code>library(kableExtra)</code></pre>
-<pre><code>## Warning: package &#39;kableExtra&#39; was built under R version 3.6.1</code></pre>
-<pre><code>## 
-## Attaching package: &#39;kableExtra&#39;</code></pre>
-<pre><code>## The following object is masked from &#39;package:dplyr&#39;:
-## 
-##     group_rows</code></pre>
-<pre class="r"><code>library(knitr)
+library(tidyverse)
+library(kableExtra)
+library(knitr)
 library(plotly)</code></pre>
-<pre><code>## Warning: package &#39;plotly&#39; was built under R version 3.6.1</code></pre>
-<pre><code>## 
-## Attaching package: &#39;plotly&#39;</code></pre>
-<pre><code>## The following object is masked from &#39;package:ggplot2&#39;:
-## 
-##     last_plot</code></pre>
-<pre><code>## The following object is masked from &#39;package:stats&#39;:
-## 
-##     filter</code></pre>
-<pre><code>## The following object is masked from &#39;package:graphics&#39;:
-## 
-##     layout</code></pre>
 <p>Once your your key is recorded, you can search for competitions by name (or any keyword such as “classification”)
 Here, I search for Walmart because I want the stores forecasting dataset</p>
 <pre class="r"><code>walComps&lt;-kgl_competitions_list(search = &quot;Walmart&quot;)
-walComps</code></pre>
-<pre><code>##                                           ref
-## 1 walmart-recruiting-trip-type-classification
-## 2  walmart-recruiting-store-sales-forecasting
-## 3  walmart-recruiting-sales-in-stormy-weather
-##                                                                                                                                                                                                             tags
-## 1 tabular data, multiclass classification, 88, 39, 74, 147, NA, NA, data type &gt; tabular data, problem type &gt; multiclass classification, FALSE, FALSE, tabular data, multiclass classification, 90, 270, 252, 456
-## 2                                                                                                                                                                                                           NULL
-## 3                                               tabular data, regression, 88, 14, 74, 42, NA, NA, data type &gt; tabular data, problem type &gt; regression, FALSE, FALSE, tabular data, regression, 90, 476, 252, 532
-##                                                                     description
-## 1                         Use market basket analysis to classify shopping trips
-## 2                           Use historical markdown data to predict store sales
-## 3 Predict how sales of weather-sensitive products are affected by snow and rain
-##     id                                          title
-## 1 4654   Walmart Recruiting: Trip Type Classification
-## 2 3816   Walmart Recruiting - Store Sales Forecasting
-## 3 4332 Walmart Recruiting II: Sales in Stormy Weather
-##                                                                    url
-## 1 https://www.kaggle.com/c/walmart-recruiting-trip-type-classification
-## 2  https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting
-## 3  https://www.kaggle.com/c/walmart-recruiting-sales-in-stormy-weather
-##               deadline    category reward organizationName organizationRef
-## 1 2015-12-27T23:59:00Z Recruitment   Jobs          Walmart         walmart
-## 2 2014-05-05T23:59:00Z Recruitment   Jobs          Walmart         walmart
-## 3 2015-05-25T23:59:00Z Recruitment   Jobs          Walmart         walmart
-##   kernelCount teamCount userHasEntered userRank mergerDeadline
-## 1           0      1046          FALSE       NA             NA
-## 2           0       690           TRUE       NA             NA
-## 3           0       485           TRUE       NA             NA
-##     newEntrantDeadline              enabledDate maxDailySubmissions
-## 1                 &lt;NA&gt;  2015-10-26T18:48:38.67Z                   5
-## 2 2014-04-28T23:59:00Z 2014-02-20T14:02:21.513Z                   5
-## 3 2015-05-18T23:59:00Z 2015-04-01T22:43:39.913Z                   5
-##   maxTeamSize                    evaluationMetric awardsPoints
-## 1           1                     Multiclass Loss         TRUE
-## 2           1        Weighted Mean Absolute Error         TRUE
-## 3           1 Root Mean Squared Logarithmic Error         TRUE
-##   isKernelsSubmissionsOnly submissionsDisabled
-## 1                    FALSE               FALSE
-## 2                    FALSE               FALSE
-## 3                    FALSE               FALSE</code></pre>
+kable(walComps) %&gt;%
+  kable_styling(font_size = 9,full_width = F)</code></pre>
+<table class="table" style="font-size: 9px; width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+ref
+</th>
+<th style="text-align:left;">
+tags
+</th>
+<th style="text-align:left;">
+description
+</th>
+<th style="text-align:right;">
+id
+</th>
+<th style="text-align:left;">
+title
+</th>
+<th style="text-align:left;">
+url
+</th>
+<th style="text-align:left;">
+deadline
+</th>
+<th style="text-align:left;">
+category
+</th>
+<th style="text-align:left;">
+reward
+</th>
+<th style="text-align:left;">
+organizationName
+</th>
+<th style="text-align:left;">
+organizationRef
+</th>
+<th style="text-align:right;">
+kernelCount
+</th>
+<th style="text-align:right;">
+teamCount
+</th>
+<th style="text-align:left;">
+userHasEntered
+</th>
+<th style="text-align:left;">
+userRank
+</th>
+<th style="text-align:left;">
+mergerDeadline
+</th>
+<th style="text-align:left;">
+newEntrantDeadline
+</th>
+<th style="text-align:left;">
+enabledDate
+</th>
+<th style="text-align:right;">
+maxDailySubmissions
+</th>
+<th style="text-align:right;">
+maxTeamSize
+</th>
+<th style="text-align:left;">
+evaluationMetric
+</th>
+<th style="text-align:left;">
+awardsPoints
+</th>
+<th style="text-align:left;">
+isKernelsSubmissionsOnly
+</th>
+<th style="text-align:left;">
+submissionsDisabled
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+walmart-recruiting-trip-type-classification
+</td>
+<td style="text-align:left;">
+list(ref = c(“tabular data”, “multiclass classification”), competitionCount = c(88, 39), datasetCount = c(74, 147), description = c(NA, NA), fullPath = c(“data type &gt; tabular data”, “problem type &gt; multiclass classification”), isAutomatic = c(FALSE, FALSE), name = c(“tabular data”, “multiclass classification”), scriptCount = c(90, 270), totalCount = c(252, 456))
+</td>
+<td style="text-align:left;">
+Use market basket analysis to classify shopping trips
+</td>
+<td style="text-align:right;">
+4654
+</td>
+<td style="text-align:left;">
+Walmart Recruiting: Trip Type Classification
+</td>
+<td style="text-align:left;">
+<a href="https://www.kaggle.com/c/walmart-recruiting-trip-type-classification" class="uri">https://www.kaggle.com/c/walmart-recruiting-trip-type-classification</a>
+</td>
+<td style="text-align:left;">
+2015-12-27T23:59:00Z
+</td>
+<td style="text-align:left;">
+Recruitment
+</td>
+<td style="text-align:left;">
+Jobs
+</td>
+<td style="text-align:left;">
+Walmart
+</td>
+<td style="text-align:left;">
+walmart
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1046
+</td>
+<td style="text-align:left;">
+FALSE
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+2015-10-26T18:48:38.67Z
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:left;">
+Multiclass Loss
+</td>
+<td style="text-align:left;">
+TRUE
+</td>
+<td style="text-align:left;">
+FALSE
+</td>
+<td style="text-align:left;">
+FALSE
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+walmart-recruiting-store-sales-forecasting
+</td>
+<td style="text-align:left;">
+list()
+</td>
+<td style="text-align:left;">
+Use historical markdown data to predict store sales
+</td>
+<td style="text-align:right;">
+3816
+</td>
+<td style="text-align:left;">
+Walmart Recruiting - Store Sales Forecasting
+</td>
+<td style="text-align:left;">
+<a href="https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting" class="uri">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting</a>
+</td>
+<td style="text-align:left;">
+2014-05-05T23:59:00Z
+</td>
+<td style="text-align:left;">
+Recruitment
+</td>
+<td style="text-align:left;">
+Jobs
+</td>
+<td style="text-align:left;">
+Walmart
+</td>
+<td style="text-align:left;">
+walmart
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+690
+</td>
+<td style="text-align:left;">
+TRUE
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+2014-04-28T23:59:00Z
+</td>
+<td style="text-align:left;">
+2014-02-20T14:02:21.513Z
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:left;">
+Weighted Mean Absolute Error
+</td>
+<td style="text-align:left;">
+TRUE
+</td>
+<td style="text-align:left;">
+FALSE
+</td>
+<td style="text-align:left;">
+FALSE
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+walmart-recruiting-sales-in-stormy-weather
+</td>
+<td style="text-align:left;">
+list(ref = c(“tabular data”, “regression”), competitionCount = c(88, 14), datasetCount = c(74, 42), description = c(NA, NA), fullPath = c(“data type &gt; tabular data”, “problem type &gt; regression”), isAutomatic = c(FALSE, FALSE), name = c(“tabular data”, “regression”), scriptCount = c(90, 476), totalCount = c(252, 532))
+</td>
+<td style="text-align:left;">
+Predict how sales of weather-sensitive products are affected by snow and rain
+</td>
+<td style="text-align:right;">
+4332
+</td>
+<td style="text-align:left;">
+Walmart Recruiting II: Sales in Stormy Weather
+</td>
+<td style="text-align:left;">
+<a href="https://www.kaggle.com/c/walmart-recruiting-sales-in-stormy-weather" class="uri">https://www.kaggle.com/c/walmart-recruiting-sales-in-stormy-weather</a>
+</td>
+<td style="text-align:left;">
+2015-05-25T23:59:00Z
+</td>
+<td style="text-align:left;">
+Recruitment
+</td>
+<td style="text-align:left;">
+Jobs
+</td>
+<td style="text-align:left;">
+Walmart
+</td>
+<td style="text-align:left;">
+walmart
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+485
+</td>
+<td style="text-align:left;">
+TRUE
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+2015-05-18T23:59:00Z
+</td>
+<td style="text-align:left;">
+2015-04-01T22:43:39.913Z
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:left;">
+Root Mean Squared Logarithmic Error
+</td>
+<td style="text-align:left;">
+TRUE
+</td>
+<td style="text-align:left;">
+FALSE
+</td>
+<td style="text-align:left;">
+FALSE
+</td>
+</tr>
+</tbody>
+</table>
 <p>To download the data, I need the id column entry for the forecasting dataset</p>
 <pre class="r"><code>#get id for forecasting dataset
 forId&lt;-walComps %&gt;% 

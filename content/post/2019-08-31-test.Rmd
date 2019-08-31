@@ -6,12 +6,12 @@ slug: test
 categories: []
 tags: []
 ---
-Although there are many resources explaining how to use the Kaggle API for Python (for which it was developed), I could not find much information about using it from Rstudio. Therefore, in this post I will explain how to use the 
+Although there are many resources explaining how to use the Kaggle API for Python (for which it was developed), I could not find much information about using it from Rstudio. Therefore, in this post I will explain how to use the kaggle API via kaggler.
 
 
 ## Installing packages
 
-```{r}
+```{r message=FALSE, warning=FALSE}
 #devtools::install_github("mkearney/kaggler")
 library(kaggler)
 library(tidyverse)
@@ -24,11 +24,13 @@ library(plotly)
 ```{r include=FALSE}
 kgl_auth(username = "mikaylaedwards", key = "5e9d32485455a485c3aaf2b94eee33a0")
 ```
+
 Once your your key is recorded, you can search for competitions by name (or any keyword such as "classification")
 Here, I search for Walmart because I want the stores forecasting dataset
 ```{r}
 walComps<-kgl_competitions_list(search = "Walmart")
-walComps
+kable(walComps) %>%
+  kable_styling(font_size = 9,full_width = F)
 ```
 
 To download the data, I need the id column entry for the forecasting dataset
@@ -51,10 +53,14 @@ kable(dataList) %>%
   kableExtra::kable_styling(font_size = 11)
 
 ```
+
 The following PowerShell CMD can  be used to download files
 
 ![Caption for the picture.](C:/Users\mikay\R projects\my_site\content\post\snip.png)
 
+```{r}
+
+```
 
 
 
