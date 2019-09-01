@@ -62,13 +62,13 @@ This post (part 1) will detail the code to extract the points charts from the ht
     </item>
     
     <item>
-      <title>Using Kaggle API</title>
+      <title>How to Save Time Using the Kaggle API from RStudio</title>
       <link>/post/test/</link>
       <pubDate>Fri, 31 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/test/</guid>
-      <description>Although there are many resources explaining how to use the Kaggle API for Python (for which it was developed), I could not find much information about using it from Rstudio. Therefore, in this post I will explain how to use the kaggle API via kaggler.
-Installing packages#devtools::install_github(&amp;quot;mkearney/kaggler&amp;quot;)library(kaggler)library(tidyverse)library(kableExtra)library(knitr)library(plotly)Once your your key is recorded, you can search for competitions by name (or any keyword such as “classification”)Here, I search for Walmart because I want the stores forecasting dataset</description>
+      <description>Although there are many resources explaining how to use the Kaggle API in Python, I could not find much information about using it from Rstudio. Therefore, in this post I will explain how to use the kaggle API (via kaggler) to search for and download datasets available on the site.
+Installing packages#devtools::install_github(&amp;quot;mkearney/kaggler&amp;quot;)library(kaggler)library(tidyverse)library(kableExtra)library(knitr)library(plotly)Next we need to run kgl_auth(username=“yourusername”,key=“yourpassword”) to establish a connection to the API.</description>
     </item>
     
   </channel>

@@ -1,12 +1,12 @@
 ---
-title: Using Kaggle API
+title: How to Save Time Using the Kaggle API from RStudio
 author: ''
 date: '2018-08-31'
 slug: test
 categories: []
 tags: []
 ---
-Although there are many resources explaining how to use the Kaggle API for Python (for which it was developed), I could not find much information about using it from Rstudio. Therefore, in this post I will explain how to use the kaggle API via kaggler.
+Although there are many resources explaining how to use the Kaggle API in Python, I could not find much information about using it from Rstudio. Therefore, in this post I will explain how to use the kaggle API (via kaggler) to search for and download datasets available on the site.
 
 
 ## Installing packages
@@ -20,21 +20,23 @@ library(knitr)
 library(plotly)
 ```
 
+Next we need to run kgl_auth(username="yourusername",key="yourpassword") to establish a connection to the API. This can be obtained from Kaggle by going to Account--> Create New API token. It will be in the downloaded JSON file, which should go in your R project directory.
 
+I don't include my credentials because each account authorization is unique. 
 ```{r include=FALSE}
 kgl_auth(username = "mikaylaedwards", key = "5e9d32485455a485c3aaf2b94eee33a0")
 ```
 
-Once your your key is recorded, you can search for competitions by name (or any keyword such as "classification")
-Here, I search for Walmart because I want the stores forecasting dataset
+Once your your key is recorded, you can search for competitions by name or any keyword, such as "classification".
+Here, I search for "Walmart" to see past all competitions associated with Walmart.
 ```{r fig.height=7, fig.width=5, paged.print=FALSE}
 walComps<-kgl_competitions_list(search = "Walmart")
 
 kable(walComps %>% select(ref,title,description,url,id)) %>%
-  kable_styling(font_size =9 )
-```
+kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),full_width = F)
 
-To download the data, I need the id column entry for the forecasting dataset
+```
+I want to download the sales forecasting dataset. To do so, I need the id column entry for the forecasting dataset
 ```{r}
 #get id for forecasting dataset
 forId<-walComps %>% 
@@ -50,22 +52,21 @@ Now I can see what data files are available for the competition (at the Id numbe
 #get data list
 dataList<-kgl_competitions_data_list(forId)
 
-kable(dataList) %>% 
-  kableExtra::kable_styling(font_size = 11)
+kable(dataList) %>%
+kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),full_width = F)
 
 ```
 
-The files can be downloaded by clicking the above urls or by using the following PowerShell CMD 
-
+The files can be downloaded in several ways: by visiting the above urls, by using RCurl to access the https link, by using the following PowerShell CMD for each url (substitute your file path).
 ```{r}
 # $Credentials = Get-Credential
 # Invoke-WebRequest -Uri "https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/features.csv.zip" -OutFile "C:/Users/username/R projects/projectname/features.csv" -Credential $Credentials
 ```
 
+...You could, of course, go to the Kaggle website, manually search for datasets, and download them that way. However, it saves time to do everything from RStudio. This pipeline could also easily be scaled or automated get multiple datasets and schedule data pulls. 
 
-```{r}
 
-```
+
 
 
 
