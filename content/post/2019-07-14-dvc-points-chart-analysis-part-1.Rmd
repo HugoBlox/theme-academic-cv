@@ -6,104 +6,111 @@ slug: dvc-points-chart-analysis-part-1
 categories: []
 tags: []
 ---
+** This post is temporarily broken...*
+
+
 In this series of posts, I will analyze and compare the 2020 points charts for Bay Lake Tower and the The Beach Club. Html versions of the charts (used here) can be found on [DVC Request](https://www.dvcrequest.com/point-charts.asp)
 
 This post (part 1) will detail the code to extract the points charts from the html table format they are published in. I will use the rvest package as well as unpivotr to convert the data into a tabular dataframe. 
+
+
 ```{r,message=FALSE,warning=FALSE}
 library(rvest)
 library(unpivotr)
 library(htmltools)
 library(tidyverse)
 library(kableExtra)
+
+
 ```
 
 ```{r}
 #read in html data
-link<-"https://www.dvcrequest.com/point-chart/bay_lake_towers_2020.html"
-hlink<- read_html(link)
-
-table<-hlink %>% html_nodes("table") %>% 
-  html_table(header=F,fill=T)
-table <- table[[1]]
-
-#add the table to a dataframe, 
-dict <- as.data.frame(table)
-cells <- as_cells(table)
-cells<-cells %>% filter(col>2,row>1) %>% select(-data_type)
-
-cells %>% head() %>% kable() %>% kable_styling(font_size = 7)
+# link<-"https://www.dvcrequest.com/point-chart/bay_lake_towers_2020.html"
+# hlink<- read_html(link)
+# 
+# table<-hlink %>% html_nodes("table") %>% 
+#   html_table(header=F,fill=T)
+# table <- table[[1]]
+# 
+# #add the table to a dataframe, 
+# dict <- as.data.frame(table)
+# cells <- as_cells(table)
+# cells<-cells %>% filter(col>2,row>1) %>% select(-data_type)
+# 
+# cells %>% head() %>% kable() %>% kable_styling(font_size = 7)
 ```
 Although we now have the data in a usable data frame, it is all one long column. Therefore, we need to spread and restructure the dataframe.
 
 ```{r}
-cellstemp<-
-   cells %>% spread(row,chr) %>% filter(!col %in% c('6','10','14'))
-room_view<-cellstemp[,2:3]
-#seasons
-adventure<-cellstemp[,4:6]
-choice<-cellstemp[,7:9]
-dream<-cellstemp[,10:12]
-magic<-cellstemp[,13:15]
-premier<-cellstemp[,16:18]
-adventure<-cbind(room_view,adventure)
-choice<-cbind(room_view,choice)
-dream<-cbind(room_view,dream)
-magic<-cbind(room_view,magic)
-premier<-cbind(room_view,premier)
-dfs<-data.frame(Map(c,adventure,choice,dream,magic,premier))
-
-dfs %>% head() %>% kable() %>% kable_styling(font_size = 7)
+# cellstemp<-
+#    cells %>% spread(row,chr) %>% filter(!col %in% c('6','10','14'))
+# room_view<-cellstemp[,2:3]
+# #seasons
+# adventure<-cellstemp[,4:6]
+# choice<-cellstemp[,7:9]
+# dream<-cellstemp[,10:12]
+# magic<-cellstemp[,13:15]
+# premier<-cellstemp[,16:18]
+# adventure<-cbind(room_view,adventure)
+# choice<-cbind(room_view,choice)
+# dream<-cbind(room_view,dream)
+# magic<-cbind(room_view,magic)
+# premier<-cbind(room_view,premier)
+# dfs<-data.frame(Map(c,adventure,choice,dream,magic,premier))
+# 
+# dfs %>% head() %>% kable() %>% kable_styling(font_size = 7)
 ```
 That's much better: now the room type, room view, season, and points each have their own columns. Now we can rename these columns and gather the points to a single column
 ```{r}
-dfs<-dfs %>% rename_at(c(1,2,3,4,5),~c("room","view","season","Sun_Th","Fri_Sat")) %>%
-  mutate_at(vars('Sun_Th','Fri_Sat'),as.character) %>%
-  mutate_at(vars('Sun_Th','Fri_Sat'),as.numeric)
-
-dfl<-dfs %>% gather("weekday", "points",Sun_Th:Fri_Sat)
-dfl$room<-as.character(dfl$room)
-
-dfl %>% head() %>% kable() %>% kable_styling(font_size = 7)
-```
-The room column entries need to be renamed as well. 
-```{r}
-#change naming of room type
-dfl[dfl$room == "STUDIO(Sleeps up to 4)","room"] = "Studio"
-dfl[dfl$room == "1-BEDROOM\r\n      VACATION HOME(Sleeps up to 5)","room"] = "1-Bedroom"
-dfl[dfl$room == "2-BEDROOM\r\n      VACATION HOME(Sleeps up to 9)","room"] = "2-Bedroom"
-dfl[dfl$room == "3-BEDROOM\r\n  GRAND VILLA(Sleeps up to 12)","room"] = "3-Bedroom"
-
-dfl %>% head() %>% kable() %>% kable_styling(font_size = 7)
+# dfs<-dfs %>% rename_at(c(1,2,3,4,5),~c("room","view","season","Sun_Th","Fri_Sat")) %>%
+#   mutate_at(vars('Sun_Th','Fri_Sat'),as.character) %>%
+#   mutate_at(vars('Sun_Th','Fri_Sat'),as.numeric)
+# 
+# dfl<-dfs %>% gather("weekday", "points",Sun_Th:Fri_Sat)
+# dfl$room<-as.character(dfl$room)
+# 
+# dfl %>% head() %>% kable() %>% kable_styling(font_size = 7)
+# ```
+# The room column entries need to be renamed as well. 
+# ```{r}
+# #change naming of room type
+# dfl[dfl$room == "STUDIO(Sleeps up to 4)","room"] = "Studio"
+# dfl[dfl$room == "1-BEDROOM\r\n      VACATION HOME(Sleeps up to 5)","room"] = "1-Bedroom"
+# dfl[dfl$room == "2-BEDROOM\r\n      VACATION HOME(Sleeps up to 9)","room"] = "2-Bedroom"
+# dfl[dfl$room == "3-BEDROOM\r\n  GRAND VILLA(Sleeps up to 12)","room"] = "3-Bedroom"
+# 
+# dfl %>% head() %>% kable() %>% kable_styling(font_size = 7)
 ```
 Great, now the data can be easily explore and plotted.
 
 ```{r}
-dfl %>% 
-  ggplot(aes(x=fct_reorder(room,points),y=points,fill=fct_reorder(view,points)))+
-  geom_boxplot()+
-  scale_fill_brewer(palette= "OrRd")+
-  labs(x="",fill="View")
+# dfl %>% 
+#   ggplot(aes(x=fct_reorder(room,points),y=points,fill=fct_reorder(view,points)))+
+#   geom_boxplot()+
+#   scale_fill_brewer(palette= "OrRd")+
+#   labs(x="",fill="View")
 
 ```
 
 ```{r}
-dfl %>%
-  ggplot(aes(x=fct_reorder(season,points),y=points,fill=fct_reorder(view,points)))+geom_boxplot()+scale_fill_brewer(palette= "OrRd")
+# dfl %>%
+#   ggplot(aes(x=fct_reorder(season,points),y=points,fill=fct_reorder(view,points)))+geom_boxplot()+scale_fill_brewer(palette= "OrRd")
 ```
 From the above boxplots, we can see that room type determines points more than does season (i.e. there is less variability within a room than within a season)
 
 ```{r}
-dfl %>% filter(room %in% c("Studio", "1-Bedroom")) %>%
-  group_by(room, season) %>% summarize(avg_point = mean(points)) %>% 
-  ungroup() %>%
-  ggplot(aes(x = fct_reorder(season, avg_point),y = avg_point,group = room))+ 
-  geom_col(aes(fill = room), position = "dodge") + 
-  geom_text(aes(label =round(avg_point, 1)),position = position_dodge(0.9),vjust = 0) +
-  scale_fill_manual(values = c("skyblue", "grey"))
+# dfl %>% filter(room %in% c("Studio", "1-Bedroom")) %>%
+#   group_by(room, season) %>% summarize(avg_point = mean(points)) %>% 
+#   ungroup() %>%
+#   ggplot(aes(x = fct_reorder(season, avg_point),y = avg_point,group = room))+ 
+#   geom_col(aes(fill = room), position = "dodge") + 
+#   geom_text(aes(label =round(avg_point, 1)),position = position_dodge(0.9),vjust = 0) +
+#   scale_fill_manual(values = c("skyblue", "grey"))
 ```
 
 To prepare for the next post, where I will compare BLT and the Beach Club, I will add a column indicating the resort and save the RDS file. 
 The same process documented above was done for the Beach Club point chart. This can be found on my github [here](https://github.com/mikaylaedwards/DVC_analysis/blob/master/beachclub_analys.Rmd)
 ```{r}
-df20<-dfl %>% mutate(resort="BLT")
-df20%>% saveRDS(file = "BLT2020.rds")
+# df20<-dfl %>% mutate(resort="BLT")
+# df20%>% saveRDS(file = "BLT2020.rds")
