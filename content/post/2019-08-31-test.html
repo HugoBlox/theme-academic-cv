@@ -25,12 +25,10 @@ library(tableHTML)</code></pre>
 Here, I search for “Walmart” to see past all competitions associated with Walmart.</p>
 <pre class="r"><code>walComps&lt;-kgl_competitions_list(search = &quot;Walmart&quot;)
 
-# kable(walComps %&gt;% select(ref,title,description,url,id)) %&gt;%
-# kable_styling(bootstrap_options = c(&quot;striped&quot;, &quot;hover&quot;, &quot;condensed&quot;, &quot;responsive&quot;),full_width = F)
 
 tableHTML(walComps %&gt;% select(ref,title,description,url,id))</code></pre>
 <p>
-<table style="border-collapse:collapse;" class=table_8096 border=1>
+<table style="border-collapse:collapse;" class=table_8939 border=1>
 <thead>
 <tr>
   <th id="tableHTML_header_1"> </th>
@@ -80,68 +78,42 @@ forId</code></pre>
 <pre class="r"><code>#get data list
 dataList&lt;-kgl_competitions_data_list(forId)
 
-# kable(dataList) %&gt;%
-# kable_styling(bootstrap_options = c(&quot;striped&quot;, &quot;hover&quot;, &quot;condensed&quot;, &quot;responsive&quot;),full_width = F)
 
-tableHTML(dataList)</code></pre>
+tableHTML(dataList %&gt;% select(name,url))</code></pre>
 
-<table style="border-collapse:collapse;" class=table_1074 border=1>
+<table style="border-collapse:collapse;" class=table_5363 border=1>
 <thead>
 <tr>
   <th id="tableHTML_header_1"> </th>
-  <th id="tableHTML_header_2">ref</th>
-  <th id="tableHTML_header_3">description</th>
-  <th id="tableHTML_header_4">name</th>
-  <th id="tableHTML_header_5">totalBytes</th>
-  <th id="tableHTML_header_6">url</th>
-  <th id="tableHTML_header_7">creationDate</th>
+  <th id="tableHTML_header_2">name</th>
+  <th id="tableHTML_header_3">url</th>
 </tr>
 </thead>
 <tbody>
 <tr>
   <td id="tableHTML_rownames">1</td>
   <td id="tableHTML_column_1">features.csv.zip</td>
-  <td id="tableHTML_column_2">NA</td>
-  <td id="tableHTML_column_3">features.csv.zip</td>
-  <td id="tableHTML_column_4">161700</td>
-  <td id="tableHTML_column_5">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/features.csv.zip</td>
-  <td id="tableHTML_column_6">2014-02-03T19:56:04Z</td>
+  <td id="tableHTML_column_2">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/features.csv.zip</td>
 </tr>
 <tr>
   <td id="tableHTML_rownames">2</td>
   <td id="tableHTML_column_1">sampleSubmission.csv.zip</td>
-  <td id="tableHTML_column_2">NA</td>
-  <td id="tableHTML_column_3">sampleSubmission.csv.zip</td>
-  <td id="tableHTML_column_4">225538</td>
-  <td id="tableHTML_column_5">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/sampleSubmission.csv.zip</td>
-  <td id="tableHTML_column_6">2014-02-03T19:56:09Z</td>
+  <td id="tableHTML_column_2">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/sampleSubmission.csv.zip</td>
 </tr>
 <tr>
   <td id="tableHTML_rownames">3</td>
   <td id="tableHTML_column_1">stores.csv</td>
-  <td id="tableHTML_column_2">NA</td>
-  <td id="tableHTML_column_3">stores.csv</td>
-  <td id="tableHTML_column_4">532</td>
-  <td id="tableHTML_column_5">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/stores.csv</td>
-  <td id="tableHTML_column_6">2014-02-03T19:56:14Z</td>
+  <td id="tableHTML_column_2">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/stores.csv</td>
 </tr>
 <tr>
   <td id="tableHTML_rownames">4</td>
   <td id="tableHTML_column_1">test.csv.zip</td>
-  <td id="tableHTML_column_2">NA</td>
-  <td id="tableHTML_column_3">test.csv.zip</td>
-  <td id="tableHTML_column_4">240940</td>
-  <td id="tableHTML_column_5">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/test.csv.zip</td>
-  <td id="tableHTML_column_6">2014-02-03T19:56:23Z</td>
+  <td id="tableHTML_column_2">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/test.csv.zip</td>
 </tr>
 <tr>
   <td id="tableHTML_rownames">5</td>
   <td id="tableHTML_column_1">train.csv.zip</td>
-  <td id="tableHTML_column_2">NA</td>
-  <td id="tableHTML_column_3">train.csv.zip</td>
-  <td id="tableHTML_column_4">2587161</td>
-  <td id="tableHTML_column_5">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/train.csv.zip</td>
-  <td id="tableHTML_column_6">2014-02-03T19:56:28Z</td>
+  <td id="tableHTML_column_2">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/train.csv.zip</td>
 </tr>
 </tbody>
 </table>

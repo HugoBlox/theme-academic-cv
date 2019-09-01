@@ -30,11 +30,9 @@ kgl_auth(username = "mikaylaedwards", key = "5e9d32485455a485c3aaf2b94eee33a0")
 
 Once your your key is recorded, you can search for competitions by name or any keyword, such as "classification".
 Here, I search for "Walmart" to see past all competitions associated with Walmart.
-```{r fig.height=7, fig.width=5, paged.print=FALSE}
+```{r fig.height=4, fig.width=5, paged.print=FALSE}
 walComps<-kgl_competitions_list(search = "Walmart")
 
-# kable(walComps %>% select(ref,title,description,url,id)) %>%
-# kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),full_width = F)
 
 tableHTML(walComps %>% select(ref,title,description,url,id))
 ```
@@ -54,10 +52,8 @@ Now I can see what data files are available for the competition (at the Id numbe
 #get data list
 dataList<-kgl_competitions_data_list(forId)
 
-# kable(dataList) %>%
-# kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),full_width = F)
 
-tableHTML(dataList)
+tableHTML(dataList %>% select(name,url))
 
 ```
 
