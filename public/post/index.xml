@@ -68,7 +68,7 @@ This post (part 1) will detail the code to extract the points charts from the ht
       
       <guid>/post/test/</guid>
       <description>Although there are many resources explaining how to use the Kaggle API in Python, I could not find much information about using it from Rstudio. Therefore, in this post I will explain how to use the kaggle API (via kaggler) to search for and download datasets available on the site.
-Installing packages#devtools::install_github(&amp;quot;mkearney/kaggler&amp;quot;)library(kaggler)library(tidyverse)library(kableExtra)library(knitr)library(plotly)Next we need to run kgl_auth(username=“yourusername”,key=“yourpassword”) to establish a connection to the API.</description>
+Installing packages#devtools::install_github(&amp;quot;mkearney/kaggler&amp;quot;)library(kaggler)library(tidyverse)library(kableExtra)library(knitr)library(plotly)library(tableHTML)Next we need to run kgl_auth(username=“yourusername”,key=“yourpassword”) to establish a connection to the API.</description>
     </item>
     
   </channel>

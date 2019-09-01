@@ -18,6 +18,7 @@ library(tidyverse)
 library(kableExtra)
 library(knitr)
 library(plotly)
+library(tableHTML)
 ```
 
 Next we need to run kgl_auth(username="yourusername",key="yourpassword") to establish a connection to the API. This can be obtained from Kaggle by going to Account--> Create New API token. It will be in the downloaded JSON file, which should go in your R project directory.
@@ -32,9 +33,10 @@ Here, I search for "Walmart" to see past all competitions associated with Walmar
 ```{r fig.height=7, fig.width=5, paged.print=FALSE}
 walComps<-kgl_competitions_list(search = "Walmart")
 
-kable(walComps %>% select(ref,title,description,url,id)) %>%
-kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),full_width = F)
+# kable(walComps %>% select(ref,title,description,url,id)) %>%
+# kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),full_width = F)
 
+tableHTML(walComps %>% select(ref,title,description,url,id))
 ```
 I want to download the sales forecasting dataset. To do so, I need the id column entry for the forecasting dataset
 ```{r}
@@ -52,8 +54,10 @@ Now I can see what data files are available for the competition (at the Id numbe
 #get data list
 dataList<-kgl_competitions_data_list(forId)
 
-kable(dataList) %>%
-kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),full_width = F)
+# kable(dataList) %>%
+# kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),full_width = F)
+
+tableHTML(dataList)
 
 ```
 
