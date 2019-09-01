@@ -1,5 +1,5 @@
 .Rproj.user
-*.Rhistory
+.Rhistory
 .RData
 .Ruserdata
 academic1.Rproj

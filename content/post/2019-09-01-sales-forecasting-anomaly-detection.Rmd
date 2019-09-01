@@ -1,0 +1,176 @@
+---
+title: "Sales Forecasting Anomaly Detection"
+author: ''
+date: '2019-08-01'
+slug: sales-forecasting-anomaly-detection
+tags: []
+categories: []
+---
+
+```{r message=FALSE, warning=FALSE}
+library(tableHTML)
+library(tidyverse)
+library(kableExtra)
+library(knitr)
+library(plotly)
+library(anomalize)
+library(data.table)
+library(scales)
+library(xtable)
+library(lubridate)
+```
+
+
+
+```{r message=FALSE, warning=FALSE, paged.print=TRUE}
+#Make vector of filenames
+fileslist<-c("features.csv","stores.csv","test.csv","train.csv")
+
+#Map read_csv function to each element of fileslist; returns List of dataframes
+dfs<-map(fileslist,read_csv)
+
+features<-dfs[[1]]
+stores<-dfs[[2]]
+test<-dfs[[3]]
+train<-dfs[[4]]
+```
+
+
+How many different stores and departments are in the training dataset? Since we are forecasting weekly sales at the stores level, it is likely that the number of departments will be important. I will add this as a feature now. 
+```{r}
+train %>% 
+  select(Store,Dept) %>% 
+  summarise_all(~n_distinct(.x)) %>% 
+  glimpse()
+
+#add number of departments in store as feature to training dataset
+train<-train %>% 
+  group_by(Store) %>% 
+  mutate(num_dept=n_distinct(Dept)) 
+```
+
+We need to know if weekly sales volume is driven by the store itself or by individual departments. 
+```{r message=FALSE, warning=FALSE}
+first_stores<-head(unique(train$Store),3)
+first_dept<-head(unique(train$Dept),3)
+
+gg<-train %>% filter(Store %in% first_stores & Dept %in% first_dept) %>% 
+    ggplot(aes(x = Date, y = Weekly_Sales)) +
+    geom_line() +
+    theme(legend.position="bottom") +
+    facet_grid(Store~Dept,scales="free_y",space = "free",labeller = label_both)+
+    xlab("") +
+  ylab("")+
+  geom_smooth()
+    
+ggp_build <- plotly_build(gg)
+ggp_build$layout$height = 800
+ggp_build$layout$width = 600
+```
+
+Stores differ in the magnitude of their weekly volumn but departments appear to trend together across stores (i.e. are affected by similar yearly patterns)
+
+I will use data table to join datasets, as it is much faster than base or dplyr.
+```{r}
+#joining on store & date (keep number rows in train test)
+train<-setDT(train)[setDT(features),on=c("Store","Date","IsHoliday"),nomatch=0]
+test<-setDT(train)[setDT(features),on=c("Store","Date","IsHoliday"),nomatch=0]
+
+#join stores & train/test on store number
+train<-train[setDT(stores),on="Store",nomatch=0]
+test<-test[setDT(stores),on="Store",nomatch=0]
+```
+Use skimr for quick overview of what is available
+```{r out.height=3}
+#-hist?
+train %>% select_if(is.numeric) %>% 
+  select(-Store,-Dept) %>% 
+  skimr::skim() 
+```
+
+We see that there are three unique stores types ("Type" variable). Are these significantly different with respect to sales? I use a log transform to make the difference more clear.
+
+Also, I note that some variables may need transformation (Markdowns, WeeklySales, CPI)
+
+```{r}
+#Number of stores in each type (22,17,6)
+train %>%
+  group_by(Type) %>%
+  summarise(n_stores=n_distinct(Store)) %>% 
+  as_tibble() %>% 
+  glimpse()
+
+
+#Avg Store Sales by Type 
+train %>% 
+  group_by(Type,Date) %>% 
+  summarise(totalSales=sum(Weekly_Sales,na.rm = T),
+            nStores=n_distinct(Store),
+            avgStoreSale=totalSales/nStores) %>% 
+  ggplot(aes(x=Date,y=avgStoreSale,fill=Type,color=Type))+
+  geom_line(size=1,alpha=.7)+
+  xlab("") +
+  ylab("Weekly Sales")+
+  scale_y_log10(breaks = trans_breaks("log10", function(x) 10^x),
+                labels = trans_format("log10", math_format(10^.x)))+
+  scale_color_manual(values=c("black","dodgerblue","deeppink"))
+
+ 
+```
+
+There are only 6 type C stores and these have significantly lower weekly sales. Likewise, type A & B stores trend together. 
+
+
+
+## Visualize Sales Anomalies by Store
+Anamoly detection workflow:
+time_decompose(): Separate series into seasonal, trend, and remainder components
+anomalize(): Apply anomaly detection to remainder (is point an anomaly?)
+time_recompose(): Imputes limits separating “normal” from anomalize found in previous step
+
+
+To visualize anomalies at the store level, we need to sum across departments.  
+```{r}
+#nrow=45 * num weeks (unique Dates) (must be grouped for anom.)
+storeSums<-train %>% 
+  group_by(Store,Date) %>% 
+  summarise(storeWeeklySales=sum(Weekly_Sales,na.rm = T)) 
+
+#anomalies
+storeAnom<-storeSums %>% 
+  time_decompose(storeWeeklySales) %>% 
+  anomalize(remainder) %>%
+  time_recompose()
+
+head(storeAnom)
+
+```
+
+All stores have anomalies. Since there are 45 stores, I will cluster stores by their date anomlies. First, how many date anomalies are there? And how many stores had an anomaly on that date?
+```{r}
+storeAnom %>% 
+  filter(anomaly=="Yes") %>% 
+  group_by(Date) %>% 
+  tally
+
+```
+Almost all stores had an anomaly on 10-26-2012. 
+
+Stores with anomaly not = 10-26-2012
+```{r}
+storesList<-storeAnom %>% 
+  filter(anomaly=="Yes")%>%
+  distinct(Store) %>% 
+  pull(Store)
+
+storeAnom %>% 
+  filter(Store %in% tail(storesList,3)) %>% 
+  plot_anomalies(ncol = 4, alpha_dots = 0.25,time_recomposed = T)
+```
+
+
+```{r}
+storeAnom %>% 
+  filter(Store %in% head(storesList,12)) %>% 
+  plot_anomalies(ncol = 4, alpha_dots = 0.25,time_recomposed = T)
+```

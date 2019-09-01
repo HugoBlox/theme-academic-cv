@@ -32,6 +32,24 @@ library(tidyverse)library(lubridate)library(plotly)bc&amp;lt;-readRDS(&amp;qu
     </item>
     
     <item>
+      <title>Sales Forecasting Anamoly Detection</title>
+      <link>/post/sales-forecasting-anamoly-detection/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/sales-forecasting-anamoly-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sales Forecasting Anomaly Detection</title>
+      <link>/post/sales-forecasting-anomaly-detection/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/sales-forecasting-anomaly-detection/</guid>
+      <description>library(tableHTML)library(tidyverse)library(kableExtra)library(knitr)library(plotly)library(anomalize)library(data.table)library(scales)library(xtable)library(lubridate)#Make vector of filenamesfileslist&amp;lt;-c(&amp;quot;features.csv&amp;quot;,&amp;quot;stores.csv&amp;quot;,&amp;quot;test.csv&amp;quot;,&amp;quot;train.csv&amp;quot;)#Map read_csv function to each element of fileslist; returns List of dataframesdfs&amp;lt;-map(fileslist,read_csv)features&amp;lt;-dfs[[1]]stores&amp;lt;-dfs[[2]]test&amp;lt;-dfs[[3]]train&amp;lt;-dfs[[4]]How many different stores and departments are in the training dataset? Since we are forecasting weekly sales at the stores level, it is likely that the number of departments will be important. I will add this as a feature now.</description>
+    </item>
+    
+    <item>
       <title>Predicting Wait Times at Walt Disney World: LM vs XGboost</title>
       <link>/post/wait-times-at-walt-disney-world/</link>
       <pubDate>Mon, 22 Jul 2019 00:00:00 +0000</pubDate>

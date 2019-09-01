@@ -1,0 +1,211 @@
+---
+title: "Sales Forecasting Anomaly Detection"
+author: ''
+date: '2019-08-01'
+slug: sales-forecasting-anomaly-detection
+tags: []
+categories: []
+---
+
+
+
+<pre class="r"><code>library(tableHTML)
+library(tidyverse)
+library(kableExtra)
+library(knitr)
+library(plotly)
+library(anomalize)
+library(data.table)
+library(scales)
+library(xtable)
+library(lubridate)</code></pre>
+<pre class="r"><code>#Make vector of filenames
+fileslist&lt;-c(&quot;features.csv&quot;,&quot;stores.csv&quot;,&quot;test.csv&quot;,&quot;train.csv&quot;)
+
+#Map read_csv function to each element of fileslist; returns List of dataframes
+dfs&lt;-map(fileslist,read_csv)
+
+features&lt;-dfs[[1]]
+stores&lt;-dfs[[2]]
+test&lt;-dfs[[3]]
+train&lt;-dfs[[4]]</code></pre>
+<p>How many different stores and departments are in the training dataset? Since we are forecasting weekly sales at the stores level, it is likely that the number of departments will be important. I will add this as a feature now.</p>
+<pre class="r"><code>train %&gt;% 
+  select(Store,Dept) %&gt;% 
+  summarise_all(~n_distinct(.x)) %&gt;% 
+  glimpse()</code></pre>
+<pre><code>## Observations: 1
+## Variables: 2
+## $ Store &lt;int&gt; 45
+## $ Dept  &lt;int&gt; 81</code></pre>
+<pre class="r"><code>#add number of departments in store as feature to training dataset
+train&lt;-train %&gt;% 
+  group_by(Store) %&gt;% 
+  mutate(num_dept=n_distinct(Dept)) </code></pre>
+<p>We need to know if weekly sales volume is driven by the store itself or by individual departments.</p>
+<pre class="r"><code>first_stores&lt;-head(unique(train$Store),3)
+first_dept&lt;-head(unique(train$Dept),3)
+
+gg&lt;-train %&gt;% filter(Store %in% first_stores &amp; Dept %in% first_dept) %&gt;% 
+    ggplot(aes(x = Date, y = Weekly_Sales)) +
+    geom_line() +
+    theme(legend.position=&quot;bottom&quot;) +
+    facet_grid(Store~Dept,scales=&quot;free_y&quot;,space = &quot;free&quot;,labeller = label_both)+
+    xlab(&quot;&quot;) +
+  ylab(&quot;&quot;)+
+  geom_smooth()
+    
+ggp_build &lt;- plotly_build(gg)
+ggp_build$layout$height = 800
+ggp_build$layout$width = 600</code></pre>
+<p>Stores differ in the magnitude of their weekly volumn but departments appear to trend together across stores (i.e. are affected by similar yearly patterns)</p>
+<p>I will use data table to join datasets, as it is much faster than base or dplyr.</p>
+<pre class="r"><code>#joining on store &amp; date (keep number rows in train test)
+train&lt;-setDT(train)[setDT(features),on=c(&quot;Store&quot;,&quot;Date&quot;,&quot;IsHoliday&quot;),nomatch=0]
+test&lt;-setDT(train)[setDT(features),on=c(&quot;Store&quot;,&quot;Date&quot;,&quot;IsHoliday&quot;),nomatch=0]
+
+#join stores &amp; train/test on store number
+train&lt;-train[setDT(stores),on=&quot;Store&quot;,nomatch=0]
+test&lt;-test[setDT(stores),on=&quot;Store&quot;,nomatch=0]</code></pre>
+<p>Use skimr for quick overview of what is available</p>
+<pre class="r"><code>#-hist?
+train %&gt;% select_if(is.numeric) %&gt;% 
+  select(-Store,-Dept) %&gt;% 
+  skimr::skim() </code></pre>
+<pre><code>## Skim summary statistics
+##  n obs: 421570 
+##  n variables: 12 
+## 
+## -- Variable type:integer -----------------------------------------------------------------------------------------------------------------------------
+##  variable missing complete      n  mean   sd p0 p25 p50 p75 p100     hist
+##  num_dept       0   421570 421570 74.72 5.01 61  75  77  77   79 &lt;U+2582&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2583&gt;&lt;U+2587&gt;
+## 
+## -- Variable type:numeric -----------------------------------------------------------------------------------------------------------------------------
+##      variable missing complete      n      mean       sd       p0      p25
+##           CPI       0   421570 421570    171.2     39.16   126.06   132.02
+##    Fuel_Price       0   421570 421570      3.36     0.46     2.47     2.93
+##     MarkDown1  270889   150681 421570   7246.42  8291.22     0.27  2240.27
+##     MarkDown2  310322   111248 421570   3334.63  9475.36  -265.76    41.6 
+##     MarkDown3  284479   137091 421570   1439.42  9623.08   -29.1      5.08
+##     MarkDown4  286603   134967 421570   3383.17  6292.38     0.22   504.22
+##     MarkDown5  270138   151432 421570   4628.98  5962.89   135.16  1878.44
+##          Size       0   421570 421570 136727.92 60980.58 34875    93638   
+##   Temperature       0   421570 421570     60.09    18.45    -2.06    46.68
+##  Unemployment       0   421570 421570      7.96     1.86     3.88     6.89
+##  Weekly_Sales       0   421570 421570  15981.26 22711.18 -4988.94  2079.65
+##        p50      p75      p100     hist
+##     182.32   212.42    227.23 &lt;U+2587&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2582&gt;&lt;U+2583&gt;&lt;U+2583&gt;
+##       3.45     3.74      4.47 &lt;U+2583&gt;&lt;U+2586&gt;&lt;U+2585&gt;&lt;U+2585&gt;&lt;U+2587&gt;&lt;U+2587&gt;&lt;U+2582&gt;&lt;U+2581&gt;
+##    5347.45  9210.9   88646.76 &lt;U+2587&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;
+##     192     1926.94  1e+05    &lt;U+2587&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;
+##      24.6    103.99 141630.61 &lt;U+2587&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;
+##    1481.31  3595.04  67474.85 &lt;U+2587&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;
+##    3359.45  5563.8  108519.28 &lt;U+2587&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;
+##  140167    2e+05    219622    &lt;U+2585&gt;&lt;U+2581&gt;&lt;U+2582&gt;&lt;U+2585&gt;&lt;U+2581&gt;&lt;U+2583&gt;&lt;U+2581&gt;&lt;U+2587&gt;
+##      62.09    74.28    100.14 &lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2583&gt;&lt;U+2585&gt;&lt;U+2586&gt;&lt;U+2587&gt;&lt;U+2586&gt;&lt;U+2582&gt;
+##       7.87     8.57     14.31 &lt;U+2581&gt;&lt;U+2583&gt;&lt;U+2586&gt;&lt;U+2587&gt;&lt;U+2582&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;
+##    7612.03 20205.85 693099.36 &lt;U+2587&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;&lt;U+2581&gt;</code></pre>
+<p>We see that there are three unique stores types (“Type” variable). Are these significantly different with respect to sales? I use a log transform to make the difference more clear.</p>
+<p>Also, I note that some variables may need transformation (Markdowns, WeeklySales, CPI)</p>
+<pre class="r"><code>#Number of stores in each type (22,17,6)
+train %&gt;%
+  group_by(Type) %&gt;%
+  summarise(n_stores=n_distinct(Store)) %&gt;% 
+  as_tibble() %&gt;% 
+  glimpse()</code></pre>
+<pre><code>## Observations: 3
+## Variables: 2
+## $ Type     &lt;chr&gt; &quot;A&quot;, &quot;B&quot;, &quot;C&quot;
+## $ n_stores &lt;int&gt; 22, 17, 6</code></pre>
+<pre class="r"><code>#Avg Store Sales by Type 
+train %&gt;% 
+  group_by(Type,Date) %&gt;% 
+  summarise(totalSales=sum(Weekly_Sales,na.rm = T),
+            nStores=n_distinct(Store),
+            avgStoreSale=totalSales/nStores) %&gt;% 
+  ggplot(aes(x=Date,y=avgStoreSale,fill=Type,color=Type))+
+  geom_line(size=1,alpha=.7)+
+  xlab(&quot;&quot;) +
+  ylab(&quot;Weekly Sales&quot;)+
+  scale_y_log10(breaks = trans_breaks(&quot;log10&quot;, function(x) 10^x),
+                labels = trans_format(&quot;log10&quot;, math_format(10^.x)))+
+  scale_color_manual(values=c(&quot;black&quot;,&quot;dodgerblue&quot;,&quot;deeppink&quot;))</code></pre>
+<p><img src="/post/2019-09-01-sales-forecasting-anomaly-detection_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
+<p>There are only 6 type C stores and these have significantly lower weekly sales. Likewise, type A &amp; B stores trend together.</p>
+<div id="visualize-sales-anomalies-by-store" class="section level2">
+<h2>Visualize Sales Anomalies by Store</h2>
+<p>Anamoly detection workflow:
+time_decompose(): Separate series into seasonal, trend, and remainder components
+anomalize(): Apply anomaly detection to remainder (is point an anomaly?)
+time_recompose(): Imputes limits separating “normal” from anomalize found in previous step</p>
+<p>To visualize anomalies at the store level, we need to sum across departments.</p>
+<pre class="r"><code>#nrow=45 * num weeks (unique Dates) (must be grouped for anom.)
+storeSums&lt;-train %&gt;% 
+  group_by(Store,Date) %&gt;% 
+  summarise(storeWeeklySales=sum(Weekly_Sales,na.rm = T)) 
+
+#anomalies
+storeAnom&lt;-storeSums %&gt;% 
+  time_decompose(storeWeeklySales) %&gt;% 
+  anomalize(remainder) %&gt;%
+  time_recompose()</code></pre>
+<pre><code>## Registered S3 method overwritten by &#39;xts&#39;:
+##   method     from
+##   as.zoo.xts zoo</code></pre>
+<pre><code>## Registered S3 method overwritten by &#39;quantmod&#39;:
+##   method            from
+##   as.zoo.data.frame zoo</code></pre>
+<pre><code>## Registered S3 methods overwritten by &#39;forecast&#39;:
+##   method             from    
+##   fitted.fracdiff    fracdiff
+##   residuals.fracdiff fracdiff</code></pre>
+<pre class="r"><code>head(storeAnom)</code></pre>
+<pre><code>## # A time tibble: 6 x 11
+## # Index:  Date
+## # Groups: Store [1]
+##   Store Date       observed  season  trend remainder remainder_l1
+##   &lt;dbl&gt; &lt;date&gt;        &lt;dbl&gt;   &lt;dbl&gt;  &lt;dbl&gt;     &lt;dbl&gt;        &lt;dbl&gt;
+## 1     1 2010-02-05 1643691. 108207. 1.51e6    22467.     -227211.
+## 2     1 2010-02-12 1641957.  50984. 1.51e6    79438.     -227211.
+## 3     1 2010-02-19 1611968.  13803. 1.51e6    88113.     -227211.
+## 4     1 2010-02-26 1409728. -50592. 1.51e6   -48251.     -227211.
+## 5     1 2010-03-05 1554807.  74802. 1.51e6   -27084.     -227211.
+## 6     1 2010-03-12 1439542.  68436. 1.51e6  -134501.     -227211.
+## # ... with 4 more variables: remainder_l2 &lt;dbl&gt;, anomaly &lt;chr&gt;,
+## #   recomposed_l1 &lt;dbl&gt;, recomposed_l2 &lt;dbl&gt;</code></pre>
+<p>All stores have anomalies. Since there are 45 stores, I will cluster stores by their date anomlies. First, how many date anomalies are there? And how many stores had an anomaly on that date?</p>
+<pre class="r"><code>storeAnom %&gt;% 
+  filter(anomaly==&quot;Yes&quot;) %&gt;% 
+  group_by(Date) %&gt;% 
+  tally</code></pre>
+<pre><code>## # A time tibble: 24 x 2
+## # Index: Date
+##    Date           n
+##    &lt;date&gt;     &lt;int&gt;
+##  1 2010-02-26     1
+##  2 2010-03-05     1
+##  3 2010-05-07     1
+##  4 2010-09-10     1
+##  5 2010-11-26    33
+##  6 2010-12-03     1
+##  7 2010-12-10    15
+##  8 2010-12-17    33
+##  9 2010-12-24    39
+## 10 2010-12-31     2
+## # ... with 14 more rows</code></pre>
+<p>Almost all stores had an anomaly on 10-26-2012.</p>
+<p>Stores with anomaly not = 10-26-2012</p>
+<pre class="r"><code>storesList&lt;-storeAnom %&gt;% 
+  filter(anomaly==&quot;Yes&quot;)%&gt;%
+  distinct(Store) %&gt;% 
+  pull(Store)
+
+storeAnom %&gt;% 
+  filter(Store %in% tail(storesList,3)) %&gt;% 
+  plot_anomalies(ncol = 4, alpha_dots = 0.25,time_recomposed = T)</code></pre>
+<p><img src="/post/2019-09-01-sales-forecasting-anomaly-detection_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
+<pre class="r"><code>storeAnom %&gt;% 
+  filter(Store %in% head(storesList,12)) %&gt;% 
+  plot_anomalies(ncol = 4, alpha_dots = 0.25,time_recomposed = T)</code></pre>
+<p><img src="/post/2019-09-01-sales-forecasting-anomaly-detection_files/figure-html/unnamed-chunk-11-1.png" width="672" /></p>
+</div>
