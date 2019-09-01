@@ -63,9 +63,7 @@ gg<-train %>% filter(Store %in% first_stores & Dept %in% first_dept) %>%
   ylab("")+
   geom_smooth()
     
-ggp_build <- plotly_build(gg)
-ggp_build$layout$height = 800
-ggp_build$layout$width = 600
+ggplotly(gg,height = 350, width=600)
 ```
 
 Stores differ in the magnitude of their weekly volumn but departments appear to trend together across stores (i.e. are affected by similar yearly patterns)
@@ -80,12 +78,16 @@ test<-setDT(train)[setDT(features),on=c("Store","Date","IsHoliday"),nomatch=0]
 train<-train[setDT(stores),on="Store",nomatch=0]
 test<-test[setDT(stores),on="Store",nomatch=0]
 ```
-Use skimr for quick overview of what is available
-```{r out.height=3}
+
+Quick look at dist of numeric variables 
+```{r message=FALSE, warning=FALSE, out.height=3}
 #-hist?
 train %>% select_if(is.numeric) %>% 
   select(-Store,-Dept) %>% 
-  skimr::skim() 
+  gather("var","value") %>% 
+  ggplot(aes(x=value))+
+  geom_histogram()+
+  facet_wrap(~var,scales = "free")
 ```
 
 We see that there are three unique stores types ("Type" variable). Are these significantly different with respect to sales? I use a log transform to make the difference more clear.
