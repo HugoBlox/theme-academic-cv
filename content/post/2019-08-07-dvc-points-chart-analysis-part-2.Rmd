@@ -41,7 +41,7 @@ avg_points %>%
 ```
 What is the average difference per night between BLT & the BC for each season & room type?
 
-```{r out.width=10, out.height=4}
+```{r}
 diff<-avg_points %>%
   group_by(season,room) %>%
   transmute(Diff = avg_point- lag(avg_point)) %>% 
@@ -49,13 +49,14 @@ diff<-avg_points %>%
   ungroup()
 pldiff<-
   diff %>% ggplot(aes(x=season,y=Diff,group=room))+geom_line(aes(color=room))+geom_point()+labs(y="Avg Point Difference / Night   (BLT-BC)")
-ggplotly(pldiff)
+
+pldiff
 ```
 Studios have the smallest difference in points/night. Interestingly, the difference peaks in the Premier season for studios and 2-bedrooms, while for 1-bedrooms the largest difference is observed in the Magic season.
 
 Because BLT offers tiered room views, while the Beach Club does not, the average points per night are difficult to compare (as Magic Kingdom (MK) views are much higher than Standard Views (SV)). So it might be better to compare the difference between BLT SV rooms and Beach Club rooms.
 
-```{r out.width=10, out.height=5}
+```{r}
 #remove 3-Bed and MK/LV rooms (Beach Club does not have)
 sv_only<-comp %>%
   filter(room != "3-Bedroom", !view %in% c("MK","LV")) %>%
@@ -71,7 +72,8 @@ difplot2<- sv_only %>%
   geom_line(aes(color=room))+
   geom_point()+
   labs(y="Point Difference / Night  (BLT-BC)")
-ggplotly(difplot2)
+
+difplot2
 ```
 From this, we see that SV rooms at BLT are much closer to BC rooms. In some seasons, the difference is actually negative (meaning BC rooms are more points). 
 
