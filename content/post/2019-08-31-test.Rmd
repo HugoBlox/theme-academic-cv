@@ -30,11 +30,11 @@ kgl_auth(username = "mikaylaedwards", key = "5e9d32485455a485c3aaf2b94eee33a0")
 
 Once your your key is recorded, you can search for competitions by name or any keyword, such as "classification".
 Here, I search for "Walmart" to see past all competitions associated with Walmart.
-```{r fig.height=4, fig.width=5, paged.print=FALSE}
+```{r out.width=5}
 walComps<-kgl_competitions_list(search = "Walmart")
 
 
-tableHTML(walComps %>% select(ref,title,description,url,id))
+tableHTML(walComps %>% select(title,description,url))
 ```
 I want to download the sales forecasting dataset. To do so, I need the id column entry for the forecasting dataset
 ```{r}
@@ -48,7 +48,7 @@ forId
 ```
 
 Now I can see what data files are available for the competition (at the Id number)
-```{r}
+```{r out.width=5}
 #get data list
 dataList<-kgl_competitions_data_list(forId)
 
