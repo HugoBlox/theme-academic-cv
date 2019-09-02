@@ -19,6 +19,8 @@ library(kableExtra)
 library(knitr)
 library(plotly)
 library(tableHTML)
+library(htmlTable)
+library(xtable)
 ```
 
 Next we need to run kgl_auth(username="yourusername",key="yourpassword") to establish a connection to the API. This can be obtained from Kaggle by going to Account--> Create New API token. It will be in the downloaded JSON file, which should go in your R project directory.
@@ -53,8 +55,12 @@ Now I can see what data files are available for the competition (at the Id numbe
 dataList<-kgl_competitions_data_list(forId)
 
 
-tableHTML(dataList %>% select(name,url))
+#tableHTML(dataList %>% select(name,url))
 
+# htmlTable(dataList %>% select(name,url), cgroup = '', n.cgroup = 2, n.rgroup=5,caption = '',
+#           ## padding to cells: top side bottom
+#           css.cell = 'padding: 0px 0px 0px;')
+print(xtable(dataList %>% select(name,url)),size = "small")
 ```
 
 The files can be downloaded in several ways: by visiting the above urls, by using RCurl to access the https link, by using the following PowerShell CMD for each url (substitute your file path).

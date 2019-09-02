@@ -18,7 +18,9 @@ library(tidyverse)
 library(kableExtra)
 library(knitr)
 library(plotly)
-library(tableHTML)</code></pre>
+library(tableHTML)
+library(htmlTable)
+library(xtable)</code></pre>
 <p>Next we need to run kgl_auth(username=“yourusername”,key=“yourpassword”) to establish a connection to the API. This can be obtained from Kaggle by going to Account–&gt; Create New API token. It will be in the downloaded JSON file, which should go in your R project directory.</p>
 <p>I don’t include my credentials because each account authorization is unique.</p>
 <p>Once your your key is recorded, you can search for competitions by name or any keyword, such as “classification”.
@@ -28,7 +30,7 @@ Here, I search for “Walmart” to see past all competitions associated with Wa
 
 tableHTML(walComps %&gt;% select(title,description,url))</code></pre>
 <p>
-<table style="border-collapse:collapse;" class=table_8563 border=1>
+<table style="border-collapse:collapse;" class=table_4549 border=1>
 <thead>
 <tr>
   <th id="tableHTML_header_1"> </th>
@@ -71,44 +73,30 @@ forId</code></pre>
 dataList&lt;-kgl_competitions_data_list(forId)
 
 
-tableHTML(dataList %&gt;% select(name,url))</code></pre>
+#tableHTML(dataList %&gt;% select(name,url))
 
-<table style="border-collapse:collapse;" class=table_4591 border=1>
-<thead>
-<tr>
-  <th id="tableHTML_header_1"> </th>
-  <th id="tableHTML_header_2">name</th>
-  <th id="tableHTML_header_3">url</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td id="tableHTML_rownames">1</td>
-  <td id="tableHTML_column_1">features.csv.zip</td>
-  <td id="tableHTML_column_2">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/features.csv.zip</td>
-</tr>
-<tr>
-  <td id="tableHTML_rownames">2</td>
-  <td id="tableHTML_column_1">sampleSubmission.csv.zip</td>
-  <td id="tableHTML_column_2">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/sampleSubmission.csv.zip</td>
-</tr>
-<tr>
-  <td id="tableHTML_rownames">3</td>
-  <td id="tableHTML_column_1">stores.csv</td>
-  <td id="tableHTML_column_2">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/stores.csv</td>
-</tr>
-<tr>
-  <td id="tableHTML_rownames">4</td>
-  <td id="tableHTML_column_1">test.csv.zip</td>
-  <td id="tableHTML_column_2">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/test.csv.zip</td>
-</tr>
-<tr>
-  <td id="tableHTML_rownames">5</td>
-  <td id="tableHTML_column_1">train.csv.zip</td>
-  <td id="tableHTML_column_2">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/train.csv.zip</td>
-</tr>
-</tbody>
-</table>
+# htmlTable(dataList %&gt;% select(name,url), cgroup = &#39;&#39;, n.cgroup = 2, n.rgroup=5,caption = &#39;&#39;,
+#           ## padding to cells: top side bottom
+#           css.cell = &#39;padding: 0px 0px 0px;&#39;)
+print(xtable(dataList %&gt;% select(name,url)),size = &quot;small&quot;)</code></pre>
+<pre><code>## % latex table generated in R 3.6.0 by xtable 1.8-4 package
+## % Mon Sep 02 11:21:47 2019
+## \begin{table}[ht]
+## \centering
+## \begingroup\small
+## \begin{tabular}{rll}
+##   \hline
+##  &amp; name &amp; url \\ 
+##   \hline
+## 1 &amp; features.csv.zip &amp; https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/features.csv.zip \\ 
+##   2 &amp; sampleSubmission.csv.zip &amp; https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/sampleSubmission.csv.zip \\ 
+##   3 &amp; stores.csv &amp; https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/stores.csv \\ 
+##   4 &amp; test.csv.zip &amp; https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/test.csv.zip \\ 
+##   5 &amp; train.csv.zip &amp; https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/train.csv.zip \\ 
+##    \hline
+## \end{tabular}
+## \endgroup
+## \end{table}</code></pre>
 <p>The files can be downloaded in several ways: by visiting the above urls, by using RCurl to access the https link, by using the following PowerShell CMD for each url (substitute your file path).</p>
 <pre class="r"><code># $Credentials = Get-Credential
 # Invoke-WebRequest -Uri &quot;https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/features.csv.zip&quot; -OutFile &quot;C:/Users/username/R projects/projectname/features.csv&quot; -Credential $Credentials</code></pre>
