@@ -11,7 +11,7 @@ categories: []
 ---
 
 ```{r message=FALSE, warning=FALSE, include=FALSE}
-library(kableExtra)
+library(recipes)
 library(tidyverse)
 library(knitr)
 library(plotly)
@@ -205,8 +205,17 @@ storeAnom %>%
   filter(Store %in% head(storesList,12)) %>%
   plot_anomalies(ncol = 4, alpha_dots = 0.25,time_recomposed = T)
 ```
+I will add the binary "IsAnomaly" as a feature in train & test, as this will likely improve prediction
+```{r message=FALSE, warning=FALSE}
+isAnom<-storeAnom %>% ungroup() %>% select(Store,Date,anomaly) %>%  setDT()
 
+train<-setDT(train)[isAnom,on=c("Store","Date")]
+test<-setDT(test)[isAnom,on=c("Store","Date")]
+```
+
+
+## Pre-Processing
 ```{r}
-storeAnom
+#train recipe
 ```
 
