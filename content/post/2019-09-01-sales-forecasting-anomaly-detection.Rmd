@@ -18,8 +18,8 @@ library(plotly)
 library(anomalize)
 library(data.table)
 library(scales)
-library(xtable)
 library(lubridate)
+library(tableHTML)
 ```
 The data for this analysis comes my previous call to the Kaggle API (see [How to Save Time Using The Kaggle API](https://mikaylaedwards.netlify.com/post/test/))
 
@@ -54,9 +54,24 @@ test<-setDT(train)[setDT(features),on=c("Store","Date","IsHoliday"),nomatch=0]
 #join stores & train/test on store number
 train<-train[setDT(stores),on="Store",nomatch=0]
 test<-test[setDT(stores),on="Store",nomatch=0]
-
-train %>% head() %>% as_tibble() %>% glimpse()
 ```
+
+Change names of Markdown1-5 columns and print HTML Table
+```{r}
+curNames<-train %>% select(MarkDown1:MarkDown5) %>% names()
+newNames<- paste("MDwn",str_extract(curNames,"[0-9]+"),sep ="")
+
+train<-train %>% setnames(curNames,newNames)
+  
+  
+train %>% set_names(str_trunc(names(train),width = 5,ellipsis = "")) %>%
+  head() %>% 
+  mutate_if(is.numeric,round) %>% 
+  tableHTML() %>%
+  add_css_table(css = list(c('height','width', 'font-size'), c('50','70', '11px'))) 
+```
+
+
 
 
 
@@ -159,7 +174,10 @@ storeAnom<-storeSums %>%
   anomalize(remainder) %>%
   time_recompose()
 
-head(storeAnom)
+head(storeAnom) %>% mutate_if(is_numeric,round) %>% 
+  tableHTML(rownames = F) %>%
+  add_css_table(css = list(c('height','width', 'font-size'), c('50','70', '13px'))) %>% 
+  add_css_thead(css= list(c('height','width', 'font-size'), c('30','70', '13px')))
 
 ```
 
