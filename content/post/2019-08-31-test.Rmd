@@ -36,7 +36,15 @@ Here, I search for "Walmart" to see past all competitions associated with Walmar
 walComps<-kgl_competitions_list(search = "Walmart")
 
 
-tableHTML(walComps %>% select(title,description,url))
+walComps %>%
+  select(title,description,url) %>% 
+  tableHTML() %>%
+  add_css_table(css = list(c('height','width', 'font-size'), c('50%','80%', '10px')))
+
+
+
+
+#htmlTable(walComps %>% select(title,description,url),css.table="width:50%; height:50%",css.cell= "padding-left: .5em; padding-right: .2em;")
 ```
 I want to download the sales forecasting dataset. To do so, I need the id column entry for the forecasting dataset
 ```{r}
@@ -56,7 +64,7 @@ dataList<-kgl_competitions_data_list(forId)
 
 
 kable(dataList %>% select(name,url)) %>%
-  kable_styling(bootstrap_options = "condensed", full_width = F, position = "float_right") %>% 
+  kable_styling(bootstrap_options = "condensed", full_width = F) %>% 
   column_spec(1:2,width = "10em") %>% 
   row_spec(1:5,font_size = 12)
 

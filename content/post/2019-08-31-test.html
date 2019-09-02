@@ -29,9 +29,12 @@ Here, I search for “Walmart” to see past all competitions associated with Wa
 <pre class="r"><code>walComps&lt;-kgl_competitions_list(search = &quot;Walmart&quot;)
 
 
-tableHTML(walComps %&gt;% select(title,description,url))</code></pre>
-<p>
-<table style="border-collapse:collapse;" class=table_2876 border=1>
+walComps %&gt;%
+  select(title,description,url) %&gt;% 
+  tableHTML() %&gt;%
+  add_css_table(css = list(c(&#39;height&#39;,&#39;width&#39;, &#39;font-size&#39;), c(&#39;50%&#39;,&#39;80%&#39;, &#39;10px&#39;)))</code></pre>
+
+<table style="height:50%;width:80%;font-size:10px;border-collapse:collapse;" class=table_7566 border=1>
 <thead>
 <tr>
   <th id="tableHTML_header_1"> </th>
@@ -61,7 +64,8 @@ tableHTML(walComps %&gt;% select(title,description,url))</code></pre>
 </tr>
 </tbody>
 </table>
-I want to download the sales forecasting dataset. To do so, I need the id column entry for the forecasting dataset</p>
+<pre class="r"><code>#htmlTable(walComps %&gt;% select(title,description,url),css.table=&quot;width:50%; height:50%&quot;,css.cell= &quot;padding-left: .5em; padding-right: .2em;&quot;)</code></pre>
+<p>I want to download the sales forecasting dataset. To do so, I need the id column entry for the forecasting dataset</p>
 <pre class="r"><code>#get id for forecasting dataset
 forId&lt;-walComps %&gt;% 
   filter(str_detect(ref,&quot;forecasting&quot;)) %&gt;% 
@@ -75,10 +79,10 @@ dataList&lt;-kgl_competitions_data_list(forId)
 
 
 kable(dataList %&gt;% select(name,url)) %&gt;%
-  kable_styling(bootstrap_options = &quot;condensed&quot;, full_width = F, position = &quot;float_right&quot;) %&gt;% 
+  kable_styling(bootstrap_options = &quot;condensed&quot;, full_width = F) %&gt;% 
   column_spec(1:2,width = &quot;10em&quot;) %&gt;% 
   row_spec(1:5,font_size = 12)</code></pre>
-<table class="table table-condensed" style="width: auto !important; float: right; margin-left: 10px;">
+<table class="table table-condensed" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
 <th style="text-align:left;">
