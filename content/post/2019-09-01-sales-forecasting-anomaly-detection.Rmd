@@ -3,11 +3,14 @@ title: "Sales Forecasting Anomaly Detection"
 author: ''
 date: '2019-08-01'
 slug: sales-forecasting-anomaly-detection
+output:
+  html_document:
+    df_print: paged
 tags: []
 categories: []
 ---
 
-```{r message=FALSE, warning=FALSE}
+```{r message=FALSE, warning=FALSE, include=FALSE}
 library(tableHTML)
 library(tidyverse)
 library(kableExtra)
@@ -19,21 +22,42 @@ library(scales)
 library(xtable)
 library(lubridate)
 ```
+The data for this analysis comes my previous call to the Kaggle API (see [How to Save Time Using The Kaggle API](https://mikaylaedwards.netlify.com/post/test/))
 
+From that pipeline, I have a vector of filenames that I want to read in and save as a dataframe. Instead of copying and pasting many calls to read_csv, I will use the "purrr" family to map functions to the filenames. Using str_extract, I will create a vector of data frame names. I use map_chr because I want the return vector to be of the character type.
 
+```{r}
+#vector of filenames
 
-```{r message=FALSE, warning=FALSE, paged.print=TRUE}
-#Make vector of filenames
 fileslist<-c("features.csv","stores.csv","test.csv","train.csv")
 
-#Map read_csv function to each element of fileslist; returns List of dataframes
+dfNames<-map_chr(fileslist,~str_extract(.x,"[^.]+"))
+dfNames
+```
+
+Now I will map the read_csv function to each element of fileslist, which will return a list of dataframes. From there I assign each dataframe to its corresponding name is dfNames. These dataframes will now be in my environment. 
+
+```{r message=FALSE, warning=FALSE}
 dfs<-map(fileslist,read_csv)
 
-features<-dfs[[1]]
-stores<-dfs[[2]]
-test<-dfs[[3]]
-train<-dfs[[4]]
+for(i in seq_along(dfNames)){
+  assign(dfNames[i],dfs[[i]])
+}
 ```
+
+I will use data table to join datasets, as it is much faster than base or dplyr.
+```{r}
+#joining on store & date (keep number rows in train test)
+train<-setDT(train)[setDT(features),on=c("Store","Date","IsHoliday"),nomatch=0]
+test<-setDT(train)[setDT(features),on=c("Store","Date","IsHoliday"),nomatch=0]
+
+#join stores & train/test on store number
+train<-train[setDT(stores),on="Store",nomatch=0]
+test<-test[setDT(stores),on="Store",nomatch=0]
+
+train
+```
+
 
 
 How many different stores and departments are in the training dataset? Since we are forecasting weekly sales at the stores level, it is likely that the number of departments will be important. I will add this as a feature now. 
@@ -68,16 +92,7 @@ ggplotly(gg,height = 350, width=600)
 
 Stores differ in the magnitude of their weekly volumn but departments appear to trend together across stores (i.e. are affected by similar yearly patterns)
 
-I will use data table to join datasets, as it is much faster than base or dplyr.
-```{r}
-#joining on store & date (keep number rows in train test)
-train<-setDT(train)[setDT(features),on=c("Store","Date","IsHoliday"),nomatch=0]
-test<-setDT(train)[setDT(features),on=c("Store","Date","IsHoliday"),nomatch=0]
 
-#join stores & train/test on store number
-train<-train[setDT(stores),on="Store",nomatch=0]
-test<-test[setDT(stores),on="Store",nomatch=0]
-```
 
 Quick look at dist of numeric variables 
 ```{r message=FALSE, warning=FALSE, out.height=3}
