@@ -55,12 +55,10 @@ Now I can see what data files are available for the competition (at the Id numbe
 dataList<-kgl_competitions_data_list(forId)
 
 
-#tableHTML(dataList %>% select(name,url))
+kable(dataList %>% select(name,url)) %>%
+  kable_styling(bootstrap_options = "condensed", full_width = F, position = "float_right") %>% 
+  column_spec(1:2,width = "10em")
 
-# htmlTable(dataList %>% select(name,url), cgroup = '', n.cgroup = 2, n.rgroup=5,caption = '',
-#           ## padding to cells: top side bottom
-#           css.cell = 'padding: 0px 0px 0px;')
-print(xtable(dataList %>% select(name,url)),size = "small")
 ```
 
 The files can be downloaded in several ways: by visiting the above urls, by using RCurl to access the https link, by using the following PowerShell CMD for each url (substitute your file path).
