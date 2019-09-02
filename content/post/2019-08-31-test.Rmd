@@ -57,7 +57,8 @@ dataList<-kgl_competitions_data_list(forId)
 
 kable(dataList %>% select(name,url)) %>%
   kable_styling(bootstrap_options = "condensed", full_width = F, position = "float_right") %>% 
-  column_spec(1:2,width = "10em")
+  column_spec(1:2,width = "10em") %>% 
+  row_spec(1:5,font_size = 12)
 
 ```
 
