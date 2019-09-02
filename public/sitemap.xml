@@ -43,6 +43,11 @@
   </url>
   
   <url>
+    <loc>/post/test/</loc>
+    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/sales-forecasting-anomaly-detection/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
   </url>
@@ -60,11 +65,6 @@
   <url>
     <loc>/post/fast-food-nutrition-analysis/</loc>
     <lastmod>2019-04-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/test/</loc>
-    <lastmod>2018-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>

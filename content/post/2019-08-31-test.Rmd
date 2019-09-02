@@ -1,7 +1,7 @@
 ---
 title: How to Save Time Using the Kaggle API from RStudio
 author: ''
-date: '2018-08-31'
+date: '2019-08-01'
 slug: test
 categories: []
 tags: []
@@ -39,7 +39,7 @@ walComps<-kgl_competitions_list(search = "Walmart")
 walComps %>%
   select(title,description,url) %>% 
   tableHTML() %>%
-  add_css_table(css = list(c('height','width', 'font-size'), c('50%','80%', '10px')))
+  add_css_table(css = list(c('height','width', 'font-size'), c('50%','80%', '12px')))
 
 
 
@@ -63,10 +63,9 @@ Now I can see what data files are available for the competition (at the Id numbe
 dataList<-kgl_competitions_data_list(forId)
 
 
-kable(dataList %>% select(name,url)) %>%
-  kable_styling(bootstrap_options = "condensed", full_width = F) %>% 
-  column_spec(1:2,width = "10em") %>% 
-  row_spec(1:5,font_size = 12)
+dataList %>% select(name,url) %>%
+  tableHTML() %>%
+  add_css_table(css = list(c('height','width', 'font-size'), c('50%','80%', '12px')))
 
 ```
 

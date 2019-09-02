@@ -1,13 +1,12 @@
 ---
 title: How to Save Time Using the Kaggle API from RStudio
 author: ''
-date: '2018-08-31'
+date: '2019-08-01'
 slug: test
 categories: []
 tags: []
 ---
 
-<script src="/rmarkdown-libs/kePrint/kePrint.js"></script>
 
 
 <p>Although there are many resources explaining how to use the Kaggle API in Python, I could not find much information about using it from Rstudio. Therefore, in this post I will explain how to use the kaggle API (via kaggler) to search for and download datasets available on the site.</p>
@@ -32,9 +31,9 @@ Here, I search for “Walmart” to see past all competitions associated with Wa
 walComps %&gt;%
   select(title,description,url) %&gt;% 
   tableHTML() %&gt;%
-  add_css_table(css = list(c(&#39;height&#39;,&#39;width&#39;, &#39;font-size&#39;), c(&#39;50%&#39;,&#39;80%&#39;, &#39;10px&#39;)))</code></pre>
+  add_css_table(css = list(c(&#39;height&#39;,&#39;width&#39;, &#39;font-size&#39;), c(&#39;50%&#39;,&#39;80%&#39;, &#39;12px&#39;)))</code></pre>
 
-<table style="height:50%;width:80%;font-size:10px;border-collapse:collapse;" class=table_7566 border=1>
+<table style="height:50%;width:80%;font-size:12px;border-collapse:collapse;" class=table_5594 border=1>
 <thead>
 <tr>
   <th id="tableHTML_header_1"> </th>
@@ -78,61 +77,43 @@ forId</code></pre>
 dataList&lt;-kgl_competitions_data_list(forId)
 
 
-kable(dataList %&gt;% select(name,url)) %&gt;%
-  kable_styling(bootstrap_options = &quot;condensed&quot;, full_width = F) %&gt;% 
-  column_spec(1:2,width = &quot;10em&quot;) %&gt;% 
-  row_spec(1:5,font_size = 12)</code></pre>
-<table class="table table-condensed" style="width: auto !important; margin-left: auto; margin-right: auto;">
+dataList %&gt;% select(name,url) %&gt;%
+  tableHTML() %&gt;%
+  add_css_table(css = list(c(&#39;height&#39;,&#39;width&#39;, &#39;font-size&#39;), c(&#39;50%&#39;,&#39;80%&#39;, &#39;12px&#39;)))</code></pre>
+
+<table style="height:50%;width:80%;font-size:12px;border-collapse:collapse;" class=table_5873 border=1>
 <thead>
 <tr>
-<th style="text-align:left;">
-name
-</th>
-<th style="text-align:left;">
-url
-</th>
+  <th id="tableHTML_header_1"> </th>
+  <th id="tableHTML_header_2">name</th>
+  <th id="tableHTML_header_3">url</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left;width: 10em; font-size: 12px;">
-features.csv.zip
-</td>
-<td style="text-align:left;width: 10em; font-size: 12px;">
-<a href="https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/features.csv.zip" class="uri">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/features.csv.zip</a>
-</td>
+  <td id="tableHTML_rownames">1</td>
+  <td id="tableHTML_column_1">features.csv.zip</td>
+  <td id="tableHTML_column_2">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/features.csv.zip</td>
 </tr>
 <tr>
-<td style="text-align:left;width: 10em; font-size: 12px;">
-sampleSubmission.csv.zip
-</td>
-<td style="text-align:left;width: 10em; font-size: 12px;">
-<a href="https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/sampleSubmission.csv.zip" class="uri">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/sampleSubmission.csv.zip</a>
-</td>
+  <td id="tableHTML_rownames">2</td>
+  <td id="tableHTML_column_1">sampleSubmission.csv.zip</td>
+  <td id="tableHTML_column_2">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/sampleSubmission.csv.zip</td>
 </tr>
 <tr>
-<td style="text-align:left;width: 10em; font-size: 12px;">
-stores.csv
-</td>
-<td style="text-align:left;width: 10em; font-size: 12px;">
-<a href="https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/stores.csv" class="uri">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/stores.csv</a>
-</td>
+  <td id="tableHTML_rownames">3</td>
+  <td id="tableHTML_column_1">stores.csv</td>
+  <td id="tableHTML_column_2">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/stores.csv</td>
 </tr>
 <tr>
-<td style="text-align:left;width: 10em; font-size: 12px;">
-test.csv.zip
-</td>
-<td style="text-align:left;width: 10em; font-size: 12px;">
-<a href="https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/test.csv.zip" class="uri">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/test.csv.zip</a>
-</td>
+  <td id="tableHTML_rownames">4</td>
+  <td id="tableHTML_column_1">test.csv.zip</td>
+  <td id="tableHTML_column_2">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/test.csv.zip</td>
 </tr>
 <tr>
-<td style="text-align:left;width: 10em; font-size: 12px;">
-train.csv.zip
-</td>
-<td style="text-align:left;width: 10em; font-size: 12px;">
-<a href="https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/train.csv.zip" class="uri">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/train.csv.zip</a>
-</td>
+  <td id="tableHTML_rownames">5</td>
+  <td id="tableHTML_column_1">train.csv.zip</td>
+  <td id="tableHTML_column_2">https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/download/train.csv.zip</td>
 </tr>
 </tbody>
 </table>
