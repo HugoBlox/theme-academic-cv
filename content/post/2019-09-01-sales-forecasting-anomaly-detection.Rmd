@@ -202,6 +202,11 @@ storeAnom %>%
 Visualize anomalies for stores 1-12
 ```{r}
 storeAnom %>% 
-  filter(Store %in% head(storesList,12)) %>% 
+  filter(Store %in% head(storesList,12)) %>%
   plot_anomalies(ncol = 4, alpha_dots = 0.25,time_recomposed = T)
 ```
+
+```{r}
+storeAnom
+```
+
