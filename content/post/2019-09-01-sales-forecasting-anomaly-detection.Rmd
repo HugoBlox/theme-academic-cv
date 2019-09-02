@@ -147,7 +147,7 @@ time_recompose(): Imputes limits separating “normal” from anomalize found in
 
 
 To visualize anomalies at the store level, we need to sum across departments.  
-```{r}
+```{r message=FALSE, warning=FALSE, paged.print=TRUE}
 #nrow=45 * num weeks (unique Dates) (must be grouped for anom.)
 storeSums<-train %>% 
   group_by(Store,Date) %>% 
@@ -165,27 +165,23 @@ head(storeAnom)
 
 All stores have anomalies. Since there are 45 stores, I will cluster stores by their date anomlies. First, how many date anomalies are there? And how many stores had an anomaly on that date?
 ```{r}
+storesList<-stores %>% pull(Store)
+
 storeAnom %>% 
   filter(anomaly=="Yes") %>% 
   group_by(Date) %>% 
-  tally
+  tally %>% 
+  tail()
+
 
 ```
-Almost all stores had an anomaly on 10-26-2012. 
-
-Stores with anomaly not = 10-26-2012
+Visualize anomalies for stores 43-45
 ```{r}
-storesList<-storeAnom %>% 
-  filter(anomaly=="Yes")%>%
-  distinct(Store) %>% 
-  pull(Store)
-
 storeAnom %>% 
   filter(Store %in% tail(storesList,3)) %>% 
   plot_anomalies(ncol = 4, alpha_dots = 0.25,time_recomposed = T)
 ```
-
-
+Visualize anomalies for stores 1-12
 ```{r}
 storeAnom %>% 
   filter(Store %in% head(storesList,12)) %>% 
