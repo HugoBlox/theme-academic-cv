@@ -11,9 +11,8 @@ categories: []
 ---
 
 ```{r message=FALSE, warning=FALSE, include=FALSE}
-library(tableHTML)
-library(tidyverse)
 library(kableExtra)
+library(tidyverse)
 library(knitr)
 library(plotly)
 library(anomalize)
@@ -45,6 +44,7 @@ for(i in seq_along(dfNames)){
 }
 ```
 
+
 I will use data table to join datasets, as it is much faster than base or dplyr.
 ```{r}
 #joining on store & date (keep number rows in train test)
@@ -55,7 +55,7 @@ test<-setDT(train)[setDT(features),on=c("Store","Date","IsHoliday"),nomatch=0]
 train<-train[setDT(stores),on="Store",nomatch=0]
 test<-test[setDT(stores),on="Store",nomatch=0]
 
-train
+print(head(train), quote = T,class = T)
 ```
 
 
