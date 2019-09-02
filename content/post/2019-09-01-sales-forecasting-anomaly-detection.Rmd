@@ -55,7 +55,7 @@ test<-setDT(train)[setDT(features),on=c("Store","Date","IsHoliday"),nomatch=0]
 train<-train[setDT(stores),on="Store",nomatch=0]
 test<-test[setDT(stores),on="Store",nomatch=0]
 
-print(head(train), quote = T,class = T)
+train %>% head() %>% as_tibble() %>% glimpse()
 ```
 
 
