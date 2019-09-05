@@ -63,23 +63,22 @@ library(tidyverse)library(lubridate)library(skimr)library(ModelMetrics)libra
     </item>
     
     <item>
-      <title>DVC Points Chart Analysis (Part 1)</title>
-      <link>/post/dvc-points-chart-analysis-part-1/</link>
-      <pubDate>Sun, 14 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/dvc-points-chart-analysis-part-1/</guid>
-      <description>** This post is temporarily broken…*
-In this series of posts, I will analyze and compare the 2020 points charts for Bay Lake Tower and the The Beach Club. Html versions of the charts (used here) can be found on DVC Request
-This post (part 1) will detail the code to extract the points charts from the html table format they are published in. I will use the rvest package as well as unpivotr to convert the data into a tabular dataframe.</description>
-    </item>
-    
-    <item>
       <title>Fast Food Nutrition Analysis</title>
       <link>/post/fast-food-nutrition-analysis/</link>
       <pubDate>Wed, 10 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/fast-food-nutrition-analysis/</guid>
       <description>library(tidyverse)library(ggthemes)library(tidytext)library(purrr)library(stats)library(corrr)library(RColorBrewer)R Markdown## # A tibble: 6 x 18## X1 restaurant item calories cal_fat total_fat sat_fat trans_fat## &amp;lt;dbl&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;## 1 1 Mcdonalds Arti~ 380 60 7 2 0 ## 2 2 Mcdonalds Sing~ 840 410 45 17 1.5## 3 3 Mcdonalds Doub~ 1130 600 67 27 3 ## 4 4 Mcdonalds Gril~ 750 280 31 10 0.</description>
+    </item>
+    
+    <item>
+      <title>DVC Points Chart Analysis (Part 1)</title>
+      <link>/post/dvc-points-chart-analysis-part-1/</link>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/dvc-points-chart-analysis-part-1/</guid>
+      <description>In this series of posts, I will analyze and compare the 2020 points charts for Bay Lake Tower and the The Beach Club. Html versions of the charts (used here) can be found on DVC Request
+This post (part 1) will detail the code to extract the points charts from the html table format they are published in. I will use the rvest package as well as unpivotr to convert the data into a tabular dataframe.</description>
     </item>
     
   </channel>

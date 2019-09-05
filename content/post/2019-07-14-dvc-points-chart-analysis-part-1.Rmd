@@ -1,12 +1,12 @@
 ---
 title: DVC Points Chart Analysis (Part 1)
 author: ''
-date: '2019-07-14'
+date: '2018-07-14'
 slug: dvc-points-chart-analysis-part-1
 categories: []
 tags: []
 ---
-** This post is temporarily broken...*
+
 
 
 In this series of posts, I will analyze and compare the 2020 points charts for Bay Lake Tower and the The Beach Club. Html versions of the charts (used here) can be found on [DVC Request](https://www.dvcrequest.com/point-charts.asp)
