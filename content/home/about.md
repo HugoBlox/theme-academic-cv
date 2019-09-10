@@ -11,6 +11,7 @@ weight = 5
 [interests]
   interests = [
     "Low-wage work",
+    "Housing",
     "Health insurance",
     "Data science"
   ]
