@@ -29,5 +29,5 @@ weight = 5
  
 +++
 
-Ian Eve Perry is a research and policy associate at the UC Berkeley Labor Center. They focus on low-wage work and health care policy research.
+Ian Eve Perry is the policy manager at the TechEquity Collaborative. They focus on labor and housing policy. In the past, Ian Eve has worked extensivly on health care policy related to the Affordable Care Act.
  
