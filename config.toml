@@ -53,11 +53,11 @@ enableGitInfo = true
 
   # Your details.
   name = "Ian Eve Perry"
-  role = "Labor and Health Care Policy Researcher"
+  role = "Labor, Housing, and Health Care Policy Researcher"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "UC Berkeley Labor Center", url = "http://laborcenter.berkeley.edu" } ]
+  organizations = [ { name = "TechEquity Collaborative", url = "http://techequitycollaborative.org" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "headshot.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
