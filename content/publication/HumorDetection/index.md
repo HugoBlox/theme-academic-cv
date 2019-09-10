@@ -28,8 +28,8 @@ tags:
 featured: false
 
 links:
-url_pdf: http://arxiv.org/
-url_code: 'www.github.com/orionw'
+url_pdf: https://arxiv.org/abs/1909.00252
+url_code: https://github.com/orionw/RedditHumorDetection
 url_dataset: '#'
 url_poster: '#'
 
