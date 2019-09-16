@@ -15,13 +15,13 @@ subtitle = ""
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
-  icon = "chart-line"
+  icon = "fa-project-diagram"
   icon_pack = "fas"
   name = "Machine Learning"
   description = ""  
 
 [[feature]]
-  icon = "chart-line"
+  icon = "fas-paragraph"
   icon_pack = "fas"
   name = "Natural Language Processing"
   description = ""  
@@ -33,8 +33,8 @@ subtitle = ""
   description = ""  
 
 [[feature]]
-  icon = "chart-line"
-  icon_pack = "fas"
+  icon = "fa-python"
+  icon_pack = "fab"
   name = "Python"
   description = ""  
 
@@ -43,5 +43,5 @@ subtitle = ""
   icon_pack = "fab"
   name = "R"
   description = ""
-  
+
 +++
