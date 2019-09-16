@@ -15,13 +15,13 @@ subtitle = ""
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
-  icon = "fa-project-diagram"
+  icon = "project-diagram"
   icon_pack = "fas"
   name = "Machine Learning"
   description = ""  
-
+  
 [[feature]]
-  icon = "fas-paragraph"
+  icon = "paragraph"
   icon_pack = "fas"
   name = "Natural Language Processing"
   description = ""  
@@ -29,11 +29,17 @@ subtitle = ""
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
-  name = "Econometrics"
+  name = "Time-Series Econometrics"
   description = ""  
 
 [[feature]]
-  icon = "fa-python"
+  icon = "chart-bar"
+  icon_pack = "fas"
+  name = "Macroeconomic and Financial Modelling"
+  description = ""  
+
+[[feature]]
+  icon = "python"
   icon_pack = "fab"
   name = "Python"
   description = ""  
@@ -42,6 +48,12 @@ subtitle = ""
   icon = "r-project"
   icon_pack = "fab"
   name = "R"
+  description = ""
+
+[[feature]]
+  icon = "git-square"
+  icon_pack = "fab"
+  name = "git"
   description = ""
 
 +++
