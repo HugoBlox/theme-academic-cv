@@ -22,14 +22,14 @@ bio: My research interests include machine learning, natural language processing
 
 interests:
 - Natural language processing
-- Machine learning methods for signal and pattern extraction from text
-- Economic and financial modelling
+- Machine learning methods for pattern extraction from text data
+- Economic and financial time-series modelling
 
 education:
   courses:
-  - course: PhD Candidate in Machine Learning
+  - course: PhD Candidate in Engineering Science and Machine Learning
     institution: Oxford University
-    year: 2018
+    year: 2018-present
   - course: MPhil in Economics
     institution: Oxford University
     year: 2016
@@ -65,7 +65,7 @@ social:
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
-  
+
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
@@ -79,4 +79,4 @@ My main research interests lie in machine learning methods for natural language 
 
 I obtained an MPhil in Economics from Oxford University. I also earned an M.Sc. degree in Specialised Economic Analysis from Universitat Pompeu Fabra in Barcelona.
 
-Previously, I have worked as a Senior Associate with McKinsey & Company and as a Graduate Trainee Economist with the European Central Bank.
+Previously, I have worked as a Consultant with McKinsey & Company and as a Graduate Trainee Economist with the European Central Bank.
