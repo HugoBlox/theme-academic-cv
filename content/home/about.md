@@ -29,5 +29,5 @@ weight = 5
  
 +++
 
-Ian Eve Perry is the Policy Manager at the TechEquity Collaborative. They focus on labor and housing policy. In the past, Ian Eve has worked extensivly on health care policy related to the Affordable Care Act.
+Ian Eve Perry is the Policy Manager at TechEquity Collaborative. They focus on labor and housing policy. In the past, Ian Eve has worked extensivly on health care policy related to the Affordable Care Act.
  
