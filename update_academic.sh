@@ -20,7 +20,7 @@ function install_update () {
   # - Update Netlify.toml with required Hugo version
   if [ -f ./netlify.toml ]; then
     version=$(sed -n 's/^min_version = //p' themes/academic/theme.toml)
-    sed -i '' -e "s/HUGO_VERSION = .*/HUGO_VERSION = $version/g" ./netlify.toml
+    sed -i.bak -e "s/HUGO_VERSION = .*/HUGO_VERSION = $version/g" ./netlify.toml && rm -f ./netlify.toml.bak
   fi
 
   echo
