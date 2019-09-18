@@ -19,7 +19,7 @@ role = "PhD Student"
 organizations = [ { name = "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET)", url = "http://www.conicet.gob.ar" }, {name="Universidad de San Martín", url="http://www.unsam.edu.ar"} ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "PhD Fellow, teacher a science divulgation enthusiast."
+bio = "PhD Fellow, teacher and science divulgation enthusiast."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "lionel.u.l@iib.unsam.edu.ar"
