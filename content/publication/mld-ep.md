@@ -1,6 +1,6 @@
 +++
-title = "Relaxations of AC Minimal Load-Shedding for Severe Contingency Analysis"
-date = 2017-10-21T00:00:00
+title = "Relaxations of AC Maximal Load Delivery for Severe Contingency Analysis"
+date = 2018-10-17T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Carleton Coffrin", "Russell Bent", "Byron Tasseff", "Kaarthik Sundar", "Scott Backhaus"]
@@ -14,11 +14,11 @@ authors = ["Carleton Coffrin", "Russell Bent", "Byron Tasseff", "Kaarthik Sundar
 # 4 = Technical report
 # 5 = Book
 # 6 = Book chapter
-publication_types = ["4"]
+publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "*arXiv*"
-publication_short = "*arXiv*"
+publication = "*IEEE Transactions on Power Systems*"
+publication_short = "*Transactions on Power Systems*"
 
 # Abstract and optional shortened version.
 abstract = "This work considers the task of finding an AC-Feasible operating point of a severely damaged transmission network while ensuring a minimal amount of active power loads are removed. This AC Minimal Load-Shedding (AC-MLS) task is a non-convex nonlinear optimization problem, which can be incredibly challenging to solve on large-scale transmission system data sets. This work demonstrates that convex relaxations of the AC-MLS problem provide a reliable and scalable method for finding high-quality bounds on the amount of active power load shedding required in the AC-MLS problem. To demonstrate their effectiveness, the solution methods proposed in this work are rigorously evaluated on 1000 N-k scenarios on seven power networks ranging in size from 70 to 6000 buses. The most effective relaxation of the AC-MLS problem converges in less than 20 seconds on commodity computing hardware for all 7000 of the scenarios considered."
@@ -36,9 +36,9 @@ selected = true
 # projects = ["deep-learning"]
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "https://ieeexplore.ieee.org/document/8494809"
 url_preprint = ""
-url_code = ""
+url_code = "https://github.com/lanl-ansi/PowerModelsMLD.jl"
 url_dataset = ""
 url_project = ""
 url_slides = ""

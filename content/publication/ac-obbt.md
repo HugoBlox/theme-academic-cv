@@ -38,7 +38,7 @@ selected = true
 # Links (optional).
 url_pdf = "https://link.springer.com/chapter/10.1007%2F978-3-319-23219-5_4"
 url_preprint = "/preprint/qc_fp.pdf"
-url_code = ""
+url_code = "https://github.com/ccoffrin/ac-opf-bounds"
 url_dataset = ""
 url_project = ""
 url_slides = ""

@@ -29,12 +29,14 @@ Graduate Teaching Assistant for [Pascal Van Hentenryck](https://pascalvanhentenr
 
 ## Other Materials
 
-- [ac-powerflow-vis](https://github.com/ccoffrin/ac-powerflow-vis): R scripts for generating [animations](https://imgur.com/a/vxK4nW6) that illustrate how network data parameters impact the AC power flows
-- [lnc-animation](https://github.com/ccoffrin/lnc-animation): R scripts for generating [animations](https://imgur.com/gallery/7JjPfy6) that illustrate how some [4-dimensional cuts](https://arxiv.org/abs/1512.04644) work on a non-convex set
+- [An Introduction to Power System Modeling and Optimization](https://youtu.be/LJNFVGc9QtY): a brief introduction to power system modeling and optimization targeted at a computer science and operations research audience
+- [InfrastructureModels Tutorial](https://github.com/lanl-ansi/tutorial-grid-science-2019): a brief introduction to Julia, JuMP, PowerModels and GasModels
 - [PowerModels.jl Introduction](https://youtu.be/W4LOKR7B4ts): a brief introduction the PowerModels Julia package
 - [PGLib OPF Introduction](https://youtu.be/fC3hzddCJ2c): an introduction to the PGLib OPF benchmarks
+- [ac-powerflow-vis](https://github.com/ccoffrin/ac-powerflow-vis): R scripts for generating [animations](https://imgur.com/a/vxK4nW6) that illustrate how network data parameters impact the AC power flows
+- [lnc-animation](https://github.com/ccoffrin/lnc-animation): R scripts for generating [animations](https://imgur.com/gallery/7JjPfy6) that illustrate how some [4-dimensional cuts](https://arxiv.org/abs/1512.04644) work on a non-convex set
 - [Debugging a D-Wave Computation](https://youtu.be/ctjDHaGsxYc): tips for debugging computations on a D-Wave quantum computer
 - [What is Amazon Web Services](https://youtu.be/ChJyr2wwT1c): a brief introduction to cloud computing for a very general audience
-- [An Introduction to Power System Modeling and Optimization](https://youtu.be/LJNFVGc9QtY): a brief introduction to power system modeling and optimization targeted at a computer science and operations research audience
+
 
 

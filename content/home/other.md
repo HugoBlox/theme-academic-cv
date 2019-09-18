@@ -16,6 +16,7 @@ weight = 60
 +++
 
 ## Awards
+Los Alamos National Laboratory 2019 Distinguished Performance Award for [_Critical Infrastructure Optimization Software_](https://github.com/lanl-ansi/InfrastructureModels.jl)
 
 Los Alamos National Laboratory 2018 LAAP Award for _Leadership in the Quantum Computation Summer School_
 
@@ -36,6 +37,7 @@ Los Alamos National Laboratory 2010 LAAP Award for _Outstanding Summer Research 
 ## Professional Service
 
 - IEEE Power & Energy Society, Power System Operations Committee, [_Benchmarks for Validation of Emerging Power System Algorithms_](https://power-grid-lib.github.io/) Task Force Chair, 2016 - Present
+- 21st Power Systems Computation Conference, Technical Programme Committee, 2020
 - Los Alamos National Laboratory, [_Quantum Computing Summer School_](https://quantumcomputing.lanl.gov/), Co-Lead, 2018-2019
 - Los Alamos National Laboratory, [_Grid Science Winter School_](http://www.cvent.com/events/2017-grid-science-winter-school-conference/event-summary-a84a476bbd734a898ff41548a756ac96.aspx), Program Committee, 2017-2019
 - 28th Australasian Joint Conference on Artificial Intelligence, Student Symposium Chair, 2015
