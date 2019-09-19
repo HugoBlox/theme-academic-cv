@@ -18,12 +18,12 @@ weight: 1
 
 This project will be developed as follows:
 
-| Session                   |    Date    |    Time     |  Room |
-| ------------------------- | :--------: | :---------: | ----: |
-| Introduction to ITS       | 27-11-2019 | 14:30-18:00 | E006B |
-| Session 1  (Lab work)     | 04-12-2019 | 14:30-18:00 | E006B |
+| Session                     |    Date    |    Time     |  Room |
+| --------------------------- | :--------: | :---------: | ----: |
+| Introduction to ITS         | 27-11-2019 | 14:30-18:00 | E006B |
+| Session 1  (Lab work)       | 04-12-2019 | 14:30-18:00 | E006B |
 | *First Presentation\**      | 17-12-2019 | 13:30-17:00 |   TBD |
-| Session 2  (Tutorial)     | 18-12-2019 | 14:30-18:00 | E006B |
+| Session 2  (Tutorial)       | 18-12-2019 | 14:30-18:00 | E006B |
 | *Individual presentation\** | 22-01-2020 | 09:00-12:30 |  B112 |
 | *Final presentation\**      | 22-01-2020 | 14:30-18:00 |  E004 |
 

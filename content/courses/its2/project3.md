@@ -1,6 +1,6 @@
 ---
 title: Data Assimilation with Floating Car Data
-linktitle: Data Assimilation with FCD
+linktitle: Data Assimilation with Floating Car Data
 toc: true
 type: docs
 date: "2019-09-18T00:00:00+03:00"
@@ -11,7 +11,7 @@ menu:
     weight: 1
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 1
+weight: 3
 ---
 
 In this tutorial, I'll share my top 10 tips for getting started with Academic:
