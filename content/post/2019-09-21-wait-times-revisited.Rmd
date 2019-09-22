@@ -19,7 +19,7 @@ library(timeDate)
 library(sugrrants)
 ```
 
-## R Markdown
+
 Print files names in directory
 ```{r}
 files <- "wait-times"
@@ -57,9 +57,9 @@ files<-files %>%
     na.omit() %>% 
   filter(time>=0,time <=400)
 
-files %>% filter(ride=="slinky_dog" & hour(datetime)==20) %>% tail()
+head(files)
 ```
-Remove times from 1am-5am, as these are incorrent entries.
+Remove times from 1am-5am, as these are incorrent entries. Looking at only flight of passage and slinky dog.
 ```{r}
 files<-files %>% 
   mutate(
@@ -72,7 +72,6 @@ fp_ts <- files %>%
   filter(ride == "flight_of_passage" | ride=="slinky_dog") %>% 
   as_tbl_time(datetime)
 
-fp_ts %>% filter(ride=="slinky_dog" & date(date)==ymd("2019-08-31")) %>% as.data.frame()
 
 fp_ts<-fp_ts %>% 
   collapse_by(period="3 hourly",start_date = min(fp_ts$datetime),side="start") %>% 
@@ -89,7 +88,8 @@ fp_ts<-fp_ts %>%
 ## Visualize
 Overall comparison 
 ```{r}
-p1<-fp_ts %>% ggplot(aes(x=date,y=avgTime)) + 
+p1<-fp_ts %>% 
+  ggplot(aes(x=date,y=avgTime)) + 
   geom_line()+
   geom_smooth(method = "loess",aes(color=ride))+
   facet_wrap(~ride,scales = "free_x")+
