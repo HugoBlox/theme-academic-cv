@@ -1,0 +1,163 @@
+---
+title: Wait Times (Revisited)
+author: ''
+date: '2019-09-21'
+slug: wait-times-revisited
+categories: []
+tags: []
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,message = FALSE,warning = FALSE)
+library(fs)
+library(tidyverse)
+library(lubridate)
+library(plotly)
+library(timetk)
+library(tibbletime)
+library(timeDate)
+library(sugrrants)
+```
+
+## R Markdown
+Print files names in directory
+```{r}
+files <- "wait-times"
+files<-dir_ls(files)
+
+files
+```
+I want to merge the datasets but first need to create a new column in each with the ride name. I will extract the ride name from the csv file name and then create the new column
+```{r warning=FALSE}
+files<-files %>% 
+  map_dfr(read_csv, .id = "source")
+
+files %>% head()
+```
+
+```{r}
+files<-files %>% 
+  mutate(ride=str_replace(source,"wait-times/","")) %>% 
+  mutate(ride=str_extract(ride,"[^.]+")) %>% 
+  select(-source) %>% 
+  mutate(date=mdy(date)) %>% 
+  select(ride,everything())
+
+files  %>% 
+  arrange(desc(date)) %>% 
+  group_by(ride) %>% 
+  slice(1)
+```
+
+Gather actual vs posted 
+```{r}
+files<-files %>%
+  select(everything(),posted=SPOSTMIN,actual=SACTMIN) %>% 
+    gather(key="type",value="time",posted:actual) %>% 
+    na.omit() %>% 
+  filter(time>=0,time <=400)
+
+files %>% filter(ride=="slinky_dog" & hour(datetime)==20) %>% tail()
+```
+Remove times from 1am-5am, as these are incorrent entries.
+```{r}
+files<-files %>% 
+  mutate(
+    hour=hour(datetime)) %>% 
+  filter(! hour %in% c(1:5))
+
+# create tibble time object
+
+fp_ts <- files %>%
+  filter(ride == "flight_of_passage" | ride=="slinky_dog") %>% 
+  as_tbl_time(datetime)
+
+fp_ts %>% filter(ride=="slinky_dog" & date(date)==ymd("2019-08-31")) %>% as.data.frame()
+
+fp_ts<-fp_ts %>% 
+  collapse_by(period="3 hourly",start_date = min(fp_ts$datetime),side="start") %>% 
+  group_by(ride,datetime) %>% 
+  summarise(
+    avgTime=mean(time,na.rm=T)
+  ) %>%
+  slice(-n()) 
+
+fp_ts<-fp_ts %>% 
+  mutate(date=date(datetime)) 
+  
+```
+## Visualize
+Overall comparison 
+```{r}
+p1<-fp_ts %>% ggplot(aes(x=date,y=avgTime)) + 
+  geom_line()+
+  geom_smooth(method = "loess",aes(color=ride))+
+  facet_wrap(~ride,scales = "free_x")+
+  scale_x_date(date_labels = "%b %y")+
+  theme(panel.margin = unit(5,"lines"))+
+  theme_minimal()
+
+
+ggplotly(p1)
+```
+
+#  Time-based Features ----
+Append features to get day of week, 
+```{r}
+fp_aug<-fp_ts %>%
+  timetk:: tk_augment_timeseries_signature()
+
+head(fp_aug)
+```
+
+
+```{r}
+summer_week<-fp_aug %>%
+  filter(date %within% interval(ymd("2019-07-01"), ymd("2019-08-30"))) %>% 
+  select(ride, date, avgTime, hour, wday.lbl) %>%
+  ggplot(aes(x = hour, y = avgTime,color=wday.lbl)) +
+  geom_line(size=1.2) +
+  facet_grid(rows = vars(ride), cols = vars(wday.lbl))+
+  scale_color_manual(values=rainbow(13,s=.8,v=.8,rev=T))+
+  theme(legend.position = "none")
+
+ggplotly(summer_week)
+
+```
+###Frame Calendar! 
+```{r}
+# Holidays
+
+
+holidays <- holidayNYSE(year = c(2017, 2019)) %>% ymd()
+
+fp_aug<-fp_aug %>% 
+  mutate(isHoliday = case_when(
+        date(date) %in% holidays ~ "1",
+        TRUE ~ "0"
+    ))
+
+
+cal_plot<-function(ridename){
+  
+cal <- fp_aug %>%
+  filter(ride==ridename) %>% 
+  filter(month.lbl %in% c("May","June","July","August")) %>%
+  frame_calendar(x = hour, y = avgTime, date = date) %>%
+  ggplot(aes(
+    x = .hour,
+    y = .avgTime,
+    group = date,
+    colour = isHoliday
+  )) +
+  geom_line()
+  
+prettify(cal)  
+
+}
+
+
+cal_plot("flight_of_passage")
+cal_plot("slinky_dog")
+
+```

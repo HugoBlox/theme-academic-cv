@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/</loc>
+    <lastmod>2019-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2019-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/wait-times-revisited/</loc>
+    <lastmod>2019-09-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/grand-floridian-hotel-reviews/</loc>
     <lastmod>2019-08-11T00:00:00+00:00</lastmod>
   </url>
@@ -13,17 +28,7 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2019-08-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/nlp/</loc>
-    <lastmod>2019-08-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
     <lastmod>2019-08-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -72,11 +77,11 @@
   </url>
   
   <url>
-    <loc>/author/</loc>
+    <loc>/authors/</loc>
   </url>
   
   <url>
-    <loc>/authors/</loc>
+    <loc>/author/</loc>
   </url>
   
   <url>
