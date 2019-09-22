@@ -128,7 +128,7 @@ ggplotly(summer_week)
 Sharp drop on Monday night for Flight of Passage this summer. Likely has to do with the fact that extra magic hours were offered at Animal Kingdom on this night of the week starting early July 2019. 
 
 ###Frame Calendar! 
-```{r  out.width=c('50%','50%'),fig.show='hold'}
+```{r}
 # Holidays
 
 
