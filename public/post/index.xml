@@ -6,21 +6,10 @@
     <description>Recent content in Posts on Mikayla Edwards</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Wait Times (Revisited)</title>
-      <link>/post/wait-times-revisited/</link>
-      <pubDate>Sat, 21 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/wait-times-revisited/</guid>
-      <description>Print files names in directory
-files &amp;lt;- &amp;quot;wait-times&amp;quot;files&amp;lt;-dir_ls(files)files## wait-times/7_dwarfs_train.csv wait-times/alien_saucers.csv ## wait-times/expedition_everest.csv wait-times/flight_of_passage.csv ## wait-times/navi_river.csv wait-times/slinky_dog.csvI want to merge the datasets but first need to create a new column in each with the ride name. I will extract the ride name from the csv file name and then create the new column
-files&amp;lt;-files %&amp;gt;% map_dfr(read_csv, .id = &amp;quot;source&amp;quot;)files %&amp;gt;% head()## # A tibble: 6 x 5## source date datetime SPOSTMIN SACTMIN## &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;dttm&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;## 1 wait-times/7_dwarfs_train~ 06/04/20~ 2013-06-04 09:00:00 30 NA## 2 wait-times/7_dwarfs_train~ 06/04/20~ 2013-06-04 09:30:00 30 NA## 3 wait-times/7_dwarfs_train~ 06/04/20~ 2013-06-04 10:00:00 60 NA## 4 wait-times/7_dwarfs_train~ 06/04/20~ 2013-06-04 10:30:00 60 NA## 5 wait-times/7_dwarfs_train~ 06/04/20~ 2013-06-04 11:00:00 60 NA## 6 wait-times/7_dwarfs_train~ 06/04/20~ 2013-06-04 11:30:00 90 NAfiles&amp;lt;-files %&amp;gt;% mutate(ride=str_replace(source,&amp;quot;wait-times/&amp;quot;,&amp;quot;&amp;quot;)) %&amp;gt;% mutate(ride=str_extract(ride,&amp;quot;[^.</description>
-    </item>
     
     <item>
       <title>Grand Floridian Hotel Reviews Sentiment Analysis &amp; NLP</title>
@@ -80,6 +69,17 @@ library(tidyverse)library(lubridate)library(skimr)library(ModelMetrics)libra
       
       <guid>/post/fast-food-nutrition-analysis/</guid>
       <description>library(tidyverse)library(ggthemes)library(tidytext)library(purrr)library(stats)library(corrr)library(RColorBrewer)R Markdown## # A tibble: 6 x 18## X1 restaurant item calories cal_fat total_fat sat_fat trans_fat## &amp;lt;dbl&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;## 1 1 Mcdonalds Arti~ 380 60 7 2 0 ## 2 2 Mcdonalds Sing~ 840 410 45 17 1.5## 3 3 Mcdonalds Doub~ 1130 600 67 27 3 ## 4 4 Mcdonalds Gril~ 750 280 31 10 0.</description>
+    </item>
+    
+    <item>
+      <title>Wait Times (Revisited)</title>
+      <link>/post/wait-times-revisited/</link>
+      <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/wait-times-revisited/</guid>
+      <description>Print files names in directory
+files &amp;lt;- &amp;quot;wait-times&amp;quot;files&amp;lt;-dir_ls(files)files## wait-times/7_dwarfs_train.csv wait-times/alien_saucers.csv ## wait-times/expedition_everest.csv wait-times/flight_of_passage.csv ## wait-times/navi_river.csv wait-times/slinky_dog.csvI want to merge the datasets but first need to create a new column in each with the ride name. I will extract the ride name from the csv file name and then create the new column
+files&amp;lt;-files %&amp;gt;% map_dfr(read_csv, .id = &amp;quot;source&amp;quot;)files %&amp;gt;% head()## # A tibble: 6 x 5## source date datetime SPOSTMIN SACTMIN## &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;dttm&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;## 1 wait-times/7_dwarfs_train~ 06/04/20~ 2013-06-04 09:00:00 30 NA## 2 wait-times/7_dwarfs_train~ 06/04/20~ 2013-06-04 09:30:00 30 NA## 3 wait-times/7_dwarfs_train~ 06/04/20~ 2013-06-04 10:00:00 60 NA## 4 wait-times/7_dwarfs_train~ 06/04/20~ 2013-06-04 10:30:00 60 NA## 5 wait-times/7_dwarfs_train~ 06/04/20~ 2013-06-04 11:00:00 60 NA## 6 wait-times/7_dwarfs_train~ 06/04/20~ 2013-06-04 11:30:00 90 NAfiles&amp;lt;-files %&amp;gt;% mutate(ride=str_replace(source,&amp;quot;wait-times/&amp;quot;,&amp;quot;&amp;quot;)) %&amp;gt;% mutate(ride=str_extract(ride,&amp;quot;[^.</description>
     </item>
     
     <item>

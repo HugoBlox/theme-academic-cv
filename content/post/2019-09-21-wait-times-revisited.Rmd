@@ -1,7 +1,7 @@
 ---
 title: Wait Times (Revisited)
 author: ''
-date: '2019-09-21'
+date: '2018-09-21'
 slug: wait-times-revisited
 categories: []
 tags: []
@@ -86,7 +86,7 @@ fp_ts<-fp_ts %>%
   
 ```
 ## Visualize
-Overall comparison 
+Overall comparison. Only one year of data is shown for slinky dog because it opened late June 2018. 
 ```{r}
 p1<-fp_ts %>% 
   ggplot(aes(x=date,y=avgTime)) + 
@@ -98,7 +98,7 @@ p1<-fp_ts %>%
   theme_minimal()
 
 
-ggplotly(p1)
+ggplotly(p1,width = 800)
 ```
 
 #  Time-based Features ----
@@ -124,8 +124,11 @@ summer_week<-fp_aug %>%
 ggplotly(summer_week)
 
 ```
+
+Sharp drop on Monday night for Flight of Passage this summer. Likely has to do with the fact that extra magic hours were offered at Animal Kingdom on this night of the week starting early July 2019. 
+
 ###Frame Calendar! 
-```{r}
+```{r  out.width=c('50%','50%'),fig.show='hold'}
 # Holidays
 
 
