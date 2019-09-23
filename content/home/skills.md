@@ -3,9 +3,9 @@
 widget = "featurette"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 30  # Order that this section will appear.
+weight = 5  #  Order that this section will appear.
 
-title = "Skills"
+title = "Personal Interests"
 subtitle = ""
 
 # Showcase personal skills or business features.
@@ -15,21 +15,46 @@ subtitle = ""
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
-  icon = "r-project"
-  icon_pack = "fab"
-  name = "R"
-  description = "90%"
+  icon = "socks"
+  icon_pack = "fas"
+  name = "Knitting"
+  description = "[Knitting](https://www.mhanational.org/blog/mental-health-benefits-knitting) is my favorite past-time"
   
 [[feature]]
-  icon = "chart-line"
+  icon = "recycle"
   icon_pack = "fas"
-  name = "Statistics"
-  description = "100%"  
+  name = "Zero-Waste"
+  description = "[Reduce, reuse, recycle](https://www.goingzerowaste.com/) is my wo-mantra"  
   
 [[feature]]
-  icon = "camera-retro"
+  icon = "mug-hot"
   icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "Tea"
+  description = "Nothing beats a good cup of [tea](http://northernlightstea.com/) with good company"
+  
+[[feature]]
+  icon = "paw"
+  icon_pack = "fas"
+  name = "Pets"
+  description = "I have two guinea pigs: [Daffodil and Blossom](/img/Peegs.jpg), they are very cute"
+  
+  [[feature]]
+  icon = "hockey-puck"
+  icon_pack = "fas"
+  name = "Hockey"
+  description = "Begin from Minneasota, it's no surprise that I love watching hockey, especially the [Whitecaps](https://whitecaps.nwhl.zone/) and the [Wild](https://www.nhl.com/wild)"
+  
+[[feature]]
+  icon = "seedling"
+  icon_pack = "fas"
+  name = "Vegan"
+  description = "Go Vegan! It's better for [you](https://www.veganeasy.org/resources/vegan-health/), [the animals](https://www.dominionmovement.com/#), and [the planet](http://www.cowspiracy.com/facts)"
 
+# [[feature]]
+#  icon = "r-project"
+#  icon_pack = "fab"
+#  name = "one"
+#  description = ""
 +++
+
+
