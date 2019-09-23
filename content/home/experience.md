@@ -2,10 +2,10 @@
 # Experience widget.
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+active = false  # Activate this widget? true/false
+weight = 5  #  Order that this section will appear.
 
-title = "Experience"
+title = "Past Experience"
 subtitle = ""
 
 # Date format for experience
@@ -18,27 +18,22 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
-  description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
-  """
+  title = "Public Finance Investment Banking Analyst"
+  company = "Piper Jaffray"
+  company_url = "http://www.piperjaffray.com/"
+  location = ""
+  date_start = "2015-06-08"
+  date_end = "2018-05-31"
+  description = "Analyzed debt capacity and credit profiles of clients, created presentations for clients and investors, created models and finance structring for transactions, prepared closing memeos detailing flow of funds and instructions for closings"
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  title = "Community Based Service and Learng Assessment Project Analyst"
+  company = "Gustavus Adolphus College, Office of Community-Based Learning"
+  company_url = "https://gustavus.edu/communityengagement/courses.php"
+  location = ""
+  date_start = "2014-09-01"
+  date_end = "2015-05-31"
+  description = "Collected and organized survey results, created and continually updated a long term data based, analyzed assessment tools and presented results to faculty members"
+
 
 +++
