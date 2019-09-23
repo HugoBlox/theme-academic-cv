@@ -74,7 +74,7 @@ fp_ts <- files %>%
 
 
 fp_ts<-fp_ts %>% 
-  collapse_by(period="3 hourly",start_date = min(fp_ts$datetime),side="start") %>% 
+  collapse_by(period="hourly",start_date = min(fp_ts$datetime),side="start") %>% 
   group_by(ride,datetime) %>% 
   summarise(
     avgTime=mean(time,na.rm=T)
@@ -116,7 +116,7 @@ summer_week<-fp_aug %>%
   filter(date %within% interval(ymd("2019-07-01"), ymd("2019-08-30"))) %>% 
   select(ride, date, avgTime, hour, wday.lbl) %>%
   ggplot(aes(x = hour, y = avgTime,color=wday.lbl)) +
-  geom_line(size=1.2) +
+  geom_line(size=.7) +
   facet_grid(rows = vars(ride), cols = vars(wday.lbl))+
   scale_color_manual(values=rainbow(13,s=.8,v=.8,rev=T))+
   theme(legend.position = "none")
@@ -132,20 +132,23 @@ Sharp drop on Monday night for Flight of Passage this summer. Likely has to do w
 # Holidays
 
 
-holidays <- holidayNYSE(year = c(2017, 2019)) %>% ymd()
+holidays <- holidayNYSE(year = c(2017, 2018,2019)) %>% ymd()
 
 fp_aug<-fp_aug %>% 
   mutate(isHoliday = case_when(
         date(date) %in% holidays ~ "1",
         TRUE ~ "0"
     ))
+```
 
-
+This summer vs last summer
+```{r}
 cal_plot<-function(ridename){
   
 cal <- fp_aug %>%
   filter(ride==ridename) %>% 
-  filter(month.lbl %in% c("May","June","July","August")) %>%
+  filter(year %in% c(2018,2019)) %>% 
+  filter(month.lbl %in% c("June","July","August")) %>%
   frame_calendar(x = hour, y = avgTime, date = date) %>%
   ggplot(aes(
     x = .hour,
@@ -162,5 +165,8 @@ prettify(cal)
 
 cal_plot("flight_of_passage")
 cal_plot("slinky_dog")
-
 ```
+
+
+```{r}
+ 
