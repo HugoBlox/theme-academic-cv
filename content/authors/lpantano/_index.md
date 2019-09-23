@@ -84,10 +84,10 @@ Computational biologist focused on genomic regulation and data integration. 12 y
 | [seqbuster](https://github.com/lpantano/seqbuster)            | ![seqbuster](https://anaconda.org/bioconda/seqbuster/badges/downloads.svg/)           |
 | [seqcluster](https://github.com/lpantano/seqcluster)   | ![seqcluster](https://anaconda.org/bioconda/seqcluster/badges/downloads.svg)           |
 | [seqclusterViz](https://github.com/lpantano/seqclusterViz)   |   [![viz](https://img.shields.io/badge/f1000research-18142.1-orange.svg)](https://doi.org/10.12688/f1000research.18142.1)         |
-| [isomiRs](http://bioconductor.org/packages/3.6/bioc/html/isomiRs.html)   |    ![BioC Downloads](http://bioconductor.org//shields/downloads/isomiRs.svg)       |
-| [DEGreport](http://bioconductor.org/packages/3.6/bioc/html/DEGreport.html)   |    ![BioC Downloads](http://bioconductor.org//shields/downloads/DEGreport.svg)       |
+| [isomiRs](https://bioconductor.org/packages/3.6/bioc/html/isomiRs.html)   |    ![BioC Downloads](https://bioconductor.org//shields/downloads/isomiRs.svg)       |
+| [DEGreport](https://bioconductor.org/packages/3.6/bioc/html/DEGreport.html)   |    ![BioC Downloads](https://bioconductor.org//shields/downloads/DEGreport.svg)       |
 
-contributing to: [nf-core](https://nf-co.re/), [bcbio-nextgen](http://github.com/chapmanb/bcbio-nextgen), [cloudbiolinux](http://github.com/chapmanb/cloudbiolinux), [bcbioRNASeq](https://github.com/hbc/bcbioRNASeq), [bioconda](https://github.com/bioconda/bioconda-recipes), [multiqc](https://github.com/ewels/MultiQC)
+contributing to: [nf-core](https://nf-co.re/), [bcbio-nextgen](https://github.com/chapmanb/bcbio-nextgen), [cloudbiolinux](https://github.com/chapmanb/cloudbiolinux), [bcbioRNASeq](https://github.com/hbc/bcbioRNASeq), [bioconda](https://github.com/bioconda/bioconda-recipes), [multiqc](https://github.com/ewels/MultiQC)
 
 My favs Daily News:
 
