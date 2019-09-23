@@ -6,27 +6,34 @@
 [[main]]
   name = "Home"
   url = "#about"
-  weight = 10
+  weight = 1
 
 [[main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 20
+  name = "Northwestern"
+  url = "#experienceCurrent"
+  weight = 2
 
 [[main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 30
-
-[[main]]
-  name = "Publications"
-  url = "#featured"
-  weight = 40
+  name = "Past Experience"
+  url = "#experiencePast"
+  weight = 3
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 60
+  weight = 4
+
+[[main]]
+  name = "Interests"
+  url = "#skills"
+  weight = 4
+
+
+# [[main]]
+#    name = "Resume"
+#    url = "files/M.Y.Eichlersmith.pdf"
+#    weight = 5
+
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
