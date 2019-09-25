@@ -31,10 +31,10 @@ education:
     institution: Université Grenoble Alpes
     year: 2018
   - course: MEng in Electronic Engineering
-    institution: Pontificia Universidad Javeriana
+    institution: Pontifical Xavierian University
     year: 2012
   - course: BSc in Electronic Engineering
-    institution: Pontificia Universidad Javeriana
+    institution: Pontifical Xavierian University
     year: 2008
 
 # Social/Academic Networking
