@@ -60,13 +60,15 @@ server <- function(input, output) {
 shinyApp(ui = ui, server = server)
 ```
 
+The app below allows for comparison of wait times on two different dates. Rides can be selected using the dropdown.
+The default shown below compares July 4th to July 5th. 
 
 <br>
 
 <iframe width="800" height="700" scrolling="no" frameborder="no"  src="https://mikayla-edwards19.shinyapps.io/Ride_Wait_Times/"> </iframe> 
 
-
 <br>
+It is interesting that flight of passage is significantly higher than seven dwarfs on pretty much any day, except July 4th. This likely speaks to the popularity of MK fireworks on the 4th. In other words, more people were probably in MK for the 4th than AK. 
 
 ## Code used to produce
 
