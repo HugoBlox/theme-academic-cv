@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Mikayla Edwards</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Wait Times Shiny App &#43; More Visuals</title>
+      <link>/post/wait-times-revisited/</link>
+      <pubDate>Sat, 21 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/wait-times-revisited/</guid>
+      <description>Shiny App library(shiny)ui &amp;lt;- fluidPage(sidebarLayout(sidebarPanel(selectInput(&amp;quot;ride&amp;quot;,&amp;quot;Ride&amp;quot;,choices = unique(files$ride),multiple = TRUE,selected =&amp;quot;flight_of_passage&amp;quot;),dateInput(&amp;#39;date&amp;#39;,label = &amp;#39;Date input: yyyy-mm-dd&amp;#39;,value = ymd(&amp;quot;2019-08-01&amp;quot;))),mainPanel(# Replace the `plotOutput()` with the plotly versionplotlyOutput(&amp;quot;plot&amp;quot;))))# Define the server logicserver &amp;lt;- function(input, output) {# Replace the `renderPlot()` with the plotly versionoutput$plot &amp;lt;- renderPlotly({# Convert the existing ggplot2 to a plotly plotggplotly({data &amp;lt;- subset(files,ride %in% input$ride &amp;amp;date== input$date)p &amp;lt;- ggplot(data, aes(x=datetime,y=time,color=ride))+geom_line()+ggtitle(&amp;quot;Wait Time&amp;quot;)})})}shinyApp(ui = ui, server = server)</description>
+    </item>
     
     <item>
       <title>Grand Floridian Hotel Reviews Sentiment Analysis &amp; NLP</title>
@@ -60,17 +69,6 @@ From that pipeline, I have a vector of filenames that I want to read in and save
       <description>The data used for this analysis was originally published by Touring Plans.
 I used the data for six rides: two from the Magic Kingdom (Seven Dwarfs Mine Train &amp;amp; Splash Mountain), two from Hollywood Studios (Toy Story Mania &amp;amp; The Rockin Rollercoaster), and two from Epcot (Soarin &amp;amp; Spaceship Earth).
 library(tidyverse)library(lubridate)library(skimr)library(ModelMetrics)library(janitor)library(broom)library(forcats)library(kableExtra)library(stringr)There was a separate csv file for each ride. I originally merged &amp;amp; cleaned this data using Python, which can be found here.</description>
-    </item>
-    
-    <item>
-      <title>Wait Times Shiny App &#43; More Visuals</title>
-      <link>/post/wait-times-revisited/</link>
-      <pubDate>Sun, 21 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/wait-times-revisited/</guid>
-      <description>Print files names in directory
-files &amp;lt;- &amp;quot;wait-times&amp;quot;files&amp;lt;-dir_ls(files)files## wait-times/7_dwarfs_train.csv wait-times/alien_saucers.csv ## wait-times/expedition_everest.csv wait-times/flight_of_passage.csv ## wait-times/navi_river.csv wait-times/slinky_dog.csvI want to merge the datasets but first need to create a new column in each with the ride name. I will extract the ride name from the csv file name and then create the new column
-files&amp;lt;-files %&amp;gt;% map_dfr(read_csv, .id = &amp;quot;source&amp;quot;)files %&amp;gt;% head()## # A tibble: 6 x 5## source date datetime SPOSTMIN SACTMIN## &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;dttm&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;## 1 wait-times/7_dwarfs_train~ 06/04/20~ 2013-06-04 09:00:00 30 NA## 2 wait-times/7_dwarfs_train~ 06/04/20~ 2013-06-04 09:30:00 30 NA## 3 wait-times/7_dwarfs_train~ 06/04/20~ 2013-06-04 10:00:00 60 NA## 4 wait-times/7_dwarfs_train~ 06/04/20~ 2013-06-04 10:30:00 60 NA## 5 wait-times/7_dwarfs_train~ 06/04/20~ 2013-06-04 11:00:00 60 NA## 6 wait-times/7_dwarfs_train~ 06/04/20~ 2013-06-04 11:30:00 90 NAfiles&amp;lt;-files %&amp;gt;% mutate(ride=str_replace(source,&amp;quot;wait-times/&amp;quot;,&amp;quot;&amp;quot;)) %&amp;gt;% mutate(ride=str_extract(ride,&amp;quot;[^.</description>
     </item>
     
     <item>

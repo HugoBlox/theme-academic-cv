@@ -1,7 +1,7 @@
 ---
 title: Wait Times Shiny App + More Visuals
 author: ''
-date: '2019-07-21'
+date: '2019-09-21'
 slug: wait-times-revisited
 categories: []
 tags: []
@@ -19,6 +19,56 @@ library(timeDate)
 library(sugrrants)
 ```
 
+## Shiny App
+
+```{r eval=FALSE}
+ library(shiny)
+
+
+ui <- fluidPage(
+  sidebarLayout(
+    sidebarPanel(
+      selectInput("ride","Ride",choices = unique(files$ride),
+                  multiple = TRUE,
+                  selected ="flight_of_passage"),
+      dateInput('date',
+      label = 'Date input: yyyy-mm-dd',value = ymd("2019-08-01"))
+    ),
+    mainPanel(
+      # Replace the `plotOutput()` with the plotly version
+      plotlyOutput("plot")
+    )
+  )
+)
+      
+# Define the server logic
+server <- function(input, output) {
+  # Replace the `renderPlot()` with the plotly version
+  output$plot <- renderPlotly({
+    # Convert the existing ggplot2 to a plotly plot
+    ggplotly({
+      data <- subset(files,
+                     ride %in% input$ride &
+                       date== input$date)
+       p <- ggplot(data, aes(x=datetime,y=time,color=ride))+
+         geom_line()+
+        ggtitle("Wait Time")
+    })
+  })
+}
+
+shinyApp(ui = ui, server = server)
+```
+
+
+<br>
+
+<iframe width="800" height="700" scrolling="no" frameborder="no"  src="https://mikayla-edwards19.shinyapps.io/Ride_Wait_Times/"> </iframe> 
+
+
+<br>
+
+## Code used to produce
 
 Print files names in directory
 ```{r}
@@ -69,54 +119,6 @@ files<-files %>%
 # create tibble time object
 ```
 
-## Shiny App
-
-```{r eval=FALSE}
- library(shiny)
-
-
-ui <- fluidPage(
-  sidebarLayout(
-    sidebarPanel(
-      selectInput("ride","Ride",choices = unique(files$ride),
-                  multiple = TRUE,
-                  selected ="flight_of_passage"),
-      dateInput('date',
-      label = 'Date input: yyyy-mm-dd',value = ymd("2019-08-01"))
-    ),
-    mainPanel(
-      # Replace the `plotOutput()` with the plotly version
-      plotlyOutput("plot")
-    )
-  )
-)
-      
-# Define the server logic
-server <- function(input, output) {
-  # Replace the `renderPlot()` with the plotly version
-  output$plot <- renderPlotly({
-    # Convert the existing ggplot2 to a plotly plot
-    ggplotly({
-      data <- subset(files,
-                     ride %in% input$ride &
-                       date== input$date)
-       p <- ggplot(data, aes(x=datetime,y=time,color=ride))+
-         geom_line()+
-        ggtitle("Wait Time")
-    })
-  })
-}
-
-shinyApp(ui = ui, server = server)
-```
-
-
-<br>
-
-<iframe width="600" height="500" scrolling="no" frameborder="no"  src="https://mikayla-edwards19.shinyapps.io/Ride_Wait_Times/"> </iframe> 
-
-
-<br>
 
 
 
