@@ -65,10 +65,10 @@ The default shown below compares July 4th to July 5th.
 
 <br>
 
-<iframe width="800" height="700" scrolling="no" frameborder="no"  src="https://mikayla-edwards19.shinyapps.io/Ride_Wait_Times/"> </iframe> 
+<iframe width="1000" height="800" scrolling="no" frameborder="no"  src="https://mikayla-edwards19.shinyapps.io/Ride_Wait_Times/"> </iframe> 
 
-<br>
-It is interesting that flight of passage is significantly higher than seven dwarfs on pretty much any day, except July 4th. This likely speaks to the popularity of MK fireworks on the 4th. In other words, more people were probably in MK for the 4th than AK. 
+
+It is interesting that flight of passage is significantly higher than seven dwarfs on pretty much any day, except July 4th. This likely speaks to the popularity of Magic Kingdom fireworks on the 4th. In other words, more people were probably in Magic Kingdom for the 4th than Animal Kingdom. 
 
 ## Code used to produce
 
@@ -164,9 +164,9 @@ p1<-fp_ts %>%
   ggplot(aes(x=date,y=avgTime)) + 
   geom_line()+
   geom_smooth(method = "loess",aes(color=ride))+
-  facet_wrap(~ride,scales = "free_x")+
+  facet_grid(~ride,scales = "free_x")+
   scale_x_date(date_labels = "%b %y")+
-  theme(panel.margin = unit(5,"lines"))+
+  theme(panel.spacing.x = unit(2,"lines"))+
   theme_minimal()
 
 
