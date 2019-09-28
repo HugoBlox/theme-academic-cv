@@ -65,7 +65,7 @@ The default shown below compares July 4th to July 5th.
 
 <br>
 
-<iframe width="1000" height="800" scrolling="no" frameborder="no"  src="https://mikayla-edwards19.shinyapps.io/Ride_Wait_Times/"> </iframe> 
+<iframe width="1500" height="900" scrolling="yes" frameborder="no"  src="https://mikayla-edwards19.shinyapps.io/Ride_Wait_Times/"> </iframe> 
 
 
 It is interesting that flight of passage is significantly higher than seven dwarfs on pretty much any day, except July 4th. This likely speaks to the popularity of Magic Kingdom fireworks on the 4th. In other words, more people were probably in Magic Kingdom for the 4th than Animal Kingdom. 
