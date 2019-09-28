@@ -1,7 +1,7 @@
 ---
-title: Wait Times (Revisited)
+title: Wait Times Shiny App + More Visuals
 author: ''
-date: '2018-09-21'
+date: '2019-07-21'
 slug: wait-times-revisited
 categories: []
 tags: []
@@ -67,7 +67,72 @@ files<-files %>%
   filter(! hour %in% c(1:5))
 
 # create tibble time object
+```
 
+## Shiny App
+
+```{r eval=FALSE}
+ library(shiny)
+
+
+ui <- fluidPage(
+  sidebarLayout(
+    sidebarPanel(
+      selectInput("ride","Ride",choices = unique(files$ride),
+                  multiple = TRUE,
+                  selected ="flight_of_passage"),
+      dateInput('date',
+      label = 'Date input: yyyy-mm-dd',value = ymd("2019-08-01"))
+    ),
+    mainPanel(
+      # Replace the `plotOutput()` with the plotly version
+      plotlyOutput("plot")
+    )
+  )
+)
+      
+# Define the server logic
+server <- function(input, output) {
+  # Replace the `renderPlot()` with the plotly version
+  output$plot <- renderPlotly({
+    # Convert the existing ggplot2 to a plotly plot
+    ggplotly({
+      data <- subset(files,
+                     ride %in% input$ride &
+                       date== input$date)
+       p <- ggplot(data, aes(x=datetime,y=time,color=ride))+
+         geom_line()+
+        ggtitle("Wait Time")
+    })
+  })
+}
+
+shinyApp(ui = ui, server = server)
+```
+
+
+<br>
+
+<iframe width="600" height="500" scrolling="no" frameborder="no"  src="https://mikayla-edwards19.shinyapps.io/Ride_Wait_Times/"> </iframe> 
+
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r}
 fp_ts <- files %>%
   filter(ride == "flight_of_passage" | ride=="slinky_dog") %>% 
   as_tbl_time(datetime)
@@ -82,8 +147,11 @@ fp_ts<-fp_ts %>%
   slice(-n()) 
 
 fp_ts<-fp_ts %>% 
-  mutate(date=date(datetime)) 
-  
+  mutate(date=date(datetime))
+```
+
+
+```{r}
 ```
 ## Visualize
 Overall comparison. Only one year of data is shown for slinky dog because it opened late June 2018. 
@@ -166,7 +234,24 @@ prettify(cal)
 cal_plot("flight_of_passage")
 cal_plot("slinky_dog")
 ```
-
-
 ```{r}
- 
+files %>% 
+  filter(date==ymd("2019-08-01")) %>% 
+  ggplot(aes(x=datetime,y=time,fill=ride))+
+  geom_line()
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
