@@ -22,39 +22,42 @@ library(sugrrants)
 ## Shiny App
 
 ```{r eval=FALSE}
- library(shiny)
-
+##shiny code 
 
 ui <- fluidPage(
-  sidebarLayout(
-    sidebarPanel(
-      selectInput("ride","Ride",choices = unique(files$ride),
-                  multiple = TRUE,
-                  selected ="flight_of_passage"),
-      dateInput('date',
-      label = 'Date input: yyyy-mm-dd',value = ymd("2019-08-01"))
-    ),
-    mainPanel(
-      # Replace the `plotOutput()` with the plotly version
-      plotlyOutput("plot")
+    sidebarLayout(
+        sidebarPanel(
+            selectInput("ride","Ride",choices = unique(files$ride),
+                        multiple = TRUE,
+                        selected =c("flight_of_passage","7_dwarfs_train","slinky_dog")),
+            dateInput('date1',
+                      label = 'Date input 1: yyyy-mm-dd',value = ymd("2019-07-04")),
+            dateInput('date2',
+                      label = 'Date input 2: yyyy-mm-dd',value = ymd("2019-07-05"))
+        ),
+        mainPanel(
+            # Replace the `plotOutput()` with the plotly version
+            plotlyOutput("plot")
+        )
     )
-  )
 )
-      
+
 # Define the server logic
 server <- function(input, output) {
-  # Replace the `renderPlot()` with the plotly version
-  output$plot <- renderPlotly({
-    # Convert the existing ggplot2 to a plotly plot
-    ggplotly({
-      data <- subset(files,
-                     ride %in% input$ride &
-                       date== input$date)
-       p <- ggplot(data, aes(x=datetime,y=time,color=ride))+
-         geom_line()+
-        ggtitle("Wait Time")
+    # Replace the `renderPlot()` with the plotly version
+    output$plot <- renderPlotly({
+        # Convert the existing ggplot2 to a plotly plot
+        ggplotly({
+            data <- subset(files,
+                           ride %in% input$ride &
+                               date %in% c(input$date1, input$date2))
+            p <- ggplot(data, aes(x=datetime,y=time,color=ride))+
+                geom_line()+
+                facet_grid(~date,scales="free_x")+
+                ggtitle("Compare Wait Times")+
+                scale_color_brewer(palette = "Dark2")
+        })
     })
-  })
 }
 
 shinyApp(ui = ui, server = server)
