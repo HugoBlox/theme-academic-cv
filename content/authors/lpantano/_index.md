@@ -66,8 +66,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Organizing Committee
-- Founders
+- Organizers
 ---
 
 Computational biologist focused on genomic regulation and data integration. 12 years of experience in biological data analysis using the most well-established tools and contributing to novel algorithms to improve the quantification and visualization of genomic data. I approach scientific challenges with passion and believe that a collaboration and not an individual alone can successfully conquer them. 
