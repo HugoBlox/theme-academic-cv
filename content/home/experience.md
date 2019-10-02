@@ -56,7 +56,7 @@ date_format = "Jan 2006"
   [[experience]]
   title = "Research Scientist / Biostatistician"
   company = "Department of Medicine & Public Health, Kings College London"
-  company_url = "https://www.digicatapult.org.uk/"
+  company_url = ""
   location = "London, UK"
   date_start = "2011-10-01"
   date_end = "2013-10-01"
