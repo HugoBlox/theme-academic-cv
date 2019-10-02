@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Nelson Bighetti
+name: Justin J. Grace
 
 # Username (this should match the folder name)
 authors:
@@ -10,31 +10,34 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Machine Learning Scientist / Engineer
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
+- name: ""
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I am a Machine Learning Engineer / Scientist with a specialisation in Deep Learning & NLP. I am particularly interested in dialogue systems, question-answering and representation learning.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
+- Artificial Intelligence / Machine Learning / Deep Learning
+- NLP / Computational Linguistics
 - Information Retrieval
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  - course: MSc. in Artificial Intelligence
+    institution: University of Edinburgh
+    year: 2018
+  - course: PhD. in Cognitive Neuroscience
+    institution: Donders Institute of Brain, Cognition & Behaviour (Not Completed)
+    year: 2010
+  - course: MSc. in Cognitive Neuroscience
+    institution: University of Edinburgh
     year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  - course: MA. in Psychology & Linguistics (dual hons.)
+    institution: University of Edinburgh
     year: 2008
 
 # Social/Academic Networking
@@ -47,21 +50,19 @@ social:
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://twitter.com/jusjosgra
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/justinjgrace/
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+  link: https://github.com/jusjosgra
+- icon: cv
+  icon_pack: ai
+  link: "files/CV-2019-JGRACE.pdf"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "justin.j.grace@gmail.com"
   
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
@@ -70,6 +71,6 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Justin is an experienced Machine Learning Engineer / Scientist with over 5 years industry experience as a data scientist and machine learning engineer and 4 years experience as an academic researcher and scientist. He is a specialist in deep learning and natural language processing (NLP) with a particular interest in dialogue and question-answer systems. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+He has worked on a various industry applications; including building dialogue and question-answer systems at a peer-to-peer chat technology startup, text summarization systems for news media, and a semantic search engine for company discovery. He has experience in a several different industries; including technology & innovation, interactive entertainment & video games, news media, healthcare & neuroscience, and human-computer interaction.
