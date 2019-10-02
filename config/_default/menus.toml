@@ -8,27 +8,34 @@
   url = "#about"
   weight = 10
 
-[[main]]
-  name = "Posts"
-  url = "#posts"
+  [[main]]
+  name = "Experience"
+  url = "#experience"
   weight = 20
 
 [[main]]
-  name = "Projects"
-  url = "#projects"
+  name = "Posts"
+  url = "#posts"
   weight = 30
 
 [[main]]
-  name = "Publications"
-  url = "#featured"
+  name = "Talks"
+  url = "#talks"
   weight = 40
 
 [[main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 60
+  name = "Publications"
+  url = "#publications"
+  weight = 50
 
 [[main]]
   name = "CV"
   url = "files/CV-2019-JGRACE.pdf"
+  weight = 60
+
+[[main]]
+  name = "Contact"
+  url = "#contact"
   weight = 70
+
+
