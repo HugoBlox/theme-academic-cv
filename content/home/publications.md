@@ -7,7 +7,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 90  # Order that this section will appear.
 
-title = "Publications"
+title = "Publications & Papers"
 subtitle = ""
 
 [content]
@@ -24,11 +24,11 @@ subtitle = ""
   order = "desc"
 
   # Filter posts by a taxonomy term.
-  [content.filters]
-    tag = ""
-    category = ""
-    publication_type = ""
-    exclude_featured = false
+  #[content.filters]
+  #  tag = ""
+  #  category = ""
+  #  publication_type = ""
+  #  exclude_featured = false
   
 [design]
   # Toggle between the various page layout types.
