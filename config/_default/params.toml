@@ -85,7 +85,7 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", repo_branch 
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "justin.j.grace [at] gmail.com"
+email = "justin.j.grace@gmail.com"
 # phone = "888 888 88 88"
 
 # Address
