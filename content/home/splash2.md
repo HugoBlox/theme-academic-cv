@@ -10,9 +10,9 @@ title = "Lioness, Tanzania (2019)"
   columns = "1"
 
 [design.background]
-    image = 'splash2.jpg'
+  image = 'splash2.jpg'
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["300px", "0", "0", "0"]
+  padding = ["400px", "0", "0", "0"]
 +++

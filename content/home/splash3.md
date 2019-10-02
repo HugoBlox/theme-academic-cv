@@ -5,15 +5,14 @@ active = true  # Activate this widget? true/false
 weight = 45  # Order that this section will appear in.
 title = "Emrald Toucan, Costa Rica (2016)"
 
-
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "1"
 
 [design.background]
-    image = 'splash3.jpg'
+  image = 'splash3.jpg'
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["300px", "0", "0", "0"]
+  padding = ["400px", "0", "0", "0"]
 +++

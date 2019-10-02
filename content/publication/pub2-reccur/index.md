@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "A patient-specific prediction instrument using functional recovery curves as a management tool after stroke"
-authors: ['Grace, J.', 'Douiri, A.', 'Wolfe, C.', 'Rudd, A.']
+authors: ['Grace, J.', 'Douiri, A.', McKevitt, C.', 'Wolfe, C.', 'Rudd, A.']
 date: 2014-01-01
 doi: ""
 
