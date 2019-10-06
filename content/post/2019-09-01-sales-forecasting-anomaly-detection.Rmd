@@ -49,7 +49,7 @@ I will use data table to join datasets, as it is much faster than base or dplyr.
 ```{r}
 #joining on store & date (keep number rows in train test)
 train<-setDT(train)[setDT(features),on=c("Store","Date","IsHoliday"),nomatch=0]
-test<-setDT(train)[setDT(features),on=c("Store","Date","IsHoliday"),nomatch=0]
+test<-setDT(test)[setDT(features),on=c("Store","Date","IsHoliday"),nomatch=0]
 
 #join stores & train/test on store number
 train<-train[setDT(stores),on="Store",nomatch=0]
@@ -62,14 +62,21 @@ curNames<-train %>% select(MarkDown1:MarkDown5) %>% names()
 newNames<- paste("MDwn",str_extract(curNames,"[0-9]+"),sep ="")
 
 train<-train %>% setnames(curNames,newNames)
-  
-  
+
+test<-test %>% setnames(curNames,newNames)
+
+```
+
+
+```{r}
 train %>% set_names(str_trunc(names(train),width = 5,ellipsis = "")) %>%
   head() %>% 
   mutate_if(is.numeric,round) %>% 
   tableHTML() %>%
-  add_css_table(css = list(c('height','width', 'font-size'), c('50','70', '11px'))) 
+  add_css_table(css = list(c('height','width', 'font-size'), c('50','70', '11px')))
 ```
+
+
 
 
 
@@ -79,11 +86,14 @@ How many different stores and departments are in the training dataset? Since we 
 ```{r}
 train %>% 
   select(Store,Dept) %>% 
-  summarise_all(~n_distinct(.x)) %>% 
-  glimpse()
+  summarise_all(~n_distinct(.x))
 
 #add number of departments in store as feature to training dataset
 train<-train %>% 
+  group_by(Store) %>% 
+  mutate(num_dept=n_distinct(Dept)) 
+
+test<-test %>% 
   group_by(Store) %>% 
   mutate(num_dept=n_distinct(Dept)) 
 ```
@@ -142,7 +152,8 @@ train %>%
   ggplot(aes(x=Date,y=avgStoreSale,fill=Type,color=Type))+
   geom_line(size=1,alpha=.7)+
   xlab("") +
-  ylab("Weekly Sales")+
+  labs(color="Store Type")+
+  ylab("Avg Weekly Sales")+
   scale_y_log10(breaks = trans_breaks("log10", function(x) 10^x),
                 labels = trans_format("log10", math_format(10^.x)))+
   scale_color_manual(values=c("black","dodgerblue","deeppink"))
@@ -210,12 +221,16 @@ I will add the binary "IsAnomaly" as a feature in train & test, as this will lik
 isAnom<-storeAnom %>% ungroup() %>% select(Store,Date,anomaly) %>%  setDT()
 
 train<-setDT(train)[isAnom,on=c("Store","Date")]
-test<-setDT(test)[isAnom,on=c("Store","Date")]
+
 ```
 
 
 ## Pre-Processing
 ```{r}
 #train recipe
+train %>% 
+  summarize_all(~sum(is.na(.)))
 ```
+
+
 
