@@ -224,12 +224,65 @@ train<-setDT(train)[isAnom,on=c("Store","Date")]
 
 ```
 
-
-## Pre-Processing
 ```{r}
 #train recipe
 train %>% 
   summarize_all(~sum(is.na(.)))
+```
+
+
+## Auto Correlation
+1. Get weekly Sales at Store Level. Add additional feature for number of departments w/anomaly on that week
+2. Remove dept. specific features & call unique() so only have one entry for store,dept
+
+```{r}
+train<-train %>% 
+  group_by(Store, Date) %>% 
+  mutate(
+    sumWeeklySales=sum(Weekly_Sales),
+    #number department anom
+    dpt_anoms=sum(anomaly=="Yes")
+  ) %>% 
+  ungroup() %>% 
+  select(-Dept,-Weekly_Sales,-anomaly) %>% 
+  unique(by=c("Store","Date"))
+  
+head(train)
+  
+```
+
+
+```{r include=FALSE}
+autocor_func <- function(data, col_name, lags = 0:30) {
+    
+    col_name_nse <- enquo(col_name)
+    
+    acf_values <- data %>%
+        select(!! col_name_nse) %>%
+        pull() %>%
+        acf(lag.max = tail(lags, 1), plot = FALSE) %>%
+        .$acf %>%
+        .[,,1]
+    
+    ret <- tibble(acf = acf_values) %>%
+        rowid_to_column(var = "lag") %>%
+        mutate(lag = lag - 1) %>%
+        filter(lag %in% lags)
+    
+    return(ret)
+}
+```
+
+
+```{r}
+g <- train %>%
+    autocor_func(sumWeeklySales, lags = 0:nrow(.)) %>%
+    ggplot(aes(lag, acf)) +
+    geom_point(alpha = 0.5, color = "maroon") +
+    expand_limits(y = c(-1, 1)) +
+    labs(title = "Weekly Sales Autocorrelation")
+
+ggplotly(g,height = 350,width = 600)
 ```
 
 
