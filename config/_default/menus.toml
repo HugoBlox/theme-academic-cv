@@ -14,14 +14,19 @@
   weight = 20
 
 [[main]]
-  name = "Intern links"
-  url = "#demo"
+  name = "Open data"
+  url = "#slider"
   weight = 30
 
 [[main]]
-  name = "SFB info"
+  name = "Open source software"
   url = "#slider"
-  weight = 30
+  weight = 40
+
+[[main]]
+  name = "Open protocols"
+  url = "#slider"
+  weight = 50
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

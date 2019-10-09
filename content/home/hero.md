@@ -2,7 +2,7 @@
 # Hero widget.
 widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false
 weight = 2  # Order that this section will appear.
 
 title = ""
@@ -33,13 +33,13 @@ hero_media = ""
 # Call to action links (optional).
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
-[cta]
-  url = "#demo"
-  label = "Enter private gallery"
+# [cta]
+#   url = "#demo"
+#   label = "Enter private gallery"
   
-[cta_alt]
+[cta]
   url = "#resultmonth"
-  label = "See public gallery"
+  label = "Our result of the month"
   
 
 [advanced]
@@ -49,6 +49,6 @@ hero_media = ""
 
 # Note. An optional note to show underneath the links.
  [cta_note]
-   label = '<a class="js-github-release" href="#slider" data-repo="gcushen/hugo-academic">see more of our research outputs</a>'
+   label = '<a  href="#slider" >see more of our research outputs</a>'
 +++
 
