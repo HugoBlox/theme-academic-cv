@@ -12,15 +12,26 @@ if [ ! -d .git ]; then
   exit 1;
 fi
 
+function view_update () {
+  echo -e "Checking for updates...\n"
+  cd themes/academic
+  git fetch
+  git log --pretty=oneline --abbrev-commit --decorate HEAD..origin/master
+  cd ../../
+}
+
 # Function to update Academic
-function install_update () {
+function do_update () {
   # Apply any updates
   git submodule update --remote --merge
 
   # - Update Netlify.toml with required Hugo version
   if [ -f ./netlify.toml ]; then
-    version=$(sed -n 's/^min_version = //p' themes/academic/theme.toml)
-    sed -i '' -e "s/HUGO_VERSION = .*/HUGO_VERSION = $version/g" ./netlify.toml
+    # Postfix '.0' to Hugo min_version as sadly it doesn't map to a precise semantic version.
+    version=$(sed -n 's/^min_version = //p' themes/academic/theme.toml | tr -d '"')
+    version="${version}.0"
+    echo "Set Netlify Hugo version to v${version}"
+    sed -i '' -e "s/HUGO_VERSION = .*/HUGO_VERSION = \"$version\"/g" ./netlify.toml
   fi
 
   echo
@@ -34,22 +45,7 @@ version=$(sed -n 's/^version = "//p' themes/academic/data/academic.toml)
 echo -e "Source Themes Academic v$version\n"
 
 # Display available updates
-echo -e "Checking for updates...\n"
-cd themes/academic
-git fetch
-git log --pretty=oneline --abbrev-commit --decorate HEAD..origin/master
-cd ../../
+view_update
 
-title="Do you wish to install the above updates?"
-prompt="Choose an option and press Enter:"
-options=("Yes" "No")
-
-echo "$title"
-PS3="$prompt "
-select opt in "${options[@]}"; do
-    case $opt in
-        Yes ) install_update; break;;
-        No ) break;;
-        * ) break;;
-    esac
-done
+# Apply any updates
+do_update
