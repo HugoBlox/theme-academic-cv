@@ -48,10 +48,17 @@ subtitle = "A change in body mass index (i.e., weight loss after bariatric surge
 +++
 
 
-<img src = "RG/Floel.png",  width= "50%" >
 
+<table id="Main table" style="background-color:rgba(0, 0, 25, 0);border-collapse: collapse;">
+<tr ></tr>
+  <tr >
+    <td width = "50%"><img src = "RG/Floel.png",  width= "100%" ></td>
+    <td>Head motion, measured as log-normalized mean framewise displacement (mean FD), decreases across the three timepoints in the intervention (IG: bariatric surgery, n= 32) compared to the control  condition (obese participants in waiting period, n=18), shown in blue/red, respectively. Error bars represent within-subject errors.
+bl: baseline, fu: 6month follow-up, fu2: 12month follow-up.</td> 
+    
+  </tr>
+  </table>
+  
 
-Head motion, measured as log-normalized mean framewise displacement (mean FD), decreases across the three timepoints in the intervention (IG: bariatric surgery, n= 32) compared to the control  condition (obese participants in waiting period, n=18), shown in blue/red, respectively. Error bars represent within-subject errors.
-bl: baseline, fu: 6month follow-up, fu2: 12month follow-up.
 
 [access the Bioarxiv preprint ](https://www.biorxiv.org/content/biorxiv/early/2019/09/23/766261.full.pdf)

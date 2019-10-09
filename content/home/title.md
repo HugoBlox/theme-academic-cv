@@ -6,17 +6,15 @@
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 11  # Order that this section will appear.
+weight = 1  # Order that this section will appear.
 
-title = "Private Gallery"
-subtitle = """
-- access and discuss unpublished results
-- show your results and make your figures publication ready 
-- start more effective **collaborations**"""
+title = "SFB1315 Result Gallery"
+subtitle = """ A project created in collaboration with sourcedata
+"""
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "2"
+  columns = "1"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -33,7 +31,7 @@ subtitle = """
   
   # Background image.
    image = "SourceDatais.png"  # Name of image in `static/img/`.
-   image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+   image_darken = 0.8  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
   text_color_light = true
@@ -44,18 +42,13 @@ subtitle = """
 
 [advanced]
  # Custom CSS. 
- css_style = """div {text-align: center}
-
- ul {max-width:70%;margin: auto;text-align: left;}"""
+ css_style = """text-align: center
+"""
  
  # CSS class.
  css_class = ""
 +++
 
-
-
-
-<iframe src ="https://sdash.sourcedata.io/login" height=250px width=600px ></iframe>
 
 
 
