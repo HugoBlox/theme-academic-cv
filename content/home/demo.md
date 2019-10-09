@@ -6,7 +6,7 @@
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 1  # Order that this section will appear.
+weight = 25  # Order that this section will appear.
 
 title = "Access the SFB1315 result dashboard"
 subtitle = "Powered by sourcedata"
@@ -29,7 +29,7 @@ subtitle = "Powered by sourcedata"
   gradient_end = "ForestGreen"
   
   # Background image.
-   image = "SourceDatais2.png"  # Name of image in `static/img/`.
+   image = "SourceDatais.png"  # Name of image in `static/img/`.
    image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
@@ -37,7 +37,7 @@ subtitle = "Powered by sourcedata"
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["20px", "0", "20px", "0"]
+  padding = ["10px","20px", "0", "20px"]
 
 [advanced]
  # Custom CSS. 
