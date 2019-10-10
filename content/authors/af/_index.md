@@ -21,7 +21,7 @@ organizations:
 bio: I miei interessi di ricerca sono limitati alle palle di neve
 
 interests:
-- Snopwballs
+- Snowballs
 - Snowball fights
 - Bivouacs suitable for snowball fights
 
