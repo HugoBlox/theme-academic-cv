@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Snowball fight organizer
+role: Snowball fight organiser
 
 # Organizations/Affiliations
 organizations:
@@ -66,7 +66,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Organizers
+- Organisers
 ---
 
 Hey, it's me, Adriano, your most beloved snowball fight organiser!
