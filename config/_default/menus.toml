@@ -14,19 +14,16 @@
   weight = 20
 
 [[main]]
-  name = "Open data"
-  url = "#slider"
+  name = "Publications"
+  url = "https://www.biologie.hu-berlin.de/en/gruppenseiten-en/sfb1315/publications"
   weight = 30
 
 [[main]]
-  name = "Open source software"
+  name = "Other Research objects"
   url = "#slider"
   weight = 40
 
-[[main]]
-  name = "Open protocols"
-  url = "#slider"
-  weight = 50
+
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
