@@ -31,7 +31,7 @@ function do_update () {
     version=$(sed -n 's/^min_version = //p' themes/academic/theme.toml | tr -d '"')
     version="${version}.0"
     echo "Set Netlify Hugo version to v${version}"
-    sed -i '' -e "s/HUGO_VERSION = .*/HUGO_VERSION = \"$version\"/g" ./netlify.toml
+    sed -i.bak -e "s/HUGO_VERSION = .*/HUGO_VERSION = \"$version\"/g" ./netlify.toml && rm -f ./netlify.toml.bak
   fi
 
   echo
