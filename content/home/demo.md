@@ -8,7 +8,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 11  # Order that this section will appear.
 
-title = "Private Gallery"
+title = "Login into the Private Gallery"
 subtitle = """
 - access and discuss unpublished results
 - show your results and make your figures publication ready 
@@ -25,15 +25,15 @@ subtitle = """
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-  # color = "navy"
+  # color = "rgb(204,204,102)"
   
   # Background gradient.
-  #gradient_start = "DarkGreen"
-  #gradient_end = "ForestGreen"
+  gradient_start = "rgb(77,77,25)"
+  gradient_end = "rgb(204,204,102)"
   
   # Background image.
-   image = "SourceDatais.png"  # Name of image in `static/img/`.
-   image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  # image = "SourceDatais.png"  # Name of image in `static/img/`.
+  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
   text_color_light = true

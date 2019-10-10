@@ -9,7 +9,7 @@ active = true  # Activate this widget? true/false
 weight = 1  # Order that this section will appear.
 
 title = "SFB1315 Result Gallery"
-subtitle = """ A project created in collaboration with sourcedata
+subtitle = """ A collaboration between the SFB1315 and the EMBO-sourcedata team
 """
 
 [design]
@@ -26,12 +26,13 @@ subtitle = """ A project created in collaboration with sourcedata
   # color = "navy"
   
   # Background gradient.
-  #gradient_start = "DarkGreen"
-  #gradient_end = "ForestGreen"
+  gradient_start = "rgb(77,77,25)"
+  gradient_end = "rgb(77,77,25)"
+
   
   # Background image.
-   image = "SourceDatais.png"  # Name of image in `static/img/`.
-   image_darken = 0.8  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  # image = "SourceDatais.png"  # Name of image in `static/img/`.
+  # image_darken = 0.8  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
   text_color_light = true
@@ -42,12 +43,23 @@ subtitle = """ A project created in collaboration with sourcedata
 
 [advanced]
  # Custom CSS. 
- css_style = """text-align: center
+ css_style = """
+ 
+text-align: center;
+
+
+
+
 """
  
  # CSS class.
  css_class = ""
 +++
+
+
+<p, class= "aligncenter" >
+    <img src="img/combinedlogo.png" alt="developed by SFB1315 and sourcedat" />
+</p>
 
 
 
