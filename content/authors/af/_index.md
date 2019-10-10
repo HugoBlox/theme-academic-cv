@@ -10,24 +10,24 @@ authors:
 superuser: true
 
 # Role/position
-role: Organizzatore di battaglie di palle di neve
+role: Snowball fight organizer
 
 # Organizations/Affiliations
 organizations:
-- name: Università delle palle di neve
+- name: Snowball University, Inc.
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
 bio: I miei interessi di ricerca sono limitati alle palle di neve
 
 interests:
-- Palle di neve
-- Battaglie di palle di neve
-- Bivacchi per le battaglie di palle di neve
+- Snopwballs
+- Snowball fights
+- Bivouacs suitable for snowball fights
 
 education:
   courses:
-  - course: PhD in palledinevologia
+  - course: PhD in snowballology
     institution: Snowball University, Inc.
     year: 2077
 
@@ -38,7 +38,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:adr.fantini@gmail.com'  # For a direct email link, use "mailto:test@example.org".
 #  - icon: twitter
 #    icon_pack: fab
 #    link: https://twitter.com/GeorgeCushen
@@ -63,4 +63,4 @@ user_groups:
 - Organizers
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+Hey, it's me, Adriano, your most beloved snowball fight organiser!
