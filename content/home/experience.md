@@ -73,6 +73,21 @@ date_format = "Jan 2006"
   Program Assistant: Participated in program certification. 
   Communication's leader: Project ADDE SALEM
   """
+
+[[experience]]
+  title = "Research Assistant"
+  company = "CNRS/INRIA"
+  company_url = "https://www.inria.fr/centre/grenoble"
+  location = "Grenoble, France"
+  date_start = "2014-09-01"
+  date_end = "2018-12-31"
+  description = """Development of estimation and prediction techniques for traffic systems:
+
+  * Development of the Grenoble Traffic Lab (GTL)
+  * Short-term forecasting algorithms based on real time data analytics
+  * Research contributor to the EU project SPEEDD
+
+  """  
   
 [[experience]]
   title = "Postdoctoral Researcher"
