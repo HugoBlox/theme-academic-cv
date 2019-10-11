@@ -42,7 +42,7 @@ tags = ["Connected & Automated Vehicles", "Traffic Impact Assessment"]
 
 # Links (optional).
 url_pdf = ""
-url_slides = ""
+url_slides = "http://bit.ly/e3CAV_AL"
 url_video = ""
 url_code = ""
 
