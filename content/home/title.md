@@ -31,7 +31,7 @@ subtitle = """ A collaboration between the SFB1315 and the EMBO-sourcedata team
 
   
   # Background image.
-   image = "img/bg.gif"  # Name of image in `static/img/`.
+   image = "bg.gif"  # Name of image in `static/img/`.
   # image_darken = 0.8  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).

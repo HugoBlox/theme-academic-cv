@@ -32,7 +32,7 @@ subtitle = """
   #gradient_end = "rgb(204,204,102)"
   
   # Background image.
-   image = "img/bg.gif"  # Name of image in `static/img/`.
+   image = "bg.gif"  # Name of image in `static/img/`.
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).

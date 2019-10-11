@@ -37,7 +37,7 @@ height = ""
 [[item]]
   title = "Our data is on GIN"
   content = ""
-  align = "left"
+  align = "center"
 
   overlay_color = "#555"  # An HTML color value.
   overlay_img = ""  # Image path relative to your `static/img/` folder.
@@ -46,6 +46,48 @@ height = ""
   cta_label = "Login to our Gin instance"
   cta_url = "https://gin.g-node.org/user/login"
   cta_icon_pack = "fas"
-  cta_icon = "graduation-cap"
+  cta_icon = "sign-in-alt"
+  
+[[item]]
+  title = "Open protocols "
+  content = ""
+  align = "center"
+
+  overlay_color = "#555"  # An HTML color value.
+  overlay_img = ""  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+  
+  cta_label = "link"
+  cta_url = "/protocols/"
+  cta_icon_pack = "fas"
+  cta_icon = "book"  
+
+[[item]]
+  title = "Open source software "
+  content = ""
+  align = "center"
+
+  overlay_color = "#555"  # An HTML color value.
+  overlay_img = ""  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+  
+  cta_label = "Link"
+  cta_url = "/FOSS/"
+  cta_icon_pack = "fas"
+  cta_icon = "laptop-code"    
+  
+[[item]]
+  title = "Reagents"
+  content = ""
+  align = "center"
+
+  overlay_color = "#555"  # An HTML color value.
+  overlay_img = ""  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+  
+  cta_label = "Link"
+  cta_url = "/reagents/"
+  cta_icon_pack = "fas"
+  cta_icon = "vial"   
 
 +++
