@@ -25,11 +25,11 @@ subtitle = "A change in body mass index (i.e., weight loss after bariatric surge
   # color = "navy"
   
   # Background gradient.
-  gradient_start = "rgb(204,204,102)"
-  gradient_end = "rgb(77,77,25)"
+  #gradient_start = "rgb(204,204,102)"
+  #gradient_end = "rgb(77,77,25)"
   
   # Background image.
-   #image = "SourceDatais2.png"  # Name of image in `static/img/`.
+   image = "img/bg.gif"  # Name of image in `static/img/`.
    #image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).

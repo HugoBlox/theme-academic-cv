@@ -22,14 +22,14 @@ subtitle = """"""
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-   color = "rgb(204,204,102)"
+  # color = "rgb(204,204,102)"
   
   # Background gradient.
   #gradient_start = "DarkGreen"
   #gradient_end = "ForestGreen"
   
   # Background image.
-   #image = "SourceDatais.png"  # Name of image in `static/img/`.
+   image = "img/bg.gif"  # Name of image in `static/img/`.
    #image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
