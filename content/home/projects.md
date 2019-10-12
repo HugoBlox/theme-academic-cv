@@ -75,3 +75,6 @@ subtitle = "This could also host past events"
  css_class = ""
 +++
 
+<!-- this is a link to print setup, good for printing the markdown of the rules -->
+<a href="javascript:if(window.print)window.print()">Click here to print the page</a>
+
