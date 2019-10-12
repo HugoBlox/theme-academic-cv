@@ -45,11 +45,10 @@ hero_media = "hero-academic.png"
 [cta_alt]
   url = "#publications"
   label = "View rules"
-
-# Note. An optional note to show underneath the links.
-#  [cta_note]
-#    label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
+  
+[cta_note]
+  label = '<a href="#details">View organisational details</a>'
   
 +++
 
-**The Grande Battaglia di Palle di Neve (Great Snowball Fight)** takes place, according to tradition, on the first Saturday of the year: **January 4, 2020**! Be quick to register, admissions are limited! (they are not)
+**The Grande Battaglia di Palle di Neve (Great Snowball Fight)** takes place, according to tradition, on the first Saturday of the year: **January 4, 2020**! Be quick to register, admissions are limited! (not really...)
