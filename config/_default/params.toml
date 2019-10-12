@@ -90,11 +90,11 @@ phone = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "Bivacco Menegazzi", city = "Gosaldo", region = "IT", postcode = "32020", country = "Italy", country_code = "IT"}
+# address = {street = "Bivacco Menegazzi", city = "Gosaldo", region = "IT", postcode = "32020", country = "Italy", country_code = "IT"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "46.229524", longitude = "11.927359"}
+# coordinates = {latitude = "46.229524", longitude = "11.927359"}
 
 # Directions for visitors to locate you.
 directions = ""
