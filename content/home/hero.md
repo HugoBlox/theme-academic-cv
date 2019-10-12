@@ -37,17 +37,17 @@ hero_media = "hero-academic.png"
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 [cta]
-  url = "#contact"
+  url = "#register"
   label = "Register!"
   icon_pack = "fas"
   icon = "snowflake"
   
 [cta_alt]
-  url = "#publications"
+  url = "/rules"
   label = "View rules"
   
 [cta_note]
-  label = '<a href="#details">View organisational details</a>'
+  label = '<a href="/details">View organisational details</a>'
   
 +++
 

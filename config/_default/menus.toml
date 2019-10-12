@@ -19,13 +19,8 @@
   weight = 14
 
 [[main]]
-  name = "Where"
-  url = "/where"
-  weight = 20
-
-[[main]]
-  name = "How"
-  url = "/how"
+  name = "How&Where"
+  url = "/details"
   weight = 20
 
 [[main]]
