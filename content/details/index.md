@@ -12,6 +12,7 @@ TODO
 
 ### From Belluno to the parking spot
 Here are Google Map's directions for getting to the start of the trek; if all goes well, it takes about an hour of driving. Not many cars will be able to park up there, so it is strongly advised to share vehicles!
+The exact GPS coordinates of the parking area are [46.217733N, 11.928870E](https://goo.gl/maps/ip4GK8xxJjwSsrPr5).
 
 TODO choose the best map
 
@@ -30,6 +31,8 @@ You'll need to walk for about 5km (round trip). There are two possible ways:
 We'll mostly move as a group although of course anybody can decide on his/her own what to do. Depending on the group's fitness and on the amount of snow, reaching the Bivouac usually takes around 1.5 hours.
 
 <iframe src="https://www.komoot.com/tour/98511283/embed?profile=1" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+
+[Here's](https://goo.gl/maps/CRMbn2kRX38G78UF9) the Bivouac on Google Maps.
 
 ## Exercise care!
 Be careful! This is not a trip to a very touristic hut: getting to the Battle site requires effort and will. It is not an hard trek by any means, but be prepared to be tired, especially if you are not used to this kind of things.
