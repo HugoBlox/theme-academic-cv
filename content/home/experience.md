@@ -54,12 +54,30 @@ date_format = "Jan 2006"
   description = """"""
 
   [[experience]]
-  title = "Research Scientist / Biostatistician"
-  company = "Department of Medicine & Public Health, Kings College London"
-  company_url = ""
+  title = "Research Scientist (Biostatistics)"
+  company = "Population Health Sciences, Faculty of Life Sciences & Medicine, Kings College London"
+  company_url = "https://www.kcl.ac.uk/sphes/our-departments/population-health-sciences"
   location = "London, UK"
   date_start = "2011-10-01"
   date_end = "2013-10-01"
+  description = """"""
+
+  [[experience]]
+  title = "Doctoral Research Associate"
+  company = "Donders Institute for Brain, Cognition and Behaviour"
+  company_url = "https://www.ru.nl/donders/"
+  location = "Nijmegen, NL"
+  date_start = "2010-09-01"
+  date_end = "2011-09-01"
+  description = """"""
+
+  [[experience]]
+  title = "Research Associate"
+  company = "UCL Interaction Centre, University College London"
+  company_url = "https://uclic.ucl.ac.uk/"
+  location = "London, UK"
+  date_start = "2009-09-01"
+  date_end = "2010-09-01"
   description = """"""
 
 +++
