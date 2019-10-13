@@ -1,4 +1,4 @@
 #!/bin/bash
 
-pandoc index.md --pdf-engine=xelatex -o gpbn-rules.pdf
+pandoc index.md --pdf-engine=xelatex -o gbpn-rules.pdf
 
