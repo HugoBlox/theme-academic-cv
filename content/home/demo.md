@@ -6,17 +6,19 @@
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 11  # Order that this section will appear.
+weight = 1  # Order that this section will appear.
 
-title = "Login into the Private Gallery"
-subtitle = """
-- access and discuss unpublished results
-- show your results and make your figures publication ready 
-- start more effective **collaborations**"""
+title = ""
+subtitle = ""
+
+# """
+# - access and discuss unpublished results
+# - show your results and make your figures publication ready 
+# - start more effective **collaborations**"""
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "2"
+  columns = "1"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -44,10 +46,14 @@ subtitle = """
 
 [advanced]
  # Custom CSS. 
- css_style = """div {text-align: center}
-
- ul {max-width:70%;margin: auto;text-align: left;}"""
+ css_style = """
  
+text-align: right;
+
+
+
+
+"""
  # CSS class.
  css_class = ""
 +++
@@ -57,5 +63,6 @@ subtitle = """
 
 <iframe src ="https://sdash.sourcedata.io/login" height=250px width=600px ></iframe>
 
+Login in the SFB1315 Private space, [more info](/faq/)
 
 
