@@ -190,6 +190,7 @@ Regolamento
 
 Durante lo svolgimento della Battaglia il presente regolamento trascende
 ogni legislazione vigente, incluso se stesso.\
+
 Il regolamento è più che altro una sorta di traccia.
 
 
