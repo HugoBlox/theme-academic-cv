@@ -30,8 +30,8 @@ education:
   - course: MSc. in Artificial Intelligence
     institution: University of Edinburgh
     year: 2018
-  - course: PhD. in Cognitive Neuroscience
-    institution: Donders Institute of Brain, Cognition & Behaviour (Not Completed)
+  - course: PhD. in Cognitive Neuroscience of Language
+    institution: Donders Institute for Brain, Cognition & Behaviour (Not Completed)
     year: 2010
   - course: MSc. in Cognitive Neuroscience
     institution: University of Edinburgh
