@@ -40,3 +40,7 @@ Be careful! This is not a trip to a very touristic hut: getting to the Battle si
 As such, be careful of where you step, listen to your more experienced snow colleagues and trust their judgement.
 
 ## Disclaimer
+
+- gdpr / data management
+- auth for posting pictures of the event
+- your responsability for hurting yourself
