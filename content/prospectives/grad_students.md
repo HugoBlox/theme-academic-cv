@@ -12,9 +12,7 @@ design:
 ## **Graduate students**
 
 {{% alert note %}} 
-I am planning to accept one or two graduate students (MS or PhD) into my lab for Fall, 2020
-<!--through the [UC Davis Graduate Group in Ecology (GGE)](https://ecology.ucdavis.edu/admissions)-->
-. Fee waivers are available for certain applicants for both the [application fee](https://grad.ucdavis.edu/admissions/admission-requirements/steps-applying)  (see "Graduate Preparation Program Participants") and the [GRE](https://www.ets.org/gre/revised_general/about/fees/reductions/). Please get in touch if you're interested! (See advice below)
+I am planning to accept one or two graduate students (MS or PhD) into my lab for Fall, 2020 through the [UC Davis Graduate Group in Ecology (GGE)](https://ecology.ucdavis.edu/admissions). Fee waivers are available for certain applicants for both the [application fee](https://grad.ucdavis.edu/admissions/admission-requirements/steps-applying)  (see "Graduate Preparation Program Participants") and the [GRE](https://www.ets.org/gre/revised_general/about/fees/reductions/). Please get in touch if you're interested! (See advice below)
 {{% /alert %}}
 
 I look for graduate students who are excited about studying the ecology and management of marine fisheries, who have strong quantitative and verbal communication skills, and who are committed to being collaborative, supportive, and engaged members of the lab and broader university communities. I am happy to work with students who have taken a variety of paths to get to graduate school, provided you have some experience in both ecology/fisheries and quantitative reasoning. This might mean a background (academic or otherwise) in ecology, fishery science, oceanography, math, statistics, computer science, etc.  If you are interested in joining the lab, please contact me with:
