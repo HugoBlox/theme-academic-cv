@@ -18,34 +18,61 @@ date_format = "Jan 2006"
 #   Leave other parameters empty if not required.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
-[[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Neural Networks and Deep Learning"
-  url = ""
-  certificate_url = "https://www.coursera.org"
-  date_start = "2018-10-01"
-  date_end = ""
-  description = ""
 
 [[item]]
-  organization = "edX"
-  organization_url = "https://www.edx.org"
-  title = "Blockchain Fundamentals"
-  url = "https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
-  certificate_url = "https://www.edx.org"
-  date_start = "2018-03-01"
-  date_end = ""
-  description = "Formulated informed blockchain models, hypotheses, and use cases."
-  
+	organization = "Dynamics Communities, Inc"
+	title = "Black Belt (CRMUG-BIB-04)"
+	date_start = "2016-11-01"
+	
 [[item]]
-  organization = "DataCamp"
-  organization_url = "https://www.datacamp.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
-  url = ""
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
-  description = ""
+	organization = "Dynamics Communities, Inc"
+	title = "Brown Belt (CRMUG-BIB-03)"
+	date_start = "2016-11-01"
+
+[[item]]
+	organization = "Dynamics Communities, Inc"
+	title = "Purple Belt (CRMUG-BIB-02)"
+	date_start = "2016-10-01"
+	
+[[item]]
+	organization = "Dynamics Communities, Inc"
+	title = "Blue Belt (CRMUG-BIB-01)"
+	date_start = "2016-10-01"
+
+[[item]]
+	organization = "Scrum Alliance"
+	organization_url = "https://www.scrumalliance.org"
+	title = "Certified SscrumMaster"
+	certificate_url = "https://www.scrumalliance.org/community/profile/lrainaldi"
+	date_start = "2013-04-26"
+	date_end = "2017-04-26"
+	
+[[item]]
+	organization = "DDI"
+	title = "Certified  Targeted Selection Interviewer"
+	date_start = "2013-04-01"
+
+[[item]]
+	organization = "Scaled Agile Academy"
+	title = "SAFe Practioner (SP)"
+	date_start = "2014-03-01"
+
+[[item]]
+	organization = "DDI"
+	title = "Certified Facilitator"
+	date_start = "2016-10-01"
+
+
+#[[item]]
+#  organization = "Coursera"
+#  organization_url = "https://www.coursera.org"
+#  title = "Neural Networks and Deep Learning"
+#  url = ""
+#  certificate_url = "https://www.coursera.org"
+#  date_start = "2013-04-26"
+#  date_end = "2017-04-26"
+#  description = ""
+
+
 
 +++
