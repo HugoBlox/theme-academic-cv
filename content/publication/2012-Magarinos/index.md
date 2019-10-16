@@ -7,8 +7,8 @@ publication = "Nucleic Acids Research, (40), _pp. D1118-27_, https://doi.org/10.
 publication_short = "Nucl Acids Res, (40), _pp. D1118-27_, https://doi.org/10.1093/nar/gkr1053"
 doi = "10.1093/nar/gkr1053"
 
-highlight = true
-featured = true
+highlight = false
+featured = false
 draft = false
 
 # Custom links (optional).

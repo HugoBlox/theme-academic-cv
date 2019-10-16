@@ -10,8 +10,8 @@ summary = ""
 image_preview = ""
 featured = false
 projects = ["chemogenomics"]
-tags = ["neglected diseases", "TDR Targets", "drug repositioning",
-"multilayer networks", "drug discovery"]
+tags = ["neglected diseases", "TDR Targets", "drug-repositioning",
+"multilayer-networks", "drug-discovery"]
 url_pdf = ""
 url_preprint = ""
 url_code = ""
