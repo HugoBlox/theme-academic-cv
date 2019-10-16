@@ -3,13 +3,34 @@
 
 # Color theme.
 #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
-color_theme = "tryps"
+theme = "tryps"
+
 # Enable users to switch between day and night mode?
 day_night = true
 
 # Font style.
 #   Choose from `default`, `classic`, or `playfair`.
-font = "tryps"
+font = ""
+font_size = "M"
+
+#############################
+# Basic Info
+#############################
+#
+# Website type
+#   Improve how search engines understand your site.
+#   For personal sites, choose "Person".
+#   For organizations and projects, choose from https://schema.org/Organization#subtypes
+#   E.g. Person, Organization, LocalBusiness, Project, EducationalOrganization
+site_type = "Organization"
+
+# Local business type (optional)
+# If you entered "LocalBusiness" above, choose the type of business from https://schema.org/LocalBusiness#subtypes
+#local_business_type = ""
+
+# Organization name (optional)
+# Enter an organization or project name. Defaults to the site title from `config.toml`.
+org_name = "Trypanosomatics"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = "The Trypanosomatics Laboratory Website"
@@ -52,7 +73,7 @@ time_format = "3:04 PM"
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "info@trypanosomatics.org"
 phone = "+54 11 4006-1500 exts 2110, 2120, 2107"
-address = "Instituto de Investigaciones Biotecnológicas, Campus Miguelete UNSAM, 25 de Mayo 1401, B1650HMP, San Martín, Buenos Aires, Argentina"
+address = { street = "25 de Mayo 1401", postcode = "B1650HMP", city = "San Martín", region = "Buenos Aires", country = "Argentina", country_code = "AR" }
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = """Monday &ndash; Friday 9:00 to 19:00 [ART](https://www.timeanddate.com/worldclock/argentina/buenos-aires)"""
@@ -72,26 +93,32 @@ contact_links = [
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
   ]
 
-# Display a map.
-# To show your address on a map in the contact widget, you need to enter your latitude, longitude and choose
-# a map provider below.
-# To use Google Maps, set `map = 1` and enter your API key that can be obtained here:
-#   https://developers.google.com/maps/documentation/javascript/get-api-key
-# To use OpenStreetMap tiles, set `map = 2`.
-# To use OpenStreetMap on a high traffic site, set `map = 3` and enter your API key that can be obtained here:
-#   https://www.mapbox.com/studio/account/tokens
-# To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-#
-# Map provider:
-#   0: No map
-#   1: Google Maps
-#   2: OpenStreetMap (Mapnik)
-#   3: OpenStreetMap (Mapbox)
-map = 1
-map_api_key = "AIzaSyCA3WRcrUWprPLefbiLa0FiS5AJymB8DOU"
-latitude = "-34.579239"
-longitude = "-58.525103"
-zoom = 15
+# Geographic coordinates
+# # To get your coordinates, right-click on Google Maps and choose "What's
+# here?". The coords will show up at the bottom.
+coordinates = { latitude = "-34.579239", longitude = "-58.525103" }
+
+# Directions for visitors to locate you.
+directions = "Edificio IIB (Biotecnología), 1st Floor"
+
+[map]
+  # To show your address on a map in the Contact widget, enter your latitude and longitude (above)
+  # and choose a map provider below.
+  #
+  # To use Google Maps, set `engine` to 1 and enter your API key that can be obtained here:
+  #   https://developers.google.com/maps/documentation/javascript/get-api-key
+  # To use OpenStreetMap tiles, set `engine` to 2.
+  # To use OpenStreetMap on a high traffic site, set `engine` to 3 and enter your API key that can be obtained here:
+  #   https://www.mapbox.com/studio/account/tokens
+  #
+  # Map provider:
+  #   0: No map
+  #   1: Google Maps
+  #   2: OpenStreetMap (Mapnik)
+  #   3: OpenStreetMap (Mapbox)
+  engine = 1
+  api_key = "AIzaSyCA3WRcrUWprPLefbiLa0FiS5AJymB8DOU"
+  zoom = 15
 
 ############################
 ## Plugins                ##
@@ -161,3 +188,19 @@ sharing = true
     api_key = ""
     index_name = ""
     show_logo = false
+
+# Comments.
+[comments]
+  # Comment provider:
+  #   0: Disabled
+  #   1: Disqus (https://disqus.com)
+  #   2: Commento (https://commento.io)
+  engine = 0
+
+  # Which page types are commentable?
+  commentable = {page = true, post = true, docs = true}
+
+  # Configuration of Disqus.
+  [comments.disqus]
+    shortname = ""  # Paste the shortname from your Disqus dashboard.
+    show_count = true  # Show comment count in page header? (true/false)
