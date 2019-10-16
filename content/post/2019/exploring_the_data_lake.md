@@ -3,6 +3,7 @@ title: "Exploring Data Lake"
 date: 2019-03-07T00:00:00-00:00
 tags: [Azure, Data Lake]
 toc: false
+featured: true
 series: Data Lake
 ---
 I am excited about a new project that I am involved in. We are moving our Business Intellignece System to a [Data Lake](https://en.wikipedia.org/wiki/Data_lake). This has been in discussion for some time now, another team in our company is already using Azure Data Lake and having some great results. This project is challenging as well as **fun**, I am a  tech guy...
