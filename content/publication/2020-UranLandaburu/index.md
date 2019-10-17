@@ -45,6 +45,9 @@ url_project: "https://tdrtargets.org"
 url_slides:
 url_source:
 url_video:
+url_custom:
+  name: "chemogenomics"
+  url: "/project/chemogenomics"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
