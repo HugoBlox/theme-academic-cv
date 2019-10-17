@@ -10,7 +10,7 @@ summary = "High-throuput screening and data integration for diagnostics tool dev
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["immunomics"]
+tags = ["immunomics", "Chagas Disease", "pepchips", "diagnostics", "antigens", "epitopes"]
 
 # People in this project
 authors = ["@alejandro", "@leonel", "@santiago", "@fernan"]
@@ -49,5 +49,12 @@ links = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitt
   focal_point = "TopLeft"
 +++
 
-Unraveling the antibody diversity in Chagas Disease using antigen
-microarrays. 
+## Unraveling the antibody diversity in Chagas Disease using antigen microarrays. 
+
+During an infection, the immune system produces antibodies against
+pathogens. With time, the immune repertoires of infected individuals become
+specific to the history of infections and thus represent a rich source of
+diagnostic markers. We are using high-density peptide arrays to examine the human
+antibody repertoires developed by Chagas Disease patients. The aim is to uncover the
+diversity of recognized antigens and build an atlas of antigens and epitopes
+for Chagas Disease. 
