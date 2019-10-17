@@ -4,7 +4,7 @@
 title: "Potent and selective inhibitors for M32 metallocarboxypeptidases identified from high-throughput screening of anti-kinetoplastid chemical boxes"
 authors: [ "@emir", "@lionel", "Adriana K Carmona", "Juan J Cazzulo", "@fernan", "Vanina E Alvarez", "Gabriela T Niemirowicz"]
 date: 2019-06-28T10:28:19-03:00
-doi: ""
+doi: "10.1371/journal.pntd.0007560"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2019-06-28T10:28:19-03:00
@@ -13,41 +13,29 @@ publishDate: 2019-06-28T10:28:19-03:00
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "PLOS Neglected Tropical Diseases"
-publication_short: "PLOS Negl Trop Dis"
+publication: "PLOS Neglected Tropical Diseases, 13 (7), e0007560"
+publication_short: "PLOS Negl Trop Dis, 13 (7), e0007560"
 
-abstract: "Enzymes of the M32 family are Zn-dependent
-metallocarboxypeptidases (MCPs) widely distributed among prokaryotic
-organisms and just a few eukaryotes including Trypanosoma brucei and
-Trypanosoma cruzi, the causative agents of sleeping sickness and Chagas
-disease, respectively. These enzymes are absent in humans and several
-functions have been proposed for trypanosomatid M32 MCPs. However, no
-synthetic inhibitors have been reported so far for these enzymes. Here, we
-present the identification of a set of inhibitors for TcMCP-1 and TbMCP-1
-(two trypanosomatid M32 enzymes sharing 71% protein sequence identity) from
-the GlaxoSmithKline HAT and CHAGAS chemical boxes; two collections grouping
-404 compounds with high antiparasitic potency, drug-likeness, structural
-diversity and scientific novelty. For this purpose, we adapted continuous
-fluorescent enzymatic assays to a medium-throughput format and carried out
-the screening of both collections, followed by the construction of
-dose-response curves for the most promising hits. As a result, 30
-micromolar-range inhibitors were discovered for one or both enzymes. The
-best hit, TCMDC-143620, showed sub-micromolar affinity for TcMCP-1,
-inhibited TbMCP-1 in the low micromolar range and was inactive against
-angiotensin I-converting enzyme (ACE), a potential mammalian off-target
-structurally related to M32 MCPs. This is the first inhibitor reported for
-this family of MCPs and considering its potency and specificity,
-TCMDC-143620 seems to be a promissory starting point to develop more
-specific and potent chemical tools targeting M32 MCPs from trypanosomatid
-parasites."
+abstract: "In recent years, the pharmaceutical company GlaxoSmithKline
+announced the disclosure of small collections of antiparasitic compounds to
+facilitate research and drug development for three of the main Tropical
+Neglected Diseases- i.e. Human African Trypanosomiasis, Leishmaniasis and
+Chagas Disease. These collections include new chemical entities with
+potential novel mechanisms of action that are likely to be active against a
+wide variety of targets. Taking advantage of these open access molecules, we
+successfully set up medium-throughput screening assays to find the first
+inhibitors of two metallocarboxypeptidases of the M32 family, a group of
+proteolytic enzymes proposed to play several roles in the biology of
+trypanosomatids including peptide catabolism, maintenance of parasite
+adaptive fitness and hydrolysis of bioactive peptides from the human host."
 
 # Summary. An optional shortened abstract.
 summary: "Identification of the first inhibitors and chemical tools for the M32 family of carboxypeptidases"
 
-tags: ["drug discovery", "GSK-Chemboxes", "tcruzi", "HTS", "tbrucei"]
+tags: ["drug discovery", "GSK-Chemboxes", "tcruzi", "HTS", "tbrucei", "M32", "metallocarboxypeptidases"]
 categories: []
 featured: false
 
