@@ -35,7 +35,7 @@ adaptive fitness and hydrolysis of bioactive peptides from the human host."
 # Summary. An optional shortened abstract.
 summary: "Identification of the first inhibitors and chemical tools for the M32 family of carboxypeptidases"
 
-tags: ["drug discovery", "GSK-Chemboxes", "tcruzi", "HTS", "tbrucei", "M32", "metallocarboxypeptidases"]
+tags: ["drug discovery", "GSK-Chemboxes", "tcruzi", "HTS", "tbrucei", "M32", "metallocarboxypeptidases", "HTS"]
 categories: []
 featured: false
 
@@ -69,7 +69,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: []
+projects: ["HTS"]
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
