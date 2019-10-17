@@ -36,18 +36,19 @@ featured: true
 #   url: https://twitter.com
 #   icon_pack: fab
 #   icon: twitter
+links:
+- name: "TDR Targets Database"
+  url: https://tdrtargets.org
+
 
 url_pdf:
 url_code:
 url_dataset:
 url_poster:
-url_project: "https://tdrtargets.org"
+url_project:
 url_slides:
 url_source:
 url_video:
-url_custom:
-  name: "chemogenomics"
-  url: "/project/chemogenomics"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
