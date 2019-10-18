@@ -6,7 +6,6 @@ authors: [ "@lionel", "Ariel J Berenstein", "Santiago Videla", "Parag Maru", "Dh
 date: 2019-10-16
 doi: "10.1093/nar/gkz999"
 
-
 # Schedule page publish date (NOT publication's date).
 #publishDate: 2019-10-16T16:29:27-03:00
 
@@ -23,7 +22,7 @@ publication_short: "Nucl Acids Res, accepted (in press), https://doi.org/10.1093
 abstract: ""
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: "TDR Targets, a chemogenomics resource for Neglected Diseases"
 
 tags: ["TDR Targets", "chemogenomics", "drug-repositioning", "drug-discovery", "multilayer-networks", "neglected diseases"]
 categories: []

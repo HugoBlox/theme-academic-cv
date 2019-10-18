@@ -17,7 +17,7 @@ subtitle = "The people behind the tryps"
                "Past Lab Members",
                "Collaborators",
                "Visitors",
-               "Administration",]
+               "Administration"]
 [design]
   # Show user's social networking links? (true/false)
   show_social = true
