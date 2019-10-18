@@ -42,13 +42,15 @@ subtitle = ""
   columns = "2"
 
   # Toggle between the various page layout types.
-  #   1 = List
+  #   1 = List (minimal)
+  #   2 = List (w/graphic)
   #   3 = Card
+  #   4 = 
   #   5 = Showcase
-  view = 5
+  view = 2
 
   # For Showcase view, flip alternate rows?
-  flip_alt_rows = true
+  flip_alt_rows = false
 
 [design.background]
   # Apply a background color, gradient, or image.

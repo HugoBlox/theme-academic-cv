@@ -46,17 +46,17 @@ user_groups = ["Grad Students"]
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:luranl@iib.unsam.edu.ar"
-#
+  link = "mailto:lionel.u.l@iib.unsam.edu.ar"
+
 [[social]]
   icon = "twitter"
   icon_pack = "fab"
   link = "https://twitter.com/leitouran"
 
-#[[social]]
-#  icon = "google-scholar"
-#  icon_pack = "ai"
-#  link = "https://scholar.google.co.uk/citations?user=zycaIZQAAAAJ"
+[[social]]
+  icon = "google-scholar"
+  icon_pack = "ai"
+  link = "https://scholar.google.com/citations?user=fIjAs5UAAAAJ"
 
 [[social]]
   icon = "linkedin"
