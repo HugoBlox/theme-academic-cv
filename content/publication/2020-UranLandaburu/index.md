@@ -16,8 +16,8 @@ doi: "10.1093/nar/gkz999"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Nucleic Acids Research, accepted (in press), https://doi.org/10.1093/nar/gkz999"
-publication_short: "Nucl Acids Res, accepted (in press), https://doi.org/10.1093/nar/gkz999"
+publication: "Nucleic Acids Research, 48 (in production), https://doi.org/10.1093/nar/gkz999"
+publication_short: "Nucleic Acids Res, 48 (in production), https://doi.org/10.1093/nar/gkz999"
 
 abstract: ""
 

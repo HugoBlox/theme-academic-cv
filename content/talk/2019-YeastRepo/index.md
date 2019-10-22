@@ -16,8 +16,8 @@ abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2019-11-16T17:00:00-03:00
-date_end: 2019-11-16T19:00:00-03:00
+date: 2019-11-14T16:30:00-03:00
+date_end: 2019-11-14T18:30:00-03:00
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -64,5 +64,5 @@ slides: ""
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: ["Yeast-repo", "chemogenomics"]
 ---
