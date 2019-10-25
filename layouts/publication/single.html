@@ -1,0 +1,89 @@
+{{- define "main" -}}
+
+<div class="pub">
+
+  {{ partial "page_header.html" . }}
+
+  <div class="article-container">
+
+    {{ if .Params.abstract }}
+    <h3>{{ i18n "abstract" }}</h3>
+    <p class="pub-abstract">{{ .Params.abstract | markdownify }}</p>
+    {{ end }}
+
+    {{ if (.Params.publication_types) and (ne (index .Params.publication_types 0) "0") }}
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">{{ i18n "publication_type" }}</div>
+          <div class="col-12 col-md-9">
+            {{ $pub_types := partial "functions/get_pub_types" $ }}
+            {{ range $index, $pubtype := .Params.publication_types }}
+            <a href="{{ (site.GetPage "section" "publication").RelPermalink }}#{{ . | urlize }}">
+              {{ index $pub_types (int .) }}
+            </a>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    {{ end }}
+
+    {{ if .Params.publication }}
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">{{ i18n "publication" }}</div>
+          <div class="col-12 col-md-9">{{ .Params.publication | markdownify }}</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    {{ end }}
+
+    <div style="height: 20px"></div>
+
+    {{ if .Params.doi }}
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading align-self-center">Altmetric</div>
+          <div class="col-12 col-md-9 align-self-center">
+            <span data-badge-popover="right" data-badge-type="donut" 
+              data-hide-no-mentions="true"
+              data-doi="{{ .Params.doi }}" class="altmetric-embed"></span>
+          </div><!-- end col-md-9 -->
+        </div><!-- end row -->
+        <div class="col-md-1"></div>
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading align-self-center">Dimensions</div>
+          <div class="col-12 col-md-9 align-self-center">
+            <span class="__dimensions_badge_embed__" 
+              data-doi="{{ .Params.doi }}"
+              data-style="small_circle"
+              data-hide-zero-citations="false"
+              data-legend="hover-right"></span>
+              <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+          </div><!-- end col-md-9 -->
+        </div><!-- end row -->
+        <div class="col-md-1"></div>
+       </div><!-- end col-md-10 -->
+       <div class="d-md-none space-below"></div>
+    {{ end }}
+
+    <div class="space-below"></div>
+
+
+    <div class="article-style">{{ .Content }}</div>
+
+    {{ partial "page_footer" . }}
+
+  </div>
+</div>
+{{- end -}}
