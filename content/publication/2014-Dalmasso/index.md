@@ -5,6 +5,7 @@ authors = ["María C Dalmasso", "@santiago", "Sergio O Angel", "@fernan"]
 publication_types = ["2"]
 publication = "BMC Genomics, (15), _pp. 21_, https://doi.org/10.1186/1471-2164-15-21"
 publication_short = "BMC Genomics, (15), _pp. 21_, https://doi.org/10.1186/1471-2164-15-21"
+doi = "10.1186/1471-2164-15-21"
 abstract = ""
 summary = ""
 image_preview = ""
