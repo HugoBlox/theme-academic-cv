@@ -2,7 +2,25 @@
 
 ## Stuff to bring
 
+### Mandatory
+- Warm, waterproof clothes
+- Something to eat for yourself (chocolate!), although lunch will be provided (see below)
+- Something to drink, at least 1L
+- Mountain boots or snow boots
+
+### Highly recommended
+- Headlamp
+- A change of clothes for after the battle
+- A snow-throwing weapon
+- Cash donation?
+
 ## Lunch
+
+## What happens if it rains?
+It does not rain, we have precise agreements with the weatherman. If by some mysterious astral alignement it happens, then we can have a rainball fight.
+
+## Price
+No price, but suggested ticket of 5-10€?
 
 ## Maps on where to meet
 Wondering how to get to us? Here are some organisational details to help with planning your trip:
@@ -44,3 +62,4 @@ As such, be careful of where you step, listen to your more experienced snow coll
 - gdpr / data management
 - auth for posting pictures of the event
 - your responsability for hurting yourself
+- All of this might change without notice, including location
