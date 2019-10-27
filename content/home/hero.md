@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 5  # Order that this section will appear.
 
-title = "Join the best event of the year!"
+title = "Join the Great Snowball Fight on January 4, 2020!"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
 hero_media = "hero-academic.png"
@@ -37,18 +37,19 @@ hero_media = "hero-academic.png"
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 [cta]
-  url = "#register"
+  url = "/register"
   label = "Register!"
   icon_pack = "fas"
   icon = "snowflake"
   
-[cta_alt]
-  url = "/rules"
-  label = "View rules"
+#[cta_note]
+#  url = "/rules"
+#  label = "View rules"
   
-[cta_note]
-  label = '<a href="/details">View organisational details</a>'
+[cta_alt]
+  url = "/details"
+  label = "Learn more"
   
 +++
 
-**The Grande Battaglia di Palle di Neve (Great Snowball Fight)** takes place, according to tradition, on the first Saturday of the year: **January 4, 2020**! Be quick to register, admissions are limited! (not really...)
+Following its millenary tradition, the next edition of the Great Snowball Fight will take place at the [Bivacco Menegazzi](https://goo.gl/maps/CRMbn2kRX38G78UF9) on the first Saturday of the year.  
