@@ -41,4 +41,4 @@ url_video: ""
 slides: ""
 ---
 
-Turbulence and abyssal upwelling in the deep bottom boundary layers.
+Turbulence and abyssal upwelling in deep bottom boundary layers. More to come soon!

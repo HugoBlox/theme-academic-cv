@@ -16,7 +16,7 @@ external_link: ""
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   placement: 3
-  caption: ""
+  caption: "photo © [Naufal Razin](mailto:Naufal.Razin@colostate.edu)"
   focal_point: ""
   preview_only: false
 
@@ -41,4 +41,4 @@ url_video: ""
 slides: ""
 ---
 
-The oceanographic part of the PISTON experiment aims at better understanding three-dimensional oceanic processes that may influence the propagation of multi- scale convective systems in the atmosphere.
+The oceanographic part of the PISTON experiment aims at better understanding three-dimensional oceanic processes that may influence the propagation of multi- scale convective systems in the atmosphere. Together with collaborators Matthew Alford (Scripps) and Jim Moum (OSU) I deployed two moorings in the tropical western North Pacific on the Palau-Kyushy Ridge from 2018 to 2019. The moorings provide data on ocean velocity, hydrography and turbulence over most of the water column and up into the mixed layer. The measurements will help to constrain heat fluxes in the upper ocean to better understand the exchange of heat with the atmosphere.

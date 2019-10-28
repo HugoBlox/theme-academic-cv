@@ -18,7 +18,7 @@ image:
   placement: 2
   caption: "Schematic showing processes associated with near-inertial generation, dissipation, and propagation. As storms move along the storm track (thick white arrow), a local response occurs with frequencies near the local Coriolis frequency. Both high- and low-mode internal gravity waves are excited. High modes propagate along curving characteristics downward and equatorward. The higher modes have strong shear that results in mixing, ε(z). Low-mode wave radiation (indicated in gray) takes the form of oscillations that propagate equatorward. Upward characteristics and topographic scattering have been observed, but the processes involved are not completely understood. From Alford et al. (2015), modified from Simmons & Alford (2012)."
   focal_point: ""
-  preview_only: false
+  preview_only: true
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
@@ -43,6 +43,8 @@ slides: ""
 
 Variable winds at the ocean surface can force motions inside the ocean that oscillate at frequencies set by the local component of the earth's rotation rate.  Motions at these near-inertial frequencies, so called near-inertial waves, dominate upper ocean shear and contribute to upper ocean turbulence.  Their generation, evolution and decay still remain poorly understood. Recent advances in theory and numerical modeling have pointed to interactions of near-inertial waves with mesoscale and submescoscale features.
 
+{{< figure src="featured.png" title="Schematic showing processes associated with near-inertial generation, dissipation, and propagation. As storms move along the storm track (thick white arrow), a local response occurs with frequencies near the local Coriolis frequency. Both high- and low-mode internal gravity waves are excited. High modes propagate along curving characteristics downward and equatorward. The higher modes have strong shear that results in mixing, ε(z). Low-mode wave radiation (indicated in gray) takes the form of oscillations that propagate equatorward. Upward characteristics and topographic scattering have been observed, but the processes involved are not completely understood. From Alford et al. (2015), modified from Simmons & Alford (2012)." lightbox="true" >}}
+
 The Office of Naval Research-sponsored Near Inertial Shear and Kinetic Energy in the North Atlantic experiment (NISKINe) aims at investigating generation, evolution and dissipation of near-inertial waves based on a variety of ship-based and autonomous observations, numerical models and theory. Field work is planned for the Iceland Basin in the North Atlantic, an area of intermittent strong storms, an active mesoscale field in the ocean and a region of strong surface currents, potentially feeding submesoscale dynamics.
 
-MOD participates in the NISKINe Departmental Research Initiative through several observational components, including an array of moorings, turbulence-sampling Wirewalkers and shipboard measurements using the fastCTD and Epsilometer.
+Together with my Scripps colleague Amy Waterhouse and our collaborators Jim Moum from Oregon State University and Harper Simmons from University of Alaska I am contributing a moored observational comnponent to the project.  In May 2019 we deployed an array of three moorings outfitted with ADCPs, McLane Moored Profilers, thermistors & microcats and turbulence-measuring chipods in the center of the Iceland Basin.
