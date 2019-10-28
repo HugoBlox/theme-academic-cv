@@ -19,12 +19,20 @@ date_format = "January 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Policy Manager"
+  company = "TechEquity Collaborative"
+  company_url = "http://techequitycollaborative.org"
+  location = "Oakland, California"
+  date_start = "2019-09-01"
+  date_end = ""
+
+[[experience]]
   title = "Research and Policy Associate"
   company = "UC Berkeley Labor Center"
   company_url = "http://laborcenter.berkeley.edu"
   location = "Berkeley, California"
   date_start = "2014-04-01"
-  date_end = ""
+  date_end = "2019-08-31"
   #description = """"""
 
 [[experience]]
