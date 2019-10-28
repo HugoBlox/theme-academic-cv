@@ -97,7 +97,7 @@ address = {street = "8851 Shellback Way", city = "La Jolla", region = "CA", post
 coordinates = {latitude = "32.869641", longitude = "-117.250432"}
 
 # Directions for visitors to locate you.
-directions = "Keck 3rd floor, office 357"
+directions = "Keck OAR Building 2, 3rd floor, Office 357"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
@@ -173,6 +173,12 @@ plugins_js  = []
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
   date_format = "January 2006"
 
+[talks]
+  # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
+  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+  date_format = "Jan 2, 2006"
+
+
   # Citation style ("apa" or "mla")
   citation_style = "apa"
 
@@ -241,13 +247,13 @@ plugins_js  = []
   #   1: Google Maps
   #   2: OpenStreetMap (Mapnik)
   #   3: OpenStreetMap (Mapbox)
-  engine = 2
-  api_key = ""
-  zoom = 15
+  engine = 3
+  api_key = "pk.eyJ1IjoiZ3VubmFydm9ldCIsImEiOiJjaWlneDByb3owMm44dGtrc2VpYWRubW9sIn0.ytIt8M58A2hMoqclqXxWoQ"
+  zoom = 13
 
 ############################
 ## Marketing
 ############################
 [marketing]
-  google_analytics = ""
+  google_analytics = "UA-42058702-3"
   google_tag_manager = ""
