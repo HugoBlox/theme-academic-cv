@@ -1,5 +1,5 @@
 +++
-title = "Measure for Measure: Measure A"
+title = "Measure for Measure: Proposition A"
 date = 2019-10-01
 draft = false
 
