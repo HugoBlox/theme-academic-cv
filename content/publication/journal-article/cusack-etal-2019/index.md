@@ -18,7 +18,7 @@ image:
   focal_point: ""
   preview_only: false
 math: true
-publication: "*Journal of Physical Oceanography* 46(8)"
+publication: "*Journal of Physical Oceanography*"
 publication_short: ""
 featured: false
 
