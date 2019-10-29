@@ -15,6 +15,9 @@
 - Cash donation?
 
 ## Lunch
+We'll organise lunch based on the following stuff:
+
+blah blah
 
 ## What happens if it rains?
 It does not rain, we have precise agreements with the weatherman. If by some mysterious astral alignement it happens, then we can have a rainball fight.
@@ -22,13 +25,15 @@ It does not rain, we have precise agreements with the weatherman. If by some mys
 ## Price
 No price, but suggested ticket of 5-10€?
 
-## Maps on where to meet
-Wondering how to get to us? Here are some organisational details to help with planning your trip:
+## Where do we meet?
+Wondering how to get to us? Here are some organisational details to help with planning your trip!  
+We will meet in front of Belluno's train station the morning of the 4th of January, 2020, at 09:00. From there on, we will organise transportation bty car and separate the participants in groups, in order to minimise the number of cars
 
 ### How to get to Belluno
-TODO
+Getting to Belluno by car is easy: it is about a 1.5 hour drive from Padova and Venice, 2.5 hours from Trieste, 4 hours from Milan. Belluno is server by the A27 highway. Train lines reach the city from East (Conegliano), North (Cortina) and South (Padova); trains are usually few and far between, so plan your trip in advance.
 
-### From Belluno to the parking spot
+### From Belluno to the start of the walk
+From Belluno, we'll head to Faustin, which is above Gosaldo (which is above Agordo), where we will start walking.  
 Here are Google Map's directions for getting to the start of the trek; if all goes well, it takes about an hour of driving. Not many cars will be able to park up there, so it is strongly advised to share vehicles!
 The exact GPS coordinates of the parking area are [46.217733N, 11.928870E](https://goo.gl/maps/ip4GK8xxJjwSsrPr5).
 
