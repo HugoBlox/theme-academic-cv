@@ -16,7 +16,7 @@ role = "Assistant Professor"
 organizations = [ {name = "she/her"}, { name = "Department of Wildlife, Fish, and Conservation Biology", url = "http://wfcb.ucdavis.edu" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "I rock."
+bio = ""
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = ""
@@ -51,7 +51,7 @@ user_groups = ["Faculty"]
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
-  link = "mailto:okenk@uw.edu"
+  link = "mailto:kloken@ucdavis.edu"
 
 [[social]]
   icon = "twitter"
