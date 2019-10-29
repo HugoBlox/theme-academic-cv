@@ -57,9 +57,16 @@ Be careful! This is not a trip to a very touristic hut: getting to the Battle si
 
 As such, be careful of where you step, listen to your more experienced snow colleagues and trust their judgement.
 
-## Disclaimer
+## Disclaimers
+All locations, times and dates are subject to sudden change without prior notice from APAZAF, should the necessity arise. All information regarding such changes will be published on the GBPN's [website](/post) as soon as possible.
 
-- gdpr / data management
-- auth for posting pictures of the event
-- your responsability for hurting yourself
-- All of this might change without notice, including location
+### Privacy
+By subscribing and/or partecipating to the GBPN you implicitly accept that your personal data (Name, Surname, phone number, email) be stored by APAZAF with the only purposes of organising future snowball fights.  
+Additionally, during the GBPN photos and videos will be taken by both APAZAF and third parties. APAZAF may use these photos/videos on their website and in various channels where APAZAF disseminates information about their activities.
+
+If you want at any time withdraw from this consent, please [contact us](/contact). Note: this will not apply to material already published. APAZAF cannot control already published material or recall them.
+
+### Release of liability
+Hiking and snowballing are inherently dangerous activities that may expose to certain risks and dangers, including but not limited to avalanches, animal attacks, natural disaster, falls, accident and illness. APAZAF has no duty to provide medical assistance or advice to any snowballer. All persons who participate in any event organised by APAZAF accepts responsibility for making their own determinations as to the suitability of the activity and for their own safety, conduct and well-being and agrees to participate solely at their own risk.
+
+In consideration of the right to participate in any hikes or other activities of APAZAF, the participant assumes the risk associated with these activities and will hold APAZAF and other participants harmless from and defend them against any and all liability, actions, suits, claims and demands which could arise from any of APAZAF’s activities and from any loss or injury which he/she may sustain as a result of his/her participation in any of these activities. This disclaimer shall also serve as a release of liability and assumption of risk by the participant, and is intended to be binding on his/her heirs, administrators, executors and all members of his/her family.
