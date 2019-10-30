@@ -3,7 +3,7 @@
 
 title: "A Step Beyond"
 subtitle: "Exploring physical oceanography through dance"
-summary: ""
+summary: "Exploring physical oceanography through dance"
 authors: []
 tags: ['samoan-passage', 'outreach']
 categories: []
