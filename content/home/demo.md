@@ -9,7 +9,11 @@ active = true  # Activate this widget? true/false
 weight = 1  # Order that this section will appear.
 
 title = ""
-subtitle = ""
+subtitle = """Login in 
+
+to the SFB1315 Private space, 
+
+[more info here](/faq/)"""
 
 # """
 # - access and discuss unpublished results
@@ -18,7 +22,7 @@ subtitle = ""
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "1"
+  columns = "2"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -63,6 +67,7 @@ text-align: right;
 
 <iframe src ="https://sdash.sourcedata.io/login" height=250px width=600px ></iframe>
 
-Login in the SFB1315 Private space, [more info](/faq/)
+(http://sdash.sourcedata.io/login)
+
 
 
