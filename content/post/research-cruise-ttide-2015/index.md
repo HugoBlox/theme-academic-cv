@@ -4,7 +4,7 @@
 title:  "Research Cruises Tasman Sea 2015"
 # subtitle: ""
 summary: "Tasman Tidal Dissipation Experiment or How many moorings can you deploy during one cruise?"
-authors: [gunnar]
+authors: []
 tags: [ttide, research-cruise]
 categories: []
 date: "2015-03-10"

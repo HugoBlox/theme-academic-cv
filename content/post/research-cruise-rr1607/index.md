@@ -4,7 +4,7 @@
 title:  "Research Cruise Palau 2016"
 # subtitle: "RR1708"
 summary: "Observing flow-topography interactions north of Palau"
-authors: [gunnar]
+authors: []
 tags: [fleat, research-cruise]
 categories: []
 date: "2016-06-25"

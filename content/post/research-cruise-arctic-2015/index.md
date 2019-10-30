@@ -4,7 +4,7 @@
 title: "Research Cruise Beaufort Sea 2015"
 # subtitle: ""
 summary: "A study of upper ocean turbulent mixing in the ice-free Arctic Ocean"
-authors: [gunnar]
+authors: []
 tags: [arctic, research-cruise]
 categories: []
 date: "2015-09-01"

@@ -4,7 +4,7 @@
 title: "Research Cruise Palau 2017"
 # subtitle: "RR1708"
 summary: "Mooring recoveries north of Palau & lee wave measurements over Yap Ridge"
-authors: [gunnar]
+authors: []
 tags: [fleat, research-cruise]
 categories: []
 date: "2017-06-01"
