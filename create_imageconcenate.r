@@ -20,8 +20,18 @@ bg3=image_modulate(bg2,  saturation = 50)
 #   #bg2= c(bg2,image_modulate(bg,  saturation = x))
 # }
 
-bgf= image_animate(image_morph(c(bg3,bg2,bg3), frames = 10), fps = 2)
+bgf= image_animate(image_morph(c(bg3,bg2,bg3), frames =10), fps = 2)
 bgf
 image_write(bgf, path="static/img/bg.gif", format = "gif")
 
 image_read("static/img/bg.gif")
+
+bg =image_read(c("static/img/sdash-bk.jpg"))
+
+bg2=image_resize(bg, "800X")
+bg3=image_modulate(bg2,  saturation = 35)
+bg4=image_modulate(bg2,  saturation = 60)
+
+bgf= image_animate(image_morph(c(bg3,bg4,bg3), frames =3), fps = 2)
+bgf
+image_write(bgf, path="static/img/bg.gif", format = "gif")
