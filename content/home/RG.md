@@ -6,7 +6,7 @@
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 13  # Order that this section will appear.
+weight = 25  # Order that this section will appear.
 
 title = ""
 subtitle = """"""
@@ -48,6 +48,8 @@ subtitle = """"""
  # CSS class.
  css_class = ""
 +++
+
+Prototype version of the SFB1315 open result gallery:
 
 <iframe src ="https://frosty-wescoff-a4ad78.netlify.com" width=100% height = "1000px"></iframe>
 
