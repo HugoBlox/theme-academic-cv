@@ -49,7 +49,6 @@ subtitle = """"""
  css_class = ""
 +++
 
-Prototype version of the SFB1315 open result gallery:
 
 <iframe src ="https://frosty-wescoff-a4ad78.netlify.com" width=100% height = "1000px"></iframe>
 

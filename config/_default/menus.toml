@@ -4,6 +4,11 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
+  name = "Login to smartfigure gallery"
+  url = "http://sdash.sourcedata.io/login"
+  weight = 10
+
+[[main]]
   name = "Result of the month"
   url = "#resultmonth"
   weight = 10

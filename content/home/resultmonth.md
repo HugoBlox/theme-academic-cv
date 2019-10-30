@@ -6,10 +6,10 @@
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 20  # Order that this section will appear.
+weight = 1  # Order that this section will appear.
 
-title = "Result of the month: 2019-10, #B03"
-subtitle = "A change in body mass index (i.e., weight loss after bariatric surgery) systematically decreases head motion during MRI. This call for a rigorous control for within-scanner head motion to enable valid results of neuroimaging outcomes."
+title = "Result of the month: 2019-11: A07-A08"
+subtitle = "Network-Specific Synchronization of Electrical Slow-Wave Oscillations Regulates Sleep Drive in Drosophila"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -52,13 +52,12 @@ subtitle = "A change in body mass index (i.e., weight loss after bariatric surge
 <table id="Main table" style="background-color:rgba(0, 0, 25, 0);border-collapse: collapse;">
 <tr ></tr>
   <tr >
-    <td width = "50%"><img src = "RG/Floel.png",  width= "100%" ></td>
-    <td>Head motion, measured as log-normalized mean framewise displacement (mean FD), decreases across the three timepoints in the intervention (IG: bariatric surgery, n= 32) compared to the control  condition (obese participants in waiting period, n=18), shown in blue/red, respectively. Error bars represent within-subject errors.
-bl: baseline, fu: 6month follow-up, fu2: 12month follow-up.</td> 
+    <td width = "50%"><img src = "RG/sleepfly.png",  width= "100%" ></td>
+    <td>Slow-wave rhythms characteristic of deep sleep can be found across various brain regions in vertebrates. Here, we discover compound delta oscillations in the sleep-regulating R5 network of Drosophila. We find that the power of these slow-wave oscillations increases with sleep need. Optical multi-unit voltage recordings reveal that single R5 neurons get synchronized by activating circadian input pathways. We show that this synchronization depends on NMDA receptor (NMDAR) coincidence detector function. Genetically targeting the coincidence detector function of NMDARs in R5, abolished network-specific compound slow-wave oscillations. It also disrupted sleep and facilitated light-induced wakening, establishing a role for slow-wave oscillations in regulating sleep and sensory gating. We therefore propose that the synchronization-based increase in oscillatory power likely represents an evolutionarily conserved, potentially “optimal,” strategy for constructing sleep-regulating sensory gates.</td> 
     
   </tr>
   </table>
   
 
 
-[access the Bioarxiv preprint ](https://www.biorxiv.org/content/biorxiv/early/2019/09/23/766261.full.pdf)
+Open access publication: [https://doi.org/10.1016/j.cub.2019.08.070](https://doi.org/10.1016/j.cub.2019.08.070)

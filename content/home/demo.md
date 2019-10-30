@@ -5,8 +5,8 @@
 
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 1  # Order that this section will appear.
+active = false  # Activate this widget? true/false
+weight = 20  # Order that this section will appear.
 
 title = ""
 subtitle = """Login in 
@@ -63,6 +63,7 @@ text-align: right;
 +++
 
 
+<img src="img/combinedlogo.png" alt="developed by SFB1315 and sourcedata" />
 
 
 <iframe src ="https://sdash.sourcedata.io/login" height=250px width=600px ></iframe>

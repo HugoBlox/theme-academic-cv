@@ -53,16 +53,19 @@ text-align: center;
 """
  
  # CSS class.
- css_class = ""
+ css_class = "https://www.w3schools.com/w3css/4/w3.css"
 +++
 
+<div class="ox-hugo-table w3-table">
+<div></div>
 
-                                                                                    
-|   |   |
-|---|---|
-| A collaboration between the SFB1315 and the EMBO-sourcedata team   | Login in to the SFB1315 Private space, [more info here](/faq/) |
-| <img src="img/combinedlogo.png" alt="developed by SFB1315 and sourcedat" />  |  <iframe src ="https://sdash.sourcedata.io/login" height=250px width=600px ></iframe>  |
-|   | (http://sdash.sourcedata.io/login)  |
+  |   
+---|---
+ <img src="img/combinedlogo.png" alt="developed by SFB1315 and sourcedat" />  |  <iframe src ="https://sdash.sourcedata.io/login" height=250px width=600px ></iframe>  
+   | [Login](https://sdash.sourcedata.io/login) into the SFB1315 Private space, [more info here](/faq/)  
+ 
+
+</div>
 
 
 
