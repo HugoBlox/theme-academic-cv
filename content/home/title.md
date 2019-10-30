@@ -6,10 +6,10 @@
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 1  # Order that this section will appear.
+weight = 10  # Order that this section will appear.
 
-title = "SFB1315 Result Gallery"
-subtitle = """ A collaboration between the SFB1315 and the EMBO-sourcedata team
+title = "SFB1315 Smartfigure Gallery"
+subtitle = """ 
 """
 
 [design]
@@ -57,10 +57,12 @@ text-align: center;
 +++
 
 
-<p, class= "aligncenter" >
-    <img src="img/combinedlogo.png" alt="developed by SFB1315 and sourcedat" />
-</p>
-
+                                                                                    
+|   |   |
+|---|---|
+| A collaboration between the SFB1315 and the EMBO-sourcedata team   | Login in to the SFB1315 Private space, [more info here](/faq/) |
+| <img src="img/combinedlogo.png" alt="developed by SFB1315 and sourcedat" />  |  <iframe src ="https://sdash.sourcedata.io/login" height=250px width=600px ></iframe>  |
+|   | (http://sdash.sourcedata.io/login)  |
 
 
 
