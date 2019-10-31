@@ -2,13 +2,14 @@
 
 ## Where and when do we meet?
 Wondering how to get to us? Here are some organisational details to help with planning your trip!  
-We will meet in front of Belluno's train station the morning of the 4th of January, 2020, at 09:00. From there on, we will organise transportation by car and separate the participants in groups, in order to minimise the number of cars.
+We will meet in front of **Belluno's train station** the morning of the **4th of January, 2020, at 09:00**. From there on, we will organise transportation by car and separate the participants in groups, in order to minimise the number of cars.
 
 #### How to get to Belluno
-Getting to Belluno by car is easy: it is about a 1.5 hour drive from Padova and Venice, 2.5 hours from Trieste, 4 hours from Milan. Belluno is server by the A27 highway. Train lines reach the city from East (Conegliano), North (Cortina) and South (Padova); trains are usually few and far between, so plan your trip in advance.
+Getting to Belluno by car is easy: it is served by the A27 highway, about a 1.5 hour drive from Padova and Venice, 2.5 hours from Trieste, 4 hours from Milan.  
+Train lines reach the city from East (Conegliano), North (Cortina) and South (Padova); trains are usually few and far between, so plan your trip in advance.
 
 #### Accomodation
-09:00 in the morning is too early for you, or you fear you'll miss the last train? Fret you not! APAZAF will try to find free accommodation for you in the house of one of the participants from Belluno, fellow snowballers are more than welcome! Just let us know in advance when you register and we'll try to reserve a bed for you. If you change your mind, just [contact us](/contact)!
+09:00 in the morning is too early for you, or you fear you'll miss the last train? Fret you not! APAZAF will try to find free accommodation for you in the house of one of the participants from Belluno: fellow snowballers are more than welcome! Just let us know in advance when you register and we'll try to reserve a bed for you. If you change your mind, just [contact us](/contact)!
 
 ## Getting to the battle site
 
@@ -41,15 +42,16 @@ We'll mostly move as a group although of course anybody can decide on his/her ow
 Here's a short list of what you might want to bring along with you to the battle site.
 
 #### Mandatory
-- Warm, waterproof clothes
+- Warm, waterproof clothing
 - Something to eat for yourself (chocolate!), although lunch will be provided (see below)
-- Something to drink, at least 1L
+- Something to drink, at least 1L is strongly recommended
 - Mountain boots or snow boots
 
 #### Highly recommended
-- Headlamp
+- A Headlamp
 - A change of clothes for after the battle
 - A snow-throwing weapon
+- A shield of the [specified dimensions](/rules).
 - Cash donation?
 
 ## Miscellanea
@@ -80,12 +82,12 @@ Feel free to combine your snowballing fever with some trekking, climbing or skii
 All locations, times and dates are subject to sudden change without prior notice from APAZAF, should the necessity arise. All information regarding such changes will be published on the GBPN's [website](/post) as soon as possible.
 
 #### Privacy
-By subscribing and/or partecipating to the GBPN you implicitly accept that your personal data (Name, Surname, phone number, email) be stored by APAZAF with the only purposes of organising future snowball fights.  
+By subscribing and/or partecipating to the GBPN you implicitly accept that your personal data (Name, Surname, phone number, email) is stored by APAZAF with the only purpose of organising future snowball fights.  
 Additionally, during the GBPN photos and videos will be taken by both APAZAF and third parties. APAZAF may use these photos/videos on their website and in various channels where APAZAF disseminates information about their activities.
 
-If you want at any time withdraw from this consent, please [contact us](/contact). Note: this will not apply to material already published. APAZAF cannot control already published material or recall them.
+If you want at any time to withdraw from this consent, please [contact us](/contact). Note: this will not apply to material already published. APAZAF cannot control already published material or recall them.
 
 #### Release of liability
-Hiking and snowballing are inherently dangerous activities that may expose to certain risks and dangers, including but not limited to avalanches, animal attacks, natural disaster, falls, accident and illness. APAZAF has no duty to provide medical assistance or advice to any snowballer. All persons who participate in any event organised by APAZAF accepts responsibility for making their own determinations as to the suitability of the activity and for their own safety, conduct and well-being and agrees to participate solely at their own risk.
+Hiking and snowballing are inherently dangerous activities that may expose to certain risks and dangers, including but not limited to avalanches, animal attacks, natural disaster, falls, accidents and illness. APAZAF has no duty to provide medical assistance or advice to any snowballer. All persons who participate in any event organised by APAZAF accept responsibility for making their own determinations as to the suitability of the activity and for their own safety, conduct and well-being and agree to participate solely at their own risk.
 
 In consideration of the right to participate in any hikes or other activities of APAZAF, the participant assumes the risk associated with these activities and will hold APAZAF and other participants harmless from and defend them against any and all liability, actions, suits, claims and demands which could arise from any of APAZAF’s activities and from any loss or injury which he/she may sustain as a result of his/her participation in any of these activities. This disclaimer shall also serve as a release of liability and assumption of risk by the participant, and is intended to be binding on his/her heirs, administrators, executors and all members of his/her family.
