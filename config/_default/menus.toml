@@ -19,7 +19,7 @@
   weight = 14
 
 [[main]]
-  name = "How&Where"
+  name = "Details"
   url = "/details"
   weight = 20
 
