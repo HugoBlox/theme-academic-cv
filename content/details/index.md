@@ -17,7 +17,8 @@ Train lines reach the city from East (Conegliano), North (Cortina) and South (Pa
 09:00 in the morning is too early for you, or you fear you'll miss the last train?
 Fret you not! APAZAF will try to find free accommodation for you in the house of one of the participants from Belluno: fellow snowballers are more than welcome!
 Just let us know in advance when you register and we'll try to reserve a bed for you. If you change your mind, just [contact us](/contact)!
-If you so wish, you can also sleep at the bivouac, where there are some beds and (maybe) mattresses. In this case you'll need warm sleeping bags, as night temperatures can easily be as low as -15°C.
+
+If you so wish, you can also sleep at the bivouac, where there are some beds and (maybe) mattresses. In this case you'll need warm sleeping bags, as night temperatures can easily be as low as -15°C. In the bivouac there is a stove, but it usually doesn't work very well.
 
 ## Getting to the battle site
 
