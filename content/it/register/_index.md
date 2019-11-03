@@ -5,8 +5,8 @@ headless = true  # This file represents a page section.
 active = false
 
 # ... Put Your Section Options Here (title etc.) ...
-title = "Register"
-subtitle = "Join the battle!"
+title = "Iscrizione"
+subtitle = "Partecipa alla battaglia!"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

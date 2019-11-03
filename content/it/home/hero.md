@@ -5,10 +5,10 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 5  # Order that this section will appear.
 
-title = "Join the Great Snowball Fight on January 4, 2020!"
+title = "Partecipa alla Grande Battaglia di Palle di Neve il 4 gennaio 2020!"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-hero_media = "hero-academic.png"
+hero_media = ""
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -37,8 +37,8 @@ hero_media = "hero-academic.png"
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 [cta]
-  url = "/register"
-  label = "Register!"
+  url = "/it/register"
+  label = "Iscriviti!"
   icon_pack = "fas"
   icon = "snowflake"
   
@@ -47,9 +47,9 @@ hero_media = "hero-academic.png"
 #  label = "View rules"
   
 [cta_alt]
-  url = "/details"
-  label = "Learn more"
+  url = "/it/details"
+  label = "Scopri di più"
   
 +++
 
-Following its millenary tradition, the next edition of the Great Snowball Fight will take place at the [Bivacco Menegazzi](https://goo.gl/maps/CRMbn2kRX38G78UF9) on the first Saturday of the year.  
+Come da tradizione millenaria, la prossima edizione della Grande Battaglia di Palle di Neve si terrà al [Bivacco Menegazzi](https://goo.gl/maps/CRMbn2kRX38G78UF9) il primo sabato dell'anno.
