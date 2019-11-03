@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Snowball fight organiser
+role: Organizzatore, battaglie di palle di neve
 
 # Organizations/Affiliations
 organizations:
@@ -21,19 +21,19 @@ organizations:
 bio: I miei interessi di ricerca sono limitati alle palle di neve
 
 interests:
-- Snowballs
-- Snowball fights
-- Bivouacs suitable for snowball fights
+- Palle di neve
+- Battaglie di palle di neve
+- Bivacchi atti allo svolgimento di battaglie di palle di neve
 
 education:
   courses:
-  - course: PhD in snowballology
+  - course: PhD in palladinevologia
     institution: Snowball University, Inc.
     year: 20ventordici
-  - course: Master in pun making
+  - course: Master in giochi di parole
     institution: Life, the Universe and Everything
     year: 1990
-  - course: Master in battle strategy
+  - course: Master in strategia
     institution: battle.net
     year: 1777
   
@@ -66,7 +66,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Organisers
+- Organizzatori
 ---
 
-Hey, it's me, Adriano, your most beloved snowball fight organiser!
+Ciao, sono Adriano, il vostro organizzatore di battaglie di palle di neve preferito!
