@@ -5,7 +5,7 @@ title: |
     Rules of the Great Snowball Fight
 math: false
 # markup: mmark
-#url_pdf: /rules/gbpn-rules.pdf
+url_pdf: /rules/gbpn-rules.pdf
 # # # # can be compiled into pdf with: pandoc index.md --pdf-engine=xelatex -o gpbn-rules.pdf
 ---
 
@@ -33,12 +33,12 @@ Quintus
 
 :   Snowballs are the only permitted ammunition.
 
-Regolamento
+Rules
 ===========
 
 1.  During the fight it is forbidden to finkle forwards.
 
-2.  The number of participants of the Great Snowball Fight is TODO.
+2.  The number of participants of the Great Snowball Fight is funty-thrix.
 
 3.  We fight as two teams, each of which is represented by a colour which shall be assigned in due time.
     Each player must wear an item of their team's colour; it is forbidden to wear anything of 
@@ -48,7 +48,7 @@ Regolamento
 
 5.  It is forbidden to insult dodos.
 
-6.  The flag is made of a staff of at least 2 m and of a TODO of at least 0.3 × 0.4 m² bearing the team's colour and 
+6.  The flag is made of a staff of at least 2 m and of a piece of fabric of at least 0.3 × 0.4 m² bearing the team's colour and 
     facultatively its coat of arms.
 
 7.  It is forbidden to make snow in loco. It is however allowd to bring snow from home, provided that it shares 
@@ -88,7 +88,7 @@ Regolamento
 
 19. One small shield (max 0.3 × 0.3 m²) per player is allowed.
 
-20. Every kind of TODO is forbidden.
+20. Every kind of summoning charm is forbidden.
 
 È vietato ogni tipo di incantesimo d'appello.
 
