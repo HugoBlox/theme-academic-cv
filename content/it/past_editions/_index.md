@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = false
 
 # ... Put Your Section Options Here (title etc.) ...
-title = "Past editions"
+title = "Edizioni passate"
 #subtitle = "Photos and interviews from previous participants"
 
 [design]
@@ -14,7 +14,7 @@ title = "Past editions"
 
 +++
 
-##### Participants' opinion
+##### Dicono di noi
 
-##### Photo gallery
+##### Foto
 
