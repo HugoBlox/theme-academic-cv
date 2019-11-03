@@ -33,7 +33,7 @@ Quintus
 
 :   Snowballs are the only permitted ammunition.
 
-Regolamento
+Rules
 ===========
 
 1.  During the fight it is forbidden to finkle forwards.
