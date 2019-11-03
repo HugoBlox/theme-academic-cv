@@ -2,7 +2,7 @@
 author:
 - APAZAF
 title: |
-    Regolamento della Grande Battaglia di Palle di Neve
+    Rules of the Great Snowball Fight
 math: false
 # markup: mmark
 url_pdf: /rules/gbpn-rules.pdf
@@ -13,190 +13,126 @@ url_pdf: /rules/gbpn-rules.pdf
 Principia
 =========
 
-Primo
+Primus
 
-:   L'obiettivo della Grande Battaglia di Palle di Neve è il
-    divertimento.
+:   The goal of the Great Snowball Fight is to have fun.
 
-Secondo
+Secondus
 
-:   Ci si diverte senza farsi male.
+:   We have fun without injuring ourselves or each other.
 
-Terzo
+Tertius
 
-:   L'ambiente che ci ospita deve essere rispettato e lasciato nello
-    stesso stato in cui lo abbiamo trovato (detto anche: chi ama le
-    palle di neve non lascia tracce).
+:   The environment must be respected and left as we find it (in other words, snowball lovers leave no trace).
 
-Quarto
+Quartus
 
-:   La Grande Battaglia di Palle di Neve si tiene all'insegna della
-    sportività e dell'onestà.
+:   During the fight, we uphold sportsmanship and honesty.
 
-Quinto
+Quintus
 
-:   Le palle di neve sono le uniche munizioni ammesse.
+:   Snowballs are the only permitted ammunition.
 
 Regolamento
 ===========
 
-1.  Durante lo svolgimento della battaglia è vietato funchionciare in
-    avanti.
+1.  During the fight it is forbidden to finkle forwards.
 
-2.  Il numero dei partecipanti della Grande Battaglia di Palle di Neve è
-    settordici.
+2.  The number of participants of the Great Snowball Fight is funty-thrix.
 
-3.  Si combatte divisi in due squadre, ciascuna delle quali è
-    rappresentata da un colore, che sarà comunicato a tempo debito. Ogni
-    giocatore è tenuto ad avere un capo di vestiario o una fascia del
-    colore della propria squadra; non è consentito avere alcunché
-    addosso del colore della squadra avversaria. Le due squadre hanno lo
-    stesso numero di giocatori (all'occorrenza si applicherà il metodo
-    Salomone).
+3.  We fight as two teams, each of which is represented by a colour which shall be assigned in due time.
+    Each player must wear an item of their team's colour; it is forbidden to wear anything of 
+    the enemy team's colour. The two teams have the same number of players (if needed we shall apply Salomon's method).
 
-4.  Il gioco è del tipo "ruba la bandiera", cioè: una squadra vince se
-    riesce ad avere entrambe le bandiere presenti nella propria base
-    nello stesso momento.
+4.  We play a game of "capture the flag", that is: a team wins if it manages to hold both flags in its base at the same time.
 
-5.  È vietato insultare i dodo.
+5.  It is forbidden to insult dodos.
 
-6.  La bandiera è composta da un'asta lunga almeno 2 m e da un drappo di
-    misure almeno 0.3 × 0.4 m², riportante il colore della
-    squadra ed eventualmente il suo stemma.
+6.  The flag is made of a staff of at least 2 m and of a piece of fabric of at least 0.3 × 0.4 m² bearing the team's colour and 
+    facultatively its coat of arms.
 
-7.  È vietato fabbricare autonomamente neve in loco; cionondimeno è
-    concesso portare della neve da casa, purché abbia la stessa
-    composizione chimica e struttura cristallina della neve autoctona.
-    Ciò verrà verificato seguendo i metodi presentati da
-    Matzl e Schneebeli, 2010.
+7.  It is forbidden to make snow in loco. It is however allowd to bring snow from home, provided that it shares 
+    chemical composition and crystalline structure with the local snow.
+    The above shall be checked with the methods exposed in Matz and Schneebeli, 2010.
 
-8.  Un giocatore muore quando viene colpito da una palla di neve. È
-    severamente vietato morire in altro modo.
+8.  A player dies when hit by a snowball. It is strictly forbidden to die in any other fashion.
 
-9.  Le palle di neve devono essere sufficientemente compatte affinché
-    non possano sussistere dubbi riguardo all'essere colpito o meno.
-    Inoltre, la validità di una palla di neve viene immediatamente meno
-    quando tocca il suolo, alberi, animali di passaggio, morti e non
-    partecipanti alla battaglia.
+9.  Snowballs must be sufficiently compact so as to avoid any doubts concerning being hit.
+    Moreover, snowballs cease to be valid upon contact with the ground, trees, passing animals, dead players and 
+    people not taking part in the fight.
 
-10. Quando un giocatore muore deve recarsi in uno dei luoghi neutrali
-    anticipatamente sì preposti, quindi tornare alla propria base. Solo
-    allora potrà partecipare di nuovo alla battaglia. I morti devono
-    farsi riconoscere come tali, e non possono comunicare con i compagni
-    o gli avversari se non per palesare la propria morte. I morti non
-    possono depositare armi o oggetti, se non all'istante e nel luogo
-    della propria triste dipartita.
+10. Upon death, players must reach one of the neutral spots which have been preemptively arranged, then go back to their base.
+    Only then are they allowed to continue fighting. Dead players must take care to be easily recognised as dead, and 
+    are not allowed to communicate with their teammates except from saying they are dead. Dead players can only leave weapons or other items 
+    at the time and place of their disappearance.
 
-11. Nessun giocatore può essere depositario al contempo di entrambe le
-    bandiere.
+11. A single player cannot hold both flags at the same time. 
 
-12. Una volta che un giocatore ha catturato la bandiera avversaria, non
-    se ne può separare fino a che essa non viene piantata nella propria
-    base o egli muore. In quest'ultimo caso, egli deve piantare la
-    bandiera in terra al momento della morte.
+12. A player who holds the enemy flag cannot leave it until they have taken it to their base or until death does them part from it.
+    In the latter case, they must plant the flag in the ground at the time of death.
 
-13. Parimenti, un giocatore che ha recuperato la propria bandiera non se
-    ne può separare finché non la ha riportata alla base. In caso di
-    morte deve immediatamente piantarla nel terreno. Non la può
-    nascondere.
+13. In the same way, a player who holds their own team's flag cannot leave it until they have taken it back to base or until death comes swirling down. In case of death the flag must be planted in the ground. In particular, flags cannot be wilfully hidden.
 
-14. Il trasporto della bandiera deve essere evidente: la bandiera
-    trasportata deve essere mantenuta verticale e quanto più visibile
-    possibile.
+14. Carrying the flag must be evident: the flag must be as vertical and as visible as possible. 
 
-15. È consentito l'uso di armi
-    atte a lanciare palle di neve, purché a propulsione esclusivamente
-    umana (per i pignoli, questo significa che la reazione chimica che
-    fornisce l'energia trasmessa alla palla deve avvenire all'interno
-    del corpo di uno dei giocatori). Ad esempio, una fionda o una
-    catapulta vanno bene, mentre un bazooka a esplosione o un'arma a
-    batteria no.
+15. Snowball-throwing weapons are allowed, provided that they are human-powered (for nitpickers, this means that the chemical reaction
+    providing the energy that moves the snowball takes place within the body of one of the players). For instance, a slingshot or a 
+    catapult are allowed, while an explosion-powered bazooka or a battery-powered weapon are not.
 
-16. È vietato scavare tunnel che perforino la litosfera, in quanto il
-    magma potrebbe sciogliere le nevi e precludere il divertimento
-    altrui.
+16. It is forbidden to dig tunnels reaching through the lithosphere, as the magma might melt the snows and spoil everyone else's fun.
 
-17. Tutti gli strumenti, le armi e gli scudi devono portare i colori
-    della propria squadra, e non possono essere utilizzati, toccati o
-    nascosti da membri della squadra avversaria. Lo scontro scudo contro
-    scudo è permesso.
+17. Every tool, weapon and shield must bear the colour of the respective team, and cannot be used, touched or hidden by enemies.
+    Shield-on-shield grappling is allowed.
 
-18. È permesso uno scudo grande per squadra (max 1.5 × 1.0 m²).
+18. One great shield (max 1.5 × 1.0 m²) per team is allowed.
 
-19. È permesso uno scudo piccolo per giocatore (max 0.3 × 0.3 m²).
+19. One small shield (max 0.3 × 0.3 m²) per player is allowed.
 
-20. È vietato ogni tipo di incantesimo d'appello.
+20. Every kind of summoning charm is forbidden.
 
-21. È severamente vietato bollire capre nel latte delle loro madri.
+È vietato ogni tipo di incantesimo d'appello.
 
-22. Sono permessi sino a due mezzi inanimati di trasporto per ciascuna
-    squadra, quali bob o slitte. Tale mezzi possono anche essere
-    utilizzati come scudi o come fortificazione e sono considerati come
-    tale ai fini della protezione. Essi non vengono conteggiati ai fini
-    della limitazione di un singolo scudo grande per squadra. I mezzi
-    non devono eccedere le dimensioni di 1.0 × 0.8 m². I morti
-    possono utilizzare i mezzi.
+21. It is strictly forbidden to boil goats in their mothers' milk.
 
-23. Mezzi inanimati di trasporto personale, quali sci o scarponi a
-    molla, sono permessi. Essi non possono essere utilizzati come
-    protezione in nessun caso, ma è permesso il loro utilizzo come armi
-    atte a lanciare palle di neve.
+22. Up to two inanimate vehicles per team, such as bobsleighs or sleds, are allowed. Such items can also be used as shields or as 
+    fortifications, and shall be considered as such for protection purposes. They are not counted in the great shield limit. They cannot exceed 
+    1.0 × 0.8 m². Dead players can use these vehicles.
 
-24. È vietato ogni tipo di mezzo di trasporto animato, quali asini o
-    cavalli, così come ogni mezzo di trasporto la cui propulsione non
-    sia esclusivamente umana (vedasi punto 15).
+23. Inanimate personal means of transportation, such as skis or springboots, are allowed. They cannot be used as protection (i.e. a snowball hitting them kills the bearer), but can be used as snowball-throwing weapons.
 
-25. All'inizio della Battaglia sarà concesso del tempo alle squadre per
-    fortificare la propria base a proprio piacimento. A questo scopo è
-    possibile utilizzare attrezzi come vasi da fiori o cestini. Non è
-    possibile utilizzare pale o strumenti similari.
+24. Any kind of non-inanimate means of transportation, such as donkeys or horses, is forbidden.
+    In the same way, any means of transportation which is not human-powered (see point 15) is also forbidden.
 
-26. Oltre alle armi e agli scudi, ogni giocatore può trasportare altri
-    oggetti a propria discrezione (purché sempre a propulsione umana)
-    quali strumenti per preparare palle di neve, o un secchio pieno di
-    palle di neve o un ventaglio francese del diciassettesimo secolo.
-    Tali oggetti, se colpiti da una palla di neve regolamentare, causano
-    la morte dell'utilizzatore, o degli utilizzatori nel caso di oggetti
-    utilizzati da più persone contemporaneamente. Per giudicare se
-    l'oggetto è stato colpito o meno, ci si affida al giudizio onesto e
-    imparziale di coloro che hanno potuto assistere all'evento.
+25. At the inception of the fight some time shall be allocated for the teams to fortify their base at will.
+    For this purpose it is allowed to use such tools as flowerpots or litter bins. It is forbidden to use shovels or similar items. 
 
-27. Il merito di qualsiasi scoperta scientifica o innovazione
-    tecnologica effettuata nell'ambito della Grande Battaglia di Palle
-    di Neve deve essere attribuito a tutti i partecipanti, in primis ad
-    APAZAF.
+26. On top of weapons and shields, players can carry other (human-powered) items, such as snowball-making tools, buckets of snowballs, 
+    French fans from the 17th century. Such items kill the bearer(s) if they are hit by a rules-complying snowball.
+    To determine whether an item has been hit or not, we rely on honest and impartial judgement of eyewitnesses.
 
-28. La dimensione del campo di gioco verrà decisa prima della Battaglia
-    in base all'insindacabile volere di APAZAF.
+27. Credit for any scientific discovery of technological innovation carried out within the scope of the Great Snowball Fight shall go to 
+    all participants, in primis to APAZAF.
 
-29. È vietato ogni tipo di contatto fisico tra membri di squadre
-    avversarie, tranne i bacini.
+28. The fighting ground shall be defined before the fight by APAZAF's unappealable decision.
 
-30. È vietato danneggiare oggetti della squadra avversaria, se non
-    inavvertitamente tramite il lancio di palle di neve da una distanza
-    non sospetta.
+29. Any kind of physical contact between enemy players is forbidden, except kisses.
 
-31. Sono vietate le valanghe. Eventuali valanghe che desiderassero
-    transitare sul campo di battaglia durante la Battaglia debbono
-    notificare APAZAF con congruo anticipo per permettere un'adeguata
-    pianificazione dell'evento.
+30. It is forbidden to damage items belonging to the enemy team, unless done unwilfully by throwing a snowball from far enough. 
 
-32. Quanto non è coperto da questo regolamento è sottoposto al buon
-    senso e all'onestà di ciascuno; nel caso in cui queste
-    caratteristiche dovessero mancare, il parere di APAZAF è vincolante.
+31. Avalanches are forbidden. Any avalanche wishing to cross the fighting ground during the fight shall notify APAZAF in due time in order to allow for appropriate adjustments.
 
-33. Durante lo svolgimento della battaglia è vietato funchionciare
-    all'indietro.
+32. Anything not covered by these rules is subject to everyone's common sense and honesty. If such qualities should be lacking, APAZAF's opinion is binding. 
 
-Durante lo svolgimento della Battaglia il presente regolamento trascende
-ogni legislazione vigente, incluso se stesso.\
+33. During the fight it is forbidden to finkle backwards.
 
-Il regolamento è più che altro una sorta di traccia.
+During the fight these rules trump all current legislation, including themselves.
+
+These are more what you'd call "guidelines" than actual _rules_.
 
 
 ------
 
-Riferimenti bibliografici
+Bibliography
 =========================
 
 Matzl, M e M Schneebeli (2010). “Stereological measurement of the specific surface area
