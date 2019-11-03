@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Jester
+role: Giullare 
 
 # Organizations/Affiliations
 organizations:
@@ -21,18 +21,18 @@ organizations:
 #bio: I miei interessi di ricerca sono limitati alle palle di neve
 
 interests:
-- Snowballs
-- Accidental snowfalls, especially on other people's head
-- Bobsleigh speedriding
+- Palle di neve
+- Cadute accidentali di neve, specie su teste altrui
+- Andare veloce col bob
 
 education:
   courses:
-  - course: Master in Saying stupid things
+  - course: Master in Dire stupidaggini
     institution: The University of Life
     year: 2022
-  - course: Master in Ontology
+  - course: Master in Ontologia
     institution: The Oneness
-    year: All time
+    year: Sempre
   
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -63,7 +63,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Organisers
+- Organizzatori
 ---
 
-Hallo. This is Andrea from the Having Fun with Snowballs department. 
+Salve. Sono Andrea del dipartimento per il Divertimento con Palle di Neve.
