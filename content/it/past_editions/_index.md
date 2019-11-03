@@ -15,7 +15,7 @@ title = "Edizioni passate"
 +++
 
 ## Dicono di noi
-Abbiamo intervistato due aficionados della GBPN, che indicheremo con gli pseudonimi Aulo Augerio e Numerio Negidio.
+Abbiamo intervistato due aficionados della GBPN, che indicheremo con gli pseudonimi Aulo Agerio e Numerio Negidio.
 
 #### A quante edizioni della GBPN hai partecipato?
 AA: A tre, mi sembra. Boh. NN:

@@ -16,7 +16,7 @@ title = "Past editions"
 
 ## Participants' opinion
 
-We interviewed to GBPN fans, whom we shall denote by John Doe and Richard Roe. 
+We interviewed two GBPN fans, whom we shall denote by John Doe and Richard Roe. 
 
 #### How many editions of the GBPN have you attended?
 JD: Three, I think. Dunno. RR: 
