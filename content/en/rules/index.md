@@ -90,8 +90,6 @@ Rules
 
 20. Every kind of summoning charm is forbidden.
 
-È vietato ogni tipo di incantesimo d'appello.
-
 21. It is strictly forbidden to boil goats in their mothers' milk.
 
 22. Up to two inanimate vehicles per team, such as bobsleighs or sleds, are allowed. Such items can also be used as shields or as 
