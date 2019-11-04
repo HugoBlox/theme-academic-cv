@@ -34,4 +34,17 @@ bg4=image_modulate(bg2,  saturation = 60)
 
 bgf= image_animate(image_morph(c(bg3,bg4,bg3), frames =3), fps = 2)
 bgf
-image_write(bgf, path="static/img/bg.gif", format = "gif")
+#image_write(bgf, path="static/img/bg.gif", format = "gif")
+
+
+##new image try
+
+im_bg = image_read(c("static/img/bckwebsite/fly.jpg","static/img/bckwebsite/mouse.jpg","static/img/bckwebsite/human.png"))
+im_bg2=image_resize(im_bg, "X600")
+#im_bg3=image_crop(im_bg2, geometry = "1200x600", gravity = "Center", repage = TRUE)
+im_bg3=image_extent(im_bg2, geometry = "1200x600", gravity = "Center", color = "black")
+rev(im_bg3)[-1]
+im_bg3=image_resize(im_bg3, "X200")
+
+bgf= image_animate(image_morph(c(im_bg3, im_bg3[1]), frames =3), fps = 0.5)
+bgf
