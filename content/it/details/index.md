@@ -55,7 +55,7 @@ Ecco una breve lista di cose che potreste voler portare con voi sino al bivacco.
 - Abiti caldi e impermeabili
 - Qualcosa da mangiare (cioccolato!), anche se il pranzo sarà fornito (vedi sotto)
 - Qualcosa da bere, almeno 1 l è fortemente consigliato
-- Scarponi da montagna o da neve
+- Scarponi da montagna e/o ciaspe
 
 #### Fortemente consigliato
 - Una torcia frontale
