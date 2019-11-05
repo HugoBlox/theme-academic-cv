@@ -4,6 +4,7 @@ author:
 title: |
     Rules of the Great Snowball Fight
 math: false
+share: false
 # markup: mmark
 url_pdf: /rules/gbpn-rules.pdf
 # # # # can be compiled into pdf with: pandoc index.md --pdf-engine=xelatex -o gpbn-rules.pdf

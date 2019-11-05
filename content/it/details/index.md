@@ -1,3 +1,6 @@
++++
+share= false
++++
 # Cos'è?
 Come da tradizione, APAZAF organizza una battaglia di palle di neve amichevole il primo sabato dell'anno nuovo.
 La battaglia procede secondo delle semplici [regole](/it/rules), alla base è "cattura la bandiera".

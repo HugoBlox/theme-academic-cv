@@ -3,6 +3,7 @@
 widget = "blank"
 headless = true  # This file represents a page section.
 active = false
+share= false
 
 # ... Put Your Section Options Here (title etc.) ...
 title = "Edizioni passate"
@@ -50,8 +51,8 @@ Abbiamo intervistato due aficionados della GBPN, che indicheremo con gli pseudon
 **V90:** Si comincia con una buona passeggiata e si finisce per mangiare polpette.
 
 #### Se c'è troppa neve cosa si fa?
-**AA:** 
-**V90:** Non è mai troppa la neve! Al massimo si riduce la dimensione del campo (e poi si finisce comunque andando a mangiare polpette).
+**AA:** Portiamo il boccaglio.  
+**V90:** Non è mai troppa la neve! Al massimo si riduce la dimensione del campo (e poi si finisce comunque per mangiare polpette).
 
 #### Ci sarai quest'anno?
 **AA:** Sì.  
