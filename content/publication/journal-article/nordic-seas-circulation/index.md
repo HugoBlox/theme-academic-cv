@@ -8,6 +8,7 @@ authors:
 date: "2010-07-01"
 doi: "10.1111/j.1600-0870.2010.00444.x"
 publication_types: ["2"]
+tags: [nordic-seas]
 
 image:
   caption: ''

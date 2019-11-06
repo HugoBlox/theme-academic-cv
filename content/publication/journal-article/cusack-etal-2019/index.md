@@ -12,6 +12,7 @@ authors:
 date:  "2019-10-01"
 doi: ""
 publication_types: ["2"]
+tags: [samoan-passage]
 
 image:
   caption: ''

@@ -10,6 +10,7 @@ authors:
 date:  "2015-02-09"
 doi: "10.1175/JPO-D-14-0096.1"
 publication_types: ["2"]
+tags: [samoan-passage]
 
 image:
   caption: ''

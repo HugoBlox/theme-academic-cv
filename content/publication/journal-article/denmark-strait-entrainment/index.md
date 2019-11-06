@@ -8,6 +8,7 @@ authors:
 date: "2010-03-01"
 doi: "10.5194/os-6-301-2010"
 publication_types: ["2"]
+tags: [denmark-strait, nordic-seas]
 
 image:
   caption: ''
