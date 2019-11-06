@@ -32,9 +32,13 @@ projects: ["niskine"]
 
 The goal of this cruise was to deploy three moorings in the Iceland Basin, the part of the North Atlantic south of Iceland. Weather conditions here can be rough which was one of the reasons for picking this region for NISKINe: Strong, changing winds force a strong near-inertial wave field in the ocean. Nevertheless, for our mooring deployment cruise we were hoping for calm conditions to get the moorings safely in the water. Except for a storm delaying our departure in Iceland we had calm and nice conditions and the moorings went in the water smoothly. 
 
+{{< figure library="true" src="cruise-iceland-2019/leaving_iceland.jpg" title="Leaving Iceland." lightbox="true" >}}
 {{< figure library="true" src="cruise-iceland-2019/attaching_chipod.jpg" title="Attaching a chipod to the mooring during deployment." lightbox="true" >}}
 {{< figure library="true" src="cruise-iceland-2019/working_late.JPG" title="Late night Flowquest programming session." lightbox="true" >}}
 {{< figure library="true" src="cruise-iceland-2019/final_mooring.JPG" title="About to drop the last anchor." lightbox="true" >}}
 {{< figure library="true" src="cruise-iceland-2019/group_photo.JPG" title="The science team." lightbox="true" >}}
+{{< figure library="true" src="cruise-iceland-2019/return.jpg" title="Returning to Iceland in much calmer weather than when we left..." lightbox="true" >}}
+{{< figure library="true" src="cruise-iceland-2019/reykjavik.jpg" title="The old port of Reykjavik with the new opera and Iceland's research vessel Árni Friðriksson." lightbox="true" >}}
+{{< figure library="true" src="cruise-iceland-2019/bbq.jpg" title="Barbeque on the dock." lightbox="true" >}}
 
 Photos &copy; Ally Kawamoto, Nicole Couto
