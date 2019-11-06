@@ -61,8 +61,8 @@ text-align: center;
 
   |   
 ---|---
- <img src="img/combinedlogo.png" alt="developed by SFB1315 and sourcedat" />  |  <iframe src ="https://sdash.sourcedata.io/login" height=250px width=600px ></iframe>  
-   | [Login](https://sdash.sourcedata.io/login) into the SFB1315 Private space, [more info here](/faq/), send us your [feedback](https://github.com/smartfigures-dar/feedback_repo/issues/)  
+ <img src="img/combinedlogo.png" alt="developed by SFB1315 and sourcedat" />  |  <iframe src ="https://sdash.sourcedata.io/dashboard#zoom=20" height=250px width=600px ></iframe>  
+   | [Open](https://sdash.sourcedata.io/dashboard) the SFB1315 Private space in new window, [more info here](/faq/), send us your [feedback](https://github.com/smartfigures-dar/feedback_repo/issues/)  
  
 
 </div>
