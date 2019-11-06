@@ -1,6 +1,6 @@
 library (magick)
 
-img_1 = image_read(c("static/img/CRC_Logo.svg","static/img/sourcedata_logo_rgb.png"))
+img_1 = image_read(c("static/img/CRC_Logo.svg","static/img/sourcedata_logo_rgb_white_colour.png"))
 img_1_2 =image_extent(image_resize(img_1, "300x300"), "400x300")
 img_1_3 =image_resize(img_1, "x100")
 

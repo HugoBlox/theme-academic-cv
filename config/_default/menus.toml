@@ -28,6 +28,10 @@
   url = "#slider"
   weight = 40
 
+[[main]]
+  name = "Your feedback"
+  url = "https://github.com/smartfigures-dar/feedback_repo/issues/"
+  weight = 50
 
 
 # Link to a PDF of your resume/CV from the menu.
