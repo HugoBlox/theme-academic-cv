@@ -3,6 +3,7 @@
 widget = "blank"
 headless = true  # This file represents a page section.
 active = false
+share = false
 
 # ... Put Your Section Options Here (title etc.) ...
 title = "Register"

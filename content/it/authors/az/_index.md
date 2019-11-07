@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Chef, ribbon dispenser and armorer
+role: Chef, sparginastrini e armiera
 
 # Organizations/Affiliations
 organizations:
@@ -21,8 +21,8 @@ organizations:
 bio: I miei interessi di ricerca sono limitati alle palle di neve
 
 interests:
-- Snow
-- Snowballs
+- Neve
+- Palle di neve
 - Armi atte a lanciare palle di neve
 
 education:
@@ -66,7 +66,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
-- Organisers
+- Organizzatori
 ---
 
 Ciao, sono Anna, la dispensatrice di risotti per tutti i gusti e le intolleranze. 

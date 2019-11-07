@@ -1,3 +1,6 @@
++++
+share= false
++++
 # Cos'è?
 Come da tradizione, APAZAF organizza una battaglia di palle di neve amichevole il primo sabato dell'anno nuovo.
 La battaglia procede secondo delle semplici [regole](/it/rules), alla base è "cattura la bandiera".
@@ -55,7 +58,7 @@ Ecco una breve lista di cose che potreste voler portare con voi sino al bivacco.
 - Abiti caldi e impermeabili
 - Qualcosa da mangiare (cioccolato!), anche se il pranzo sarà fornito (vedi sotto)
 - Qualcosa da bere, almeno 1 l è fortemente consigliato
-- Scarponi da montagna o da neve
+- Scarponi da montagna e/o ciaspe
 
 #### Fortemente consigliato
 - Una torcia frontale

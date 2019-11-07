@@ -1,3 +1,8 @@
++++
+share = false
++++
+
+
 # What's this?
 As is traditional, APAZAF organises a friendly snowball fight on the first Saturday of the new year.
 The fight follows a simple set of [rules](/rules), in the "capture the flag" style.  

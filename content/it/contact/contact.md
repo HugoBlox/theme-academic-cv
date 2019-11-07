@@ -18,4 +18,4 @@ autolink = true
 email_form = 1
 +++
 
-Dubbi, domande, perplessità, suggerimenti? Mandateci una mail, rispondiamo subito. Se preferite, potete controllare l' [issue tracker](https://github.com/apazaf/gbpn/issues)!
+Dubbi, domande, perplessità, suggerimenti? Mandateci una mail, rispondiamo subito. Se preferite, potete controllare l'[issue tracker](https://github.com/apazaf/gbpn/issues)!

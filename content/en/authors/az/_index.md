@@ -23,17 +23,17 @@ bio: I miei interessi di ricerca sono limitati alle palle di neve
 interests:
 - Snow
 - Snowballs
-- Armi atte a lanciare palle di neve
+- Snowball-throwing weapons 
 
 education:
   courses:
-  - course: Creazione di cappelli buffi a richiesta
-    institution: Atelier da mia mamma
+  - course: Making funny hats on demand
+    institution: Atelier at my mom's
     year: 20BO+2
-  - course: "Armi creative: catapulte che non lo erano"
-    institution: Studio creativo garage&cianfrusaglie
+  - course: "Creative weapons: catapults which were not"  
+    institution: Art studio garage&frippery
     year: 20BO+1
-  - course: "Alta cucina in alta quota: risotto alla neve"
+  - course: "Haute cuisine in haute altitude: risotto with snow"  
     institution: Premiata Scuola Riso&Fagioli
     year: 20BO
     
@@ -69,5 +69,6 @@ user_groups:
 - Organisers
 ---
 
-Ciao, sono Anna, la dispensatrice di risotti per tutti i gusti e le intolleranze. 
-In mancanza di neve, abbiamo altra materia prima.
+Hi, I am Anna, the provider of risotto for all tastes and intolerances.
+In case there is a lack of snow, we have an alternative raw material.
+

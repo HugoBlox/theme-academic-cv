@@ -4,6 +4,7 @@ author:
 title: |
     Regolamento della Grande Battaglia di Palle di Neve
 math: false
+share: false
 # markup: mmark
 url_pdf: /it/rules/gbpn-rules.pdf
 # # # # can be compiled into pdf with: pandoc index.md --pdf-engine=xelatex -o gpbn-rules.pdf
