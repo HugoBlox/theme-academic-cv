@@ -196,7 +196,7 @@ We interviewed two GBPN fans, whom we shall denote by John Doe and Valanga90.
 
 #### Have you won more or lost more?
 **JD:** Lost more, but honourably.  
-**V90:** Hard to say. I won some matches, but last time I was of my game and the snow was high and compact!
+**V90:** Hard to say. I won some matches, but last time I was off my game and the snow was high and compact!
 
 #### Were you well equipped?
 **JD:** Yes, I had good teachers.  
