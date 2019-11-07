@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Bondary Layer Turbulence - BLT"
+title: "Boundary Layer Turbulence - BLT"
 summary: "Turbulence and abyssal upwelling in the deep bottom boundary layers."
 authors: []
 tags: [blt]
