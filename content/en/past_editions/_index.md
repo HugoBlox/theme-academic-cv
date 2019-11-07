@@ -223,7 +223,7 @@ We interviewed two GBPN fans, whom we shall denote by John Doe and Valanga90.
 **V90:** First a good walk and then we end up eating meatballs. 
 
 #### What do we do if there is too much snow?
-**JD:** We bring snorkels.
+**JD:** We bring snorkels.  
 **V90:** Snow is never too much! Worst case we play on a smaller ground (and we still end up eating meatballs).
 
 #### Will you be there this year?
@@ -232,8 +232,7 @@ We interviewed two GBPN fans, whom we shall denote by John Doe and Valanga90.
 
 #### Have you read the rules?
 **JD:** Yes, uhm.  
-**V90:** **V90:** But of course! The rules contain all the best secrets for a good battle.
-
+**V90:** But of course! The rules contain all the best secrets for a good battle.
 
 #### What makes you fight on when all seems lost?
 **JD:** Thinking of the sugar tea waiting at the end.  
@@ -257,3 +256,4 @@ Let the Battle begin!
 Last but not least: the people!
 
 {{< gallery album="people" >}}
+
