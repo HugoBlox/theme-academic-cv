@@ -4,7 +4,7 @@ headless = true  # This file represents a page section.
 active = true
 
 # ... Put Your Section Options Here (title etc.) ...
-title = "Past editions"
+title = "Participants' opinion"
 #subtitle = "Photos and interviews from previous participants"
 
 [design]
@@ -185,7 +185,6 @@ title = "Past editions"
   
 +++
 
-## Participants' opinion
 
 We interviewed two GBPN fans, whom we shall denote by John Doe and Valanga90. 
 
@@ -237,22 +236,4 @@ We interviewed two GBPN fans, whom we shall denote by John Doe and Valanga90.
 **JD:** Thinking of the sugar tea waiting at the end.  
 **V90:** Thinking of the evening's meatballs!
 
-
-## Photo gallery
-
-Pulling the sleigh is though work, but someone has to and noone else will.
-
-{{< gallery album="walk" >}}
-
-The beautiful Bivacco Menegazzi.
-
-{{< gallery album="biv" >}}
-
-Let the Battle begin!
-
-{{< gallery album="battle" >}}
-
-Last but not least: the people!
-
-{{< gallery album="people" >}}
 

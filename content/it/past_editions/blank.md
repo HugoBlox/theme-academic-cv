@@ -6,7 +6,7 @@ active = true
 share= false
 
 # ... Put Your Section Options Here (title etc.) ...
-title = "Edizioni passate"
+title = "Dicono di noi"
 #subtitle = "Photos and interviews from previous participants"
 
 [design]
@@ -15,7 +15,6 @@ title = "Edizioni passate"
 
 +++
 
-## Dicono di noi
 Abbiamo intervistato due aficionados della GBPN, che indicheremo con gli pseudonimi Aulo Agerio e Valanga90.
 
 #### A quante edizioni della GBPN hai partecipato?
@@ -66,5 +65,4 @@ Abbiamo intervistato due aficionados della GBPN, che indicheremo con gli pseudon
 **AA:** Il pensiero del tè zuccherato alla fine.  
 **V90:** Il pensiero delle polpette alla fine della giornata!
 
-## Foto
 
