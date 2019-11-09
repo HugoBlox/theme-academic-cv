@@ -6,7 +6,7 @@ active = true
 share= false
 
 # ... Put Your Section Options Here (title etc.) ...
-title = "Dicono di noi"
+title = ""
 #subtitle = "Photos and interviews from previous participants"
 
 [design]
@@ -15,7 +15,10 @@ title = "Dicono di noi"
 
 +++
 
-Abbiamo intervistato due aficionados della GBPN, che indicheremo con gli pseudonimi Aulo Agerio e Valanga90.
+## La Grande Battaglia di Palle di Neve è una tradizione risalente al 2013.
+
+Per darvi un'idea di come sia parteciparvi, 
+abbiamo intervistato due aficionados della GBPN, che indicheremo con gli pseudonimi Aulo Agerio e Valanga90.
 
 #### A quante edizioni della GBPN hai partecipato?
 **AA:** A tre, mi sembra. Boh.  
