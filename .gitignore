@@ -2,3 +2,4 @@ resources/
 public/
 .idea/
 netlify*
+*.exe
