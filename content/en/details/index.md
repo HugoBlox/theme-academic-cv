@@ -33,11 +33,10 @@ Here are Google Map's directions for getting to the start of the trek; if all go
 Not many cars will be able to park up there, so it is strongly advised to share vehicles!  
 The exact GPS coordinates of the parking area are [46.217733N, 11.928870E](https://goo.gl/maps/ip4GK8xxJjwSsrPr5).
 
-<!-- TODO choose the best map -->
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d2776.5954280982533!2d11.926422769565752!3d46.218352517813024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m5!1s0x477907af7f6f0507%3A0xeecf16d4e5212cbe!2sStazione%20di%20Belluno%2C%2032100%20Belluno%20BL!3m2!1d46.141429599999995!2d12.209919699999999!4m3!3m2!1d46.2176948!2d11.928752!5e0!3m2!1sit!2sit!4v1570967252808!5m2!1sit!2sit" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1L4QMF90G6f9P3XUTF-BxAJImoeocQmp7&z=11" width="100%" height="600"></iframe>
+<!-- <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1L4QMF90G6f9P3XUTF-BxAJImoeocQmp7&z=11" width="100%" height="600"></iframe> -->
 
 #### Trekking map
 Worried you'll wander forever in the woods above Gosaldo? Worry you not, because here's our awesome trekking map, courtesy of [Komoot](https://www.komoot.com/tour/98511283)! You can even send this to your phone, thanks to the magic of the internet.
