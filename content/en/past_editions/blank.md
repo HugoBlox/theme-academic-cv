@@ -1,7 +1,7 @@
 +++
 widget = "blank"
 headless = true  # This file represents a page section.
-active = true 
+active = true
 
 # ... Put Your Section Options Here (title etc.) ...
 title = "Past editions"
