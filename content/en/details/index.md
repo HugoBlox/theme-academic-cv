@@ -15,7 +15,7 @@ We will meet in front of **Belluno's train station** the morning of the **4th of
 From there on, we will organise transportation by car and separate the participants in groups, in order to minimise the number of vehicles.
 
 #### How to get to Belluno
-Getting to Belluno by car is easy: it is served by the A27 highway, about a 1.5 hour drive from Padova and Venice, 2.5 hours from Trieste, 4 hours from Milan. Every year snowballers from all over the world reach Belluno for the GBPN, so if you want to share the trip let us know: we'll do our best to get you in touch with those who could be interested!  
+Getting to Belluno by car is easy: it is served by the A27 highway, about a 1.5 hour drive from Padova and Venice, 2.5 hours from Trieste, 4 hours from Milan. Every year snowballers from all over the world reach Belluno for the GBPN, so if you want to share the trip [let us know](/contact): we'll do our best to get you in touch with those who could be interested!  
 Train lines reach the city from East (Conegliano), North (Cortina) and South (Padova); trains are usually few and far between, so plan your trip in advance.
 
 #### Accomodation
@@ -57,29 +57,38 @@ Here's a short list of what you might want to bring along with you to the battle
 
 #### Mandatory
 - Warm, waterproof clothing
+- Waterproof gloves
+- Sunglasses
 - Something to eat for yourself (chocolate!), although lunch will be provided (see below)
 - Something to drink, at least 1L is strongly recommended
 - Mountain boots or snow boots
 
 #### Highly recommended
 - A Headlamp
+- Snow gaiters
 - A change of clothes for after the battle
 - A snow-throwing weapon
 - A shield of the [specified dimensions](/rules).
-- Cash donation?
+- Cash donation (5€ suggested) highly appreciated!
 
 ## Miscellanea
 
 #### APAZAF's lunch
-We'll organise lunch based on the following stuff:
+Studies carried out on statistically irrelevant groups of snowballers have highlighted how a diet based on rice and legumes provides approximately 99.9% of the energy required for a day of snowballing. The remaining 0.1% is easily provided by chocolate and discount junk food. For this reason, in past editions, APAZAF has provided sufficient (and sometimes ample) quantities of delicious and balanced nutrients: risotto and Mexican beans. In order to meet the different requests from the participants, these take the form of:
 
-blah blah
+- Leek risotto (gluten free, lactose free and vegan)
+- Cream and sausage risotto (gluten free and that's it)
+- Mexican beans without bacon (gluten free, lactose free and vegan)
+- Mexican beans with bacon (gluten free, lactose free)
+
+Considered the fact that there's nothing better than a warm meal after a cold and hard battle, said provisions are soaked with plentiful extra virgin olive oil and heated on the stove. In the absence of specific requests, as per the Battle's millenary tradition, this menu will be offered again.  
+All participants are of course free to contribute with their own delicious food to the Battle's lunch, and also to highlight a general loathing for all the aforementioned delicacies.
 
 #### What happens if it rains?
-It does not rain, we have precise agreements with the weatherman. If by some mysterious astral alignement it happens, then we can have a rainball fight.
+It does not rain, we have precise agreements with the weatherman. If by some mysterious astral syzygy it happens, then we can have a rainball fight.
 
 #### Price
-No price, but suggested ticket of 5-10€?
+It's free! Nevertheless, a donation of 5€ would help keep things going ;-)
 
 #### Exercise care!
 Be careful! This is not a trip to a very touristic hut: getting to the Battle site requires effort and will. It is not an hard trek by any means, but be prepared to be tired, especially if you are not used to this kind of things.
