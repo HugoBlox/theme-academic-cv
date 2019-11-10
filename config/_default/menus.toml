@@ -3,10 +3,11 @@
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
-# [[main]]
-#   name = "About the GBPN"
-#   url = "#about"
-#   weight = 10
+
+[[main]]
+  name = "Details"
+  url = "/details"
+  weight = 10
 
 [[main]]
   name = "News"
@@ -17,11 +18,6 @@
   name = "Register"
   url = "/register"
   weight = 14
-
-[[main]]
-  name = "Details"
-  url = "/details"
-  weight = 20
 
 [[main]]
   name = "Rules"
