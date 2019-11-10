@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: I miei interessi di ricerca sono limitati alle palle di neve
+bio: My research interests are limited to snowballs
 
 interests:
 - Snowballs

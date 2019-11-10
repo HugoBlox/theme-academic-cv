@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Organizzatore, battaglie di palle di neve
+role: Organizzatore di battaglie di palle di neve
 
 # Organizations/Affiliations
 organizations:
