@@ -13,7 +13,7 @@ Ci incontriamo alla **Stazione di Belluno** la mattina del **4 gennaio 2020 alle
 Da lì in poi, organizzeremo il trasporto in auto e divideremo i partecipanti in gruppi in modo da minimizzare il numero delle stesse.
 
 #### Arrivare a Belluno
-Arrivare a Belluno in auto è facile: basta prendere la A27, circa 1.5 ore da Padova o Venezia, 2.5 ore da Trieste, 4 ore da Milano.
+Arrivare a Belluno in auto è facile: basta prendere la A27, circa 1.5 ore da Padova o Venezia, 2.5 ore da Trieste, 4 ore da Milano. Ogni anno diversi palladinevisti raggiungono Belluno dai quattro angoli del globo, per cui se volete condividere il mezzo di trasporto informateci: tenteremo di mettervi in contatto tra di voi!  
 Treni arrivano da est (Conegliano), nord (Cortina) e sud (Padova). I treni sono pochi, pianificate di conseguenza.
 
 #### Alloggio
