@@ -1,14 +1,14 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "The official site for the GBPN is (a)live!"
+title: "The official site for the Great Snowball Battle is (a)live!"
 subtitle: ""
 summary: ""
 authors: [af]
 tags: []
 categories: []
 date: 2019-10-14T19:24:47+02:00
-lastmod: 2019-10-14T19:24:47+02:00
+lastmod: 2019-11-10T20:50:47+02:00
 featured: false
 draft: false
 
@@ -28,4 +28,7 @@ image:
 projects: []
 ---
 
-All rejoice the seven heavens!
+Rejoice! The new website of the Great Snowball Fight is live!  
+Here you'll find all the necessary and unnecessary details about the most important event of the upcoming year, including the (must-read) [rules](/rules)! Any news regarding the Battle plan, weather updates etc. will be posted in the (how unexpected!) [news section](/post). Be sure to also check out all the [additional information](/details) as well as some beautiful pictures and interviews from [past editions](/past_editions)!
+
+For any question, suggestion or generic facetiousness, [contact us](/contact)! Do not forget that we also have a [Telegram group](https://t.me/joinchat/CckkABLrWpqLh81Gvzncsw) for any discussion related to the Great Snowball Fight!
