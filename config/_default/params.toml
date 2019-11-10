@@ -18,7 +18,7 @@ day_night = false
 #   Latest font sets (may require updating): https://sourcethemes.com/academic/themes/
 #   Browse built-in font sets in `themes/academic/data/fonts/`
 #   Browse user installed font sets in `data/fonts/`
-font = ""
+font = "classic"
 
 # Choose a font size.
 # Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
@@ -41,7 +41,7 @@ local_business_type = ""
 
 # Organization name (optional)
 # Enter an organization or project name. Defaults to the site title from `config.toml`.
-org_name = "La Grande Battaglia di Palle di Neve"
+org_name = "APAZAF"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = ""
@@ -85,7 +85,7 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", repo_branch 
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "palledinevedolomiti@gmail.com"
+email = ""
 phone = ""
 
 # Address
@@ -132,7 +132,7 @@ twitter = ""
 
 # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
 #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-date_format = "Jan 2, 2006"
+date_format = "2 Jan 2006"
 #   Examples: "3:04 pm" or "15:04"
 time_format = "15:04"
 
@@ -173,7 +173,7 @@ plugins_js  = []
 [publications]
   # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-  date_format = "2006-01-02"
+  date_format = "2 Jan 2006"
 
   # Citation style ("apa" or "mla")
   citation_style = "apa"
