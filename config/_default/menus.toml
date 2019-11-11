@@ -14,29 +14,34 @@
   weight = 20
 
 [[main]]
-  name = "Projects"
-  url = "#projects"
+  name   = "Featured"
+  url    = "#featured"
+  weight = 25
+
+[[main]]
+  name = "Talks"
+  url = "#talks"
   weight = 30
 
 [[main]]
-  name = "Publications"
-  url = "#featured"
+  name = "Projects"
+  url = "#projects"
   weight = 40
 
-#[[main]]
-#  name = "Teaching"
-#  url = "#teaching"
-#  weight = 60
-#
-#[[main]]
-#  name = "Tutorials"
-#  url = "/tutorial/"
-#  weight = 50
+[[main]]
+  name = "Publications"
+  url = "#publications"
+  weight = 50
+
+[[main]]
+  name = "Popular Topics"
+  url  = "#tags"
+  weight = 55
 
 [[main]]
   name = "People"
   url = "#people"
-  weight = 45
+  weight = 60
 
 [[main]]
   name = "Contact"

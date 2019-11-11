@@ -6,6 +6,7 @@ authors = ["Maite Lobo", "Virginia Balouz", "Luciano Melli", "Gianina Carlevaro"
 publication_types = ["2"]
 publication = "PLOS Neglected Tropical Diseases, (13), 3, _pp. e0007245_, https://doi.org/10.1371/journal.pntd.0007245"
 publication_short = "PLOS Negl Trop Dis, (13), 3, _pp. e0007245_, https://doi.org/10.1371/journal.pntd.0007245"
+doi = "10.1371/journal.pntd.0007245"
 projects = ["immunomics"]
 
 # Tags and categories

@@ -1,6 +1,6 @@
 +++
 # Project title.
-title = "TDR Targets"
+title = "tdrtargets"
 
 # Date this page was created.
 date = 2019-08-03T00:00:00
@@ -33,7 +33,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com/trypanosomatics"}]
+links = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com/tdrtargets"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
@@ -46,4 +46,15 @@ links = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitt
   focal_point = "Top"
 +++
 
-The volume of biological, chemical and functional data deposited in the public domain is growing rapidly, thanks to next generation sequencing, and highly-automated screening technologies. However, there is still a large data imbalance between model, well-funded organisms and pathogens causing neglected diseases (NDs). We developed a chemogenomics resource, (TDR Targets, <a href="http://tdrtargets.org">http://tdrtargets.org</a>), that aims to organize and integrate heterogeneous large datasets with a focus on drug discovery for human pathogens. The database also hosts chemical and genomic data from other organisms to leverage data for comparative and inference-based queries. One of the major impacts of TDR Targets is to facilitate target and chemical prioritizations by allowing users to formulate complex queries across diverse query spaces. 
+The volume of biological, chemical and functional data deposited in the
+public domain is growing rapidly, thanks to next generation sequencing, and
+highly-automated screening technologies. However, there is still a large
+data imbalance between model, well-funded organisms and pathogens causing
+neglected diseases (NDs). We developed a chemogenomics resource, (TDR
+Targets, <a href="https://tdrtargets.org">https://tdrtargets.org</a>), that
+aims to organize and integrate heterogeneous large datasets with a focus on
+drug discovery for human pathogens. The database also hosts chemical and
+genomic data from other organisms to leverage data for comparative and
+inference-based queries. One of the major impacts of TDR Targets is to
+facilitate target and chemical prioritizations by allowing users to
+formulate complex queries across diverse query spaces. 

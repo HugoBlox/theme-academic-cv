@@ -14,8 +14,8 @@ interval = false
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
-  title = "TDR Targets"
-  content = "A chemogenomics resource for neglected diseases"
+  title = "TDR Targets 6"
+  content = "Chemogenomics database: drug discovery for neglected diseases"
   align = "center"
 
   # Overlay / Image
@@ -25,7 +25,7 @@ interval = false
 
   # Call to action
   cta_label = "Search/Browse"
-  cta_url = "http://tdrtargets.org"
+  cta_url = "https://tdrtargets.org"
   cta_icon_pack = "fas"
   cta_icon = "book-open"
 
@@ -59,7 +59,7 @@ interval = false
 
   # Call to action
   cta_label = "Upcoming"
-  cta_url = "http://aprank.trypanosomatics.org"
+  cta_url = "https://aprank.trypanosomatics.org"
   cta_icon_pack = "fas"
   cta_icon = "clock"
 
@@ -74,7 +74,7 @@ interval = false
 
   # Call to action 
   cta_label = "Upcoming"
-  cta_url = "http://chagastope.org"
+  cta_url = "https://chagastope.org"
   cta_icon_pack = "fas"
   cta_icon = "clock"
 +++

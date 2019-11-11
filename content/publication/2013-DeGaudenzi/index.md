@@ -5,6 +5,7 @@ authors = ["Javier G De Gaudenzi", "@santiago", "@fernan", "Alberto C Frasch"]
 publication_types = ["2"]
 publication = "PeerJ, (1), _pp. e118_, https://doi.org/10.7717/peerj.118"
 publication_short = "PeerJ, (1), _pp. e118_, https://doi.org/10.7717/peerj.118"
+doi = "10.7717/peerj.118"
 abstract = ""
 summary = ""
 image_preview = ""

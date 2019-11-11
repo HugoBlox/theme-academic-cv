@@ -5,6 +5,7 @@ authors = ["Ignacio M Durante", "Pablo E La Spina", "@santiago", "@fernan", "Car
 publication_types = ["2"]
 publication = "PLOS Neglected Tropical Diseases, (11), 9, _pp. e0005986_, https://doi.org/10.1371/journal.pntd.0005986"
 publication_short = "PLOS Negl Trop Dis, (11), 9, _pp. e0005986_, https://doi.org/10.1371/journal.pntd.0005986"
+doi = "10.1371/journal.pntd.0005986"
 abstract = ""
 summary = ""
 image_preview = ""

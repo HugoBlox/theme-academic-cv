@@ -5,6 +5,7 @@ authors = ["Virginia Balouz", "María de los Milagros Cámara", "Gaspar E Cánep
 publication_types = ["2"]
 publication = "Clinical and Vaccine Immunology, (22), 3, _pp. 304--12_, https://doi.org/10.1128/CVI.00684-14"
 publication_short = "Clin. Vaccine Immunol., (22), 3, _pp. 304--12_, https://doi.org/10.1128/CVI.00684-14"
+doi = "10.1128/CVI.00684-14"
 abstract = ""
 summary = ""
 image_preview = ""

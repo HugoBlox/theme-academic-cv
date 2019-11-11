@@ -2,3 +2,5 @@ resources/
 public/
 .idea/
 netlify*
+*.exe
+thumbs.db

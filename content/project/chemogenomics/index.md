@@ -49,7 +49,7 @@ links = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitt
 This is a major research line in the Trypanosomatics Lab, which gives rise to a wide variety of projects: 
 
 <ul>
-  <li><a href="{{< ref "/project/TDR-targets" >}}">TDR Targets</a></li>
+  <li><a href="{{< ref "/project/tdrtargets" >}}">TDR Targets</a></li>
   <li><a href="{{< ref "/project/Yeast-repo" >}}">Yeast-to-Tryp Drug Repurposing</a></li>
   <li><a href="{{< ref "/project/HTS" >}}">High-throughput screening of trypanocidal agents</a></li>
 </ul>
@@ -59,7 +59,7 @@ treatments (drugs) for infectious diseases.
 
 Depending on the approach (computational vs hybrid vs experimental), we may
 target a large number of human pathogens (as in [TDR Targets]({{< ref
-"/project/TDR-Targets" >}})) or may concentrate only on Chagas Disease
+"/project/tdrtargets" >}})) or may concentrate only on Chagas Disease
 (American Trypanosomiasis, caused by _Trypanosoma cruzi_) or on Sleeping
 Sickness (Human African Trypanosomiasis, HAT, caused by _Trypanosoma
 brucei_). 

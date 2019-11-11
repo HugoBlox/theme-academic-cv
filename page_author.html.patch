@@ -1,0 +1,22 @@
+--- themes/academic/layouts/partials/page_author.html	2019-10-16 17:01:36.416719371 -0300
++++ layouts/partials/page_author.html	2019-10-17 17:12:04.444197322 -0300
+@@ -17,6 +17,13 @@
+   {{ $author_urlized = urlize $first_author }}
+ {{ end }}
+ 
++{{ range $key, $value := $.Params.authors }}
++{{ $author := $value }}
++{{ $author_urlized = urlize $author }}
++{{ $ntax := "authors" }}
++{{ $profile_page := site.GetPage (printf "/%s/%s" $ntax $author_urlized) }}
++{{ with $profile_page.Params.role }}
++
+ {{ $site_type := site.Params.site_type | default "Person" }}
+ {{ $taxonomy := "authors" }}
+ {{ $profile_page := site.GetPage (printf "/%s/%s" $taxonomy $author_urlized) }}
+@@ -44,3 +51,5 @@
+   </div>
+ {{end}}{{/* Profile page block */}}
+ {{end}}{{/* Show profile block */}}
++{{end}}
++{{end}}
