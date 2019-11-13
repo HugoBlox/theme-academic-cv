@@ -9,23 +9,23 @@
   weight = 10
 
 [[main]]
-  name = "Posts"
-  url = "#posts"
+  name = "Faculty"
+  url = "#faculty"
   weight = 20
 
 [[main]]
-  name = "Projects"
-  url = "#projects"
+  name = "Students"
+  url = "#students"
   weight = 30
 
 [[main]]
-  name = "Publications"
-  url = "#featured"
+  name = "Labs"
+  url = "#labs"
   weight = 40
 
 [[main]]
-  name = "Contact"
-  url = "#contact"
+  name = "Events"
+  url = "#events"
   weight = 60
 
 # Link to a PDF of your resume/CV from the menu.

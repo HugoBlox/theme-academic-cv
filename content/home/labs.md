@@ -6,9 +6,9 @@
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 15  # Order that this section will appear.
+weight = 120  # Order that this section will appear.
 
-title = "About"
+title = "Labs"
 subtitle = ""
 
 [design]
@@ -22,7 +22,7 @@ subtitle = ""
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-  color = "white"
+  color = "#F8F9F9"
   
   # Background gradient.
   # gradient_start = "White"
@@ -50,14 +50,13 @@ subtitle = ""
  css_class = ""
 +++
 
-{{% alert note %}}
-This homepage is currently under construction!
-{{% /alert %}}
+Check out the labs that are part of LSD! 
 
-Welcome to the **Languages, Systems, and Data** group's website!
+[Decent Lab](https://users.soe.ucsc.edu/~owen/)
 
-We are a collection of [CSE](https://www.soe.ucsc.edu/) research labs at the [University of California, Santa Cruz](https://www.ucsc.edu/) focused on the intersection of languages, systems, and data research.
+[Disorderly Labs](https://disorderlylabs.github.io/)
 
-Our goal as a new, collaborative group of researchers is to tackle multi-domain problems. From programming languages, distributed systems, data management systems, edge computing, formal methods, solver-aided systems, and security.  
+[Edge Lab](https://edge-lab.github.io/)
 
+[Lindsey's Lab](https://users.soe.ucsc.edu/~lkuper/)
 

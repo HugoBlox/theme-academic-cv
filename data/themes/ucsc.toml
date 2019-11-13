@@ -1,0 +1,23 @@
+# Theme metadata
+name = "primary-ucsc"
+
+# Is theme light or dark?
+light = true
+
+soft_text = "#aaa"
+
+# Primary
+primary = "#003c6c"
+primary_light = "#003c6c"
+primary_dark = "#003c6c"
+
+# Menu
+menu_primary = "#003c6c"
+menu_text = "#fff"
+menu_text_active = "#fff"
+menu_title = "#fff"
+
+# Backgrounds
+background = "#fff"
+home_section_odd = "#fff"
+home_section_even = "#f7f7f7"
