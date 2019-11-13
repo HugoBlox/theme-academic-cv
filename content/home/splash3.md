@@ -1,8 +1,8 @@
 +++
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 45  # Order that this section will appear in.
+active = false  # Activate this widget? true/false
+weight = 25  # Order that this section will appear in.
 title = "Emerald Toucan, Costa Rica (2016)"
 
 [design]

@@ -4,7 +4,7 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "Home"
+  name = "About"
   url = "#about"
   weight = 10
 
@@ -14,28 +14,33 @@
   weight = 20
 
 [[main]]
-  name = "Posts"
-  url = "#posts"
+  name = "Publications"
+  url = "#publications"
   weight = 30
+
+[[main]]
+  name = "Demos"
+  url = "https://demo.justinjgrace.com"
+  weight = 40
 
 [[main]]
   name = "Talks"
   url = "#talks"
-  weight = 40
+  weight = 50
 
 [[main]]
-  name = "Publications"
-  url = "#publications"
-  weight = 50
+  name = "Posts"
+  url = "#posts"
+  weight = 60
 
 [[main]]
   name = "CV"
   url = "files/CV-2019-JGRACE.pdf"
-  weight = 60
+  weight = 70
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 70
+  weight = 80
 
 
