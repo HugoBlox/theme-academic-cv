@@ -30,6 +30,11 @@
   weight = 50
 
 [[main]]
+  name = "Snow status"
+  url = "/snow"
+  weight = 60
+
+[[main]]
   name = "Contact"
   url = "/contact"
   weight = 80
