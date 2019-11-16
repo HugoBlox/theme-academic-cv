@@ -72,7 +72,7 @@ Regolamento
     Matzl e Schneebeli, 2010.
 
 8.  Un giocatore muore quando viene colpito da una palla di neve. È
-    severamente vietato morire in altro modo.
+    severamente vietato morire in altro modo, così come fingere di morire.
 
 9.  Le palle di neve devono essere sufficientemente compatte affinché
     non possano sussistere dubbi riguardo all'essere colpito o meno.

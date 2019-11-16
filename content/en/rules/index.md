@@ -56,7 +56,7 @@ Rules
     chemical composition and crystalline structure with the local snow.
     The above shall be checked with the methods exposed in Matz and Schneebeli, 2010.
 
-8.  A player dies when hit by a snowball. It is strictly forbidden to die in any other fashion.
+8.  A player dies when hit by a snowball. It is strictly forbidden to die in any other fashion, as well as to pretend to be dead.
 
 9.  Snowballs must be sufficiently compact so as to avoid any doubts concerning being hit.
     Moreover, snowballs cease to be valid upon contact with the ground, trees, passing animals, dead players and 
