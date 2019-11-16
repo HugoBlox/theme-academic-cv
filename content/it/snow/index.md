@@ -13,5 +13,5 @@ Il rifugio Scarpa--Gurekian si trova vicino alla malga, e dispone di una belliss
 
 ![Scarpa hut webcam](https://www.rifuginrete.com/rifugio/scarpa/webcam/cam.jpg)
 
-Per immagini webcam di altri rifugi, raccomandiamo il sito di [RifugInRete](https://www.rifuginrete.com/webcam). Lì trovate anche immagini delle ultime 24 ore in vari rifugi, compreso lo Scarpa--Gurekian.
+Per immagini webcam di altri rifugi, raccomandiamo il sito di [RifugInRete](https://www.rifuginrete.com/webcam). Lì trovate anche immagini delle ultime 24 ore per vari rifugi, compreso lo Scarpa--Gurekian.
 

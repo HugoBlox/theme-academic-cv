@@ -29,7 +29,7 @@
   weight = 50
 
 [[main]]
-  name = "Stato neve"
+  name = "Situazione neve"
   url = "/snow"
   weight = 60
 

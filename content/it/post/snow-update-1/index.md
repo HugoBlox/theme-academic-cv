@@ -30,7 +30,7 @@ projects: []
 ---
 
 Cari palladinevisti, buone notizie!
-Il tempo è stato pessimo intorno a Belluno negli ultimi giorni: molta pioggia e un paio di giorni molto freddi e notti gelate.
+Il tempo è stato pessimo nei dintorni di Belluno negli ultimi giorni: molta pioggia e un paio di giorni molto freddi e notti gelate.
 Fortunatamente per noi, siamo saggi e capaci di rallegrarci persino in queste circostanze funeste, poiché questo significa che la neve sta già cadendo sui monti e in grande quantità.
 Non abbiamo informazioni dirette sullo stato della neve al bivacco Menegazzi, ma: 
 
@@ -45,13 +45,13 @@ Questa è la situazione aggiornata a ieri sera: sono già caduti più di 60cm di
 
 ![Malga Losch snow graph](/img/post/snow_losch_2019-11-15.jpg)
 
-Qui ci sono due belle immagini fatte qualche giorno fa dalla webcam dello Scarpa--Gurekian:
+Qui ci sono due belle immagini scattate qualche giorno fa dalla webcam dello Scarpa--Gurekian:
 
 ![Scarpa-Gurekian hut webcam](/img/post/webcam_scarpa_2019-11-14_night.jpg)
 ![Scarpa-Gurekian hut webcam](/img/post/webcam_scarpa_2019-11-14_day.jpg)
 
 ---------
 
-In sostanza, a meno che non ci attenda un dicembre molto molto asciutto,è improbabile che tutta questa neve si sciolga, e ne avremo probabilmente grande abbondanza di materia prima per palle di neve!  
+In sostanza, a meno che non ci attenda un dicembre molto molto asciutto,è improbabile che tutta questa neve si sciolga, e avremo probabilmente grande abbondanza di materia prima per palle di neve!  
 
 Abbiamo anche aggiunto una [pagina stato neve](/it/snow) al sito, dove troverete sempre informazioni e immagini aggiornate.
