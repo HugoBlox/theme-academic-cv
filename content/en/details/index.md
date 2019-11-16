@@ -98,7 +98,7 @@ As such, be careful of where you step, listen to your more experienced snow coll
 #### What to do in Belluno
 Belluno and the surrounding towns are a small, little-know gem at the foot of the famous Dolomites, well worth a few days off if you can spare some.
 <img src="/img/belluno.jpg" style="width:100%;" title="A view of Belluno with its mountains in the background. Courtesy of Silvano Fantini.">
-Feel free to combine your snowballing fever with some trekking, climbing or skiing in one of the various beautiful locations around the city. Keep in mind that you will likely need a car to be able to enjoy all of the attractions that surround Belluno. A good site kept up-to-date with events and information is that of [AdorableBelluno](http://adorable.belluno.it/).
+Feel free to combine your snowballing fever with some trekking, climbing or skiing in one of the various beautiful locations around the city. Keep in mind that you will likely need a car to be able to enjoy all of the attractions that surround Belluno. Two good sites kept up-to-date with events and info are [AdorableBelluno](http://adorable.belluno.it/) and [Infodolomiti](http://www.infodolomiti.it/).
 
 
 ## Disclaimers

@@ -99,7 +99,7 @@ Quindi: attenzione a dove mettete i piedi, ascoltate i colleghi pallanevisti pi�
 Belluno e paesi limitrofi sono un piccola e poco conosciuta gemma ai piedi delle Dolomiti, e valgono abbondantemente qualche giorno di visita se potete permettervelo.
 <img src="/img/belluno.jpg" style="width:100%;" title="Vista di Belluno con i suoi monti sullo sfondo. Si ringrazia Silvano Fantini.">
 Sentitevi liberi di combinare le palle di neve con ulteriori camminate, arrampicate o sciate in una delle varie belle località intorno alla città.
-Sappiate che avrete probabilmente bisogno di un'auto per poter approfittare di tutte le attrazioni del Bellunese. Un buon sito con informazioni aggiornate su territorio e eventi è [AdorableBelluno](http://adorable.belluno.it/).
+Sappiate che avrete probabilmente bisogno di un'auto per poter approfittare di tutte le attrazioni del Bellunese. Due buoni siti con informazioni aggiornate su territorio e eventi sono [AdorableBelluno](http://adorable.belluno.it/) e [Infodolomiti](http://www.infodolomiti.it/).
 
 ## Disclaimer
 Tutti i luoghi, orari e date sono soggetti a modifiche senza preavviso da parte di APAZAF. Informazioni al riguardo saranno pubblicate sul [sito](/it/post) della GBPN appena possibile.
