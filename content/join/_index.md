@@ -22,7 +22,11 @@ For the summer of 2019, I am recruiting an SSF to work on a joint computational 
 
 ## Graduate students
 
-If you are looking to work on computational approaches to better understand marine microbial systems, you may be a good fit in the lab. Prospective graduate students should apply to the [MIT-WHOI Joint Program](http://mit.whoi.edu/) in Biological Oceanography. Interested students should contact Harriet directly. Generally speaking, competitive applicants to the Joint Program will have a GPA of 3.5 or higher. I am looking for candidates who have a background in Biology, Chemistry, Computational Biology, or a closely related area. I would like to see evidence of a rigorous science foundation with courses such as genetics, genomics, computational biology, biochemistry, cell biology, molecular biology, genetics, calculus, organic chemistry, and/or computer science. I strongly advise all eligible students to apply for fellowship programs.
+If you are interested in phytoplankton ecology or working on computational approaches to enable our understanding of marine microbial systems, you may be a good fit in the lab. Generally, I look for students who have a background in Biology, Chemistry, Computational Biology, or a closely related area and have taken classes that might include: genetics, genomics, computational biology, biochemistry, cell biology, molecular biology, genetics, statistics, calculus, organic chemistry, and/or computer science. However, please don't let this list stop you from contacting Harriet! 
+
+Prospective graduate students should apply to the [MIT-WHOI Joint Program](http://mit.whoi.edu/) in Biological Oceanography. 
+
+If you are interested in applying and think that our research sounds interesting, please email Harriet directly. 
 
 ## Postdocs
 
