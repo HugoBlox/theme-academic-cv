@@ -10,7 +10,7 @@ You can verify the current snow status by checking the values reported by the Ma
 ![Current snow status at Malga Losch](https://www.arpa.veneto.it/bollettini/meteo/h24/img00/Graf_390_LIVNEVE.jpg)
 
 
-The Scarpa--Gurekian hut is placed nearby the Malga, and has a beautiful webcam pointing N-E towards the Agordo Valley. It is also a very good indicator of the current amount of snow. This is the last image taken today:
+The Scarpa--Gurekian hut is placed nearby the Malga, and has a beautiful webcam pointing N-E towards the Agordo Valley. It is also a very good indicator of the current amount of snow. This is the last image taken:
 
 ![Scarpa hut webcam](https://www.rifuginrete.com/rifugio/scarpa/webcam/cam.jpg)
 
