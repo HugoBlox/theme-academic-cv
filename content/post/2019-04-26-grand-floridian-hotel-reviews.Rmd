@@ -42,7 +42,6 @@ mutate(rating = as.factor(rating))
 
 rdf$stay_date <- gsub("Date of stay: ", "", rdf$stay_date)
 rdf$stay_date <- as.yearmon(rdf$stay_date, "%b %Y")
-kable(head(rdf,3)) %>% kable_styling(bootstrap_options = "striped", full_width = F,font_size = 8) 
 
 ```
 

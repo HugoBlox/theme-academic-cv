@@ -10,7 +10,6 @@ tags:
   - keras
 ---
 
-<script src="/rmarkdown-libs/kePrint/kePrint.js"></script>
 
 
 <div id="grand-floridian-hotel-reviews-sentiment-analysis-and-nlp" class="section level2">
@@ -34,58 +33,7 @@ mutate(rating = as.factor(rating))
 #change stay_date variable from character to date type
 
 rdf$stay_date &lt;- gsub(&quot;Date of stay: &quot;, &quot;&quot;, rdf$stay_date)
-rdf$stay_date &lt;- as.yearmon(rdf$stay_date, &quot;%b %Y&quot;)
-kable(head(rdf,3)) %&gt;% kable_styling(bootstrap_options = &quot;striped&quot;, full_width = F,font_size = 8) </code></pre>
-<table class="table table-striped" style="font-size: 8px; width: auto !important; margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;">
-rating
-</th>
-<th style="text-align:left;">
-stay_date
-</th>
-<th style="text-align:left;">
-review
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-5
-</td>
-<td style="text-align:left;">
-Apr 2019
-</td>
-<td style="text-align:left;">
-We have stayed throughout the Deluxe resorts on Disney property. We are a Disney family and have “grown up” in our accommodation needs starting at Animal Kingdom, through the Epcot resorts and this year, our first year staying at the Grand Floridian. With older kids, we decided to make this our home for our stay this year and we couldn’t have made a better choice. The main lobby is impressive and part way through our stay the easter eggs made their impressive appearance for the next few weeks. Dumbo on a Marbled egg is simply amazing!We arrived by Uber this year and we were, as typical for the Deluxe Resorts, greeted immediately by name and handed off to a cast member that would help with the check-in process. We were staying on the “club level” which we have always done (in anyone wants to know why, ping me… it is a HUGE benefit when executed properly). We were there early, so our luggage was handled and we were brought directly to the Club building where we could start our day and informed that when our room was ready, we would be notified by text and through the Disney app. The family split up to pools, and monorail rides to enjoy Disney. And fairly early in the afternoon, our room was ready. The rooms are a bit larger in Grand Floridian than they are in some of the other resorts and they make good use of that space. Two queen beds and a single pullout bed made life easy for us. Later that evening, we were planning to head out to watch the fireworks from the grounds but realized we could stand on our balcony and have a clear view which was great! There are better views for sure, but you can’t beat getting back into your room at 9:33 pm literally seconds after the fireworks end.Access to transportation is great with so many options from this resort. Monorail, boat or bus (or the Minnie-Van’s ;) ) to get you to where you need to go. I’m not sure if we were just lucky this year, but we never waited more than 5 minutes for any type of transportation. We used all of the pools during our stay and although crowded, we always (eventually) found a spot to sit back and relax. Virgin Strawberry Daiquiris were a hit (and a snack credit!!). The pools were clean and well managed to say the least and the constant activities available at the smaller pool was so much fun to watch. The “Club Level” at Grand Floridian was without question the best of any that we have experienced. Although a bit smaller than some, the quality of the options was amazing. Even Mickey waffles in the mornings for those looking for a bit heartier start to the day. There is rarely anything but raves regarding the staff at the Deluxe resorts and this stay was no different if not a step up. I’m not sure if there is a process or approach to who goes where but everyone was awesome!There are plenty of shops in the resort to keep you in whatever you need and regardless, spend some time just enjoying the main lobby while you are there. The restaurant count is greater than any other resort (I think) although some on the high end of the range, but certainly options for everyone. We ended our stay with a trip back to the airport on Disney’s Magical Express and as has been with every time using this service, it was flawless! A great Disney Resort that deserves its reputation!
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-5
-</td>
-<td style="text-align:left;">
-Oct 2018
-</td>
-<td style="text-align:left;">
-This was our second stay at the Grand Floridian. This stay we were in the Main Building Club Level. The resort’s attention to detail is extraordinary. Our room was clean and spacious with a wonderful view of Magic Kingdom. The staff was very accommodating during the stay. There is a fitness center and spa on property, and the location on the monorail makes it very convenient.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-5
-</td>
-<td style="text-align:left;">
-Mar 2019
-</td>
-<td style="text-align:left;">
-Family Vacation dreams come true. We have always wanted to stay at Grand Floridian and this time we finally were able to. The Grand Floridian was very clean and we were able to get a great nights rest thanks to the very comfortable beds. My children loved the hidden murphy bed so much they traded out each night on who would sleep on it. We loved that upon our arrival we went down to the dock to watch the fireworks from Magic Kingdom and we could even hear all the music from speakers on the dock. We can not be more happy about out stay here.
-</td>
-</tr>
-</tbody>
-</table>
+rdf$stay_date &lt;- as.yearmon(rdf$stay_date, &quot;%b %Y&quot;)</code></pre>
 <p>Above we see three example reviews.
 Now we can plot the share each rating category (1-5) over time.</p>
 <pre class="r"><code>rdf %&gt;% 
@@ -391,10 +339,10 @@ model %&gt;% summary()</code></pre>
 print(hist)</code></pre>
 <pre><code>## Trained on 1,880 samples, validated on 470 samples (batch_size=32, epochs=10)
 ## Final epoch (plot to see history):
-## val_loss: 0.5416
-##  val_acc: 0.7787
-##     loss: 0.181
-##      acc: 0.9404</code></pre>
+## val_loss: 0.5454
+##  val_acc: 0.7894
+##     loss: 0.1847
+##      acc: 0.9346</code></pre>
 <pre class="r"><code>plot(hist)</code></pre>
 <p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-22-1.png" width="672" />
 The training loss decreases with each epoch, while the accuracy increases. However, the validation data does not show this same trend, which indicates that we are overfitting. The right number of epochs appears to be 6. Considering the fact that we only use the 1000 most common words and cut reviews off at 100 words, our model is fairly accurate (peaking at around 80% on the validation set). However, we can likely increase this by increasing the feature space and length of review considered.</p>
@@ -434,10 +382,10 @@ model %&gt;% compile(
 print(hist)</code></pre>
 <pre><code>## Trained on 1,880 samples, validated on 470 samples (batch_size=32, epochs=10)
 ## Final epoch (plot to see history):
-## val_loss: 0.4595
-##  val_acc: 0.8
-##     loss: 0.1623
-##      acc: 0.9484</code></pre>
+## val_loss: 0.4895
+##  val_acc: 0.8191
+##     loss: 0.1634
+##      acc: 0.9527</code></pre>
 <pre class="r"><code>plot(hist)</code></pre>
 <p><img src="/post/2019-04-26-grand-floridian-hotel-reviews_files/figure-html/unnamed-chunk-25-1.png" width="672" /></p>
 <p>Again, 6 appears to be the right number of epochs–beyond this we are overfitting. Although validation accuracy improves to about 84% (a 4% increase from the previous model), there is a tradeoff in that this model takes more than 2 times the amount of time to train. If rapid classification is necessary, the smaller feature space performance may be sufficient.</p>
