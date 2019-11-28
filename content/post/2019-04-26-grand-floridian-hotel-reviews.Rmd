@@ -10,9 +10,7 @@ tags:
   - keras
 ---
 ## Grand Floridian Hotel Reviews: Sentiment Analysis and NLP
-The data for this analysis was obtained from the reviews posted on TripAdvisor. I used RSelenium and rvest to extract the data from the first 3000 dynamic web-pages on the TripAdvisor site, which was 2,350 reviews in total. The code used to do this is published on my GitHub [here](https://github.com/mikaylaedwards/gf_reviews/blob/master/gf_reviews.Rmd) 
 
-Here, I load the the Rda file I saved from that extraction. 
 ```{r,message=FALSE,warning=FALSE}
 library(tidyverse)
 library(zoo)
@@ -24,10 +22,10 @@ library(kableExtra)
 
 ```
 
-This is the raw version of the data as obtained from the site: it has the text content of the review, the star rating (1-5), and the date of stay (month/year).
-```{r}
+This is the raw version of the reviews data: it has the text content of the review, the star rating (1-5), and the date of stay (month/year).
+```{r include=FALSE}
 #load data
-rdf<-readRDS("first_3000.Rda")
+rdf<-readRDS("/Users/mikaylaedwards/Downloads/first_3000.Rda")
 str(rdf)
 ```
 
