@@ -20,10 +20,10 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: Danming An is a developmental psychologist whose research primarily focuses on children’s and adolescents’ socio-emotional development. She currently works as a postdoctoral scholar with Dr. Grazyna Kochanska at the University of Iowa. Her research interests include examining the effects of context (e.g., culture, parenting, family dynamics, peer relationships) and early temperament on children’s socio-emotional development and mental health, as well as investigating the implications of informant discrepancies and situational variations in the measurement of children’s social and psychological adjustment.
 
-[interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval]
+#interests:
+#- Artificial Intelligence
+#- Computational Linguistics
+#- Information Retrieval]
 
 education:
   courses:
