@@ -10,22 +10,22 @@
 
 [[main]]
   name = "Projects"
-  url = "/projects"
+  url = "#projects"
   weight = 30
 
 [[main]]
   name = "Publications"
-  url = "/featured"
+  url = "#featured"
   weight = 40
   
 [[main]]
   name = "研究进展（中文）"
-  url = "/posts"
+  url = "#posts"
   weight = 50
 
 [[main]]
   name = "Contact"
-  url = "/contact"
+  url = "#contact"
   weight = 60
 
 # Link to a PDF of your resume/CV from the menu.
