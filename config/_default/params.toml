@@ -94,7 +94,7 @@ address = {street = "W311 Seashore Hall", city = "Iowa City", region = "IA", pos
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "41.66288", longitude = "-91.5332367"}
+coordinates = {latitude = "41.6612691", longitude = "-91.5315453"}
 
 # Directions for visitors to locate you.
 # directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
