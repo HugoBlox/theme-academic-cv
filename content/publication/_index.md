@@ -1,0 +1,1 @@
+An, D., & Eggum‐Wilkens, N. D. (2019). Do cultural orientations moderate the relation between Chinese adolescents’ shyness and depressive symptoms? It depends on their academic achievement. Social Development, 28(4), 908-926.
