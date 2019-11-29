@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Danming An is a developmental psychologist whose research primarily focuses on children’s and adolescents’ socio-emotional development. She currently works as a postdoctoral scholar with Dr. Grazyna Kochanska at the University of Iowa. Her research interests include examining the effects of context (e.g., culture, parenting, family dynamics, peer relationships) and early temperament on children’s socio-emotional development and mental health, as well as investigating the implications of informant discrepancies and situational variations in the measurement of children’s social and psychological adjustment.
+#bio: Danming An is a developmental psychologist whose research primarily focuses on children’s and adolescents’ socio-emotional #development. She currently works as a postdoctoral scholar with Dr. Grazyna Kochanska at the University of Iowa. Her research interests #include examining the effects of context (e.g., culture, parenting, family dynamics, peer relationships) and early temperament on #children’s socio-emotional development and mental health, as well as investigating the implications of informant discrepancies and #situational variations in the measurement of children’s social and psychological adjustment.
 
 #interests:
 #- Artificial Intelligence
@@ -70,6 +70,4 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Danming An is a developmental psychologist whose research primarily focuses on children’s and adolescents’ socio-emotional development. She currently works as a postdoctoral scholar with Dr. Grazyna Kochanska at the University of Iowa. Her research interests include examining the effects of context (e.g., culture, parenting, family dynamics, peer relationships) and early temperament on children’s socio-emotional development and mental health, as well as investigating the implications of informant discrepancies and situational variations in the measurement of children’s social and psychological adjustment.
