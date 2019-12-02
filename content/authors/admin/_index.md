@@ -45,6 +45,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:danming-an@uiowa.edu'  # For a direct email link, use "mailto:test@example.org".
+- icon: researchgate
+  icon_pack: ai
+  link: https://www.researchgate.net/profile/Danming_An
 #- icon: twitter
 #  icon_pack: fab
 #  link: https://twitter.com/GeorgeCushen
