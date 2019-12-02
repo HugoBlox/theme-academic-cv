@@ -47,7 +47,7 @@ social:
   link: 'mailto:danming-an@uiowa.edu'  # For a direct email link, use "mailto:test@example.org".
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.com/citations?user=uKSJUykAAAAJ&hl=en&oi=ao
+  link: https://scholar.google.com/citations?hl=en&user=uKSJUykAAAAJ&view_op=list_works&sortby=pubdate
 - icon: researchgate
   icon_pack: ai
   link: https://www.researchgate.net/profile/Danming_An
