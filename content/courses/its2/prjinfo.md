@@ -20,19 +20,22 @@ This project will be developed as follows:
 
 | Session                     |    Date    |    Time     |  Room |
 | --------------------------- | :--------: | :---------: | ----: |
-| Introduction to ITS         | 27-11-2019 | 14:30-18:00 | E006B |
-| Session 1  (Lab work)       | 04-12-2019 | 14:30-18:00 | E006B |
-| *First Presentation\**      | 17-12-2019 | 13:30-17:00 |   TBD |
-| Session 2  (Tutorial)       | 18-12-2019 | 14:30-18:00 | E006B |
+| Introduction to ITS         | 04-12-2019 | 14:30-18:00 | E006B |
+| Session 1 (Lab Work)        | 17-12-2019 | 13:30-17:00 |   TBD |
+| Session 2 (Lab Work)*       | 18-12-2019 | 14:30-18:00 | E006B |
 | *Individual presentation\** | 22-01-2020 | 09:00-12:30 |  B112 |
 | *Final presentation\**      | 22-01-2020 | 14:30-18:00 |  E004 |
 
 *(\*) Denote Evaluation checkpoints*
 
+## Content 
+
+Please find contents and support materials [here](http://bit.ly/ITS2019-Control)
+
 ## Methodology
 
-The methodology in this case will be 
+Session labs around projects in transportation. 
 
 ## Evaluation
 
-The evaluation will be oriented as: 
+Oral presentation and literature review about relevant topics in the subject.

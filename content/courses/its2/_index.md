@@ -21,6 +21,8 @@ menu:
     weight: 1
 ---
 
+Please find contents and support materials [here](http://bit.ly/ITS2019-Control)
+
 ![ITS](its-systems.jpg)
 
 ## Context
@@ -29,7 +31,7 @@ Traffic congestion on urban roads is a problem of great interest nowadays since 
 
 The following projects aim to explore some of the new technologies used in the so called Intelligent Transportation Systems (ITS). They objective is to study to a certain level of detail some of the new traffic management systems that will conduct new ways of transportation in the XXI century. The general idea is based on the fact that information collected by sensors within traffic networks or in-vehicles sensors may capture information regarding the traffic condition, perform estimation of unknown traffic states and decide on specific actions to modify this state.
 
-## General objective
+## General objectives
 
 * Understand general principles and elements that make a regular transportation system an intelligent one.
 * Identify and recognize technologies used to implement Intelligent Transporation Systems and investigate how these technologies are deployed in real systems.
