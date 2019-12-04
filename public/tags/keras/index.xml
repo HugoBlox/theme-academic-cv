@@ -17,8 +17,9 @@
       <pubDate>Sun, 11 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/grand-floridian-hotel-reviews/</guid>
-      <description>Grand Floridian Hotel Reviews: Sentiment Analysis and NLPThe data for this analysis was obtained from the reviews posted on TripAdvisor. I used RSelenium and rvest to extract the data from the first 3000 dynamic web-pages on the TripAdvisor site, which was 2,350 reviews in total. The code used to do this is published on my GitHub here
-Here, I load the the Rda file I saved from that extraction.</description>
+      <description>Grand Floridian Hotel Reviews: Sentiment Analysis and NLP library(tidyverse) library(zoo) library(knitr) library(tidytext) library(SnowballC) library(keras) library(kableExtra) This is the raw version of the reviews data: it has the text content of the review, the star rating (1-5), and the date of stay (month/year).
+It requires a bit of cleaning to get in the form we want.
+#rename &amp;amp; change variable type rdf &amp;lt;- rdf %&amp;gt;% rename(stay_date = id_date, review = reviews) %&amp;gt;% mutate_at(vars(stay_date, review), ~ as.</description>
     </item>
     
   </channel>

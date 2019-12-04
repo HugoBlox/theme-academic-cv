@@ -5,6 +5,7 @@
   <url>
     <loc>/</loc>
     <lastmod>2019-09-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -23,23 +24,27 @@
   </url>
   
   <url>
-    <loc>/tags/keras/</loc>
-    <lastmod>2019-08-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/nlp/</loc>
     <lastmod>2019-08-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/sentiment-analysis/</loc>
-    <lastmod>2019-08-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
     <lastmod>2019-08-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/keras/</loc>
+    <lastmod>2019-08-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/sentiment-analysis/</loc>
+    <lastmod>2019-08-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -77,19 +82,23 @@
   </url>
   
   <url>
-    <loc>/author/</loc>
+    <loc>/authors/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/</loc>
+    <loc>/author/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/publication_types/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -98,6 +107,11 @@
   
   <url>
     <loc>/talk/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/admin/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>
