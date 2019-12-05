@@ -109,6 +109,8 @@ The following are two simple implementations of a derivative and an integral. Th
 
 
 ```python
+# %%writefile -a pid.py
+
 class Derivator:
     def __init__(self):
         self.x = [0]
@@ -159,6 +161,8 @@ ax.set_xlabel("t [s]");
 
 
 ```python
+# %%writefile -a pid.py
+
 class Integrator:
     def __init__(self):
         self.x = [0]
@@ -210,7 +214,7 @@ ax.set_xlabel("t(s)");
 
 Here we propose the tunning of the controller via de Ziegler Nichols method. The objective is to find $K_u$ the maximum gain and $T_u$ the oscillation period of the closed loop. 
 
-![](ziegler.png)
+![](img/ziegler.png)
 
 
 The main point of interest is when $K=4$ since the eigen values become imaginary meaning marginal stability
@@ -310,6 +314,8 @@ In the following the PID controller will be implemented. The idea is to explain 
 
 
 ```python
+# %%writefile -a pid.py
+
 class PID:
 
     def __init__(self, k_p=k_p,k_i=k_i,k_d=k_d):
@@ -416,10 +422,12 @@ ax[1].set_title("Control output , (P) Proportional, (I) Integral");
 
 In the following implementation the output of the controller will be bounded by introducing a saturation before applying to the control 
 
-![](pid_sat.png)
+![](img/pid_sat.png)
 
 
 ```python
+# %%writefile -a pid.py
+
 U_MAX = 10
 
 class PIDlim:
@@ -543,10 +551,12 @@ ax[2].set_xlabel("t(s)");
 
 In particular when the change in the reference is very high. The integral term tends to cumulate the error and causing a loss in performance of the output one alternative is to implement a reset of the integrator. The objective will be to reset with a slow time constant via the mechanisms explained in the Amstrom book. 
 
-![](pid-antiwindup.png)
+![](img/pid-antiwindup.png)
 
 
 ```python
+# %%writefile -a pid.py
+
 class PIDantiwindup:
 
     def __init__(self, k_p=k_p,k_i=k_i,k_d=k_d,u_max=U_MAX):
@@ -665,4 +675,4 @@ ax[1].set_xlabel("t(s)");
 ![png](./antiwindup_27_0.png)
 
 
-A. Ladino 
+As observed the dynamical response of the system has less overshoot.
