@@ -1,7 +1,7 @@
 +++
 title = "Anti-Windup PID"
 subtitle = "Implementing an PID with antiwindup"
-summary = "Check here the content about the course and slides presented during the first session"
+summary = "A small tutorial on PID anti-windup systems"
 date = 2019-12-04T00:00:00Z
 draft = false
 
@@ -52,7 +52,7 @@ Is an approximation of a delayed time system of the form
 
 $$G_d(s) = \frac{e^{-sd}}{(\tau s + 1)}$$ 
 
-For algorithmic purposes we consider $G_d(s) \approx G_2(n)$
+For algorithmic purposes we consider $G_{d=4}(s) \approx G_4(n)$
 
 
 ```python
