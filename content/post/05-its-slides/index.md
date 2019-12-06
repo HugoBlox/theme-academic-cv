@@ -25,7 +25,7 @@ projects = []
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 [image]
   # Caption (optional)
-  caption = "Image credit: [**Borok Times**](https://www.boroktimes.com/timeline-of-autonomous-cars/)"
+  caption = "Image credit: [**Volvo group**](https://www.volvogroup.com/en-en/news/2018/feb/truck-platooning-on-european-roads.html)"
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
