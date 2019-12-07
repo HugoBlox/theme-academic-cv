@@ -141,7 +141,7 @@ revs_temp<-revs[user_count>10] %>%
 ```
 
 
-```{r cache=TRUE}
+```{r}
 df<-revs_temp[,.(user_id,business_id,stars)] %>% 
   unique(by=c("user_id","business_id")) %>% 
   as.data.frame()
@@ -172,7 +172,7 @@ hist(getRatings(df), breaks="FD")
 Using ALS_realRatingMatrix method & type = "rating" in recommenderlab. 
 Below I compare using ALS factorization vs the random algorithm. I write a function to take in evaluation scheme and method of use(in this case random or ALS). The function returns the accuracy of the method given the scheme. 
 I set the start and end time for benchmarking.
-```{r cache=TRUE}
+```{r}
 acc_df <- function(eval_scheme, method_alg){
   rec <- Recommender(getData(eval_scheme, "train"), method_alg)
   pred <- predict(rec, getData(eval_scheme, "known"), type="ratings") 
