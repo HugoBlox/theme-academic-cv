@@ -1,0 +1,281 @@
+---
+title: 'Comparing Recommder System Methods: recommenderlab and sparklyr'
+author: ''
+date: '2019-12-07'
+slug: comparing-recommder-system-methods-recommenderlab-and-sparklyr
+categories: []
+tags: []
+---
+
+I will use the Yelp dataset to compare recommendation system implementations in recommenderlab and sparklyr. 
+Data can be found on Yelp [here](https://www.yelp.com/dataset/challenge)
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = F, message = F)
+library(jsonlite)
+library(tidyverse)
+library(data.table)
+library(lubridate)
+library(recommenderlab)
+library(sparklyr)
+```
+
+The Yelp datasets are stored in JSON file format and are quite large. Using high performance methods will be important. Below I write a function to transform the JSON files into dataframes. I use the jsonlite package to efficiently stream in and flatten the files. I will have 3 dataframes: users, reviews, and businesses.
+```{r eval=FALSE}
+
+
+fl_json <- function(filen, ps = psize) {
+  direc <- paste0(getwd(), '/', filen, '.json')
+  df <- jsonlite::stream_in(file(direc), pagesize = ps)
+  df <- jsonlite::flatten(df)
+  return(df)
+}
+
+
+users<-fl_json(filen="user",10000)
+
+
+rev<-fl_json(filen="review",100000)
+
+
+busn<-fl_json(filen="business",10000)
+
+```
+
+```{r include=FALSE}
+
+rlevel_pcts<-readRDS("C:/Users/mikay/R projects/Practice/rlevel_pcts.rds")
+revs_temp<-readRDS("C:/Users/mikay/R projects/Practice/revs_temp.rds")
+df_heads<-readRDS("C:/Users/mikay/R projects/Practice/df_heads.rds")
+
+
+
+
+```
+Here is what the dataframes look like...
+```{r eval=FALSE}
+df_heads<-map(list(busn,users,revs),~head(.)) 
+
+```
+
+```{r}
+df_heads
+```
+
+
+
+Before attempting to use sparklyr, I will use data.table as a benchmark. It will definitely speed up pre-processing over dplyr.
+```{r eval=FALSE}
+#change to data.tables
+map_df(list(busn,users,revs),~setDT(.))
+
+#join reviews to users & businesses dataframes
+revs<-revs[users[,.(user_id,review_count)],on="user_id"]
+revs<-revs[busn[,.(business_id,review_count)],on="business_id"]
+
+setnames(revs,c("review_count","i.review_count"),c("user_count","bus_count"))
+
+```
+
+## Data Exploration
+
+How does the frequency of a user leaving a review impact his/her probability of leaving a high review?
+Are users with more reviews more likely to give a higher/lower rating?
+Below, I use the purrr list column workflow to nest a dataframe containing all reviews a given star rating (1-5). 
+Then, I write a function to build the probability distributions for each star rating. This probability is a function of the number of reviews a user is given. 
+
+For example, if a user has given 100 reviews, what is the probability that she gives a 4 star rating? 
+
+This is P(user gives star i| user has given n reviews) for stars i=1:4 amd reviews n= 1:5000 
+```{r eval=FALSE}
+#percentage of each star rating
+str_pcts <- revs %>%
+  .[, .(pct = .N / nrow(revs)), by = "stars"]
+
+
+
+nest_stars <- revs %>%
+  group_by(stars) %>%
+  nest()
+
+get_pcts <- function(star, df) {
+  df <- setDT(df)
+  review_buckets <- data.table(rlevel = c(0:150,
+                                          seq(150, 2000, 10),
+                                          seq(2001, 5000, 100)),
+                               stars = star)
+  
+  for (i in 1:nrow(review_buckets)) {
+    
+    review_buckets$pr[i] <-NROW(df[review_count > review_buckets$rlevel[i]])
+    review_buckets$tot[i] <-NROW(revs[review_count > review_buckets$rlevel[i]])
+  }
+  
+  return(review_buckets)
+}
+
+
+
+rlevel_pcts<-map2_df(nest_stars$stars,nest_stars$data,~get_pcts(.x,.y))
+
+```
+
+Plotting the cumulative distribution (CDFs) for stars as a function of # reviews given
+```{r}
+pr_graph<-rlevel_pcts %>% 
+  ggplot(aes(x=rlevel,y=prob,color=as.factor(stars)))+
+  geom_line()+
+  labs(color="stars",x="# reviews")
+
+plotly::ggplotly(pr_graph)
+```
+
+## Recommendarlab: Creating realRatings Matrix
+Below I sample 1M users who have given at least 5 reviews. Then I update the counts of reviews for each user & business in the downsampled dataset. I convert this into a realRatingsMatrix using recommenderlab. Each row represents a user and each column represents a business. df[i,j] represents the rating user i has given business j (NA if user has not rated business)
+```{r eval=FALSE}
+set.seed(12)
+
+revs_temp<-revs[user_count>10] %>%
+  .[sample(nrow(.))] %>%
+  .[1:1000000]
+```
+
+
+```{r cache=TRUE}
+df<-revs_temp[,.(user_id,business_id,stars)] %>% 
+  unique(by=c("user_id","business_id")) %>% 
+  as.data.frame()
+
+
+#convert to ratingsMatrix
+df<-as(df,"realRatingMatrix")
+
+#reviews/user
+quantile((rowCounts(df)))
+
+#reviews/business
+quantile((colCounts(df)))
+```
+
+
+
+Distribution of ratings
+```{r}
+hist(getRatings(df), breaks="FD")
+```
+
+
+
+
+
+## Using ALS factorization to predict rating
+Using ALS_realRatingMatrix method & type = "rating" in recommenderlab. 
+Below I compare using ALS factorization vs the random algorithm. I write a function to take in evaluation scheme and method of use(in this case random or ALS). The function returns the accuracy of the method given the scheme. 
+I set the start and end time for benchmarking.
+```{r cache=TRUE}
+acc_df <- function(eval_scheme, method_alg){
+  rec <- Recommender(getData(eval_scheme, "train"), method_alg)
+  pred <- predict(rec, getData(eval_scheme, "known"), type="ratings") 
+  
+  accs <- calcPredictionAccuracy(pred, getData(eval_scheme, "unknown"))
+  
+  return(accs)
+}
+
+
+#using 75th percentiles from above...users w/ at least 2 & business w/ at least 4
+df2<-df[rowCounts(df)>5,colCounts(df)>100]
+df2<-df2[rowCounts(df2)>5,]
+df2
+start_time<- Sys.time()
+
+e <- evaluationScheme(df2, method="split", train=0.9, given=-1, goodRating=4)
+
+random<-acc_df(e,"RANDOM")
+ALS<-acc_df(e,"ALS")
+
+results<-cbind(as.data.frame(random),as.data.frame(ALS))
+
+end_time <- Sys.time()
+
+time_rlab <- end_time - start_time
+```
+
+RecommenderLab ALS results
+```{r}
+results
+```
+
+Time for recommenderlab predictions.
+```{r}
+time_rlab
+```
+
+That's pretty slow given the size of the dataset....
+
+I will now try the ALS method in sparklyr to see if speed improves. To prepare the input for use with the ml_als() implementation in sparklyr, I convert the matrix back to a dataframe and convert item & user columns to numeric.
+```{r}
+sdf<-as(df2,"data.frame")
+
+sdf<-sdf %>% 
+  select(user) %>% 
+  unique() %>% 
+  mutate(user_id=row_number()) %>% 
+  right_join(sdf,by="user")
+
+sdf<-sdf %>% 
+  select(item) %>% 
+  unique() %>% 
+  mutate(item_id=row_number()) %>% 
+  right_join(sdf,by="item")
+
+sdf<-sdf %>% 
+  select(user=user_id,item=item_id,rating) %>% 
+  mutate_at(vars(item,user),as.numeric)
+```
+
+```{r}
+
+
+
+sc <- spark_connect(master = "local",version="2.4.3")
+
+start_time<- Sys.time()
+
+ratings <- sdf_copy_to(sc, sdf, "ratings", overwrite = TRUE)
+
+partitions <- tbl(sc, "ratings") %>%
+  sdf_partition(training = 0.9,test=.1,seed = 1099)
+
+
+model_als <- ml_als(partitions$training, rating_col= "rating", user_col = "user",
+    item_col= "item", max_iter=10)
+
+
+estimate_mse <- function(df){
+  
+predictions <- ml_predict(model_als,df)
+preds<-as.data.frame(predictions)
+
+model_als.RMSE <- RMSE(preds$rating,preds$prediction,na.rm = T)
+
+return(model_als.RMSE)
+
+}
+
+
+
+estimate_mse(partitions$test)
+
+estimate_mse(partitions$train)
+
+end_time<-Sys.time()
+
+spark_time<-end_time-start_time
+```
+
+```{r}
+spark_time
+```
+
+Pretty significant time difference for same results...#sparklyr for the win
