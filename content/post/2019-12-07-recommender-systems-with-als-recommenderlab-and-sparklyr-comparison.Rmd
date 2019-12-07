@@ -58,8 +58,14 @@ df_heads<-map(list(busn,users,revs),~head(.))
 
 ```
 
-```{r}
-df_heads
+```{r paged.print=FALSE}
+#businesses
+df_heads[[1]] %>% select(1:5) %>% as_tibble()
+#users
+df_heads[[2]] %>% select(1:5) %>% as_tibble()
+#reviews
+df_heads[[3]] %>% select(1:5) %>% as_tibble()
+
 ```
 
 
@@ -120,6 +126,14 @@ rlevel_pcts<-map2_df(nest_stars$stars,nest_stars$data,~get_pcts(.x,.y))
 
 ```
 
+```{r}
+head(rlevel_pcts)
+```
+
+
+
+
+
 Plotting the cumulative distribution (CDFs) for stars as a function of # reviews given
 ```{r}
 pr_graph<-rlevel_pcts %>% 
@@ -129,6 +143,15 @@ pr_graph<-rlevel_pcts %>%
 
 plotly::ggplotly(pr_graph)
 ```
+
+This is interesting. It appears that as the number of reviews a person gives increase, their probability of leaving a one or five star review decreases. By contrast, their probability of leaving a 3 or 4 star review increases. So maybe people become jaded and start to think of everything as "average."
+
+To answer my initial question: if a user has given 100 reviews, what is the probability that she gives star rating i (i=1-5)? 
+
+```{r}
+setDT(rlevel_pcts)[rlevel==100]
+```
+
 
 ## Recommendarlab: Creating realRatings Matrix
 Below I sample 1M users who have given at least 5 reviews. Then I update the counts of reviews for each user & business in the downsampled dataset. I convert this into a realRatingsMatrix using recommenderlab. Each row represents a user and each column represents a business. df[i,j] represents the rating user i has given business j (NA if user has not rated business)
