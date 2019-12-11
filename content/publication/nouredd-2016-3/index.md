@@ -7,5 +7,6 @@ publication_types: ["1"]
 abstract: ""
 featured: false
 publication: "*Proceedings of the 22nd IEEE Pacific Rim International Symposium on Dependable Computing (PRDC)*"
+url_pdf: "files/16NOU03.pdf"
 ---
 

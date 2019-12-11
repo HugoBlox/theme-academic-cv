@@ -7,5 +7,6 @@ publication_types: ["1"]
 abstract: ""
 featured: false
 publication: "*Proceedings of the 7th Conference on Decision and Game Theory for Security (GameSec)*"
+url_pdf: "files/16NOU02.pdf"
 ---
 

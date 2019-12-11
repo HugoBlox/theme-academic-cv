@@ -7,7 +7,7 @@ publication_types: ["1"]
 abstract: ""
 featured: true
 publication: "*2019 49th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)*"
-tags: ["computer network security;game theory;Internet;Linux;operating system kernels;transport protocols;client puzzles;TCP connection establishment channel;state exhaustion DDoS attacks;puzzle difficulty;legitimate clients;state exhaustion attacks resilience;Stackelberg game;Linux 4.13.0 kernel;DETER testbed;TCP handshake channel;Servers;Computer crime;Protocols;Botnet;Computational modeling;Load modeling;Kernel;Denial of Service Attacks;Proof-of-Work;Stackelberg Games;TCP"]
 doi: "10.1109/DSN.2019.00067"
+url_pdf: "files/18NOU01.pdf"
 ---
 
