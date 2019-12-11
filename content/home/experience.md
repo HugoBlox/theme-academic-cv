@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
-title = "Experience"
+title = "Research Experience"
 subtitle = ""
 
 # Date format for experience
@@ -18,27 +18,41 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  title = "Research Assistant"
+  company = "University of Illinois at Urbana-Champaign"
+  company_url = "https://illinois.edu"
+  location = "Urbana, IL"
+  date_start = "2014-08-01"
   date_end = ""
   description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
-  """
+  Graduate Research Assistant at the [PERFORM](https://www.perform.illinois.edu/) group at UIUC."""
+
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  title= "Research Intern"
+  company="Ecole Polytechnique Federal de Lausanne"
+  company_url="https://www.epfl.ch/en/"
+  location="Lausanne, Switzerland"
+  date_start="2013-08-01"
+  date_end="2013-11-01"
+  description="""
+  I interned at the [Rigorous Systems Design Laboratory
+    (RISD)](https://archiveweb.epfl.ch/risd.epfl.ch/) at EPFL. I worked on designing a
+    verification tool for component-based models developed using the _Behavior Interaction
+    Priority_ (BIP) framework
+    """
+
+[[experience]]
+  title="Research Assistant"
+  company="American University of Beirut"
+  company_url="https://aub.edu.lb"
+  location="Beirut, Lebanon"
+  date_start="2010-08-01"
+  date_end="2014-07-01"
+  description="""
+  I was a graduate research assistant at the [Program Correctness Automation
+    Lab](http://research-fadi.aub.edu.lb/dkwk/doku.php?id=start) at the American
+    University of Beirut. I design P{S}Q, a tool for the scalable verification of software programs.
+    """
 
 +++
