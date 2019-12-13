@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Anthony Arendt
+name: Albert Wu
 
 # Username (this should match the folder name)
 authors:
