@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Science team consultant
+role: Project Manager
 
 # Organizations/Affiliations
 organizations:
