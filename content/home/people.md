@@ -4,28 +4,29 @@
 
 widget = "people"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true # Activate this widget? true/false
 weight = 68  # Order that this section will appear.
 
-title = "Meet the Team"
-subtitle = ""
+title = "People"
+subtitle = "Meet the people working with Carlos Maltzahn at UC Santa Cruz. Our team works with other research groups at UC Santa Cruz, as well as other universities, national labs, and industry, within and outside the USA."
 
 [content]
   # Choose which groups/teams of users to display.
   #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
-  user_groups = ["Principal Investigators",
-                 "Researchers",
-                 "Grad Students",
+  user_groups = ["Principal Investigator",
                  "Administration",
+                 "Faculty",
+                 "Researchers",
+                 "Current PhD Students",
                  "Visitors",
-                 "Alumni"]
+                 "Graduated PhD Students"]
 
 [design]
   # Show user's social networking links? (true/false)
   show_social = false
 
   # Show user's interests? (true/false)
-  show_interests = true
+  show_interests = false
 
 [design.background]
   # Apply a background color, gradient, or image.
