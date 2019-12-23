@@ -88,7 +88,7 @@
 
       {{ with $person.administration }}
       <div class="col-md-5">
-        <h3>{{ i18n "Administrative Staff" | markdownify }}</h3>
+        <h3>{{ i18n "administration" | markdownify }}</h3>
         <ul class="ul-interests">
           {{ range . }}
           <li>{{ . | markdownify | emojify }}</li>
@@ -99,7 +99,7 @@
 
       {{ with $person.researchers }}
       <div class="col-md-5">
-        <h3>{{ i18n "Research Staff" | markdownify }}</h3>
+        <h3>{{ i18n "researchers" | markdownify }}</h3>
         <ul class="ul-interests">
           {{ range . }}
           <li>{{ . | markdownify | emojify }}</li>
@@ -108,9 +108,9 @@
       </div>
       {{ end }}
 
-      {{ with $person.currentphd }}
+      {{ with $person.currentphds }}
       <div class="col-md-5">
-        <h3>{{ i18n "Current Ph.D. Students" | markdownify }}</h3>
+        <h3>{{ i18n "currentphds" | markdownify }}</h3>
         <ul class="ul-interests">
           {{ range . }}
           <li>{{ . | markdownify | emojify }}</li>
@@ -136,15 +136,15 @@
       </div>
       {{ end }}
 
-      {{ with $person.graduatedphd }}
+      {{ with $person.graduatedphds }}
       <div class="col-md-7">
-        <h3>{{ i18n "Graduated Ph.D. Students" | markdownify }}</h3>
+        <h3>{{ i18n "graduatedphds" | markdownify }}</h3>
         <ul class="ul-edu fa-ul">
           {{ range .courses }}
           <li>
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
-              <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
+              <p class="course">{{ .course | markdownify | emojify }}{{ with .year }}, {{ . | markdownify | emojify }}{{ end }}</p>
               <p class="institution">{{ .institution }}</p>
             </div>
           </li>

@@ -27,29 +27,43 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include programmable storage systems, big data storage & processing, scalable data management, distributed systems performance management, and practical reproducible research.
 
-interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+administration:
+- "[Stephanie Lieggi](https://www.linkedin.com/in/stephanie-lieggi-8542624/)"
+- "[Lavinia Preston](https://www.linkedin.com/in/lavinia-preston-60806b127/)"
 
-education:
+researchers:
+- "[Kate Compton](https://www.galaxykate.com/)"
+
+currentphds:
+- "[Saheed Adepoju](https://www.linkedin.com/in/saheedadepoju/)"
+- "[Xiaowei Chu](https://www.linkedin.com/in/xweichu/)"
+- "[Jianshen Liu](https://www.linkedin.com/in/jianshenliu/)"
+- "[Esmaeil Mirvakili](https://www.linkedin.com/in/esmaeil-m-12a71879/)"
+- "[Yiming Zhang](https://www.linkedin.com/in/yiming-steven-zhang/)"
+
+graduatedphds:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: "[Alexander Ames](http://www.linkedin.com/in/sashaames)"
+    year: "[2011](https://search.proquest.com/docview/926578311)"
+  - course: "[Joe Buck](http://www.linkedin.com/pub/joe-buck/3/70a/97a)"
+    year: "[2014](http://escholarship.org/uc/item/2gn5x6df)"
+  - course: "[Adam Crume](http://www.linkedin.com/pub/adam-crume/48/7b3/330)"
+    year: "[2015](http://escholarship.org/uc/item/9gs8x5n8)"
+  - course: "[Latchesar Ionkov](http://www.linkedin.com/pub/latchesar-ionkov/2/b9b/768)"
+    year: "[2018](https://escholarship.org/uc/item/4vs7g3pk)"
+  - course: "[Ivo Jimenez](http://www.linkedin.com/in/ivotron)"
+    year: "[2019](https://escholarship.org/uc/item/8206n6nz)"
+  - course: "[Michael Sevilla](http://www.linkedin.com/in/michaelandrewsevilla)"
+    year: "[2018](https://escholarship.org/uc/item/3wd0x3b4)"
+  - course: "[Andrew Shewmaker](http://www.linkedin.com/in/ashewmaker)"
+    year: "[2016](http://escholarship.org/uc/item/2dz5d7w4)"
+  - course: "[Dimitrios Skourtis](http://www.linkedin.com/in/skourtis)"
+    year: "[2014](http://escholarship.org/uc/item/4wj9r8np)"
+  - course: "[Noah M. Watkins](http://www.linkedin.com/in/noahwatkins)"
+    year: "[2018](https://escholarship.org/uc/item/72n6c5kq)"
 
-# administration:
-# - [Stephanie Lieggi](https://www.linkedin.com/in/stephanie-lieggi-8542624/)
-# - [Lavinia Preston](https://www.linkedin.com/in/lavinia-preston-60806b127/)
-
-# researchers:
-# - [Kate Compton](https://www.galaxykate.com/)
+# - course: "[Alexander Ames](http://www.linkedin.com/in/sashaames)" #
+#	  year: "[2011](https://search.proquest.com/docview/926578311)"
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
