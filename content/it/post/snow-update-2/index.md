@@ -30,7 +30,7 @@ projects: []
 
 Cari palladinevisti, come pianificato, un rappresentante di APAZAF si è recato in perlustrazione nel luogo della battaglia.
 Le notizie sono buone: ci sono circa 15cm di neve fresca (da 1300m di altitudine in su), che sono supportati da 50-60cm di vecchia neve bagnata (da 1600m in su).
-Sia la strada che il sentiero per raggiungere il logo della battaglia sono percorribili agevolmente e ben tracciati, anche grazie all'ammontare di neve relativamente limitato, fino a 1600m. Come prova che c'è abbastanza neve, eccovi un panorama da poco sotto il bivacco:
+Sia la strada che il sentiero per raggiungere il luogo della battaglia sono percorribili agevolmente e ben tracciati, anche grazie all'ammontare di neve relativamente limitato, fino a 1600m. Come prova che c'è abbastanza neve, eccovi un panorama da poco sotto il bivacco:
 
 ![Panorama a 200m dal bivacco](/img/post/menegazzi_neve.jpg)
 
