@@ -8,10 +8,6 @@ weight = 110  # Order that this section will appear.
 title = "Teaching"
 subtitle = ""
 
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
+"Instructor of Record"
 
 +++
