@@ -8,8 +8,8 @@ weight = 110  # Order that this section will appear.
 title = "Teaching"
 subtitle = ""
 
-# Instructor of Record
-## FAS 361/SOC 391 Research Methods, Arizona State University, Summer 2019
-* Upper-level undergraduate course in research designs and methodology required for Family and Human Development and Sociology majors
+Instructor of Record
+FAS 361/SOC 391 Research Methods, Arizona State University, Summer 2019
+Upper-level undergraduate course in research designs and methodology required for Family and Human Development and Sociology majors
 
 +++
