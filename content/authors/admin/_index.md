@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Adjunct Professor, Director of CROSS
+role: Adjunct Professor, Founder & Director of CROSS
 
 # Organizations/Affiliations
 organizations:

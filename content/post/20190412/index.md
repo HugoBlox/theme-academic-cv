@@ -1,10 +1,10 @@
 ---
 title: "Guest on Embedded.fm"
-summary: 'One of the outcomes of attending [!!Con West](http://bangbangcon.com/west/) was an opportunity to join the 285th podcast of [Embedded.fm](https://www.embedded.fm/): “[A Chicken Getting to the Other Side](https://www.embedded.fm/episodes/285)”'
+summary: 'One of the outcomes of attending [!!Con West](http://bangbangcon.com/west/2019/) was an opportunity to join the 285th podcast of [Embedded.fm](https://www.embedded.fm/): “[A Chicken Getting to the Other Side](https://www.embedded.fm/episodes/285)”'
 authors:
 - admin
 tags:
-- Event
+- Presentation
 categories:
 - News
 date: "2019-04-12"
@@ -27,7 +27,7 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-One of the outcomes of attending [!!Con West](http://bangbangcon.com/west/) was an opportunity to join the 285th podcast of [Embedded.fm](https://www.embedded.fm/): “[A Chicken Getting to the Other Side](https://www.embedded.fm/episodes/285)” to talk about [CROSS](https://cross.ucsc.edu) and its three incubator fellows, [Kate Compton](https://www.galaxykate.com/), [Ivo Jimenez](https://users.soe.ucsc.edu/~ivo/), and [Jeff LeFevre](https://users.soe.ucsc.edu/~jlefevre/). If you are wondering about the choice of title, listen to the podcast!
+One of the outcomes of attending [!!Con West](http://bangbangcon.com/west/2019/) was an opportunity to join the 285th podcast of [Embedded.fm](https://www.embedded.fm/): “[A Chicken Getting to the Other Side](https://www.embedded.fm/episodes/285)” to talk about [CROSS](https://cross.ucsc.edu) and its three incubator fellows, [Kate Compton](https://www.galaxykate.com/), [Ivo Jimenez](https://users.soe.ucsc.edu/~ivo/), and [Jeff LeFevre](https://users.soe.ucsc.edu/~jlefevre/). If you are wondering about the choice of title, listen to the podcast!
 
 The podcast is created and hosted by Elecia White of “[Making Embedded Systems](http://amzn.to/1XxPvjR)” fame and Chris White who, in addition to being an embedded systems  engineer, did all the editing of this podcast -- which made me sound so  much better than in real life!
 
