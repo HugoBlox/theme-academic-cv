@@ -30,6 +30,5 @@ subtitle = ""
 #  * Analysing
 #  * Modelling
 #  * Deploying
-  """
 
 +++
