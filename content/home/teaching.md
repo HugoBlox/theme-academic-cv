@@ -25,10 +25,5 @@ subtitle = ""
   date_start = "Summer 2019"
   date_end = ""
   description = """Upper-level undergraduate course in research designs and methodology required for Family and Human Development and Sociology majors"""
-#  Responsibilities include:
-  
-#  * Analysing
-#  * Modelling
-#  * Deploying
 
 +++
