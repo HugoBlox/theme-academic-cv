@@ -1,8 +1,8 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path:
-webhook_url:
+admin_path: 
+webhook_url: 
 sections:
 - type: directory
   path: content/home
@@ -27,7 +27,7 @@ sections:
   create: all
   match: "**/*"
   templates:
-    - event
+  - event
 - type: directory
   path: content/publication
   label: Publications
