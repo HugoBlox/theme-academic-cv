@@ -32,7 +32,7 @@ date_format = "Jan 2006"
 
 
 [[experience]]
-  title = "Projet industriel"
+  title = "School project"
   company = "CARL Software"
   company_url = "https://www.carl-software.fr/"
   location = "69760 Limonest"
@@ -44,7 +44,7 @@ date_format = "Jan 2006"
   keywords = ["Java","CassandraDB","Python","BIM","SQL","IFC"]
 
 [[experience]]
-  title = "Stagiaire"
+  title = "Internship"
   company = "Planifico"
   company_url = "https://www.planifico.co/"
   location = "J5A 0B3 QC - Canada"
@@ -56,7 +56,7 @@ date_format = "Jan 2006"
   keywords = ["Android/Java","WebView","iOS/Swift","ElectronJS"]
 
 [[experience]]
-  title = "Stagiaire"
+  title = "Internship"
   company = "SynAApS"
   company_url = "https://www.synaaps.com/"
   location = "69603 Villeurbanne"
@@ -68,7 +68,7 @@ date_format = "Jan 2006"
   keywords = ["Monitoring","SNMP","Nagios","Centreon"]
 
 [[experience]]
-  title = "Ingénieur DevOps"
+  title = "DevOps Engineer"
   company = "Ciril GROUP"
   company_url = "https://www.cirilgroup.com/"
   location = "69603 Villeurbanne"
