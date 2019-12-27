@@ -7,39 +7,22 @@ sections:
 - type: heading
   label: en
 - type: directory
-  path: content/home
+  path: content/en/home
   label: Home
   create: all
   match: "**/*"
 - type: directory
-  path: content/post
+  path: content/en/post
   label: Blog posts
   create: all
   match: "**/*"
   templates:
   - blog-post
 - type: directory
-  path: content/project
+  path: content/en/project
   label: Projects
   create: all
   match: "**/*"
-- type: directory
-  path: content/talk
-  label: Events
-  create: all
-  match: "**/*"
-  templates:
-  - event
-- type: directory
-  path: content/publication
-  label: Publications
-  create: all
-  match: "**/*"
-- type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
 upload_dir: static/img
 public_path: "/img"
 front_matter_path: ''
