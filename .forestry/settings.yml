@@ -23,6 +23,29 @@ sections:
   label: Projects
   create: all
   match: "**/*"
+  templates:
+  - blog-post
+- type: heading
+  label: fr
+- type: directory
+  path: content/fr/home
+  label: Home
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/fr/post
+  label: Blog posts
+  create: all
+  match: "**/*"
+  templates:
+  - blog-post
+- type: directory
+  path: content/fr/project
+  label: Projects
+  create: all
+  match: "**/*"
+  templates:
+  - blog-post
 upload_dir: static/img
 public_path: "/img"
 front_matter_path: ''
