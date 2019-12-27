@@ -23,8 +23,6 @@ sections:
   label: Projects
   create: all
   match: "**/*"
-  templates:
-  - blog-post
 - type: heading
   label: fr
 - type: directory
@@ -44,8 +42,6 @@ sections:
   label: Projects
   create: all
   match: "**/*"
-  templates:
-  - blog-post
 upload_dir: static/img
 public_path: "/img"
 front_matter_path: ''
