@@ -40,7 +40,7 @@ social:
 email: baptiste.pontanier@laposte.net
 
 ---
-Je m'appelle Baptiste Pontanier, et je suis ingénieur en informatique. J'aime énormément ce métier, et les multitudes de projets divers qu'il nous amène à réaliser.
+Je m'appelle Baptiste Pontanier, et je suis ingénieur en informatique. J'aime énormément ce métier, et la multitude de projets divers qu'il nous amène à réaliser.
 
 Depuis maintenant 4 ans, j'oeuvre dans ce domaine et ne compte pas m'arrêter. Je n'ai pas de domaine de prédilection, j'essaye d'être polyvalent au maximum.
 
