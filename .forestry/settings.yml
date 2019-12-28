@@ -6,6 +6,10 @@ webhook_url:
 sections:
 - type: heading
   label: en
+- type: document
+  path: content/en/authors/haashi/_index.md
+  label: haashi
+  match: "**/*"
 - type: directory
   path: content/en/home
   label: Home
