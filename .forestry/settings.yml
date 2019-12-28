@@ -28,7 +28,6 @@ sections:
 - type: document
   path: content/fr/authors/haashi/_index.md
   label: haashi
-  match: "**/*"
 - type: directory
   path: content/fr/home
   label: Home
