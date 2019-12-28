@@ -52,14 +52,14 @@
             {{ if .keywords }}
               {{ $key_len := len .keywords}}
               <div class="card-text">
-                <ul style="width:50%; float:left;">
+                <ul class="keyword">
                   {{ range $idx, $key := .keywords }}
                     {{ if lt $idx ( div ( add $key_len 1 ) 2 )}} 
                       <li>{{ . }}</li>
                     {{ end }}
                   {{ end }}
                 </ul>
-                <ul style="width:50%; float:left;">
+                <ul class="keyword">
                   {{ range $idx, $key := .keywords }}
                     {{ if ge $idx ( div ( add $key_len 1 ) 2 )}} 
                       <li>{{ . }}</li>
