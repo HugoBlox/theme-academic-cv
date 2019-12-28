@@ -22,8 +22,8 @@ bio: My research interests include distributed robotics, mobile computing and pr
 
 interests:
 - Jeux vidéo
-- Nouvelle technologies
-- Bonne bouffe
+- Nouvelles technologies
+- Bien manger
 
 education:
   courses:
