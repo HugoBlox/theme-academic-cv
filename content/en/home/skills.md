@@ -1,35 +1,25 @@
 +++
-# A Skills section created with the Featurette widget.
-widget = "featurette"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 30  # Order that this section will appear.
-
-title = "Skills"
+active = true
+draft = true
+headless = true
 subtitle = ""
-
-# Showcase personal skills or business features.
-# 
-# Add/remove as many `[[feature]]` blocks below as you like.
-# 
-# For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
-
+title = "Skills"
+weight = 30
+widget = "featurette"
 [[feature]]
-  icon = "code"
-  icon_pack = "fas"
-  name = "Programming"
-  description = ""
-
+description = ""
+icon = "code"
+icon_pack = "fas"
+name = "Programming"
 [[feature]]
-  icon = "server"
-  icon_pack = "fa"
-  name = "SysAdmin"
-  description = ""
-  
+description = ""
+icon = "server"
+icon_pack = "fa"
+name = "SysAdmin"
 [[feature]]
-  icon = "network-wired"
-  icon_pack = "fas"
-  name = "Networking"
-  description = ""
+description = ""
+icon = "network-wired"
+icon_pack = "fas"
+name = "Networking"
 
 +++
