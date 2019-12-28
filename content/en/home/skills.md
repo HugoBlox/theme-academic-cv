@@ -7,7 +7,7 @@ title = "Skills"
 weight = 30
 widget = "featurette"
 [[feature]]
-description = "I can code, websites, REST APIs, some AI. Recent tech I used from my toolbox : TypeScript  Nodejs  React  Go"
+description = "I can code, websites, REST APIs, some AI. Recent tech I used from my toolbox : TypeScript,Nodejs,React,Go"
 icon = "code"
 icon_pack = "fas"
 name = "Programming"
