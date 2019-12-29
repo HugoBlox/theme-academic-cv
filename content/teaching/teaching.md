@@ -22,8 +22,6 @@ date_format = "Jan 2006"
   company = "FAS 361/SOC 391 Research Methods, Arizona State University"
   company_url = ""
   location = "Summer 2019"
-  date_start = "2017-01-01"
-  date_end = ""
   description = """
   Responsibilities include:
   
