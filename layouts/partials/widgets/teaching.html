@@ -37,7 +37,7 @@
               {{- with .company_url}}<a href="{{.}}" target="_blank" rel="noopener">{{end}}{{.company | markdownify | emojify}}{{with .company_url}}</a>{{end -}}
             </h4>
             <div class="text-muted exp-meta">
-              {{with .location}}
+              {{with .teaching_session}}
                 <span class="middot-divider"></span>
                 <span>{{.}}</span>
               {{end}}
