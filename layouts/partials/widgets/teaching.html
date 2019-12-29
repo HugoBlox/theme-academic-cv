@@ -12,7 +12,7 @@
 
     {{ if $page.Params.experience }}
     {{ $exp_len := len $page.Params.experience }}
-    {{ range $idx, $key := sort $page.Params.experience ".date_start" "desc" }}
+    {{ range $idx, $key := sort $page.Params.experience ".order" "desc" }}
     <div class="row experience">
       <!-- Timeline -->
       <div class="col-auto text-center flex-column d-none d-sm-flex">
