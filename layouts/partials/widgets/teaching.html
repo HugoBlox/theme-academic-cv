@@ -20,6 +20,9 @@
           <div class="col {{if gt $idx 0}}border-right{{end}}">&nbsp;</div>
           <div class="col">&nbsp;</div>
         </div>
+        <div class="m-2">
+          <span class="badge badge-pill border exp-fill">&nbsp;</span>
+        </div>
         <div class="row h-50">
           <div class="col {{if lt $idx (sub $exp_len 1)}}border-right{{end}}">&nbsp;</div>
           <div class="col">&nbsp;</div>
@@ -30,7 +33,7 @@
         <div class="card">
           <div class="card-body">
             <h4 class="card-title exp-title text-muted mt-0 mb-1">{{.title | markdownify | emojify}}</h4>
-            <h4 class="card-title exp-course text-muted my-0">
+            <h4 class="card-title exp-company text-muted my-0">
               {{- with .course_url}}<a href="{{.}}" target="_blank" rel="noopener">{{end}}{{.course | markdownify | emojify}}{{with .course_url}}</a>{{end -}}
             </h4>
             <div class="text-muted exp-meta">
