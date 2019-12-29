@@ -10,18 +10,19 @@ subtitle = ""
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
-
+date_format = "Jan 2006"
 
 # Experiences.
-#   Add/remove as many `[[experience]]` blocks below as you like.
+#   Add/remove as many `[[teaching]]` blocks below as you like.
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
-[[experience]]
+[[teaching]]
   title = "Instructor"
   company = "FAS 361/SOC 391 Research Methods, Arizona State University"
   company_url = ""
-  order = 1
+  date_start = "2019-01-01"
+  date_end = ""
   teaching_session = "Summer 2019"
   description = """
   Responsibilities include:
