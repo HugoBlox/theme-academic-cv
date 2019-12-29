@@ -21,6 +21,7 @@ subtitle = ""
   title = "Instructor"
   company = "FAS 361/SOC 391 Research Methods, Arizona State University"
   company_url = ""
+  date_start = "1"
   teaching_session = "Summer 2019"
   description = """
   Responsibilities include:
