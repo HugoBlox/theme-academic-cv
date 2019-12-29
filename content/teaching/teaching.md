@@ -21,7 +21,7 @@ subtitle = ""
   title = "Instructor"
   company = "FAS 361/SOC 391 Research Methods, Arizona State University"
   company_url = ""
-  location = "Summer 2019"
+  teaching_session = "Summer 2019"
   description = """
   Responsibilities include:
   
@@ -30,11 +30,5 @@ subtitle = ""
   * Deploying
   """
 
-[[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  description = """Taught electronic engineering and researched semiconductor physics."""
 
 +++
