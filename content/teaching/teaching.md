@@ -23,6 +23,7 @@ date_format = "Jan 2006"
   company_url = ""
   date_start = "2019-01-01"
   date_end = ""
+  order = "1"
   teaching_session = "Summer 2019"
   description = """
   Responsibilities include:
