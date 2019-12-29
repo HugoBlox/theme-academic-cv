@@ -23,8 +23,14 @@ subtitle = ""
   company_url = ""
   order = "1"
   teaching_session = "Summer 2019"
-  description = """
-  """
+  description = """"""
+[[teaching]]
+  title = "Guest Lecturer"
+  company = "SOC 390 Social Statistics, Arizona State University"
+  company_url = ""
+  order = "2"
+  teaching_session = "Fall 2018"
+  description = """"""
 
 
 +++
