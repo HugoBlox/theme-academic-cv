@@ -10,10 +10,10 @@
   <div class="col-12 col-lg-8">
     {{ with $page.Content }}{{ . }}{{ end }}
 
-    {{ if $page.Params.experience }}
-    {{ $exp_len := len $page.Params.experience }}
-    {{ range $idx, $key := sort $page.Params.experience ".date_start" "desc" }}
-    <div class="row experience">
+    {{ if $page.Params.teaching }}
+    {{ $exp_len := len $page.Params.teaching }}
+    {{ range $idx, $key := sort $page.Params.teaching ".date_start" "desc" }}
+    <div class="row teaching">
       <!-- Timeline -->
       <div class="col-auto text-center flex-column d-none d-sm-flex">
         <div class="row h-50">
