@@ -12,7 +12,7 @@
 
     {{ if $page.Params.teaching }}
     {{ $exp_len := len $page.Params.teaching }}
-    {{ range $idx, $key := sort $page.Params.teaching ".date_start" "desc" }}
+    {{ range $idx, $key := sort $page.Params.teaching ".order" "asc" }}
     <div class="row teaching">
       <!-- Timeline -->
       <div class="col-auto text-center flex-column d-none d-sm-flex">
