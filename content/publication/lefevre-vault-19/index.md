@@ -1,0 +1,12 @@
+---
+title: "Skyhook: Programmable storage for databases"
+date: 2019-02-01
+publishDate: 2019-12-30T00:58:33.302546Z
+authors: ["Jeff LeFevre", "Noah Watkins", "Michael Sevilla", "Carlos Maltzahn"]
+publication_types: ["1"]
+abstract: ""
+featured: false
+publication: "*2019 Linux Storage and Filesystems (Vault'19, co-located with FAST'19)*"
+tags: ["papers", "programmable", "storage", "database"]
+---
+

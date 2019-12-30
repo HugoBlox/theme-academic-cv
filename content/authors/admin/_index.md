@@ -33,6 +33,7 @@ administration:
 
 researchers:
 - "[Kate Compton](https://www.galaxykate.com/)"
+- "[Ivo Jimenez](http://www.linkedin.com/in/ivotron)"
 
 currentphds:
 - "[Saheed Adepoju](https://www.linkedin.com/in/saheedadepoju/)"
