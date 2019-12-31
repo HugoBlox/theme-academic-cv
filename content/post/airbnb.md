@@ -1,5 +1,12 @@
 
-
+---
+title: 'Ventures in Python: Scikit ML Pipelines with AirBnb Bookings Data'
+author: ''
+date: '2019-12-30'
+slug: ventures-in-python
+categories: []
+tags: []
+---
 
 In this analysis, I will try different feature engineering and modeling approaches to predict the destination a user will book on AirBnb. Because there a multiple country destinations represented in the dataset, this is a multi-class classification problem. 
 
