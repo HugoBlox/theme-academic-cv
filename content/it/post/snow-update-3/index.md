@@ -1,0 +1,39 @@
+---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
+title: "Snow Update 3"
+subtitle: ""
+summary: ""
+authors: []
+tags: []
+categories: []
+date: 2020-01-02T13:24:12+01:00
+lastmod: 2019-01-02T13:24:12+01:00
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ""
+  focal_point: ""
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+---
+
+In data 2 gennaio dei rappresentanti di APAZAF hanno svolto una seconda ricognizione del Luogo. Qui il riassunto di cosa hanno determinato:
+- C'è neve.
+- La neve consiste di: neve fredda farinosa impossibile da pressare in palle, coperta da uno strato abbastanza morbido (ma contenente un rigo di ghiaccio) di neve che porta almeno persone di 60 kg. In tutto uno spessore che varia dai 40 ai 70 cm.
+- Lo strato superiore si presta a essere spezzettato e lanciato, e non è abbastanza duro da fare male.
+![Lo strato superiore del manto nevoso](/img/post/strata.jpg)
+- La strada per arrivare al parcheggio sarà probabilmente piena di gente sabato mattina, e quella per Rivamonte ci è sembrata molto più breve di quella per Voltago. I più coraggiosi farebbero bene a percorrere l'oscura valle di cui è stato detto "La via è chiusa. Fu creata da coloro che sono zecche, e le zecche la custodiscono.". Quelli che arrivano, arrivano prima.
+- La via di salita a piedi è comoda, sia il sentiero che la strada alternano tratti di neve a tratti senza. La strada ha di scomodo che ha anche tratti di ghiaccio, il sentiero che è ripido. 
+- È impossibile scendere in bob, sci o simili, visti i molti tratti senza neve.
+
