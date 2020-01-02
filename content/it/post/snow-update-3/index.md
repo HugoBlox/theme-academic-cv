@@ -1,8 +1,9 @@
 +++
 title= "Snow Update 3"
+date= 2020-01-02T13:24:12+01:00
 featured= false
+share = false
 +++
-
 In data 2 gennaio dei rappresentanti di APAZAF hanno svolto una seconda ricognizione del Luogo. Qui il riassunto di cosa hanno determinato:
 - C'è neve.
 - La neve consiste di: neve fredda farinosa impossibile da pressare in palle, coperta da uno strato abbastanza morbido (ma contenente un rigo di ghiaccio) di neve che porta almeno persone di 60 kg. In tutto uno spessore che varia dai 40 ai 70 cm.
