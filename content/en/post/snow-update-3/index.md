@@ -1,32 +1,10 @@
----
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
++++
 
-title: "Snow Update 3"
-subtitle: ""
-summary: ""
-authors: []
-tags: []
-categories: []
-date: 2020-01-02T13:24:12+01:00
-lastmod: 2019-01-02T13:24:12+01:00
-featured: false
-draft: false
+title= "Snow Update 3"
+date= 2020-01-02T13:24:12+01:00
+featured= false
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
----
++++
 
 On January 2, a representative of APAZAF did a second reconnaissance visit to the Location. Here is what they determined:
 * There is snow.
