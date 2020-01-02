@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Snow Update 2"
+title: "Aggiornamento neve (2)"
 subtitle: ""
 summary: ""
 authors: []
