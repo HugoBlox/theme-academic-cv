@@ -14,3 +14,8 @@ In data 2 gennaio dei rappresentanti di APAZAF hanno svolto una seconda ricogniz
 - La via di salita a piedi è comoda, sia il sentiero che la strada alternano tratti di neve a tratti senza. La strada ha di scomodo che ha anche tratti di ghiaccio, il sentiero che è ripido. 
 - È impossibile scendere in bob, sci o simili, visti i molti tratti senza neve.
 
+Qui un raro video di un prode palladinevista che mette alla prova le sue più raffinate strategie:
+{{< youtube gdyB0kt77TM >}}
+
+
+

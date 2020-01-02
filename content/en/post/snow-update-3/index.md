@@ -15,3 +15,5 @@ On January 2, a representative of APAZAF did a second reconnaissance visit to th
 - The way up on foot is comfortable, both the path and the road alternate patches of snow with patches not of snow. The unpleasant side of the road is that there are also patches of ice, the path is on the other hand steep.
 - It is impossible to use a bobsleigh, skis or similar items, due to the snowless patches.
 
+Here a rare video of a brave snowballer testing his best moves:
+{{< youtube gdyB0kt77TM >}}
