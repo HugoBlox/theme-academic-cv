@@ -9,7 +9,7 @@ Come ogni anno, la battaglia si svolgerà al [Bivacco Menegazzi](https://goo.gl/
 
 ## Dove e come ci troviamo?
 Vi state chiedendo come raggiungerci? Qui di sotto ci sono alcuni dettagli per aiutarvi a pianificare il viaggio.
-Ci incontriamo alla **Stazione di Belluno** la mattina del **4 gennaio 2020 alle 09:00**.
+Ci incontriamo alla **Stazione di Belluno** la mattina del **4 gennaio 2020 alle 08:00**.
 Da lì in poi, organizzeremo il trasporto in auto e divideremo i partecipanti in gruppi in modo da minimizzare il numero delle stesse.
 
 #### Arrivare a Belluno
@@ -17,7 +17,7 @@ Arrivare a Belluno in auto è facile: basta prendere la A27, circa 1.5 ore da Pa
 Treni arrivano da est (Conegliano), nord (Cortina) e sud (Padova). I treni sono pochi, pianificate di conseguenza.
 
 #### Alloggio
-09:00 è troppo presto per voi, o temete di non farcela a prendere l'ultimo treno al ritorno?
+08:00 è troppo presto per voi, o temete di non farcela a prendere l'ultimo treno al ritorno?
 Niente paura! APAZAF si farà in quattro (dai tre che sono) per garantirvi un alloggio gratuito a casa di uno dei partecipanti bellunesi: colleghi di palle di neve sono sempre benvenuti!
 Semplicemente fateci sapere con anticipo al momento della registrazione, e cercheremo di prenotare un letto per voi. Se poi cambiate idea, [contattateci](/it/contact)!
 Se desiderate, potete anche dormire al bivacco, che è provvisto di letti e (forse) materassi. Avrete solo bisogno di sacchi a pelo caldi, visto che la temperatura notturna potrebbe facilmente raggiungere i -15°C.

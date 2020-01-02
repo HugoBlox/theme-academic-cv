@@ -11,7 +11,7 @@ It's pretty simple: we go there, we have some fun, we eat a warm lunch, we have 
 
 ## Where and when do we meet?
 Wondering how to get to us? Here are some organisational details to help with planning your trip!  
-We will meet in front of **Belluno's train station** the morning of the **4th of January, 2020, at 09:00**.
+We will meet in front of **Belluno's train station** the morning of the **4th of January, 2020, at 08:00**.
 From there on, we will organise transportation by car and separate the participants in groups, in order to minimise the number of vehicles.
 
 #### How to get to Belluno
@@ -19,7 +19,7 @@ Getting to Belluno by car is easy: it is served by the A27 highway, about a 1.5 
 Train lines reach the city from East (Conegliano), North (Cortina) and South (Padova); trains are usually few and far between, so plan your trip in advance.
 
 #### Accomodation
-09:00 in the morning is too early for you, or you fear you'll miss the last train?
+08:00 in the morning is too early for you, or you fear you'll miss the last train?
 Fret you not! APAZAF will try to find free accommodation for you in the house of one of the participants from Belluno: fellow snowballers are more than welcome!
 Just let us know in advance when you register and we'll try to reserve a bed for you. If you change your mind, just [contact us](/contact)!
 
