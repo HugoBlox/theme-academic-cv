@@ -1,9 +1,7 @@
 +++
-
 title= "Snow Update 3"
-date= 2020-01-02T13:24:12+01:00
 featured= false
-
+share=false
 +++
 
 On January 2, a representative of APAZAF did a second reconnaissance visit to the Location. Here is what they determined:
