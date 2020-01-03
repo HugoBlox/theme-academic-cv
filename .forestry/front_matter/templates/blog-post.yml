@@ -50,4 +50,3 @@ fields:
   description: You can filter by featured content on your homepage
 pages:
 - content/en/post/how-i-built-this-website-and-i-how-i-maintain-it.md
-- content/en/post/website.md
