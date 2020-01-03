@@ -49,4 +49,4 @@ fields:
   label: featured
   description: You can filter by featured content on your homepage
 pages:
-- content/en/post/testpostfromforestry.md
+- content/en/post/website.md
