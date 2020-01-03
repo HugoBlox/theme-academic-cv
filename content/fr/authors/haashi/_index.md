@@ -7,8 +7,8 @@ role: Ingénieur DevOps
 organizations:
 - name: Ciril GROUP
   url: https://www.cirilgroup.com/fr/
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+bio: Ingénieur DevOps chez Ciril GROUP. J'essaye de partager un maximum mes projets
+  IT personnels, qu'ils concernent la programmation ou l'infrastructure.
 interests:
 - Jeux vidéo
 - Nouvelles technologies
