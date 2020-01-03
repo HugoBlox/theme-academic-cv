@@ -104,13 +104,13 @@ enableGitInfo = false
 
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
-  color_theme = "dark"
+  color_theme = "dark_er"
   # Enable users to switch between day and night mode?
   day_night = true
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
-  font = "playfair"
+  font = "classic"
 
   # Description for social sharing and search engines. If undefined, author role is used in place.
   description = "Eugenie Roudaia, PhD. Researchers in visual perception and cognitive neuroscience"
@@ -223,7 +223,7 @@ enableGitInfo = false
     #   0 = Simple
     #   1 = Detailed
     #   2 = Stream
-    post_format = 2
+    post_format = 1
 
     # Publication list format.
     #   0 = Simple
@@ -260,7 +260,7 @@ enableGitInfo = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fas"
-    link = "mailto:eroudaia@baycrest.research.org"  # For a direct email link, use "mailto:test@example.org".
+    link = "mailto:eroudaia@research.baycrest.org"  # For a direct email link, use "mailto:test@example.org".
 
   [[params.social]]
     icon = "twitter"
@@ -299,7 +299,7 @@ enableGitInfo = false
 
 [[menu.main]]
   name = "Publications"
-  url = "#publications_selected"
+  url = "/publication"
   weight = 2
 
 #[[menu.main]]
