@@ -9,9 +9,9 @@ summary = "Summary is here"
 tags = []
 title = "TestPostFromForestry"
 [image]
-caption = ""
-focal_point = ""
-placement = nil
+caption = "Caption"
+focal_point = "Smart"
+placement = 0
 
 +++
 TestFromForestry
