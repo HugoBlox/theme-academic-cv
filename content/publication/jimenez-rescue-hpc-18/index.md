@@ -7,6 +7,7 @@ publication_types: ["1"]
 abstract: "Advances in agile software delivery methodologies and tools (commonly referred to as DevOps) have not yet materialized in academic scenarios such as university, industry and government laboratories. In this position paper we make the case for Black Swan, a platform for the agile implementation, maintenance and curation of experimentation pipelines by embracing a DevOps approach."
 featured: false
 publication: "*1st Workshop on Reproducible, Customizable and Portable Workflows for HPC (ResCuE-HPC'18, co-located with SC'18)*"
+url_slides: "http://rescue-hpc.org/_resources/20181111-blackswan_rescue-hpc-sc18-workshop.pdf"
 tags: ["papers", "reproducibility"]
 ---
 
