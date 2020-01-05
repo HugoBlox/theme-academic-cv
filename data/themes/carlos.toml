@@ -1,0 +1,18 @@
+# Theme metadata
+name = "carlos"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#1f6daa"
+
+# Menu
+menu_primary = "#fff"
+menu_text = "#34495e"
+menu_text_active = "#1f6daa"
+menu_title = "#2b2b2b"
+
+# Home sections
+home_section_odd = "rgb(255, 255, 255)"
+home_section_even = "rgb(247, 247, 247)"
