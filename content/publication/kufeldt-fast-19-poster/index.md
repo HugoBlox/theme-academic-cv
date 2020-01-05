@@ -1,7 +1,7 @@
 ---
 title: "MBWU (MibeeWu): Quantifying benefits of offloading data management to storage devices"
 date: 2019-02-01
-publishDate: 2019-12-30T00:58:33.279161Z
+publishDate: 2020-01-05T06:43:50.390744Z
 authors: ["Philip Kufeldt", "Jianshen Liu", "Carlos Maltzahn"]
 publication_types: ["1"]
 abstract: ""

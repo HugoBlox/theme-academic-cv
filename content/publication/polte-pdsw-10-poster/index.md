@@ -1,7 +1,7 @@
 ---
 title: "PLFS and HDFS: Enabling Parallel Filesystem Semantics In The Cloud"
 date: 2010-11-01
-publishDate: 2019-12-30T00:58:33.268912Z
+publishDate: 2020-01-05T06:43:50.381180Z
 authors: ["Esteban Molina-Estolan, John Bent Milo Polte", "Garth Gibson", "Carlos Maltzahn", "Maya B. Gokhale", "Scott Brandt"]
 publication_types: ["1"]
 abstract: ""

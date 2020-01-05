@@ -1,12 +1,12 @@
 ---
 title: "Brados: Declarative,Programmable Object Storage"
 date: 2016-10-01
-publishDate: 2019-12-30T00:58:33.335327Z
+publishDate: 2020-01-05T06:43:50.453146Z
 authors: ["Noah Watkins", "Michael Sevilla", "Ivo Jimenez", "Neha Ohja", "Peter Alvaro", "Carlos Maltzahn"]
 publication_types: ["1"]
 abstract: ""
 featured: false
 publication: "*SoCC'16*"
-tags: ["papers", "declarative", "storage", "programmable"]
+tags: ["shortpapers", "declarative", "storage", "programmable"]
 ---
 

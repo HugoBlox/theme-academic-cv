@@ -1,9 +1,11 @@
 @techreport{watkins:ucsctr13,
+ abstract = {The emergence of high-performance open-source storage systems is allowing application and middleware developers to consider non-standard storage system interfaces. In contrast to the common practice of translating all I/O access onto the POSIX file interface, it will soon be common for application development to include the co-design of storage system interfaces. In order for developers to evolve a co-design in high-availability clusters, services are needed for in-vivo interface evolution that allows the development of interfaces in the context of a live system.
+Current clustered storage systems that provide interface customizability expose primitive services for managing static interfaces. For maximum utility, creating, evolving, and deploying dynamic storage interfaces is needed. However, in large-scale clusters, dynamic interface instantiation will require system-level support that ensures interface version consistency among storage nodes and clients. We propose that storage systems should provide services that fully manage the life-cycle of dynamic interfaces that are aligned with the common branch-and-merge form of software maintenance, including isolated development workspaces that can be combined into existing production views of the system.},
  address = {Santa Cruz, CA},
  author = {Noah Watkins and Carlos Maltzahn and Scott Brandt and Ian Pye and Adam Manzanares},
  bdsk-file-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxAWVy93YXRraW5zLXVjc2N0cjEzLnBkZk8RAXAAAAAAAXAAAgAADEdvb2dsZSBEcml2ZQAAAAAAAAAAAAAAAAAAAAAAAABCRAAB/////xR3YXRraW5zLXVjc2N0cjEzLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAAAAAAAAAEAAwAACgBjdQAAAAAAAAAAAAAAAAABVwAAAgA8LzpWb2x1bWVzOkdvb2dsZURyaXZlOk15IERyaXZlOlBhcGVyczpXOndhdGtpbnMtdWNzY3RyMTMucGRmAA4AKgAUAHcAYQB0AGsAaQBuAHMALQB1AGMAcwBjAHQAcgAxADMALgBwAGQAZgAPABoADABHAG8AbwBnAGwAZQAgAEQAcgBpAHYAZQASACcvTXkgRHJpdmUvUGFwZXJzL1cvd2F0a2lucy11Y3NjdHIxMy5wZGYAABMAFC9Wb2x1bWVzL0dvb2dsZURyaXZl//8AAAAIAA0AGgAkAD0AAAAAAAACAQAAAAAAAAAFAAAAAAAAAAAAAAAAAAABsQ==},
  date-added = {2013-05-30 22:41:44 +0000},
- date-modified = {2013-05-30 22:44:47 +0000},
+ date-modified = {2020-01-04 23:01:28 -0700},
  institution = {University of California Santa Cruz},
  keywords = {papers, datamodel, scripting, storage, systems, software-defined},
  month = {March 16},

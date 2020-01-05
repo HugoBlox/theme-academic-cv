@@ -1,9 +1,11 @@
 @techreport{watkins:ucsctr16,
+ abstract = {As applications scale to new levels and migrate into cloud environments, there has been a significant departure from the exclusive reliance on the POSIX file I/O interface. However in doing so, application often discover a lack of services, forcing them to use bolt-on features or take on the responsibility of critical data management tasks. This often results in duplication of complex software with extreme correctness requirements. Instead, wouldn't it be nice if an application could just convey what it wanted out of a storage system, and have the storage system understand?
+The central question we address in this paper is whether or not the design delta between two storage systems can be expressed in a form such that one system becomes little more than a configuration of the other. Storage systems should expose their useful services in a way that separates performance from correctness, allowing for their safe reuse. After all, hardened code in storage systems protects countless value, and its correctness is only as good as the stress we place on it. We demonstrate these concepts by synthesizing the CORFU high-performance shared-log abstraction in Ceph through minor modifications of existing sub-systems that are orthogonal to correctness.},
  address = {Santa Cruz, CA},
  author = {Noah Watkins and Michael Sevilla and Carlos Maltzahn},
  bdsk-file-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxAWVy93YXRraW5zLXVjc2N0cjE2LnBkZk8RAXAAAAAAAXAAAgAADEdvb2dsZSBEcml2ZQAAAAAAAAAAAAAAAAAAAAAAAABCRAAB/////xR3YXRraW5zLXVjc2N0cjE2LnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAAAAAAAAAEAAwAACgBjdQAAAAAAAAAAAAAAAAABVwAAAgA8LzpWb2x1bWVzOkdvb2dsZURyaXZlOk15IERyaXZlOlBhcGVyczpXOndhdGtpbnMtdWNzY3RyMTYucGRmAA4AKgAUAHcAYQB0AGsAaQBuAHMALQB1AGMAcwBjAHQAcgAxADYALgBwAGQAZgAPABoADABHAG8AbwBnAGwAZQAgAEQAcgBpAHYAZQASACcvTXkgRHJpdmUvUGFwZXJzL1cvd2F0a2lucy11Y3NjdHIxNi5wZGYAABMAFC9Wb2x1bWVzL0dvb2dsZURyaXZl//8AAAAIAA0AGgAkAD0AAAAAAAACAQAAAAAAAAAFAAAAAAAAAAAAAAAAAAABsQ==},
  date-added = {2016-08-26 18:45:34 +0000},
- date-modified = {2017-09-27 18:43:39 +0000},
+ date-modified = {2020-01-04 21:48:55 -0700},
  institution = {UC Santa Cruz},
  keywords = {papers, programmable, storage, systems},
  month = {June 11},

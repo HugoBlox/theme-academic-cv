@@ -1,10 +1,12 @@
 @inproceedings{watkins:pdsw15,
+ abstract = {Traditionally storage has not been part of a programming model's semantics and is added only as an I/O library interface. As a result, programming models, languages, and storage systems are limited in the optimizations they can perform for I/O operations, as the semantics of the I/O library is typically at the level of transfers of blocks of uninterpreted bits, with no accompanying knowledge of how those bits are used by the application. For many HPC applications where I/O operations for analyzing and checkpointing large data sets are a non-negligible portion of the overall execution time, such a ``know nothing'' I/O design has negative performance implications.
+We propose an alternative design where the I/O semantics are integrated as part of the programming model, and a common data model is used throughout the entire memory and storage hierarchy enabling storage and application level co-optimizations. We demonstrate these ideas through the integration of storage services within the Legion [2] runtime and present preliminary results demonstrating the integration.},
  address = {Austin, TX},
  author = {Noah Watkins and Zhihao Jia and Galen Shipman and Carlos Maltzahn and Alex Aiken and Pat McCormick},
  bdsk-file-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxAUVy93YXRraW5zLXBkc3cxNS5wZGZPEQFoAAAAAAFoAAIAAAxHb29nbGUgRHJpdmUAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8Sd2F0a2lucy1wZHN3MTUucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAAABAAMAAAoAY3UAAAAAAAAAAAAAAAAAAVcAAAIAOi86Vm9sdW1lczpHb29nbGVEcml2ZTpNeSBEcml2ZTpQYXBlcnM6Vzp3YXRraW5zLXBkc3cxNS5wZGYADgAmABIAdwBhAHQAawBpAG4AcwAtAHAAZABzAHcAMQA1AC4AcABkAGYADwAaAAwARwBvAG8AZwBsAGUAIABEAHIAaQB2AGUAEgAlL015IERyaXZlL1BhcGVycy9XL3dhdGtpbnMtcGRzdzE1LnBkZgAAEwAUL1ZvbHVtZXMvR29vZ2xlRHJpdmX//wAAAAgADQAaACQAOwAAAAAAAAIBAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAGn},
  booktitle = {PDSW'15},
  date-added = {2016-08-31 06:03:13 +0000},
- date-modified = {2016-08-31 06:07:34 +0000},
+ date-modified = {2020-01-04 21:48:24 -0700},
  keywords = {papers, storage, systems, optimization, parallel, distributed, runtime},
  month = {November 16},
  title = {Automatic and transparent I/O optimization with storage integrated application runtime support},

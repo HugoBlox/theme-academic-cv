@@ -1,7 +1,7 @@
 ---
 title: "ZEA, A Data Management Approach for SMR"
 date: 2016-06-01
-publishDate: 2019-12-30T00:58:33.346038Z
+publishDate: 2020-01-05T06:43:50.467381Z
 authors: [" Manzanares", "Noah Watkins", "Cyril Guyot", "Damien LeMoal", "Carlos Maltzahn", "Zvonimir Bandic"]
 publication_types: ["1"]
 abstract: ""

@@ -1,7 +1,7 @@
 ---
 title: "Reproducible Computational and Data-Intensive Experimentation Pipelines with Popper"
 date: 2018-04-01
-publishDate: 2019-12-30T00:58:33.276498Z
+publishDate: 2020-01-05T06:43:50.388523Z
 authors: ["Ivo Jimenez", "Carlos Maltzahn"]
 publication_types: ["1"]
 abstract: ""

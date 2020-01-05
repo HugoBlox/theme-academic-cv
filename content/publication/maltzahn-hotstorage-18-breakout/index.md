@@ -1,7 +1,7 @@
 ---
 title: "Should Storage Devices Stay Dumb or Become Smart?"
 date: 2018-07-01
-publishDate: 2019-12-30T00:58:33.277812Z
+publishDate: 2020-01-05T06:43:50.389702Z
 authors: ["Carlos Maltzahn"]
 publication_types: ["1"]
 abstract: ""

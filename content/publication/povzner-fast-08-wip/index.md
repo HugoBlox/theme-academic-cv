@@ -1,7 +1,7 @@
 ---
 title: "Virtualizing Disk Performance with Fahrrad"
 date: 2008-01-01
-publishDate: 2019-12-30T00:58:33.477373Z
+publishDate: 2020-01-05T06:43:50.740554Z
 authors: ["Anna Povzner", "Scott A. Brandt", "Richard Golding", "Theodore Wong", "Carlos Maltzahn"]
 publication_types: ["1"]
 abstract: ""

@@ -1,7 +1,7 @@
 ---
 title: "End-to-end Performance Management for Scalable Distributed Storage"
 date: 2007-01-01
-publishDate: 2019-12-30T00:58:33.427204Z
+publishDate: 2020-01-05T06:43:50.648914Z
 authors: ["David Bigelow", "Suresh Iyer", "Tim Kaldewey", "Roberto Pineiro", "Anna Povzner", "Scott A. Brandt", "Richard Golding", "Theodore Wong", "Carlos Maltzahn"]
 publication_types: ["1"]
 abstract: ""

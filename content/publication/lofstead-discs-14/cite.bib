@@ -1,10 +1,12 @@
 @inproceedings{lofstead:discs14,
+ abstract = {Scientific simulations are moving away from using centralized persistent storage for intermediate data between workflow steps towards an all online model. This shift is motivated by the relatively slow IO bandwidth growth compared with compute speed increases. The challenges presented by this shift to Integrated Application Workflows are motivated by the loss of persistent storage semantics for node-to-node communication. One step towards addressing this semantics gap is using transac- tions to logically delineate a data set from 100,000s of processes to 1000s of servers as an atomic unit.
+Our previously demonstrated Doubly Distributed Transac- tions (D2T) protocol showed a high-performance solution, but had not explored how to detect and recover from faults. Instead, the focus was on demonstrating high-performance typical case performance. The research presented here addresses fault detec- tion and recovery based on the enhanced protocol design. The total overhead for a full transaction with multiple operations at 65,536 processes is on average 0.055 seconds. Fault detection and recovery mechanisms demonstrate similar performance to the success case with only the addition of appropriate timeouts for the system. This paper explores the challenges in designing a recoverable protocol for doubly distributed transactions, partic- ularly for parallel computing environments.},
  address = {New Orleans, LA},
  author = {Jay Lofstead and Jai Dayal and Ivo Jimenez and Carlos Maltzahn},
  bdsk-file-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxAWTC9sb2ZzdGVhZC1kaXNjczE0LnBkZk8RAXAAAAAAAXAAAgAADEdvb2dsZSBEcml2ZQAAAAAAAAAAAAAAAAAAAAAAAABCRAAB/////xRsb2ZzdGVhZC1kaXNjczE0LnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAAAAAAAAAEAAwAACgBjdQAAAAAAAAAAAAAAAAABTAAAAgA8LzpWb2x1bWVzOkdvb2dsZURyaXZlOk15IERyaXZlOlBhcGVyczpMOmxvZnN0ZWFkLWRpc2NzMTQucGRmAA4AKgAUAGwAbwBmAHMAdABlAGEAZAAtAGQAaQBzAGMAcwAxADQALgBwAGQAZgAPABoADABHAG8AbwBnAGwAZQAgAEQAcgBpAHYAZQASACcvTXkgRHJpdmUvUGFwZXJzL0wvbG9mc3RlYWQtZGlzY3MxNC5wZGYAABMAFC9Wb2x1bWVzL0dvb2dsZURyaXZl//8AAAAIAA0AGgAkAD0AAAAAAAACAQAAAAAAAAAFAAAAAAAAAAAAAAAAAAABsQ==},
  booktitle = {The 2014 International Workshop on Data-Intensive Scalable Computing Systems (DISCS-2014) (Workshop co-located with Supercomputing 2014)},
  date-added = {2019-12-26 16:14:45 -0800},
- date-modified = {2019-12-26 16:16:11 -0800},
+ date-modified = {2020-01-04 21:18:57 -0700},
  keywords = {papers, datamanagement, hpc},
  month = {November 16},
  title = {Efficient, Failure Resilient Transactions for Parallel and Distributed Computing},

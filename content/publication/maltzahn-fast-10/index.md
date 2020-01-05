@@ -1,7 +1,7 @@
 ---
 title: "InfoGarden: A Casual-Game Approach to Digital Archive Management"
 date: 2010-02-01
-publishDate: 2019-12-30T00:58:33.417529Z
+publishDate: 2020-01-05T06:43:50.599421Z
 authors: ["Carlos Maltzahn", "Michael Mateas", "Jim Whitehead"]
 publication_types: ["1"]
 abstract: ""

@@ -1,11 +1,13 @@
 @inproceedings{jia:hipc17,
+ abstract = {Accessing external resources (e.g., loading input data, checkpointing snapshots, and out-of-core processing) can have a significant impact on the performance of applications. However, no existing programming systems for high-performance computing directly manage and optimize external accesses. As a result, users must explicitly manage external accesses alongside their computation at the application level, which can result in both correctness and performance issues.
+We address this limitation by introducing Iris, a task-based programming model with semantics for external resources. Iris allows applications to describe their access requirements to external resources and the relationship of those accesses to the computation. Iris incorporates external I/O into a deferred execution model, reschedules external I/O to overlap I/O with computation, and reduces external I/O when possible. We evaluate Iris on three microbenchmarks representative of important workloads in HPC and a full combustion simulation, S3D. We demonstrate that the Iris implementation of S3D reduces the external I/O overhead by up to 20x, compared to the Legion and the Fortran implementations.},
  address = {Jaipur, India},
  author = {Zhihao Jia and Sean Treichler and Galen Shipman and Michael Bauer and Noah Watkins and Carlos Maltzahn and Pat McCormick and Alex Aiken},
  bdsk-file-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxASSS1KL2ppYS1oaXBjMTcucGRmTxEBXgAAAAABXgACAAAMR29vZ2xlIERyaXZlAAAAAAAAAAAAAAAAAAAAAAAAAEJEAAH/////DmppYS1oaXBjMTcucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAUERGIENBUk8AAQADAAAKAGN1AAAAAAAAAAAAAAAAAANJLUoAAAIAOC86Vm9sdW1lczpHb29nbGVEcml2ZTpNeSBEcml2ZTpQYXBlcnM6SS1KOmppYS1oaXBjMTcucGRmAA4AHgAOAGoAaQBhAC0AaABpAHAAYwAxADcALgBwAGQAZgAPABoADABHAG8AbwBnAGwAZQAgAEQAcgBpAHYAZQASACMvTXkgRHJpdmUvUGFwZXJzL0ktSi9qaWEtaGlwYzE3LnBkZgAAEwAUL1ZvbHVtZXMvR29vZ2xlRHJpdmX//wAAAAgADQAaACQAOQAAAAAAAAIBAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAGb},
  booktitle = {HiPC 2017},
  date-added = {2018-04-03 18:26:23 +0000},
- date-modified = {2018-04-03 18:33:22 +0000},
- keywords = {papers, runtime, distributed, programming, storage,},
+ date-modified = {2020-01-04 22:56:24 -0700},
+ keywords = {papers, runtime, distributed, programming, storage},
  month = {December 18-21},
  title = {Integrating External Resources with a Task-Based Programming Model},
  year = {2017}

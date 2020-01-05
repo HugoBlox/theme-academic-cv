@@ -1,7 +1,7 @@
 ---
 title: "Exploring Resource Migration using the CephFS Metadata cluster"
 date: 2014-02-01
-publishDate: 2019-12-30T00:58:33.273729Z
+publishDate: 2020-01-05T06:43:50.386081Z
 authors: ["Michael Sevilla", "Scott Brandt", "Carlos Maltzahn", "Ike Nassi", "Sam Fineberg"]
 publication_types: ["1"]
 abstract: ""

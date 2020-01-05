@@ -1,10 +1,10 @@
 ---
 title: "Consistency and Fault Tolerance Considerations for the Next Iteration of the DOE Fast Forward Storage and IO Project"
 date: 2014-09-01
-publishDate: 2019-12-30T00:58:33.288383Z
+publishDate: 2020-01-05T06:43:50.401922Z
 authors: ["Jay Lofstead", "Ivo Jimenez", "Carlos Maltzahn"]
 publication_types: ["1"]
-abstract: ""
+abstract: "The DOE Extreme-Scale Technology Acceleration Fast Forward Storage and IO Stack project is going to have significant impact on storage systems design within and beyond the HPC community. With phase 1 of the project complete, it is an excellent opportunity to evaluate many of the decisions made to feed into the phase 2 effort. With this paper we not only provide a timely summary of important aspects of the design specifications but also capture the underlying reasoning that is not available elsewhere. The initial effort to define a next generation storage system has made admirable contributions in architecture and design. Formalizing the general idea of data staging into burst buffers for the storage system will help manage the performance variability and offer additional data processing opportunities outside the main compute and storage system. Adding a transactional mech- anism to manage faults and data visibility helps enable effective analytics without having to work around the IO stack semantics. While these and other contributions are valuable, similar efforts made elsewhere may offer attractive alternatives or differing semantics that could yield a more feature rich environment with little to no additional overhead. For example, the Doubly Distributed Transactions (D2T) protocol offers an alternative approach for incorporating transactional semantics into the data path. Another project, PreDatA, examined how to get the best throughput for data operators and may offer additional insights into further refinements of the Burst Buffer concept. This paper examines some of the choices made by the Fast Forward team and compares them with other options and offers observations and suggestions based on these other efforts. This will include some non-core contributions of other projects, such as some of the demonstration metadata and data storage components generated while implementing D2T, to make suggestions that may help the next generation design for how the IO stack works as a whole."
 featured: false
 publication: "*Workshop on Interfaces and Architectures for Scientific Data Storage (IASDS 2014)*"
 tags: ["papers", "datamanagement", "hpc"]
