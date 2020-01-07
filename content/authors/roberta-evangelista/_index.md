@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Roberta Evangelista
+name: Dr. Roberta Evangelista
 
 # Username (this should match the folder name)
 authors:
