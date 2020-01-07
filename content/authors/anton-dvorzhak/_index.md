@@ -1,16 +1,16 @@
 ---
 # Display name
-name: Dr. Roberta Evangelista
+name: Anton Dvorzhak
 
 # Username (this should match the folder name)
 authors:
-- roberta-evangelista
+- anton-dvorzhak
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: PhD student
+role: PhDost doc
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: PhD student in projects A01
+bio: postdoct in projects A02
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -27,7 +27,7 @@ bio: PhD student in projects A01
 social:
 - icon: globe
   icon_pack: fas
-  link: https://itb.biologie.hu-berlin.de/~kempter/
+  link: https://schmitz.neurocure.de/
 #- icon: envelope
 #  icon_pack: fas
 #  link: '#contact'  # For a direct email link, use "mailto:julien.colomb@fu-berlin.de".
