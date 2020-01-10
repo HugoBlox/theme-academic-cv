@@ -1,0 +1,74 @@
+{{/* Notify JS that this is a widget page */}}
+<span class="js-widget-page d-none"></span>
+
+{{/* Get widget page */}}
+{{ $page := "" }}
+{{ if .IsHome }}
+  {{ $page = "/home" }}
+{{ else }}
+  {{ $page = .File.Path }}
+{{ end }}
+{{ $headless_bundle := site.GetPage $page }}
+{{/* Check homepage exists */}}
+{{ if not $headless_bundle }}
+  {{ errorf "Homepage not found or duplicate homepages detected for a localization! Add the `home/` folder (especially `/home/index.md`) to each language's content folder. For example, your site should have a `content/home/` folder containing `index.md` and your homepage sections, or for multi-language sites, `content/en/home/` and `content/zh/home/` etc. Refer to the 'Build Your Homepage' and 'Language' documentation at https://sourcethemes.com/academic/docs/ and the example homepage at https://github.com/gcushen/hugo-academia/tree/master/exampleSite/content/home/index.md ." }}
+{{ end }}
+
+{{/* Load page sections */}}
+{{ range $index, $st := where ( $headless_bundle.Resources.ByType "page" ) ".Params.active" "!=" false }}
+  {{/* Begin widget styling */}}
+  {{ $bg := $st.Params.design.background }}
+  {{ $style := "" }}
+
+  {{ if $bg.color }}
+    {{ $style = printf "background-color: %s;" ($bg.color | default "transparent") }}
+  {{ end }}
+
+  {{ if and $bg.gradient_start $bg.gradient_end }}
+    {{ $style = printf "%sbackground-image: linear-gradient(%s, %s);" $style $bg.gradient_start $bg.gradient_end }}
+  {{ end }}
+
+  {{ if $bg.image }}
+    {{ $darken := "" }}
+    {{ if $bg.image_darken }}
+      {{ $darken = printf "linear-gradient(rgba(0, 0, 0, %s), rgba(0, 0, 0, %s))," (string $bg.image_darken) (string $bg.image_darken) }}
+    {{ end }}
+    {{/* See Hugo note on linking assets in styles: https://github.com/gohugoio/hugoThemes#common-permalink-issues */}}
+    {{ $style = printf "%sbackground-image: %s url('%s');" $style $darken (printf "img/%s" $bg.image | absURL) }}
+  {{ end }}
+
+  {{ with $st.Params.design.spacing.padding }}
+    {{ $style_pad := printf "padding: %s;" (delimit . " ") }}
+    {{ $style = print $style $style_pad }}
+  {{ end }}
+
+  {{ with $st.Params.advanced.css_style }}
+    {{ $style = print $style . }}
+  {{ end }}
+
+  {{/* Fix Hugo's ContentBaseName returning wrong file base name when page section is within a bundle. */}}
+  {{ $hash_id := replace $st.File.ContentBaseName "index" (path.Base (path.Split .Path).Dir) }}
+
+  {{ $widget := or $st.Params.widget "blank" }}
+  {{ if eq $widget "custom" }}{{ $widget = "blank" }}{{ end }}{{/* Support legacy Custom widget */}}
+  {{ if eq $widget "projects" }}{{ $widget = "portfolio" }}{{ end }}{{/* Support legacy Projects widget */}}
+
+  {{ $widget_path := printf "widgets/%s.html" $widget }}
+  {{ $widget_args := dict "root" $ "page" $st "hash_id" $hash_id }}
+  {{ $css_classes := $st.Params.advanced.css_class | default "" }}
+  {{ $extra_attributes := "" }}
+  {{ $use_container := true }}
+
+  {{/* Special case: Slider widget. */}}
+  {{ if in (slice "slider") $widget }}
+    {{ $css_classes = print $css_classes " carousel slide" }}
+    {{ $extra_attributes = printf "data-ride=\"carousel\" data-interval=\"%s\"" (string $st.Params.interval | default "5000") }}
+    {{ $use_container = false }}
+  {{ end }}
+
+  <section id="{{$hash_id}}" class="home-section {{printf "wg-%s" (replace $widget "_" "-")}} {{if $bg.text_color_light}}dark{{end}} {{if $bg.image}}parallax{{end}} {{with $css_classes}}{{.}}{{end}}" {{with $style}}style="{{. | safeCSS}}"{{end}} {{print $extra_attributes | safeHTMLAttr}}>
+    {{if $use_container}}<div class="container">{{end}}
+      {{ partial $widget_path $widget_args }}
+    {{if $use_container}}</div>{{end}}
+  </section>
+{{ end }}

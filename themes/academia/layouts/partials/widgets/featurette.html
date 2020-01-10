@@ -1,0 +1,33 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
+<div class="row featurette">
+  {{ with $page.Title }}
+  <div class="col-12 section-heading">
+    <h1>{{ . | markdownify | emojify }}</h1>
+    {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
+  </div>
+  {{ end }}
+
+  {{ with $page.Content }}
+  <div class="col-12">
+    {{ . | markdownify }}
+  </div>
+  {{ end }}
+
+  {{ range $page.Params.feature }}
+  {{ $pack := or .icon_pack "fas" }}
+  {{ $pack_prefix := $pack }}
+  {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+  {{ $pack_prefix = "fa" }}
+  {{ end }}
+  <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+    <div class="position-relative py-2 shadow">
+      <div class="progress-bar" style="width:{{ .parcent }}"></div>
+      {{ with .icon }}<div class="featurette-icon"><i class="{{ $pack }} {{ $pack_prefix }}-{{ . }}"></i></div>{{ end }}
+      <h3>{{ .name | markdownify | emojify }}</h3>
+      {{ with .parcent }}<p>{{ . }}</p>{{ end }}
+    </div>
+  </div>
+  {{ end }}
+</div>

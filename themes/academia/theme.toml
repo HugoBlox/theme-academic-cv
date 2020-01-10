@@ -1,0 +1,51 @@
+name = "Academia Hugo"
+license = "MIT"
+licenselink = "https://github.com/themefisher/academia-hugo/blob/master/LICENSE.md"
+description = "The website builder for Hugo. Build *anything* with widgets and deploy with one click! Fully personalize your site with themes, plugins, and language packs."
+homepage = "https://gethugothemes.com/products/academia/"
+min_version = "0.55.0"
+tags = ["widgets",
+        "resume",
+        "portfolio",
+        "responsive",
+        "clean",
+        "personal",
+        "company",
+        "blog",
+        "minimal",
+        "light",
+        "dark",
+        "themefisher",
+        "multilingual",
+        "documentation",
+        "landing page",
+        "projects",
+        "single page",
+        "contact form",
+        "mobile",
+        "gallery",
+        "search",
+        "presentation",
+        "simple",
+        "minimalist",
+        "starter",
+        "modern",
+        "one page",
+        "customizable",
+        "themefisher",
+        "technical",
+        "product",
+        "slide"
+        ]
+features = ["page builder", "widgets", "themes", "search", "research publication system", "filterable portfolio",
+            "blog", "create courses", "talks", "events", "slides", "gallery", "contact form"]
+
+[author]
+  name = "Themefisher"
+  homepage = "https://themefisher.com"
+
+# If porting an existing theme
+[original]
+  name = "academic"
+  homepage = "https://sourcethemes.com/academic/"
+  repo = "https://github.com/gcushen/hugo-academic"

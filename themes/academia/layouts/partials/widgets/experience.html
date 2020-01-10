@@ -1,0 +1,40 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
+<div class="row">
+  <!-- Experience widget -->
+  <div class="col-12 text-center section-heading">
+    <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
+    {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
+    {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
+  </div>
+  {{ if $page.Params.experience }}
+  {{ $exp_len := len $page.Params.experience }}
+  {{ range $idx, $key := sort $page.Params.experience ".date_start" "desc" }}
+  <div class="col-md-6 col-lg-4 mb-4">
+    <div class="card rounded-0 border-0 shadow-sm experience">
+      <div class="card-body rounded-0 border-0">
+        <h4 class="card-title exp-company my-0">
+          {{- with .company_url}}<a href="{{.}}" target="_blank"
+            rel="noopener">{{end}}{{.company | markdownify | emojify}}{{with .company_url}}</a>{{end -}}
+        </h4>
+        <p class="card-title text-muted exp-title my-0">{{.title | markdownify | emojify}}</p>
+        <div class="text-muted exp-meta">
+          {{ (time .date_start).Format ($page.Params.date_format | default "January 2006") }} –
+          {{ if .date_end}}
+          {{ (time .date_end).Format ($page.Params.date_format | default "January 2006") }}
+          {{else}}
+          {{ i18n "present" | default "Present" }}
+          {{end}}
+          {{with .location}}
+          <span class="middot-divider"></span>
+          <span>{{.}}</span>
+          {{end}}
+        </div>
+        {{with .description}}<div class="card-text">{{. | markdownify | emojify}}</div>{{end}}
+      </div>
+    </div>
+  </div>
+  {{end}}
+  {{end}}
+</div>

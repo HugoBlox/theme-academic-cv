@@ -1,0 +1,42 @@
+{{- define "main" -}}
+
+<article class="article py-5" itemscope itemtype="http://schema.org/Article">
+
+  {{ partial "page_header.html" . }}
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      {{ .Content }}
+    </div>
+
+    {{ partial "tags.html" . }}
+
+    {{ if ne .Type "page" }}
+      {{ partial "page_author.html" . }}
+      {{ $related := site.RegularPages.Related . | first 5 }}
+      {{ with $related }}
+      <div class="article-widget">
+        <div class="hr-light"></div>
+        <h3>{{ i18n "related" }}</h3>
+        <ul>
+          {{ range . }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+    {{ end }}
+
+    {{ if site.Params.section_pager }}
+    <div class="article-widget">
+      {{ partial "section_pager.html" . }}
+    </div>
+    {{ end }}
+
+    {{ partial "comments.html" . }}
+
+  </div>
+</article>
+
+{{- end -}}

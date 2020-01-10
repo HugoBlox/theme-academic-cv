@@ -1,0 +1,56 @@
+{{ $item := . }}
+
+{{ $microdata_type := "CreativeWork" }}
+{{ $icon := "fa-file-alt" }}
+{{ $show_authors := false }}
+{{ $show_buttons := false }}
+
+{{/* Dynamic view adjusts to content type. */}}
+{{ if eq $item.Type "post" }}
+  {{ $microdata_type = "BlogPosting" }}
+  {{ $icon = "fa-newspaper" }}
+{{ else if eq $item.Type "talk" }}
+  {{ $microdata_type = "Event" }}
+  {{ $icon = "fa-calendar-alt" }}
+{{ else if eq $item.Type "publication" }}
+  {{ $microdata_type = "ScholarlyArticle" }}
+  {{ $show_authors = true }}
+  {{ $show_buttons = true }}
+{{ end }}
+
+<div class="view-list-item" itemscope itemtype="http://schema.org/{{$microdata_type}}">
+  <i class="far {{$icon}} pub-icon" aria-hidden="true"></i>
+  <a href="{{ $item.RelPermalink }}" itemprop="url"><span itemprop="name">{{ $item.Title }}</span></a>
+
+  {{ if eq $item.Type "talk" }}
+  <div class="article-metadata">
+    <span itemprop="startDate">
+      {{ $date := $item.Date }}
+      {{ (time $date).Format site.Params.date_format }}
+      {{ if not $item.Params.all_day }}
+        {{ (time $date).Format (site.Params.time_format | default "3:04 PM") }}
+        {{ with $item.Params.date_end }}
+        &mdash; {{ (time .).Format (site.Params.time_format | default "3:04 PM") }}
+        {{ end }}
+      {{ end }}
+    </span>
+    {{ with $item.Params.location }}
+    <span class="middot-divider"></span>
+    <span itemprop="location">{{ . }}</span>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{ if and $show_authors $item.Params.authors }}
+  <div class="article-metadata" itemprop="author">
+    {{ partial "page_metadata_authors" $item }}
+  </div>
+  {{ end }}
+
+  {{ if $show_buttons }}
+  <div class="btn-links">
+    {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+  </div>
+  {{ end }}
+
+</div>

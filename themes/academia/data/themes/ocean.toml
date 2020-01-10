@@ -1,0 +1,18 @@
+# Theme metadata
+name = "Ocean"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#3f51b5"
+
+# Menu
+menu_primary = "#3f51b5" # 500
+menu_text = "#fff"
+menu_text_active = "#8c9eff" # A100
+menu_title = "#fff"
+
+# Home sections
+home_section_odd = "rgb(255, 255, 255)"
+home_section_even = "rgb(247, 247, 247)"
