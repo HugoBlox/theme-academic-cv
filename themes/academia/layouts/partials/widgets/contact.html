@@ -36,6 +36,11 @@
           <input type="email" name="email" class="form-control rounded-0 w-100" id="inputEmail"
             placeholder="{{ i18n "contact_email" | default "Email" }}" required>
         </div>
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputAddress">{{ i18n "contact_address" }}</label>
+          <input type="text" name="address" class="form-control rounded-0 w-100" id="inputAddress"
+            placeholder="Address" required>
+        </div>
         <div class="form-group">
           <label class="sr-only" for="inputMessage">{{ i18n "contact_message" }}</label>
           <textarea name="message" class="form-control rounded-0" id="inputMessage" rows="5"
