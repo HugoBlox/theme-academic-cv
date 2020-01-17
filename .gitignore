@@ -1,3 +1,10 @@
-public/
+# IDEs
 .idea/
+<<<<<<< HEAD
 .Rproj.user
+=======
+
+# Hugo
+resources/
+public/
+>>>>>>> cc2fb6b68649a247bdfd2f59ddb898c8236fa0da
