@@ -1,24 +1,20 @@
 ---
 # Display name
-name: Michael Vahn
-avatar_image: "user-full.png"
+name: Allstar Exterior Wash
+avatar_image: "logo.jpg"
 # Username (this should match the folder name)
 authors:
 - admin
-# resume download button
-btn:
-- url : "https://sourcethemes.com/academic/docs/install/"
-  label : "Download Resume"
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role:
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
+- name: 
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -67,6 +63,7 @@ social:
 #   icon_pack: ai
 #   link: files/cv.pdf
 
+
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
   
@@ -79,6 +76,5 @@ user_groups:
 
 Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 
-![reviews](../../img/certifacates.jpg)
 
 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum. The point of using Lorem Ipsum. distracted by the readable content of a page.

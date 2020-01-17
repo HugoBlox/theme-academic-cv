@@ -1,5 +1,5 @@
 ---
-title: Skin Cancer AI
+title: Sidewalks
 summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eius.
 tags:
 - human

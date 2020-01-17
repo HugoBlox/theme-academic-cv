@@ -11,17 +11,17 @@
 [[main]]
   name = "About"
   url = "#about"
-  weight = 30
+  weight = 20
 
 [[main]]
   name = "Gallery"
   url = "#gallery"
-  weight = 40
+  weight = 30
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 50
+  weight = 40
 
 
 # Link to a PDF of your resume/CV from the menu.

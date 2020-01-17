@@ -45,22 +45,24 @@
 
       {{/* Only show filter buttons if there are multiple filters. */}}
       {{ if gt (len $st.Params.content.filter_button) 1 }}
-      <div class="project-toolbar">
-        <div class="project-filters">
-          <ul class="list-inline text-center">
-            <li class="list-inline-item">{{ range $idx, $item := $st.Params.content.filter_button }}
-              {{/* Parse filter tag from front matter in the form of either tag name or CSS class name. */}}
-              {{ $data_filter := printf ".js-id-%s" (replace .tag " " "-") }}
-              {{ if or (eq (substr .tag 0 1) "*") (eq (substr .tag 0 1) ".") }}
-              {{ $data_filter = .tag }}
-              {{ end }}
-              <a href="#" data-filter="{{ $data_filter | safeHTMLAttr }}"
-                class="btn btn-primary btn-lg{{ if eq $idx $filter_default }} active{{ end }}">{{ .name }}</a>
-              {{ end }}
-            </li>
-          </ul>
+      <!--
+        <div class="project-toolbar">
+          <div class="project-filters">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">{{ range $idx, $item := $st.Params.content.filter_button }}
+                {{/* Parse filter tag from front matter in the form of either tag name or CSS class name. */}}
+                {{ $data_filter := printf ".js-id-%s" (replace .tag " " "-") }}
+                {{ if or (eq (substr .tag 0 1) "*") (eq (substr .tag 0 1) ".") }}
+                {{ $data_filter = .tag }}
+                {{ end }}
+                <a href="#" data-filter="{{ $data_filter | safeHTMLAttr }}"
+                  class="btn btn-primary btn-lg{{ if eq $idx $filter_default }} active{{ end }}">{{ .name }}</a>
+                {{ end }}
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
+      -->
       {{ end }}
       {{ end }}
 

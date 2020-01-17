@@ -8,7 +8,7 @@ weight = 10  # Order that this section will appear.
 title = "Academia"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-hero_media = "user-2.jpg"
+hero_media = "logo.jpg"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -33,15 +33,12 @@ hero_media = "user-2.jpg"
 # Call to action links (optional).
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
-[btn]
-  url = "/authors/admin"
-  label = "Know mores"
   
 [btn_alt]
   url = "#contact"
-  label = "Contact me"
+  label = "Contact Us"
 
 +++
-## My name is **Michael Vahn** and I'm a **Professor** specializing in **Artificial Intelligence**
+## About Us
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.
+ALL STAR EXTERIOR WASH, LLC. is a roof and exterior cleaning company that intends to safely provide professional services for you and your property. Our goal is to be your roof and exterior cleaning service provider indefinitely. This goal is only obtainable by providing top notch results at competitive prices . We would like to say thank you to all that have chosen us in the past, and look forward to assisting any and all seeking that great looking home you deserve.

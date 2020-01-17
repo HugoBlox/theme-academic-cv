@@ -587,3 +587,4 @@
   $(window).on('load resize orientationchange', normalizeCarouselSlideHeights);
 
 })(jQuery);
+

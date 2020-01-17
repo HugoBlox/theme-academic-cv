@@ -1,6 +1,6 @@
 ---
-title: Deep Learning
-summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eius.
+title: Roof Cleaning
+summary: Our safe low pressure roof cleaning application provides incredible results on all roof types. A single treatment leaves your roof looking like new for years.
 tags:
 - Demo
 - Deep Learning
