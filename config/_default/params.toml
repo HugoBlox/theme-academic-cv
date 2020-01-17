@@ -1,11 +1,10 @@
 # SITE SETUP
 # Documentation: https://sourcethemes.com/academic/
 
-<<<<<<< HEAD
 # Color theme.
 #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
 color_theme = "dark"
-=======
+
 ############################
 ## Theme
 ############################
@@ -16,7 +15,7 @@ color_theme = "dark"
 #   Browse user installed themes in `data/themes/`
 theme = "minimal"
 
->>>>>>> cc2fb6b68649a247bdfd2f59ddb898c8236fa0da
+
 # Enable users to switch between day and night mode?
 day_night = true
 
@@ -26,7 +25,7 @@ day_night = true
 #   Browse user installed font sets in `data/fonts/`
 font = ""
 
-<<<<<<< HEAD
+
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = "The Home of Robert L. Underwood"
 
@@ -39,7 +38,7 @@ twitter = "robunderwood"
 # Diplay a logo in navigation bar rather than title (optional).
 #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
 logo = "cropped-A-1.jpg"
-=======
+
 # Choose a font size.
 # Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
 font_size = "L"
@@ -69,7 +68,7 @@ description = ""
 ############################
 ## Site Features
 ############################
->>>>>>> cc2fb6b68649a247bdfd2f59ddb898c8236fa0da
+
 
 # Enable source code highlighting? true/false
 # Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
@@ -102,7 +101,6 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir 
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-<<<<<<< HEAD
 email = "rlu@robertlunderwood.com"
 #phone = "888 888 88 88"
 #address = "Building 1 Room 1, Stanford University, California, 90210, USA"
@@ -128,7 +126,7 @@ directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
 office_hours = ["Monday 10:00 to 13:00", "Wednesday 09:00 to 10:00"]
->>>>>>> cc2fb6b68649a247bdfd2f59ddb898c8236fa0da
+
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
 #appointment_url = "https://calendly.com"
