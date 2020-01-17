@@ -25,14 +25,11 @@
   weight = 40
 
 [[main]]
-<<<<<<< HEAD
   name = "Projects"
   url = "#projects"
   weight = 50
 
 [[main]]
-=======
->>>>>>> cc2fb6b68649a247bdfd2f59ddb898c8236fa0da
   name = "Contact"
   url = "#contact"
   weight = 60
