@@ -2,8 +2,14 @@
 # A Recent Blog Posts section created with the Pages widget.
 # This section displays recent blog posts from `content/post/`.
 
+<<<<<<< HEAD
 widget = "pages"  # Do not modify this line!
 active = false  # Activate this widget? true/false
+=======
+widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
+headless = true  # This file represents a page section.
+active = true  # Activate this widget? true/false
+>>>>>>> cc2fb6b68649a247bdfd2f59ddb898c8236fa0da
 weight = 60  # Order that this section will appear.
 
 title = "Recent Posts"
