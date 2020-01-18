@@ -5,7 +5,7 @@
 widget = "people"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true # Activate this widget? true/false
-weight = 68  # Order that this section will appear.
+weight = 50  # Order that this section will appear.
 
 title = "People"
 subtitle = "Meet the people working with Carlos Maltzahn at UC Santa Cruz. Our team works with other research groups at UC Santa Cruz, as well as other universities, national labs, and industry, within and outside the USA."
