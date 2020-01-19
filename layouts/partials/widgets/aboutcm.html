@@ -119,6 +119,17 @@
       </div>
       {{ end }}
 
+      {{ with $person.currentmss }}
+      <div class="col-md-5">
+        <h3>{{ i18n "currentmss" | markdownify }}</h3>
+        <ul class="ul-interests">
+          {{ range . }}
+          <li>{{ . | markdownify | emojify }}</li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
       {{ with $person.education }}
       <div class="col-md-7">
         <h3>{{ i18n "education" | markdownify }}</h3>

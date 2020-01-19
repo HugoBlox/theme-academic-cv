@@ -33,6 +33,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:sadepoju@ucsc.edu
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/saheedadepoju/
 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)

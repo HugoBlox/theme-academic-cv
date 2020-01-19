@@ -42,6 +42,9 @@ currentphds:
 - "[Esmaeil Mirvakili](https://www.linkedin.com/in/esmaeil-m-12a71879/)"
 - "[Yiming Zhang](https://www.linkedin.com/in/yiming-steven-zhang/)"
 
+currentmss:
+- "[Saloni Rane](https://www.linkedin.com/in/saloni-rane/)"
+
 graduatedphds:
   courses:
   - course: "[Alexander Ames](http://www.linkedin.com/in/sashaames)"

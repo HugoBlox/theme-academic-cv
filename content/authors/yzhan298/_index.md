@@ -33,6 +33,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:yzhan298@ucsc.edu
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/yiming-steven-zhang/
 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)

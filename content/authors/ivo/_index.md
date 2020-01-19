@@ -33,6 +33,12 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:ivo@cs.ucsc.edu
+- icon: home
+  icon_pack: fas
+  link: https://users.soe.ucsc.edu/~ivo/
+- icon: linkedin
+  icon_pack: fab
+  link: http://www.linkedin.com/in/ivotron
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/ivotron

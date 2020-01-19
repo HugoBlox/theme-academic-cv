@@ -33,6 +33,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:lieggi@ucsc.edu
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/stephanie-lieggi-8542624/
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/sclieggi
