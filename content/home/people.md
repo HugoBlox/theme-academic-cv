@@ -18,10 +18,12 @@ subtitle = "Meet the people working with Carlos Maltzahn at UC Santa Cruz. Our t
                  "Faculty",
                  "Researchers",
                  "Current PhD Students",
+                 "Current MS Students",
                  "Visitors",
                  "Graduated PhD Students"]
 
 [design]
+  columns = "2"
   # Show user's social networking links? (true/false)
   show_social = false
 
