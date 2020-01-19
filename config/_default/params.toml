@@ -98,7 +98,7 @@ address = {street = "1156 High St, MS:SOE3", city = "Santa Cruz", region = "CA",
 coordinates = {latitude = "37.0011", longitude = "-122.0629"}
 
 # Directions for visitors to locate you.
-directions = "Enter Engineering 2 building, take the elevator to the third floor, walk to the north hallway (as you exit the elevators, turn left) and turn right/east and walk almost to the end of the hallway until you see 369 on the left."
+directions = "Enter Engineering 2 building, take the elevator to the third floor, walk to the north hallway (as you exit the elevators, turn left) and turn right/east and walk almost to the end of the hallway until you see 369 on the left (see also [these directions](https://users.soe.ucsc.edu/~carlosm/UCSC/Directions.html))."
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
@@ -171,7 +171,7 @@ plugins_js  = []
   date_format = "January 2006"
 
   # Citation style ("apa" or "mla")
-  citation_style = "apa"
+  citation_style = "mla"
 
 # Configuration of project pages.
 [projects]

@@ -17,4 +17,13 @@ autolink = true
 #   2: formspree.io
 email_form = 0
 +++
+### Office
+Baskin Engineering 2  
+Room 369 ([directions](https://users.soe.ucsc.edu/~carlosm/UCSC/Directions.html))  
+Hours: By appointment  
 
+Phone: +1 (831) 459-1627  
+
+Public key: [1430E52A](http://users.soe.ucsc.edu/~carlosm/1430E52A.asc)  
+
+[**Campus Directory**](https://campusdirectory.ucsc.edu/cd_detail?uid=carlosm)
