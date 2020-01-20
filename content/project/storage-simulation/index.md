@@ -25,10 +25,10 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: []
 ---
-{{% alert note %}}
-**Students:** Adam Crume, Esteban Molina-Estolano  
-**Collaborators:** Matthew Curry (SNL), Thomas Kroeger (SNL), Lee Ward (SNL), Rob Ross (ANL), Christopher Carothers (RPI), John Bent (LANL), Gary Grider (LANL), James Nunez (LANL), Scott Brandt (UCSC), Kleoni Ioannidou (UCSC) 
-**Funding:** DOE, PDSI, ISSDM, GAANN 
+{{< alert note >}}
+Students: Adam Crume, Esteban Molina-Estolano  
+Collaborators: Matthew Curry (SNL), Thomas Kroeger (SNL), Lee Ward (SNL), Rob Ross (ANL), Christopher Carothers (RPI), John Bent (LANL), Gary Grider (LANL), James Nunez (LANL), Scott Brandt (UCSC), Kleoni Ioannidou (UCSC)  
+Funding: DOE, PDSI, ISSDM, GAANN  
 {{% /alert %}}
 
 This project, a LANL/UCSC  collaboration, has already created strong interest at labs and  universities: the goal is to create a simulator for parallel file  systems. Such a simulator will 
