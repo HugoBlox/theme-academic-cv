@@ -28,27 +28,6 @@
       <img class="img-fluid" src="{{ printf "img/%s" $avatar_image | relURL }}" itemprop="image" alt="Avatar">
       {{ end }}
     </div>
-    <ul class="network-icon bg-white mx-2 py-2 text-center" aria-hidden="true">
-      {{ range $person.social }}
-      {{ $pack := or .icon_pack "fas" }}
-      {{ $pack_prefix := $pack }}
-      {{ if in (slice "fab" "fas" "far" "fal") $pack }}
-      {{ $pack_prefix = "fa" }}
-      {{ end }}
-      {{ $link := .link }}
-      {{ $scheme := (urls.Parse $link).Scheme }}
-      {{ $target := "" }}
-      {{ if not $scheme }}
-      {{ $link = .link | relLangURL }}
-      {{ else if in (slice "http" "https") $scheme }}
-      {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
-      {{ end }}
-      <li class="mx-3">
-        <a itemprop="sameAs" href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
-          <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }}"></i>
-        </a>
-      </li>
-      {{ end }}
     </ul>
   </div>
   <div class="col-lg-7" itemprop="description">

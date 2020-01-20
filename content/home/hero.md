@@ -39,6 +39,5 @@ hero_media = "logo.jpg"
   label = "Contact Us"
 
 +++
-## About Us
-
-ALL STAR EXTERIOR WASH, LLC. is a roof and exterior cleaning company that intends to safely provide professional services for you and your property. Our goal is to be your roof and exterior cleaning service provider indefinitely. This goal is only obtainable by providing top notch results at competitive prices . We would like to say thank you to all that have chosen us in the past, and look forward to assisting any and all seeking that great looking home you deserve.
+## Allstar Exterior Wash
+Algae, mold, mildew, and insect-debris flourish in our local climate and all of which negatively effect your homes appearance. We are proudly equipped to tackle this daunting house cleaning task, and strive for the cleanest surface possible.

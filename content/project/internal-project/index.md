@@ -1,12 +1,12 @@
 ---
-title: Fencing
-summary: An example of using the in-built project page.
+title: Fencing & Decks
+summary: text
 tags:
 - Deep Learning
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: /decks-fencing
 
 image:
   caption: Photo by rawpixel on Unsplash

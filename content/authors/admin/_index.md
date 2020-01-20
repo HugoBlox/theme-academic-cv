@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Allstar Exterior Wash
+name: About Us
 avatar_image: "logo.jpg"
 # Username (this should match the folder name)
 authors:
@@ -73,8 +73,6 @@ user_groups:
 - Researchers
 - Visitors
 ---
+ALL STAR EXTERIOR WASH, LLC. is a roof and exterior cleaning company that intends to safely provide professional services for you and your property. Our goal is to be your roof and exterior cleaning service provider indefinitely. This goal is only obtainable by providing top notch results at competitive prices .
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum. The point of using Lorem Ipsum. distracted by the readable content of a page.
+ We would like to say thank you to all that have chosen us in the past, and look forward to assisting any and all seeking that great looking home you deserve.
