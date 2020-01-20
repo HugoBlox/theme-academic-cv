@@ -8,5 +8,7 @@ abstract: "Accessing external resources (e.g., loading input data, checkpointing
 featured: false
 publication: "*HiPC 2017*"
 tags: ["papers", "runtime", "distributed", "programming", "storage"]
+projects:
+- programmable-storage
 ---
 

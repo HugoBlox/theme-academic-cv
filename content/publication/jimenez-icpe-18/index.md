@@ -8,5 +8,7 @@ abstract: "We introduce quiho, a framework for profiling application performance
 featured: false
 publication: "*9th ACM/SPEC International Conference on Performance Engineering (ICPE 2018)*"
 tags: ["papers", "reproducibility", "performance", "testing"]
+projects:
+- practical-reproducibility
 ---
 

@@ -8,5 +8,7 @@ abstract: "Until recently most scientific applications produced data that is sav
 featured: false
 publication: "*MSST '13*"
 tags: ["papers", "redundancy", "layout", "hpc", "storage", "storagemedium", "languages"]
+projects:
+- programmable-storage
 ---
 

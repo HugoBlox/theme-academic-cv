@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 
 title = "Research"
-subtitle = "Still being ported from the [old website](https://users.soe.ucsc.edu/~carlosm/UCSC/Research/Research.html)"
+subtitle = "Google Scholar: [by year](https://scholar.google.com/citations?hl=en&user=ntU7-hwAAAAJ&view_op=list_works&sortby=pubdate), [by citations](https://scholar.google.com/citations?user=ntU7-hwAAAAJ&hl=en)"
 
 [content]
   # Page type to display. E.g. project.
@@ -42,10 +42,10 @@ subtitle = "Still being ported from the [old website](https://users.soe.ucsc.edu
   #   2 = Compact
   #   3 = Card
   #   5 = Showcase
-  view = 3
+  view = 5
 
   # For Showcase view, flip alternate rows?
-  flip_alt_rows = false
+  flip_alt_rows = false 
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -75,3 +75,8 @@ subtitle = "Still being ported from the [old website](https://users.soe.ucsc.edu
  css_class = ""
 +++
 
+{{% alert note %}}
+
+**Tech Reports:**From time to time we make ongoing research available as tech reports. For a current list of tech reports, go to the [Technical Reports of the Jack Baskin School of Engineering](http://www.soe.ucsc.edu/research/technical-reports), click on SEARCH, type in “Carlos Maltzahn” for Keywords and hit Submit. Make sure to also check our [Publications](https://users.soe.ucsc.edu/~carlosm/UCSC/Publications.html).
+
+{{% /alert %}}

@@ -8,5 +8,7 @@ abstract: "The performance of compute hardware varies: software run repeatedly o
 featured: false
 publication: "*13th USENIX Symposium on Operating Systems Design and Implementation (OSDI'18)*"
 tags: ["papers", "performance", "statistics", "cloud", "reproducibility", "systems"]
+projects:
+- practical-reproducibility
 ---
 

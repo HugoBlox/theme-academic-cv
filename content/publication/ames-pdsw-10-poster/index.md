@@ -8,5 +8,7 @@ abstract: ""
 featured: false
 publication: "*Session at 5th Petascale Data Storage Workshop (PDSW 2010), co-located with Supercomputing 2010*"
 tags: ["shortpapers", "linking", "filesystems", "metadata"]
+projects:
+- metadata-rich
 ---
 

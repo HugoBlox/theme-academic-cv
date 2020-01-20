@@ -8,5 +8,7 @@ abstract: "HPC and data center scale application developers are abandoning POSIX
 featured: false
 publication: "*IPDPS 2018*"
 tags: ["papers", "metadata", "datamanagement", "programmable", "filesystems", "storage", "systems"]
+projects:
+- programmable-storage
 ---
 

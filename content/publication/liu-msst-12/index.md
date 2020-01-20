@@ -8,5 +8,7 @@ abstract: "The largest-scale high-performance (HPC) systems are stretching paral
 featured: false
 publication: "*MSST/SNAPI 2012*"
 tags: ["papers", "burstbuffer", "simulation", "hpc", "distributed"]
+projects:
+- storage-simulation
 ---
 

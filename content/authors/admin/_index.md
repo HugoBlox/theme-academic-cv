@@ -27,6 +27,13 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include programmable storage systems, big data storage & processing, scalable data management, distributed systems performance management, and practical reproducible research.
 
+#education:
+#  courses:
+#  - course: M.S. Computer Science, University of Colorado at Boulder
+#    year: 1997
+#  - course: Ph.D. Computer Science, University of Colorado at Boulder
+#    year: 1999
+
 administration:
 - "[Stephanie Lieggi](https://www.linkedin.com/in/stephanie-lieggi-8542624/)"
 - "[Lavinia Preston](https://www.linkedin.com/in/lavinia-preston-60806b127/)"
@@ -86,14 +93,20 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/carlosmalt
+- icon: dryad
+  icon_pack: ai
+  link: https://www.genealogy.math.ndsu.nodak.edu/id.php?id=92188
+#- icon: researchgate
+#  icon_pack: ai
+#  link: https://www.researchgate.net/profile/Carlos_Maltzahn
+- icon: orcid
+  icon_pack: fab
+  link: https://orcid.org/0000-0001-8305-0748
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 - icon: cv
   icon_pack: ai
   link: files/cv.pdf
-- icon: dryad
-  icon_pack: ai
-  link: https://www.genealogy.math.ndsu.nodak.edu/id.php?id=92188
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""

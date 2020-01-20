@@ -8,5 +8,7 @@ abstract: "Hadoop has become the de facto platform for large-scale data analysis
 featured: false
 publication: "*SC '11*"
 tags: ["papers", "mapreduce", "datamanagement", "hpc", "structured", "netcdf"]
+projects:
+- programmable-storage
 ---
 

@@ -8,5 +8,7 @@ abstract: "Predicting access times is a crucial part of predicting hard disk dri
 featured: false
 publication: "*MSST '14*"
 tags: ["papers", "machinelearning", "modeling", "simulation", "storagemedium", "autotuning"]
+projects:
+- storage-simulation
 ---
 

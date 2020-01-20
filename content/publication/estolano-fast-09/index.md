@@ -7,5 +7,7 @@ publication_types: ["1"]
 abstract: ""
 featured: false
 publication: "*WiP at FAST '09*"
+projects:
+- storage-simulation
 ---
 

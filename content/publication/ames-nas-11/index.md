@@ -8,5 +8,7 @@ abstract: ""
 featured: false
 publication: "*NAS 2011*"
 tags: ["papers", "metadata", "graphs", "linking", "filesystems"]
+projects:
+- metadata-rich
 ---
 

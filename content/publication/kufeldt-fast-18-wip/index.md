@@ -8,5 +8,7 @@ abstract: ""
 featured: false
 publication: "*WiP and Poster Sessions at 16th USENIX Conference on File and Storage Technologies (FAST'18)*"
 tags: ["shortpapers", "eusocial", "embedded", "storage"]
+projects:
+- eusocial-storage
 ---
 

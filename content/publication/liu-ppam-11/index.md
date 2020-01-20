@@ -8,5 +8,7 @@ abstract: "Exascale supercomputers will have the potential for billion-way paral
 featured: false
 publication: "*PPAM 2011*"
 tags: ["papers", "simulation", "exascale", "storage", "systems", "parallel", "filesystems", "hpc"]
+projects:
+- storage-simulation
 ---
 

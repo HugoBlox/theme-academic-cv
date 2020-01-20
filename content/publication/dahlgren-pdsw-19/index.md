@@ -9,5 +9,9 @@ featured: false
 publication: "*4th International Parallel Data Systems Workshop (PDSW 2019, co-located with SC'19)*"
 url_slides: "http://www.pdsw.org/pdsw19/slides/JeffLeFevre-pdsw19.pdf"
 tags: ["papers", "programmable", "storage", "datamanagement", "physicaldesign"]
+projects:
+- programmable-storage
+- eusocial-storage
+- declstore
 ---
 

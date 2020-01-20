@@ -8,5 +8,7 @@ abstract: "Software containers can revolutionize research and education with num
 featured: false
 publication: "*Bull. Amer. Meteor. Soc.*"
 tags: ["papers", "containers", "nwp", "learning"]
+projects:
+- practical-reproducibility
 ---
 

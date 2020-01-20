@@ -8,5 +8,7 @@ abstract: "File system metadata management has become a bottleneck for many data
 featured: false
 publication: "*International Journal of Parallel, Emergent and Distributed Systems*"
 tags: ["papers", "metadata", "management", "graphs", "filesystems", "datamanagement"]
+projects:
+- metadata-rich
 ---
 

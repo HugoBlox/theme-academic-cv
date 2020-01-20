@@ -8,5 +8,7 @@ abstract: "Traditionally storage has not been part of a programming model's sema
 featured: false
 publication: "*PDSW'15*"
 tags: ["papers", "storage", "systems", "optimization", "parallel", "distributed", "runtime"]
+projects:
+- programmable-storage
 ---
 

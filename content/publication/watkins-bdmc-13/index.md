@@ -8,5 +8,7 @@ abstract: "The emergence of high-performance open-source storage systems is allo
 featured: false
 publication: "*BigDataCloud '13 (in conjunction with EuroPar 2013)*"
 tags: ["papers", "datamodel", "scripting", "storage", "systems", "software-defined"]
+projects:
+- programmable-storage
 ---
 

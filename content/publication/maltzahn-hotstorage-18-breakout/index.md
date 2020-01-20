@@ -8,5 +8,9 @@ abstract: ""
 featured: false
 publication: "*Breakouts Session abstract at 10th USENIX Workshop on Hot Topics in Storage and File Systems (HotStorage'18, co-located with USENIX ATC'18)*"
 tags: ["shortpapers", "storage", "embedded", "eusocial"]
+projects:
+- declstore
+- programmable-storage
+- eusocial-storage
 ---
 

@@ -9,5 +9,7 @@ featured: false
 publication: "*NSDI '20*"
 url_preprint: "https://arxiv.org/abs/1912.09256"
 tags: ["papers", "reproducibility", "datacenter", "performance"]
+projects:
+- practical-reproducibility
 ---
 

@@ -8,5 +8,7 @@ abstract: "Computer network research experiments can be broadly grouped in three
 featured: false
 publication: "*P-RECS'19*"
 tags: ["papers", "reproducibility", "networking", "experience"]
+projects:
+- practical-reproducibility
 ---
 

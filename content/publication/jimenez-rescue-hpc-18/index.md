@@ -9,5 +9,7 @@ featured: false
 publication: "*1st Workshop on Reproducible, Customizable and Portable Workflows for HPC (ResCuE-HPC'18, co-located with SC'18)*"
 url_slides: "http://rescue-hpc.org/_resources/20181111-blackswan_rescue-hpc-sc18-workshop.pdf"
 tags: ["papers", "reproducibility"]
+projects:
+- practical-reproducibility
 ---
 

@@ -8,5 +8,7 @@ abstract: "Independent validation of experimental results in the field of parall
 featured: false
 publication: "*VarSys'16*"
 tags: ["papers", "reproducibility", ""]
+projects:
+- practical-reproducibility
 ---
 

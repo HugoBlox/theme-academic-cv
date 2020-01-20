@@ -8,5 +8,7 @@ abstract: "As applications become more complex, and the level of concurrency in 
 featured: false
 publication: "*PDSW'12*"
 tags: ["papers", "filesystems", "programming", "datamanagement"]
+projects:
+- programmable-storage
 ---
 

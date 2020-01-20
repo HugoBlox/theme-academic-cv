@@ -8,5 +8,7 @@ abstract: "Independent validation of experimental results in the field of system
 featured: false
 publication: "*4th International Workshop on Reproducibility in Parallel Computing (REPPAR) in conjunction with IPDPS 2017*"
 tags: ["papers", "reproducibility", "devops"]
+projects:
+- practical-reproducibility
 ---
 

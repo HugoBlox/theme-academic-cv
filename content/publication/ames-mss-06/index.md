@@ -8,5 +8,7 @@ abstract: "As the number and variety of files stored and accessed by a typical u
 featured: false
 publication: "*MSST '06*"
 tags: ["papers", "linking", "systems", "storage", "metadata", "storagemedium", "related:quasar", "filesystems"]
+projects:
+- metadata-rich
 ---
 

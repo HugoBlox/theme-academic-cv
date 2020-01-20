@@ -8,5 +8,7 @@ abstract: "Scientific workflows contain an increasing number of interacting appl
 featured: false
 publication: "*PDSW-DISCS 2017 at SC17*"
 tags: ["papers", "replication", "layout", "language"]
+projects:
+- programmable-storage
 ---
 

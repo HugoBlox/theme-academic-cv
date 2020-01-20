@@ -8,5 +8,7 @@ abstract: "Migrating resources is a useful tool for balancing load in a distribu
 featured: false
 publication: "*SC '15*"
 tags: ["papers", "metadata", "management", "loadbalancing", "programmable", "distributed", "systems"]
+projects:
+- programmable-storage
 ---
 

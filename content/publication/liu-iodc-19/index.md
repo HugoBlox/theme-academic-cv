@@ -9,5 +9,8 @@ featured: false
 publication: "*HPC I/O in the Data Center Workshop (HPC-IODC 2019, co-located with ISC-HPC 2019)*"
 url_slides: "https://hps.vi4io.org/_media/events/2019/hpc-iodc-mmbwu-maltzahn.pdf"
 tags: ["papers", "reproducibility", "performance", "embedded", "storage", "eusocial"]
+projects:
+- declstore
+- eusocial-storage
 ---
 

@@ -8,5 +8,7 @@ abstract: "The MapReduce framework is being extended for domains quite different
 featured: false
 publication: "*SC '13*"
 tags: ["papers", "mapreduce", "structured", "datamanagement", "routing", "hpc"]
+projects:
+- programmable-storage
 ---
 

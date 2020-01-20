@@ -8,5 +8,7 @@ abstract: "As storage devices get faster, data management tasks rob the host of 
 featured: false
 publication: "*;login: The USENIX Magazine*"
 tags: ["papers", "storage", "devices", "networking", "flash", "offloading"]
+projects:
+- eusocial-storage
 ---
 

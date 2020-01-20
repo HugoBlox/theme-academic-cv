@@ -8,5 +8,7 @@ abstract: "Evaluating experimental results in the field of com- puter systems is
 featured: false
 publication: "*First Workshop on Containers (WoC 2015) (Workshop co-located with IEEE International Conference on Cloud Engineering - IC2E 2015)*"
 tags: ["papers", "reproduibility", "containers"]
+projects:
+- practical-reproducibility
 ---
 

@@ -8,5 +8,7 @@ abstract: ""
 featured: false
 publication: "*Poster Session at the Conference on File and Storage Technology (FAST 2010)*"
 tags: ["shortpapers", "filesystems", "linking", "metadata"]
+projects:
+- metadata-rich
 ---
 

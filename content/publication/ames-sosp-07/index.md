@@ -8,5 +8,7 @@ abstract: ""
 featured: false
 publication: "*Poster Session at the 21st Symposium on Operating Systems Principles (SOSP 2007)*"
 tags: ["shortpapers", "metadata", "filesystems", "querying"]
+projects:
+- metadata-rich
 ---
 

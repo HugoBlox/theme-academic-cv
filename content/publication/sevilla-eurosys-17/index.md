@@ -8,5 +8,7 @@ abstract: "Storage systems need to support high-performance for special-purpose 
 featured: false
 publication: "*EuroSys '17*"
 tags: ["papers", "storage", "systems", "programmable", "abstraction"]
+projects:
+- programmable-storage
 ---
 

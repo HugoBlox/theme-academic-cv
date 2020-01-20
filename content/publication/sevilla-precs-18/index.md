@@ -9,5 +9,7 @@ featured: false
 publication: "*P-RECS'18*"
 url_poster: "https://docs.google.com/presentation/d/1ITSS5kdNyGw01k0Uk_ruMRddNKmuKgb3gNxtcd2UcBU/edit?usp=sharing"
 tags: ["papers", "reproducibility", "experience"]
+projects:
+- practical-reproducibility
 ---
 

@@ -8,5 +8,7 @@ abstract: "High-end computing is increasingly I/O bound as computations become m
 featured: false
 publication: "*2nd International Workshop on Data-Aware Distributed Computing (in conjunction with HPDC-18)*"
 tags: ["papers", "filesystems", "programmable"]
+projects:
+- programmable-storage
 ---
 

@@ -8,5 +8,7 @@ abstract: "As users interact with file systems of ever increasing size, it is be
 featured: false
 publication: "*Proceedings of the 2007 ACM Petascale Data Storage Workshop (PDSW 07)*"
 tags: ["papers", "ir", "filesystems", "metadata", "facets", "search"]
+projects:
+- metadata-rich
 ---
 

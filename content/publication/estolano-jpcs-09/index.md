@@ -8,5 +8,7 @@ abstract: "Parallel file systems are gaining in popularity in high-end computing
 featured: false
 publication: "*J. Phys.: Conf. Ser.*"
 tags: ["papers", "performance", "simulation", "filesystems"]
+projects:
+- storage-simulation
 ---
 

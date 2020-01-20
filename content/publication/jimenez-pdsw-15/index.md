@@ -8,5 +8,7 @@ abstract: "Validating experimental results in the field of storage systems is a 
 featured: false
 publication: "*PDSW'15*"
 tags: ["papers", "reproducibility", "declarative"]
+projects:
+- practical-reproducibility
 ---
 

@@ -8,5 +8,7 @@ abstract: ""
 featured: false
 publication: "*American Meteorological Society 32nd Conference on Environmental Processing Technologies*"
 tags: ["papers", "reproducibility", "containers"]
+projects:
+- practical-reproducibility
 ---
 

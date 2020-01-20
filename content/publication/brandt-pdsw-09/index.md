@@ -8,5 +8,7 @@ abstract: "File systems are the backbone of large-scale data processing for scie
 featured: false
 publication: "*Proceedings of the 2009 ACM Petascale Data Storage Workshop (PDSW 09)*"
 tags: ["papers", "datamanagement", "filesystems"]
+projects:
+- programmable-storage
 ---
 

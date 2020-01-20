@@ -8,5 +8,7 @@ abstract: ""
 featured: false
 publication: "*HotStorage '18*"
 tags: ["papers", "metadata", "filesystems", "scalable", "naming"]
+projects:
+- programmable-storage
 ---
 

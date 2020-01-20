@@ -8,5 +8,7 @@ abstract: "This paper introduces PopperCI, a continous integration (CI) service 
 featured: false
 publication: "*Workshop on Computer and Networking Experimental Research Using Testbeds (CNERT'17) in conjunction with IEEE INFOCOM 2017*"
 tags: ["papers", "reproducibility", "devops"]
+projects:
+- practical-reproducibility
 ---
 
