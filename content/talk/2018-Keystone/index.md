@@ -16,12 +16,12 @@ abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2019-10-18T16:04:21-03:00
-date_end: 2019-10-18T16:04:21-03:00
+date: 2018-10-18T16:04:21-03:00
+date_end: 2018-10-18T16:04:21-03:00
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: 2019-10-18T16:04:21-03:00
+publishDate: 2018-10-18T16:04:21-03:00
 
 authors: ["@lionel","@fernan"]
 tags: ["Drug Discovery","Chemogenomics"]
