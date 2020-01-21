@@ -1,5 +1,5 @@
 ---
-title: Sidewalks
+title: Driveways & Sidewalks
 summary: text
 tags:
 - human
