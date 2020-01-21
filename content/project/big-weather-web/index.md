@@ -1,6 +1,6 @@
 ---
 title: "Big Weather Web"
-summary: "Making a cloud for reproducible numerical weather prediction."
+summary: "Making a community infrastructure for reproducible numerical weather prediction."
 tags:
 - reproducibility
 date: "2016-04-23T00:00:00Z"

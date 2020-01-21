@@ -8,5 +8,9 @@ abstract: ""
 featured: false
 publication: "*2020 Linux Storage and Filesystems Conference (Vault'20, co-located with FAST'20 and NSDI'20)*"
 tags: ["shortpapers", "programmable", "storage", "physicaldesign"]
+projects:
+- programmable-storage
+- declstore
+- eusocial-storage
 ---
 

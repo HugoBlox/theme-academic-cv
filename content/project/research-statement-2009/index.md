@@ -1,6 +1,6 @@
 ---
 title: "Research Statement (2009)"
-summary: "Making tenure in 2010."
+summary: "Making Associate Adjunct in 2010."
 tags: []
 date: "2016-04-15T00:00:00Z"
 

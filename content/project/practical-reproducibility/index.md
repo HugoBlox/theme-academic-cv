@@ -1,6 +1,6 @@
 ---
 title: "Reproducible Evaluation of Systems"
-summary: "Making reproducible systems experiments practical."
+summary: "Making delivery of systems research more efficient."
 tags:
 - reproducibility
 date: "2016-04-27T00:00:00Z"

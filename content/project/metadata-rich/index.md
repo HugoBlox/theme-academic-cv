@@ -25,11 +25,9 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: []
 ---
-{{< alert note >}}
-Student: Sasha Ames  
-Collaborator: Maya Gokhale (LLNL)  
-Funding: PDSI, LLNL 
-{{< /alert >}}
+**Student:** Sasha Ames  
+**Collaborator:** Maya Gokhale (LLNL)  
+**Funding:** PDSI, LLNL 
 
 This project is a LLNL/UCSC  collaboration: the goal is to design a scalable metadata-rich file  system with database-like data management services. With such a file  system scientist will be able to perform time-critical analysis over  continually evolving, very large data sets. 
 

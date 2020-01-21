@@ -8,5 +8,9 @@ abstract: ""
 featured: false
 publication: "*2019 Linux Storage and Filesystems (Vault'19, co-located with FAST'19)*"
 tags: ["papers", "programmable", "storage", "database"]
+projects:
+- programmable-storage
+- declstore
+- eusocial-storage
 ---
 
