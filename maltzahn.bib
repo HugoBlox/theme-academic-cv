@@ -2,7 +2,7 @@
 %% http://bibdesk.sourceforge.net/
 
 
-%% Created for Carlos Maltzahn at 2020-01-20 16:47:51 -0800 
+%% Created for Carlos Maltzahn at 2020-01-21 19:42:55 -0800 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
@@ -20,8 +20,8 @@
 	Month = {November 4-8},
 	Title = {SkyhookDM: Mapping Scientific Datasets to Programmable Storage},
 	Year = {2019},
-	Bdsk-Url-1 = {https://indico.cern.ch/event/773049/contributions/3474413/},
-	Bdsk-File-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxBDLi4vLi4vLi4vLi4vLi4vVm9sdW1lcy9Hb29nbGVEcml2ZS9NeSBEcml2ZS9QYXBlcnMvQy9jaHUtY2hlcDE5LnBkZk8RAVgAAAAAAVgAAgAADEdvb2dsZSBEcml2ZQAAAAAAAAAAAAAAAAAAAAAAAABCRAAB/////w5jaHUtY2hlcDE5LnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAAAAAAA/////wAACgBjdQAAAAAAAAAAAAAAAAABQwAAAgA2LzpWb2x1bWVzOkdvb2dsZURyaXZlOk15IERyaXZlOlBhcGVyczpDOmNodS1jaGVwMTkucGRmAA4AHgAOAGMAaAB1AC0AYwBoAGUAcAAxADkALgBwAGQAZgAPABoADABHAG8AbwBnAGwAZQAgAEQAcgBpAHYAZQASACEvTXkgRHJpdmUvUGFwZXJzL0MvY2h1LWNoZXAxOS5wZGYAABMAFC9Wb2x1bWVzL0dvb2dsZURyaXZl//8AAAAIAA0AGgAkAGoAAAAAAAACAQAAAAAAAAAFAAAAAAAAAAAAAAAAAAABxg==}}
+	Bdsk-File-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxBDLi4vLi4vLi4vLi4vLi4vVm9sdW1lcy9Hb29nbGVEcml2ZS9NeSBEcml2ZS9QYXBlcnMvQy9jaHUtY2hlcDE5LnBkZk8RAVgAAAAAAVgAAgAADEdvb2dsZSBEcml2ZQAAAAAAAAAAAAAAAAAAAAAAAABCRAAB/////w5jaHUtY2hlcDE5LnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAAAAAAA/////wAACgBjdQAAAAAAAAAAAAAAAAABQwAAAgA2LzpWb2x1bWVzOkdvb2dsZURyaXZlOk15IERyaXZlOlBhcGVyczpDOmNodS1jaGVwMTkucGRmAA4AHgAOAGMAaAB1AC0AYwBoAGUAcAAxADkALgBwAGQAZgAPABoADABHAG8AbwBnAGwAZQAgAEQAcgBpAHYAZQASACEvTXkgRHJpdmUvUGFwZXJzL0MvY2h1LWNoZXAxOS5wZGYAABMAFC9Wb2x1bWVzL0dvb2dsZURyaXZl//8AAAAIAA0AGgAkAGoAAAAAAAACAQAAAAAAAAAFAAAAAAAAAAAAAAAAAAABxg==},
+	Bdsk-Url-1 = {https://indico.cern.ch/event/773049/contributions/3474413/}}
 
 @inproceedings{weil:lsf07,
 	Address = {San Jose, CA},
@@ -431,11 +431,16 @@ This paper not only provides a timely summary of important aspects of the design
 	Year = {2020}}
 
 @inproceedings{lefevre:vault19,
+	Abstract = {Ceph is an open source distributed storage system that is object-based and massively scalable. Ceph provides developers with the capability to create data interfaces that can take advantage of local CPU and memory on the storage nodes (Ceph Object Storage Devices). These interfaces are powerful for application developers and can be created in C, C++, and Lua.
+
+Skyhook is an open source storage and database project in the Center for Research in Open Source Software at UC Santa Cruz. Skyhook uses these capabilities in Ceph to create specialized read/write interfaces that leverage IO and CPU within the storage layer toward database processing and management. Specifically, we develop methods to apply predicates locally as well as additional metadata and indexing capabilities using Ceph's internal indexing mechanism built on top of RocksDB.
+
+Skyhook's approach helps to enable scale-out of a single node database system by scaling out the storage layer. Our results show the performance benefits for some queries indeed scale well as the storage layer scales out.},
 	Address = {Boston, MA},
 	Author = {Jeff LeFevre and Noah Watkins and Michael Sevilla and Carlos Maltzahn},
 	Booktitle = {2019 Linux Storage and Filesystems (Vault'19, co-located with FAST'19)},
 	Date-Added = {2019-08-07 17:58:01 -0700},
-	Date-Modified = {2019-08-07 18:00:48 -0700},
+	Date-Modified = {2020-01-21 19:40:26 -0800},
 	Keywords = {papers, programmable, storage, database},
 	Month = {Februrary 25-26},
 	Title = {Skyhook: Programmable storage for databases},
@@ -466,12 +471,15 @@ This paper not only provides a timely summary of important aspects of the design
 	Bdsk-File-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxBLLi4vLi4vLi4vLi4vLi4vVm9sdW1lcy9Hb29nbGVEcml2ZS9NeSBEcml2ZS9QYXBlcnMvTC9saXUtb2NwZ3MxOS1wb3N0ZXIucGRmTxEBeAAAAAABeAACAAAMR29vZ2xlIERyaXZlAAAAAAAAAAAAAAAAAAAAAAAAAEJEAAH/////FmxpdS1vY3BnczE5LXBvc3Rlci5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAAAAAAD/////AAAKAGN1AAAAAAAAAAAAAAAAAAFMAAACAD4vOlZvbHVtZXM6R29vZ2xlRHJpdmU6TXkgRHJpdmU6UGFwZXJzOkw6bGl1LW9jcGdzMTktcG9zdGVyLnBkZgAOAC4AFgBsAGkAdQAtAG8AYwBwAGcAcwAxADkALQBwAG8AcwB0AGUAcgAuAHAAZABmAA8AGgAMAEcAbwBvAGcAbABlACAARAByAGkAdgBlABIAKS9NeSBEcml2ZS9QYXBlcnMvTC9saXUtb2NwZ3MxOS1wb3N0ZXIucGRmAAATABQvVm9sdW1lcy9Hb29nbGVEcml2Zf//AAAACAANABoAJAByAAAAAAAAAgEAAAAAAAAABQAAAAAAAAAAAAAAAAAAAe4=}}
 
 @inproceedings{sevilla:hotstorage18,
+	Abstract = {The file system metadata service is the scalability bottleneck for many of today's workloads. Common approaches for attacking this ``metadata scaling wall'' include: caching inodes on clients and servers, caching parent inodes for path traversal, and dynamic caching policies that exploit workload locality. These caches reduce the number of remote procedure calls (RPCs) but the effectiveness is dependent on the overhead of maintaining cache coherence and the administrator's ability to select the best cache size for the given workloads. Recent work reduces the number of metadata RPCs to 1 without using a cache at all, by letting clients ``decouple'' the subtrees from the global namespace so that they can do metadata operations locally. Even with this technique, we show that file system metadata is still a bottleneck because namespaces for today's workloads can be very large. The size is problematic for reads because metadata needs to be transferred and materialized. 
+
+The management techniques for file system metadata assume that namespaces have no structure but we observe that this is not the case for all workloads. We propose Tintenfisch, a file system that allows users to succinctly express the structure of the metadata they intend to create. If a user can express the structure of the namespace, Tintenfisch clients and servers can (1) compact metadata, (2) modify large namespaces more quickly, and (3) generate only relevant parts of the namespace. This reduces network traffic, storage footprints, and the number of overall metadata operations needed to complete a job.},
 	Address = {Boston, MA},
 	Annote = {Submitted to HotStorage'18},
 	Author = {Michael A. Sevilla and Reza Nasirigerdeh and Carlos Maltzahn and Jeff LeFevre and Noah Watkins and Peter Alvaro and Margaret Lawson and Jay Lofstead and Jim Pivarski},
 	Booktitle = {HotStorage '18},
 	Date-Added = {2018-09-04 00:39:56 -0700},
-	Date-Modified = {2018-09-04 00:41:15 -0700},
+	Date-Modified = {2020-01-21 18:52:29 -0800},
 	Keywords = {papers, metadata, filesystems, scalable, naming},
 	Month = {July 9-10},
 	Title = {Tintenfisch: File System Namespace Schemas and Generators},
