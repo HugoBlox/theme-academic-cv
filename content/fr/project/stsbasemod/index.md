@@ -43,7 +43,7 @@ slides: ""
 
 Ce mod communautaire facilite l'implémentation de nouvelles fonctionnalités et de nouveaux contenus. C'est devenu la méthode officielle pour modder le jeu.
 
-J'ai notamment pu aider l'implémentation concernant les potions. Le projet à depuis évoluer et mon implémentation à surement dûe être retravaillée.
+J'ai notamment pu aider l'implémentation concernant les potions. Le projet a depuis évolué et mon implémentation à surement dûe être retravaillée.
 
 Technologies utilisées : 
 - Java

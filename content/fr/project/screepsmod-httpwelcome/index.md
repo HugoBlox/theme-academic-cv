@@ -43,6 +43,6 @@ slides: ""
 
 Mod pour les serveurs privés du jeu de programmation [Screeps](https://screeps.com).
 
-Le mod permet de desservir des pages d'accueil lors d'une connection depuis un navigateur. Utile si vous voulez afficher plus d'informations que la page de base 'Screeps is running on address:port'.
+Le mod permet de desservir une page d'accueil lors d'une connection depuis un navigateur. Utile si vous voulez afficher plus d'informations que la page de base 'Screeps is running on address:port'.
 
 Le mod a été développé il y a 2 ans, je ne sais pas si il continue à fonctionner sur les nouvelles versions du jeu. Ecrit en NodeJS.

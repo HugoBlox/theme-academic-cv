@@ -42,9 +42,9 @@ slides: ""
 
 Le projet est relativement simple. Le cas d'usage n'est pas très intéressant, beaucoup d'outils sont capables de le faire, et mieux.
 
-Mon objectif était d'essayer un service Cloud and de tester par moi même le "serverless". J'ai utilisé Google Cloud pour ce projet, je n'avais plus de crédits restants sur Amazon Web Services, mais j'aurai pu l'utiliser.
+Mon objectif était d'essayer un service Cloud et de tester par moi même le "serverless". J'ai utilisé Google Cloud pour ce projet, je n'avais plus de crédits restants sur Amazon Web Services, mais j'aurai pu l'utiliser.
 
-Le projet a duré environ 2 jours. Je ne ferais pas de posts à propos de ce projet, et j'ai supprimé le projet sur la plateforme Google Cloud 3 mois plus tard.
+Le projet a duré environ 2 jours. J'ai supprimé le projet sur la plateforme Google Cloud 3 mois plus tard.
 
 Technologies utilisées pour ce projet :
 - ReactJS
