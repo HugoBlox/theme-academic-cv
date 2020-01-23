@@ -38,8 +38,7 @@ social:
   icon_pack: ai
   link: authors/haashi/Baptiste_Pontanier_resume.pdf
 email: baptiste.pontanier@laposte.net
-draft: true
-
+draft: false
 ---
 My name is Baptiste Pontanier, and I am a French Engineer in Information Technologies. I really love IT, and the wide range of diverse projects you can work on. 
 

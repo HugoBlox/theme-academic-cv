@@ -1,0 +1,141 @@
+theme: haashi
+day_night: true
+font: rose
+font_size: L
+site_type: Person
+local_business_type: ''
+org_name: ''
+description: ''
+logo: logo.gif
+highlight: true
+highlight_languages:
+  - r
+math: false
+diagram: false
+privacy_pack: false
+edit_page:
+  repo_url: 'https://github.com/gcushen/hugo-academic'
+  content_dir: ''
+  repo_branch: master
+  editable:
+    docs: true
+    page: false
+    post: false
+email: baptiste.pontanier@laposte.net
+phone: '+3342123867'
+address:
+  city: Villeurbanne
+  postcode: '69100'
+  country: France
+  country_code: FR
+contact_links:
+  - icon: linkedin
+    icon_pack: fab
+    name: baptiste-pontanier-b4ba0512b
+    link: 'https://www.linkedin.com/in/baptiste-pontanier-b4ba0512b'
+  - icon: cv
+    icon_pack: ai
+    name: Curriculum Vitae
+    link: authors/haashi/Baptiste_Pontanier_CV.pdf
+sharing_image: ''
+twitter: haashi9
+date_format: 'Jan 2, 2006'
+time_format: '3:04 PM'
+address_format: en-us
+gravatar: true
+main_menu:
+  align: l
+  show_logo: true
+reading_time: true
+section_pager: false
+docs_section_pager: true
+sharing: true
+link_authors: true
+plugins_js: []
+address_formats:
+  en-us:
+    order:
+      - street
+      - city
+      - region
+      - postcode
+    delimiters:
+      - ', '
+      - ', '
+      - ' '
+      - ''
+  en-gb:
+    order:
+      - street
+      - city
+      - region
+      - postcode
+    delimiters:
+      - ', '
+      - ', '
+      - ', '
+      - ''
+  de:
+    order:
+      - street
+      - postcode
+      - city
+    delimiters:
+      - ', '
+      - ' '
+      - ''
+  fr-fr:
+    order:
+      - street
+      - postcode
+      - city
+    delimiters:
+      - <br>
+      - ' '
+      - ''
+  zh:
+    order:
+      - postcode
+      - region
+      - city
+      - street
+    delimiters:
+      - ' '
+      - ' '
+      - ' '
+      - ''
+publications:
+  date_format: January 2006
+  citation_style: apa
+projects:
+  post_view: 1
+  publication_view: 3
+  talk_view: 3
+comments:
+  engine: 0
+  commentable:
+    page: true
+    post: true
+    docs: true
+    project: true
+    publication: true
+    talk: true
+  disqus:
+    shortname: ''
+    show_count: true
+  commento:
+    url: ''
+search:
+  engine: 1
+  algolia:
+    app_id: ''
+    api_key: ''
+    index_name: ''
+    show_logo: false
+map:
+  engine: 2
+  api_key: ''
+  zoom: 15
+marketing:
+  google_analytics: ''
+  google_tag_manager: ''

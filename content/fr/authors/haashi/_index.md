@@ -7,7 +7,7 @@ role: Ingénieur DevOps
 organizations:
 - name: Ciril GROUP
   url: https://www.cirilgroup.com/fr/
-bio: Ingénieur DevOps chez Ciril GROUP. J'essaye de partager un maximum mes projets
+bio: Ingénieur DevOps chez Ciril GROUP. J'essaye de partager au maximum mes projets
   IT personnels, qu'ils concernent la programmation ou l'infrastructure.
 interests:
 - Jeux vidéo

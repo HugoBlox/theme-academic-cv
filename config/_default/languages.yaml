@@ -1,0 +1,20 @@
+en:
+  languageCode: en-us
+  contentDir: content/en
+fr:
+  languageCode: fr-FR
+  contentDir: content/fr
+  menu:
+    main:
+      - name: Accueil
+        url: '#about'
+        weight: 10
+      - name: Projets
+        url: '#projects'
+        weight: 20
+      - name: Posts
+        url: post
+        weight: 30
+      - name: Contact
+        url: '#contact'
+        weight: 40

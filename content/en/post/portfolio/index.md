@@ -1,19 +1,22 @@
-+++
-authors = []
-date = 2020-01-03T11:00:00Z
-draft = true
-featured = false
-projects = []
-subtitle = "Using Hugo, Academic, and Forestry"
-summary = "Learn how I built this website using Hugo and Academic, the little changes I made to match my old design, and how I keep posting from any devices using Forestry."
-tags = []
-title = "How I built this website and I how I maintain it"
-[image]
-caption = "Caption"
-focal_point = "Smart"
-placement = 0
+---
+title: How I built this website and I how I maintain it
+subtitle: "Using Hugo, Academic, and Forestry"
+summary: "Learn how I built this website using Hugo and Academic, the little changes I made to match my old design, and how I keep posting from any devices using Forestry."
+tags:
+- web
+categories:
+date: "2016-04-20T00:00:00Z"
+lastmod: "2019-04-17T00:00:00Z"
+featured: false
+draft: false
+image:
+  placement: 0
+  caption: 'Academic'
+  focal_point: "Smart"
+  preview_only: true
+projects: ["portfolio"]
+---
 
-+++
 I've been looking to rework my "portfolio" website. This old website, was built from scratch using **ReactJS** with **Bootstrap** and **w3css**. It was pretty easy to maintain until I needed to update my status. Unlike how **Hugo** works, the website was not generating pages over static content. So every time I needed to add a work experience or a project, I needed to create the content, and include it in my website by adding a new react component in the appropriate JSX. You can have a look at the old website [here,](https://wwwold.haashi.fr) and its code [there](https://github.com/Haashi/Portfolio).
 
 This is where I like **Hugo**, it helps you separate content from how it is displayed. Using Hugo templating system, you tell how you want your content to be displayed. In most case, you want a template for each type of content you have. Here on this website, there is two main types of content : "post" and "project". Once those templates are created, you only need to create contents using markdown files. The templating system can access metadata called "Front matter" of a markdown file. They are the first thing to needed to be declared inside a content. Example for this post :
@@ -33,7 +36,7 @@ This is where I like **Hugo**, it helps you separate content from how it is disp
     placement = 0
     +++
 
-You can learn more about the Hugo framework on their website here.After knowing I had to use Hugo to achieve my goal of easy maintain, I read the docs to get started. And one of the very few things they tell you about, are Themes. Themes are a collection of display templates. And knowing how bad I am at designing (and CSS), this was the icing on the cake. I browsed the themes from the Hugo site, with different criteria in mind : portfolio alike, internationalization (english and french), blog alike, responsive. One of the theme that matched all of these was Academic. Funny thing is that Academic (see the demo) can do much more than that. It can manage multiple users posting, team display, external link to online publications and even online courses !  
+You can learn more about the Hugo framework on their website [here](https://gohugo.io). After knowing I had to use Hugo to achieve my goal of easy maintain, I read the docs to get started. And one of the very few things they tell you about, are Themes. Themes are a collection of display templates. And knowing how bad I am at designing (and CSS), this was the icing on the cake. I browsed the themes from the Hugo site, with different criteria in mind : portfolio alike, internationalization (english and french), blog alike, responsive. One of the themes that matched all of these was Academic. Funny thing is that Academic (see the demo) can do much more than that. It can manage multiple users posting, team display, external link to online publications and even online courses !  
   
 ![](/img/academic.PNG)
 
@@ -82,4 +85,4 @@ With that, I have a fully working continuous delivery process once I push or mer
   
 But can we take it even further ? Meet [forestry](https://forestry.io/ "forestry"). Forestry is a git-backed content management system working with most static pages frameworks out in the wild. It also is pretty easy to deploy, you just need to register your website, and add a static page to access it (often /admin). Once set up, you can edit any content using a richtext editor, from any device by accessing yourwebsite.com/admin and connecting with your forestry login (or oauth2).  
   
-Now you can edit content from your favorite IDE/text editor, or doing it from your phone. Forestry will save your edits by committing directly to your repo. I won't use forestry to create all my posts, but I plan to use it a lot on the go.
+Now you can edit content from your favorite IDE/text editor, or doing it from your phone. Forestry will save your edits by committing directly to your repo (thus triggering the CD with set up earlier).
