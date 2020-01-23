@@ -43,7 +43,7 @@ slides: ""
 
 Jeu du snake, en basant l'affichage sur cet exemple : https://www.youtube.com/watch?v=AaGK-fj-BAM dans lequel j'ai implémenté le multijoueur.
 
-Dans l'implémentation, le serveur de jeu est authoritaire et transmet l'intégralité de l'état du jeu aux clients.
+Dans l'implémentation, le serveur de jeu est autoritaire et transmet l'intégralité de l'état du jeu aux clients.
 
 Technologies utilisées pour ce projet : 
 - JavaScript

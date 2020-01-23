@@ -46,4 +46,4 @@ It has been 4 years now I work in IT, and I don't plan to stop anytime soon. I d
 
 With this website, I plan to share some posts and projects I begin to work on (and hopefully when I finish them).
 
-I'm currently <b>not looking for a job/gig</b>, but you still can get in touch or download an offline resume.
+I'm currently **not looking for a job/gig**, but you still can get in touch or download an offline resume.
