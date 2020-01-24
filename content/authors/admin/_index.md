@@ -84,6 +84,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+- icon: home
+  icon_pack: fas
+  link: https://people.ucsc.edu/carlosm
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.co.uk/citations?hl=en&user=ntU7-hwAAAAJ
