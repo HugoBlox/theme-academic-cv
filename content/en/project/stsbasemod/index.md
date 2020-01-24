@@ -43,7 +43,7 @@ slides: ""
 
 This community mod helps to create new features and contents to the game. It has become the supported way of modding the game.
 
-I especially helped for the potions features. The project has since growed, and my codebase might have been reworked.
+I especially helped for the potions features. The project has since grown, and my codebase might have been reworked.
 
 Technologies used : 
 - Java

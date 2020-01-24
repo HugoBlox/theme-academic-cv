@@ -45,7 +45,7 @@ This project was pretty straightforward. The use case is really poor, a lot of t
 
 My goal was to try out a Cloud Provider and see by myself how "serverless" is relevant. I used Google Cloud for that project, I had no credits left on Amazon Web Services but could have used it as well.
 
-Lasted about 2 days. I will not do a post about it, and I deleted the project on the Google Cloud plateform 3 months after.
+Lasted about 2 days. I will not do a post about it, and I deleted the project on the Google Cloud platform 3 months after.
 
 Technologies used for this project : 
 - ReactJS
