@@ -43,7 +43,7 @@ slides: ""
 
 Ce plug-in permet d'afficher un graphique pour illustrer le temps passé dans chaque état d'un ticket.
 
-Il a été developpé lors de mon premier stage il y a 4 ans.
+Il a été développé lors de mon premier stage il y a 4 ans.
 
 Technologies utilisées : 
 - Perl

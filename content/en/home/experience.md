@@ -20,7 +20,7 @@ experience:
     location: 25000 Besançon
     date_start: '2017-06-01'
     date_end: '2017-08-01'
-    description: A regional Internet service provider for which I helped configuring, extanding the open source freeware OTRS.  
+    description: A regional Internet service provider for which I helped configuring, extending the open source freeware OTRS.  
     keywords:
       - Ticketing
       - Perl
@@ -33,7 +33,7 @@ experience:
     location: 69760 Limonest
     date_start: '2018-01-01'
     date_end: '2018-07-01'
-    description: The french leader of CMMS and EAM softwares. Namely developper of CARL Source.     
+    description: The french leader of CMMS and EAM softwares. Namely developer of CARL Source.     
     keywords:
       - Java
       - CassandraDB
@@ -47,7 +47,7 @@ experience:
     location: J5A 0B3 QC - Canada
     date_start: '2018-07-01'
     date_end: '2018-09-01'
-    description: Porting web application to native Desktop/iOS/Android using webviews.
+    description: Porting web application to native Desktop/iOS/Android using web views.
     keywords:
       - Android/Java
       - WebView

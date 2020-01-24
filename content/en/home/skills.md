@@ -14,13 +14,13 @@ feature:
     icon_pack: fas
     name: Programming
   - description: >-
-      I have knowledge on system administration. From baremetal to containers, I
+      I have knowledge on system administration. From bare metal to containers, I
       run my own lab at home to tinker with. 
     icon: server
     icon_pack: fa
     name: SysAdmin
   - description: >-
-      What would be a homelab without some networking ? DNS, DHCP, NAT/PAT,
+      What would be a home lab without some networking ? DNS, DHCP, NAT/PAT,
       OpenVPN
     icon: network-wired
     icon_pack: fas

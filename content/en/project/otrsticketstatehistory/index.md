@@ -43,7 +43,7 @@ slides: ""
 
 This add-on shows a diagram to illustrate the time spent in all states of a ticket.
 
-It was developped during my first internship 4 years ago.
+It was developed during my first internship 4 years ago.
 
 Technologies used : 
 - Perl
