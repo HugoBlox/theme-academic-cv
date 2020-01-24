@@ -40,7 +40,7 @@ experience:
     location: J5A 0B3 QC - Canada
     date_start: '2018-07-01'
     date_end: '2018-09-01'
-    description: Portage d'une application web vers des applications natives sur les plateformes Windows/iOS/Android via des webviews.
+    description: Portage d'une application web vers des applications natives sur les plateformes Windows/iOS/Android via des web views.
     keywords:
       - Android/Java
       - WebView
