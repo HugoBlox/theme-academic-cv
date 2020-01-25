@@ -10,5 +10,13 @@ publication: "*IPDPS 2018*"
 tags: ["papers", "metadata", "datamanagement", "programmable", "filesystems", "storage", "systems"]
 projects:
 - programmable-storage
+links:
+  - name: "Tech report with artifact links"
+    url: https://www-test.soe.ucsc.edu/sites/default/files/technical-reports/UCSC-SOE-18-01.pdf
 ---
 
+{{< alert note >}}
+
+The links to reproducibility artifacts were inadvertendly removed in the final version of the paper. However, the associated tech report  ([UCSC-SOE-18-01](https://www-test.soe.ucsc.edu/sites/default/files/technical-reports/UCSC-SOE-18-01.pdf)) which is based on an earlier version of the paper has all links.
+
+{{< /alert >}}
