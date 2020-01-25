@@ -109,7 +109,7 @@ social:
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 - icon: cv
   icon_pack: ai
-  link: files/cv.pdf
+  link: https://drive.google.com/file/d/0B5rZ7hI6vXv3R2p0SEYxZlk5Vjg/view?usp=sharing
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -124,4 +124,4 @@ Dr. Carlos Maltzahn is the founder and director of the UC Santa Cruz Center for 
 
 His work is funded by government and industry, including [NSF OAC-1836650](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1836650), [NSF CNS-1764102](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1764102), [NSF CNS-1705021](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1705021), [DOE SSIO Sirius](https://extremescaleresearch.labworks.org/projects/sirius), [NSF OAC-1450488](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1450488), and [CROSS](https://cross.ucsc.edu)
 
-For more details, you can read his [vitae](files/cv.pdf).
+For more details, you can read his [vitae](https://drive.google.com/file/d/0B5rZ7hI6vXv3R2p0SEYxZlk5Vjg/view?usp=sharing).
