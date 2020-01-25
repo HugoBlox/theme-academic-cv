@@ -25,7 +25,7 @@ subtitle = "Meet the people working with Carlos Maltzahn at UC Santa Cruz. Our t
 [design]
   columns = "2"
   # Show user's social networking links? (true/false)
-  show_social = false
+  show_social = true
 
   # Show user's interests? (true/false)
   show_interests = false
