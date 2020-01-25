@@ -40,6 +40,9 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/peteralvaro/
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/palvaro
 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
