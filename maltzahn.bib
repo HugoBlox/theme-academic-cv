@@ -2,12 +2,23 @@
 %% http://bibdesk.sourceforge.net/
 
 
-%% Created for Carlos Maltzahn at 2020-01-21 19:42:55 -0800 
+%% Created for Carlos Maltzahn at 2020-02-05 19:44:22 -0800 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
+
+@inproceedings{chakraborty:ecpam20,
+	Author = {Jayjeet Chakraborty and Ivo Jimenez and Carlos Maltzahn and Arshul Mansoori and Quincy Wofford},
+	Booktitle = {Poster at 2020 Exaxcale Computing Project Annual Meeting, Houston, TX, February 3-7, 2020},
+	Date-Added = {2020-02-05 11:34:01 -0800},
+	Date-Modified = {2020-02-05 11:34:01 -0800},
+	Keywords = {shortpapers, reproducibility, containers, workflow, automation},
+	Title = {Popper 2.0: A Container-native Workflow Execution Engine For Testing Complex Applications and Validating Scientific Claims},
+	Year = {2020},
+	Bdsk-File-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxBMLi4vLi4vLi4vLi4vLi4vVm9sdW1lcy9Hb29nbGVEcml2ZS9NeSBEcml2ZS9QYXBlcnMvQy9jaGFrcmFib3J0eS1lY3BhbTIwLnBkZk8RAXwAAAAAAXwAAgAADEdvb2dsZSBEcml2ZQAAAAAAAAAAAAAAAAAAAAAAAABCRAAB/////xdjaGFrcmFib3J0eS1lY3BhbTIwLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAAAAAAA/////wAACgBjdQAAAAAAAAAAAAAAAAABQwAAAgA/LzpWb2x1bWVzOkdvb2dsZURyaXZlOk15IERyaXZlOlBhcGVyczpDOmNoYWtyYWJvcnR5LWVjcGFtMjAucGRmAAAOADAAFwBjAGgAYQBrAHIAYQBiAG8AcgB0AHkALQBlAGMAcABhAG0AMgAwAC4AcABkAGYADwAaAAwARwBvAG8AZwBsAGUAIABEAHIAaQB2AGUAEgAqL015IERyaXZlL1BhcGVycy9DL2NoYWtyYWJvcnR5LWVjcGFtMjAucGRmABMAFC9Wb2x1bWVzL0dvb2dsZURyaXZl//8AAAAIAA0AGgAkAHMAAAAAAAACAQAAAAAAAAAFAAAAAAAAAAAAAAAAAAAB8w==},
+	Bdsk-Url-1 = {https://ecpannualmeeting.com/}}
 
 @inproceedings{chu:chep19,
 	Abstract = {Access libraries such as ROOT and HDF5 allow users to interact with datasets using high level abstractions, like coordinate systems and associated slicing operations. Unfortunately, the implementations of access libraries are based on outdated assumptions about storage systems interfaces and are generally unable to fully benefit from modern fast storage devices. For example, access libraries often implement buffering and data layout that assume that large, single-threaded sequential access patterns are causing less overall latency than small parallel random access: while this is true for spinning media, it is not true for flash media. The situation is getting worse with rapidly evolving storage devices such as non-volatile memory and ever larger datasets. Our Skyhook Dataset Mapping project explores distributed dataset mapping infrastructures that can integrate and scale out existing access libraries using Ceph's extensible object model, avoiding reimplementation or even modifications of these access libraries as much as possible. These programmable storage extensions coupled with our distributed dataset mapping techniques enable: 1) access library operations to be offloaded to storage system servers, 2) the independent evolution of access libraries and storage systems and 3) fully leveraging of the existing load balancing, elasticity, and failure management of distributed storage systems like Ceph. They also create more opportunities to conduct storage server-local optimizations specific to storage servers. For example, storage servers might include local key/value stores combined with chunk stores that require different optimizations than a local file system. As storage servers evolve to support new storage devices like non-volatile memory, these server-local optimizations can be implemented while minimizing disruptions to applications. We will report progress on the means by which distributed dataset mapping can be abstracted over particular access libraries, including access libraries for ROOT data, and how we address some of the challenges revolving around data partitioning and composability of access operations.},
