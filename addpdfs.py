@@ -1,4 +1,4 @@
-import os, sys, string
+import os, sys
 import shutil, stat
 
 #import base64
@@ -32,10 +32,10 @@ pubNames = os.listdir(pubDir)
 for pubName in pubNames:
     if pubName == '_index.md': continue
     pubNameComps = pubName.split('-')
-    pdfName = string.join(pubNameComps[:2], '-') + \
-            string.join(pubNameComps[2:], '') + '.pdf'
+    pdfName = str.join('-', pubNameComps[:2]) + \
+            str.join('', pubNameComps[2:]) + '.pdf'
     firstAuthorLetter = pdfName[0]
-    if paperSubDirs.has_key(firstAuthorLetter):
+    if firstAuthorLetter in paperSubDirs:
         paperSubDir = paperSubDirs[firstAuthorLetter]
     else:
         paperSubDir = firstAuthorLetter.upper()
@@ -45,4 +45,4 @@ for pubName in pubNames:
         shutil.copy2(src, dst)
         os.chmod(dst, stat.S_IRUSR | stat.S_IRGRP | stat.S_IROTH)
     except IOError: 
-        print '%s not found' % src
+        print('%s not found or already moved' % src)
