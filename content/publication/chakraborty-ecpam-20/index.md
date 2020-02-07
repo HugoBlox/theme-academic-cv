@@ -8,5 +8,7 @@ abstract: ""
 featured: false
 publication: "*Poster at 2020 Exaxcale Computing Project Annual Meeting, Houston, TX, February 3-7, 2020*"
 tags: ["shortpapers", "reproducibility", "containers", "workflow", "automation"]
+projects:
+- practical-reproducibility
 ---
 
