@@ -25,9 +25,10 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects:
+- practical-reproducibility
 ---
-Please join Peter Alvaro, Scott Brandt, Jay Lofstead, and me in congratulating Dr. Ivo Jimenez on his successful Ph.D. defense today on "Agile  Research Delivery". 
+Please join Peter Alvaro, Scott Brandt, Jay Lofstead, and me in congratulating Dr. Ivo Jimenez on his successful Ph.D. defense today on "Agile  Research Delivery".
 
 Well done, Ivo!
 

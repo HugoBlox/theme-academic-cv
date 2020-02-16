@@ -25,6 +25,10 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects:
+- eusocial-storage
+- declstore
+- programmable-storage
+- practical-reproducibility
 ---
 The [4th Annual CROSS Research Symposium](https://cross.ucsc.edu/2019-symposium) is taking place today and tomorrow with three keynote speakers, Daniela Barbosa (VP World-wide Alliances, Linux Foundation Hyperledger), Joseph Jacks (Founder and CEO, OSS Capital), and Haoyuan Li (Founder, CTO and  Chairman, Alluxio), 12 sessions on topics including Reproducibility in  Systems Research, Open Science & Open Access, Aspects of Data  Management, Programming AI for poets, Storage Systems, Eusocial Storage  Devices, Hardware Security, Open Source Hardware Flows, and Data  Management within the Storage System, and the 11th UC Santa Cruz Systems Oktoberfest.

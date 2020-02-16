@@ -25,7 +25,9 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects:
+- practical-reproducibility
+- programmable-storage
 ---
 One of the outcomes of attending [!!Con West](http://bangbangcon.com/west/2019/) was an opportunity to join the 285th podcast of [Embedded.fm](https://www.embedded.fm/): “[A Chicken Getting to the Other Side](https://www.embedded.fm/episodes/285)” to talk about [CROSS](https://cross.ucsc.edu) and its three incubator fellows, [Kate Compton](https://www.galaxykate.com/), [Ivo Jimenez](https://users.soe.ucsc.edu/~ivo/), and [Jeff LeFevre](https://users.soe.ucsc.edu/~jlefevre/). If you are wondering about the choice of title, listen to the podcast!
 

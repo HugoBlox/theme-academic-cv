@@ -25,6 +25,9 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects:
+- eusocial-storage
+- programmable-storage
+- declstore
 ---
 I was very honored to be part of last year’s Data Storage Research  Vision 2025 NSF Workshop convened by George Amvrosiadis, Ali Butt,  Vasily Tarasov, Erez Zadok, and Ming Zhao at IBM Almaden. The report is  now available [here](https://dl.acm.org/citation.cfm?id=3316807).

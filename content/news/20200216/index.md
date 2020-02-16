@@ -1,13 +1,15 @@
 ---
-title: "CROSS Incubator Project: Skyhook DM"
-summary: "Check out Skyhook Data Management, one of the CROSS incubator projects."
+title: "CROSS Workshop on Practical Reproducibility in Systems"
+summary: "Join Ivo Jimenez (UCSC), Marios Kogias (EPFL), Alexandru Uta
+(Leiden University) discussing aspects of practical reproducibility."
 authors:
 - admin
 tags:
-- Project
+- cross
+- event
 categories:
 - News
-date: "2018-12-06"
+date: "2020-02-16"
 featured: false
 draft: false
 
@@ -26,7 +28,10 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
-- declstore
-- programmable-storage
+- practical-reproducibility
 ---
-Check out [Skyhook Data Management](http://skyhookdm.com), one of the CROSS incubator projects. It’s leveraging Ceph’s  programmable storage features to make PostgreSQL and other databases  more scalable and elastic.
+Please join us at the CROSS Workshop on Practical Reproducibility in Systems Research
+on Friday, February 28, 2020 with speakers including Ivo Jimenez (UCSC),
+Marios Kogias (EPFL), Alexandru Uta (Leiden University) discussing reproducible workflows, 
+microsecond latency experiments, and public cloud network performance.
+[More ...](https://cross.ucsc.edu/news/events/2020228workshop.html)

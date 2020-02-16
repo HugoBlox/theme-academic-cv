@@ -25,8 +25,10 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects:
+- programmable-storage
+- declstore
 ---
-Please join Peter Alvaro, Scott Brandt, and me in congratulating Dr. Noah  Watkins on his successful Ph.D. defense today on "Programmable Storage". 
+Please join Peter Alvaro, Scott Brandt, and me in congratulating Dr. Noah  Watkins on his successful Ph.D. defense today on "Programmable Storage".
 
 Well done, Noah!

@@ -25,6 +25,9 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects:
+- programmable-storage
+- declstore
+- practical-reproducibility
 ---
 I very much look forward to have us work with Princeton University on an NSF-funded 5-year project to establish the Institute for Research and  Innovation in Software for High Energy Physics ([IRIS-HEP](http://iris-hep.org/)). This effort is a perfect complement to the existing NSF grants for  Programmable Storage (with Dirk Grunwald at CU Boulder) and Declarative  Programmable Storage (with Peter Alvaro). For more details, see [news release](https://news.ucsc.edu/2018/09/iris-hep-grant.html).

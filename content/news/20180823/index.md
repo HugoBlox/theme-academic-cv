@@ -25,8 +25,9 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects:
+- declstore
 ---
-Peter Alvaro  and I received a new CSR/Medium NSF Award to explore Declarative  Programmable Storage. The award is a total of $850,000 over three years. More details: 
+Peter Alvaro  and I received a new CSR/Medium NSF Award to explore Declarative  Programmable Storage. The award is a total of $850,000 over three years. More details:
 
 Noah Watkins, Michael Sevilla, Ivo Jimenez, Kathryn Dahlgren, Peter Alvaro, Shel Finkelstein, Carlos Maltzahn, “[DeclStore: Layering is for the Faint of Heart](https://www.usenix.org/system/files/conference/hotstorage17/hotstorage17-paper-watkins.pdf),” 9th USENIX Workshop on Hot Topics in Storage and File Systems  (HotStorage’17) co-located with USENIX ATC’17, Santa Clara, CA, July  10-11, 2017
