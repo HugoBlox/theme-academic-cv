@@ -93,6 +93,9 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/carlosmaltzahn/
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/cross_ucsc
 - icon: github
   icon_pack: fab
   link: https://github.com/carlosmalt
