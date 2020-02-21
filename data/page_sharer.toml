@@ -14,8 +14,8 @@
   url = "https://www.facebook.com/sharer.php?u={url}&t={title}"
   title = "Facebook"
   icon_pack = "fab"
-  icon = "facebook"
-  enable = true
+  icon = "facebook-f"
+  enable = false
 
 [[buttons]]
   id = "email"
@@ -23,7 +23,7 @@
   title = "Email"
   icon_pack = "fas"
   icon = "envelope"
-  enable = true
+  enable = false
 
 [[buttons]]
   id = "linkedin"
@@ -39,7 +39,7 @@
   title = "WhatsApp"
   icon_pack = "fab"
   icon = "whatsapp"
-  enable = true
+  enable = false
 
 [[buttons]]
   id = "weibo"
@@ -47,7 +47,7 @@
   title = "Weibo"
   icon_pack = "fab"
   icon = "weibo"
-  enable = true
+  enable = false
 
 [[buttons]]
   id = "reddit"
