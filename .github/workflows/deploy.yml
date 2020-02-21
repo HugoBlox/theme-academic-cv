@@ -1,7 +1,9 @@
+name: Publish site
+
 on:
   push:
     branches:
-      - source  # default branch
+      - source # default branch
 
 jobs:
   deploy:
@@ -14,7 +16,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.65.1'
+          hugo-version: "0.65.1"
           extended: true
 
       - name: Build
@@ -27,5 +29,5 @@ jobs:
         with:
           deploy_key: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          publish_branch: master  # deploying branch
+          publish_branch: master # deploying branch
           force_orphan: true
