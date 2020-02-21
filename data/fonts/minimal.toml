@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Minimal"
+
+# Optional Google font URL
+google_fonts = "Fira+Sans:600|Nunito:400|Nunito+Sans|Roboto+Mono"
+
+# Font families
+nav_font = "Fira Sans"
+heading_font = "Nunito"
+body_font = "Nunito Sans"
+mono_font = "Roboto Mono"
