@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   date_end = "2019-08-26"
   description = """
 
-  For more information please visit the [project website](https://epassaro.github.io/gsoc19).
+  For more information please visit the [project's website](https://epassaro.github.io/gsoc19).
   
   [See certificate](files/certificate-gsoc19.pdf)  &#183;
   [Completion letter](files/completion-letter-gsoc19.pdf)
