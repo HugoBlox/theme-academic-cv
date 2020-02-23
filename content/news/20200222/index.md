@@ -37,7 +37,7 @@ projects:
 - practical-reproducibility
 ---
 
-This is going to be a busy week with Vault '20, FAST '20, and NSDI '20  all happening this week. Jeff LeFevre is going to give [an update on SkyhookDM at Vault'20 on Monday, 1:30pm](https://www.usenix.org/conference/vault20/presentation/lefevre), and Alex Uta is going to present [our paper on reproducibility challenges in public cloud networks at NSDI'20 on Wednesday](https://www.usenix.org/conference/nsdi20/presentation/uta), in the 11am session on Measurement and Adaptation.
+This is going to be a busy week with Vault '20, FAST '20, and NSDI '20  all happening at the same time. Jeff LeFevre is going to give [an update on SkyhookDM at Vault'20 on Monday, 1:30pm](https://www.usenix.org/conference/vault20/presentation/lefevre), and Alex Uta is going to present [our paper on reproducibility challenges in public cloud networks at NSDI'20 on Wednesday](https://www.usenix.org/conference/nsdi20/presentation/uta), in the 11am session on Measurement and Adaptation.
 
 Below is my schedule. Unfortunately, I won't be able to attend Thursday due to travel.
 
