@@ -20,7 +20,7 @@ email_form = 0
 ### Office
 Baskin Engineering 2  
 Room 369 ([directions](https://users.soe.ucsc.edu/~carlosm/UCSC/Directions.html))  
-Hours: By appointment ([calendar](https://users.soe.ucsc.edu/~carlosm/UCSC/Calendar.html))
+Hours: By appointment ([calendar](calendar))
 
 Phone: +1 (831) 459-1627  
 
