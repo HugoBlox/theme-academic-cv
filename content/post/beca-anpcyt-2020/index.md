@@ -1,14 +1,14 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Beca ANPCyT 2019"
-subtitle: "PhD Position available"
+title: "Beca ANPCyT 2020"
+subtitle: "Beca Doctoral / PhD Position"
 summary: ""
 authors: ["fernan"]
 tags: ["beca", "agencia", "doctorado", "posiciones", "vacantes"]
 categories: []
 date: 2019-08-24
-lastmod: 2019-10-16
+lastmod: 2020-02-27
 featured: true
 draft: false
 
@@ -34,16 +34,24 @@ projects: ["immunomics"]
 
 #### Linea de trabajo: "Inmunómica aplicada al descubrimiento masivo de nuevos marcadores serológicos para Enfermedades Infecciosas"
 
-Validación de nuevos antígenos y epitopes para mejoramiento diagnóstico de la Enfermedad de Chagas
+ENFERMEDAD DE CHAGAS: CARACTERIZACION DE NUEVOS ANTIGENOS Y EPITOPES Y DESARROLLO DE ENSAYOS SEROLOGICOS 
+
+En este proyecto de investigación aplicado buscamos caracterizar nuevos
+antígenos y epitopes de un patógeno humano (Trypanosoma cruzi) descubiertos
+recientemente en el laboratorio utilizando técnicas masivas de análisis de
+repertorios serológicos de anticuerpos. Estos nuevos antígenos tienen
+potencial utilidad en aplicaciones diagnósticas, y para estudiar la
+respuesta inmune desarrollada durante la Enfermedad de Chagas. 
 
  * Producción y montaje de ensayos serológicos a mediana escala para evaluación de multiples antigenos novedosos identificados en el laboratorio
  * Desarrollo y montaje de ensayos multiepitope con performance diagnóstica mejorada para la Enfermedad de Chagas
+ * Caracterización de los nuevos antígenos: investigación básica (biología) sobre función de estos antígenos en el ciclo de vida del parásito y en la interacción con el hospedador
 
 <!--more-->
 **Investigadores a cargo:**
 Dr. Fernán Agüero y Dr. Emir Salas Sarduy
 
-**Inicio de actividades:** Diciembre 2019
+**Inicio de actividades:** tan pronto finalice el proceso de selección
 
 **Lugar de Trabajo:** 
 Instituto de Investigaciones Biotecnologicas (IIB)
