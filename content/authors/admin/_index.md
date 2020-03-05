@@ -14,8 +14,8 @@ role: Postdoctoral Researcher
 
 # Organizations/Affiliations
 organizations:
-- name: IFSTTAR
-  url: "https://www.ifsttar.fr/accueil/"
+- name: Université Gustave Eiffel
+  url: "https://www.univ-gustave-eiffel.fr"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed control, networked control systems and machine learning.
@@ -76,6 +76,6 @@ user_groups:
 - Visitors
 ---
 
-I am a postdoctoral researcher in Automatic Control at [IFSTTAR](http://www.ifsttar.fr/en/welcome/). My recent research interests include Networked Control Systems (NCS), Cyberphysical Systems (CPS),  Intelligent Transportation Systems (ITS) and Artificial Intelligence (AI). Previously, I did my PhD at [INRIA](http://www.inria.fr)/[CNRS](http://www.cnrs.fr) with the [NeCS](http://necs.inrialpes.fr) team developing *Short-term Forecasting* and *estimation* techniques for large scale traffic networks. Currently, I work within the [LICIT](http://www.licit.ifsttar.fr) team working on control techniques for connected and automated vehicles (CAV)s. In this team I develop traffic flow models and traffic simulation algorithms for truck platoon strategies.
+I am a postdoctoral researcher in Automatic Control at [UGE](https://www.univ-gustave-eiffel.fr) formely [IFSTTAR](https://www.ifsttar.fr/accueil/). My recent research interests include Networked Control Systems (NCS), Cyberphysical Systems (CPS),  Intelligent Transportation Systems (ITS) and Artificial Intelligence (AI). Previously, I did my PhD at [INRIA](http://www.inria.fr)/[CNRS](http://www.cnrs.fr) with the [NeCS](http://necs.inrialpes.fr) team developing *Short-term Forecasting* and *estimation* techniques for large scale traffic networks. Currently, I work within the [LICIT](http://www.licit.ifsttar.fr) team working on control techniques for connected and automated vehicles (CAV)s. In this team I develop traffic flow models and traffic simulation algorithms for truck platoon strategies.
 
 I am also passioned about the Data Science community and the recent work developed around reproducible research. Fan of [#rstats](https://twitter.com/search?q=%23rstats&src=typd) and python.
