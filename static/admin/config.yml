@@ -42,7 +42,7 @@ collections:
         required: false
         widget: "list"
       - label: "Featured Image"
-        name: "featured"
+        name: "image"
         widget: object
         fields:
           - label: "Upload an image named `featured.jpg/png`"
