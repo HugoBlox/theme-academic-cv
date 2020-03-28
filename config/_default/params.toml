@@ -86,7 +86,7 @@ phone = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "1156 High St, MS:SOE3", city = "Santa Cruz", region = "CA", postcode = "95060", country = "United States", country_code = "US"}
+address = {street = "1156 High St, MS:SOE3", city = "Santa Cruz", region = "CA", postcode = "95064", country = "United States", country_code = "US"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
@@ -135,9 +135,6 @@ address_format = "en-us"
 ## Advanced
 ############################
 
-# Get user avatars from Gravatar.com? (true/false)
-gravatar = false
-
 # Main menu alignment (l = left, c = center, r = right) and logo options.
 main_menu = {align = "l", show_logo = true}
 
@@ -154,9 +151,30 @@ sharing = false
 # Link authors to their profile page? (true/false)
 link_authors = true
 
+# Abstract length (characters) in the Compact and Portfolio Card list views. Also, see `summaryLength` in `config.toml`.
+abstract_length = 135
+
 # Load JS plugins
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
 plugins_js  = []
+
+# Avatars.
+# An avatar is an image that appears next to a user's name.
+# An avatar can be uploaded as an image named `avatar` to each user's profile or fetched from Gravatar.com.
+[avatar]
+  # Get user avatars from Gravatar.com? (true/false)
+  gravatar = false
+
+  # Choose a shape for avatar images. Options: circle. square.
+  shape = "circle"
+
+# Available address formats.
+[address_formats]
+  en-us = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ' ', '']}
+  en-gb = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ', ', '']}
+  de = {order = ['street', 'postcode', 'city'], delimiters = ['<br>', ' ', '']}
+  fr-fr = {order = ['street', 'postcode', 'city'], delimiters = ['<br>', ' ', '']}
+  zh = {order = ['postcode', 'region', 'city', 'street'], delimiters = [' ', ' ', ' ', '']}
 
 # Configuration of publication pages.
 [publications]
@@ -178,13 +196,6 @@ plugins_js  = []
   publication_view = 4
   talk_view = 2
 
-# Available address formats.
-[address_formats]
-  en-us = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ' ', '']}
-  en-gb = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ', ', '']}
-  zh = {order = ['postcode', 'region', 'city', 'street'], delimiters = [' ', ' ', ' ', '']}
-
-
 ############################
 ## Comments
 ############################
@@ -202,6 +213,11 @@ plugins_js  = []
   [comments.disqus]
     shortname = ""  # Paste the shortname from your Disqus dashboard.
     show_count = true  # Show comment count in page header? (true/false)
+
+  # Configuration of Commento.
+  [comments.commento]
+    # If self-hosting Commento, enter its URL here (e.g. "https://commento.?.com"), otherwise leave empty.
+    url = ""
 
 ############################
 ## Search
