@@ -36,13 +36,21 @@ social:
 - icon: home
   icon_pack: fas
   link: https://users.soe.ucsc.edu/~ivo/
-- icon: linkedin
-  icon_pack: fab
-  link: http://www.linkedin.com/in/ivotron
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/ivotron
-
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.co.uk/citations?user=_f4sYhoAAAAJ
+- icon: github
+  icon_pack: fab
+  link: https://github.com/ivotron
+- icon: linkedin
+  icon_pack: fab
+  link: http://www.linkedin.com/in/ivotron
+- icon: orcid
+  icon_pack: fab
+  link: https://orcid.org/0000-0002-2222-1985
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
