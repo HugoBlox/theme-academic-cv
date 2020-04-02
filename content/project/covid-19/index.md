@@ -1,8 +1,8 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "COVID-19"
-summary: "Daily graphs of COVID-19 pandemic"
+title: "COVID-19 Daily Update"
+summary: ""
 authors: [admin]
 tags: [data visualization]
 categories: []

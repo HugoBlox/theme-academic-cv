@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Lands of Buenos Aires"
-summary: "A curated dataset with land prices of BA (2014-2018)."
+summary: ""
 authors: [admin]
 tags: [dataset]
 categories: []
