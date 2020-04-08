@@ -36,7 +36,7 @@ social:
   link: https://www.facebook.com/baptiste.pontanier
 - icon: cv
   icon_pack: ai
-  link: authors/haashi/Baptiste_Pontanier_resume.pdf
+  link: authors/haashi/Baptiste_Pontanier_CV.pdf
 email: baptiste.pontanier@laposte.net
 draft: false
 ---
