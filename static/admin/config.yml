@@ -60,7 +60,7 @@ collections:
     label: Talks
     label_singular: Talk
     folder: 'content/talk'
-    path: '{{year}}/{{slug}}/index'  # Store talks in year-based subfolders, e.g. `talk/2020/my-talk`.
+    path: '{{slug}}/index'
     create: true  # Allow users to create new documents in this collection
     fields:  # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}

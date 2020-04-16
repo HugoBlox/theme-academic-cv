@@ -12,6 +12,9 @@ cd scripts/
 # Install demo config
 rsync -av ../themes/academic/exampleSite/config/ ../config/
 
+# Install Netlify CMS
+rsync -av ../themes/academic/exampleSite/static/admin/ ../static/admin/
+
 # Install demo user
 rsync -av ../themes/academic/exampleSite/content/authors/ ../content/authors/
 
