@@ -1,5 +1,5 @@
 ---
-title: Recent & Upcoming Talks
+title: About
 
 # View.
 #   1 = List
@@ -9,6 +9,6 @@ view: 2
 
 # Optional header image (relative to `static/img/` folder).
 header:
-  caption: ""
+  caption: "About me"
   image: ""
 ---

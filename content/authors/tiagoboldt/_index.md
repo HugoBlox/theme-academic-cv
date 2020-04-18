@@ -1,18 +1,11 @@
 ---
-# Display name
 name: Tiago Boldt Sousa
-
-# Username (this should match the folder name)
 authors:
 - tiagoboldt
-
-# Is this the primary user of the site?
 superuser: true
 
-# Role/position
-role: Software Engineer, Lecturer
-
 # Organizations/Affiliations
+# role: Software Engineer, Product doer, Lecturer
 # organizations:
 # - name: Faculty of Engineering University of Porto
 #   url: "https://sigarra.up.pt/feup/"
@@ -23,17 +16,18 @@ role: Software Engineer, Lecturer
 interests:
 - Software Engineering
 - Cloud Computing
+- Team organization
 
 education:
   courses:
-  - course: PhD candidate in Software Engineering
-    institution: Faculty of Engineering, University of Porto
+  - course: PhD in Software Engineering
+    institution: Faculty of Engineering University of Porto
     year: awaiting defense
   - course: MSc in Informatics and Computation
-    institution: Faculty of Engineering, University of Porto
+    institution: Faculty of Engineering University of Porto
     year: 2011
 
-# Social/Academic Networking
+# Networks
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
@@ -53,19 +47,12 @@ social:
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+  icon_pack: ai
+  link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "tiagoboldt@gmail.com"
 
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-- Researchers
-- Visitors
 ---
-During his Master’s degree in Computation and Informatics Engineering, Tiago grew a strong interest in Software Architecture and Design. His professional career so far took him through several R&D positions at both software houses and academia, where he also occupied teaching positions.
-
-Currently, Tiago is an assistant lecturer at the Faculty of Engineering from the University of Porto (FEUP) and Product Lead at Velocidi. In between, he is also a Ph.D. candidate in Informatics Engineering at FEUP, researching patterns for Cloud architectures.
+I live in Porto, Portugal, where I divide my time between industry and academy. In the industry, I am currently product lead at Velocidi, a NY-based AdTech startup. In the academy, I work as an assistant lecturer at the Faculty of Engineering from the University of Porto (FEUP). In between, I have worked towards my Ph.D. in Informatics Engineering, researching patterns for Cloud architectures.
