@@ -9123,3 +9123,29 @@ div.mermaid {
   width: 100%;
   text-align: center;
   margin-bottom: 1rem; }
+
+.navbar {
+  display: none; }
+
+.home-section:first-of-type {
+  padding: 10px 0 0 0; }
+
+.container {
+  max-width: 1000px; }
+
+.avatar-circle {
+  border-radius: 25%; }
+
+.avatar {
+  width: 200px;
+  height: 200px; }
+
+#profile .network-icon {
+  margin-top: 10px; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  margin: 0; }
