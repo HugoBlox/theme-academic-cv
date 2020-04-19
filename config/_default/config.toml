@@ -33,7 +33,7 @@ removePathAccents = true  # Workaround for https://github.com/gohugoio/hugo/issu
 paginate = 10  # Number of items per page in paginated lists.
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
-ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "publication*"]
 
 [outputs]
   home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]
@@ -61,7 +61,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 
 # Taxonomies.
 [taxonomies]
-  tag = "tags"
-  category = "categories"
-  publication_type = "publication_types"
+  #tag = "tags"
+  #category = "categories"
+  #publication_type = "publication_types"
   author = "authors"
