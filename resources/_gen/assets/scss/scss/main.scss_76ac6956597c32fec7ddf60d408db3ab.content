@@ -9140,6 +9140,9 @@ div.mermaid {
   width: 200px;
   height: 200px; }
 
+.big-icon {
+  font-size: 1.5rem; }
+
 #profile .network-icon {
   margin-top: 10px; }
 
