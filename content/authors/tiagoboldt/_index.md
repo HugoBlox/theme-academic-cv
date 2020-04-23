@@ -45,7 +45,7 @@ social:
   link: https://github.com/tiagoboldt
 - icon: cv
   icon_pack: ai
-  link: https://files.tiagoboldt.net/cv.pdf
+  link: https://files.tiagoboldt.net/tbs_cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "tiagoboldt@gmail.com"
