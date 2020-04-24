@@ -18,27 +18,39 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Teaching assistant"
+  company = "Institue of Computer Science, University of St.Gallen"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
-  description = """
-  Responsibilities include:
+  location = "St.Gallen, Switzerland"
+  date_start = "2019-10-01"
+  date_end = "2020-01-06"
+  description = """Delivering tutorial session for the course 'Fundamental of computer science for business studies'
+  Responsibilities include
   
-  * Analysing
-  * Modelling
-  * Deploying
+  * Teaching
+  * Coding
+  * 
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Teaching assistant"
+  company = "Institute of Environmental Engineering, ETH Zürich"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  location = "Zürich, Switzerland"
+  date_start = "2019-09-16"
+  date_end = "2020-01-06"
+  description = """Facilitate students in the course of 'Urban Drainage Planning and Modeeling'
+* Technology use:
+  > SWMM, MATLAB, R
+"""
+
+[[experience]]
+  title = "Research assistant"
+  company = "SparkLabs, Department of Mangement, Technology and Economics, ETH Zürich"
+  company_url = ""
+  location = "Zürich, Switzerland"
+  date_start = "2019-09-16"
+  date_end = "2020-01-06"
+  description = """Market research and corporate training course development"""
 
 +++
