@@ -3,9 +3,11 @@
 #   Refer to https://sourcethemes.com/academic/docs/language/
 
 # Configure the English version of the site.
-[en]
-  languageCode = "en-us"
+#[en]
+#  languageCode = "en-us"
   # contentDir = "content/en"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+[ja]
+  languageCode = "ja"
 
 # Uncomment the lines below to configure your website in a second language.
 #[zh]

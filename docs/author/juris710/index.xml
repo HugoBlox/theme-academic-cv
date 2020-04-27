@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Juris710 | AppNaviブログ</title>
+    <link>https://juris710.github.io/AppNaviBlog/author/juris710/</link>
+      <atom:link href="https://juris710.github.io/AppNaviBlog/author/juris710/index.xml" rel="self" type="application/rss+xml" />
+    <description>Juris710</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710  2020</copyright>
+    <image>
+      <url>https://juris710.github.io/AppNaviBlog/author/juris710/avatar_hu5de0ea20705264e86c3c4da9248d73aa_202133_270x270_fill_q90_lanczos_center.jpg</url>
+      <title>Juris710</title>
+      <link>https://juris710.github.io/AppNaviBlog/author/juris710/</link>
+    </image>
+    
+  </channel>
+</rss>
