@@ -13,12 +13,21 @@ superuser: true
 #role:
 
 # Organizations/Affiliations
+#organizations:
+#- name: Stanford University
+#  url: ""
+
 organizations:
 - faculty: 工学域
   department: 電気電子系学類
   cource: 情報工学課程
   enrollment: 2019
-  url: ""
+
+#university:
+#- faculty: 工学域
+#  department: 電気電子系学類
+#  cource: 情報工学課程
+#  enrollment: 2019
 
 # Short bio (displayed in user profile at end of posts)
 #bio: My research interests include distributed robotics, mobile computing and programmable matter.

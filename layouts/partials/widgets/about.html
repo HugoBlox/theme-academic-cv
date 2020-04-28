@@ -28,6 +28,7 @@
       {{ $avatar_image := $avatar.Fill "270x270 Center" }}
       <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}">
       {{ end }}
+
       <div class="portrait-title">
         <h2>{{ $person_page.Title }}</h2>
         {{ with $person.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}
@@ -35,10 +36,16 @@
         {{ range $person.organizations }}
         <h3>
           {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
-          <span>{{ .faculty }}{{ .department }}{{ .cource }}{{add (sub (int (dateFormat "2006" now)) .enrollment) 1}}年</span>
+            <span>{{ .faculty }}{{ .department }}{{ .cource }}{{add (sub (int (dateFormat "2006" now)) .enrollment) 1}}年</span>
+          {{/* <span>{{ .name }}</span> */}}
           {{ if .url }}</a>{{ end }}
         </h3>
         {{ end }}
+        {{/* {{if $person.university}} */}}
+        {{/* <h3> */}}
+        {{/* <span>{{ .faculty }}{{ .department }}{{ .cource }}{{add (sub (int (dateFormat "2006" now)) .enrollment) 1}}年</span> */}}
+        {{/* </h3> */}}
+        {{/* {{end}} */}}
       </div>
 
       <ul class="network-icon" aria-hidden="true">
