@@ -1,0 +1,14 @@
+# The Native Font Theme provides optimum text rendering on every device and OS.
+# Note that the native font families are automatically populated by Academic.
+
+# Font style metadata
+name = "AppNavi"
+
+# Optional Google font URL
+google_fonts = "Noto+Serif+JP:400,700|Noto+Sans+JP:400,700|Roboto+Mono"
+# Font families
+heading_font = "Noto Serif JP"
+body_font = "Noto Sans JP"
+nav_font = "Noto Sans JP"
+mono_font = "Roboto Mono"
+
