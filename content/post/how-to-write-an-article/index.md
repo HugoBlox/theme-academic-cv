@@ -2,10 +2,10 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "記事の書き方"
-subtitle: ""
-summary: "部員用。記事を投稿する方法のまとめです。"
-authors: []
-tags: []
+subtitle: "部員用"
+summary: "記事を投稿する方法のまとめです。"
+authors: ["juris710"]
+tags: ["Markdown", "Hugo"]
 categories: []
 date: 2020-04-28T00:01:09+09:00
 lastmod: 2020-04-28T00:01:09+09:00
@@ -28,39 +28,42 @@ image:
 projects: []
 ---
 # 記事を新規作成する方法
-1. 下記のコマンドを実行する  
-```  
-hugo new --kind post post/記事名
-```  
 {{< alert note >}}
 「記事名」は英語（すべて小文字）で、単語間はハイフン（-）でつなぐのが望ましい
 {{</ alert >}}
+1. `hugo new --kind post post/記事名` を実行
 2. `content/post/記事名/index.md`に記事を書く  
 
 # 記事に画像を挿入する方法
 1. 記事のindex.mdファイルがあるフォルダに画像を追加
 2. 画像を挿入したい箇所に下記を入力  
-{{<alert note>}}
-「画像名」には拡張子も含めること  
-{{</alert>}}
+  {{<alert note>}}
+  「画像名」には拡張子も含めること  
+  {{</alert>}}
    1. シンプル
-   ```md
-   ![代替テキスト](./画像名)
-   ```
-   1. カスタム
-   ```
-   {{</* figure src="./画像名" title="代替テキスト" */>}}
-   ```
+    ```md
+    ![代替テキスト](./画像名)
+    ```
+   2. カスタム
+    ```
+    {{</* figure src="./画像名" title="代替テキスト" */>}}
+    ```
 
 # Markdown記法
 全ての記事はMarkdown記法で書く必要があります。（[書き方の参考](https://qiita.com/tbpgr/items/989c6badefff69377da7)）
 
 # Shortcodes
-Markdown記法では不可能なことができるようになります
 ## Youtube動画埋め込み
 ```  
 {{</* youtube 動画のID */>}}
 ```  
-{{<alert note>}}
+{{<alert note >}}
 YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式になっています
 {{</alert>}}
+
+## Unity WebGLの埋め込み
+[ランダムさんの記事](https://ch-random.net/post/93/)の内容を少し改変した自作Shortcodeです
+```
+{{</* unity src="URL"*/>}}
+```
+

@@ -5,12 +5,125 @@
     <link>https://juris710.github.io/AppNaviBlog/author/juris710/</link>
       <atom:link href="https://juris710.github.io/AppNaviBlog/author/juris710/index.xml" rel="self" type="application/rss+xml" />
     <description>Juris710</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710  2020</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710  2020</copyright><lastBuildDate>Tue, 28 Apr 2020 15:07:58 +0900</lastBuildDate>
     <image>
       <url>https://juris710.github.io/AppNaviBlog/author/juris710/avatar_hu5de0ea20705264e86c3c4da9248d73aa_202133_270x270_fill_q90_lanczos_center.jpg</url>
       <title>Juris710</title>
       <link>https://juris710.github.io/AppNaviBlog/author/juris710/</link>
     </image>
+    
+    <item>
+      <title>Truck Quiz</title>
+      <link>https://juris710.github.io/AppNaviBlog/post/truck-quiz/</link>
+      <pubDate>Tue, 28 Apr 2020 15:07:58 +0900</pubDate>
+      <guid>https://juris710.github.io/AppNaviBlog/post/truck-quiz/</guid>
+      <description>
+
+
+
+
+
+
+&lt;div id=&#34;unity_webgl_0_1&#34; style=&#34;width: 100%; margin: 15px 0; background: white; border-radius: 15px;&#34;&gt;
+  &lt;div style=&#34;position: relative;&#34;&gt;
+    &lt;div id=&#34;unity_webgl_0_2&#34; style=&#34;height: 0;&#34;&gt;
+      &lt;iframe id=&#34;unity_webgl_0_3&#34; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+let w =  980 ; 
+let h =  700 ; 
+let url = &#34;https://juris710.github.io/TruckQuizSample/&#34;; 
+document.getElementById(&#34;unity_webgl_0_2&#34;).style.paddingBottom = 100 * h / w + &#34;%&#34;;
+document.getElementById(&#34;unity_webgl_0_3&#34;).src = url;
+let set_width = function() {
+  let client_w = document.getElementById(&#34;unity_webgl_0_2&#34;).clientWidth;
+  let per = client_w / w;
+  let rev = 100 / per;
+  let iframe = document.getElementById(&#34;unity_webgl_0_3&#34;);
+  iframe.height = rev + &#34;%&#34;;
+  iframe.width = rev + &#34;%&#34;;
+  iframe.style = &#34;position: absolute; top: 0; left: 0;  transform:scale(&#34; + per + &#34;);-o-transform:scale(&#34; + per + &#34;);-webkit-transform:scale(&#34; + per + &#34;);-moz-transform:scale(&#34; + per + &#34;);-ms-transform:scale(&#34; + per + &#34;);transform-origin:top left; border: 0;&#34;
+}
+set_width();
+window.onresize = function(){ set_width(); };
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>オンライン友好祭2020</title>
+      <link>https://juris710.github.io/AppNaviBlog/project/online-yukosai-2020/</link>
+      <pubDate>Tue, 28 Apr 2020 00:04:07 +0900</pubDate>
+      <guid>https://juris710.github.io/AppNaviBlog/project/online-yukosai-2020/</guid>
+      <description>&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    TODO：オンライン友好祭の説明
+  &lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>記事の書き方</title>
+      <link>https://juris710.github.io/AppNaviBlog/post/how-to-write-an-article/</link>
+      <pubDate>Tue, 28 Apr 2020 00:01:09 +0900</pubDate>
+      <guid>https://juris710.github.io/AppNaviBlog/post/how-to-write-an-article/</guid>
+      <description>&lt;h1 id=&#34;記事を新規作成する方法&#34;&gt;記事を新規作成する方法&lt;/h1&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    「記事名」は英語（すべて小文字）で、単語間はハイフン（-）でつなぐのが望ましい
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;hugo new --kind post post/記事名&lt;/code&gt; を実行&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;content/post/記事名/index.md&lt;/code&gt;に記事を書く&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;記事に画像を挿入する方法&#34;&gt;記事に画像を挿入する方法&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;記事のindex.mdファイルがあるフォルダに画像を追加&lt;/li&gt;
+&lt;li&gt;画像を挿入したい箇所に下記を入力&lt;br&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    「画像名」には拡張子も含めること
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;ol&gt;
+&lt;li&gt;シンプル&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;![代替テキスト](./画像名)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;カスタム&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;markdown記法&#34;&gt;Markdown記法&lt;/h1&gt;
+&lt;p&gt;全ての記事はMarkdown記法で書く必要があります。（
+&lt;a href=&#34;https://qiita.com/tbpgr/items/989c6badefff69377da7&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;書き方の参考&lt;/a&gt;）&lt;/p&gt;
+&lt;h1 id=&#34;shortcodes&#34;&gt;Shortcodes&lt;/h1&gt;
+&lt;h2 id=&#34;youtube動画埋め込み&#34;&gt;Youtube動画埋め込み&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; youtube 動画のID &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式になっています
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;unity-webglの埋め込み&#34;&gt;Unity WebGLの埋め込み&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://ch-random.net/post/93/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ランダムさんの記事&lt;/a&gt;の内容を少し改変した自作Shortcodeです&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; unity src=&amp;quot;URL&amp;quot;&amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

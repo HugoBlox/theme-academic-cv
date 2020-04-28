@@ -10,20 +10,23 @@ authors:
 superuser: true
 
 # Role/position
-role: 工学域 電気電子系学類 情報工学課程 2年
+#role:
 
 # Organizations/Affiliations
-#organizations:
-#- name: Stanford University
-#  url: ""
+organizations:
+- faculty: 工学域
+  department: 電気電子系学類
+  cource: 情報工学課程
+  enrollment: 2019
+  url: ""
 
 # Short bio (displayed in user profile at end of posts)
 #bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
-#interests:
-#- Artificial Intelligence
-#- Computational Linguistics
-#- Information Retrieval
+interests:
+- Android
+- Kotlin
+- Hugo
 
 #education:
 #  courses:
@@ -69,3 +72,4 @@ role: 工学域 電気電子系学類 情報工学課程 2年
 #- Researchers
 #- Visitors
 ---
+このサイトの開発者です。

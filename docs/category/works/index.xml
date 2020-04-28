@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Works | AppNaviブログ</title>
+    <link>https://juris710.github.io/AppNaviBlog/category/works/</link>
+      <atom:link href="https://juris710.github.io/AppNaviBlog/category/works/index.xml" rel="self" type="application/rss+xml" />
+    <description>Works</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710  2020</copyright><lastBuildDate>Tue, 28 Apr 2020 15:07:58 +0900</lastBuildDate>
+    <image>
+      <url>https://juris710.github.io/AppNaviBlog/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Works</title>
+      <link>https://juris710.github.io/AppNaviBlog/category/works/</link>
+    </image>
+    
+    <item>
+      <title>Truck Quiz</title>
+      <link>https://juris710.github.io/AppNaviBlog/post/truck-quiz/</link>
+      <pubDate>Tue, 28 Apr 2020 15:07:58 +0900</pubDate>
+      <guid>https://juris710.github.io/AppNaviBlog/post/truck-quiz/</guid>
+      <description>
+
+
+
+
+
+
+&lt;div id=&#34;unity_webgl_0_1&#34; style=&#34;width: 100%; margin: 15px 0; background: white; border-radius: 15px;&#34;&gt;
+  &lt;div style=&#34;position: relative;&#34;&gt;
+    &lt;div id=&#34;unity_webgl_0_2&#34; style=&#34;height: 0;&#34;&gt;
+      &lt;iframe id=&#34;unity_webgl_0_3&#34; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+let w =  980 ; 
+let h =  700 ; 
+let url = &#34;https://juris710.github.io/TruckQuizSample/&#34;; 
+document.getElementById(&#34;unity_webgl_0_2&#34;).style.paddingBottom = 100 * h / w + &#34;%&#34;;
+document.getElementById(&#34;unity_webgl_0_3&#34;).src = url;
+let set_width = function() {
+  let client_w = document.getElementById(&#34;unity_webgl_0_2&#34;).clientWidth;
+  let per = client_w / w;
+  let rev = 100 / per;
+  let iframe = document.getElementById(&#34;unity_webgl_0_3&#34;);
+  iframe.height = rev + &#34;%&#34;;
+  iframe.width = rev + &#34;%&#34;;
+  iframe.style = &#34;position: absolute; top: 0; left: 0;  transform:scale(&#34; + per + &#34;);-o-transform:scale(&#34; + per + &#34;);-webkit-transform:scale(&#34; + per + &#34;);-moz-transform:scale(&#34; + per + &#34;);-ms-transform:scale(&#34; + per + &#34;);transform-origin:top left; border: 0;&#34;
+}
+set_width();
+window.onresize = function(){ set_width(); };
+&lt;/script&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

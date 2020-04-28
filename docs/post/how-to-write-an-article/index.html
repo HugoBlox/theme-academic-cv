@@ -27,7 +27,7 @@
   
     
   
-  <meta name="description" content="部員用。記事を投稿する方法のまとめです。">
+  <meta name="description" content="記事を投稿する方法のまとめです。">
 
   
   <link rel="alternate" hreflang="ja" href="https://juris710.github.io/AppNaviBlog/post/how-to-write-an-article/">
@@ -235,7 +235,7 @@
   <meta property="og:site_name" content="AppNaviブログ">
   <meta property="og:url" content="https://juris710.github.io/AppNaviBlog/post/how-to-write-an-article/">
   <meta property="og:title" content="記事の書き方 | AppNaviブログ">
-  <meta property="og:description" content="部員用。記事を投稿する方法のまとめです。"><meta property="og:image" content="https://juris710.github.io/AppNaviBlog/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:description" content="記事を投稿する方法のまとめです。"><meta property="og:image" content="https://juris710.github.io/AppNaviBlog/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://juris710.github.io/AppNaviBlog/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="ja">
   
     
@@ -285,7 +285,7 @@
       "url": "https://juris710.github.io/AppNaviBlog/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "部員用。記事を投稿する方法のまとめです。"
+  "description": "記事を投稿する方法のまとめです。"
 }
 </script>
 
@@ -373,7 +373,7 @@
 
     
     
-    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
 
       
       <ul class="navbar-nav d-md-inline-flex">
@@ -393,16 +393,29 @@
         
         
         
-          
-          
-          
-            
-          
-          
+
+        <li class="nav-item">
+          <a class="nav-link " href="/AppNaviBlog/authors"><span>Members</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+        
+        
+        
+        
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/AppNaviBlog/#about"><span>Home</span></a>
+          <a class="nav-link  active" href="/AppNaviBlog/post"><span>Posts</span></a>
         </li>
 
         
@@ -422,16 +435,9 @@
         
         
         
-          
-          
-          
-            
-          
-          
-        
 
         <li class="nav-item">
-          <a class="nav-link " href="/AppNaviBlog/#posts"><span>Posts</span></a>
+          <a class="nav-link " href="/AppNaviBlog/project"><span>Projects</span></a>
         </li>
 
         
@@ -451,74 +457,9 @@
         
         
         
-          
-          
-          
-            
-          
-          
-        
 
         <li class="nav-item">
-          <a class="nav-link " href="/AppNaviBlog/#projects"><span>Projects</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/AppNaviBlog/#featured"><span>Publications</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/AppNaviBlog/#contact"><span>Contact</span></a>
+          <a class="nav-link " href="/AppNaviBlog/category/works"><span>Works</span></a>
         </li>
 
         
@@ -588,6 +529,8 @@
   <h1>記事の書き方</h1>
 
   
+  <p class="page-subtitle">部員用</p>
+  
 
   
     
@@ -595,6 +538,16 @@
 
 <div class="article-metadata">
 
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/AppNaviBlog/author/juris710/">Juris710</a></span>
+  </div>
   
   
 
@@ -650,18 +603,16 @@
 
     <div class="article-style">
       <h1 id="記事を新規作成する方法">記事を新規作成する方法</h1>
-<ol>
-<li>下記のコマンドを実行する</li>
-</ol>
-<pre><code>hugo new --kind post post/記事名
-</code></pre>
-<p><div class="alert alert-note">
+<div class="alert alert-note">
   <div>
     「記事名」は英語（すべて小文字）で、単語間はハイフン（-）でつなぐのが望ましい
   </div>
 </div>
 
-2. <code>content/post/記事名/index.md</code>に記事を書く</p>
+<ol>
+<li><code>hugo new --kind post post/記事名</code> を実行</li>
+<li><code>content/post/記事名/index.md</code>に記事を書く</li>
+</ol>
 <h1 id="記事に画像を挿入する方法">記事に画像を挿入する方法</h1>
 <ol>
 <li>記事のindex.mdファイルがあるフォルダに画像を追加</li>
@@ -677,7 +628,7 @@
 </ol>
 <pre><code class="language-md">![代替テキスト](./画像名)
 </code></pre>
-<ol>
+<ol start="2">
 <li>カスタム</li>
 </ol>
 <pre><code>{{&lt; figure src=&quot;./画像名&quot; title=&quot;代替テキスト&quot; &gt;}}
@@ -688,7 +639,6 @@
 <p>全ての記事はMarkdown記法で書く必要があります。（
 <a href="https://qiita.com/tbpgr/items/989c6badefff69377da7" target="_blank" rel="noopener">書き方の参考</a>）</p>
 <h1 id="shortcodes">Shortcodes</h1>
-<p>Markdown記法では不可能なことができるようになります</p>
 <h2 id="youtube動画埋め込み">Youtube動画埋め込み</h2>
 <pre><code>{{&lt; youtube 動画のID &gt;}}
 </code></pre>
@@ -698,12 +648,25 @@
   </div>
 </div>
 
+<h2 id="unity-webglの埋め込み">Unity WebGLの埋め込み</h2>
+<p>
+<a href="https://ch-random.net/post/93/" target="_blank" rel="noopener">ランダムさんの記事</a>の内容を少し改変した自作Shortcodeです</p>
+<pre><code>{{&lt; unity src=&quot;URL&quot;&gt;}}
+</code></pre>
 
     </div>
 
     
 
 
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/AppNaviBlog/tag/hugo/">Hugo</a>
+  
+  <a class="badge badge-light" href="/AppNaviBlog/tag/markdown/">Markdown</a>
+  
+</div>
 
 
 
@@ -777,7 +740,8 @@
 
 
   
-  
+    
+    
 
 
 
@@ -797,7 +761,7 @@
 
       <div class="media-body">
         <h5 class="card-title"><a href="/AppNaviBlog/author/juris710/">Juris710</a></h5>
-        <h6 class="card-subtitle">工学域 電気電子系学類 情報工学課程 2年</h6>
+        
         
         <ul class="network-icon" aria-hidden="true">
   
@@ -808,6 +772,7 @@
   
 
 
+  
 
 
 

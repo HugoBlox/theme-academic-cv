@@ -1,9 +1,9 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Online Yukosai 2020"
+title: "オンライン友好祭2020"
 summary: ""
-authors: []
+authors: ["Juris710"]
 tags: []
 categories: []
 date: 2020-04-28T00:04:07+09:00

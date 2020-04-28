@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | AppNaviブログ</title>
+    <title>プロジェクト | AppNaviブログ</title>
     <link>https://juris710.github.io/AppNaviBlog/project/</link>
       <atom:link href="https://juris710.github.io/AppNaviBlog/project/index.xml" rel="self" type="application/rss+xml" />
-    <description>Projects</description>
+    <description>プロジェクト</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710  2020</copyright><lastBuildDate>Tue, 28 Apr 2020 00:04:07 +0900</lastBuildDate>
     <image>
       <url>https://juris710.github.io/AppNaviBlog/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Projects</title>
+      <title>プロジェクト</title>
       <link>https://juris710.github.io/AppNaviBlog/project/</link>
     </image>
     
     <item>
-      <title>Online Yukosai 2020</title>
+      <title>オンライン友好祭2020</title>
       <link>https://juris710.github.io/AppNaviBlog/project/online-yukosai-2020/</link>
       <pubDate>Tue, 28 Apr 2020 00:04:07 +0900</pubDate>
       <guid>https://juris710.github.io/AppNaviBlog/project/online-yukosai-2020/</guid>

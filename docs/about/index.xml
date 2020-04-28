@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>アプリNaviとは | AppNaviブログ</title>
+    <link>https://juris710.github.io/AppNaviBlog/about/</link>
+      <atom:link href="https://juris710.github.io/AppNaviBlog/about/index.xml" rel="self" type="application/rss+xml" />
+    <description>アプリNaviとは</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710  2020</copyright><lastBuildDate>Tue, 28 Apr 2020 11:50:15 +0900</lastBuildDate>
+    <image>
+      <url>https://juris710.github.io/AppNaviBlog/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>アプリNaviとは</title>
+      <link>https://juris710.github.io/AppNaviBlog/about/</link>
+    </image>
+    
+  </channel>
+</rss>

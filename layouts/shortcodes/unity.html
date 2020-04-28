@@ -1,0 +1,32 @@
+{{/* 参考：https://ch-random.net/post/93/ */}}
+{{ $unity_width := default 980 (.Get "width") }}
+{{ $unity_height := default 700 (.Get "height")}}
+{{ $unity_src :=  (.Get "src") }}
+{{ $id1 := (print "unity_webgl_" .Ordinal "_1")}}
+{{ $id2 := (print "unity_webgl_" .Ordinal "_2")}}
+{{ $id3 := (print "unity_webgl_" .Ordinal "_3")}}
+<div id="{{ $id1 }}" style="width: 100%; margin: 15px 0; background: white; border-radius: 15px;">
+  <div style="position: relative;">
+    <div id="{{ $id2 }}" style="height: 0;">
+      <iframe id="{{ $id3 }}" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+<script>
+let w = {{ $unity_width }}; // 幅(px)
+let h = {{ $unity_height }}; // 高さ(px)
+let url = {{ $unity_src }}; // url
+document.getElementById({{ $id2 }}).style.paddingBottom = 100 * h / w + "%";
+document.getElementById({{ $id3 }}).src = url;
+let set_width = function() {
+  let client_w = document.getElementById({{ $id2 }}).clientWidth;
+  let per = client_w / w;
+  let rev = 100 / per;
+  let iframe = document.getElementById({{ $id3 }});
+  iframe.height = rev + "%";
+  iframe.width = rev + "%";
+  iframe.style = "position: absolute; top: 0; left: 0;  transform:scale(" + per + ");-o-transform:scale(" + per + ");-webkit-transform:scale(" + per + ");-moz-transform:scale(" + per + ");-ms-transform:scale(" + per + ");transform-origin:top left; border: 0;"
+}
+set_width();
+window.onresize = function(){ set_width(); };
+</script>
