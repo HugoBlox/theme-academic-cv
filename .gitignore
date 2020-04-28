@@ -4,3 +4,6 @@
 # Hugo
 resources/
 public/
+
+#Apple
+.DS_Store
