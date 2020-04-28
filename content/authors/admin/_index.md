@@ -50,7 +50,7 @@ social:
 #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/scrazycarl
+  link: https://github.com/shirzartenwer
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/shirzart
