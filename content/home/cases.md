@@ -8,8 +8,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 1  # Order that this section will appear.
 
-title = "Confirmed cases in Timor-Leste"
-subtitle = ""
+title = "Confirmed cases"
+subtitle = "Timor-Leste has 24 confirmed cases, 22 of which are in Dili, and 2 in Liquica."
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

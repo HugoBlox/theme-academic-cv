@@ -18,3 +18,8 @@
   url = "#testing"
   weight = 30
 
+[[main]]
+  name = "Resources"
+  url = "#resources"
+  weight = 40
+
