@@ -21,24 +21,24 @@ date_format = "Jan 2006"
 [[item]]
   organization = "Coursera"
   organization_url = "https://www.coursera.org"
-  title = "Neural Networks and Deep Learning"
+  title = "Python Data Structures"
   url = ""
-  certificate_url = "https://www.coursera.org"
-  date_start = "2018-10-01"
+  certificate_url = "https://coursera.org/share/6665e0948f73b01249f7775ec7022065"
+  date_start = "2017-06-11"
   date_end = ""
   description = ""
 
 [[item]]
-  organization = "edX"
-  organization_url = "https://www.edx.org"
-  title = "Blockchain Fundamentals"
-  url = "https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
-  certificate_url = "https://www.edx.org"
-  date_start = "2018-03-01"
+  organization = "Coursera"
+  organization_url = "https://www.coursera.org"
+  title = "Using Python to Access Web Data"
+  url = ""
+  certificate_url = "https://coursera.org/share/17f125e8ac3b0f778c84748f925fa83d"
+  date_start = "2017-06-28"
   date_end = ""
-  description = "Formulated informed blockchain models, hypotheses, and use cases."
+  description = ""
   
-[[item]]
+<!-- [[item]]
   organization = "DataCamp"
   organization_url = "https://www.datacamp.com"
   title = "Object-Oriented Programming in R: S3 and R6 Course"
@@ -46,6 +46,6 @@ date_format = "Jan 2006"
   certificate_url = "https://www.datacamp.com"
   date_start = "2017-07-01"
   date_end = "2017-12-21"
-  description = ""
+  description = "" -->
 
 +++
