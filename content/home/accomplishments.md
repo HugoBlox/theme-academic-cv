@@ -37,6 +37,8 @@ date_format = "Jan 2006"
   date_start = "2017-06-28"
   date_end = ""
   description = ""
+
++++
   
 <!-- [[item]]
   organization = "DataCamp"
@@ -48,4 +50,4 @@ date_format = "Jan 2006"
   date_end = "2017-12-21"
   description = "" -->
 
-+++
+<!-- +++ -->
