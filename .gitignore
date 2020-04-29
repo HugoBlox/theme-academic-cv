@@ -5,4 +5,5 @@
 resources/
 public/
 
-grep_result.txt
+# 自作スクリプト「grep.sh」の結果を格納するフォルダ
+grep_result/
