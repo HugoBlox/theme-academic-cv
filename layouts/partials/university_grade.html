@@ -1,0 +1,3 @@
+{{with .enrollment}}
+    {{add (sub (int (dateFormat "2006" now)) .) 1}}年
+{{end}}

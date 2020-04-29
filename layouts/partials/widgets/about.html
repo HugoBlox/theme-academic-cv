@@ -36,16 +36,10 @@
         {{ range $person.organizations }}
         <h3>
           {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
-            <span>{{ .faculty }}{{ .department }}{{ .cource }}{{add (sub (int (dateFormat "2006" now)) .enrollment) 1}}年</span>
-          {{/* <span>{{ .name }}</span> */}}
+            <span>{{ .faculty }}{{ .department }}{{ .course }}{{ partial "university_grade" . }}</span>
           {{ if .url }}</a>{{ end }}
         </h3>
         {{ end }}
-        {{/* {{if $person.university}} */}}
-        {{/* <h3> */}}
-        {{/* <span>{{ .faculty }}{{ .department }}{{ .cource }}{{add (sub (int (dateFormat "2006" now)) .enrollment) 1}}年</span> */}}
-        {{/* </h3> */}}
-        {{/* {{end}} */}}
       </div>
 
       <ul class="network-icon" aria-hidden="true">
