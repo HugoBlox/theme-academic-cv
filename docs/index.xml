@@ -71,17 +71,8 @@ window.onresize = function(){ set_width(); };
       <link>https://juris710.github.io/AppNaviBlog/post/how-to-write-an-article/</link>
       <pubDate>Tue, 28 Apr 2020 00:01:09 +0900</pubDate>
       <guid>https://juris710.github.io/AppNaviBlog/post/how-to-write-an-article/</guid>
-      <description>&lt;h1 id=&#34;記事を新規作成する方法&#34;&gt;記事を新規作成する方法&lt;/h1&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    「記事名」は英語（すべて小文字）で、単語間はハイフン（-）でつなぐのが望ましい
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;code&gt;hugo new --kind post post/記事名&lt;/code&gt; を実行&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;content/post/記事名/index.md&lt;/code&gt;に記事を書く&lt;/li&gt;
-&lt;/ol&gt;
+      <description>&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;
+&lt;p&gt;このサイトでの記事の書き方をまとめました。&lt;/p&gt;
 &lt;h1 id=&#34;記事に画像を挿入する方法&#34;&gt;記事に画像を挿入する方法&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;記事のindex.mdファイルがあるフォルダに画像を追加&lt;/li&gt;
