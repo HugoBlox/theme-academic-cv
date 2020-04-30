@@ -1,9 +1,9 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Github for Unity"
+title: "GitHub for Unityの紹介"
 subtitle: ""
-summary: ""
+summary: "Unityアセット紹介"
 authors: []
 tags: []
 categories: []
@@ -27,3 +27,11 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+## 使い方
+プロジェクトごとに行う必要があります。
+1. Asset Storeから「GitHub for Unity」をインポート
+2. メニューの`Window`>`GitHub`を選択  
+    GitHubタブが開く
+3.  **(初回のみ)** `Sign In`をクリック  
+    以下のダイアログが表示されるので、GitHubアカウントでサインインする
+    {{<figure src="./GitHub_SignIn.png" class="left">}}

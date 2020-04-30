@@ -13,11 +13,48 @@
     </image>
     
     <item>
-      <title>Github for Unity</title>
+      <title>GitHub for Unityの紹介</title>
       <link>https://juris710.github.io/AppNaviBlog/post/github-for-unity/</link>
       <pubDate>Thu, 30 Apr 2020 20:18:25 +0900</pubDate>
       <guid>https://juris710.github.io/AppNaviBlog/post/github-for-unity/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;使い方&#34;&gt;使い方&lt;/h2&gt;
+&lt;p&gt;プロジェクトごとに行う必要があります。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Asset Storeから「GitHub for Unity」をインポート&lt;/li&gt;
+&lt;li&gt;メニューの&lt;code&gt;Window&lt;/code&gt;&amp;gt;&lt;code&gt;GitHub&lt;/code&gt;を選択&lt;br&gt;
+GitHubタブが開く&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;(初回のみ)&lt;/strong&gt; &lt;code&gt;Sign In&lt;/code&gt;をクリック&lt;br&gt;
+以下のダイアログが表示されるので、GitHubアカウントでサインインする
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34;left&#34; &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./GitHub_SignIn.png&#34; &gt;
+
+
+  &lt;img src=&#34;./GitHub_SignIn.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
     </item>
     
     <item>

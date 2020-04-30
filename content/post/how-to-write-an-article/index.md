@@ -40,7 +40,7 @@ projects: []
       ![代替テキスト](./画像名)
       ```
    2. ShortCodes  
-  画像の幅や高さなどをカスタムすることができます。詳しくは[公式ドキュメント](https://gohugo.io/content-management/shortcodes/#figure)  を参照してください。
+      画像の幅や高さなどをカスタムすることができます。詳しくは[公式ドキュメント](https://gohugo.io/content-management/shortcodes/#figure)  を参照してください。
       ```
       {{</* figure src="./画像名" title="代替テキスト" */>}}
       ```
