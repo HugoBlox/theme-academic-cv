@@ -38,11 +38,6 @@
   </url>
   
   <url>
-    <loc>https://juris710.github.io/AppNaviBlog/about/</loc>
-    <lastmod>2020-04-28T11:50:15+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://juris710.github.io/AppNaviBlog/project/online-yukosai-2020/</loc>
     <lastmod>2020-04-28T00:04:07+09:00</lastmod>
   </url>
@@ -70,6 +65,10 @@
   <url>
     <loc>https://juris710.github.io/AppNaviBlog/post/how-to-write-an-article/</loc>
     <lastmod>2020-04-28T00:01:09+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://juris710.github.io/AppNaviBlog/about/</loc>
   </url>
   
   <url>

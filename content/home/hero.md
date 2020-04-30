@@ -39,8 +39,8 @@ hero_media = ""
 [cta]
   url = "/about"
   label = "アプリNaviとは"
-  icon_pack = "fas"
-  icon = "download"
+  #icon_pack = "fas"
+  #icon = "download"
   
 #[cta_alt]
 #  url = "https://sourcethemes.com/academic/"
