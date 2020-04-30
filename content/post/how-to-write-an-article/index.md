@@ -35,19 +35,21 @@ projects: []
   {{<alert note>}}
   「画像名」には拡張子も含めること  
   {{</alert>}}
-   1. シンプル
+   1. Markdown記法
     ```md
     ![代替テキスト](./画像名)
     ```
-   2. カスタム
+   2. ShortCodes  
+  画像の幅や高さなどをカスタムすることができます。詳しくは[公式ドキュメント](https://gohugo.io/content-management/shortcodes/#figure)  を参照してください。
     ```
     {{</* figure src="./画像名" title="代替テキスト" */>}}
     ```
 
 # Markdown記法
-全ての記事はMarkdown記法で書く必要があります。（[書き方の参考](https://qiita.com/tbpgr/items/989c6badefff69377da7)）
+全ての記事はMarkdown記法で書く必要があります。（[書き方の参考](https://qiita.com/kamorits/items/6f342da395ad57468ae3)）
 
 # Shortcodes
+ShortcodesとはHugo独自の機能で、Markdownファイルに書くことができるスニペットです。  
 ## Youtube動画埋め込み
 ```  
 {{</* youtube 動画のID */>}}
@@ -61,3 +63,12 @@ YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式
 ```
 {{</* unity src="URL"*/>}}
 ```
+
+## ツイートの埋め込み
+```
+{{</* tweet ツイートID */>}}
+```
+{{<alert note >}}
+  ツイートのURLは「https://twitter.com/.../status/ツイートID」という形式になっています。
+{{</alert>}}  
+
