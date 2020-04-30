@@ -27,6 +27,5 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-{{<alert warning>}}
-TODO：内容
-{{</alert>}}
+アプリNaviは大阪府立大学の部活動です。  
+主な活動はアプリやゲーム、Web、VRなどの開発です。
