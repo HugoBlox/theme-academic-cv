@@ -103,6 +103,8 @@ subtitle = "Timor-Leste has 24 confirmed cases, 22 of which are in Dili, and 2 i
             ["Apr 26, 2020",24,0],
             ["Apr 27, 2020",24,0],
             ["Apr 28, 2020",24,0],
+            ["Apr 29, 2020",24,0],
+            ["Apr 30, 2020",24,0],
       ]);
 
       var options = {
