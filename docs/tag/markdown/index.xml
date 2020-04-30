@@ -30,21 +30,24 @@
 &lt;/div&gt;
 
 &lt;ol&gt;
-&lt;li&gt;シンプル&lt;/li&gt;
-&lt;/ol&gt;
+&lt;li&gt;Markdown記法
 &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;![代替テキスト](./画像名)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;カスタム&lt;/li&gt;
-&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;ShortCodes&lt;br&gt;
+画像の幅や高さなどをカスタムすることができます。詳しくは
+&lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#figure&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式ドキュメント&lt;/a&gt;  を参照してください。
 &lt;pre&gt;&lt;code&gt;{{&amp;lt; figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot; &amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h1 id=&#34;markdown記法&#34;&gt;Markdown記法&lt;/h1&gt;
 &lt;p&gt;全ての記事はMarkdown記法で書く必要があります。（
-&lt;a href=&#34;https://qiita.com/tbpgr/items/989c6badefff69377da7&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;書き方の参考&lt;/a&gt;）&lt;/p&gt;
+&lt;a href=&#34;https://qiita.com/kamorits/items/6f342da395ad57468ae3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;書き方の参考&lt;/a&gt;）&lt;/p&gt;
 &lt;h1 id=&#34;shortcodes&#34;&gt;Shortcodes&lt;/h1&gt;
+&lt;p&gt;ShortcodesとはHugo独自の機能で、Markdownファイルに書くことができるスニペットです。&lt;/p&gt;
 &lt;h2 id=&#34;youtube動画埋め込み&#34;&gt;Youtube動画埋め込み&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;{{&amp;lt; youtube 動画のID &amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;
@@ -59,6 +62,15 @@
 &lt;a href=&#34;https://ch-random.net/post/93/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ランダムさんの記事&lt;/a&gt;の内容を少し改変した自作Shortcodeです&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;{{&amp;lt; unity src=&amp;quot;URL&amp;quot;&amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;ツイートの埋め込み&#34;&gt;ツイートの埋め込み&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; tweet ツイートID &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    ツイートのURLは「https://twitter.com/&amp;hellip;/status/ツイートID」という形式になっています。
+  &lt;/div&gt;
+&lt;/div&gt;
+
 </description>
     </item>
     

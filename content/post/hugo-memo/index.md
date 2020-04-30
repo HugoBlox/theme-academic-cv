@@ -46,3 +46,13 @@ projects: []
 [引用](https://sanpobiyori.info/20190503/)
 >通常のhugoとの違いは、ExtendedではSASS/SCSSが使える点が異なります。
 >githubで公開されているテーマなどの中にもSASS/SCSSが使用されているものもがあり、そういったテーマを使用する場合は通常のhugoではエラーとなってしまい、記事の生成を行うことが出来ません。
+
+# homeで使っているWidgetを他のページでも使う方法
+1. 使いたいページ名のフォルダに`index.md`を作成
+2. `index.md`のフロントマッターを編集
+    ```toml
+    type = "widget_page"
+    headless = false  # Homepage is headless, other widget pages are not.
+    ```  
+3. `themes/academic/exampleSite/content/home`から使いたいWidgetを移動  
+

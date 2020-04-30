@@ -36,14 +36,14 @@ projects: []
   「画像名」には拡張子も含めること  
   {{</alert>}}
    1. Markdown記法
-    ```md
-    ![代替テキスト](./画像名)
-    ```
+      ```md
+      ![代替テキスト](./画像名)
+      ```
    2. ShortCodes  
   画像の幅や高さなどをカスタムすることができます。詳しくは[公式ドキュメント](https://gohugo.io/content-management/shortcodes/#figure)  を参照してください。
-    ```
-    {{</* figure src="./画像名" title="代替テキスト" */>}}
-    ```
+      ```
+      {{</* figure src="./画像名" title="代替テキスト" */>}}
+      ```
 
 # Markdown記法
 全ての記事はMarkdown記法で書く必要があります。（[書き方の参考](https://qiita.com/kamorits/items/6f342da395ad57468ae3)）
