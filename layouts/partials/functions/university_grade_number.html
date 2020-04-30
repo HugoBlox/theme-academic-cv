@@ -1,0 +1,5 @@
+{{$university_grade_number := 0}}
+{{$university_grade_number := (int (dateFormat "2006" now))}}
+{{$university_grade_number := sub $university_grade_number .}}
+{{$university_grade_number := add $university_grade_number 1}}
+{{return $university_grade_number}}
