@@ -71,6 +71,12 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
+&lt;h2 id=&#34;折りたたみ&#34;&gt;折りたたみ&lt;/h2&gt;
+&lt;p&gt;自作Shortcodeです。&lt;code&gt;展開された時に表示する文章&lt;/code&gt;にはMarkdown記法を用いることができます・&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; collapsable 折りたたまれている時に表示する文字列 &amp;gt;}}
+  展開された時に表示する文章
+{{&amp;lt; /collapsable &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     

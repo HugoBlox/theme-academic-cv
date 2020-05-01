@@ -10,3 +10,25 @@
     float: left;
     text-align: left;
 }
+.article-style figure {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+figure.left > a > img{
+    margin-left: 0;
+    margin-right: auto;
+}
+figure.right > a > img{
+    margin-left: auto;
+    margin-right: 0;
+}
+figure.float-left{
+    float: left;
+}
+figure.float-right{
+    float: right;
+}
+.article-style{
+    overflow: hidden;
+}

@@ -5,7 +5,7 @@ title: "Truck Quiz"
 subtitle: ""
 summary: "作品紹介"
 authors: ["juris710"]
-tags: []
+tags: ["Unity"]
 categories: ["Works"]
 date: 2020-04-28T15:07:58+09:00
 lastmod: 2020-04-28T15:07:58+09:00
@@ -28,3 +28,8 @@ image:
 projects: ["online-yukosai-2020"]
 ---
 {{<unity src="https://juris710.github.io/TruckQuizSample/">}}
+
+# ゲームの説明
+某有名クイズ番組のクイズを模したゲームです。
+2択問題が5問出題されます。間違えてた時点でゲームオーバーです。
+キーボード操作、タッチ操作の両方に対応しています。

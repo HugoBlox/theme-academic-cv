@@ -3,7 +3,7 @@
 
 title: "記事の書き方"
 subtitle: "部員用"
-summary: "記事を投稿する方法のまとめです。"
+summary: "(部員用)記事を投稿する方法のまとめです。"
 authors: ["juris710"]
 tags: ["Markdown", "Hugo"]
 categories: []
@@ -72,3 +72,10 @@ YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式
   ツイートのURLは「https://twitter.com/.../status/ツイートID」という形式になっています。
 {{</alert>}}  
 
+## 折りたたみ
+自作Shortcodeです。`展開された時に表示する文章`にはMarkdown記法を用いることができます・
+```
+{{</* collapsable 折りたたまれている時に表示する文字列 */>}}
+  展開された時に表示する文章
+{{</* /collapsable */>}}
+```

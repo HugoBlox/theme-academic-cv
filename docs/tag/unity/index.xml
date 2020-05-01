@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>記事一覧 | AppNaviブログ</title>
-    <link>https://juris710.github.io/AppNaviBlog/post/</link>
-      <atom:link href="https://juris710.github.io/AppNaviBlog/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>記事一覧</description>
+    <title>Unity | AppNaviブログ</title>
+    <link>https://juris710.github.io/AppNaviBlog/tag/unity/</link>
+      <atom:link href="https://juris710.github.io/AppNaviBlog/tag/unity/index.xml" rel="self" type="application/rss+xml" />
+    <description>Unity</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710  2020</copyright><lastBuildDate>Thu, 30 Apr 2020 20:18:25 +0900</lastBuildDate>
     <image>
       <url>https://juris710.github.io/AppNaviBlog/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>記事一覧</title>
-      <link>https://juris710.github.io/AppNaviBlog/post/</link>
+      <title>Unity</title>
+      <link>https://juris710.github.io/AppNaviBlog/tag/unity/</link>
     </image>
     
     <item>
@@ -261,74 +261,6 @@ window.onresize = function(){ set_width(); };
 &lt;p&gt;某有名クイズ番組のクイズを模したゲームです。
 2択問題が5問出題されます。間違えてた時点でゲームオーバーです。
 キーボード操作、タッチ操作の両方に対応しています。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>記事の書き方</title>
-      <link>https://juris710.github.io/AppNaviBlog/post/how-to-write-an-article/</link>
-      <pubDate>Tue, 28 Apr 2020 00:01:09 +0900</pubDate>
-      <guid>https://juris710.github.io/AppNaviBlog/post/how-to-write-an-article/</guid>
-      <description>&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;
-&lt;p&gt;このサイトでの記事の書き方をまとめました。&lt;/p&gt;
-&lt;h1 id=&#34;記事に画像を挿入する方法&#34;&gt;記事に画像を挿入する方法&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;記事のindex.mdファイルがあるフォルダに画像を追加&lt;/li&gt;
-&lt;li&gt;画像を挿入したい箇所に下記を入力&lt;br&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    「画像名」には拡張子も含めること
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Markdown記法
-&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;![代替テキスト](./画像名)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
-&lt;li&gt;ShortCodes&lt;br&gt;
-画像の幅や高さなどをカスタムすることができます。詳しくは
-&lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#figure&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式ドキュメント&lt;/a&gt;  を参照してください。
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h1 id=&#34;markdown記法&#34;&gt;Markdown記法&lt;/h1&gt;
-&lt;p&gt;全ての記事はMarkdown記法で書く必要があります。（
-&lt;a href=&#34;https://qiita.com/kamorits/items/6f342da395ad57468ae3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;書き方の参考&lt;/a&gt;）&lt;/p&gt;
-&lt;h1 id=&#34;shortcodes&#34;&gt;Shortcodes&lt;/h1&gt;
-&lt;p&gt;ShortcodesとはHugo独自の機能で、Markdownファイルに書くことができるスニペットです。&lt;/p&gt;
-&lt;h2 id=&#34;youtube動画埋め込み&#34;&gt;Youtube動画埋め込み&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; youtube 動画のID &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式になっています
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;unity-webglの埋め込み&#34;&gt;Unity WebGLの埋め込み&lt;/h2&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://ch-random.net/post/93/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ランダムさんの記事&lt;/a&gt;の内容を少し改変した自作Shortcodeです&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; unity src=&amp;quot;URL&amp;quot;&amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;ツイートの埋め込み&#34;&gt;ツイートの埋め込み&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; tweet ツイートID &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    ツイートのURLは「https://twitter.com/&amp;hellip;/status/ツイートID」という形式になっています。
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;折りたたみ&#34;&gt;折りたたみ&lt;/h2&gt;
-&lt;p&gt;自作Shortcodeです。&lt;code&gt;展開された時に表示する文章&lt;/code&gt;にはMarkdown記法を用いることができます・&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; collapsable 折りたたまれている時に表示する文字列 &amp;gt;}}
-  展開された時に表示する文章
-{{&amp;lt; /collapsable &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     

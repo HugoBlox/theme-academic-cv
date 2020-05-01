@@ -17,14 +17,71 @@
       <link>https://juris710.github.io/AppNaviBlog/post/github-for-unity/</link>
       <pubDate>Thu, 30 Apr 2020 20:18:25 +0900</pubDate>
       <guid>https://juris710.github.io/AppNaviBlog/post/github-for-unity/</guid>
-      <description>&lt;h2 id=&#34;使い方&#34;&gt;使い方&lt;/h2&gt;
+      <description>&lt;h1 id=&#34;使用したunityのバージョン&#34;&gt;使用したUnityのバージョン&lt;/h1&gt;
+&lt;p&gt;Unity 2018.4.22f1&lt;/p&gt;
+&lt;h1 id=&#34;導入方法&#34;&gt;導入方法&lt;/h1&gt;
 &lt;p&gt;プロジェクトごとに行う必要があります。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Asset Storeから「GitHub for Unity」をインポート&lt;/li&gt;
-&lt;li&gt;メニューの&lt;code&gt;Window&lt;/code&gt;&amp;gt;&lt;code&gt;GitHub&lt;/code&gt;を選択&lt;br&gt;
-GitHubタブが開く&lt;/li&gt;
+&lt;li&gt;メニューで&lt;code&gt;Window&lt;/code&gt;&amp;gt;&lt;code&gt;GitHub&lt;/code&gt;を選択&lt;br&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34;left&#34; &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./GitHub_Tab_Menu.png&#34; &gt;
+
+
+  &lt;img src=&#34;./GitHub_Tab_Menu.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+GitHubタブが開きます
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34;left&#34; &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./GitHub_Tab.png&#34; &gt;
+
+
+  &lt;img src=&#34;./GitHub_Tab.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;(初回のみ)&lt;/strong&gt; &lt;code&gt;Sign In&lt;/code&gt;をクリック&lt;br&gt;
-以下のダイアログが表示されるので、GitHubアカウントでサインインする
 
 
 
@@ -52,8 +109,114 @@ GitHubタブが開く&lt;/li&gt;
 
 
 &lt;/figure&gt;
+
+ダイアログが表示されるので、GitHubアカウントでサインインしてください。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Initialize a git repository for this project&lt;/code&gt;をクリック&lt;br&gt;
+少し待つと、タブの中身が変化する。&lt;br&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34;left&#34; &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./GitHub_AfterGitInit.png&#34; &gt;
+
+
+  &lt;img src=&#34;./GitHub_AfterGitInit.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;h1 id=&#34;使い方&#34;&gt;使い方&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;Changes&lt;/code&gt;を選択してください。前回保存した状態から変更があったファイルが一覧表示されます。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34;left&#34; &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./GitHub_Changes.png&#34; &gt;
+
+
+  &lt;img src=&#34;./GitHub_Changes.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;変更を保存する&#34;&gt;変更を保存する&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;リストから保存したい変更をチェックマークをクリックして選択&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Commit summary&lt;/code&gt;に変更内容を記述&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Commit description&lt;/code&gt;に変更内容の詳細を記述（任意）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Commit to [master]&lt;/code&gt;をクリック&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;変更内容を確認する&#34;&gt;変更内容を確認する&lt;/h2&gt;
+&lt;p&gt;前回保存した状態と現在の状態との差分を見ることができます。
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    差分を比較するソフトウェア(&lt;a href=&#34;https://forest.watch.impress.co.jp/library/software/winmerge/&#34;&gt;WinMerge&lt;/a&gt;など)をインストールする必要があります。
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;リストから差分を見たいファイルを右クリック&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Show Diff&lt;/code&gt;をクリック&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;変更を取り消す&#34;&gt;変更を取り消す&lt;/h3&gt;
+&lt;p&gt;加えた変更を無かったことにして、前回保存した状態に戻すことができます。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;リストから変更を取り消したいファイルを右クリック&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Discard&lt;/code&gt;をクリック&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;その他&#34;&gt;その他&lt;/h1&gt;
+&lt;h2 id=&#34;比較ソフトウェアを変更したい&#34;&gt;比較ソフトウェアを変更したい&lt;/h2&gt;
+&lt;p&gt;比較ソフトウェアが複数インストールされていて、変更したい場合&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;UnityのPreferenceを開く&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;External Tools&lt;/code&gt;を選択&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Revision Controll Diff/Merge&lt;/code&gt;でソフトウェアを選択&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;details&gt;
+    &lt;summary&gt;GitHubやGitに詳しい人向け&lt;/summary&gt;
+    &lt;h2 id=&#34;revert&#34;&gt;Revert&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;History&lt;/code&gt;を選択&lt;/li&gt;
+&lt;li&gt;コミットを右クリック&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Revert&lt;/code&gt;をクリック&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;/details&gt;
+
 </description>
     </item>
     
@@ -94,6 +257,10 @@ let set_width = function() {
 set_width();
 window.onresize = function(){ set_width(); };
 &lt;/script&gt;
+&lt;h1 id=&#34;ゲームの説明&#34;&gt;ゲームの説明&lt;/h1&gt;
+&lt;p&gt;某有名クイズ番組のクイズを模したゲームです。
+2択問題が5問出題されます。間違えてた時点でゲームオーバーです。
+キーボード操作、タッチ操作の両方に対応しています。&lt;/p&gt;
 </description>
     </item>
     
@@ -170,6 +337,12 @@ window.onresize = function(){ set_width(); };
   &lt;/div&gt;
 &lt;/div&gt;
 
+&lt;h2 id=&#34;折りたたみ&#34;&gt;折りたたみ&lt;/h2&gt;
+&lt;p&gt;自作Shortcodeです。&lt;code&gt;展開された時に表示する文章&lt;/code&gt;にはMarkdown記法を用いることができます・&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; collapsable 折りたたまれている時に表示する文字列 &amp;gt;}}
+  展開された時に表示する文章
+{{&amp;lt; /collapsable &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
