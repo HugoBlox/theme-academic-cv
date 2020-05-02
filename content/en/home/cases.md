@@ -65,6 +65,7 @@ subtitle = "Timor-Leste has 24 confirmed cases, 22 of which are in Dili, and 2 i
   function drawChart() {
       var data = google.visualization.arrayToDataTable([
             ['Day', 'Total Cases', 'New Cases'],
+            ["Mar 21, 2020",1,1],
             ["Mar 22, 2020",1,0],
             ["Mar 23, 2020",1,0],
             ["Mar 24, 2020",1,0],

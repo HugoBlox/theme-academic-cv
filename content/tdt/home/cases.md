@@ -65,6 +65,7 @@ subtitle = "Timor-Leste iha kazu konfirmadu total 24: 22 iha Dili, no 2 iha Liqu
   function drawChart() {
       var data = google.visualization.arrayToDataTable([
             ['Day', 'Kazu total', 'Kazu foun'],
+            ["Mar 21, 2020",1,1],
             ["Mar 22, 2020",1,0],
             ["Mar 23, 2020",1,0],
             ["Mar 24, 2020",1,0],
