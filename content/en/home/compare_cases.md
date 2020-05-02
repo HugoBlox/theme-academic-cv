@@ -4,7 +4,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 2  # Order that this section will appear.
 
-title = "Confirmed cases: How does Timor compare?"
+title = "How does Timor compare?"
 subtitle = "Timor has less confirmed cases per million than Indonesia or the Philippines"
 
 [design]
@@ -46,5 +46,38 @@ subtitle = "Timor has less confirmed cases per million than Indonesia or the Phi
  css_class = ""
 +++
 
-<iframe src="https://ourworldindata.org/grapher/total-confirmed-cases-of-covid-19-per-million-people?year=2020-04-27&country=TLS&region=Asia" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+<script type="text/javascript">
+  google.charts.load('current', {
+    'packages':['geochart'],
+    // Note: you will need to get a mapsApiKey for your project.
+    // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
+    'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
+  });
+  google.charts.setOnLoadCallback(drawRegionsMap);
 
+  function drawRegionsMap() {
+    var data = google.visualization.arrayToDataTable([
+        ['Country', 'Confirmed cases per million'],
+        ["Cambodia", 7.297099803570447],
+        ["Indonesia", 33.25489757244768],
+        ["Laos", 2.61148426319583],
+        ["Malaysia", 179.81833898648824],
+        ["Myanmar", 2.6833404294822363],
+        ["Philippines", 70.97027739778265],
+        ["Thailand", 42.09170381113874],
+        ["TL", 18.203303596214322],
+        ["Vietnam", 2.7738229967863823],
+    ]);
+
+    var options = {
+        region: '035',
+        chartArea: {width: '95%', height: '80%', top: 5},
+        colorAxis: {colors: ['red']}
+    };
+
+    var chart = new google.visualization.GeoChart(document.getElementById('compare-map'));
+
+    chart.draw(data, options);
+  }
+</script>
+<div id="compare-map"></div>

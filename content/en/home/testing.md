@@ -5,7 +5,7 @@ active = true  # Activate this widget? true/false
 weight = 3  # Order that this section will appear.
 
 title = "Testing"
-subtitle = "As of April 28, 2020, Timor-Leste has made 597 tests. That's more tests per 1,000 people than Indonesia, but less that the Philippines or Vietnam."
+subtitle = "As of May 1, 2020, Timor-Leste has made 671 tests. That's more tests per 1,000 people than Indonesia, but less that the Philippines or Vietnam."
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -46,10 +46,33 @@ subtitle = "As of April 28, 2020, Timor-Leste has made 597 tests. That's more te
  css_class = ""
 +++
 
-<iframe title="Tests per 1,000 people" aria-label="Bar Chart" id="datawrapper-chart-YgCnu" src="//datawrapper.dwcdn.net/YgCnu/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="222"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
-</script>
+<script>
+google.charts.load('current', {packages: ['corechart', 'bar']});
+google.charts.setOnLoadCallback(drawBarColors);
 
-#### From the 597 tests conducted:
+function drawBarColors() {
+      var data = google.visualization.arrayToDataTable([
+        ['Country', 'Tests per 1,000 people', { role: "style" } ],
+        ['Timor-Leste', 0.51, 'green'],
+        ['Indonesia', 0.23, ''],
+        ['Philippines', 0.69, ''],
+        ['Vietnam', 2.20, ''],
+        ['Australia', 20.34, ''],
+      ]);
+
+      var options = {
+        title: 'Tests per 1,000 people',
+        chartArea: {width: '50%'},
+        colors: ['green'],
+        legend: { position: "none" },
+      };
+      var chart = new google.visualization.BarChart(document.getElementById('testing-div'));
+      chart.draw(data, options);
+    }
+</script>
+<div id="testing-div"></div>
+
+#### From the 671 tests conducted:
 * 24 came back positive
-* 367 came back negative
-* 206 are pending
+* 478 came back negative
+* 169 are pending

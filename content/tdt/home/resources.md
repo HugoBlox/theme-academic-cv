@@ -46,8 +46,8 @@ subtitle = ""
  css_class = ""
 +++
 
-Stay informed about the covid-19 epidemic through:
-* [The Ministry of Health Facebook page](https://www.facebook.com/MinisteriodaSaudeTL/)
-* [The official WhatsApp chatbot by the Ministry of Health](https://wa.me/67075560000?text=hello)
-* [The WHO in Timor-Leste Facebook page](https://www.facebook.com/WHOTL/)
-* [OurWorldInData Coronavirus page](ourworldindata.org/coronavirus?country=TLS+IDN+AUS+VNM)
+Rekursus hodi hetan informasaun ne'ebé lo'os husi fontes ne'ebe kredível:
+* [Pajina FB Ministério Saúde Timor-Leste](https://www.facebook.com/MinisteriodaSaudeTL/)
+* [Chatbot WhatsApp husi Ministério Saúde Timor-Leste](https://wa.me/67075560000?text=hello)
+* [Pajina FB Organizasaun Mundial Saude (lian Ingles)](https://www.facebook.com/WHOTL/)
+* [Pajina OurWorldInData kona-ba coronavirus (lian Ingles)](ourworldindata.org/coronavirus?country=TLS+IDN+AUS+VNM)

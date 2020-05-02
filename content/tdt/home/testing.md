@@ -4,8 +4,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 3  # Order that this section will appear.
 
-title = "Testing"
-subtitle = "As of April 28, 2020, Timor-Leste has made 597 tests. That's more tests per 1,000 people than Indonesia, but less that the Philippines or Vietnam."
+title = "Teste"
+subtitle = "Timor-Leste halo ona teste 671. Timor-Leste halo teste por 1,000 barak liu fali Indonesia, maibé menus se kompara ho Filipina no Vietnam."
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -46,10 +46,33 @@ subtitle = "As of April 28, 2020, Timor-Leste has made 597 tests. That's more te
  css_class = ""
 +++
 
-<iframe title="Tests per 1,000 people" aria-label="Bar Chart" id="datawrapper-chart-YgCnu" src="//datawrapper.dwcdn.net/YgCnu/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="222"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();
-</script>
+<script>
+google.charts.load('current', {packages: ['corechart', 'bar']});
+google.charts.setOnLoadCallback(drawBarColors);
 
-#### From the 597 tests conducted:
-* 24 came back positive
-* 367 came back negative
-* 206 are pending
+function drawBarColors() {
+      var data = google.visualization.arrayToDataTable([
+        ['Nasaun', 'Teste por 1,000', { role: "style" } ],
+        ['Timor-Leste', 0.51, 'green'],
+        ['Indonesia', 0.23, ''],
+        ['Filipina', 0.69, ''],
+        ['Vietnam', 2.20, ''],
+        ['Australia', 20.34, ''],
+      ]);
+
+      var options = {
+        title: 'Teste por 1,000',
+        chartArea: {width: '50%'},
+        colors: ['green'],
+        legend: { position: "none" },
+      };
+      var chart = new google.visualization.BarChart(document.getElementById('testing-div'));
+      chart.draw(data, options);
+    }
+</script>
+<div id="testing-div"></div>
+
+#### Husi teste hamutuk 671:
+* Positivu 24 (kazu konfirmadu)
+* Negativu 478 
+* Hein rezultadu 169 
