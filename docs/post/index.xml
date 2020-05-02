@@ -271,35 +271,61 @@ window.onresize = function(){ set_width(); };
       <guid>https://juris710.github.io/AppNaviBlog/post/how-to-write-an-article/</guid>
       <description>&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;
 &lt;p&gt;このサイトでの記事の書き方をまとめました。&lt;/p&gt;
-&lt;h1 id=&#34;記事に画像を挿入する方法&#34;&gt;記事に画像を挿入する方法&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;記事のindex.mdファイルがあるフォルダに画像を追加&lt;/li&gt;
-&lt;li&gt;画像を挿入したい箇所に下記を入力&lt;br&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    「画像名」には拡張子も含めること
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Markdown記法
-&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;![代替テキスト](./画像名)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
-&lt;li&gt;ShortCodes&lt;br&gt;
-画像の幅や高さなどをカスタムすることができます。詳しくは
-&lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#figure&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式ドキュメント&lt;/a&gt;  を参照してください。
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
 &lt;h1 id=&#34;markdown記法&#34;&gt;Markdown記法&lt;/h1&gt;
 &lt;p&gt;全ての記事はMarkdown記法で書く必要があります。（
 &lt;a href=&#34;https://qiita.com/kamorits/items/6f342da395ad57468ae3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;書き方の参考&lt;/a&gt;）&lt;/p&gt;
+&lt;h2 id=&#34;画像を挿入する場合&#34;&gt;画像を挿入する場合&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;![代替テキスト](./画像名)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    「画像名」には拡張子も含めてください
+  &lt;/div&gt;
+&lt;/div&gt;
+
+画像のサイズを変えたい、または画像を左寄せ・右寄せしたい場合は下のShortcodesを参照してください&lt;/p&gt;
 &lt;h1 id=&#34;shortcodes&#34;&gt;Shortcodes&lt;/h1&gt;
 &lt;p&gt;ShortcodesとはHugo独自の機能で、Markdownファイルに書くことができるスニペットです。&lt;/p&gt;
+&lt;h2 id=&#34;画像の挿入&#34;&gt;画像の挿入&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    「画像名」には拡張子も含めてください
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;画像の左寄せ右寄せ&#34;&gt;画像の左寄せ、右寄せ&lt;/h3&gt;
+&lt;p&gt;&lt;details&gt;
+    &lt;summary&gt;左寄せ&lt;/summary&gt;
+    &lt;pre&gt;&lt;code&gt;{{&amp;lt; figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot; class=&amp;quot;left&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/details&gt;
+
+&lt;details&gt;
+    &lt;summary&gt;右寄せ&lt;/summary&gt;
+    &lt;pre&gt;&lt;code&gt;{{&amp;lt; figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot; class=&amp;quot;right&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/details&gt;
+
+&lt;details&gt;
+    &lt;summary&gt;左寄せ(float)&lt;/summary&gt;
+    &lt;pre&gt;&lt;code&gt;{{&amp;lt; figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot; class=&amp;quot;float-left&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/details&gt;
+
+&lt;details&gt;
+    &lt;summary&gt;左寄せ(float)&lt;/summary&gt;
+    &lt;pre&gt;&lt;code&gt;{{&amp;lt; figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot; class=&amp;quot;float-right&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/details&gt;
+&lt;/p&gt;
+&lt;p&gt;他にも、画像の幅・高さなどをカスタムすることができます。詳しくは
+&lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#figure&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式ドキュメント&lt;/a&gt;  を参照してください。&lt;/p&gt;
 &lt;h2 id=&#34;youtube動画埋め込み&#34;&gt;Youtube動画埋め込み&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;{{&amp;lt; youtube 動画のID &amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;
@@ -325,7 +351,7 @@ window.onresize = function(){ set_width(); };
 
 &lt;h2 id=&#34;折りたたみ&#34;&gt;折りたたみ&lt;/h2&gt;
 &lt;p&gt;自作Shortcodeです。&lt;code&gt;展開された時に表示する文章&lt;/code&gt;にはMarkdown記法を用いることができます・&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; collapsable 折りたたまれている時に表示する文字列 &amp;gt;}}
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; collapsable &amp;quot;折りたたまれている時に表示する文字列&amp;quot; &amp;gt;}}
   展開された時に表示する文章
 {{&amp;lt; /collapsable &amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;

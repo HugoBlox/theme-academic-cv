@@ -30,7 +30,7 @@ organizations:
 #  enrollment: 2019
 
 # Short bio (displayed in user profile at end of posts)
-#bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: このサイトの開発者です。
 
 interests:
 - Android

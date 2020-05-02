@@ -56,3 +56,6 @@ projects: []
     ```  
 3. `themes/academic/exampleSite/content/home`から使いたいWidgetを移動  
 
+# 記事に挿入する画像の保存場所
+記事のindex.mdファイルがあるフォルダに画像を追加
+

@@ -29,27 +29,53 @@ projects: []
 ---
 # はじめに
 このサイトでの記事の書き方をまとめました。
-# 記事に画像を挿入する方法
-1. 記事のindex.mdファイルがあるフォルダに画像を追加
-2. 画像を挿入したい箇所に下記を入力  
-  {{<alert note>}}
-  「画像名」には拡張子も含めること  
-  {{</alert>}}
-   1. Markdown記法
-      ```md
-      ![代替テキスト](./画像名)
-      ```
-   2. ShortCodes  
-      画像の幅や高さなどをカスタムすることができます。詳しくは[公式ドキュメント](https://gohugo.io/content-management/shortcodes/#figure)  を参照してください。
-      ```
-      {{</* figure src="./画像名" title="代替テキスト" */>}}
-      ```
 
 # Markdown記法
 全ての記事はMarkdown記法で書く必要があります。（[書き方の参考](https://qiita.com/kamorits/items/6f342da395ad57468ae3)）
+## 画像を挿入する場合
+```md
+![代替テキスト](./画像名)
+``` 
+{{<alert note>}}
+「画像名」には拡張子も含めてください  
+{{</alert>}}
+画像のサイズを変えたい、または画像を左寄せ・右寄せしたい場合は下のShortcodesを参照してください
 
 # Shortcodes
 ShortcodesとはHugo独自の機能で、Markdownファイルに書くことができるスニペットです。  
+## 画像の挿入
+```
+{{</* figure src="./画像名" title="代替テキスト" */>}}
+```
+{{<alert note>}}
+「画像名」には拡張子も含めてください  
+{{</alert>}}
+### 画像の左寄せ、右寄せ
+{{< collapsable 左寄せ >}}
+```
+{{</* figure src="./画像名" title="代替テキスト" class="left" */>}}
+```
+{{< /collapsable >}}
+{{< collapsable 右寄せ >}}
+```
+{{</* figure src="./画像名" title="代替テキスト" class="right" */>}}
+```
+{{< /collapsable >}}
+{{< collapsable "左寄せ(float)" >}}
+```
+{{</* figure src="./画像名" title="代替テキスト" class="float-left" */>}}
+```
+{{< /collapsable >}}
+{{< collapsable "左寄せ(float)" >}}
+```
+{{</* figure src="./画像名" title="代替テキスト" class="float-right" */>}}
+```
+{{< /collapsable >}}
+
+
+
+他にも、画像の幅・高さなどをカスタムすることができます。詳しくは[公式ドキュメント](https://gohugo.io/content-management/shortcodes/#figure)  を参照してください。
+
 ## Youtube動画埋め込み
 ```  
 {{</* youtube 動画のID */>}}
@@ -75,7 +101,7 @@ YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式
 ## 折りたたみ
 自作Shortcodeです。`展開された時に表示する文章`にはMarkdown記法を用いることができます・
 ```
-{{</* collapsable 折りたたまれている時に表示する文字列 */>}}
+{{</* collapsable "折りたたまれている時に表示する文字列" */>}}
   展開された時に表示する文章
 {{</* /collapsable */>}}
 ```

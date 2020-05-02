@@ -1,5 +1,9 @@
+{{$month_academic_year_start := 4}} {{/* 何月に新学期が始まるか(default=4)*/}}
+{{$current_month := int (dateFormat "01" now) }}
 {{$university_grade_number := 0}}
 {{$university_grade_number := (int (dateFormat "2006" now))}}
 {{$university_grade_number := sub $university_grade_number .}}
-{{$university_grade_number := add $university_grade_number 1}}
+{{if ge $month_academic_year_start $month_academic_year_start}}
+    {{$university_grade_number = add $university_grade_number 1}}
+{{end}}
 {{return $university_grade_number}}
