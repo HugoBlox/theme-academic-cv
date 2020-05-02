@@ -395,6 +395,28 @@
         
 
         <li class="nav-item">
+          <a class="nav-link " href="/AppNaviBlog/about"><span>About</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
           <a class="nav-link " href="/AppNaviBlog/authors"><span>Members</span></a>
         </li>
 
@@ -680,9 +702,114 @@
 <h2 id="折りたたみ">折りたたみ</h2>
 <p>自作Shortcodeです。<code>展開された時に表示する文章</code>にはMarkdown記法を用いることができます・</p>
 <pre><code>{{&lt; collapsable &quot;折りたたまれている時に表示する文字列&quot; &gt;}}
-  展開された時に表示する文章
+  展開された時に表示する文章1  
+  **展開された時に表示する文章2**  
+  &gt; 展開された時に表示する文章3  
 {{&lt; /collapsable &gt;}}
 </code></pre>
+<p>下のように表示されます。
+<details>
+    <summary>折りたたまれている時に表示する文字列</summary>
+    <p>展開された時に表示する文章1<br>
+<strong>展開された時に表示する文章2</strong></p>
+<blockquote>
+<p>展開された時に表示する文章3</p>
+</blockquote>
+
+</details>
+</p>
+<h2 id="ページへのリンクカード表示">ページへのリンク（カード表示）</h2>
+<p>自作Shortcodeです。</p>
+<pre><code>{{&lt; page &quot;表示したいページのパス(ホームからの相対パス)&quot; &gt;}}
+</code></pre>
+<p>例えば<code>{{&lt; page &quot;project/online-yukosai-2020&quot; &gt;}}</code>と記述すると、下のように表示されます。
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/AppNaviBlog/author/juris710/">Juris710</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    2020/04/28
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/AppNaviBlog/project/online-yukosai-2020/">オンライン友好祭2020</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>2020年5月開催</p>
+  </div>
+  
+
+  
+
+</div>
+
+ </p>
 
     </div>
 
@@ -825,6 +952,10 @@
   </div>
   <div class="post-nav-item">
     
+    
+    <div class="meta-nav">PREVIOUS</div>
+    <a href="/AppNaviBlog/post/about-this-site/" rel="prev">このサイトについて</a>
+    
   </div>
   
 </div>
@@ -833,6 +964,15 @@
 
 
   
+  
+  <div class="article-widget content-widget-hr">
+    <h3>関連項目</h3>
+    <ul>
+      
+      <li><a href="/AppNaviBlog/post/about-this-site/">このサイトについて</a></li>
+      
+    </ul>
+  </div>
   
 
 

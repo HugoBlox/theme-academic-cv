@@ -100,9 +100,114 @@
 &lt;h2 id=&#34;折りたたみ&#34;&gt;折りたたみ&lt;/h2&gt;
 &lt;p&gt;自作Shortcodeです。&lt;code&gt;展開された時に表示する文章&lt;/code&gt;にはMarkdown記法を用いることができます・&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;{{&amp;lt; collapsable &amp;quot;折りたたまれている時に表示する文字列&amp;quot; &amp;gt;}}
-  展開された時に表示する文章
+  展開された時に表示する文章1  
+  **展開された時に表示する文章2**  
+  &amp;gt; 展開された時に表示する文章3  
 {{&amp;lt; /collapsable &amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;下のように表示されます。
+&lt;details&gt;
+    &lt;summary&gt;折りたたまれている時に表示する文字列&lt;/summary&gt;
+    &lt;p&gt;展開された時に表示する文章1&lt;br&gt;
+&lt;strong&gt;展開された時に表示する文章2&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;展開された時に表示する文章3&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;/details&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;ページへのリンクカード表示&#34;&gt;ページへのリンク（カード表示）&lt;/h2&gt;
+&lt;p&gt;自作Shortcodeです。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; page &amp;quot;表示したいページのパス(ホームからの相対パス)&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;例えば&lt;code&gt;{{&amp;lt; page &amp;quot;project/online-yukosai-2020&amp;quot; &amp;gt;}}&lt;/code&gt;と記述すると、下のように表示されます。
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;card-simple&#34;&gt;
+
+  
+    
+
+
+&lt;div class=&#34;article-metadata&#34;&gt;
+
+  
+  
+  
+  
+  &lt;div&gt;
+    
+
+  
+  &lt;span&gt;&lt;a href=&#34;https://juris710.github.io/AppNaviBlog/AppNaviBlog/author/juris710/&#34;&gt;Juris710&lt;/a&gt;&lt;/span&gt;
+  &lt;/div&gt;
+  
+  
+
+  
+  &lt;span class=&#34;article-date&#34;&gt;
+    
+    
+      
+    
+    2020/04/28
+  &lt;/span&gt;
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+&lt;/div&gt;
+
+  
+
+  
+  
+  
+
+  &lt;h3 class=&#34;article-title mb-1 mt-3&#34;&gt;
+    &lt;a href=&#34;https://juris710.github.io/AppNaviBlog/AppNaviBlog/project/online-yukosai-2020/&#34;&gt;オンライン友好祭2020&lt;/a&gt;
+  &lt;/h3&gt;
+
+  
+  &lt;div class=&#34;article-style&#34;&gt;
+    &lt;p&gt;2020年5月開催&lt;/p&gt;
+  &lt;/div&gt;
+  
+
+  
+
+&lt;/div&gt;
+
+ &lt;/p&gt;
 </description>
     </item>
     

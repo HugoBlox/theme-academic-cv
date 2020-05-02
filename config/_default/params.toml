@@ -106,7 +106,8 @@ coordinates = {latitude = "34.547818", longitude = "135.505782"}
 contact_links = [
   {icon = "twitter", icon_pack = "fab", name = "Twitter", link = "https://twitter.com/OPUAppNavi"},
   {icon = "line", icon_pack = "fab", name = "LINE Openchat", line = "https://line.me/ti/g2/WmwnmlbJNN6U5F9ZKhO3tg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"},
-  {icon = "envelope",  icon_pack = "fas",  name = "Email", link = "mailto:contact@opuappnavi.com"}
+  {icon = "envelope",  icon_pack = "fas",  name = "Email", link = "mailto:contact@opuappnavi.com"},
+  {icon = "laptop", icon_pack = "fas", name = "Web Site", link = "https://opuappnavi.com/#/"}
 #  {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
 #  {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
 #  {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
@@ -262,7 +263,7 @@ css_style = ["/css/post.css"]
   #   3: OpenStreetMap (Mapbox)
   engine = 2
   api_key = ""
-  zoom = 15
+  zoom = 20
 
 ############################
 ## Marketing

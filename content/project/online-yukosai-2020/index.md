@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "オンライン友好祭2020"
-summary: ""
+summary: "2020年5月開催"
 authors: ["Juris710"]
 tags: []
 categories: []
@@ -39,6 +39,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-{{<alert warning>}}
-TODO：オンライン友好祭の説明
-{{</alert>}}
+新型コロナウイルス感染拡大により、2020年5月30日、31日に開催予定だった第59回友好祭が中止となりました。中止となった友好祭に代わるイベントとして、コンピュータハウスランダムさんが提案されたのが「オンライン友好祭」です。
