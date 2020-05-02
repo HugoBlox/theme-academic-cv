@@ -9,13 +9,11 @@
   <div class="article-style">{{ . }}</div>
   {{ end }}
 
-  <ul>
-    {{ $paginator := .Paginate .Data.Pages }}
-    {{ range $k, $v := $paginator.Pages }}
-      {{ $author_urlized := urlize $v.Title }}
-      {{ partial "page_author_card" (dict "username" $author_urlized) }}
-     {{ end }}
-  </ul>
+  {{ $paginator := .Paginate .Data.Pages }}
+  {{ range $paginator.Pages }}
+    {{ $author_urlized := urlize .Title }}
+    {{ partial "page_author_card" (dict "username" $author_urlized) }}
+  {{ end }}
 
   {{ partial "pagination" . }}
 </div>
