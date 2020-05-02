@@ -105,6 +105,7 @@ subtitle = "Timor-Leste has 24 confirmed cases, 22 of which are in Dili, and 2 i
             ["Apr 28, 2020",24,0],
             ["Apr 29, 2020",24,0],
             ["Apr 30, 2020",24,0],
+            ["May 1, 2020",24,0],
       ]);
 
       var options = {
@@ -117,9 +118,11 @@ subtitle = "Timor-Leste has 24 confirmed cases, 22 of which are in Dili, and 2 i
          focusTarget: 'category',
          height: 430,
          pointSize: 3,
+         seriesType: 'bars',
+         series: {0: {type: 'line'}}
       };
 
-      var chart = new google.visualization.LineChart(document.getElementById('cases-chart'));
+      var chart = new google.visualization.ComboChart(document.getElementById('cases-chart'));
 
       chart.draw(data, options);
   }
