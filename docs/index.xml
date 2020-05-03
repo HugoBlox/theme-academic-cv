@@ -293,7 +293,17 @@ window.onresize = function(){ set_width(); };
   &lt;/div&gt;
 &lt;/div&gt;
 
-画像のサイズを変えたい、または画像を左寄せ・右寄せしたい場合は下のShortcodesを参照してください&lt;/p&gt;
+画像のサイズを変えたい、または画像を左寄せ・右寄せしたい場合は下の
+
+
+    
+
+
+    
+
+
+&lt;a href=&#34;javascript:void(0)&#34; onmouseup=&#34;onPageLinkClicked(&#39;#%E7%94%BB%E5%83%8F%E3%81%AE%E6%8C%BF%E5%85%A5&#39;)&#34;&gt;Shortcode&lt;/a&gt;
+を参照してください&lt;/p&gt;
 &lt;h1 id=&#34;shortcodes&#34;&gt;Shortcodes&lt;/h1&gt;
 &lt;p&gt;ShortcodesとはHugo独自の機能で、Markdownファイルに書くことができるスニペットです。&lt;/p&gt;
 &lt;h2 id=&#34;画像の挿入&#34;&gt;画像の挿入&lt;/h2&gt;
