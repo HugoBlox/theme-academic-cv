@@ -305,6 +305,17 @@
 
   <title>記事の書き方 | AppNaviブログ</title>
 
+  <script>
+    function onPageLinkClicked(hash){
+      let isHashSame = (location.hash == hash);
+      if(isHashSame){
+          
+          window.dispatchEvent(new Event("hashchange"));
+      }else{
+        location.hash = hash;
+      }
+  }
+  </script>
 </head>
 
 <body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="dark">
@@ -622,8 +633,8 @@
       <h1 id="はじめに">はじめに</h1>
 <p>このサイトでの記事の書き方をまとめました。</p>
 <h1 id="markdown記法">Markdown記法</h1>
-<p>全ての記事はMarkdown記法で書く必要があります。（
-<a href="https://qiita.com/kamorits/items/6f342da395ad57468ae3" target="_blank" rel="noopener">書き方の参考</a>）</p>
+<p>全ての記事はMarkdown記法で書く必要があります。書き方については[このサイト]](<a href="https://qiita.com/kamorits/items/6f342da395ad57468ae3">https://qiita.com/kamorits/items/6f342da395ad57468ae3</a>)を参照してください。英語でも構わない場合は
+<a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/" target="_blank" rel="noopener">こっち</a>を参照してください。</p>
 <h2 id="画像を挿入する場合">画像を挿入する場合</h2>
 <pre><code class="language-md">![代替テキスト](./画像名)
 </code></pre>
@@ -796,12 +807,12 @@
   
 
   <h3 class="article-title mb-1 mt-3">
-    <a href="/AppNaviBlog/project/online-yukosai-2020/">オンライン友好祭2020</a>
+    <a href="/AppNaviBlog/project/online-yukosai-2020/">オンライン友好祭2020（仮称）</a>
   </h3>
 
   
   <div class="article-style">
-    <p>2020年5月開催</p>
+    <p>友好祭に代わるオンラインイベント</p>
   </div>
   
 
@@ -810,6 +821,24 @@
 </div>
 
  </p>
+<h2 id="ページ内リンク">ページ内リンク</h2>
+<p>クリックすると同じページ内の見出しに飛ぶことができるリンクを挿入する自作Shortcodeです。
+Markdown記法だけでも書けるのですが、見出し付近がナビゲーションバーに隠れてしまうバグがあるため、それを解消しています。</p>
+<pre><code>{{&lt; jump  &quot;見出し名&quot; &quot;リンクテキスト&quot;&gt;}}
+</code></pre>
+<p><code>&quot;リンクテキスト&quot;</code>は省略可能です。<br>
+例えば<code>{{&lt;jump &quot;折りたたみ&quot;&gt;}}</code>と書くと
+
+
+    
+    
+
+
+    
+
+
+<a href="javascript:void(0)" onmouseup="onPageLinkClicked('#%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF')">折りたたみ</a>
+のようなリンクが作れます。</p>
 
     </div>
 

@@ -31,7 +31,7 @@ projects: []
 このサイトでの記事の書き方をまとめました。
 
 # Markdown記法
-全ての記事はMarkdown記法で書く必要があります。（[書き方の参考](https://qiita.com/kamorits/items/6f342da395ad57468ae3)）
+全ての記事はMarkdown記法で書く必要があります。書き方については[このサイト]](https://qiita.com/kamorits/items/6f342da395ad57468ae3)を参照してください。英語でも構わない場合は[こっち](https://sourcethemes.com/academic/docs/writing-markdown-latex/)を参照してください。
 
 ## 画像を挿入する場合
 ```md
@@ -123,3 +123,11 @@ YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式
 例えば`{{</* page "project/online-yukosai-2020" */>}}`と記述すると、下のように表示されます。
 {{< page "project/online-yukosai-2020" >}}
 
+## ページ内リンク  
+クリックすると同じページ内の見出しに飛ぶことができるリンクを挿入する自作Shortcodeです。
+Markdown記法だけでも書けるのですが、見出し付近がナビゲーションバーに隠れてしまうバグがあるため、それを解消しています。
+```
+{{</* jump  "見出し名" "リンクテキスト"*/>}}
+```
+`"リンクテキスト"`は省略可能です。  
+例えば`{{</*jump "折りたたみ"*/>}}`と書くと{{<jump "折りたたみ">}}のようなリンクが作れます。

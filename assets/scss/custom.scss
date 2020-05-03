@@ -1,6 +1,4 @@
 // Override this file to add your own SCSS styling.
-$header-height-default: 70px;
-$header-height-small: 50px;
 .post-nav-item {
     width: 50%;
 }
@@ -32,7 +30,7 @@ figure.float-right{
     float: right;
 }
 .article-style{
-    overflow: hidden;
+    clear: both;
 }
 .content-widget-hr{
     clear: both;

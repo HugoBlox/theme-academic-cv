@@ -300,6 +300,17 @@
 
   <title>AppNaviブログ</title>
 
+  <script>
+    function onPageLinkClicked(hash){
+      let isHashSame = (location.hash == hash);
+      if(isHashSame){
+          
+          window.dispatchEvent(new Event("hashchange"));
+      }else{
+        location.hash = hash;
+      }
+  }
+  </script>
 </head>
 
 <body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="dark">
@@ -1166,12 +1177,12 @@
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
-      <a href="/AppNaviBlog/project/online-yukosai-2020/" >オンライン友好祭2020</a>
+      <a href="/AppNaviBlog/project/online-yukosai-2020/" >オンライン友好祭2020（仮称）</a>
     </h3>
 
     
     <div class="article-style">
-      2020年5月開催
+      友好祭に代わるオンラインイベント
     </div>
     
 

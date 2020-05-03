@@ -1,0 +1,15 @@
+{{$link := .Get 0}}
+{{$link_text := .Get 1}}
+{{if $link_text}}
+    {{$link_text = $link_text | markdownify | emojify}}
+{{else}}
+    {{$link_text = $link}}
+    {{if eq (substr $link 0 1) "#"}}
+        {{$link_text = substr $link 1}}
+    {{end}}
+{{end}}
+{{if ne (substr $link 0 1) "#"}}
+    {{$link = print "#" $link}}
+{{end}}
+{{$link = urlize $link}}
+<a href="javascript:void(0)" onmouseup="onPageLinkClicked('{{$link}}')">{{$link_text}}</a>

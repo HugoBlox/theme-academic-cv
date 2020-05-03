@@ -1,8 +1,8 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "オンライン友好祭2020"
-summary: "2020年5月開催"
+title: "オンライン友好祭2020（仮称）"
+summary: "友好祭に代わるオンラインイベント"
 authors: ["Juris710"]
 tags: []
 categories: []

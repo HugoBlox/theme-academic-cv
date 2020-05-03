@@ -257,6 +257,17 @@
 
   <title>404 Page not found | AppNaviブログ</title>
 
+  <script>
+    function onPageLinkClicked(hash){
+      let isHashSame = (location.hash == hash);
+      if(isHashSame){
+          
+          window.dispatchEvent(new Event("hashchange"));
+      }else{
+        location.hash = hash;
+      }
+  }
+  </script>
 </head>
 
 <body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="dark">
@@ -504,7 +515,7 @@
     
       <li><a href="/AppNaviBlog/post/truck-quiz/">Truck Quiz</a></li>
     
-      <li><a href="/AppNaviBlog/project/online-yukosai-2020/">オンライン友好祭2020</a></li>
+      <li><a href="/AppNaviBlog/project/online-yukosai-2020/">オンライン友好祭2020（仮称）</a></li>
     
       <li><a href="/AppNaviBlog/post/how-to-write-an-article/">記事の書き方</a></li>
     

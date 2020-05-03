@@ -20,8 +20,8 @@
       <description>&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;
 &lt;p&gt;このサイトでの記事の書き方をまとめました。&lt;/p&gt;
 &lt;h1 id=&#34;markdown記法&#34;&gt;Markdown記法&lt;/h1&gt;
-&lt;p&gt;全ての記事はMarkdown記法で書く必要があります。（
-&lt;a href=&#34;https://qiita.com/kamorits/items/6f342da395ad57468ae3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;書き方の参考&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;全ての記事はMarkdown記法で書く必要があります。書き方については[このサイト]](&lt;a href=&#34;https://qiita.com/kamorits/items/6f342da395ad57468ae3&#34;&gt;https://qiita.com/kamorits/items/6f342da395ad57468ae3&lt;/a&gt;)を参照してください。英語でも構わない場合は
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;こっち&lt;/a&gt;を参照してください。&lt;/p&gt;
 &lt;h2 id=&#34;画像を挿入する場合&#34;&gt;画像を挿入する場合&lt;/h2&gt;
 &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;![代替テキスト](./画像名)
 &lt;/code&gt;&lt;/pre&gt;
@@ -194,12 +194,12 @@
   
 
   &lt;h3 class=&#34;article-title mb-1 mt-3&#34;&gt;
-    &lt;a href=&#34;https://juris710.github.io/AppNaviBlog/AppNaviBlog/project/online-yukosai-2020/&#34;&gt;オンライン友好祭2020&lt;/a&gt;
+    &lt;a href=&#34;https://juris710.github.io/AppNaviBlog/AppNaviBlog/project/online-yukosai-2020/&#34;&gt;オンライン友好祭2020（仮称）&lt;/a&gt;
   &lt;/h3&gt;
 
   
   &lt;div class=&#34;article-style&#34;&gt;
-    &lt;p&gt;2020年5月開催&lt;/p&gt;
+    &lt;p&gt;友好祭に代わるオンラインイベント&lt;/p&gt;
   &lt;/div&gt;
   
 
@@ -208,6 +208,24 @@
 &lt;/div&gt;
 
  &lt;/p&gt;
+&lt;h2 id=&#34;ページ内リンク&#34;&gt;ページ内リンク&lt;/h2&gt;
+&lt;p&gt;クリックすると同じページ内の見出しに飛ぶことができるリンクを挿入する自作Shortcodeです。
+Markdown記法だけでも書けるのですが、見出し付近がナビゲーションバーに隠れてしまうバグがあるため、それを解消しています。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; jump  &amp;quot;見出し名&amp;quot; &amp;quot;リンクテキスト&amp;quot;&amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;&amp;quot;リンクテキスト&amp;quot;&lt;/code&gt;は省略可能です。&lt;br&gt;
+例えば&lt;code&gt;{{&amp;lt;jump &amp;quot;折りたたみ&amp;quot;&amp;gt;}}&lt;/code&gt;と書くと
+
+
+    
+    
+
+
+    
+
+
+&lt;a href=&#34;javascript:void(0)&#34; onmouseup=&#34;onPageLinkClicked(&#39;#%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF&#39;)&#34;&gt;折りたたみ&lt;/a&gt;
+のようなリンクが作れます。&lt;/p&gt;
 </description>
     </item>
     
@@ -291,12 +309,12 @@
   
 
   &lt;h3 class=&#34;article-title mb-1 mt-3&#34;&gt;
-    &lt;a href=&#34;https://juris710.github.io/AppNaviBlog/AppNaviBlog/project/online-yukosai-2020/&#34;&gt;オンライン友好祭2020&lt;/a&gt;
+    &lt;a href=&#34;https://juris710.github.io/AppNaviBlog/AppNaviBlog/project/online-yukosai-2020/&#34;&gt;オンライン友好祭2020（仮称）&lt;/a&gt;
   &lt;/h3&gt;
 
   
   &lt;div class=&#34;article-style&#34;&gt;
-    &lt;p&gt;2020年5月開催&lt;/p&gt;
+    &lt;p&gt;友好祭に代わるオンラインイベント&lt;/p&gt;
   &lt;/div&gt;
   
 

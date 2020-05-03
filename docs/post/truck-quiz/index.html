@@ -305,6 +305,17 @@
 
   <title>Truck Quiz | AppNaviブログ</title>
 
+  <script>
+    function onPageLinkClicked(hash){
+      let isHashSame = (location.hash == hash);
+      if(isHashSame){
+          
+          window.dispatchEvent(new Event("hashchange"));
+      }else{
+        location.hash = hash;
+      }
+  }
+  </script>
 </head>
 
 <body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="dark">
