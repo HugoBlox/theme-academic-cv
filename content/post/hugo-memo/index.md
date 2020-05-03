@@ -62,3 +62,24 @@ projects: []
 # Known Issues
 ## ページ内リンクの不具合
 記事内でページ内リンク(例えば[はじめに](#はじめに))を使う際、移動先の一部がヘッダーによって隠れてしまう。
+### 解決法1
+academic.jsの関数`scrollToAnchor`をページ内リンククリック時に毎回実行するように
+#### 問題
+やり方がわからない
+### 解決法2
+関数`scrollToAnchor`を無効化し、以下をcustom.scssに追加
+{{<collapsable "custom.scss">}}
+```scss
+.article-style>h1, .article-style>h1>h2, .article-style>h1>h2>h3, .article-style>h1>h2>h3>h4, .article-style>h1>h2>h3>h4>h5, .article-style >h1>h2>h3>h4>h5>h6{
+    padding-top: $header-height-default;
+    margin-top: -1 * $header-height-default;
+    @include media-breakpoint-down(md) {
+        padding-top: $header-height-small;
+        margin-top: -1 * $header-height-small;
+    }
+}
+```
+{{</collapsable>}}
+#### 問題
+`{{</*page*/>}}`などの形がおかしくなる可能性あり  
+解決のためには対象クラスを大量に指定する必要がある
