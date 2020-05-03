@@ -28,10 +28,10 @@ image:
 projects: []
 ---
 # はじめに
-このサイトでの記事の書き方をまとめました。
+このサイトでの記事の書き方をまとめました。英語でも構わない場合は[公式ドキュメント](https://sourcethemes.com/academic/docs/writing-markdown-latex/)も参照してください。
 
 # Markdown記法
-全ての記事はMarkdown記法で書く必要があります。書き方については[このサイト]](https://qiita.com/kamorits/items/6f342da395ad57468ae3)を参照してください。英語でも構わない場合は[こっち](https://sourcethemes.com/academic/docs/writing-markdown-latex/)を参照してください。
+全ての記事はMarkdown記法で書く必要があります。書き方については[このサイト](https://qiita.com/kamorits/items/6f342da395ad57468ae3)を参照してください。
 
 ## 画像を挿入する場合
 ```md

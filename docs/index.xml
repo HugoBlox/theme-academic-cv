@@ -279,10 +279,11 @@ window.onresize = function(){ set_width(); };
       <pubDate>Tue, 28 Apr 2020 00:01:09 +0900</pubDate>
       <guid>https://juris710.github.io/AppNaviBlog/post/how-to-write-an-article/</guid>
       <description>&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;
-&lt;p&gt;このサイトでの記事の書き方をまとめました。&lt;/p&gt;
+&lt;p&gt;このサイトでの記事の書き方をまとめました。英語でも構わない場合は
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式ドキュメント&lt;/a&gt;も参照してください。&lt;/p&gt;
 &lt;h1 id=&#34;markdown記法&#34;&gt;Markdown記法&lt;/h1&gt;
-&lt;p&gt;全ての記事はMarkdown記法で書く必要があります。書き方については[このサイト]](&lt;a href=&#34;https://qiita.com/kamorits/items/6f342da395ad57468ae3&#34;&gt;https://qiita.com/kamorits/items/6f342da395ad57468ae3&lt;/a&gt;)を参照してください。英語でも構わない場合は
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;こっち&lt;/a&gt;を参照してください。&lt;/p&gt;
+&lt;p&gt;全ての記事はMarkdown記法で書く必要があります。書き方については
+&lt;a href=&#34;https://qiita.com/kamorits/items/6f342da395ad57468ae3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;このサイト&lt;/a&gt;を参照してください。&lt;/p&gt;
 &lt;h2 id=&#34;画像を挿入する場合&#34;&gt;画像を挿入する場合&lt;/h2&gt;
 &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;![代替テキスト](./画像名)
 &lt;/code&gt;&lt;/pre&gt;
