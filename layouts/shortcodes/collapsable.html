@@ -1,4 +1,4 @@
 <details>
-    <summary>{{.Get 0}}</summary>
-    {{.Inner | markdownify}}
+    <summary>{{.Get 0 | markdownify | emojify}}</summary>
+    {{.Inner | markdownify | emojify}}
 </details>

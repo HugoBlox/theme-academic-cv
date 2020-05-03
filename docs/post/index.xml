@@ -350,8 +350,8 @@ window.onresize = function(){ set_width(); };
 &lt;/div&gt;
 
 &lt;h2 id=&#34;折りたたみ&#34;&gt;折りたたみ&lt;/h2&gt;
-&lt;p&gt;自作Shortcodeです。&lt;code&gt;展開された時に表示する文章&lt;/code&gt;にはMarkdown記法を用いることができます・&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; collapsable &amp;quot;折りたたまれている時に表示する文字列&amp;quot; &amp;gt;}}
+&lt;p&gt;自作Shortcodeです。折りたたまれている時、展開された時ともに、Markdown記法を用いた文章が使えます。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; collapsable &amp;quot;`折りたたまれている時に表示する文字列`&amp;quot; &amp;gt;}}
   展開された時に表示する文章1  
   **展開された時に表示する文章2**  
   &amp;gt; 展開された時に表示する文章3  
@@ -359,7 +359,7 @@ window.onresize = function(){ set_width(); };
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;下のように表示されます。
 &lt;details&gt;
-    &lt;summary&gt;折りたたまれている時に表示する文字列&lt;/summary&gt;
+    &lt;summary&gt;&lt;code&gt;折りたたまれている時に表示する文字列&lt;/code&gt;&lt;/summary&gt;
     &lt;p&gt;展開された時に表示する文章1&lt;br&gt;
 &lt;strong&gt;展開された時に表示する文章2&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
