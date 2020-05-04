@@ -5,12 +5,146 @@
     <link>https://juris710.github.io/AppNaviBlog/tag/github/</link>
       <atom:link href="https://juris710.github.io/AppNaviBlog/tag/github/index.xml" rel="self" type="application/rss+xml" />
     <description>GitHub</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710  2020</copyright><lastBuildDate>Thu, 30 Apr 2020 20:18:25 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710  2020</copyright><lastBuildDate>Mon, 04 May 2020 20:17:22 +0900</lastBuildDate>
     <image>
       <url>https://juris710.github.io/AppNaviBlog/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>GitHub</title>
       <link>https://juris710.github.io/AppNaviBlog/tag/github/</link>
     </image>
+    
+    <item>
+      <title>Unity製ゲームをWebで共有する方法</title>
+      <link>https://juris710.github.io/AppNaviBlog/post/unity-github-pages/</link>
+      <pubDate>Mon, 04 May 2020 20:17:22 +0900</pubDate>
+      <guid>https://juris710.github.io/AppNaviBlog/post/unity-github-pages/</guid>
+      <description>&lt;p&gt;Gitに詳しくない人向けに書いています。Gitに詳しい人は&lt;code&gt;詳しくない人向け&lt;/code&gt;の部分は読まなくて大丈夫です。&lt;/p&gt;
+&lt;h1 id=&#34;必要なもの&#34;&gt;必要なもの&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Unity&lt;/li&gt;
+&lt;li&gt;GitHub アカウント&lt;/li&gt;
+&lt;li&gt;Git&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;1-unityでゲームをビルドする&#34;&gt;1. Unityでゲームをビルドする&lt;/h1&gt;
+&lt;h2 id=&#34;11-build-settingsを開く&#34;&gt;1.1 Build Settingsを開く&lt;/h2&gt;
+&lt;p&gt;左上のメニューで&lt;code&gt;File&lt;/code&gt;&amp;gt;&lt;code&gt;Build Settings&lt;/code&gt;をクリックしてください。&lt;/p&gt;
+&lt;h2 id=&#34;12-プラットフォームの変更&#34;&gt;1.2 プラットフォームの変更&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;WebGL&lt;/code&gt;を選択し、&lt;code&gt;Switch Platform&lt;/code&gt;をクリックしてください。&lt;/p&gt;
+&lt;h2 id=&#34;13-ゲームをビルド&#34;&gt;1.3 ゲームをビルド&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Build&lt;/code&gt;をクリックしてください。ビルド先はどこでも構いません。私は&lt;code&gt;(プロジェクト名)/Builds/WebGL&lt;/code&gt;を選択しています。&lt;/p&gt;
+&lt;h1 id=&#34;2-githubにアップロード&#34;&gt;2. GitHubにアップロード&lt;/h1&gt;
+&lt;p&gt;ビルドの結果、以下の3つのファイルが生成されます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Build&lt;/code&gt;フォルダ&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;TemplateData&lt;/code&gt;フォルダ&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;index.html&lt;/code&gt;ファイル&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらのファイルをGitHubにアップロードします。&lt;br&gt;
+&lt;details&gt;
+    &lt;summary&gt;詳しくない人向け&lt;/summary&gt;
+    &lt;h2 id=&#34;21-githubにサインイン&#34;&gt;2.1 GitHubにサインイン&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;にアクセスし、サインインしてください。&lt;/p&gt;
+&lt;h2 id=&#34;22-新しいレポジトリの作成&#34;&gt;2.2 新しいレポジトリの作成&lt;/h2&gt;
+&lt;figure class=&#34;left&#34; &gt;
+&lt;p&gt;&lt;a data-fancybox=&#34;&#34; href=&#34;./GitHub_New_Repository.png&#34; &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./GitHub_New_Repository.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;code&gt;Repositories&lt;/code&gt;の右にある&lt;code&gt;New&lt;/code&gt;をクリックしてください。&lt;/p&gt;
+&lt;figure class=&#34;left&#34; &gt;
+&lt;p&gt;&lt;a data-fancybox=&#34;&#34; href=&#34;./GitHub_New_Repository2.png&#34; &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./GitHub_New_Repository2.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;code&gt;Repository name&lt;/code&gt;は任意の名前で構いませんが、ゲームをプレイする人も見ることができるので注意してください。&lt;br&gt;
+&lt;code&gt;Public&lt;/code&gt;と&lt;code&gt;Private&lt;/code&gt;を選択できますが、&lt;code&gt;Public&lt;/code&gt;を選択してください。&lt;br&gt;
+&lt;code&gt;Create repository&lt;/code&gt;を選択してレポジトリを作成してください。&lt;/p&gt;
+&lt;figure class=&#34;left&#34; &gt;
+&lt;p&gt;&lt;a data-fancybox=&#34;&#34; href=&#34;./GitHub_New_Repository3.png&#34; &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./GitHub_New_Repository3.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;/figure&gt;
+&lt;p&gt;赤い枠で囲まれたボタンを押してください。左のURLがクリップボードにコピーされます。&lt;/p&gt;
+&lt;h2 id=&#34;23-ファイルのアップロード&#34;&gt;2.3 ファイルのアップロード&lt;/h2&gt;
+&lt;p&gt;生成されたファイルを置くフォルダを作成します。&lt;code&gt;Git Bash&lt;/code&gt;を起動し、&lt;code&gt;cd&lt;/code&gt;コマンドで任意のフォルダに移動して以下のコマンドを一行ずつ実行してください。&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;code&gt;Git Bash&lt;/code&gt;では&lt;code&gt;Shift&lt;/code&gt;+&lt;code&gt;Insert&lt;/code&gt;で貼り付けができます
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;pre&gt;&lt;code&gt;git clone (先ほどコピーしたURL) (任意のフォルダ名)
+cd (任意のフォルダ名)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;任意のフォルダ名&lt;/code&gt;のフォルダが生成されるので、そのフォルダ内にビルド結果の3ファイルをコピーしてください。その後、以下のコマンドを一行ずつ実行してください。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git add .
+git commit -m &amp;quot;ゲーム追加&amp;quot;
+git push
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/details&gt;
+&lt;/p&gt;
+&lt;h1 id=&#34;3-webページとしてゲームを公開&#34;&gt;3. Webページとしてゲームを公開&lt;/h1&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34;left&#34; &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./GitHub_Pages.png&#34; &gt;
+
+
+  &lt;img src=&#34;./GitHub_Pages.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;code&gt;Settings&lt;/code&gt;をクリックしてください。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class=&#34;left&#34; &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./GitHub_Pages2.png&#34; &gt;
+
+
+  &lt;img src=&#34;./GitHub_Pages2.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+スクロールし、&lt;code&gt;GitHub Pages&lt;/code&gt;の&lt;code&gt;Source&lt;/code&gt;の下にあるドロップダウンリストで&lt;code&gt;master branch&lt;/code&gt;を選択してください。&lt;/p&gt;
+&lt;h1 id=&#34;公開したゲームをプレイ&#34;&gt;公開したゲームをプレイ&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;https://(ユーザー名).github.io/(レポジトリ名)/&lt;/code&gt;というURLにアクセスすると、作ったゲームをプレイすることができます。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>GitHub for Unityの紹介</title>
