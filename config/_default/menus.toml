@@ -9,7 +9,7 @@
  weight = 10
 
 [[main]]
-  name = "Members"
+  name = "Authors"
   url = "authors"
   weight = 20
 [[main]]

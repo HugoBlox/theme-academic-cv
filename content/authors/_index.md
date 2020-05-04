@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "部員"
+title: "著者一覧"
 subtitle: ""
 summary: ""
 authors: []
