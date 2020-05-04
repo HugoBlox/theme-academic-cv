@@ -35,13 +35,13 @@ Unity 2018.4.22f1
 1. Asset Storeから「GitHub for Unity」をインポート
 2. メニューで`Window`>`GitHub`を選択  
     {{<figure src="./GitHub_Tab_Menu.png" class="left">}}
-    GitHubタブが開きます
+    GitHubタブが開きます。
     {{<figure src="./GitHub_Tab.png" class="left">}}
 3.  **(初回のみ)** `Sign In`をクリック  
     {{<figure src="./GitHub_SignIn.png" class="left">}}
     ダイアログが表示されるので、GitHubアカウントでサインインしてください。
 4.  `Initialize a git repository for this project`をクリック  
-    少し待つと、タブの中身が変化する。  
+    少し待つと、タブの中身が変化します。  
     {{<figure src="./GitHub_AfterGitInit.png" class="left">}}
 
 # 使い方
