@@ -5,7 +5,7 @@ active = true  # Activate this widget? true/false
 weight = 3  # Order that this section will appear.
 
 title = "Testing"
-subtitle = "As of May 1, 2020, Timor-Leste has made 671 tests. That's more tests per 1,000 people than Indonesia, but less that the Philippines or Vietnam."
+subtitle = "As of May 4, 2020, Timor-Leste has made 706 tests. That's more tests per 1,000 people than Indonesia, but less that the Philippines or Vietnam."
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -72,7 +72,7 @@ function drawBarColors() {
 </script>
 <div id="testing-div"></div>
 
-#### From the 688 tests conducted:
+#### From the 706 tests conducted:
 * 24 came back positive
-* 533 came back negative
-* 131 are pending
+* 579 came back negative
+* 103 are pending

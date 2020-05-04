@@ -109,6 +109,7 @@ subtitle = "Timor-Leste iha kazu konfirmadu total 24: 22 iha Dili, no 2 iha Liqu
             ["May 1, 2020",24,0],
             ["May 2, 2020",24,0],
             ["May 3, 2020",24,0],
+            ["May 4, 2020",24,0],
       ]);
 
       var options = {
