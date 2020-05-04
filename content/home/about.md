@@ -12,3 +12,5 @@ title = "Biography"
 # See https://sourcethemes.com/academic/docs/get-started/#introduce-yourself
 author = "admin"
 +++
+
+I am a graduate student passionate about data analytics, design thinking and entrepreneurship. This website is here to showcase part of my work and experiences. Currently, I am looking for career entrey as data analyst or graduate trainee positions in digital transformation.
