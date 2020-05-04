@@ -86,3 +86,10 @@ $header-height-small: 50px;
 {{<alert note>}}
 現状では解決法１を使っている
 {{</alert>}}
+
+## ナビゲーションバーの不具合
+現在いるページに該当するナビゲーションバーが太字になる（クラスに'active'が追加される機能）の不具合
+### 例
+ナビゲーションバーの`about`が`post/about-this-page`にいるときに'active'になってしまう
+### 対処法
+`themes\academic\layouts\partials\navbar.html`の79～90行目を修正
