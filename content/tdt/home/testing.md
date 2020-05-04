@@ -53,7 +53,7 @@ google.charts.setOnLoadCallback(drawBarColors);
 function drawBarColors() {
       var data = google.visualization.arrayToDataTable([
         ['Nasaun', 'Teste por 1,000', { role: "style" } ],
-        ['Timor-Leste', 0.51, 'green'],
+        ['Timor-Leste', 0.52, 'green'],
         ['Indonesia', 0.23, ''],
         ['Filipina', 0.69, ''],
         ['Vietnam', 2.20, ''],
@@ -72,7 +72,7 @@ function drawBarColors() {
 </script>
 <div id="testing-div"></div>
 
-#### Husi teste hamutuk 671:
+#### Husi teste hamutuk 688:
 * Positivu 24 (kazu konfirmadu)
-* Negativu 478 
-* Hein rezultadu 169 
+* Negativu 533
+* Hein rezultadu 131

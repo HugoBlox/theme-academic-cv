@@ -53,7 +53,7 @@ google.charts.setOnLoadCallback(drawBarColors);
 function drawBarColors() {
       var data = google.visualization.arrayToDataTable([
         ['Country', 'Tests per 1,000 people', { role: "style" } ],
-        ['Timor-Leste', 0.51, 'green'],
+        ['Timor-Leste', 0.52, 'green'],
         ['Indonesia', 0.23, ''],
         ['Philippines', 0.69, ''],
         ['Vietnam', 2.20, ''],
@@ -72,7 +72,7 @@ function drawBarColors() {
 </script>
 <div id="testing-div"></div>
 
-#### From the 671 tests conducted:
+#### From the 688 tests conducted:
 * 24 came back positive
-* 478 came back negative
-* 169 are pending
+* 533 came back negative
+* 131 are pending
