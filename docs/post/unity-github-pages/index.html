@@ -607,7 +607,8 @@
 <ul>
 <li>Unity</li>
 <li>GitHub アカウント</li>
-<li>Git</li>
+<li>Git：
+<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">ここ</a>からダウンロードできます</li>
 </ul>
 <h1 id="1-unityでゲームをビルドする">1. Unityでゲームをビルドする</h1>
 <h2 id="11-build-settingsを開く">1.1 Build Settingsを開く</h2>
@@ -650,19 +651,19 @@
 </figure>
 <p>赤い枠で囲まれたボタンを押してください。左のURLがクリップボードにコピーされます。</p>
 <h2 id="23-ファイルのアップロード">2.3 ファイルのアップロード</h2>
-<p>生成されたファイルを置くフォルダを作成します。<code>Git Bash</code>を起動し、<code>cd</code>コマンドで任意のフォルダに移動して以下のコマンドを一行ずつ実行してください。</p>
+<p><code>Git Bash</code>を起動してください。
+起動時のフォルダは<code>C:\Users\(ユーザー名)</code>なので、ビルド結果があるフォルダに移動してください。<code>cd (フォルダ名)</code>コマンドで移動できます。
+移動したら、以下のコマンドを一行ずつ実行してください。</p>
 <div class="alert alert-note">
   <div>
     <code>Git Bash</code>では<code>Shift</code>+<code>Insert</code>で貼り付けができます
   </div>
 </div>
-<pre><code>git clone (先ほどコピーしたURL) (任意のフォルダ名)
-cd (任意のフォルダ名)
-</code></pre>
-<p><code>任意のフォルダ名</code>のフォルダが生成されるので、そのフォルダ内にビルド結果の3ファイルをコピーしてください。その後、以下のコマンドを一行ずつ実行してください。</p>
-<pre><code>git add .
-git commit -m &quot;ゲーム追加&quot;
-git push
+<pre><code>git init
+git add .
+git commit -m &quot;Initial Commit&quot;
+git remote add origin (先ほどコピーしたURL)
+git push -u origin master
 </code></pre>
 
 </details>

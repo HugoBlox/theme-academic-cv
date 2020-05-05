@@ -22,7 +22,8 @@
 &lt;ul&gt;
 &lt;li&gt;Unity&lt;/li&gt;
 &lt;li&gt;GitHub アカウント&lt;/li&gt;
-&lt;li&gt;Git&lt;/li&gt;
+&lt;li&gt;Git：
+&lt;a href=&#34;https://git-scm.com/downloads&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ここ&lt;/a&gt;からダウンロードできます&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;1-unityでゲームをビルドする&#34;&gt;1. Unityでゲームをビルドする&lt;/h1&gt;
 &lt;h2 id=&#34;11-build-settingsを開く&#34;&gt;1.1 Build Settingsを開く&lt;/h2&gt;
@@ -65,19 +66,19 @@
 &lt;/figure&gt;
 &lt;p&gt;赤い枠で囲まれたボタンを押してください。左のURLがクリップボードにコピーされます。&lt;/p&gt;
 &lt;h2 id=&#34;23-ファイルのアップロード&#34;&gt;2.3 ファイルのアップロード&lt;/h2&gt;
-&lt;p&gt;生成されたファイルを置くフォルダを作成します。&lt;code&gt;Git Bash&lt;/code&gt;を起動し、&lt;code&gt;cd&lt;/code&gt;コマンドで任意のフォルダに移動して以下のコマンドを一行ずつ実行してください。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Git Bash&lt;/code&gt;を起動してください。
+起動時のフォルダは&lt;code&gt;C:\Users\(ユーザー名)&lt;/code&gt;なので、ビルド結果があるフォルダに移動してください。&lt;code&gt;cd (フォルダ名)&lt;/code&gt;コマンドで移動できます。
+移動したら、以下のコマンドを一行ずつ実行してください。&lt;/p&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     &lt;code&gt;Git Bash&lt;/code&gt;では&lt;code&gt;Shift&lt;/code&gt;+&lt;code&gt;Insert&lt;/code&gt;で貼り付けができます
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;pre&gt;&lt;code&gt;git clone (先ほどコピーしたURL) (任意のフォルダ名)
-cd (任意のフォルダ名)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;code&gt;任意のフォルダ名&lt;/code&gt;のフォルダが生成されるので、そのフォルダ内にビルド結果の3ファイルをコピーしてください。その後、以下のコマンドを一行ずつ実行してください。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;git add .
-git commit -m &amp;quot;ゲーム追加&amp;quot;
-git push
+&lt;pre&gt;&lt;code&gt;git init
+git add .
+git commit -m &amp;quot;Initial Commit&amp;quot;
+git remote add origin (先ほどコピーしたURL)
+git push -u origin master
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;/details&gt;

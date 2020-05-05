@@ -31,7 +31,7 @@ Gitに詳しくない人向けに書いています。Gitに詳しい人は`詳�
 # 必要なもの  
 - Unity
 - GitHub アカウント
-- Git
+- Git：[ここ](https://git-scm.com/downloads)からダウンロードできます
 
 # 1. Unityでゲームをビルドする
 ## 1.1 Build Settingsを開く
@@ -61,19 +61,18 @@ Gitに詳しくない人向けに書いています。Gitに詳しい人は`詳�
 {{<figure src="./GitHub_New_Repository3.png" class="left">}}
 赤い枠で囲まれたボタンを押してください。左のURLがクリップボードにコピーされます。
 ## 2.3 ファイルのアップロード
-生成されたファイルを置くフォルダを作成します。`Git Bash`を起動し、`cd`コマンドで任意のフォルダに移動して以下のコマンドを一行ずつ実行してください。
+`Git Bash`を起動してください。
+起動時のフォルダは`C:\Users\(ユーザー名)`なので、ビルド結果があるフォルダに移動してください。`cd (フォルダ名)`コマンドで移動できます。
+移動したら、以下のコマンドを一行ずつ実行してください。
 {{<alert note>}}
   `Git Bash`では`Shift`+`Insert`で貼り付けができます
 {{</alert>}}
 ```
-git clone (先ほどコピーしたURL) (任意のフォルダ名)
-cd (任意のフォルダ名)
-```
-`任意のフォルダ名`のフォルダが生成されるので、そのフォルダ内にビルド結果の3ファイルをコピーしてください。その後、以下のコマンドを一行ずつ実行してください。
-```
+git init
 git add .
-git commit -m "ゲーム追加"
-git push
+git commit -m "Initial Commit"
+git remote add origin (先ほどコピーしたURL)
+git push -u origin master
 ```
 {{</collapsable>}}
 
