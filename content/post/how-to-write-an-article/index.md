@@ -135,4 +135,7 @@ Markdown記法だけでも書けるのですが、見出し付近がナビゲー
 # その他
 ## スライド
 Markdown記法で簡易的なスライドを作成することができます。
+```
+{{</* slide-frame src="スライド名" */>}}
+```
 {{<slide-frame src="example">}}

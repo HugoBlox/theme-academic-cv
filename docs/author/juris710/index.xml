@@ -635,13 +635,15 @@ Markdown記法だけでも書けるのですが、見出し付近がナビゲー
 のようなリンクが作れます。&lt;/p&gt;
 &lt;h1 id=&#34;その他&#34;&gt;その他&lt;/h1&gt;
 &lt;h2 id=&#34;スライド&#34;&gt;スライド&lt;/h2&gt;
-&lt;p&gt;Markdown記法で簡易的なスライドを作成することができます。
+&lt;p&gt;Markdown記法で簡易的なスライドを作成することができます。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; slide-frame src=&amp;quot;スライド名&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
 
 
 
 
 &lt;iframe id=example src=https://juris710.github.io/AppNaviBlog/slides/example width=640 height=360 allowfullscreen=true&gt;&lt;/iframe&gt;
-&lt;/p&gt;
+
 </description>
     </item>
     
