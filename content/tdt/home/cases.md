@@ -131,6 +131,5 @@ subtitle = "Timor-Leste iha kazu konfirmadu total 24, maibé 20 rekupera ona, no
       chart.draw(data, options);
   }
 </script>
+
 <div class="chart" id="cases-chart"></div>
-
-

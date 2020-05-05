@@ -80,4 +80,11 @@ subtitle = "Timor has less confirmed cases per million than Indonesia or the Phi
     chart.draw(data, options);
   }
 </script>
+
 <div id="compare-map"></div>
+
+<style>
+#compare-map {
+    max-width: 800px;
+}
+</style>

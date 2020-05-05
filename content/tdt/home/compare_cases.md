@@ -80,4 +80,11 @@ subtitle = "Timor-Leste nia kazu konfirmadu por milliaun menus se kompara ho Ind
     chart.draw(data, options);
   }
 </script>
+
 <div id="compare-map"></div>
+
+<style>
+#compare-map {
+    max-width: 800px;
+}
+</style>
