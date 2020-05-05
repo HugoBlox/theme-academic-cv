@@ -237,6 +237,15 @@ Markdown記法だけでも書けるのですが、見出し付近がナビゲー
 
 &lt;a href=&#34;javascript:void(0)&#34; onmouseup=&#34;onPageLinkClicked(&#39;#%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF&#39;)&#34;&gt;折りたたみ&lt;/a&gt;
 のようなリンクが作れます。&lt;/p&gt;
+&lt;h1 id=&#34;その他&#34;&gt;その他&lt;/h1&gt;
+&lt;h2 id=&#34;スライド&#34;&gt;スライド&lt;/h2&gt;
+&lt;p&gt;Markdown記法で簡易的なスライドを作成することができます。
+
+
+
+
+&lt;iframe id=example src=https://juris710.github.io/AppNaviBlog/slides/example width=640 height=360 allowfullscreen=true&gt;&lt;/iframe&gt;
+&lt;/p&gt;
 </description>
     </item>
     
