@@ -360,7 +360,11 @@ GitHubタブが開きます。
       <link>https://juris710.github.io/AppNaviBlog/post/truck-quiz/</link>
       <pubDate>Tue, 28 Apr 2020 15:07:58 +0900</pubDate>
       <guid>https://juris710.github.io/AppNaviBlog/post/truck-quiz/</guid>
-      <description>
+      <description>&lt;h1 id=&#34;ゲームの説明&#34;&gt;ゲームの説明&lt;/h1&gt;
+&lt;p&gt;某有名クイズ番組のクイズを模したゲームです。
+2択問題が5問出題されます。間違えてた時点でゲームオーバーです。
+キーボード操作、タッチ操作の両方に対応しています。&lt;/p&gt;
+
 
 
 
@@ -392,10 +396,6 @@ let set_width = function() {
 set_width();
 window.onresize = function(){ set_width(); };
 &lt;/script&gt;
-&lt;h1 id=&#34;ゲームの説明&#34;&gt;ゲームの説明&lt;/h1&gt;
-&lt;p&gt;某有名クイズ番組のクイズを模したゲームです。
-2択問題が5問出題されます。間違えてた時点でゲームオーバーです。
-キーボード操作、タッチ操作の両方に対応しています。&lt;/p&gt;
 </description>
     </item>
     

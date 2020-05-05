@@ -27,9 +27,9 @@ image:
 #   Otherwise, set `projects = []`.
 projects: ["online-yukosai-2020"]
 ---
-{{<unity src="https://juris710.github.io/TruckQuizSample/">}}
-
 # ゲームの説明
 某有名クイズ番組のクイズを模したゲームです。
 2択問題が5問出題されます。間違えてた時点でゲームオーバーです。
 キーボード操作、タッチ操作の両方に対応しています。
+
+{{<unity src="https://juris710.github.io/TruckQuizSample/">}}
