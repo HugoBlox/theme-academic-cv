@@ -5,7 +5,7 @@ active = true  # Activate this widget? true/false
 weight = 3  # Order that this section will appear.
 
 title = "Teste"
-subtitle = "Timor-Leste halo ona teste 706. Timor-Leste halo teste por 1,000 barak liu fali Indonesia, maibé menus se kompara ho Filipina no Vietnam."
+subtitle = "Timor-Leste halo ona teste 719. Timor-Leste halo teste por 1,000 barak liu fali Indonesia, maibé menus se kompara ho Filipina no Vietnam."
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -72,7 +72,7 @@ function drawBarColors() {
 </script>
 <div id="testing-div"></div>
 
-#### Husi teste hamutuk 706:
+#### Husi teste hamutuk 719:
 * Positivu 24 (kazu konfirmadu)
-* Negativu 579
-* Hein rezultadu 103
+* Negativu 622
+* Hein rezultadu 73

@@ -110,6 +110,7 @@ subtitle = "Timor-Leste has 24 confirmed cases, 20 of which already recovered, a
             ["May 2, 2020",24,0, 20],
             ["May 3, 2020",24,0, 20],
             ["May 4, 2020",24,0, 20],
+            ["May 5, 2020",24,0, 20],
       ]);
 
       var options = {
