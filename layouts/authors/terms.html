@@ -10,10 +10,11 @@
   {{ end }}
 
   {{ $paginator := .Paginate .Data.Pages }}
-  {{ range $paginator.Pages }}
+  {{ partial "list_authors" $paginator.Pages }}
+  {{/*  {{ range $paginator.Pages }}
     {{ $author_urlized := urlize .Title }}
     {{ partial "page_author_card" (dict "username" $author_urlized) }}
-  {{ end }}
+  {{ end }}  */}}
 
   {{ partial "pagination" . }}
 </div>
