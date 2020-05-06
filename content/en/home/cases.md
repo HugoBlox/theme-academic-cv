@@ -124,7 +124,7 @@ subtitle = "Timor-Leste has 24 confirmed cases, 20 of which already recovered, a
          height: 430,
          pointSize: 3,
          seriesType: 'bars',
-         series: {0: {type: 'line', color: '#ff4242'}, 1: {color: '#ff4242'}, 2: {type: 'line', color: '#24a624'}}
+         series: {0: {type: 'line', color: '#ff4242'}, 1: {color: '#ff4242'}, 2: {type: 'line', color: 'blue'}}
       };
 
       var chart = new google.visualization.ComboChart(document.getElementById('cases-chart'));
