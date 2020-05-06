@@ -5,7 +5,7 @@ active = true  # Activate this widget? true/false
 weight = 3  # Order that this section will appear.
 
 title = "Testing"
-subtitle = "As of May 4, 2020, Timor-Leste has made 719 tests. That's more tests per 1,000 people than Indonesia, but less that the Philippines or Vietnam."
+subtitle = ""
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -46,6 +46,51 @@ subtitle = "As of May 4, 2020, Timor-Leste has made 719 tests. That's more tests
  css_class = ""
 +++
 
+#### From the 719 tests conducted:
+* 24 came back positive
+* 622 came back negative
+* 73 are pending
+
+<script type="text/javascript">
+  google.charts.load('current', {'packages':['sankey']});
+  google.charts.setOnLoadCallback(drawSankey);
+
+  function drawSankey() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'From');
+    data.addColumn('string', 'To');
+    data.addColumn('number', '');
+    data.addRows([
+      [ 'Tests', 'Negative', 622 ],
+      [ 'Tests', 'Positive', 24 ],
+      [ 'Tests', 'Pending', 73 ],
+    ]);
+
+    var colors = ['#a6cee3', '#b2df8a', '#fb9a99', '#fdbf6f',
+                  '#cab2d6', '#ffff99', '#1f78b4', '#33a02c'];
+
+    var options = {
+      chartArea: {width: '50%'},
+      sankey: {
+        node: {
+          colors: colors
+        },
+        link: {
+          colorMode: 'gradient',
+          colors: colors
+        }
+      }
+
+    };
+
+    // Instantiates and draws our chart, passing in some options.
+    var chart = new google.visualization.Sankey(document.getElementById('test-sankey'));
+    chart.draw(data, options);
+  }
+</script>
+<div id="test-sankey"></div>
+
+##### Timor-Leste makes more tests per 1,000 people than Indonesia, but less that the Philippines or Vietnam.
 <script>
 google.charts.load('current', {packages: ['corechart', 'bar']});
 google.charts.setOnLoadCallback(drawBarColors);
@@ -62,7 +107,6 @@ function drawBarColors() {
 
       var options = {
         title: 'Tests per 1,000 people',
-        chartArea: {width: '50%'},
         colors: ['green'],
         legend: { position: "none" },
       };
@@ -72,7 +116,10 @@ function drawBarColors() {
 </script>
 <div id="testing-div"></div>
 
-#### From the 719 tests conducted:
-* 24 came back positive
-* 622 came back negative
-* 73 are pending
+<style>
+#test-sankey, #testing-div {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>

@@ -5,7 +5,7 @@ active = true  # Activate this widget? true/false
 weight = 3  # Order that this section will appear.
 
 title = "Teste"
-subtitle = "Timor-Leste halo ona teste 719. Timor-Leste halo teste por 1,000 barak liu fali Indonesia, maibé menus se kompara ho Filipina no Vietnam."
+subtitle = ""
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -46,6 +46,51 @@ subtitle = "Timor-Leste halo ona teste 719. Timor-Leste halo teste por 1,000 bar
  css_class = ""
 +++
 
+#### Husi teste hamutuk 719:
+* Positivu 24 (kazu konfirmadu)
+* Negativu 622
+* Hein rezultadu 73
+
+<script type="text/javascript">
+  google.charts.load('current', {'packages':['sankey']});
+  google.charts.setOnLoadCallback(drawSankey);
+
+  function drawSankey() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'From');
+    data.addColumn('string', 'To');
+    data.addColumn('number', '');
+    data.addRows([
+      [ 'Teste', 'Negativu', 622 ],
+      [ 'Teste', 'Positivu', 24 ],
+      [ 'Teste', 'Hein rezultadu', 73 ],
+    ]);
+
+    var colors = ['#a6cee3', '#b2df8a', '#fb9a99', '#fdbf6f',
+                  '#cab2d6', '#ffff99', '#1f78b4', '#33a02c'];
+
+    var options = {
+      chartArea: {width: '50%'},
+      sankey: {
+        node: {
+          colors: colors
+        },
+        link: {
+          colorMode: 'gradient',
+          colors: colors
+        }
+      }
+
+    };
+
+    // Instantiates and draws our chart, passing in some options.
+    var chart = new google.visualization.Sankey(document.getElementById('test-sankey'));
+    chart.draw(data, options);
+  }
+</script>
+<div id="test-sankey"></div>
+
+##### Timor-Leste halo teste por 1,000 barak liu fali Indonesia, maibé menus se kompara ho Filipina no Vietnam.
 <script>
 google.charts.load('current', {packages: ['corechart', 'bar']});
 google.charts.setOnLoadCallback(drawBarColors);
@@ -62,7 +107,6 @@ function drawBarColors() {
 
       var options = {
         title: 'Teste por 1,000',
-        chartArea: {width: '50%'},
         colors: ['green'],
         legend: { position: "none" },
       };
@@ -72,7 +116,10 @@ function drawBarColors() {
 </script>
 <div id="testing-div"></div>
 
-#### Husi teste hamutuk 719:
-* Positivu 24 (kazu konfirmadu)
-* Negativu 622
-* Hein rezultadu 73
+<style>
+#test-sankey, #testing-div {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
