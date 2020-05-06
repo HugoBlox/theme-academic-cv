@@ -1,0 +1,8 @@
+{{/*  現在が何年度かを返す  */}}
+{{$month_academic_year_start := 4}} {{/* 何月に新学期が始まるか(default=4)*/}}
+{{$current_month := int (dateFormat "01" now) }}
+{{$university_current_year := (int (dateFormat "2006" now))}}
+{{if lt $current_month $month_academic_year_start}}
+    {{$university_current_year = sub $university_current_year 1}}
+{{end}}
+{{return $university_current_year}}
