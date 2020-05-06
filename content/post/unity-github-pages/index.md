@@ -76,7 +76,7 @@ git push -u origin master
 ```
 {{</collapsable>}}
 
-# 3. Webページとしてゲームを公開
+# 3. Webにゲームを公開
 {{<figure src="./GitHub_Pages.png" class="left">}}
 `Settings`をクリックしてください。
 {{<figure src="./GitHub_Pages2.png" class="left">}}
