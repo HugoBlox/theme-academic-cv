@@ -46,10 +46,10 @@ subtitle = ""
  css_class = ""
 +++
 
-#### Husi teste hamutuk 719:
+#### Husi teste hamutuk 738:
 * Positivu 24 (kazu konfirmadu)
 * Negativu 622
-* Hein rezultadu 73
+* Hein rezultadu 92
 
 <script type="text/javascript">
   google.charts.load('current', {'packages':['sankey']});
@@ -63,7 +63,7 @@ subtitle = ""
     data.addRows([
       [ 'Teste', 'Negativu', 622 ],
       [ 'Teste', 'Positivu', 24 ],
-      [ 'Teste', 'Hein rezultadu', 73 ],
+      [ 'Teste', 'Hein rezultadu', 92 ],
     ]);
 
     var colors = ['#a6cee3', '#b2df8a', '#fb9a99', '#fdbf6f',
