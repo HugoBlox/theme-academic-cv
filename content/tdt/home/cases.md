@@ -112,6 +112,7 @@ subtitle = "Timor-Leste iha kazu konfirmadu total 24, maibé 20 rekupera ona, no
             ["May 4, 2020",24,0, 20],
             ["May 5, 2020",24,0, 20],
             ["May 6, 2020",24,0, 21],
+            ["May 7, 2020",24,0, 21],
       ]);
 
       var options = {

@@ -46,10 +46,10 @@ subtitle = ""
  css_class = ""
 +++
 
-#### From the 738 tests conducted:
+#### From the 764 tests conducted:
 * 24 came back positive
-* 622 came back negative
-* 92 are pending
+* 679 came back negative
+* 61 are pending
 
 <script type="text/javascript">
   google.charts.load('current', {'packages':['sankey']});
@@ -61,9 +61,9 @@ subtitle = ""
     data.addColumn('string', 'To');
     data.addColumn('number', '');
     data.addRows([
-      [ 'Tests', 'Negative', 622 ],
+      [ 'Tests', 'Negative', 679 ],
       [ 'Tests', 'Positive', 24 ],
-      [ 'Tests', 'Pending', 92 ],
+      [ 'Tests', 'Pending', 61 ],
     ]);
 
     var colors = ['#a6cee3', '#b2df8a', '#fb9a99', '#fdbf6f',
