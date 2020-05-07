@@ -18,27 +18,51 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Student"
+  company = "Australian National University"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  location = "Canberra, ACT"
+  date_start = "2019-07-01"
   date_end = ""
-  description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
-  """
+
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "ICPC School Team Member"
+  company = "Shandong University, ICPC School Team"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  location = "Weihai, Shandong"
+  date_start = "2018-01-01"
+  date_end = "2019-06-30"
+
+[[experience]]
+title = "Minister of Student Community"
+company = "Shandong University, School of Mechanical, Electrical & Information Engineering"
+company_url = ""
+location = "Weihai, Shandong"
+date_start = "2018-06-01"
+date_end = "2019-06-01"
+
+[[experience]]
+title = "Software Development Internship"
+company = "IIFOX Shanghai"
+company_url = "http://www.iifox.com/"
+location = "Shanghai"
+date_start = "2019-01-15"
+date_end = "2019-02-21"
+description = """
+Responsibilities include:
+* Cooperate with colleagues in development department
+* Maintaining call centre system and develop new functions based on ASP.NET framework
+* Deploying system in various environment
+"""
+
 
 +++
+
+<!-- description = """
+Responsibilities include:
+
+* Analysing
+* Modelling
+* Deploying
+""" -->

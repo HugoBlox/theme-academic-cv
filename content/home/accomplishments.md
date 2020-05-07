@@ -19,33 +19,43 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Neural Networks and Deep Learning"
+  organization = "Shandong University"
+  organization_url = "https://www.sdu.edu.cn/"
+  title = "The 9th Lanqiao Programming Contest, Shandong Provence, C/C++ Programming Pollegiate A Group, The Province Second Award"
   url = ""
-  certificate_url = "https://www.coursera.org"
-  date_start = "2018-10-01"
+  certificate_url = ""
+  date_start = "2018-04-01"
   date_end = ""
   description = ""
 
 [[item]]
-  organization = "edX"
-  organization_url = "https://www.edx.org"
-  title = "Blockchain Fundamentals"
-  url = "https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
-  certificate_url = "https://www.edx.org"
-  date_start = "2018-03-01"
-  date_end = ""
-  description = "Formulated informed blockchain models, hypotheses, and use cases."
-  
-[[item]]
-  organization = "DataCamp"
-  organization_url = "https://www.datacamp.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
+  organization = "Shandong University"
+  organization_url = "https://www.sdu.edu.cn/"
+  title = "Shandong University (weihai) ACM Programming Contest 2018 “New Stars”, The Silver Award"
   url = ""
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
+  certificate_url = ""
+  date_start = "2018-03-24"
+  date_end = ""
   description = ""
+
+[[item]]
+  organization = "Zhejiang University"
+  organization_url = "http://www.zju.edu.cn/"
+  title = "CCCC Group Programming Ladder Tournamen, National Finals, The Second Award"
+  url = "http://www.appcontest.net/"
+  certificate_url = ""
+  date_start = "2018-03-31"
+  date_end = ""
+  description = ""
+
+[[item]]
+organization = "Shandong Computer Federation"
+organization_url = "http://www.sd-cf.com.cn/"
+title = "The 10th Shandong technology festival —— The 9th Shandong Collegiate ACM Programming Contest, The Excellence Award"
+url = "http://acm.ujn.edu.cn/icpc/"
+certificate_url = ""
+date_start = "2018-05-20"
+date_end = ""
+description = ""
 
 +++
