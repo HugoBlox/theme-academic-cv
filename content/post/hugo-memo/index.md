@@ -70,7 +70,7 @@ academic.jsの関数`scrollToAnchor`をページ内リンククリック時に�
 ```scss
 $header-height-default: 70px;
 $header-height-small: 50px;
-.article-style>h1, .article-style>h1>h2, .article-style>h1>h2>h3, .article-style>h1>h2>h3>h4, .article-style>h1>h2>h3>h4>h5, .article-style >h1>h2>h3>h4>h5>h6{
+.article-style h1[id],.article-style h2[id],.article-style h3[id],.article-style h4[id],.article-style h5[id],.article-style h6[id]{
     padding-top: $header-height-default;
     margin-top: -1 * $header-height-default;
     @include media-breakpoint-down(md) {
