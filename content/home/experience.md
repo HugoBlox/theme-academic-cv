@@ -35,7 +35,7 @@ date_format = "Jan 2006"
   date_end = "2019-06-30"
 
 [[experience]]
-title = "Minister of Student Community"
+title = "Minister of Student Union"
 company = "Shandong University, School of Mechanical, Electrical & Information Engineering"
 company_url = ""
 location = "Weihai, Shandong"
