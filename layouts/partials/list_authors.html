@@ -1,16 +1,5 @@
 {{ $author_pages := . }}
 {{ $university_current_year :=  partial "functions/university_current_year" . }}
-{{/*  {{ $years := 8}}   何回生まで表示するか 
-{{ $authors := slice }}
-{{ range $i := seq 0 (sub $years 1)}}
-    {{$y := sub $university_current_year $i}}
-    {{$authors = $authors | append (dict "year" $y "authors" slice)}}
-{{end}}
-{{range apply $author_pages "partial" "functions/get_author_dict.html" "."}}
-    {{range $authors}}
-        {{if}}
-    {{end}}
-{{end}}  */}}
 {{$year := 0}}
 {{range sort (apply $author_pages "partial" "functions/get_author_dict.html" ".") "year" "desc"}}
   {{if ne $year .year}}

@@ -1,9 +1,1 @@
-{{/*  {{$test := 0}}
-{{if .Params.Organizations}}
-    {{$test = (index .Params.Organizations 0).nrollment}}
-{{else}}
-    {{$test = -1 }}
-{{end}}
-{{return $test}}
-{{(index .Params.Organizations 0).enrollment}}<br>  */}}
 {{return (dict "year" (index .Params.Organizations 0).enrollment "page" .)}}
