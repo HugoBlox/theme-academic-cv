@@ -3,7 +3,7 @@
 
 title: "CROSS Funds Project on Open Source Autonomous Vehicles"
 subtitle: ""
-summary: "With selecting the Open Source Autonomous Vehicle Controller project for funding, CROSS now plays a part in the bureoning open source hardware movement."
+summary: "With selecting the Open Source Autonomous Vehicle Controller project for funding, CROSS now plays a part in the burgeoning open source hardware movement."
 authors: [slieggi]
 tags: [cross]
 categories: [News]
