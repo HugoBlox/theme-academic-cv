@@ -27,9 +27,9 @@ subtitle = ""
   description = "Proficient"  
 
 [[feature]]
-  icon = "php"
-  icon_pack = "fab"
-  name = "php"
+  icon = "terminal"
+  icon_pack = "fas"
+  name = "Other object-oriented programming languages"
   description = "Familiar"
 
 +++
