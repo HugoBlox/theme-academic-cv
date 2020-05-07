@@ -43,3 +43,21 @@ figure.float-right {
 .dark .article-style h1 {
     border-color: rgb(68, 71, 90);
 }
+
+
+.card.author{
+    margin-right: 20px;
+}
+.card.author .avatar{
+    margin-top: 5px;
+}
+.card.author .card-text{
+    color: black;
+}
+.dark .card.author .card-text{
+    color: white;
+}
+.dark .card.author:hover *{
+    color: #f31b67;
+    transition: color 0.6s ease;
+}
