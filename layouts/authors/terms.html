@@ -2,9 +2,15 @@
 
 {{/* List of all authors. */}}
 
-{{ partial "page_header.html" . }}
+<div class="universal-wrapper pt-3">
+  <h1 style="text-align: center;">{{ .Title }}</h1>
 
-<div class="universal-wrapper">
+  {{ with .Params.subtitle }}
+  <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
+  {{end}}
+</div>
+
+<div class="universal-wrapper" style="width: 100%;">
   {{ with .Content }}
   <div class="article-style">{{ . }}</div>
   {{ end }}
