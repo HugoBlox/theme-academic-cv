@@ -9,7 +9,7 @@ categories: []
 date: 2020-05-08T04:21:35+10:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "https://github.com/ljxw88/PASSING-THE-MESSAGE/blob/master/Diagram.pdf"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

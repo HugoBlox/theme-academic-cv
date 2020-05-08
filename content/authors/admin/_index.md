@@ -43,7 +43,7 @@ education:
 social:
 - icon: linkedin
   icon_pack: fab
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: 'https://www.linkedin.com/in/jiaxu-liu-a000b619a/'  # For a direct email link, use "mailto:test@example.org".
 - icon: envelope
   icon_pack: fas
   link: mailto:ljxw88@163.com
@@ -69,4 +69,4 @@ user_groups:
 - Visitors
 ---
 
-I am undergraduate student passionates in the fields of machine learning ,deep learning and algorithm. I spent my first two years of  college life in Shandong University which equipped me with solid programming and mathematics skills. I am currently studying computer vision and neural network at ANU, hoping to get a research opportunity in relative fields.
+I'm an undergraduate student passionates in the fields of machine learning ,deep learning and algorithm. I spent my first two years of  college life in Shandong University which equipped me with solid programming and mathematics skills. I am currently studying computer vision and neural network in ANU, hoping to get a research opportunity in relative fields.
