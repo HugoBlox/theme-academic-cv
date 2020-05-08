@@ -9,20 +9,20 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "Master of Data Science Student and Data Viz Enthusiast"
+role = "Growth Data Analyst @ Airbnb"
 
 # Short bio (displayed in user profile at end of posts)
-bio = "I want to create intuitive data visualizations using data science techniques and algorithms."
+bio = ""
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "milibankeyim@gmail.com"
 
 # List (academic) interests or hobbies
 interests = [
-  "Data Visualization",
-  "Machine Learning",
-  "Statistical Inference & Analysis",
-  "Data Analysis"
+  "Data Analysis & Modeling",
+  "Data Pipeline Development",
+  "Data Visualization & Dashboarding"
+  
 ]
 
 
@@ -74,4 +74,3 @@ interests = [
 
 +++
 
-I am a passionate communicator of ideas with experience and education in data visualization, data retrieval and analysis, and marketing. With a Bachelor's in MIS, a Master of Data Science, and experience in the private industry and government, I seek to address the challenges of the future with my skill and drive. I am interested in learning more in machine learning, user experience interfaces, and market related data modeling. As I am finishing my Master's, I am seeking full-time roles for September 2019 in data analytics and visualization in Montreal and Ottawa.
