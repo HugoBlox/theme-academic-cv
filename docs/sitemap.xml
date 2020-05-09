@@ -3,22 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://juris710.github.io/AppNaviBlog/</loc>
-    <lastmod>2020-05-04T20:17:22+09:00</lastmod>
+    <loc>https://juris710.github.io/AppNaviBlog/post/file-format-should-able-use/</loc>
+    <lastmod>2020-05-05T21:46:39+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://juris710.github.io/AppNaviBlog/tag/github/</loc>
-    <lastmod>2020-05-04T20:17:22+09:00</lastmod>
+    <loc>https://juris710.github.io/AppNaviBlog/</loc>
+    <lastmod>2020-05-05T21:46:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://juris710.github.io/AppNaviBlog/tag/json/</loc>
+    <lastmod>2020-05-05T21:46:39+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://juris710.github.io/AppNaviBlog/author/juris710/</loc>
-    <lastmod>2020-05-04T20:17:22+09:00</lastmod>
+    <lastmod>2020-05-05T21:46:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://juris710.github.io/AppNaviBlog/tag/markdown/</loc>
+    <lastmod>2020-05-05T21:46:39+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://juris710.github.io/AppNaviBlog/tags/</loc>
+    <lastmod>2020-05-05T21:46:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://juris710.github.io/AppNaviBlog/tag/xml/</loc>
+    <lastmod>2020-05-05T21:46:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://juris710.github.io/AppNaviBlog/post/</loc>
+    <lastmod>2020-05-05T21:46:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://juris710.github.io/AppNaviBlog/tag/github/</loc>
     <lastmod>2020-05-04T20:17:22+09:00</lastmod>
   </url>
   
@@ -29,11 +54,6 @@
   
   <url>
     <loc>https://juris710.github.io/AppNaviBlog/post/unity-github-pages/</loc>
-    <lastmod>2020-05-04T20:17:22+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juris710.github.io/AppNaviBlog/post/</loc>
     <lastmod>2020-05-04T20:17:22+09:00</lastmod>
   </url>
   
@@ -74,11 +94,6 @@
   
   <url>
     <loc>https://juris710.github.io/AppNaviBlog/tag/hugo/</loc>
-    <lastmod>2020-04-28T00:01:09+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://juris710.github.io/AppNaviBlog/tag/markdown/</loc>
     <lastmod>2020-04-28T00:01:09+09:00</lastmod>
   </url>
   
