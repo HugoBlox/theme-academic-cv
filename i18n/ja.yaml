@@ -45,13 +45,13 @@
 - id: education
   translation: 学歴
 - id: user_profile_latest
-  translation: Latest
+  translation: 最近の記事
 - id: see_certificate
   translation: See certificate
 - id: present
   translation: Present
 - id: more_pages
-  translation: See all
+  translation: 詳しく
 - id: more_posts
   translation: 投稿一覧
 - id: more_talks
@@ -101,7 +101,7 @@
 - id: pub_patent
   translation: Patent
 - id: open_project_site
-  translation: プロジェクトのサイトへ
+  translation: プロジェクトサイトを開く
 - id: posts
   translation: 投稿
 - id: publications
@@ -113,17 +113,17 @@
 - id: search
   translation: Search
 - id: search_placeholder
-  translation: 検索...
+  translation: 検索中...
 - id: search_results
-  translation: results found
+  translation: 検索結果
 - id: search_no_results
   translation: 結果が見つかりませんでした
 - id: page_not_found
   translation: ページが見つかりませんでした
 - id: 404_recommendations
-  translation: あなたが探しているものはこれらの中にあるかもしれません
+  translation: お探しのページはこの中にあるかもしれません。
 - id: cookie_message
-  translation: このウェブサイトはあなたが最高の体験を得るためにクッキーを使用します。
+  translation: このウェブサイトはあなたが最高の体験を得るためにcookieを使用します。
 - id: cookie_dismiss
   translation: はい
 - id: cookie_learn
