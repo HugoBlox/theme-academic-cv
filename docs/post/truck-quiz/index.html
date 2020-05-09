@@ -240,7 +240,7 @@
     
       <meta property="article:published_time" content="2020-04-28T15:07:58&#43;09:00">
     
-    <meta property="article:modified_time" content="2020-05-05T23:40:13&#43;09:00">
+    <meta property="article:modified_time" content="2020-05-09T23:54:02&#43;09:00">
   
 
   
@@ -273,7 +273,7 @@
   ],
   
   "datePublished": "2020-04-28T15:07:58+09:00",
-  "dateModified": "2020-05-05T23:40:13+09:00",
+  "dateModified": "2020-05-09T23:54:02+09:00",
   
   "author": {
     "@type": "Person",
@@ -573,7 +573,7 @@
           最終更新
       
     
-    2020/05/05
+    2020/05/09
   </span>
   
 
@@ -663,7 +663,8 @@
   <div class="article-container">
 
     <div class="article-style">
-      <h1 id="ゲームの説明">ゲームの説明</h1>
+      <p>Unityについて勉強するため春休みの間に作成した、&ldquo;Truck Quiz&quot;を紹介します。</p>
+<h1 id="ゲームの説明">ゲームの説明</h1>
 <p>某有名クイズ番組のクイズを模したゲームです。
 2択問題が5問出題されます。間違えてた時点でゲームオーバーです。
 キーボード操作、タッチ操作の両方に対応しています。</p>
@@ -699,6 +700,33 @@ let set_width = function() {
 set_width();
 window.onresize = function(){ set_width(); };
 </script>
+<h1 id="工夫した点">工夫した点</h1>
+<ul>
+<li>クイズの問題やゲーム設定をJSONファイルで管理</li>
+<li>画像のアスペクト比を維持するように</li>
+<li>解答の取り消し、問題の差し替え機能実装</li>
+<li>ゲーム内の文章ほぼ全てにフリガナを付ける（フリガナ表示・非表示切り替え可能）</li>
+<li>問題の解説に文章だけでなく選択肢の画像も利用できるように</li>
+</ul>
+<h1 id="実装の概説">実装の概説</h1>
+<details>
+    <summary>Unityに詳しい人向け</summary>
+    &ldquo;Truck Quiz&quot;を主に動かしているのは<code>StateMachineBehaviour</code>です。<code>StateMachineBehaviour</code>について軽く説明すると、アニメーションの開始時、終了時、Update時(MonoBehaviourのUpdate関数同様、アニメーションの再生中定期的に呼ばれる)に任意の処理を挟むことのできるクラスです。<br>
+トロッコとUIで2つのAnimatorがあり、「選択肢を選んだアニメーション」が終了したら「トロッコが曲がるアニメーション」を開始する、みたいな処理をGameManagerクラス内で実装しています。
+</details>
+
+<h1 id="改良予定">改良予定</h1>
+<details>
+    <summary>Unityに詳しい人向け</summary>
+    <h2 id="assetbundleを使用した画像管理">AssetBundleを使用した画像管理</h2>
+<p>現状Resourceクラスで問題の画像を管理していますが、公式が「Resourceクラスは使うな」と言っているので、AssetBundleへの切替を検討しています</p>
+<h2 id="unityバージョンのアップグレード">Unityバージョンのアップグレード</h2>
+<p>現在使用しているUnityのバージョンは2018ですが、2018ではpreview版である<code>Input System</code>を使用したいため、2019へのアップグレードを検討しています。</p>
+<h2 id="デザイン面の改善">デザイン面の改善</h2>
+<p>茶色の木の板に白い文字が表示されるので、見えづらい可能性があります。対策として黒で縁取りしているのですが、それがとてもダサい。見えやすく、ダサくないデザインへの改善を検討しています。</p>
+
+</details>
+
 
     </div>
 

@@ -17,7 +17,8 @@
       <link>https://juris710.github.io/AppNaviBlog/post/truck-quiz/</link>
       <pubDate>Tue, 28 Apr 2020 15:07:58 +0900</pubDate>
       <guid>https://juris710.github.io/AppNaviBlog/post/truck-quiz/</guid>
-      <description>&lt;h1 id=&#34;ゲームの説明&#34;&gt;ゲームの説明&lt;/h1&gt;
+      <description>&lt;p&gt;Unityについて勉強するため春休みの間に作成した、&amp;ldquo;Truck Quiz&amp;quot;を紹介します。&lt;/p&gt;
+&lt;h1 id=&#34;ゲームの説明&#34;&gt;ゲームの説明&lt;/h1&gt;
 &lt;p&gt;某有名クイズ番組のクイズを模したゲームです。
 2択問題が5問出題されます。間違えてた時点でゲームオーバーです。
 キーボード操作、タッチ操作の両方に対応しています。&lt;/p&gt;
@@ -53,6 +54,33 @@ let set_width = function() {
 set_width();
 window.onresize = function(){ set_width(); };
 &lt;/script&gt;
+&lt;h1 id=&#34;工夫した点&#34;&gt;工夫した点&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;クイズの問題やゲーム設定をJSONファイルで管理&lt;/li&gt;
+&lt;li&gt;画像のアスペクト比を維持するように&lt;/li&gt;
+&lt;li&gt;解答の取り消し、問題の差し替え機能実装&lt;/li&gt;
+&lt;li&gt;ゲーム内の文章ほぼ全てにフリガナを付ける（フリガナ表示・非表示切り替え可能）&lt;/li&gt;
+&lt;li&gt;問題の解説に文章だけでなく選択肢の画像も利用できるように&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;実装の概説&#34;&gt;実装の概説&lt;/h1&gt;
+&lt;details&gt;
+    &lt;summary&gt;Unityに詳しい人向け&lt;/summary&gt;
+    &amp;ldquo;Truck Quiz&amp;quot;を主に動かしているのは&lt;code&gt;StateMachineBehaviour&lt;/code&gt;です。&lt;code&gt;StateMachineBehaviour&lt;/code&gt;について軽く説明すると、アニメーションの開始時、終了時、Update時(MonoBehaviourのUpdate関数同様、アニメーションの再生中定期的に呼ばれる)に任意の処理を挟むことのできるクラスです。&lt;br&gt;
+トロッコとUIで2つのAnimatorがあり、「選択肢を選んだアニメーション」が終了したら「トロッコが曲がるアニメーション」を開始する、みたいな処理をGameManagerクラス内で実装しています。
+&lt;/details&gt;
+
+&lt;h1 id=&#34;改良予定&#34;&gt;改良予定&lt;/h1&gt;
+&lt;details&gt;
+    &lt;summary&gt;Unityに詳しい人向け&lt;/summary&gt;
+    &lt;h2 id=&#34;assetbundleを使用した画像管理&#34;&gt;AssetBundleを使用した画像管理&lt;/h2&gt;
+&lt;p&gt;現状Resourceクラスで問題の画像を管理していますが、公式が「Resourceクラスは使うな」と言っているので、AssetBundleへの切替を検討しています&lt;/p&gt;
+&lt;h2 id=&#34;unityバージョンのアップグレード&#34;&gt;Unityバージョンのアップグレード&lt;/h2&gt;
+&lt;p&gt;現在使用しているUnityのバージョンは2018ですが、2018ではpreview版である&lt;code&gt;Input System&lt;/code&gt;を使用したいため、2019へのアップグレードを検討しています。&lt;/p&gt;
+&lt;h2 id=&#34;デザイン面の改善&#34;&gt;デザイン面の改善&lt;/h2&gt;
+&lt;p&gt;茶色の木の板に白い文字が表示されるので、見えづらい可能性があります。対策として黒で縁取りしているのですが、それがとてもダサい。見えやすく、ダサくないデザインへの改善を検討しています。&lt;/p&gt;
+
+&lt;/details&gt;
+
 </description>
     </item>
     
