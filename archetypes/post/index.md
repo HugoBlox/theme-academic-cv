@@ -1,13 +1,13 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Truck Quiz"
+title: "{{ replace .Name "-" " " | title }}"
 subtitle: ""
-summary: "作品紹介"
-authors: ["juris710"]
-tags: ["Unity"]
-categories: ["Works"]
-date: 2020-04-28T15:07:58+09:00
+summary: ""
+authors: []
+tags: []
+categories: []
+date: {{ .Date }}
 featured: false
 draft: false
 
@@ -24,11 +24,5 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: ["online-yukosai-2020"]
+projects: []
 ---
-# ゲームの説明
-某有名クイズ番組のクイズを模したゲームです。
-2択問題が5問出題されます。間違えてた時点でゲームオーバーです。
-キーボード操作、タッチ操作の両方に対応しています。
-
-{{<unity src="https://juris710.github.io/TruckQuizSample/">}}

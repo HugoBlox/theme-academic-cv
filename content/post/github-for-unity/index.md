@@ -8,7 +8,6 @@ authors: ["Juris710"]
 tags: ["Unity", "GitHub"]
 categories: []
 date: 2020-04-30T20:18:25+09:00
-lastmod: 2020-04-30T20:18:25+09:00
 featured: false
 draft: false
 

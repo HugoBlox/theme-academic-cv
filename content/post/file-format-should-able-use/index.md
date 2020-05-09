@@ -8,7 +8,6 @@ authors: ["juris710"]
 tags: ["Markdown", "JSON", "XML"]
 categories: []
 date: 2020-05-05T21:46:39+09:00
-lastmod: 2020-05-05T21:46:39+09:00
 featured: false
 draft: false
 

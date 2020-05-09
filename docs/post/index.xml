@@ -5,7 +5,7 @@
     <link>https://juris710.github.io/AppNaviBlog/post/</link>
       <atom:link href="https://juris710.github.io/AppNaviBlog/post/index.xml" rel="self" type="application/rss+xml" />
     <description>記事一覧</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710  2020</copyright><lastBuildDate>Tue, 05 May 2020 21:46:39 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710  2020</copyright>
     <image>
       <url>https://juris710.github.io/AppNaviBlog/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>記事一覧</title>
@@ -625,8 +625,10 @@ window.onresize = function(){ set_width(); };
     
     
       
+          最終更新
+      
     
-    2020/04/28
+    2020/05/04
   &lt;/span&gt;
   
 
@@ -751,8 +753,10 @@ Markdown記法だけでも書けるのですが、見出し付近がナビゲー
     
     
       
+          最終更新
+      
     
-    2020/04/28
+    2020/05/04
   &lt;/span&gt;
   
 

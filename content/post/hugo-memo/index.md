@@ -8,7 +8,6 @@ authors: ["Juris710"]
 tags: []
 categories: []
 date: 2020-04-29T13:44:51+09:00
-lastmod: 2020-04-29T13:44:51+09:00
 featured: false
 draft: true
 
