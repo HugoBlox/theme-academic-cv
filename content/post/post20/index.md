@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Pos20"
+title: "Post20"
 subtitle: ""
 summary: ""
 authors: []

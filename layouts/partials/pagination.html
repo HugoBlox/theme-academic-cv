@@ -1,3 +1,4 @@
+{{if or .Paginator.HasPrev .Paginator.HasNext}}
 {{$page_number := .Paginator.PageNumber}}
 {{$base_link := .Paginator.First.URL}}
 {{$page_number := .Paginator.PageNumber}}
@@ -28,3 +29,4 @@
     </li>
   </ul>
 </nav>
+{{end}}
