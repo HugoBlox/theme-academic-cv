@@ -4,7 +4,7 @@
 title: "このサイトについて"
 subtitle: ""
 summary: "サイトの紹介"
-authors: ["Juris710"]
+authors: ["juris710"]
 tags: ["Hugo"]
 categories: []
 date: 2020-04-28T00:00:59+09:00

@@ -4,7 +4,7 @@
 title: "Hugo Memo"
 subtitle: "Hugoを使う際のメモ"
 summary: "サイトには表示されません。"
-authors: ["Juris710"]
+authors: ["juris710"]
 tags: []
 categories: []
 date: 2020-04-29T13:44:51+09:00
@@ -92,3 +92,13 @@ $header-height-small: 50px;
 ナビゲーションバーの`about`が`post/about-this-page`にいるときに'active'になってしまう
 ### 対処法
 `themes\academic\layouts\partials\navbar.html`の79～90行目を修正
+
+# academicのlayoutのhtmlファイルに関するメモ
+## _default/list.html
+- Taxionomy(tags, categoriesなど)一覧表示
+- 特定のTaxionomyの付いた記事一覧表示
+## authors
+### authors/list.html
+著者のプロフィール表示(1人のみ)
+### authors/terms.html
+著者一覧表示

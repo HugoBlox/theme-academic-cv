@@ -4,7 +4,7 @@
 title: "GitHub for Unityの紹介"
 subtitle: ""
 summary: "Unityアセット紹介"
-authors: ["Juris710"]
+authors: ["juris710"]
 tags: ["Unity", "GitHub"]
 categories: []
 date: 2020-04-30T20:18:25+09:00

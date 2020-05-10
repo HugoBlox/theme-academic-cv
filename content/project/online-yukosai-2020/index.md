@@ -3,7 +3,7 @@
 
 title: "オンライン友好祭2020（仮称）"
 summary: "友好祭に代わるオンラインイベント"
-authors: ["Juris710"]
+authors: ["juris710"]
 tags: []
 categories: []
 date: 2020-04-28T00:04:07+09:00
