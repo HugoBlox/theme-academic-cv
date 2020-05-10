@@ -95,8 +95,8 @@ $header-height-small: 50px;
 
 # academicのlayoutのhtmlファイルに関するメモ
 ## _default/list.html
-- Taxionomy(tags, categoriesなど)一覧表示
-- 特定のTaxionomyの付いた記事一覧表示
+- Taxonomies(tags, categoriesなど)一覧表示
+- 特定のTaxonomiesの付いた記事一覧表示
 ## authors
 ### authors/list.html
 著者のプロフィール表示(1人のみ)
