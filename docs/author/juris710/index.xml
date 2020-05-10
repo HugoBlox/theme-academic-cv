@@ -478,7 +478,7 @@ window.onresize = function(){ set_width(); };
 &lt;h2 id=&#34;unityバージョンのアップグレード&#34;&gt;Unityバージョンのアップグレード&lt;/h2&gt;
 &lt;p&gt;現在使用しているUnityのバージョンは2018ですが、2018ではpreview版である&lt;code&gt;Input System&lt;/code&gt;を使用したいため、2019へのアップグレードを検討しています。&lt;/p&gt;
 &lt;h2 id=&#34;デザイン面の改善&#34;&gt;デザイン面の改善&lt;/h2&gt;
-&lt;p&gt;茶色の木の板に白い文字が表示されるので、見えづらい可能性があります。対策として黒で縁取りしているのですが、それがとてもダサい。見えやすく、ダサくないデザインへの改善を検討しています。&lt;/p&gt;
+&lt;p&gt;UIデザインの改善を検討しています。&lt;/p&gt;
 
 &lt;/details&gt;
 
