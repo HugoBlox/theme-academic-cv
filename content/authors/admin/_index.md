@@ -73,6 +73,27 @@ graduatedphds:
   - course: "[Noah M. Watkins](http://www.linkedin.com/in/noahwatkins)"
     year: "[2018 (thesis)](https://escholarship.org/uc/item/72n6c5kq)"
 
+graduatedmss:
+  courses:
+  - course: "[Trivikram Bollempalli](https://www.linkedin.com/in/trivikram-bollempalli-079a375b/)"
+    year: "2017"
+  - course: "[Zheyuan Chen](https://www.linkedin.com/in/zheyuan-chen/)"
+    year: "2017"
+  - course: "[Abhishek Grover](https://www.linkedin.com/in/abhishek-grover-8183a024/)"
+    year: "2016"
+  - course: "[Bettie Jea](https://www.linkedin.com/in/bettiejea/)"
+    year: "2017"
+  - course: "[Neha Ojha](https://www.linkedin.com/in/nehaojha/)"
+    year: "2017"
+  - course: "[Mariette Souppe](https://www.linkedin.com/in/msouppe/)"
+    year: "2019"
+  - course: "[Greeshma Swaminathan](https://www.linkedin.com/in/greeshmaswaminathan/)"
+    year: "2017"
+  - course: "[Ranjan S. Venkatesh](https://www.linkedin.com/in/ranjansv/)"
+    year: "2013"
+  - course: "[Haiyu Yang](https://www.linkedin.com/in/haiyu-yang-120652b4/)"
+    year: "2017"
+
 # - course: "[Alexander Ames](http://www.linkedin.com/in/sashaames)" #
 #	  year: "[2011](https://search.proquest.com/docview/926578311)"
 
@@ -119,14 +140,14 @@ social:
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
-  
+
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
 - Principal Investigator
 ---
 
-Dr. Carlos Maltzahn is the founder and director of the UC Santa Cruz Center for Research in Open Source Software (CROSS). Dr. Maltzahn also co-founded the Systems Research Lab, known for its cutting-edge work on programmable storage systems, big data storage & processing, scalable data management, distributed system performance management, and practical reproducible evaluation of computer systems. Carlos joined UC Santa Cruz in 2004, after five years at Netapp working on network-intermediaries and storage systems. In 2005 he co-founded and became a key mentor on Sage Weil’s Ceph project. In 2008 Carlos became a member of the computer science faculty at UC Santa Cruz and has graduated nine Ph.D. students since. Carlos graduated with a M.S. and Ph.D. in Computer Science from University of Colorado at Boulder. 
+Dr. Carlos Maltzahn is the founder and director of the UC Santa Cruz Center for Research in Open Source Software (CROSS). Dr. Maltzahn also co-founded the Systems Research Lab, known for its cutting-edge work on programmable storage systems, big data storage & processing, scalable data management, distributed system performance management, and practical reproducible evaluation of computer systems. Carlos joined UC Santa Cruz in 2004, after five years at Netapp working on network-intermediaries and storage systems. In 2005 he co-founded and became a key mentor on Sage Weil’s Ceph project. In 2008 Carlos became a member of the computer science faculty at UC Santa Cruz and has graduated nine Ph.D. students since. Carlos graduated with a M.S. and Ph.D. in Computer Science from University of Colorado at Boulder.
 
 His work is funded by government and industry, including [NSF OAC-1836650](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1836650), [NSF CNS-1764102](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1764102), [NSF CNS-1705021](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1705021), DOE ASCR DE-SC0016074, [NSF OAC-1450488](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1450488), and [CROSS](https://cross.ucsc.edu)
 
