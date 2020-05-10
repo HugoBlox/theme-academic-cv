@@ -99,3 +99,16 @@ figure.float-right {
     text-decoration: none;
     transition: 0.6s ease;
 }
+
+.page-link{
+    background-color: white !important;
+    border-color: rgb(68, 71, 90) !important;
+}
+.page-link.current{
+    background-color: #f31b67 !important;
+    color: white !important;
+}
+a.page-link:not([href]){
+    background-color: transparent !important;
+    border-color: white !important;
+}

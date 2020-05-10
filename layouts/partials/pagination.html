@@ -1,0 +1,30 @@
+{{$page_number := .Paginator.PageNumber}}
+{{$base_link := .Paginator.First.URL}}
+{{$page_number := .Paginator.PageNumber}}
+<nav>
+  <ul class="pagination justify-content-center">
+    <li class="page-item">
+      <a class="page-link" {{if .Paginator.HasPrev}} href="{{.Paginator.Prev.URL}}"{{end}} >
+        &laquo;
+      </a>
+    </li>
+
+    {{ range $i := seq 1 .Paginator.TotalPages }}
+    <li class="page-item">
+      {{$link := $base_link}}
+      {{if gt $i 1}}
+        {{$link = print $base_link "page/" $i}}
+      {{end}}
+      <a class="page-link {{if eq $i $page_number}}current{{end}}" href="{{$link}}">
+        {{ $i }}
+      </a>
+    </li>
+    {{ end }}
+
+    <li class="page-item">
+      <a class="page-link" {{if .Paginator.HasNext}} href="{{.Paginator.Next.URL}}"{{end}} >
+        &raquo;
+      </a>
+    </li>
+  </ul>
+</nav>
