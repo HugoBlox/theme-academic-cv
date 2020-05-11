@@ -46,10 +46,10 @@ subtitle = ""
  css_class = ""
 +++
 
-#### Husi teste hamutuk 764:
+#### Husi teste hamutuk 922:
 * Positivu 24 (kazu konfirmadu)
-* Negativu 679
-* Hein rezultadu 61
+* Negativu 781
+* Hein rezultadu 117
 
 <script type="text/javascript">
   google.charts.load('current', {'packages':['sankey']});
@@ -61,9 +61,9 @@ subtitle = ""
     data.addColumn('string', 'To');
     data.addColumn('number', '');
     data.addRows([
-      [ 'Teste', 'Negativu', 679 ],
+      [ 'Teste', 'Negativu', 781 ],
       [ 'Teste', 'Positivu', 24 ],
-      [ 'Teste', 'Hein rezultadu', 61 ],
+      [ 'Teste', 'Hein rezultadu', 117 ],
     ]);
 
     var colors = ['#a6cee3', '#b2df8a', '#fb9a99', '#fdbf6f',
@@ -98,10 +98,10 @@ google.charts.setOnLoadCallback(drawBarColors);
 function drawBarColors() {
       var data = google.visualization.arrayToDataTable([
         ['Nasaun', 'Teste por 1,000', { role: "style" } ],
-        ['Timor-Leste', 0.52, 'green'],
-        ['Indonesia', 0.23, ''],
-        ['Filipina', 0.69, ''],
-        ['Vietnam', 2.20, ''],
+        ['Timor-Leste', 0.70, 'green'],
+        ['Indonesia', 0.35, ''],
+        ['Philippines', 1.25, ''],
+        ['Vietnam', 2.68, ''],
         ['Australia', 20.34, ''],
       ]);
 

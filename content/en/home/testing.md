@@ -46,10 +46,10 @@ subtitle = ""
  css_class = ""
 +++
 
-#### From the 764 tests conducted:
+#### From the 922 tests conducted:
 * 24 came back positive
-* 679 came back negative
-* 61 are pending
+* 781 came back negative
+* 117 are pending
 
 <script type="text/javascript">
   google.charts.load('current', {'packages':['sankey']});
@@ -61,9 +61,9 @@ subtitle = ""
     data.addColumn('string', 'To');
     data.addColumn('number', '');
     data.addRows([
-      [ 'Tests', 'Negative', 679 ],
+      [ 'Tests', 'Negative', 781 ],
       [ 'Tests', 'Positive', 24 ],
-      [ 'Tests', 'Pending', 61 ],
+      [ 'Tests', 'Pending', 117 ],
     ]);
 
     var colors = ['#a6cee3', '#b2df8a', '#fb9a99', '#fdbf6f',
@@ -98,10 +98,10 @@ google.charts.setOnLoadCallback(drawBarColors);
 function drawBarColors() {
       var data = google.visualization.arrayToDataTable([
         ['Country', 'Tests per 1,000 people', { role: "style" } ],
-        ['Timor-Leste', 0.52, 'green'],
-        ['Indonesia', 0.23, ''],
-        ['Philippines', 0.69, ''],
-        ['Vietnam', 2.20, ''],
+        ['Timor-Leste', 0.70, 'green'],
+        ['Indonesia', 0.35, ''],
+        ['Philippines', 1.25, ''],
+        ['Vietnam', 2.68, ''],
         ['Australia', 20.34, ''],
       ]);
 
