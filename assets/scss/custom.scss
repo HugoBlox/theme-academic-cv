@@ -44,6 +44,7 @@ figure.float-right {
     border-color: rgb(68, 71, 90);
 }
 
+//author
 .card.author {
     width: 40%;
     max-width: 300px;
@@ -84,6 +85,8 @@ figure.float-right {
 .article-style a {
     word-break: break-all;
 }
+
+//tag
 .tag-link {
     position: relative;
     display: inline-block;
@@ -100,6 +103,7 @@ figure.float-right {
     transition: 0.6s ease;
 }
 
+//pagination
 .page-link{
     background-color: white !important;
     border-color: rgb(68, 71, 90) !important;
@@ -112,3 +116,34 @@ a.page-link:not([href]){
     background-color: transparent !important;
     border-color: white !important;
 }
+
+//post/single.html
+// .post-container article{
+//     position: absolute;
+//     top: 70px;
+//     left: 300px;
+//     @include media-breakpoint-down(md) {
+//         top: 50px;
+//         left: 0px;
+//     }
+// }
+// $sidebar-width: 300px;
+// .post-container .sidebar{
+//     position: fixed;
+//     top: 70px;
+//     right: 0px;
+//     width: $sidebar-width;
+//     z-index: 2;
+//     @include media-breakpoint-down(md) {
+//         display: none;
+//     }
+// }
+// .post-container .article-container{
+//     margin-left: 200px;
+// }
+// .post-container #TableOfContents li a{
+//     font-size: 1em;
+// }
+// .post-container #TableOfContents{
+//     margin: 10px;
+// }
