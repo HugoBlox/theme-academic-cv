@@ -15,6 +15,8 @@ weight = 1  # Order that this section will appear.
 
 # Timor-Leste Ministério da Saúde covid-19 Dashboard
 
+*Dadus aktualiza iha dia 12 Maiu 2020.*
+
 ## Kazu konfirmadu total no foun iha Timor-Leste
 Timor-Leste iha kazu konfirmadu total 24, maibé 20 rekupera ona, no laiha kazu ne'ebé mate.
 
@@ -85,6 +87,7 @@ Timor-Leste iha kazu konfirmadu total 24, maibé 20 rekupera ona, no laiha kazu 
             ["May 9, 2020",24,0, 21],
             ["May 10, 2020",24,0, 22],
             ["May 11, 2020",24,0, 22],
+            ["May 12, 2020",24,0, 22],
       ]);
 
       var options = {
