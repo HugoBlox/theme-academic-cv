@@ -44,7 +44,6 @@ figure.float-right {
     border-color: rgb(68, 71, 90);
 }
 
-//author
 .card.author {
     width: 40%;
     max-width: 300px;
@@ -54,27 +53,29 @@ figure.float-right {
     margin-top: 0px;
     text-align: center;
     margin: 20px 20px;
-}
-.card.author .avatar {
-    margin-top: 20px;
-    padding-left: 20%;
-    padding-right: 20%;
-    width: auto;
-    height: auto;
+    .avatar {
+        margin-top: 20px;
+        padding-left: 20%;
+        padding-right: 20%;
+        width: auto;
+        height: auto;
+    }
+    .card-text {
+        color: black;
+    }
 }
 .author-card-container {
     text-align: center;
     display: inline;
 }
-.card.author .card-text {
-    color: black;
-}
-.dark .card.author .card-text {
-    color: white;
-}
-.dark .card.author:hover * {
-    color: #f31b67;
-    transition: color 0.6s ease;
+.dark .card.author {
+    .card-text {
+        color: white;
+    }
+    &:hover * {
+        color: #f31b67;
+        transition: color 0.6s ease;
+    }
 }
 .author-card-container-title {
     text-align: center;
@@ -95,13 +96,14 @@ figure.float-right {
     padding: 0.25em 0.5em;
     color: white;
     background: #343a40;
+    &:hover {
+        color: white;
+        background-color: #f31b67;
+        text-decoration: none;
+        transition: 0.6s ease;
+    }
 }
-.tag-link:hover {
-    color: white;
-    background-color: #f31b67;
-    text-decoration: none;
-    transition: 0.6s ease;
-}
+
 
 //pagination
 .page-link{
