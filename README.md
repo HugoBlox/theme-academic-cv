@@ -13,10 +13,10 @@ This site is managed by [Hugo](https://gohugo.io/). To setup your dev environmen
 
 
 ## Deployment
-Deployment is managed by Netlify: https://app.netlify.com/sites/xenodochial-poitras-a4080a/overview
-Every time you `git push` a new commit to master, Netlify will:
-* Run the `hugo` command to generate all the site files in the `public` directory
-* Publish the site to https://xenodochial-poitras-a4080a.netlify.app
+Deployment is managed by Netlify: https://app.netlify.com/sites/focused-haibt-731db7/overview
+Every time you `git push` a new commit to master, Netlify will deploy automatically by:
+* Running the `hugo` command to generate all the site files in the `public` directory
+* Publishing the site to https://focused-haibt-731db7.netlify.app/
 
 ## Architecture
 This site uses a fork of [the Hugo Academic theme](https://github.com/covid19-tl/hugo-academic).
