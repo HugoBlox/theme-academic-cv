@@ -4,9 +4,6 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 3  # Order that this section will appear.
 
-title = "How does Timor compare?"
-subtitle = "Timor has less confirmed cases per million than Indonesia or the Philippines"
-
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "1"
@@ -45,6 +42,10 @@ subtitle = "Timor has less confirmed cases per million than Indonesia or the Phi
  # CSS class.
  css_class = ""
 +++
+
+## How does Timor compare?
+
+Timor has less confirmed cases per million than Indonesia or the Philippines
 
 <script type="text/javascript">
   google.charts.load('current', {
