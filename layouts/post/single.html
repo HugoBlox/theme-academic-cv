@@ -1,27 +1,10 @@
 {{- define "main" -}}
 
-<article class="article">
-
-  {{ partial "page_header" . }}
-
-  <div class="article-container">
-
-    <div class="article-style">
-      {{ .Content }}
-    </div>
-
-    {{ partial "page_footer" . }}
-
-  </div>
-</article>
-
-{{- end -}}
-
-{{/*  {{- define "main" -}}
-
 <div class="post-container">
-  <nav class="sidebar">
-    {{.TableOfContents}}
+  <nav class="sidebar-wrap">
+    <div class="sidebar">
+      {{.TableOfContents}}
+    </div>
   </nav>
   <article class="article">
     {{ partial "page_header" . }}
@@ -37,5 +20,4 @@
     </div>
   </article>  
 </div>
-
-{{- end -}}  */}}
+{{- end -}} 

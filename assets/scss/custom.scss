@@ -104,48 +104,56 @@ figure.float-right {
     }
 }
 
-
 //pagination
-.page-link{
+.page-link {
     background-color: white !important;
     border-color: rgb(68, 71, 90) !important;
 }
-.page-link.current{
+.page-link.current {
     background-color: #f31b67 !important;
     color: white !important;
 }
-a.page-link:not([href]){
+a.page-link:not([href]) {
     background-color: transparent !important;
     border-color: white !important;
 }
 
 //post/single.html
-// .post-container article{
-//     position: absolute;
-//     top: 70px;
-//     left: 300px;
-//     @include media-breakpoint-down(md) {
-//         top: 50px;
-//         left: 0px;
-//     }
-// }
-// $sidebar-width: 300px;
-// .post-container .sidebar{
-//     position: fixed;
-//     top: 70px;
-//     right: 0px;
-//     width: $sidebar-width;
-//     z-index: 2;
-//     @include media-breakpoint-down(md) {
-//         display: none;
-//     }
-// }
-// .post-container .article-container{
-//     margin-left: 200px;
-// }
-// .post-container #TableOfContents li a{
-//     font-size: 1em;
-// }
-// .post-container #TableOfContents{
-//     margin: 10px;
-// }
+$sidebar-width: 300px;
+.post-container {
+    display: grid;
+    grid-template-columns: calc(100% - $sidebar-width) $sidebar-width;
+    grid-template-rows: auto;
+    margin: 70px auto 0 auto;
+    width: calc(100% - 60px);
+    max-width: 1200px;
+    @include media-breakpoint-down(md) {
+        margin-top: 50px;
+    }
+    @include media-breakpoint-down(lg) {
+        grid-template-columns: auto;
+    }
+    .sidebar-wrap {
+        .sidebar {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 100px;
+            z-index: 2;
+            #TableOfContents {
+                border: none;
+                li a {
+                    font-size: 1rem;
+                }
+            }
+        }
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        @include media-breakpoint-down(lg) {
+            display: none;
+        }
+    }
+    article {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+}
