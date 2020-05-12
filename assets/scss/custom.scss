@@ -1,14 +1,14 @@
 // Override this file to add your own SCSS styling.
 .post-nav-item {
     width: 50%;
-}
-.post-nav-item:nth-child(1) {
-    float: right;
-    text-align: right;
-}
-.post-nav-item:nth-child(2) {
-    float: left;
-    text-align: left;
+    &:nth-child(1) {
+        float: right;
+        text-align: right;
+    }
+    &:nth-child(2) {
+        float: left;
+        text-align: left;
+    }
 }
 .article-style figure {
     margin-top: 0rem;
