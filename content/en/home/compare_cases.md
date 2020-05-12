@@ -2,7 +2,7 @@
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 2  # Order that this section will appear.
+weight = 3  # Order that this section will appear.
 
 title = "How does Timor compare?"
 subtitle = "Timor has less confirmed cases per million than Indonesia or the Philippines"
