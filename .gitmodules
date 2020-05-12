@@ -1,7 +1,3 @@
 [submodule "themes/academic"]
 	path = themes/academic
 	url = https://github.com/covid19-tl/hugo-academic.git
-[submodule "public"]
-	path = public
-	url = https://github.com/covid19-tl/covid19-tl.github.io
-	branch = master
