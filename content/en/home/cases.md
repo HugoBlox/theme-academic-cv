@@ -16,11 +16,11 @@ weight = 1  # Order that this section will appear.
 
 # Timor-Leste Ministry of Health covid-19 Dashboard
 
-*Data last updated on 12 May 2020.*
+*Data last updated on 13 May 2020.*
 
 ## Total and daily confirmed COVID-19 cases
 
-Timor-Leste has 24 confirmed cases, 20 of which already recovered, and 0 of which passed away.
+Timor-Leste has 24 confirmed cases, 23 of which already recovered, and 0 of which passed away.
 
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript">
@@ -90,6 +90,7 @@ Timor-Leste has 24 confirmed cases, 20 of which already recovered, and 0 of whic
             ["May 10, 2020",24,0, 22],
             ["May 11, 2020",24,0, 22],
             ["May 12, 2020",24,0, 22],
+            ["May 13, 2020",24,0, 23],
       ]);
 
       var options = {

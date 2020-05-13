@@ -16,10 +16,10 @@ weight = 2  # Order that this section will appear.
 
 ## Testing
 
-#### From the 952 tests conducted:
+#### From the 1120 tests conducted:
 * 24 came back positive
-* 781 came back negative
-* 147 are pending
+* 822 came back negative
+* 274 are pending
 
 <script type="text/javascript">
   google.charts.load('current', {'packages':['sankey']});
@@ -31,9 +31,9 @@ weight = 2  # Order that this section will appear.
     data.addColumn('string', 'To');
     data.addColumn('number', '');
     data.addRows([
-      [ 'Tests', 'Negative', 781 ],
+      [ 'Tests', 'Negative', 822 ],
       [ 'Tests', 'Positive', 24 ],
-      [ 'Tests', 'Pending', 147 ],
+      [ 'Tests', 'Pending', 274 ],
     ]);
 
     var colors = ['#a6cee3', '#b2df8a', '#fb9a99', '#fdbf6f',
