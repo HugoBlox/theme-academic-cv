@@ -44,7 +44,7 @@
     &lt;summary&gt;詳しくない人向け&lt;/summary&gt;
     &lt;h2 id=&#34;21-githubにサインイン&#34;&gt;2.1 GitHubにサインイン&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;にアクセスし、サインインしてください。&lt;/p&gt;
-&lt;h2 id=&#34;22-新しいレポジトリの作成&#34;&gt;2.2 新しいレポジトリの作成&lt;/h2&gt;
+&lt;h2 id=&#34;22-新しいリポジトリの作成&#34;&gt;2.2 新しいリポジトリの作成&lt;/h2&gt;
 &lt;figure class=&#34;left&#34; &gt;
 &lt;p&gt;&lt;a data-fancybox=&#34;&#34; href=&#34;./GitHub_New_Repository.png&#34; &gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;./GitHub_New_Repository.png&#34; alt=&#34;&#34;  &gt;
@@ -58,7 +58,7 @@
 &lt;/figure&gt;
 &lt;p&gt;&lt;code&gt;Repository name&lt;/code&gt;は任意の名前で構いませんが、ゲームをプレイする人も見ることができるので注意してください。&lt;br&gt;
 &lt;code&gt;Public&lt;/code&gt;と&lt;code&gt;Private&lt;/code&gt;を選択できますが、&lt;code&gt;Public&lt;/code&gt;を選択してください。&lt;br&gt;
-&lt;code&gt;Create repository&lt;/code&gt;を選択してレポジトリを作成してください。&lt;/p&gt;
+&lt;code&gt;Create repository&lt;/code&gt;を選択してリポジトリを作成してください。&lt;/p&gt;
 &lt;figure class=&#34;left&#34; &gt;
 &lt;p&gt;&lt;a data-fancybox=&#34;&#34; href=&#34;./GitHub_New_Repository3.png&#34; &gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;./GitHub_New_Repository3.png&#34; alt=&#34;&#34;  &gt;
@@ -143,7 +143,7 @@ git push -u origin master
 
 スクロールし、&lt;code&gt;GitHub Pages&lt;/code&gt;の&lt;code&gt;Source&lt;/code&gt;の下にあるドロップダウンリストで&lt;code&gt;master branch&lt;/code&gt;を選択してください。&lt;/p&gt;
 &lt;h1 id=&#34;公開したゲームをプレイ&#34;&gt;公開したゲームをプレイ&lt;/h1&gt;
-&lt;p&gt;&lt;code&gt;https://(ユーザー名).github.io/(レポジトリ名)/&lt;/code&gt;というURLにアクセスすると、作ったゲームをプレイすることができます。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;https://(ユーザー名).github.io/(リポジトリ名)/&lt;/code&gt;というURLにアクセスすると、作ったゲームをプレイすることができます。&lt;/p&gt;
 </description>
     </item>
     

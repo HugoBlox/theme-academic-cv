@@ -50,13 +50,13 @@ Gitに詳しくない人向けに書いています。Gitに詳しい人は`詳�
 {{<collapsable 詳しくない人向け>}}
 ## 2.1 GitHubにサインイン  
 [GitHub](https://github.com/)にアクセスし、サインインしてください。  
-## 2.2 新しいレポジトリの作成  
+## 2.2 新しいリポジトリの作成  
 {{<figure src="./GitHub_New_Repository.png" class="left">}}
 `Repositories`の右にある`New`をクリックしてください。  
 {{<figure src="./GitHub_New_Repository2.png" class="left">}}
 `Repository name`は任意の名前で構いませんが、ゲームをプレイする人も見ることができるので注意してください。  
 `Public`と`Private`を選択できますが、`Public`を選択してください。  
-`Create repository`を選択してレポジトリを作成してください。  
+`Create repository`を選択してリポジトリを作成してください。  
 {{<figure src="./GitHub_New_Repository3.png" class="left">}}
 赤い枠で囲まれたボタンを押してください。左のURLがクリップボードにコピーされます。
 ## 2.3 ファイルのアップロード
@@ -82,5 +82,5 @@ git push -u origin master
 スクロールし、`GitHub Pages`の`Source`の下にあるドロップダウンリストで`master branch`を選択してください。
 
 # 公開したゲームをプレイ
-`https://(ユーザー名).github.io/(レポジトリ名)/`というURLにアクセスすると、作ったゲームをプレイすることができます。
+`https://(ユーザー名).github.io/(リポジトリ名)/`というURLにアクセスすると、作ったゲームをプレイすることができます。
 
