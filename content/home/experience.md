@@ -19,17 +19,19 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
   title = "Google Summer of Code student developer"
-  company = "TARDIS-SN Collaboration"
+  company = "TARDIS-SN Collaboration  "
   company_url = ""
   location = ""
   date_start = "2020-05-04"
   date_end = ""
   description = """
+  
+  [Acceptance letter](files/acceptance-letter-gsoc20.pdf)
   """
 
 [[experience]]
   title = "Google Summer of Code student developer"
-  company = "The Python Software Foundation"
+  company = "Python Software Foundation"
   company_url = ""
   location = ""
   date_start = "2019-05-27"
