@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo | AppNaviブログ</title>
-    <link>https://juris710.github.io/AppNaviBlog/tag/hugo/</link>
-      <atom:link href="https://juris710.github.io/AppNaviBlog/tag/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://blog.opuappnavi.com/tag/hugo/</link>
+      <atom:link href="https://blog.opuappnavi.com/tag/hugo/index.xml" rel="self" type="application/rss+xml" />
     <description>Hugo</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710  2020</copyright><lastBuildDate>Tue, 28 Apr 2020 00:01:09 +0900</lastBuildDate>
     <image>
-      <url>https://juris710.github.io/AppNaviBlog/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url>
+      <url>https://blog.opuappnavi.com/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url>
       <title>Hugo</title>
-      <link>https://juris710.github.io/AppNaviBlog/tag/hugo/</link>
+      <link>https://blog.opuappnavi.com/tag/hugo/</link>
     </image>
     
     <item>
       <title>記事の書き方</title>
-      <link>https://juris710.github.io/AppNaviBlog/post/how-to-write-an-article/</link>
+      <link>https://blog.opuappnavi.com/post/how-to-write-an-article/</link>
       <pubDate>Tue, 28 Apr 2020 00:01:09 +0900</pubDate>
-      <guid>https://juris710.github.io/AppNaviBlog/post/how-to-write-an-article/</guid>
+      <guid>https://blog.opuappnavi.com/post/how-to-write-an-article/</guid>
       <description>&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;
 &lt;p&gt;このサイトでの記事の書き方をまとめました。英語でも構わない場合は
 &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式ドキュメント&lt;/a&gt;も参照してください。&lt;/p&gt;
@@ -170,7 +170,7 @@
     
 
   
-  &lt;span&gt;&lt;a href=&#34;https://juris710.github.io/AppNaviBlog/AppNaviBlog/author/juris710/&#34;&gt;Juris710&lt;/a&gt;&lt;/span&gt;
+  &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/juris710/&#34;&gt;Juris710&lt;/a&gt;&lt;/span&gt;
   &lt;/div&gt;
   
   
@@ -207,7 +207,7 @@
   
 
   &lt;h3 class=&#34;article-title mb-1 mt-3&#34;&gt;
-    &lt;a href=&#34;https://juris710.github.io/AppNaviBlog/AppNaviBlog/project/online-yukosai-2020/&#34;&gt;オンライン友好祭2020（仮称）&lt;/a&gt;
+    &lt;a href=&#34;https://blog.opuappnavi.com/project/online-yukosai-2020/&#34;&gt;オンライン友好祭2020（仮称）&lt;/a&gt;
   &lt;/h3&gt;
 
   
@@ -248,16 +248,16 @@ Markdown記法だけでも書けるのですが、見出し付近がナビゲー
 
 
 
-&lt;iframe id=example src=https://juris710.github.io/AppNaviBlog/slides/example width=640 height=360 allowfullscreen=true&gt;&lt;/iframe&gt;
+&lt;iframe id=example src=https://blog.opuappnavi.com/slides/example width=640 height=360 allowfullscreen=true&gt;&lt;/iframe&gt;
 
 </description>
     </item>
     
     <item>
       <title>このサイトについて</title>
-      <link>https://juris710.github.io/AppNaviBlog/post/site-introduction/</link>
+      <link>https://blog.opuappnavi.com/post/site-introduction/</link>
       <pubDate>Tue, 28 Apr 2020 00:00:59 +0900</pubDate>
-      <guid>https://juris710.github.io/AppNaviBlog/post/site-introduction/</guid>
+      <guid>https://blog.opuappnavi.com/post/site-introduction/</guid>
       <description>&lt;h1 id=&#34;サイト制作の経緯&#34;&gt;サイト制作の経緯&lt;/h1&gt;
 &lt;p&gt;4月末に、コンピュータハウスランダムさんからオンライン友好祭が提案されました。
 
@@ -298,7 +298,7 @@ Markdown記法だけでも書けるのですが、見出し付近がナビゲー
     
 
   
-  &lt;span&gt;&lt;a href=&#34;https://juris710.github.io/AppNaviBlog/AppNaviBlog/author/juris710/&#34;&gt;Juris710&lt;/a&gt;&lt;/span&gt;
+  &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/juris710/&#34;&gt;Juris710&lt;/a&gt;&lt;/span&gt;
   &lt;/div&gt;
   
   
@@ -335,7 +335,7 @@ Markdown記法だけでも書けるのですが、見出し付近がナビゲー
   
 
   &lt;h3 class=&#34;article-title mb-1 mt-3&#34;&gt;
-    &lt;a href=&#34;https://juris710.github.io/AppNaviBlog/AppNaviBlog/project/online-yukosai-2020/&#34;&gt;オンライン友好祭2020（仮称）&lt;/a&gt;
+    &lt;a href=&#34;https://blog.opuappnavi.com/project/online-yukosai-2020/&#34;&gt;オンライン友好祭2020（仮称）&lt;/a&gt;
   &lt;/h3&gt;
 
   

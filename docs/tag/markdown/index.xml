@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Markdown | AppNaviブログ</title>
-    <link>https://juris710.github.io/AppNaviBlog/tag/markdown/</link>
-      <atom:link href="https://juris710.github.io/AppNaviBlog/tag/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://blog.opuappnavi.com/tag/markdown/</link>
+      <atom:link href="https://blog.opuappnavi.com/tag/markdown/index.xml" rel="self" type="application/rss+xml" />
     <description>Markdown</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710  2020</copyright><lastBuildDate>Tue, 05 May 2020 21:46:39 +0900</lastBuildDate>
     <image>
-      <url>https://juris710.github.io/AppNaviBlog/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url>
+      <url>https://blog.opuappnavi.com/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url>
       <title>Markdown</title>
-      <link>https://juris710.github.io/AppNaviBlog/tag/markdown/</link>
+      <link>https://blog.opuappnavi.com/tag/markdown/</link>
     </image>
     
     <item>
       <title>(個人的)プログラマーなら使えたほうがいいファイル形式</title>
-      <link>https://juris710.github.io/AppNaviBlog/post/file-format-should-able-use/</link>
+      <link>https://blog.opuappnavi.com/post/file-format-should-able-use/</link>
       <pubDate>Tue, 05 May 2020 21:46:39 +0900</pubDate>
-      <guid>https://juris710.github.io/AppNaviBlog/post/file-format-should-able-use/</guid>
+      <guid>https://blog.opuappnavi.com/post/file-format-should-able-use/</guid>
       <description>&lt;p&gt;プログラミング入門講座を学び、UnityやAndroid、Webなどの開発を始めた脱プログラミング初心者に向けた記事です。何を開発するかに関わらず、内容を理解出来たり自分で書けたりすれば役にたつと思うファイル形式を3つ紹介します。&lt;/p&gt;
 &lt;h1 id=&#34;markdown&#34;&gt;Markdown&lt;/h1&gt;
 &lt;p&gt;Markdown（マークダウン）は、文書を記述するための軽量マークアップ言語のひとつです。
@@ -72,9 +72,9 @@ Unity 2019から&lt;code&gt;UI Elements&lt;/code&gt;という新しいUIシス�
     
     <item>
       <title>記事の書き方</title>
-      <link>https://juris710.github.io/AppNaviBlog/post/how-to-write-an-article/</link>
+      <link>https://blog.opuappnavi.com/post/how-to-write-an-article/</link>
       <pubDate>Tue, 28 Apr 2020 00:01:09 +0900</pubDate>
-      <guid>https://juris710.github.io/AppNaviBlog/post/how-to-write-an-article/</guid>
+      <guid>https://blog.opuappnavi.com/post/how-to-write-an-article/</guid>
       <description>&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;
 &lt;p&gt;このサイトでの記事の書き方をまとめました。英語でも構わない場合は
 &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式ドキュメント&lt;/a&gt;も参照してください。&lt;/p&gt;
@@ -228,7 +228,7 @@ Unity 2019から&lt;code&gt;UI Elements&lt;/code&gt;という新しいUIシス�
     
 
   
-  &lt;span&gt;&lt;a href=&#34;https://juris710.github.io/AppNaviBlog/AppNaviBlog/author/juris710/&#34;&gt;Juris710&lt;/a&gt;&lt;/span&gt;
+  &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/juris710/&#34;&gt;Juris710&lt;/a&gt;&lt;/span&gt;
   &lt;/div&gt;
   
   
@@ -265,7 +265,7 @@ Unity 2019から&lt;code&gt;UI Elements&lt;/code&gt;という新しいUIシス�
   
 
   &lt;h3 class=&#34;article-title mb-1 mt-3&#34;&gt;
-    &lt;a href=&#34;https://juris710.github.io/AppNaviBlog/AppNaviBlog/project/online-yukosai-2020/&#34;&gt;オンライン友好祭2020（仮称）&lt;/a&gt;
+    &lt;a href=&#34;https://blog.opuappnavi.com/project/online-yukosai-2020/&#34;&gt;オンライン友好祭2020（仮称）&lt;/a&gt;
   &lt;/h3&gt;
 
   
@@ -306,7 +306,7 @@ Markdown記法だけでも書けるのですが、見出し付近がナビゲー
 
 
 
-&lt;iframe id=example src=https://juris710.github.io/AppNaviBlog/slides/example width=640 height=360 allowfullscreen=true&gt;&lt;/iframe&gt;
+&lt;iframe id=example src=https://blog.opuappnavi.com/slides/example width=640 height=360 allowfullscreen=true&gt;&lt;/iframe&gt;
 
 </description>
     </item>

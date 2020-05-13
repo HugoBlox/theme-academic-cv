@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Slides | AppNaviブログ</title>
-    <link>https://juris710.github.io/AppNaviBlog/slides/</link>
-      <atom:link href="https://juris710.github.io/AppNaviBlog/slides/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://blog.opuappnavi.com/slides/</link>
+      <atom:link href="https://blog.opuappnavi.com/slides/index.xml" rel="self" type="application/rss+xml" />
     <description>Slides</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710  2020</copyright><lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Slides</title>
-      <link>https://juris710.github.io/AppNaviBlog/slides/example/</link>
+      <link>https://blog.opuappnavi.com/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://juris710.github.io/AppNaviBlog/slides/example/</guid>
+      <guid>https://blog.opuappnavi.com/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-academic&#34;&gt;Create slides in Markdown with Academic&lt;/h1&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; | 

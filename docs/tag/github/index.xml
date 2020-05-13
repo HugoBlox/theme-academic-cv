@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GitHub | AppNaviブログ</title>
-    <link>https://juris710.github.io/AppNaviBlog/tag/github/</link>
-      <atom:link href="https://juris710.github.io/AppNaviBlog/tag/github/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://blog.opuappnavi.com/tag/github/</link>
+      <atom:link href="https://blog.opuappnavi.com/tag/github/index.xml" rel="self" type="application/rss+xml" />
     <description>GitHub</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710  2020</copyright><lastBuildDate>Mon, 04 May 2020 20:17:22 +0900</lastBuildDate>
     <image>
-      <url>https://juris710.github.io/AppNaviBlog/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url>
+      <url>https://blog.opuappnavi.com/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url>
       <title>GitHub</title>
-      <link>https://juris710.github.io/AppNaviBlog/tag/github/</link>
+      <link>https://blog.opuappnavi.com/tag/github/</link>
     </image>
     
     <item>
       <title>Unity製ゲームをWebで共有する方法</title>
-      <link>https://juris710.github.io/AppNaviBlog/post/unity-github-pages/</link>
+      <link>https://blog.opuappnavi.com/post/unity-github-pages/</link>
       <pubDate>Mon, 04 May 2020 20:17:22 +0900</pubDate>
-      <guid>https://juris710.github.io/AppNaviBlog/post/unity-github-pages/</guid>
+      <guid>https://blog.opuappnavi.com/post/unity-github-pages/</guid>
       <description>&lt;p&gt;Gitに詳しくない人向けに書いています。Gitに詳しい人は&lt;code&gt;詳しくない人向け&lt;/code&gt;の部分は読まなくて大丈夫です。&lt;/p&gt;
 &lt;h1 id=&#34;必要なもの&#34;&gt;必要なもの&lt;/h1&gt;
 &lt;ul&gt;
@@ -149,9 +149,9 @@ git push -u origin master
     
     <item>
       <title>GitHub for Unityの紹介</title>
-      <link>https://juris710.github.io/AppNaviBlog/post/github-for-unity/</link>
+      <link>https://blog.opuappnavi.com/post/github-for-unity/</link>
       <pubDate>Thu, 30 Apr 2020 20:18:25 +0900</pubDate>
-      <guid>https://juris710.github.io/AppNaviBlog/post/github-for-unity/</guid>
+      <guid>https://blog.opuappnavi.com/post/github-for-unity/</guid>
       <description>&lt;h1 id=&#34;使用したunityのバージョン&#34;&gt;使用したUnityのバージョン&lt;/h1&gt;
 &lt;p&gt;Unity 2018.4.22f1&lt;/p&gt;
 &lt;h1 id=&#34;導入方法&#34;&gt;導入方法&lt;/h1&gt;

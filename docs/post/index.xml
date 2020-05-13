@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>記事一覧 | AppNaviブログ</title>
-    <link>https://juris710.github.io/AppNaviBlog/post/</link>
-      <atom:link href="https://juris710.github.io/AppNaviBlog/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://blog.opuappnavi.com/post/</link>
+      <atom:link href="https://blog.opuappnavi.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>記事一覧</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710  2020</copyright>
     <image>
-      <url>https://juris710.github.io/AppNaviBlog/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url>
+      <url>https://blog.opuappnavi.com/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url>
       <title>記事一覧</title>
-      <link>https://juris710.github.io/AppNaviBlog/post/</link>
+      <link>https://blog.opuappnavi.com/post/</link>
     </image>
     
     <item>
       <title>(個人的)プログラマーなら使えたほうがいいファイル形式</title>
-      <link>https://juris710.github.io/AppNaviBlog/post/file-format-should-able-use/</link>
+      <link>https://blog.opuappnavi.com/post/file-format-should-able-use/</link>
       <pubDate>Tue, 05 May 2020 21:46:39 +0900</pubDate>
-      <guid>https://juris710.github.io/AppNaviBlog/post/file-format-should-able-use/</guid>
+      <guid>https://blog.opuappnavi.com/post/file-format-should-able-use/</guid>
       <description>&lt;p&gt;プログラミング入門講座を学び、UnityやAndroid、Webなどの開発を始めた脱プログラミング初心者に向けた記事です。何を開発するかに関わらず、内容を理解出来たり自分で書けたりすれば役にたつと思うファイル形式を3つ紹介します。&lt;/p&gt;
 &lt;h1 id=&#34;markdown&#34;&gt;Markdown&lt;/h1&gt;
 &lt;p&gt;Markdown（マークダウン）は、文書を記述するための軽量マークアップ言語のひとつです。
@@ -72,9 +72,9 @@ Unity 2019から&lt;code&gt;UI Elements&lt;/code&gt;という新しいUIシス�
     
     <item>
       <title>Unity製ゲームをWebで共有する方法</title>
-      <link>https://juris710.github.io/AppNaviBlog/post/unity-github-pages/</link>
+      <link>https://blog.opuappnavi.com/post/unity-github-pages/</link>
       <pubDate>Mon, 04 May 2020 20:17:22 +0900</pubDate>
-      <guid>https://juris710.github.io/AppNaviBlog/post/unity-github-pages/</guid>
+      <guid>https://blog.opuappnavi.com/post/unity-github-pages/</guid>
       <description>&lt;p&gt;Gitに詳しくない人向けに書いています。Gitに詳しい人は&lt;code&gt;詳しくない人向け&lt;/code&gt;の部分は読まなくて大丈夫です。&lt;/p&gt;
 &lt;h1 id=&#34;必要なもの&#34;&gt;必要なもの&lt;/h1&gt;
 &lt;ul&gt;
@@ -207,9 +207,9 @@ git push -u origin master
     
     <item>
       <title>GitHub for Unityの紹介</title>
-      <link>https://juris710.github.io/AppNaviBlog/post/github-for-unity/</link>
+      <link>https://blog.opuappnavi.com/post/github-for-unity/</link>
       <pubDate>Thu, 30 Apr 2020 20:18:25 +0900</pubDate>
-      <guid>https://juris710.github.io/AppNaviBlog/post/github-for-unity/</guid>
+      <guid>https://blog.opuappnavi.com/post/github-for-unity/</guid>
       <description>&lt;h1 id=&#34;使用したunityのバージョン&#34;&gt;使用したUnityのバージョン&lt;/h1&gt;
 &lt;p&gt;Unity 2018.4.22f1&lt;/p&gt;
 &lt;h1 id=&#34;導入方法&#34;&gt;導入方法&lt;/h1&gt;
@@ -415,9 +415,9 @@ GitHubタブが開きます。
     
     <item>
       <title>Truck Quiz</title>
-      <link>https://juris710.github.io/AppNaviBlog/post/truck-quiz/</link>
+      <link>https://blog.opuappnavi.com/post/truck-quiz/</link>
       <pubDate>Tue, 28 Apr 2020 15:07:58 +0900</pubDate>
-      <guid>https://juris710.github.io/AppNaviBlog/post/truck-quiz/</guid>
+      <guid>https://blog.opuappnavi.com/post/truck-quiz/</guid>
       <description>&lt;p&gt;Unityについて勉強するため春休みの間に作成した、&amp;ldquo;Truck Quiz&amp;quot;を紹介します。&lt;/p&gt;
 &lt;h1 id=&#34;ゲームの説明&#34;&gt;ゲームの説明&lt;/h1&gt;
 &lt;p&gt;某有名クイズ番組のクイズを模したゲームです。
@@ -487,9 +487,9 @@ window.onresize = function(){ set_width(); };
     
     <item>
       <title>記事の書き方</title>
-      <link>https://juris710.github.io/AppNaviBlog/post/how-to-write-an-article/</link>
+      <link>https://blog.opuappnavi.com/post/how-to-write-an-article/</link>
       <pubDate>Tue, 28 Apr 2020 00:01:09 +0900</pubDate>
-      <guid>https://juris710.github.io/AppNaviBlog/post/how-to-write-an-article/</guid>
+      <guid>https://blog.opuappnavi.com/post/how-to-write-an-article/</guid>
       <description>&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;
 &lt;p&gt;このサイトでの記事の書き方をまとめました。英語でも構わない場合は
 &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式ドキュメント&lt;/a&gt;も参照してください。&lt;/p&gt;
@@ -643,7 +643,7 @@ window.onresize = function(){ set_width(); };
     
 
   
-  &lt;span&gt;&lt;a href=&#34;https://juris710.github.io/AppNaviBlog/AppNaviBlog/author/juris710/&#34;&gt;Juris710&lt;/a&gt;&lt;/span&gt;
+  &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/juris710/&#34;&gt;Juris710&lt;/a&gt;&lt;/span&gt;
   &lt;/div&gt;
   
   
@@ -680,7 +680,7 @@ window.onresize = function(){ set_width(); };
   
 
   &lt;h3 class=&#34;article-title mb-1 mt-3&#34;&gt;
-    &lt;a href=&#34;https://juris710.github.io/AppNaviBlog/AppNaviBlog/project/online-yukosai-2020/&#34;&gt;オンライン友好祭2020（仮称）&lt;/a&gt;
+    &lt;a href=&#34;https://blog.opuappnavi.com/project/online-yukosai-2020/&#34;&gt;オンライン友好祭2020（仮称）&lt;/a&gt;
   &lt;/h3&gt;
 
   
@@ -721,16 +721,16 @@ Markdown記法だけでも書けるのですが、見出し付近がナビゲー
 
 
 
-&lt;iframe id=example src=https://juris710.github.io/AppNaviBlog/slides/example width=640 height=360 allowfullscreen=true&gt;&lt;/iframe&gt;
+&lt;iframe id=example src=https://blog.opuappnavi.com/slides/example width=640 height=360 allowfullscreen=true&gt;&lt;/iframe&gt;
 
 </description>
     </item>
     
     <item>
       <title>このサイトについて</title>
-      <link>https://juris710.github.io/AppNaviBlog/post/site-introduction/</link>
+      <link>https://blog.opuappnavi.com/post/site-introduction/</link>
       <pubDate>Tue, 28 Apr 2020 00:00:59 +0900</pubDate>
-      <guid>https://juris710.github.io/AppNaviBlog/post/site-introduction/</guid>
+      <guid>https://blog.opuappnavi.com/post/site-introduction/</guid>
       <description>&lt;h1 id=&#34;サイト制作の経緯&#34;&gt;サイト制作の経緯&lt;/h1&gt;
 &lt;p&gt;4月末に、コンピュータハウスランダムさんからオンライン友好祭が提案されました。
 
@@ -771,7 +771,7 @@ Markdown記法だけでも書けるのですが、見出し付近がナビゲー
     
 
   
-  &lt;span&gt;&lt;a href=&#34;https://juris710.github.io/AppNaviBlog/AppNaviBlog/author/juris710/&#34;&gt;Juris710&lt;/a&gt;&lt;/span&gt;
+  &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/juris710/&#34;&gt;Juris710&lt;/a&gt;&lt;/span&gt;
   &lt;/div&gt;
   
   
@@ -808,7 +808,7 @@ Markdown記法だけでも書けるのですが、見出し付近がナビゲー
   
 
   &lt;h3 class=&#34;article-title mb-1 mt-3&#34;&gt;
-    &lt;a href=&#34;https://juris710.github.io/AppNaviBlog/AppNaviBlog/project/online-yukosai-2020/&#34;&gt;オンライン友好祭2020（仮称）&lt;/a&gt;
+    &lt;a href=&#34;https://blog.opuappnavi.com/project/online-yukosai-2020/&#34;&gt;オンライン友好祭2020（仮称）&lt;/a&gt;
   &lt;/h3&gt;
 
   

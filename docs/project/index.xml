@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>プロジェクト | AppNaviブログ</title>
-    <link>https://juris710.github.io/AppNaviBlog/project/</link>
-      <atom:link href="https://juris710.github.io/AppNaviBlog/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://blog.opuappnavi.com/project/</link>
+      <atom:link href="https://blog.opuappnavi.com/project/index.xml" rel="self" type="application/rss+xml" />
     <description>プロジェクト</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710  2020</copyright>
     <image>
-      <url>https://juris710.github.io/AppNaviBlog/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url>
+      <url>https://blog.opuappnavi.com/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url>
       <title>プロジェクト</title>
-      <link>https://juris710.github.io/AppNaviBlog/project/</link>
+      <link>https://blog.opuappnavi.com/project/</link>
     </image>
     
     <item>
       <title>オンライン友好祭2020（仮称）</title>
-      <link>https://juris710.github.io/AppNaviBlog/project/online-yukosai-2020/</link>
+      <link>https://blog.opuappnavi.com/project/online-yukosai-2020/</link>
       <pubDate>Tue, 28 Apr 2020 00:04:07 +0900</pubDate>
-      <guid>https://juris710.github.io/AppNaviBlog/project/online-yukosai-2020/</guid>
+      <guid>https://blog.opuappnavi.com/project/online-yukosai-2020/</guid>
       <description>&lt;p&gt;新型コロナウイルス感染拡大により、2020年5月30日、31日に開催予定だった第59回友好祭が中止となりました。中止となった友好祭に代わるイベントとして、コンピュータハウスランダムさんが提案されたのが「オンライン友好祭」です。&lt;/p&gt;
 </description>
     </item>
