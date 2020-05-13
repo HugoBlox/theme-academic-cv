@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>記事一覧 | AppNaviブログ</title>
+    <title>記事一覧 | アプリNaviブログ</title>
     <link>https://blog.opuappnavi.com/post/</link>
       <atom:link href="https://blog.opuappnavi.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>記事一覧</description>

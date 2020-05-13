@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AppNaviブログ</title>
+    <title>アプリNaviブログ</title>
     <link>https://blog.opuappnavi.com/</link>
       <atom:link href="https://blog.opuappnavi.com/index.xml" rel="self" type="application/rss+xml" />
-    <description>AppNaviブログ</description>
+    <description>アプリNaviブログ</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710  2020</copyright>
     <image>
       <url>https://blog.opuappnavi.com/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url>
-      <title>AppNaviブログ</title>
+      <title>アプリNaviブログ</title>
       <link>https://blog.opuappnavi.com/</link>
     </image>
     
