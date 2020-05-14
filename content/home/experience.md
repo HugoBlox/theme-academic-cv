@@ -18,7 +18,7 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Google Summer of Code student developer"
+  title = "Google Summer of Code student"
   company = "TARDIS-SN"
   company_url = ""
   location = ""
@@ -30,7 +30,7 @@ date_format = "Jan 2006"
   """
 
 [[experience]]
-  title = "Google Summer of Code student developer"
+  title = "Google Summer of Code student"
   company = "Python Software Foundation"
   company_url = ""
   location = ""
