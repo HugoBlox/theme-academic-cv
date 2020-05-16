@@ -93,6 +93,30 @@ $header-height-small: 50px;
 ### 対処法
 `themes\academic\layouts\partials\navbar.html`の79～90行目を修正
 
+# Markdownのコードのエスケープ
+`````````md
+``````md
+```c
+#include<stdio.h>
+
+int main(void){
+    printf("Hello, World!");
+    return 0;
+}
+```
+``````
+`````````
+下のように表示される
+``````md
+```c
+#include<stdio.h>
+
+int main(void){
+    printf("Hello, World!");
+    return 0;
+}
+```
+``````
 # academicのlayoutのhtmlファイルに関するメモ
 ## _default/list.html
 - Taxonomies(tags, categoriesなど)一覧表示

@@ -29,7 +29,7 @@ projects: []
 ```c:helloworld.c
 #include<stdio.h>
 int main(void){
-  printf("Hello, World!");
+{{<code-em>}}  printf("Hello, World!");{{</code-em>}}
   return 0;
 }
 ```

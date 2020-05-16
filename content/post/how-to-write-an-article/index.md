@@ -142,13 +142,15 @@ $$ F=G\frac{Mm}{r^2} $$
 `$$`の代わりに`$`で囲むと $ F=G\frac{Mm}{r^2} $ のようにインライン表示できます。
 ## Diagrams
 mermaid記法を使った図の挿入が可能です。
-```
+``````md
+```mermaid
 graph TD;
   A-->B;
   A-->C;
   B-->D;
   C-->D;
 ```
+``````
 以下のように表示されます。
 ```mermaid
 graph TD;

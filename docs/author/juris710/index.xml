@@ -731,11 +731,13 @@ $$ F=G\frac{Mm}{r^2} $$
 &lt;code&gt;$$&lt;/code&gt;の代わりに&lt;code&gt;$&lt;/code&gt;で囲むと $ F=G\frac{Mm}{r^2} $ のようにインライン表示できます。&lt;/p&gt;
 &lt;h2 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h2&gt;
 &lt;p&gt;mermaid記法を使った図の挿入が可能です。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;graph TD;
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;```mermaid
+graph TD;
   A--&amp;gt;B;
   A--&amp;gt;C;
   B--&amp;gt;D;
   C--&amp;gt;D;
+```
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;以下のように表示されます。&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph TD;

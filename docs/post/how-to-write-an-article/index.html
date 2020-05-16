@@ -64,10 +64,8 @@
     
       
       
-        
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/qtcreator_dark.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/qtcreator_dark.min.css" crossorigin="anonymous" title="hl-dark" disabled>
       
     
 
@@ -244,7 +242,7 @@
     
       <meta property="article:published_time" content="2020-04-28T00:01:09&#43;09:00">
     
-    <meta property="article:modified_time" content="2020-05-09T23:54:02&#43;09:00">
+    <meta property="article:modified_time" content="2020-05-16T17:48:59&#43;09:00">
   
 
   
@@ -273,7 +271,7 @@
   "headline": "記事の書き方",
   
   "datePublished": "2020-04-28T00:01:09+09:00",
-  "dateModified": "2020-05-09T23:54:02+09:00",
+  "dateModified": "2020-05-16T17:48:59+09:00",
   
   "author": {
     "@type": "Person",
@@ -604,7 +602,7 @@
           最終更新
       
     
-    2020/05/09
+    2020/05/16
   </span>
   
 
@@ -876,11 +874,13 @@ $$ F=G\frac{Mm}{r^2} $$
 <code>$$</code>の代わりに<code>$</code>で囲むと $ F=G\frac{Mm}{r^2} $ のようにインライン表示できます。</p>
 <h2 id="diagrams">Diagrams</h2>
 <p>mermaid記法を使った図の挿入が可能です。</p>
-<pre><code>graph TD;
+<pre><code class="language-md">```mermaid
+graph TD;
   A--&gt;B;
   A--&gt;C;
   B--&gt;D;
   C--&gt;D;
+```
 </code></pre>
 <p>以下のように表示されます。</p>
 <pre><code class="language-mermaid">graph TD;
