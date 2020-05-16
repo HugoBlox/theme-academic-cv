@@ -886,7 +886,7 @@ Unity 2019から<code>UI Elements</code>という新しいUIシステムが使�
   </article>  
 </div>
 <script>
-  function addFileNameText(code){
+  function addCodeTitle(code){
     let found = code.className.match(/.*language-.*:([^ ]+)/);
     if(found){
       let filename = found[1];
@@ -904,19 +904,20 @@ Unity 2019から<code>UI Elements</code>という新しいUIシステムが使�
     let button = document.createElement('button');
     button.className="copy-code-button";
     button.onclick = function(){
+      
       let listener = function(e){
         e.clipboardData.setData("text/plain" , code.textContent);    
         copiedText.classList.add("active");
         setTimeout(()=>{copiedText.classList.remove("active");},3000);
         
         e.preventDefault();
+        
+        document.removeEventListener("copy", listener);
       }
       
       document.addEventListener("copy" , listener);
       
       document.execCommand("copy");
-      
-      document.removeEventListener("copy", listener);
     }
     code.parentElement.insertBefore(button, code);  
 
@@ -924,9 +925,7 @@ Unity 2019から<code>UI Elements</code>という新しいUIシステムが使�
     icon.className = "far fa-clipboard";
     button.appendChild(icon);    
     button.appendChild(copiedText);    
-    
   }
-  
   let multilineCodes = [];
   [].forEach.call(document.getElementsByTagName(`pre`), function (pre) {
     multilineCodes = multilineCodes.concat(
@@ -936,30 +935,9 @@ Unity 2019から<code>UI Elements</code>という新しいUIシステムが使�
     );
   });
   multilineCodes.forEach(code => {
-    
-    
-    
-    
-
-    
-    
-    
-    addFileNameText(code);
+    addCodeTitle(code);
     addCopyButton(code);
   });
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
 </script>
 
       
