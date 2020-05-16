@@ -542,6 +542,8 @@
     </li>
     <li><a href="#その他">その他</a>
       <ul>
+        <li><a href="#数式">数式</a></li>
+        <li><a href="#diagrams">Diagrams</a></li>
         <li><a href="#スライド">スライド</a></li>
       </ul>
     </li>
@@ -865,6 +867,28 @@ Markdown記法だけでも書けるのですが、見出し付近がナビゲー
 <a href="javascript:void(0)" onmouseup="onPageLinkClicked('#%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF')">折りたたみ</a>
 のようなリンクが作れます。</p>
 <h1 id="その他">その他</h1>
+<h2 id="数式">数式</h2>
+<p>$\LaTeX$ 記法を用いることで数式を表示することができます。数式は<code>$$</code>で囲む必要があります。</p>
+<pre><code class="language-math">$$ F=G\frac{Mm}{r^2} $$
+</code></pre>
+<p>下のように表示されます。
+$$ F=G\frac{Mm}{r^2} $$
+<code>$$</code>の代わりに<code>$</code>で囲むと $ F=G\frac{Mm}{r^2} $ のようにインライン表示できます。</p>
+<h2 id="diagrams">Diagrams</h2>
+<p>mermaid記法を使った図の挿入が可能です。</p>
+<pre><code>graph TD;
+  A--&gt;B;
+  A--&gt;C;
+  B--&gt;D;
+  C--&gt;D;
+</code></pre>
+<p>以下のように表示されます。</p>
+<pre><code class="language-mermaid">graph TD;
+  A--&gt;B;
+  A--&gt;C;
+  B--&gt;D;
+  C--&gt;D;
+</code></pre>
 <h2 id="スライド">スライド</h2>
 <p>Markdown記法で簡易的なスライドを作成することができます。</p>
 <pre><code>{{&lt; slide-frame src=&quot;スライド名&quot; &gt;}}
@@ -1046,6 +1070,9 @@ Markdown記法だけでも書けるのですが、見出し付近がナビゲー
   </article>  
 </div>
 <script>
+  function needsCodeTitleAndCopyButton(code){
+    return !RegExp(/.*language-(mermaid).*/).test(code.className);
+  }
   function addCodeTitle(code){
     let found = code.className.match(/.*language-.*:([^ ]+)/);
     if(found){
@@ -1095,8 +1122,10 @@ Markdown記法だけでも書けるのですが、見出し付近がナビゲー
     );
   });
   multilineCodes.forEach(code => {
-    addCodeTitle(code);
-    addCopyButton(code);
+    if(needsCodeTitleAndCopyButton(code)){
+      addCodeTitle(code);
+      addCopyButton(code);
+    }
   });
 </script>
 

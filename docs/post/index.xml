@@ -713,6 +713,28 @@ Markdown記法だけでも書けるのですが、見出し付近がナビゲー
 &lt;a href=&#34;javascript:void(0)&#34; onmouseup=&#34;onPageLinkClicked(&#39;#%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF&#39;)&#34;&gt;折りたたみ&lt;/a&gt;
 のようなリンクが作れます。&lt;/p&gt;
 &lt;h1 id=&#34;その他&#34;&gt;その他&lt;/h1&gt;
+&lt;h2 id=&#34;数式&#34;&gt;数式&lt;/h2&gt;
+&lt;p&gt;$\LaTeX$ 記法を用いることで数式を表示することができます。数式は&lt;code&gt;$$&lt;/code&gt;で囲む必要があります。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-math&#34;&gt;$$ F=G\frac{Mm}{r^2} $$
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;下のように表示されます。
+$$ F=G\frac{Mm}{r^2} $$
+&lt;code&gt;$$&lt;/code&gt;の代わりに&lt;code&gt;$&lt;/code&gt;で囲むと $ F=G\frac{Mm}{r^2} $ のようにインライン表示できます。&lt;/p&gt;
+&lt;h2 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h2&gt;
+&lt;p&gt;mermaid記法を使った図の挿入が可能です。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;graph TD;
+  A--&amp;gt;B;
+  A--&amp;gt;C;
+  B--&amp;gt;D;
+  C--&amp;gt;D;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;以下のように表示されます。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph TD;
+  A--&amp;gt;B;
+  A--&amp;gt;C;
+  B--&amp;gt;D;
+  C--&amp;gt;D;
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;スライド&#34;&gt;スライド&lt;/h2&gt;
 &lt;p&gt;Markdown記法で簡易的なスライドを作成することができます。&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;{{&amp;lt; slide-frame src=&amp;quot;スライド名&amp;quot; &amp;gt;}}

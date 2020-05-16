@@ -966,6 +966,9 @@ git push -u origin master
   </article>  
 </div>
 <script>
+  function needsCodeTitleAndCopyButton(code){
+    return !RegExp(/.*language-(mermaid).*/).test(code.className);
+  }
   function addCodeTitle(code){
     let found = code.className.match(/.*language-.*:([^ ]+)/);
     if(found){
@@ -1015,8 +1018,10 @@ git push -u origin master
     );
   });
   multilineCodes.forEach(code => {
-    addCodeTitle(code);
-    addCopyButton(code);
+    if(needsCodeTitleAndCopyButton(code)){
+      addCodeTitle(code);
+      addCopyButton(code);
+    }
   });
 </script>
 
