@@ -1045,6 +1045,82 @@ Markdown記法だけでも書けるのですが、見出し付近がナビゲー
     </div>
   </article>  
 </div>
+<script>
+  function addFileNameText(code){
+    let found = code.className.match(/.*language-.*:([^ ]+)/);
+    if(found){
+      let filename = found[1];
+      let text = document.createElement('div');
+      text.className = "code-title";
+      text.innerHTML = filename;
+      code.parentElement.insertBefore(text, code);
+    }
+  }
+  function addCopyButton(code){
+    let copiedText = document.createElement('div');
+    copiedText.className = "code-copied-text";   
+    copiedText.innerHTML = "コピーしました。";
+
+    let button = document.createElement('button');
+    button.className="copy-code-button";
+    button.onclick = function(){
+      let listener = function(e){
+        e.clipboardData.setData("text/plain" , code.textContent);    
+        copiedText.classList.add("active");
+        setTimeout(()=>{copiedText.classList.remove("active");},3000);
+        
+        e.preventDefault();
+      }
+      
+      document.addEventListener("copy" , listener);
+      
+      document.execCommand("copy");
+      
+      document.removeEventListener("copy", listener);
+    }
+    code.parentElement.insertBefore(button, code);  
+
+    let icon = document.createElement('i');
+    icon.className = "far fa-clipboard";
+    button.appendChild(icon);    
+    button.appendChild(copiedText);    
+    
+  }
+  
+  let multilineCodes = [];
+  [].forEach.call(document.getElementsByTagName(`pre`), function (pre) {
+    multilineCodes = multilineCodes.concat(
+      [].filter.call(pre.childNodes, node => {
+        return node.tagName == "CODE"; 
+      })
+    );
+  });
+  multilineCodes.forEach(code => {
+    
+    
+    
+    
+
+    
+    
+    
+    addFileNameText(code);
+    addCopyButton(code);
+  });
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</script>
 
       
 

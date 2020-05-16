@@ -21,4 +21,80 @@
     </div>
   </article>  
 </div>
+<script>
+  function addFileNameText(code){
+    let found = code.className.match(/.*language-.*:([^ ]+)/);
+    if(found){
+      let filename = found[1];
+      let text = document.createElement('div');
+      text.className = "code-title";
+      text.innerHTML = filename;
+      code.parentElement.insertBefore(text, code);
+    }
+  }
+  function addCopyButton(code){
+    let copiedText = document.createElement('div');
+    copiedText.className = "code-copied-text";   
+    copiedText.innerHTML = "コピーしました。";
+
+    let button = document.createElement('button');
+    button.className="copy-code-button";
+    button.onclick = function(){
+      let listener = function(e){
+        e.clipboardData.setData("text/plain" , code.textContent);    
+        copiedText.classList.add("active");
+        setTimeout(()=>{copiedText.classList.remove("active");},3000);
+        // 本来のイベントをキャンセル
+        e.preventDefault();
+      }
+      // コピーのイベントが発生したときに、クリップボードに書き込むようにしておく
+      document.addEventListener("copy" , listener);
+      // コピー
+      document.execCommand("copy");
+      // 終わったら一応削除
+      document.removeEventListener("copy", listener);
+    }
+    code.parentElement.insertBefore(button, code);  
+
+    let icon = document.createElement('i');
+    icon.className = "far fa-clipboard";
+    button.appendChild(icon);    
+    button.appendChild(copiedText);    
+    //codeHeader.appendChild(copiedText);
+  }
+  //参考：https://qiita.com/butakoma/items/642c0ec4b77f6bb5ebcf
+  let multilineCodes = [];
+  [].forEach.call(document.getElementsByTagName(`pre`), function (pre) {
+    multilineCodes = multilineCodes.concat(
+      [].filter.call(pre.childNodes, node => {
+        return node.tagName == "CODE"; 
+      })
+    );
+  });
+  multilineCodes.forEach(code => {
+    //let e = document.createElement('div');
+    //e.innerHTML = "hello";
+    //e.style = "float: right";
+    //code.parentElement.insertBefore(e, code);
+
+    //let codeHeader = document.createElement('div');
+    //codeHeader.className = "code-header";
+    //code.parentElement.insertBefore(codeHeader, code);
+    addFileNameText(code);
+    addCopyButton(code);
+  });
+  //function getAllFuncs(toCheck) {
+  //  var props = [];
+  //  var obj = toCheck;
+  //  do {
+  //      props = props.concat(Object.getOwnPropertyNames(obj));
+  //  } while (obj = Object.getPrototypeOf(obj));
+  //  return props.sort().filter(function(e, i, arr) { 
+  //     if (e!=arr[i+1] && typeof toCheck[e] == 'function') return true;
+  //  });
+  //}
+  //getAllFuncs(document.getElementsByTagName("code").item(0)).forEach(i=>{
+  //  console.log(i);
+  //});
+</script>
 {{- end -}} 
