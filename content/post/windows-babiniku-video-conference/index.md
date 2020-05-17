@@ -24,7 +24,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: ["online-yukosai-2020"]
 ---
 # はじめに
 ## バ美肉とは
@@ -61,8 +61,7 @@ https://facevtuber.com/にアクセスします。
 ## ビデオ会議に参加
 カメラとして`OBS-Camera`を選択すれば、バ美肉した姿でビデオ会議に参加できます。
 
-# Tips(Windows、Mac両方)
-## facevtuber.com
+# Tips(facevtuber.com)
 - モデルを変更したい場合
   1. "ファイルを選択"をクリックし、MMDモデル入りzipファイルを選択
   2. 権利表記を確認するダイアログが複数表示されるので、ダイアログが表示されなくなるまで`OK`を押し続ける
