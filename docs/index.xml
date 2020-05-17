@@ -13,6 +13,23 @@
     </image>
     
     <item>
+      <title>Test</title>
+      <link>https://blog.opuappnavi.com/slides/test/</link>
+      <pubDate>Sun, 17 May 2020 17:58:10 +0900</pubDate>
+      <guid>https://blog.opuappnavi.com/slides/test/</guid>
+      <description>&lt;h1 id=&#34;テスト&#34;&gt;テスト&lt;/h1&gt;
+&lt;p&gt;こんにちは&lt;/p&gt;
+&lt;hr&gt;
+&lt;pre&gt;&lt;code class=&#34;language-c:helloworld.c&#34;&gt;#include&amp;lt;stdio.h&amp;gt;
+int main(void){
+  printf(&amp;quot;Hello, World!&amp;quot;);
+  return 0;
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Windowsでもビデオ会議でバ美肉したい！</title>
       <link>https://blog.opuappnavi.com/post/windows-babiniku-video-conference/</link>
       <pubDate>Sun, 17 May 2020 15:47:06 +0900</pubDate>
@@ -572,7 +589,7 @@ window.onresize = function(){ set_width(); };
 &lt;p&gt;全ての記事はMarkdown記法で書く必要があります。書き方については
 &lt;a href=&#34;https://qiita.com/kamorits/items/6f342da395ad57468ae3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;このサイト&lt;/a&gt;を参照してください。&lt;/p&gt;
 &lt;h2 id=&#34;画像を挿入する場合&#34;&gt;画像を挿入する場合&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;![代替テキスト](./画像名)
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;![&lt;span class=&#34;code-em&#34;&gt;代替テキスト&lt;/span&gt;](&lt;span class=&#34;code-em&#34;&gt;./画像名&lt;/span&gt;)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
@@ -594,7 +611,7 @@ window.onresize = function(){ set_width(); };
 &lt;h1 id=&#34;shortcodes&#34;&gt;Shortcodes&lt;/h1&gt;
 &lt;p&gt;ShortcodesとはHugo独自の機能で、Markdownファイルに書くことができるスニペットです。&lt;/p&gt;
 &lt;h2 id=&#34;画像の挿入&#34;&gt;画像の挿入&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot; &amp;gt;}}
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;{{&amp;lt; figure src=&amp;quot;&lt;span class=&#34;code-em&#34;&gt;./画像名&lt;/span&gt;&amp;quot; title=&amp;quot;&lt;span class=&#34;code-em&#34;&gt;代替テキスト&lt;/span&gt;&amp;quot; &amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
@@ -605,36 +622,32 @@ window.onresize = function(){ set_width(); };
 &lt;h3 id=&#34;画像の左寄せ右寄せ&#34;&gt;画像の左寄せ、右寄せ&lt;/h3&gt;
 &lt;p&gt;&lt;details&gt;
     &lt;summary&gt;左寄せ&lt;/summary&gt;
-    &lt;pre&gt;&lt;code&gt;{{&amp;lt; figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot; class=&amp;quot;left&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
+    &lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&amp;lt; figure src=&#34;&lt;span class=&#34;code-em&#34;&gt;./画像名&lt;/span&gt;&#34; title=&#34;&lt;span class=&#34;code-em&#34;&gt;代替テキスト&lt;/span&gt;&#34;  class=&#34;left&#34; &amp;gt;}}&lt;/code&gt;&lt;/pre&gt;
 
 &lt;/details&gt;
 
 &lt;details&gt;
     &lt;summary&gt;右寄せ&lt;/summary&gt;
-    &lt;pre&gt;&lt;code&gt;{{&amp;lt; figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot; class=&amp;quot;right&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
+    &lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&amp;lt; figure src=&#34;&lt;span class=&#34;code-em&#34;&gt;./画像名&lt;/span&gt;&#34; title=&#34;&lt;span class=&#34;code-em&#34;&gt;代替テキスト&lt;/span&gt;&#34;  class=&#34;right&#34; &amp;gt;}}&lt;/code&gt;&lt;/pre&gt;
 
 &lt;/details&gt;
 
 &lt;details&gt;
     &lt;summary&gt;左寄せ(float)&lt;/summary&gt;
-    &lt;pre&gt;&lt;code&gt;{{&amp;lt; figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot; class=&amp;quot;float-left&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
+    &lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&amp;lt; figure src=&#34;&lt;span class=&#34;code-em&#34;&gt;./画像名&lt;/span&gt;&#34; title=&#34;&lt;span class=&#34;code-em&#34;&gt;代替テキスト&lt;/span&gt;&#34;  class=&#34;float-left&#34; &amp;gt;}}&lt;/code&gt;&lt;/pre&gt;
 
 &lt;/details&gt;
 
 &lt;details&gt;
-    &lt;summary&gt;左寄せ(float)&lt;/summary&gt;
-    &lt;pre&gt;&lt;code&gt;{{&amp;lt; figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot; class=&amp;quot;float-right&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
+    &lt;summary&gt;右寄せ(float)&lt;/summary&gt;
+    &lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&amp;lt; figure src=&#34;&lt;span class=&#34;code-em&#34;&gt;./画像名&lt;/span&gt;&#34; title=&#34;&lt;span class=&#34;code-em&#34;&gt;代替テキスト&lt;/span&gt;&#34;  class=&#34;float-right&#34; &amp;gt;}}&lt;/code&gt;&lt;/pre&gt;
 
 &lt;/details&gt;
 &lt;/p&gt;
 &lt;p&gt;他にも、画像の幅・高さなどをカスタムすることができます。詳しくは
 &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#figure&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式ドキュメント&lt;/a&gt;  を参照してください。&lt;/p&gt;
 &lt;h2 id=&#34;youtube動画埋め込み&#34;&gt;Youtube動画埋め込み&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; youtube 動画のID &amp;gt;}}
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;{{&amp;lt; youtube &lt;span class=&#34;code-em&#34;&gt;動画のID&lt;/span&gt; &amp;gt;}} 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
@@ -645,10 +658,10 @@ window.onresize = function(){ set_width(); };
 &lt;h2 id=&#34;unity-webglの埋め込み&#34;&gt;Unity WebGLの埋め込み&lt;/h2&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://ch-random.net/post/93/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ランダムさんの記事&lt;/a&gt;の内容を少し改変した自作Shortcodeです&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; unity src=&amp;quot;URL&amp;quot;&amp;gt;}}
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;{{&amp;lt; unity src=&amp;quot;&lt;span class=&#34;code-em&#34;&gt;URL&lt;/span&gt;&amp;quot;　&amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;ツイートの埋め込み&#34;&gt;ツイートの埋め込み&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; tweet ツイートID &amp;gt;}}
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;{{&amp;lt; tweet &lt;span class=&#34;code-em&#34;&gt;ツイートID&lt;/span&gt; &amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
@@ -658,12 +671,11 @@ window.onresize = function(){ set_width(); };
 
 &lt;h2 id=&#34;折りたたみ&#34;&gt;折りたたみ&lt;/h2&gt;
 &lt;p&gt;自作Shortcodeです。折りたたまれている時、展開された時ともに、Markdown記法を用いた文章が使えます。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; collapsable &amp;quot;`折りたたまれている時に表示する文字列`&amp;quot; &amp;gt;}}
-  展開された時に表示する文章1  
-  **展開された時に表示する文章2**  
-  &amp;gt; 展開された時に表示する文章3  
-{{&amp;lt; /collapsable &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&amp;lt; collapsable &#34;&lt;span class=&#34;code-em&#34;&gt;`折りたたまれている時に表示する文字列`&lt;/span&gt;&#34; &amp;gt;}}
+  &lt;span class=&#34;code-em&#34;&gt;展開された時に表示する文章1&lt;/span&gt;  
+  &lt;span class=&#34;code-em&#34;&gt;**展開された時に表示する文章2**&lt;/span&gt;  
+  &lt;span class=&#34;code-em&#34;&gt;&gt; 展開された時に表示する文章3&lt;/span&gt;  
+{{&amp;lt; /collapsable &amp;gt;}}&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;下のように表示されます。
 &lt;details&gt;
     &lt;summary&gt;&lt;code&gt;折りたたまれている時に表示する文字列&lt;/code&gt;&lt;/summary&gt;
@@ -677,7 +689,7 @@ window.onresize = function(){ set_width(); };
 &lt;/p&gt;
 &lt;h2 id=&#34;ページへのリンクカード表示&#34;&gt;ページへのリンク（カード表示）&lt;/h2&gt;
 &lt;p&gt;自作Shortcodeです。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; page &amp;quot;表示したいページのパス(ホームからの相対パス)&amp;quot; &amp;gt;}}
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;{{&amp;lt; page &amp;quot;&lt;span class=&#34;code-em&#34;&gt;表示したいページのパス(ホームからの相対パス)&lt;/span&gt;&amp;quot; &amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;例えば&lt;code&gt;{{&amp;lt; page &amp;quot;project/online-yukosai-2020&amp;quot; &amp;gt;}}&lt;/code&gt;と記述すると、下のように表示されます。
 
@@ -772,7 +784,7 @@ window.onresize = function(){ set_width(); };
 &lt;h2 id=&#34;ページ内リンク&#34;&gt;ページ内リンク&lt;/h2&gt;
 &lt;p&gt;クリックすると同じページ内の見出しに飛ぶことができるリンクを挿入する自作Shortcodeです。
 Markdown記法だけでも書けるのですが、見出し付近がナビゲーションバーに隠れてしまうバグがあるため、それを解消しています。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; jump  &amp;quot;見出し名&amp;quot; &amp;quot;リンクテキスト&amp;quot;&amp;gt;}}
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;{{&amp;lt; jump  &amp;quot;&lt;span class=&#34;code-em&#34;&gt;見出し名&lt;/span&gt;&amp;quot; &amp;quot;&lt;span class=&#34;code-em&#34;&gt;リンクテキスト&lt;/span&gt;&amp;quot; &amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;code&gt;&amp;quot;リンクテキスト&amp;quot;&lt;/code&gt;は省略可能です。&lt;br&gt;
 例えば&lt;code&gt;{{&amp;lt;jump &amp;quot;折りたたみ&amp;quot;&amp;gt;}}&lt;/code&gt;と書くと
@@ -814,13 +826,13 @@ graph TD;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;スライド&#34;&gt;スライド&lt;/h2&gt;
 &lt;p&gt;Markdown記法で簡易的なスライドを作成することができます。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{&amp;lt; slide-frame src=&amp;quot;スライド名&amp;quot; &amp;gt;}}
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;{{&amp;lt; slide-frame src=&amp;quot;&lt;span class=&#34;code-em&#34;&gt;スライド名&lt;/span&gt;&amp;quot; &amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;
 
 
 
 
-&lt;iframe id=example src=https://blog.opuappnavi.com/slides/example width=640 height=360 allowfullscreen=true&gt;&lt;/iframe&gt;
+&lt;iframe id=test src=https://blog.opuappnavi.com/slides/test width=640 height=360 allowfullscreen=true&gt;&lt;/iframe&gt;
 
 </description>
     </item>
@@ -923,145 +935,11 @@ graph TD;
  
 オンライン友好祭において、ゲーム展示以外にできることはないかと考え、部員がブログを書くのはどうだろうかと考えました。既に存在していた
 &lt;a href=&#34;https://opuappnavi.com/#/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;アプリNaviのウェブサイト&lt;/a&gt;には
-ブログ投稿機能がなかったため、Web開発の勉強をかねてこのサイトを作成しました。&lt;br&gt;
+ブログ投稿機能がなかったことに加え、今まで触ったことがなかったWeb開発をしてみたかったこともありこのサイトを作成しました。&lt;br&gt;
 サイトの作成にあたり、アプリNaviと同じく大阪府立大学の部活である、コンピュータハウスランダムさんの
 &lt;a href=&#34;https://ch-random.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ウェブサイト&lt;/a&gt;を参考にしました。&lt;/p&gt;
 &lt;h1 id=&#34;hugo&#34;&gt;Hugo&lt;/h1&gt;
-&lt;p&gt;このサイトは、静的サイトジェネレーターであるHugoを用いて作成しました。htmlやcssについてある程度知っている程度でWeb関連に明るくない私でも、Hugoを使うことでとても簡単に作成することができました。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Slides</title>
-      <link>https://blog.opuappnavi.com/slides/example/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://blog.opuappnavi.com/slides/example/</guid>
-      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-academic&#34;&gt;Create slides in Markdown with Academic&lt;/h1&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; | 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
-&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
-&lt;li&gt;Supports speaker notes&lt;/li&gt;
-&lt;li&gt;Mobile friendly slides&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
-&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Code block:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
-if porridge == &amp;quot;blueberry&amp;quot;:
-    print(&amp;quot;Eating...&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
-&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
-&lt;p&gt;Block math:&lt;/p&gt;
-&lt;p&gt;$$
-f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
-$$&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
-&lt;p&gt;Make content appear incrementally&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
-{{% fragment %}} **Two** {{% /fragment %}}
-{{% fragment %}} Three {{% /fragment %}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-One 
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-&lt;strong&gt;Two&lt;/strong&gt; 
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-Three 
-&lt;/span&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
-&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
-- Only the speaker can read these notes
-- Press `S` key to view
-{{% /speaker_note %}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
-&lt;aside class=&#34;notes&#34;&gt;
-  &lt;ul&gt;
-&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
-&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;/aside&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
-&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
-&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
-&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
-&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
-&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-
-&lt;section data-noprocess data-shortcode-slide
-  
-      
-      data-background-image=&#34;boards.jpg&#34;
-  &gt;
-
-&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
-&lt;p&gt;Customize the slide style and background&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;boards.jpg&amp;quot; &amp;gt;}}
-{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
-{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
-&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
-&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
-.reveal section h2,
-.reveal section h3 {
-  color: navy;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://spectrum.chat/academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;このサイトは、静的サイトジェネレーターであるHugoを用いて作成しました。htmlやcssについてある程度知っている程度でWeb関連に明るくない私でも、Hugoを使うことでとても簡単にWebサイトを作成できました。&lt;/p&gt;
 </description>
     </item>
     

@@ -3,8 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.opuappnavi.com/slides/</loc>
+    <lastmod>2020-05-17T17:58:10+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.opuappnavi.com/slides/test/</loc>
+    <lastmod>2020-05-17T17:58:10+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.opuappnavi.com/post/windows-babiniku-video-conference/</loc>
-    <lastmod>2020-05-17T17:12:43+09:00</lastmod>
+    <lastmod>2020-05-17T17:23:44+09:00</lastmod>
   </url>
   
   <url>
@@ -90,16 +100,6 @@
   <url>
     <loc>https://blog.opuappnavi.com/post/site-introduction/</loc>
     <lastmod>2020-05-10T15:31:47+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.opuappnavi.com/slides/</loc>
-    <lastmod>2020-05-05T17:02:30+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.opuappnavi.com/slides/example/</loc>
-    <lastmod>2020-05-05T17:02:30+09:00</lastmod>
   </url>
   
   <url>

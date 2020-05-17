@@ -59,6 +59,10 @@ projects: []
 記事のindex.mdファイルがあるフォルダに画像を追加
 
 # Known Issues
+## Nested Shortcodes
+`{{.Inner}}`を用いるShortcodeで別のShortcodeがある文章を囲むと上手く表示されない。
+- `{{.Inner | markdownify}}`だと、Markdown→Htmlの変換は問題ないが、特殊文字(`&lt;` → `<`など)が上手く変換されない
+- `{{.Inner | safeHTML}}`だと、特殊文字(`&lt;` → `<`など)の変換は問題ないがMarkdownからHtmlに変換されない
 ## ページ内リンクの不具合
 記事内でページ内リンク(例えば[はじめに](#はじめに))を使う際、移動先の一部がヘッダーによって隠れてしまう。
 ### 解決法1

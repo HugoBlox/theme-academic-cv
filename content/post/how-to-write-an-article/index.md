@@ -34,7 +34,7 @@ projects: []
 
 ## 画像を挿入する場合
 ```md
-![代替テキスト](./画像名)
+![{{<code-em>}}代替テキスト{{</code-em>}}]({{<code-em>}}./画像名{{</code-em>}})
 ``` 
 {{<alert note>}}
 「画像名」には拡張子も含めてください  
@@ -44,32 +44,24 @@ projects: []
 # Shortcodes
 ShortcodesとはHugo独自の機能で、Markdownファイルに書くことができるスニペットです。  
 ## 画像の挿入
-```
-{{</* figure src="./画像名" title="代替テキスト" */>}}
+```bash
+{{<shortcode-tag-left>}} figure src="{{<code-em>}}./画像名{{</code-em>}}" title="{{<code-em>}}代替テキスト{{</code-em>}}" {{<shortcode-tag-right>}}
 ```
 {{<alert note>}}
 「画像名」には拡張子も含めてください  
 {{</alert>}}
 ### 画像の左寄せ、右寄せ
 {{< collapsable 左寄せ >}}
-```
-{{</* figure src="./画像名" title="代替テキスト" class="left" */>}}
-```
+<pre><code class="language-bash hljs">{{<shortcode-tag-left>}} figure src="{{<code-em>}}./画像名{{</code-em>}}" title="{{<code-em>}}代替テキスト{{</code-em>}}"  class="left" {{<shortcode-tag-right>}}</code></pre>
 {{< /collapsable >}}
 {{< collapsable 右寄せ >}}
-```
-{{</* figure src="./画像名" title="代替テキスト" class="right" */>}}
-```
+<pre><code class="language-bash hljs">{{<shortcode-tag-left>}} figure src="{{<code-em>}}./画像名{{</code-em>}}" title="{{<code-em>}}代替テキスト{{</code-em>}}"  class="right" {{<shortcode-tag-right>}}</code></pre>
 {{< /collapsable >}}
 {{< collapsable "左寄せ(float)" >}}
-```
-{{</* figure src="./画像名" title="代替テキスト" class="float-left" */>}}
-```
+<pre><code class="language-bash hljs">{{<shortcode-tag-left>}} figure src="{{<code-em>}}./画像名{{</code-em>}}" title="{{<code-em>}}代替テキスト{{</code-em>}}"  class="float-left" {{<shortcode-tag-right>}}</code></pre>
 {{< /collapsable >}}
-{{< collapsable "左寄せ(float)" >}}
-```
-{{</* figure src="./画像名" title="代替テキスト" class="float-right" */>}}
-```
+{{< collapsable "右寄せ(float)" >}}
+<pre><code class="language-bash hljs">{{<shortcode-tag-left>}} figure src="{{<code-em>}}./画像名{{</code-em>}}" title="{{<code-em>}}代替テキスト{{</code-em>}}"  class="float-right" {{<shortcode-tag-right>}}</code></pre>
 {{< /collapsable >}}
 
 
@@ -77,8 +69,8 @@ ShortcodesとはHugo独自の機能で、Markdownファイルに書くことが�
 他にも、画像の幅・高さなどをカスタムすることができます。詳しくは[公式ドキュメント](https://gohugo.io/content-management/shortcodes/#figure)  を参照してください。
 
 ## Youtube動画埋め込み
-```  
-{{</* youtube 動画のID */>}}
+```bash  
+{{<shortcode-tag-left>}} youtube {{<code-em>}}動画のID{{</code-em>}} {{<shortcode-tag-right>}} 
 ```  
 {{<alert note >}}
 YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式になっています
@@ -86,13 +78,13 @@ YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式
 
 ## Unity WebGLの埋め込み
 [ランダムさんの記事](https://ch-random.net/post/93/)の内容を少し改変した自作Shortcodeです
-```
-{{</* unity src="URL"*/>}}
+```bash
+{{<shortcode-tag-left>}} unity src="{{<code-em>}}URL{{</code-em>}}"　{{<shortcode-tag-right>}}
 ```
 
 ## ツイートの埋め込み
-```
-{{</* tweet ツイートID */>}}
+```bash
+{{<shortcode-tag-left>}} tweet {{<code-em>}}ツイートID{{</code-em>}} {{<shortcode-tag-right>}}
 ```
 {{<alert note >}}
   ツイートのURLは「https://twitter.com/.../status/ツイートID」という形式になっています。
@@ -100,13 +92,12 @@ YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式
 
 ## 折りたたみ
 自作Shortcodeです。折りたたまれている時、展開された時ともに、Markdown記法を用いた文章が使えます。
-```
-{{</* collapsable "`折りたたまれている時に表示する文字列`" */>}}
-  展開された時に表示する文章1  
-  **展開された時に表示する文章2**  
-  > 展開された時に表示する文章3  
-{{</* /collapsable */>}}
-```
+<pre><code class="language-bash hljs">{{<shortcode-tag-left>}} collapsable "{{<code-em>}}`折りたたまれている時に表示する文字列`{{</code-em>}}" {{<shortcode-tag-right>}}
+  {{<code-em>}}展開された時に表示する文章1{{</code-em>}}  
+  {{<code-em>}}**展開された時に表示する文章2**{{</code-em>}}  
+  {{<code-em>}}> 展開された時に表示する文章3{{</code-em>}}  
+{{<shortcode-tag-left>}} /collapsable {{<shortcode-tag-right>}}</code></pre>
+
 下のように表示されます。
 {{< collapsable "`折りたたまれている時に表示する文字列`">}}
   展開された時に表示する文章1  
@@ -116,8 +107,8 @@ YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式
 
 ## ページへのリンク（カード表示）
 自作Shortcodeです。
-```
-{{</* page "表示したいページのパス(ホームからの相対パス)" */>}}
+```bash
+{{<shortcode-tag-left>}} page "{{<code-em>}}表示したいページのパス(ホームからの相対パス){{</code-em>}}" {{<shortcode-tag-right>}}
 ```
 例えば`{{</* page "project/online-yukosai-2020" */>}}`と記述すると、下のように表示されます。
 {{< page "project/online-yukosai-2020" >}}
@@ -125,8 +116,8 @@ YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式
 ## ページ内リンク  
 クリックすると同じページ内の見出しに飛ぶことができるリンクを挿入する自作Shortcodeです。
 Markdown記法だけでも書けるのですが、見出し付近がナビゲーションバーに隠れてしまうバグがあるため、それを解消しています。
-```
-{{</* jump  "見出し名" "リンクテキスト"*/>}}
+```bash
+{{<shortcode-tag-left>}} jump  "{{<code-em>}}見出し名{{</code-em>}}" "{{<code-em>}}リンクテキスト{{</code-em>}}" {{<shortcode-tag-right>}}
 ```
 `"リンクテキスト"`は省略可能です。  
 例えば`{{</*jump "折りたたみ"*/>}}`と書くと{{<jump "折りたたみ">}}のようなリンクが作れます。
@@ -161,7 +152,7 @@ graph TD;
 ```
 ## スライド
 Markdown記法で簡易的なスライドを作成することができます。
+```bash
+{{<shortcode-tag-left>}} slide-frame src="{{<code-em>}}スライド名{{</code-em>}}" {{<shortcode-tag-right>}}
 ```
-{{</* slide-frame src="スライド名" */>}}
-```
-{{<slide-frame src="example">}}
+{{<slide-frame src="test">}}
