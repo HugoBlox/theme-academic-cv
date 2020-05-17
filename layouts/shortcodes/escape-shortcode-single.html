@@ -1,0 +1,4 @@
+{{ $text := "<pre><code class=\"language-bash hljs\">{{<"}}
+{{ $text = print $text .Inner }}
+{{ $text = print $text ">}}</code></pre>"}}
+{{ $text | safeHTML }}

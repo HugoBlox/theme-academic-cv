@@ -104,64 +104,72 @@ Unity 2019から&lt;code&gt;UI Elements&lt;/code&gt;という新しいUIシス�
 &lt;h1 id=&#34;shortcodes&#34;&gt;Shortcodes&lt;/h1&gt;
 &lt;p&gt;ShortcodesとはHugo独自の機能で、Markdownファイルに書くことができるスニペットです。&lt;/p&gt;
 &lt;h2 id=&#34;画像の挿入&#34;&gt;画像の挿入&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;{{&amp;lt; figure src=&amp;quot;&lt;span class=&#34;code-em&#34;&gt;./画像名&lt;/span&gt;&amp;quot; title=&amp;quot;&lt;span class=&#34;code-em&#34;&gt;代替テキスト&lt;/span&gt;&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+
+
+&lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&lt; figure src=&#34;&lt;span class=&#34;code-em&#34;&gt;./画像名&lt;/span&gt;&#34; title=&#34;&lt;span class=&#34;code-em&#34;&gt;代替テキスト&lt;/span&gt;&#34; &gt;}}&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     「画像名」には拡張子も含めてください
   &lt;/div&gt;
 &lt;/div&gt;
-
+&lt;/p&gt;
 &lt;h3 id=&#34;画像の左寄せ右寄せ&#34;&gt;画像の左寄せ、右寄せ&lt;/h3&gt;
 &lt;p&gt;&lt;details&gt;
     &lt;summary&gt;左寄せ&lt;/summary&gt;
-    &lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&amp;lt; figure src=&#34;&lt;span class=&#34;code-em&#34;&gt;./画像名&lt;/span&gt;&#34; title=&#34;&lt;span class=&#34;code-em&#34;&gt;代替テキスト&lt;/span&gt;&#34;  class=&#34;left&#34; &amp;gt;}}&lt;/code&gt;&lt;/pre&gt;
+    &lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&lt; figure src=&#34;&lt;span class=&#34;code-em&#34;&gt;./画像名&lt;/span&gt;&#34; title=&#34;&lt;span class=&#34;code-em&#34;&gt;代替テキスト&lt;/span&gt;&#34;  class=&#34;left&#34; &gt;}}&lt;/code&gt;&lt;/pre&gt;
 
 &lt;/details&gt;
 
 &lt;details&gt;
     &lt;summary&gt;右寄せ&lt;/summary&gt;
-    &lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&amp;lt; figure src=&#34;&lt;span class=&#34;code-em&#34;&gt;./画像名&lt;/span&gt;&#34; title=&#34;&lt;span class=&#34;code-em&#34;&gt;代替テキスト&lt;/span&gt;&#34;  class=&#34;right&#34; &amp;gt;}}&lt;/code&gt;&lt;/pre&gt;
+    &lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&lt; figure src=&#34;&lt;span class=&#34;code-em&#34;&gt;./画像名&lt;/span&gt;&#34; title=&#34;&lt;span class=&#34;code-em&#34;&gt;代替テキスト&lt;/span&gt;&#34;  class=&#34;right&#34; &gt;}}&lt;/code&gt;&lt;/pre&gt;
 
 &lt;/details&gt;
 
 &lt;details&gt;
     &lt;summary&gt;左寄せ(float)&lt;/summary&gt;
-    &lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&amp;lt; figure src=&#34;&lt;span class=&#34;code-em&#34;&gt;./画像名&lt;/span&gt;&#34; title=&#34;&lt;span class=&#34;code-em&#34;&gt;代替テキスト&lt;/span&gt;&#34;  class=&#34;float-left&#34; &amp;gt;}}&lt;/code&gt;&lt;/pre&gt;
+    &lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&lt; figure src=&#34;&lt;span class=&#34;code-em&#34;&gt;./画像名&lt;/span&gt;&#34; title=&#34;&lt;span class=&#34;code-em&#34;&gt;代替テキスト&lt;/span&gt;&#34;  class=&#34;float-left&#34; &gt;}}&lt;/code&gt;&lt;/pre&gt;
 
 &lt;/details&gt;
 
 &lt;details&gt;
     &lt;summary&gt;右寄せ(float)&lt;/summary&gt;
-    &lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&amp;lt; figure src=&#34;&lt;span class=&#34;code-em&#34;&gt;./画像名&lt;/span&gt;&#34; title=&#34;&lt;span class=&#34;code-em&#34;&gt;代替テキスト&lt;/span&gt;&#34;  class=&#34;float-right&#34; &amp;gt;}}&lt;/code&gt;&lt;/pre&gt;
+    &lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&lt; figure src=&#34;&lt;span class=&#34;code-em&#34;&gt;./画像名&lt;/span&gt;&#34; title=&#34;&lt;span class=&#34;code-em&#34;&gt;代替テキスト&lt;/span&gt;&#34;  class=&#34;float-right&#34; &gt;}}&lt;/code&gt;&lt;/pre&gt;
 
 &lt;/details&gt;
-&lt;/p&gt;
-&lt;p&gt;他にも、画像の幅・高さなどをカスタムすることができます。詳しくは
+
+他にも、画像の幅・高さなどをカスタムすることができます。詳しくは
 &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#figure&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式ドキュメント&lt;/a&gt;  を参照してください。&lt;/p&gt;
 &lt;h2 id=&#34;youtube動画埋め込み&#34;&gt;Youtube動画埋め込み&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;{{&amp;lt; youtube &lt;span class=&#34;code-em&#34;&gt;動画のID&lt;/span&gt; &amp;gt;}} 
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+
+
+&lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&lt; youtube &lt;span class=&#34;code-em&#34;&gt;動画のID&lt;/span&gt; &gt;}}&lt;/code&gt;&lt;/pre&gt; 
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式になっています
   &lt;/div&gt;
 &lt;/div&gt;
-
+&lt;/p&gt;
 &lt;h2 id=&#34;unity-webglの埋め込み&#34;&gt;Unity WebGLの埋め込み&lt;/h2&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://ch-random.net/post/93/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ランダムさんの記事&lt;/a&gt;の内容を少し改変した自作Shortcodeです&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;{{&amp;lt; unity src=&amp;quot;&lt;span class=&#34;code-em&#34;&gt;URL&lt;/span&gt;&amp;quot;　&amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
+&lt;a href=&#34;https://ch-random.net/post/93/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ランダムさんの記事&lt;/a&gt;の内容を少し改変した自作Shortcodeです
+
+
+
+&lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&lt; unity src=&#34;&lt;span class=&#34;code-em&#34;&gt;URL&lt;/span&gt;&#34;　&gt;}}&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ツイートの埋め込み&#34;&gt;ツイートの埋め込み&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;{{&amp;lt; tweet &lt;span class=&#34;code-em&#34;&gt;ツイートID&lt;/span&gt; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+
+
+&lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&lt; tweet &lt;span class=&#34;code-em&#34;&gt;ツイートID&lt;/span&gt; &gt;}}&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     ツイートのURLは「https://twitter.com/&amp;hellip;/status/ツイートID」という形式になっています。
   &lt;/div&gt;
 &lt;/div&gt;
-
+&lt;/p&gt;
 &lt;h2 id=&#34;折りたたみ&#34;&gt;折りたたみ&lt;/h2&gt;
 &lt;p&gt;自作Shortcodeです。折りたたまれている時、展開された時ともに、Markdown記法を用いた文章が使えます。&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&amp;lt; collapsable &#34;&lt;span class=&#34;code-em&#34;&gt;`折りたたまれている時に表示する文字列`&lt;/span&gt;&#34; &amp;gt;}}
@@ -181,10 +189,12 @@ Unity 2019から&lt;code&gt;UI Elements&lt;/code&gt;という新しいUIシス�
 &lt;/details&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;ページへのリンクカード表示&#34;&gt;ページへのリンク（カード表示）&lt;/h2&gt;
-&lt;p&gt;自作Shortcodeです。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;{{&amp;lt; page &amp;quot;&lt;span class=&#34;code-em&#34;&gt;表示したいページのパス(ホームからの相対パス)&lt;/span&gt;&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;例えば&lt;code&gt;{{&amp;lt; page &amp;quot;project/online-yukosai-2020&amp;quot; &amp;gt;}}&lt;/code&gt;と記述すると、下のように表示されます。
+&lt;p&gt;自作Shortcodeです。
+
+
+
+&lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&lt; page &#34;&lt;span class=&#34;code-em&#34;&gt;表示したいページのパス(ホームからの相対パス)&lt;/span&gt;&#34; &gt;}}&lt;/code&gt;&lt;/pre&gt;
+例えば&lt;code&gt;{{&amp;lt; page &amp;quot;project/online-yukosai-2020&amp;quot; &amp;gt;}}&lt;/code&gt;と記述すると、下のように表示されます。
 
 
 
@@ -276,10 +286,12 @@ Unity 2019から&lt;code&gt;UI Elements&lt;/code&gt;という新しいUIシス�
  &lt;/p&gt;
 &lt;h2 id=&#34;ページ内リンク&#34;&gt;ページ内リンク&lt;/h2&gt;
 &lt;p&gt;クリックすると同じページ内の見出しに飛ぶことができるリンクを挿入する自作Shortcodeです。
-Markdown記法だけでも書けるのですが、見出し付近がナビゲーションバーに隠れてしまうバグがあるため、それを解消しています。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;{{&amp;lt; jump  &amp;quot;&lt;span class=&#34;code-em&#34;&gt;見出し名&lt;/span&gt;&amp;quot; &amp;quot;&lt;span class=&#34;code-em&#34;&gt;リンクテキスト&lt;/span&gt;&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;code&gt;&amp;quot;リンクテキスト&amp;quot;&lt;/code&gt;は省略可能です。&lt;br&gt;
+Markdown記法だけでも書けるのですが、見出し付近がナビゲーションバーに隠れてしまうバグがあるため、それを解消しています。
+
+
+
+&lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&lt; jump &#34;&lt;span class=&#34;code-em&#34;&gt;見出し名&lt;/span&gt;&#34; &#34;&lt;span class=&#34;code-em&#34;&gt;リンクテキスト&lt;/span&gt;&#34; &gt;}}&lt;/code&gt;&lt;/pre&gt;
+&lt;code&gt;&amp;quot;リンクテキスト&amp;quot;&lt;/code&gt;は省略可能です。&lt;br&gt;
 例えば&lt;code&gt;{{&amp;lt;jump &amp;quot;折りたたみ&amp;quot;&amp;gt;}}&lt;/code&gt;と書くと
 
 
@@ -318,15 +330,17 @@ graph TD;
   C--&amp;gt;D;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;スライド&#34;&gt;スライド&lt;/h2&gt;
-&lt;p&gt;Markdown記法で簡易的なスライドを作成することができます。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;{{&amp;lt; slide-frame src=&amp;quot;&lt;span class=&#34;code-em&#34;&gt;スライド名&lt;/span&gt;&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Markdown記法で簡易的なスライドを作成することができます。
+
+
+
+&lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&lt; slide-frame src=&#34;&lt;span class=&#34;code-em&#34;&gt;スライド名&lt;/span&gt;&#34; &gt;}}&lt;/code&gt;&lt;/pre&gt;
 
 
 
 
 &lt;iframe id=test src=https://blog.opuappnavi.com/slides/test width=640 height=360 allowfullscreen=true&gt;&lt;/iframe&gt;
-
+&lt;/p&gt;
 </description>
     </item>
     
