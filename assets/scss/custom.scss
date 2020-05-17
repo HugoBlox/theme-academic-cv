@@ -219,3 +219,7 @@ $sidebar-width: 300px;
         color:red;
     }
 }
+
+input#search-query:focus{
+    outline: none;
+}
