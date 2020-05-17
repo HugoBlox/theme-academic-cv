@@ -80,14 +80,13 @@ YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式
 {{</alert>}}  
 
 ## 折りたたみ
-自作Shortcodeです。折りたたまれている時、展開された時ともに、Markdown記法を用いた文章が使えます。
-<pre><code class="language-bash hljs">{{<shortcode-tag-left>}} collapsable "{{<code-em>}}`折りたたまれている時に表示する文字列`{{</code-em>}}" {{<shortcode-tag-right>}}
-  {{<code-em>}}展開された時に表示する文章1{{</code-em>}}  
-  {{<code-em>}}**展開された時に表示する文章2**{{</code-em>}}  
-  {{<code-em>}}> 展開された時に表示する文章3{{</code-em>}}  
+自作Shortcodeです。折りたたまれている時、展開された時ともに、Markdown記法を用いた文章が使えます。例えば
+<pre><code class="language-bash hljs">{{<shortcode-tag-left>}} collapsable "`折りたたまれている時に表示する文字列`" {{<shortcode-tag-right>}}
+  展開された時に表示する文章1
+  **展開された時に表示する文章2**
+  > 展開された時に表示する文章3
 {{<shortcode-tag-left>}} /collapsable {{<shortcode-tag-right>}}</code></pre>
-
-下のように表示されます。
+のように書けば、下のように表示されます。
 {{< collapsable "`折りたたまれている時に表示する文字列`">}}
   展開された時に表示する文章1  
   **展開された時に表示する文章2**  

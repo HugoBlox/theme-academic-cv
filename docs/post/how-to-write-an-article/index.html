@@ -242,7 +242,7 @@
     
       <meta property="article:published_time" content="2020-04-28T00:01:09&#43;09:00">
     
-    <meta property="article:modified_time" content="2020-05-17T18:08:16&#43;09:00">
+    <meta property="article:modified_time" content="2020-05-17T22:02:51&#43;09:00">
   
 
   
@@ -271,7 +271,7 @@
   "headline": "記事の書き方",
   
   "datePublished": "2020-04-28T00:01:09+09:00",
-  "dateModified": "2020-05-17T18:08:16+09:00",
+  "dateModified": "2020-05-17T22:02:51+09:00",
   
   "author": {
     "@type": "Person",
@@ -738,13 +738,13 @@
 </div>
 </p>
 <h2 id="折りたたみ">折りたたみ</h2>
-<p>自作Shortcodeです。折りたたまれている時、展開された時ともに、Markdown記法を用いた文章が使えます。</p>
-<pre><code class="language-bash hljs">{{&lt; collapsable "<span class="code-em">`折りたたまれている時に表示する文字列`</span>" &gt;}}
-  <span class="code-em">展開された時に表示する文章1</span>  
-  <span class="code-em">**展開された時に表示する文章2**</span>  
-  <span class="code-em">> 展開された時に表示する文章3</span>  
+<p>自作Shortcodeです。折りたたまれている時、展開された時ともに、Markdown記法を用いた文章が使えます。例えば</p>
+<pre><code class="language-bash hljs">{{&lt; collapsable "`折りたたまれている時に表示する文字列`" &gt;}}
+  展開された時に表示する文章1
+  **展開された時に表示する文章2**
+  > 展開された時に表示する文章3
 {{&lt; /collapsable &gt;}}</code></pre>
-<p>下のように表示されます。
+<p>のように書けば、下のように表示されます。
 <details>
     <summary><code>折りたたまれている時に表示する文字列</code></summary>
     <p>展開された時に表示する文章1<br>
