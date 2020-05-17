@@ -13,6 +13,73 @@
     </image>
     
     <item>
+      <title>Windowsでもビデオ会議でバ美肉したい！</title>
+      <link>https://blog.opuappnavi.com/post/windows-babiniku-video-conference/</link>
+      <pubDate>Sun, 17 May 2020 15:47:06 +0900</pubDate>
+      <guid>https://blog.opuappnavi.com/post/windows-babiniku-video-conference/</guid>
+      <description>&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;
+&lt;h2 id=&#34;バ美肉とは&#34;&gt;バ美肉とは&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;バ美肉（バびにく）とは、バーチャル美少女受肉またはバーチャル美少女セルフ受肉の略語。美少女のアバターを纏うこと、あるいは纏った上でバーチャルな美少女として、VRChat等のバーチャル空間で活動したり、バーチャルYouTuber・バーチャルアイドル等として活動することを指す。(Wikipedia)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;ビデオ会議でバ美肉&#34;&gt;ビデオ会議でバ美肉&lt;/h2&gt;
+&lt;p&gt;Qiitaで「バ美肉」と検索すると、VTuberなどの姿でビデオ会議に参加する方法を解説する記事が複数投稿されています。しかしながら、それらの記事はMacでのやり方解説であり、Windowsでの方法を解説した記事は（ざっと見た限りでは）見つかりませんでした。&lt;/p&gt;
+&lt;h1 id=&#34;windowsでのやり方&#34;&gt;Windowsでのやり方&lt;/h1&gt;
+&lt;h2 id=&#34;仮想カメラの準備&#34;&gt;仮想カメラの準備&lt;/h2&gt;
+&lt;p&gt;バ美肉した映像をカメラとしてビデオ会議ソフトに認識してもらうために仮想カメラが必要です。Qiitaの記事では&lt;code&gt;CamTwist&lt;/code&gt;というソフトが使われていますが、Mac版が存在しません。そのため、代わりに&lt;code&gt;OBS Studio&lt;/code&gt;というフリーソフトを使用します。録画・配信用のソフトウェアですが、&lt;code&gt;OBS Virtualcam&lt;/code&gt;というプラグインを使用することで仮想カメラになります。&lt;/p&gt;
+&lt;h3 id=&#34;obs-studioのインストール&#34;&gt;OBS Studioのインストール&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://obsproject.com/ja&#34;&gt;https://obsproject.com/ja&lt;/a&gt; からインストールできます。&lt;/p&gt;
+&lt;h3 id=&#34;obs-virtualcamのインストール&#34;&gt;OBS Virtualcamのインストール&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://obsproject.com/forum/resources/obs-virtualcam.949/&#34;&gt;https://obsproject.com/forum/resources/obs-virtualcam.949/&lt;/a&gt; にアクセスし、画面右の&lt;code&gt;Go to download&lt;/code&gt;をクリックすることでインストーラーがダウンロードできます。
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    今回使用したバージョンは&lt;code&gt;2.0.5&lt;/code&gt;です。それ以下のバージョンだと上手くいかない可能性があります。
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;バ美肉する&#34;&gt;バ美肉する&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://facevtuber.com/&#34;&gt;https://facevtuber.com/&lt;/a&gt;にアクセスします。&lt;br&gt;
+&lt;code&gt;Start&lt;/code&gt;をクリックします。&lt;br&gt;
+一回目のみ、カメラの使用を許可してください。&lt;br&gt;
+&lt;code&gt;Start&lt;/code&gt;の上にカメラ映像が表示されるまで（20秒くらい）待ってください。&lt;br&gt;
+&lt;code&gt;Set&lt;/code&gt;をクリックします。&lt;br&gt;
+&lt;code&gt;popWindow&lt;/code&gt;をクリックします。&lt;br&gt;
+子ウインドウが開き映像が表示されます。&lt;/p&gt;
+&lt;h2 id=&#34;obs-studioにバ美肉した映像を表示&#34;&gt;OBS Studioにバ美肉した映像を表示&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;OBS Studio&lt;/code&gt;を起動します。&lt;br&gt;
+&lt;code&gt;ソース&lt;/code&gt;の項目の&lt;code&gt;+&lt;/code&gt;をクリックし、&lt;code&gt;ウインドウキャプチャ&lt;/code&gt;を選択します。&lt;br&gt;
+&lt;code&gt;ソースを作成/選択&lt;/code&gt;ダイアログで、&lt;code&gt;OK&lt;/code&gt;をクリックします。&lt;br&gt;
+&lt;code&gt;&#39;ウインドウキャプチャ&#39;のプロパティ&lt;/code&gt;ダイアログで、&lt;code&gt;ウインドウ&lt;/code&gt;のドロップダウンリストから子ウインドウの名前（Chromeなら&lt;code&gt;[chrome.exe]:無題-Google Chrome&lt;/code&gt;）を選択し&lt;code&gt;OK&lt;/code&gt;をクリックします。&lt;/p&gt;
+&lt;h2 id=&#34;仮想カメラ起動&#34;&gt;仮想カメラ起動&lt;/h2&gt;
+&lt;p&gt;左上の&lt;code&gt;ツール&lt;/code&gt;メニューから&lt;code&gt;VirtualCam&lt;/code&gt;を選択します。&lt;br&gt;
+&lt;code&gt;VirtucalCam&lt;/code&gt;ダイアログで、&lt;code&gt;Start&lt;/code&gt;をクリックすることで仮想カメラに映像が出力されます。
+&lt;code&gt;Stop&lt;/code&gt;をクリックすれば映像出力が止まります。&lt;/p&gt;
+&lt;h2 id=&#34;ビデオ会議に参加&#34;&gt;ビデオ会議に参加&lt;/h2&gt;
+&lt;p&gt;カメラとして&lt;code&gt;OBS-Camera&lt;/code&gt;を選択すれば、バ美肉した姿でビデオ会議に参加できます。&lt;/p&gt;
+&lt;h1 id=&#34;tipswindowsmac両方&#34;&gt;Tips(Windows、Mac両方)&lt;/h1&gt;
+&lt;h2 id=&#34;facevtubercom&#34;&gt;facevtuber.com&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;モデルを変更したい場合
+&lt;ol&gt;
+&lt;li&gt;&amp;ldquo;ファイルを選択&amp;quot;をクリックし、MMDモデル入りzipファイルを選択&lt;/li&gt;
+&lt;li&gt;権利表記を確認するダイアログが複数表示されるので、ダイアログが表示されなくなるまで&lt;code&gt;OK&lt;/code&gt;を押し続ける&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;zoomでバーチャル背景を使用する場合は背景色で&lt;code&gt;Green&lt;/code&gt;を選択すると、グリーンバックの代わりになります。&lt;/li&gt;
+&lt;li&gt;facevtuber.comのページや子ウインドウを最小化すると映像が止まります。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;moveLeftHandByMouse&lt;/code&gt;、&lt;code&gt;moveRightHandByMouse&lt;/code&gt;にチェックが入っているとマウスの動きに合わせて手が動きます。手の位置がおかしくなったら&lt;code&gt;ResetPose&lt;/code&gt;をクリックしてください。&lt;/li&gt;
+&lt;li&gt;子ウインドウはできるだけ画面下に移動させると、マウスカーソルが映り込むことがなくなります。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;参考サイト&#34;&gt;参考サイト&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://note.com/d_v_osorezan/n/nd9130e2012dd&#34;&gt;https://note.com/d_v_osorezan/n/nd9130e2012dd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/tktktktk/items/a024b9df15efe7b36ad6&#34;&gt;https://qiita.com/tktktktk/items/a024b9df15efe7b36ad6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://forest.watch.impress.co.jp/docs/news/585371.html&#34;&gt;https://forest.watch.impress.co.jp/docs/news/585371.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>(個人的)プログラマーなら使えたほうがいいファイル形式</title>
       <link>https://blog.opuappnavi.com/post/file-format-should-able-use/</link>
       <pubDate>Tue, 05 May 2020 21:46:39 +0900</pubDate>
