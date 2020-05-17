@@ -3,7 +3,7 @@
 
 title: "Windowsでもビデオ会議でバ美肉したい！"
 subtitle: ""
-summary: ""
+summary: "VTuberの姿でビデオ会議に参加する方法"
 authors: ["juris710"]
 tags: []
 categories: []
