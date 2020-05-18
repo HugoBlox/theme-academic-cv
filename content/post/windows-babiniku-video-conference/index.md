@@ -33,14 +33,14 @@ projects: ["online-yukosai-2020"]
 Qiitaで「バ美肉」と検索すると、VTuberなどの姿でビデオ会議に参加する方法を解説する記事が複数投稿されています。しかしながら、それらの記事はMacでのやり方解説であり、Windowsでの方法を解説した記事は（ざっと見た限りでは）見つかりませんでした。
 # Windowsでのやり方
 ## 仮想カメラの準備
-バ美肉した映像をカメラとしてビデオ会議ソフトに認識してもらうために仮想カメラが必要です。Qiitaの記事では`CamTwist`というソフトが使われていますが、Mac版が存在しません。そのため、代わりに`OBS Studio`というフリーソフトを使用します。録画・配信用のソフトウェアですが、`OBS Virtualcam`というプラグインを使用することで仮想カメラになります。
-### OBS Studioのインストール
-https://obsproject.com/ja からインストールできます。
-### OBS Virtualcamのインストール
-https://obsproject.com/forum/resources/obs-virtualcam.949/ にアクセスし、画面右の`Go to download`をクリックすることでインストーラーがダウンロードできます。
+バ美肉した映像をカメラとしてビデオ会議ソフトに認識してもらうために仮想カメラが必要です。Qiitaの記事では`CamTwist`というソフトが使われていますが、Mac版しか存在しません。そのため、代わりに`OBS Studio`というフリーソフトを使用します。録画・配信用のソフトウェアですが、`OBS Virtualcam`というプラグインを使用することで仮想カメラになります。
 {{<alert warning>}}
-今回使用したバージョンは`2.0.5`です。それ以下のバージョンだと上手くいかない可能性があります。
+今回使用した`OBS Virtualcam`のバージョンは`2.0.5`です。それ以下のバージョンだと上手くいかない可能性があります。
 {{</alert>}}
+まず、 https://obsproject.com/ja から`OBS Studio`をインストールします。
+{{<figure src="./obs_studio_installation.png" >}}
+次に、 https://obsproject.com/forum/resources/obs-virtualcam.949/ から`OBS Virtualcam`をインストールします。画面右の`Go to download`をクリックすることでインストーラーがダウンロードできます。
+{{<figure src="./obs_virtualcam_installation.png" >}}
 ## バ美肉する
 https://facevtuber.com/にアクセスします。  
 `Start`をクリックします。  
@@ -52,12 +52,14 @@ https://facevtuber.com/にアクセスします。
 ## OBS Studioにバ美肉した映像を表示
 `OBS Studio`を起動します。  
 `ソース`の項目の`+`をクリックし、`ウインドウキャプチャ`を選択します。  
+{{<figure src="./obs_studio_source.png" >}}
 `ソースを作成/選択`ダイアログで、`OK`をクリックします。  
 `'ウインドウキャプチャ'のプロパティ`ダイアログで、`ウインドウ`のドロップダウンリストから子ウインドウの名前（Chromeなら`[chrome.exe]:無題-Google Chrome`）を選択し`OK`をクリックします。
 ## 仮想カメラ起動
 左上の`ツール`メニューから`VirtualCam`を選択します。  
 `VirtucalCam`ダイアログで、`Start`をクリックすることで仮想カメラに映像が出力されます。
 `Stop`をクリックすれば映像出力が止まります。
+{{<figure src="./obs_virtualcam_dialog.png" >}}
 ## ビデオ会議に参加
 カメラとして`OBS-Camera`を選択すれば、バ美肉した姿でビデオ会議に参加できます。
 

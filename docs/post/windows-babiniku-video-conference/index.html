@@ -525,12 +525,7 @@
     </li>
     <li><a href="#windowsでのやり方">Windowsでのやり方</a>
       <ul>
-        <li><a href="#仮想カメラの準備">仮想カメラの準備</a>
-          <ul>
-            <li><a href="#obs-studioのインストール">OBS Studioのインストール</a></li>
-            <li><a href="#obs-virtualcamのインストール">OBS Virtualcamのインストール</a></li>
-          </ul>
-        </li>
+        <li><a href="#仮想カメラの準備">仮想カメラの準備</a></li>
         <li><a href="#バ美肉する">バ美肉する</a></li>
         <li><a href="#obs-studioにバ美肉した映像を表示">OBS Studioにバ美肉した映像を表示</a></li>
         <li><a href="#仮想カメラ起動">仮想カメラ起動</a></li>
@@ -682,16 +677,70 @@
 <p>Qiitaで「バ美肉」と検索すると、VTuberなどの姿でビデオ会議に参加する方法を解説する記事が複数投稿されています。しかしながら、それらの記事はMacでのやり方解説であり、Windowsでの方法を解説した記事は（ざっと見た限りでは）見つかりませんでした。</p>
 <h1 id="windowsでのやり方">Windowsでのやり方</h1>
 <h2 id="仮想カメラの準備">仮想カメラの準備</h2>
-<p>バ美肉した映像をカメラとしてビデオ会議ソフトに認識してもらうために仮想カメラが必要です。Qiitaの記事では<code>CamTwist</code>というソフトが使われていますが、Mac版が存在しません。そのため、代わりに<code>OBS Studio</code>というフリーソフトを使用します。録画・配信用のソフトウェアですが、<code>OBS Virtualcam</code>というプラグインを使用することで仮想カメラになります。</p>
-<h3 id="obs-studioのインストール">OBS Studioのインストール</h3>
-<p><a href="https://obsproject.com/ja">https://obsproject.com/ja</a> からインストールできます。</p>
-<h3 id="obs-virtualcamのインストール">OBS Virtualcamのインストール</h3>
-<p><a href="https://obsproject.com/forum/resources/obs-virtualcam.949/">https://obsproject.com/forum/resources/obs-virtualcam.949/</a> にアクセスし、画面右の<code>Go to download</code>をクリックすることでインストーラーがダウンロードできます。
+<p>バ美肉した映像をカメラとしてビデオ会議ソフトに認識してもらうために仮想カメラが必要です。Qiitaの記事では<code>CamTwist</code>というソフトが使われていますが、Mac版しか存在しません。そのため、代わりに<code>OBS Studio</code>というフリーソフトを使用します。録画・配信用のソフトウェアですが、<code>OBS Virtualcam</code>というプラグインを使用することで仮想カメラになります。
 <div class="alert alert-warning">
   <div>
-    今回使用したバージョンは<code>2.0.5</code>です。それ以下のバージョンだと上手くいかない可能性があります。
+    今回使用した<code>OBS Virtualcam</code>のバージョンは<code>2.0.5</code>です。それ以下のバージョンだと上手くいかない可能性があります。
   </div>
 </div>
+
+まず、 <a href="https://obsproject.com/ja">https://obsproject.com/ja</a> から<code>OBS Studio</code>をインストールします。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure >
+
+
+  <a data-fancybox="" href="./obs_studio_installation.png" >
+
+
+  <img src="./obs_studio_installation.png" alt=""  >
+</a>
+
+
+
+</figure>
+
+次に、 <a href="https://obsproject.com/forum/resources/obs-virtualcam.949/">https://obsproject.com/forum/resources/obs-virtualcam.949/</a> から<code>OBS Virtualcam</code>をインストールします。画面右の<code>Go to download</code>をクリックすることでインストーラーがダウンロードできます。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure >
+
+
+  <a data-fancybox="" href="./obs_virtualcam_installation.png" >
+
+
+  <img src="./obs_virtualcam_installation.png" alt=""  >
+</a>
+
+
+
+</figure>
 </p>
 <h2 id="バ美肉する">バ美肉する</h2>
 <p><a href="https://facevtuber.com/">https://facevtuber.com/</a>にアクセスします。<br>
@@ -704,12 +753,68 @@
 <h2 id="obs-studioにバ美肉した映像を表示">OBS Studioにバ美肉した映像を表示</h2>
 <p><code>OBS Studio</code>を起動します。<br>
 <code>ソース</code>の項目の<code>+</code>をクリックし、<code>ウインドウキャプチャ</code>を選択します。<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure >
+
+
+  <a data-fancybox="" href="./obs_studio_source.png" >
+
+
+  <img src="./obs_studio_source.png" alt=""  >
+</a>
+
+
+
+</figure>
+
 <code>ソースを作成/選択</code>ダイアログで、<code>OK</code>をクリックします。<br>
 <code>'ウインドウキャプチャ'のプロパティ</code>ダイアログで、<code>ウインドウ</code>のドロップダウンリストから子ウインドウの名前（Chromeなら<code>[chrome.exe]:無題-Google Chrome</code>）を選択し<code>OK</code>をクリックします。</p>
 <h2 id="仮想カメラ起動">仮想カメラ起動</h2>
 <p>左上の<code>ツール</code>メニューから<code>VirtualCam</code>を選択します。<br>
 <code>VirtucalCam</code>ダイアログで、<code>Start</code>をクリックすることで仮想カメラに映像が出力されます。
-<code>Stop</code>をクリックすれば映像出力が止まります。</p>
+<code>Stop</code>をクリックすれば映像出力が止まります。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure >
+
+
+  <a data-fancybox="" href="./obs_virtualcam_dialog.png" >
+
+
+  <img src="./obs_virtualcam_dialog.png" alt=""  >
+</a>
+
+
+
+</figure>
+</p>
 <h2 id="ビデオ会議に参加">ビデオ会議に参加</h2>
 <p>カメラとして<code>OBS-Camera</code>を選択すれば、バ美肉した姿でビデオ会議に参加できます。</p>
 <h1 id="tipsfacevtubercom">Tips(facevtuber.com)</h1>
