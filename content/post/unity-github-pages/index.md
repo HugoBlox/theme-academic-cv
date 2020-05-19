@@ -24,7 +24,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: ["online-yukosai-2020"]
+projects: ["opu-virtual-festival-2020"]
 ---
 Gitに詳しくない人向けに書いています。Gitに詳しい人は`詳しくない人向け`の部分は読まなくて大丈夫です。
 # 必要なもの  

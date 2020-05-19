@@ -96,8 +96,8 @@ YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式
 ## ページへのリンク（カード表示）
 自作Shortcodeです。
 {{<escape-shortcode-single>}} page "{{<code-em>}}表示したいページのパス(ホームからの相対パス){{</code-em>}}" {{</escape-shortcode-single>}}
-例えば`{{</* page "project/online-yukosai-2020" */>}}`と記述すると、下のように表示されます。
-{{< page "project/online-yukosai-2020" >}}
+例えば`{{</* page "project/opu-virtual-festival-2020" */>}}`と記述すると、下のように表示されます。
+{{< page "project/opu-virtual-festival-2020" >}}
 
 ## ページ内リンク  
 クリックすると同じページ内の見出しに飛ぶことができるリンクを挿入する自作Shortcodeです。

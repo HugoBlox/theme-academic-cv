@@ -136,7 +136,7 @@
 
 
 &lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&lt; page &#34;&lt;span class=&#34;code-em&#34;&gt;表示したいページのパス(ホームからの相対パス)&lt;/span&gt;&#34; &gt;}}&lt;/code&gt;&lt;/pre&gt;
-例えば&lt;code&gt;{{&amp;lt; page &amp;quot;project/online-yukosai-2020&amp;quot; &amp;gt;}}&lt;/code&gt;と記述すると、下のように表示されます。
+例えば&lt;code&gt;{{&amp;lt; page &amp;quot;project/opu-virtual-festival-2020&amp;quot; &amp;gt;}}&lt;/code&gt;と記述すると、下のように表示されます。
 
 
 
@@ -185,10 +185,8 @@
     
     
       
-          最終更新
-      
     
-    2020/05/10
+    2020/04/28
   &lt;/span&gt;
   
 
@@ -212,12 +210,12 @@
   
 
   &lt;h3 class=&#34;article-title mb-1 mt-3&#34;&gt;
-    &lt;a href=&#34;https://blog.opuappnavi.com/project/online-yukosai-2020/&#34;&gt;オンライン友好祭2020（仮称）&lt;/a&gt;
+    &lt;a href=&#34;https://blog.opuappnavi.com/project/opu-virtual-festival-2020/&#34;&gt;府大バーチャル学祭&lt;/a&gt;
   &lt;/h3&gt;
 
   
   &lt;div class=&#34;article-style&#34;&gt;
-    &lt;p&gt;友好祭に代わるオンラインイベント&lt;/p&gt;
+    &lt;p&gt;OPU Virtual Festival&lt;/p&gt;
   &lt;/div&gt;
   
 
@@ -341,10 +339,8 @@ graph TD;
     
     
       
-          最終更新
-      
     
-    2020/05/10
+    2020/04/28
   &lt;/span&gt;
   
 
@@ -368,12 +364,12 @@ graph TD;
   
 
   &lt;h3 class=&#34;article-title mb-1 mt-3&#34;&gt;
-    &lt;a href=&#34;https://blog.opuappnavi.com/project/online-yukosai-2020/&#34;&gt;オンライン友好祭2020（仮称）&lt;/a&gt;
+    &lt;a href=&#34;https://blog.opuappnavi.com/project/opu-virtual-festival-2020/&#34;&gt;府大バーチャル学祭&lt;/a&gt;
   &lt;/h3&gt;
 
   
   &lt;div class=&#34;article-style&#34;&gt;
-    &lt;p&gt;友好祭に代わるオンラインイベント&lt;/p&gt;
+    &lt;p&gt;OPU Virtual Festival&lt;/p&gt;
   &lt;/div&gt;
   
 

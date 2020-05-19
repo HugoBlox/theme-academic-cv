@@ -1,8 +1,8 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "オンライン友好祭2020（仮称）"
-summary: "友好祭に代わるオンラインイベント"
+title: "府大バーチャル学祭"
+summary: "OPU Virtual Festival"
 authors: ["juris710"]
 tags: []
 categories: []
@@ -39,4 +39,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-新型コロナウイルス感染拡大により、2020年5月30日、31日に開催予定だった第59回友好祭が中止となりました。中止となった友好祭に代わるイベントとして、コンピュータハウスランダムさんが提案されたのが「オンライン友好祭」です。
+新型コロナウイルス感染拡大により、2020年5月30日、31日に開催予定だった第59回友好祭が中止となりました。中止となった友好祭に代わるイベントとして、コンピュータハウスランダムさんが提案されたのが「府大バーチャル学祭」です。
