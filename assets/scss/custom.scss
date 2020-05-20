@@ -1,6 +1,7 @@
 // Override this file to add your own SCSS styling.
 .post-nav-item {
     width: 50%;
+    padding-top: 0;
     &:nth-child(1) {
         float: right;
         text-align: right;
@@ -222,4 +223,15 @@ $sidebar-width: 300px;
 
 input#search-query:focus{
     outline: none;
+}
+
+.article-widget{
+    padding-top: 0;
+}
+.post-nav{
+    margin-top: 0;
+}
+.content-widget-hr{
+    margin-top: 0;
+    //padding-top: 0.5em;
 }
