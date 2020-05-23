@@ -45,3 +45,4 @@ slides: ""
   <a href="https://ch-random.net/post/167">一覧ページ</a>
   <a href="mailto:computer.house.random@gmail.com">お問い合わせ</a>
 </div>
+{{<twitter 1263016918182539264>}}
