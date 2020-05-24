@@ -71,7 +71,7 @@ privacy_pack = true
 
 # Enable visitors to edit pages?
 #   `repo` defines the repository URL. `editable` defines which page types can be edited.
-edit_page = {repo_url = "https://github.com/carlosmalt/academic-kickstart", repo_branch = "master", editable = {docs = false, page = false, post = false}}
+edit_page = {repo_url = "https://github.com/carlosmalt/ucsc-homepage", repo_branch = "master", editable = {docs = false, page = false, post = false}}
 
 ############################
 ## Contact details
