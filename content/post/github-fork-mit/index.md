@@ -9,7 +9,7 @@ tags: []
 categories: []
 date: 2020-05-24T22:37:45+09:00
 featured: false
-draft: true
+draft: false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -35,29 +35,152 @@ GitHubのリポジトリにはたいてい、LICENSEという名前のファイ�
 商用利用などをしても良いかなどを記したファイルで、何を許可するかによって様々なライセンスが存在します。  
 その中で一番多く用いられているライセンスの１つがMITライセンスです。[Academic Kickstart](https://github.com/sourcethemes/academic-kickstart)もMITライセンスです。
 MITライセンスは以下の2つを守れば、改変や、商用利用など自由に使うことができます。
-- 著作権表示(`Copyright (c) 年 作者名`)を掲載すること  
+- 元の著作権表示(`Copyright (c) 年 作者名`)をそのまま掲載すること  
 - ライセンスの全文（あるいは全文が掲載されたサイトのURL）を掲載すること  
 
 詳しくは[このサイト](https://wisdommingle.com/mit-license/)などを参照してください。
 
-# 疑問に思ったこと
-このサイトを開発する中で、次のような疑問を持ちました。「forkしたリポジトリのライセンスはどうするべきなのか」ということです。私の調べ方が悪いのかもしれませんが、forkしたリポジトリにあるLICENSEファイルに自分の著作権表示を加えてもよいのか、それともそのままにするべきなのか、解説した記事がないのです。
+# forkとライセンス  
+このサイトを開発する中で、「forkしたリポジトリのライセンスはどう変更するべきなのか」という疑問を持ち、検索してみました。その結果わかった2つの方法を紹介します。
+## 方法1　一行下に自分の著作権表示を追加
+{{<collapsable 方法1>}}
+```md
+The MIT License (MIT)
 
-# 調べた結果
+Copyright (c) 年 foo
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+上のようなライセンスのリポジトリをforkする場合、次のように変更します。
+```md
+The MIT License (MIT)
+
+Copyright (c) 年 foo
+Copyright (c) 年 作者名(自分)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+{{</collapsable>}}
+## 方法2　ライセンスを併記
+{{<collapsable 方法2>}}
+```md
+The MIT License (MIT)
+
+Copyright (c) 年 foo
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+上のようなライセンスのリポジトリをforkする場合、書き方は色々ありますが、例えば次のように変更します。
+```md
+The MIT License (MIT)
+
+Copyright (c) 年 作者名(自分)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Here is the original copyright notice:
+
+The MIT License (MIT)
+
+Copyright (c) 年 foo
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+{{</collapsable>}}
 
 # 検証
-forkされた数の多いリポジトリを1つ取り上げ、fork先でライセンスがどのように変更されているかを検証することにしました。取り上げるリポジトリは、昨今話題になった「東京都コロナウイルス対策サイト」です。GitHubにMITライセンスのリポジトリが公開されており、多くの都道府県が(公式 / 非公式で)このリポジトリをforkした対策サイトを作成しています。  
-GitHubにforkして作成されたリポジトリを表示する機能がないため、東京都のリポジトリに「派生したサイト一覧」があることから選びました。
+forkしたリポジトリのライセンス変更に、実際どのような方法が取られているか検証することにしました。検証するリポジトリは[東京都コロナウイルス対策サイト](https://github.com/tokyo-metropolitan-gov/covid19)です。GitHubにMITライセンスのリポジトリが公開されており、多くの都道府県が(公式 / 非公式で)このリポジトリをforkした対策サイトを作成しています。[派生したサイト一覧](https://github.com/tokyo-metropolitan-gov/covid19/blob/development/FORKED_SITES.md)に掲載されているリポジトリについて、`master`ブランチの`LICENSE.txt`の権利表記を比較すると、以下のような結果になりました。
 
-|   ライセンスに加えられた変更   | リポジトリ数 |  
+|   著作権表示に加えられた変更   | リポジトリ数 |  
 | :----------------------------: | :----------: |  
-|            そのまま            |      51      |
-|            書き換え            |       6      |
-|              追記              |       1      |
+|            そのまま[^1]        |      51      |
+|            書き換え            |       7      |
+|              方法1             |       1      |
+|              方法2             |       0      |
+[^1]:forkした側のライセンスを別ファイルに掲載しているリポジトリを含みます。
 
-# 結論
-もとのライセンスの著作権表示の下に自分の著作権表示を加えるのが一番問題なさそうです。  
-ですが、そのままにしているリポジトリが多いようなので、現状はそのままにしておきます。
+東京都のリポジトリの権利表記`Copyright (c) 2020 Tokyo Metropolitan Government and other contributors.`をforkした側の名前に書き換えているリポジトリがいくつかありました。厳密に言えばこれはMITライセンスの規約違反になるので意外でした。「コロナ対策サイト」で著作権の問題は起こらないでしょうから、ライセンス関連はあまり気にしていないのかもしれません。
+
 # 参考サイト
 - https://help.github.com/ja/github/getting-started-with-github/fork-a-repo
 - https://wisdommingle.com/mit-license/

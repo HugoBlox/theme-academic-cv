@@ -13,6 +13,208 @@
     </image>
     
     <item>
+      <title>GitHubのforkとライセンス</title>
+      <link>https://blog.opuappnavi.com/post/github-fork-mit/</link>
+      <pubDate>Sun, 24 May 2020 22:37:45 +0900</pubDate>
+      <guid>https://blog.opuappnavi.com/post/github-fork-mit/</guid>
+      <description>&lt;h1 id=&#34;githubのfork&#34;&gt;GitHubのfork&lt;/h1&gt;
+&lt;p&gt;GitHubにはforkという機能があります。既に存在するリポジトリをコピーして、オリジナルのリポジトリに影響を与えることなく変更を加えることができます。&lt;br&gt;
+このサイトは
+&lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic Kickstart&lt;/a&gt;というリポジトリをforkして開発しています。&lt;/p&gt;
+&lt;h1 id=&#34;ライセンス&#34;&gt;ライセンス&lt;/h1&gt;
+&lt;p&gt;GitHubのリポジトリにはたいてい、LICENSEという名前のファイルがあります。ライセンスはそのプログラムの改変/
+商用利用などをしても良いかなどを記したファイルで、何を許可するかによって様々なライセンスが存在します。&lt;br&gt;
+その中で一番多く用いられているライセンスの１つがMITライセンスです。
+&lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic Kickstart&lt;/a&gt;もMITライセンスです。
+MITライセンスは以下の2つを守れば、改変や、商用利用など自由に使うことができます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;元の著作権表示(&lt;code&gt;Copyright (c) 年 作者名&lt;/code&gt;)をそのまま掲載すること&lt;/li&gt;
+&lt;li&gt;ライセンスの全文（あるいは全文が掲載されたサイトのURL）を掲載すること&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;詳しくは
+&lt;a href=&#34;https://wisdommingle.com/mit-license/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;このサイト&lt;/a&gt;などを参照してください。&lt;/p&gt;
+&lt;h1 id=&#34;forkとライセンス&#34;&gt;forkとライセンス&lt;/h1&gt;
+&lt;p&gt;このサイトを開発する中で、「forkしたリポジトリのライセンスはどう変更するべきなのか」という疑問を持ち、検索してみました。その結果わかった2つの方法を紹介します。&lt;/p&gt;
+&lt;h2 id=&#34;方法1一行下に自分の著作権表示を追加&#34;&gt;方法1　一行下に自分の著作権表示を追加&lt;/h2&gt;
+&lt;details&gt;
+    &lt;summary&gt;方法1&lt;/summary&gt;
+    &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;The MIT License (MIT)
+
+Copyright (c) 年 foo
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;上のようなライセンスのリポジトリをforkする場合、次のように変更します。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;The MIT License (MIT)
+
+Copyright (c) 年 foo
+Copyright (c) 年 作者名(自分)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/details&gt;
+
+&lt;h2 id=&#34;方法2ライセンスを併記&#34;&gt;方法2　ライセンスを併記&lt;/h2&gt;
+&lt;details&gt;
+    &lt;summary&gt;方法2&lt;/summary&gt;
+    &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;The MIT License (MIT)
+
+Copyright (c) 年 foo
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;上のようなライセンスのリポジトリをforkする場合、書き方は色々ありますが、例えば次のように変更します。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;The MIT License (MIT)
+
+Copyright (c) 年 作者名(自分)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Here is the original copyright notice:
+
+The MIT License (MIT)
+
+Copyright (c) 年 foo
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/details&gt;
+
+&lt;h1 id=&#34;検証&#34;&gt;検証&lt;/h1&gt;
+&lt;p&gt;forkしたリポジトリのライセンス変更に、実際どのような方法が取られているか検証することにしました。検証するリポジトリは
+&lt;a href=&#34;https://github.com/tokyo-metropolitan-gov/covid19&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;東京都コロナウイルス対策サイト&lt;/a&gt;です。GitHubにMITライセンスのリポジトリが公開されており、多くの都道府県が(公式 / 非公式で)このリポジトリをforkした対策サイトを作成しています。
+&lt;a href=&#34;https://github.com/tokyo-metropolitan-gov/covid19/blob/development/FORKED_SITES.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;派生したサイト一覧&lt;/a&gt;に掲載されているリポジトリについて、&lt;code&gt;master&lt;/code&gt;ブランチの&lt;code&gt;LICENSE.txt&lt;/code&gt;の権利表記を比較すると、以下のような結果になりました。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;著作権表示に加えられた変更&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;リポジトリ数&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;そのまま&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;51&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;書き換え&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;7&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;方法1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;方法2&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;東京都のリポジトリの権利表記&lt;code&gt;Copyright (c) 2020 Tokyo Metropolitan Government and other contributors.&lt;/code&gt;をforkした側の名前に書き換えているリポジトリがいくつかありました。厳密に言えばこれはMITライセンスの規約違反になるので意外でした。「コロナ対策サイト」で著作権の問題は起こらないでしょうから、ライセンス関連はあまり気にしていないのかもしれません。&lt;/p&gt;
+&lt;h1 id=&#34;参考サイト&#34;&gt;参考サイト&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://help.github.com/ja/github/getting-started-with-github/fork-a-repo&#34;&gt;https://help.github.com/ja/github/getting-started-with-github/fork-a-repo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wisdommingle.com/mit-license/&#34;&gt;https://wisdommingle.com/mit-license/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wisdommingle.com/mit-license/&#34;&gt;https://wisdommingle.com/mit-license/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gist.github.com/fbaierl/1d740a7925a6e0e608824eb27a429370&#34;&gt;https://gist.github.com/fbaierl/1d740a7925a6e0e608824eb27a429370&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://opensource.stackexchange.com/questions/6119/forking-github-repository-mit-what-references-to-the-original-author-should-r&#34;&gt;https://opensource.stackexchange.com/questions/6119/forking-github-repository-mit-what-references-to-the-original-author-should-r&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ja.stackoverflow.com/questions/3040/mit%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E3%81%AE%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E3%82%92%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AF%E3%81%97%E3%81%9F%E5%A0%B4%E5%90%88%E3%81%AE%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E8%A1%A8%E8%A8%98&#34;&gt;https://ja.stackoverflow.com/questions/3040/mit%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E3%81%AE%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E3%82%92%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AF%E3%81%97%E3%81%9F%E5%A0%B4%E5%90%88%E3%81%AE%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E8%A1%A8%E8%A8%98&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://softwareengineering.stackexchange.com/questions/277688/if-i-fork-a-project-on-github-that-is-licensed-under-mit-how-to-i-handle-the-at&#34;&gt;https://softwareengineering.stackexchange.com/questions/277688/if-i-fork-a-project-on-github-that-is-licensed-under-mit-how-to-i-handle-the-at&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;forkした側のライセンスを別ファイルに掲載しているリポジトリを含みます。 &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Windowsでもビデオ会議でバ美肉したい！</title>
       <link>https://blog.opuappnavi.com/post/windows-babiniku-video-conference/</link>
       <pubDate>Sun, 17 May 2020 15:47:06 +0900</pubDate>
