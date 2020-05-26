@@ -5,7 +5,7 @@ title: "GitHubのforkとライセンス"
 subtitle: "forkしたリポジトリのライセンスについて"
 summary: "GitHubを使ったことのある人向け"
 authors: ["Juris710"]
-tags: []
+tags: ["GitHub"]
 categories: []
 date: 2020-05-24T22:37:45+09:00
 featured: false
@@ -24,7 +24,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: ["opu-virtual-festival-2020"]
 ---
 # GitHubのfork
 GitHubにはforkという機能があります。既に存在するリポジトリをコピーして、オリジナルのリポジトリに影響を与えることなく変更を加えることができます。  
