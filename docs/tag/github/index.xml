@@ -22,11 +22,10 @@
 このサイトは
 &lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic Kickstart&lt;/a&gt;というリポジトリをforkして開発しています。&lt;/p&gt;
 &lt;h1 id=&#34;ライセンス&#34;&gt;ライセンス&lt;/h1&gt;
-&lt;p&gt;GitHubのリポジトリにはたいてい、LICENSEという名前のファイルがあります。ライセンスはそのプログラムの改変/
-商用利用などをしても良いかなどを記したファイルで、何を許可するかによって様々なライセンスが存在します。&lt;br&gt;
+&lt;p&gt;GitHubのリポジトリにはたいてい、LICENSEという名前のファイルがあります。ライセンスはそのプログラムの改変・商用利用などをしても良いかなどを記したファイルで、何を許可するかによって様々なライセンスが存在します。&lt;br&gt;
 その中で一番多く用いられているライセンスの１つがMITライセンスです。
 &lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic Kickstart&lt;/a&gt;もMITライセンスです。
-MITライセンスは以下の2つを守れば、改変や、商用利用など自由に使うことができます。&lt;/p&gt;
+MITライセンスが設定されたリポジトリは、以下の2つを守れば改変・商用利用など自由に使うことができます。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;元の著作権表示(&lt;code&gt;Copyright (c) 年 作者名&lt;/code&gt;)をそのまま掲載すること&lt;/li&gt;
 &lt;li&gt;ライセンスの全文（あるいは全文が掲載されたサイトのURL）を掲載すること&lt;/li&gt;
@@ -159,7 +158,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;この方法には1つだけ問題があります。GitHubはライセンスの種類を認識し、説明を表示する機能がありますが、この方法だとMITライセンスだと認識してくれません。&lt;/p&gt;
+&lt;p&gt;GitHubはライセンスの種類を認識し、説明を表示する機能があります。この方法だとGitHubがGitHuMITライセンスだと認識してくれないという問題があります。&lt;/p&gt;
 
 &lt;/details&gt;
 
@@ -197,7 +196,6 @@ SOFTWARE.
 &lt;h1 id=&#34;参考サイト&#34;&gt;参考サイト&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://help.github.com/ja/github/getting-started-with-github/fork-a-repo&#34;&gt;https://help.github.com/ja/github/getting-started-with-github/fork-a-repo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://wisdommingle.com/mit-license/&#34;&gt;https://wisdommingle.com/mit-license/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://wisdommingle.com/mit-license/&#34;&gt;https://wisdommingle.com/mit-license/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://gist.github.com/fbaierl/1d740a7925a6e0e608824eb27a429370&#34;&gt;https://gist.github.com/fbaierl/1d740a7925a6e0e608824eb27a429370&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://opensource.stackexchange.com/questions/6119/forking-github-repository-mit-what-references-to-the-original-author-should-r&#34;&gt;https://opensource.stackexchange.com/questions/6119/forking-github-repository-mit-what-references-to-the-original-author-should-r&lt;/a&gt;&lt;/li&gt;

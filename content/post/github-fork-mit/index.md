@@ -31,10 +31,9 @@ GitHubにはforkという機能があります。既に存在するリポジト�
 このサイトは[Academic Kickstart](https://github.com/sourcethemes/academic-kickstart)というリポジトリをforkして開発しています。
 
 # ライセンス
-GitHubのリポジトリにはたいてい、LICENSEという名前のファイルがあります。ライセンスはそのプログラムの改変/
-商用利用などをしても良いかなどを記したファイルで、何を許可するかによって様々なライセンスが存在します。  
+GitHubのリポジトリにはたいてい、LICENSEという名前のファイルがあります。ライセンスはそのプログラムの改変・商用利用などをしても良いかなどを記したファイルで、何を許可するかによって様々なライセンスが存在します。  
 その中で一番多く用いられているライセンスの１つがMITライセンスです。[Academic Kickstart](https://github.com/sourcethemes/academic-kickstart)もMITライセンスです。
-MITライセンスは以下の2つを守れば、改変や、商用利用など自由に使うことができます。
+MITライセンスが設定されたリポジトリは、以下の2つを守れば改変・商用利用など自由に使うことができます。
 - 元の著作権表示(`Copyright (c) 年 作者名`)をそのまま掲載すること  
 - ライセンスの全文（あるいは全文が掲載されたサイトのURL）を掲載すること  
 
@@ -166,7 +165,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
-この方法には1つだけ問題があります。GitHubはライセンスの種類を認識し、説明を表示する機能がありますが、この方法だとMITライセンスだと認識してくれません。
+GitHubはライセンスの種類を認識し、説明を表示する機能があります。この方法だとGitHubがGitHuMITライセンスだと認識してくれないという問題があります。
 {{</collapsable>}}
 
 # 検証
@@ -184,7 +183,6 @@ forkしたリポジトリのライセンス変更に、実際どのような方�
 
 # 参考サイト
 - https://help.github.com/ja/github/getting-started-with-github/fork-a-repo
-- https://wisdommingle.com/mit-license/
 - https://wisdommingle.com/mit-license/
 - https://gist.github.com/fbaierl/1d740a7925a6e0e608824eb27a429370
 - https://opensource.stackexchange.com/questions/6119/forking-github-repository-mit-what-references-to-the-original-author-should-r
