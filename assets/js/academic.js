@@ -26,7 +26,6 @@
    * If `target` argument omitted (e.g. after event), assume it's the window's hash.
    */
   function scrollToAnchor(target) {
-    return; //無効化(layout/post/single.html内のscriptで実装)
     // If `target` is undefined or HashChangeEvent object, set it to window's hash.
     // Decode the hash as browsers can encode non-ASCII characters (e.g. Chinese symbols).
     target = (typeof target === 'undefined' || typeof target === 'object') ? decodeURIComponent(window.location.hash) : target;
@@ -67,7 +66,7 @@
   }
 
   // Check for hash change event and fix responsive offset for hash links (e.g. Markdown footnotes).
-  window.addEventListener("hashchange", scrollToAnchor);
+  //window.addEventListener("hashchange", scrollToAnchor);
 
   /* ---------------------------------------------------------------------------
    * Add smooth scrolling to all links inside the main navbar.

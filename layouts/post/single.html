@@ -21,7 +21,7 @@
     </div>
   </article>
 </div>
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+{{/*  <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>  */}}
 <script>
   //let needsCodeHeaderButtonRegex = RegExp(/.*language-(mermaid).*/);あとで
   function needsCodeHeaderButton(code) {
@@ -104,64 +104,32 @@
       $('body').removeClass('scrolling');
     });
   }
-  function scrollToAnchor(hashName) {
-    target = "#" + hashName;
-    if ($(target).length) {
-      console.log("hello");
-      target = '#' + $.escapeSelector(target.substring(1));
-
-      let elementOffset = Math.ceil($(target).offset().top - getNavBarHeight());  
-      scrollToElement(elementOffset);
-      {{/*  $('body').addClass('scrolling');
-      $('html, body').animate({
-        scrollTop: elementOffset
-      }, 600, function () {
-        $('body').removeClass('scrolling');
-      });  */}}
-    } else {
-      console.debug('Cannot scroll to target `' + target + '`. ID not found!');
-    }
-  }
   let pageLink = {{.Page.Permalink }};
-  {{/*  $("a").filter(function(index, element){return element.href.startsWith(pageLink);}).on('click', function(){
-    let url = $(this).attr('href');
-    let hashId = url.substring(url.indexOf('#')+1);
-    console.log(hashId);
-    console.log(location.pathname);
-    console.log(location.url);
-    });  */}}
-  let inPageLinks = $("a").filter(function(index, element){return element.href.startsWith(pageLink);});
-  {{/*  $("a").filter(function(index, element){return element.href.startsWith(pageLink);}).each(function(index, element){
-    console.log(element);
+  let inPageLinks = [].filter.call(document.getElementsByTagName('a'),function(element){
+    return element.href.startsWith(pageLink) && element.hash != '';
   });
-  console.log("------------------");  */}}
-  let footnoteRegex = RegExp(/^#fn(ref)?:\d+$/);
-  inPageLinks.each(function(index, element){
-    //console.log(Object.prototype.toString.call(element));
+  inPageLinks.forEach(function(element){
+    let hashId = decodeURIComponent(element.hash.substring(1));
+    let target = document.getElementById(hashId);
+    element.addEventListener('click',function(){
+      //offsetとnavBarHeightは毎回変化するので毎回取得する
+      let elementOffset = Math.ceil(getOffsetOf(target).top - getNavBarHeight());
+      scrollToElement(elementOffset);
+    });
+  });
+  {{/*  let inPageLinks2 = $("a").filter(function(index, element){return element.href.startsWith(pageLink);});
+  inPageLinks2.each(function(index, element){
     let hash = element.hash;
     if(hash == ""){
       return;
     }
     let hashId = decodeURIComponent(hash.substring(1));
-    console.log(hashId);
     let target = document.getElementById(hashId);
-    let elementOffset = Math.ceil(getOffsetOf(target).top - getNavBarHeight());
     $(element).on('click',function(){
-      //scrollToAnchor(hashName);
+      //offsetとnavBarHeightは毎回変化するので毎回取得する
+      let elementOffset = Math.ceil(getOffsetOf(target).top - getNavBarHeight());
       scrollToElement(elementOffset);
     });
-  });
-  {{/*  console.log($('fn:1').length);
-  [].forEach.call(document.getElementsByTagName("*"),function(e){
-    if(e.id == 'fn:1'){
-      console.log("aiueo");
-    }
-    if(e.id == 'fnref:1'){
-      console.log("kakikukeko");
-    }
   });  */}}
-  console.log(document.getElementById('fn:1'));
-
-//test01();
-</script>
+  </script>
 {{- end -}}

@@ -131,3 +131,10 @@ int main(void){
 著者のプロフィール表示(1人のみ)
 ### authors/terms.html
 著者一覧表示
+
+# Javascript
+## Objectのクラス名表示
+`typeof element`だと`Object`としか表示されない。
+```js
+console.log(Object.prototype.toString.call(element));
+```

@@ -1078,7 +1078,7 @@ graph TD;
     </div>
   </article>
 </div>
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
 <script>
   
   function needsCodeHeaderButton(code) {
@@ -1161,44 +1161,21 @@ graph TD;
       $('body').removeClass('scrolling');
     });
   }
-  function scrollToAnchor(hashName) {
-    target = "#" + hashName;
-    if ($(target).length) {
-      console.log("hello");
-      target = '#' + $.escapeSelector(target.substring(1));
-
-      let elementOffset = Math.ceil($(target).offset().top - getNavBarHeight());  
-      scrollToElement(elementOffset);
-      
-    } else {
-      console.debug('Cannot scroll to target `' + target + '`. ID not found!');
-    }
-  }
   let pageLink = "https://blog.opuappnavi.com/post/how-to-write-an-article/";
-  
-  let inPageLinks = $("a").filter(function(index, element){return element.href.startsWith(pageLink);});
-  
-  let footnoteRegex = RegExp(/^#fn(ref)?:\d+$/);
-  inPageLinks.each(function(index, element){
-    
-    let hash = element.hash;
-    if(hash == ""){
-      return;
-    }
-    let hashId = decodeURIComponent(hash.substring(1));
-    console.log(hashId);
+  let inPageLinks = [].filter.call(document.getElementsByTagName('a'),function(element){
+    return element.href.startsWith(pageLink) && element.hash != '';
+  });
+  inPageLinks.forEach(function(element){
+    let hashId = decodeURIComponent(element.hash.substring(1));
     let target = document.getElementById(hashId);
-    let elementOffset = Math.ceil(getOffsetOf(target).top - getNavBarHeight());
-    $(element).on('click',function(){
+    element.addEventListener('click',function(){
       
+      let elementOffset = Math.ceil(getOffsetOf(target).top - getNavBarHeight());
       scrollToElement(elementOffset);
     });
   });
   
-  console.log(document.getElementById('fn:1'));
-
-
-</script>
+  </script>
 
       
 
@@ -1306,7 +1283,7 @@ graph TD;
     
     
     
-    <script src="/js/academic.min.af9ca4a3c7efc813d7ab0f0b6c14dbe7.js"></script>
+    <script src="/js/academic.min.ca1df57a97163b28d836aa081d328990.js"></script>
 
     
 
