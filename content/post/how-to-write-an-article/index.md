@@ -100,6 +100,10 @@ YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式
 {{< page "project/opu-virtual-festival-2020" >}}
 
 ## ページ内リンク  
+{{<alert warning>}}
+  `{{</*jump "見出し名" "リンクテキスト"*/>}}`は非推奨になりました。  
+  Markdown標準の`[見出し名](#リンクテキスト)`を使用してください。
+{{</alert>}}
 クリックすると同じページ内の見出しに飛ぶことができるリンクを挿入する自作Shortcodeです。
 Markdown記法だけでも書けるのですが、見出し付近がナビゲーションバーに隠れてしまうバグがあるため、それを解消しています。
 {{<escape-shortcode-single>}} jump "{{<code-em>}}見出し名{{</code-em>}}" "{{<code-em>}}リンクテキスト{{</code-em>}}" {{</escape-shortcode-single>}}
@@ -109,7 +113,7 @@ Markdown記法だけでも書けるのですが、見出し付近がナビゲー
 # その他
 ## 数式
 $\LaTeX$ 記法を用いることで数式を表示することができます。数式は`$$`で囲む必要があります。
-```math
+```
 $$ F=G\frac{Mm}{r^2} $$
 ```
 下のように表示されます。

@@ -33,15 +33,15 @@
 &lt;p&gt;WebAPIを利用した結果は、JSON形式やXML形式の文字列で取得できることが多いです。詳しくは
 
 
+
+
     
     
         
     
 
 
-
-&lt;a href=&#34;javascript:void(0)&#34; onmouseup=&#34;onPageLinkClicked(&#39;#json&#39;)&#34;&gt;JSON&lt;/a&gt;
-を参照してください。&lt;/p&gt;
+&lt;a href=&#34;#JSON&#34;&gt;JSON&lt;/a&gt;を参照してください。&lt;/p&gt;
 &lt;h2 id=&#34;android&#34;&gt;Android&lt;/h2&gt;
 &lt;p&gt;Android StudioでのAndroidアプリ開発では、UIのレイアウトやスタイル、多言語対応の文字列などに関してxmlで記述されています。&lt;/p&gt;
 &lt;h2 id=&#34;unity-1&#34;&gt;Unity&lt;/h2&gt;
@@ -93,14 +93,14 @@ Unity 2019から&lt;code&gt;UI Elements&lt;/code&gt;という新しいUIシス�
 画像のサイズを変えたい、または画像を左寄せ・右寄せしたい場合は下の
 
 
-    
 
 
     
 
 
-&lt;a href=&#34;javascript:void(0)&#34; onmouseup=&#34;onPageLinkClicked(&#39;#%E7%94%BB%E5%83%8F%E3%81%AE%E6%8C%BF%E5%85%A5&#39;)&#34;&gt;Shortcode&lt;/a&gt;
-を参照してください&lt;/p&gt;
+    
+
+&lt;a href=&#34;#%E7%94%BB%E5%83%8F%E3%81%AE%E6%8C%BF%E5%85%A5&#34;&gt;Shortcode&lt;/a&gt;を参照してください&lt;/p&gt;
 &lt;h1 id=&#34;shortcodes&#34;&gt;Shortcodes&lt;/h1&gt;
 &lt;p&gt;ShortcodesとはHugo独自の機能で、Markdownファイルに書くことができるスニペットです。&lt;/p&gt;
 &lt;h2 id=&#34;画像の挿入&#34;&gt;画像の挿入&lt;/h2&gt;
@@ -285,7 +285,14 @@ Unity 2019から&lt;code&gt;UI Elements&lt;/code&gt;という新しいUIシス�
 
  &lt;/p&gt;
 &lt;h2 id=&#34;ページ内リンク&#34;&gt;ページ内リンク&lt;/h2&gt;
-&lt;p&gt;クリックすると同じページ内の見出しに飛ぶことができるリンクを挿入する自作Shortcodeです。
+&lt;p&gt;&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    &lt;code&gt;{{&amp;lt;jump &amp;quot;見出し名&amp;quot; &amp;quot;リンクテキスト&amp;quot;&amp;gt;}}&lt;/code&gt;は非推奨になりました。&lt;br&gt;
+Markdown標準の&lt;code&gt;[見出し名](#リンクテキスト)&lt;/code&gt;を使用してください。
+  &lt;/div&gt;
+&lt;/div&gt;
+
+クリックすると同じページ内の見出しに飛ぶことができるリンクを挿入する自作Shortcodeです。
 Markdown記法だけでも書けるのですが、見出し付近がナビゲーションバーに隠れてしまうバグがあるため、それを解消しています。
 
 
@@ -295,19 +302,19 @@ Markdown記法だけでも書けるのですが、見出し付近がナビゲー
 例えば&lt;code&gt;{{&amp;lt;jump &amp;quot;折りたたみ&amp;quot;&amp;gt;}}&lt;/code&gt;と書くと
 
 
-    
-    
 
 
     
+    
 
 
-&lt;a href=&#34;javascript:void(0)&#34; onmouseup=&#34;onPageLinkClicked(&#39;#%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF&#39;)&#34;&gt;折りたたみ&lt;/a&gt;
-のようなリンクが作れます。&lt;/p&gt;
+    
+
+&lt;a href=&#34;#%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF&#34;&gt;折りたたみ&lt;/a&gt;のようなリンクが作れます。&lt;/p&gt;
 &lt;h1 id=&#34;その他&#34;&gt;その他&lt;/h1&gt;
 &lt;h2 id=&#34;数式&#34;&gt;数式&lt;/h2&gt;
 &lt;p&gt;$\LaTeX$ 記法を用いることで数式を表示することができます。数式は&lt;code&gt;$$&lt;/code&gt;で囲む必要があります。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-math&#34;&gt;$$ F=G\frac{Mm}{r^2} $$
+&lt;pre&gt;&lt;code&gt;$$ F=G\frac{Mm}{r^2} $$
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;下のように表示されます。
 $$ F=G\frac{Mm}{r^2} $$

@@ -1039,9 +1039,9 @@ GitHubタブが開きます。
   </article>
 </div>
 <script>
-  
+  let needsCodeHeaderButtonRegex = RegExp(/.*language-(mermaid).*/);
   function needsCodeHeaderButton(code) {
-    return !RegExp(/.*language-(mermaid).*/).test(code.className);
+    return !needsCodeHeaderButtonRegex.test(code.className);
   }
   function addCodeTitle(code, codeHeader) {
     let found = code.className.match(/.*language-.*:([^ ]+)/);
@@ -1101,9 +1101,11 @@ GitHubタブが開きます。
     }
   });  
 </script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script>
+  let navBar = document.getElementById('navbar-main');
   function getNavBarHeight() {
-    return $('#navbar-main').outerHeight();
+    return navBar.offsetHeight;
   }
   function getOffsetOf(el) {
     const box = el.getBoundingClientRect();
@@ -1112,12 +1114,13 @@ GitHubタブが開きます。
       left: box.left + window.pageXOffset - document.documentElement.clientLeft
     }
   }
+  let bodyClassList = document.body.classList;
   function scrollToElement(to){
-    $('body').addClass('scrolling');
+    bodyClassList.add('scrolling');
     $('html, body').animate({
       scrollTop: to
     }, 600, function () {
-      $('body').removeClass('scrolling');
+      bodyClassList.remove('scrolling');
     });
   }
   let pageLink = "https://blog.opuappnavi.com/post/github-for-unity/";
@@ -1241,7 +1244,7 @@ GitHubタブが開きます。
     
     
     
-    <script src="/js/academic.min.ca1df57a97163b28d836aa081d328990.js"></script>
+    <script src="/js/academic.min.46e49e5e11eda001eb407dbbe50018b6.js"></script>
 
     
 

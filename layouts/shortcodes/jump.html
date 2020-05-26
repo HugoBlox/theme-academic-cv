@@ -1,3 +1,5 @@
+{{/*  This shortcode is deprecated. Use `[link_text](#link)` instead.  */}}
+{{/*  このShortcodeは非推奨です。Markdown標準の`[link_text](#link)`を使用してください。 */}}
 {{$link := .Get 0}}
 {{$link_text := .Get 1}}
 {{if $link_text}}
@@ -11,5 +13,4 @@
 {{if ne (substr $link 0 1) "#"}}
     {{$link = print "#" $link}}
 {{end}}
-{{$link = urlize $link}}
-<a href="javascript:void(0)" onmouseup="onPageLinkClicked('{{$link}}')">{{$link_text}}</a>
+{{ print "[" $link_text "]" "(" $link ")" | markdownify}}

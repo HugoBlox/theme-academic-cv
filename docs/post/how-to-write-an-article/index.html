@@ -660,14 +660,14 @@
 画像のサイズを変えたい、または画像を左寄せ・右寄せしたい場合は下の
 
 
-    
 
 
     
 
 
-<a href="javascript:void(0)" onmouseup="onPageLinkClicked('#%E7%94%BB%E5%83%8F%E3%81%AE%E6%8C%BF%E5%85%A5')">Shortcode</a>
-を参照してください</p>
+    
+
+<a href="#%E7%94%BB%E5%83%8F%E3%81%AE%E6%8C%BF%E5%85%A5">Shortcode</a>を参照してください</p>
 <h1 id="shortcodes">Shortcodes</h1>
 <p>ShortcodesとはHugo独自の機能で、Markdownファイルに書くことができるスニペットです。</p>
 <h2 id="画像の挿入">画像の挿入</h2>
@@ -852,7 +852,14 @@
 
  </p>
 <h2 id="ページ内リンク">ページ内リンク</h2>
-<p>クリックすると同じページ内の見出しに飛ぶことができるリンクを挿入する自作Shortcodeです。
+<p><div class="alert alert-warning">
+  <div>
+    <code>{{&lt;jump &quot;見出し名&quot; &quot;リンクテキスト&quot;&gt;}}</code>は非推奨になりました。<br>
+Markdown標準の<code>[見出し名](#リンクテキスト)</code>を使用してください。
+  </div>
+</div>
+
+クリックすると同じページ内の見出しに飛ぶことができるリンクを挿入する自作Shortcodeです。
 Markdown記法だけでも書けるのですが、見出し付近がナビゲーションバーに隠れてしまうバグがあるため、それを解消しています。
 
 
@@ -862,19 +869,19 @@ Markdown記法だけでも書けるのですが、見出し付近がナビゲー
 例えば<code>{{&lt;jump &quot;折りたたみ&quot;&gt;}}</code>と書くと
 
 
-    
-    
 
 
     
+    
 
 
-<a href="javascript:void(0)" onmouseup="onPageLinkClicked('#%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF')">折りたたみ</a>
-のようなリンクが作れます。</p>
+    
+
+<a href="#%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF">折りたたみ</a>のようなリンクが作れます。</p>
 <h1 id="その他">その他</h1>
 <h2 id="数式">数式</h2>
 <p>$\LaTeX$ 記法を用いることで数式を表示することができます。数式は<code>$$</code>で囲む必要があります。</p>
-<pre><code class="language-math">$$ F=G\frac{Mm}{r^2} $$
+<pre><code>$$ F=G\frac{Mm}{r^2} $$
 </code></pre>
 <p>下のように表示されます。
 $$ F=G\frac{Mm}{r^2} $$
@@ -1079,9 +1086,9 @@ graph TD;
   </article>
 </div>
 <script>
-  
+  let needsCodeHeaderButtonRegex = RegExp(/.*language-(mermaid).*/);
   function needsCodeHeaderButton(code) {
-    return !RegExp(/.*language-(mermaid).*/).test(code.className);
+    return !needsCodeHeaderButtonRegex.test(code.className);
   }
   function addCodeTitle(code, codeHeader) {
     let found = code.className.match(/.*language-.*:([^ ]+)/);
@@ -1141,9 +1148,11 @@ graph TD;
     }
   });  
 </script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script>
+  let navBar = document.getElementById('navbar-main');
   function getNavBarHeight() {
-    return $('#navbar-main').outerHeight();
+    return navBar.offsetHeight;
   }
   function getOffsetOf(el) {
     const box = el.getBoundingClientRect();
@@ -1152,12 +1161,13 @@ graph TD;
       left: box.left + window.pageXOffset - document.documentElement.clientLeft
     }
   }
+  let bodyClassList = document.body.classList;
   function scrollToElement(to){
-    $('body').addClass('scrolling');
+    bodyClassList.add('scrolling');
     $('html, body').animate({
       scrollTop: to
     }, 600, function () {
-      $('body').removeClass('scrolling');
+      bodyClassList.remove('scrolling');
     });
   }
   let pageLink = "https://blog.opuappnavi.com/post/how-to-write-an-article/";
@@ -1281,7 +1291,7 @@ graph TD;
     
     
     
-    <script src="/js/academic.min.ca1df57a97163b28d836aa081d328990.js"></script>
+    <script src="/js/academic.min.46e49e5e11eda001eb407dbbe50018b6.js"></script>
 
     
 
