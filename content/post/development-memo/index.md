@@ -1,8 +1,8 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Hugo Memo"
-subtitle: "Hugoを使う際のメモ"
+title: "開発 Memo"
+subtitle: "サイト開発のメモ"
 summary: "サイトには表示されません。"
 authors: ["juris710"]
 tags: []
@@ -28,35 +28,23 @@ projects: []
 ---
 # はじめに
 サイト制作者Juris710のメモです。  `draft=true`を設定しているため、サイトには表示されません。
-
-# 記事を新規作成する方法
+# Hugo
+## 記事を新規作成する方法
 {{< alert note >}}
 「記事名」は英語（すべて小文字）で、単語間はハイフン（-）でつなぐのが望ましい
 {{</ alert >}}
 1. コマンドラインで`hugo new --kind post post/記事名` を実行
 2. `content/post/記事名/index.md`に記事を書く  
 
-# 著者を追加する方法
+## 著者を追加する方法
 1. コマンドラインで`hugo new --kind authors authors/著者名`を実行
 2. `content/authors/著者名/index.md`を編集
 3. `content/authors/著者名/avatar.jpg`を任意の画像（png または jpg）に置き換え
 
-# HugoとHugo Extendedの違い
+## HugoとHugo Extendedの違い
 [引用](https://sanpobiyori.info/20190503/)
 >通常のhugoとの違いは、ExtendedではSASS/SCSSが使える点が異なります。
 >githubで公開されているテーマなどの中にもSASS/SCSSが使用されているものもがあり、そういったテーマを使用する場合は通常のhugoではエラーとなってしまい、記事の生成を行うことが出来ません。
-
-# homeで使っているWidgetを他のページでも使う方法
-1. 使いたいページ名のフォルダに`index.md`を作成
-2. `index.md`のフロントマッターを編集
-    ```toml
-    type = "widget_page"
-    headless = false  # Homepage is headless, other widget pages are not.
-    ```  
-3. `themes/academic/exampleSite/content/home`から使いたいWidgetを移動  
-
-# 記事に挿入する画像の保存場所
-記事のindex.mdファイルがあるフォルダに画像を追加
 
 # Known Issues
 ## Nested Shortcodes
@@ -97,7 +85,8 @@ $header-height-small: 50px;
 ### 対処法
 `themes\academic\layouts\partials\navbar.html`の79～90行目を修正
 
-# Markdownのコードのエスケープ
+# Markdown
+## コードのエスケープ
 `````````md
 ``````md
 ```c
@@ -121,11 +110,23 @@ int main(void){
 }
 ```
 ``````
-# academicのlayoutのhtmlファイルに関するメモ
-## _default/list.html
+# Academic Theme
+## homeで使っているWidgetを他のページでも使う方法
+1. 使いたいページ名のフォルダに`index.md`を作成
+2. `index.md`のフロントマッターを編集
+    ```toml
+    type = "widget_page"
+    headless = false  # Homepage is headless, other widget pages are not.
+    ```  
+3. `themes/academic/exampleSite/content/home`から使いたいWidgetを移動  
+
+## 記事に挿入する画像の保存場所
+記事のindex.mdファイルがあるフォルダに画像を追加
+
+## layoutのhtmlファイルに関するメモ
+### _default/list.html
 - Taxonomies(tags, categoriesなど)一覧表示
 - 特定のTaxonomiesの付いた記事一覧表示
-## authors
 ### authors/list.html
 著者のプロフィール表示(1人のみ)
 ### authors/terms.html
