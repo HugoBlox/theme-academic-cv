@@ -9,75 +9,78 @@
   </nav>
   <article class="article">
     {{ partial "page_header" . }}
-  
+
     <div class="article-container">
-  
+
       <div class="article-style">
         {{ .Content }}
       </div>
-  
+
       {{ partial "page_footer" . }}
-  
+
     </div>
-  </article>  
+  </article>
 </div>
 <script>
-  function needsCodeTitleAndCopyButton(code){
+  function needsCodeTitleAndCopyButton(code) {
     return !RegExp(/.*language-(mermaid).*/).test(code.className);
   }
-  function addCodeTitle(code){
+  function addCodeTitle(code, codeHeader) {
     let found = code.className.match(/.*language-.*:([^ ]+)/);
-    if(found){
+    if (found) {
       let filename = found[1];
       let text = document.createElement('div');
       text.className = "code-title";
       text.innerHTML = filename;
-      code.parentElement.insertBefore(text, code);
+      codeHeader.appendChild(text);
     }
   }
-  function addCopyButton(code){
+  function addCopyButton(code, codeHeader) {
     let copiedText = document.createElement('div');
-    copiedText.className = "code-copied-text";   
+    copiedText.className = "code-copied-text";
     copiedText.innerHTML = "コピーしました。";
 
     let button = document.createElement('button');
-    button.className="copy-code-button";
-    button.onclick = function(){
+    button.className = "copy-code-button";
+    button.onclick = function () {
       //参考：https://qiita.com/butakoma/items/642c0ec4b77f6bb5ebcf
-      let listener = function(e){
-        e.clipboardData.setData("text/plain" , code.textContent);    
+      let listener = function (e) {
+        e.clipboardData.setData("text/plain", code.textContent);
         copiedText.classList.add("active");
-        setTimeout(()=>{copiedText.classList.remove("active");},3000);
+        setTimeout(() => { copiedText.classList.remove("active"); }, 3000);
         // 本来のイベントをキャンセル
         e.preventDefault();
         // 終わったら一応削除
         document.removeEventListener("copy", listener);
       }
       // コピーのイベントが発生したときに、クリップボードに書き込むようにしておく
-      document.addEventListener("copy" , listener);
+      document.addEventListener("copy", listener);
       // コピー
       document.execCommand("copy");
     }
-    code.parentElement.insertBefore(button, code);  
+    codeHeader.appendChild(button);
 
     let icon = document.createElement('i');
     icon.className = "far fa-clipboard";
-    button.appendChild(icon);    
-    button.appendChild(copiedText);    
+    button.appendChild(icon);
+    button.appendChild(copiedText);
   }
   let multilineCodes = [];
   [].forEach.call(document.getElementsByTagName(`pre`), function (pre) {
     multilineCodes = multilineCodes.concat(
       [].filter.call(pre.childNodes, node => {
-        return node.tagName == "CODE"; 
+        return node.tagName == "CODE";
       })
     );
   });
   multilineCodes.forEach(code => {
-    if(needsCodeTitleAndCopyButton(code)){
-      addCodeTitle(code);
-      addCopyButton(code);
+    if (needsCodeTitleAndCopyButton(code)) {
+      let codeHeader = document.createElement('div');
+      codeHeader.className = "code-header";
+      code.parentElement.insertBefore(codeHeader, code);
+      addCodeTitle(code, codeHeader);
+      addCopyButton(code, codeHeader);
     }
   });
 </script>
-{{- end -}} 
+{{- end -}}

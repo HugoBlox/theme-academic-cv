@@ -160,19 +160,19 @@ $sidebar-width: 300px;
 }
 
 //code
-.code-title {
+.code-header {
     background-color: #343a40;
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+}
+.code-title {
     display: inline-block;
-    padding-top: 0px;
-    padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    margin-right: 10px;
-    border-radius: 4px;
 }
 .copy-code-button {
     position: relative;
-    float: right;
     background: #668ad8;
     border: none;
     border-radius: 4px;
@@ -183,7 +183,6 @@ $sidebar-width: 300px;
     padding: 0;
     &:hover {
         background: #00bcd4;
-        color: white;
     }
     &:active {
         box-shadow: inset 0 10px 25px 0 rgba(0, 0, 0, 0.5);
@@ -196,14 +195,20 @@ $sidebar-width: 300px;
         margin-bottom: 0;
         font-size: 18px;
     }
+    &:hover i {
+        color: white;
+    }
 }
 .code-copied-text {
     display: none;
     position: absolute;
-    bottom: 0px;
-    right: 25px;
+    bottom: 3px;
+    left: 32px;
     &.active {
         display: block;
+    }
+    &:hover {
+        text-decoration: none;
     }
 }
 
@@ -216,26 +221,26 @@ $sidebar-width: 300px;
 .code-em {
     background-image: linear-gradient(to bottom, rgba(233, 231, 245, 0.2), rgba(233, 231, 245, 0.2));
     color: red;
-    *{
-        color:red;
+    * {
+        color: red;
     }
 }
 
-input#search-query:focus{
+input#search-query:focus {
     outline: none;
 }
 
-.article-widget{
+.article-widget {
     padding-top: 0;
 }
-.post-nav{
+.post-nav {
     margin-top: 0;
 }
-.content-widget-hr{
+.content-widget-hr {
     margin-top: 0;
     //padding-top: 0.5em;
 }
-twitter-widget{
+twitter-widget {
     margin-left: auto;
     margin-right: auto;
 }

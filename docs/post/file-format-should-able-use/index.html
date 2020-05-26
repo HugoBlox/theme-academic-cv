@@ -662,9 +662,9 @@
 </div>
 
 
-  
+
     <div class="article-container">
-  
+
       <div class="article-style">
         <p>プログラミング入門講座を学び、UnityやAndroid、Webなどの開発を始めた脱プログラミング初心者に向けた記事です。何を開発するかに関わらず、内容を理解出来たり自分で書けたりすれば役にたつと思うファイル形式を3つ紹介します。</p>
 <h1 id="markdown">Markdown</h1>
@@ -718,7 +718,7 @@ Unity 2019から<code>UI Elements</code>という新しいUIシステムが使�
 </ul>
 
       </div>
-  
+
       
 
 
@@ -884,66 +884,69 @@ Unity 2019から<code>UI Elements</code>という新しいUIシステムが使�
   
 
 
-  
+
     </div>
-  </article>  
+  </article>
 </div>
 <script>
-  function needsCodeTitleAndCopyButton(code){
+  function needsCodeTitleAndCopyButton(code) {
     return !RegExp(/.*language-(mermaid).*/).test(code.className);
   }
-  function addCodeTitle(code){
+  function addCodeTitle(code, codeHeader) {
     let found = code.className.match(/.*language-.*:([^ ]+)/);
-    if(found){
+    if (found) {
       let filename = found[1];
       let text = document.createElement('div');
       text.className = "code-title";
       text.innerHTML = filename;
-      code.parentElement.insertBefore(text, code);
+      codeHeader.appendChild(text);
     }
   }
-  function addCopyButton(code){
+  function addCopyButton(code, codeHeader) {
     let copiedText = document.createElement('div');
-    copiedText.className = "code-copied-text";   
+    copiedText.className = "code-copied-text";
     copiedText.innerHTML = "コピーしました。";
 
     let button = document.createElement('button');
-    button.className="copy-code-button";
-    button.onclick = function(){
+    button.className = "copy-code-button";
+    button.onclick = function () {
       
-      let listener = function(e){
-        e.clipboardData.setData("text/plain" , code.textContent);    
+      let listener = function (e) {
+        e.clipboardData.setData("text/plain", code.textContent);
         copiedText.classList.add("active");
-        setTimeout(()=>{copiedText.classList.remove("active");},3000);
+        setTimeout(() => { copiedText.classList.remove("active"); }, 3000);
         
         e.preventDefault();
         
         document.removeEventListener("copy", listener);
       }
       
-      document.addEventListener("copy" , listener);
+      document.addEventListener("copy", listener);
       
       document.execCommand("copy");
     }
-    code.parentElement.insertBefore(button, code);  
+    codeHeader.appendChild(button);
 
     let icon = document.createElement('i');
     icon.className = "far fa-clipboard";
-    button.appendChild(icon);    
-    button.appendChild(copiedText);    
+    button.appendChild(icon);
+    button.appendChild(copiedText);
   }
   let multilineCodes = [];
   [].forEach.call(document.getElementsByTagName(`pre`), function (pre) {
     multilineCodes = multilineCodes.concat(
       [].filter.call(pre.childNodes, node => {
-        return node.tagName == "CODE"; 
+        return node.tagName == "CODE";
       })
     );
   });
   multilineCodes.forEach(code => {
-    if(needsCodeTitleAndCopyButton(code)){
-      addCodeTitle(code);
-      addCopyButton(code);
+    if (needsCodeTitleAndCopyButton(code)) {
+      let codeHeader = document.createElement('div');
+      codeHeader.className = "code-header";
+      code.parentElement.insertBefore(codeHeader, code);
+      addCodeTitle(code, codeHeader);
+      addCopyButton(code, codeHeader);
     }
   });
 </script>

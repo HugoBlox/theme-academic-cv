@@ -242,7 +242,7 @@
     
       <meta property="article:published_time" content="2020-05-24T22:37:45&#43;09:00">
     
-    <meta property="article:modified_time" content="2020-05-26T10:43:23&#43;09:00">
+    <meta property="article:modified_time" content="2020-05-26T14:18:06&#43;09:00">
   
 
   
@@ -271,7 +271,7 @@
   "headline": "GitHubのforkとライセンス",
   
   "datePublished": "2020-05-24T22:37:45+09:00",
-  "dateModified": "2020-05-26T10:43:23+09:00",
+  "dateModified": "2020-05-26T14:18:06+09:00",
   
   "author": {
     "@type": "Person",
@@ -659,9 +659,9 @@
 </div>
 
 
-  
+
     <div class="article-container">
-  
+
       <div class="article-style">
         <h1 id="githubのfork">GitHubのfork</h1>
 <p>GitHubにはforkという機能があります。既に存在するリポジトリをコピーして、オリジナルのリポジトリに影響を与えることなく変更を加えることができます。<br>
@@ -858,7 +858,7 @@ SOFTWARE.
 </section>
 
       </div>
-  
+
       
 
 
@@ -1017,66 +1017,69 @@ SOFTWARE.
   
 
 
-  
+
     </div>
-  </article>  
+  </article>
 </div>
 <script>
-  function needsCodeTitleAndCopyButton(code){
+  function needsCodeTitleAndCopyButton(code) {
     return !RegExp(/.*language-(mermaid).*/).test(code.className);
   }
-  function addCodeTitle(code){
+  function addCodeTitle(code, codeHeader) {
     let found = code.className.match(/.*language-.*:([^ ]+)/);
-    if(found){
+    if (found) {
       let filename = found[1];
       let text = document.createElement('div');
       text.className = "code-title";
       text.innerHTML = filename;
-      code.parentElement.insertBefore(text, code);
+      codeHeader.appendChild(text);
     }
   }
-  function addCopyButton(code){
+  function addCopyButton(code, codeHeader) {
     let copiedText = document.createElement('div');
-    copiedText.className = "code-copied-text";   
+    copiedText.className = "code-copied-text";
     copiedText.innerHTML = "コピーしました。";
 
     let button = document.createElement('button');
-    button.className="copy-code-button";
-    button.onclick = function(){
+    button.className = "copy-code-button";
+    button.onclick = function () {
       
-      let listener = function(e){
-        e.clipboardData.setData("text/plain" , code.textContent);    
+      let listener = function (e) {
+        e.clipboardData.setData("text/plain", code.textContent);
         copiedText.classList.add("active");
-        setTimeout(()=>{copiedText.classList.remove("active");},3000);
+        setTimeout(() => { copiedText.classList.remove("active"); }, 3000);
         
         e.preventDefault();
         
         document.removeEventListener("copy", listener);
       }
       
-      document.addEventListener("copy" , listener);
+      document.addEventListener("copy", listener);
       
       document.execCommand("copy");
     }
-    code.parentElement.insertBefore(button, code);  
+    codeHeader.appendChild(button);
 
     let icon = document.createElement('i');
     icon.className = "far fa-clipboard";
-    button.appendChild(icon);    
-    button.appendChild(copiedText);    
+    button.appendChild(icon);
+    button.appendChild(copiedText);
   }
   let multilineCodes = [];
   [].forEach.call(document.getElementsByTagName(`pre`), function (pre) {
     multilineCodes = multilineCodes.concat(
       [].filter.call(pre.childNodes, node => {
-        return node.tagName == "CODE"; 
+        return node.tagName == "CODE";
       })
     );
   });
   multilineCodes.forEach(code => {
-    if(needsCodeTitleAndCopyButton(code)){
-      addCodeTitle(code);
-      addCopyButton(code);
+    if (needsCodeTitleAndCopyButton(code)) {
+      let codeHeader = document.createElement('div');
+      codeHeader.className = "code-header";
+      code.parentElement.insertBefore(codeHeader, code);
+      addCodeTitle(code, codeHeader);
+      addCopyButton(code, codeHeader);
     }
   });
 </script>
