@@ -21,7 +21,6 @@
     </div>
   </article>
 </div>
-{{/*  <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>  */}}
 <script>
   //let needsCodeHeaderButtonRegex = RegExp(/.*language-(mermaid).*/);あとで
   function needsCodeHeaderButton(code) {
@@ -104,7 +103,7 @@
       $('body').removeClass('scrolling');
     });
   }
-  let pageLink = {{.Page.Permalink }};
+  let pageLink = {{ .Page.Permalink }};
   let inPageLinks = [].filter.call(document.getElementsByTagName('a'),function(element){
     return element.href.startsWith(pageLink) && element.hash != '';
   });
@@ -117,19 +116,5 @@
       scrollToElement(elementOffset);
     });
   });
-  {{/*  let inPageLinks2 = $("a").filter(function(index, element){return element.href.startsWith(pageLink);});
-  inPageLinks2.each(function(index, element){
-    let hash = element.hash;
-    if(hash == ""){
-      return;
-    }
-    let hashId = decodeURIComponent(hash.substring(1));
-    let target = document.getElementById(hashId);
-    $(element).on('click',function(){
-      //offsetとnavBarHeightは毎回変化するので毎回取得する
-      let elementOffset = Math.ceil(getOffsetOf(target).top - getNavBarHeight());
-      scrollToElement(elementOffset);
-    });
-  });  */}}
   </script>
 {{- end -}}
