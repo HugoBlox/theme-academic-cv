@@ -1034,13 +1034,8 @@
     button.appendChild(icon);
     button.appendChild(copiedText);
   }
-  let multilineCodes = [];
-  [].forEach.call(document.getElementsByTagName(`pre`), function (pre) {
-    multilineCodes = multilineCodes.concat(
-      [].filter.call(pre.childNodes, node => {
-        return node.tagName == "CODE";
-      })
-    );
+  let multilineCodes = [].filter.call(document.getElementsByTagName(`code`), function (code) {
+    return code.parentElement.tagName === "PRE";
   });
   multilineCodes.forEach(code => {
     if (needsCodeHeaderButton(code)) {
@@ -1052,13 +1047,13 @@
     }
   });  
 </script>
-
 <script>
   let navBar = document.getElementById('navbar-main');
   function getNavBarHeight() {
     return navBar.offsetHeight;
   }
   function getOffsetOf(el) {
+    
     const box = el.getBoundingClientRect();
     return {
       top: box.top + window.pageYOffset - document.documentElement.clientTop,
@@ -1067,30 +1062,21 @@
   }
   let bodyClassList = document.body.classList;
   function scrollToElement(to) {
-    
-
-
-    
-
     bodyClassList.add('scrolling');
     $('html, body').animate({
       scrollTop: to
     }, 600, function () {
       bodyClassList.remove('scrolling');
     });
-    
-
   }
   let pageLink = "https://blog.opuappnavi.com/post/windows-babiniku-video-conference/";
   let inPageLinks = [].filter.call(document.getElementsByTagName('a'), function (element) {
-    return element.href.startsWith(pageLink) && element.hash != '';
+    return element.href.startsWith(pageLink) && element.hash !== '';
   });
   inPageLinks.forEach(function (element) {
     let hashId = decodeURIComponent(element.hash.substring(1));
     let target = document.getElementById(hashId);
     element.addEventListener('click', function (e) {
-      
-      
       
       let elementOffset = Math.ceil(getOffsetOf(target).top - getNavBarHeight());
       scrollToElement(elementOffset);
