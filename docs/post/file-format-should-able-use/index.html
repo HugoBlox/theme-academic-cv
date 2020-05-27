@@ -951,7 +951,7 @@ Unity 2019から<code>UI Elements</code>という新しいUIシステムが使�
     }
   });  
 </script>
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
 <script>
   let navBar = document.getElementById('navbar-main');
   function getNavBarHeight() {
@@ -965,28 +965,37 @@ Unity 2019から<code>UI Elements</code>という新しいUIシステムが使�
     }
   }
   let bodyClassList = document.body.classList;
-  function scrollToElement(to){
+  function scrollToElement(to) {
+    
+
+
+    
+
     bodyClassList.add('scrolling');
     $('html, body').animate({
       scrollTop: to
     }, 600, function () {
       bodyClassList.remove('scrolling');
     });
+    
+
   }
   let pageLink = "https://blog.opuappnavi.com/post/file-format-should-able-use/";
-  let inPageLinks = [].filter.call(document.getElementsByTagName('a'),function(element){
+  let inPageLinks = [].filter.call(document.getElementsByTagName('a'), function (element) {
     return element.href.startsWith(pageLink) && element.hash != '';
   });
-  inPageLinks.forEach(function(element){
+  inPageLinks.forEach(function (element) {
     let hashId = decodeURIComponent(element.hash.substring(1));
     let target = document.getElementById(hashId);
-    element.addEventListener('click',function(){
+    element.addEventListener('click', function (e) {
+      
+      
       
       let elementOffset = Math.ceil(getOffsetOf(target).top - getNavBarHeight());
       scrollToElement(elementOffset);
     });
   });
-  </script>
+</script>
 
       
 

@@ -242,7 +242,7 @@
     
       <meta property="article:published_time" content="2020-04-28T00:01:09&#43;09:00">
     
-    <meta property="article:modified_time" content="2020-05-19T09:59:40&#43;09:00">
+    <meta property="article:modified_time" content="2020-05-27T00:25:26&#43;09:00">
   
 
   
@@ -271,7 +271,7 @@
   "headline": "記事の書き方",
   
   "datePublished": "2020-04-28T00:01:09+09:00",
-  "dateModified": "2020-05-19T09:59:40+09:00",
+  "dateModified": "2020-05-27T00:25:26+09:00",
   
   "author": {
     "@type": "Person",
@@ -602,7 +602,7 @@
           最終更新
       
     
-    2020/05/19
+    2020/05/27
   </span>
   
 
@@ -1148,7 +1148,7 @@ graph TD;
     }
   });  
 </script>
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
 <script>
   let navBar = document.getElementById('navbar-main');
   function getNavBarHeight() {
@@ -1162,28 +1162,37 @@ graph TD;
     }
   }
   let bodyClassList = document.body.classList;
-  function scrollToElement(to){
+  function scrollToElement(to) {
+    
+
+
+    
+
     bodyClassList.add('scrolling');
     $('html, body').animate({
       scrollTop: to
     }, 600, function () {
       bodyClassList.remove('scrolling');
     });
+    
+
   }
   let pageLink = "https://blog.opuappnavi.com/post/how-to-write-an-article/";
-  let inPageLinks = [].filter.call(document.getElementsByTagName('a'),function(element){
+  let inPageLinks = [].filter.call(document.getElementsByTagName('a'), function (element) {
     return element.href.startsWith(pageLink) && element.hash != '';
   });
-  inPageLinks.forEach(function(element){
+  inPageLinks.forEach(function (element) {
     let hashId = decodeURIComponent(element.hash.substring(1));
     let target = document.getElementById(hashId);
-    element.addEventListener('click',function(){
+    element.addEventListener('click', function (e) {
+      
+      
       
       let elementOffset = Math.ceil(getOffsetOf(target).top - getNavBarHeight());
       scrollToElement(elementOffset);
     });
   });
-  </script>
+</script>
 
       
 
