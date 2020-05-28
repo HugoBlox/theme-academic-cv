@@ -1,9 +1,5 @@
 # SITE SETUP
-# Guide: https://sourcethemes.com/academic/docs/get-started/
-# Documentation: https://sourcethemes.com/academic/docs/
-#
-# This file is formatted using TOML syntax - learn more at https://learnxinyminutes.com/docs/toml/
-# Each configuration section is defined by a name in square brackets (e.g. `[search]`).
+# Documentation: https://sourcethemes.com/academic/
 
 ############################
 ## Theme
@@ -37,7 +33,7 @@ font_size = "L"
 #   For personal sites, choose "Person".
 #   For organizations and projects, choose from https://schema.org/Organization#subtypes
 #   E.g. Person, Organization, LocalBusiness, Project, EducationalOrganization
-site_type = "Person"
+site_type = "Organization"
 
 # Local business type (optional)
 # If you entered "LocalBusiness" above, choose the type of business from https://schema.org/LocalBusiness#subtypes
@@ -45,7 +41,7 @@ local_business_type = ""
 
 # Organization name (optional)
 # Enter an organization or project name. Defaults to the site title from `config.toml`.
-org_name = ""
+org_name = "X-Lab"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = ""
@@ -62,11 +58,11 @@ highlight_languages = ["r"]  # Add support for highlighting additional languages
 
 # Enable LaTeX math rendering? true/false
 #   If false, you can enable math on a per page basis as needed.
-math = false
+math = true
 
 # Enable diagram rendering? true/false
 #   If false, you can enable diagrams on a per page basis as needed.
-diagram = false
+diagram = true
 
 # Privacy pack
 #   Show a cookie consent message to visitors
@@ -76,9 +72,6 @@ privacy_pack = false
 # Enable visitors to edit pages?
 #   `repo` defines the repository URL. `editable` defines which page types can be edited.
 edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir = "", repo_branch = "master", editable = {docs = true, page = false, post = false}}
-
-# Show related content at the bottom of pages?
-show_related = {docs = true, page = false, post = true, project = true, publication = true, talk = true}
 
 ############################
 ## Contact details
