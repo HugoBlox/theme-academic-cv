@@ -939,11 +939,11 @@ window.onresize = function(){ set_width(); };
       document.execCommand("copy");
     }
     codeHeader.appendChild(button);
-
-    let icon = document.createElement('i');
-    icon.className = "far fa-clipboard";
+    codeHeader.appendChild(copiedText);
+    let icon = document.createElement('span');
+    icon.className = "icon far fa-clipboard";
     button.appendChild(icon);
-    button.appendChild(copiedText);
+    button.insertAdjacentHTML('beforeend', "&nbsp;&nbsp;COPY");
   }
   let multilineCodes = [].filter.call(document.getElementsByTagName(`code`), function (code) {
     return code.parentElement.tagName === "PRE";
@@ -952,7 +952,7 @@ window.onresize = function(){ set_width(); };
     if (needsCodeHeaderButton(code)) {
       let codeHeader = document.createElement('div');
       codeHeader.className = "code-header";
-      code.parentElement.insertBefore(codeHeader, code);
+      code.parentElement.parentElement.insertBefore(codeHeader, code.parentElement);
       addCodeTitle(code, codeHeader);
       addCopyButton(code, codeHeader);
     }

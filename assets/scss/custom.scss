@@ -160,26 +160,24 @@ $sidebar-width: 300px;
 }
 
 //code
-.code-header {
-    background-color: #343a40;
-    width: 100%;
-    height: 30px;
-    border-radius: 4px;
-}
 .code-title {
     display: inline-block;
+    background-color: #343a40;
+    border-radius: 4px;
+    font-size: 0.8em;
+    margin-top: auto;
+    margin-bottom: auto;
     padding-left: 10px;
     padding-right: 10px;
 }
 .copy-code-button {
-    position: relative;
     background: #668ad8;
     border: none;
     border-radius: 4px;
+    width: 80px;
+    font-size: 0.8em;
     color: #00bcd4;
     background: #ececec;
-    width: 30px;
-    height: 30px;
     padding: 0;
     &:hover {
         background: #00bcd4;
@@ -190,22 +188,16 @@ $sidebar-width: 300px;
     &:focus {
         outline: none;
     }
-    i {
-        margin-top: 0;
-        margin-bottom: 0;
-        font-size: 18px;
-    }
-    &:hover i {
+    &:hover {
         color: white;
     }
 }
 .code-copied-text {
     display: none;
-    position: absolute;
-    bottom: 3px;
-    left: 32px;
+    font-size: 15px;
+
     &.active {
-        display: block;
+        display: inline-block;
     }
     &:hover {
         text-decoration: none;
@@ -240,7 +232,10 @@ input#search-query:focus {
     margin-top: 0;
     //padding-top: 0.5em;
 }
-twitter-widget {
+.twitter-tweet {
     margin-left: auto;
     margin-right: auto;
+}
+ul.share{
+    padding-bottom: 10px;
 }

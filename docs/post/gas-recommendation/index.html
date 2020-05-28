@@ -242,7 +242,7 @@
     
       <meta property="article:published_time" content="2020-05-28T19:47:24&#43;09:00">
     
-    <meta property="article:modified_time" content="2020-05-28T19:47:24&#43;09:00">
+    <meta property="article:modified_time" content="2020-05-28T20:05:10&#43;09:00">
   
 
   
@@ -271,7 +271,7 @@
   "headline": "手軽に始める！GAS を使ってみませんか～",
   
   "datePublished": "2020-05-28T19:47:24+09:00",
-  "dateModified": "2020-05-28T19:47:24+09:00",
+  "dateModified": "2020-05-28T20:05:10+09:00",
   
   "author": {
     "@type": "Person",
@@ -595,6 +595,8 @@
   <span class="article-date">
     
     
+      
+          最終更新
       
     
     2020/05/28
@@ -1043,11 +1045,11 @@
       document.execCommand("copy");
     }
     codeHeader.appendChild(button);
-
-    let icon = document.createElement('i');
-    icon.className = "far fa-clipboard";
+    codeHeader.appendChild(copiedText);
+    let icon = document.createElement('span');
+    icon.className = "icon far fa-clipboard";
     button.appendChild(icon);
-    button.appendChild(copiedText);
+    button.insertAdjacentHTML('beforeend', "&nbsp;&nbsp;COPY");
   }
   let multilineCodes = [].filter.call(document.getElementsByTagName(`code`), function (code) {
     return code.parentElement.tagName === "PRE";
@@ -1056,7 +1058,7 @@
     if (needsCodeHeaderButton(code)) {
       let codeHeader = document.createElement('div');
       codeHeader.className = "code-header";
-      code.parentElement.insertBefore(codeHeader, code);
+      code.parentElement.parentElement.insertBefore(codeHeader, code.parentElement);
       addCodeTitle(code, codeHeader);
       addCopyButton(code, codeHeader);
     }
