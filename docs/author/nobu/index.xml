@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nobu | アプリNaviブログ</title>
+    <link>https://blog.opuappnavi.com/author/nobu/</link>
+      <atom:link href="https://blog.opuappnavi.com/author/nobu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nobu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710  2020</copyright><lastBuildDate>Thu, 28 May 2020 19:47:24 +0900</lastBuildDate>
+    <image>
+      <url>https://blog.opuappnavi.com/author/nobu/avatar_hu66a38e4ad391c631a56c77d2cb600cfb_173969_270x270_fill_q90_lanczos_center.jpg</url>
+      <title>Nobu</title>
+      <link>https://blog.opuappnavi.com/author/nobu/</link>
+    </image>
+    
+    <item>
+      <title>手軽に始める！GAS を使ってみませんか～</title>
+      <link>https://blog.opuappnavi.com/post/gas-recommendation/</link>
+      <pubDate>Thu, 28 May 2020 19:47:24 +0900</pubDate>
+      <guid>https://blog.opuappnavi.com/post/gas-recommendation/</guid>
+      <description>&lt;p&gt;どうもこんにちは、今回は自分がよく使っている、GAS について紹介したいと思います。&lt;/p&gt;
+&lt;p&gt;ちなみにタイトルの通り、手軽に始められるので、最近プログラミングを始めたという方にもおススメなのでぜひ見ていってください(^-^)&lt;/p&gt;
+&lt;h1 id=&#34;gas-って&#34;&gt;GAS って?&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;GAS&lt;/strong&gt;とは &lt;strong&gt;Google Apps Script&lt;/strong&gt;の略でプログラミング言語の一つです。&lt;/p&gt;
+&lt;p&gt;読み方はガス、ギャスなどと言われることが多いです。&lt;/p&gt;
+&lt;p&gt;一応、
+
+&lt;a href=&#34;https://developers.google.com/gsuite/aspects/appsscript?hl=ja&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式&lt;/a&gt;の文言を載せておくと、&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Google Apps Script は JavaScript ベースのスクリプト言語で、ドキュメント、スプレッドシート、スライド、フォームなどの G Suite サービスをカスタマイズ、拡張できます。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;とのこと。（抜粋）&lt;/p&gt;
+&lt;h1 id=&#34;gas-で何ができるの&#34;&gt;GAS で何ができるの？&lt;/h1&gt;
+&lt;p&gt;じゃあ GAS で何ができるのかというと、色々とあると思うのですが、とりあえず大きく分けてこの２つかなと。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Google のサービスをより便利に活用する&lt;/li&gt;
+&lt;li&gt;web アプリケーションの作成、公開&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;順に紹介していきます。&lt;/p&gt;
+&lt;h1 id=&#34;google-のサービスをより便利に活用する&#34;&gt;Google のサービスをより便利に活用する&lt;/h1&gt;
+&lt;p&gt;GAS では Google のサービスをより自由に効率的に使うことが出来ます。&lt;/p&gt;
+&lt;p&gt;下記のようなサービスを利用する際、GAS のコードを加えることで、面倒な作業を自動化したりなどが可能です。&lt;/p&gt;
+&lt;h2 id=&#34;利用できるサービス例&#34;&gt;利用できるサービス例&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Google Document&lt;/li&gt;
+&lt;li&gt;G Mail&lt;/li&gt;
+&lt;li&gt;Google SpreadSheet&lt;/li&gt;
+&lt;li&gt;Google Calender&lt;/li&gt;
+&lt;li&gt;Google Form 　　　　などなど…&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらのサービスを使っている人も比較的多いのではないでしょうか？&lt;/p&gt;
+&lt;h2 id=&#34;使用例&#34;&gt;使用例&lt;/h2&gt;
+&lt;p&gt;具体的に GAS で Google のサービスをより効果的に用いた使用例としてはこのようなものがあります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;カレンダーに自動でスケジュールを記入&lt;/li&gt;
+&lt;li&gt;事務的メールを複数人に指定の時間に自動送信&lt;/li&gt;
+&lt;li&gt;Google Formを自分好みに改造&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;もちろん他にも色々とありますが、例のように日常の何気ない作業を自動化したり、普段用いているサービスの機能を拡張するようなことができます。&lt;/p&gt;
+&lt;h1 id=&#34;web-アプリケーションの作成公開&#34;&gt;Web アプリケーションの作成、公開&lt;/h1&gt;
+&lt;p&gt;GAS では、google のサービスと連携して、web アプリケーションを開発、公開する機能があります。&lt;/p&gt;
+&lt;p&gt;またアプリケーションの機能として、googleのサービスと連携しているのでその機能を簡単に用いることができ、少しのコードでちょっと素敵な事を行うことが可能です。&lt;/p&gt;
+&lt;h2 id=&#34;使用例-1&#34;&gt;使用例&lt;/h2&gt;
+&lt;p&gt;簡単に例をあげると&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SpreadSheetを簡易的なデータベースのように使う&lt;/li&gt;
+&lt;li&gt;G Mailを用いてメール送信機能を作る&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;などがあります。&lt;/p&gt;
+&lt;p&gt;他にも外部アプリケーションとの連携などを組合せて、様々な事ができると思うので、ぜひ試してください！&lt;/p&gt;
+&lt;h1 id=&#34;gasを使用するメリット&#34;&gt;GASを使用するメリット&lt;/h1&gt;
+&lt;p&gt;GASで何ができるかというのを紹介したところで、タイトルの&lt;strong&gt;お手軽&lt;/strong&gt;という理由を紹介していきます。&lt;/p&gt;
+&lt;h2 id=&#34;開発環境構築がいらない&#34;&gt;開発環境構築がいらない！&lt;/h2&gt;
+&lt;p&gt;GASでは新しく言語をはじめるときの面倒な環境構築はほとんどありません。&lt;/p&gt;
+&lt;p&gt;必要なのは&lt;strong&gt;Googleアカウント&lt;/strong&gt;だけ。&lt;/p&gt;
+&lt;p&gt;加えて、実行はGoogleのサーバーを利用するので、レンタルサーバーを用意したり、それ関係のツールを利用することもなく開発をすることができます。&lt;/p&gt;
+&lt;h2 id=&#34;無料&#34;&gt;無料！&lt;/h2&gt;
+&lt;p&gt;利用するのに基本的にお金はかかりません。&lt;/p&gt;
+&lt;h2 id=&#34;学習コストが低い勉強になる&#34;&gt;学習コストが低い、勉強になる！&lt;/h2&gt;
+&lt;p&gt;GASはJavaScriptベースで、そしてwebサイトを開発する時に良く用いられるHTML,CSSを使用して開発することが可能なので、一般的に学習コストはそこまで高くないです。&lt;/p&gt;
+&lt;p&gt;それにJavaScriptを勉強中の方はそれを使って手軽にアプリケーションを作ったりできるので、その学習の実践の場として助けにもなると思います。&lt;/p&gt;
+&lt;h1 id=&#34;デメリットもあります&#34;&gt;デメリットもあります…&lt;/h1&gt;
+&lt;p&gt;メリットの反面、やはりデメリットもあります。&lt;/p&gt;
+&lt;p&gt;その例として一つあげると無料で利用できる反面、Googleのサーバーを利用していているので、ユーザーによる過剰な負担を避けるために利用するのに制限があります。&lt;/p&gt;
+&lt;p&gt;もっとも大きな制限として考えられるのは実行制限で、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1回あたりの実行制限時間: 6分&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;となっています。&lt;/p&gt;
+&lt;p&gt;これは工夫せずに重い処理を何度も書くと、引っかかってしまうので注意が必要です…&lt;/p&gt;
+&lt;p&gt;そのためGASはそこまで大きなプロジェクトには向いていないと言えます&amp;hellip;&lt;/p&gt;
+&lt;p&gt;詳しい公式の制限は
+&lt;a href=&#34;https://developers.google.com/apps-script/guides/services/quotas&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;コチラ&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;さっそく始めてみよう&#34;&gt;さっそく始めてみよう&lt;/h1&gt;
+&lt;p&gt;始める方法はとても簡単です。せっかくなので実際にやってみます。&lt;/p&gt;
+&lt;ol start=&#34;0&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;googleアカウントの作成（無い方は）&lt;br&gt;
+こちらより必要事項を記入して
+
+&lt;a href=&#34;https://support.google.com/accounts/answer/27441?hl=ja&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google アカウントを作成&lt;/a&gt;
+します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ブラウザで
+&lt;a href=&#34;https://www.google.co.jp/drive/apps.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;にアクセスします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Google DriveにGoogle Apps Scriptを追加する&lt;br&gt;
+左上の新規＋ボタンをクリックし、その他→アプリを追加→Google Apps Scriptを探し、接続をクリック&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;もう一度新規＋を押し、その他にGoogle Apps Scriptが出てきたら完了&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-helloworld&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./nobu_GAS_img_1.png&#34; data-caption=&#34;HelloWorld&#34;&gt;
+
+
+  &lt;img src=&#34;./nobu_GAS_img_1.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    HelloWorld
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;それをクリックすると、エディタがでてくるので、これでGASをはじめる準備が出来ました！&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;ちなみにHello Worldはこんな感じです。&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-完了後&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./nobu_GAS_img_2.png&#34; data-caption=&#34;完了後&#34;&gt;
+
+
+  &lt;img src=&#34;./nobu_GAS_img_2.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    完了後
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h1 id=&#34;最後に&#34;&gt;最後に&lt;/h1&gt;
+&lt;p&gt;今回はざっくりでしたがGASについて簡単に紹介しました。&lt;/p&gt;
+&lt;p&gt;GASの存在だけでも知ってもらい、機会があれば何かで使ってもらえたら幸いです。&lt;/p&gt;
+&lt;p&gt;また、GASを十分使いこなせているとは言えない自分ですが、おすすめしたい参考サイトも載せておくので興味がある人は見てみてください！&lt;/p&gt;
+&lt;h2 id=&#34;参考サイト&#34;&gt;参考サイト&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://tonari-it.com/google-apps-script-manual/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;【保存版】初心者向け実務で使えるGoogle Apps Script完全マニュアル&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>府大バーチャル学祭</title>
+      <link>https://blog.opuappnavi.com/project/opu-virtual-festival-2020/</link>
+      <pubDate>Tue, 28 Apr 2020 00:04:07 +0900</pubDate>
+      <guid>https://blog.opuappnavi.com/project/opu-virtual-festival-2020/</guid>
+      <description>&lt;p&gt;新型コロナウイルス感染拡大により、2020年5月30日、31日に開催予定だった第59回友好祭が中止となりました。中止となった友好祭に代わるイベントとして、コンピュータハウスランダムさんが提案されたのが、非公式オンラインイベント「府大バーチャル学祭」です。
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://blog.opuappnavi.com/project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_2000x2000_fit_q90_lanczos.jpg&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://blog.opuappnavi.com/project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1707&#34; height=&#34;960&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;div style=&#34;display: flex; justify-content: space-around;&#34;&gt;
+  &lt;a href=&#34;https://ch-random.net/post/167&#34;&gt;一覧ページ&lt;/a&gt;
+  &lt;a href=&#34;mailto:computer.house.random@gmail.com&#34;&gt;お問い合わせ&lt;/a&gt;
+&lt;/div&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;【拡散希望】&lt;br&gt;大阪府立大学の有志イベント&lt;br&gt;府大バーチャル学祭のPV、デザインを担当させていただきました。&lt;br&gt;&lt;br&gt;各団体のイベント内容などの情報は &lt;a href=&#34;https://twitter.com/hashtag/%E5%BA%9C%E5%A4%A7%E3%83%90%E3%83%BC%E3%83%81%E3%83%A3%E3%83%AB%E5%AD%A6%E7%A5%AD?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#府大バーチャル学祭&lt;/a&gt; に追加していきます。&lt;a href=&#34;https://twitter.com/hashtag/%E6%98%A5%E3%81%8B%E3%82%89%E5%BA%9C%E5%A4%A7?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#春から府大&lt;/a&gt;　&lt;a href=&#34;https://twitter.com/hashtag/system?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#system&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/aftereffects?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#aftereffects&lt;/a&gt; &lt;a href=&#34;https://t.co/GtVtrQV5TI&#34;&gt;pic.twitter.com/GtVtrQV5TI&lt;/a&gt;&lt;/p&gt;&amp;mdash; SYSTEM-府大のオンライン団体- (@SystemOpu) &lt;a href=&#34;https://twitter.com/SystemOpu/status/1263016918182539264?ref_src=twsrc%5Etfw&#34;&gt;May 20, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

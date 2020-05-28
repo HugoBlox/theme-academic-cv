@@ -3,7 +3,7 @@
 
 title: "府大バーチャル学祭"
 summary: "OPU Virtual Festival"
-authors: ["juris710"]
+authors: ["juris710","nobu"]
 tags: []
 categories: []
 date: 2020-04-28T00:04:07+09:00
