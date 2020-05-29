@@ -12,7 +12,7 @@ Remember that always use `-` instead of blank space, E.g. use `leo-fang` instead
 
 ## <a name="blog"></a> Create/Edit a Blog Post
 
-To create a blog/news article,
+To create a blog/news article automatically or manually,
 
 ### Automatically
 
@@ -38,7 +38,7 @@ summary: "Summary of my post."
 
 ## <a name="user"></a> Create/Edit a User
 
-To create an additional user,
+To create an additional user automatically or manually,
 
 ### Automatically
 
@@ -62,7 +62,7 @@ You can also upload a square photo for the user to the new `authors/firstname-la
 
 ## <a name="project"></a> Create/Edit a Project
 
-To create a project,
+To create a project automatically or manually,
 
 ### Automatically
 
