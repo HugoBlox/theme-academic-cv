@@ -85,7 +85,7 @@ Front matter allows page-specific metadata and functionality to be included at t
 
 For editing your content locally on your computer, we recommend [Typora][typora] or [Visual Studio Code][vscode].
 
-1. Core metadata:
+#### 1. Core metadata:
 
 - **title**: the title of your page
 
@@ -97,7 +97,7 @@ For editing your content locally on your computer, we recommend [Typora][typora]
 
 - **tags**: tagging your content helps users to discover similar content on your site. Tags can improve search relevancy and are displayed after the page content and also in the Tag Cloud widget. E.g. `tags: ["Electronics", "Diodes"]`.
 
-2. Popular metadata:
+#### 2. Popular metadata:
 
 - **subtitle**: an optional subtitle that will be displayed under the title
 
