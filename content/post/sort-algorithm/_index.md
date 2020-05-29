@@ -54,44 +54,29 @@ projects: []
 |  堆排序   |  $O(n\log n)$   |   $O(n\log n)$  |  $O(n\log n)$   |   $O(1)$  |  $\times$   | $\checkmark$ |
 
 
-
-> 如果表格显示有问题的话，还可以直接看下面的汇总图：
-
-![十大经典排序算法性质汇总](1.png)
-
 ### 维基百科
 
 我觉得还是英文维基百科讲的比较详细、严谨。如果大家看的比较累的话，可以自己百度搜索相应的教程。
 
-**冒泡排序**  
-[https://en.wikipedia.org/wiki/Bubble_sort](https://en.wikipedia.org/wiki/Bubble_sort)
+**冒泡排序**  : [Bubble_sort](https://en.wikipedia.org/wiki/Bubble_sort)
 
-**选择排序**  
-[https://en.wikipedia.org/wiki/Selection_sort](https://en.wikipedia.org/wiki/Selection_sort)
+**选择排序**  : [Selection_sort](https://en.wikipedia.org/wiki/Selection_sort)
 
-**插入排序**  
-[https://en.wikipedia.org/wiki/Insertion_sort](https://en.wikipedia.org/wiki/Insertion_sort)
+**插入排序**  : [Insertion_sort](https://en.wikipedia.org/wiki/Insertion_sort)
 
-**快速排序**  
-[https://en.wikipedia.org/wiki/Quicksort](https://en.wikipedia.org/wiki/Quicksort)
+**快速排序**  : [Quicksort](https://en.wikipedia.org/wiki/Quicksort)
 
-**归并排序**  
-[https://en.wikipedia.org/wiki/Merge_sort](https://en.wikipedia.org/wiki/Merge_sort)
+**归并排序**  : [Merge_sort](https://en.wikipedia.org/wiki/Merge_sort)
 
-**希尔排序**  
-[https://en.wikipedia.org/wiki/Shellsort](https://en.wikipedia.org/wiki/Shellsort)
+**希尔排序**  : [Shellsort](https://en.wikipedia.org/wiki/Shellsort)
 
-**计数排序**  
-[https://en.wikipedia.org/wiki/Counting_sort](https://en.wikipedia.org/wiki/Counting_sort)
+**计数排序**  : [Counting_sort](https://en.wikipedia.org/wiki/Counting_sort)
 
-**基数排序**  
-[https://en.wikipedia.org/wiki/Radix_sort](https://en.wikipedia.org/wiki/Radix_sort)
+**基数排序**  : [Radix_sort](https://en.wikipedia.org/wiki/Radix_sort)
 
-**桶排序**  
-[https://en.wikipedia.org/wiki/Bucket_sort](https://en.wikipedia.org/wiki/Bucket_sort)
+**桶排序**  : [Bucket_sort](https://en.wikipedia.org/wiki/Bucket_sort)
 
-**堆排序**  
-[https://en.wikipedia.org/wiki/Heapsort](https://en.wikipedia.org/wiki/Heapsort)
+**堆排序**  : [Heapsort](https://en.wikipedia.org/wiki/Heapsort)
 
 ## 代码实现
 
@@ -336,3 +321,4 @@ public:
     }
 };
 ```
+

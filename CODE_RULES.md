@@ -2,6 +2,8 @@
 
 It is warmly welcomed if you have interest to contribute to xlab-website and help make it even better than it is today! The following is a set of guidelines for contributing to xlab-website.
 
+Remember that always use `-` instead of blank space, E.g. use `leo-fang` instead of `leo fang`.
+
 - [Create/Edit a Blog Post](#blog)
 - [Create/Edit a User](#user)
 - [Create/Edit a Project](#project)
@@ -17,14 +19,15 @@ To create a blog/news article,
 ```shell
 hugo new  --kind post post/my-article-name
 ```
+Rename the file `content/post/my-article-name/index.md` to `content/post/my-article-name/_index.md` if necessary.
 
 ### Manually
 
-Simply create a file `content/post/my-article-name.md`, then write the front matter and main content manually.
+Directly create a folder `content/post/my-article-name` and create a file `content/post/my-article-name/_index.md`.
 
 ### Simply Edit a Blog Post
 
-Edit the newly created file at `content/post/my-article-name.md`.
+Edit the newly created file at `content/post/my-article-name/_index.md`.
 
 Hugo will automatically generate summaries of posts that appear on the homepage. If you are dissatisfied with an automated summary, you can either limit the summary length by appropriately placing `<!--more-->` in the article body, or completely override the automated summary by adding a `summary` parameter to the `+++` preamble such that:
 
@@ -42,10 +45,11 @@ To create an additional user,
 ```shell
 hugo new --kind authors authors/firstname-lastname
 ```
+Rename the file `content/post/firstname-lastname/index.md` to `content/post/firstname-lastname/_index.md` if necessary.
 
 ### Manually
 
-Simply create a folder `content/authors/firstname-lastname` and create a file `content/authors/firstname-lastname/_index.md`.
+Directly create a folder `content/authors/firstname-lastname` and create a file `content/authors/firstname-lastname/_index.md`.
 
 ### Simply Edit a User
 
@@ -65,14 +69,15 @@ To create a project,
 ```shell
 hugo new  --kind project project/my-project-name
 ```
+Rename the file `content/project/my-project-name/index.md` to `content/project/my-project-name/_index.md` if necessary.
 
 ### Manually
 
-Simply create a file `content/project/my-project-name.md`, then write the front matter and main content manually.
+Directly create a folder `content/project/my-project-name` and a file `content/project/my-project-name/_index.md`.
 
 ### Simply Edit a Project
 
-Edit the newly created file at `content/project/my-project-name.md`.
+Edit the newly created file at `content/project/my-project-name/_index.md`.
 
 Either you can link the project to an external project website by setting the `external_link: "http://external-project.com"` variable at the top of the file, or you can add content (below the final `---`) in order to render a project page on your website.
 
