@@ -1,70 +1,47 @@
-name: Publish
+name: Publish Github Pages
 
 on: [push, pull_request]
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    env:
-      SLACK_CHANNEL: cicd
-      SLACK_COLOR: "#008000"
-      SLACK_ICON: http://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-      SLACK_TITLE: Message
-      SLACK_USERNAME: GitHub Actions
-      SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-      SLACK_MESSAGE_TEMPLATE: Project `${{ github.repository }}` `${{ github.event_name }}` by `${{ github.actor }}` build
-
 
     steps:
-      # build
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Pull submodule
-        run: rm -rf public themes/academic && git submodule update --init --recursive
+        with:
+          submodules: true
+          fetch-depth: 0
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "0.71.1"
+          hugo-version: '0.71.1'
           extended: true
+
       - name: Build
         run: hugo
 
-
-      # deploy
-      - name: Build image and publish to docker image registry
-        if: ${{ github.repository_owner == 'X-lab2017'}}
-        uses: elgohr/Publish-Docker-Github-Action@master
+      - name: Commit files
+        if: ${{ github.repository == 'X-lab2017/xlab-website' && github.ref == 'refs/heads/master' }}
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git clone https://github.com/X-lab2017/X-lab2017.github.io.git public_temp.git
+          mv public_temp.git/.git public/.git
+          cd ./public
+          git add .
+          git commit -m "${{ github.event.head_commit.message }}"
+          cd ..
+      
+      - name: Push changes to X-lab2017.github.io
+        if: ${{ github.repository == 'X-lab2017/xlab-website' && github.ref == 'refs/heads/master' }}
+        uses: ad-m/github-push-action@master
         with:
-          name: openxlab/xlab-portal:latest
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
-      - name: Update online version
-        if: ${{ github.repository_owner == 'X-lab2017'}}
-        run: curl ${{ secrets.UPDATE_HOOK }}
-      # - name: Push to x-lab2017.github.io
-      #   if: ${{ github.repository_owner == 'X-lab2017'}}
-      #   uses: peaceiris/actions-gh-pages@v3
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     publish_dir: ./public
-
-
-      # slack notification
-      - name: Slack Notification(Success)
-        uses: rtCamp/action-slack-notify@v2.0.0
-        if: success() && env.SLACK_WEBHOOK != null
-        env:
-          SLACK_MESSAGE: ${{ env.SLACK_MESSAGE_TEMPLATE}} `success`.
-      - name: Slack Notification(Failure)
-        uses: rtCamp/action-slack-notify@v2.0.0
-        if: failure() && env.SLACK_WEBHOOK != null
-        env:
-          SLACK_COLOR: "#FF0000"
-          SLACK_MESSAGE: ${{ env.SLACK_MESSAGE_TEMPLATE}} `failure`.
-      - name: Slack Notification(Cancelled)
-        uses: rtCamp/action-slack-notify@v2.0.0
-        if: cancelled() && env.SLACK_WEBHOOK != null
-        env:
-          SLACK_COLOR: "#FFFF00"
-          SLACK_MESSAGE: ${{ env.SLACK_MESSAGE_TEMPLATE}} `cancelled`.
+          github_token: ${{ secrets.TARGET_REPO_GITHUB_TOKEN }}
+          branch: master
+          force: true
+          tags: false
+          directory: ./public
+          repository: X-lab2017/X-lab2017.github.io
