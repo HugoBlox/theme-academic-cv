@@ -32,12 +32,16 @@ jobs:
           mv public_temp.git/.git public/.git
           cd ./public
           git add .
-          git commit -m "${{ github.event.head_commit.message }}"
-          cd ..
-      
+          GIT_CLEAN=$(git status -s)
+          if [ ${#GIT_CLEAN} -eq 0 ]; then
+            echo "Working tree clean, do not need commit."
+          else
+            git commit -m "${{ github.event.head_commit.message }}"
+          fi
+
       - name: Push changes to X-lab2017.github.io
         if: ${{ github.repository == 'X-lab2017/xlab-website' && github.ref == 'refs/heads/master' }}
-        uses: ad-m/github-push-action@master
+        uses: X-lab2017/github-push-action@master
         with:
           github_token: ${{ secrets.TARGET_REPO_GITHUB_TOKEN }}
           branch: master
