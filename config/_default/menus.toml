@@ -30,7 +30,7 @@
 
  [[main]]
   name = "Blog"
-  url = "#posts"
+  url = "#blog"
   weight = 60 
 
 # Link to a PDF of your resume/CV from the menu.
