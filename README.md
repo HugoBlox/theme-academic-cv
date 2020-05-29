@@ -16,11 +16,11 @@ $ git submodule update --init --recursive
 $ hugo server
 ```
 
-the `git` is necessary, but the `hugo` is not necessary if you do not want to view the site locally, follow our [contributing guide](CONTRIBUTING) will undoubtedly lead you to make changes to our site!
+the `git` is necessary, but the `hugo` is not necessary if you do not want to view the site locally, follow our [Contributing Guide](CONTRIBUTING) will undoubtedly lead you to make changes to our site!
 
 ## Support
 
 If you have any questions or feature requests, please feel free to submit an issue.
 
 
-[CONTRIBUTING]: ./CONTRIBUTING.md 
+[CONTRIBUTING]: ./CONTRIBUTING.md
