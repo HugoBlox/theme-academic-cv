@@ -1,15 +1,14 @@
-# Contributing to x-lab.github.io
+# Contributing to xlab-website
 
-It is warmly welcomed if you have interest to contribute to x-lab.github.io and help make it even better than it is today! The following is a set of guidelines for contributing to x-lab.github.io.
+It is warmly welcomed if you have interest to contribute to xlab-website and help make it even better than it is today! The following is a set of guidelines for contributing to xlab-website.
 
 - [Code of Conduct](#coc)
 - [Submitting an Issue](#issue)
 - [Submitting a Pull Request](#pr)
-- [Coding Rules](#rules)
 
 ## <a name="coc"></a> Code of Conduct
 
-We have adopted a [Code of Conduct][coc] to help us keep x-lab.github.io open and inclusive. Please read the full text so that you can understand what actions will and will not be tolerated.
+We have adopted a [Code of Conduct][coc] to help us keep xlab-website open and inclusive. Please read the full text so that you can understand what actions will and will not be tolerated.
 
 ## <a name="issue"></a> Submitting an issue
 
@@ -56,14 +55,14 @@ If somebody claims an issue but doesn't follow up for more than two weeks, it's 
 
 ### 2. Fork and clone the repository
 
-Visit [X-lab2017/x-lab.github.io][repo] repo and make your own copy of the repository by **forking** it.
+Visit [X-lab2017/xlab-website][repo] repo and make your own copy of the repository by **forking** it.
 
 And **clone** your own copy of the repository to local, like :
 
 ```shell
 # replace the XXX with your own user name
-git clone git@github.com:XXX/x-lab.github.io.git
-cd x-lab.github.io
+git clone git@github.com:XXX/xlab-website.git
+cd xlab-website
 ```
 
 ### 4. Create a new branch
@@ -80,10 +79,10 @@ The name of branch should be semantic, avoiding words like 'update' or 'tmp'. We
 
 Now you can create your patch, including appropriate test cases in the new branch. Please read and follow our [Code Rules](#rules).
 
-After you finish your modification, run the test and ensure that all tests pass.
+After you finish your modification, run the script to view it on http://localhost:1313/.
 
 ```shell
-npm test
+hugo server
 ```
 
 ### 6. Commit your changes
@@ -100,7 +99,7 @@ git commit -m "fix: add license headers (#264)"
 Keep your local repository updated with upstream repository by:
 
 ```shell
-git remote add upstream git@github.com:X-lab2017/x-lab.github.io.git
+git remote add upstream git@github.com:X-lab2017/xlab-website.git
 git fetch upstream master
 git rebase upstream/master
 ```
@@ -120,7 +119,7 @@ git push -f origin branch-name
 
 ### 9. Create a Pull Request
 
-In GitHub, send a pull request to `X-lab2017/x-lab.github.io`.
+In GitHub, send a pull request to `X-lab2017/xlab-website`.
 
 Please sign our [Contributor License Agreement (CLA)](#cla) before sending PRs.
 
@@ -179,13 +178,13 @@ changes to be accepted, the CLA must be signed.
 
 [coc]: ./CODE_OF_CONDUCT.md
 
-[new-issue]: https://github.com/X-lab2017/x-lab.github.io/issues/new
+[new-issue]: https://github.com/X-lab2017/xlab-website/issues/new
 
-[issue-label]: https://github.com/X-lab2017/x-lab.github.io/labels
+[issue-label]: https://github.com/X-lab2017/xlab-website/labels
 
-[good-first-issues]: https://github.com/X-lab2017/x-lab.github.io/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22+
+[good-first-issues]: https://github.com/X-lab2017/xlab-website/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22+
 
-[repo]: https://github.com/X-lab2017/x-lab.github.io
+[repo]: https://github.com/X-lab2017/xlab-website
 
 [angular-commit-message-format]: https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines
 
@@ -193,4 +192,4 @@ changes to be accepted, the CLA must be signed.
 
 [issue-template]: ./.github/ISSUE_TEMPLATE/enhancement.md
 
-[cla]: https://cla-assistant.io/X-lab2017/x-lab.github.io
+[cla]: https://cla-assistant.io/X-lab2017/xlab-website
