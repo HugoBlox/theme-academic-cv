@@ -16,7 +16,7 @@ $ git submodule update --init --recursive
 $ hugo server
 ```
 
-The `Git` is necessary, but the `Hugo` is not necessary if you do not want to view the site locally, follow our [Contributing Guide][CONTRIBUTING] will undoubtedly lead you making changes to our site!
+The `Git` is **necessary**, but the `Hugo` is **not necessary** if you do not want to view the site locally or generate some pages automatically, follow our [Contributing Guide][CONTRIBUTING] will undoubtedly lead you making changes to our site!
 
 ## Support
 
