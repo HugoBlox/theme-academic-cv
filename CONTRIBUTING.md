@@ -77,7 +77,7 @@ The name of branch should be semantic, avoiding words like 'update' or 'tmp'. We
 
 ### 5. Make your changes
 
-Now you can create your patch, including appropriate test cases in the new branch. Please read and follow our [Code Rules](#rules).
+Now you can create your patch, including appropriate test cases in the new branch. Please read and follow our [Code Rules][rules].
 
 After you finish your modification, run the script to view it on http://localhost:1313/.
 
@@ -185,6 +185,8 @@ changes to be accepted, the CLA must be signed.
 [good-first-issues]: https://github.com/X-lab2017/xlab-website/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22+
 
 [repo]: https://github.com/X-lab2017/xlab-website
+
+[rules]: ./CODE_RULES.md
 
 [angular-commit-message-format]: https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines
 
