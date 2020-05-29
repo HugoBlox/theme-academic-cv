@@ -1,0 +1,143 @@
+{
+    "label_setup": {
+      "version": 1,
+      "labels": [
+        {
+          "__merge__": true
+        },
+        {
+          "name": "difficulty/1",
+          "description": "Difficulty score for issue or pull, 1 score",
+          "color": "008672"
+        },
+        {
+          "name": "difficulty/2",
+          "description": "Difficulty score for issue or pull, 2 score",
+          "color": "f1ee18"
+        },
+        {
+          "name": "difficulty/3",
+          "description": "Difficulty score for issue or pull, 3 score",
+          "color": "67a8f7"
+        },
+        {
+          "name": "difficulty/5",
+          "description": "Difficulty score for issue or pull, 5 score",
+          "color": "f7be99"
+        },
+        {
+          "name": "difficulty/8",
+          "description": "Difficulty score for issue or pull, 8 score, should split the issue",
+          "color": "e11d21"
+        },
+        {
+          "name": "pull/approved",
+          "description": "If a pull is approved, it will be automatically merged",
+          "color": "008672"
+        },
+        {
+          "name": "kind/community",
+          "description": "Community related issue or pull",
+          "color": "99ff66",
+          "keywords": [
+            "community"
+          ]
+        },
+        {
+          "name": "kind/CICD",
+          "description": "CI/CD related issue or pull",
+          "color": "0099ff",
+          "keywords": [
+            "continuous integration",
+            "continuous delivery",
+            "[ci]",
+            "[cd]",
+            "[ci/cd]"
+          ]
+        }
+      ]
+    },
+    "weekly_report": {
+      "version": 1,
+      "generateTime": "0 0 12 * * 1"
+    },
+    "role": {
+      "version": 1,
+      "roles": [
+        {
+          "name": "committer",
+          "description": "Committer of the project",
+          "users": [ "LiuChangFreeman", "WuShaoling" ],
+          "commands": [ "/difficulty", "/rerun", "/complete-checklist", "/start-vote" ]
+        },
+        {
+          "name": "replier",
+          "description": "Replier is responsible for reply issues in time",
+          "users": [ "LiuChangFreeman", "WuShaoling" ],
+          "commands": []
+        },
+        {
+          "name": "approver",
+          "description": "After approvers' approve, pulls should be merged automatically",
+          "users": [ "LiuChangFreeman", "WuShaoling" ],
+          "commands": [ "/approve" ]
+        },
+        {
+          "name": "author",
+          "description": "Author of the issue or pull",
+          "users": [],
+          "commands": [ "/rerun" ]
+        },
+        {
+          "name": "notauthor",
+          "description": "Not author of the issue or pull",
+          "users": [],
+          "commands": [ "/approve" ]
+        },
+        {
+          "name": "anyone",
+          "description": "Anyone",
+          "users": [],
+          "commands": [ "/self-assign", "/vote" ]
+        }
+      ]
+    },
+    "command": {
+      "version": 1,
+      "commands": [
+        {
+          "name": "/approve",
+          "scopes": [ "review", "review_comment", "pull_comment" ]
+        }
+      ]
+    },
+    "approve": {
+      "version": 1
+    },
+    "auto_merge": {
+      "version": 1,
+      "sched": "0 */5 * * * *"
+    },
+    "difficulty": {
+      "version": 1
+    },
+    "issue_reminder": {
+      "version": 1
+    },
+    "rerun": {
+      "version": 1
+    },
+    "auto_label": {
+      "version": 1
+    },
+    "self_assign": {
+      "version": 1
+    },
+    "complete_checklist": {
+      "version": 1
+    },
+    "vote": {
+      "version": 1
+    }
+  }
+  

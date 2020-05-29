@@ -23,4 +23,4 @@ the `git` is necessary, but the `hugo` is not necessary if you do not want to vi
 If you have any questions or feature requests, please feel free to submit an issue.
 
 
-[CONTRIBUTING]: ./CONTRIBUTING.md
+[CONTRIBUTING]: ./CONTRIBUTING.md 
