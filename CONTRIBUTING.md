@@ -79,7 +79,7 @@ The name of branch should be semantic, avoiding words like 'update' or 'tmp'. We
 
 Now you can create your patch, including appropriate test cases in the new branch. Please read and follow our [Code Rules][rules].
 
-After you finish your modification, run the script to view it on http://localhost:1313/.
+(optional) After you finish your modification, run the following script to view it on http://localhost:1313/.
 
 ```shell
 hugo server
