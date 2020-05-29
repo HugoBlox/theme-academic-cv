@@ -17,17 +17,12 @@ superuser: true
 #- name: Stanford University
 #  url: ""
 
-organizations:
-- faculty: 工学域
+university:
+  faculty: 工学域
   department: 電気電子系学類
   course: 情報工学課程
   enrollment: 2019
-
-#university:
-#- faculty: 工学域
-#  department: 電気電子系学類
-#  cource: 情報工学課程
-#  enrollment: 2019
+  grade_label: 
 
 # Short bio (displayed in user profile at end of posts)
 bio: このサイトの開発者です。

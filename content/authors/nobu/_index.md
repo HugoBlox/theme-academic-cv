@@ -12,16 +12,19 @@ superuser: false
 # Role/position
 #role:
 
-#organization
+#university
 #  faculty: 学域
 #  department: 学類
 #  course: 課程
 #  enrollment: 入学した年度（例：「2019」）
-organizations:
-- faculty: 工学域
+#  grade_label: 「〇年」の代わりに別の文言を表示したい場合 (空白のままなら無視される)
+
+university:
+  faculty: 工学域
   department: 電気電子系学類
   course: 電子物理課程
   enrollment: 2018
+  grade_label: 
 
 # Short bio (displayed in user profile at end of posts)
 bio: 人に頼み事をする係です。

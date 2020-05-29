@@ -1,5 +1,0 @@
-{{$enrollment := .}}
-{{$university_grade_number := partial "functions/university_current_year" .}}
-{{$university_grade_number := sub $university_grade_number $enrollment}}
-{{$university_grade_number = add $university_grade_number 1}}
-{{return $university_grade_number}}

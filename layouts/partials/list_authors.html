@@ -5,16 +5,16 @@
 
 {{ $year := 0 }}
 {{ $has_no_authors := false}}
-{{ $is_first_author := true}}
+{{ $is_first_author_of_the_year := true}}
 <div class="author-card-list">
   {{ range sort (apply $author_pages "partial" "functions/get_author_dict.html" ".") "year" "desc" }}
     {{ if ne $year .year }}
-      {{if not $is_first_author}}
+      {{if not $is_first_author_of_the_year}}
         </div>
       {{else}}
-        {{$is_first_author = false}}
+        {{$is_first_author_of_the_year = false}}
       {{end}}
-      <h2 class="author-card-container-title">{{ partial "functions/university_grade_number" .year }}年</h2>
+      <h2 class="author-card-container-title">{{ partial "university_grade" .page.Params.university }}</h2>
       <div class="author-card-container">
     {{ end }}
     {{ $year = .year }}

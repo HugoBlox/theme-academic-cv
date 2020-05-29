@@ -1,0 +1,12 @@
+{{$author_university :=  .}}
+{{$university_grade := ""}}
+{{with $author_university.grade_label}}
+    {{$university_grade = .}}
+{{else}}
+    {{$enrollment := default 0 .enrollment}}
+    {{$university_grade_number := partial "functions/university_current_year" .}}
+    {{$university_grade_number := sub $university_grade_number $enrollment}}
+    {{$university_grade_number = add $university_grade_number 1}}
+    {{$university_grade = print $university_grade_number "年"}}
+{{end}}
+{{return $university_grade}}    
