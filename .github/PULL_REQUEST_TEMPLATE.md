@@ -1,10 +1,10 @@
 <!--
-Thank you for your interest in and contributing to Hypertrons! Follow this checklist to help us incorporate your contribution quickly and easily:
+Thank you for your interest in and contributing to GitCourse! Follow this checklist to help us incorporate your contribution quickly and easily:
 
  - Each commit in the pull request has a meaningful commit message.
- - Make sure that you have signed our [Contributor License Agreement (CLA)](https://cla-assistant.io/hypertrons/hypertrons).
+ - Make sure that you have signed our [Contributor License Agreement (CLA)](https://cla-assistant.io/kfcoding/gitcourse).
  - Fill out the template below to describe the changes contributed by the pull request.
- - Contributors guide: https://github.com/hypertrons/hypertrons/blob/master/CONTRIBUTING.md
+ - Contributors guide: https://github.com/kfcoding/gitcourse/blob/master/CONTRIBUTING.md
 
  **(The sections below can be removed for hotfixes of typos)**
 -->

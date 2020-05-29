@@ -190,7 +190,7 @@ changes to be accepted, the CLA must be signed.
 
 [angular-commit-message-format]: https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines
 
-[pr-template]: ./.github/pull_request_template.md
+[pr-template]: ./.github/PULL_REQUEST_TEMPLATE.md
 
 [issue-template]: ./.github/ISSUE_TEMPLATE/enhancement.md
 
