@@ -12,12 +12,12 @@ We have adopted a [Code of Conduct][coc] to help us keep xlab-website open and i
 
 ## <a name="issue"></a> Submitting an issue
 
-If you have any questions or feature requests, please feel free to [submit an issue][new-issue].
+If you have any questions or feature requests, please feel free to [Submit an Issue][new-issue].
 
 Before you submit an issue, consider the following guidelines:
 
 - Please search for related issues. Make sure you are not going to open a duplicate issue.
-- Please specify what kind of issue it is and explain it in the title or content, e.g. `feature`, `bug`, `documentation`, `discussion`, `help wanted`... The issue will be tagged automatically by the robot of the project(Menbotics). See [supported issue labels][issue-label].
+- Please specify what kind of issue it is and explain it in the title or content, e.g. `feature`, `bug`, `documentation`, `discussion`, `help wanted`... The issue will be tagged automatically by the robot of the project(Menbotics). See [Supported Issue Labels][issue-label].
 
 To make the issue details as standard as possible, we setup an [Issue Template][issue-template] for issue reporters. Please be sure to follow the instructions to fill fields in template.
 
@@ -37,7 +37,7 @@ Also we must remind that when filling a new issue, please remember to remove the
 
 ## <a name="pr"></a> Submitting a Pull Request
 
-To help you get your feet wet and get you familiar with our contribution process, we have collected some [good first issues][good-first-issues] that contain bugs or small features that have a relatively limited scope. This is a great place to get started.
+To help you get your feet wet and get you familiar with our contribution process, we have collected some [Good First Issues][good-first-issues] that contain bugs or small features that have a relatively limited scope. This is a great place to get started.
 
 Before you submit your Pull Request (PR), consider the following guidelines.
 
@@ -87,7 +87,7 @@ hugo server
 
 ### 6. Commit your changes
 
-Commit your changes If your changes pass the tests. You are encouraged to use [angular commit-message-format][angular-commit-message-format] to write commit message. In this way, we could have a more trackable history and an automatically generated changelog.
+Commit your changes If your changes pass the tests. You are encouraged to use [Angular Commit-message-format][angular-commit-message-format] to write commit message. In this way, we could have a more trackable history and an automatically generated changelog.
 
 ```shell
 git add .
@@ -123,7 +123,7 @@ In GitHub, send a pull request to `X-lab2017/xlab-website`.
 
 Please sign our [Contributor License Agreement (CLA)](#cla) before sending PRs.
 
-To make sure we can easily recap what happened previously, we have prepared a [pull request template][pr-template] and you need to fill out the PR template.
+To make sure we can easily recap what happened previously, we have prepared a [Pull Request Template][pr-template] and you need to fill out the PR template.
 
 The core team is monitoring for pull requests. We will review your pull request and either merge it, request changes to it, or close it with an explanation.
 
@@ -182,6 +182,8 @@ changes to be accepted, the CLA must be signed.
 
 [issue-label]: https://github.com/X-lab2017/xlab-website/labels
 
+[issue-template]: ./.github/ISSUE_TEMPLATE/enhancement.md
+
 [good-first-issues]: https://github.com/X-lab2017/xlab-website/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22+
 
 [repo]: https://github.com/X-lab2017/xlab-website
@@ -191,7 +193,5 @@ changes to be accepted, the CLA must be signed.
 [angular-commit-message-format]: https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines
 
 [pr-template]: ./.github/PULL_REQUEST_TEMPLATE.md
-
-[issue-template]: ./.github/ISSUE_TEMPLATE/enhancement.md
 
 [cla]: https://cla-assistant.io/X-lab2017/xlab-website
