@@ -62,29 +62,29 @@ The first few steps are easy. When prompted whether you'd like to add a new remo
 
 The next prompt asks what kind of remote this is, which should be set to "Google Drive". It's 13th on the list for me, so I enter 13. You can also just write "drive". 
 
-![`rclone` Terminal](resources/rclonescreen1.PNG "Terminal output after the first few simple steps of `rclone`.")
+![`rclone` Terminal](resources/rclonescreen1.png "Terminal output after the first few simple steps of `rclone`.")
 
 The next step prompts you for a Google API Cloud ID. Getting one is not as complicated as it may sound! You'll need to go to [Google API Console](https://console.developers.google.com/) (and make sure that you're signed into the right Google account. 
 
 First, go to Google API Console and make sure you're logged in. It should look something like the below screen, at which point you select "New Project".
 
-![Google API Landing](resources/GoogleAPI2.PNG "Home screen of Google API Cloud.")
+![Google API Landing](resources/GoogleAPI2.png "Home screen of Google API Cloud.")
 
 Name the project whatever you like - it isn't really important. 
 
-![Google API New Project](resources/GoogleAPI1.PNG "Project creation screen for Google API Cloud.")
+![Google API New Project](resources/GoogleAPI1.png "Project creation screen for Google API Cloud.")
 
 Next, go to your project screen:
 
-![Google API Project](resources/GoogleAPI3.PNG "Project landing page for Google API Cloud.")
+![Google API Project](resources/GoogleAPI3.png "Project landing page for Google API Cloud.")
 
 You'll now need to navigate to the APIs Overview: 
 
-![Google APIs](resources/GoogleAPI4.PNG "Link to APIs overview.")
+![Google APIs](resources/GoogleAPI4.png "Link to APIs overview.")
 
 It's tempting on this next screen to just click "Enable APIs and Services", but that's not what you want to do. Instead, head to the Credentials tab, then click "Configure Consent Screen".
 
-![Google APIs Consent](resources/GoogleAPI5.PNG "Configuring the consent screen.")
+![Google APIs Consent](resources/GoogleAPI5.png "Configuring the consent screen.")
 
 This splits off momentarily if you're using a personal account vs. a G Suite account. 
 
@@ -98,15 +98,15 @@ You can use "External" (more inclusive), or "Internal", if you want only users t
 
 The only option you need to change on the next screen is entering "rclone" for the application requesting access (though, ultimately, what you enter here is unlikely to make much of a difference.
 
-![Google APIs Application](resources/GoogleAPI6.PNG "Disclosing that you're generating the key for `rclone`.")
+![Google APIs Application](resources/GoogleAPI6.png "Disclosing that you're generating the key for `rclone`.")
 
 Next, you can scroll all the way down and hit "Save", then navigate back to the Credentials tab, where you'll now select that enticing "Create Credentials" button:
 
-![Google APIs Create Credentials](resources/GoogleAPI7.PNG "Creating credentials using your newly set OAuth settings.")
+![Google APIs Create Credentials](resources/GoogleAPI7.png "Creating credentials using your newly set OAuth settings.")
 
 And then selecting "OAuth client ID".  For "Application Type", select "Desktop app." What you name it doesn't matter.
 
-![Google APIs Desktop App](resources/GoogleAPI8.PNG "Selecting that you're using this key for a desktop application.")
+![Google APIs Desktop App](resources/GoogleAPI8.png "Selecting that you're using this key for a desktop application.")
 
 And voilà! You now have a Client ID and a Client Secret, which you'll copy sequentially and paste into the relevant prompts back at your remote server. The next question will ask what kind of consent you want to give Google Drive. If you're interested in using `rclone` most effectively, and reading/writing/updating files, you'll need to input "drive" or 1, in order to give Google Drive full file permissions.
 
