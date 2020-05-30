@@ -12,19 +12,19 @@ superuser: false
 # Role/position
 #role:
 
-#university:
+#university
 #  faculty: 学域
 #  department: 学類
 #  course: 課程
 #  enrollment: 入学した年度（例：「2019」）
-#  grade_label: 「〇年」の代わりに別の文言を表示したい場合記入 (空白のままなら無視される)
- university:
+#  grade_label: 「〇年」の代わりに別の文言を表示したい場合 (空白のままなら無視される)
+
+university:
   faculty: 
   department: 
   course: 
   enrollment: 
   grade_label: 
-
 
 # Short bio (displayed in user profile at end of posts)
 #bio: My research interests include distributed robotics, mobile computing and programmable matter.
