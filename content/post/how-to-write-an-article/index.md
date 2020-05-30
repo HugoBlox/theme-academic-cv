@@ -80,17 +80,20 @@ YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式
 {{</alert>}}  
 
 ## 折りたたみ
+<pre><code class="language-bash hljs">{{<shortcode-tag-left>}} collapsable "折りたたまれている時に表示する文字列" {{<shortcode-tag-right>}}
+  展開された時に表示する文章(複数行可)
+{{<shortcode-tag-left>}} /collapsable {{<shortcode-tag-right>}}</code></pre>
 自作Shortcodeです。折りたたまれている時、展開された時ともに、Markdown記法を用いた文章が使えます。例えば
-<pre><code class="language-bash hljs">{{<shortcode-tag-left>}} collapsable "`折りたたまれている時に表示する文字列`" {{<shortcode-tag-right>}}
-  展開された時に表示する文章1
-  **展開された時に表示する文章2**
-  > 展開された時に表示する文章3
+<pre><code class="language-bash hljs">{{<shortcode-tag-left>}} collapsable "`Hello`" {{<shortcode-tag-right>}}
+  foo
+  *bar*
+  > Hello, World!
 {{<shortcode-tag-left>}} /collapsable {{<shortcode-tag-right>}}</code></pre>
 のように書けば、下のように表示されます。
-{{< collapsable "`折りたたまれている時に表示する文字列`">}}
-  展開された時に表示する文章1  
-  **展開された時に表示する文章2**  
-  > 展開された時に表示する文章3  
+{{< collapsable "`Hello`">}}
+  foo  
+  *bar*
+  > Hello, World!
 {{< /collapsable>}}
 
 ## ページへのリンク（カード表示）
@@ -101,7 +104,7 @@ YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式
 
 ## ページ内リンク  
 {{<alert warning>}}
-  `{{</*jump "見出し名" "リンクテキスト"*/>}}`は非推奨になりました。  
+  ページ内リンク`{{</*jump "見出し名" "リンクテキスト"*/>}}`は非推奨になりました。  
   Markdown標準の`[見出し名](#リンクテキスト)`を使用してください。
 {{</alert>}}
 クリックすると同じページ内の見出しに飛ぶことができるリンクを挿入する自作Shortcodeです。

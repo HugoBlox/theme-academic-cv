@@ -113,19 +113,22 @@
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;折りたたみ&#34;&gt;折りたたみ&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&amp;lt; collapsable &#34;折りたたまれている時に表示する文字列&#34; &amp;gt;}}
+  展開された時に表示する文章(複数行可)
+{{&amp;lt; /collapsable &amp;gt;}}&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;自作Shortcodeです。折りたたまれている時、展開された時ともに、Markdown記法を用いた文章が使えます。例えば&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&amp;lt; collapsable &#34;`折りたたまれている時に表示する文字列`&#34; &amp;gt;}}
-  展開された時に表示する文章1
-  **展開された時に表示する文章2**
-  &gt; 展開された時に表示する文章3
+&lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&amp;lt; collapsable &#34;`Hello`&#34; &amp;gt;}}
+  foo
+  *bar*
+  &gt; Hello, World!
 {{&amp;lt; /collapsable &amp;gt;}}&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;のように書けば、下のように表示されます。
 &lt;details&gt;
-    &lt;summary&gt;&lt;code&gt;折りたたまれている時に表示する文字列&lt;/code&gt;&lt;/summary&gt;
-    &lt;p&gt;展開された時に表示する文章1&lt;br&gt;
-&lt;strong&gt;展開された時に表示する文章2&lt;/strong&gt;&lt;/p&gt;
+    &lt;summary&gt;&lt;code&gt;Hello&lt;/code&gt;&lt;/summary&gt;
+    &lt;p&gt;foo&lt;br&gt;
+&lt;em&gt;bar&lt;/em&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;展開された時に表示する文章3&lt;/p&gt;
+&lt;p&gt;Hello, World!&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;/details&gt;
@@ -175,7 +178,7 @@
     
 
   
-  &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/juris710/&#34;&gt;Juris710&lt;/a&gt;&lt;/span&gt;, &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/nobu/&#34;&gt;Nobu&lt;/a&gt;&lt;/span&gt;
+  &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/juris710/&#34;&gt;Juris710&lt;/a&gt;&lt;/span&gt;, &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/nobu/&#34;&gt;Nobu&lt;/a&gt;&lt;/span&gt;, &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/%E3%83%A4%E3%83%9E%E3%82%AF%E3%83%81/&#34;&gt;ヤマグチ&lt;/a&gt;&lt;/span&gt;
   &lt;/div&gt;
   
   
@@ -188,7 +191,7 @@
           最終更新
       
     
-    2020/05/28
+    2020/05/30
   &lt;/span&gt;
   
 
@@ -229,7 +232,7 @@
 &lt;h2 id=&#34;ページ内リンク&#34;&gt;ページ内リンク&lt;/h2&gt;
 &lt;p&gt;&lt;div class=&#34;alert alert-warning&#34;&gt;
   &lt;div&gt;
-    &lt;code&gt;{{&amp;lt;jump &amp;quot;見出し名&amp;quot; &amp;quot;リンクテキスト&amp;quot;&amp;gt;}}&lt;/code&gt;は非推奨になりました。&lt;br&gt;
+    ページ内リンク&lt;code&gt;{{&amp;lt;jump &amp;quot;見出し名&amp;quot; &amp;quot;リンクテキスト&amp;quot;&amp;gt;}}&lt;/code&gt;は非推奨になりました。&lt;br&gt;
 Markdown標準の&lt;code&gt;[見出し名](#リンクテキスト)&lt;/code&gt;を使用してください。
   &lt;/div&gt;
 &lt;/div&gt;
@@ -338,7 +341,7 @@ graph TD;
     
 
   
-  &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/juris710/&#34;&gt;Juris710&lt;/a&gt;&lt;/span&gt;, &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/nobu/&#34;&gt;Nobu&lt;/a&gt;&lt;/span&gt;
+  &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/juris710/&#34;&gt;Juris710&lt;/a&gt;&lt;/span&gt;, &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/nobu/&#34;&gt;Nobu&lt;/a&gt;&lt;/span&gt;, &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/%E3%83%A4%E3%83%9E%E3%82%AF%E3%83%81/&#34;&gt;ヤマグチ&lt;/a&gt;&lt;/span&gt;
   &lt;/div&gt;
   
   
@@ -351,7 +354,7 @@ graph TD;
           最終更新
       
     
-    2020/05/28
+    2020/05/30
   &lt;/span&gt;
   
 

@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="(部員用)記事を投稿する方法のまとめです。">
+  <meta name="description" content="2Dステージ作成の時に僕が考えていたことのまとめです">
 
   
-  <link rel="alternate" hreflang="ja" href="https://blog.opuappnavi.com/post/how-to-write-an-article/">
+  <link rel="alternate" hreflang="ja" href="https://blog.opuappnavi.com/post/stage-create/">
 
   
 
@@ -218,7 +218,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://blog.opuappnavi.com/post/how-to-write-an-article/">
+  <link rel="canonical" href="https://blog.opuappnavi.com/post/stage-create/">
 
   
   
@@ -234,15 +234,15 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="アプリNaviブログ">
-  <meta property="og:url" content="https://blog.opuappnavi.com/post/how-to-write-an-article/">
-  <meta property="og:title" content="記事の書き方 | アプリNaviブログ">
-  <meta property="og:description" content="(部員用)記事を投稿する方法のまとめです。"><meta property="og:image" content="https://blog.opuappnavi.com/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="https://blog.opuappnavi.com/post/stage-create/">
+  <meta property="og:title" content="自己流ステージ作成方法 | アプリNaviブログ">
+  <meta property="og:description" content="2Dステージ作成の時に僕が考えていたことのまとめです"><meta property="og:image" content="https://blog.opuappnavi.com/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://blog.opuappnavi.com/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="ja">
   
     
-      <meta property="article:published_time" content="2020-04-28T00:01:09&#43;09:00">
+      <meta property="article:published_time" content="2020-05-30T10:17:55&#43;09:00">
     
-    <meta property="article:modified_time" content="2020-05-30T10:40:02&#43;09:00">
+    <meta property="article:modified_time" content="2020-05-30T10:17:55&#43;09:00">
   
 
   
@@ -266,16 +266,16 @@
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://blog.opuappnavi.com/post/how-to-write-an-article/"
+    "@id": "https://blog.opuappnavi.com/post/stage-create/"
   },
-  "headline": "記事の書き方",
+  "headline": "自己流ステージ作成方法",
   
-  "datePublished": "2020-04-28T00:01:09+09:00",
-  "dateModified": "2020-05-30T10:40:02+09:00",
+  "datePublished": "2020-05-30T10:17:55+09:00",
+  "dateModified": "2020-05-30T10:17:55+09:00",
   
   "author": {
     "@type": "Person",
-    "name": "Juris710"
+    "name": "ヤマグチ"
   },
   
   "publisher": {
@@ -286,7 +286,7 @@
       "url": "https://blog.opuappnavi.com/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "(部員用)記事を投稿する方法のまとめです。"
+  "description": "2Dステージ作成の時に僕が考えていたことのまとめです"
 }
 </script>
 
@@ -304,7 +304,7 @@
 
 
 
-  <title>記事の書き方 | アプリNaviブログ</title>
+  <title>自己流ステージ作成方法 | アプリNaviブログ</title>
 
 </head>
 
@@ -518,31 +518,17 @@
       <nav id="TableOfContents">
   <ul>
     <li><a href="#はじめに">はじめに</a></li>
-    <li><a href="#markdown記法">Markdown記法</a>
+    <li><a href="#ステージ作成で大切なこと">ステージ作成で大切なこと</a>
       <ul>
-        <li><a href="#画像を挿入する場合">画像を挿入する場合</a></li>
+        <li><a href="#1-ステージに意図を持たせる">1. ステージに意図を持たせる</a></li>
+        <li><a href="#2-意味のないものを作る">2. 意味のないものを作る</a></li>
+        <li><a href="#3-ギミックの使い方を考える">3. ギミックの使い方を考える</a></li>
+        <li><a href="#4-自分が楽しむ">4. 自分が楽しむ</a></li>
       </ul>
     </li>
-    <li><a href="#shortcodes">Shortcodes</a>
+    <li><a href="#実際に作ったステージの解説">実際に作ったステージの解説</a>
       <ul>
-        <li><a href="#画像の挿入">画像の挿入</a>
-          <ul>
-            <li><a href="#画像の左寄せ右寄せ">画像の左寄せ、右寄せ</a></li>
-          </ul>
-        </li>
-        <li><a href="#youtube動画埋め込み">Youtube動画埋め込み</a></li>
-        <li><a href="#unity-webglの埋め込み">Unity WebGLの埋め込み</a></li>
-        <li><a href="#ツイートの埋め込み">ツイートの埋め込み</a></li>
-        <li><a href="#折りたたみ">折りたたみ</a></li>
-        <li><a href="#ページへのリンクカード表示">ページへのリンク（カード表示）</a></li>
-        <li><a href="#ページ内リンク">ページ内リンク</a></li>
-      </ul>
-    </li>
-    <li><a href="#その他">その他</a>
-      <ul>
-        <li><a href="#数式">数式</a></li>
-        <li><a href="#diagrams">Diagrams</a></li>
-        <li><a href="#スライド">スライド</a></li>
+        <li><a href="#終わりに">終わりに</a></li>
       </ul>
     </li>
   </ul>
@@ -569,10 +555,8 @@
   
   
 <div class="article-container pt-3">
-  <h1>記事の書き方</h1>
+  <h1>自己流ステージ作成方法</h1>
 
-  
-  <p class="page-subtitle">部員用</p>
   
 
   
@@ -589,7 +573,7 @@
     
 
   
-  <span><a href="/author/juris710/">Juris710</a></span>
+  <span><a href="/author/%E3%83%A4%E3%83%9E%E3%82%AF%E3%83%81/">ヤマグチ</a></span>
   </div>
   
   
@@ -598,8 +582,6 @@
   <span class="article-date">
     
     
-      
-          最終更新
       
     
     2020/05/30
@@ -632,6 +614,45 @@
 
 
 
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="/project/opu-virtual-festival-2020/">
+    プロジェクト
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+</div>
 
 
   
@@ -643,281 +664,86 @@
 
       <div class="article-style">
         <h1 id="はじめに">はじめに</h1>
-<p>このサイトでの記事の書き方をまとめました。英語でも構わない場合は
-<a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/" target="_blank" rel="noopener">公式ドキュメント</a>も参照してください。</p>
-<h1 id="markdown記法">Markdown記法</h1>
-<p>全ての記事はMarkdown記法で書く必要があります。書き方については
-<a href="https://qiita.com/kamorits/items/6f342da395ad57468ae3" target="_blank" rel="noopener">このサイト</a>を参照してください。</p>
-<h2 id="画像を挿入する場合">画像を挿入する場合</h2>
-<pre><code class="language-md">![<span class="code-em">代替テキスト</span>](<span class="code-em">./画像名</span>)
-</code></pre>
-<p><div class="alert alert-note">
-  <div>
-    「画像名」には拡張子も含めてください
+<p>初めまして、アプリNaviのヤマグチです。
+本日、府大バーチャル学祭にて『巡回！デリバリー屋さん』を公開させていただきました。遊んで、楽しんでもらえたのなら嬉しいです。
+
+
+
+
+
+
+
+<div id="unity_webgl_0_1" style="width: 100%; margin: 15px 0; background: white; border-radius: 15px;">
+  <div style="position: relative;">
+    <div id="unity_webgl_0_2" style="height: 0;">
+      <iframe id="unity_webgl_0_3" allowfullscreen></iframe>
+    </div>
   </div>
 </div>
-
-画像のサイズを変えたい、または画像を左寄せ・右寄せしたい場合は下の
-
-
-
-
-    
-
-
-    
-
-<a href="#%E7%94%BB%E5%83%8F%E3%81%AE%E6%8C%BF%E5%85%A5">Shortcode</a>を参照してください</p>
-<h1 id="shortcodes">Shortcodes</h1>
-<p>ShortcodesとはHugo独自の機能で、Markdownファイルに書くことができるスニペットです。</p>
-<h2 id="画像の挿入">画像の挿入</h2>
-<p>
-
-
-<pre><code class="language-bash hljs">{{< figure src="<span class="code-em">./画像名</span>" title="<span class="code-em">代替テキスト</span>" >}}</code></pre>
-<div class="alert alert-note">
-  <div>
-    「画像名」には拡張子も含めてください
-  </div>
-</div>
-</p>
-<h3 id="画像の左寄せ右寄せ">画像の左寄せ、右寄せ</h3>
-<p><details>
-    <summary>左寄せ</summary>
-    <pre><code class="language-bash hljs">{{< figure src="<span class="code-em">./画像名</span>" title="<span class="code-em">代替テキスト</span>"  class="left" >}}</code></pre>
-
-</details>
-
+<script>
+let w =  1100 ; 
+let h =  700 ; 
+let url = "https://deliveryrun.netlify.app/"; 
+document.getElementById("unity_webgl_0_2").style.paddingBottom = 100 * h / w + "%";
+document.getElementById("unity_webgl_0_3").src = url;
+let set_width = function() {
+  let client_w = document.getElementById("unity_webgl_0_2").clientWidth;
+  let per = client_w / w;
+  let rev = 100 / per;
+  let iframe = document.getElementById("unity_webgl_0_3");
+  iframe.height = rev + "%";
+  iframe.width = rev + "%";
+  iframe.style = "position: absolute; top: 0; left: 0;  transform:scale(" + per + ");-o-transform:scale(" + per + ");-webkit-transform:scale(" + per + ");-moz-transform:scale(" + per + ");-ms-transform:scale(" + per + ");transform-origin:top left; border: 0;"
+}
+set_width();
+window.onresize = function(){ set_width(); };
+</script>
+今ゲームは2Dパズルアクションゲームで、ステージ作りにそれなりの時間を割きました。そこで、前半はステージ作りをするとき僕がどう考えていたかについて、後半はゲーム内に実装したステージを作った時に考えていたことの一部について書きます。あくまで僕自身の考え方であり他の方のものとは異なります。参考程度に読んでください。</p>
+<h1 id="ステージ作成で大切なこと">ステージ作成で大切なこと</h1>
+<p>この項では、僕がステージ作成で気にした方がいいと考えていることを書いていきます</p>
+<h2 id="1-ステージに意図を持たせる">1. ステージに意図を持たせる</h2>
+<p>皆さんはカードゲームをしたことがありますか。ない場合は武器やパーティをカスタム、編成するゲームを考えてください。カードゲームにおいて、何が一番いる能力だと思いますか。
+プレイング、読み、運、魂、色々あると思います。僕の答えは構築力です。なぜ構築力なのかは、ここではあまり関係ないので省きます。
+ここで重要なのは構築力が高いと、デッキ内のすべてのカードに採用する理由があるということです。完成された構築には意味のないカードはなく、製作者の意図、意志が反映されます。
+限られたデッキ枚数に何を何枚採用するか。言い換えると、限られたスペースに何をどのくらい配置するか。何かに似てますね。
+そうです、ステージ作成です。特に今回のゲームでは、ステージは一画面に収まる量でなくてはダメでした。なのでステージの枠組みをどうするか、設置物をどこに置くか等、それぞれの配置に自分なりの考えを持つことを意識して作成しました。</p>
+<h2 id="2-意味のないものを作る">2. 意味のないものを作る</h2>
+<p>前項で書いたことに早速矛盾しました。
+しかし、意味のないものを作ることも必要です。遊んでくれる方は製作者の意図なんて知ったこっちゃありません。だからこそ、製作者にとっては無意味だとわかり切っているものにも意味があるんじゃないかと深読みしてくれます。
+そうすれば、意味のないものを作ったつもりが意味のあるものを作れます。意図的に意味のないものを作ることでステージ全体に遊び心を与えることができるのです。</p>
+<h2 id="3-ギミックの使い方を考える">3. ギミックの使い方を考える</h2>
+<p>今回はステージの数が少なく、一つ一つのステージも小さいです。なので、できる限り同じ使い方でギミックを使わないことを気にしました。
+同じギミックでも、あるときはプラスの役割で使い、またある時はマイナスの役割で使うというようにギミックをより効果的に使うことを心がけました。</p>
+<h2 id="4-自分が楽しむ">4. 自分が楽しむ</h2>
+<p>これが一番大切な気がします。作った人が作ったものに対しての理解が最も深いはずです。その人が楽しめないものを他の人が楽しめるとは思えません。作ったステージを自分自身が楽しめるようになりましょう。
+作っている時は、作っているステージが面白いかどうかわからなくなってきます。しかし自分が面白いと思えば、少なくとも世界で誰も楽しめないステージではなくなります。
+僕は今回のゲームで僕が作ったステージが一番好きです。</p>
+<h1 id="実際に作ったステージの解説">実際に作ったステージの解説</h1>
+<p>この項では、僕が今回のゲームで作ったステージのちょっとした解説をしようと思います。この先、ステージ9のネタバレを含みますのでプレイした後に読むことをお勧めします。
 <details>
-    <summary>右寄せ</summary>
-    <pre><code class="language-bash hljs">{{< figure src="<span class="code-em">./画像名</span>" title="<span class="code-em">代替テキスト</span>"  class="right" >}}</code></pre>
-
-</details>
-
-<details>
-    <summary>左寄せ(float)</summary>
-    <pre><code class="language-bash hljs">{{< figure src="<span class="code-em">./画像名</span>" title="<span class="code-em">代替テキスト</span>"  class="float-left" >}}</code></pre>
-
-</details>
-
-<details>
-    <summary>右寄せ(float)</summary>
-    <pre><code class="language-bash hljs">{{< figure src="<span class="code-em">./画像名</span>" title="<span class="code-em">代替テキスト</span>"  class="float-right" >}}</code></pre>
-
-</details>
-
-他にも、画像の幅・高さなどをカスタムすることができます。詳しくは
-<a href="https://gohugo.io/content-management/shortcodes/#figure" target="_blank" rel="noopener">公式ドキュメント</a>  を参照してください。</p>
-<h2 id="youtube動画埋め込み">Youtube動画埋め込み</h2>
-<p>
-
-
-<pre><code class="language-bash hljs">{{< youtube <span class="code-em">動画のID</span> >}}</code></pre> 
-<div class="alert alert-note">
-  <div>
-    YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式になっています
-  </div>
-</div>
-</p>
-<h2 id="unity-webglの埋め込み">Unity WebGLの埋め込み</h2>
-<p>
-<a href="https://ch-random.net/post/93/" target="_blank" rel="noopener">ランダムさんの記事</a>の内容を少し改変した自作Shortcodeです。Unity WebGLのゲームをページ内でプレイすることができます。
-
-
-
-<pre><code class="language-bash hljs">{{< unity src="<span class="code-em">URL</span>"　>}}</code></pre></p>
-<h2 id="ツイートの埋め込み">ツイートの埋め込み</h2>
-<p>
-
-
-<pre><code class="language-bash hljs">{{< tweet <span class="code-em">ツイートID</span> >}}</code></pre>
-<div class="alert alert-note">
-  <div>
-    ツイートのURLは「https://twitter.com/&hellip;/status/ツイートID」という形式になっています。
-  </div>
-</div>
-</p>
-<h2 id="折りたたみ">折りたたみ</h2>
-<pre><code class="language-bash hljs">{{&lt; collapsable "折りたたまれている時に表示する文字列" &gt;}}
-  展開された時に表示する文章(複数行可)
-{{&lt; /collapsable &gt;}}</code></pre>
-<p>自作Shortcodeです。折りたたまれている時、展開された時ともに、Markdown記法を用いた文章が使えます。例えば</p>
-<pre><code class="language-bash hljs">{{&lt; collapsable "`Hello`" &gt;}}
-  foo
-  *bar*
-  > Hello, World!
-{{&lt; /collapsable &gt;}}</code></pre>
-<p>のように書けば、下のように表示されます。
-<details>
-    <summary><code>Hello</code></summary>
-    <p>foo<br>
-<em>bar</em></p>
-<blockquote>
-<p>Hello, World!</p>
-</blockquote>
+    <summary>以下ステージ9ネタバレ</summary>
+    <figure >
+<p><a data-fancybox="" href="./stage9.png" ></p>
+<p><img src="./stage9.png" alt=""  >
+</a></p>
+</figure>
+<p>1の意図は、ステージ全体にコンセプトを持たせることです。
+初めにコンセプトを決めておくことで僕自身の中で方向性がブレないようにしました。このステージ全体のコンセプトは「ステージ一周」でした。その時に右周りでも左回りでもクリアできるようにするということを目標にしました。
+ステージ全体を、荷物を取るエリアでそれぞれ区分けし、各エリアには入り口と出口を作り周回方向によって入り口、出口が入れ替わるような配置にしました。
+画像では、赤枠の示す上から落ちるブロックです。これを擬似的な通行止めとして利用しました。<br>
+2の意味のないものは、どっち周りでもクリアできるという要素です。
+別に両方から進める必要は全くありません。左回りの時は右回りのギミックは不必要で、右回りの時は左回りのギミックは不必要となります。ただ、これがあることがこのステージの面白さを出しているのだと考えています。<br>
+3のギミックの使い方は、先ほども挙げた落ちるブロックによるステージの区切りです。
+他の僕の作ったステージでは、基本的にプレイヤーを倒すためだけのものでした。そこに他の役割である区切りという役割を持たせています。この使い方はプラスとマイナスの両方の使い方というわけではありませんが、違った使い方をした一例ではあります。<br>
+4の自分が楽しむに関しては、作ってるのはすごく楽しかったです。コンセプトを思いついてからは非常にスムーズにステージ作成をすることができました。<br>
+以上が、僕の作ったステージのちょっとした解説になります。あまり話しすぎても面白くないのでこの辺りで終わります。</p>
 
 </details>
 </p>
-<h2 id="ページへのリンクカード表示">ページへのリンク（カード表示）</h2>
-<p>自作Shortcodeです。
-
-
-
-<pre><code class="language-bash hljs">{{< page "<span class="code-em">表示したいページのパス(ホームからの相対パス)</span>" >}}</code></pre>
-例えば<code>{{&lt; page &quot;project/opu-virtual-festival-2020&quot; &gt;}}</code>と記述すると、下のように表示されます。
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="card-simple">
-
-  
-    
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  
-  <span><a href="/author/juris710/">Juris710</a></span>, <span><a href="/author/nobu/">Nobu</a></span>, <span><a href="/author/%E3%83%A4%E3%83%9E%E3%82%AF%E3%83%81/">ヤマグチ</a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-          最終更新
-      
-    
-    2020/05/30
-  </span>
-  
-
-  
-
-  
-
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-
-  <h3 class="article-title mb-1 mt-3">
-    <a href="/project/opu-virtual-festival-2020/">府大バーチャル学祭</a>
-  </h3>
-
-  
-  <div class="article-style">
-    <p>OPU Virtual Festival</p>
-  </div>
-  
-
-  
-
-</div>
-
- </p>
-<h2 id="ページ内リンク">ページ内リンク</h2>
-<p><div class="alert alert-warning">
-  <div>
-    ページ内リンク<code>{{&lt;jump &quot;見出し名&quot; &quot;リンクテキスト&quot;&gt;}}</code>は非推奨になりました。<br>
-Markdown標準の<code>[見出し名](#リンクテキスト)</code>を使用してください。
-  </div>
-</div>
-
-クリックすると同じページ内の見出しに飛ぶことができるリンクを挿入する自作Shortcodeです。
-Markdown記法だけでも書けるのですが、見出し付近がナビゲーションバーに隠れてしまうバグがあるため、それを解消しています。
-
-
-
-<pre><code class="language-bash hljs">{{< jump "<span class="code-em">見出し名</span>" "<span class="code-em">リンクテキスト</span>" >}}</code></pre>
-<code>&quot;リンクテキスト&quot;</code>は省略可能です。<br>
-例えば<code>{{&lt;jump &quot;折りたたみ&quot;&gt;}}</code>と書くと
-
-
-
-
-    
-    
-
-
-    
-
-<a href="#%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF">折りたたみ</a>のようなリンクが作れます。</p>
-<h1 id="その他">その他</h1>
-<h2 id="数式">数式</h2>
-<p>$\LaTeX$ 記法を用いることで数式を表示することができます。数式は<code>$$</code>で囲む必要があります。</p>
-<pre><code>$$ F=G\frac{Mm}{r^2} $$
-</code></pre>
-<p>下のように表示されます。
-$$ F=G\frac{Mm}{r^2} $$
-<code>$$</code>の代わりに<code>$</code>で囲むと $ F=G\frac{Mm}{r^2} $ のようにインライン表示できます。</p>
-<h2 id="diagrams">Diagrams</h2>
-<p>mermaid記法を使った図の挿入が可能です。</p>
-<pre><code class="language-md">```mermaid
-graph TD;
-  A--&gt;B;
-  A--&gt;C;
-  B--&gt;D;
-  C--&gt;D;
-```
-</code></pre>
-<p>以下のように表示されます。</p>
-<pre><code class="language-mermaid">graph TD;
-  A--&gt;B;
-  A--&gt;C;
-  B--&gt;D;
-  C--&gt;D;
-</code></pre>
-<h2 id="スライド">スライド</h2>
-<p>Markdown記法で簡易的なスライドを作成することができます。
-
-
-
-<pre><code class="language-bash hljs">{{< slide-frame src="<span class="code-em">スライド名</span>" >}}</code></pre>
-
-
-
-
-<iframe id=test src=https://blog.opuappnavi.com/slides/test width=640 height=360 allowfullscreen=true></iframe>
-</p>
+<h2 id="終わりに">終わりに</h2>
+<p>読んでいただきありがとうございました。
+まさかブログまで書くことになると思っていませんでしたが、ゲームも含めてまあ良いものになったんじゃないかなあと思っています。
+最後に、ゲームを遊んでいただいた方、このブログを読んでいただいた方ありがとうございました。それではまた何かの機会に。</p>
 
       </div>
 
@@ -927,9 +753,7 @@ graph TD;
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/markdown/">Markdown</a>
-  
-  <a class="badge badge-light" href="/tag/hugo/">Hugo</a>
+  <a class="badge badge-light" href="/tag/unity/">Unity</a>
   
 </div>
 
@@ -946,7 +770,7 @@ graph TD;
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://blog.opuappnavi.com/post/how-to-write-an-article/&amp;text=%e8%a8%98%e4%ba%8b%e3%81%ae%e6%9b%b8%e3%81%8d%e6%96%b9" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://blog.opuappnavi.com/post/stage-create/&amp;text=%e8%87%aa%e5%b7%b1%e6%b5%81%e3%82%b9%e3%83%86%e3%83%bc%e3%82%b8%e4%bd%9c%e6%88%90%e6%96%b9%e6%b3%95" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -959,7 +783,7 @@ graph TD;
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://blog.opuappnavi.com/post/how-to-write-an-article/&amp;t=%e8%a8%98%e4%ba%8b%e3%81%ae%e6%9b%b8%e3%81%8d%e6%96%b9" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://blog.opuappnavi.com/post/stage-create/&amp;t=%e8%87%aa%e5%b7%b1%e6%b5%81%e3%82%b9%e3%83%86%e3%83%bc%e3%82%b8%e4%bd%9c%e6%88%90%e6%96%b9%e6%b3%95" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -972,7 +796,7 @@ graph TD;
       
       
       <li>
-        <a href="mailto:?subject=%e8%a8%98%e4%ba%8b%e3%81%ae%e6%9b%b8%e3%81%8d%e6%96%b9&amp;body=https://blog.opuappnavi.com/post/how-to-write-an-article/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=%e8%87%aa%e5%b7%b1%e6%b5%81%e3%82%b9%e3%83%86%e3%83%bc%e3%82%b8%e4%bd%9c%e6%88%90%e6%96%b9%e6%b3%95&amp;body=https://blog.opuappnavi.com/post/stage-create/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -985,7 +809,7 @@ graph TD;
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://blog.opuappnavi.com/post/how-to-write-an-article/&amp;title=%e8%a8%98%e4%ba%8b%e3%81%ae%e6%9b%b8%e3%81%8d%e6%96%b9" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://blog.opuappnavi.com/post/stage-create/&amp;title=%e8%87%aa%e5%b7%b1%e6%b5%81%e3%82%b9%e3%83%86%e3%83%bc%e3%82%b8%e4%bd%9c%e6%88%90%e6%96%b9%e6%b3%95" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1021,13 +845,13 @@ graph TD;
     <div class="media author-card content-widget-hr">
       
         
-        <img class="avatar mr-3 avatar-circle" src="/author/juris710/avatar_hu5de0ea20705264e86c3c4da9248d73aa_202133_270x270_fill_q90_lanczos_center.jpg" alt="Juris710">
+        <img class="avatar mr-3 avatar-circle" src="/author/%E3%83%A4%E3%83%9E%E3%82%AF%E3%83%81/avatar_hu1ef6a4fc48d80aa45c879d78edee6da8_924300_270x270_fill_q90_lanczos_center.jpg" alt="ヤマグチ">
       
 
       <div class="media-body">
-        <h5 class="card-title"><a href="/author/juris710/">Juris710</a></h5>
+        <h5 class="card-title"><a href="/author/%E3%83%A4%E3%83%9E%E3%82%AF%E3%83%81/">ヤマグチ</a></h5>
         
-        <p class="card-text">このサイトの開発者です。</p>
+        <p class="card-text">頼み事を最初に聞く係です。</p>
         <ul class="network-icon" aria-hidden="true">
   
 </ul>
@@ -1052,17 +876,12 @@ graph TD;
   
   <div class="post-nav-item">
     
-    
-    
-    <div class="meta-nav">NEXT</div>
-    <a href="/post/truck-quiz/" rel="next">Truck Quiz</a>
-    
   </div>
   <div class="post-nav-item">
     
     
     <div class="meta-nav">PREVIOUS</div>
-    <a href="/post/site-introduction/" rel="prev">このサイトについて</a>
+    <a href="/post/gas-scoring/" rel="prev">GAS でサクッと採点シート作ってみた</a>
     
   </div>
   
@@ -1077,7 +896,11 @@ graph TD;
     <h3>関連項目</h3>
     <ul>
       
-      <li><a href="/post/site-introduction/">このサイトについて</a></li>
+      <li><a href="/post/unity-github-pages/">Unity製ゲームをWebで共有する方法</a></li>
+      
+      <li><a href="/post/github-for-unity/">GitHub for Unityの紹介</a></li>
+      
+      <li><a href="/post/truck-quiz/">Truck Quiz</a></li>
       
     </ul>
   </div>
@@ -1168,7 +991,7 @@ graph TD;
       bodyClassList.remove('scrolling');
     });
   }
-  let pageLink = "https://blog.opuappnavi.com/post/how-to-write-an-article/";
+  let pageLink = "https://blog.opuappnavi.com/post/stage-create/";
   let inPageLinks = [].filter.call(document.getElementsByTagName('a'), function (element) {
     return element.href.startsWith(pageLink) && element.hash !== '';
   });
