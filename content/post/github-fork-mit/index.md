@@ -26,23 +26,30 @@ image:
 #   Otherwise, set `projects = []`.
 projects: ["opu-virtual-festival-2020"]
 ---
-# GitHubのfork
+# GitHubのfork  
+
 GitHubにはforkという機能があります。既に存在するリポジトリをコピーして、オリジナルのリポジトリに影響を与えることなく変更を加えることができます。  
 このサイトは[Academic Kickstart](https://github.com/sourcethemes/academic-kickstart)というリポジトリをforkして開発しています。
 
-# ライセンス
+# ライセンス  
+
 GitHubのリポジトリにはたいてい、LICENSEという名前のファイルがあります。ライセンスはそのプログラムの改変・商用利用などをしても良いかなどを記したファイルで、何を許可するかによって様々なライセンスが存在します。  
 その中で一番多く用いられているライセンスの１つがMITライセンスです。[Academic Kickstart](https://github.com/sourcethemes/academic-kickstart)もMITライセンスです。
 MITライセンスが設定されたリポジトリは、以下の2つを守れば改変・商用利用など自由に使うことができます。
+
 - 元の著作権表示(`Copyright (c) 年 作者名`)をそのまま掲載すること  
 - ライセンスの全文（あるいは全文が掲載されたサイトのURL）を掲載すること  
 
 詳しくは[このサイト](https://wisdommingle.com/mit-license/)などを参照してください。
 
 # forkとライセンス  
+
 このサイトを開発する中で、「forkしたリポジトリのライセンスはどう変更するべきなのか」という疑問を持ち、検索してみました。その結果わかった2つの方法を紹介します。
-## 方法1　一行下に自分の著作権表示を追加
+
+## 方法1　一行下に自分の著作権表示を追加  
+
 {{<collapsable 方法1>}}
+
 ```md
 The MIT License (MIT)
 
@@ -66,7 +73,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
 上のようなライセンスのリポジトリをforkする場合、次のように変更します。
+
 ```md
 The MIT License (MIT)
 
@@ -91,9 +100,13 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
 {{</collapsable>}}
-## 方法2　ライセンスを併記
+
+## 方法2　ライセンスを併記  
+
 {{<collapsable 方法2>}}
+
 ```md
 The MIT License (MIT)
 
@@ -117,7 +130,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
 上のようなライセンスのリポジトリをforkする場合、書き方は色々ありますが、例えば次のように変更します。
+
 ```md
 The MIT License (MIT)
 
@@ -165,10 +180,12 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
 GitHubはライセンスの種類を認識し、説明を表示する機能があります。この方法だとGitHubがGitHuMITライセンスだと認識してくれないという問題があります。
 {{</collapsable>}}
 
-# 検証
+# 検証  
+
 forkしたリポジトリのライセンス変更に、実際どのような方法が取られているか検証することにしました。検証するリポジトリは[東京都コロナウイルス対策サイト](https://github.com/tokyo-metropolitan-gov/covid19)です。GitHubにMITライセンスのリポジトリが公開されており、多くの都道府県が(公式 / 非公式で)このリポジトリをforkした対策サイトを作成しています。[派生したサイト一覧](https://github.com/tokyo-metropolitan-gov/covid19/blob/development/FORKED_SITES.md)に掲載されているリポジトリについて、`master`ブランチの`LICENSE.txt`の権利表記を比較すると、以下のような結果になりました。
 
 |   著作権表示に加えられた変更   | リポジトリ数 |  
@@ -181,7 +198,8 @@ forkしたリポジトリのライセンス変更に、実際どのような方�
 
 東京都のリポジトリの権利表記`Copyright (c) 2020 Tokyo Metropolitan Government and other contributors.`をforkした側の名前に書き換えているリポジトリがいくつかありました。厳密に言えばこれはMITライセンスの規約違反になるので意外でした。「コロナ対策サイト」で著作権の問題は起こらないでしょうから、ライセンス関連はあまり気にしていないのかもしれません。
 
-# 参考サイト
+# 参考サイト  
+
 - https://help.github.com/ja/github/getting-started-with-github/fork-a-repo
 - https://wisdommingle.com/mit-license/
 - https://gist.github.com/fbaierl/1d740a7925a6e0e608824eb27a429370
