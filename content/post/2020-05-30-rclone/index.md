@@ -62,7 +62,7 @@ The first few steps are easy. When prompted whether you'd like to add a new remo
 
 The next prompt asks what kind of remote this is, which should be set to "Google Drive". It's 13th on the list for me, so I enter 13. You can also just write "drive". 
 
-![`rclone` Terminal](resources/rclonescreen1.png "Terminal output after the first few simple steps of `rclone`.")
+![`rclone` Terminal](resources/screenrclone1.png "Terminal output after the first few simple steps of `rclone`.")
 
 The next step prompts you for a Google API Cloud ID. Getting one is not as complicated as it may sound! You'll need to go to [Google API Console](https://console.developers.google.com/) (and make sure that you're signed into the right Google account. 
 
