@@ -5,7 +5,7 @@ title: "GAS でサクッと採点シート作ってみた"
 subtitle: "GASの紹介第二弾です。"
 summary: ""
 authors: ["nobu"]
-tags: ["google-apps-script"]
+tags: ["Google Apps Script"]
 categories: []
 date: 2020-05-30T10:04:44+09:00
 featured: false

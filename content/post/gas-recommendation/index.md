@@ -5,7 +5,7 @@ title: "手軽に始める！GAS を使ってみませんか～"
 subtitle: ""
 summary: "Google Apps Scriptの紹介"
 authors: ["nobu"]
-tags: ["google-apps-script"]
+tags: ["Google Apps Script"]
 categories: []
 date: 2020-05-28T19:47:24+09:00
 featured: false
