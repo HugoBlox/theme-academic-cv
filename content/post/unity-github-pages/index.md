@@ -27,30 +27,44 @@ image:
 projects: ["opu-virtual-festival-2020"]
 ---
 Gitに詳しくない人向けに書いています。Gitに詳しい人は`詳しくない人向け`の部分は読まなくて大丈夫です。
+
 # 必要なもの  
+
 - Unity
 - GitHub アカウント
 - Git：[ここ](https://git-scm.com/downloads)からダウンロードできます
 
-# 1. Unityでゲームをビルドする
+# 1. Unityでゲームをビルドする  
+
 ## 1.1 Build Settingsを開く
+
 左上のメニューで`File`>`Build Settings`をクリックしてください。
+
 ## 1.2 プラットフォームの変更
+
 `WebGL`を選択し、`Switch Platform`をクリックしてください。
+
 ## 1.3 ゲームをビルド
+
 `Build`をクリックしてください。ビルド先はどこでも構いません。私は`(プロジェクト名)/Builds/WebGL`を選択しています。
 
 # 2. GitHubにアップロード
+
 ビルドの結果、以下の3つのファイルが生成されます。  
+
 - `Build`フォルダ
 - `TemplateData`フォルダ
 - `index.html`ファイル  
 
 これらのファイルをGitHubにアップロードします。  
 {{<collapsable 詳しくない人向け>}}
+
 ## 2.1 GitHubにサインイン  
+
 [GitHub](https://github.com/)にアクセスし、サインインしてください。  
+
 ## 2.2 新しいリポジトリの作成  
+
 {{<figure src="./GitHub_New_Repository.png" class="left">}}
 `Repositories`の右にある`New`をクリックしてください。  
 {{<figure src="./GitHub_New_Repository2.png" class="left">}}
@@ -59,28 +73,33 @@ Gitに詳しくない人向けに書いています。Gitに詳しい人は`詳�
 `Create repository`を選択してリポジトリを作成してください。  
 {{<figure src="./GitHub_New_Repository3.png" class="left">}}
 赤い枠で囲まれたボタンを押してください。左のURLがクリップボードにコピーされます。
+
 ## 2.3 ファイルのアップロード
+
 `Git Bash`を起動してください。
 起動時のフォルダは`C:\Users\(ユーザー名)`なので、ビルド結果があるフォルダに移動してください。`cd (フォルダ名)`コマンドで移動できます。
 移動したら、以下のコマンドを一行ずつ実行してください。
 {{<alert note>}}
   `Git Bash`では`Shift`+`Insert`で貼り付けができます
 {{</alert>}}
-```
+
+```bash
 git init
 git add .
 git commit -m "Initial Commit"
 git remote add origin (先ほどコピーしたURL)
 git push -u origin master
 ```
+
 {{</collapsable>}}
 
-# 3. Webにゲームを公開
+# 3. Webにゲームを公開  
+
 {{<figure src="./GitHub_Pages.png" class="left">}}
 `Settings`をクリックしてください。
 {{<figure src="./GitHub_Pages2.png" class="left">}}
 スクロールし、`GitHub Pages`の`Source`の下にあるドロップダウンリストで`master branch`を選択してください。
 
-# 公開したゲームをプレイ
-`https://(ユーザー名).github.io/(リポジトリ名)/`というURLにアクセスすると、作ったゲームをプレイすることができます。
+# 公開したゲームをプレイ  
 
+`https://(ユーザー名).github.io/(リポジトリ名)/`というURLにアクセスすると、作ったゲームをプレイすることができます。

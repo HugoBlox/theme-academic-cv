@@ -1320,7 +1320,7 @@ Unity 2019から&lt;code&gt;UI Elements&lt;/code&gt;という新しいUIシス�
     &lt;code&gt;Git Bash&lt;/code&gt;では&lt;code&gt;Shift&lt;/code&gt;+&lt;code&gt;Insert&lt;/code&gt;で貼り付けができます
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;pre&gt;&lt;code&gt;git init
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git init
 git add .
 git commit -m &amp;quot;Initial Commit&amp;quot;
 git remote add origin (先ほどコピーしたURL)
