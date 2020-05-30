@@ -721,9 +721,7 @@ function myFunction() {
 左上�?�新規＋�?�タンをクリ�?クし�?�その他�?�アプリを追�?→Google Apps Scriptを探し�?�接続をクリ�?ク&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;もう�?度新規＋を押し�?�その他にGoogle Apps Scriptが�?�てきたら完�?&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;もう�?度新規＋を押し�?�その他にGoogle Apps Scriptが�?�てきたら完�?
 
 
 
@@ -757,9 +755,11 @@ function myFunction() {
 
 
 &lt;/figure&gt;
-
-&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;それをクリ�?クすると、エ�?ィタがでてくるので、これでGASを�?�じめる準備が�?�来ました?�?&lt;/li&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;それをクリ�?クすると、エ�?ィタがでてくるので、これでGASを�?�じめる準備が�?�来ました?�?&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;ちなみにHello Worldはこんな感じです�??&lt;/p&gt;
 

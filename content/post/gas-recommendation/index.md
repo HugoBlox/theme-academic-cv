@@ -41,7 +41,6 @@ projects: ["opu-virtual-festival-2020"]
 
 > Google Apps Script は JavaScript ベースのスクリプト言語で、ドキュメント、スプレッドシート、スライド、フォームなどの G Suite サービスをカスタマイズ、拡張できます。
 
-
 とのこと。（抜粋）
 
 # GAS で何ができるの？
@@ -100,7 +99,7 @@ GAS では、google のサービスと連携して、web アプリケーショ�
 
 GASで何ができるかというのを紹介したところで、タイトルの**お手軽**という理由を紹介していきます。
 
-## 開発環境構築がいらない！ 
+## 開発環境構築がいらない！  
 
 GASでは新しく言語をはじめるときの面倒な環境構築はほとんどありません。
 
@@ -132,40 +131,32 @@ GASはJavaScriptベースで、そしてwebサイトを開発する時に良く�
 
 これは工夫せずに重い処理を何度も書くと、引っかかってしまうので注意が必要です…
 
-
 そのためGASはそこまで大きなプロジェクトには向いていないと言えます...
 
 詳しい公式の制限は[コチラ](https://developers.google.com/apps-script/guides/services/quotas)
-
 
 # さっそく始めてみよう
 
 始める方法はとても簡単です。せっかくなので実際にやってみます。
 
-0. googleアカウントの作成（無い方は）   
+0. googleアカウントの作成（無い方は）  
   こちらより必要事項を記入して
   [Google アカウントを作成](https://support.google.com/accounts/answer/27441?hl=ja)
   します。
 
-
 1. ブラウザで[Google Drive](https://www.google.co.jp/drive/apps.html)にアクセスします。
 
-
-2. Google DriveにGoogle Apps Scriptを追加する   
+2. Google DriveにGoogle Apps Scriptを追加する  
   左上の新規＋ボタンをクリックし、その他→アプリを追加→Google Apps Scriptを探し、接続をクリック
 
 3. もう一度新規＋を押し、その他にGoogle Apps Scriptが出てきたら完了
-
 {{< figure src="./nobu_GAS_img_1.png" title="HelloWorld" >}}
-
 
 4. それをクリックすると、エディタがでてくるので、これでGASをはじめる準備が出来ました！
 
 ちなみにHello Worldはこんな感じです。
 
 {{< figure src="./nobu_GAS_img_2.png" title="完了後" >}}
-
-
 
 # 最後に
 
@@ -178,15 +169,3 @@ GASの存在だけでも知ってもらい、機会があれば何かで使っ�
 ## 参考サイト
 
 [【保存版】初心者向け実務で使えるGoogle Apps Script完全マニュアル](https://tonari-it.com/google-apps-script-manual/)
-
-
-
-
-
-
-
-
-
-
-
-

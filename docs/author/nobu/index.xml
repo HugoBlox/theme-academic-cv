@@ -461,9 +461,7 @@ function myFunction() {
 左上の新規＋ボタンをクリックし、その他→アプリを追加→Google Apps Scriptを探し、接続をクリック&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;もう一度新規＋を押し、その他にGoogle Apps Scriptが出てきたら完了&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;もう一度新規＋を押し、その他にGoogle Apps Scriptが出てきたら完了
 
 
 
@@ -497,9 +495,11 @@ function myFunction() {
 
 
 &lt;/figure&gt;
-
-&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;それをクリックすると、エディタがでてくるので、これでGASをはじめる準備が出来ました！&lt;/li&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;それをクリックすると、エディタがでてくるので、これでGASをはじめる準備が出来ました！&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;ちなみにHello Worldはこんな感じです。&lt;/p&gt;
 
