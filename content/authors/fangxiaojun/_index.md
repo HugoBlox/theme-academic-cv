@@ -28,10 +28,10 @@ education:
   courses:
   - course: MEng in Computer Science
     institution: East China Normal University
-    year: 2019-now
+    year: 2022
   - course: BEng in Internet of Things
     institution: Jiangnan University
-    year: 2013-2017
+    year: 2017
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons

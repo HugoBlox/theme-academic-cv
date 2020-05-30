@@ -2,7 +2,7 @@
 
 It is warmly welcomed if you have interest to contribute to xlab-website and help make it even better than it is today! The following is a set of guidelines for contributing to xlab-website.
 
-Remember that always use `-` instead of blank space, E.g. use `leo-fang` instead of `leo fang`.
+**Remember that always use dash `-` instead of spaces, E.g. use `leo-fang` instead of `leo fang`.**
 
 - [Create/Edit a User](#user)
 - [Create/Edit a Project](#project)
