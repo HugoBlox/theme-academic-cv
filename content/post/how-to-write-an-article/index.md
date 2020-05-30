@@ -70,7 +70,7 @@ YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式
 {{</alert>}}
 
 ## Unity WebGLの埋め込み
-[ランダムさんの記事](https://ch-random.net/post/93/)の内容を少し改変した自作Shortcodeです
+[ランダムさんの記事](https://ch-random.net/post/93/)の内容を少し改変した自作Shortcodeです。Unity WebGLのゲームをページ内でプレイすることができます。
 {{<escape-shortcode-single>}} unity src="{{<code-em>}}URL{{</code-em>}}"　{{</escape-shortcode-single>}}
 
 ## ツイートの埋め込み

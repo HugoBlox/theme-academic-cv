@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="Google Apps Scriptの紹介">
+  <meta name="description" content="全然需要ないかもですが、GAS の紹介第二弾です。 今回は GAS を使">
 
   
-  <link rel="alternate" hreflang="ja" href="https://blog.opuappnavi.com/post/gas-recommendation/">
+  <link rel="alternate" hreflang="ja" href="https://blog.opuappnavi.com/post/gas-scoring/">
 
   
 
@@ -218,7 +218,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://blog.opuappnavi.com/post/gas-recommendation/">
+  <link rel="canonical" href="https://blog.opuappnavi.com/post/gas-scoring/">
 
   
   
@@ -234,15 +234,15 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="アプリNaviブログ">
-  <meta property="og:url" content="https://blog.opuappnavi.com/post/gas-recommendation/">
-  <meta property="og:title" content="手軽に始める！GAS を使ってみませんか～ | アプリNaviブログ">
-  <meta property="og:description" content="Google Apps Scriptの紹介"><meta property="og:image" content="https://blog.opuappnavi.com/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="https://blog.opuappnavi.com/post/gas-scoring/">
+  <meta property="og:title" content="GAS でサクッと採点シート作ってみた | アプリNaviブログ">
+  <meta property="og:description" content="全然需要ないかもですが、GAS の紹介第二弾です。 今回は GAS を使"><meta property="og:image" content="https://blog.opuappnavi.com/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://blog.opuappnavi.com/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="ja">
   
     
-      <meta property="article:published_time" content="2020-05-28T19:47:24&#43;09:00">
+      <meta property="article:published_time" content="2020-05-30T10:04:44&#43;09:00">
     
-    <meta property="article:modified_time" content="2020-05-28T20:05:10&#43;09:00">
+    <meta property="article:modified_time" content="2020-05-30T10:04:44&#43;09:00">
   
 
   
@@ -266,12 +266,12 @@
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://blog.opuappnavi.com/post/gas-recommendation/"
+    "@id": "https://blog.opuappnavi.com/post/gas-scoring/"
   },
-  "headline": "手軽に始める！GAS を使ってみませんか～",
+  "headline": "GAS でサクッと採点シート作ってみた",
   
-  "datePublished": "2020-05-28T19:47:24+09:00",
-  "dateModified": "2020-05-28T20:05:10+09:00",
+  "datePublished": "2020-05-30T10:04:44+09:00",
+  "dateModified": "2020-05-30T10:04:44+09:00",
   
   "author": {
     "@type": "Person",
@@ -286,7 +286,7 @@
       "url": "https://blog.opuappnavi.com/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Google Apps Scriptの紹介"
+  "description": "全然需要ないかもですが、GAS の紹介第二弾です。 今回は GAS を使"
 }
 </script>
 
@@ -304,7 +304,7 @@
 
 
 
-  <title>手軽に始める！GAS を使ってみませんか～ | アプリNaviブログ</title>
+  <title>GAS でサクッと採点シート作ってみた | アプリNaviブログ</title>
 
 </head>
 
@@ -517,31 +517,19 @@
       <h2>目次</h2>
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#gas-って">GAS って?</a></li>
-    <li><a href="#gas-で何ができるの">GAS で何ができるの？</a></li>
-    <li><a href="#google-のサービスをより便利に活用する">Google のサービスをより便利に活用する</a>
+    <li>
       <ul>
-        <li><a href="#利用できるサービス例">利用できるサービス例</a></li>
-        <li><a href="#使用例">使用例</a></li>
-      </ul>
-    </li>
-    <li><a href="#web-アプリケーションの作成公開">Web アプリケーションの作成、公開</a>
-      <ul>
-        <li><a href="#使用例-1">使用例</a></li>
-      </ul>
-    </li>
-    <li><a href="#gasを使用するメリット">GASを使用するメリット</a>
-      <ul>
-        <li><a href="#開発環境構築がいらない">開発環境構築がいらない！</a></li>
-        <li><a href="#無料">無料！</a></li>
-        <li><a href="#学習コストが低い勉強になる">学習コストが低い、勉強になる！</a></li>
-      </ul>
-    </li>
-    <li><a href="#デメリットもあります">デメリットもあります…</a></li>
-    <li><a href="#さっそく始めてみよう">さっそく始めてみよう</a></li>
-    <li><a href="#最後に">最後に</a>
-      <ul>
-        <li><a href="#参考サイト">参考サイト</a></li>
+        <li><a href="#gas-って">GAS って？</a></li>
+        <li><a href="#作った経緯ついでにハッカソンの紹介">作った経緯（ついでにハッカソンの紹介）</a></li>
+        <li><a href="#作ったもの">作ったもの</a></li>
+        <li><a href="#どうして-gas-で">どうして GAS で？</a>
+          <ul>
+            <li></li>
+          </ul>
+        </li>
+        <li><a href="#コード">コード</a></li>
+        <li><a href="#作ってみた感想">作ってみた感想</a></li>
+        <li><a href="#最後に">最後に</a></li>
       </ul>
     </li>
   </ul>
@@ -568,8 +556,10 @@
   
   
 <div class="article-container pt-3">
-  <h1>手軽に始める！GAS を使ってみませんか～</h1>
+  <h1>GAS でサクッと採点シート作ってみた</h1>
 
+  
+  <p class="page-subtitle">GASの紹介第二弾です。</p>
   
 
   
@@ -596,10 +586,8 @@
     
     
       
-          最終更新
-      
     
-    2020/05/28
+    2020/05/30
   </span>
   
 
@@ -678,101 +666,121 @@
     <div class="article-container">
 
       <div class="article-style">
-        <p>どうもこんにちは、今回は自分がよく使っている、GAS について紹介したいと思います。</p>
-<p>ちなみにタイトルの通り、手軽に始められるので、最近プログラミングを始めたという方にもおススメなのでぜひ見ていってください(^-^)</p>
-<h1 id="gas-って">GAS って?</h1>
-<p><strong>GAS</strong>とは <strong>Google Apps Script</strong>の略でプログラミング言語の一つです。</p>
-<p>読み方はガス、ギャスなどと言われることが多いです。</p>
-<p>一応、
+        <p>全然需要ないかもですが、GAS の紹介第二弾です。</p>
+<p>今回は GAS を使って、以前ハッカソンの採点シートをちゃっと作った話をしたい思います。</p>
+<p>手軽にできるので、JavaScript など、プログラミングを最近学び始めた方はちょっと実践がてらに GAS を利用して何か作ってみたらどうでしょう？みたいな気持ちで書いたので、読んでもらえたら幸いです。（GAS は一応 JavaScript ベースでできています(^^)/)</p>
+<h2 id="gas-って">GAS って？</h2>
+<p>こちらで紹介しているので良ければ見ていってください！</p>
 
-<a href="https://developers.google.com/gsuite/aspects/appsscript?hl=ja" target="_blank" rel="noopener">公式</a>の文言を載せておくと、</p>
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/author/nobu/">Nobu</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          最終更新
+      
+    
+    2020/05/28
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/post/gas-recommendation/">手軽に始める！GAS を使ってみませんか～</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>Google Apps Scriptの紹介</p>
+  </div>
+  
+
+  
+
+</div>
+
+ 
+<h2 id="作った経緯ついでにハッカソンの紹介">作った経緯（ついでにハッカソンの紹介）</h2>
+<p>アプリ Navi では毎年、長期休みのどこかで、ハッカソンというものを開催しています。</p>
+<p><strong>ハッカソンとは</strong></p>
 <blockquote>
-<p>Google Apps Script は JavaScript ベースのスクリプト言語で、ドキュメント、スプレッドシート、スライド、フォームなどの G Suite サービスをカスタマイズ、拡張できます。</p>
+<p>ハッカソン（英語: hackathon 、別名:hack day ,hackfest ,codefest ）とは、ソフトウェア開発分野のプログラマやグラフィックデザイナー、ユーザインタフェース設計者、プロジェクトマネージャらが集中的に作業をするソフトウェア関連プロジェクトのイベントである
+(
+<a href="https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3" target="_blank" rel="noopener">Wikipedia より抜粋</a>)</p>
 </blockquote>
-<p>とのこと。（抜粋）</p>
-<h1 id="gas-で何ができるの">GAS で何ができるの？</h1>
-<p>じゃあ GAS で何ができるのかというと、色々とあると思うのですが、とりあえず大きく分けてこの２つかなと。</p>
-<ul>
-<li>Google のサービスをより便利に活用する</li>
-<li>web アプリケーションの作成、公開</li>
-</ul>
-<p>順に紹介していきます。</p>
-<h1 id="google-のサービスをより便利に活用する">Google のサービスをより便利に活用する</h1>
-<p>GAS では Google のサービスをより自由に効率的に使うことが出来ます。</p>
-<p>下記のようなサービスを利用する際、GAS のコードを加えることで、面倒な作業を自動化したりなどが可能です。</p>
-<h2 id="利用できるサービス例">利用できるサービス例</h2>
-<ul>
-<li>Google Document</li>
-<li>G Mail</li>
-<li>Google SpreadSheet</li>
-<li>Google Calender</li>
-<li>Google Form 　　　　などなど…</li>
-</ul>
-<p>これらのサービスを使っている人も比較的多いのではないでしょうか？</p>
-<h2 id="使用例">使用例</h2>
-<p>具体的に GAS で Google のサービスをより効果的に用いた使用例としてはこのようなものがあります。</p>
-<ul>
-<li>カレンダーに自動でスケジュールを記入</li>
-<li>事務的メールを複数人に指定の時間に自動送信</li>
-<li>Google Formを自分好みに改造</li>
-</ul>
-<p>もちろん他にも色々とありますが、例のように日常の何気ない作業を自動化したり、普段用いているサービスの機能を拡張するようなことができます。</p>
-<h1 id="web-アプリケーションの作成公開">Web アプリケーションの作成、公開</h1>
-<p>GAS では、google のサービスと連携して、web アプリケーションを開発、公開する機能があります。</p>
-<p>またアプリケーションの機能として、googleのサービスと連携しているのでその機能を簡単に用いることができ、少しのコードでちょっと素敵な事を行うことが可能です。</p>
-<h2 id="使用例-1">使用例</h2>
-<p>簡単に例をあげると</p>
-<ul>
-<li>SpreadSheetを簡易的なデータベースのように使う</li>
-<li>G Mailを用いてメール送信機能を作る</li>
-</ul>
-<p>などがあります。</p>
-<p>他にも外部アプリケーションとの連携などを組合せて、様々な事ができると思うので、ぜひ試してください！</p>
-<h1 id="gasを使用するメリット">GASを使用するメリット</h1>
-<p>GASで何ができるかというのを紹介したところで、タイトルの<strong>お手軽</strong>という理由を紹介していきます。</p>
-<h2 id="開発環境構築がいらない">開発環境構築がいらない！</h2>
-<p>GASでは新しく言語をはじめるときの面倒な環境構築はほとんどありません。</p>
-<p>必要なのは<strong>Googleアカウント</strong>だけ。</p>
-<p>加えて、実行はGoogleのサーバーを利用するので、レンタルサーバーを用意したり、それ関係のツールを利用することもなく開発をすることができます。</p>
-<h2 id="無料">無料！</h2>
-<p>利用するのに基本的にお金はかかりません。</p>
-<h2 id="学習コストが低い勉強になる">学習コストが低い、勉強になる！</h2>
-<p>GASはJavaScriptベースで、そしてwebサイトを開発する時に良く用いられるHTML,CSSを使用して開発することが可能なので、一般的に学習コストはそこまで高くないです。</p>
-<p>それにJavaScriptを勉強中の方はそれを使って手軽にアプリケーションを作ったりできるので、その学習の実践の場として助けにもなると思います。</p>
-<h1 id="デメリットもあります">デメリットもあります…</h1>
-<p>メリットの反面、やはりデメリットもあります。</p>
-<p>その例として一つあげると無料で利用できる反面、Googleのサーバーを利用していているので、ユーザーによる過剰な負担を避けるために利用するのに制限があります。</p>
-<p>もっとも大きな制限として考えられるのは実行制限で、</p>
-<ul>
-<li>1回あたりの実行制限時間: 6分</li>
-</ul>
-<p>となっています。</p>
-<p>これは工夫せずに重い処理を何度も書くと、引っかかってしまうので注意が必要です…</p>
-<p>そのためGASはそこまで大きなプロジェクトには向いていないと言えます&hellip;</p>
-<p>詳しい公式の制限は
-<a href="https://developers.google.com/apps-script/guides/services/quotas" target="_blank" rel="noopener">コチラ</a></p>
-<h1 id="さっそく始めてみよう">さっそく始めてみよう</h1>
-<p>始める方法はとても簡単です。せっかくなので実際にやってみます。</p>
-<ol start="0">
-<li>
-<p>googleアカウントの作成（無い方は）<br>
-こちらより必要事項を記入して
-
-<a href="https://support.google.com/accounts/answer/27441?hl=ja" target="_blank" rel="noopener">Google アカウントを作成</a>
-します。</p>
-</li>
-<li>
-<p>ブラウザで
-<a href="https://www.google.co.jp/drive/apps.html" target="_blank" rel="noopener">Google Drive</a>にアクセスします。</p>
-</li>
-<li>
-<p>Google DriveにGoogle Apps Scriptを追加する<br>
-左上の新規＋ボタンをクリックし、その他→アプリを追加→Google Apps Scriptを探し、接続をクリック</p>
-</li>
-<li>
-<p>もう一度新規＋を押し、その他にGoogle Apps Scriptが出てきたら完了</p>
-</li>
-</ol>
+<p>とのこと。なんかヤバそう&hellip;</p>
+<p>もちろん、この文から読み取れるようなそこまでヤバそうな感じではないです（笑）</p>
+<p>一言でいうと、参加者同士が、チームを組んで一つの作品を作ろうというイベントになっています。twitter にて簡単に紹介しているので良ければ見てください。</p>
+<p>ハッカソンの紹介
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E5%A4%A7%E9%98%AA%E5%BA%9C%E7%AB%8B%E5%A4%A7%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#大阪府立大学</a><br><br>今日紹介するのは、ハッカソンです！<br><br>年に２回、コンピュータハウスランダムさんも交えてハッカソンを主催しています！<br>アプリNaviでは部員同士でチームを組んで、発表されるお題に沿って、約２日で一つのゲームやアプリを制作、発表する形式をとっています。<br><br>↓リプ欄に続く <a href="https://t.co/pZdAznwB0V">pic.twitter.com/pZdAznwB0V</a></p>&mdash; OPU アプリNavi (@OPUAppNavi) <a href="https://twitter.com/OPUAppNavi/status/1246644279813926912?ref_src=twsrc%5Etfw">April 5, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</p>
+<p>ハッカソンの紹介はこの程度にして、そこでは審査員の方もお呼びして、それぞれの作品を審査してもらう形を取っています。</p>
+<p>その審査の際、採点用紙が必要だったので、ちょうど GAS を勉強し始めたこともあり自作することにしました。</p>
+<h2 id="作ったもの">作ったもの</h2>
+<p>それ専用に作ったので、完全に内輪向けですが画像としてはこんなものです。</p>
 
 
 
@@ -788,29 +796,35 @@
 
 
 
-<figure id="figure-helloworld">
+<figure id="figure-作ったもの">
 
 
-  <a data-fancybox="" href="./nobu_GAS_img_1.png" data-caption="HelloWorld">
+  <a data-fancybox="" href="./HackathonScoreSheet.png" data-caption="作ったもの">
 
 
-  <img src="./nobu_GAS_img_1.png" alt=""  >
+  <img src="./HackathonScoreSheet.png" alt=""  >
 </a>
 
 
   
   
   <figcaption>
-    HelloWorld
+    作ったもの
   </figcaption>
 
 
 </figure>
 
-<ol start="4">
-<li>それをクリックすると、エディタがでてくるので、これでGASをはじめる準備が出来ました！</li>
-</ol>
-<p>ちなみにHello Worldはこんな感じです。</p>
+<p>見た目等はいまいちですが、ちゃんと動きます。</p>
+<p>審査員の方に審査するチーム名を選択してもらい、それぞれの項目について点数を付け送信してもらうといった流れです。</p>
+<p>こういうの何かの初歩の題材でありそうですね&hellip;</p>
+<h2 id="どうして-gas-で">どうして GAS で？</h2>
+<p>大きな理由としては、GAS を知り始めて使ってみたかったというのがありますが、</p>
+<p>その使ってみたくなるという前提となるのが、手軽に作成できるからです。</p>
+<p>その理湯としては大きく分けて２つあります。</p>
+<h4 id="サーバー等の手続きがいらず簡単に公開できる">サーバー等の手続きがいらず、簡単に公開できる</h4>
+<p>GAS では Google のサーバーを使っているので、このような簡単なサイトでもサーバーを借りるなどの作業がいらず、実質ワンクリックで公開、利用できます。</p>
+<p>GAS のエディタから、おおよそここをクリックしたら公開できます</p>
 
 
 
@@ -826,32 +840,176 @@
 
 
 
-<figure id="figure-完了後">
+<figure id="figure-公開方法">
 
 
-  <a data-fancybox="" href="./nobu_GAS_img_2.png" data-caption="完了後">
+  <a data-fancybox="" href="./GAS_Release.png" data-caption="公開方法">
 
 
-  <img src="./nobu_GAS_img_2.png" alt=""  >
+  <img src="./GAS_Release.png" alt=""  >
 </a>
 
 
   
   
   <figcaption>
-    完了後
+    公開方法
   </figcaption>
 
 
 </figure>
 
-<h1 id="最後に">最後に</h1>
-<p>今回はざっくりでしたがGASについて簡単に紹介しました。</p>
-<p>GASの存在だけでも知ってもらい、機会があれば何かで使ってもらえたら幸いです。</p>
-<p>また、GASを十分使いこなせているとは言えない自分ですが、おすすめしたい参考サイトも載せておくので興味がある人は見てみてください！</p>
-<h2 id="参考サイト">参考サイト</h2>
-<p>
-<a href="https://tonari-it.com/google-apps-script-manual/" target="_blank" rel="noopener">【保存版】初心者向け実務で使えるGoogle Apps Script完全マニュアル</a></p>
+<h4 id="spreadsheet-を簡易的なデータベースのように利用できる">SpreadSheet を簡易的なデータベースのように利用できる</h4>
+<p>個人的には SpreadSheet を簡易的なデータベースとして利用できるのは大きいと思います。</p>
+<p>SpreadSheet を簡易的なデータベースとして用いることで、データベースの知識がなくても簡単な事ならできますし、なんにせよ上限はありますが、無料で利用できるので、少なくとも何かをパッと作りたいときにはいいのではないかと！</p>
+<p>一応、ちょっとした例として、ユーザーの入力を SpreadSheet に追加するコードを載せておきます…</p>
+<ul>
+<li>HTML の<code>&lt;form&gt;&lt;/form&gt;</code>に入力された内容を SpreadSheet に記述</li>
+</ul>
+<pre><code class="language-html:index.html">&lt;form method=&quot;post&quot; action=&quot;送信先のURL&quot;&gt;
+  ....
+&lt;/form&gt;
+</code></pre>
+<pre><code class="language-JavaScript:input.gs">function doPost(e){
+  //データを記録するスプレッドシート
+  var sheet =SpreadsheetApp.openByUrl(&quot;//利用したいSpreadSheetのURL//&quot;);
+  ...
+  //チーム名、各採点項目の情報を取得
+  var name = e.parameter.name;
+  var theme = e.parameter.theme;
+  var uniqe = e.parameter.uniqe;
+  var practice = e.parameter.practice;
+  var presentation = e.parameter.presentation;
+  var comment = e.parameter.comment;
+
+  //データ
+  var array = [userEmail,name,theme,uniqe,practice,presentation,comment];
+
+  //SpreadSheetにデータを追加
+  sheet.appendRow(array);
+  ...
+}
+</code></pre>
+<p>データの保存だけですが、このように SpreadSheet を用いることで手軽に簡易的なデータベースを利用することができます。</p>
+<p>また SpreadSheet を Sheet API として利用することで GAS のプロジェクトだけではなく、その他の web 開発やスマホアプリ開発などにもデータベースとして活用できるので知っておいて損はないかと思います。</p>
+<h2 id="コード">コード</h2>
+<p>こんなので公開していいのかという思いもありますが、大まかなコードを載せておきます。お見苦しいですが、何卒ご容赦下さい、、、
+恐らくすごく簡単というのが分かると思います。</p>
+<pre><code class="language-html:index.html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;ja&quot;&gt;
+  &lt;head&gt;
+    &lt;base target=&quot;_top&quot; /&gt;
+    &lt;!-- GASでのcssの読み込み--&gt;
+    &lt;?!= HtmlService.createHtmlOutputFromFile('css').getContent(); ?&gt;
+    &lt;meta
+      name=&quot;viewport&quot;
+      content=&quot;width=device-width,initial-scale=1.0,minimum-scale=1.0&quot;
+    /&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div class=&quot;wrap&quot;&gt;
+      &lt;h1&gt;ハッカソン 採点シート&lt;/h1&gt;
+      &lt;p&gt;
+        使い方:&lt;br /&gt;採点欄がチームごとに４つの項目があるので各１０点、&lt;br /&gt;
+        合計40点で採点をお願いします。&lt;br /&gt;
+        各チームの採点が終わり次第、一番下の送信ボタンをおしてください。&lt;br /&gt;
+        また申し訳ありませんが、誤送信など、なにかございましたらすぐにご連絡ください
+      &lt;/p&gt;
+      &lt;form method=&quot;post&quot; action=&quot;送信先のURL&quot;&gt;
+        &lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;30rem&quot;&gt;
+          &lt;tr&gt;
+            &lt;th&gt;チーム名&lt;/th&gt;
+            &lt;th&gt;
+              &lt;select name=&quot;name&quot;&gt;
+                &lt;option value=&quot;&quot;&gt;選択してください&lt;/option&gt;
+                &lt;option value=&quot;/*チーム名*/&quot;&gt;/*チーム名*/&lt;/option&gt;
+                ...
+              &lt;/select&gt;
+            &lt;/th&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;th colspan=&quot;2&quot;&gt;採点項目&lt;/th&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;/*採点項目*/&lt;/td&gt;
+            &lt;td&gt;&lt;input type=&quot;number&quot; name=&quot;name&quot; min=&quot;0&quot; max=&quot;10&quot; /&gt;/10&lt;/td&gt;
+            ...
+          &lt;/tr&gt;
+
+          &lt;tr&gt;
+            &lt;td&gt;コメント&lt;/td&gt;
+            &lt;td&gt;
+              &lt;textarea
+                id=&quot;commit&quot;
+                name=&quot;comment&quot;
+                placeholder=&quot;こちらに何かチームに向けてコメントあればお願いします！&quot;
+              &gt;&lt;/textarea&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;
+        &lt;p&gt;
+          &lt;input
+            type=&quot;submit&quot;
+            value=&quot;送信する&quot;
+            style=&quot;width:200px;height:100px;font-size:30px;float:right&quot;
+          /&gt;
+        &lt;/p&gt;
+      &lt;/form&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<pre><code class="language-JavaScript:コード.gs">//htmlを読み込む
+function doGet() {
+  var template = 'index';
+  return HtmlService.createTemplateFromFile(template).evaluate();
+}
+//得点計算処理
+function myFunction() {
+
+  var sum = [];
+
+  var teamList = [&quot;/*チームリスト*/&quot;];
+
+  for(var j = 0; j &lt; 8;j++){
+    sum[j] = 0;
+  }
+//spreadsheetのデータを取得する処理(細かい解説は省きます)
+  var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
+  var sheet = spreadsheet.getActiveSheet();
+
+  var lastRow = sheet.getLastRow();
+  Logger.log(lastRow);
+
+  for(i = 9; i &lt;= lastRow;i++){
+    var range = sheet.getRange(i,2);
+
+    for(k = 0; k &lt; 8;k++){
+
+      if(range.getValue() == teamList[k]){
+        var range = sheet.getRange(i,3,1,4);
+        var valueArray = range.getValues();
+        for(var u = 0; u &lt; 4;u++){
+          sum[k] += valueArray[0][u];
+    }
+      }
+  }
+  }
+  for(i = 0;i &lt; 8;i++){
+    sheet.getRange(i + 1 ,9).setValue(sum[i]);
+  }
+}
+
+</code></pre>
+<h2 id="作ってみた感想">作ってみた感想</h2>
+<p>コード自体も非常に簡単ながら、データの保存等も SpreadSheet で行い、利用してもらうための公開もすぐにできるので、サクッと作ることが出来ました。
+ただやはり GAS 自体の勉強もいるかなという感じです。
+また勉強だけでなく、大小あれど自分で実際に使ってもらうものを作ることができたので、その点は良かったと思います。</p>
+<h2 id="最後に">最後に</h2>
+<p>今回は本当に簡単な例をあげましたが、かなりざっくりしていたので、説明不足の点も多々あって申し訳ないです。ただ、こんなのがあるとだけ伝われば幸いです。
+また、もちろん GAS にはもっと様々な事に利用することができるので、ご興味のある方は一度調べてみてください！</p>
+<p>追伸</p>
+<p>普通に Google Form とかでやればええやん、とかは言わないで m(_ _)m</p>
 
       </div>
 
@@ -878,7 +1036,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://blog.opuappnavi.com/post/gas-recommendation/&amp;text=%e6%89%8b%e8%bb%bd%e3%81%ab%e5%a7%8b%e3%82%81%e3%82%8b%ef%bc%81GAS%20%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6%e3%81%bf%e3%81%be%e3%81%9b%e3%82%93%e3%81%8b%ef%bd%9e" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://blog.opuappnavi.com/post/gas-scoring/&amp;text=GAS%20%e3%81%a7%e3%82%b5%e3%82%af%e3%83%83%e3%81%a8%e6%8e%a1%e7%82%b9%e3%82%b7%e3%83%bc%e3%83%88%e4%bd%9c%e3%81%a3%e3%81%a6%e3%81%bf%e3%81%9f" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -891,7 +1049,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://blog.opuappnavi.com/post/gas-recommendation/&amp;t=%e6%89%8b%e8%bb%bd%e3%81%ab%e5%a7%8b%e3%82%81%e3%82%8b%ef%bc%81GAS%20%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6%e3%81%bf%e3%81%be%e3%81%9b%e3%82%93%e3%81%8b%ef%bd%9e" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://blog.opuappnavi.com/post/gas-scoring/&amp;t=GAS%20%e3%81%a7%e3%82%b5%e3%82%af%e3%83%83%e3%81%a8%e6%8e%a1%e7%82%b9%e3%82%b7%e3%83%bc%e3%83%88%e4%bd%9c%e3%81%a3%e3%81%a6%e3%81%bf%e3%81%9f" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -904,7 +1062,7 @@
       
       
       <li>
-        <a href="mailto:?subject=%e6%89%8b%e8%bb%bd%e3%81%ab%e5%a7%8b%e3%82%81%e3%82%8b%ef%bc%81GAS%20%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6%e3%81%bf%e3%81%be%e3%81%9b%e3%82%93%e3%81%8b%ef%bd%9e&amp;body=https://blog.opuappnavi.com/post/gas-recommendation/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=GAS%20%e3%81%a7%e3%82%b5%e3%82%af%e3%83%83%e3%81%a8%e6%8e%a1%e7%82%b9%e3%82%b7%e3%83%bc%e3%83%88%e4%bd%9c%e3%81%a3%e3%81%a6%e3%81%bf%e3%81%9f&amp;body=https://blog.opuappnavi.com/post/gas-scoring/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -917,7 +1075,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://blog.opuappnavi.com/post/gas-recommendation/&amp;title=%e6%89%8b%e8%bb%bd%e3%81%ab%e5%a7%8b%e3%82%81%e3%82%8b%ef%bc%81GAS%20%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6%e3%81%bf%e3%81%be%e3%81%9b%e3%82%93%e3%81%8b%ef%bd%9e" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://blog.opuappnavi.com/post/gas-scoring/&amp;title=GAS%20%e3%81%a7%e3%82%b5%e3%82%af%e3%83%83%e3%81%a8%e6%8e%a1%e7%82%b9%e3%82%b7%e3%83%bc%e3%83%88%e4%bd%9c%e3%81%a3%e3%81%a6%e3%81%bf%e3%81%9f" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -984,17 +1142,12 @@
   
   <div class="post-nav-item">
     
-    
-    
-    <div class="meta-nav">NEXT</div>
-    <a href="/post/gas-scoring/" rel="next">GAS でサクッと採点シート作ってみた</a>
-    
   </div>
   <div class="post-nav-item">
     
     
     <div class="meta-nav">PREVIOUS</div>
-    <a href="/post/github-fork-mit/" rel="prev">GitHubのforkとライセンス</a>
+    <a href="/post/gas-recommendation/" rel="prev">手軽に始める！GAS を使ってみませんか～</a>
     
   </div>
   
@@ -1004,6 +1157,15 @@
 
 
   
+  
+  <div class="article-widget content-widget-hr">
+    <h3>関連項目</h3>
+    <ul>
+      
+      <li><a href="/post/gas-recommendation/">手軽に始める！GAS を使ってみませんか～</a></li>
+      
+    </ul>
+  </div>
   
 
 
@@ -1091,7 +1253,7 @@
       bodyClassList.remove('scrolling');
     });
   }
-  let pageLink = "https://blog.opuappnavi.com/post/gas-recommendation/";
+  let pageLink = "https://blog.opuappnavi.com/post/gas-scoring/";
   let inPageLinks = [].filter.call(document.getElementsByTagName('a'), function (element) {
     return element.href.startsWith(pageLink) && element.hash !== '';
   });

@@ -13,6 +13,358 @@
     </image>
     
     <item>
+      <title>GAS でサクッと採点シート作ってみた</title>
+      <link>https://blog.opuappnavi.com/post/gas-scoring/</link>
+      <pubDate>Sat, 30 May 2020 10:04:44 +0900</pubDate>
+      <guid>https://blog.opuappnavi.com/post/gas-scoring/</guid>
+      <description>&lt;p&gt;全然需要ないかもですが、GAS の紹介第二弾です。&lt;/p&gt;
+&lt;p&gt;今回は GAS を使って、以前ハッカソンの採点シートをちゃっと作った話をしたい思います。&lt;/p&gt;
+&lt;p&gt;手軽にできるので、JavaScript など、プログラミングを最近学び始めた方はちょっと実践がてらに GAS を利用して何か作ってみたらどうでしょう？みたいな気持ちで書いたので、読んでもらえたら幸いです。（GAS は一応 JavaScript ベースでできています(^^)/)&lt;/p&gt;
+&lt;h2 id=&#34;gas-って&#34;&gt;GAS って？&lt;/h2&gt;
+&lt;p&gt;こちらで紹介しているので良ければ見ていってください！&lt;/p&gt;
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;card-simple&#34;&gt;
+
+  
+    
+
+
+&lt;div class=&#34;article-metadata&#34;&gt;
+
+  
+  
+  
+  
+  &lt;div&gt;
+    
+
+  
+  &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/nobu/&#34;&gt;Nobu&lt;/a&gt;&lt;/span&gt;
+  &lt;/div&gt;
+  
+  
+
+  
+  &lt;span class=&#34;article-date&#34;&gt;
+    
+    
+      
+          最終更新
+      
+    
+    2020/05/28
+  &lt;/span&gt;
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+&lt;/div&gt;
+
+  
+
+  
+  
+  
+
+  &lt;h3 class=&#34;article-title mb-1 mt-3&#34;&gt;
+    &lt;a href=&#34;https://blog.opuappnavi.com/post/gas-recommendation/&#34;&gt;手軽に始める！GAS を使ってみませんか～&lt;/a&gt;
+  &lt;/h3&gt;
+
+  
+  &lt;div class=&#34;article-style&#34;&gt;
+    &lt;p&gt;Google Apps Scriptの紹介&lt;/p&gt;
+  &lt;/div&gt;
+  
+
+  
+
+&lt;/div&gt;
+
+ 
+&lt;h2 id=&#34;作った経緯ついでにハッカソンの紹介&#34;&gt;作った経緯（ついでにハッカソンの紹介）&lt;/h2&gt;
+&lt;p&gt;アプリ Navi では毎年、長期休みのどこかで、ハッカソンというものを開催しています。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ハッカソンとは&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ハッカソン（英語: hackathon 、別名:hack day ,hackfest ,codefest ）とは、ソフトウェア開発分野のプログラマやグラフィックデザイナー、ユーザインタフェース設計者、プロジェクトマネージャらが集中的に作業をするソフトウェア関連プロジェクトのイベントである
+(
+&lt;a href=&#34;https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wikipedia より抜粋&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;とのこと。なんかヤバそう&amp;hellip;&lt;/p&gt;
+&lt;p&gt;もちろん、この文から読み取れるようなそこまでヤバそうな感じではないです（笑）&lt;/p&gt;
+&lt;p&gt;一言でいうと、参加者同士が、チームを組んで一つの作品を作ろうというイベントになっています。twitter にて簡単に紹介しているので良ければ見てください。&lt;/p&gt;
+&lt;p&gt;ハッカソンの紹介
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/hashtag/%E5%A4%A7%E9%98%AA%E5%BA%9C%E7%AB%8B%E5%A4%A7%E5%AD%A6?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#大阪府立大学&lt;/a&gt;&lt;br&gt;&lt;br&gt;今日紹介するのは、ハッカソンです！&lt;br&gt;&lt;br&gt;年に２回、コンピュータハウスランダムさんも交えてハッカソンを主催しています！&lt;br&gt;アプリNaviでは部員同士でチームを組んで、発表されるお題に沿って、約２日で一つのゲームやアプリを制作、発表する形式をとっています。&lt;br&gt;&lt;br&gt;↓リプ欄に続く &lt;a href=&#34;https://t.co/pZdAznwB0V&#34;&gt;pic.twitter.com/pZdAznwB0V&lt;/a&gt;&lt;/p&gt;&amp;mdash; OPU アプリNavi (@OPUAppNavi) &lt;a href=&#34;https://twitter.com/OPUAppNavi/status/1246644279813926912?ref_src=twsrc%5Etfw&#34;&gt;April 5, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/p&gt;
+&lt;p&gt;ハッカソンの紹介はこの程度にして、そこでは審査員の方もお呼びして、それぞれの作品を審査してもらう形を取っています。&lt;/p&gt;
+&lt;p&gt;その審査の際、採点用紙が必要だったので、ちょうど GAS を勉強し始めたこともあり自作することにしました。&lt;/p&gt;
+&lt;h2 id=&#34;作ったもの&#34;&gt;作ったもの&lt;/h2&gt;
+&lt;p&gt;それ専用に作ったので、完全に内輪向けですが画像としてはこんなものです。&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-作ったもの&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./HackathonScoreSheet.png&#34; data-caption=&#34;作ったもの&#34;&gt;
+
+
+  &lt;img src=&#34;./HackathonScoreSheet.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    作ったもの
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;見た目等はいまいちですが、ちゃんと動きます。&lt;/p&gt;
+&lt;p&gt;審査員の方に審査するチーム名を選択してもらい、それぞれの項目について点数を付け送信してもらうといった流れです。&lt;/p&gt;
+&lt;p&gt;こういうの何かの初歩の題材でありそうですね&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;どうして-gas-で&#34;&gt;どうして GAS で？&lt;/h2&gt;
+&lt;p&gt;大きな理由としては、GAS を知り始めて使ってみたかったというのがありますが、&lt;/p&gt;
+&lt;p&gt;その使ってみたくなるという前提となるのが、手軽に作成できるからです。&lt;/p&gt;
+&lt;p&gt;その理湯としては大きく分けて２つあります。&lt;/p&gt;
+&lt;h4 id=&#34;サーバー等の手続きがいらず簡単に公開できる&#34;&gt;サーバー等の手続きがいらず、簡単に公開できる&lt;/h4&gt;
+&lt;p&gt;GAS では Google のサーバーを使っているので、このような簡単なサイトでもサーバーを借りるなどの作業がいらず、実質ワンクリックで公開、利用できます。&lt;/p&gt;
+&lt;p&gt;GAS のエディタから、おおよそここをクリックしたら公開できます&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-公開方法&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./GAS_Release.png&#34; data-caption=&#34;公開方法&#34;&gt;
+
+
+  &lt;img src=&#34;./GAS_Release.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    公開方法
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;spreadsheet-を簡易的なデータベースのように利用できる&#34;&gt;SpreadSheet を簡易的なデータベースのように利用できる&lt;/h4&gt;
+&lt;p&gt;個人的には SpreadSheet を簡易的なデータベースとして利用できるのは大きいと思います。&lt;/p&gt;
+&lt;p&gt;SpreadSheet を簡易的なデータベースとして用いることで、データベースの知識がなくても簡単な事ならできますし、なんにせよ上限はありますが、無料で利用できるので、少なくとも何かをパッと作りたいときにはいいのではないかと！&lt;/p&gt;
+&lt;p&gt;一応、ちょっとした例として、ユーザーの入力を SpreadSheet に追加するコードを載せておきます…&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;HTML の&lt;code&gt;&amp;lt;form&amp;gt;&amp;lt;/form&amp;gt;&lt;/code&gt;に入力された内容を SpreadSheet に記述&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-html:index.html&#34;&gt;&amp;lt;form method=&amp;quot;post&amp;quot; action=&amp;quot;送信先のURL&amp;quot;&amp;gt;
+  ....
+&amp;lt;/form&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-JavaScript:input.gs&#34;&gt;function doPost(e){
+  //データを記録するスプレッドシート
+  var sheet =SpreadsheetApp.openByUrl(&amp;quot;//利用したいSpreadSheetのURL//&amp;quot;);
+  ...
+  //チーム名、各採点項目の情報を取得
+  var name = e.parameter.name;
+  var theme = e.parameter.theme;
+  var uniqe = e.parameter.uniqe;
+  var practice = e.parameter.practice;
+  var presentation = e.parameter.presentation;
+  var comment = e.parameter.comment;
+
+  //データ
+  var array = [userEmail,name,theme,uniqe,practice,presentation,comment];
+
+  //SpreadSheetにデータを追加
+  sheet.appendRow(array);
+  ...
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;データの保存だけですが、このように SpreadSheet を用いることで手軽に簡易的なデータベースを利用することができます。&lt;/p&gt;
+&lt;p&gt;また SpreadSheet を Sheet API として利用することで GAS のプロジェクトだけではなく、その他の web 開発やスマホアプリ開発などにもデータベースとして活用できるので知っておいて損はないかと思います。&lt;/p&gt;
+&lt;h2 id=&#34;コード&#34;&gt;コード&lt;/h2&gt;
+&lt;p&gt;こんなので公開していいのかという思いもありますが、大まかなコードを載せておきます。お見苦しいですが、何卒ご容赦下さい、、、
+恐らくすごく簡単というのが分かると思います。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-html:index.html&#34;&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&amp;quot;ja&amp;quot;&amp;gt;
+  &amp;lt;head&amp;gt;
+    &amp;lt;base target=&amp;quot;_top&amp;quot; /&amp;gt;
+    &amp;lt;!-- GASでのcssの読み込み--&amp;gt;
+    &amp;lt;?!= HtmlService.createHtmlOutputFromFile(&#39;css&#39;).getContent(); ?&amp;gt;
+    &amp;lt;meta
+      name=&amp;quot;viewport&amp;quot;
+      content=&amp;quot;width=device-width,initial-scale=1.0,minimum-scale=1.0&amp;quot;
+    /&amp;gt;
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;div class=&amp;quot;wrap&amp;quot;&amp;gt;
+      &amp;lt;h1&amp;gt;ハッカソン 採点シート&amp;lt;/h1&amp;gt;
+      &amp;lt;p&amp;gt;
+        使い方:&amp;lt;br /&amp;gt;採点欄がチームごとに４つの項目があるので各１０点、&amp;lt;br /&amp;gt;
+        合計40点で採点をお願いします。&amp;lt;br /&amp;gt;
+        各チームの採点が終わり次第、一番下の送信ボタンをおしてください。&amp;lt;br /&amp;gt;
+        また申し訳ありませんが、誤送信など、なにかございましたらすぐにご連絡ください
+      &amp;lt;/p&amp;gt;
+      &amp;lt;form method=&amp;quot;post&amp;quot; action=&amp;quot;送信先のURL&amp;quot;&amp;gt;
+        &amp;lt;table border=&amp;quot;1&amp;quot; width=&amp;quot;100%&amp;quot; height=&amp;quot;30rem&amp;quot;&amp;gt;
+          &amp;lt;tr&amp;gt;
+            &amp;lt;th&amp;gt;チーム名&amp;lt;/th&amp;gt;
+            &amp;lt;th&amp;gt;
+              &amp;lt;select name=&amp;quot;name&amp;quot;&amp;gt;
+                &amp;lt;option value=&amp;quot;&amp;quot;&amp;gt;選択してください&amp;lt;/option&amp;gt;
+                &amp;lt;option value=&amp;quot;/*チーム名*/&amp;quot;&amp;gt;/*チーム名*/&amp;lt;/option&amp;gt;
+                ...
+              &amp;lt;/select&amp;gt;
+            &amp;lt;/th&amp;gt;
+          &amp;lt;/tr&amp;gt;
+          &amp;lt;tr&amp;gt;
+            &amp;lt;th colspan=&amp;quot;2&amp;quot;&amp;gt;採点項目&amp;lt;/th&amp;gt;
+          &amp;lt;/tr&amp;gt;
+          &amp;lt;tr&amp;gt;
+            &amp;lt;td&amp;gt;/*採点項目*/&amp;lt;/td&amp;gt;
+            &amp;lt;td&amp;gt;&amp;lt;input type=&amp;quot;number&amp;quot; name=&amp;quot;name&amp;quot; min=&amp;quot;0&amp;quot; max=&amp;quot;10&amp;quot; /&amp;gt;/10&amp;lt;/td&amp;gt;
+            ...
+          &amp;lt;/tr&amp;gt;
+
+          &amp;lt;tr&amp;gt;
+            &amp;lt;td&amp;gt;コメント&amp;lt;/td&amp;gt;
+            &amp;lt;td&amp;gt;
+              &amp;lt;textarea
+                id=&amp;quot;commit&amp;quot;
+                name=&amp;quot;comment&amp;quot;
+                placeholder=&amp;quot;こちらに何かチームに向けてコメントあればお願いします！&amp;quot;
+              &amp;gt;&amp;lt;/textarea&amp;gt;
+            &amp;lt;/td&amp;gt;
+          &amp;lt;/tr&amp;gt;
+        &amp;lt;/table&amp;gt;
+        &amp;lt;p&amp;gt;
+          &amp;lt;input
+            type=&amp;quot;submit&amp;quot;
+            value=&amp;quot;送信する&amp;quot;
+            style=&amp;quot;width:200px;height:100px;font-size:30px;float:right&amp;quot;
+          /&amp;gt;
+        &amp;lt;/p&amp;gt;
+      &amp;lt;/form&amp;gt;
+    &amp;lt;/div&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-JavaScript:コード.gs&#34;&gt;//htmlを読み込む
+function doGet() {
+  var template = &#39;index&#39;;
+  return HtmlService.createTemplateFromFile(template).evaluate();
+}
+//得点計算処理
+function myFunction() {
+
+  var sum = [];
+
+  var teamList = [&amp;quot;/*チームリスト*/&amp;quot;];
+
+  for(var j = 0; j &amp;lt; 8;j++){
+    sum[j] = 0;
+  }
+//spreadsheetのデータを取得する処理(細かい解説は省きます)
+  var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
+  var sheet = spreadsheet.getActiveSheet();
+
+  var lastRow = sheet.getLastRow();
+  Logger.log(lastRow);
+
+  for(i = 9; i &amp;lt;= lastRow;i++){
+    var range = sheet.getRange(i,2);
+
+    for(k = 0; k &amp;lt; 8;k++){
+
+      if(range.getValue() == teamList[k]){
+        var range = sheet.getRange(i,3,1,4);
+        var valueArray = range.getValues();
+        for(var u = 0; u &amp;lt; 4;u++){
+          sum[k] += valueArray[0][u];
+    }
+      }
+  }
+  }
+  for(i = 0;i &amp;lt; 8;i++){
+    sheet.getRange(i + 1 ,9).setValue(sum[i]);
+  }
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;作ってみた感想&#34;&gt;作ってみた感想&lt;/h2&gt;
+&lt;p&gt;コード自体も非常に簡単ながら、データの保存等も SpreadSheet で行い、利用してもらうための公開もすぐにできるので、サクッと作ることが出来ました。
+ただやはり GAS 自体の勉強もいるかなという感じです。
+また勉強だけでなく、大小あれど自分で実際に使ってもらうものを作ることができたので、その点は良かったと思います。&lt;/p&gt;
+&lt;h2 id=&#34;最後に&#34;&gt;最後に&lt;/h2&gt;
+&lt;p&gt;今回は本当に簡単な例をあげましたが、かなりざっくりしていたので、説明不足の点も多々あって申し訳ないです。ただ、こんなのがあるとだけ伝われば幸いです。
+また、もちろん GAS にはもっと様々な事に利用することができるので、ご興味のある方は一度調べてみてください！&lt;/p&gt;
+&lt;p&gt;追伸&lt;/p&gt;
+&lt;p&gt;普通に Google Form とかでやればええやん、とかは言わないで m(_ _)m&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>手軽に始める！GAS を使ってみませんか～</title>
       <link>https://blog.opuappnavi.com/post/gas-recommendation/</link>
       <pubDate>Thu, 28 May 2020 19:47:24 +0900</pubDate>
@@ -230,13 +582,19 @@
 
 
 &lt;/figure&gt;
-&lt;/p&gt;
+
+
 &lt;div style=&#34;display: flex; justify-content: space-around;&#34;&gt;
   &lt;a href=&#34;https://ch-random.net/post/167&#34;&gt;一覧ページ&lt;/a&gt;
   &lt;a href=&#34;mailto:computer.house.random@gmail.com&#34;&gt;お問い合わせ&lt;/a&gt;
 &lt;/div&gt;
+
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;【拡散希望】&lt;br&gt;大阪府立大学の有志イベント&lt;br&gt;府大バーチャル学祭のPV、デザインを担当させていただきました。&lt;br&gt;&lt;br&gt;各団体のイベント内容などの情報は &lt;a href=&#34;https://twitter.com/hashtag/%E5%BA%9C%E5%A4%A7%E3%83%90%E3%83%BC%E3%83%81%E3%83%A3%E3%83%AB%E5%AD%A6%E7%A5%AD?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#府大バーチャル学祭&lt;/a&gt; に追加していきます。&lt;a href=&#34;https://twitter.com/hashtag/%E6%98%A5%E3%81%8B%E3%82%89%E5%BA%9C%E5%A4%A7?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#春から府大&lt;/a&gt;　&lt;a href=&#34;https://twitter.com/hashtag/system?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#system&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/aftereffects?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#aftereffects&lt;/a&gt; &lt;a href=&#34;https://t.co/GtVtrQV5TI&#34;&gt;pic.twitter.com/GtVtrQV5TI&lt;/a&gt;&lt;/p&gt;&amp;mdash; SYSTEM-府大のオンライン団体- (@SystemOpu) &lt;a href=&#34;https://twitter.com/SystemOpu/status/1263016918182539264?ref_src=twsrc%5Etfw&#34;&gt;May 20, 2020&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+アプリNaviの展示内容は、このサイトでのブログ記事公開と、下記特設サイトでのゲーム展示です。&lt;br&gt;
+
+&lt;a href=&#34;http://appnavi.html.xdomain.jp/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;アプリNavi 府大バーチャル学祭特設サイト&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

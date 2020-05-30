@@ -40,9 +40,13 @@ url_video: ""
 slides: ""
 ---
 新型コロナウイルス感染拡大により、2020年5月30日、31日に開催予定だった第59回友好祭が中止となりました。中止となった友好祭に代わるイベントとして、コンピュータハウスランダムさんが提案されたのが、非公式オンラインイベント「府大バーチャル学祭」です。
-{{< figure src="festival-image.jpg" >}}
+{{<figure src="festival-image.jpg" >}}
+{{<write-html>}}
 <div style="display: flex; justify-content: space-around;">
   <a href="https://ch-random.net/post/167">一覧ページ</a>
   <a href="mailto:computer.house.random@gmail.com">お問い合わせ</a>
 </div>
+{{</write-html>}}
 {{<twitter 1263016918182539264>}}
+アプリNaviの展示内容は、このサイトでのブログ記事公開と、下記特設サイトでのゲーム展示です。  
+[アプリNavi 府大バーチャル学祭特設サイト](http://appnavi.html.xdomain.jp/index.html)
