@@ -1185,7 +1185,7 @@ window.onresize = function(){ set_width(); };
 &lt;p&gt;
 
 
-&lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&lt; youtube &lt;span class=&#34;code-em&#34;&gt;動画のID&lt;/span&gt; &gt;}}&lt;/code&gt;&lt;/pre&gt; 
+&lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&lt; youtube &lt;span class=&#34;code-em&#34;&gt;動画のID&lt;/span&gt; &gt;}}&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式になっています
@@ -1357,7 +1357,7 @@ Markdown記法だけでも書けるのですが、見出し付近がナビゲー
 &lt;h1 id=&#34;その他&#34;&gt;その他&lt;/h1&gt;
 &lt;h2 id=&#34;数式&#34;&gt;数式&lt;/h2&gt;
 &lt;p&gt;$\LaTeX$ 記法を用いることで数式を表示することができます。数式は&lt;code&gt;$$&lt;/code&gt;で囲む必要があります。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;$$ F=G\frac{Mm}{r^2} $$
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;$$ F=G\frac{Mm}{r^2} $$
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;下のように表示されます。
 $$ F=G\frac{Mm}{r^2} $$

@@ -26,29 +26,38 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-# はじめに
+# はじめに  
+
 このサイトでの記事の書き方をまとめました。英語でも構わない場合は[公式ドキュメント](https://sourcethemes.com/academic/docs/writing-markdown-latex/)も参照してください。
 
-# Markdown記法
+# Markdown記法  
+
 全ての記事はMarkdown記法で書く必要があります。書き方については[このサイト](https://qiita.com/kamorits/items/6f342da395ad57468ae3)を参照してください。
 
-## 画像を挿入する場合
+## 画像を挿入する場合  
+
 ```md
 ![{{<code-em>}}代替テキスト{{</code-em>}}]({{<code-em>}}./画像名{{</code-em>}})
-``` 
+```
+
 {{<alert note>}}
 「画像名」には拡張子も含めてください  
 {{</alert>}}
 画像のサイズを変えたい、または画像を左寄せ・右寄せしたい場合は下の{{<jump "画像の挿入" "Shortcode">}}を参照してください
 
-# Shortcodes
+# Shortcodes  
+
 ShortcodesとはHugo独自の機能で、Markdownファイルに書くことができるスニペットです。  
-## 画像の挿入
+
+## 画像の挿入  
+
 {{<escape-shortcode-single>}} figure src="{{<code-em>}}./画像名{{</code-em>}}" title="{{<code-em>}}代替テキスト{{</code-em>}}" {{</escape-shortcode-single>}}
 {{<alert note>}}
 「画像名」には拡張子も含めてください  
 {{</alert>}}
-### 画像の左寄せ、右寄せ
+
+### 画像の左寄せ、右寄せ  
+
 {{< collapsable 左寄せ >}}
 {{<escape-shortcode-single>}} figure src="{{<code-em>}}./画像名{{</code-em>}}" title="{{<code-em>}}代替テキスト{{</code-em>}}"  class="left" {{</escape-shortcode-single>}}
 {{< /collapsable >}}
@@ -63,23 +72,27 @@ ShortcodesとはHugo独自の機能で、Markdownファイルに書くことが�
 {{< /collapsable >}}
 他にも、画像の幅・高さなどをカスタムすることができます。詳しくは[公式ドキュメント](https://gohugo.io/content-management/shortcodes/#figure)  を参照してください。
 
-## Youtube動画埋め込み
-{{<escape-shortcode-single>}} youtube {{<code-em>}}動画のID{{</code-em>}} {{</escape-shortcode-single>}} 
+## Youtube動画埋め込み  
+
+{{<escape-shortcode-single>}} youtube {{<code-em>}}動画のID{{</code-em>}} {{</escape-shortcode-single>}}
 {{<alert note >}}
 YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式になっています
 {{</alert>}}
 
-## Unity WebGLの埋め込み
+## Unity WebGLの埋め込み  
+
 [ランダムさんの記事](https://ch-random.net/post/93/)の内容を少し改変した自作Shortcodeです。Unity WebGLのゲームをページ内でプレイすることができます。
 {{<escape-shortcode-single>}} unity src="{{<code-em>}}URL{{</code-em>}}"　{{</escape-shortcode-single>}}
 
-## ツイートの埋め込み
+## ツイートの埋め込み  
+
 {{<escape-shortcode-single>}} tweet {{<code-em>}}ツイートID{{</code-em>}} {{</escape-shortcode-single>}}
 {{<alert note >}}
   ツイートのURLは「https://twitter.com/.../status/ツイートID」という形式になっています。
 {{</alert>}}  
 
-## 折りたたみ
+## 折りたたみ  
+
 <pre><code class="language-bash hljs">{{<shortcode-tag-left>}} collapsable "折りたたまれている時に表示する文字列" {{<shortcode-tag-right>}}
   展開された時に表示する文章(複数行可)
 {{<shortcode-tag-left>}} /collapsable {{<shortcode-tag-right>}}</code></pre>
@@ -96,13 +109,15 @@ YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式
   > Hello, World!
 {{< /collapsable>}}
 
-## ページへのリンク（カード表示）
+## ページへのリンク（カード表示）  
+
 自作Shortcodeです。
 {{<escape-shortcode-single>}} page "{{<code-em>}}表示したいページのパス(ホームからの相対パス){{</code-em>}}" {{</escape-shortcode-single>}}
 例えば`{{</* page "project/opu-virtual-festival-2020" */>}}`と記述すると、下のように表示されます。
 {{< page "project/opu-virtual-festival-2020" >}}
 
 ## ページ内リンク  
+
 {{<alert warning>}}
   ページ内リンク`{{</*jump "見出し名" "リンクテキスト"*/>}}`は非推奨になりました。  
   Markdown標準の`[見出し名](#リンクテキスト)`を使用してください。
@@ -113,17 +128,24 @@ Markdown記法だけでも書けるのですが、見出し付近がナビゲー
 `"リンクテキスト"`は省略可能です。  
 例えば`{{</*jump "折りたたみ"*/>}}`と書くと{{<jump "折りたたみ">}}のようなリンクが作れます。
 
-# その他
-## 数式
+# その他  
+
+## 数式  
+
 $\LaTeX$ 記法を用いることで数式を表示することができます。数式は`$$`で囲む必要があります。
-```
+
+```md
 $$ F=G\frac{Mm}{r^2} $$
 ```
+
 下のように表示されます。
 $$ F=G\frac{Mm}{r^2} $$
 `$$`の代わりに`$`で囲むと $ F=G\frac{Mm}{r^2} $ のようにインライン表示できます。
-## Diagrams
+
+## Diagrams  
+
 mermaid記法を使った図の挿入が可能です。
+
 ``````md
 ```mermaid
 graph TD;
@@ -133,7 +155,9 @@ graph TD;
   C-->D;
 ```
 ``````
+
 以下のように表示されます。
+
 ```mermaid
 graph TD;
   A-->B;
@@ -141,7 +165,9 @@ graph TD;
   B-->D;
   C-->D;
 ```
-## スライド
+
+## スライド  
+
 Markdown記法で簡易的なスライドを作成することができます。
 {{<escape-shortcode-single>}} slide-frame src="{{<code-em>}}スライド名{{</code-em>}}" {{</escape-shortcode-single>}}
 {{<slide-frame src="test">}}
