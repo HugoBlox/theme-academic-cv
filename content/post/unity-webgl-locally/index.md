@@ -32,20 +32,25 @@ UnityでWebGLをプラットフォームに選択し、`Build And Run`を押す�
 {{<alert note>}}
 `VSCode`は https://code.visualstudio.com/ からダウンロードできます。
 {{</alert>}}
+
 # 1. 拡張機能のインストール
+
 `VSCode`を起動し、画面左のボタンを押して拡張機能パネルを開きます。
 {{<figure src="./VSCode_Japanese.png" title="拡張機能パネルを開くボタン">}}
 パネル上の検索ボックスに`live server`と入力し、検索結果の一番上にある`Live Server`をクリックします。`拡張機能:Live Server`タブが開くので、`インストール`をクリックします。
 {{<figure src="./VSCode_Live_Server.png" title="「拡張機能：Live Server」タブ">}}
 
 ## (補足) VSCode日本語化
+
 検索ボックスに`japanese`と入力し、検索結果の一番上にある拡張機能`Japanese Language Pack for Visual Studio Code`をインストールすることで日本語化できます。
 {{<figure src="./VSCode_Japanese.png" title="「Japanese Language Pack for Visual Studio Code」(インストール済み)">}}
 
 # 2. ビルドしたゲームをVSCodeで開く
+
 メニューの`ファイル(F)`から`フォルダを開く... Ctrl+K Ctrl+O`をクリックします。フォルダ選択ダイアログが表示されるので、出力された`Build`フォルダと`TemplateData`フォルダ、`index.html`ファイルのあるフォルダを選択します。
 
 # 3. ゲームをプレイ
+
 正しくフォルダを開けていると画面右下に`Go Live`ボタンが表示されます。このボタンをクリックするとブラウザが起動し、ゲームをプレイできます。
 {{<figure src="./Live_Server_Go_Live.png" title="Go Live ボタン">}}
 `Go Live`があった場所に表示される`Port:5050`をクリックすれば、ブラウザでのプレイを停止できます。VSCodeを閉じれば自動的に停止するはずですが、プレイを止める際にはボタンを押すことをおすすめします。
