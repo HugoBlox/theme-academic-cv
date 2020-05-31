@@ -88,7 +88,7 @@ summary: "Summary of my post."
 
 Front matter allows page-specific metadata and functionality to be included at the top of a Markdown file.
 
-For editing your content locally on your computer, we recommend [Typora][typora] or [Visual Studio Code][vscode].
+For editing your content locally on your computer, we recommend [Visual Studio Code][vscode] or [Typora][typora].
 
 #### 1. Core metadata:
 
@@ -121,9 +121,9 @@ For editing your content locally on your computer, we recommend [Typora][typora]
 Rich content can be written in Academic using Markdown, LaTeX math, and Shortcodes. For more details please refer to [Docs of Academic][academic-docs].
 
 
-[typora]: https://www.typora.io/
-
 [vscode]: https://code.visualstudio.com/
+
+[typora]: https://www.typora.io/
 
 [date]: https://github.com/toml-lang/toml#local-date-time
 
