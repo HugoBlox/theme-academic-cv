@@ -8,19 +8,34 @@
   url = "#about"
   weight = 10
 
+# [[main]]
+#   name = "Posts"
+#   url = "#posts"
+#   weight = 20
+
+# [[main]]
+#   name = "Projects"
+#   url = "#projects"
+#   weight = 30
+
+# [[main]]
+#   name = "Publications"
+#   url = "#featured"
+#   weight = 40
 [[main]]
-  name = "Posts"
-  url = "#posts"
+  name = "GBM"
+  url = "/gbm"
   weight = 20
 
+
 [[main]]
-  name = "Projects"
-  url = "#projects"
+  name = "E-Board"
+  url = "/e-board"
   weight = 30
 
 [[main]]
-  name = "Publications"
-  url = "#featured"
+  name = "SIGs"
+  url = "#sig"
   weight = 40
 
 [[main]]

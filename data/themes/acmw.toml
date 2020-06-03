@@ -1,0 +1,17 @@
+name = "acmw"
+
+# Is theme light or dark?
+light = false
+
+# Primary
+primary = "#7289DA"
+
+# Menu
+menu_primary = "rgb(20, 22, 34)"
+menu_text = "#9cdddd"
+menu_text_active = "#7289DA"
+menu_title = "#fff"
+
+# Home sections
+home_section_odd = "hsla(231, 15%, 18%, 1)"
+home_section_even = "hsla(231, 15%, 16%, 1)"

@@ -1,0 +1,8 @@
+name = "acmw-font-set"
+
+google_fonts = "Fira+Sans|Lato|Fira+Mono"
+
+heading_font = "Lato"
+body_font = "Fira Sans"
+nav_font = "Lato"
+mono_font = "Fira Mono"
