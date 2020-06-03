@@ -23,7 +23,7 @@ height = "450px"
   # Overlay a color or image (optional).
   #   Deactivate an option by commenting out the line, prefixing it with `#`.
   overlay_color = "#7289DA"  # An HTML color value.
-  overlay_img = "headers/Discord-Slider.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "headers/Discord-Slider.png"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0  # Darken the image. Value in range 0-1.
 
   # Call to action button (optional).
@@ -35,20 +35,30 @@ height = "450px"
   cta_icon = "discord"
 
 [[item]]
-  title = "Left"
-  content = "I am left aligned :smile:"
-  align = "left"
+  title = ""
+  content = ""
+  align = "right"
 
   overlay_color = "#555"  # An HTML color value.
-  overlay_img = ""  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+  overlay_img = "headers/Facebook-Slider.PNG"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0 
+  
+  cta_label = "LIKE US"
+  cta_url = "http://bit.ly/ACMW-discord"
+  cta_icon_pack = "far"
+  cta_icon = "thumbs-up" # Darken the image. Value in range 0-1.
 
 [[item]]
-  title = "Right"
-  content = "I am right aligned :smile:"
+  title = ""
+  content = ""
   align = "right"
 
   overlay_color = "#333"  # An HTML color value.
-  overlay_img = ""  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+  overlay_img = "headers/Instagram-Slider.PNG"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0
+  
+  cta_label = "FOLLOW US"
+  cta_url = "http://bit.ly/ACMW-discord"
+  cta_icon_pack = "fab"
+  cta_icon = "instagram"  # Darken the image. Value in range 0-1.
 +++
