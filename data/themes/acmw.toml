@@ -4,11 +4,10 @@ name = "acmw"
 light = false
 
 # Primary
-primary = "#7289DA"
-
+primary = "#fff"
 # Menu
 menu_primary = "rgb(20, 22, 34)"
-menu_text = "#9cdddd"
+menu_text = "#fff"
 menu_text_active = "#7289DA"
 menu_title = "#fff"
 
