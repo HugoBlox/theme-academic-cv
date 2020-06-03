@@ -16,8 +16,8 @@ height = "450px"
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
-  title = " "
-  content = " "
+  title = " DISCORD "
+  content = " PRESS THAT BUTTON "
   align = "right"  # Choose `center`, `left`, or `right`.
 
   # Overlay a color or image (optional).
@@ -35,8 +35,8 @@ height = "450px"
   cta_icon = "discord"
 
 [[item]]
-  title = ""
-  content = ""
+  title = " FACEBOOK "
+  content = " PRESS THAT BUTTON "
   align = "right"
 
   overlay_color = "#555"  # An HTML color value.
@@ -49,8 +49,8 @@ height = "450px"
   cta_icon = "thumbs-up" # Darken the image. Value in range 0-1.
 
 [[item]]
-  title = ""
-  content = ""
+  title = " INSTAGRAM "
+  content = " PRESS THAT BUTTON "
   align = "right"
 
   overlay_color = "#333"  # An HTML color value.
