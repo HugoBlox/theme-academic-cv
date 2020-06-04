@@ -4,7 +4,7 @@ title: Chloë Geller
 weight: 1
 # Username (this should match the folder name)
 authors:
-- president
+- chloe
 
 # Is this the primary user of the site?
 superuser: true

@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Michaela Green
-weight: 4
+title: Indira Avendano
+weight: 3
 # Username (this should match the folder name)
 authors:
-- treasurer
+- indira
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Treasurer
+role: Secretary
 
 # Organizations/Affiliations
 organizations:
@@ -25,12 +25,14 @@ bio:
 interests:
 - Artificial Intelligence
 
+
 # Replace with proper information
 education:
   courses:
   - course: PhD in Artificial Intelligence
     institution: Stanford University
     year: 2012
+
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -54,7 +56,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:ucfacmw.treasure@gmail.com'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:ucfacmw.secretary@gmail.com'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/GeorgeCushen
@@ -80,5 +82,4 @@ user_groups:
 
 # Add your biography below the ---
 ---
-
 

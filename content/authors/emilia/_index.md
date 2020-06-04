@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Sophie Ibrahim
+title: Emilia Hernandez
 
 # Username (this should match the folder name)
 authors:
-- outreach
+- emilia
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Outreach Director
+role: Marketing Director
 
 # Organizations/Affiliations
 organizations:
@@ -24,7 +24,6 @@ bio:
 # Add more/change interests if you'd like
 interests:
 - Artificial Intelligence
-
 
 # Replace with proper information
 education:
@@ -56,7 +55,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:ucfacmw.outreach@gmail.com'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:ucfacmw.marketing@gmail.com'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/GeorgeCushen
@@ -82,4 +81,3 @@ user_groups:
 
 # Add your biography below the ---
 ---
-

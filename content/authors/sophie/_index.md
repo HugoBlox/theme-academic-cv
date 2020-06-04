@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Annabel Bland
-weight: 2
+title: Sophie Ibrahim
+
 # Username (this should match the folder name)
 authors:
-- vice-president
+- sophie
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Vice President
+role: Outreach Director
 
 # Organizations/Affiliations
 organizations:
@@ -56,7 +56,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:ucfacmw.vp@gmail.com'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:ucfacmw.outreach@gmail.com'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/GeorgeCushen
@@ -73,12 +73,12 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "ucfacmw.vp@gmail.com"
+email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Officers
+- Committees
 
 # Add your biography below the ---
 ---
