@@ -12,7 +12,7 @@ It is warmly welcomed if you have interest to contribute to xlab-website and hel
 
 ## <a name="user"></a> 1. Create/Edit a User
 
-### Create
+### 1.1 Create
 
 To create an additional user automatically or manually,
 
@@ -26,7 +26,7 @@ hugo new --kind authors authors/firstname-lastname
 
 Directly create a folder `content/authors/firstname-lastname` and create a file `content/authors/firstname-lastname/index.md`.
 
-### Edit
+### 1.2 Edit
 
 Edit the newly created file at `content/authors/firstname-lastname/index.md`. 
 
@@ -37,7 +37,7 @@ You can also upload a square photo for the user to the new `authors/firstname-la
 
 ## <a name="project"></a> 2. Create/Edit a Project
 
-### Create
+### 2.1 Create
 
 To create a project automatically or manually,
 
@@ -51,7 +51,7 @@ hugo new --kind project project/my-project-name
 
 Directly create a folder `content/project/my-project-name` and a file `content/project/my-project-name/index.md`.
 
-### Simply Edit a Project
+### 2.2 Edit
 
 Edit the newly created file at `content/project/my-project-name/index.md`.
 
@@ -60,7 +60,7 @@ Either you can link the project to an external project website by setting the `e
 
 ## <a name="blog"></a> 3. Create/Edit a Blog Post
 
-### Create
+### 3.1 Create
 
 To create a blog/news article automatically or manually,
 
@@ -74,7 +74,7 @@ hugo new --kind post post/my-article-name
 
 Directly create a folder `content/post/my-article-name` and create a file `content/post/my-article-name/index.md`.
 
-### Simply Edit a Blog Post
+### 3.2 Edit
 
 Edit the newly created file at `content/post/my-article-name/index.md`.
 
@@ -87,7 +87,7 @@ summary: "Summary of my post."
 
 ## <a name="content"></a> 4. Writing Content
 
-### Front Matter
+### 4.1 Front Matter
 
 Front matter allows page-specific metadata and functionality to be included at the top of a Markdown file.
 
@@ -119,7 +119,7 @@ For editing your content locally on your computer, we recommend [Visual Studio C
 
 - **draft**: by setting `draft: true`, only you will see your page when you preview your site locally on your computer
 
-### Main Content
+### 4.2 Main Content
 
 Rich content can be written in Academic using Markdown, LaTeX math, and Shortcodes. For more details please refer to [Docs of Academic][academic-docs].
 
