@@ -93,7 +93,10 @@ ShortcodesとはHugo独自の機能で、Markdownファイルに書くことが�
 
 ## Youtube動画埋め込み  
 
+```md
 {{</*youtube 動画のID*/>}}
+```
+
 {{<alert note >}}
 YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式になっています
 {{</alert>}}

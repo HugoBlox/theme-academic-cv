@@ -1711,13 +1711,14 @@ window.onresize = function(){ set_width(); };
 他にも�?�画像�?��?・高さなどをカスタ�?することができます�?�詳しくは
 &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#figure&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式ドキュメン�?&lt;/a&gt;  を参照してください�?&lt;/p&gt;
 &lt;h2 id=&#34;youtube動画埋め込み&#34;&gt;Youtube動画埋め込み&lt;/h2&gt;
-&lt;p&gt;{{&amp;lt;youtube 動画のID&amp;gt;}}
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;youtube 動画のID&amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」と�?�?形式になって�?ま�?
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;/p&gt;
+
 &lt;h2 id=&#34;unity-webglの埋め込み&#34;&gt;Unity WebGLの埋め込み&lt;/h2&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://ch-random.net/post/93/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ラン�?�?さんの記�?&lt;/a&gt;の�?容を少し改変した�?�作Shortcodeです�?�Unity WebGLのゲー�?を�?��?�ジ�?でプレイすることができます�??&lt;/p&gt;
