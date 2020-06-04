@@ -19,15 +19,14 @@ To create an additional user automatically or manually,
 ```shell
 hugo new --kind authors authors/firstname-lastname
 ```
-Rename the file `content/post/firstname-lastname/index.md` to `content/post/firstname-lastname/_index.md` if necessary.
 
 ### Manually
 
-Directly create a folder `content/authors/firstname-lastname` and create a file `content/authors/firstname-lastname/_index.md`.
+Directly create a folder `content/authors/firstname-lastname` and create a file `content/authors/firstname-lastname/index.md`.
 
 ### Simply Edit a User
 
-Edit the newly created file at `content/authors/firstname-lastname/_index.md`. 
+Edit the newly created file at `content/authors/firstname-lastname/index.md`. 
 
 Once you have edited the parameters in the front matter (top of the file), you can add the user’s full biography in the body (below the final `---`) using Markdown formatting.
 
@@ -43,15 +42,14 @@ To create a project automatically or manually,
 ```shell
 hugo new --kind project project/my-project-name
 ```
-Rename the file `content/project/my-project-name/index.md` to `content/project/my-project-name/_index.md` if necessary.
 
 ### Manually
 
-Directly create a folder `content/project/my-project-name` and a file `content/project/my-project-name/_index.md`.
+Directly create a folder `content/project/my-project-name` and a file `content/project/my-project-name/index.md`.
 
 ### Simply Edit a Project
 
-Edit the newly created file at `content/project/my-project-name/_index.md`.
+Edit the newly created file at `content/project/my-project-name/index.md`.
 
 Either you can link the project to an external project website by setting the `external_link: "http://external-project.com"` variable at the top of the file, or you can add content (below the final `---`) in order to render a project page on your website.
 
@@ -65,15 +63,14 @@ To create a blog/news article automatically or manually,
 ```shell
 hugo new --kind post post/my-article-name
 ```
-Rename the file `content/post/my-article-name/index.md` to `content/post/my-article-name/_index.md` if necessary.
 
 ### Manually
 
-Directly create a folder `content/post/my-article-name` and create a file `content/post/my-article-name/_index.md`.
+Directly create a folder `content/post/my-article-name` and create a file `content/post/my-article-name/index.md`.
 
 ### Simply Edit a Blog Post
 
-Edit the newly created file at `content/post/my-article-name/_index.md`.
+Edit the newly created file at `content/post/my-article-name/index.md`.
 
 Hugo will automatically generate summaries of posts that appear on the homepage. If you are dissatisfied with an automated summary, you can either limit the summary length by appropriately placing `<!--more-->` in the article body, or completely override the automated summary by adding a `summary` parameter to the `+++` preamble such that:
 
