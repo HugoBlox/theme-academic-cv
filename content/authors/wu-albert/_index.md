@@ -14,7 +14,7 @@ role: Project Manager
 
 # Organizations/Affiliations
 organizations:
-- name: University of Washington 
+- name: NASA Goddard Space Flight Center 
   url: "http://psc.apl.uw.edu/"
 
 # Short bio (displayed in user profile at end of posts)
@@ -26,9 +26,9 @@ bio: I use remote sensing data to assess change of mountain glaciers.
 
 education:
   courses:
-  - course: PhD in Geophysics
-    institution: University of Alaska Fairbanks
-    year: 2016
+  - course: MEng in Aerospace Engineering Sciences
+    institution: University of Colorado at Boulder
+    year: 2010
   - course: MSc in Earth / Atm. Sciences
     institution: University of Alberta
     year: 2008
