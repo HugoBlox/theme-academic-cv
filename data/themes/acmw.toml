@@ -5,6 +5,7 @@ light = false
 
 # Primary
 primary = "#fff"
+# secondary = "#C13584"
 # Menu
 menu_primary = "rgb(20, 22, 34)"
 menu_text = "#fff"
