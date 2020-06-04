@@ -6,7 +6,7 @@
 
 ## Quick Start
 
-Make sure that you have installed [Git][git-install] and [Hugo][hugo-install], then
+Make sure that you have installed [Git][git-install] and [Hugo][hugo-install] (v0.70+), then
 
 ```bash
 $ git clone git@github.com:X-lab2017/xlab-website.git
