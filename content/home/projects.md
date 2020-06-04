@@ -27,11 +27,11 @@ subtitle = ""
   
    [[content.filter_button]]
      name = "Big Data"
-     tag = "Big Data"
+     tag = "big data"
   
    [[content.filter_button]]
      name = "Cloud Computing"
-     tag = "Cloud Computing"
+     tag = "cloud computing"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

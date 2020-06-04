@@ -3,9 +3,9 @@
 
 title: "Gitcourse"
 summary: ""
-authors: []
-tags: []
-categories: []
+authors: ["liuchang"]
+tags: ["cloud computing"]
+categories: ["cloud computing"]
 date: 2020-05-30T14:41:40+08:00
 
 # Optional external URL for project (replaces project detail page).
