@@ -10,21 +10,23 @@ It is warmly welcomed if you have interest to contribute to xlab-website and hel
 - [Writing Content](#content)
 
 
-## <a name="user"></a> Create/Edit a User
+## <a name="user"></a> 1. Create/Edit a User
+
+### Create
 
 To create an additional user automatically or manually,
 
-### Automatically
+#### (1) Automatically
 
 ```shell
 hugo new --kind authors authors/firstname-lastname
 ```
 
-### Manually
+#### (2) Manually
 
 Directly create a folder `content/authors/firstname-lastname` and create a file `content/authors/firstname-lastname/index.md`.
 
-### Simply Edit a User
+### Edit
 
 Edit the newly created file at `content/authors/firstname-lastname/index.md`. 
 
@@ -33,17 +35,19 @@ Once you have edited the parameters in the front matter (top of the file), you c
 You can also upload a square photo for the user to the new `authors/firstname-lastname/` folder and name it `avatar` (in JPEG or PNG format). If you didn’t replace the default avatar image in the process, you may wish to delete it from the folder.
 
 
-## <a name="project"></a> Create/Edit a Project
+## <a name="project"></a> 2. Create/Edit a Project
+
+### Create
 
 To create a project automatically or manually,
 
-### Automatically
+#### (1) Automatically
 
 ```shell
 hugo new --kind project project/my-project-name
 ```
 
-### Manually
+#### (2) Manually
 
 Directly create a folder `content/project/my-project-name` and a file `content/project/my-project-name/index.md`.
 
@@ -54,17 +58,19 @@ Edit the newly created file at `content/project/my-project-name/index.md`.
 Either you can link the project to an external project website by setting the `external_link: "http://external-project.com"` variable at the top of the file, or you can add content (below the final `---`) in order to render a project page on your website.
 
 
-## <a name="blog"></a> Create/Edit a Blog Post
+## <a name="blog"></a> 3. Create/Edit a Blog Post
+
+### Create
 
 To create a blog/news article automatically or manually,
 
-### Automatically
+#### (1) Automatically
 
 ```shell
 hugo new --kind post post/my-article-name
 ```
 
-### Manually
+#### (2) Manually
 
 Directly create a folder `content/post/my-article-name` and create a file `content/post/my-article-name/index.md`.
 
@@ -79,7 +85,7 @@ summary: "Summary of my post."
 ```
 
 
-## <a name="content"></a> Writing Content
+## <a name="content"></a> 4. Writing Content
 
 ### Front Matter
 
@@ -87,7 +93,7 @@ Front matter allows page-specific metadata and functionality to be included at t
 
 For editing your content locally on your computer, we recommend [Visual Studio Code][vscode] or [Typora][typora].
 
-#### 1. Core metadata:
+#### (1) Core metadata:
 
 - **title**: the title of your page
 
@@ -99,7 +105,7 @@ For editing your content locally on your computer, we recommend [Visual Studio C
 
 - **tags**: tagging your content helps users to discover similar content on your site. Tags can improve search relevancy and are displayed after the page content and also in the Tag Cloud widget. E.g. `tags: ["Electronics", "Diodes"]`.
 
-#### 2. Popular metadata:
+#### (2) Popular metadata:
 
 - **subtitle**: an optional subtitle that will be displayed under the title
 
