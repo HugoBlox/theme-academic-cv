@@ -22,11 +22,15 @@
 #   name = "Publications"
 #   url = "#featured"
 #   weight = 40
-[[main]]
-  name = "GBM"
-  url = "/gbm"
-  weight = 20
+# [[main]]
+#   name = "GBM"
+#   url = "/gbm"
+#   weight = 20
 
+[[main]]
+  name = "Calendar"
+  url = "/calendar"
+  weight = 25
 
 [[main]]
   name = "E-Board"

@@ -24,3 +24,24 @@
   for = "index.xml"
   [headers.values]
     Content-Type = "application/rss+xml"
+
+[[ redirects ]]
+  from = "/github"
+  to = "https://github.com/ucfacmw"
+  status = 301
+
+[[ redirects ]]
+  from = "/facebook-page"
+  to = "https://facebook.com/ucfacmw"
+  status = 301
+
+[[ redirects ]]
+  from = "/instagram"
+  to = "https://www.instagram.com/ucfacmw"
+  status = 301
+
+[[ redirects ]]
+  from = "/discord"
+  to = "https://discord.gg/7QHunCM"
+  status = 301
+

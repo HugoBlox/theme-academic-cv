@@ -1,0 +1,13 @@
+{{ $item := . }} {{/* Derived from "partials/li_card" */}}
+<div class="card-simple">
+  <div class="article-metadata">
+    <div> {{ partial "page_metadata_authors" $item }} </div>
+    <span> {{ partial "functions/get_event_dates" $item }} </span>
+    <span class="middot-divider"></span>
+    <span>{{ $item.Params.location }}</span>
+  </div>
+  <h3 class="article-title mb-1 mt-3">
+    <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>
+  </h3>
+  <div class="article-style"> <p> {{ $item.Params.abstract }} </p> </div>
+</div>
