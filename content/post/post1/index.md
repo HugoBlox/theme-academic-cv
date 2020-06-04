@@ -29,21 +29,19 @@ projects: []
 ```c:helloworld.c
 #include<stdio.h>
 int main(void){
-{{<code-em>}}  printf("Hello, World!");{{</code-em>}}
+  printf("Hello, World!");
   return 0;
 }
 ```
+
 ```kt:test.kt
 fun main(){
   println("Hello, World!")
 }
 ```
+
 ```lua:test.lua
 print("Hello, World!")
 ```
 
 `aiueo`
-
-```
-print("Hello, World!")
-```
