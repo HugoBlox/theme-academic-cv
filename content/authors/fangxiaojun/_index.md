@@ -62,4 +62,4 @@ user_groups:
 - Master
 ---
 
-## Handsome boy in X-Lab.
+## A handsome boy in X-Lab.
