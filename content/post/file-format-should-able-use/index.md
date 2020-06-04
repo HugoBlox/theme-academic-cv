@@ -51,7 +51,7 @@ XMLは`Extensible Markup Language`の略で、文書やデータの意味や構�
 
 ## Web API  
 
-WebAPIを利用した結果は、JSON形式やXML形式の文字列で取得できることが多いです。詳しくは{{<jump "#JSON">}}を参照してください。
+WebAPIを利用した結果は、JSON形式やXML形式の文字列で取得できることが多いです。詳しくは[JSON](#json)を参照してください。
 
 ## Android  
 

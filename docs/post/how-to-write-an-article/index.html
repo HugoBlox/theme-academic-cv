@@ -535,7 +535,6 @@
         <li><a href="#ツイートの埋め込み">ツイートの埋め込み</a></li>
         <li><a href="#折りたたみ">折りたたみ</a></li>
         <li><a href="#ページへのリンクカード表示">ページへのリンク（カード表示）</a></li>
-        <li><a href="#ページ内リンク">ページ内リンク</a></li>
       </ul>
     </li>
     <li><a href="#その他">その他</a>
@@ -649,7 +648,7 @@
 <p>全ての記事はMarkdown記法で書く必要があります。書き方については
 <a href="https://qiita.com/kamorits/items/6f342da395ad57468ae3" target="_blank" rel="noopener">このサイト</a>を参照してください。</p>
 <h2 id="画像を挿入する場合">画像を挿入する場合</h2>
-<pre><code class="language-md">![<span class="code-em">代替テキスト</span>](<span class="code-em">./画像名</span>)
+<pre><code class="language-md">![代替テキスト](./画像名)
 </code></pre>
 <p><div class="alert alert-note">
   <div>
@@ -658,61 +657,51 @@
 </div>
 
 画像のサイズを変えたい、または画像を左寄せ・右寄せしたい場合は下の
-
-
-
-
-    
-
-
-    
-
-<a href="#%E7%94%BB%E5%83%8F%E3%81%AE%E6%8C%BF%E5%85%A5">Shortcode</a>を参照してください</p>
+<a href="#%e7%94%bb%e5%83%8f%e3%81%ae%e6%8c%bf%e5%85%a5">画像の挿入</a>を参照してください</p>
 <h1 id="shortcodes">Shortcodes</h1>
 <p>ShortcodesとはHugo独自の機能で、Markdownファイルに書くことができるスニペットです。</p>
 <h2 id="画像の挿入">画像の挿入</h2>
-<p>
-
-
-<pre><code class="language-bash hljs">{{< figure src="<span class="code-em">./画像名</span>" title="<span class="code-em">代替テキスト</span>" >}}</code></pre>
+<pre><code class="language-md">{{&lt;figure src=&quot;./画像名&quot; title=&quot;代替テキスト&quot;&gt;}}
+</code></pre>
 <div class="alert alert-note">
   <div>
     「画像名」には拡張子も含めてください
   </div>
 </div>
-</p>
+
 <h3 id="画像の左寄せ右寄せ">画像の左寄せ、右寄せ</h3>
 <p><details>
     <summary>左寄せ</summary>
-    <pre><code class="language-bash hljs">{{< figure src="<span class="code-em">./画像名</span>" title="<span class="code-em">代替テキスト</span>"  class="left" >}}</code></pre>
+    <pre><code class="language-md">{{&lt;figure src=&quot;./画像名&quot; title=&quot;代替テキスト&quot;  class=&quot;left&quot;&gt;}}
+</code></pre>
 
 </details>
 
 <details>
     <summary>右寄せ</summary>
-    <pre><code class="language-bash hljs">{{< figure src="<span class="code-em">./画像名</span>" title="<span class="code-em">代替テキスト</span>"  class="right" >}}</code></pre>
+    <pre><code class="language-md">{{&lt;figure src=&quot;./画像名&quot; title=&quot;代替テキスト&quot;  class=&quot;right&quot;&gt;}}
+</code></pre>
 
 </details>
 
 <details>
     <summary>左寄せ(float)</summary>
-    <pre><code class="language-bash hljs">{{< figure src="<span class="code-em">./画像名</span>" title="<span class="code-em">代替テキスト</span>"  class="float-left" >}}</code></pre>
+    <pre><code class="language-md">{{&lt;figure src=&quot;./画像名&quot; title=&quot;代替テキスト&quot;  class=&quot;float-left&quot;&gt;}}
+</code></pre>
 
 </details>
 
 <details>
     <summary>右寄せ(float)</summary>
-    <pre><code class="language-bash hljs">{{< figure src="<span class="code-em">./画像名</span>" title="<span class="code-em">代替テキスト</span>"  class="float-right" >}}</code></pre>
+    <pre><code class="language-md">{{&lt;figure src=&quot;./画像名&quot; title=&quot;代替テキスト&quot;  class=&quot;float-right&quot;&gt;}}
+</code></pre>
 
 </details>
 
 他にも、画像の幅・高さなどをカスタムすることができます。詳しくは
 <a href="https://gohugo.io/content-management/shortcodes/#figure" target="_blank" rel="noopener">公式ドキュメント</a>  を参照してください。</p>
 <h2 id="youtube動画埋め込み">Youtube動画埋め込み</h2>
-<p>
-
-
-<pre><code class="language-bash hljs">{{< youtube <span class="code-em">動画のID</span> >}}</code></pre>
+<p>{{&lt;youtube 動画のID&gt;}}
 <div class="alert alert-note">
   <div>
     YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式になっています
@@ -721,33 +710,31 @@
 </p>
 <h2 id="unity-webglの埋め込み">Unity WebGLの埋め込み</h2>
 <p>
-<a href="https://ch-random.net/post/93/" target="_blank" rel="noopener">ランダムさんの記事</a>の内容を少し改変した自作Shortcodeです。Unity WebGLのゲームをページ内でプレイすることができます。
-
-
-
-<pre><code class="language-bash hljs">{{< unity src="<span class="code-em">URL</span>"　>}}</code></pre></p>
+<a href="https://ch-random.net/post/93/" target="_blank" rel="noopener">ランダムさんの記事</a>の内容を少し改変した自作Shortcodeです。Unity WebGLのゲームをページ内でプレイすることができます。</p>
+<pre><code class="language-md">{{&lt;unity src=&quot;URL&quot;&gt;}}
+</code></pre>
 <h2 id="ツイートの埋め込み">ツイートの埋め込み</h2>
-<p>
-
-
-<pre><code class="language-bash hljs">{{< tweet <span class="code-em">ツイートID</span> >}}</code></pre>
+<pre><code class="language-md">{{&lt;tweet ツイートID&gt;}}
+</code></pre>
 <div class="alert alert-note">
   <div>
     ツイートのURLは「https://twitter.com/&hellip;/status/ツイートID」という形式になっています。
   </div>
 </div>
-</p>
+
 <h2 id="折りたたみ">折りたたみ</h2>
-<pre><code class="language-bash hljs">{{&lt; collapsable "折りたたまれている時に表示する文字列" &gt;}}
+<pre><code class="language-md">{{&lt;collapsable &quot;折りたたまれている時に表示する文字列&quot;&gt;}}
   展開された時に表示する文章(複数行可)
-{{&lt; /collapsable &gt;}}</code></pre>
+{{&lt;/collapsable&gt;}}
+</code></pre>
 <p>自作Shortcodeです。折りたたまれている時、展開された時ともに、Markdown記法を用いた文章が使えます。例えば</p>
-<pre><code class="language-bash hljs">{{&lt; collapsable "`Hello`" &gt;}}
+<pre><code class="language-md">{{&lt;collapsable &quot;`Hello`&quot;&gt;}}
   foo
   *bar*
-  > Hello, World!
-{{&lt; /collapsable &gt;}}</code></pre>
-<p>のように書けば、下のように表示されます。
+  &gt; Hello, World!
+{{&lt;/collapsable&gt;}}
+</code></pre>
+<p>のように書けば、下のように表示されます。</p>
 <details>
     <summary><code>Hello</code></summary>
     <p>foo<br>
@@ -757,14 +744,12 @@
 </blockquote>
 
 </details>
-</p>
+
 <h2 id="ページへのリンクカード表示">ページへのリンク（カード表示）</h2>
-<p>自作Shortcodeです。
-
-
-
-<pre><code class="language-bash hljs">{{< page "<span class="code-em">表示したいページのパス(ホームからの相対パス)</span>" >}}</code></pre>
-例えば<code>{{&lt; page &quot;project/opu-virtual-festival-2020&quot; &gt;}}</code>と記述すると、下のように表示されます。
+<p>自作Shortcodeです。</p>
+<pre><code class="language-md">{{&lt;page &quot;表示したいページのパス(ホームからの相対パス)&quot;&gt;}}
+</code></pre>
+<p>例えば<code>{{&lt; page &quot;project/opu-virtual-festival-2020&quot;&gt;}}</code>と記述すると、下のように表示されます。
 
 
 
@@ -854,33 +839,6 @@
 </div>
 
  </p>
-<h2 id="ページ内リンク">ページ内リンク</h2>
-<p><div class="alert alert-warning">
-  <div>
-    ページ内リンク<code>{{&lt;jump &quot;見出し名&quot; &quot;リンクテキスト&quot;&gt;}}</code>は非推奨になりました。<br>
-Markdown標準の<code>[見出し名](#リンクテキスト)</code>を使用してください。
-  </div>
-</div>
-
-クリックすると同じページ内の見出しに飛ぶことができるリンクを挿入する自作Shortcodeです。
-Markdown記法だけでも書けるのですが、見出し付近がナビゲーションバーに隠れてしまうバグがあるため、それを解消しています。
-
-
-
-<pre><code class="language-bash hljs">{{< jump "<span class="code-em">見出し名</span>" "<span class="code-em">リンクテキスト</span>" >}}</code></pre>
-<code>&quot;リンクテキスト&quot;</code>は省略可能です。<br>
-例えば<code>{{&lt;jump &quot;折りたたみ&quot;&gt;}}</code>と書くと
-
-
-
-
-    
-    
-
-
-    
-
-<a href="#%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF">折りたたみ</a>のようなリンクが作れます。</p>
 <h1 id="その他">その他</h1>
 <h2 id="数式">数式</h2>
 <p>$\LaTeX$ 記法を用いることで数式を表示することができます。数式は<code>$$</code>で囲む必要があります。</p>
@@ -907,17 +865,15 @@ graph TD;
   C--&gt;D;
 </code></pre>
 <h2 id="スライド">スライド</h2>
-<p>Markdown記法で簡易的なスライドを作成することができます。
-
-
-
-<pre><code class="language-bash hljs">{{< slide-frame src="<span class="code-em">スライド名</span>" >}}</code></pre>
+<p>Markdown記法で簡易的なスライドを作成することができます。</p>
+<pre><code class="language-md">{{&lt;slide-frame src=&quot;スライド名&quot;&gt;}}
+</code></pre>
 
 
 
 
 <iframe id=test src=https://blog.opuappnavi.com/slides/test width=640 height=360 allowfullscreen=true></iframe>
-</p>
+
 
       </div>
 

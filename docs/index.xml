@@ -1219,17 +1219,7 @@ int main(void){
 &lt;p&gt;XMLは&lt;code&gt;Extensible Markup Language&lt;/code&gt;の略で、文書やデータの意味や構造を記述するためのマークアップ言語の一つです。マークアップ言語とは、「タグ」と呼ばれる特定の文字列で地の文に情報の意味や構造、装飾などを埋め込んでいく言語です。&lt;/p&gt;
 &lt;h2 id=&#34;web-api-1&#34;&gt;Web API&lt;/h2&gt;
 &lt;p&gt;WebAPIを利用した結果は、JSON形式やXML形式の文字列で取得できることが多いです。詳しくは
-
-
-
-
-    
-    
-        
-    
-
-
-&lt;a href=&#34;#JSON&#34;&gt;JSON&lt;/a&gt;を参照してください。&lt;/p&gt;
+&lt;a href=&#34;#json&#34;&gt;JSON&lt;/a&gt;を参照してください。&lt;/p&gt;
 &lt;h2 id=&#34;android&#34;&gt;Android&lt;/h2&gt;
 &lt;p&gt;Android StudioでのAndroidアプリ開発では、UIのレイアウトやスタイル、多言語対応の文字列などに関してxmlで記述されています。&lt;/p&gt;
 &lt;h2 id=&#34;unity-1&#34;&gt;Unity&lt;/h2&gt;
@@ -1737,7 +1727,7 @@ window.onresize = function(){ set_width(); };
 &lt;p&gt;全ての記事はMarkdown記法で書く必要があります。書き方については
 &lt;a href=&#34;https://qiita.com/kamorits/items/6f342da395ad57468ae3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;このサイト&lt;/a&gt;を参照してください。&lt;/p&gt;
 &lt;h2 id=&#34;画像を挿入する場合&#34;&gt;画像を挿入する場合&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;![&lt;span class=&#34;code-em&#34;&gt;代替テキスト&lt;/span&gt;](&lt;span class=&#34;code-em&#34;&gt;./画像名&lt;/span&gt;)
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;![代替テキスト](./画像名)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
@@ -1746,61 +1736,51 @@ window.onresize = function(){ set_width(); };
 &lt;/div&gt;
 
 画像のサイズを変えたい、または画像を左寄せ・右寄せしたい場合は下の
-
-
-
-
-    
-
-
-    
-
-&lt;a href=&#34;#%E7%94%BB%E5%83%8F%E3%81%AE%E6%8C%BF%E5%85%A5&#34;&gt;Shortcode&lt;/a&gt;を参照してください&lt;/p&gt;
+&lt;a href=&#34;#%e7%94%bb%e5%83%8f%e3%81%ae%e6%8c%bf%e5%85%a5&#34;&gt;画像の挿入&lt;/a&gt;を参照してください&lt;/p&gt;
 &lt;h1 id=&#34;shortcodes&#34;&gt;Shortcodes&lt;/h1&gt;
 &lt;p&gt;ShortcodesとはHugo独自の機能で、Markdownファイルに書くことができるスニペットです。&lt;/p&gt;
 &lt;h2 id=&#34;画像の挿入&#34;&gt;画像の挿入&lt;/h2&gt;
-&lt;p&gt;
-
-
-&lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&lt; figure src=&#34;&lt;span class=&#34;code-em&#34;&gt;./画像名&lt;/span&gt;&#34; title=&#34;&lt;span class=&#34;code-em&#34;&gt;代替テキスト&lt;/span&gt;&#34; &gt;}}&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot;&amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     「画像名」には拡張子も含めてください
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;/p&gt;
+
 &lt;h3 id=&#34;画像の左寄せ右寄せ&#34;&gt;画像の左寄せ、右寄せ&lt;/h3&gt;
 &lt;p&gt;&lt;details&gt;
     &lt;summary&gt;左寄せ&lt;/summary&gt;
-    &lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&lt; figure src=&#34;&lt;span class=&#34;code-em&#34;&gt;./画像名&lt;/span&gt;&#34; title=&#34;&lt;span class=&#34;code-em&#34;&gt;代替テキスト&lt;/span&gt;&#34;  class=&#34;left&#34; &gt;}}&lt;/code&gt;&lt;/pre&gt;
+    &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot;  class=&amp;quot;left&amp;quot;&amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;/details&gt;
 
 &lt;details&gt;
     &lt;summary&gt;右寄せ&lt;/summary&gt;
-    &lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&lt; figure src=&#34;&lt;span class=&#34;code-em&#34;&gt;./画像名&lt;/span&gt;&#34; title=&#34;&lt;span class=&#34;code-em&#34;&gt;代替テキスト&lt;/span&gt;&#34;  class=&#34;right&#34; &gt;}}&lt;/code&gt;&lt;/pre&gt;
+    &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot;  class=&amp;quot;right&amp;quot;&amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;/details&gt;
 
 &lt;details&gt;
     &lt;summary&gt;左寄せ(float)&lt;/summary&gt;
-    &lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&lt; figure src=&#34;&lt;span class=&#34;code-em&#34;&gt;./画像名&lt;/span&gt;&#34; title=&#34;&lt;span class=&#34;code-em&#34;&gt;代替テキスト&lt;/span&gt;&#34;  class=&#34;float-left&#34; &gt;}}&lt;/code&gt;&lt;/pre&gt;
+    &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot;  class=&amp;quot;float-left&amp;quot;&amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;/details&gt;
 
 &lt;details&gt;
     &lt;summary&gt;右寄せ(float)&lt;/summary&gt;
-    &lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&lt; figure src=&#34;&lt;span class=&#34;code-em&#34;&gt;./画像名&lt;/span&gt;&#34; title=&#34;&lt;span class=&#34;code-em&#34;&gt;代替テキスト&lt;/span&gt;&#34;  class=&#34;float-right&#34; &gt;}}&lt;/code&gt;&lt;/pre&gt;
+    &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot;  class=&amp;quot;float-right&amp;quot;&amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;/details&gt;
 
 他にも、画像の幅・高さなどをカスタムすることができます。詳しくは
 &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#figure&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式ドキュメント&lt;/a&gt;  を参照してください。&lt;/p&gt;
 &lt;h2 id=&#34;youtube動画埋め込み&#34;&gt;Youtube動画埋め込み&lt;/h2&gt;
-&lt;p&gt;
-
-
-&lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&lt; youtube &lt;span class=&#34;code-em&#34;&gt;動画のID&lt;/span&gt; &gt;}}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;{{&amp;lt;youtube 動画のID&amp;gt;}}
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式になっています
@@ -1809,33 +1789,31 @@ window.onresize = function(){ set_width(); };
 &lt;/p&gt;
 &lt;h2 id=&#34;unity-webglの埋め込み&#34;&gt;Unity WebGLの埋め込み&lt;/h2&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://ch-random.net/post/93/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ランダムさんの記事&lt;/a&gt;の内容を少し改変した自作Shortcodeです。Unity WebGLのゲームをページ内でプレイすることができます。
-
-
-
-&lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&lt; unity src=&#34;&lt;span class=&#34;code-em&#34;&gt;URL&lt;/span&gt;&#34;　&gt;}}&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;a href=&#34;https://ch-random.net/post/93/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ランダムさんの記事&lt;/a&gt;の内容を少し改変した自作Shortcodeです。Unity WebGLのゲームをページ内でプレイすることができます。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;unity src=&amp;quot;URL&amp;quot;&amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;ツイートの埋め込み&#34;&gt;ツイートの埋め込み&lt;/h2&gt;
-&lt;p&gt;
-
-
-&lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&lt; tweet &lt;span class=&#34;code-em&#34;&gt;ツイートID&lt;/span&gt; &gt;}}&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;tweet ツイートID&amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     ツイートのURLは「https://twitter.com/&amp;hellip;/status/ツイートID」という形式になっています。
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;/p&gt;
+
 &lt;h2 id=&#34;折りたたみ&#34;&gt;折りたたみ&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&amp;lt; collapsable &#34;折りたたまれている時に表示する文字列&#34; &amp;gt;}}
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;collapsable &amp;quot;折りたたまれている時に表示する文字列&amp;quot;&amp;gt;}}
   展開された時に表示する文章(複数行可)
-{{&amp;lt; /collapsable &amp;gt;}}&lt;/code&gt;&lt;/pre&gt;
+{{&amp;lt;/collapsable&amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;自作Shortcodeです。折りたたまれている時、展開された時ともに、Markdown記法を用いた文章が使えます。例えば&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&amp;lt; collapsable &#34;`Hello`&#34; &amp;gt;}}
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;collapsable &amp;quot;`Hello`&amp;quot;&amp;gt;}}
   foo
   *bar*
-  &gt; Hello, World!
-{{&amp;lt; /collapsable &amp;gt;}}&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;のように書けば、下のように表示されます。
+  &amp;gt; Hello, World!
+{{&amp;lt;/collapsable&amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;のように書けば、下のように表示されます。&lt;/p&gt;
 &lt;details&gt;
     &lt;summary&gt;&lt;code&gt;Hello&lt;/code&gt;&lt;/summary&gt;
     &lt;p&gt;foo&lt;br&gt;
@@ -1845,14 +1823,12 @@ window.onresize = function(){ set_width(); };
 &lt;/blockquote&gt;
 
 &lt;/details&gt;
-&lt;/p&gt;
+
 &lt;h2 id=&#34;ページへのリンクカード表示&#34;&gt;ページへのリンク（カード表示）&lt;/h2&gt;
-&lt;p&gt;自作Shortcodeです。
-
-
-
-&lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&lt; page &#34;&lt;span class=&#34;code-em&#34;&gt;表示したいページのパス(ホームからの相対パス)&lt;/span&gt;&#34; &gt;}}&lt;/code&gt;&lt;/pre&gt;
-例えば&lt;code&gt;{{&amp;lt; page &amp;quot;project/opu-virtual-festival-2020&amp;quot; &amp;gt;}}&lt;/code&gt;と記述すると、下のように表示されます。
+&lt;p&gt;自作Shortcodeです。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;page &amp;quot;表示したいページのパス(ホームからの相対パス)&amp;quot;&amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;例えば&lt;code&gt;{{&amp;lt; page &amp;quot;project/opu-virtual-festival-2020&amp;quot;&amp;gt;}}&lt;/code&gt;と記述すると、下のように表示されます。
 
 
 
@@ -1942,33 +1918,6 @@ window.onresize = function(){ set_width(); };
 &lt;/div&gt;
 
  &lt;/p&gt;
-&lt;h2 id=&#34;ページ内リンク&#34;&gt;ページ内リンク&lt;/h2&gt;
-&lt;p&gt;&lt;div class=&#34;alert alert-warning&#34;&gt;
-  &lt;div&gt;
-    ページ内リンク&lt;code&gt;{{&amp;lt;jump &amp;quot;見出し名&amp;quot; &amp;quot;リンクテキスト&amp;quot;&amp;gt;}}&lt;/code&gt;は非推奨になりました。&lt;br&gt;
-Markdown標準の&lt;code&gt;[見出し名](#リンクテキスト)&lt;/code&gt;を使用してください。
-  &lt;/div&gt;
-&lt;/div&gt;
-
-クリックすると同じページ内の見出しに飛ぶことができるリンクを挿入する自作Shortcodeです。
-Markdown記法だけでも書けるのですが、見出し付近がナビゲーションバーに隠れてしまうバグがあるため、それを解消しています。
-
-
-
-&lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&lt; jump &#34;&lt;span class=&#34;code-em&#34;&gt;見出し名&lt;/span&gt;&#34; &#34;&lt;span class=&#34;code-em&#34;&gt;リンクテキスト&lt;/span&gt;&#34; &gt;}}&lt;/code&gt;&lt;/pre&gt;
-&lt;code&gt;&amp;quot;リンクテキスト&amp;quot;&lt;/code&gt;は省略可能です。&lt;br&gt;
-例えば&lt;code&gt;{{&amp;lt;jump &amp;quot;折りたたみ&amp;quot;&amp;gt;}}&lt;/code&gt;と書くと
-
-
-
-
-    
-    
-
-
-    
-
-&lt;a href=&#34;#%E6%8A%98%E3%82%8A%E3%81%9F%E3%81%9F%E3%81%BF&#34;&gt;折りたたみ&lt;/a&gt;のようなリンクが作れます。&lt;/p&gt;
 &lt;h1 id=&#34;その他&#34;&gt;その他&lt;/h1&gt;
 &lt;h2 id=&#34;数式&#34;&gt;数式&lt;/h2&gt;
 &lt;p&gt;$\LaTeX$ 記法を用いることで数式を表示することができます。数式は&lt;code&gt;$$&lt;/code&gt;で囲む必要があります。&lt;/p&gt;
@@ -1995,17 +1944,15 @@ graph TD;
   C--&amp;gt;D;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;スライド&#34;&gt;スライド&lt;/h2&gt;
-&lt;p&gt;Markdown記法で簡易的なスライドを作成することができます。
-
-
-
-&lt;pre&gt;&lt;code class=&#34;language-bash hljs&#34;&gt;{{&lt; slide-frame src=&#34;&lt;span class=&#34;code-em&#34;&gt;スライド名&lt;/span&gt;&#34; &gt;}}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Markdown記法で簡易的なスライドを作成することができます。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;slide-frame src=&amp;quot;スライド名&amp;quot;&amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
 
 
 
 
 &lt;iframe id=test src=https://blog.opuappnavi.com/slides/test width=640 height=360 allowfullscreen=true&gt;&lt;/iframe&gt;
-&lt;/p&gt;
+
 </description>
     </item>
     

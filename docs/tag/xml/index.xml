@@ -31,17 +31,7 @@
 &lt;p&gt;XMLは&lt;code&gt;Extensible Markup Language&lt;/code&gt;の略で、文書やデータの意味や構造を記述するためのマークアップ言語の一つです。マークアップ言語とは、「タグ」と呼ばれる特定の文字列で地の文に情報の意味や構造、装飾などを埋め込んでいく言語です。&lt;/p&gt;
 &lt;h2 id=&#34;web-api-1&#34;&gt;Web API&lt;/h2&gt;
 &lt;p&gt;WebAPIを利用した結果は、JSON形式やXML形式の文字列で取得できることが多いです。詳しくは
-
-
-
-
-    
-    
-        
-    
-
-
-&lt;a href=&#34;#JSON&#34;&gt;JSON&lt;/a&gt;を参照してください。&lt;/p&gt;
+&lt;a href=&#34;#json&#34;&gt;JSON&lt;/a&gt;を参照してください。&lt;/p&gt;
 &lt;h2 id=&#34;android&#34;&gt;Android&lt;/h2&gt;
 &lt;p&gt;Android StudioでのAndroidアプリ開発では、UIのレイアウトやスタイル、多言語対応の文字列などに関してxmlで記述されています。&lt;/p&gt;
 &lt;h2 id=&#34;unity-1&#34;&gt;Unity&lt;/h2&gt;
