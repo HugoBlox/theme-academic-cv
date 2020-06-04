@@ -15,10 +15,10 @@ role: Project Manager
 # Organizations/Affiliations
 organizations:
 - name: NASA Goddard Space Flight Center 
-  url: "http://psc.apl.uw.edu/"
+  url: "https://science.gsfc.nasa.gov/earth/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: I use remote sensing data to assess change of mountain glaciers. 
+bio: I support Earth scientists doing integrative and airborne remote sensing work
 
 #interests:
 #- glacier change
@@ -26,14 +26,11 @@ bio: I use remote sensing data to assess change of mountain glaciers.
 
 education:
   courses:
-  - course: MEng in Aerospace Engineering Sciences
+  - course: MEng in Aerospace Eng. Sciences
     institution: University of Colorado at Boulder
     year: 2010
-  - course: MSc in Earth / Atm. Sciences
-    institution: University of Alberta
-    year: 2008
-  - course: BSc in Earth / Atm. Sciences
-    institution: University of Alberta
+  - course: BSc in Aerospace Eng. Sciences
+    institution: University of Colorado at Boulder
     year: 2006
 
 # Social/Academic Networking
@@ -43,16 +40,11 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:arendta@uw.edu'  
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/aaarendt
-- icon: google-scholar
+  link: 'mailto:albert.wu@nasa.gov'
+- icon: cv
   icon_pack: ai
-  link: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=author%3Aanthony+author%3Aarendt&btnG=&oq=anthony+
-- icon: github
-  icon_pack: fab
-  link: https://github.com/aaarendt
+  link: 'https://science.gsfc.nasa.gov/sed/bio/albert.c.wu'
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -68,4 +60,4 @@ user_groups:
 - Administration
 ---
 
-Anthony Arendt is ... 
+Albert Wu is ... 
