@@ -3,6 +3,9 @@
     {{/* Loop over each page. */}}
     {{ range . }}
       {{/* 複数要素の場合の挙動は未確認 */}}
+      {{/* ISSUES
+      ・Shortcodeが使えない  
+      */}}
       {{ if ne (len .RawContent) 0 }}
         <section data-markdown=""
         data-separator="^\n---$"
