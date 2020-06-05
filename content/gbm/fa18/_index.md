@@ -1,17 +1,17 @@
 ---
-title: Fall 2019
+title: Fall 2018
 
 type: docs
 layout: docs
 
 authors: []
-summary: Slide decks from ACM-W GBMs for Fall 2019
+summary: Slide decks from ACM-W GBMs for Fall 2018
 menu:
 #   gbm:
 #     name: Fall 2019
 #     parent: GBMs
-  fa19:
-    name: Fall 2019
+  fa18:
+    name: Fall 2018
 ---
 
 {{< syllabus >}}

@@ -1,5 +1,6 @@
 ---
 title: Ethics in Tech
+weight: 2
 
 type: docs
 

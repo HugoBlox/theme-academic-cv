@@ -14,7 +14,7 @@ services:
     volumes:
       - .:/src
       # - ./output:/output
-    ports: [ "6969:1313", ]
+    ports: [ "1313:1313", ]
     command:
       - /run.sh
       - --disableFastRender
