@@ -37,10 +37,10 @@
   url = "/e-board"
   weight = 30
 
-[[main]]
-  name = "SIGs"
-  url = "#sig"
-  weight = 40
+# [[main]]
+#   name = "SIGs"
+#   url = "#sig"
+#   weight = 40
 
 [[main]]
   name = "Contact"

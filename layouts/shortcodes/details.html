@@ -1,0 +1,4 @@
+<details>
+    <summary> {{ .Get "summary" | markdownify | emojify }} </summary>
+    {{ .Inner | markdownify | emojify }}
+</details>
