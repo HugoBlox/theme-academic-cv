@@ -55,11 +55,11 @@ As of right now, ACM & ACM-W don't have any SIGs, but we are currently trying to
 
 
 <a class="btn btn-primary btn-lg" href="https://acmw.netlify.app/sig/sig-interest/" role="button">
-<i class="fas fa-file-alt"></i>
+<i class="fas fa-file-alt"></i>  
 SIG Interest Form
 </a>
 
 <a class="btn btn-primary btn-lg" href="https://acmw.netlify.app/#contact" role="button">
-<i class="fas fa-file-alt"></i>
+<i class="fas fa-envelope"></i>  
 Contact ACM & ACM-W
 </a>
