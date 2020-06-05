@@ -6,7 +6,7 @@ type: docs
 
 menu:
   fa18:
-    name: Diversity in Computer Science
+    name: DWomen in Tech Panel
     parent: Fall 2018
     weight: 4
 

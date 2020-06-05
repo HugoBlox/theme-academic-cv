@@ -10,11 +10,11 @@ services:
       - HUGO_WATCH=1
       # - HUGO_DESTINATION=/output
       - HUGO_REFRESH_TIME=60
-      # - HUGO_BASEURL=ucfw.acm.org
+      # - HUGO_BASEURL=ucfacmw.org
     volumes:
       - .:/src
       # - ./output:/output
-    ports: [ "1313:1313", ]
+    ports: [ "6969:1313", ]
     command:
       - /run.sh
       - --disableFastRender
