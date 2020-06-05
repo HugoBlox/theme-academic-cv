@@ -1,0 +1,31 @@
+<div class="reveal">
+  <div class="slides">
+    {{/* Loop over each page. */}}
+    {{ range . }}
+      {{ if ne (len .RawContent) 0 }}
+        <section data-markdown=""
+        data-separator="^\n---$"
+        data-separator-vertical="^\n--$">
+        <!-- <script>タグで囲むとAttribute付加などの機能が使えるようになる(らしい)が、囲まなくても上手くいく＆囲むと上手くいかないので囲まない -->
+          <!-- <script type="text/template"> -->
+          {{ .RawContent }}
+          <!-- </script> -->
+        </section>
+        
+        <!-- 一部解説記事のように<script>タグで囲むためのスクリプト
+        <script>
+          var slides = document.getElementsByClassName("reveal")[0].getElementsByClassName("slides")[0];
+          var slideSection = document.createElement("section");
+          slideSection.setAttribute("data-markdown", "");
+          slideSection.setAttribute("data-separator", "^\n---$");
+          slideSection.setAttribute("data-separator-vertical", "^\n--$");
+          slides.appendChild(slideSection);
+          var slideContent = document.createElement( "script" );
+          slideContent.setAttribute( "type", "text/template" );
+          slideContent.textContent = {{.RawContent}};
+          slideSection.appendChild(slideContent);
+        </script> -->
+      {{ end }}
+    {{ end }}
+  </div>
+</div>
