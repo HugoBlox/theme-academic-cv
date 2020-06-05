@@ -79,6 +79,7 @@ email: ""
 user_groups:
 - Committees
 - Mentorship Committee
+- Officers
 
 # Add your biography below the ---
 ---

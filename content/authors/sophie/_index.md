@@ -80,6 +80,7 @@ email: ""
 user_groups:
 - Committees
 - Outreach Committee
+- Officers
 
 # Add your biography below the ---
 ---

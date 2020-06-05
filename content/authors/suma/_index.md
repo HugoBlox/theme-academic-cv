@@ -76,6 +76,7 @@ email: "ucfacmw.events@gmail.com"
 user_groups:
 - Committees
 - Events Committee
+- Officers
 
 # Add your biography below the ---
 ---

@@ -79,6 +79,7 @@ email: ""
 user_groups:
 - Committees
 - Marketing Committee
+- Officers
 
 # Add your biography below the ---
 ---
