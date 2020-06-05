@@ -1,18 +1,29 @@
 <div class="reveal">
   <div class="slides">
-    {{/* Loop over each page. */}}
+    {{$delimeter := "\n<hr>\n"}}
+    {{$vertical_delimeter := "\n<p>+++</p>\n"}}
+    {{$custom_section_start_tag := "\n<section data-noprocess data-shortcode-slide"}}
     {{ range . }}
-      {{/* 複数要素の場合の挙動は未確認 */}}
-      {{/* ISSUES
-      ・Shortcodeが使えない  
-      */}}
-      {{ if ne (len .RawContent) 0 }}
-        <section data-markdown=""
-        data-separator="^\n---$"
-        data-separator-vertical="^\n--$">
-          {{ .RawContent }}
-        </section>
-      {{ end }}
+      {{$content := .Content}}
+      {{if gt (len $content) 0}}
+        {{ range (split $content $delimeter) }}
+          {{ if not (in . $custom_section_start_tag) }}
+            <section>
+          {{ end }}
+          {{ if in . $vertical_delimeter}}
+            {{range (split . $vertical_delimeter)}}
+              {{ if not (in . $custom_section_start_tag) }}
+                <section>
+              {{ end }}
+              {{ . | safeHTML }}
+              </section>
+              {{end}}
+          {{else}}
+            {{ . | safeHTML }}              
+          {{end}}
+          </section>
+        {{end}}
+      {{end}}
     {{ end }}
   </div>
 </div>

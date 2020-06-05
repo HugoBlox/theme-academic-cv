@@ -13,7 +13,7 @@
       <guid>https://blog.opuappnavi.com/slides/test/</guid>
       <description>&lt;h1 id=&#34;テスト&#34;&gt;テスト&lt;/h1&gt;
 &lt;p&gt;こんにちは&lt;/p&gt;
-&lt;p&gt;&amp;ndash;&lt;/p&gt;
+&lt;p&gt;+++&lt;/p&gt;
 &lt;p&gt;補足スライド&lt;/p&gt;
 &lt;hr&gt;
 &lt;pre&gt;&lt;code class=&#34;language-c:helloworld.c&#34;&gt;#include&amp;lt;stdio.h&amp;gt;
