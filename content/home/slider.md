@@ -44,7 +44,7 @@ height = "450px"
   overlay_filter = 0 
   
   cta_label = "LIKE US"
-  cta_url = "http://bit.ly/ACMW-discord"
+  cta_url = "https://www.facebook.com/ucfacmw/"
   cta_icon_pack = "far"
   cta_icon = "thumbs-up" # Darken the image. Value in range 0-1.
 
@@ -58,7 +58,7 @@ height = "450px"
   overlay_filter = 0
   
   cta_label = "FOLLOW US"
-  cta_url = "http://bit.ly/ACMW-discord"
+  cta_url = "hhttps://www.instagram.com/ucfacmw"
   cta_icon_pack = "fab"
   cta_icon = "instagram"  # Darken the image. Value in range 0-1.
 +++

@@ -44,4 +44,7 @@
   from = "/discord"
   to = "https://discord.gg/7QHunCM"
   status = 301
-
+[[ redirects ]]
+  from = "/twitter"
+  to = "https://twitter.com/ucfacmw"
+  status = 301
