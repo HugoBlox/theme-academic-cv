@@ -1,20 +1,22 @@
 ---
 # Display name
-title: Annabel Bland
+title: Varnika Kuthuru
 weight: 2
+
 # Username (this should match the folder name)
 authors:
-- annabel
+- varnika
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Vice President --- Outreach Director (2019-2020)
+role: President --- Vice President (2018-2019)
+
 
 # Organizations/Affiliations
 organizations:
-- name: ACM & ACM-W
+- name: ACM-W
   url: https://ucfacmw.org
 - name: University of Central Florida
 
@@ -56,7 +58,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:ucfacmw.vp@gmail.com'  # For a direct email link, use "mailto:test@example.org".
+  link: ''  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/GeorgeCushen
@@ -73,13 +75,13 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "ucfacmw.vp@gmail.com"
+email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Officers
 - Officers 2019 - 2020
+- ACM-W Founders
 
 # Add your biography below the ---
 ---

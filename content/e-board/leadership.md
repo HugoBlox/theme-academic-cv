@@ -7,7 +7,10 @@ headless = true  # This file represents a page section.
 [content]
   # Choose which groups/teams of users to display.
   #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
-  user_groups = ["Officers","Committees",]
+  user_groups = ["Officers",
+  "Committees", 
+  "Officers 2019 - 2020", 
+  "ACM-W Founders",]
 
 [design]
   # Show user's social networking links? (true/false)

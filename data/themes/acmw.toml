@@ -15,3 +15,59 @@ menu_title = "#fff"
 # Home sections
 home_section_odd = "hsla(231, 15%, 18%, 1)"
 home_section_even = "hsla(231, 15%, 16%, 1)"
+
+#Trying colors
+
+# royal blue: #00539CFF
+# peach: #EEA47FFF
+
+# pink-purple: #D198C5FF
+# cream gold: #E0C568FF
+
+# Copper Coin: (#B1624EFF)
+# Aged Copper: (#5CC8D7FF)
+
+# Royal Purple: (#603F83FF) 
+# Ice Flow: (#C7D3D4FF)
+
+# Pale Green: (#CBCE91FF)
+# Purple Sapphire: (#76528BFF)
+
+# Aspen Gold: (#FFD662FF)
+# Princess Blue: (#00539CFF)
+
+# Lemon Tonic: (#FCF951FF)
+# Purple: (#422057FF)
+
+# Teal: (#4B878BFF) 
+#Fiery Red: (#D01C1FFF)
+
+# Pale Lilac (#E3C9CEFF) and Lime Green (#9FC131FF)
+
+# Blue Atoll (#00B1D2FF) and Vibrant Yellow (#FDDB27FF)
+
+# Light Purple (#D7A9E3FF), Light Blue (#8BBEE8FF) and Light Green (#A8D5BAFF)
+
+# Danger Red (#D9514EFF), Tap Shoe (#2A2B2DFF) and Blue Blossom (#2DA8D8FF)
+
+# The triad
+# purple: rgb(174,101,165)
+# yellow-orange: rgb(250, 187,100)
+# blue-green: rgb(74,183,185)
+
+# The split complementary combo
+# purple: rgb(144,0,123)
+# yellow: rgb(253,242,11)
+# green: rgb(21,150,76)
+
+# The tetrad
+# red: rgb(229,39,47)
+# blue: rgb(25,44,136)
+# blue-green: rgb(20,156,157)
+# yellow-orange: rgb(244,149,23)
+
+# The square
+# purple: rgb(56,13,99)
+# red: rgb(171, 29, 34)
+# yellow: rgb(191,179,8)
+# blue: rgb(16,120,118)

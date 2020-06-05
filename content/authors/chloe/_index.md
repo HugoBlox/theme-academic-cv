@@ -9,7 +9,7 @@ authors:
 # Is this the primary user of the site?
 superuser: true
 # Role/position
-role: President
+role: President --- Secretary & Mentorship Director (2019-2020)
 
 # Organizations/Affiliations
 organizations:
@@ -66,6 +66,7 @@ email: "ucfacmw.president@gmail.com"
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Officers
+- Officers 2019 - 2020
 
 # Add your biography below the ---
 ---

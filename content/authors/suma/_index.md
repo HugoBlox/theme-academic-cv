@@ -22,7 +22,7 @@ organizations:
 bio: 
 
 interests:
-- Artificial Intelligence
+- 
 
 # Replace with proper information
 education:
@@ -75,6 +75,7 @@ email: "ucfacmw.events@gmail.com"
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Committees
+- Events Committee
 
 # Add your biography below the ---
 ---

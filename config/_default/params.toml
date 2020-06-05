@@ -41,7 +41,7 @@ local_business_type = ""
 
 # Organization name (optional)
 # Enter an organization or project name. Defaults to the site title from `config.toml`.
-org_name = ""
+org_name = "ACM & ACM-W"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = ""

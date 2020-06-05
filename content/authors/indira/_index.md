@@ -23,7 +23,7 @@ bio:
 
 # Add more/change interests if you'd like
 interests:
-- Artificial Intelligence
+- 
 
 
 # Replace with proper information

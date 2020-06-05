@@ -23,7 +23,7 @@ bio:
 
 # Add more/change interests if you'd like
 interests:
-- Artificial Intelligence
+- 
 
 
 # Replace with proper information
@@ -79,6 +79,7 @@ email: ""
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Committees
+- Outreach Committee
 
 # Add your biography below the ---
 ---
