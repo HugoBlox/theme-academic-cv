@@ -44,8 +44,8 @@ date_format = "Jan 2006"
   title = "Data Scientist with R"
   url = "https://learn.datacamp.com/career-tracks/data-scientist-with-python"
   certificate_url = "https://learn.datacamp.com/"
-  date_start = "2018-11-01"
-  date_end = ""
+  date_start = ""
+  date_end = "2018-11-01"
   description = ""
   
 
