@@ -6,7 +6,7 @@
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
 # Title of your site
-title = "Academic"
+title = "Jonathan Lieberman"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
@@ -21,7 +21,7 @@ copyright = ""
 ############################
 
 # Name of Academic theme folder in `themes/`.
-theme = "academic"
+theme = "lithium"
 
 # Get last modified date for content from Git?
 enableGitInfo = false
@@ -105,3 +105,9 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   [[related.indices]]
     name = "authors"
     weight = 20.0
+
+[social]
+    github  = "https://github.com/JonathanLieberman"
+    linkedin = "https://www.linkedin.com/in/jonathan-lieberman-408254a2/"
+    facebook = "https://www.facebook.com/jonathan.lieberman.54/"
+    twitter = "https://twitter.com/JonLiebs"
