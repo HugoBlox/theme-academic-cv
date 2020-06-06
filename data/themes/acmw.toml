@@ -13,8 +13,7 @@ menu_text_active = "#7289DA"
 menu_title = "#fff"
 
 # Home sections
-#home_section_odd = "hsla(231, 15%, 18%, 1)"
-home_section_odd = "#EEA47FFF"
+home_section_odd = "hsla(231, 15%, 18%, 1)"
 home_section_even = "hsla(231, 15%, 16%, 1)"
 
 #Trying colors
