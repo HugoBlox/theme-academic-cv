@@ -42,7 +42,7 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
   Lead Machine Learning Engineer - _Verizon_
-  * Managing international pool of data science resources to provide Artificial Intelligence functionality across 89 use cases
+  * Managing international pool of data science resources to enhance customer service leveraging Artificial Intelligence
   * Architecting and implementing easily scalable MLOps through self-auditing experiment tracking and containerized deployments on VM clusters
   *	Building custom language models using fine-tuned NLP transformer models to automate and enhance customer service experiences 
 
