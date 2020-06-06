@@ -50,9 +50,9 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/JonLiebs
-#- icon: linkedin
-#  icon_pack: fab
-#  link: https://www.linkedin.com/in/jonathan-lieberman-408254a2/
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/jonathan-lieberman-408254a2/
 - icon: facebook
   icon_pack: fab
   link: https://www.facebook.com/jonathan.lieberman.54/
