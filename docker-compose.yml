@@ -14,7 +14,9 @@ services:
     volumes:
       - .:/src
       # - ./output:/output
-    ports: [ "6969:1313", ]
+    ports: [ "6969:6969", ]
     command:
       - /run.sh
       - --disableFastRender
+      - --port=6969
+      - --liveReloadPort=6969
