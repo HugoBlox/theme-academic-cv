@@ -1,0 +1,24 @@
+{{- define "main" -}}
+
+{{/* Check that user fully installed Academic. */}}
+{{ if not (isset site.Params "theme") }}
+{{ errorf "Please complete the installation of Academic by following the steps at https://sourcethemes.com/academic/docs/install/" }}
+{{ end }}
+
+
+<main id="home" class="container px-3 py-5 mx-auto" role="main">
+    <div class="row" id="landing-page">
+        <div id="landing-text" class="text-center">
+            <h1>
+                Welcome to ACM & ACM-W!
+            </h1>
+        </div>
+    </div>
+    <div class="row">
+    </div>
+    {{ .Content }}
+</main>
+
+{{ partial "vanta" . }}
+
+{{- end -}}
