@@ -14,6 +14,7 @@
 #   Browse built-in themes in `themes/academic/data/themes/`
 #   Browse user installed themes in `data/themes/`
 theme = "Minimal"
+color_theme = "minimal"
 
 # Enable users to switch between day and night mode?
 day_night = true
