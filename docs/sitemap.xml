@@ -54,12 +54,12 @@
   
   <url>
     <loc>https://blog.opuappnavi.com/slides/</loc>
-    <lastmod>2020-06-05T13:45:38+09:00</lastmod>
+    <lastmod>2020-06-05T17:32:12+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.opuappnavi.com/slides/test/</loc>
-    <lastmod>2020-06-05T13:45:38+09:00</lastmod>
+    <lastmod>2020-06-05T17:32:12+09:00</lastmod>
   </url>
   
   <url>
@@ -138,11 +138,6 @@
   </url>
   
   <url>
-    <loc>https://blog.opuappnavi.com/about/</loc>
-    <lastmod>2020-04-30T16:40:49+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.opuappnavi.com/author/juris710/</loc>
     <lastmod>2020-05-30T00:32:10+09:00</lastmod>
   </url>
@@ -154,6 +149,11 @@
   
   <url>
     <loc>https://blog.opuappnavi.com/publication_types/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.opuappnavi.com/about/</loc>
+    <lastmod>2020-04-30T16:40:49+09:00</lastmod>
   </url>
   
   <url>
