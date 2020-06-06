@@ -16,7 +16,7 @@ role: Data Scientist
 organizations:
 - name: Georgia Institute of Technology
   url: ""
-  - name: Northwestern University
+- name: Northwestern University
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
