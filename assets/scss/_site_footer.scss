@@ -1,0 +1,34 @@
+footer.site-footer {
+    display: flex;
+    z-index: 10000;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+
+    div#site-footer-terms-policy-cite {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        p {
+            margin: 0;
+        }
+    }
+}
+
+body.acmw-home, body[class*="dark"] {
+    footer.site-footer {
+        color: #fefefe;
+
+        a, i {
+            color: inherit !important;
+        }
+    }
+}
+
+body.acmw-birds {
+    footer.site-footer {
+        margin: 0;
+        padding-top: 0;
+    }
+}
