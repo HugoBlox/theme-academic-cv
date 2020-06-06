@@ -42,19 +42,10 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
   Lead Machine Learning Engineer - _Verizon_
-  * Managing international pool of data science resources to enhance customer service leveraging Artificial Intelligence
-  * Architecting and implementing easily scalable MLOps through self-auditing experiment tracking and containerized deployments on VM clusters
-  *	Building custom language models using fine-tuned NLP transformer models to automate and enhance customer service experiences 
-
 
   Lead Data Scientist and Data Engineer - _Comcast_
-  * Managed team developing retail inventory analytics models, quantifying costs of various issues
-  *	Mined shipping, inventory, and sales data for supply chain issue tracking and forecasting
-
 
   Lead Data Scientist - _Salesforce_
-  * Led fraud, corruption, and bribery data assessment and proof of concepts
-  * Established roadmap to build and deploy machine learning to monitor business partner risks
   """
 
 +++
