@@ -41,23 +41,12 @@ date_format = "Jan 2006"
 [[item]]
   organization = "DataCamp"
   organization_url = "https://learn.datacamp.com/"
-  title = "Data Scientist with R"
+  title = "Data Scientist with Python"
   url = "https://learn.datacamp.com/career-tracks/data-scientist-with-python"
   certificate_url = "https://learn.datacamp.com/"
   date_start = "2018-10-01"
-  date_end = "2018-11-01"
+  date_end = ""
   description = ""
   
-
-  
-[[item]]
-  organization = "DataCamp"
-  organization_url = "https://www.datacamp.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
-  url = ""
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
-  description = ""
 
 +++
