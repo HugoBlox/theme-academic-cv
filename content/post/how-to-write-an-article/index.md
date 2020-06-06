@@ -202,4 +202,4 @@ Markdown記法で簡易的なスライドを作成することができます。
 {{</*slide-frame src="スライド名"*/>}}
 ```
 
-{{<slide-frame src="test">}}
+{{<slide-frame src="slide-introduction">}}
