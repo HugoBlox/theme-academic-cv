@@ -21,22 +21,34 @@ date_format = "Jan 2006"
 [[item]]
   organization = "Coursera"
   organization_url = "https://www.coursera.org"
-  title = "Neural Networks and Deep Learning"
-  url = ""
+  title = "Deep Learning Specialization"
+  url = "https://www.coursera.org/specializations/deep-learning"
   certificate_url = "https://www.coursera.org"
-  date_start = "2018-10-01"
-  date_end = ""
+  date_start = "2018-12-06"
+  date_end = "2018-12-18"
   description = ""
 
 [[item]]
-  organization = "edX"
-  organization_url = "https://www.edx.org"
-  title = "Blockchain Fundamentals"
-  url = "https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
-  certificate_url = "https://www.edx.org"
-  date_start = "2018-03-01"
+  organization = "DataCamp"
+  organization_url = "https://learn.datacamp.com/"
+  title = "Data Scientist with R"
+  url = "https://learn.datacamp.com/career-tracks/data-scientist-with-r"
+  certificate_url = "https://learn.datacamp.com/"
+  date_start = ""
+  date_end = "2018-10-01"
+  description = ""
+
+[[item]]
+  organization = "DataCamp"
+  organization_url = "https://learn.datacamp.com/"
+  title = "Data Scientist with R"
+  url = "https://learn.datacamp.com/career-tracks/data-scientist-with-python"
+  certificate_url = "https://learn.datacamp.com/"
+  date_start = "2018-11-01"
   date_end = ""
-  description = "Formulated informed blockchain models, hypotheses, and use cases."
+  description = ""
+  
+
   
 [[item]]
   organization = "DataCamp"
