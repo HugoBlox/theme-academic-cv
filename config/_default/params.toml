@@ -114,7 +114,7 @@ appointment_url = ""
 contact_links = [
   {icon = "twitter", icon_pack = "fab", name = "Tweet Me", link = "https://twitter.com/JonLiebs"},
   {icon = "instagram", icon_pack = "fab", name = "Follow Me", link = "https://www.instagram.com/jonathanliebs/"},
-  {icon = "facebook", icon_pack = "fab", name = "Add Me", link = "https://www.facebook.com/jonathan.lieberman.54/"},
+  {icon = "facebook", icon_pack = "fab", name = "Friend Me", link = "https://www.facebook.com/jonathan.lieberman.54/"},
   #{icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
   #{icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
   #{icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
