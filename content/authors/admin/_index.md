@@ -27,13 +27,13 @@ interests:
 
 education:
   courses:
-  - course: Master's of Computer Science (Machine Learning)
+  - course: Master's of Science, Computer Science
     institution: Georgia Institute of Technology
     year: Current
-  - course: Bachelor of Science in Applied Mathematics 
+  - course: Bachelor of Science, Applied Mathematics 
     institution: Northwestern University
     year: 2017
-  - course: Bachelor of Arts in Economics
+  - course: Bachelor of Arts, Economics
     institution: Northwestern University
     year: 2017
 
