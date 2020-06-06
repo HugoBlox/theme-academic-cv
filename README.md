@@ -14,7 +14,7 @@ $ hugo version
 $ Hugo Static Site Generator v0.72.0-8A7EF3CF/extended darwin/amd64 BuildDate: 2020-05-31T12:12:33Z
 ```
 
-* **Hardware**: 2 CPUs, 8GB memory RAM
+* **Hardware**: 2 CPUs, 8GB memory RAM.
 
 ## Getting started
 
@@ -39,7 +39,7 @@ $ git submodule update --init --recursive
 $ hugo server
 ```
 
-The site will be ready after a while in `http://localhost:1313`
+The site will be ready after a while in `http://localhost:1313`.
 
 ## Support
 

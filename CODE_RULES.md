@@ -95,7 +95,7 @@ For editing your content locally on your computer, we recommend [Visual Studio C
 
 #### (1) Core metadata:
 
-- **title**: the title of your page
+- **title**: the title of your page.
 
 - **summary**: a one-sentence summary of the content on your page. The summary can be shown on the homepage and can also benefit your search engine ranking.
 
@@ -107,7 +107,7 @@ For editing your content locally on your computer, we recommend [Visual Studio C
 
 #### (2) Popular metadata:
 
-- **subtitle**: an optional subtitle that will be displayed under the title
+- **subtitle**: an optional subtitle that will be displayed under the title.
 
 - **featured**: by setting `featured: true`, a page can be displayed in the Featured widget. This is useful for sticky, announcement blog posts or selected publications etc.
 
@@ -117,7 +117,7 @@ For editing your content locally on your computer, we recommend [Visual Studio C
 
 - **publishDate**: the [RFC 3339 date][date] that the page was published. You only need to specify this option if you wish to set **date** in the future but publish the page now, as is the case for publishing a journal article that is to appear in a journal etc.
 
-- **draft**: by setting `draft: true`, only you will see your page when you preview your site locally on your computer
+- **draft**: by setting `draft: true`, only you will see your page when you preview your site locally on your computer.
 
 ### 4.2 Main Content
 
