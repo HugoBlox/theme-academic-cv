@@ -44,6 +44,7 @@ date_format = "Jan 2006"
   Lead Machine Learning Engineer
   * Managing international pool of data science resources to provide Artificial Intelligence functionality across 89 use cases
   * Architecting and implementing easily scalable MLOps through self-auditing experiment tracking and containerized deployments on VM clusters
+  *	Building custom language models using fine-tuned NLP transformer models to automate and enhance customer service experiences 
 
 
   Lead Data Scientist and Data Engineer - Comcast
