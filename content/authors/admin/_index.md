@@ -69,8 +69,8 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Researchers
-- Visitors
+#- Researchers
+#- Visitors
 ---
 
 Jonathan Lieberman is a data science consultant at Accenture and a student in Georgia Tech's Online Master's of Computer Science program.
