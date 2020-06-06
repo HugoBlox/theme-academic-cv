@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Jonathan Lieberman
 
 # Username (this should match the folder name)
 authors:
@@ -10,11 +10,13 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Data Scientist
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
+- name: Georgia Institute of Technology
+  url: ""
+  - name: Northwestern University
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -47,13 +49,16 @@ social:
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://twitter.com/JonLiebs
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/jonathan-lieberman-408254a2/
+- icon: facebook
+  icon_pack: fab
+  link: https://www.facebook.com/jonathan.lieberman.54/
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/JonathanLieberman
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
