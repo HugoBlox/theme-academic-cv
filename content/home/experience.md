@@ -27,9 +27,10 @@ date_format = "Jan 2006"
   description = """
   Responsibilities include:
   
-  * Analysing
-  * Modelling
-  * Deploying
+  * Built, deployed, and maintained macroeconomic forecasting models
+  * Quantified foreign exchange and interest rate risks
+  * Provided strategies to reduce volatility while maximizing profitability
+  * Implemented and tracked global stress-test scenarios, identified areas requiring additional risk management
   """
 
 [[experience]]
@@ -39,6 +40,20 @@ date_format = "Jan 2006"
   location = "Chicago, IL"
   date_start = "2019-03-06"
   date_end = ""
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  description = """
+  Lead Machine Learning Engineer
+  * Managing international pool of data science resources to provide Artificial Intelligence functionality across 89 use cases
+  * Architecting and implementing easily scalable MLOps through self-auditing experiment tracking and containerized deployments on VM clusters
+
+
+  Lead Data Scientist and Data Engineer - Comcast
+  * Managed team developing retail inventory analytics models, quantifying costs of various issues
+  *	Mined shipping, inventory, and sales data for supply chain issue tracking and forecasting
+
+
+  Lead Data Scientist - Salesforce
+  * Led fraud, corruption, and bribery data assessment and proof of concepts
+  * Established roadmap to build and deploy machine learning to monitor business partner risks
+  """
 
 +++
