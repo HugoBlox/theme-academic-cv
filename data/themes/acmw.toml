@@ -13,7 +13,8 @@ menu_text_active = "#7289DA"
 menu_title = "#fff"
 
 # Home sections
-home_section_odd = "hsla(231, 15%, 18%, 1)"
+#home_section_odd = "hsla(231, 15%, 18%, 1)"
+home_section_odd = "#EEA47FFF"
 home_section_even = "hsla(231, 15%, 16%, 1)"
 
 #Trying colors
@@ -27,7 +28,7 @@ home_section_even = "hsla(231, 15%, 16%, 1)"
 # Copper Coin: (#B1624EFF)
 # Aged Copper: (#5CC8D7FF)
 
-# Royal Purple: (#603F83FF) 
+# Royal Purple: (#603F83FF)
 # Ice Flow: (#C7D3D4FF)
 
 # Pale Green: (#CBCE91FF)
@@ -39,7 +40,7 @@ home_section_even = "hsla(231, 15%, 16%, 1)"
 # Lemon Tonic: (#FCF951FF)
 # Purple: (#422057FF)
 
-# Teal: (#4B878BFF) 
+# Teal: (#4B878BFF)
 #Fiery Red: (#D01C1FFF)
 
 # Pale Lilac (#E3C9CEFF) and Lime Green (#9FC131FF)

@@ -19,20 +19,22 @@ organizations:
 - name: University of Central Florida
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio: Constantly on the lookout for anything writing and technology related.
 
 # Add more/change interests if you'd like
 interests:
-- 
+-
 
 
 # Replace with proper information
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-
+  - course: BSc in Computer Science
+    institution: University of Central Florida
+    year: 2021
+  - course: Minor in Writing and Rhetoric
+    institution: University of Central Florida
+    year: 2021
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -43,7 +45,7 @@ education:
 # ============== README ===========================
 
 # TO FIND THE ICONS GO TO: https://fontawesome.com/icons?d=gallery
-# Press on the icon you want, look for: <i class="fas fa-icon-name"></i> 
+# Press on the icon you want, look for: <i class="fas fa-icon-name"></i>
 # above the icon, then fill out the information as such:
 
 # - icon: icon-name
@@ -82,4 +84,4 @@ user_groups:
 
 # Add your biography below the ---
 ---
-
+Hi! I'm Indira and I'm in my final year here at UCF. After being a long-time member of ACM-W, I am very excited to be Secretary this year! Constantly on the lookout for anything along the intersection of communication, culture and technology. (in progress)
