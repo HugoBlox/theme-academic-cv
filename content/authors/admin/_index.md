@@ -16,8 +16,6 @@ role: Data Scientist
 organizations:
 - name: Accenture
   url: ""
-- name: Northwestern University
-  url: ""
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
@@ -31,7 +29,7 @@ education:
   courses:
   - course: Master's of Computer Science (Machine Learning)
     institution: Georgia Institute of Technology
-    year: 
+    year: Current
   - course: Bachelor of Science in Applied Mathematics 
     institution: Northwestern University
     year: 2017
