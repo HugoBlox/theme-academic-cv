@@ -45,12 +45,12 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/JonLiebs
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/jonathan-lieberman-408254a2/
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/JonLiebs
 - icon: facebook
   icon_pack: fab
   link: https://www.facebook.com/jonathan.lieberman.54/
