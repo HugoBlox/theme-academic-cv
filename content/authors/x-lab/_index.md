@@ -20,7 +20,7 @@ organizations:
   url: "http://www.ecnu.edu.cn/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: 技术传播文明，践行同步世界
+bio: 拥抱开源，热爱生活
 
 interests[]:
 - Advocating lofty academic feelings and technical feelings!
