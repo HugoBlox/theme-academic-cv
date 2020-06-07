@@ -1,15 +1,15 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Gitcourse"
-summary: "A react front framework which can present courses made by repositories"
-authors: ["liuchang"]
-tags: ["Cloud Computing", "Open Source"]
-categories: ["Cloud Computing", "Open Source"]
-date: 2020-06-06T14:41:40+08:00
+title: "External Project"
+summary: "An example of linking directly to an external project website using `external_link`"
+authors: ["fangxiaojun"]
+tags: ["demo"]
+categories: ["demo"]
+date: 2020-05-30T17:14:49+08:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://github.com/kfcoding/gitcourse"
+external_link: "https://github.com/wuhan2020/wuhan2020"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

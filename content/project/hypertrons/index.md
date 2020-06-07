@@ -2,14 +2,14 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Hypertrons"
-summary: ""
+summary: "An open source robot hosting platform which supports GitHub and GitLab"
 authors: ["zhaoshengyu"]
-tags: ["big data"]
-categories: ["big data"]
-date: 2020-06-04T14:02:35+08:00
+tags: ["Big Data", "Open Source"]
+categories: ["Big Data", "Open Source"]
+date: 2020-06-05T14:02:35+08:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "https://github.com/hypertrons/hypertrons"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
