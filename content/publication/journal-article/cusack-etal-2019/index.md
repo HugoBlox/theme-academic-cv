@@ -10,7 +10,7 @@ authors:
 - Kelly Pearson-Potts
 - Shuwen Tan
 date:  "2019-10-01"
-doi: ""
+doi: "10.1175/JPO-D-19-0116.1"
 publication_types: ["2"]
 tags: [samoan-passage]
 
@@ -19,14 +19,14 @@ image:
   focal_point: ""
   preview_only: false
 math: true
-publication: "*Journal of Physical Oceanography*"
+publication: "*Journal of Physical Oceanography* 49(12)"
 publication_short: ""
 featured: false
 
 title: "Persistent Turbulence in the Samoan Passage"
 url_code: ""
 url_dataset: ""
-url_pdf: ""
+url_pdf: "http://journals.ametsoc.org/doi/pdf/10.1175/JPO-D-19-0116.1"
 url_project: ""
 url_slides: ""
 url_video: ""
