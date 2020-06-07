@@ -1,6 +1,6 @@
 ---
 install:
-  - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.72/hugo_0.72_Linux-64bit.deb
+  - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.72.0/hugo_0.72.0_Linux-64bit.deb
   - sudo dpkg -i /tmp/hugo.deb
 
 script:
