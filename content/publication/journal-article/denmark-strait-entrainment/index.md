@@ -3,7 +3,7 @@ abstract: " The entrainment of buoyant ambient water into the overflow plume of 
 abstract_short: "Lateral entrainment into the Denmark Strait overflow plume driven by stirring through meso-scale eddies."
 summary: "Lateral entrainment into the Denmark Strait overflow plume driven by stirring through meso-scale eddies."
 authors:
-- gunnar
+- Gunnar Voet
 - Detlef Quadfasel
 date: "2010-03-01"
 doi: "10.5194/os-6-301-2010"

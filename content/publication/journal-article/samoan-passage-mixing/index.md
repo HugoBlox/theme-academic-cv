@@ -3,7 +3,7 @@ abstract: "We report the first direct turbulence observations in the Samoan Pass
 authors:
 - Matthew Alford
 - James Girton
-- gunnar
+- Gunnar Voet
 - Glenn Carter
 - John Mickett
 - Jody Klymak
