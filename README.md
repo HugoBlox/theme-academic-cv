@@ -18,7 +18,7 @@ $ Hugo Static Site Generator v0.72.0-8A7EF3CF/extended darwin/amd64 BuildDate: 2
 
 ## Getting started
 
-Make sure that you have installed `Git` and `Hugo`, in particular, you must install Hugo with its [extended_0.65+ version][hugo-version]. And then set
+Make sure that you have installed `Git` and `Hugo`, **in particular**, you must install Hugo with its [extended_0.65+ version][hugo-version]. And then set
 
 Steps:
 
