@@ -19,9 +19,14 @@
   weight = 30
 
 [[main]]
+  name = "Software"
+  url = "#software"
+  weight = 40
+
+[[main]]
   name = "Posts"
   url = "#posts"
-  weight = 40
+  weight = 45
 
 [[main]]
   name = "Experience"

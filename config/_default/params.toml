@@ -144,7 +144,7 @@ address_format = "en-us"
 
 # NEW
 # Main menu alignment (l = left, c = center, r = right) and logo options.
-# main_menu = {align = "l", show_logo = true}
+main_menu = {align = "r", show_logo = true}
 
 # Get user avatars from Gravatar.com? (true/false)
 gravatar = false
