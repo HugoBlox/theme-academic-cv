@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Gitcourse"
+title: "GitCourse"
 summary: "A react front framework which can present courses made by repositories"
 authors: ["liuchang"]
 tags: ["Cloud Computing", "Open Source"]

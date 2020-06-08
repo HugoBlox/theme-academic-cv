@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Writing technical content in Academic"
+title: "Writing Technical Content in Academic"
 subtitle: "Learn how to write technical content by using various skills"
 summary: "Learn how to write technical content by using various skills"
 authors: ["fangxiaojun"]

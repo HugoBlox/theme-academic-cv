@@ -93,7 +93,7 @@ address = {street = "3663 North Zhongshan Road", region = "Putuo District", city
 coordinates = {latitude = "31.229153", longitude = "121.403801"}
 
 # Directions for visitors to locate you.
-directions = "Enter the Building and Go to Office East 119 on Floor 1"
+directions = "Enter the Math Building and Go to Office East 119 on Floor 1"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
