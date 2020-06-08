@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Hypertrons"
-summary: "An open source robot hosting platform which supports GitHub and GitLab"
+summary: "An open source robot hosting platform which supports GitHub and GitLab."
 authors: ["zhaoshengyu"]
 tags: ["Big Data", "Open Source"]
 categories: ["Big Data", "Open Source"]

@@ -31,7 +31,7 @@ The language has been designed to be easily annotated through the addition of ly
 
 
 # Summary. An optional shortened abstract.
-summary: "A grammar for encoding roman numeral analysis annotations within the lyrics of a symbolic music representation"
+summary: "A grammar for encoding roman numeral analysis annotations within the lyrics of a symbolic music representation."
 
 tags:
 - Demo

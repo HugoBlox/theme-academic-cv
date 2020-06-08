@@ -3,7 +3,7 @@
 
 title: "Writing Technical Content in Academic"
 subtitle: "Learn how to write technical content by using various skills"
-summary: "Learn how to write technical content by using various skills"
+summary: "Learn how to write technical content by using various skills."
 authors: ["fangxiaojun"]
 tags: ["technology"]
 categories: ["technology"]

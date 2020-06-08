@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "External Project"
-summary: "An example of linking directly to an external project website using `external_link`"
+summary: "An example of linking directly to an external project website using `external_link`."
 authors: ["fangxiaojun"]
 tags: ["demo"]
 categories: ["demo"]

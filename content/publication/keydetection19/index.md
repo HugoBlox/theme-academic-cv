@@ -28,7 +28,7 @@ We discuss the local key-finding capabilities of the algorithm, presenting an ex
 Since different key profiles will tend to err or misclassify in different ways and across different pieces, we train an ensemble method with the predictions from all the key profiles (6) through our model. We show that the ensemble method achieves state-of- the-art performance for major and overall keys, however, it still underperforms the state-of-the-art for minor keys."
 
 # Summary. An optional shortened abstract.
-summary: "A new key detection algorithm that works in the symbolic and audio domain, furthermore, it is able to output local and global keys"
+summary: "A new key detection algorithm that works in the symbolic and audio domain, furthermore, it is able to output local and global keys."
 
 tags:
 - Demo

@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Internal Project"
-summary: "An example of using the in-built project page"
+summary: "An example of using the in-built project page."
 authors: ["fangxiaojun"]
 tags: ["Demo"]
 categories: ["Demo"]
