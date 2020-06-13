@@ -1,6 +1,6 @@
 ---
 title: "SkyhookDM: Data Processing in Ceph with Programmable Storage"
-date: 2020-01-01
+date: 2020-06-12
 publishDate: 2020-06-13T01:39:15.018368Z
 authors: ["Jeff LeFevre", "Carlos Maltzahn"]
 publication_types: ["2"]
