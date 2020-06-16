@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yoshiken | アプリNaviブログ</title>
+    <link>https://blog.opuappnavi.com/author/yoshiken/</link>
+      <atom:link href="https://blog.opuappnavi.com/author/yoshiken/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yoshiken</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710  2020</copyright>
+    <image>
+      <url>https://blog.opuappnavi.com/author/yoshiken/avatar_hue23e6e46f9b15a70320d89c05462c5d5_146366_270x270_fill_lanczos_center_2.png</url>
+      <title>Yoshiken</title>
+      <link>https://blog.opuappnavi.com/author/yoshiken/</link>
+    </image>
+    
+  </channel>
+</rss>
