@@ -9,7 +9,7 @@ tags: []
 categories: []
 date: 2020-06-17T00:17:53+09:00
 featured: false
-draft: true
+draft: false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
