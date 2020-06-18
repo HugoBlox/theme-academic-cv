@@ -16,7 +16,6 @@ role: PhD Student
 
 # Organizations/Affiliations
 organizations:
-organizations:
 - name: "Institute for Datability Science"
   url: "http://www.ids.osaka-u.ac.jp/"
 - name: "Graduate School of Information Science and Technology"
