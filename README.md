@@ -1,5 +1,7 @@
 This site is built with:
-# Academic Kickstart: The Template for [Academic Website Builder](https://sourcethemes.com/academic/)
+# [Academic Website Builder](https://sourcethemes.com/academic/)
+
+You can make changes on the files and then make pull requests, with branch name `dev`. After reviewing, your changes can be merged to `master`, which will be published. 
 
 ## Publication list
 
