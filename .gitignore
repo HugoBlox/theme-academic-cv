@@ -4,3 +4,5 @@
 # Hugo
 resources/
 public/
+
+.DS_Store
