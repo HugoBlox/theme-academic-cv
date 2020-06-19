@@ -59,8 +59,8 @@ time_format = "3:04 PM"
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "kloken@ucdavis.edu"
-phone = "TBD"
-address = "1073 Academic Surge, University of California, Davis"
+phone = "530-754-1670"
+address = "1063 Academic Surge, University of California, Davis"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = """"""
