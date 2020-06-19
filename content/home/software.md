@@ -68,3 +68,8 @@ Somewhat random collection of data analysis code snippets written in Python. Sha
 [{{< icon name="github" pack="fab" padding_left="1" >}} code](https://github.com/gunnarvoet/gvpy)
 &nbsp; / &nbsp;
 [{{< icon name="book" pack="fas" padding_left="1" >}} docs](https://gunnarvoet.github.io/gvpy)
+
+### watchmagic
+Add a magic command to IPython that will watch out for file changes and re-evaluate a notebook cell if any changes occur.
+
+[{{< icon name="github" pack="fab" padding_left="1" >}} code](https://github.com/gunnarvoet/watchmagic)
