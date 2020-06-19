@@ -24,21 +24,20 @@ bio:
 
 # List each interest with a dash
 interests:
-- Image and Video Processing
 - Computer Vision
 - Deep Learning
-- Feature Extraction
-- Biometric Identification and Verification
-- Text Detection and Recognition
+- Facial Expression Analysis
+- Pose Recognition
+- Medical Imaging
 
   
 #education:
 #  courses:
-#  - course: Title course 1
-#    institution: Name of Institution
-#    year: 2012
-#  - course: Title course 1
-#    institution: Name of Institution
+#  - course: PhD in Mathematics
+#    institution: Indian Institute of Technology Roorkee, India
+#    year: 2016
+#  - course: MSc in Industrial Mathematics and Informatics
+#    institution: Indian Institute of Technology Roorkee, India
 #    year: 2012
 
 # Social/Academic Networking
@@ -52,9 +51,12 @@ social:
 #- icon: twitter
 #  icon_pack: fab
 #  link: https://twitter.com/USERNAME
-#- icon: google-scholar
-#  icon_pack: ai
-#  link: https://scholar.google.com/citations?user=LNvd0VQAAAAJ
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.co.jp/citations?user=XA2Qul0AAAAJ&hl=en
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/manishaverma071989
 #- icon: github
 #  icon_pack: fab
 #  link: https://github.com/USERNAME
