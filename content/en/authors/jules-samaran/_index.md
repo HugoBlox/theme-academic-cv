@@ -1,12 +1,12 @@
 ---
 # Display name
-title: "Jules Saraman"
+title: "Jules Samaran"
 
 weight: 100
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "jules-saraman"
+- "jules-samaran"
 
 # Is this the primary user of the site?
 superuser: false
