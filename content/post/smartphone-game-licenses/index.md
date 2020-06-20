@@ -73,6 +73,12 @@ projects: []
 
 ライセンス一覧はポリゴンフォンをタップして、「その他」&rarr;「このアプリについて」&rarr;「権利表記」で見ることができます。
 
+## マリカ
+
+正式タイトルは「マリオカートツアー」です。([公式サイト](https://mariokarttour.com/ja-JP))
+
+ライセンス一覧は「メニュー」&rarr;「設定」&rarr;「ヘルプとお問い合わせ」&rarr;「権利表記」で見ることができます。
+
 ## とあるIF
 
 正式タイトルは「とある魔術の禁書目録　インテグラルファクター」です。([公式サイト](https://www.jp.square-enix.com/index-if/))
@@ -103,6 +109,7 @@ projects: []
 |    SAO AB    |       Cocos2d-x        | Spine / Sprite Studio |
 | FEヒーローズ |       Cocos2d-x        |                       |
 |   ポケマス   |       Cocos2d-x        |                       |
+|    マリカ    |          Unity         |                       |
 |   とあるIF   |          Unity         |        Live 2D        |
 |  このファン  |          Unity         |        Live 2D        |
 |    装甲娘    |          Unity         |        Live 2D        |
