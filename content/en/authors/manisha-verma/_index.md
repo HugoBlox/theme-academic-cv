@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Postdoctoral Follow
+role: Postdoctoral Fellow
 
 # Organizations/Affiliations
 organizations:
