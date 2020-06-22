@@ -3,37 +3,28 @@
 {{ $avatar_shape := site.Params.avatar.shape | default "circle" }}
 {{ $no_author_image := (site.GetPage "/authors").Resources.GetMatch "no_author_image.png" }}
 
-{{ $scratch_key_page_groups_year := "page_groups_year" }}
-{{ $scratch_key_page_groups_others := "page_groups_others" }}
 {{ $university_year_list := slice "1年" "2年" "3年" "4年" "M1" "M2" "D1" "D2" }}
-{{ $scratch := newScratch }}
+{{ $page_groups_year := dict}}
+{{ $page_groups_others := dict}}
 {{ range $author_pages }}
   {{ $page := .}}
-  {{ $year := partial "university_grade" $page.Params.University }}
-
+  {{ $year := partial "functions/university_grade" $page.Params.University }}
   {{ if in $university_year_list $year }}
-    {{ if not ($scratch.Get $scratch_key_page_groups_year) }}
-      {{ $scratch.SetInMap $scratch_key_page_groups_year $year (slice $page) }}
-    {{ else if (index ($scratch.Get $scratch_key_page_groups_year) $year)}}
-      {{ $pages := (index ($scratch.Get $scratch_key_page_groups_year) $year) }}
-      {{ $scratch.SetInMap $scratch_key_page_groups_year $year ($pages | append $page) }}
+    {{ with index $page_groups_year $year}}
+      {{ $page_groups_year = merge $page_groups_year (dict $year (. | append $page))}}
     {{ else }}
-      {{ $scratch.SetInMap $scratch_key_page_groups_year $year (slice $page) }}
+      {{ $page_groups_year = merge $page_groups_year (dict $year (slice $page))}}
     {{ end }}
   {{ else }}
-    {{ if not ($scratch.Get $scratch_key_page_groups_others) }}
-      {{ $scratch.SetInMap $scratch_key_page_groups_others $year (slice $page) }}
-    {{ else if (index ($scratch.Get $scratch_key_page_groups_others) $year)}}
-      {{ $pages := (index ($scratch.Get $scratch_key_page_groups_others) $year) }}
-      {{ $scratch.SetInMap $scratch_key_page_groups_others $year ($pages | append $page) }}
+    {{ with index $page_groups_others $year}}
+      {{ $page_groups_others = merge $page_groups_others (dict $year (. | append $page))}}
     {{ else }}
-      {{ $scratch.SetInMap $scratch_key_page_groups_others $year (slice $page) }}
+      {{ $page_groups_others = merge $page_groups_others (dict $year (slice $page))}}
     {{ end }}
   {{ end }}
 {{ end }}
 
 <div class="author-card-list">
-  {{ $page_groups_year := $scratch.Get $scratch_key_page_groups_year}}
   {{range $university_year_list}}
     {{ $year := . }}
     {{ with (index $page_groups_year $year) }}
@@ -41,43 +32,7 @@
       {{ partial "author_page_group" (dict "avatar_shape" $avatar_shape "no_author_image" $no_author_image "year" $year "pages" $pages) }}
     {{ end }}
   {{ end }}
-  {{ range $year, $pages := ($scratch.Get  $scratch_key_page_groups_others) }}
+  {{ range $year, $pages := $page_groups_others }}
     {{ partial "author_page_group" (dict "avatar_shape" $avatar_shape "no_author_image" $no_author_image "year" $year "pages" $pages) }}
   {{ end }}
 </div>
-{{/*{{ $year := 0 }}
-{{ $has_no_authors := false}}
-{{ $is_first_author_of_the_year := true}}
-<div class="author-card-list">
-  {{ range sort (apply $author_pages "partial" "functions/get_author_dict.html" ".") "year" "desc" }}
-    {{ if ne $year .year }}
-      {{if not $is_first_author_of_the_year}}
-        </div>
-      {{else}}
-        {{$is_first_author_of_the_year = false}}
-      {{end}}
-      <h2 class="author-card-container-title">{{ partial "university_grade" .page.Params.university }}</h2>
-      <div class="author-card-container">
-    {{ end }}
-    {{ $year = .year }}
-    {{ $image_src := $no_author_image.RelPermalink }}
-    {{ with (.page.Resources.ByType "image").GetMatch "avatar.*" }}
-      {{ $image_src = .RelPermalink }}
-    {{ end }}
-    <div class="card author">
-      <a href="{{ .page.RelPermalink }}" style="text-decoration: none;" >
-        <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{$image_src}}" alt="{{.page.Title}}" >
-        <div style="width: 100%;">
-          <h5 class="card-title">{{.page.Title}}</h5>
-          {{ with .page.Params.role }}<h6 class="card-subtitle">{{. | markdownify | emojify}}</h6>{{end}}
-        </div>
-        {{ with .page.Params.bio }}<p class="card-text">{{. | markdownify | emojify}}</p>{{end}}
-      </a>
-    </div>
-  {{else}}
-    {{ $has_no_authors = true}}
-  {{end}}
-  {{if not $has_no_authors}}
-    </div>
-  {{end}}
-</div>*/}}

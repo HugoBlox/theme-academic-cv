@@ -14,12 +14,8 @@
   {{ with .Content }}
   <div class="article-style">{{ . }}</div>
   {{ end }}
-
-  {{ $paginator := .Paginate .Data.Pages }}
   
-  {{ partial "list_authors" $paginator.Pages }}
-
-  {{ partial "pagination" . }}
+  {{ partial "list_authors" .Data.Pages }}
 </div>
 
 {{- end -}}

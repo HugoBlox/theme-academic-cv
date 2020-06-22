@@ -9,12 +9,16 @@
     {{if $author_university.year_offset}}
         {{$university_grade_number = add $university_grade_number $author_university.year_offset}}
     {{end}}
-    {{if gt $university_grade_number 4}}    {{/*院生*/}}
-        {{$university_grade = print "M" (sub $university_grade_number 4)}}
-    {{else}}                                {{/*学域生*/}}
+    {{if le $university_grade_number 4}}    {{/* 学域 */}}
         {{$university_grade = print $university_grade_number "年"}}
+    {{else if le $university_grade_number 6}} {{/* 修士 */}}
+        {{$university_grade = print "M" (sub $university_grade_number 4)}}
+    {{else if le $university_grade_number 8}} {{/* 学士 */}}
+        {{$university_grade = print "D" (sub $university_grade_number 6)}}
+    {{else}}
+        {{ $university_grade =  "OB" }}
     {{end}}
 {{else}}
-    {{ $university_grade =  "その他" }}
+{{ $university_grade =  "その他" }}
 {{end}}
 {{return $university_grade}}    

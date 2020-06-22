@@ -36,7 +36,7 @@
         {{ with $person.university }}
         <h3>
             <span>{{ .faculty }}<br>{{ .department }}<br>{{ .course }}
-            {{ partial "university_grade" . }}
+            {{ partial "functions/university_grade" . }}
             </span>
             {{ if .url }}</a>{{ end }}
         </h3>
