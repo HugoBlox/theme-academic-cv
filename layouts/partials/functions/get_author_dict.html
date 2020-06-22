@@ -1,1 +1,8 @@
-{{return (dict "year" .Params.university.enrollment "page" .)}}
+{{$author_university := .Params.university}}
+{{$enrollment := 0 }}
+{{with $author_university.enrollment}}
+    {{$enrollment = . }}
+{{else}}
+    {{errorf "著者%sには入学年度`enrollment`を設定する必要があります。" .Params.title}}
+{{end}}
+{{return (dict "year" $enrollment "page" .)}}

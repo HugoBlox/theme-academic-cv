@@ -1,12 +1,20 @@
 {{$author_university :=  .}}
 {{$university_grade := ""}}
-{{with $author_university.grade_label}}
-    {{$university_grade = .}}
-{{else}}
-    {{$enrollment := default 0 .enrollment}}
-    {{$university_grade_number := partial "functions/university_current_year" .}}
-    {{$university_grade_number := sub $university_grade_number $enrollment}}
+{{if $author_university.grade_label}}
+    {{$university_grade = $author_university.grade_label}}
+{{else if $author_university.enrollment}}
+    {{$university_current_year := partial "functions/university_current_year" .}}
+    {{$university_grade_number := sub $university_current_year $author_university.enrollment}}
     {{$university_grade_number = add $university_grade_number 1}}
-    {{$university_grade = print $university_grade_number "年"}}
+    {{if $author_university.year_offset}}
+        {{$university_grade_number = add $university_grade_number $author_university.year_offset}}
+    {{end}}
+    {{if gt $university_grade_number 4}}    {{/*院生*/}}
+        {{$university_grade = print "M" (sub $university_grade_number 4)}}
+    {{else}}                                {{/*学域生*/}}
+        {{$university_grade = print $university_grade_number "年"}}
+    {{end}}
+{{else}}
+    {{ $university_grade =  "その他" }}
 {{end}}
 {{return $university_grade}}    
