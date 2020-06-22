@@ -18,6 +18,7 @@ superuser: false
 #  course: 課程
 #  enrollment: 入学した年度（例：「2019」）
 #  year_offset: 留年・飛び級などで学年がずれる場合、そのずれた年数(例：「1」「-1」) (空白のままなら無視される)
+#  grade_label: 「〇年」「M〇」の代わりに別の文言を表示したい場合 (空白のままなら無視される)
 
 university:
   faculty: 
@@ -25,6 +26,7 @@ university:
   course: 
   enrollment: 
   year_offset: 
+  grade_label:
 
 # Short bio (displayed in user profile at end of posts)
 #bio: My research interests include distributed robotics, mobile computing and programmable matter.

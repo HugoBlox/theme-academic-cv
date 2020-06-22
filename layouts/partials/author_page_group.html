@@ -1,0 +1,47 @@
+{{ $dict := .}}
+{{ $avatar_shape := index $dict "avatar_shape" }}
+{{ $no_author_image := index $dict "no_author_image" }}
+{{ $year := index $dict "year" }}
+<h2 class="author-card-container-title">{{ $year}}</h2>
+<div class="author-card-container">
+  {{ range (index $dict "pages") }}
+    {{ $page := . }}
+    {{ $image_src := $no_author_image.RelPermalink }}
+    {{ with ($page.Resources.ByType "image").GetMatch "avatar.*" }}
+      {{ $image_src = .RelPermalink }}
+    {{ end }}
+    <div class="card author">
+      <a href="{{ $page.RelPermalink }}" style="text-decoration: none;" >
+        <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{$image_src}}" alt="{{$page.Title}}" >
+        <div style="width: 100%;">
+          <h5 class="card-title">{{$page.Title}}</h5>
+          {{ with $page.Params.role }}<h6 class="card-subtitle">{{. | markdownify | emojify}}</h6>{{end}}
+        </div>
+        {{ with $page.Params.bio }}<p class="card-text">{{. | markdownify | emojify}}</p>{{end}}
+      </a>
+    </div>
+  {{ end }}
+</div>
+
+
+{{/*
+{{ $image_src := $no_author_image.RelPermalink }}
+{{ with (.page.Resources.ByType "image").GetMatch "avatar.*" }}
+  {{ $image_src = .RelPermalink }}
+{{ end }}
+<div class="card author">
+  <a href="{{ .page.RelPermalink }}" style="text-decoration: none;" >
+    <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{$image_src}}" alt="{{.page.Title}}" >
+    <div style="width: 100%;">
+      <h5 class="card-title">{{.page.Title}}</h5>
+      {{ with .page.Params.role }}<h6 class="card-subtitle">{{. | markdownify | emojify}}</h6>{{end}}
+    </div>
+    {{ with .page.Params.bio }}<p class="card-text">{{. | markdownify | emojify}}</p>{{end}}
+  </a>
+</div>
+{{else}}
+{{ $has_no_authors = true}}
+{{end}}
+{{if not $has_no_authors}}
+</div>
+*/}}
