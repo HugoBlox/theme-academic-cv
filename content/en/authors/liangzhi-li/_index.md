@@ -31,37 +31,44 @@ interests:
 - Medical Imaging
 
   
-#education:
-#  courses:
-#  - course: Title course 1
-#    institution: Name of Institution
-#    year: 2012
-#  - course: Title course 1
-#    institution: Name of Institution
-#    year: 2012
+# education:
+#   courses:
+#   - course: PhD in Engineering
+#     institution: Muroran Institute of Technology, Japan
+#     year: 2019
+#   - course: MEng in Computer Science
+#     institution: South China University of Technology (SCUT)
+#     year: 2016
+#   - course: BSc in Computer Science
+#     institution: South China University of Technology (SCUT)
+#     year: 2012
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-#- icon: envelope
-#  icon_pack: fas
-#  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-#- icon: twitter
-#  icon_pack: fab
-#  link: https://twitter.com/USERNAME
-#- icon: google-scholar
-#  icon_pack: ai
-#  link: https://scholar.google.com/citations?user=LNvd0VQAAAAJ
-#- icon: github
-#  icon_pack: fab
-#  link: https://github.com/USERNAME
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: safari
+  icon_pack: fas
+  link: 'https://www.liangzhili.com' 
+- icon: envelope
+  icon_pack: fas
+  link: 'mailto:li@ids.osaka-u.ac.jp'  # For a direct email link, use "mailto:test@example.org".
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=JIRw_tMAAAAJ
+- icon: github
+  icon_pack: fab
+  link: https://github.com/conscienceli
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/jconlee8
+- icon: facebook
+  icon_pack: fab
+  link: https://www.facebook.com/liliangzhi
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/liangzhi-li-80a553154/
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
