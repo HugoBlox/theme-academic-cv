@@ -3,7 +3,7 @@
 
 title: "Finden die Feen 開発記録"
 subtitle: ""
-summary: "PC用ゲーム「Finden die Feen」の企画から公開までの開発記録"
+summary: "Finden die Feen の企画から公開までの開発記録"
 authors: ["yan"]
 tags: []
 categories: []
