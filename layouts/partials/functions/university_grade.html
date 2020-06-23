@@ -7,7 +7,7 @@
     {{$university_grade_number := sub $university_current_year $author_university.enrollment}}
     {{$university_grade_number = add $university_grade_number 1}}
     {{if $author_university.year_offset}}
-        {{$university_grade_number = add $university_grade_number $author_university.year_offset}}
+        {{$university_grade_number = sub $university_grade_number $author_university.year_offset}}
     {{end}}
     {{if le $university_grade_number 4}}    {{/* 学域 */}}
         {{$university_grade = print $university_grade_number "年"}}

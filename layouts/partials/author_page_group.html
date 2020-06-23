@@ -1,14 +1,15 @@
-{{ $dict := .}}
-{{ $avatar_shape := index $dict "avatar_shape" }}
-{{ $no_author_image := index $dict "no_author_image" }}
-{{ $year := index $dict "year" }}
+{{ $params := .}}
+{{ $avatar_shape := index $params "avatar_shape" }}
+{{ $year := index $params "year" }}
 <h2 class="author-card-container-title">{{ $year}}</h2>
 <div class="author-card-container">
-  {{ range (index $dict "pages") }}
+  {{ range (index $params "pages") }}
     {{ $page := . }}
-    {{ $image_src := $no_author_image.RelPermalink }}
+    {{ $image_src := "" }}
     {{ with ($page.Resources.ByType "image").GetMatch "avatar.*" }}
       {{ $image_src = .RelPermalink }}
+    {{ else }}
+      {{errorf "著者%sにアイコン画像がありません。" $page.Title }}
     {{ end }}
     <div class="card author">
       <a href="{{ $page.RelPermalink }}" style="text-decoration: none;" >

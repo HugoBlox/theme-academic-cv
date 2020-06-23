@@ -4,22 +4,54 @@
 {{ $no_author_image := (site.GetPage "/authors").Resources.GetMatch "no_author_image.png" }}
 
 {{ $university_year_list := slice "1年" "2年" "3年" "4年" "M1" "M2" "D1" "D2" }}
-{{ $page_groups_year := dict}}
-{{ $page_groups_others := dict}}
+{{ $page_groups := dict}}
+{{ range $author_pages }}
+  {{ $page := .}}
+  {{ $year := partial "functions/university_grade" $page.Params.University }}
+  {{ with index $page_groups $year}}
+    {{ $page_groups = merge $page_groups (dict $year (. | append $page))}}
+  {{ else }}
+    {{ $page_groups = merge $page_groups (dict $year (slice $page))}}
+  {{ end }}
+{{ end }}
+
+<div class="author-card-list">
+  {{range $university_year_list}}
+    {{ $year := . }}
+    {{ with (index $page_groups $year) }}
+      {{ $pages := . }}
+      {{ partial "author_page_group" (dict "avatar_shape" $avatar_shape "year" $year "pages" $pages) }}
+      {{ $page_groups =  partial "functions/dict_remove" (dict "dict" $page_groups "key" $year) }}
+    {{ end }}
+  {{ end }}
+  {{ range $year, $pages := $page_groups }}
+    {{ partial "author_page_group" (dict "avatar_shape" $avatar_shape "year" $year "pages" $pages) }}
+  {{ end }}
+</div>
+
+{{/*
+{{ $author_pages := . }}
+{{ $university_current_year :=  partial "functions/university_current_year" . }}
+{{ $avatar_shape := site.Params.avatar.shape | default "circle" }}
+{{ $no_author_image := (site.GetPage "/authors").Resources.GetMatch "no_author_image.png" }}
+
+{{ $university_year_list := slice "1年" "2年" "3年" "4年" "M1" "M2" "D1" "D2" }}
+{{ $page_groups := dict}}
+{{ $page_groups := dict}}
 {{ range $author_pages }}
   {{ $page := .}}
   {{ $year := partial "functions/university_grade" $page.Params.University }}
   {{ if in $university_year_list $year }}
-    {{ with index $page_groups_year $year}}
-      {{ $page_groups_year = merge $page_groups_year (dict $year (. | append $page))}}
+    {{ with index $page_groups $year}}
+      {{ $page_groups = merge $page_groups (dict $year (. | append $page))}}
     {{ else }}
-      {{ $page_groups_year = merge $page_groups_year (dict $year (slice $page))}}
+      {{ $page_groups = merge $page_groups (dict $year (slice $page))}}
     {{ end }}
   {{ else }}
-    {{ with index $page_groups_others $year}}
-      {{ $page_groups_others = merge $page_groups_others (dict $year (. | append $page))}}
+    {{ with index $page_groups $year}}
+      {{ $page_groups = merge $page_groups (dict $year (. | append $page))}}
     {{ else }}
-      {{ $page_groups_others = merge $page_groups_others (dict $year (slice $page))}}
+      {{ $page_groups = merge $page_groups (dict $year (slice $page))}}
     {{ end }}
   {{ end }}
 {{ end }}
@@ -27,12 +59,13 @@
 <div class="author-card-list">
   {{range $university_year_list}}
     {{ $year := . }}
-    {{ with (index $page_groups_year $year) }}
+    {{ with (index $page_groups $year) }}
       {{ $pages := . }}
       {{ partial "author_page_group" (dict "avatar_shape" $avatar_shape "no_author_image" $no_author_image "year" $year "pages" $pages) }}
     {{ end }}
   {{ end }}
-  {{ range $year, $pages := $page_groups_others }}
+  {{ range $year, $pages := $page_groups }}
     {{ partial "author_page_group" (dict "avatar_shape" $avatar_shape "no_author_image" $no_author_image "year" $year "pages" $pages) }}
   {{ end }}
-</div>
+</div>  
+*/}}

@@ -1,0 +1,10 @@
+{{ $params := . }}
+{{ $dict := index $params "dict" }}
+{{ $target := index $params "key" }}
+{{ $removed_dict := dict }}
+{{ range $key, $value := $dict }}
+  {{ if ne $key $target }}
+    {{ $removed_dict = merge $removed_dict (dict $key $value) }}
+  {{ end }}
+{{ end }}
+{{ return $removed_dict }}
