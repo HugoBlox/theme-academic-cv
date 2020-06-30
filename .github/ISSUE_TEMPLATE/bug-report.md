@@ -1,18 +1,26 @@
 ---
 name: Bug Report
-about: Report a bug encountered while using GitCourse
+about: Report a bug to help us improve
 labels: kind/bug
-
 ---
 
-<!-- Please use this template while reporting a bug and provide as much info as possible. Not doing so may result in your bug not being addressed in a timely manner. Thanks!
--->
+## What happened
 
+A clear and concise description of what the bug is.
 
-**What happened**:
+## How to reproduce it (as minimally and precisely as possible)
 
-**What you expected to happen**:
+**Steps to reproduce the behavior:** 
 
-**How to reproduce it (as minimally and precisely as possible)**:
+1. 
+2.
 
-**Anything else we need to know?**:
+## What you expected to happen
+
+1. 
+2.
+
+## Anything else we need to know?:
+
+- **Platform**:
+- **Hugo Version**:
