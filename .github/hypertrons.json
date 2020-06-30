@@ -67,19 +67,19 @@
         {
           "name": "committer",
           "description": "Committer of the project",
-          "users": [ "leofang", "WuShaoling", "frank-zsy", "will-ww", "Jerry", "heming6666" ],
+          "users": [ "leofang327", "WuShaoling", "frank-zsy", "will-ww", "Jerry", "heming6666" ],
           "commands": [ "/difficulty", "/rerun", "/complete-checklist", "/start-vote" ]
         },
         {
           "name": "replier",
           "description": "Replier is responsible for reply issues in time",
-          "users": [ "leofang", "heming6666" ],
+          "users": [ "leofang327", "heming6666" ],
           "commands": []
         },
         {
           "name": "approver",
           "description": "After approvers' approve, pulls should be merged automatically",
-          "users": [ "leofang", "WuShaoling", "frank-zsy", "will-ww", "Jerry", "heming6666"  ],
+          "users": [ "leofang327", "WuShaoling", "frank-zsy", "will-ww", "Jerry", "heming6666"  ],
           "commands": [ "/approve" ]
         },
         {
