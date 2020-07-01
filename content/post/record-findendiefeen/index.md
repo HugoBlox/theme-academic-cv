@@ -6,7 +6,7 @@ subtitle: ""
 summary: "Finden die Feen の企画から公開までの開発記録"
 authors: ["yan"]
 tags: ["Unity"]
-categories: ["Works"]
+categories: ["作品紹介"]
 date: 2020-06-22T18:54:11+09:00
 featured: false
 draft: false

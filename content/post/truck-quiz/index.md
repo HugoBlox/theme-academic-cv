@@ -3,10 +3,10 @@
 
 title: "Truck Quiz"
 subtitle: ""
-summary: "作品紹介"
+summary: "春休みの間に作ったゲームの紹介"
 authors: ["juris710"]
 tags: ["Unity"]
-categories: ["Works"]
+categories: ["作品紹介"]
 date: 2020-04-28T15:07:58+09:00
 featured: false
 draft: false

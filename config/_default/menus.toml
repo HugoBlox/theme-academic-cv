@@ -24,7 +24,7 @@
 
 [[main]]
   name = "Works"
-  url = "category/works"
+  url = "category/作品紹介"
   weight = 50
 
 #[[main]]

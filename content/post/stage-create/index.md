@@ -6,7 +6,7 @@ subtitle: ""
 summary: "2Dステージ作成の時に僕が考えていたことのまとめです"
 authors: ["yamaguchi"]
 tags: ["Unity"]
-categories: ["Works"]
+categories: ["作品紹介"]
 date: 2020-05-30T10:17:55+09:00
 featured: false
 draft: false
