@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.opuappnavi.com/tags/</loc>
+    <lastmod>2020-07-01T19:45:08+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.opuappnavi.com/tag/%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92/</loc>
+    <lastmod>2020-07-01T19:45:08+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.opuappnavi.com/post/machine-learning-newbie/</loc>
+    <lastmod>2020-07-01T19:45:08+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.opuappnavi.com/categories/</loc>
     <lastmod>2020-06-28T22:09:26+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.opuappnavi.com/post/record-findendiefeen/</loc>
-    <lastmod>2020-06-28T22:09:26+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.opuappnavi.com/tags/</loc>
     <lastmod>2020-06-28T22:09:26+09:00</lastmod>
   </url>
   

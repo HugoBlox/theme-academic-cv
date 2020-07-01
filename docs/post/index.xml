@@ -1,16 +1,261 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>記事一覧 | アプリNaviブログ</title>
+    <title>記事�?覧 | アプリNaviブログ</title>
     <link>https://blog.opuappnavi.com/post/</link>
       <atom:link href="https://blog.opuappnavi.com/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>記事一覧</description>
+    <description>記事�?覧</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710  2020</copyright>
     <image>
       <url>https://blog.opuappnavi.com/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url>
-      <title>記事一覧</title>
+      <title>記事�?覧</title>
       <link>https://blog.opuappnavi.com/post/</link>
     </image>
+    
+    <item>
+      <title>機械学習�?��?</title>
+      <link>https://blog.opuappnavi.com/post/machine-learning-newbie/</link>
+      <pubDate>Wed, 01 Jul 2020 10:11:52 +0900</pubDate>
+      <guid>https://blog.opuappnavi.com/post/machine-learning-newbie/</guid>
+      <description>&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;
+&lt;p&gt;こ�?�記事�?�多くの�?系大学生が1年生時に習う微�?積�?、線形代数が機械学習�?��?野においてどの様に活用されて�?る�?�かを示すことで勉強のモチ�?��?�ションを上げてもらおう、と�?�?趣旨の記事となって�?ます�?�ここでは下�?�図のような、�?数の座標上�?�点から推定される�?適な直線を引くアルゴリズ�?を取り扱�?ます�??&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-before&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./before.png&#34; data-caption=&#34;before&#34;&gt;
+
+
+  &lt;img src=&#34;./before.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    before
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-after&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./after.png&#34; data-caption=&#34;after&#34;&gt;
+
+
+  &lt;img src=&#34;./after.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    after
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;�?急降下�?&#34;&gt;�?急降下�?&lt;/h2&gt;
+&lt;p&gt;機械学習�?��?例として、偏微�?を用�?た最急降下法と�?�?アルゴリズ�?を紹介します�??
+&lt;a href=&#34;https://ja.wikipedia.org/wiki/%E6%9C%80%E6%80%A5%E9%99%8D%E4%B8%8B%E6%B3%95#:~:text=%E6%9C%80%E6%80%A5%E9%99%8D%E4%B8%8B%E6%B3%95%EF%BC%88%E3%81%95%E3%81%84%E3%81%8D%E3%82%85%E3%81%86%E3%81%93%E3%81%86,%E3%81%A6%E3%81%84%E3%82%8B%E5%A0%B4%E5%90%88%E3%81%AF%E5%A4%9A%E3%81%84%E3%80%82&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ウィキペディア&lt;/a&gt;では�?急降下法を以下�?�様に説明して�?ます�??&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;�?急降下法�?��?関数の傾き�?�みから�?関数の�?小�?�を探索する連続最適化問題�?�勾配法�?�アルゴリズ�?の�?つ�?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;すなわち下図のように�?関数上�?�初期地点から微�?によって求まる傾き�?�マイナス方向へ点を移動させて�?き�?��?�期地点から�?も近い�?小点(極小�?�)を求めるアルゴリズ�?です�??&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-�?急降下�?&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./%e6%9c%80%e6%80%a5%e9%99%8d%e4%b8%8b%e6%b3%95.png&#34; data-caption=&#34;�?急降下�?&#34;&gt;
+
+
+  &lt;img src=&#34;./%e6%9c%80%e6%80%a5%e9%99%8d%e4%b8%8b%e6%b3%95.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    �?急降下�?
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;式としては以下�?�ようになります�?�αは点の移動距離の大きさを決めるパラメーターです�??&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-�?急降下法�?&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./%e6%9c%80%e6%80%a5%e9%99%8d%e4%b8%8b%e6%b3%95%e5%bc%8f.png&#34; data-caption=&#34;�?急降下法�?&#34;&gt;
+
+
+  &lt;img src=&#34;./%e6%9c%80%e6%80%a5%e9%99%8d%e4%b8%8b%e6%b3%95%e5%bc%8f.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    �?急降下法�?
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;
+&lt;a href=&#34;https://ja.wikipedia.org/wiki/%E6%9C%80%E6%80%A5%E9%99%8D%E4%B8%8B%E6%B3%95#:~:text=%E6%9C%80%E6%80%A5%E9%99%8D%E4%B8%8B%E6%B3%95%EF%BC%88%E3%81%95%E3%81%84%E3%81%8D%E3%82%85%E3%81%86%E3%81%93%E3%81%86,%E3%81%A6%E3%81%84%E3%82%8B%E5%A0%B4%E5%90%88%E3%81%AF%E5%A4%9A%E3%81%84%E3%80%82&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ウィキペディア �?急降下�?&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;�?小二乗�?&#34;&gt;�?小二乗�?&lt;/h2&gt;
+&lt;p&gt;物�?実験でも使われますが、�?数の座標点から推定される直線を求めるために�?小二乗法が用�?られます�??
+&lt;a href=&#34;https://ja.wikipedia.org/wiki/%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%97%E6%B3%95&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ウィキペディア&lt;/a&gt;では�?小二乗法�?�次のように説明されて�?ます�??&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;�?小二乗法�?�、測定で得られた数値の�?を�??適当なモ�?ルから想定される1次関数、対数曲線など特定�?�関数を用�?て近似するときに、想定する関数が測定�?�に対してよい近似となるよ�?に、残差の二乗和を最小とするような係数を決定する方法�?�あるいはそ�?�ような方法によって近似を行うことである�?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;実�?&#34;&gt;実�?&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;使用した�?ール: spyder&lt;br&gt;
+使用�?�? : python ver3.7&lt;/p&gt;
+&lt;p&gt;上記�?��?ール、�?語�?�Anacondaと�?�?パッケージ管�?ソフトで�?括�?ウンロード可能です�??Anacondaのインスト�?�ルに関しては
+&lt;a href=&#34;https://www.creativevillage.ne.jp/72837&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;【�?��?編】便利なPython Anacondaをインスト�?�ルから使�?方まで徹底解説?�?&lt;/a&gt;を参�?にしました�?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;�?急降下法と�?小二乗法より以下�?�ような�?論式になります�??
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-�?論�?&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./%e7%90%86%e8%ab%96%e5%bc%8f%20.png&#34; data-caption=&#34;�?論�?&#34;&gt;
+
+
+  &lt;img src=&#34;./%e7%90%86%e8%ab%96%e5%bc%8f%20.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    �?論�?
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.udemy.com/course/machine-learning-3algo/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;udemy 機械学習コース&lt;/a&gt;を参�?にしたのでソースコード�?�載せられませんが上記�?��?論式を繰り返し、a,bそれぞれに�?急降下法を用�?て�?適化することで
+&lt;a href=&#34;#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab&#34;&gt;冒�?�&lt;/a&gt;に述べたよ�?な直線を引けます�??&lt;/p&gt;
+&lt;p&gt;また各点の座標�?�行�?�を用�?て下記�?�ように定義しました�?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-行�??&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./%e8%a1%8c%e5%88%97.png&#34; data-caption=&#34;行�??&#34;&gt;
+
+
+  &lt;img src=&#34;./%e8%a1%8c%e5%88%97.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    行�??
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h1 id=&#34;おわりに&#34;&gt;おわりに&lt;/h1&gt;
+&lt;p&gt;ここでは簡単な�?急降下法につ�?て取り扱�?ましたが数学�?プログラミングを学んで�?くことで画像認識や
+&lt;a href=&#34;https://unity3d.com/jp/machine-learning&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;unity&lt;/a&gt;で物体�?�動きの�?適化など、できることが増えて�?きます�?��?�味がある方はぜ�?�大学の授業を活かして勉強してみてください�?&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Finden die Feen 開発記録</title>
@@ -18,13 +263,13 @@
       <pubDate>Mon, 22 Jun 2020 18:54:11 +0900</pubDate>
       <guid>https://blog.opuappnavi.com/post/record-findendiefeen/</guid>
       <description>&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;
-&lt;p&gt;この記事は，2020年5月30日から31日にかけて行われた 
-&lt;a href=&#34;https://ch-random.net/post/167/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;府大バーチャル学祭&lt;/strong&gt;&lt;/a&gt; で展示された &lt;strong&gt;Finden die Feen&lt;/strong&gt; というゲームの開発記事です。どういった経緯でこのゲームが開発されたかを，この記事に書いていこうと思います。&lt;/p&gt;
-&lt;p&gt;まずはじめに，&lt;strong&gt;Finden die Feen&lt;/strong&gt; とは以下のようなゲームです。
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/hashtag/%E5%BA%9C%E5%A4%A7%E3%83%90%E3%83%BC%E3%83%81%E3%83%A3%E3%83%AB%E5%AD%A6%E7%A5%AD?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#府大バーチャル学祭&lt;/a&gt; &lt;br&gt;2つ目ー！！&lt;br&gt;タイトル：Finden die Feen&lt;br&gt;妖精たちとのかくれんぼ&lt;br&gt;迷路の中に隠れている見えない妖精たちを、音を頼りに探していこう！&lt;br&gt;マウスと方向キーだけの簡単操作で遊べるよ。&lt;br&gt;あなたは妖精たちとの遊びに最後までついていけるかな？&lt;br&gt;&lt;br&gt;↓↓Click！&lt;a href=&#34;https://t.co/8zEqY1KpKx&#34;&gt;https://t.co/8zEqY1KpKx&lt;/a&gt; &lt;a href=&#34;https://t.co/6be1bGRdb0&#34;&gt;pic.twitter.com/6be1bGRdb0&lt;/a&gt;&lt;/p&gt;&amp;mdash; OPU アプリNavi (@OPUAppNavi) &lt;a href=&#34;https://twitter.com/OPUAppNavi/status/1266598410095751169?ref_src=twsrc%5Etfw&#34;&gt;May 30, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;こ�?�記事�?�?�?2020年5�?30日から31日にかけて行われた 
+&lt;a href=&#34;https://ch-random.net/post/167/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;府大バ�?�チャル学祭&lt;/strong&gt;&lt;/a&gt; で展示され�? &lt;strong&gt;Finden die Feen&lt;/strong&gt; と�?�?ゲー�?の開発記事です�?�ど�?�?った経緯でこ�?�ゲー�?が開発されたかを，この記事に書�?て�?こうと思います�??&lt;/p&gt;
+&lt;p&gt;まず�?�じめに?�?&lt;strong&gt;Finden die Feen&lt;/strong&gt; とは以下�?�ようなゲー�?です�??
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/hashtag/%E5%BA%9C%E5%A4%A7%E3%83%90%E3%83%BC%E3%83%81%E3%83%A3%E3%83%AB%E5%AD%A6%E7%A5%AD?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#府大バ�?�チャル学祭&lt;/a&gt; &lt;br&gt;2つ目ー?�?�?&lt;br&gt;タイトル?��Finden die Feen&lt;br&gt;妖精たちとのかくれんぼ&lt;br&gt;迷路の中に�?れて�?る見えな�?妖精たちを�??音を�?�りに探して�?こう?�?&lt;br&gt;マウスと方向キー�?け�?�簡単操作で遊べるよ�?&lt;br&gt;あなた�?�妖精たちとの遊�?�に�?後までつ�?て�?けるかな?�?&lt;br&gt;&lt;br&gt;↓�?�Click?�?&lt;a href=&#34;https://t.co/8zEqY1KpKx&#34;&gt;https://t.co/8zEqY1KpKx&lt;/a&gt; &lt;a href=&#34;https://t.co/6be1bGRdb0&#34;&gt;pic.twitter.com/6be1bGRdb0&lt;/a&gt;&lt;/p&gt;&amp;mdash; OPU アプリNavi (@OPUAppNavi) &lt;a href=&#34;https://twitter.com/OPUAppNavi/status/1266598410095751169?ref_src=twsrc%5Etfw&#34;&gt;May 30, 2020&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 &lt;/p&gt;
-&lt;p&gt;上記のように，迷路の中で音を頼りに妖精さんを探す &lt;strong&gt;PC用ゲーム&lt;/strong&gt; です。まだ遊んだことのない方は，以下から遊ぶことができます。ぜひ遊んでみてからこの記事を読んでみてください。(音量注意！！！)&lt;/p&gt;
+&lt;p&gt;上記�?�ように?��迷路の中で音を�?�りに妖精さんを探�? &lt;strong&gt;PC用ゲー�?&lt;/strong&gt; です�?�ま�?遊ん�?ことのな�?方は?��以下から遊ぶことができます�?�ぜひ遊んでみてからこ�?�記事を読んでみてください�?(音量注意�?�?�?)&lt;/p&gt;
 
 
 
@@ -58,10 +303,10 @@ set_width();
 window.onresize = function(){ set_width(); };
 &lt;/script&gt;
 &lt;h1 id=&#34;企画&#34;&gt;企画&lt;/h1&gt;
-&lt;p&gt;ここでは，どのようにして &lt;strong&gt;Finden die Feen&lt;/strong&gt; を思いついたのか書いていきます。普段，私は毎年5月末に行われる大学の文化祭に向けてゲームを作っており，今年は「&lt;strong&gt;探索&lt;/strong&gt;」というテーマでゲームを考えていました。このテーマは，「宝探しは楽しいよね！」と「あまりゲームが得意でない人でも遊べるゲーム」を両立させようという目論見がありました。そこで何かいい案はないかと
-&lt;a href=&#34;https://www.borndigital.co.jp/book/6633.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unityゲーム プログラミング・バイブル&lt;/a&gt;という本をパラパラめくっていたところ，5章の「3D迷路」の部分を読み，「ここに書いてある迷路生成プログラムを用いれば &lt;strong&gt;簡単に迷路が作れる&lt;/strong&gt; のでは？」と思い，該当部分をステージ生成の基礎として，迷路の中でもの探しをするというゲームを思いつきました。&lt;/p&gt;
-&lt;p&gt;ただし，単に迷路を探索するだけでは既存の迷路ゲームと変わらず，
-&lt;a href=&#34;https://www.borndigital.co.jp/book/6633.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unityゲーム プログラミング・バイブル&lt;/a&gt;の「3D迷路」の章のパクりとなり，なんら面白くありません。そこで，任天堂が2003年に発売した「&lt;strong&gt;伝説のスタフィー2&lt;/strong&gt;」というゲームの道中にあった「&lt;strong&gt;音で探す&lt;/strong&gt;」ゲームギミックを参考にしました。
+&lt;p&gt;ここでは?��どのようにして &lt;strong&gt;Finden die Feen&lt;/strong&gt; を�?�いつ�?た�?�か書�?て�?きます�?�普段?��私�?�毎年5月末に行われる大学の�?化祭に向けてゲー�?を作っており?��今年は�?&lt;strong&gt;探索&lt;/strong&gt;」と�?�?�?ーマでゲー�?を�??えて�?ました。この�?ーマ�?�?���?�宝探し�?�楽しいよ�?�?���?�と「あまりゲー�?が得意でな�?人でも遊べるゲー�?」を両立させよ�?と�?�?目論見がありました。そこで何か�?�?案�?�な�?かと
+&lt;a href=&#34;https://www.borndigital.co.jp/book/6633.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unityゲー�? プログラミング・バイブル&lt;/a&gt;と�?�?本をパラパラめくって�?たところ?�?5�?の�?3D迷路」�?�部�?を読み?���?�ここに書�?てある迷路生�?��?�ログラ�?を用�?れ�?� &lt;strong&gt;簡単に迷路が作れ�?&lt;/strong&gt; のでは?���?�と思い?��該当部�?をス�?ージ生�?��?�基礎として?��迷路の中でも�?�探しをすると�?�?ゲー�?を�?�いつきました�?&lt;/p&gt;
+&lt;p&gt;ただし，単に迷路を探索する�?けでは既存�?�迷路ゲー�?と変わらず?�?
+&lt;a href=&#34;https://www.borndigital.co.jp/book/6633.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unityゲー�? プログラミング・バイブル&lt;/a&gt;の�?3D迷路」�?��?のパクりとなり，なんら面白くありません。そこで?��任天堂が2003年に発売した�?&lt;strong&gt;伝説のスタフィー2&lt;/strong&gt;」と�?�?ゲー�?の道中にあった�??&lt;strong&gt;音で探�?&lt;/strong&gt;」ゲー�?ギミックを参�?にしました�?
 
 
 
@@ -80,7 +325,7 @@ window.onresize = function(){ set_width(); };
 &lt;figure id=&#34;figure-伝説のスタフィー2出典httpswwwnintendocojpn08avfjgamenindexhtml&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;./blog_01.png&#34; data-caption=&#34;伝説のスタフィー2（出典：https://www.nintendo.co.jp/n08/avfj/gamen/index.html）&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./blog_01.png&#34; data-caption=&#34;伝説のスタフィー2?���?�典?��https://www.nintendo.co.jp/n08/avfj/gamen/index.html?�?&#34;&gt;
 
 
   &lt;img src=&#34;./blog_01.png&#34; alt=&#34;&#34;  &gt;
@@ -90,15 +335,15 @@ window.onresize = function(){ set_width(); };
   
   
   &lt;figcaption&gt;
-    伝説のスタフィー2（出典：https://www.nintendo.co.jp/n08/avfj/gamen/index.html）
+    伝説のスタフィー2?���?�典?��https://www.nintendo.co.jp/n08/avfj/gamen/index.html?�?
   &lt;/figcaption&gt;
 
 
 &lt;/figure&gt;
 
-参考にしたギミックは「見えない探し物が近くにあればあるほど，アラームを激しく鳴らす」というものです。「伝説のスタフィー2」では，草むらに隠れた見えないターゲットを音を頼りに見つけ出すというゲーム要素があり，私自身「伝説のスタフィー2」を遊んだ時にこのギミックがとても楽しかった記憶があって，「音で探す」システムを採用しました。&lt;/p&gt;
-&lt;p&gt;以上より「&lt;strong&gt;音を頼りに迷路を探索し妖精さんを見つける&lt;/strong&gt;」ゲームが企画されました。以下の画像は
-&lt;a href=&#34;https://www.sbcr.jp/product/4797377361/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ゲーム作りのはじめかた Unityで覚える企画からレベルデザインまで&lt;/a&gt;という本の「まずはゲームの企画をA4 1枚にペンで書け！」といった教えにのっとり書いた企画書です。
+参�??にしたギミックは「見えな�?探し物が近くにあればあるほど?��アラー�?を�?しく鳴らす」と�?�?も�?�です�?��?�伝説のスタフィー2」では?��草�?らに�?れた見えな�?ターゲ�?トを音を�?�りに見つけ�?�すと�?�?ゲー�?要�?があり，私�?�身「伝説のスタフィー2」を遊ん�?時にこ�?�ギミックがとても楽しかった記�?�があって?���?�音で探す�?�シス�?�?を採用しました�?&lt;/p&gt;
+&lt;p&gt;以上より�??&lt;strong&gt;音を�?�りに迷路を探索し妖精さんを見つける&lt;/strong&gt;」ゲー�?が企画されました。以下�?�画像�?�
+&lt;a href=&#34;https://www.sbcr.jp/product/4797377361/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ゲー�?作りのはじめかた Unityで覚える企画からレベル�?ザインまで&lt;/a&gt;と�?�?本の「まず�?�ゲー�?の企画をA4 1枚にペンで書け！�?�と�?った教えにのっとり書�?た企画書です�??
 
 
 
@@ -133,18 +378,18 @@ window.onresize = function(){ set_width(); };
 
 &lt;/figure&gt;
 
-上の企画書を見てみると，何個か夢物語が書いてありますが，「Finden die Feen」の原型は保たれてますね。また，この時点でゲームのタイトルはまだ決めていませんね。&lt;/p&gt;
-&lt;p&gt;ちなみに，この企画書は5月のはじめに書いたものです。提出締め切りが5月30日だったので，必然的に1か月で完成させなくてはいけなく，締め切り1週間前は地獄を見ました&amp;hellip;。&lt;del&gt;大学の文化祭が新型コロナウイルス騒ぎで中止になったと聞いて，今年はゲーム作らなくていいかと思ってたところにオンライン文化祭の通知が来たもん仕方ないね。&lt;/del&gt;&lt;/p&gt;
-&lt;h1 id=&#34;実装&#34;&gt;実装&lt;/h1&gt;
-&lt;h2 id=&#34;1-自動迷路生成の実装&#34;&gt;1. 自動迷路生成の実装&lt;/h2&gt;
-&lt;p&gt;代表的な迷路自動生成アルゴリズムには，以下の3種類があります。&lt;/p&gt;
+上�?�企画書を見てみると?��何�?�か夢物語が書�?てありますが?���?�Finden die Feen」�?�原型は保たれてます�?�。また，この時点でゲー�?のタイトルはま�?決めて�?ませんね�?&lt;/p&gt;
+&lt;p&gt;ちなみに?��この企画書は5月�?�はじめに書�?たものです�?�提出�?め�??りが5�?30日�?った�?�で?���?然�?に1か月で完�?�させなくては�?けなく，�?め�??�?1週間前は地�?を見ました&amp;hellip;�?&lt;del&gt;大学の�?化祭が新型コロナウイルス騒ぎで中止になったと聞いて?��今年はゲー�?作らなくて�?�?かと思ってたところにオンライン�?化祭の通知が来たもん仕方な�?ね�?&lt;/del&gt;&lt;/p&gt;
+&lt;h1 id=&#34;実�?&#34;&gt;実�?&lt;/h1&gt;
+&lt;h2 id=&#34;1-自動迷路生�?��?�実�?&#34;&gt;1. 自動迷路生�?��?�実�?&lt;/h2&gt;
+&lt;p&gt;代表�?な迷路自動生成アルゴリズ�?には?��以下�?�3種類があります�??&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;棒倒し法（比較的簡単な迷路生成）&lt;/li&gt;
-&lt;li&gt;壁伸ばし法（複雑な迷路生成）&lt;/li&gt;
-&lt;li&gt;穴掘り法（複雑な迷路生成）&lt;/li&gt;
+&lt;li&gt;棒�?�し法（比�?�?簡単な迷路生�?��?&lt;/li&gt;
+&lt;li&gt;壁伸ばし法（�?雑な迷路生�?��?&lt;/li&gt;
+&lt;li&gt;穴掘り法（�?雑な迷路生�?��?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;この中で，「Finden die Feen」の迷路自動生成アルゴリズムには「&lt;strong&gt;穴掘り法&lt;/strong&gt;」を用いました。コードはたった5,000円で買える素晴らしい本，
-&lt;a href=&#34;https://www.borndigital.co.jp/book/6633.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unityゲーム プログラミング・バイブル&lt;/a&gt;の5章「3D迷路」に載っていたものを&lt;del&gt;パクリ&lt;/del&gt;参考にしました。この穴掘り法を用いると，以下の画像のように任意の大きさの複雑な迷路を勝手に生成してくれます。とても楽ですし素晴らしいですね。
+&lt;p&gt;こ�?�中で?���?�Finden die Feen」�?�迷路自動生成アルゴリズ�?には�?&lt;strong&gt;穴掘り�?&lt;/strong&gt;」を用�?ました。コード�?�たっ�?5,000�?で買える�?晴らし�?本?�?
+&lt;a href=&#34;https://www.borndigital.co.jp/book/6633.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unityゲー�? プログラミング・バイブル&lt;/a&gt;の5�?�?3D迷路」に載って�?たもの�?&lt;del&gt;パクリ&lt;/del&gt;参�??にしました。この穴掘り法を用�?ると?��以下�?�画像�?�ように任意�?�大きさの�?雑な迷路を勝手に生�?�してくれます�?�とても楽ですし�?晴らし�?です�?��?
 
 
 
@@ -160,10 +405,10 @@ window.onresize = function(){ set_width(); };
 
 
 
-&lt;figure id=&#34;figure-穴掘り法による迷路生成&#34;&gt;
+&lt;figure id=&#34;figure-穴掘り法による迷路生�??&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;./blog_03.png&#34; data-caption=&#34;穴掘り法による迷路生成&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./blog_03.png&#34; data-caption=&#34;穴掘り法による迷路生�??&#34;&gt;
 
 
   &lt;img src=&#34;./blog_03.png&#34; alt=&#34;&#34;  &gt;
@@ -173,24 +418,24 @@ window.onresize = function(){ set_width(); };
   
   
   &lt;figcaption&gt;
-    穴掘り法による迷路生成
+    穴掘り法による迷路生�??
   &lt;/figcaption&gt;
 
 
 &lt;/figure&gt;
 &lt;/p&gt;
-&lt;h2 id=&#34;2-サウンドの実装&#34;&gt;2. サウンドの実装&lt;/h2&gt;
-&lt;p&gt;「Finden die Feen」では，妖精の位置によって音の鳴り方が変わり，プレイヤーからどれだけ近くに妖精がいるかを教えてくれるのが特徴です。この特徴的なソナー音やBGMなど，プレイヤーの位置に依存しないサウンドは，単一のゲームオブジェクトによる一括管理を行うことを考えます。このようなサウンドシステムの実装は，&lt;strong&gt;シングルトンパターン&lt;/strong&gt; を用いて実装されています。つまり，ゲーム実行中は常に1つのインスタンスが存在し，サウンドに関する処理を一括して行っています。ちなみに私はこの処理を，たった4,000円で買える本，
-&lt;a href=&#34;https://www.borndigital.co.jp/book/15163.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unity サウンド エキスパート養成講座&lt;/a&gt;の1章のコードを&lt;del&gt;パクって&lt;/del&gt;参考にして実装しました。&lt;/p&gt;
-&lt;p&gt;このような実装を行うと，音源の再生を行いたい場合に&lt;/p&gt;
+&lt;h2 id=&#34;2-サウンド�?�実�?&#34;&gt;2. サウンド�?�実�?&lt;/h2&gt;
+&lt;p&gt;「Finden die Feen」では?��妖精の位置によって音の鳴り方が変わり，�?�レイヤーからどれだけ近くに妖精がいるかを教えてくれる�?�が特徴です�?�この特徴�?なソナ�?�音やBGMなど?���?�レイヤーの位置に依存しな�?サウンド�?�?��単�?のゲー�?オブジェクトによる�?括管�?を行うことを�??えます�?�このようなサウンドシス�?�?の実�?は?�?&lt;strong&gt;シングルトンパターン&lt;/strong&gt; を用�?て実�?されて�?ます�?�つまり，ゲー�?実行中は常に1つのインスタンスが存在し，サウンドに関する処�?を�?括して行って�?ます�?�ちなみに私�?�こ�?�処�?を，たっ�?4,000�?で買える本?�?
+&lt;a href=&#34;https://www.borndigital.co.jp/book/15163.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unity サウン�? エキスパ�?�ト養�?�講座&lt;/a&gt;の1�?のコードを&lt;del&gt;パクって&lt;/del&gt;参�??にして実�?しました�?&lt;/p&gt;
+&lt;p&gt;こ�?�ような実�?を行うと?��音源�?�再生を行いたい場合に&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-c#:&#34;&gt;using SoundSystem;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;と宣言して&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-c#:&#34;&gt;SoundManager.Instance.Play(&amp;quot;音源のタイトル&amp;quot;);
+&lt;p&gt;と宣�?して&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-c#:&#34;&gt;SoundManager.Instance.Play(&amp;quot;音源�?�タイトル&amp;quot;);
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;と任意の場所に書くと，音が再生されます。AudioSourceをGameObjectにいちいちアタッチせずに，たった1行処理を書くだけで音が再生されるので非常に便利です。&lt;/p&gt;
-&lt;h2 id=&#34;3-ムービーの実装&#34;&gt;3. ムービーの実装&lt;/h2&gt;
-&lt;p&gt;「Finden die Feen」では，チュートリアルや妖精を発見したときなどにムービーが流れます。
+&lt;p&gt;と任意�?�場�?に書くと?��音が�?�生されます�??AudioSourceをGameObjectに�?ち�?ちアタ�?チせずに?��たっ�?1行�?��?を書くだけで音が�?�生される�?�で非常に便利です�??&lt;/p&gt;
+&lt;h2 id=&#34;3-�?ービ�?�の実�?&#34;&gt;3. �?ービ�?�の実�?&lt;/h2&gt;
+&lt;p&gt;「Finden die Feen」では?��チュートリアル�?妖精を発見したときなどに�?ービ�?�が流れます�??
 
 
 
@@ -206,10 +451,10 @@ window.onresize = function(){ set_width(); };
 
 
 
-&lt;figure id=&#34;figure-ムービーシーン&#34;&gt;
+&lt;figure id=&#34;figure-�?ービ�?�シーン&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;./blog_04.png&#34; data-caption=&#34;ムービーシーン&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./blog_04.png&#34; data-caption=&#34;�?ービ�?�シーン&#34;&gt;
 
 
   &lt;img src=&#34;./blog_04.png&#34; alt=&#34;&#34;  &gt;
@@ -219,13 +464,13 @@ window.onresize = function(){ set_width(); };
   
   
   &lt;figcaption&gt;
-    ムービーシーン
+    �?ービ�?�シーン
   &lt;/figcaption&gt;
 
 
 &lt;/figure&gt;
 
-このムービーは，Unityの &lt;strong&gt;Timeline&lt;/strong&gt; という機能を用いて実装しました。Timelineを用いると，簡単にムービーシーンを作ることができるため大変便利です。
+こ�?��?ービ�?�は?��Unityの &lt;strong&gt;Timeline&lt;/strong&gt; と�?�?機�?�を用�?て実�?しました。Timelineを用�?ると?��簡単に�?ービ�?�シーンを作ることができるため大変便利です�??
 
 
 
@@ -260,20 +505,20 @@ window.onresize = function(){ set_width(); };
 
 &lt;/figure&gt;
 
-画像のように，動画編集みたいに時系列でプログラムを書かずにオブジェクトを操作できます。今回はTimelineを用いてテキスト表示を行うカスタムクリップを
-&lt;a href=&#34;https://blogs.unity3d.com/jp/2018/09/05/extending-timeline-a-practical-guide/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Timelineの拡張 ― 実践ガイド&lt;/a&gt;というサイトを参考に実装しました。何回かTimelineのカスタムクリップを実装したことはありますが，まともに勉強したのは初めてな気がします。&lt;/p&gt;
-&lt;p&gt;このとき，PlayableAssetを継承したクラス，PlayableBehaviourを継承したクラス，TrackAssetを継承したクラスそれぞれファイル名とクラス名を同じにしないと，Timelineからカスタムクリップが抜け落ちるという仕様に1日悩んだのはいい思い出です。&lt;del&gt;少し考えれば，あたりまえなんですけどね。&lt;/del&gt;&lt;/p&gt;
-&lt;h1 id=&#34;テストプレイから公開まで&#34;&gt;テストプレイから公開まで&lt;/h1&gt;
-&lt;p&gt;ここでは，ゲームバランス調整について書いていこうと思います。一般論として，開発者がプレイして開発者がちょうどいいと思う難易度にすると，たいてい &lt;strong&gt;超高難易度&lt;/strong&gt; になります。そのため，テストプレイはできる限り第3者に行ってもらうのがオススメです。私は締め切り1日前に妹にテストプレイをしてもらい，制限時間などのパラメータを調節しました。&lt;/p&gt;
-&lt;p&gt;ちなみにこのとき，妹から&lt;/p&gt;
+画像�?�ように?��動画編�?みたいに時系列でプログラ�?を書かずにオブジェクトを操作できます�?�今回はTimelineを用�?て�?キスト表示を行うカスタ�?クリ�?プを
+&lt;a href=&#34;https://blogs.unity3d.com/jp/2018/09/05/extending-timeline-a-practical-guide/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Timelineの拡張 �? 実践ガイ�?&lt;/a&gt;と�?�?サイトを参�??に実�?しました。何回かTimelineのカスタ�?クリ�?プを実�?したことはありますが?��まともに勉強したのは初めてな気がします�??&lt;/p&gt;
+&lt;p&gt;こ�?�とき，PlayableAssetを継承したクラス?��PlayableBehaviourを継承したクラス?��TrackAssetを継承したクラスそれぞれファイル名とクラス名を同じにしな�?と?��Timelineからカスタ�?クリ�?プが抜け落ちると�?�?仕様に1日悩んだのは�?�?思い出です�??&lt;del&gt;少し�?えれば?��あたりまえなんですけどね�?&lt;/del&gt;&lt;/p&gt;
+&lt;h1 id=&#34;�?スト�?�レイから公開まで&#34;&gt;�?スト�?�レイから公開まで&lt;/h1&gt;
+&lt;p&gt;ここでは?��ゲー�?バランス調整につ�?て書�?て�?こうと思います�?��?般論として?��開発�?が�?�レイして開発�?がち�?�?ど�?�?と思う難易度にすると?��た�?て�? &lt;strong&gt;�?高難易度&lt;/strong&gt; になります�?�そのため?��テスト�?�レイはできる限り第3�?に行ってもら�?のがオススメです�?�私�?��?め�??�?1日前に妹に�?スト�?�レイをしてもら�?��制限時間などのパラメータを調�?しました�?&lt;/p&gt;
+&lt;p&gt;ちなみにこ�?�とき，妹から&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;妖精のいる方角を示すコンパスの色の点滅&lt;/li&gt;
-&lt;li&gt;制限時間を増やすアイテムの追加&lt;/li&gt;
-&lt;li&gt;制限時間がなくなってきたら，BGMのピッチを上げる&lt;/li&gt;
+&lt;li&gt;妖精の�?る方角を示すコンパスの色の点�?&lt;/li&gt;
+&lt;li&gt;制限時間を増やすアイ�?�?の追�?&lt;/li&gt;
+&lt;li&gt;制限時間がなくなってきたら，BGMのピッチを上げ�?&lt;/li&gt;
 &lt;li&gt;残りの妖精の数をUI表示&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;の機能を実装したほうがいいという&lt;del&gt;地獄のような&lt;/del&gt;素晴らしいアドバイスを &lt;strong&gt;締め切り直前&lt;/strong&gt; にいただき，締め切り前日の夜10時から締め切り当日の朝5時にかけて上記の機能を全て実装しました。このアドバイスによってよりゲームのクオリティが上がったと思うので妹には感謝しています。&lt;del&gt;アドバイスをもらったときは妹にうっすら殺意を覚えましたが。&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;そして最後にゲームの &lt;strong&gt;タイトル&lt;/strong&gt; を決めました。なんでもかんでも &lt;strong&gt;ドイツ語&lt;/strong&gt; にするとカッコいいよねという安直な考えで，「Finden die Feen」というタイトルになりました。ちなみに英語にすると「Find the Fairies」です。「妖精を発見する」的な意味です。そのままです。このタイトルをつけるためだけに，2年ぶりにドイツ語の文法書を引っ張り出しました。&lt;del&gt;ドイツ語の文法がおかしい？うるせえ黙れ！&lt;/del&gt;
+&lt;p&gt;の機�?�を実�?したほ�?がい�?と�?�?&lt;del&gt;地�?のような&lt;/del&gt;�?晴らし�?アドバイス�? &lt;strong&gt;�?め�??り直�?&lt;/strong&gt; に�?ただき，�?め�??り前日の�?10時から�?め�??り当日の�?5時にかけて上記�?�機�?�を�?�て実�?しました。このアドバイスによってよりゲー�?のクオリ�?ィが上がったと思うので妹には感謝して�?ます�??&lt;del&gt;アドバイスをもらったとき�?�妹に�?っすら殺意を覚えましたが�??&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;そして�?後にゲー�?の &lt;strong&gt;タイトル&lt;/strong&gt; を決めました。なんでもかんで�? &lt;strong&gt;ドイ�?�?&lt;/strong&gt; にするとカ�?コ�?�?よ�?�と�?�?安直な�?えで?���?�Finden die Feen」と�?�?タイトルになりました。ちなみに英語にすると「Find the Fairies」です�?��?�妖精を発見する�?�的な意味です�?�そのままです�?�このタイトルをつけるため�?けに?�?2年ぶりにドイ�?語�?��?法書を引っ張り�?�しました�?&lt;del&gt;ドイ�?語�?��?法がおかしい?��うるせえ黙れ?�?&lt;/del&gt;
 
 
 
@@ -289,10 +534,10 @@ window.onresize = function(){ set_width(); };
 
 
 
-&lt;figure id=&#34;figure-ゲームのタイトル画面&#34;&gt;
+&lt;figure id=&#34;figure-ゲー�?のタイトル画面&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;./blog_06.png&#34; data-caption=&#34;ゲームのタイトル画面&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./blog_06.png&#34; data-caption=&#34;ゲー�?のタイトル画面&#34;&gt;
 
 
   &lt;img src=&#34;./blog_06.png&#34; alt=&#34;&#34;  &gt;
@@ -302,14 +547,14 @@ window.onresize = function(){ set_width(); };
   
   
   &lt;figcaption&gt;
-    ゲームのタイトル画面
+    ゲー�?のタイトル画面
   &lt;/figcaption&gt;
 
 
 &lt;/figure&gt;
 &lt;/p&gt;
-&lt;h1 id=&#34;最後に&#34;&gt;最後に&lt;/h1&gt;
-&lt;p&gt;このような感じで「Finden die Feen」は約1ヶ月という期間で製作し，府大バーチャル学祭で公開されました。個人的には，完成度がそこそこ高く見えるため気に入っています。特に気に入っているのは，以下の画像のステージです。
+&lt;h1 id=&#34;�?後に&#34;&gt;�?後に&lt;/h1&gt;
+&lt;p&gt;こ�?�ような感じで「Finden die Feen」�?��?1ヶ月と�?�?期間で製作し?��府大バ�?�チャル学祭で公開されました。�?�人�?には?��完�?�度がそこそこ高く見えるため気に入って�?ます�?�特に気に入って�?る�?�は?��以下�?�画像�?�ス�?ージです�??
 
 
 
@@ -325,10 +570,10 @@ window.onresize = function(){ set_width(); };
 
 
 
-&lt;figure id=&#34;figure-お気に入りのステージ&#34;&gt;
+&lt;figure id=&#34;figure-お気に入り�?�ス�?ージ&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;./blog_07.png&#34; data-caption=&#34;お気に入りのステージ&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./blog_07.png&#34; data-caption=&#34;お気に入り�?�ス�?ージ&#34;&gt;
 
 
   &lt;img src=&#34;./blog_07.png&#34; alt=&#34;&#34;  &gt;
@@ -338,80 +583,80 @@ window.onresize = function(){ set_width(); };
   
   
   &lt;figcaption&gt;
-    お気に入りのステージ
+    お気に入り�?�ス�?ージ
   &lt;/figcaption&gt;
 
 
 &lt;/figure&gt;
 
-このステージは，赤，青，緑のライトが混ざり合うステージでとても綺麗だと思ってるのですが，みなさんはどう思いましたか？私はデバッグ中，このステージに1人で感動していました。&lt;/p&gt;
-&lt;p&gt;最後になりますが，ここまで読んで下さりありがとうございました。そしてまた改めて「Finden die Feen」で遊んでみてはいかがでしょうか？&lt;/p&gt;
+こ�?�ス�?ージは?��赤?��青?��緑�?�ライトが混ざり合うス�?ージでとても綺麗だと思ってる�?�ですが?��みなさんはど�?思いましたか？私�?��?バッグ中?��このス�?ージに1人で感動して�?ました�?&lt;/p&gt;
+&lt;p&gt;�?後になりますが?��ここまで読んで下さりありがと�?ござ�?ました。そしてまた改めて「Finden die Feen」で遊んでみては�?かがでしょ�?か�?&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>なぜ基本情報技術者試験の勉強をしないのか？</title>
+      <title>なぜ基本�?報�?術�??試験�?�勉強をしな�?のか�?</title>
       <link>https://blog.opuappnavi.com/post/fe-study-recommendation/</link>
       <pubDate>Wed, 17 Jun 2020 00:17:53 +0900</pubDate>
       <guid>https://blog.opuappnavi.com/post/fe-study-recommendation/</guid>
       <description>&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;
-&lt;p&gt;この記事は主に大阪府立大学現代システム科学域知識情報システム学類に所属している学生に向けて、基本情報技術者試験の勉強を推奨するものです。&lt;/p&gt;
-&lt;h1 id=&#34;時間がない人向け要約&#34;&gt;時間がない人向け要約&lt;/h1&gt;
-&lt;p&gt;基本情報技術者試験の勉強をすると大学の授業内容を分かりやすく先取りできるから成績上がるぞ。オススメ。&lt;/p&gt;
-&lt;h1 id=&#34;情報処理技術者試験とは&#34;&gt;情報処理技術者試験とは&lt;/h1&gt;
-&lt;p&gt;情報処理技術者試験は、
-&lt;a href=&#34;https://www.jitec.ipa.go.jp/1_08gaiyou/_index_gaiyou.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IPA(情報処理推進機構)の公式サイト&lt;/a&gt;で以下のように説明されています。&lt;/p&gt;
+&lt;p&gt;こ�?�記事�?�主に大阪府立大学現代シス�?�?科学域知識情報シス�?�?学類に�?属して�?る学生に向けて、基本�?報�?術�??試験�?�勉強を推奨するも�?�です�??&lt;/p&gt;
+&lt;h1 id=&#34;時間がな�?人向け要�?&#34;&gt;時間がな�?人向け要�?&lt;/h1&gt;
+&lt;p&gt;基本�?報�?術�??試験�?�勉強をすると大学の授業�?容を�?かり�?すく先取りできるから成績上がるぞ。オススメ�?&lt;/p&gt;
+&lt;h1 id=&#34;�?報処�?�?術�??試験とは&#34;&gt;�?報処�?�?術�??試験とは&lt;/h1&gt;
+&lt;p&gt;�?報処�?�?術�??試験�?��?
+&lt;a href=&#34;https://www.jitec.ipa.go.jp/1_08gaiyou/_index_gaiyou.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IPA(�?報処�?推進機�?)の公式サイ�?&lt;/a&gt;で以下�?�ように説明されて�?ます�??&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;情報処理技術者試験は、「情報処理の促進に関する法律」に基づき経済産業省が、情報処理技術者としての「知識・技能」が一定以上の水準であることを認定している国家試験です。&lt;/p&gt;
-&lt;p&gt;情報システムを構築・運用する「技術者」から情報システムを利用する「エンドユーザ（利用者）」まで、ITに関係するすべての人に活用いただける試験として実施しています。特定の製品やソフトウェアに関する試験ではなく、情報技術の背景として知るべき原理や基礎となる知識・技能について、幅広く総合的に評価しています。&lt;/p&gt;
+&lt;p&gt;�?報処�?�?術�??試験�?�、�?�情報処�?の�?進に関する法律�?�に基づき経済産業省が、情報処�?�?術�??としての「知識�?��?能」が�?定以上�?�水準であることを認定して�?る国家試験です�??&lt;/p&gt;
+&lt;p&gt;�?報シス�?�?を構築�?�運用する「技術�??」から情報シス�?�?を利用する「エンドユーザ?��利用�??���?�まで、ITに関係するすべての人に活用�?ただける試験として実施して�?ます�?�特定�?�製品やソフトウェアに関する試験ではなく�?�情報�?術�?�背景として知るべき原�?�?基礎となる知識�?��?能につ�?て、�?�?く総合�?に評価して�?ます�??&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;br&gt;
-簡単に言いますと情報系の国家試験です。そして情報処理技術者試験の一区分として、今回私がその勉強を推奨する基本情報技術者試験があります。
+簡単に�?�?ますと�?報系の国家試験です�?�そして�?報処�?�?術�??試験�?��?区�?として、今回私がそ�?�勉強を推奨する基本�?報�?術�??試験があります�??
 &lt;br&gt;
-&lt;p&gt;&lt;img src=&#34;./taikei.png&#34; alt=&#34;情報処理技術者試験の体系図&#34; title=&#34;体系図&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./taikei.png&#34; alt=&#34;�?報処�?�?術�??試験�?�体系図&#34; title=&#34;体系図&#34;&gt;&lt;/p&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://www.jitec.ipa.go.jp/1_08gaiyou/_index_gaiyou.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IPA 試験区分一覧&lt;/a&gt;
+&lt;a href=&#34;https://www.jitec.ipa.go.jp/1_08gaiyou/_index_gaiyou.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IPA 試験区�?�?覧&lt;/a&gt;
 &lt;a href=&#34;https://www.jitec.ipa.go.jp/1_08gaiyou/_index_gaiyou.html&#34;&gt;https://www.jitec.ipa.go.jp/1_08gaiyou/_index_gaiyou.html&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;基本情報技術者試験とは&#34;&gt;基本情報技術者試験とは&lt;/h1&gt;
-&lt;p&gt;基本情報技術者試験とは、情報処理技術者試験の一区分です。
-難易度としては四段階中の二段階目として設定されており、ITエンジニアの登竜門とされているようです。&lt;br&gt;&lt;/p&gt;
+&lt;h1 id=&#34;基本�?報�?術�??試験とは&#34;&gt;基本�?報�?術�??試験とは&lt;/h1&gt;
+&lt;p&gt;基本�?報�?術�??試験とは、情報処�?�?術�??試験�?��?区�?です�??
+難易度としては四段階中の二段階目として設定されており、ITエンジニアの登竜門とされて�?るよ�?です�??&lt;br&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;１．対象者像&lt;br&gt;
-高度IT人材となるために必要な基本的知識・技能をもち、実践的な活用能力を身に付けた者&lt;br&gt;
-２．役割と業務&lt;br&gt;
-基本戦略立案又はITソリューション・製品・サービスを実現する業務に従事し、上位者の指導の下に、次のいずれかの役割を果たす。&lt;br&gt;
-　(1) 需要者（企業経営、社会システム）が直面する課題に対して、情報技術を活用した戦略立案に参加する。&lt;br&gt;
-　(2) システムの設計・開発を行い、又は汎用製品の最適組合せ（インテグレーション）によって、信頼性・生産性の高いシステムを構築する。また、その安定的な運用サービスの実現に貢献する。&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;?��．対象�?�?&lt;br&gt;
+高度IT人材となるために�?要な基本�?知識�?��?能をもち、実践�?な活用能力を身に付けた�??&lt;br&gt;
+?��．役割と業�?&lt;br&gt;
+基本戦略立案又はITソリューション・製品�?�サービスを実現する業務に従事し、上位�??の�?導�?�下に、次の�?ずれか�?�役割を果たす�?&lt;br&gt;
+�?(1) �?要�???��企業経営、社会シス�?�??��が直面する課題に対して、情報�?術を活用した戦略立案に参加する�?&lt;br&gt;
+�?(2) シス�?�?の設計�?�開発を行い、又は汎用製品�?��?適�?合せ?��イン�?グレーション?��によって、信頼性・生産性の高いシス�?�?を構築する�?�また�?�その安定的な運用サービスの実現に貢献する�?&lt;br&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://www.jitec.ipa.go.jp/1_11seido/fe.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IPA 基本情報技術者試験&lt;/a&gt;
+&lt;a href=&#34;https://www.jitec.ipa.go.jp/1_11seido/fe.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IPA 基本�?報�?術�??試�?&lt;/a&gt;
 &lt;a href=&#34;https://www.jitec.ipa.go.jp/1_11seido/fe.html&#34;&gt;https://www.jitec.ipa.go.jp/1_11seido/fe.html&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;基本情報技術者試験の勉強をオススメする理由&#34;&gt;基本情報技術者試験の勉強をオススメする理由&lt;/h1&gt;
-&lt;p&gt;理由はシンプルで、知識情報システム学類の専門科目の内容が基本情報技術者試験の内容と被るところが多いからです。このため基本情報技術者試験の勉強は、新入生にとって専門科目の良い予習となり、在学生にとっては専門科目の良い復習となります。&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;私は二年生の後期から基本情報技術者試験の勉強を始めましたが、その内容は大学の専門科目の範囲と重なる部分がとても多く、良い専門科目の予習と復習になりました。また大学の教科書よりも基本情報技術者試験の参考書の方が分かりやすかったため、大学の授業中に基本情報技術者の参考書を開くことも少なくありませんでした。&lt;/p&gt;
-&lt;h1 id=&#34;合格体験記&#34;&gt;合格体験記&lt;/h1&gt;
-&lt;p&gt;私が基本情報技術者試験の受験を決めたのは二年生の後期のことでした。受験の理由としては、情報系の学生としてある程度の知識があることを、就活などにも使える資格という分かりやすい形で示したかったからです。&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;受験を決めてからまず基本情報技術者試験についてインターネットで簡単に調べました。
-&lt;a href=&#34;https://www.jitec.ipa.go.jp/1_08gaiyou/_index_gaiyou.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IPAの公式サイト&lt;/a&gt;、Qiitaの記事、合格者のブログなどを読んでおおよその試験の概要を理解した後、書店に行き参考書を選びました。とにかく分かりやすさを重視したため「キタミ式イラストIT塾 基本情報技術者」に決めました。&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;まずはそこそこの分厚さのある参考書を内容の理解は完全でなくとも読み進めることを重視して一周読み、その後分かっているところは軽く流しつつ分からなかったところをインターネットや学校の教科書でしっかり調べてもう一周読みました。&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;そして大体どの分野の内容がどのあたりのページに書いてあるかが理解できる程度に参考書を読めたところで、
-&lt;a href=&#34;https://www.fe-siken.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;基本情報技術者試験ドットコム&lt;/a&gt;で午前問題の過去問演習を始めました。&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;午前の過去問は直近十回分やりました。そして安定して八から九割の正答率を出せるようになったところで午後の過去問に取り組みました。&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;午後の過去問は選択問題がいくつかあるのですが、自分がどの分野が得意なのかを見定めるために全問問いていました。そして正答数の統計を取りながら最新の回を除く過去七回分を終えたところで自分の得意分野を絞り、最後に最新の回を本番と同じ環境で選択問題として解きました。&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;後は本番に向けてコンディション整えて受験に挑み、合格する事が出来ました。&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;私は試験勉強をしている時何度も挫けそうになりました。しかしそんな時いつも私を支えてくれていたのはこのアプリNaviでした。勉強して分からないところがあればいつでも何でも優しく教えて下さった先輩と、一緒に勉強をしてモチベーションを高めあってくれた同輩がいたからこそ私は合格することが出来たのだと思います。きっとアプリNaviに入っていなければこの試験の存在すら知ることは無く灰色の大学生活を送っていたでしょう。アプリNaviに入ってから成績は上がり、友達は増え、彼女が出来ました。アプリNaviこそ私の大学生活に必要だったものだと、今なら胸を張って言うことが出来ます。この記事を読んだ皆さんがアプリNaviで共に理想のキャンパスライフを送れることを祈っています。&lt;/p&gt;
+&lt;h1 id=&#34;基本�?報�?術�??試験�?�勉強をオススメする�?由&#34;&gt;基本�?報�?術�??試験�?�勉強をオススメする�?由&lt;/h1&gt;
+&lt;p&gt;�?由はシンプルで、知識情報シス�?�?学類�?�専門科目の�?容が基本�?報�?術�??試験�?��?容と被るところが多いからです�?�このため基本�?報�?術�??試験�?�勉強は、新入生にとって専門科目の良�?予習となり�?�在学生にとっては専門科目の良�?復習となります�??&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;私�?�二年生�?�後期から基本�?報�?術�??試験�?�勉強を始めましたが�?�その�?容は大学の専門科目の�?囲と重なる部�?がとても多く、良�?専門科目の予習と復習になりました。また大学の教科書よりも基本�?報�?術�??試験�?�参�??書の方が�?かり�?すかったため�?�大学の授業中に基本�?報�?術�??の参�??書を開くことも少なくありませんでした�?&lt;/p&gt;
+&lt;h1 id=&#34;合�?�体験�?&#34;&gt;合�?�体験�?&lt;/h1&gt;
+&lt;p&gt;私が基本�?報�?術�??試験�?�受験を決めたのは二年生�?�後期のことでした。受験�?��?由としては、情報系の学生としてある程度の知識があることを�?�就活などにも使える�?格と�?�?�?かり�?すい形で示したかったからです�??&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;受験を決めてからまず基本�?報�?術�??試験につ�?てインターネットで簡単に調べました�?
+&lt;a href=&#34;https://www.jitec.ipa.go.jp/1_08gaiyou/_index_gaiyou.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IPAの公式サイ�?&lt;/a&gt;、Qiitaの記事�?�合格�?のブログなどを読んでおおよその試験�?�概要を�?解した後�?�書店に行き参�??書を選びました。とにかく�?かり�?すさを重視したため�?�キタミ式イラス�?IT塾 基本�?報�?術�??」に決めました�?&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;まず�?�そこそこの�?厚さのある参�??書を�??容の�?解は完�?�でなくとも読み進めることを重視して�?周読み、その後�?かって�?るところは軽く流しつつ�?からなかったところをインターネットや学校の教科書でしっかり調べてもう�?周読みました�?&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;そして大体どの�?野�?��?容がどのあたり�?�ペ�?�ジに書�?てあるかが�?解できる程度に参�??書を読めたところで�?
+&lt;a href=&#34;https://www.fe-siken.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;基本�?報�?術�??試験ド�?トコ�?&lt;/a&gt;で午前問題�?�過去問演習を始めました�?&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;午前の過去問�?�直近十回�?�?りました。そして安定して八から九割の正答率を�?�せるようになったところで午後�?�過去問に取り�?みました�?&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;午後�?�過去問�?�選択問題が�?くつかある�?�ですが、�?��?がどの�?野が得意なのかを見定めるために全問問�?て�?ました。そして正答数の統計を取りながら�?新の回を除く過去�?回�?を終えたところで自�?の得意�?野を絞り、最後に�?新の回を本番と同じ環�?で選択問題として解きました�?&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;後�?�本番に向けてコン�?ィション整えて受験に挑み、合格する事が出来ました�?&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;私�?�試験勉強をして�?る時何度も挫けそ�?になりました。しかしそんな時いつも私を支えてくれて�?た�?�はこ�?�アプリNaviでした。勉強して�?からな�?ところがあれ�?��?つでも何でも優しく教えて下さった�?�輩と、�?緒に勉強をしてモチ�?��?�ションを高めあってくれた同輩がいたからこそ私�?�合�?�することが�?�来た�?��?と思います�?�きっとアプリNaviに入って�?なければこ�?�試験�?�存在すら知ることは無く�?�色の大学生活を�?�って�?たでしょ�?。アプリNaviに入ってから成績は上がり�?�友達�?�増え、彼女が�?�来ました。アプリNaviこそ私�?�大学生活に�?要だったもの�?と、今なら�?�を張って�?�?ことが�?�来ます�?�この記事を読んだ�?さんがアプリNaviで共に�?想のキャンパスライフを送れることを祈って�?ます�??&lt;/p&gt;
 &lt;h1 id=&#34;おわりに&#34;&gt;おわりに&lt;/h1&gt;
-&lt;p&gt;主に知識情報システム学類の学生に向けて書いていましたが、勿論その学生でなくても、少しでもプログラミングやアプリ開発に興味がある人ならば勉強して決して損はない基本的なITの内容になっています。なんでしたら参考書だけ買って受験はせずにそれを読むだけでも大分役立つと思います。&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;アプリNaviに入れば合格者の先輩方が優しく教えて下さいます。アプリNaviに入りましょう。&lt;/p&gt;
+&lt;p&gt;主に知識情報シス�?�?学類�?�学生に向けて書�?て�?ましたが�?�勿論その学生でなくても�?�少しでも�?�ログラミング�?アプリ開発に興味がある人なら�?�勉強して決して損�?�な�?基本�?なITの�?容になって�?ます�?�なんでしたら参�?書�?け買って受験�?�せずにそれを読�?�?けでも大�?役立つと思います�??&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;アプリNaviに入れ�?�合�?��?の先輩方が優しく教えて下さ�?ます�?�アプリNaviに入りましょ�?�?&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Unity WebGLのゲームをローカルでプレイする方法</title>
+      <title>Unity WebGLのゲー�?をローカルでプレイする方�?</title>
       <link>https://blog.opuappnavi.com/post/unity-webgl-locally/</link>
       <pubDate>Sat, 30 May 2020 16:45:03 +0900</pubDate>
       <guid>https://blog.opuappnavi.com/post/unity-webgl-locally/</guid>
-      <description>&lt;p&gt;UnityでWebGLをプラットフォームに選択し、&lt;code&gt;Build And Run&lt;/code&gt;を押すと、ブラウザが起動して、作ったゲームをプレイすることができます。WebGLのビルドにはとても時間がかかるので、毎回ビルドするのではなく、一度ビルドしたゲームを複数回プレイしたくなります。ですが、ただ単に出力されたファイル&lt;code&gt;index.html&lt;/code&gt;を開くだけではプレイできません。&lt;br&gt;
+      <description>&lt;p&gt;UnityでWebGLを�?�ラ�?トフォー�?に選択し�?&lt;code&gt;Build And Run&lt;/code&gt;を押すと、ブラウザが起動して、作ったゲー�?を�?�レイすることができます�?�WebGLのビルドにはとても時間がかかる�?�で、毎回ビルドする�?�ではなく�?��?度ビルドしたゲー�?を�?数回�?�レイしたくなります�?�ですが、た�?単に出力されたファイル&lt;code&gt;index.html&lt;/code&gt;を開くだけではプレイできません�?&lt;br&gt;
 
 
 
@@ -427,10 +672,10 @@ window.onresize = function(){ set_width(); };
 
 
 
-&lt;figure id=&#34;figure-indexhtmlを開くとこのようなエラーメッセージが表示される&#34;&gt;
+&lt;figure id=&#34;figure-indexhtmlを開くとこ�?�ようなエラーメ�?セージが表示され�?&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;./Unity_WebGL_Index_Html_Error.png&#34; data-caption=&#34;index.htmlを開くと、このようなエラーメッセージが表示される&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./Unity_WebGL_Index_Html_Error.png&#34; data-caption=&#34;index.htmlを開くと、このようなエラーメ�?セージが表示され�?&#34;&gt;
 
 
   &lt;img src=&#34;./Unity_WebGL_Index_Html_Error.png&#34; alt=&#34;&#34;  &gt;
@@ -440,21 +685,21 @@ window.onresize = function(){ set_width(); };
   
   
   &lt;figcaption&gt;
-    index.htmlを開くと、このようなエラーメッセージが表示される
+    index.htmlを開くと、このようなエラーメ�?セージが表示され�?
   &lt;/figcaption&gt;
 
 
 &lt;/figure&gt;
 
-そこで、&lt;code&gt;Visual Studio Code&lt;/code&gt;(&lt;code&gt;VSCode&lt;/code&gt;)を使ってビルドしたゲームをプレイする方法を紹介します。&lt;br&gt;
+そこで�?&lt;code&gt;Visual Studio Code&lt;/code&gt;(&lt;code&gt;VSCode&lt;/code&gt;)を使ってビルドしたゲー�?を�?�レイする方法を紹介します�??&lt;br&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    &lt;code&gt;VSCode&lt;/code&gt;は &lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;https://code.visualstudio.com/&lt;/a&gt; からダウンロードできます。
+    &lt;code&gt;VSCode&lt;/code&gt;は &lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;https://code.visualstudio.com/&lt;/a&gt; から�?ウンロードできます�??
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;h1 id=&#34;1-拡張機能のインストール&#34;&gt;1. 拡張機能のインストール&lt;/h1&gt;
-&lt;p&gt;&lt;code&gt;VSCode&lt;/code&gt;を起動し、画面左のボタンを押して拡張機能パネルを開きます。
+&lt;h1 id=&#34;1-拡張機�?�のインスト�?�ル&#34;&gt;1. 拡張機�?�のインスト�?�ル&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;VSCode&lt;/code&gt;を起動し、画面左のボタンを押して拡張機�?�パネルを開きます�??
 
 
 
@@ -470,10 +715,10 @@ window.onresize = function(){ set_width(); };
 
 
 
-&lt;figure id=&#34;figure-拡張機能パネルを開くボタン&#34;&gt;
+&lt;figure id=&#34;figure-拡張機�?�パネルを開く�?�タン&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;./VSCode_Japanese.png&#34; data-caption=&#34;拡張機能パネルを開くボタン&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./VSCode_Japanese.png&#34; data-caption=&#34;拡張機�?�パネルを開く�?�タン&#34;&gt;
 
 
   &lt;img src=&#34;./VSCode_Japanese.png&#34; alt=&#34;&#34;  &gt;
@@ -483,13 +728,13 @@ window.onresize = function(){ set_width(); };
   
   
   &lt;figcaption&gt;
-    拡張機能パネルを開くボタン
+    拡張機�?�パネルを開く�?�タン
   &lt;/figcaption&gt;
 
 
 &lt;/figure&gt;
 
-パネル上の検索ボックスに&lt;code&gt;live server&lt;/code&gt;と入力し、検索結果の一番上にある&lt;code&gt;Live Server&lt;/code&gt;をクリックします。&lt;code&gt;拡張機能:Live Server&lt;/code&gt;タブが開くので、&lt;code&gt;インストール&lt;/code&gt;をクリックします。
+パネル上�?�検索ボックスに&lt;code&gt;live server&lt;/code&gt;と入力し、検索結果の�?番上にある&lt;code&gt;Live Server&lt;/code&gt;をクリ�?クします�??&lt;code&gt;拡張機�?�:Live Server&lt;/code&gt;タブが開くので�?&lt;code&gt;インスト�?�ル&lt;/code&gt;をクリ�?クします�??
 
 
 
@@ -505,10 +750,10 @@ window.onresize = function(){ set_width(); };
 
 
 
-&lt;figure id=&#34;figure-拡張機能live-serverタブ&#34;&gt;
+&lt;figure id=&#34;figure-拡張機�?�live-serverタ�?&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;./VSCode_Live_Server.png&#34; data-caption=&#34;「拡張機能：Live Server」タブ&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./VSCode_Live_Server.png&#34; data-caption=&#34;「拡張機�?�?��Live Server」タ�?&#34;&gt;
 
 
   &lt;img src=&#34;./VSCode_Live_Server.png&#34; alt=&#34;&#34;  &gt;
@@ -518,14 +763,14 @@ window.onresize = function(){ set_width(); };
   
   
   &lt;figcaption&gt;
-    「拡張機能：Live Server」タブ
+    「拡張機�?�?��Live Server」タ�?
   &lt;/figcaption&gt;
 
 
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;補足-vscode日本語化&#34;&gt;(補足) VSCode日本語化&lt;/h2&gt;
-&lt;p&gt;検索ボックスに&lt;code&gt;japanese&lt;/code&gt;と入力し、検索結果の一番上にある拡張機能&lt;code&gt;Japanese Language Pack for Visual Studio Code&lt;/code&gt;をインストールすることで日本語化できます。
+&lt;p&gt;検索ボックスに&lt;code&gt;japanese&lt;/code&gt;と入力し、検索結果の�?番上にある拡張機�?�&lt;code&gt;Japanese Language Pack for Visual Studio Code&lt;/code&gt;をインスト�?�ルすることで日本語化できます�??
 
 
 
@@ -541,10 +786,10 @@ window.onresize = function(){ set_width(); };
 
 
 
-&lt;figure id=&#34;figure-japanese-language-pack-for-visual-studio-codeインストール済み&#34;&gt;
+&lt;figure id=&#34;figure-japanese-language-pack-for-visual-studio-codeインスト�?�ル済み&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;./VSCode_Japanese.png&#34; data-caption=&#34;「Japanese Language Pack for Visual Studio Code」(インストール済み)&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./VSCode_Japanese.png&#34; data-caption=&#34;「Japanese Language Pack for Visual Studio Code�?(インスト�?�ル済み)&#34;&gt;
 
 
   &lt;img src=&#34;./VSCode_Japanese.png&#34; alt=&#34;&#34;  &gt;
@@ -554,16 +799,16 @@ window.onresize = function(){ set_width(); };
   
   
   &lt;figcaption&gt;
-    「Japanese Language Pack for Visual Studio Code」(インストール済み)
+    「Japanese Language Pack for Visual Studio Code�?(インスト�?�ル済み)
   &lt;/figcaption&gt;
 
 
 &lt;/figure&gt;
 &lt;/p&gt;
-&lt;h1 id=&#34;2-ビルドしたゲームをvscodeで開く&#34;&gt;2. ビルドしたゲームをVSCodeで開く&lt;/h1&gt;
-&lt;p&gt;メニューの&lt;code&gt;ファイル(F)&lt;/code&gt;から&lt;code&gt;フォルダを開く... Ctrl+K Ctrl+O&lt;/code&gt;をクリックします。フォルダ選択ダイアログが表示されるので、出力された&lt;code&gt;Build&lt;/code&gt;フォルダと&lt;code&gt;TemplateData&lt;/code&gt;フォルダ、&lt;code&gt;index.html&lt;/code&gt;ファイルのあるフォルダを選択します。&lt;/p&gt;
-&lt;h1 id=&#34;3-ゲームをプレイ&#34;&gt;3. ゲームをプレイ&lt;/h1&gt;
-&lt;p&gt;正しくフォルダを開けていると画面右下に&lt;code&gt;Go Live&lt;/code&gt;ボタンが表示されます。このボタンをクリックするとブラウザが起動し、ゲームをプレイできます。
+&lt;h1 id=&#34;2-ビルドしたゲー�?をvscodeで開く&#34;&gt;2. ビルドしたゲー�?をVSCodeで開く&lt;/h1&gt;
+&lt;p&gt;メニューの&lt;code&gt;ファイル(F)&lt;/code&gt;から&lt;code&gt;フォル�?を開�?... Ctrl+K Ctrl+O&lt;/code&gt;をクリ�?クします�?�フォル�?選択ダイアログが表示される�?�で、�?�力された&lt;code&gt;Build&lt;/code&gt;フォル�?と&lt;code&gt;TemplateData&lt;/code&gt;フォル�?�?&lt;code&gt;index.html&lt;/code&gt;ファイルのあるフォル�?を選択します�??&lt;/p&gt;
+&lt;h1 id=&#34;3-ゲー�?を�?�レイ&#34;&gt;3. ゲー�?を�?�レイ&lt;/h1&gt;
+&lt;p&gt;正しくフォル�?を開けて�?ると画面右下に&lt;code&gt;Go Live&lt;/code&gt;ボタンが表示されます�?�このボタンをクリ�?クするとブラウザが起動し、ゲー�?を�?�レイできます�??
 
 
 
@@ -598,84 +843,84 @@ window.onresize = function(){ set_width(); };
 
 &lt;/figure&gt;
 
-&lt;code&gt;Go Live&lt;/code&gt;があった場所に表示される&lt;code&gt;Port:5050&lt;/code&gt;をクリックすれば、ブラウザでのプレイを停止できます。VSCodeを閉じれば自動的に停止するはずですが、プレイを止める際にはボタンを押すことをおすすめします。&lt;/p&gt;
+&lt;code&gt;Go Live&lt;/code&gt;があった�?��?に表示され�?&lt;code&gt;Port:5050&lt;/code&gt;をクリ�?クすれば、ブラウザでのプレイを停止できます�?�VSCodeを閉じれば自動的に停止するはずですが、�?�レイを止める際にはボタンを押すことをおすすめします�??&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>自己流ステージ作成方法</title>
+      <title>自己流ス�?ージ作�?�方�?</title>
       <link>https://blog.opuappnavi.com/post/stage-create/</link>
       <pubDate>Sat, 30 May 2020 10:17:55 +0900</pubDate>
       <guid>https://blog.opuappnavi.com/post/stage-create/</guid>
       <description>&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;
-&lt;p&gt;初めまして、アプリNaviのヤマグチです。&lt;br&gt;
-本日、府大バーチャル学祭開催に合わせ、『巡回！デリバリー屋さん』を
-&lt;a href=&#34;http://appnavi.html.xdomain.jp/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;特設ページ&lt;/a&gt;にて公開させていただきました。遊んで、楽しんでもらえたのなら嬉しいです。&lt;/p&gt;
-&lt;p&gt;今ゲームは2Dパズルアクションゲームで、ステージ作りにそれなりの時間を割きました。&lt;br&gt;
-そこで、前半はステージ作りをするとき僕がどう考えていたかについて、後半はゲーム内に実装したステージを作った時に考えていたことの一部について書きます。&lt;br&gt;
-あくまで僕自身の考え方であり他の方のものとは異なります。参考程度に読んでください。&lt;/p&gt;
-&lt;h1 id=&#34;ステージ作成で大切なこと&#34;&gt;ステージ作成で大切なこと&lt;/h1&gt;
-&lt;p&gt;この項では、僕がステージ作成で気にした方がいいと考えていることを書いていきます&lt;/p&gt;
-&lt;h2 id=&#34;1-ステージに意図を持たせる&#34;&gt;1. ステージに意図を持たせる&lt;/h2&gt;
-&lt;p&gt;皆さんはカードゲームをしたことがありますか。ない場合は武器やパーティをカスタム、編成するゲームを考えてください。カードゲームにおいて、何が一番いる能力だと思いますか。&lt;br&gt;
-プレイング、読み、運、色々あると思います。&lt;br&gt;
-僕の答えは構築力です。なぜ構築力なのかは、ここではあまり関係ないので省きますが、構築力が高いデッキはデッキ内のすべてのカードに採用する理由があります。完成された構築には意味のないカードはなく、製作者の意図、意志が反映されます。  限られたデッキ枚数に何を何枚採用するか。&lt;br&gt;
-言い換えると、限られたスペースに何をどのくらい配置するか、何かに似てますね。&lt;br&gt;
-そうです、ステージ作成です。特に今回のゲームでは、ステージは一画面に収まる量でなくてはダメでした。&lt;br&gt;
-そこで、ステージの枠組みをどうするか、設置物をどこに置くか等、それぞれの配置に自分なりの考えを持つことを意識して作成しました。&lt;/p&gt;
-&lt;h2 id=&#34;2-意味のないものを作る&#34;&gt;2. 意味のないものを作る&lt;/h2&gt;
-&lt;p&gt;前項で書いたことに早速矛盾しました。&lt;br&gt;
-しかし、意味のないものを作ることも必要です。遊んでくれる方は製作者の意図なんて知ったこっちゃありません。だからこそ、製作者にとっては無意味だとわかり切っているものにも意味があるんじゃないかと深読みしてくれます。  そうすれば、意味のないものを作ったつもりが意味のあるものを作れます。&lt;br&gt;
-意図的に意味のないものを作ることでステージ全体に遊び心を与えることができるのです。&lt;/p&gt;
-&lt;h2 id=&#34;3-ギミックの使い方を考える&#34;&gt;3. ギミックの使い方を考える&lt;/h2&gt;
-&lt;p&gt;今回はステージの数が少なく、一つ一つのステージも小さいです。なので、できる限り同じ使い方でギミックを使わないことを気にしました。&lt;br&gt;
-同じギミックでも、あるときはプラスの役割で使い、またある時はマイナスの役割で使うというようにギミックをより効果的に使うことを心がけました。&lt;/p&gt;
-&lt;h2 id=&#34;4-自分が楽しむ&#34;&gt;4. 自分が楽しむ&lt;/h2&gt;
-&lt;p&gt;これが一番大切な気がします。&lt;br&gt;
-作った人が作ったものに対しての理解が最も深いはずです。その人が楽しめないものを他の人が楽しめるとは思えません。作ったステージを自分自身が楽しめるようになることが望ましいです。  作っている時は、作っているステージが面白いかどうかわからなくなってきます。しかし自分が面白いと思えば、少なくとも世界で誰も楽しめないステージではなくなります。&lt;br&gt;
-僕は今回のゲーム内のステージでは僕が作ったステージが一番好きです。&lt;/p&gt;
-&lt;h1 id=&#34;実際に作ったステージの解説&#34;&gt;実際に作ったステージの解説&lt;/h1&gt;
-&lt;p&gt;この項では、僕が今回のゲームで作ったステージのちょっとした解説をしようと思います。&lt;br&gt;
-この先、ステージ9のネタバレを含みますのでプレイした後に読むことをお勧めします。
+&lt;p&gt;初めまして、アプリNaviのヤマグチです�??&lt;br&gt;
+本日、府大バ�?�チャル学祭開催に合わせ�?��?�巡回！デリバリー屋さん�?�を
+&lt;a href=&#34;http://appnavi.html.xdomain.jp/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;特設ペ�?�ジ&lt;/a&gt;にて公開させて�?ただきました。遊んで、楽しんでもらえたのなら嬉し�?です�??&lt;/p&gt;
+&lt;p&gt;今ゲー�?は2Dパズルアクションゲー�?で、ス�?ージ作りにそれなり�?�時間を割きました�?&lt;br&gt;
+そこで、前半�?�ス�?ージ作りをするとき僕がど�?�?えて�?たかにつ�?て、後半はゲー�?�?に実�?したス�?ージを作った時に�?えて�?たことの�?部につ�?て書きます�??&lt;br&gt;
+あくまで僕�?�身の�?え方であり他�?�方のも�?�とは異なります�?�参�?程度に読んでください�?&lt;/p&gt;
+&lt;h1 id=&#34;ス�?ージ作�?�で大�?なこと&#34;&gt;ス�?ージ作�?�で大�?なこと&lt;/h1&gt;
+&lt;p&gt;こ�?��?では、僕がス�?ージ作�?�で気にした方がい�?と�?えて�?ることを書�?て�?きま�?&lt;/p&gt;
+&lt;h2 id=&#34;1-ス�?ージに意図を持たせ�?&#34;&gt;1. ス�?ージに意図を持たせ�?&lt;/h2&gt;
+&lt;p&gt;�?さんはカードゲー�?をしたことがありますか。な�?場合�?�武器�?パ�?��?ィをカスタ�?、編成するゲー�?を�??えてください。カードゲー�?において、何が�?番�?る�?�力だと思いますか�?&lt;br&gt;
+プレイング、読み�?運�?�色�?あると思います�??&lt;br&gt;
+僕�?�答えは構築力です�?�なぜ構築力なのか�?�、ここではあまり関係な�?ので省きますが、構築力が高い�?�?キは�?�?キ�?のすべてのカードに採用する�?由があります�?�完�?�された構築には意味のな�?カード�?�なく�?�製作�??の意図、意志が反映されます�??  限られた�?�?キ枚数に何を何枚採用するか�??&lt;br&gt;
+�?�?換えると�?限られたスペ�?�スに何をどのくら�?配置するか�?�何かに似てます�?��?&lt;br&gt;
+そうです�?�ス�?ージ作�?�です�?�特に今回のゲー�?では、ス�?ージは�?画面に収まる量でなくては�?メでした�?&lt;br&gt;
+そこで、ス�?ージの�?�?みをど�?するか�?�設置物をどこに置くか等�?�それぞれ�?�配置に自�?なり�?��?えを持つことを意識して作�?�しました�?&lt;/p&gt;
+&lt;h2 id=&#34;2-意味のな�?も�?�を作る&#34;&gt;2. 意味のな�?も�?�を作る&lt;/h2&gt;
+&lt;p&gt;前�??で書�?たことに早速矛盾しました�?&lt;br&gt;
+しかし�?�意味のな�?も�?�を作ることも�?要です�?�遊んでくれる方は製作�??の意図なんて知ったこっち�?ありません。だからこそ、製作�??にとっては無意味�?とわかり�??って�?るものにも意味があるんじゃな�?かと深読みしてくれます�??  そうすれば、意味のな�?も�?�を作ったつもりが意味のあるも�?�を作れます�??&lt;br&gt;
+意図�?に意味のな�?も�?�を作ることでス�?ージ全体に遊�?��?を与えることができるのです�??&lt;/p&gt;
+&lt;h2 id=&#34;3-ギミックの使�?方を�??える&#34;&gt;3. ギミックの使�?方を�??える&lt;/h2&gt;
+&lt;p&gt;今回はス�?ージの数が少なく�?��?つ�?つのス�?ージも小さ�?です�?�なので、できる限り同じ使�?方でギミックを使わな�?ことを気にしました�?&lt;br&gt;
+同じギミックでも�?�あるとき�?�プラスの役割で使�?、またある時はマイナスの役割で使�?と�?�?ようにギミックをより効果的に使�?ことを�?がけました�?&lt;/p&gt;
+&lt;h2 id=&#34;4-自�?が楽し�?&#34;&gt;4. 自�?が楽し�?&lt;/h2&gt;
+&lt;p&gt;これが�?番大�?な気がします�??&lt;br&gt;
+作った人が作ったものに対しての�?解が最も深�?はずです�?�その人が楽しめな�?も�?�を他�?�人が楽しめるとは思えません。作ったス�?ージを�?��?自身が楽しめるよ�?になることが望ましいです�??  作って�?る時は、作って�?るス�?ージが面白�?かど�?かわからなくなってきます�?�しかし自�?が面白�?と思えば、少なくとも世界で誰も楽しめな�?ス�?ージではなくなります�??&lt;br&gt;
+僕�?�今回のゲー�?�?のス�?ージでは僕が作ったス�?ージが�?番好きです�??&lt;/p&gt;
+&lt;h1 id=&#34;実際に作ったス�?ージの解説&#34;&gt;実際に作ったス�?ージの解説&lt;/h1&gt;
+&lt;p&gt;こ�?��?では、僕が今回のゲー�?で作ったス�?ージのち�?っとした解説をしようと思います�??&lt;br&gt;
+こ�?�先�?�ス�?ージ9のネタバレを含みます�?�でプレイした後に読�?ことをお勧めします�??
 &lt;details&gt;
-    &lt;summary&gt;&lt;code&gt;以下ステージ9ネタバレ&lt;/code&gt;&lt;/summary&gt;
+    &lt;summary&gt;&lt;code&gt;以下ス�?ージ9ネタバレ&lt;/code&gt;&lt;/summary&gt;
     &lt;figure &gt;
 &lt;p&gt;&lt;a data-fancybox=&#34;&#34; href=&#34;./stage9.png&#34; &gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;./stage9.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;&lt;/p&gt;
 &lt;/figure&gt;
-&lt;p&gt;1の意図は、ステージ全体にコンセプトを持たせることです。&lt;br&gt;
-初めにコンセプトを決めておくことで僕自身の中で方向性がブレないようにしました。このステージ全体のコンセプトは「ステージ一周」でした。その時に右周りでも左回りでもクリアできるようにするということを目標にしました。&lt;br&gt;
-ステージ全体を荷物を取るエリアでそれぞれ区分けし、各エリアには入り口と出口を作り、周回方向によって入り口、出口が入れ替わるような配置にしました。&lt;br&gt;
-上の画像では、赤枠の示す上から落ちるブロックを擬似的な通行止めとして利用しています。&lt;/p&gt;
-&lt;p&gt;2の意味のないものは、どっち周りでもクリアできるという要素です。&lt;br&gt;
-別に両方から進める必要は全くありません。左回りの時は右回りのギミックは不必要で、右回りの時は左回りのギミックは不必要となります。&lt;br&gt;
-ただ、これがあることでこのステージの面白さが出ていると考えています。&lt;/p&gt;
-&lt;p&gt;3のギミックの使い方は、先ほども挙げた落ちるブロックによるステージの区切りです。&lt;br&gt;
-他の僕の作ったステージでは、基本的にプレイヤーを倒すためだけのものでした。そこに他の役割である区切りという役割を持たせています。&lt;br&gt;
-この使い方はプラスとマイナスの両方の使い方というわけではありませんが、違った使い方をした一例ではあります。&lt;/p&gt;
-&lt;p&gt;4の自分が楽しむに関しては、作ってる間すごく楽しかったです。コンセプトを思いついてからは非常にスムーズにステージ作成をすることができました。&lt;/p&gt;
-&lt;p&gt;以上が、僕の作ったステージのちょっとした解説になります。あまり話しすぎても面白くないのでこの辺りで終わります。&lt;/p&gt;
+&lt;p&gt;1の意図は、ス�?ージ全体にコンセプトを持たせることです�??&lt;br&gt;
+初めにコンセプトを決めておくことで僕�?�身の中で方向�?�がブレな�?ようにしました。このス�?ージ全体�?�コンセプトは「ス�?ージ�?周」でした。その時に右周りでも左回りでもクリアできるようにすると�?�?ことを目標にしました�?&lt;br&gt;
+ス�?ージ全体を荷物を取るエリアでそれぞれ区�?けし、各エリアには入り口と出口を作り、周回方向によって入り口、�?�口が�?�れ替わるような配置にしました�?&lt;br&gt;
+上�?�画像では、赤�?の示す上から落ちるブロ�?クを擬似�?な通行止めとして利用して�?ます�??&lt;/p&gt;
+&lt;p&gt;2の意味のな�?も�?�は、どっち周りでもクリアできると�?�?要�?です�??&lt;br&gt;
+別に両方から進める�?要�?�全くありません。左回りの時�?�右回りのギミックは不�?要で、右回りの時�?�左回りのギミックは不�?要となります�??&lt;br&gt;
+ただ、これがあることでこ�?�ス�?ージの面白さが出て�?ると�?えて�?ます�??&lt;/p&gt;
+&lt;p&gt;3のギミックの使�?方は、�?�ほども挙げた落ちるブロ�?クによるス�?ージの区�?りです�??&lt;br&gt;
+他�?�僕�?�作ったス�?ージでは、基本�?にプレイヤーを�?�すため�?け�?�も�?�でした。そこに他�?�役割である区�?りと�?�?役割を持たせて�?ます�??&lt;br&gt;
+こ�?�使�?方はプラスとマイナスの両方の使�?方と�?�?わけではありませんが�??違った使�?方をした�?例ではあります�??&lt;/p&gt;
+&lt;p&gt;4の自�?が楽し�?に関しては、作ってる間すごく楽しかったです�?�コンセプトを�?�いつ�?てからは非常にス�?ーズにス�?ージ作�?�をすることができました�?&lt;/p&gt;
+&lt;p&gt;以上が、僕の作ったス�?ージのち�?っとした解説になります�?�あまり話しすぎても面白くな�?のでこ�?�辺りで終わります�??&lt;/p&gt;
 
 &lt;/details&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;終わりに&#34;&gt;終わりに&lt;/h2&gt;
-&lt;p&gt;読んでいただきありがとうございました。&lt;br&gt;
-まさかブログまで書くことになると思っていませんでしたが、ゲームも含めてまあ良いものになったんじゃないかなあと思っています。&lt;br&gt;
-最後に、ゲームを遊んでいただいた方、このブログを読んでいただいた方ありがとうございました。それではまた何かの機会に。&lt;/p&gt;
+&lt;p&gt;読んで�?ただきありがと�?ござ�?ました�?&lt;br&gt;
+まさかブログまで書くことになると思って�?ませんでしたが�?�ゲー�?も含めてまあ良�?も�?�になったんじゃな�?かなあと思って�?ます�??&lt;br&gt;
+�?後に、ゲー�?を遊んで�?ただ�?た方、このブログを読んで�?ただ�?た方ありがと�?ござ�?ました。それではまた何かの機会に�?&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>GAS でサクッと採点シート作ってみた</title>
+      <title>GAS でサク�?と採点シート作ってみ�?</title>
       <link>https://blog.opuappnavi.com/post/gas-scoring/</link>
       <pubDate>Sat, 30 May 2020 10:04:44 +0900</pubDate>
       <guid>https://blog.opuappnavi.com/post/gas-scoring/</guid>
-      <description>&lt;p&gt;全然需要ないかもですが、GAS の紹介第二弾です。&lt;/p&gt;
-&lt;p&gt;今回は GAS を使って、以前ハッカソンの採点シートをちゃっと作った話をしたい思います。&lt;/p&gt;
-&lt;p&gt;手軽にできるので、JavaScript など、プログラミングを最近学び始めた方はちょっと実践がてらに GAS を利用して何か作ってみたらどうでしょう？みたいな気持ちで書いたので、読んでもらえたら幸いです。（GAS は一応 JavaScript ベースでできています(^^)/)&lt;/p&gt;
-&lt;h2 id=&#34;gas-って&#34;&gt;GAS って？&lt;/h2&gt;
-&lt;p&gt;こちらで紹介しているので良ければ見ていってください！&lt;/p&gt;
+      <description>&lt;p&gt;全然�?要な�?かもですが、GAS の紹介第二弾です�??&lt;/p&gt;
+&lt;p&gt;今回は GAS を使って、以前ハ�?カソンの採点シートをち�?っと作った話をしたい思います�??&lt;/p&gt;
+&lt;p&gt;手軽にできるので、JavaScript など、�?�ログラミングを最近学び始めた方はち�?っと実践がてらに GAS を利用して何か作ってみたらど�?でしょ�??��みたいな気持ちで書�?た�?�で、読んでもらえたら幸�?です�?��?GAS は�?�? JavaScript ベ�?�スでできて�?ま�?(^^)/)&lt;/p&gt;
+&lt;h2 id=&#34;gas-って&#34;&gt;GAS って?�?&lt;/h2&gt;
+&lt;p&gt;こちらで紹介して�?る�?�で良ければ見て�?ってください?�?&lt;/p&gt;
 
 
 
@@ -726,7 +971,7 @@ window.onresize = function(){ set_width(); };
     
     
       
-          最終更新
+          �?終更新
       
     
     2020/05/30
@@ -753,12 +998,12 @@ window.onresize = function(){ set_width(); };
   
 
   &lt;h3 class=&#34;article-title mb-1 mt-3&#34;&gt;
-    &lt;a href=&#34;https://blog.opuappnavi.com/post/gas-recommendation/&#34;&gt;手軽に始める！GAS を使ってみませんか～&lt;/a&gt;
+    &lt;a href=&#34;https://blog.opuappnavi.com/post/gas-recommendation/&#34;&gt;手軽に始める！GAS を使ってみませんか�?&lt;/a&gt;
   &lt;/h3&gt;
 
   
   &lt;div class=&#34;article-style&#34;&gt;
-    &lt;p&gt;Google Apps Scriptの紹介&lt;/p&gt;
+    &lt;p&gt;Google Apps Scriptの紹�?&lt;/p&gt;
   &lt;/div&gt;
   
 
@@ -767,25 +1012,25 @@ window.onresize = function(){ set_width(); };
 &lt;/div&gt;
 
  
-&lt;h2 id=&#34;作った経緯ついでにハッカソンの紹介&#34;&gt;作った経緯（ついでにハッカソンの紹介）&lt;/h2&gt;
-&lt;p&gt;アプリ Navi では毎年、長期休みのどこかで、ハッカソンというものを開催しています。&lt;/p&gt;
+&lt;h2 id=&#34;作った経緯つ�?でにハッカソンの紹�?&#34;&gt;作った経緯?��つ�?でにハッカソンの紹介�?&lt;/h2&gt;
+&lt;p&gt;アプリ Navi では毎年�?長期休みのどこかで、ハ�?カソンと�?�?も�?�を開催して�?ます�??&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;ハッカソン&lt;/strong&gt;とは&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;ハッカソン（英語: hackathon 、別名:hack day ,hackfest ,codefest ）とは、ソフトウェア開発分野のプログラマやグラフィックデザイナー、ユーザインタフェース設計者、プロジェクトマネージャらが集中的に作業をするソフトウェア関連プロジェクトのイベントである
+&lt;p&gt;ハッカソン?��英�?: hackathon 、別�?:hack day ,hackfest ,codefest ?��とは、ソフトウェア開発�?野�?�プログラマやグラフィ�?ク�?ザイナ�?�、ユーザインタフェース設計�??、�?�ロジェクト�?�ネージャらが�?中�?に作業をするソフトウェア関連プロジェクト�?�イベントである
 (
-&lt;a href=&#34;https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wikipedia より抜粋&lt;/a&gt;)&lt;/p&gt;
+&lt;a href=&#34;https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wikipedia より抜�?&lt;/a&gt;)&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;とのこと。なんかヤバそう&amp;hellip;&lt;/p&gt;
-&lt;p&gt;もちろん、この文から読み取れるようなそこまでヤバそうな感じではないです（笑）&lt;/p&gt;
-&lt;p&gt;一言でいうと、参加者同士が、チームを組んで一つの作品を作ろうというイベントになっています。twitter にて簡単に紹介しているので良ければ見てください。&lt;/p&gt;
-&lt;p&gt;ハッカソンの紹介
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/hashtag/%E5%A4%A7%E9%98%AA%E5%BA%9C%E7%AB%8B%E5%A4%A7%E5%AD%A6?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#大阪府立大学&lt;/a&gt;&lt;br&gt;&lt;br&gt;今日紹介するのは、ハッカソンです！&lt;br&gt;&lt;br&gt;年に２回、コンピュータハウスランダムさんも交えてハッカソンを主催しています！&lt;br&gt;アプリNaviでは部員同士でチームを組んで、発表されるお題に沿って、約２日で一つのゲームやアプリを制作、発表する形式をとっています。&lt;br&gt;&lt;br&gt;↓リプ欄に続く &lt;a href=&#34;https://t.co/pZdAznwB0V&#34;&gt;pic.twitter.com/pZdAznwB0V&lt;/a&gt;&lt;/p&gt;&amp;mdash; OPU アプリNavi (@OPUAppNavi) &lt;a href=&#34;https://twitter.com/OPUAppNavi/status/1246644279813926912?ref_src=twsrc%5Etfw&#34;&gt;April 5, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;とのこと。なんかヤバそ�?&amp;hellip;&lt;/p&gt;
+&lt;p&gt;もちろん、この�?から読み取れるよ�?なそこまでヤバそ�?な感じではな�?です（笑�?&lt;/p&gt;
+&lt;p&gt;�?�?で�?�?と、参�?�?同士が�?�チー�?を�?んで�?つの作品を作ろ�?と�?�?イベントになって�?ます�?�twitter にて簡単に紹介して�?る�?�で良ければ見てください�?&lt;/p&gt;
+&lt;p&gt;ハッカソンの紹�?
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/hashtag/%E5%A4%A7%E9%98%AA%E5%BA%9C%E7%AB%8B%E5%A4%A7%E5%AD%A6?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#大阪府立大学&lt;/a&gt;&lt;br&gt;&lt;br&gt;今日紹介する�?�は、ハ�?カソンです�?&lt;br&gt;&lt;br&gt;年に?��回、コンピュータハウスラン�?�?さんも交えてハッカソンを主催して�?ます�?&lt;br&gt;アプリNaviでは部員同士でチ�?��?を�?んで、発表されるお題に沿って、�?��日で�?つのゲー�?�?アプリを制作�?�発表する形式をとって�?ます�??&lt;br&gt;&lt;br&gt;↓リプ�?に続く &lt;a href=&#34;https://t.co/pZdAznwB0V&#34;&gt;pic.twitter.com/pZdAznwB0V&lt;/a&gt;&lt;/p&gt;&amp;mdash; OPU アプリNavi (@OPUAppNavi) &lt;a href=&#34;https://twitter.com/OPUAppNavi/status/1246644279813926912?ref_src=twsrc%5Etfw&#34;&gt;April 5, 2020&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 &lt;/p&gt;
-&lt;p&gt;ハッカソンの紹介はこの程度にして、そこでは審査員の方もお呼びして、それぞれの作品を審査してもらう形を取っています。&lt;/p&gt;
-&lt;p&gt;その審査の際、採点用紙が必要だったので、ちょうど GAS を勉強し始めたこともあり自作することにしました。&lt;/p&gt;
+&lt;p&gt;ハッカソンの紹介�?�こ�?�程度にして、そこでは審査員の方もお呼びして、それぞれ�?�作品を審査してもら�?形を取って�?ます�??&lt;/p&gt;
+&lt;p&gt;そ�?�審査の際�?�採点用紙が�?要だった�?�で、ち�?�?ど GAS を勉強し始めたこともあり�?�作することにしました�?&lt;/p&gt;
 &lt;h2 id=&#34;作ったもの&#34;&gt;作ったもの&lt;/h2&gt;
-&lt;p&gt;それ専用に作ったので、完全に内輪向けですが画像としてはこんなものです。&lt;/p&gt;
+&lt;p&gt;それ専用に作った�?�で、完�?�に�?輪向けですが画像としてはこんなも�?�です�??&lt;/p&gt;
 
 
 
@@ -820,16 +1065,16 @@ window.onresize = function(){ set_width(); };
 
 &lt;/figure&gt;
 
-&lt;p&gt;見た目等はいまいちですが、ちゃんと動きます。&lt;/p&gt;
-&lt;p&gt;審査員の方に審査するチーム名を選択してもらい、それぞれの項目について点数を付け送信してもらうといった流れです。&lt;/p&gt;
-&lt;p&gt;こういうの何かの初歩の題材でありそうですね&amp;hellip;&lt;/p&gt;
-&lt;h2 id=&#34;どうして-gas-で&#34;&gt;どうして GAS で？&lt;/h2&gt;
-&lt;p&gt;大きな理由としては、GAS を知り始めて使ってみたかったというのがありますが、&lt;/p&gt;
-&lt;p&gt;その使ってみたくなるという前提となるのが、手軽に作成できるからです。&lt;/p&gt;
-&lt;p&gt;その理湯としては大きく分けて２つあります。&lt;/p&gt;
-&lt;h3 id=&#34;サーバー等の手続きがいらず簡単に公開できる&#34;&gt;サーバー等の手続きがいらず、簡単に公開できる&lt;/h3&gt;
-&lt;p&gt;GAS では Google のサーバーを使っているので、このような簡単なサイトでもサーバーを借りるなどの作業がいらず、実質ワンクリックで公開、利用できます。&lt;/p&gt;
-&lt;p&gt;GAS のエディタから、おおよそここをクリックしたら公開できます&lt;/p&gt;
+&lt;p&gt;見た目等�?��?ま�?ちですが、ち�?んと動きます�??&lt;/p&gt;
+&lt;p&gt;審査員の方に審査するチ�?��?名を選択してもら�?、それぞれ�?��?目につ�?て点数を付け送信してもら�?と�?った流れです�??&lt;/p&gt;
+&lt;p&gt;こう�?�?の何かの初歩の題材でありそうです�?�&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;ど�?して-gas-で&#34;&gt;ど�?して GAS で?�?&lt;/h2&gt;
+&lt;p&gt;大きな�?由としては、GAS を知り始めて使ってみたかったと�?�?のがありますが�?&lt;/p&gt;
+&lt;p&gt;そ�?�使ってみたくなると�?�?前提となる�?�が�?�手軽に作�?�できるからです�??&lt;/p&gt;
+&lt;p&gt;そ�?��?湯としては大きく�?けて?��つあります�??&lt;/p&gt;
+&lt;h3 id=&#34;サーバ�?�等�?�手続きがいらず簡単に公開できる&#34;&gt;サーバ�?�等�?�手続きがいらず、簡単に公開できる&lt;/h3&gt;
+&lt;p&gt;GAS では Google のサーバ�?�を使って�?る�?�で、このような簡単なサイトでもサーバ�?�を�?�りるなどの作業がいらず、実質ワンクリ�?クで公開�?�利用できます�??&lt;/p&gt;
+&lt;p&gt;GAS のエ�?ィタから、おおよそここをクリ�?クしたら�?�開できま�?&lt;/p&gt;
 
 
 
@@ -845,10 +1090,10 @@ window.onresize = function(){ set_width(); };
 
 
 
-&lt;figure id=&#34;figure-公開方法&#34;&gt;
+&lt;figure id=&#34;figure-公開方�?&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;./GAS_Release.png&#34; data-caption=&#34;公開方法&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./GAS_Release.png&#34; data-caption=&#34;公開方�?&#34;&gt;
 
 
   &lt;img src=&#34;./GAS_Release.png&#34; alt=&#34;&#34;  &gt;
@@ -858,28 +1103,28 @@ window.onresize = function(){ set_width(); };
   
   
   &lt;figcaption&gt;
-    公開方法
+    公開方�?
   &lt;/figcaption&gt;
 
 
 &lt;/figure&gt;
 
-&lt;h4 id=&#34;spreadsheet-を簡易的なデータベースのように利用できる&#34;&gt;SpreadSheet を簡易的なデータベースのように利用できる&lt;/h4&gt;
-&lt;p&gt;個人的には SpreadSheet を簡易的なデータベースとして利用できるのは大きいと思います。&lt;/p&gt;
-&lt;p&gt;SpreadSheet を簡易的なデータベースとして用いることで、データベースの知識がなくても簡単な事ならできますし、なんにせよ上限はありますが、無料で利用できるので、少なくとも何かをパッと作りたいときにはいいのではないかと！&lt;/p&gt;
-&lt;p&gt;一応、ちょっとした例として、ユーザーの入力を SpreadSheet に追加するコードを載せておきます…&lt;/p&gt;
+&lt;h4 id=&#34;spreadsheet-を簡易的な�?ータベ�?�スのように利用できる&#34;&gt;SpreadSheet を簡易的な�?ータベ�?�スのように利用できる&lt;/h4&gt;
+&lt;p&gt;個人�?には SpreadSheet を簡易的な�?ータベ�?�スとして利用できるのは大きいと思います�??&lt;/p&gt;
+&lt;p&gt;SpreadSheet を簡易的な�?ータベ�?�スとして用�?ることで、データベ�?�スの知識がなくても簡単な事ならできますし、なんにせよ上限はありますが、無料で利用できるので、少なくとも何かをパ�?と作りたいときには�?�?のではな�?かと?�?&lt;/p&gt;
+&lt;p&gt;�?応�?�ち�?っとした例として、ユーザーの入力を SpreadSheet に追�?するコードを載せておきます�?�&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;HTML の&lt;code&gt;&amp;lt;form&amp;gt;&amp;lt;/form&amp;gt;&lt;/code&gt;に入力された内容を SpreadSheet に記述&lt;/li&gt;
+&lt;li&gt;HTML の&lt;code&gt;&amp;lt;form&amp;gt;&amp;lt;/form&amp;gt;&lt;/code&gt;に入力された�?容�? SpreadSheet に記述&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-html:index.html&#34;&gt;&amp;lt;form method=&amp;quot;post&amp;quot; action=&amp;quot;送信先のURL&amp;quot;&amp;gt;
+&lt;pre&gt;&lt;code class=&#34;language-html:index.html&#34;&gt;&amp;lt;form method=&amp;quot;post&amp;quot; action=&amp;quot;送信先�?�URL&amp;quot;&amp;gt;
   ....
 &amp;lt;/form&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code class=&#34;language-JavaScript:input.gs&#34;&gt;function doPost(e){
-  //データを記録するスプレッドシート
+  //�?ータを記録するスプレ�?ドシー�?
   var sheet =SpreadsheetApp.openByUrl(&amp;quot;//利用したいSpreadSheetのURL//&amp;quot;);
   ...
-  //チーム名、各採点項目の情報を取得
+  //チ�?��?名�?�各採点�?目の�?報を取�?
   var name = e.parameter.name;
   var theme = e.parameter.theme;
   var uniqe = e.parameter.uniqe;
@@ -887,19 +1132,19 @@ window.onresize = function(){ set_width(); };
   var presentation = e.parameter.presentation;
   var comment = e.parameter.comment;
 
-  //データ
+  //�?ータ
   var array = [userEmail,name,theme,uniqe,practice,presentation,comment];
 
-  //SpreadSheetにデータを追加
+  //SpreadSheetに�?ータを追�?
   sheet.appendRow(array);
   ...
 }
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;データの保存だけですが、このように SpreadSheet を用いることで手軽に簡易的なデータベースを利用することができます。&lt;/p&gt;
-&lt;p&gt;また SpreadSheet を Sheet API として利用することで GAS のプロジェクトだけではなく、その他の web 開発やスマホアプリ開発などにもデータベースとして活用できるので知っておいて損はないかと思います。&lt;/p&gt;
-&lt;h2 id=&#34;コード&#34;&gt;コード&lt;/h2&gt;
-&lt;p&gt;こんなので公開していいのかという思いもありますが、大まかなコードを載せておきます。お見苦しいですが、何卒ご容赦下さい、、、
-恐らくすごく簡単というのが分かると思います。&lt;/p&gt;
+&lt;p&gt;�?ータの保存だけですが、このように SpreadSheet を用�?ることで手軽に簡易的な�?ータベ�?�スを利用することができます�??&lt;/p&gt;
+&lt;p&gt;ま�? SpreadSheet �? Sheet API として利用することで GAS のプロジェクトだけではなく�?�その他�?� web 開発�?スマ�?�アプリ開発などにもデータベ�?�スとして活用できるので知っておいて損�?�な�?かと思います�??&lt;/p&gt;
+&lt;h2 id=&#34;コー�?&#34;&gt;コー�?&lt;/h2&gt;
+&lt;p&gt;こんなので公開して�?�?のかと�?�?思いもありますが、大まかなコードを載せておきます�?�お見苦しいですが、何卒ご容赦下さ�?、�?��??
+恐らくすごく簡単と�?�?のが�?かると思います�??&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-html:index.html&#34;&gt;&amp;lt;!DOCTYPE html&amp;gt;
 &amp;lt;html lang=&amp;quot;ja&amp;quot;&amp;gt;
   &amp;lt;head&amp;gt;
@@ -913,41 +1158,41 @@ window.onresize = function(){ set_width(); };
   &amp;lt;/head&amp;gt;
   &amp;lt;body&amp;gt;
     &amp;lt;div class=&amp;quot;wrap&amp;quot;&amp;gt;
-      &amp;lt;h1&amp;gt;ハッカソン 採点シート&amp;lt;/h1&amp;gt;
+      &amp;lt;h1&amp;gt;ハッカソン 採点シー�?&amp;lt;/h1&amp;gt;
       &amp;lt;p&amp;gt;
-        使い方:&amp;lt;br /&amp;gt;採点欄がチームごとに４つの項目があるので各１０点、&amp;lt;br /&amp;gt;
-        合計40点で採点をお願いします。&amp;lt;br /&amp;gt;
-        各チームの採点が終わり次第、一番下の送信ボタンをおしてください。&amp;lt;br /&amp;gt;
-        また申し訳ありませんが、誤送信など、なにかございましたらすぐにご連絡ください
+        使�?方:&amp;lt;br /&amp;gt;採点�?がチー�?ごとに?��つの�?目がある�?�で�?��０点�?&amp;lt;br /&amp;gt;
+        合�?40点で採点をお願いします�??&amp;lt;br /&amp;gt;
+        �?チ�?��?の採点が終わり次第、�?番下�?�送信ボタンをおしてください�?&amp;lt;br /&amp;gt;
+        また申し訳ありませんが�?�誤送信など、なにかございましたらすぐにご�?�絡ください
       &amp;lt;/p&amp;gt;
-      &amp;lt;form method=&amp;quot;post&amp;quot; action=&amp;quot;送信先のURL&amp;quot;&amp;gt;
+      &amp;lt;form method=&amp;quot;post&amp;quot; action=&amp;quot;送信先�?�URL&amp;quot;&amp;gt;
         &amp;lt;table border=&amp;quot;1&amp;quot; width=&amp;quot;100%&amp;quot; height=&amp;quot;30rem&amp;quot;&amp;gt;
           &amp;lt;tr&amp;gt;
-            &amp;lt;th&amp;gt;チーム名&amp;lt;/th&amp;gt;
+            &amp;lt;th&amp;gt;チ�?��?�?&amp;lt;/th&amp;gt;
             &amp;lt;th&amp;gt;
               &amp;lt;select name=&amp;quot;name&amp;quot;&amp;gt;
                 &amp;lt;option value=&amp;quot;&amp;quot;&amp;gt;選択してください&amp;lt;/option&amp;gt;
-                &amp;lt;option value=&amp;quot;/*チーム名*/&amp;quot;&amp;gt;/*チーム名*/&amp;lt;/option&amp;gt;
+                &amp;lt;option value=&amp;quot;/*チ�?��?�?*/&amp;quot;&amp;gt;/*チ�?��?�?*/&amp;lt;/option&amp;gt;
                 ...
               &amp;lt;/select&amp;gt;
             &amp;lt;/th&amp;gt;
           &amp;lt;/tr&amp;gt;
           &amp;lt;tr&amp;gt;
-            &amp;lt;th colspan=&amp;quot;2&amp;quot;&amp;gt;採点項目&amp;lt;/th&amp;gt;
+            &amp;lt;th colspan=&amp;quot;2&amp;quot;&amp;gt;採点�?目&amp;lt;/th&amp;gt;
           &amp;lt;/tr&amp;gt;
           &amp;lt;tr&amp;gt;
-            &amp;lt;td&amp;gt;/*採点項目*/&amp;lt;/td&amp;gt;
+            &amp;lt;td&amp;gt;/*採点�?目*/&amp;lt;/td&amp;gt;
             &amp;lt;td&amp;gt;&amp;lt;input type=&amp;quot;number&amp;quot; name=&amp;quot;name&amp;quot; min=&amp;quot;0&amp;quot; max=&amp;quot;10&amp;quot; /&amp;gt;/10&amp;lt;/td&amp;gt;
             ...
           &amp;lt;/tr&amp;gt;
 
           &amp;lt;tr&amp;gt;
-            &amp;lt;td&amp;gt;コメント&amp;lt;/td&amp;gt;
+            &amp;lt;td&amp;gt;コメン�?&amp;lt;/td&amp;gt;
             &amp;lt;td&amp;gt;
               &amp;lt;textarea
                 id=&amp;quot;commit&amp;quot;
                 name=&amp;quot;comment&amp;quot;
-                placeholder=&amp;quot;こちらに何かチームに向けてコメントあればお願いします！&amp;quot;
+                placeholder=&amp;quot;こちらに何かチ�?��?に向けてコメントあれ�?�お願いします�?&amp;quot;
               &amp;gt;&amp;lt;/textarea&amp;gt;
             &amp;lt;/td&amp;gt;
           &amp;lt;/tr&amp;gt;
@@ -964,22 +1209,22 @@ window.onresize = function(){ set_width(); };
   &amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-JavaScript:コード.gs&#34;&gt;//htmlを読み込む
+&lt;pre&gt;&lt;code class=&#34;language-JavaScript:コー�?.gs&#34;&gt;//htmlを読み込�?
 function doGet() {
   var template = &#39;index&#39;;
   return HtmlService.createTemplateFromFile(template).evaluate();
 }
-//得点計算処理
+//得点計算�?��?
 function myFunction() {
 
   var sum = [];
 
-  var teamList = [&amp;quot;/*チームリスト*/&amp;quot;];
+  var teamList = [&amp;quot;/*チ�?��?リス�?*/&amp;quot;];
 
   for(var j = 0; j &amp;lt; 8;j++){
     sum[j] = 0;
   }
-//spreadsheetのデータを取得する処理(細かい解説は省きます)
+//spreadsheetの�?ータを取得する�?��?(細かい解説は省きま�?)
   var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
   var sheet = spreadsheet.getActiveSheet();
 
@@ -1007,115 +1252,115 @@ function myFunction() {
 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;作ってみた感想&#34;&gt;作ってみた感想&lt;/h2&gt;
-&lt;p&gt;コード自体も非常に簡単ながら、データの保存等も SpreadSheet で行い、利用してもらうための公開もすぐにできるので、サクッと作ることが出来ました。
-ただやはり GAS 自体の勉強もいるかなという感じです。
-また勉強だけでなく、大小あれど自分で実際に使ってもらうものを作ることができたので、その点は良かったと思います。&lt;/p&gt;
-&lt;h2 id=&#34;最後に&#34;&gt;最後に&lt;/h2&gt;
-&lt;p&gt;今回は本当に簡単な例をあげましたが、かなりざっくりしていたので、説明不足の点も多々あって申し訳ないです。ただ、こんなのがあるとだけ伝われば幸いです。
-また、もちろん GAS にはもっと様々な事に利用することができるので、ご興味のある方は一度調べてみてください！&lt;/p&gt;
+&lt;p&gt;コード�?�体も非常に簡単ながら、データの保存等も SpreadSheet で行い、利用してもら�?ための公開もすぐにできるので、サク�?と作ることが�?�来ました�?
+ただ�?は�? GAS 自体�?�勉強もいるかなと�?�?感じです�??
+また勉強�?けでなく�?�大小あれど自�?で実際に使ってもら�?も�?�を作ることができたので、その点は良かったと思います�??&lt;/p&gt;
+&lt;h2 id=&#34;�?後に&#34;&gt;�?後に&lt;/h2&gt;
+&lt;p&gt;今回は本当に簡単な例をあげましたが�?�かなりざっくりして�?た�?�で、説明不足の点も多�??あって申し訳な�?です�?�た�?、こんなのがあると�?け伝われ�?�幸�?です�??
+また�?�もちろん GAS にはもっと様�??な事に利用することができるので、ご興味のある方は�?度調べてみてください?�?&lt;/p&gt;
 &lt;p&gt;追伸&lt;/p&gt;
-&lt;p&gt;普通に Google Form とかでやればええやん、とかは言わないで m(_ _)m&lt;/p&gt;
+&lt;p&gt;普通に Google Form とかで�?れ�?�ええ�?ん�?�とか�?��?わな�?で m(_ _)m&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>手軽に始める！GAS を使ってみませんか～</title>
+      <title>手軽に始める！GAS を使ってみませんか�?</title>
       <link>https://blog.opuappnavi.com/post/gas-recommendation/</link>
       <pubDate>Thu, 28 May 2020 19:47:24 +0900</pubDate>
       <guid>https://blog.opuappnavi.com/post/gas-recommendation/</guid>
-      <description>&lt;p&gt;どうもこんにちは、今回は自分がよく使っている、GAS について紹介したいと思います。&lt;/p&gt;
-&lt;p&gt;ちなみにタイトルの通り、手軽に始められるので、最近プログラミングを始めたという方にもおススメなのでぜひ見ていってください(^-^)&lt;/p&gt;
+      <description>&lt;p&gt;ど�?もこんにちは、今回は自�?がよく使って�?る�?�GAS につ�?て紹介したいと思います�??&lt;/p&gt;
+&lt;p&gt;ちなみにタイトルの通り、手軽に始められる�?�で、最近�?�ログラミングを始めたと�?�?方にもおススメなのでぜ�?�見て�?ってください(^-^)&lt;/p&gt;
 &lt;h1 id=&#34;gas-って&#34;&gt;GAS って?&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;GAS&lt;/strong&gt;とは &lt;strong&gt;Google Apps Script&lt;/strong&gt;の略でプログラミング言語の一つです。&lt;/p&gt;
-&lt;p&gt;読み方はガス、ギャスなどと言われることが多いです。&lt;/p&gt;
-&lt;p&gt;一応、
+&lt;p&gt;&lt;strong&gt;GAS&lt;/strong&gt;とは &lt;strong&gt;Google Apps Script&lt;/strong&gt;の略でプログラミング�?語�?��?つです�??&lt;/p&gt;
+&lt;p&gt;読み方はガス、ギャスなどと�?われることが多いです�??&lt;/p&gt;
+&lt;p&gt;�?応�??
 
-&lt;a href=&#34;https://developers.google.com/gsuite/aspects/appsscript?hl=ja&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式&lt;/a&gt;の文言を載せておくと、&lt;/p&gt;
+&lt;a href=&#34;https://developers.google.com/gsuite/aspects/appsscript?hl=ja&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公�?&lt;/a&gt;の�?�?を載せておくと�?&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Google Apps Script は JavaScript ベースのスクリプト言語で、ドキュメント、スプレッドシート、スライド、フォームなどの G Suite サービスをカスタマイズ、拡張できます。&lt;/p&gt;
+&lt;p&gt;Google Apps Script は JavaScript ベ�?�スのスクリプト�?語で、ドキュメント�?�スプレ�?ドシート�?�スライド�?�フォー�?などの G Suite サービスをカスタマイズ、拡張できます�??&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;とのこと。（抜粋）&lt;/p&gt;
-&lt;h1 id=&#34;gas-で何ができるの&#34;&gt;GAS で何ができるの？&lt;/h1&gt;
-&lt;p&gt;じゃあ GAS で何ができるのかというと、色々とあると思うのですが、とりあえず大きく分けてこの２つかなと。&lt;/p&gt;
+&lt;p&gt;とのこと。（抜粋�?&lt;/p&gt;
+&lt;h1 id=&#34;gas-で何ができるの&#34;&gt;GAS で何ができるの?�?&lt;/h1&gt;
+&lt;p&gt;じゃ�? GAS で何ができるのかと�?�?と、色�?とあると思うのですが、とりあえず大きく�?けてこ�?�?��つかなと�?&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Google のサービスをより便利に活用する&lt;/li&gt;
-&lt;li&gt;web アプリケーションの作成、公開&lt;/li&gt;
+&lt;li&gt;web アプリケーションの作�?��?��?��?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;順に紹介していきます。&lt;/p&gt;
+&lt;p&gt;�?に紹介して�?きます�??&lt;/p&gt;
 &lt;h1 id=&#34;google-のサービスをより便利に活用する&#34;&gt;Google のサービスをより便利に活用する&lt;/h1&gt;
-&lt;p&gt;GAS では Google のサービスをより自由に効率的に使うことが出来ます。&lt;/p&gt;
-&lt;p&gt;下記のようなサービスを利用する際、GAS のコードを加えることで、面倒な作業を自動化したりなどが可能です。&lt;/p&gt;
-&lt;h2 id=&#34;利用できるサービス例&#34;&gt;利用できるサービス例&lt;/h2&gt;
+&lt;p&gt;GAS では Google のサービスをより�?�由に効�?�?に使�?ことが�?�来ます�??&lt;/p&gt;
+&lt;p&gt;下記�?�ようなサービスを利用する際�?�GAS のコードを�?えることで�?面倒な作業を�?�動化したりなどが可能です�??&lt;/p&gt;
+&lt;h2 id=&#34;利用できるサービス�?&#34;&gt;利用できるサービス�?&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Google Document&lt;/li&gt;
 &lt;li&gt;G Mail&lt;/li&gt;
 &lt;li&gt;Google SpreadSheet&lt;/li&gt;
 &lt;li&gt;Google Calender&lt;/li&gt;
-&lt;li&gt;Google Form 　　　　などなど…&lt;/li&gt;
+&lt;li&gt;Google Form �?�?�?�?などなど…&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;これらのサービスを使っている人も比較的多いのではないでしょうか？&lt;/p&gt;
-&lt;h2 id=&#34;使用例&#34;&gt;使用例&lt;/h2&gt;
-&lt;p&gt;具体的に GAS で Google のサービスをより効果的に用いた使用例としてはこのようなものがあります。&lt;/p&gt;
+&lt;p&gt;これら�?�サービスを使って�?る人も比�?�?多いのではな�?でしょ�?か�?&lt;/p&gt;
+&lt;h2 id=&#34;使用�?&#34;&gt;使用�?&lt;/h2&gt;
+&lt;p&gt;具体的に GAS で Google のサービスをより効果的に用�?た使用例としてはこ�?�ようなも�?�があります�??&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;カレンダーに自動でスケジュールを記入&lt;/li&gt;
-&lt;li&gt;事務的メールを複数人に指定の時間に自動送信&lt;/li&gt;
-&lt;li&gt;Google Formを自分好みに改造&lt;/li&gt;
+&lt;li&gt;カレン�?ーに自動でスケジュールを記�?�&lt;/li&gt;
+&lt;li&gt;事務�?メールを�?数人に�?定�?�時間に自動�?�信&lt;/li&gt;
+&lt;li&gt;Google Formを�?��?好みに改�?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;もちろん他にも色々とありますが、例のように日常の何気ない作業を自動化したり、普段用いているサービスの機能を拡張するようなことができます。&lt;/p&gt;
-&lt;h1 id=&#34;web-アプリケーションの作成公開&#34;&gt;Web アプリケーションの作成、公開&lt;/h1&gt;
-&lt;p&gt;GAS では、google のサービスと連携して、web アプリケーションを開発、公開する機能があります。&lt;/p&gt;
-&lt;p&gt;またアプリケーションの機能として、googleのサービスと連携しているのでその機能を簡単に用いることができ、少しのコードでちょっと素敵な事を行うことが可能です。&lt;/p&gt;
-&lt;h2 id=&#34;使用例-1&#34;&gt;使用例&lt;/h2&gt;
+&lt;p&gt;もちろん他にも色�?とありますが、例�?�ように日常の何気な�?作業を�?�動化したり�?�普段用�?て�?るサービスの機�?�を拡張するようなことができます�??&lt;/p&gt;
+&lt;h1 id=&#34;web-アプリケーションの作�?��?��?&#34;&gt;Web アプリケーションの作�?��?��?��?&lt;/h1&gt;
+&lt;p&gt;GAS では、google のサービスと連携して、web アプリケーションを開発、�?�開する機�?�があります�??&lt;/p&gt;
+&lt;p&gt;またアプリケーションの機�?�として、googleのサービスと連携して�?る�?�でそ�?�機�?�を簡単に用�?ることができ�?�少しのコードでち�?っと�?敵な事を行うことが可能です�??&lt;/p&gt;
+&lt;h2 id=&#34;使用�?-1&#34;&gt;使用�?&lt;/h2&gt;
 &lt;p&gt;簡単に例をあげると&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;SpreadSheetを簡易的なデータベースのように使う&lt;/li&gt;
-&lt;li&gt;G Mailを用いてメール送信機能を作る&lt;/li&gt;
+&lt;li&gt;SpreadSheetを簡易的な�?ータベ�?�スのように使�?&lt;/li&gt;
+&lt;li&gt;G Mailを用�?てメール送信機�?�を作る&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;などがあります。&lt;/p&gt;
-&lt;p&gt;他にも外部アプリケーションとの連携などを組合せて、様々な事ができると思うので、ぜひ試してください！&lt;/p&gt;
-&lt;h1 id=&#34;gasを使用するメリット&#34;&gt;GASを使用するメリット&lt;/h1&gt;
-&lt;p&gt;GASで何ができるかというのを紹介したところで、タイトルの&lt;strong&gt;お手軽&lt;/strong&gt;という理由を紹介していきます。&lt;/p&gt;
-&lt;h2 id=&#34;開発環境構築がいらない&#34;&gt;開発環境構築がいらない！&lt;/h2&gt;
-&lt;p&gt;GASでは新しく言語をはじめるときの面倒な環境構築はほとんどありません。&lt;/p&gt;
-&lt;p&gt;必要なのは&lt;strong&gt;Googleアカウント&lt;/strong&gt;だけ。&lt;/p&gt;
-&lt;p&gt;加えて、実行はGoogleのサーバーを利用するので、レンタルサーバーを用意したり、それ関係のツールを利用することもなく開発をすることができます。&lt;/p&gt;
-&lt;h2 id=&#34;無料&#34;&gt;無料！&lt;/h2&gt;
-&lt;p&gt;利用するのに基本的にお金はかかりません。&lt;/p&gt;
-&lt;h2 id=&#34;学習コストが低い勉強になる&#34;&gt;学習コストが低い、勉強になる！&lt;/h2&gt;
-&lt;p&gt;GASはJavaScriptベースで、そしてwebサイトを開発する時に良く用いられるHTML,CSSを使用して開発することが可能なので、一般的に学習コストはそこまで高くないです。&lt;/p&gt;
-&lt;p&gt;それにJavaScriptを勉強中の方はそれを使って手軽にアプリケーションを作ったりできるので、その学習の実践の場として助けにもなると思います。&lt;/p&gt;
-&lt;h1 id=&#34;デメリットもあります&#34;&gt;デメリットもあります…&lt;/h1&gt;
-&lt;p&gt;メリットの反面、やはりデメリットもあります。&lt;/p&gt;
-&lt;p&gt;その例として一つあげると無料で利用できる反面、Googleのサーバーを利用していているので、ユーザーによる過剰な負担を避けるために利用するのに制限があります。&lt;/p&gt;
-&lt;p&gt;もっとも大きな制限として考えられるのは実行制限で、&lt;/p&gt;
+&lt;p&gt;などがあります�??&lt;/p&gt;
+&lt;p&gt;他にも外部アプリケーションとの連携などを�?合せて、様�??な事ができると思うので、ぜひ試してください?�?&lt;/p&gt;
+&lt;h1 id=&#34;gasを使用するメリ�?�?&#34;&gt;GASを使用するメリ�?�?&lt;/h1&gt;
+&lt;p&gt;GASで何ができるかと�?�?のを紹介したところで、タイトルの&lt;strong&gt;お手軽&lt;/strong&gt;と�?�?�?由を紹介して�?きます�??&lt;/p&gt;
+&lt;h2 id=&#34;開発環�?構築が�?らな�?&#34;&gt;開発環�?構築が�?らな�?�?&lt;/h2&gt;
+&lt;p&gt;GASでは新しく�?語をはじめるとき�?�面倒な環�?構築�?�ほとんどありません�?&lt;/p&gt;
+&lt;p&gt;�?要なのは&lt;strong&gt;Googleアカウン�?&lt;/strong&gt;�?け�??&lt;/p&gt;
+&lt;p&gt;�?えて、実行�?�Googleのサーバ�?�を利用するので、レンタルサーバ�?�を用意したり、それ関係�?��?ールを利用することもなく開発をすることができます�??&lt;/p&gt;
+&lt;h2 id=&#34;無�?&#34;&gt;無料�?&lt;/h2&gt;
+&lt;p&gt;利用するのに基本�?にお��はかかりません�?&lt;/p&gt;
+&lt;h2 id=&#34;学習コストが低い勉強にな�?&#34;&gt;学習コストが低い、勉強になる�?&lt;/h2&gt;
+&lt;p&gt;GASはJavaScriptベ�?�スで、そしてwebサイトを開発する時に良く用�?られるHTML,CSSを使用して開発することが可能なので、�?般�?に学習コスト�?�そこまで高くな�?です�??&lt;/p&gt;
+&lt;p&gt;それにJavaScriptを勉強中の方はそれを使って手軽にアプリケーションを作ったりできるので、その学習�?�実践の場として助けにもなると思います�??&lt;/p&gt;
+&lt;h1 id=&#34;�?メリ�?トもありま�?&#34;&gt;�?メリ�?トもあります�?�&lt;/h1&gt;
+&lt;p&gt;メリ�?ト�?�反面、やはりデメリ�?トもあります�??&lt;/p&gt;
+&lt;p&gt;そ�?�例として�?つあげると無料で利用できる反面、Googleのサーバ�?�を利用して�?て�?る�?�で、ユーザーによる過剰な�?�?を避けるために利用するのに制限があります�??&lt;/p&gt;
+&lt;p&gt;もっとも大きな制限として�?えられるのは実行制限で�?&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;1回あたりの実行制限時間: 6分&lt;/li&gt;
+&lt;li&gt;1回あたりの実行制限時�?: 6�?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;となっています。&lt;/p&gt;
-&lt;p&gt;これは工夫せずに重い処理を何度も書くと、引っかかってしまうので注意が必要です…&lt;/p&gt;
-&lt;p&gt;そのためGASはそこまで大きなプロジェクトには向いていないと言えます&amp;hellip;&lt;/p&gt;
-&lt;p&gt;詳しい公式の制限は
+&lt;p&gt;となって�?ます�??&lt;/p&gt;
+&lt;p&gt;これは工夫せずに重い処�?を何度も書くと、引っかかってしま�?ので注意が�?要です�?�&lt;/p&gt;
+&lt;p&gt;そ�?�ためGASはそこまで大きなプロジェクトには向いて�?な�?と�?えま�?&amp;hellip;&lt;/p&gt;
+&lt;p&gt;詳しい公式�?�制限�?�
 &lt;a href=&#34;https://developers.google.com/apps-script/guides/services/quotas&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;コチラ&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;さっそく始めてみよう&#34;&gt;さっそく始めてみよう&lt;/h1&gt;
-&lt;p&gt;始める方法はとても簡単です。せっかくなので実際にやってみます。&lt;/p&gt;
+&lt;p&gt;始める方法�?�とても簡単です�?�せっかくなので実際に�?ってみます�??&lt;/p&gt;
 &lt;ol start=&#34;0&#34;&gt;
 &lt;li&gt;
-&lt;p&gt;googleアカウントの作成（無い方は）&lt;br&gt;
-こちらより必要事項を記入して
+&lt;p&gt;googleアカウント�?�作�?�（無�?方は?�?&lt;br&gt;
+こちらより�?要事�??を記�?�して
 
-&lt;a href=&#34;https://support.google.com/accounts/answer/27441?hl=ja&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google アカウントを作成&lt;/a&gt;
-します。&lt;/p&gt;
+&lt;a href=&#34;https://support.google.com/accounts/answer/27441?hl=ja&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google アカウントを作�??&lt;/a&gt;
+します�??&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;ブラウザで
-&lt;a href=&#34;https://www.google.co.jp/drive/apps.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;にアクセスします。&lt;/p&gt;
+&lt;a href=&#34;https://www.google.co.jp/drive/apps.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;にアクセスします�??&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Google DriveにGoogle Apps Scriptを追加する&lt;br&gt;
-左上の新規＋ボタンをクリックし、その他→アプリを追加→Google Apps Scriptを探し、接続をクリック&lt;/p&gt;
+&lt;p&gt;Google DriveにGoogle Apps Scriptを追�?する&lt;br&gt;
+左上�?�新規＋�?�タンをクリ�?クし�?�その他�?�アプリを追�?→Google Apps Scriptを探し�?�接続をクリ�?ク&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;もう一度新規＋を押し、その他にGoogle Apps Scriptが出てきたら完了
+&lt;p&gt;もう�?度新規＋を押し�?�その他にGoogle Apps Scriptが�?�てきたら完�?
 
 
 
@@ -1152,10 +1397,10 @@ function myFunction() {
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;それをクリックすると、エディタがでてくるので、これでGASをはじめる準備が出来ました！&lt;/p&gt;
+&lt;p&gt;それをクリ�?クすると、エ�?ィタがでてくるので、これでGASを�?�じめる準備が�?�来ました?�?&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;ちなみにHello Worldはこんな感じです。&lt;/p&gt;
+&lt;p&gt;ちなみにHello Worldはこんな感じです�??&lt;/p&gt;
 
 
 
@@ -1171,10 +1416,10 @@ function myFunction() {
 
 
 
-&lt;figure id=&#34;figure-完了後&#34;&gt;
+&lt;figure id=&#34;figure-完�?�?&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;./nobu_GAS_img_2.png&#34; data-caption=&#34;完了後&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./nobu_GAS_img_2.png&#34; data-caption=&#34;完�?�?&#34;&gt;
 
 
   &lt;img src=&#34;./nobu_GAS_img_2.png&#34; alt=&#34;&#34;  &gt;
@@ -1184,19 +1429,19 @@ function myFunction() {
   
   
   &lt;figcaption&gt;
-    完了後
+    完�?�?
   &lt;/figcaption&gt;
 
 
 &lt;/figure&gt;
 
-&lt;h1 id=&#34;最後に&#34;&gt;最後に&lt;/h1&gt;
-&lt;p&gt;今回はざっくりでしたがGASについて簡単に紹介しました。&lt;/p&gt;
-&lt;p&gt;GASの存在だけでも知ってもらい、機会があれば何かで使ってもらえたら幸いです。&lt;/p&gt;
-&lt;p&gt;また、GASを十分使いこなせているとは言えない自分ですが、おすすめしたい参考サイトも載せておくので興味がある人は見てみてください！&lt;/p&gt;
-&lt;h2 id=&#34;参考サイト&#34;&gt;参考サイト&lt;/h2&gt;
+&lt;h1 id=&#34;�?後に&#34;&gt;�?後に&lt;/h1&gt;
+&lt;p&gt;今回はざっくりでしたがGASにつ�?て簡単に紹介しました�?&lt;/p&gt;
+&lt;p&gt;GASの存在�?けでも知ってもら�?、機会があれば何かで使ってもらえたら幸�?です�??&lt;/p&gt;
+&lt;p&gt;また�?�GASを十�?使�?こなせて�?るとは�?えな�?自�?ですが、おすすめしたい参�??サイトも載せておくので興味がある人は見てみてください?�?&lt;/p&gt;
+&lt;h2 id=&#34;参�??サイ�?&#34;&gt;参�??サイ�?&lt;/h2&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://tonari-it.com/google-apps-script-manual/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;【保存版】初心者向け実務で使えるGoogle Apps Script完全マニュアル&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://tonari-it.com/google-apps-script-manual/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;【保存版】�?��?�?向け実務で使えるGoogle Apps Script完�?�マニュアル&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -1206,25 +1451,25 @@ function myFunction() {
       <pubDate>Sun, 24 May 2020 22:37:45 +0900</pubDate>
       <guid>https://blog.opuappnavi.com/post/github-fork-mit/</guid>
       <description>&lt;h1 id=&#34;githubのfork&#34;&gt;GitHubのfork&lt;/h1&gt;
-&lt;p&gt;GitHubにはforkという機能があります。既に存在するリポジトリをコピーして、オリジナルのリポジトリに影響を与えることなく変更を加えることができます。&lt;br&gt;
-このサイトは
-&lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic Kickstart&lt;/a&gt;というリポジトリをforkして開発しています。&lt;/p&gt;
+&lt;p&gt;GitHubにはforkと�?�?機�?�があります�?�既に存在するリポジトリをコピ�?�して、オリジナルのリポジトリに影響を与えることなく変更を加えることができます�??&lt;br&gt;
+こ�?�サイト�?�
+&lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic Kickstart&lt;/a&gt;と�?�?リポジトリをforkして開発して�?ます�??&lt;/p&gt;
 &lt;h1 id=&#34;ライセンス&#34;&gt;ライセンス&lt;/h1&gt;
-&lt;p&gt;GitHubのリポジトリにはたいてい、LICENSEという名前のファイルがあります。ライセンスはそのプログラムの改変・商用利用などをしても良いかなどを記したファイルで、何を許可するかによって様々なライセンスが存在します。&lt;br&gt;
-その中で一番多く用いられているライセンスの１つがMITライセンスです。
-&lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic Kickstart&lt;/a&gt;もMITライセンスです。
-MITライセンスが設定されたリポジトリは、以下の2つを守れば改変・商用利用など自由に使うことができます。&lt;/p&gt;
+&lt;p&gt;GitHubのリポジトリにはたいて�?、LICENSEと�?�?名前のファイルがあります�?�ライセンスはそ�?�プログラ�?の改変�?��?用利用などをしても良�?かなどを記したファイルで、何を許可するかによって様�??なライセンスが存在します�??&lt;br&gt;
+そ�?�中で�?番多く用�?られて�?るライセンスの?��つがMITライセンスです�??
+&lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic Kickstart&lt;/a&gt;�?MITライセンスです�??
+MITライセンスが設定されたリポジトリは、以下�?�2つを守れば改変�?��?用利用など自由に使�?ことができます�??&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;元の著作権表示(&lt;code&gt;Copyright (c) 年 作者名&lt;/code&gt;)をそのまま掲載すること&lt;/li&gt;
-&lt;li&gt;ライセンスの全文（あるいは全文が掲載されたサイトのURL）を掲載すること&lt;/li&gt;
+&lt;li&gt;�?の著作権表示(&lt;code&gt;Copyright (c) 年 作�??�?&lt;/code&gt;)をそのまま掲載すること&lt;/li&gt;
+&lt;li&gt;ライセンスの全�?��あるいは全�?が掲載されたサイト�?�URL?��を掲載すること&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;詳しくは
-&lt;a href=&#34;https://wisdommingle.com/mit-license/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;このサイト&lt;/a&gt;などを参照してください。&lt;/p&gt;
+&lt;a href=&#34;https://wisdommingle.com/mit-license/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;こ�?�サイ�?&lt;/a&gt;などを参照してください�?&lt;/p&gt;
 &lt;h1 id=&#34;forkとライセンス&#34;&gt;forkとライセンス&lt;/h1&gt;
-&lt;p&gt;このサイトを開発する中で、「forkしたリポジトリのライセンスはどう変更するべきなのか」という疑問を持ち、検索してみました。その結果わかった2つの方法を紹介します。&lt;/p&gt;
-&lt;h2 id=&#34;方法1一行下に自分の著作権表示を追加&#34;&gt;方法1　一行下に自分の著作権表示を追加&lt;/h2&gt;
+&lt;p&gt;こ�?�サイトを開発する中で、�?�forkしたリポジトリのライセンスはど�?変更するべきなのか�?�と�?�?疑問を持ち、検索してみました。その結果わかっ�?2つの方法を紹介します�??&lt;/p&gt;
+&lt;h2 id=&#34;方�?1�?行下に自�?の著作権表示を追�?&#34;&gt;方�?1�?�?行下に自�?の著作権表示を追�?&lt;/h2&gt;
 &lt;details&gt;
-    &lt;summary&gt;方法1&lt;/summary&gt;
+    &lt;summary&gt;方�?1&lt;/summary&gt;
     &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;The MIT License (MIT)
 
 Copyright (c) 年 foo
@@ -1247,11 +1492,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;上のようなライセンスのリポジトリをforkする場合、次のように変更します。&lt;/p&gt;
+&lt;p&gt;上�?�ようなライセンスのリポジトリをforkする場合�?�次のように変更します�??&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;The MIT License (MIT)
 
 Copyright (c) 年 foo
-Copyright (c) 年 作者名(自分)
+Copyright (c) 年 作�??�?(自�?)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal
@@ -1274,9 +1519,9 @@ SOFTWARE.
 
 &lt;/details&gt;
 
-&lt;h2 id=&#34;方法2ライセンスを併記&#34;&gt;方法2　ライセンスを併記&lt;/h2&gt;
+&lt;h2 id=&#34;方�?2ライセンスを併�?&#34;&gt;方�?2�?ライセンスを併�?&lt;/h2&gt;
 &lt;details&gt;
-    &lt;summary&gt;方法2&lt;/summary&gt;
+    &lt;summary&gt;方�?2&lt;/summary&gt;
     &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;The MIT License (MIT)
 
 Copyright (c) 年 foo
@@ -1299,10 +1544,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;上のようなライセンスのリポジトリをforkする場合、書き方は色々ありますが、例えば次のように変更します。&lt;/p&gt;
+&lt;p&gt;上�?�ようなライセンスのリポジトリをforkする場合�?�書き方は色�?ありますが、例えば次のように変更します�??&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;The MIT License (MIT)
 
-Copyright (c) 年 作者名(自分)
+Copyright (c) 年 作�??�?(自�?)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal
@@ -1346,42 +1591,42 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;GitHubはライセンスの種類を認識し、説明を表示する機能があります。この方法だとGitHubがGitHuMITライセンスだと認識してくれないという問題があります。&lt;/p&gt;
+&lt;p&gt;GitHubはライセンスの種類を認識し、説明を表示する機�?�があります�?�この方法だとGitHubがGitHuMITライセンス�?と認識してくれな�?と�?�?問題があります�??&lt;/p&gt;
 
 &lt;/details&gt;
 
 &lt;h1 id=&#34;検証&#34;&gt;検証&lt;/h1&gt;
-&lt;p&gt;forkしたリポジトリのライセンス変更に、実際どのような方法が取られているか検証することにしました。検証するリポジトリは
-&lt;a href=&#34;https://github.com/tokyo-metropolitan-gov/covid19&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;東京都コロナウイルス対策サイト&lt;/a&gt;です。GitHubにMITライセンスのリポジトリが公開されており、多くの都道府県が(公式 / 非公式で)このリポジトリをforkした対策サイトを作成しています。
-&lt;a href=&#34;https://github.com/tokyo-metropolitan-gov/covid19/blob/development/FORKED_SITES.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;派生したサイト一覧&lt;/a&gt;に掲載されているリポジトリについて、&lt;code&gt;master&lt;/code&gt;ブランチの&lt;code&gt;LICENSE.txt&lt;/code&gt;の権利表記を比較すると、以下のような結果になりました。&lt;/p&gt;
+&lt;p&gt;forkしたリポジトリのライセンス変更に、実際どのような方法が取られて�?るか検証することにしました。検証するリポジトリは
+&lt;a href=&#34;https://github.com/tokyo-metropolitan-gov/covid19&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;東京都コロナウイルス対策サイ�?&lt;/a&gt;です�??GitHubにMITライセンスのリポジトリが�?�開されており、多くの都道府県�?(公�? / 非�?�式で)こ�?�リポジトリをforkした対策サイトを作�?�して�?ます�??
+&lt;a href=&#34;https://github.com/tokyo-metropolitan-gov/covid19/blob/development/FORKED_SITES.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;派生したサイト�?覧&lt;/a&gt;に掲載されて�?るリポジトリにつ�?て�?&lt;code&gt;master&lt;/code&gt;ブランチ�?�&lt;code&gt;LICENSE.txt&lt;/code&gt;の権利表記を比�?すると、以下�?�ような結果になりました�?&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;著作権表示に加えられた変更&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;著作権表示に�?えられた変更&lt;/th&gt;
 &lt;th align=&#34;center&#34;&gt;リポジトリ数&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;そのまま&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;そ�?�まま&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;51&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;書き換え&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;書き換�?&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;7&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;方法1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;方�?1&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;方法2&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;方�?2&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;東京都のリポジトリの権利表記&lt;code&gt;Copyright (c) 2020 Tokyo Metropolitan Government and other contributors.&lt;/code&gt;をforkした側の名前に書き換えているリポジトリがいくつかありました。厳密に言えばこれはMITライセンスの規約違反になるので意外でした。「コロナ対策サイト」で著作権の問題は起こらないでしょうから、ライセンス関連はあまり気にしていないのかもしれません。&lt;/p&gt;
-&lt;h1 id=&#34;参考サイト&#34;&gt;参考サイト&lt;/h1&gt;
+&lt;p&gt;東京都のリポジトリの権利表�?&lt;code&gt;Copyright (c) 2020 Tokyo Metropolitan Government and other contributors.&lt;/code&gt;をforkした側の名前に書き換えて�?るリポジトリがいくつかありました。厳�?に�?え�?�これはMITライセンスの規�?違反になる�?�で意外でした。�?�コロナ対策サイト�?�で著作権の問題�?�起こらな�?でしょ�?から、ライセンス関連はあまり気にして�?な�?のかもしれません�?&lt;/p&gt;
+&lt;h1 id=&#34;参�??サイ�?&#34;&gt;参�??サイ�?&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://help.github.com/ja/github/getting-started-with-github/fork-a-repo&#34;&gt;https://help.github.com/ja/github/getting-started-with-github/fork-a-repo&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://wisdommingle.com/mit-license/&#34;&gt;https://wisdommingle.com/mit-license/&lt;/a&gt;&lt;/li&gt;
@@ -1394,7 +1639,7 @@ SOFTWARE.
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;forkした側のライセンスを別ファイルに掲載しているリポジトリを含みます。 &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;forkした側のライセンスを別ファイルに掲載して�?るリポジトリを含みます�?? &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
@@ -1402,27 +1647,27 @@ SOFTWARE.
     </item>
     
     <item>
-      <title>Windowsでもビデオ会議でバ美肉したい！</title>
+      <title>Windowsでもビ�?オ会議でバ美肉した�?�?</title>
       <link>https://blog.opuappnavi.com/post/windows-babiniku-video-conference/</link>
       <pubDate>Sun, 17 May 2020 15:47:06 +0900</pubDate>
       <guid>https://blog.opuappnavi.com/post/windows-babiniku-video-conference/</guid>
       <description>&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;
 &lt;h2 id=&#34;バ美肉とは&#34;&gt;バ美肉とは&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;バ美肉（バびにく）とは、バーチャル美少女受肉またはバーチャル美少女セルフ受肉の略語。美少女のアバターを纏うこと、あるいは纏った上でバーチャルな美少女として、VRChat等のバーチャル空間で活動したり、バーチャルYouTuber・バーチャルアイドル等として活動することを指す。(Wikipedia)&lt;/p&gt;
+&lt;p&gt;バ美肉?��バびにく）とは、バーチャル美少女受肉また�?�バ�?�チャル美少女セルフ受肉�?�略語�?�美少女のアバターを纏うこと、あるいは纏った上でバ�?�チャルな美少女として、VRChat等�?�バ�?�チャル空間で活動したり、バーチャルYouTuber・バ�?�チャルアイドル等として活動することを指す�??(Wikipedia)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;ビデオ会議でバ美肉&#34;&gt;ビデオ会議でバ美肉&lt;/h2&gt;
-&lt;p&gt;Qiitaで「バ美肉」と検索すると、VTuberなどの姿でビデオ会議に参加する方法を解説する記事が複数投稿されています。しかしながら、それらの記事はMacでのやり方解説であり、Windowsでの方法を解説した記事は（ざっと見た限りでは）見つかりませんでした。&lt;/p&gt;
-&lt;h1 id=&#34;windowsでのやり方&#34;&gt;Windowsでのやり方&lt;/h1&gt;
+&lt;p&gt;Qiitaで「バ美肉」と検索すると、VTuberなどの姿でビデオ会議に参加する方法を解説する記事が�?数投稿されて�?ます�?�しかしながら、それらの記事�?�Macでの�?り方解説であり、Windowsでの方法を解説した記事�?�?��ざっと見た限りでは?��見つかりませんでした�?&lt;/p&gt;
+&lt;h1 id=&#34;windowsでの�?り方&#34;&gt;Windowsでの�?り方&lt;/h1&gt;
 &lt;h2 id=&#34;仮想カメラの準備&#34;&gt;仮想カメラの準備&lt;/h2&gt;
-&lt;p&gt;バ美肉した映像をカメラとしてビデオ会議ソフトに認識してもらうために仮想カメラが必要です。Qiitaの記事では&lt;code&gt;CamTwist&lt;/code&gt;というソフトが使われていますが、Mac版しか存在しません。そのため、代わりに&lt;code&gt;OBS Studio&lt;/code&gt;というフリーソフトを使用します。録画・配信用のソフトウェアですが、&lt;code&gt;OBS Virtualcam&lt;/code&gt;というプラグインを使用することで仮想カメラになります。
+&lt;p&gt;バ美肉した�?像をカメラとしてビデオ会議ソフトに認識してもら�?ために仮想カメラが�?要です�?�Qiitaの記事では&lt;code&gt;CamTwist&lt;/code&gt;と�?�?ソフトが使われて�?ますが、Mac版しか存在しません。そのため、代わりに&lt;code&gt;OBS Studio&lt;/code&gt;と�?�?フリーソフトを使用します�?�録画・配信用のソフトウェアですが�?&lt;code&gt;OBS Virtualcam&lt;/code&gt;と�?�?プラグインを使用することで仮想カメラになります�??
 &lt;div class=&#34;alert alert-warning&#34;&gt;
   &lt;div&gt;
-    今回使用した&lt;code&gt;OBS Virtualcam&lt;/code&gt;のバージョンは&lt;code&gt;2.0.5&lt;/code&gt;です。それ以下のバージョンだと上手くいかない可能性があります。
+    今回使用した&lt;code&gt;OBS Virtualcam&lt;/code&gt;のバ�?�ジョンは&lt;code&gt;2.0.5&lt;/code&gt;です�?�それ以下�?�バ�?�ジョン�?と上手くいかな�?可能性があります�??
   &lt;/div&gt;
 &lt;/div&gt;
 
-まず、 &lt;a href=&#34;https://obsproject.com/ja&#34;&gt;https://obsproject.com/ja&lt;/a&gt; から&lt;code&gt;OBS Studio&lt;/code&gt;をインストールします。
+まず�?? &lt;a href=&#34;https://obsproject.com/ja&#34;&gt;https://obsproject.com/ja&lt;/a&gt; から&lt;code&gt;OBS Studio&lt;/code&gt;をインスト�?�ルします�??
 
 
 
@@ -1451,7 +1696,7 @@ SOFTWARE.
 
 &lt;/figure&gt;
 
-次に、 &lt;a href=&#34;https://obsproject.com/forum/resources/obs-virtualcam.949/&#34;&gt;https://obsproject.com/forum/resources/obs-virtualcam.949/&lt;/a&gt; から&lt;code&gt;OBS Virtualcam&lt;/code&gt;をインストールします。画面右の&lt;code&gt;Go to download&lt;/code&gt;をクリックすることでインストーラーがダウンロードできます。
+次に�? &lt;a href=&#34;https://obsproject.com/forum/resources/obs-virtualcam.949/&#34;&gt;https://obsproject.com/forum/resources/obs-virtualcam.949/&lt;/a&gt; から&lt;code&gt;OBS Virtualcam&lt;/code&gt;をインスト�?�ルします�?�画面右の&lt;code&gt;Go to download&lt;/code&gt;をクリ�?クすることでインスト�?�ラーがダウンロードできます�??
 
 
 
@@ -1481,16 +1726,16 @@ SOFTWARE.
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;バ美肉する&#34;&gt;バ美肉する&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://facevtuber.com/&#34;&gt;https://facevtuber.com/&lt;/a&gt;にアクセスします。&lt;br&gt;
-&lt;code&gt;Start&lt;/code&gt;をクリックします。&lt;br&gt;
-一回目のみ、カメラの使用を許可してください。&lt;br&gt;
-&lt;code&gt;Start&lt;/code&gt;の上にカメラ映像が表示されるまで（20秒くらい）待ってください。&lt;br&gt;
-&lt;code&gt;Set&lt;/code&gt;をクリックします。&lt;br&gt;
-&lt;code&gt;popWindow&lt;/code&gt;をクリックします。&lt;br&gt;
-子ウインドウが開き映像が表示されます。&lt;/p&gt;
-&lt;h2 id=&#34;obs-studioにバ美肉した映像を表示&#34;&gt;OBS Studioにバ美肉した映像を表示&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;OBS Studio&lt;/code&gt;を起動します。&lt;br&gt;
-&lt;code&gt;ソース&lt;/code&gt;の項目の&lt;code&gt;+&lt;/code&gt;をクリックし、&lt;code&gt;ウインドウキャプチャ&lt;/code&gt;を選択します。&lt;br&gt;
+&lt;p&gt;&lt;a href=&#34;https://facevtuber.com/&#34;&gt;https://facevtuber.com/&lt;/a&gt;にアクセスします�??&lt;br&gt;
+&lt;code&gt;Start&lt;/code&gt;をクリ�?クします�??&lt;br&gt;
+�?回目のみ、カメラの使用を許可してください�?&lt;br&gt;
+&lt;code&gt;Start&lt;/code&gt;の上にカメラ�?像が表示されるまで?�?20秒くらい?���?ってください�?&lt;br&gt;
+&lt;code&gt;Set&lt;/code&gt;をクリ�?クします�??&lt;br&gt;
+&lt;code&gt;popWindow&lt;/code&gt;をクリ�?クします�??&lt;br&gt;
+子ウインドウが開き映像が表示されます�??&lt;/p&gt;
+&lt;h2 id=&#34;obs-studioにバ美肉した�?像を表示&#34;&gt;OBS Studioにバ美肉した�?像を表示&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;OBS Studio&lt;/code&gt;を起動します�??&lt;br&gt;
+&lt;code&gt;ソース&lt;/code&gt;の�?目の&lt;code&gt;+&lt;/code&gt;をクリ�?クし�??&lt;code&gt;ウインドウキャプチャ&lt;/code&gt;を選択します�??&lt;br&gt;
 
 
 
@@ -1519,12 +1764,12 @@ SOFTWARE.
 
 &lt;/figure&gt;
 
-&lt;code&gt;ソースを作成/選択&lt;/code&gt;ダイアログで、&lt;code&gt;OK&lt;/code&gt;をクリックします。&lt;br&gt;
-&lt;code&gt;&#39;ウインドウキャプチャ&#39;のプロパティ&lt;/code&gt;ダイアログで、&lt;code&gt;ウインドウ&lt;/code&gt;のドロップダウンリストから子ウインドウの名前（Chromeなら&lt;code&gt;[chrome.exe]:無題-Google Chrome&lt;/code&gt;）を選択し&lt;code&gt;OK&lt;/code&gt;をクリックします。&lt;/p&gt;
-&lt;h2 id=&#34;仮想カメラ起動&#34;&gt;仮想カメラ起動&lt;/h2&gt;
-&lt;p&gt;左上の&lt;code&gt;ツール&lt;/code&gt;メニューから&lt;code&gt;VirtualCam&lt;/code&gt;を選択します。&lt;br&gt;
-&lt;code&gt;VirtucalCam&lt;/code&gt;ダイアログで、&lt;code&gt;Start&lt;/code&gt;をクリックすることで仮想カメラに映像が出力されます。
-&lt;code&gt;Stop&lt;/code&gt;をクリックすれば映像出力が止まります。
+&lt;code&gt;ソースを作�??/選�?&lt;/code&gt;�?イアログで�?&lt;code&gt;OK&lt;/code&gt;をクリ�?クします�??&lt;br&gt;
+&lt;code&gt;&#39;ウインドウキャプチャ&#39;のプロパティ&lt;/code&gt;�?イアログで�?&lt;code&gt;ウインドウ&lt;/code&gt;のドロ�?プダウンリストから子ウインドウの名前?�?Chromeな�?&lt;code&gt;[chrome.exe]:無�?-Google Chrome&lt;/code&gt;?��を選択し&lt;code&gt;OK&lt;/code&gt;をクリ�?クします�??&lt;/p&gt;
+&lt;h2 id=&#34;仮想カメラ起�?&#34;&gt;仮想カメラ起�?&lt;/h2&gt;
+&lt;p&gt;左上�?�&lt;code&gt;�?ール&lt;/code&gt;メニューから&lt;code&gt;VirtualCam&lt;/code&gt;を選択します�??&lt;br&gt;
+&lt;code&gt;VirtucalCam&lt;/code&gt;�?イアログで�?&lt;code&gt;Start&lt;/code&gt;をクリ�?クすることで仮想カメラに�?像が出力されます�??
+&lt;code&gt;Stop&lt;/code&gt;をクリ�?クすれば�?像�?�力が止まります�??
 
 
 
@@ -1554,21 +1799,21 @@ SOFTWARE.
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;ビデオ会議に参加&#34;&gt;ビデオ会議に参加&lt;/h2&gt;
-&lt;p&gt;カメラとして&lt;code&gt;OBS-Camera&lt;/code&gt;を選択すれば、バ美肉した姿でビデオ会議に参加できます。&lt;/p&gt;
+&lt;p&gt;カメラとして&lt;code&gt;OBS-Camera&lt;/code&gt;を選択すれ�?�、バ美肉した姿でビデオ会議に参加できます�??&lt;/p&gt;
 &lt;h1 id=&#34;tipsfacevtubercom&#34;&gt;Tips(facevtuber.com)&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;モデルを変更したい場合
+&lt;li&gt;モ�?ルを変更した�?場�?
 &lt;ol&gt;
-&lt;li&gt;&amp;ldquo;ファイルを選択&amp;quot;をクリックし、MMDモデル入りzipファイルを選択&lt;/li&gt;
-&lt;li&gt;権利表記を確認するダイアログが複数表示されるので、ダイアログが表示されなくなるまで&lt;code&gt;OK&lt;/code&gt;を押し続ける&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;ファイルを選�?&amp;quot;をクリ�?クし�?�MMDモ�?ル入りzipファイルを選�?&lt;/li&gt;
+&lt;li&gt;権利表記を確認するダイアログが�?数表示される�?�で、ダイアログが表示されなくなるまで&lt;code&gt;OK&lt;/code&gt;を押し続け�?&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
-&lt;li&gt;zoomでバーチャル背景を使用する場合は背景色で&lt;code&gt;Green&lt;/code&gt;を選択すると、グリーンバックの代わりになります。&lt;/li&gt;
-&lt;li&gt;facevtuber.comのページや子ウインドウを最小化すると映像が止まります。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;moveLeftHandByMouse&lt;/code&gt;、&lt;code&gt;moveRightHandByMouse&lt;/code&gt;にチェックが入っているとマウスの動きに合わせて手が動きます。手の位置がおかしくなったら&lt;code&gt;ResetPose&lt;/code&gt;をクリックしてください。&lt;/li&gt;
-&lt;li&gt;子ウインドウはできるだけ画面下に移動させると、マウスカーソルが映り込むことがなくなります。&lt;/li&gt;
+&lt;li&gt;zoomでバ�?�チャル背景を使用する場合�?�背景色で&lt;code&gt;Green&lt;/code&gt;を選択すると、グリーンバックの代わりになります�??&lt;/li&gt;
+&lt;li&gt;facevtuber.comのペ�?�ジ�?子ウインドウを最小化すると�?像が止まります�??&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;moveLeftHandByMouse&lt;/code&gt;�?&lt;code&gt;moveRightHandByMouse&lt;/code&gt;にチェ�?クが�?�って�?るとマウスの動きに合わせて手が動きます�?�手の位置がおかしくなったら&lt;code&gt;ResetPose&lt;/code&gt;をクリ�?クしてください�?&lt;/li&gt;
+&lt;li&gt;子ウインドウはできる�?け画面下に移動させると、�?�ウスカーソルが映り込�?ことがなくなります�??&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;参考サイト&#34;&gt;参考サイト&lt;/h1&gt;
+&lt;h1 id=&#34;参�??サイ�?&#34;&gt;参�??サイ�?&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://note.com/d_v_osorezan/n/nd9130e2012dd&#34;&gt;https://note.com/d_v_osorezan/n/nd9130e2012dd&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://qiita.com/tktktktk/items/a024b9df15efe7b36ad6&#34;&gt;https://qiita.com/tktktktk/items/a024b9df15efe7b36ad6&lt;/a&gt;&lt;/li&gt;
@@ -1578,38 +1823,38 @@ SOFTWARE.
     </item>
     
     <item>
-      <title>(個人的)プログラマーなら使えたほうがいいファイル形式</title>
+      <title>(個人�?)プログラマ�?�なら使えたほ�?がい�?ファイル形�?</title>
       <link>https://blog.opuappnavi.com/post/file-format-should-able-use/</link>
       <pubDate>Tue, 05 May 2020 21:46:39 +0900</pubDate>
       <guid>https://blog.opuappnavi.com/post/file-format-should-able-use/</guid>
-      <description>&lt;p&gt;プログラミング入門講座を学び、UnityやAndroid、Webなどの開発を始めた脱プログラミング初心者に向けた記事です。何を開発するかに関わらず、内容を理解出来たり自分で書けたりすれば役にたつと思うファイル形式を3つ紹介します。&lt;/p&gt;
+      <description>&lt;p&gt;プログラミング入�?講座を学び、UnityやAndroid、Webなどの開発を始めた脱プログラミング初�?�?に向けた記事です�?�何を開発するかに関わらず�?��??容を理解出来たり自�?で書けたりすれ�?�役にたつと思うファイル形式を3つ紹介します�??&lt;/p&gt;
 &lt;h1 id=&#34;markdown&#34;&gt;Markdown&lt;/h1&gt;
-&lt;p&gt;Markdown（マークダウン）は、文書を記述するための軽量マークアップ言語のひとつです。
-ソフトウェアのインストールし使用する前の注意事項などを記述した&lt;code&gt;Readme&lt;/code&gt;ファイルなどに用いられています。また、このサイトの記事も全てMarkdownファイルです。&lt;/p&gt;
+&lt;p&gt;Markdown?���?��?�ク�?ウン?���?�、文書を記述するための軽量�?��?�クア�?プ�?語�?�ひとつです�??
+ソフトウェアのインスト�?�ルし使用する前�?�注意事�??などを記述した&lt;code&gt;Readme&lt;/code&gt;ファイルなどに用�?られて�?ます�?�また�?�このサイト�?�記事も全てMarkdownファイルです�??&lt;/p&gt;
 &lt;h1 id=&#34;json&#34;&gt;JSON&lt;/h1&gt;
-&lt;p&gt;JSONは&lt;code&gt;Javascript Object Notation&lt;/code&gt;の略で、データを記述するための言語です。&lt;/p&gt;
+&lt;p&gt;JSONは&lt;code&gt;Javascript Object Notation&lt;/code&gt;の略で、データを記述するための�?語です�??&lt;/p&gt;
 &lt;h2 id=&#34;unity&#34;&gt;Unity&lt;/h2&gt;
-&lt;p&gt;Unityでは&lt;code&gt;JsonUtility&lt;/code&gt;クラスを使用することで、オブジェクトをJSON形式の文字列に変換したり、逆にJSON形式の文字列からオブジェクトを生成することができます。といっても、オブジェクト指向に詳しくない人にはよく分からない説明だったと思います。簡単に言えば、JSONファイルからキャラクターのステータスなどのデータを読み込むことがとても簡単にできます。&lt;/p&gt;
+&lt;p&gt;Unityでは&lt;code&gt;JsonUtility&lt;/code&gt;クラスを使用することで、オブジェクトをJSON形式�?��?字�?�に変換したり�??�?にJSON形式�?��?字�?�からオブジェクトを生�?�することができます�?�と�?っても�?�オブジェクト指向に詳しくな�?人にはよく�?からな�?説明だったと思います�?�簡単に�?え�?�、JSONファイルからキャラクターのス�?ータスなどの�?ータを読み込�?ことがとても簡単にできます�??&lt;/p&gt;
 &lt;h2 id=&#34;web-api&#34;&gt;Web API&lt;/h2&gt;
-&lt;p&gt;Web APIとは、ものすごく乱暴に言えば、HTTP通信によって利用できる便利機能です。様々な種類のWebAPIがあり、WebAPIごとに特定のURLにアクセスすることで様々な機能を利用することができます。例えば、天気予報や鉄道の路線情報といったデータを取得したり、AIを用いた画像認識を利用したりすることが可能です。WebAPIを利用した結果は、JSON形式やXML形式の文字列で取得できることが多いです。&lt;/p&gt;
+&lt;p&gt;Web APIとは、ものすごく乱暴に�?え�?�、HTTP通信によって利用できる便利機�?�です�?�様�??な種類�?�WebAPIがあり�?�WebAPIごとに特定�?�URLにアクセスすることで様�??な機�?�を利用することができます�?�例えば、天気予�?��?�?道�?�路線情報と�?ったデータを取得したり、AIを用�?た画像認識を利用したりすることが可能です�?�WebAPIを利用した結果は、JSON形式やXML形式�?��?字�?�で取得できることが多いです�??&lt;/p&gt;
 &lt;h1 id=&#34;xml&#34;&gt;XML&lt;/h1&gt;
-&lt;p&gt;XMLは&lt;code&gt;Extensible Markup Language&lt;/code&gt;の略で、文書やデータの意味や構造を記述するためのマークアップ言語の一つです。マークアップ言語とは、「タグ」と呼ばれる特定の文字列で地の文に情報の意味や構造、装飾などを埋め込んでいく言語です。&lt;/p&gt;
+&lt;p&gt;XMLは&lt;code&gt;Extensible Markup Language&lt;/code&gt;の略で、文書�?�?ータの意味�?構�??を記述するためのマ�?�クア�?プ�?語�?��?つです�?��?��?�クア�?プ�?語とは、�?�タグ」と呼ばれる特定�?��?字�?�で地の�?に�?報の意味�?構�??、�?飾などを埋め込んで�?く�?語です�??&lt;/p&gt;
 &lt;h2 id=&#34;web-api-1&#34;&gt;Web API&lt;/h2&gt;
-&lt;p&gt;WebAPIを利用した結果は、JSON形式やXML形式の文字列で取得できることが多いです。詳しくは
-&lt;a href=&#34;#json&#34;&gt;JSON&lt;/a&gt;を参照してください。&lt;/p&gt;
+&lt;p&gt;WebAPIを利用した結果は、JSON形式やXML形式�?��?字�?�で取得できることが多いです�?�詳しくは
+&lt;a href=&#34;#json&#34;&gt;JSON&lt;/a&gt;を参照してください�?&lt;/p&gt;
 &lt;h2 id=&#34;android&#34;&gt;Android&lt;/h2&gt;
-&lt;p&gt;Android StudioでのAndroidアプリ開発では、UIのレイアウトやスタイル、多言語対応の文字列などに関してxmlで記述されています。&lt;/p&gt;
+&lt;p&gt;Android StudioでのAndroidアプリ開発では、UIのレイアウトやスタイル、多�?語対応�?��?字�?�などに関してxmlで記述されて�?ます�??&lt;/p&gt;
 &lt;h2 id=&#34;unity-1&#34;&gt;Unity&lt;/h2&gt;
-&lt;p&gt;Unity開発でも将来的にXMLを使うことになるかもしれません。&lt;br&gt;
-Unity 2019から&lt;code&gt;UI Elements&lt;/code&gt;という新しいUIシステムが使えます。&lt;code&gt;UI Elements&lt;/code&gt;はwebに近い設計で、UIをレイアウト、スタイル、ロジックに分けて記述します。XMLをベースとしたUXMLファイルを記述することでレイアウトをカスタマイズすることができます。
+&lt;p&gt;Unity開発でも�?来�?にXMLを使�?ことになるかもしれません�?&lt;br&gt;
+Unity 2019から&lt;code&gt;UI Elements&lt;/code&gt;と�?�?新しいUIシス�?�?が使えます�??&lt;code&gt;UI Elements&lt;/code&gt;はwebに近い設計で、UIをレイアウト�?�スタイル、ロジ�?クに�?けて記述します�?�XMLを�?��?�スとしたUXMLファイルを記述することでレイアウトをカスタマイズすることができます�??
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    &lt;code&gt;UI Builder&lt;/code&gt;(preview版)を使えば、マウスクリックやドラッグ＆ドロップなどでレイアウトやスタイルをカスタマイズできます。
+    &lt;code&gt;UI Builder&lt;/code&gt;(preview�?)を使え�?�、�?�ウスクリ�?ク�?ドラ�?グ?�?ドロ�?プなどでレイアウトやスタイルをカスタマイズできます�??
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;code&gt;UI Elements&lt;/code&gt;は現状、エディタ拡張のUI(現在のIMGUI)にしか対応していませんが、将来的にはゲーム内UI(現在のuGUI)にも対応する予定とのことです。&lt;/p&gt;
-&lt;h1 id=&#34;参考&#34;&gt;参考&lt;/h1&gt;
+&lt;code&gt;UI Elements&lt;/code&gt;は現状、エ�?ィタ拡張のUI(現在のIMGUI)にしか対応して�?ませんが�?��?来�?にはゲー�?�?UI(現在のuGUI)にも対応する予定とのことです�??&lt;/p&gt;
+&lt;h1 id=&#34;参�??&#34;&gt;参�??&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://ja.wikipedia.org/wiki/Markdown&#34;&gt;https://ja.wikipedia.org/wiki/Markdown&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%BC%E3%83%89%E3%83%9F%E3%83%BC&#34;&gt;https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%BC%E3%83%89%E3%83%9F%E3%83%BC&lt;/a&gt;&lt;/li&gt;
@@ -1626,77 +1871,77 @@ Unity 2019から&lt;code&gt;UI Elements&lt;/code&gt;という新しいUIシス�
     </item>
     
     <item>
-      <title>Unity製ゲームをWebで共有する方法</title>
+      <title>Unity製ゲー�?をWebで共有する方�?</title>
       <link>https://blog.opuappnavi.com/post/unity-github-pages/</link>
       <pubDate>Mon, 04 May 2020 20:17:22 +0900</pubDate>
       <guid>https://blog.opuappnavi.com/post/unity-github-pages/</guid>
-      <description>&lt;p&gt;Gitに詳しくない人向けに書いています。Gitに詳しい人は&lt;code&gt;詳しくない人向け&lt;/code&gt;の部分は読まなくて大丈夫です。&lt;/p&gt;
-&lt;h1 id=&#34;必要なもの&#34;&gt;必要なもの&lt;/h1&gt;
+      <description>&lt;p&gt;Gitに詳しくな�?人向けに書�?て�?ます�??Gitに詳しい人は&lt;code&gt;詳しくな�?人向け&lt;/code&gt;の部�?は読まなくて大丈夫です�??&lt;/p&gt;
+&lt;h1 id=&#34;�?要なも�?�&#34;&gt;�?要なも�?�&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Unity&lt;/li&gt;
-&lt;li&gt;GitHub アカウント&lt;/li&gt;
-&lt;li&gt;Git：
-&lt;a href=&#34;https://git-scm.com/downloads&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ここ&lt;/a&gt;からダウンロードできます&lt;/li&gt;
+&lt;li&gt;GitHub アカウン�?&lt;/li&gt;
+&lt;li&gt;Git?�?
+&lt;a href=&#34;https://git-scm.com/downloads&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ここ&lt;/a&gt;から�?ウンロードできま�?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;1-unityでゲームをビルドする&#34;&gt;1. Unityでゲームをビルドする&lt;/h1&gt;
-&lt;h2 id=&#34;11-build-settingsを開く&#34;&gt;1.1 Build Settingsを開く&lt;/h2&gt;
-&lt;p&gt;左上のメニューで&lt;code&gt;File&lt;/code&gt;&amp;gt;&lt;code&gt;Build Settings&lt;/code&gt;をクリックしてください。&lt;/p&gt;
-&lt;h2 id=&#34;12-プラットフォームの変更&#34;&gt;1.2 プラットフォームの変更&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;WebGL&lt;/code&gt;を選択し、&lt;code&gt;Switch Platform&lt;/code&gt;をクリックしてください。&lt;/p&gt;
-&lt;h2 id=&#34;13-ゲームをビルド&#34;&gt;1.3 ゲームをビルド&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;Build&lt;/code&gt;をクリックしてください。ビルド先はどこでも構いません。私は&lt;code&gt;(プロジェクト名)/Builds/WebGL&lt;/code&gt;を選択しています。&lt;/p&gt;
-&lt;h1 id=&#34;2-githubにアップロード&#34;&gt;2. GitHubにアップロード&lt;/h1&gt;
-&lt;p&gt;ビルドの結果、以下の3つのファイルが生成されます。&lt;/p&gt;
+&lt;h1 id=&#34;1-unityでゲー�?をビルドす�?&#34;&gt;1. Unityでゲー�?をビルドす�?&lt;/h1&gt;
+&lt;h2 id=&#34;11-build-settingsを開�?&#34;&gt;1.1 Build Settingsを開�?&lt;/h2&gt;
+&lt;p&gt;左上�?�メニューで&lt;code&gt;File&lt;/code&gt;&amp;gt;&lt;code&gt;Build Settings&lt;/code&gt;をクリ�?クしてください�?&lt;/p&gt;
+&lt;h2 id=&#34;12-プラ�?トフォー�?の変更&#34;&gt;1.2 プラ�?トフォー�?の変更&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;WebGL&lt;/code&gt;を選択し�?&lt;code&gt;Switch Platform&lt;/code&gt;をクリ�?クしてください�?&lt;/p&gt;
+&lt;h2 id=&#34;13-ゲー�?をビル�?&#34;&gt;1.3 ゲー�?をビル�?&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Build&lt;/code&gt;をクリ�?クしてください。ビルド�?��?�どこでも構いません。私�?�&lt;code&gt;(プロジェクト名)/Builds/WebGL&lt;/code&gt;を選択して�?ます�??&lt;/p&gt;
+&lt;h1 id=&#34;2-githubにア�?プロー�?&#34;&gt;2. GitHubにア�?プロー�?&lt;/h1&gt;
+&lt;p&gt;ビルド�?�結果、以下�?�3つのファイルが生成されます�??&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Build&lt;/code&gt;フォルダ&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;TemplateData&lt;/code&gt;フォルダ&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Build&lt;/code&gt;フォル�?&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;TemplateData&lt;/code&gt;フォル�?&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;index.html&lt;/code&gt;ファイル&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;これらのファイルをGitHubにアップロードします。&lt;br&gt;
+&lt;p&gt;これら�?�ファイルをGitHubにア�?プロードします�??&lt;br&gt;
 &lt;details&gt;
-    &lt;summary&gt;詳しくない人向け&lt;/summary&gt;
+    &lt;summary&gt;詳しくな�?人向け&lt;/summary&gt;
     &lt;h2 id=&#34;21-githubにサインイン&#34;&gt;2.1 GitHubにサインイン&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;にアクセスし、サインインしてください。&lt;/p&gt;
-&lt;h2 id=&#34;22-新しいリポジトリの作成&#34;&gt;2.2 新しいリポジトリの作成&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;にアクセスし�?�サインインしてください�?&lt;/p&gt;
+&lt;h2 id=&#34;22-新しいリポジトリの作�??&#34;&gt;2.2 新しいリポジトリの作�??&lt;/h2&gt;
 &lt;figure class=&#34;left&#34; &gt;
 &lt;p&gt;&lt;a data-fancybox=&#34;&#34; href=&#34;./GitHub_New_Repository.png&#34; &gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;./GitHub_New_Repository.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;&lt;/p&gt;
 &lt;/figure&gt;
-&lt;p&gt;&lt;code&gt;Repositories&lt;/code&gt;の右にある&lt;code&gt;New&lt;/code&gt;をクリックしてください。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Repositories&lt;/code&gt;の右にある&lt;code&gt;New&lt;/code&gt;をクリ�?クしてください�?&lt;/p&gt;
 &lt;figure class=&#34;left&#34; &gt;
 &lt;p&gt;&lt;a data-fancybox=&#34;&#34; href=&#34;./GitHub_New_Repository2.png&#34; &gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;./GitHub_New_Repository2.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;&lt;/p&gt;
 &lt;/figure&gt;
-&lt;p&gt;&lt;code&gt;Repository name&lt;/code&gt;は任意の名前で構いませんが、ゲームをプレイする人も見ることができるので注意してください。&lt;br&gt;
-&lt;code&gt;Public&lt;/code&gt;と&lt;code&gt;Private&lt;/code&gt;を選択できますが、&lt;code&gt;Public&lt;/code&gt;を選択してください。&lt;br&gt;
-&lt;code&gt;Create repository&lt;/code&gt;を選択してリポジトリを作成してください。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Repository name&lt;/code&gt;は任意�?�名前で構いませんが�?�ゲー�?を�?�レイする人も見ることができるので注意してください�?&lt;br&gt;
+&lt;code&gt;Public&lt;/code&gt;と&lt;code&gt;Private&lt;/code&gt;を選択できますが�?&lt;code&gt;Public&lt;/code&gt;を選択してください�?&lt;br&gt;
+&lt;code&gt;Create repository&lt;/code&gt;を選択してリポジトリを作�?�してください�?&lt;/p&gt;
 &lt;figure class=&#34;left&#34; &gt;
 &lt;p&gt;&lt;a data-fancybox=&#34;&#34; href=&#34;./GitHub_New_Repository3.png&#34; &gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;./GitHub_New_Repository3.png&#34; alt=&#34;&#34;  &gt;
 &lt;/a&gt;&lt;/p&gt;
 &lt;/figure&gt;
-&lt;p&gt;赤い枠で囲まれたボタンを押してください。左のURLがクリップボードにコピーされます。&lt;/p&gt;
-&lt;h2 id=&#34;23-ファイルのアップロード&#34;&gt;2.3 ファイルのアップロード&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;Git Bash&lt;/code&gt;を起動してください。
-起動時のフォルダは&lt;code&gt;C:\Users\(ユーザー名)&lt;/code&gt;なので、ビルド結果があるフォルダに移動してください。&lt;code&gt;cd (フォルダ名)&lt;/code&gt;コマンドで移動できます。
-移動したら、以下のコマンドを一行ずつ実行してください。&lt;/p&gt;
+&lt;p&gt;赤�?�?で囲まれたボタンを押してください。左のURLがクリ�?プ�?��?�ドにコピ�?�されます�??&lt;/p&gt;
+&lt;h2 id=&#34;23-ファイルのア�?プロー�?&#34;&gt;2.3 ファイルのア�?プロー�?&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Git Bash&lt;/code&gt;を起動してください�?
+起動時のフォル�?は&lt;code&gt;C:\Users\(ユーザー�?)&lt;/code&gt;なので、ビルド結果があるフォル�?に移動してください�?&lt;code&gt;cd (フォル�?�?)&lt;/code&gt;コマンドで移動できます�??
+移動したら、以下�?�コマンドを�?行ずつ実行してください�?&lt;/p&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    &lt;code&gt;Git Bash&lt;/code&gt;では&lt;code&gt;Shift&lt;/code&gt;+&lt;code&gt;Insert&lt;/code&gt;で貼り付けができます
+    &lt;code&gt;Git Bash&lt;/code&gt;では&lt;code&gt;Shift&lt;/code&gt;+&lt;code&gt;Insert&lt;/code&gt;で貼り付けができま�?
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git init
 git add .
 git commit -m &amp;quot;Initial Commit&amp;quot;
-git remote add origin (先ほどコピーしたURL)
+git remote add origin (先ほどコピ�?�したURL)
 git push -u origin master
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;/details&gt;
 &lt;/p&gt;
-&lt;h1 id=&#34;3-webにゲームを公開&#34;&gt;3. Webにゲームを公開&lt;/h1&gt;
+&lt;h1 id=&#34;3-webにゲー�?を�?��?&#34;&gt;3. Webにゲー�?を�?��?&lt;/h1&gt;
 &lt;p&gt;
 
 
@@ -1725,7 +1970,7 @@ git push -u origin master
 
 &lt;/figure&gt;
 
-&lt;code&gt;Settings&lt;/code&gt;をクリックしてください。
+&lt;code&gt;Settings&lt;/code&gt;をクリ�?クしてください�?
 
 
 
@@ -1754,24 +1999,24 @@ git push -u origin master
 
 &lt;/figure&gt;
 
-スクロールし、&lt;code&gt;GitHub Pages&lt;/code&gt;の&lt;code&gt;Source&lt;/code&gt;の下にあるドロップダウンリストで&lt;code&gt;master branch&lt;/code&gt;を選択してください。&lt;/p&gt;
-&lt;h1 id=&#34;公開したゲームをプレイ&#34;&gt;公開したゲームをプレイ&lt;/h1&gt;
-&lt;p&gt;&lt;code&gt;https://(ユーザー名).github.io/(リポジトリ名)/&lt;/code&gt;というURLにアクセスすると、作ったゲームをプレイすることができます。&lt;/p&gt;
+スクロールし�??&lt;code&gt;GitHub Pages&lt;/code&gt;の&lt;code&gt;Source&lt;/code&gt;の下にあるドロ�?プダウンリストで&lt;code&gt;master branch&lt;/code&gt;を選択してください�?&lt;/p&gt;
+&lt;h1 id=&#34;公開したゲー�?を�?�レイ&#34;&gt;公開したゲー�?を�?�レイ&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;https://(ユーザー�?).github.io/(リポジトリ�?)/&lt;/code&gt;と�?�?URLにアクセスすると、作ったゲー�?を�?�レイすることができます�??&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>GitHub for Unityの紹介</title>
+      <title>GitHub for Unityの紹�?</title>
       <link>https://blog.opuappnavi.com/post/github-for-unity/</link>
       <pubDate>Thu, 30 Apr 2020 20:18:25 +0900</pubDate>
       <guid>https://blog.opuappnavi.com/post/github-for-unity/</guid>
-      <description>&lt;h1 id=&#34;使用したunityのバージョン&#34;&gt;使用したUnityのバージョン&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;使用したunityのバ�?�ジョン&#34;&gt;使用したUnityのバ�?�ジョン&lt;/h1&gt;
 &lt;p&gt;Unity 2018.4.22f1&lt;/p&gt;
-&lt;h1 id=&#34;導入方法&#34;&gt;導入方法&lt;/h1&gt;
-&lt;p&gt;プロジェクトごとに行う必要があります。&lt;/p&gt;
+&lt;h1 id=&#34;導�?�方�?&#34;&gt;導�?�方�?&lt;/h1&gt;
+&lt;p&gt;プロジェクトごとに行う�?要があります�??&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Asset Storeから「GitHub for Unity」をインポート&lt;/li&gt;
-&lt;li&gt;メニューで&lt;code&gt;Window&lt;/code&gt;&amp;gt;&lt;code&gt;GitHub&lt;/code&gt;を選択&lt;br&gt;
+&lt;li&gt;Asset Storeから「GitHub for Unity」をインポ�?��?&lt;/li&gt;
+&lt;li&gt;メニューで&lt;code&gt;Window&lt;/code&gt;&amp;gt;&lt;code&gt;GitHub&lt;/code&gt;を選�?&lt;br&gt;
 
 
 
@@ -1800,7 +2045,7 @@ git push -u origin master
 
 &lt;/figure&gt;
 
-GitHubタブが開きます。
+GitHubタブが開きます�??
 
 
 
@@ -1829,7 +2074,7 @@ GitHubタブが開きます。
 
 &lt;/figure&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;(初回のみ)&lt;/strong&gt; &lt;code&gt;Sign In&lt;/code&gt;をクリック&lt;br&gt;
+&lt;li&gt;&lt;strong&gt;(初回のみ)&lt;/strong&gt; &lt;code&gt;Sign In&lt;/code&gt;をクリ�?ク&lt;br&gt;
 
 
 
@@ -1858,9 +2103,9 @@ GitHubタブが開きます。
 
 &lt;/figure&gt;
 
-ダイアログが表示されるので、GitHubアカウントでサインインしてください。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Initialize a git repository for this project&lt;/code&gt;をクリック&lt;br&gt;
-少し待つと、タブの中身が変化します。&lt;br&gt;
+�?イアログが表示される�?�で、GitHubアカウントでサインインしてください�?&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Initialize a git repository for this project&lt;/code&gt;をクリ�?ク&lt;br&gt;
+少し�?つと、タブ�?�中身が変化します�??&lt;br&gt;
 
 
 
@@ -1890,8 +2135,8 @@ GitHubタブが開きます。
 &lt;/figure&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1 id=&#34;使い方&#34;&gt;使い方&lt;/h1&gt;
-&lt;p&gt;&lt;code&gt;Changes&lt;/code&gt;を選択してください。前回保存した状態から変更があったファイルが一覧表示されます。
+&lt;h1 id=&#34;使�?方&#34;&gt;使�?方&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;Changes&lt;/code&gt;を選択してください。前回保存した状態から変更があったファイルが�?覧表示されます�??
 
 
 
@@ -1920,47 +2165,47 @@ GitHubタブが開きます。
 
 &lt;/figure&gt;
 &lt;/p&gt;
-&lt;h2 id=&#34;変更を保存する&#34;&gt;変更を保存する&lt;/h2&gt;
+&lt;h2 id=&#34;変更を保存す�?&#34;&gt;変更を保存す�?&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;リストから保存したい変更をチェックマークをクリックして選択&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Commit summary&lt;/code&gt;に変更内容を記述&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Commit description&lt;/code&gt;に変更内容の詳細を記述（任意）&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Commit to [master]&lt;/code&gt;をクリック&lt;/li&gt;
+&lt;li&gt;リストから保存したい変更をチェ�?クマ�?�クをクリ�?クして選�?&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Commit summary&lt;/code&gt;に変更�?容を記述&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Commit description&lt;/code&gt;に変更�?容の詳細を記述?��任意�?&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Commit to [master]&lt;/code&gt;をクリ�?ク&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;変更内容を確認する&#34;&gt;変更内容を確認する&lt;/h2&gt;
-&lt;p&gt;前回保存した状態と現在の状態との差分を見ることができます。
+&lt;h2 id=&#34;変更�?容を確認す�?&#34;&gt;変更�?容を確認す�?&lt;/h2&gt;
+&lt;p&gt;前回保存した状態と現在の状態との差�?を見ることができます�??
 &lt;div class=&#34;alert alert-warning&#34;&gt;
   &lt;div&gt;
-    差分を比較するソフトウェア(&lt;a href=&#34;https://forest.watch.impress.co.jp/library/software/winmerge/&#34;&gt;WinMerge&lt;/a&gt;など)をインストールする必要があります。
+    差�?を比�?するソフトウェア(&lt;a href=&#34;https://forest.watch.impress.co.jp/library/software/winmerge/&#34;&gt;WinMerge&lt;/a&gt;など)をインスト�?�ルする�?要があります�??
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;リストから差分を見たいファイルを右クリック&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Show Diff&lt;/code&gt;をクリック&lt;/li&gt;
+&lt;li&gt;リストから差�?を見た�?ファイルを右クリ�?ク&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Show Diff&lt;/code&gt;をクリ�?ク&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;変更を取り消す&#34;&gt;変更を取り消す&lt;/h3&gt;
-&lt;p&gt;加えた変更を無かったことにして、前回保存した状態に戻すことができます。&lt;/p&gt;
+&lt;p&gt;�?えた変更を無かったことにして、前回保存した状態に戻すことができます�??&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;リストから変更を取り消したいファイルを右クリック&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Discard&lt;/code&gt;をクリック&lt;/li&gt;
+&lt;li&gt;リストから変更を取り消したいファイルを右クリ�?ク&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Discard&lt;/code&gt;をクリ�?ク&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1 id=&#34;その他&#34;&gt;その他&lt;/h1&gt;
-&lt;h2 id=&#34;比較ソフトウェアを変更したい&#34;&gt;比較ソフトウェアを変更したい&lt;/h2&gt;
-&lt;p&gt;比較ソフトウェアが複数インストールされていて、変更したい場合&lt;/p&gt;
+&lt;h1 id=&#34;そ�?��?&#34;&gt;そ�?��?&lt;/h1&gt;
+&lt;h2 id=&#34;比�?ソフトウェアを変更した�?&#34;&gt;比�?ソフトウェアを変更した�?&lt;/h2&gt;
+&lt;p&gt;比�?ソフトウェアが�?数インスト�?�ルされて�?て、変更した�?場�?&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;UnityのPreferenceを開く&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;External Tools&lt;/code&gt;を選択&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Revision Controll Diff/Merge&lt;/code&gt;でソフトウェアを選択&lt;/li&gt;
+&lt;li&gt;UnityのPreferenceを開�?&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;External Tools&lt;/code&gt;を選�?&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Revision Controll Diff/Merge&lt;/code&gt;でソフトウェアを選�?&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
 &lt;details&gt;
     &lt;summary&gt;GitHubやGitに詳しい人向け&lt;/summary&gt;
     &lt;h2 id=&#34;revert&#34;&gt;Revert&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;code&gt;History&lt;/code&gt;を選択&lt;/li&gt;
-&lt;li&gt;コミットを右クリック&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Revert&lt;/code&gt;をクリック&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;History&lt;/code&gt;を選�?&lt;/li&gt;
+&lt;li&gt;コミットを右クリ�?ク&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Revert&lt;/code&gt;をクリ�?ク&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;/details&gt;
@@ -1973,11 +2218,11 @@ GitHubタブが開きます。
       <link>https://blog.opuappnavi.com/post/truck-quiz/</link>
       <pubDate>Tue, 28 Apr 2020 15:07:58 +0900</pubDate>
       <guid>https://blog.opuappnavi.com/post/truck-quiz/</guid>
-      <description>&lt;p&gt;Unityについて勉強するため春休みの間に作成した、&amp;ldquo;Truck Quiz&amp;quot;を紹介します。&lt;/p&gt;
-&lt;h1 id=&#34;ゲームの説明&#34;&gt;ゲームの説明&lt;/h1&gt;
-&lt;p&gt;某有名クイズ番組のクイズを模したゲームです。
-2択問題が5問出題されます。間違えてた時点でゲームオーバーです。
-キーボード操作、タッチ操作の両方に対応しています。&lt;/p&gt;
+      <description>&lt;p&gt;Unityにつ�?て勉強するため春休みの間に作�?�した�??&amp;ldquo;Truck Quiz&amp;quot;を紹介します�??&lt;/p&gt;
+&lt;h1 id=&#34;ゲー�?の説�?&#34;&gt;ゲー�?の説�?&lt;/h1&gt;
+&lt;p&gt;某有名クイズ番�?のクイズを模したゲー�?です�??
+2択問題が5問�?�題されます�?�間違えてた時点でゲー�?オーバ�?�です�??
+キーボ�?�ド操作�?�タ�?チ操作�?�両方に対応して�?ます�??&lt;/p&gt;
 
 
 
@@ -2012,28 +2257,28 @@ window.onresize = function(){ set_width(); };
 &lt;/script&gt;
 &lt;h1 id=&#34;工夫した点&#34;&gt;工夫した点&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;クイズの問題やゲーム設定をJSONファイルで管理&lt;/li&gt;
-&lt;li&gt;画像のアスペクト比を維持するように&lt;/li&gt;
-&lt;li&gt;解答の取り消し、問題の差し替え機能実装&lt;/li&gt;
-&lt;li&gt;ゲーム内の文章ほぼ全てにフリガナを付ける（フリガナ表示・非表示切り替え可能）&lt;/li&gt;
-&lt;li&gt;問題の解説に文章だけでなく選択肢の画像も利用できるように&lt;/li&gt;
+&lt;li&gt;クイズの問題やゲー�?設定をJSONファイルで管�?&lt;/li&gt;
+&lt;li&gt;画像�?�アスペクト比を維持するよ�?に&lt;/li&gt;
+&lt;li&gt;解答�?�取り消し、問題�?�差し替え機�?�実�?&lt;/li&gt;
+&lt;li&gt;ゲー�?�?の�?�?ほぼ全てにフリガナを付ける（フリガナ表示・非表示�?り替え可能?�?&lt;/li&gt;
+&lt;li&gt;問題�?�解説に�?�?�?けでなく選択肢の画像も利用できるように&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;実装の概説&#34;&gt;実装の概説&lt;/h1&gt;
+&lt;h1 id=&#34;実�?の概説&#34;&gt;実�?の概説&lt;/h1&gt;
 &lt;details&gt;
     &lt;summary&gt;Unityに詳しい人向け&lt;/summary&gt;
-    &amp;ldquo;Truck Quiz&amp;quot;を主に動かしているのは&lt;code&gt;StateMachineBehaviour&lt;/code&gt;です。&lt;code&gt;StateMachineBehaviour&lt;/code&gt;について軽く説明すると、アニメーションの開始時、終了時、Update時(MonoBehaviourのUpdate関数同様、アニメーションの再生中定期的に呼ばれる)に任意の処理を挟むことのできるクラスです。&lt;br&gt;
-トロッコとUIで2つのAnimatorがあり、「選択肢を選んだアニメーション」が終了したら「トロッコが曲がるアニメーション」を開始する、みたいな処理をGameManagerクラス内で実装しています。
+    &amp;ldquo;Truck Quiz&amp;quot;を主に動かして�?る�?�は&lt;code&gt;StateMachineBehaviour&lt;/code&gt;です�??&lt;code&gt;StateMachineBehaviour&lt;/code&gt;につ�?て軽く説明すると、アニメーションの開始時、終�?時�?�Update�?(MonoBehaviourのUpdate関数同様�?�アニメーションの再生中定期�?に呼ばれる)に任意�?�処�?を挟�?ことのできるクラスです�??&lt;br&gt;
+トロ�?コとUIで2つのAnimatorがあり�?��?�選択肢を選んだアニメーション」が終�?したら�?�トロ�?コが曲がるアニメーション」を開始する�?�みたいな処�?をGameManagerクラス�?で実�?して�?ます�??
 &lt;/details&gt;
 
-&lt;h1 id=&#34;改良予定&#34;&gt;改良予定&lt;/h1&gt;
+&lt;h1 id=&#34;改良予�?&#34;&gt;改良予�?&lt;/h1&gt;
 &lt;details&gt;
     &lt;summary&gt;Unityに詳しい人向け&lt;/summary&gt;
-    &lt;h2 id=&#34;assetbundleを使用した画像管理&#34;&gt;AssetBundleを使用した画像管理&lt;/h2&gt;
-&lt;p&gt;現状Resourceクラスで問題の画像を管理していますが、公式が「Resourceクラスは使うな」と言っているので、AssetBundleへの切替を検討しています&lt;/p&gt;
-&lt;h2 id=&#34;unityバージョンのアップグレード&#34;&gt;Unityバージョンのアップグレード&lt;/h2&gt;
-&lt;p&gt;現在使用しているUnityのバージョンは2018ですが、2018ではpreview版である&lt;code&gt;Input System&lt;/code&gt;を使用したいため、2019へのアップグレードを検討しています。&lt;/p&gt;
-&lt;h2 id=&#34;デザイン面の改善&#34;&gt;デザイン面の改善&lt;/h2&gt;
-&lt;p&gt;UIデザインの改善を検討しています。&lt;/p&gt;
+    &lt;h2 id=&#34;assetbundleを使用した画像管�?&#34;&gt;AssetBundleを使用した画像管�?&lt;/h2&gt;
+&lt;p&gt;現状Resourceクラスで問題�?�画像を管�?して�?ますが、�?�式が「Resourceクラスは使�?な」と�?って�?る�?�で、AssetBundleへの�?替を検討して�?ま�?&lt;/p&gt;
+&lt;h2 id=&#34;unityバ�?�ジョンのア�?プグレー�?&#34;&gt;Unityバ�?�ジョンのア�?プグレー�?&lt;/h2&gt;
+&lt;p&gt;現在使用して�?るUnityのバ�?�ジョンは2018ですが�?2018ではpreview版である&lt;code&gt;Input System&lt;/code&gt;を使用した�?ため�?2019へのア�?プグレードを検討して�?ます�??&lt;/p&gt;
+&lt;h2 id=&#34;�?ザイン面の改�?&#34;&gt;�?ザイン面の改�?&lt;/h2&gt;
+&lt;p&gt;UI�?ザインの改�?を検討して�?ます�??&lt;/p&gt;
 
 &lt;/details&gt;
 
@@ -2041,18 +2286,18 @@ window.onresize = function(){ set_width(); };
     </item>
     
     <item>
-      <title>記事の書き方</title>
+      <title>記事�?�書き方</title>
       <link>https://blog.opuappnavi.com/post/how-to-write-an-article/</link>
       <pubDate>Tue, 28 Apr 2020 00:01:09 +0900</pubDate>
       <guid>https://blog.opuappnavi.com/post/how-to-write-an-article/</guid>
       <description>&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;
-&lt;p&gt;このサイトでの記事の書き方をまとめました。英語でも構わない場合は
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式ドキュメント&lt;/a&gt;も参照してください。&lt;/p&gt;
-&lt;h1 id=&#34;markdown記法&#34;&gt;Markdown記法&lt;/h1&gt;
-&lt;p&gt;全ての記事はMarkdown記法で書く必要があります。書き方については
-&lt;a href=&#34;https://qiita.com/kamorits/items/6f342da395ad57468ae3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;このサイト&lt;/a&gt;を参照してください。&lt;/p&gt;
-&lt;h2 id=&#34;画像を挿入する場合&#34;&gt;画像を挿入する場合&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;![代替テキスト](./画像名)
+&lt;p&gt;こ�?�サイトでの記事�?�書き方をまとめました。英語でも構わな�?場合�?�
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式ドキュメン�?&lt;/a&gt;も参照してください�?&lt;/p&gt;
+&lt;h1 id=&#34;markdown記�?&#34;&gt;Markdown記�?&lt;/h1&gt;
+&lt;p&gt;全ての記事�?�Markdown記法で書く�?要があります�?�書き方につ�?ては
+&lt;a href=&#34;https://qiita.com/kamorits/items/6f342da395ad57468ae3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;こ�?�サイ�?&lt;/a&gt;を参照してください�?&lt;/p&gt;
+&lt;h2 id=&#34;画像を挿入する場�?&#34;&gt;画像を挿入する場�?&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;![代替�?キス�?](./画像名)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
@@ -2060,12 +2305,12 @@ window.onresize = function(){ set_width(); };
   &lt;/div&gt;
 &lt;/div&gt;
 
-画像のサイズを変えたい、または画像を左寄せ・右寄せしたい場合は下の
-&lt;a href=&#34;#%e7%94%bb%e5%83%8f%e3%81%ae%e6%8c%bf%e5%85%a5&#34;&gt;画像の挿入&lt;/a&gt;を参照してください&lt;/p&gt;
+画像�?�サイズを変えたい、また�?�画像を左�?せ�?�右�?せしたい場合�?�下�?�
+&lt;a href=&#34;#%e7%94%bb%e5%83%8f%e3%81%ae%e6%8c%bf%e5%85%a5&#34;&gt;画像�?�挿入&lt;/a&gt;を参照してください&lt;/p&gt;
 &lt;h1 id=&#34;shortcodes&#34;&gt;Shortcodes&lt;/h1&gt;
-&lt;p&gt;ShortcodesとはHugo独自の機能で、Markdownファイルに書くことができるスニペットです。&lt;/p&gt;
-&lt;h2 id=&#34;画像の挿入&#34;&gt;画像の挿入&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot;&amp;gt;}}
+&lt;p&gt;ShortcodesとはHugo独自の機�?�で、Markdownファイルに書くことができるスニ�?�ットです�??&lt;/p&gt;
+&lt;h2 id=&#34;画像�?�挿入&#34;&gt;画像�?�挿入&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替�?キス�?&amp;quot;&amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
@@ -2073,73 +2318,73 @@ window.onresize = function(){ set_width(); };
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;h3 id=&#34;画像の左寄せ右寄せ&#34;&gt;画像の左寄せ、右寄せ&lt;/h3&gt;
+&lt;h3 id=&#34;画像�?�左�?せ右�?�?&#34;&gt;画像�?�左�?せ�?�右�?�?&lt;/h3&gt;
 &lt;p&gt;&lt;details&gt;
-    &lt;summary&gt;左寄せ&lt;/summary&gt;
-    &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot;  class=&amp;quot;left&amp;quot;&amp;gt;}}
+    &lt;summary&gt;左�?�?&lt;/summary&gt;
+    &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替�?キス�?&amp;quot;  class=&amp;quot;left&amp;quot;&amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;/details&gt;
 
 &lt;details&gt;
-    &lt;summary&gt;右寄せ&lt;/summary&gt;
-    &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot;  class=&amp;quot;right&amp;quot;&amp;gt;}}
+    &lt;summary&gt;右�?�?&lt;/summary&gt;
+    &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替�?キス�?&amp;quot;  class=&amp;quot;right&amp;quot;&amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;/details&gt;
 
 &lt;details&gt;
-    &lt;summary&gt;左寄せ(float)&lt;/summary&gt;
-    &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot;  class=&amp;quot;float-left&amp;quot;&amp;gt;}}
+    &lt;summary&gt;左�?�?(float)&lt;/summary&gt;
+    &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替�?キス�?&amp;quot;  class=&amp;quot;float-left&amp;quot;&amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;/details&gt;
 
 &lt;details&gt;
-    &lt;summary&gt;右寄せ(float)&lt;/summary&gt;
-    &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot;  class=&amp;quot;float-right&amp;quot;&amp;gt;}}
+    &lt;summary&gt;右�?�?(float)&lt;/summary&gt;
+    &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替�?キス�?&amp;quot;  class=&amp;quot;float-right&amp;quot;&amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;/details&gt;
 
-他にも、画像の幅・高さなどをカスタムすることができます。詳しくは
-&lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#figure&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式ドキュメント&lt;/a&gt;  を参照してください。&lt;/p&gt;
+他にも�?�画像�?��?・高さなどをカスタ�?することができます�?�詳しくは
+&lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#figure&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式ドキュメン�?&lt;/a&gt;  を参照してください�?&lt;/p&gt;
 &lt;h2 id=&#34;youtube動画埋め込み&#34;&gt;Youtube動画埋め込み&lt;/h2&gt;
 &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;youtube 動画のID&amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式になっています
+    YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」と�?�?形式になって�?ま�?
   &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&#34;unity-webglの埋め込み&#34;&gt;Unity WebGLの埋め込み&lt;/h2&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://ch-random.net/post/93/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ランダムさんの記事&lt;/a&gt;の内容を少し改変した自作Shortcodeです。Unity WebGLのゲームをページ内でプレイすることができます。&lt;/p&gt;
+&lt;a href=&#34;https://ch-random.net/post/93/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ラン�?�?さんの記�?&lt;/a&gt;の�?容を少し改変した�?�作Shortcodeです�?�Unity WebGLのゲー�?を�?��?�ジ�?でプレイすることができます�??&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;unity src=&amp;quot;URL&amp;quot;&amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;ツイートの埋め込み&#34;&gt;ツイートの埋め込み&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;tweet ツイートID&amp;gt;}}
+&lt;h2 id=&#34;�?イート�?�埋め込み&#34;&gt;�?イート�?�埋め込み&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;tweet �?イー�?ID&amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    ツイートのURLは「https://twitter.com/&amp;hellip;/status/ツイートID」という形式になっています。
+    �?イート�?�URLは「https://twitter.com/&amp;hellip;/status/�?イー�?ID」と�?�?形式になって�?ます�??
   &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&#34;折りたたみ&#34;&gt;折りたたみ&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;collapsable &amp;quot;折りたたまれている時に表示する文字列&amp;quot;&amp;gt;}}
-  展開された時に表示する文章(複数行可)
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;collapsable &amp;quot;折りたたまれて�?る時に表示する�?字�??&amp;quot;&amp;gt;}}
+  展開された時に表示する�?�?(�?数行可)
 {{&amp;lt;/collapsable&amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;自作Shortcodeです。折りたたまれている時、展開された時ともに、Markdown記法を用いた文章が使えます。例えば&lt;/p&gt;
+&lt;p&gt;自作Shortcodeです�?�折りたたまれて�?る時、展開された時ともに、Markdown記法を用�?た文�?が使えます�?�例えば&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;collapsable &amp;quot;`Hello`&amp;quot;&amp;gt;}}
   foo
   *bar*
   &amp;gt; Hello, World!
 {{&amp;lt;/collapsable&amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;のように書けば、下のように表示されます。&lt;/p&gt;
+&lt;p&gt;のように書け�?�、下�?�ように表示されます�??&lt;/p&gt;
 &lt;details&gt;
     &lt;summary&gt;&lt;code&gt;Hello&lt;/code&gt;&lt;/summary&gt;
     &lt;p&gt;foo&lt;br&gt;
@@ -2150,11 +2395,11 @@ window.onresize = function(){ set_width(); };
 
 &lt;/details&gt;
 
-&lt;h2 id=&#34;ページへのリンクカード表示&#34;&gt;ページへのリンク（カード表示）&lt;/h2&gt;
-&lt;p&gt;自作Shortcodeです。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;page &amp;quot;表示したいページのパス(ホームからの相対パス)&amp;quot;&amp;gt;}}
+&lt;h2 id=&#34;ペ�?�ジへのリンクカード表示&#34;&gt;ペ�?�ジへのリンク?��カード表示?�?&lt;/h2&gt;
+&lt;p&gt;自作Shortcodeです�??&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;page &amp;quot;表示した�?ペ�?�ジのパス(ホ�?��?からの相対パス)&amp;quot;&amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;例えば&lt;code&gt;{{&amp;lt; page &amp;quot;project/opu-virtual-festival-2020&amp;quot;&amp;gt;}}&lt;/code&gt;と記述すると、下のように表示されます。
+&lt;p&gt;例えば&lt;code&gt;{{&amp;lt; page &amp;quot;project/opu-virtual-festival-2020&amp;quot;&amp;gt;}}&lt;/code&gt;と記述すると、下�?�ように表示されます�??
 
 
 
@@ -2193,7 +2438,7 @@ window.onresize = function(){ set_width(); };
     
 
   
-  &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/juris710/&#34;&gt;Juris710&lt;/a&gt;&lt;/span&gt;, &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/nobu/&#34;&gt;Nobu&lt;/a&gt;&lt;/span&gt;, &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/%E3%83%A4%E3%83%9E%E3%82%AF%E3%83%81/&#34;&gt;ヤマグチ&lt;/a&gt;&lt;/span&gt;
+  &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/juris710/&#34;&gt;Juris710&lt;/a&gt;&lt;/span&gt;, &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/nobu/&#34;&gt;Nobu&lt;/a&gt;&lt;/span&gt;, &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/%E3%83%A4%E3%83%9E%E3%82%AF%E3%83%81/&#34;&gt;ヤマグ�?&lt;/a&gt;&lt;/span&gt;
   &lt;/div&gt;
   
   
@@ -2203,7 +2448,7 @@ window.onresize = function(){ set_width(); };
     
     
       
-          最終更新
+          �?終更新
       
     
     2020/05/30
@@ -2230,7 +2475,7 @@ window.onresize = function(){ set_width(); };
   
 
   &lt;h3 class=&#34;article-title mb-1 mt-3&#34;&gt;
-    &lt;a href=&#34;https://blog.opuappnavi.com/project/opu-virtual-festival-2020/&#34;&gt;府大バーチャル学祭&lt;/a&gt;
+    &lt;a href=&#34;https://blog.opuappnavi.com/project/opu-virtual-festival-2020/&#34;&gt;府大バ�?�チャル学祭&lt;/a&gt;
   &lt;/h3&gt;
 
   
@@ -2244,16 +2489,16 @@ window.onresize = function(){ set_width(); };
 &lt;/div&gt;
 
  &lt;/p&gt;
-&lt;h1 id=&#34;その他&#34;&gt;その他&lt;/h1&gt;
-&lt;h2 id=&#34;数式&#34;&gt;数式&lt;/h2&gt;
-&lt;p&gt;$\LaTeX$ 記法を用いることで数式を表示することができます。数式は&lt;code&gt;$$&lt;/code&gt;で囲む必要があります。&lt;/p&gt;
+&lt;h1 id=&#34;そ�?��?&#34;&gt;そ�?��?&lt;/h1&gt;
+&lt;h2 id=&#34;数�?&#34;&gt;数�?&lt;/h2&gt;
+&lt;p&gt;$\LaTeX$ 記法を用�?ることで数式を表示することができます�?�数式�?�&lt;code&gt;$$&lt;/code&gt;で囲�?�?要があります�??&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;$$ F=G\frac{Mm}{r^2} $$
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;下のように表示されます。
+&lt;p&gt;下�?�ように表示されます�??
 $$ F=G\frac{Mm}{r^2} $$
-&lt;code&gt;$$&lt;/code&gt;の代わりに&lt;code&gt;$&lt;/code&gt;で囲むと $ F=G\frac{Mm}{r^2} $ のようにインライン表示できます。&lt;/p&gt;
+&lt;code&gt;$$&lt;/code&gt;の代わりに&lt;code&gt;$&lt;/code&gt;で囲�?と $ F=G\frac{Mm}{r^2} $ のようにインライン表示できます�??&lt;/p&gt;
 &lt;h2 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h2&gt;
-&lt;p&gt;mermaid記法を使った図の挿入が可能です。&lt;/p&gt;
+&lt;p&gt;mermaid記法を使った図の挿入が可能です�??&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;```mermaid
 graph TD;
   A--&amp;gt;B;
@@ -2262,15 +2507,15 @@ graph TD;
   C--&amp;gt;D;
 ```
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;以下のように表示されます。&lt;/p&gt;
+&lt;p&gt;以下�?�ように表示されます�??&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph TD;
   A--&amp;gt;B;
   A--&amp;gt;C;
   B--&amp;gt;D;
   C--&amp;gt;D;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;スライド&#34;&gt;スライド&lt;/h2&gt;
-&lt;p&gt;Markdown記法で簡易的なスライドを作成することができます。&lt;/p&gt;
+&lt;h2 id=&#34;スライ�?&#34;&gt;スライ�?&lt;/h2&gt;
+&lt;p&gt;Markdown記法で簡易的なスライドを作�?�することができます�??&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;slide-frame src=&amp;quot;スライド名&amp;quot;&amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -2283,12 +2528,12 @@ graph TD;
     </item>
     
     <item>
-      <title>このサイトについて</title>
+      <title>こ�?�サイトにつ�?て</title>
       <link>https://blog.opuappnavi.com/post/site-introduction/</link>
       <pubDate>Tue, 28 Apr 2020 00:00:59 +0900</pubDate>
       <guid>https://blog.opuappnavi.com/post/site-introduction/</guid>
-      <description>&lt;h1 id=&#34;サイト制作の経緯&#34;&gt;サイト制作の経緯&lt;/h1&gt;
-&lt;p&gt;4月末に、コンピュータハウスランダムさんからオンライン友好祭が提案されました。
+      <description>&lt;h1 id=&#34;サイト制作�?�経緯&#34;&gt;サイト制作�?�経緯&lt;/h1&gt;
+&lt;p&gt;4月末に、コンピュータハウスラン�?�?さんからオンライン友好祭が提案されました�?
 
 
 
@@ -2327,7 +2572,7 @@ graph TD;
     
 
   
-  &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/juris710/&#34;&gt;Juris710&lt;/a&gt;&lt;/span&gt;, &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/nobu/&#34;&gt;Nobu&lt;/a&gt;&lt;/span&gt;, &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/%E3%83%A4%E3%83%9E%E3%82%AF%E3%83%81/&#34;&gt;ヤマグチ&lt;/a&gt;&lt;/span&gt;
+  &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/juris710/&#34;&gt;Juris710&lt;/a&gt;&lt;/span&gt;, &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/nobu/&#34;&gt;Nobu&lt;/a&gt;&lt;/span&gt;, &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/%E3%83%A4%E3%83%9E%E3%82%AF%E3%83%81/&#34;&gt;ヤマグ�?&lt;/a&gt;&lt;/span&gt;
   &lt;/div&gt;
   
   
@@ -2337,7 +2582,7 @@ graph TD;
     
     
       
-          最終更新
+          �?終更新
       
     
     2020/05/30
@@ -2364,7 +2609,7 @@ graph TD;
   
 
   &lt;h3 class=&#34;article-title mb-1 mt-3&#34;&gt;
-    &lt;a href=&#34;https://blog.opuappnavi.com/project/opu-virtual-festival-2020/&#34;&gt;府大バーチャル学祭&lt;/a&gt;
+    &lt;a href=&#34;https://blog.opuappnavi.com/project/opu-virtual-festival-2020/&#34;&gt;府大バ�?�チャル学祭&lt;/a&gt;
   &lt;/h3&gt;
 
   
@@ -2378,13 +2623,13 @@ graph TD;
 &lt;/div&gt;
 
  
-オンライン友好祭において、ゲーム展示以外にできることはないかと考え、部員がブログを書くのはどうだろうかと考えました。既に存在していた
-&lt;a href=&#34;https://opuappnavi.com/#/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;アプリNaviのウェブサイト&lt;/a&gt;には
-ブログ投稿機能がなかったことに加え、今まで触ったことがなかったWeb開発をしてみたかったこともありこのサイトを作成しました。&lt;br&gt;
-サイトの作成にあたり、アプリNaviと同じく大阪府立大学の部活である、コンピュータハウスランダムさんの
-&lt;a href=&#34;https://ch-random.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ウェブサイト&lt;/a&gt;を参考にしました。&lt;/p&gt;
+オンライン友好祭において、ゲー�?展示以外にできることはな�?かと�?え�??部員がブログを書く�?�はど�?�?ろうかと�?えました。既に存在して�?�?
+&lt;a href=&#34;https://opuappnavi.com/#/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;アプリNaviのウェブサイ�?&lt;/a&gt;には
+ブログ投稿機�?�がなかったことに�?え�?�今まで触ったことがなかったWeb開発をしてみたかったこともありこのサイトを作�?�しました�?&lt;br&gt;
+サイト�?�作�?�にあたり�?�アプリNaviと同じく大阪府立大学の部活である、コンピュータハウスラン�?�?さんの
+&lt;a href=&#34;https://ch-random.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ウェブサイ�?&lt;/a&gt;を参�?にしました�?&lt;/p&gt;
 &lt;h1 id=&#34;hugo&#34;&gt;Hugo&lt;/h1&gt;
-&lt;p&gt;このサイトは、静的サイトジェネレーターであるHugoを用いて作成しました。htmlやcssについてある程度知っている程度でWeb関連に明るくない私でも、Hugoを使うことでとても簡単にWebサイトを作成できました。&lt;/p&gt;
+&lt;p&gt;こ�?�サイト�?��?静的サイトジェネレーターであるHugoを用�?て作�?�しました。html�?cssにつ�?てある程度知って�?る程度でWeb関連に明るくな�?私でも�?�Hugoを使�?ことでとても簡単にWebサイトを作�?�できました�?&lt;/p&gt;
 </description>
     </item>
     

@@ -5,11 +5,11 @@ title: "機械学習入門"
 subtitle: ""
 summary: "機械学習に必要な数学知識"
 authors: ["yuta"]
-tags: []
+tags: ["機械学習"]
 categories: []
 date: 2020-07-01T10:11:52+09:00
 featured: false
-draft: true
+draft: false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
