@@ -53,11 +53,13 @@ If you decide to fix an issue, please be sure to check the comment thread in cas
 
 If somebody claims an issue but doesn't follow up for more than two weeks, it's fine to take over it but you should still leave a comment.
 
-### 2. Fork and clone the repository
+### 2. Fork the repository
 
 Visit [X-lab2017/xlab-website][repo] repo and make your own copy of the repository by **forking** it.
 
-And **clone** your own copy of the repository to local, like :
+### 3. Clone the repository
+
+**Clone** your own copy of the repository to local, like :
 
 ```shell
 # replace the XXX with your own user name
@@ -91,7 +93,7 @@ Commit your changes If your changes pass the tests. You are encouraged to use [A
 
 ```shell
 git add .
-git commit -m "fix: add license headers (#264)"
+git commit -sm "fix: add license headers (#264)"
 ```
 
 ### 7. Sync your local repository with the upstream
