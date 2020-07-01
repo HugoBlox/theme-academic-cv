@@ -1,7 +1,7 @@
 {{ $params := .}}
 {{ $avatar_shape := index $params "avatar_shape" }}
 {{ $year := index $params "year" }}
-<h2 class="author-card-container-title">{{ $year}}</h2>
+<h2 class="author-card-container-title">{{ $year }}</h2>
 <div class="author-card-container">
   {{ range (index $params "pages") }}
     {{ $page := . }}
@@ -9,16 +9,16 @@
     {{ with ($page.Resources.ByType "image").GetMatch "avatar.*" }}
       {{ $image_src = .RelPermalink }}
     {{ else }}
-      {{errorf "著者%sにアイコン画像がありません。" $page.Title }}
+      {{ errorf "著者%sにアイコン画像がありません。" $page.Title }}
     {{ end }}
     <div class="card author">
       <a href="{{ $page.RelPermalink }}" style="text-decoration: none;" >
         <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{$image_src}}" alt="{{$page.Title}}" >
         <div style="width: 100%;">
           <h5 class="card-title">{{$page.Title}}</h5>
-          {{ with $page.Params.role }}<h6 class="card-subtitle">{{. | markdownify | emojify}}</h6>{{end}}
+          {{ with $page.Params.role }}<h6 class="card-subtitle">{{. | markdownify | emojify}}</h6>{{ end }}
         </div>
-        {{ with $page.Params.bio }}<p class="card-text">{{. | markdownify | emojify}}</p>{{end}}
+        {{ with $page.Params.bio }}<p class="card-text">{{. | markdownify | emojify}}</p>{{ end }}
       </a>
     </div>
   {{ end }}
