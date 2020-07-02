@@ -15,7 +15,12 @@
 
   {{ if not (in (slice "talk" "page") $page.Type) }}
   <span class="article-date">
-    {{ $page.Date.Format site.Params.date_format }}  投稿  ( {{ $page.Lastmod.Format site.Params.date_format }}  最終更新 )
+    {{ $date := $page.Date.Format site.Params.date_format }}
+    {{ $date }}  投稿  
+    {{ $lastmod := $page.Lastmod.Format site.Params.date_format }}
+    {{ if ne $date $lastmod }}
+      ( {{ $lastmod }}  最終更新 )
+    {{ end }}
   </span>
   {{ end }}
 

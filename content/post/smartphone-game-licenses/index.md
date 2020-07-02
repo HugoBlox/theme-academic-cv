@@ -54,54 +54,65 @@ projects: []
 # 権利表記の見方
 
 自分がプレイしているスマホゲームを一部取り上げ、権利表記の見方を紹介します。
+{{<alert note>}}
+各ゲームの画像は、アプリのタイトル画面(マリカのみロード画面)から引用しました。
+{{</alert>}}
 
 ## SAO AB
 
-正式タイトルは「ソードアート・オンライン　アリシゼーション・ブレイディング」です。([公式サイト](https://ab.sao-game.jp/))
+{{<figure src="./SAOAB_Title.png" title="ソードアート・オンライン　アリシゼーション・ブレイディング">}}
+[公式サイト](https://ab.sao-game.jp/)
 
-ライセンス一覧は右上のメニューボタンを押して、「その他」&rarr;「コピーライト」で見ることができます。
+右上のメニューボタン{{<icon name="arrow-right">}}**その他**{{<icon name="arrow-right">}}**コピーライト**
 
 ## FEヒーローズ
 
-正式タイトルは「ファイアーエムブレム　ヒーローズ」です。([公式サイト](https://fire-emblem-heroes.com/ja/))
+{{<figure src="./FEHeroes_Title.png" title="ファイアーエムブレム　ヒーローズ" width="300">}}
+[公式サイト](https://fire-emblem-heroes.com/ja/)
 
-ライセンス一覧は「その他」&rarr;「FAQ等」&rarr;「このアプリについて」&rarr;「権利表記」で見ることができます。
+**その他**{{<icon name="arrow-right">}}**FAQ等**{{<icon name="arrow-right">}}**このアプリについて**{{<icon name="arrow-right">}}**権利表記**
 
 ## ポケマス
 
-正式タイトルは「Pokémon Masters」です。([公式サイト](https://pokemonmasters-game.com/ja-JP))
+{{<figure src="./PokemonMasters_Title.png" title="Pokémon Masters" width="300">}}
+[公式サイト](https://pokemonmasters-game.com/ja-JP)
 
-ライセンス一覧はポリゴンフォンをタップして、「その他」&rarr;「このアプリについて」&rarr;「権利表記」で見ることができます。
+ポリゴンフォン{{<icon name="arrow-right">}}**その他**{{<icon name="arrow-right">}}**このアプリについて**{{<icon name="arrow-right">}}**権利表記**
 
 ## マリカ
 
-正式タイトルは「マリオカートツアー」です。([公式サイト](https://mariokarttour.com/ja-JP))
+{{<figure src="./MarioKart_Title.png" title="マリオカートツアー" width="300">}}
+[公式サイト](https://mariokarttour.com/ja-JP)
 
-ライセンス一覧は「メニュー」&rarr;「設定」&rarr;「ヘルプとお問い合わせ」&rarr;「権利表記」で見ることができます。
+**メニュー**{{<icon name="arrow-right">}}**設定**{{<icon name="arrow-right">}}**ヘルプとお問い合わせ**{{<icon name="arrow-right">}}**権利表記**
 
 ## とあるIF
 
-正式タイトルは「とある魔術の禁書目録　インテグラルファクター」です。([公式サイト](https://www.jp.square-enix.com/index-if/))
+{{<figure src="./ToaruIf_Title.png" title="とある魔術の禁書目録　インテグラルファクター">}}
+[公式サイト](https://www.jp.square-enix.com/index-if/)
 
-ライセンス一覧は「メニュー」&rarr;「規約」&rarr;「権利表記」で見ることができます。
+**メニュー**{{<icon name="arrow-right">}}**規約**{{<icon name="arrow-right">}}**権利表記**
 
 ## このファン
 
-正式タイトルは「この素晴らしい世界に祝福を!　ファンタスティックデイズ」です。([公式サイト](https://konosubafd.jp/))
+{{<figure src="./KonoFan_Title.png" title="この素晴らしい世界に祝福を!　ファンタスティックデイズ">}}
+[公式サイト](https://konosubafd.jp/)
 
-ライセンス一覧は「メニュー」&rarr;「サポート」&rarr;「権利表記」で見ることができます。
+**メニュー**{{<icon name="arrow-right">}}**サポート**{{<icon name="arrow-right">}}**権利表記**
 
 ## 装甲娘
 
-正式タイトルは「装甲娘 ミゼレムクライシス」です。([公式サイト](https://soukou-musume.com/))
+{{<figure src="./SoukouMusume_Title.png" title="装甲娘 ミゼレムクライシス">}}
+[公式サイト](https://soukou-musume.com/)
 
-ライセンス一覧は「メニュー」&rarr;「サポート」&rarr;「権利表記」で見ることができます。
+**メニュー**{{<icon name="arrow-right">}}**サポート**{{<icon name="arrow-right">}}**権利表記**
 
 # 権利表記のまとめ
 
 今回権利表記を調べた結果の推測を表にまとめました。
+
 {{<alert warning>}}
-  必ずしも表の通りとは限らないので注意してください。
+必ずしも表の通りとは限らないので注意してください。
 {{</alert>}}
 
 |   ゲーム名   | クロスプラットフォーム |   2Dアニメーション    |
@@ -114,12 +125,8 @@ projects: []
 |  このファン  |         Unity          |        Live 2D        |
 |    装甲娘    |         Unity          |        Live 2D        |
 
-{{<alert note>}}
-「Unity」と表記しているゲームは、権利表記にUnityが記載されているわけではありませんが、Unity用のライブラリーが記載されています。
-{{</alert>}}
-{{<alert note>}}
-「Live 2D」は、権利表記に記載されているわけではありませんが、タイトル画面にロゴが表示されます。
-{{</alert>}}
+**「Unity」** と表記しているゲームは、権利表記にUnityが記載されているわけではありませんが、Unity用のライブラリーが記載されています。  
+**「Live 2D」** は、権利表記に記載されているわけではありませんが、タイトル画面にロゴが表示されます。
 
 ## クロスプラットフォーム
 

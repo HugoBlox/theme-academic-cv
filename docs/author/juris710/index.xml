@@ -1370,7 +1370,12 @@ window.onresize = function(){ set_width(); };
 
   
   &lt;span class=&#34;article-date&#34;&gt;
-    2020/04/28  投稿  ( 2020/05/30  最終更新 )
+    
+    2020/04/28  投稿  
+    
+    
+      ( 2020/05/30  最終更新 )
+    
   &lt;/span&gt;
   
 
@@ -1496,7 +1501,12 @@ graph TD;
 
   
   &lt;span class=&#34;article-date&#34;&gt;
-    2020/04/28  投稿  ( 2020/05/30  最終更新 )
+    
+    2020/04/28  投稿  
+    
+    
+      ( 2020/05/30  最終更新 )
+    
   &lt;/span&gt;
   
 
