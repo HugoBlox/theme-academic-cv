@@ -1,4 +1,6 @@
-# 代码贡献规范
+# 代码贡献指南
+
+> [English version](./CONTRIBUTING.md)
 
 有任何疑问，欢迎提交 issue， 或者直接修改提交 PR!
 
@@ -48,7 +50,7 @@ cd xlab-website
 根据该分支的用途，起一个恰当的分支名称，新建分支，如：
 
 ```shell
-git checkout -b feature/xxx
+git checkout -b feature/add-personal-info
 ```
 
 ### 5. 修改内容，并提交
@@ -57,7 +59,7 @@ git checkout -b feature/xxx
 
 ```shell
 git add .
-git commit -sm "fix: add license headers (#264)"
+git commit -sm "feat: add personal info (#264)"
 ```
 
 修改时，请参考 [Code Rules][rules].
@@ -146,13 +148,15 @@ git push -f origin branch-name
 
 ## <a name="menbotics"></a> 项目机器人说明
 
-本项目已接入 `Menbotics` 机器人：，该机器人可以：
+本项目已接入 `Menbotics` 机器人，已开启功能：
 
-- **`Issue` 自动打标签**：具体见 [0、提交 issue](#0提交-issue)
-- **任务认领**：具体见 [1、认领任务](#1认领任务)
-- **代码自动合并**：Pull Request) 提交上来之后，有代码合并权限的人员可使用 `/approve` 让机器人自动合入代码。
+- 自动打标签：当含有特定关键字的 `PR` 或者 `issue` 被创建或者修改时，该 `PR` 或 `issue` 就会被打上特定标签。
+- 领取任务： 通过 `/self-assign` 命令，将某个 `issue` 的负责人设为自己.
+- 同意合入: 当用户在 `PR` 评论区输入 `/approve` 命令以后，该 `PR` 就会被打上特定标签。
+- `complete_checklist`: 勾选 issue 中的 checklist。[使用方式。](https://www.hypertrons.io/#/zh-cn/component/complete_checklist)
+- 投票: 帮助收集投票结果， 由投票发起人决定最后的投票结果。[使用方式。](https://www.hypertrons.io/#/zh-cn/component/vote)
 
-机器人配置见 [hypertrons.json](./.github/hypertrons.json)，如在该配置文件中可以看到具体有哪些人员有代码合并权限。
+完整配置可详见配置文件 [hypertrons.json](./.github/hypertrons.json)。
 
 [new-issue]: https://github.com/X-lab2017/xlab-website/issues/new
 [issue-label]: https://github.com/X-lab2017/xlab-website/labels

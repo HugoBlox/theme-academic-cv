@@ -1,4 +1,5 @@
 # Contributing to xlab-website
+> [中文版贡献指南](./CONTRIBUTING.zh-CN.md)
 
 It is warmly welcomed if you have interest to contribute to xlab-website and help make it even better than it is today! The following is a set of guidelines for contributing to xlab-website.
 
