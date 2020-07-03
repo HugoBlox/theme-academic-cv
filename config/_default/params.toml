@@ -88,8 +88,9 @@ show_related = {docs = true, page = false, post = true, project = true, publicat
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "contact@is.ids.osaka-u.ac.jp"
-phone = "06-6105-6074"
+email = "" #"contact@is.ids.osaka-u.ac.jp"
+phone = "+81-6-6105-6074"
+
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
@@ -100,7 +101,7 @@ address = {street = "2-8 Yamadaoka", city = "Suita", region = "Osaka", postcode 
 coordinates = {latitude = "34.820899", longitude = "135.523181"}
 
 # Directions for visitors to locate you.
-directions = "Enter TechnoAlliance Building C and take the elevator to C503 on Floor 5"
+directions = "Enter Techno-Alliance Building C and take the elevator to C503 on Floor 5"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.

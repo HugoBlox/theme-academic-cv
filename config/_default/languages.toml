@@ -14,7 +14,34 @@
   title = "ISLab, Osaka University"
   [ja.params]
     description = "This is description"
+
   [[ja.menu.main]]
-    name = "Wo"
+    name = "ホーム"
     url = "#about"
     weight = 1
+
+  [[ja.menu.main]]
+    name = "プロジェクト"
+    url = "#projects"
+    weight = 20
+    
+  [[ja.menu.main]]
+    name = "研究内容"
+    url = "topics/"
+    weight = 30
+
+  [[ja.menu.main]]
+    name = "メンバー"
+    url = "#people"
+    weight = 40
+
+  [[ja.menu.main]]
+    name = "発表文献"
+    url = "publication"
+    weight = 50
+
+  [[ja.menu.main]]
+    name = "アクセス"
+    url = "#contact"
+    weight = 60
+
