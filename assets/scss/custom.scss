@@ -30,6 +30,11 @@
     }
 }
 
+.dark .card-simple {
+    background-color: #343a40;
+    cursor: pointer;
+}
+
 .article-style {
     clear: both;
 }
@@ -44,7 +49,11 @@
 .dark .article-style h1 {
     border-color: rgb(68, 71, 90);
 }
+.article-style a {
+    word-break: break-all;
+}
 
+//著者一覧表示
 .card.author {
     width: 40%;
     max-width: 300px;
@@ -86,9 +95,6 @@
 }
 .author-card-list {
     text-align: center;
-}
-.article-style a {
-    word-break: break-all;
 }
 
 //tag
@@ -239,11 +245,6 @@ input#search-query:focus {
     margin-left: auto;
     margin-right: auto;
 }
-ul.share{
+ul.share {
     padding-bottom: 10px;
-}
-
-.dark .card-simple{
-    background-color: #343a40;
-    cursor: pointer;
 }
