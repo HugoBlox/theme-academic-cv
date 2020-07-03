@@ -6,17 +6,18 @@
   {{ with .Content }}
   <div class="article-style">{{ . }}</div>
   {{ end }}
-  {{$kind := .Kind}}
-  {{if eq $kind "taxonomyTerm"}}
-    {{range .Data.Pages}}
+  {{ $kind := .Kind }}
+  {{ $type := .Type }}
+  {{ if eq $kind "taxonomyTerm" }}
+    {{ range .Data.Pages }}
       <a href="{{.RelPermalink}}" class="tag-link"> {{ .Title }} </a>
-    {{end}}
-  {{else}}
+    {{ end }}
+  {{ else }}
     {{ $paginator := .Paginate .Data.Pages }}
     {{ range $paginator.Pages }}
-      {{if eq $kind "taxonomy"}}
+      {{ if or (eq $kind "taxonomy") (eq $type "project") }}
         {{ partial "li_card" . }}
-      {{else}}
+      {{ else}}
         {{ $link := .RelPermalink }}
         {{ $target := "" }}
         {{ with .Params.external_link }}
