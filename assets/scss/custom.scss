@@ -49,7 +49,6 @@
     width: 40%;
     max-width: 300px;
     height: 400px;
-    display: inline-block;
     vertical-align: top;
     margin-top: 0px;
     text-align: center;
@@ -66,8 +65,12 @@
     }
 }
 .author-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
     text-align: center;
-    display: inline;
+    justify-content: center;
 }
 .dark .card.author {
     .card-text {
