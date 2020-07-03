@@ -861,7 +861,6 @@
 
 
 
-
   
 
 
@@ -932,7 +931,6 @@
         
           
             
-
 
 
 
@@ -1023,7 +1021,6 @@
 
 
 
-
   
 
 
@@ -1094,7 +1091,6 @@
         
           
             
-
 
 
 
@@ -1181,7 +1177,6 @@
 
 
 
-
   
 
 
@@ -1252,7 +1247,6 @@
         
           
             
-
 
 
 
@@ -1339,7 +1333,6 @@
 
 
 
-
   
 
 
@@ -1410,7 +1403,6 @@
         
           
             
-
 
 
 
@@ -1497,7 +1489,6 @@
 
 
 
-
   
 
 
@@ -1568,7 +1559,6 @@
         
           
             
-
 
 
 
@@ -1845,6 +1835,22 @@
     </div>
   </div>
 </div>
-
+  <script>
+    
+    $('.card-simple').click(function(event){
+      if(!$(event.target).closest('a').length) {
+        
+        let url = $(this).children('.article-title').children('a').attr('href');
+        let baseUrl = 'https:\/\/blog.opuappnavi.com\/';
+        let isAbsoluteUrl = /^https?:\/\//i.test(url);
+        let isInternalLink = !isAbsoluteUrl || url.startsWith(baseUrl);
+        if(isInternalLink){
+          location.href = url;
+        }else{
+          window.open(url, "");
+        }
+      }
+    });
+  </script>
 </body>
 </html>
