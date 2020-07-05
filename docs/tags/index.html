@@ -628,7 +628,7 @@
     
     
     
-    <script src="/js/academic.min.46e49e5e11eda001eb407dbbe50018b6.js"></script>
+    <script src="/js/academic.min.488ebdb0ad048594a74a3c7dd554149f.js"></script>
 
     
 
@@ -700,25 +700,6 @@
     </div>
   </div>
 </div>
-  <script>
-    
-    $('.card-simple').click(function(event){
-      if(!$(event.target).closest('a').length) {
-        
-        let url = $(this).children('.article-title').children('a').attr('href');
-        if(!url) return;
-        let baseUrl = 'https:\/\/blog.opuappnavi.com\/';
-        let isAbsoluteUrl = /^https?:\/\//i.test(url);
-        let isInternalLink = !isAbsoluteUrl || url.startsWith(baseUrl);
-        if(isInternalLink){
-          
-          location.href = url;
-        }else{
-          
-          window.open(url, "");
-        }
-      }
-    });
-  </script>
+
 </body>
 </html>
