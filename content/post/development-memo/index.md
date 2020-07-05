@@ -169,29 +169,25 @@ int main(void){
 
 記事のindex.mdファイルがあるフォルダに画像を追加
 
-## layoutのhtmlファイルに関するメモ
+## レイアウトのhtmlファイルに関するメモ
 
-### _default/list.html
-
-- Taxonomies(tags, categoriesなど)一覧表示
-- 特定のTaxonomiesの付いた記事一覧表示
-
-### authors/list.html
-
-著者のプロフィール表示(1人のみ)
-
-### authors/terms.html
-
-### project/list.html
-
-プロジェクト一覧
-
-### tag/list.html
-
-- タグ一覧表示
-- 特定のタグがついた記事の一覧表示
-
-著者一覧表示
+- layouts
+  - _default
+    - list.html  
+        Taxonomies(tags, categoriesなど)一覧表示  
+        特定のTaxonomiesの付いた記事一覧表示
+  - authors
+    - list.html  
+        著者のプロフィール表示(1人のみ)
+    - terms.html  
+        著者一覧表示
+  - project
+    - list.html  
+        プロジェクト一覧
+  - tag
+    - list.html  
+        タグ一覧表示  
+        特定のタグがついた記事の一覧表示
 
 # Javascript
 
