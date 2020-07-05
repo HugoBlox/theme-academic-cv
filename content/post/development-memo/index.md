@@ -193,23 +193,126 @@ int main(void){
 
 ## レイアウトのhtmlファイルに関するメモ
 
-- layouts
-  - _default
-    - list.html  
-        Taxonomies(tags, categoriesなど)一覧表示  
-        特定のTaxonomiesの付いた記事一覧表示
-  - authors
-    - list.html  
-        著者のプロフィール表示(1人のみ)
-    - terms.html  
-        著者一覧表示
-  - project
-    - list.html  
-        プロジェクト一覧
-  - tag
-    - list.html  
-        タグ一覧表示  
-        特定のタグがついた記事の一覧表示
+{{<write-html>}}
+<!-- 参考：https://www.conifer.jp/csstest/file-tree/index.html -->
+<style>
+.tree {
+  position: relative;
+  background: white;
+  margin:0 0 0 50px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: .85rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+}
+.tree span {
+  font-size: 13px;
+  font-style: italic;
+  letter-spacing: .4px;
+  color: #a8a8a8;
+}
+.tree .fa-folder-open, .tree .fa-folder {
+  color: #007bff;
+}
+.tree .fa-html5 {
+  color: #f21f10;
+}
+.tree ul {
+  padding-left: 5px;
+  list-style: none;
+}
+.tree ul li {
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.tree ul li:before {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 10px;
+  height: 1px;
+  margin: auto;
+  content: '';
+  background-color: #666;
+}
+.tree ul li:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 1px;
+  height: 100%;
+  content: '';
+  background-color: #666;
+}
+.tree ul li:last-child:after {
+  height: 15px;
+}
+.tree ul a {
+  cursor: pointer;
+}
+.tree ul a:hover {
+  text-decoration: none;
+}
+</style>
+<div class="tree">
+    <ul>
+        <li><i class="fa fa-folder-open"></i> layouts
+            <ul>
+                <li><i class="fa fa-folder-open"></i> _default
+                    <ul>
+                        <li><i class="fab fa-html5"></i> list.html
+                            <ul>
+                                <li>Taxonomies(tags, categoriesなど)一覧表示</li>
+                                <li>特定のTaxonomiesの付いた記事一覧表示</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><i class="fa fa-folder-open"></i> authors
+                    <ul>
+                        <li><i class="fab fa-html5"></i> list.html
+                            <ul>
+                                <li>著者のプロフィール表示(1人のみ)</li>
+                            </ul>
+                        </li>
+                        <li><i class="fab fa-html5"></i> terms.html
+                            <ul>
+                                <li>著者一覧表示</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><i class="fa fa-folder-open"></i> project
+                    <ul>
+                        <li><i class="fab fa-html5"></i> list.html
+                            <ul>
+                                <li>プロジェクト一覧</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><i class="fa fa-folder-open"></i> tag
+                    <ul>
+                        <li><i class="fab fa-html5"></i> list.html
+                            <ul>
+                                <li>タグ一覧表示</li>
+                                <li>特定のタグがついた記事の一覧表示</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+{{</write-html>}}
 
 # Javascript
 
