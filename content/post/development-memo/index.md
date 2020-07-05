@@ -182,6 +182,15 @@ int main(void){
 
 ### authors/terms.html
 
+### project/list.html
+
+プロジェクト一覧
+
+### tag/list.html
+
+- タグ一覧表示
+- 特定のタグがついた記事の一覧表示
+
 著者一覧表示
 
 # Javascript
