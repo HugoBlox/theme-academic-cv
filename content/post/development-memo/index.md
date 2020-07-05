@@ -123,6 +123,28 @@ $header-height-small: 50px;
 
 # Markdown
 
+## コードの描画確認
+
+```c:helloworld.c
+#include<stdio.h>
+int main(void){
+  printf("Hello, World!");
+  return 0;
+}
+```
+
+```kt:test.kt
+fun main(){
+  println("Hello, World!")
+}
+```
+
+```lua:test.lua
+print("Hello, World!")
+```
+
+`aiueo`
+
 ## コードのエスケープ
 
 `````````md
