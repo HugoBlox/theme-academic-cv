@@ -314,6 +314,15 @@ int main(void){
 </div>
 {{</write-html>}}
 
+## TableOfContents
+
+### 見出しのハイライト機能
+
+- Academic独自(他のthemeにはない)
+- 普段は`class="nav-link"`
+- 現在ブラウザ上部に表示されている見出しは、`class="nav-link active"`に変わる
+- 記事のhtmlのscriptを見る限り、特定のライブラリーで実装されているわけではなさそう
+
 # Javascript
 
 ## Objectのクラス名表示
