@@ -322,6 +322,7 @@ int main(void){
 - 普段は`class="nav-link"`
 - 現在ブラウザ上部に表示されている見出しは、`class="nav-link active"`に変わる
 - 記事のhtmlのscriptを見る限り、特定のライブラリーで実装されているわけではなさそう
+- Bootstrapが怪しい? [参考](https://afeld.github.io/bootstrap-toc/)
 
 # Javascript
 
