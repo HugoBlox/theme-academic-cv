@@ -934,39 +934,44 @@ Unity 2019から<code>UI Elements</code>という新しいUIシステムが使�
   });  
 </script>
 <script>
-  let navBar = document.getElementById('navbar-main');
   function getNavBarHeight() {
-    return navBar.offsetHeight;
+    let $navbar = $('#navbar-main');
+    let navbar_offset = $navbar.outerHeight();
+    return navbar_offset;
   }
-  function getOffsetOf(el) {
-    
-    const box = el.getBoundingClientRect();
-    return {
-      top: box.top + window.pageYOffset - document.documentElement.clientTop,
-      left: box.left + window.pageXOffset - document.documentElement.clientLeft
-    }
-  }
+  
+
   let bodyClassList = document.body.classList;
-  function scrollToElement(to) {
-    bodyClassList.add('scrolling');
+  function scrollTo(position) {
+    $('body').addClass('scrolling');
     $('html, body').animate({
-      scrollTop: to
+      scrollTop: position
     }, 600, function () {
-      bodyClassList.remove('scrolling');
+      $('body').removeClass('scrolling');
     });
   }
-  let pageLink = "https://blog.opuappnavi.com/post/file-format-should-able-use/";
-  let inPageLinks = [].filter.call(document.getElementsByTagName('a'), function (element) {
-    return element.href.startsWith(pageLink) && element.hash !== '';
-  });
-  inPageLinks.forEach(function (element) {
-    let hashId = decodeURIComponent(element.hash.substring(1));
-    let target = document.getElementById(hashId);
-    element.addEventListener('click', function (e) {
-      
-      let elementOffset = Math.ceil(getOffsetOf(target).top - getNavBarHeight());
-      scrollToElement(elementOffset);
+  function jumpTo(hashId){
+    let elementOffset = Math.ceil($(hashId).offset().top - getNavBarHeight());
+    scrollTo(elementOffset);
+  }
+   
+
+
+  
+  window.addEventListener('DOMContentLoaded', function(){
+    $('a[href^="#"]').each(function(index, element){
+      let hashId = decodeURIComponent(element.hash);
+      if(!hashId){
+        return;
+      }
+      $(element).on("click", function(){
+        jumpTo(hashId);
+      });
     });
+    if(location.hash){
+      jumpTo(decodeURIComponent(location.hash));
+    }
+    console.log($(window).data());
   });
 </script>
 
