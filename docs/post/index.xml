@@ -961,7 +961,7 @@ window.onresize = function(){ set_width(); };
         
 
   
-  &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/nobu/&#34;&gt;Nobu&lt;/a&gt;&lt;/span&gt;
+  &lt;span &gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/nobu/&#34;&gt;Nobu&lt;/a&gt;&lt;/span&gt;
       &lt;/div&gt;
     
   
@@ -999,9 +999,11 @@ window.onresize = function(){ set_width(); };
   &lt;/h3&gt;
 
   
-  &lt;div class=&#34;article-style&#34;&gt;
-    &lt;p&gt;Google Apps Scriptの紹�?&lt;/p&gt;
-  &lt;/div&gt;
+  &lt;a href=&#34;https://blog.opuappnavi.com/post/gas-recommendation/&#34; class=&#34;summary-link&#34;&gt;
+    &lt;div class=&#34;article-style&#34;&gt;
+      &lt;p&gt;Google Apps Scriptの紹�?&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/a&gt;
   
 
   
@@ -2435,7 +2437,7 @@ window.onresize = function(){ set_width(); };
         
 
   
-  &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/juris710/&#34;&gt;Juris710&lt;/a&gt;&lt;/span&gt;, &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/nobu/&#34;&gt;Nobu&lt;/a&gt;&lt;/span&gt;, &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/%E3%83%A4%E3%83%9E%E3%82%AF%E3%83%81/&#34;&gt;ヤマグ�?&lt;/a&gt;&lt;/span&gt;
+  &lt;span &gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/juris710/&#34;&gt;Juris710&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/nobu/&#34;&gt;Nobu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/%E3%83%A4%E3%83%9E%E3%82%AF%E3%83%81/&#34;&gt;ヤマグ�?&lt;/a&gt;&lt;/span&gt;
       &lt;/div&gt;
     
   
@@ -2473,9 +2475,11 @@ window.onresize = function(){ set_width(); };
   &lt;/h3&gt;
 
   
-  &lt;div class=&#34;article-style&#34;&gt;
-    &lt;p&gt;OPU Virtual Festival&lt;/p&gt;
-  &lt;/div&gt;
+  &lt;a href=&#34;https://blog.opuappnavi.com/project/opu-virtual-festival-2020/&#34; class=&#34;summary-link&#34;&gt;
+    &lt;div class=&#34;article-style&#34;&gt;
+      &lt;p&gt;OPU Virtual Festival&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/a&gt;
   
 
   
@@ -2566,7 +2570,7 @@ graph TD;
         
 
   
-  &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/juris710/&#34;&gt;Juris710&lt;/a&gt;&lt;/span&gt;, &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/nobu/&#34;&gt;Nobu&lt;/a&gt;&lt;/span&gt;, &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/%E3%83%A4%E3%83%9E%E3%82%AF%E3%83%81/&#34;&gt;ヤマグ�?&lt;/a&gt;&lt;/span&gt;
+  &lt;span &gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/juris710/&#34;&gt;Juris710&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/nobu/&#34;&gt;Nobu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/%E3%83%A4%E3%83%9E%E3%82%AF%E3%83%81/&#34;&gt;ヤマグ�?&lt;/a&gt;&lt;/span&gt;
       &lt;/div&gt;
     
   
@@ -2604,9 +2608,11 @@ graph TD;
   &lt;/h3&gt;
 
   
-  &lt;div class=&#34;article-style&#34;&gt;
-    &lt;p&gt;OPU Virtual Festival&lt;/p&gt;
-  &lt;/div&gt;
+  &lt;a href=&#34;https://blog.opuappnavi.com/project/opu-virtual-festival-2020/&#34; class=&#34;summary-link&#34;&gt;
+    &lt;div class=&#34;article-style&#34;&gt;
+      &lt;p&gt;OPU Virtual Festival&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/a&gt;
   
 
   

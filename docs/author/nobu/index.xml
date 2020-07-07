@@ -62,7 +62,7 @@
         
 
   
-  &lt;span&gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/nobu/&#34;&gt;Nobu&lt;/a&gt;&lt;/span&gt;
+  &lt;span &gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/nobu/&#34;&gt;Nobu&lt;/a&gt;&lt;/span&gt;
       &lt;/div&gt;
     
   
@@ -100,9 +100,11 @@
   &lt;/h3&gt;
 
   
-  &lt;div class=&#34;article-style&#34;&gt;
-    &lt;p&gt;Google Apps Scriptの紹介&lt;/p&gt;
-  &lt;/div&gt;
+  &lt;a href=&#34;https://blog.opuappnavi.com/post/gas-recommendation/&#34; class=&#34;summary-link&#34;&gt;
+    &lt;div class=&#34;article-style&#34;&gt;
+      &lt;p&gt;Google Apps Scriptの紹介&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/a&gt;
   
 
   
