@@ -121,6 +121,10 @@ $header-height-small: 50px;
 
 `themes\academic\layouts\partials\navbar.html`の79～90行目を修正
 
+## Spoiler
+
+自作スムーススクロール機能と競合して、ボタンを押した後の挙動がおかしくなる。
+
 # Markdown
 
 ## コードの描画確認
