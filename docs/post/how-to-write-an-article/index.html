@@ -540,6 +540,7 @@
         <li><a href="#ツイートの埋め込み">ツイートの埋め込み</a></li>
         <li><a href="#折りたたみ">折りたたみ</a></li>
         <li><a href="#ページへのリンクカード表示">ページへのリンク（カード表示）</a></li>
+        <li><a href="#spoiler">Spoiler</a></li>
       </ul>
     </li>
     <li><a href="#その他">その他</a>
@@ -841,6 +842,27 @@
 </div>
 
  </p>
+<h2 id="spoiler">Spoiler</h2>
+<p>ボタンをクリックするまで見れない＆クリックすると開くテキストが作れるShortcodeです。クイズの正解表示などに使えます。</p>
+<pre><code class="language-md">このサイトの名前は？
+{{&lt;spoiler text=&quot;正解を見るにはここをクリック!&quot;&gt;}}
+アプリNaviブログ
+{{&lt;/spoiler&gt;}}
+</code></pre>
+<p>以下のように表示されます。</p>
+<p>このサイトの名前は？
+<div class="spoiler " >
+  <p>
+    <a class="btn btn-primary" data-toggle="collapse" href="#spoiler-10" role="button" aria-expanded="false" aria-controls="spoiler-10">
+      正解を見るにはここをクリック!
+    </a>
+  </p>
+  <div class="collapse card " id="spoiler-10">
+    <div class="card-body">
+      アプリNaviブログ
+    </div>
+  </div>
+</div></p>
 <h1 id="その他">その他</h1>
 <h2 id="数式">数式</h2>
 <p>$\LaTeX$ 記法を用いることで数式を表示することができます。数式は<code>$$</code>で囲む必要があります。</p>
@@ -1128,13 +1150,21 @@ graph TD;
     let elementOffset = Math.ceil($(hashId).offset().top - getNavBarHeight());
     scrollTo(elementOffset);
   }
+  const headings = ["h1","h2","h3","h4","h5","h6"];
   
   window.addEventListener('DOMContentLoaded', function(){
-    $('a[href^="#"]').each(function(index, element){
+    $('a[href^="#"]').filter(function(){
+      headings.map(function(h){
+        return $(this).attr('href')
+      })
+      return !($(this).closest(".spoiler").length); 
+    }).each(function(index, element){
       let hashId = decodeURIComponent(element.hash);
       if(!hashId){
         return;
       }
+      
+
       $(element).on("click", function(){
         jumpTo(hashId);
       });
@@ -1142,7 +1172,6 @@ graph TD;
     if(location.hash){
       jumpTo(decodeURIComponent(location.hash));
     }
-    console.log($(window).data());
   });
 </script>
 

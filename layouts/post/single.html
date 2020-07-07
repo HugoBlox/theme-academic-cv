@@ -98,13 +98,22 @@
     let elementOffset = Math.ceil($(hashId).offset().top - getNavBarHeight());
     scrollTo(elementOffset);
   }
+  const headings = ["h1","h2","h3","h4","h5","h6"];
   //jQueryが読み込まれてから実行するようにEventListenerを登録
   window.addEventListener('DOMContentLoaded', function(){
-    $('a[href^="#"]').each(function(index, element){
+    $('a[href^="#"]').filter(function(){
+      headings.map(function(h){
+        return $(this).attr('href')
+      })
+      return !($(this).closest(".spoiler").length); //先祖にclass="spoiler"がない
+    }).each(function(index, element){
       let hashId = decodeURIComponent(element.hash);
       if(!hashId){
         return;
       }
+      /*headings.map(function(h){
+        return hashId + " " + h;
+      }).join(",");*/
       $(element).on("click", function(){
         jumpTo(hashId);
       });
@@ -112,7 +121,6 @@
     if(location.hash){
       jumpTo(decodeURIComponent(location.hash));
     }
-    console.log($(window).data());
   });
 </script>
 {{- end -}}

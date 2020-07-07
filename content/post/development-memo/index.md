@@ -125,6 +125,16 @@ $header-height-small: 50px;
 
 自作スムーススクロール機能と競合して、ボタンを押した後の挙動がおかしくなる。
 
+### 対処法
+
+以下でフィルターをかける。(jQuery)
+
+```js
+.filter(function(){
+  return !($(this).closest(".spoiler").length); //先祖にclass="spoiler"がない
+})
+```
+
 # Markdown
 
 ## コードの描画確認

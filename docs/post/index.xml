@@ -2487,6 +2487,27 @@ window.onresize = function(){ set_width(); };
 &lt;/div&gt;
 
  &lt;/p&gt;
+&lt;h2 id=&#34;spoiler&#34;&gt;Spoiler&lt;/h2&gt;
+&lt;p&gt;ボタンをクリ�?クするまで見れな�?�?クリ�?クすると開く�?キストが作れるShortcodeです�?�クイズの正解表示などに使えます�??&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;こ�?�サイト�?�名前は?�?
+{{&amp;lt;spoiler text=&amp;quot;正解を見るにはここをクリ�?ク!&amp;quot;&amp;gt;}}
+アプリNaviブログ
+{{&amp;lt;/spoiler&amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;以下�?�ように表示されます�??&lt;/p&gt;
+&lt;p&gt;こ�?�サイト�?�名前は?�?
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-10&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-10&#34;&gt;
+      正解を見るにはここをクリ�?ク!
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-10&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      アプリNaviブログ
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
 &lt;h1 id=&#34;そ�?��?&#34;&gt;そ�?��?&lt;/h1&gt;
 &lt;h2 id=&#34;数�?&#34;&gt;数�?&lt;/h2&gt;
 &lt;p&gt;$\LaTeX$ 記法を用�?ることで数式を表示することができます�?�数式�?�&lt;code&gt;$$&lt;/code&gt;で囲�?�?要があります�??&lt;/p&gt;

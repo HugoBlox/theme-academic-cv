@@ -156,6 +156,24 @@ YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式
 例えば`{{</* page "project/opu-virtual-festival-2020"*/>}}`と記述すると、下のように表示されます。
 {{< page "project/opu-virtual-festival-2020" >}}
 
+## Spoiler
+
+ボタンをクリックするまで見れない＆クリックすると開くテキストが作れるShortcodeです。クイズの正解表示などに使えます。
+
+```md
+このサイトの名前は？
+{{</*spoiler text="正解を見るにはここをクリック!"*/>}}
+アプリNaviブログ
+{{</*/spoiler*/>}}
+```
+
+以下のように表示されます。
+
+このサイトの名前は？
+{{<spoiler text="正解を見るにはここをクリック!">}}
+アプリNaviブログ
+{{</spoiler>}}
+
 # その他  
 
 ## 数式  
