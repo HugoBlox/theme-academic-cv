@@ -40,4 +40,4 @@ url_video: ""
 slides: ""
 ---
 
-We apply bidirectional neural network to SFEW database on face emotion recognition. The paper was posted to ABSs2020 conference.
+Assignment 1 of COMP4660 where We apply bidirectional neural network to SFEW database on face emotion recognition.

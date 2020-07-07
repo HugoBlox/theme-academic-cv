@@ -18,7 +18,21 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Student"
+  title = "Academic Tutor"
+  company = "Australian National University"
+  company_url = ""
+  location = "Canberra, ACT"
+  date_start = "2020-07-20"
+  date_end = ""
+  description = """
+  Tutor for COMP3600/6466 (Algorithms) Responsibilities include:
+  * Cooperate with colleagues helping students learn, reviewing course content.
+  * Marking assignment, quizzes and examinations.
+  * Receiving feedback from students, helping improve teaching quality.
+  """
+
+[[experience]]
+  title = "Undergraduate Student"
   company = "Australian National University"
   company_url = ""
   location = "Canberra, ACT"

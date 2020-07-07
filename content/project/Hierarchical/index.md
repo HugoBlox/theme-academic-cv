@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Hierarchical CNN with Bidirectionality on FER"
+title: "Facial Emotion Classification Based on CNN with Bidirectionality"
 summary: ""
 authors: [Jiaxu LIU]
 tags: [DL]
@@ -9,7 +9,7 @@ categories: []
 date: 2020-05-30T15:10:18+10:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://github.com/ljxw88/Hierarchical-CNN-with-Bidirectionality-on-FER"
+external_link: "https://github.com/ljxw88/Facial-Emotion-Classification-Based-on-CNN-with-Bidirectionality/blob/master/LNCS-Preprint.pdf"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -39,3 +39,5 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+
+This is a pre-print paper that has been nominated for submission to the ICONIP A grade international conference.
