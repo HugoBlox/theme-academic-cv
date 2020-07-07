@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Cormoran Garamond"
+
+# Optional Google font URL
+google_fonts = "Cormorant+Garamond:wght@500"
+
+# Font families
+heading_font = "Cormorant Garamond"
+body_font = "serif"
+nav_font = "serif"
+mono_font = "serif"
