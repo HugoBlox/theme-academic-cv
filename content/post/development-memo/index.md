@@ -127,7 +127,7 @@ $header-height-small: 50px;
 
 ### 対処法
 
-以下でフィルターをかける。(jQuery)
+スムーススクロールを適用するaタグに以下のフィルターをかける。(jQuery)
 
 ```js
 .filter(function(){

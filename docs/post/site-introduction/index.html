@@ -950,26 +950,29 @@
     let elementOffset = Math.ceil($(hashId).offset().top - getNavBarHeight());
     scrollTo(elementOffset);
   }
-  const headings = ["h1","h2","h3","h4","h5","h6"];
-  
-  window.addEventListener('DOMContentLoaded', function(){
+  function needsSmoothScroll(element){
+    if(element.closest(".spoiler").length){
+      return false; 
+    }
+    return true;
+  }
+  function registerSmoothScrollOnJump(){
     $('a[href^="#"]').filter(function(){
-      headings.map(function(h){
-        return $(this).attr('href')
-      })
-      return !($(this).closest(".spoiler").length); 
+      return needsSmoothScroll($(this));
     }).each(function(index, element){
       let hashId = decodeURIComponent(element.hash);
-      if(!hashId){
-        return;
+      if(hashId){
+        $(element).on("click", function(){
+          jumpTo(hashId);
+        });
       }
-      
-
-      $(element).on("click", function(){
-        jumpTo(hashId);
-      });
     });
+  }
+  
+  window.addEventListener('DOMContentLoaded', function(){
+    registerSmoothScrollOnJump();
     if(location.hash){
+      
       jumpTo(decodeURIComponent(location.hash));
     }
   });

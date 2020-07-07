@@ -98,27 +98,29 @@
     let elementOffset = Math.ceil($(hashId).offset().top - getNavBarHeight());
     scrollTo(elementOffset);
   }
-  const headings = ["h1","h2","h3","h4","h5","h6"];
-  //jQueryが読み込まれてから実行するようにEventListenerを登録
-  window.addEventListener('DOMContentLoaded', function(){
+  function needsSmoothScroll(element){
+    if(element.closest(".spoiler").length){
+      return false; //先祖にclass="spoiler"がある
+    }
+    return true;
+  }
+  function registerSmoothScrollOnJump(){
     $('a[href^="#"]').filter(function(){
-      headings.map(function(h){
-        return $(this).attr('href')
-      })
-      return !($(this).closest(".spoiler").length); //先祖にclass="spoiler"がない
+      return needsSmoothScroll($(this));
     }).each(function(index, element){
       let hashId = decodeURIComponent(element.hash);
-      if(!hashId){
-        return;
+      if(hashId){
+        $(element).on("click", function(){
+          jumpTo(hashId);
+        });
       }
-      /*headings.map(function(h){
-        return hashId + " " + h;
-      }).join(",");*/
-      $(element).on("click", function(){
-        jumpTo(hashId);
-      });
     });
+  }
+  //jQueryが読み込まれてから実行するようにEventListenerを登録
+  window.addEventListener('DOMContentLoaded', function(){
+    registerSmoothScrollOnJump();
     if(location.hash){
+      //ハッシュ付きのURLでアクセスされた場合、見出しまでスムーススクロール
       jumpTo(decodeURIComponent(location.hash));
     }
   });
