@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Test"
+title: "スライドの書き方"
 summary: "スライドの書き方紹介"
 authors: ["juris710"]
 tags: []
