@@ -18,7 +18,7 @@ description = ""
 sharing_image = ""
 
 # Twitter username (without @). Used when a vistor shares your site on Twitter.
-twitter = "mcoffeewanderer"
+twitter = "mrcoldbrews"
 
 # Diplay a logo in navigation bar rather than title (optional).
 #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
