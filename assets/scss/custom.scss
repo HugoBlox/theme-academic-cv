@@ -239,7 +239,6 @@ input#search-query:focus {
 }
 .content-widget-hr {
     margin-top: 0;
-    //padding-top: 0.5em;
 }
 .twitter-tweet {
     margin-left: auto;
@@ -250,4 +249,13 @@ ul.share {
 }
 .dark .content-widget-hr{
     border-top: none;
+}
+.page-author-cards {
+    //padding-top: 0;
+    .author-card{
+        border-bottom: 2px solid rgba(255, 255, 255, 0.05);
+        &:last-child{
+            border-bottom: none;
+        }
+    }
 }
