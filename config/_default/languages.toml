@@ -16,5 +16,5 @@
 #    description = "Site description in Chinese..."
 #  [[zh.menu.main]]
 #    name = "Wo"
-#    url = "#about"
+#    url = "/blog/"
 #    weight = 1

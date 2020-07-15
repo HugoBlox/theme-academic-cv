@@ -6,7 +6,7 @@
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
 # Title of your site
-title = "Academic"
+title = "Share ChiWai/Share 智慧分享 – 技術分享/Tech Blog"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
@@ -16,6 +16,12 @@ baseurl = "/"
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
 copyright = ""
 
+# Enable analytics by entering your Google Analytics tracking ID
+googleAnalytics = "UA-6964597-13"
+
+# Enable comments by entering your Disqus shortname
+disqusShortname = "sharechiwai"
+
 ############################
 ## Advanced options below ##
 ############################
@@ -24,7 +30,7 @@ copyright = ""
 theme = "academic"
 
 # Get last modified date for content from Git?
-enableGitInfo = false
+enableGitInfo = true
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
@@ -43,8 +49,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   authors = "/author/:slug/"
   tags = "/tag/:slug/"
   categories = "/category/:slug/"
-  publication_types = "/publication-type/:slug/"
-
+  
 [outputs]
   home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]
   section = [ "HTML", "RSS" ]
