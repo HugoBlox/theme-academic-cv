@@ -13,6 +13,393 @@
     </image>
     
     <item>
+      <title>スマホゲームの権利表記</title>
+      <link>https://blog.opuappnavi.com/post/smartphone-game-licenses/</link>
+      <pubDate>Fri, 10 Jul 2020 16:21:59 +0900</pubDate>
+      <guid>https://blog.opuappnavi.com/post/smartphone-game-licenses/</guid>
+      <description>&lt;p&gt;多くの人が当たり前のようにスマートフォンを持つ今日、スマホでゲームをプレイすることもまた当たり前となりました。精巧な3Dモデル、滑らかな2Dアニメーション、フルボイスのストーリーシーンなど、PCゲームやコンソールゲームに迫るようなクオリティーのスマホゲームも増えています。&lt;/p&gt;
+&lt;p&gt;プログラミングの勉強をしていて、いつか多くの人にプレイされるようなゲームを作りたいと思っている人ならば、自分がプレイしているスマホゲームがどのように作られているのか、知りたいと思ったことがあるかもしれません。&lt;/p&gt;
+&lt;p&gt;今回は、そんなゲームの中身をほんの少しだけ知れる、もとい知った気になれるスマホゲームの「権利表記」を紹介します。&lt;/p&gt;
+&lt;h1 id=&#34;ライブラリーとライセンス&#34;&gt;ライブラリーとライセンス&lt;/h1&gt;
+&lt;p&gt;ゲームやアプリ開発において、多くのプログラマーはライブラリーというものを利用します。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ライブラリは、汎用性の高い複数のプログラムを再利用可能な形でひとまとまりにしたものである。  (Wikipedia)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;世界中のプログラマーが作成した様々なライブラリーを使うことで、自分でプログラムすることなく便利な機能を利用できるようになります。&lt;/p&gt;
+&lt;p&gt;とても便利なライブラリーですが、利用する際に注意する点があります。それがライセンスです。ここでのライセンスとはオープンソースソフトウェアのソフトウェアライセンスのことを指します。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ソフトウェアライセンスは、コンピュータのソフトウェアについて、ソフトウェア利用者が遵守すべき事項を記載した文書である。(Wikipedia)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;そのライブラリーを改変してもよいのか、商用利用してもよいのか、などを記した文書ファイルがほぼ全てのライブラリーに同梱されており、ライブラリーを利用する際はそのライセンスの内容を守る必要があります。&lt;/p&gt;
+&lt;h1 id=&#34;スマホゲームの権利表記&#34;&gt;スマホゲームの権利表記&lt;/h1&gt;
+&lt;p&gt;一部のスマホゲームには、そのゲームが使用しているライブラリーのライセンスを表示する「権利表記」という項目があります。基本的にメニューの深いところにあるため、スマホゲームをプレイしている人が「権利表記」を見ることはほとんどありません。&lt;/p&gt;
+&lt;p&gt;権利表記にはライセンスと一緒に、どのライセンスがどのライブラリーのものなのかを併記していることがあります。これを利用すれば、権利表記を読むことによって、そのスマホゲームにどんなライブラリーが使われているのかを知ることができます。多くの人にプレイされているゲームがどのようなライブラリーを使っているのかを知ることは、プログラミングを学ぶ上でとても役に立つと思います。&lt;/p&gt;
+&lt;h1 id=&#34;権利表記の見方&#34;&gt;権利表記の見方&lt;/h1&gt;
+&lt;p&gt;例として、自分がプレイしているスマホゲームの、権利表記の見方を紹介します。
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    各ゲームの画像は、アプリのタイトル画面(マリカのみロード画面)から引用しました。
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;sao-ab&#34;&gt;SAO AB&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-ソードアートオンラインアリシゼーションブレイディング&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./SAOAB_Title.png&#34; data-caption=&#34;ソードアート・オンライン　アリシゼーション・ブレイディング&#34;&gt;
+
+
+  &lt;img src=&#34;./SAOAB_Title.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    ソードアート・オンライン　アリシゼーション・ブレイディング
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+&lt;a href=&#34;https://ab.sao-game.jp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式サイト&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;右上のメニューボタン
+  &lt;i class=&#34;fas fa-arrow-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;その他&lt;/strong&gt;
+  &lt;i class=&#34;fas fa-arrow-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;コピーライト&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;feヒーローズ&#34;&gt;FEヒーローズ&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-ファイアーエムブレムヒーローズ&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./FEHeroes_Title.png&#34; data-caption=&#34;ファイアーエムブレム　ヒーローズ&#34;&gt;
+
+
+  &lt;img src=&#34;./FEHeroes_Title.png&#34; alt=&#34;&#34; width=&#34;300&#34; &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    ファイアーエムブレム　ヒーローズ
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+&lt;a href=&#34;https://fire-emblem-heroes.com/ja/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式サイト&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;その他&lt;/strong&gt;
+  &lt;i class=&#34;fas fa-arrow-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;FAQ等&lt;/strong&gt;
+  &lt;i class=&#34;fas fa-arrow-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;このアプリについて&lt;/strong&gt;
+  &lt;i class=&#34;fas fa-arrow-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;権利表記&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ポケマス&#34;&gt;ポケマス&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-pokémon-masters&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./PokemonMasters_Title.png&#34; data-caption=&#34;Pokémon Masters&#34;&gt;
+
+
+  &lt;img src=&#34;./PokemonMasters_Title.png&#34; alt=&#34;&#34; width=&#34;300&#34; &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Pokémon Masters
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+&lt;a href=&#34;https://pokemonmasters-game.com/ja-JP&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式サイト&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ポリゴンフォン
+  &lt;i class=&#34;fas fa-arrow-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;その他&lt;/strong&gt;
+  &lt;i class=&#34;fas fa-arrow-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;このアプリについて&lt;/strong&gt;
+  &lt;i class=&#34;fas fa-arrow-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;権利表記&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;マリカ&#34;&gt;マリカ&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-マリオカートツアー&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./MarioKart_Title.png&#34; data-caption=&#34;マリオカートツアー&#34;&gt;
+
+
+  &lt;img src=&#34;./MarioKart_Title.png&#34; alt=&#34;&#34; width=&#34;300&#34; &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    マリオカートツアー
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+&lt;a href=&#34;https://mariokarttour.com/ja-JP&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式サイト&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;メニュー&lt;/strong&gt;
+  &lt;i class=&#34;fas fa-arrow-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;設定&lt;/strong&gt;
+  &lt;i class=&#34;fas fa-arrow-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;ヘルプとお問い合わせ&lt;/strong&gt;
+  &lt;i class=&#34;fas fa-arrow-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;権利表記&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;とあるif&#34;&gt;とあるIF&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-とある魔術の禁書目録インテグラルファクター&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./ToaruIf_Title.png&#34; data-caption=&#34;とある魔術の禁書目録　インテグラルファクター&#34;&gt;
+
+
+  &lt;img src=&#34;./ToaruIf_Title.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    とある魔術の禁書目録　インテグラルファクター
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+&lt;a href=&#34;https://www.jp.square-enix.com/index-if/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式サイト&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;メニュー&lt;/strong&gt;
+  &lt;i class=&#34;fas fa-arrow-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;規約&lt;/strong&gt;
+  &lt;i class=&#34;fas fa-arrow-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;権利表記&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;このファン&#34;&gt;このファン&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-この素晴らしい世界に祝福をファンタスティックデイズ&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./KonoFan_Title.png&#34; data-caption=&#34;この素晴らしい世界に祝福を!　ファンタスティックデイズ&#34;&gt;
+
+
+  &lt;img src=&#34;./KonoFan_Title.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    この素晴らしい世界に祝福を!　ファンタスティックデイズ
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+&lt;a href=&#34;https://konosubafd.jp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式サイト&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;メニュー&lt;/strong&gt;
+  &lt;i class=&#34;fas fa-arrow-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;サポート&lt;/strong&gt;
+  &lt;i class=&#34;fas fa-arrow-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;権利表記&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;装甲娘&#34;&gt;装甲娘&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-装甲娘-ミゼレムクライシス&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./SoukouMusume_Title.png&#34; data-caption=&#34;装甲娘 ミゼレムクライシス&#34;&gt;
+
+
+  &lt;img src=&#34;./SoukouMusume_Title.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    装甲娘 ミゼレムクライシス
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+&lt;a href=&#34;https://soukou-musume.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式サイト&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;メニュー&lt;/strong&gt;
+  &lt;i class=&#34;fas fa-arrow-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;サポート&lt;/strong&gt;
+  &lt;i class=&#34;fas fa-arrow-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;権利表記&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;権利表記のまとめ&#34;&gt;権利表記のまとめ&lt;/h1&gt;
+&lt;p&gt;今回権利表記を調べた結果の推測を表にまとめました。&lt;/p&gt;
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    あくまで推測であり、必ずしも表の通りとは限らないので注意してください。
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;ゲーム名&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;クロスプラットフォーム&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;2Dアニメーション&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;SAO AB&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cocos2d-x&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Spine / Sprite Studio&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;FEヒーローズ&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cocos2d-x&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;ポケマス&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Cocos2d-x&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;マリカ&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Unity&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;とあるIF&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Unity&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Live 2D&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;このファン&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Unity&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Live 2D&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;装甲娘&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Unity&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Live 2D&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;「Unity」&lt;/strong&gt; と表記しているゲームは、権利表記にUnityが記載されているわけではありませんが、Unity用のライブラリーが記載されています。&lt;br&gt;
+&lt;strong&gt;「Live 2D」&lt;/strong&gt; は、権利表記に記載されているわけではありませんが、タイトル画面にロゴが表示されます。&lt;/p&gt;
+&lt;h2 id=&#34;クロスプラットフォーム&#34;&gt;クロスプラットフォーム&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://it-trend.jp/development_tools/article/32-0027&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;このサイト&lt;/a&gt;の説明を引用すると、&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;クロスプラットフォームとは、iOS、Android、Windowsなど複数の動作環境で作動するプログラムのことです。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;クロスプラットフォームなゲーム開発ソフトを使用することで、AndroidとiPhoneで別々に開発することなく、両方でプレイできるゲームをつくることができます。&lt;/p&gt;
+&lt;h1 id=&#34;おわりに&#34;&gt;おわりに&lt;/h1&gt;
+&lt;p&gt;今回取り上げたライブラリー以外にも、権利表記にはたくさんのライブラリーが書かれています。興味を持った方は、自分のプレイしているゲームの権利表記を読んでみてはいかがでしょうか。&lt;/p&gt;
+&lt;h1 id=&#34;参考文献&#34;&gt;参考文献&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA&#34;&gt;https://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9&#34;&gt;https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://it-trend.jp/development_tools/article/32-0027&#34;&gt;https://it-trend.jp/development_tools/article/32-0027&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Unity WebGLのゲームをローカルでプレイする方法</title>
       <link>https://blog.opuappnavi.com/post/unity-webgl-locally/</link>
       <pubDate>Sat, 30 May 2020 16:45:03 +0900</pubDate>
