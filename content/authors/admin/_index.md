@@ -4,7 +4,7 @@ title: Chi Yau
 
 # Username (this should match the folder name)
 authors:
-- admin
+  - admin
 
 # Is this the primary user of the site?
 superuser: true
@@ -21,32 +21,32 @@ role: Software Developer
 bio: Intererest to share knowledge / experience
 
 interests:
-- Artificial Intelligence
-- Web Technology
-- Outdoor Activity (SUP, Hike)
-- Volunteering
+  - Artificial Intelligence
+  - Web Technology
+  - Outdoor Activity (SUP, Hike)
+  - Volunteering
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-# - icon: envelope
-#   icon_pack: fas
-#   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/sharechiwai
-# - icon: google-scholar
-#   icon_pack: ai
-#   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: github
-  icon_pack: fab
-  link: https://github.com/sharechiwai
-- icon: linkedin
+  # - icon: envelope
+  #   icon_pack: fas
+  #   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/sharechiwai
+  # - icon: google-scholar
+  #   icon_pack: ai
+  #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/sharechiwai
+  - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/chiwai/
-- icon: instagram
+  - icon: instagram
     icon_pack: fab
     link: https://www.instagram.com/sharechiwai/
 # Link to a PDF of your resume/CV from the About widget.
