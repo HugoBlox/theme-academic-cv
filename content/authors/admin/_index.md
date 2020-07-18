@@ -21,9 +21,9 @@ organizations:
 bio: [[bio text here]]
 
 interests:
-- Education
 - Causal Inference
-- Social Justice Research
+- Education and Pedagogy
+- Randomized Controlled Trials
 
 education:
   courses:
@@ -47,7 +47,7 @@ social:
 #  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/manncz
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -64,4 +64,6 @@ user_groups:
 - Visitors
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I am a second year PhD student in the Statistics department at the University of Michigan. I currently work with Johann Gagnon-Bartsch and Ben Hansen on projects relating to causal inference with interference, improving estimation using observational data and data from randomized controlled trials, and propensity score matching.
+
+My interests are driven by a desire to do research with applications in education and public health, with focuses on educational interventions, pedagogy, equity in education, social determinants of health, and equity in health care access. I am also committed to improving as an instructor and am interested in Statistics pedagogy, with particular interest in improving instruction of introductory statistics courses.
