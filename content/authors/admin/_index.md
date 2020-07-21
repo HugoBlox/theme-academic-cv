@@ -71,6 +71,9 @@ user_groups:
 - Visitors
 ---
 
+__I will be joining the [Rose-Hulman Institute of Technology](https://www.rose-hulman.edu) as an
+assistant professor starting Fall 2020.__
+
 I am a P.h.D. candidate at the Computer Science Department at the University of Illinois at
 Urbana-Champaign, advised by Professor [William H. Sanders](http://whs.crhc.illinois.edu).
 I mainly work on various aspects of secure and resilient networking design, combining practical
