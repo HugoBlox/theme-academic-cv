@@ -33,8 +33,8 @@ theme = "academic"
 enableGitInfo = true
 
 # Default language to use (if you setup multilingual support)
-defaultContentLanguage = "zh-hk"
-hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
+defaultContentLanguage = "en"
+hasCJKLanguage = true  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
 removePathAccents = true  # Workaround for https://github.com/gohugoio/hugo/issues/5687
 
