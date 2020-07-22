@@ -147,7 +147,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 &lt;/figure&gt;
 
 &lt;p&gt;次に大阪難波駅にあるラーメン屋さんのデータを json 形式で取得してみましょう。&lt;/p&gt;
-&lt;p&gt;検索の地域を絞るには同ぐるなび API にある&amp;quot;エリア L 検索マスタ API&amp;quot;を使ってみます。&lt;/p&gt;
+&lt;p&gt;検索の地域を絞るには同ぐるなび API にある&amp;quot;エリアLマスタ取得API&amp;quot;を使ってみます。&lt;/p&gt;
 &lt;p&gt;この API は場所のコードのデータを返してくれるのでそこから大阪難波の欄を探し、その&amp;quot;areacode_l&amp;quot;の値をメモしておきましょう。&lt;/p&gt;
 &lt;p&gt;例）&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;&amp;quot;garea_large&amp;quot;:[
