@@ -13,6 +13,328 @@
     </image>
     
     <item>
+      <title>WebAPI で手軽に機能を実装する</title>
+      <link>https://blog.opuappnavi.com/post/webapi-recommendation/</link>
+      <pubDate>Wed, 22 Jul 2020 21:14:27 +0900</pubDate>
+      <guid>https://blog.opuappnavi.com/post/webapi-recommendation/</guid>
+      <description>&lt;p&gt;今日は WebAPI の紹介と簡単に使い方について書きたいと思います。
+現在さまざまな WebAPI とそれの使い方についての記事がたくさんある中で大体内容は似てくると思いますが、その存在を知ってもらい、開発の選択肢の一つになれば幸いです。&lt;/p&gt;
+&lt;h1 id=&#34;api-とは&#34;&gt;API とは&lt;/h1&gt;
+&lt;p&gt;最初に簡単に API の説明をしておくと、
+API とは Application Programming Interface の略で、
+その文字通りの意味をとると、アプリケーションとプログラミングをつなぎ合わせるものということになります。&lt;/p&gt;
+&lt;p&gt;API にもいろいろありますが、一般的にはある機能を API として公開することで、第三者がその機能を API を呼び出すだけで簡単に利用できます。&lt;/p&gt;
+&lt;p&gt;これらを用いることで&lt;strong&gt;欲しい機能を一からプログラミングすることなく簡単に実装することができ、作業の効率化、セキュリティの向上&lt;/strong&gt;等が見込まれます。&lt;/p&gt;
+&lt;h1 id=&#34;webapi&#34;&gt;webAPI&lt;/h1&gt;
+&lt;p&gt;では webAPI とは何かというと、もちろん API の一種で、
+その名の通り web 上に公開されていて、外部からの呼び出しで利用可能な API です。&lt;/p&gt;
+&lt;p&gt;Amazon や楽天と言ったサイトの商品情報を取得したり、利用することで Google の提供している OCR(光文字認識)といった、機械学習的な機能を取り入れることなどが出来ます。&lt;/p&gt;
+&lt;p&gt;他にもさまざまなシチュエーションで活用できる webAPI があるので下記サイトを挙げておきます。&lt;/p&gt;
+&lt;p&gt;またこれらは web サイトだけではなくスマホアプリや物によればゲーム開発などにも使えるので知っていて損はないのかと思います。&lt;/p&gt;
+&lt;p&gt;・参考サイト&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://qiita.com/mikan3rd/items/ba4737023f08bb2ca161&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;個人でも使える！おすすめ API 一覧&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;おススメ-webapi&#34;&gt;おススメ webAPI&lt;/h2&gt;
+&lt;p&gt;サイトに載っているものから、個人的におススメのものを何点か挙げておきます。&lt;/p&gt;
+&lt;h3 id=&#34;google-sheets-api&#34;&gt;Google Sheets API&lt;/h3&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://developers.google.com/sheets/api/reference/rest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式サイト&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;google spreadsehet の書き込み、読み込みなどができ、簡易的なデータベースとして利用できます。特にちょっとしたアプリなどに利用すると便利です。&lt;/p&gt;
+&lt;h3 id=&#34;google-cloud-vision-api&#34;&gt;Google Cloud Vision API&lt;/h3&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://cloud.google.com/vision/docs/quickstart&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式サイト&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;顔や文字などの画像認識ができる API です。やってみたら結構楽しかったりします。無料で十分使えますが、その場合使用制限があるので注意が必要です。&lt;/p&gt;
+&lt;h3 id=&#34;line-messaging-api&#34;&gt;LINE Messaging API&lt;/h3&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://developers.line.me/ja/docs/messaging-api/overview/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式サイト&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ラインで自動返信する bot などを作ることが出来る API です。。既存のもので bot を使えるやつがありますが、これを利用するとより自由度が高い bot を作成することが可能です。&lt;/p&gt;
+&lt;p&gt;今回紹介したもの以外にもギャグみたいな面白いものだったり、便利なものが色々とあるのでこんなのあったらいいなと思った時に調べてみると実はあるかもしれません。&lt;/p&gt;
+&lt;h1 id=&#34;使い方の例&#34;&gt;使い方の例&lt;/h1&gt;
+&lt;p&gt;webAPI では現在、基本的にデータのやり取りに json 形式が利用されます。（もちろん xml 形式を用いるものもあります。）&lt;/p&gt;
+&lt;p&gt;json については簡単に参考サイトを載せておきますので興味のある人は見てみてください。&lt;/p&gt;
+&lt;p&gt;・json ってまず何？&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://wa3.i-3-i.info/word13798.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;「分かりそう」で「分からない」でも「分かった」気になれる IT 用語辞典&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;・json の使い方とか&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://reffect.co.jp/html/what_is_json&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;JSON ってなに?これさえ読めば理解が深まる&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;今回は上記の API 一覧にのっている「ぐるなび API」を例として使い方をざっくり紹介したいと思います。&lt;/p&gt;
+&lt;h2 id=&#34;ぐるなび-api-って&#34;&gt;ぐるなび API って？&lt;/h2&gt;
+&lt;p&gt;ぐるなび API はぐるなびが提供する WebAPI で、ぐるなびに登録されている店の情報や、分野別の店の検索等が出来ます。&lt;/p&gt;
+&lt;p&gt;日本の企業でサイトも日本語で書かれていて、利用方法も簡単な url の取得だけで、テストツールも分かりやすく使いやすいことから webAPI を初めて利用する初心者の方に個人的にはおススメです。&lt;/p&gt;
+&lt;h2 id=&#34;ぐるなび-api-の使い方&#34;&gt;ぐるなび API の使い方&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://api.gnavi.co.jp/api/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ぐるなび API のサイト&lt;/a&gt;にアクセスする。&lt;br&gt;
+利用規約や初めての方へなどを予め読んでおくと良いです。
+また 「API 仕様」の欄にてどのような API が提供されているかを詳しく見ることで使いたい機能を整理します。&lt;/p&gt;
+&lt;p&gt;この API からは、レストラン検索 API や都道府県マスタ取得 API などがあり、レストランを検索したり、業態別、地域別にお店を絞り込むことができるようです。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-ぐるなびapiサイト&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./gurunavi.png&#34; data-caption=&#34;ぐるなびAPIサイト&#34;&gt;
+
+
+  &lt;img src=&#34;./gurunavi.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    ぐるなびAPIサイト
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;テストツールを使ってみる&lt;br&gt;
+API 仕様を確認した後はテストツールを使ってみましょう。上部のテストツールという欄をクリックします。そうすると下のような画面になります。&lt;/p&gt;
+&lt;p&gt;今回は試しにレストラン検索 API で検索タブを name にラーメンにでもしてクエリを送信をクリックしてみましょう。&lt;/p&gt;
+&lt;p&gt;そうするとクエリを送信ボタンの下に json 形式のデータが出てきます。
+これを見ると、たくさんのお店、かつラーメン屋が出てきたことが分かります。&lt;/p&gt;
+&lt;p&gt;他にも店の場所や説明なども載っていると思いますが、上記の key を指定し、条件を絞り込むことでそれらの指定をすることが出来ます。&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-テストツール画面&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./gurunavi2.png&#34; data-caption=&#34;テストツール画面&#34;&gt;
+
+
+  &lt;img src=&#34;./gurunavi2.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    テストツール画面
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;次に大阪難波駅にあるラーメン屋さんのデータを json 形式で取得してみましょう。&lt;/p&gt;
+&lt;p&gt;検索の地域を絞るには同ぐるなび API にある&amp;quot;エリア L 検索マスタ API&amp;quot;を使ってみます。&lt;/p&gt;
+&lt;p&gt;この API は場所のコードのデータを返してくれるのでそこから大阪難波の欄を探し、その&amp;quot;areacode_l&amp;quot;の値をメモしておきましょう。&lt;/p&gt;
+&lt;p&gt;例）&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;&amp;quot;garea_large&amp;quot;:[
+    ...
+    {
+        &amp;quot;areacode_l&amp;quot;: &amp;quot;AREAL3142&amp;quot;,
+        &amp;quot;areaname_l&amp;quot;: &amp;quot;難波・道頓堀&amp;quot;,
+        &amp;quot;pref&amp;quot;: {
+            &amp;quot;pref_code&amp;quot;: &amp;quot;PREF27&amp;quot;,
+            &amp;quot;pref_name&amp;quot;: &amp;quot;大阪府&amp;quot;
+        }
+    },
+    ...
+]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;次にレストラン検索 API に戻り、areacode_l をメモした値にした後、
+クエリを送信すると、大阪難波駅周辺のラーメン屋の json データを取得できるようになります。&lt;/p&gt;
+&lt;p&gt;取りたいデータが出てきたらその上にある URL という欄の url をメモしておきます。&lt;/p&gt;
+&lt;p&gt;例）&lt;code&gt;https://api.gnavi.co.jp/RestSearchAPI/v3/?keyid=(ここは後に取得するkeyidの値）&amp;amp;name=ラーメン&amp;amp;areacode_l=AREAL3310&lt;/code&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-検索例&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./gurunavi3.png&#34; data-caption=&#34;検索例&#34;&gt;
+
+
+  &lt;img src=&#34;./gurunavi3.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    検索例
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;その他にも現在位置を別の API で取得して今いる位置の近くの店を検索したりするなど様々な条件で試してみるのもいいかもしれません。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;新規アカウント登録&lt;br&gt;
+テストである程度データの構造が分かったら、次は実際に使用します。
+ぐるなび API を利用するには、アカウント登録で個人情報や利用目的など、いくつかの項目に答える必要があります。&lt;/p&gt;
+&lt;p&gt;利用用途の欄がありますが、とりあえず始めるだけなので’試しに使用’でいいでしょう。これは使用期限はありますが、機能としては問題ないです。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;コードに取り入れる&lt;br&gt;
+アカウントの登録が終わったらぐるなびからアクセスキーが発光されるので、
+先ほどメモを取った url の keyid 以下の文字列をアクセスキーに置き換え、利用することで指定した条件のお店を検索することが出来ます。&lt;/p&gt;
+&lt;p&gt;コードについては利用方法は使用言語によって異なってくると思うので、詳しい話は省きますが、とりあえず GAS(Google Apps Script)での利用例を載せておきます。&lt;/p&gt;
+&lt;p&gt;(GAS についての紹介はよければ下まで)
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;card-simple&#34;&gt;
+
+  
+    
+
+
+&lt;div class=&#34;article-metadata&#34;&gt;
+
+  
+  
+    
+    
+      &lt;div&gt;
+        
+
+  
+  &lt;span &gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/nobu/&#34;&gt;Nobu&lt;/a&gt;&lt;/span&gt;
+      &lt;/div&gt;
+    
+  
+
+  
+  &lt;span class=&#34;article-date&#34;&gt;
+    
+    2020/05/28  投稿  
+    
+    
+      ( 2020/05/30  最終更新 )
+    
+  &lt;/span&gt;
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+&lt;/div&gt;
+
+  
+
+  
+  
+  
+
+  &lt;h3 class=&#34;article-title mb-1 mt-3&#34;&gt;
+    &lt;a href=&#34;https://blog.opuappnavi.com/post/gas-recommendation/&#34;&gt;手軽に始める！GAS を使ってみませんか～&lt;/a&gt;
+  &lt;/h3&gt;
+
+  
+  &lt;a href=&#34;https://blog.opuappnavi.com/post/gas-recommendation/&#34; class=&#34;summary-link&#34;&gt;
+    &lt;div class=&#34;article-style&#34;&gt;
+      &lt;p&gt;Google Apps Scriptの紹介&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/a&gt;
+  
+
+  
+
+&lt;/div&gt;
+
+ &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-JavaScript:コード.gs&#34;&gt;function myFunction(e) {
+//取得したアクセスキー
+var gurunaviAPI = PropertiesService.getScriptProperties().getProperty(&#39;GURUNAVI_TOKEN&#39;);
+//データを取得するためにアクセスするurl
+var url = &#39;https://api.gnavi.co.jp/RestSearchAPI/v3/&#39;;
+url = url + &#39;?keyid=&#39;+ gurunaviAPI;
+var  gurunaviId = url + &amp;quot;&amp;amp;name=ラーメン&amp;amp;areacode_l=AREAL3142&amp;quot;
+var shop_url = UrlFetchApp.fetch(gurunaviId);
+//jsonのデータを配列に変換
+var json = JSON.parse(shop_url.getContentText());
+//取得したデータ一覧表示
+Logger.log(json);
+//rest以下の項目を取得できる
+//検索候補１つ目の店名を表示
+Logger.log(json[&amp;quot;rest&amp;quot;][0][&amp;quot;name&amp;quot;]);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;ここまで順を追って簡単にぐるなび API のデータの取得から利用方法まで見てきましたが、条件をある程度絞った中でユーザーに条件を入力してもうなど紹介したもの以外でもやり方は色々あると思うのでよければ試してみてください！&lt;/p&gt;
+&lt;p&gt;あと注意としてはお店のデータが&amp;quot;ぐるなび&amp;quot;と&amp;quot;ぐるなび API&amp;rdquo; では異なり、思ったような店が出力されないというのがあるのでまずはお試しという形で利用したほうがいいかもしれないです。&lt;/p&gt;
+&lt;h1 id=&#34;参考サイト&#34;&gt;参考サイト&lt;/h1&gt;
+&lt;p&gt;今さら聞けない IT 用語：やたらと耳にするけど「API」って何？&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://data.wingarc.com/what-is-api-16084&#34;&gt;https://data.wingarc.com/what-is-api-16084&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;最後に&#34;&gt;最後に&lt;/h1&gt;
+&lt;p&gt;改めて API、WebAPI を用いると簡単に機能が実装できるので、特に開発期間が短いハッカソンなどのイベント時では特に重宝しますし、これらの WebAPI を組み合わせることで、ある程度十分使えるものができるのではと思います。次回のイベントやもちろん普段の開発にでも知らなかった人は使ってみるといいかもしれません！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>スマホゲームの権利表記</title>
       <link>https://blog.opuappnavi.com/post/smartphone-game-licenses/</link>
       <pubDate>Fri, 10 Jul 2020 16:21:59 +0900</pubDate>
