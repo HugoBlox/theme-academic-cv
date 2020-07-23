@@ -5,7 +5,7 @@ title: "WebAPI で手軽に機能を実装する"
 subtitle: ""
 summary: "webAPIを試しに使ってみよう～"
 authors: ["nobu"]
-tags: []
+tags: ["Google Apps Script"]
 categories: []
 date: 2020-07-22T21:14:27+09:00
 featured: false

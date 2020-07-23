@@ -3,8 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.opuappnavi.com/tag/google-apps-script/</loc>
+    <lastmod>2020-07-23T11:30:46+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.opuappnavi.com/post/webapi-recommendation/</loc>
-    <lastmod>2020-07-22T22:01:51+09:00</lastmod>
+    <lastmod>2020-07-23T11:30:46+09:00</lastmod>
   </url>
   
   <url>
@@ -64,11 +69,6 @@
   
   <url>
     <loc>https://blog.opuappnavi.com/post/gas-scoring/</loc>
-    <lastmod>2020-05-31T00:17:29+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.opuappnavi.com/tag/google-apps-script/</loc>
     <lastmod>2020-05-31T00:17:29+09:00</lastmod>
   </url>
   
