@@ -18,19 +18,38 @@ subtitle = ""
   icon = "r-project"
   icon_pack = "fab"
   name = "R"
-  description = "90%"
+  description = "Advanced"
   
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
   name = "Statistics"
-  description = "100%"  
+  description = "Good working knowledge"  
   
 [[feature]]
-  icon = "camera-retro"
+  icon = "python"
+  icon_pack = "fab"
+  name = "Python"
+  description = "Beginner"
+
+[[feature]]
+  icon = "github"
+  icon_pack = "fab"
+  name = "Github"
+  description = "Intermediate"
+  
+  [[feature]]
+  icon = "users"
   icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "Corporate training"
+  description = "Experienced"
+
+[[feature]]
+  icon = "docker"
+  icon_pack = "fab"
+  name = "Docker"
+  description = "Beginner"
+
 
 # Uncomment to use emoji icons.
 # [[feature]]
