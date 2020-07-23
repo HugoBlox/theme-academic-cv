@@ -306,20 +306,20 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 
  &lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-JavaScript:コード.gs&#34;&gt;function myFunction(e) {
-//取得したアクセスキー
-var gurunaviAPI = PropertiesService.getScriptProperties().getProperty(&#39;GURUNAVI_TOKEN&#39;);
-//データを取得するためにアクセスするurl
-var url = &#39;https://api.gnavi.co.jp/RestSearchAPI/v3/&#39;;
-url = url + &#39;?keyid=&#39;+ gurunaviAPI;
-var  gurunaviId = url + &amp;quot;&amp;amp;name=ラーメン&amp;amp;areacode_l=AREAL3142&amp;quot;
-var shop_url = UrlFetchApp.fetch(gurunaviId);
-//jsonのデータを配列に変換
-var json = JSON.parse(shop_url.getContentText());
-//取得したデータ一覧表示
-Logger.log(json);
-//rest以下の項目を取得できる
-//検索候補１つ目の店名を表示
-Logger.log(json[&amp;quot;rest&amp;quot;][0][&amp;quot;name&amp;quot;]);
+    //取得したアクセスキー
+    var gurunaviAPI = PropertiesService.getScriptProperties().getProperty(&#39;GURUNAVI_TOKEN&#39;);
+    //データを取得するためにアクセスするurl
+    var url = &#39;https://api.gnavi.co.jp/RestSearchAPI/v3/&#39;;
+    url = url + &#39;?keyid=&#39;+ gurunaviAPI;
+    var  gurunaviId = url + &amp;quot;&amp;amp;name=ラーメン&amp;amp;areacode_l=AREAL3142&amp;quot;
+    var shop_url = UrlFetchApp.fetch(gurunaviId);
+    //jsonのデータを配列に変換
+    var json = JSON.parse(shop_url.getContentText());
+    //取得したデータ一覧表示
+    Logger.log(json);
+    //rest以下の項目を取得できる
+    //検索候補１つ目の店名を表示
+    Logger.log(json[&amp;quot;rest&amp;quot;][0][&amp;quot;name&amp;quot;]);
 }
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;

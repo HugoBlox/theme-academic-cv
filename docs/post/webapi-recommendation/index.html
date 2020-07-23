@@ -921,20 +921,20 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 
  </p>
 <pre><code class="language-JavaScript:コード.gs">function myFunction(e) {
-//取得したアクセスキー
-var gurunaviAPI = PropertiesService.getScriptProperties().getProperty('GURUNAVI_TOKEN');
-//データを取得するためにアクセスするurl
-var url = 'https://api.gnavi.co.jp/RestSearchAPI/v3/';
-url = url + '?keyid='+ gurunaviAPI;
-var  gurunaviId = url + &quot;&amp;name=ラーメン&amp;areacode_l=AREAL3142&quot;
-var shop_url = UrlFetchApp.fetch(gurunaviId);
-//jsonのデータを配列に変換
-var json = JSON.parse(shop_url.getContentText());
-//取得したデータ一覧表示
-Logger.log(json);
-//rest以下の項目を取得できる
-//検索候補１つ目の店名を表示
-Logger.log(json[&quot;rest&quot;][0][&quot;name&quot;]);
+    //取得したアクセスキー
+    var gurunaviAPI = PropertiesService.getScriptProperties().getProperty('GURUNAVI_TOKEN');
+    //データを取得するためにアクセスするurl
+    var url = 'https://api.gnavi.co.jp/RestSearchAPI/v3/';
+    url = url + '?keyid='+ gurunaviAPI;
+    var  gurunaviId = url + &quot;&amp;name=ラーメン&amp;areacode_l=AREAL3142&quot;
+    var shop_url = UrlFetchApp.fetch(gurunaviId);
+    //jsonのデータを配列に変換
+    var json = JSON.parse(shop_url.getContentText());
+    //取得したデータ一覧表示
+    Logger.log(json);
+    //rest以下の項目を取得できる
+    //検索候補１つ目の店名を表示
+    Logger.log(json[&quot;rest&quot;][0][&quot;name&quot;]);
 }
 </code></pre>
 </li>

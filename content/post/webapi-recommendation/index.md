@@ -169,20 +169,20 @@ json については簡単に参考サイトを載せておきますので興味
 
     ```JavaScript:コード.gs
     function myFunction(e) {
-    //取得したアクセスキー
-    var gurunaviAPI = PropertiesService.getScriptProperties().getProperty('GURUNAVI_TOKEN');
-    //データを取得するためにアクセスするurl
-    var url = 'https://api.gnavi.co.jp/RestSearchAPI/v3/';
-    url = url + '?keyid='+ gurunaviAPI;
-    var  gurunaviId = url + "&name=ラーメン&areacode_l=AREAL3142"
-    var shop_url = UrlFetchApp.fetch(gurunaviId);
-    //jsonのデータを配列に変換
-    var json = JSON.parse(shop_url.getContentText());
-    //取得したデータ一覧表示
-    Logger.log(json);
-    //rest以下の項目を取得できる
-    //検索候補１つ目の店名を表示
-    Logger.log(json["rest"][0]["name"]);
+        //取得したアクセスキー
+        var gurunaviAPI = PropertiesService.getScriptProperties().getProperty('GURUNAVI_TOKEN');
+        //データを取得するためにアクセスするurl
+        var url = 'https://api.gnavi.co.jp/RestSearchAPI/v3/';
+        url = url + '?keyid='+ gurunaviAPI;
+        var  gurunaviId = url + "&name=ラーメン&areacode_l=AREAL3142"
+        var shop_url = UrlFetchApp.fetch(gurunaviId);
+        //jsonのデータを配列に変換
+        var json = JSON.parse(shop_url.getContentText());
+        //取得したデータ一覧表示
+        Logger.log(json);
+        //rest以下の項目を取得できる
+        //検索候補１つ目の店名を表示
+        Logger.log(json["rest"][0]["name"]);
     }
     ```
 
