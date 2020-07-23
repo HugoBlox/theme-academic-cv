@@ -246,7 +246,7 @@
     
       <meta property="article:published_time" content="2020-07-22T21:14:27&#43;09:00">
     
-    <meta property="article:modified_time" content="2020-07-23T11:30:46&#43;09:00">
+    <meta property="article:modified_time" content="2020-07-23T22:18:31&#43;09:00">
   
 
   
@@ -275,7 +275,7 @@
   "headline": "WebAPI で手軽に機能を実装する",
   
   "datePublished": "2020-07-22T21:14:27+09:00",
-  "dateModified": "2020-07-23T11:30:46+09:00",
+  "dateModified": "2020-07-23T22:18:31+09:00",
   
   "author": {
     "@type": "Person",
@@ -1167,9 +1167,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
     button.appendChild(icon);
     button.insertAdjacentHTML('beforeend', "&nbsp;&nbsp;COPY");
   }
-  let multilineCodes = [].filter.call(document.getElementsByTagName(`code`), function (code) {
-    return code.parentElement.tagName === "PRE";
-  });
+  let multilineCodes = Array.from(document.querySelectorAll("pre>code"));
   multilineCodes.forEach(code => {
     if (needsCodeHeaderButton(code)) {
       let codeHeader = document.createElement('div');

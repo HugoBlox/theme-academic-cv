@@ -1019,9 +1019,7 @@ git push -u origin master
     button.appendChild(icon);
     button.insertAdjacentHTML('beforeend', "&nbsp;&nbsp;COPY");
   }
-  let multilineCodes = [].filter.call(document.getElementsByTagName(`code`), function (code) {
-    return code.parentElement.tagName === "PRE";
-  });
+  let multilineCodes = Array.from(document.querySelectorAll("pre>code"));
   multilineCodes.forEach(code => {
     if (needsCodeHeaderButton(code)) {
       let codeHeader = document.createElement('div');
