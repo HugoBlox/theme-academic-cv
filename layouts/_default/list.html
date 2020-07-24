@@ -7,7 +7,7 @@
     <div class="article-style">{{ . }}</div>
   {{ end }}
   {{ $kind := .Kind }}
-  {{ if eq $kind "taxonomyTerm" }}
+  {{ if eq $kind "taxonomy" }}
     {{ range .Data.Pages }}
       <a href="{{.RelPermalink}}" class="tag-link"> {{ .Title }} </a>
     {{ end }}
