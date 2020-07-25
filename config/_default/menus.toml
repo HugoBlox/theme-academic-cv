@@ -7,18 +7,23 @@
   name = "Home"
   url = "#about"
   weight = 10
+  
+[[main]]
+  name = "Publications"
+  url = "pubs/"
+  weight = 15
 
 [[main]]
   name = "Research Interests"
   url = "#projects"
   weight = 30
 
-[[main]]
-  name = "Publications"
-  url = "#featured"
-  weight = 40
+#[[main]]
+#  name = "Publications"
+#  url = "#featured"
+#  weight = 40
   
-[[main]]
+#[[main]]
   name = "Presentations"
   url = "#featured"
   weight = 45
@@ -37,11 +42,7 @@
   name = "中文"
   url = "#posts"
   weight = 150
-  
-[[main]]
-  name = "中文"
-  url = "pubs/"
-  weight = 150
+
   
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
