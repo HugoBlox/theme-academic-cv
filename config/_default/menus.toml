@@ -24,9 +24,9 @@
 #  weight = 40
   
 #[[main]]
-  name = "Presentations"
-  url = "#featured"
-  weight = 45
+#  name = "Presentations"
+#  url = "#featured"
+#  weight = 45
   
 [[main]]
   name = "Teaching"
