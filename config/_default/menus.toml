@@ -37,7 +37,12 @@
   name = "中文"
   url = "#posts"
   weight = 150
-
+  
+[[main]]
+  name = "中文"
+  url = "pubs/"
+  weight = 150
+  
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # [[main]]
