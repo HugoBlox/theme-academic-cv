@@ -25,13 +25,17 @@ function do_update () {
   # Apply any updates
   git submodule update --remote --merge
 
+  # Postfix '.0' to Hugo min_version as sadly it doesn't map to a precise semantic version.
+  version=$(sed -n 's/^min_version = //p' themes/academic/theme.toml | tr -d '"')
+  version="${version}.0"
   # - Update Netlify.toml with required Hugo version
   if [ -f ./netlify.toml ]; then
-    # Postfix '.0' to Hugo min_version as sadly it doesn't map to a precise semantic version.
-    version=$(sed -n 's/^min_version = //p' themes/academic/theme.toml | tr -d '"')
-    version="${version}.0"
     echo "Set Netlify Hugo version to v${version}"
     sed -i.bak -e "s/HUGO_VERSION = .*/HUGO_VERSION = \"$version\"/g" ./netlify.toml && rm -f ./netlify.toml.bak
+  fi
+  if [ -f ./docker-compose.yml ]; then
+    echo "Set Docker Hugo version to v${version}"
+    sed -i.bak -e "s|jojomi/hugo:.*|jojomi/hugo:"${version}"|g" ./docker-compose.yml && rm -f ./docker-compose.yml.bak
   fi
 
   echo
