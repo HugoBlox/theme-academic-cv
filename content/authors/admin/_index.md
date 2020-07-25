@@ -85,6 +85,8 @@ graduatedmss:
     year: "2017"
   - course: "[Neha Ojha](https://www.linkedin.com/in/nehaojha/)"
     year: "2017"
+  - course: "[Saloni Rane](https://www.linkedin.com/in/saloni-rane/)"
+    year: "2020"
   - course: "[Mariette Souppe](https://www.linkedin.com/in/msouppe/)"
     year: "2019"
   - course: "[Greeshma Swaminathan](https://www.linkedin.com/in/greeshmaswaminathan/)"
