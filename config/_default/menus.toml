@@ -6,7 +6,7 @@
 [[main]]
   name = "About"
   url = "#about"
-  weight = 40
+  weight = 10
 
 [[main]]
   name = "Posts"

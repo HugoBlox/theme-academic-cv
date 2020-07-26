@@ -74,7 +74,7 @@ date_format = "Jan 2006"
   date_end = "2013-03-15"
   description = """I worked as a petroleum exploration geophysicist as part of a client facing multi-disciplinary team."""
   
-    [[experience]]
+  [[experience]]
   title = "Interpretation Geoscientist"
   company = "Fugro Airborne Surveys Pty"
   company_url = ""
