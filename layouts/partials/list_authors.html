@@ -4,27 +4,23 @@
 {{ $no_author_image := (site.GetPage "/authors").Resources.GetMatch "no_author_image.png" }}
 
 {{ $university_year_list := slice "1年" "2年" "3年" "4年" "M1" "M2" "D1" "D2" }}
-{{ $page_groups := dict}}
+{{ $page_groups := newScratch }}
 {{ range $author_pages }}
   {{ $page := .}}
   {{ $year := partial "functions/university_grade" $page.Params.University }}
-  {{ with index $page_groups $year}}
-    {{ $page_groups = merge $page_groups (dict $year (. | append $page))}}
-  {{ else }}
-    {{ $page_groups = merge $page_groups (dict $year (slice $page))}}
-  {{ end }}
-{{ end }}
+  {{ $page_groups.Add $year (slice $page)}}
+{{ end }} 
 
 <div class="author-card-list">
   {{range $university_year_list}}
     {{ $year := . }}
-    {{ with (index $page_groups $year) }}
+    {{ with $page_groups.Get $year }}
       {{ $pages := . }}
       {{ partial "author_page_group" (dict "avatar_shape" $avatar_shape "year" $year "pages" $pages) }}
-      {{ $page_groups =  partial "functions/dict_remove" (dict "dict" $page_groups "key" $year) }}
+      {{ $page_groups.Delete $year }}
     {{ end }}
   {{ end }}
-  {{ range $year, $pages := $page_groups }}
+  {{ range $year, $pages := $page_groups.Values }}
     {{ partial "author_page_group" (dict "avatar_shape" $avatar_shape "year" $year "pages" $pages) }}
   {{ end }}
 </div>
