@@ -2,14 +2,14 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "DVLA"
-summary: ""
-authors: []
-tags: []
-categories: []
+summary: "R package to retrieve vehicle data from the DVLA API"
+authors: ["Richard Davey"]
+tags: ["Vehicle fleet", "Emissions"]
+categories: ["R package"]
 date: 2020-07-26T23:14:11+01:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "daveyr.github.io/DVLA"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

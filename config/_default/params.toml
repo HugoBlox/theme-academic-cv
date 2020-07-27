@@ -16,7 +16,7 @@
 theme = "Forest"
 
 # Enable users to switch between day and night mode?
-day_night = true
+day_night = false
 
 # Override the theme's font set (optional).
 #   Latest font sets (may require updating): https://sourcethemes.com/academic/themes/
@@ -45,7 +45,7 @@ local_business_type = ""
 
 # Organization name (optional)
 # Enter an organization or project name. Defaults to the site title from `config.toml`.
-org_name = ""
+org_name = "Algorist"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = ""
@@ -88,7 +88,7 @@ show_related = {docs = true, page = false, post = true, project = true, publicat
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "test@example.org"
+email = "davey.richard@protonmail.com"
 phone = ""
 
 # Address
@@ -112,7 +112,7 @@ appointment_url = ""
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Twitter"},
+  #{icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Twitter"},
   {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:mrricheyrich"},
   #{icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
   #{icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
