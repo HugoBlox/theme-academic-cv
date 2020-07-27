@@ -3,15 +3,15 @@
   {{if or .NextInSection .PrevInSection}}
   <div class="post-nav-item">
     {{if .NextInSection}}
-    {{/* For the docs layout, prev/next labels are reversed. */}}
-    {{ if eq .Type "docs" }}{{ $str = "previous" }}{{else}}{{ $str = "next" }}{{end}}
+    {{/* For the docs and book layout, prev/next labels are reversed. */}}
+    {{ if in .Type (dict "docs" "book") }}{{ $str = "previous" }}{{else}}{{ $str = "next" }}{{end}}
     <div class="meta-nav">{{ i18n $str }}</div>
     <a href="{{.NextInSection.RelPermalink}}" rel="next">{{.NextInSection.Title}}</a>
     {{end}}
   </div>
   <div class="post-nav-item">
     {{if .PrevInSection}}
-    {{ if eq .Type "docs" }}{{ $str = "next" }}{{else}}{{ $str = "previous" }}{{end}}
+    {{ if in .Type (dict "docs" "book") }}{{ $str = "next" }}{{else}}{{ $str = "previous" }}{{end}}
     <div class="meta-nav">{{ i18n $str }}</div>
     <a href="{{.PrevInSection.RelPermalink}}" rel="prev">{{.PrevInSection.Title}}</a>
     {{end}}
