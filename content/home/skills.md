@@ -25,6 +25,12 @@ subtitle = ""
   icon_pack = "fas"
   name = "Statistics"
   description = "Good working knowledge"  
+
+[[feature]]
+  icon = "lightbulb"
+  icon_pack = "fas"
+  name = "Energy sector"
+  description = "Domain expertise"
   
 [[feature]]
   icon = "python"
@@ -38,17 +44,11 @@ subtitle = ""
   name = "Github"
   description = "Intermediate"
   
-  [[feature]]
+[[feature]]
   icon = "users"
   icon_pack = "fas"
   name = "Corporate training"
   description = "Experienced"
-
-[[feature]]
-  icon = "docker"
-  icon_pack = "fab"
-  name = "Docker"
-  description = "Beginner"
 
 
 # Uncomment to use emoji icons.
