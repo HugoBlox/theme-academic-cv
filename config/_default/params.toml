@@ -123,7 +123,7 @@ contact_links = [
 ## Social
 ############################
 
-# Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
+# Default image for social sharing and search engines. Place image in `static/media/` folder and specify image name here.
 sharing_image = ""
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
@@ -147,7 +147,7 @@ address_format = "en-us"
 ############################
 
 # Main menu alignment (l = left, c = center, r = right) and logo options.
-main_menu = {align = "l", show_logo = true}
+main_menu = {align = "l", show_logo = true, highlight_active_link = true, show_language = false}
 
 # Show estimated reading time for posts? (true/false)
 reading_time = true
@@ -290,3 +290,9 @@ plugins_js  = []
 [cms]
   # See https://sourcethemes.com/academic/docs/install/#install-with-web-browser
   netlify_cms = true
+
+############################
+## Icon Pack Extensions
+############################
+[icon.pack]
+  ai = false  # Academicons icon pack https://jpswalsh.github.io/academicons/
