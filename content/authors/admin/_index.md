@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: "Group of Applied Mathematical Modeling and Optimization"
+role: "Group of Applied Mathematical Modelling and Optimisation"
 
 # Organizations/Affiliations
 organizations:
@@ -69,4 +69,19 @@ user_groups:
 - Admin
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+## Research interests
+
+### Production systems planning and supply chain management
+
+- Energy system planning
+- Healthcare and humanitarian logistics
+- Process scheduling/ routing 
+
+### Decision under uncertainty
+- Decision programming 
+- Stochastic programming 
+- Robust optimisation
+
+### Solution methods
+- Lagrangian-based decomposition methods
+- Convexification techniques

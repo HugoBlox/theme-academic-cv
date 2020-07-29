@@ -10,12 +10,12 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role:
+role: Assistant Professor of Operational Research
 
 # Organizations/Affiliations
-organizations:
-- name: 
-  url: ""
+organizations: 
+- name: Aalto University
+  url: "https://math.aalto.fi/fabricio"
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -58,7 +58,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "fabricio.oliveira@aalt"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
