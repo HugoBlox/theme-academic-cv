@@ -1,75 +1,41 @@
 ---
-# Display name
-title: Nelson Bighetti
-
-# Username (this should match the folder name)
 authors:
 - admin
-
-# Is this the primary user of the site?
-superuser: true
-
-# Role/position
-role: Professor of Artificial Intelligence
-
-# Organizations/Affiliations
-organizations:
-- name: Stanford University
-  url: ""
-
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
-
-interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
-
+bio: My research interests include early word learning, object recognition, and statistical learning.
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
-
-# Social/Academic Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+  - course: PhD in Developmental Psychology
+    institution: Indiana University
+    year: expected 2021
+  - course: BA with Honors in Psychology
+    institution: Indiana University
+    year: 2015
+email: "emclerki@indiana.edu"
+interests:
+- Early word learning
+- Object recognition
+- Statistical learning
+organizations:
+- name: Indiana University
+  url: "https://cogdev.sitehost.iu.edu/"
+role: Doctoral Candidate
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: '#contact'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/e_clerkin
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: github
-  icon_pack: fab
-  link: https://github.com/gcushen
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
-
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
-
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
+  link: https://scholar.google.com/citations?hl=en&user=IuINaBgAAAAJ&authuser=1
+superuser: true
+title: Elizabeth M Clerkin
 user_groups:
 - Researchers
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a doctoral candidate in Developmental Psychology working in Dr. Linda Smith's Cognitive Development Lab. My research focuses on early world learning and object recognition, specifically how the statistical structure of infants' early environments shape learning. I am also interested in the applications of developmental principles to computer vision.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I am experienced with secondary data analysis of large corpora as well as experimental design. I am proficient in ego-centric data collection, including head-mounted eyetracking. 
