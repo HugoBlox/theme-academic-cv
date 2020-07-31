@@ -24,7 +24,7 @@ bio: "Fabricio Oliveira is a Assistant Professor of Operational Research in the 
 interests:
 - Operations research
 - Optimisation
-- Mathematical Programming
+- Mathematical programming
 - Decision-making under uncertainty
 - Stochastic programming and robust optimisation
 - Decomposition methods
@@ -66,9 +66,9 @@ email: "fabricio.oliveira@aalt"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-# user_groups:
-# - Group 1
-# - Group 2
+user_groups:
+- Group 1
+- Group 2
 ---
 
 My research involves the topics of *prescriptive analytics* and **operations research**, in particular **analytics**, **optimisation**, and **mathematical programming**, applied to **supply chain management** and **production planning**.
