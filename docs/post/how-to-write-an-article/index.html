@@ -256,7 +256,7 @@
     
       <meta property="article:published_time" content="2020-04-28T00:01:09&#43;09:00">
     
-    <meta property="article:modified_time" content="2020-07-07T18:12:02&#43;09:00">
+    <meta property="article:modified_time" content="2020-07-31T17:51:31&#43;09:00">
   
 
   
@@ -285,7 +285,7 @@
   "headline": "記事の書き方",
   
   "datePublished": "2020-04-28T00:01:09+09:00",
-  "dateModified": "2020-07-07T18:12:02+09:00",
+  "dateModified": "2020-07-31T17:51:31+09:00",
   
   "author": {
     "@type": "Person",
@@ -549,7 +549,7 @@
         <li><a href="#unity-webglの埋め込み">Unity WebGLの埋め込み</a></li>
         <li><a href="#ツイートの埋め込み">ツイートの埋め込み</a></li>
         <li><a href="#折りたたみ">折りたたみ</a></li>
-        <li><a href="#ページへのリンクカード表示">ページへのリンク（カード表示）</a></li>
+        <li><a href="#ページへのリンク">ページへのリンク</a></li>
         <li><a href="#spoiler">Spoiler</a></li>
       </ul>
     </li>
@@ -615,7 +615,7 @@
     2020/04/28  投稿  
     
     
-      ( 2020/07/07  最終更新 )
+      ( 2020/07/31  最終更新 )
     
   </span>
   
@@ -759,11 +759,192 @@
 
 </details>
 
-<h2 id="ページへのリンクカード表示">ページへのリンク（カード表示）</h2>
-<p>自作Shortcodeです。</p>
-<pre><code class="language-md">{{&lt;page &quot;表示したいページのパス(ホームからの相対パス)&quot;&gt;}}
+<h2 id="ページへのリンク">ページへのリンク</h2>
+<pre><code class="language-md">{{&lt;cite page=&quot;表示したいページのパス(ホームからの相対パス)&quot; view=&quot;表示形式&quot;&gt;}}
 </code></pre>
-<p>例えば<code>{{&lt; page &quot;project/opu-virtual-festival-2020&quot;&gt;}}</code>と記述すると、下のように表示されます。
+<p>表示形式には1から4の数値が指定できます。</p>
+<p>例えば、<code>{{&lt;cite page=&quot;project/opu-virtual-festival-2020&quot; view=&quot;1&quot;&gt;}}</code>と記述すると、下のように表示されます。
+
+
+
+
+
+
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+<div class="view-list-item">
+  <i class="fas fa-project-diagram pub-icon" aria-hidden="true"></i>
+  <a href="/project/opu-virtual-festival-2020/" >府大バーチャル学祭</a>
+
+  
+
+  
+  <div class="article-metadata">
+    
+
+  
+  <span ><a href="/author/juris710/">Juris710</a></span>, <span ><a href="/author/nobu/">Nobu</a></span>, <span ><a href="/author/%E3%83%A4%E3%83%9E%E3%82%AF%E3%83%81/">ヤマグチ</a></span>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+  
+
+</p>
+<p><code>view=&quot;2&quot;</code>に変えると、下のように表示されます。
+
+
+
+
+
+
+
+  
+    
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/project/opu-virtual-festival-2020/" >府大バーチャル学祭</a>
+    </h3>
+
+    
+    <a href="/project/opu-virtual-festival-2020/" class="summary-link">
+      <div class="article-style">
+        OPU Virtual Festival
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span ><a href="/author/juris710/">Juris710</a></span>, <span ><a href="/author/nobu/">Nobu</a></span>, <span ><a href="/author/%E3%83%A4%E3%83%9E%E3%82%AF%E3%83%81/">ヤマグチ</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+
+</p>
+<p><code>view=&quot;3&quot;</code>に変えると、下のように表示されます。
 
 
 
@@ -853,27 +1034,86 @@
   
 
 </p>
+<p><code>view=&quot;4&quot;</code>に変えると、下のように表示されます。
+
+
+
+
+
+
+
+  
+    <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span ><a href="/author/juris710/">Juris710</a></span>, <span ><a href="/author/nobu/">Nobu</a></span>, <span ><a href="/author/%E3%83%A4%E3%83%9E%E3%82%AF%E3%83%81/">ヤマグチ</a></span>
+  </span>
+  (2020).
+  <a href="/project/opu-virtual-festival-2020/">府大バーチャル学祭</a>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+  
+
+</p>
 <h2 id="spoiler">Spoiler</h2>
 <p>ボタンをクリックするまで見れない＆クリックすると開くテキストが作れるShortcodeです。クイズの正解表示などに使えます。</p>
-<pre><code class="language-md">このサイトの名前は？
-{{&lt;spoiler text=&quot;正解を見るにはここをクリック!&quot;&gt;}}
+<pre><code class="language-md">{{&lt;spoiler text=&quot;このサイトの名前は？(正解を見るにはここをクリック!)&quot;&gt;}}
 アプリNaviブログ
 {{&lt;/spoiler&gt;}}
 </code></pre>
 <p>以下のように表示されます。</p>
-<p>このサイトの名前は？
 <div class="spoiler " >
   <p>
-    <a class="btn btn-primary" data-toggle="collapse" href="#spoiler-10" role="button" aria-expanded="false" aria-controls="spoiler-10">
-      正解を見るにはここをクリック!
+    <a class="btn btn-primary" data-toggle="collapse" href="#spoiler-13" role="button" aria-expanded="false" aria-controls="spoiler-13">
+      このサイトの名前は？(正解を見るにはここをクリック!)
     </a>
   </p>
-  <div class="collapse card " id="spoiler-10">
+  <div class="collapse card " id="spoiler-13">
     <div class="card-body">
       アプリNaviブログ
     </div>
   </div>
-</div></p>
+</div>
 <h1 id="その他">その他</h1>
 <h2 id="数式">数式</h2>
 <p>$\LaTeX$ 記法を用いることで数式を表示することができます。数式は<code>$$</code>で囲む必要があります。</p>

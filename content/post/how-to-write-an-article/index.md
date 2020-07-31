@@ -145,32 +145,39 @@ YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式
   > Hello, World!
 {{< /collapsable>}}
 
-## ページへのリンク（カード表示）  
-
-自作Shortcodeです。
+## ページへのリンク
 
 ```md
-{{</*page "表示したいページのパス(ホームからの相対パス)"*/>}}
+{{</*cite page="表示したいページのパス(ホームからの相対パス)" view="表示形式"*/>}}
 ```
 
-例えば`{{</* page "project/opu-virtual-festival-2020"*/>}}`と記述すると、下のように表示されます。
+表示形式には1から4の数値が指定できます。
+
+例えば、`{{</*cite page="project/opu-virtual-festival-2020" view="1"*/>}}`と記述すると、下のように表示されます。
+{{<cite page="project/opu-virtual-festival-2020" view="1">}}
+
+`view="2"`に変えると、下のように表示されます。
+{{<cite page="project/opu-virtual-festival-2020" view="2">}}
+
+`view="3"`に変えると、下のように表示されます。
 {{<cite page="project/opu-virtual-festival-2020" view="3">}}
+
+`view="4"`に変えると、下のように表示されます。
+{{<cite page="project/opu-virtual-festival-2020" view="4">}}
 
 ## Spoiler
 
 ボタンをクリックするまで見れない＆クリックすると開くテキストが作れるShortcodeです。クイズの正解表示などに使えます。
 
 ```md
-このサイトの名前は？
-{{</*spoiler text="正解を見るにはここをクリック!"*/>}}
+{{</*spoiler text="このサイトの名前は？(正解を見るにはここをクリック!)"*/>}}
 アプリNaviブログ
 {{</*/spoiler*/>}}
 ```
 
 以下のように表示されます。
 
-このサイトの名前は？
-{{<spoiler text="正解を見るにはここをクリック!">}}
+{{<spoiler text="このサイトの名前は？(正解を見るにはここをクリック!)">}}
 アプリNaviブログ
 {{</spoiler>}}
 

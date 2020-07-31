@@ -1731,11 +1731,192 @@ window.onresize = function(){ set_width(); };
 
 &lt;/details&gt;
 
-&lt;h2 id=&#34;ページへのリンクカード表示&#34;&gt;ページへのリンク（カード表示）&lt;/h2&gt;
-&lt;p&gt;自作Shortcodeです。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;page &amp;quot;表示したいページのパス(ホームからの相対パス)&amp;quot;&amp;gt;}}
+&lt;h2 id=&#34;ページへのリンク&#34;&gt;ページへのリンク&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;cite page=&amp;quot;表示したいページのパス(ホームからの相対パス)&amp;quot; view=&amp;quot;表示形式&amp;quot;&amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;例えば&lt;code&gt;{{&amp;lt; page &amp;quot;project/opu-virtual-festival-2020&amp;quot;&amp;gt;}}&lt;/code&gt;と記述すると、下のように表示されます。
+&lt;p&gt;表示形式には1から4の数値が指定できます。&lt;/p&gt;
+&lt;p&gt;例えば、&lt;code&gt;{{&amp;lt;cite page=&amp;quot;project/opu-virtual-festival-2020&amp;quot; view=&amp;quot;1&amp;quot;&amp;gt;}}&lt;/code&gt;と記述すると、下のように表示されます。
+
+
+
+
+
+
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+&lt;div class=&#34;view-list-item&#34;&gt;
+  &lt;i class=&#34;fas fa-project-diagram pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+  &lt;a href=&#34;https://blog.opuappnavi.com/project/opu-virtual-festival-2020/&#34; &gt;府大バーチャル学祭&lt;/a&gt;
+
+  
+
+  
+  &lt;div class=&#34;article-metadata&#34;&gt;
+    
+
+  
+  &lt;span &gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/juris710/&#34;&gt;Juris710&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/nobu/&#34;&gt;Nobu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/%E3%83%A4%E3%83%9E%E3%82%AF%E3%83%81/&#34;&gt;ヤマグチ&lt;/a&gt;&lt;/span&gt;
+  &lt;/div&gt;
+  
+
+  
+  &lt;div class=&#34;btn-links&#34;&gt;
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  &lt;/div&gt;
+  
+
+&lt;/div&gt;
+
+  
+
+&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;view=&amp;quot;2&amp;quot;&lt;/code&gt;に変えると、下のように表示されます。
+
+
+
+
+
+
+
+  
+    
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;media stream-item&#34;&gt;
+  &lt;div class=&#34;media-body&#34;&gt;
+
+    &lt;h3 class=&#34;article-title mb-0 mt-0&#34;&gt;
+      &lt;a href=&#34;https://blog.opuappnavi.com/project/opu-virtual-festival-2020/&#34; &gt;府大バーチャル学祭&lt;/a&gt;
+    &lt;/h3&gt;
+
+    
+    &lt;a href=&#34;https://blog.opuappnavi.com/project/opu-virtual-festival-2020/&#34; class=&#34;summary-link&#34;&gt;
+      &lt;div class=&#34;article-style&#34;&gt;
+        OPU Virtual Festival
+      &lt;/div&gt;
+    &lt;/a&gt;
+    
+
+    &lt;div class=&#34;stream-meta article-metadata&#34;&gt;
+
+      
+
+      
+      &lt;div&gt;
+        
+
+  
+  &lt;span &gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/juris710/&#34;&gt;Juris710&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/nobu/&#34;&gt;Nobu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/%E3%83%A4%E3%83%9E%E3%82%AF%E3%83%81/&#34;&gt;ヤマグチ&lt;/a&gt;&lt;/span&gt;
+      &lt;/div&gt;
+      
+    &lt;/div&gt;
+
+    
+    &lt;div class=&#34;btn-links&#34;&gt;
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    &lt;/div&gt;
+    
+
+  &lt;/div&gt;
+  &lt;div class=&#34;ml-3&#34;&gt;
+    
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+  
+
+&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;view=&amp;quot;3&amp;quot;&lt;/code&gt;に変えると、下のように表示されます。
 
 
 
@@ -1825,27 +2006,86 @@ window.onresize = function(){ set_width(); };
   
 
 &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;view=&amp;quot;4&amp;quot;&lt;/code&gt;に変えると、下のように表示されます。
+
+
+
+
+
+
+
+  
+    &lt;div class=&#34;pub-list-item&#34; style=&#34;margin-bottom: 1rem&#34;&gt;
+  &lt;i class=&#34;far fa-file-alt pub-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
+
+  
+  
+
+  &lt;span class=&#34;article-metadata li-cite-author&#34;&gt;
+    
+
+  
+  &lt;span &gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/juris710/&#34;&gt;Juris710&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/nobu/&#34;&gt;Nobu&lt;/a&gt;&lt;/span&gt;, &lt;span &gt;&lt;a href=&#34;https://blog.opuappnavi.com/author/%E3%83%A4%E3%83%9E%E3%82%AF%E3%83%81/&#34;&gt;ヤマグチ&lt;/a&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  (2020).
+  &lt;a href=&#34;https://blog.opuappnavi.com/project/opu-virtual-festival-2020/&#34;&gt;府大バーチャル学祭&lt;/a&gt;.
+  
+  &lt;p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;/p&gt;
+
+  
+  
+&lt;/div&gt;
+
+  
+
+&lt;/p&gt;
 &lt;h2 id=&#34;spoiler&#34;&gt;Spoiler&lt;/h2&gt;
 &lt;p&gt;ボタンをクリックするまで見れない＆クリックすると開くテキストが作れるShortcodeです。クイズの正解表示などに使えます。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;このサイトの名前は？
-{{&amp;lt;spoiler text=&amp;quot;正解を見るにはここをクリック!&amp;quot;&amp;gt;}}
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt;spoiler text=&amp;quot;このサイトの名前は？(正解を見るにはここをクリック!)&amp;quot;&amp;gt;}}
 アプリNaviブログ
 {{&amp;lt;/spoiler&amp;gt;}}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;以下のように表示されます。&lt;/p&gt;
-&lt;p&gt;このサイトの名前は？
 &lt;div class=&#34;spoiler &#34; &gt;
   &lt;p&gt;
-    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-10&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-10&#34;&gt;
-      正解を見るにはここをクリック!
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-13&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-13&#34;&gt;
+      このサイトの名前は？(正解を見るにはここをクリック!)
     &lt;/a&gt;
   &lt;/p&gt;
-  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-10&#34;&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-13&#34;&gt;
     &lt;div class=&#34;card-body&#34;&gt;
       アプリNaviブログ
     &lt;/div&gt;
   &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;h1 id=&#34;その他&#34;&gt;その他&lt;/h1&gt;
 &lt;h2 id=&#34;数式&#34;&gt;数式&lt;/h2&gt;
 &lt;p&gt;$\LaTeX$ 記法を用いることで数式を表示することができます。数式は&lt;code&gt;$$&lt;/code&gt;で囲む必要があります。&lt;/p&gt;
