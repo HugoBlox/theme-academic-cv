@@ -3,7 +3,7 @@
   {{if or .NextInSection .PrevInSection}}
   <div class="post-nav-item">
     {{if .NextInSection}}
-    {{/* For the docs and book layout, prev/next labels are reversed. */}}
+    {{/* For the Book layout, prev/next labels are reversed. */}}
     {{ if in .Type (dict "docs" "book") }}{{ $str = "previous" }}{{else}}{{ $str = "next" }}{{end}}
     <div class="meta-nav">{{ i18n $str }}</div>
     <a href="{{.NextInSection.RelPermalink}}" rel="next">{{.NextInSection.Title}}</a>
