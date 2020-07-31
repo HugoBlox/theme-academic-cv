@@ -2,6 +2,9 @@
 <html lang="{{ site.LanguageCode | default "en-us" }}">
 
 <head>
+    {{ $media_dir := site.Params.media_dir | default "media" }}
+    {{ .Scratch.Set "media_dir" $media_dir }}
+    
     {{ $css := site.Data.assets.css }}
     {{ $cdn_url_reveal := "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0" }}
 
