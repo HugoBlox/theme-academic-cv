@@ -225,10 +225,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 
 
 
-    
-
-
-
+  
     
 
 
@@ -307,7 +304,9 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 
 &lt;/div&gt;
 
- &lt;/p&gt;
+  
+
+&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-JavaScript:コード.gs&#34;&gt;function myFunction(e) {
     //取得したアクセスキー
     var gurunaviAPI = PropertiesService.getScriptProperties().getProperty(&#39;GURUNAVI_TOKEN&#39;);
@@ -2119,10 +2118,7 @@ window.onresize = function(){ set_width(); };
 
 
 
-    
-
-
-
+  
     
 
 
@@ -2201,7 +2197,9 @@ window.onresize = function(){ set_width(); };
 
 &lt;/div&gt;
 
- 
+  
+
+
 &lt;h2 id=&#34;作った経緯ついでにハッカソンの紹介&#34;&gt;作った経緯（ついでにハッカソンの紹介）&lt;/h2&gt;
 &lt;p&gt;アプリ Navi では毎年、長期休みのどこかで、ハッカソンというものを開催しています。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;ハッカソン&lt;/strong&gt;とは&lt;/p&gt;
@@ -3775,8 +3773,7 @@ window.onresize = function(){ set_width(); };
 
 
 
-
-
+  
     
 
 
@@ -3855,7 +3852,9 @@ window.onresize = function(){ set_width(); };
 
 &lt;/div&gt;
 
- &lt;/p&gt;
+  
+
+&lt;/p&gt;
 &lt;h2 id=&#34;spoiler&#34;&gt;Spoiler&lt;/h2&gt;
 &lt;p&gt;ボタンをクリックするまで見れない＆クリックすると開くテキストが作れるShortcodeです。クイズの正解表示などに使えます。&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;このサイトの名前は？
@@ -3929,8 +3928,7 @@ graph TD;
 
 
 
-
-
+  
     
 
 
@@ -4009,7 +4007,9 @@ graph TD;
 
 &lt;/div&gt;
 
- 
+  
+
+
 オンライン友好祭において、ゲーム展示以外にできることはないかと考え、部員がブログを書くのはどうだろうかと考えました。既に存在していた
 &lt;a href=&#34;https://opuappnavi.com/#/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;アプリNaviのウェブサイト&lt;/a&gt;には
 ブログ投稿機能がなかったことに加え、今まで触ったことがなかったWeb開発をしてみたかったこともありこのサイトを作成しました。&lt;br&gt;

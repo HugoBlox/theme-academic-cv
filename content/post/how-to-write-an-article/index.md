@@ -154,7 +154,7 @@ YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式
 ```
 
 例えば`{{</* page "project/opu-virtual-festival-2020"*/>}}`と記述すると、下のように表示されます。
-{{< page "project/opu-virtual-festival-2020" >}}
+{{<cite page="project/opu-virtual-festival-2020" view="3">}}
 
 ## Spoiler
 

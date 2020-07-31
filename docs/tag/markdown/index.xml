@@ -182,8 +182,7 @@ Unity 2019から&lt;code&gt;UI Elements&lt;/code&gt;という新しいUIシス�
 
 
 
-
-
+  
     
 
 
@@ -262,7 +261,9 @@ Unity 2019から&lt;code&gt;UI Elements&lt;/code&gt;という新しいUIシス�
 
 &lt;/div&gt;
 
- &lt;/p&gt;
+  
+
+&lt;/p&gt;
 &lt;h2 id=&#34;spoiler&#34;&gt;Spoiler&lt;/h2&gt;
 &lt;p&gt;ボタンをクリックするまで見れない＆クリックすると開くテキストが作れるShortcodeです。クイズの正解表示などに使えます。&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;このサイトの名前は？

@@ -36,7 +36,7 @@ projects: ["opu-virtual-festival-2020"]
 
 こちらで紹介しているので良ければ見ていってください！
 
-{{< page "gas-recommendation/" >}}
+{{<cite page="post/gas-recommendation" view="3">}}
 
 ## 作った経緯（ついでにハッカソンの紹介）
 

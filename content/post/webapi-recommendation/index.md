@@ -165,7 +165,7 @@ json については簡単に参考サイトを載せておきますので興味
     コードについては利用方法は使用言語によって異なってくると思うので、詳しい話は省きますが、とりあえず GAS(Google Apps Script)での利用例を載せておきます。
 
     (GAS についての紹介はよければ下まで)
-    {{< page "gas-recommendation/" >}}
+    {{<cite page="post/gas-recommendation" view="3">}}
 
     ```JavaScript:コード.gs
     function myFunction(e) {
