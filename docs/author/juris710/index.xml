@@ -58,6 +58,7 @@
 
 
 
+
 &lt;figure id=&#34;figure-ソードアートオンラインアリシゼーションブレイディング&#34;&gt;
 
 
@@ -84,6 +85,7 @@
   &lt;i class=&#34;fas fa-arrow-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;コピーライト&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;feヒーローズ&#34;&gt;FEヒーローズ&lt;/h2&gt;
 &lt;p&gt;
+
 
 
 
@@ -139,6 +141,7 @@
 
 
 
+
 &lt;figure id=&#34;figure-pokémon-masters&#34;&gt;
 
 
@@ -166,6 +169,7 @@
   &lt;i class=&#34;fas fa-arrow-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;権利表記&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;マリカ&#34;&gt;マリカ&lt;/h2&gt;
 &lt;p&gt;
+
 
 
 
@@ -221,6 +225,7 @@
 
 
 
+
 &lt;figure id=&#34;figure-とある魔術の禁書目録インテグラルファクター&#34;&gt;
 
 
@@ -261,6 +266,7 @@
 
 
 
+
 &lt;figure id=&#34;figure-この素晴らしい世界に祝福をファンタスティックデイズ&#34;&gt;
 
 
@@ -287,6 +293,7 @@
   &lt;i class=&#34;fas fa-arrow-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;権利表記&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;装甲娘&#34;&gt;装甲娘&lt;/h2&gt;
 &lt;p&gt;
+
 
 
 
@@ -420,6 +427,7 @@
 
 
 
+
 &lt;figure id=&#34;figure-indexhtmlを開くとこのようなエラーメッセージが表示される&#34;&gt;
 
 
@@ -463,6 +471,7 @@
 
 
 
+
 &lt;figure id=&#34;figure-拡張機能パネルを開くボタン&#34;&gt;
 
 
@@ -483,6 +492,7 @@
 &lt;/figure&gt;
 
 パネル上の検索ボックスに&lt;code&gt;live server&lt;/code&gt;と入力し、検索結果の一番上にある&lt;code&gt;Live Server&lt;/code&gt;をクリックします。&lt;code&gt;拡張機能:Live Server&lt;/code&gt;タブが開くので、&lt;code&gt;インストール&lt;/code&gt;をクリックします。
+
 
 
 
@@ -534,6 +544,7 @@
 
 
 
+
 &lt;figure id=&#34;figure-japanese-language-pack-for-visual-studio-codeインストール済み&#34;&gt;
 
 
@@ -557,6 +568,7 @@
 &lt;p&gt;メニューの&lt;code&gt;ファイル(F)&lt;/code&gt;から&lt;code&gt;フォルダを開く... Ctrl+K Ctrl+O&lt;/code&gt;をクリックします。フォルダ選択ダイアログが表示されるので、出力された&lt;code&gt;Build&lt;/code&gt;フォルダと&lt;code&gt;TemplateData&lt;/code&gt;フォルダ、&lt;code&gt;index.html&lt;/code&gt;ファイルのあるフォルダを選択します。&lt;/p&gt;
 &lt;h1 id=&#34;3-ゲームをプレイ&#34;&gt;3. ゲームをプレイ&lt;/h1&gt;
 &lt;p&gt;正しくフォルダを開けていると画面右下に&lt;code&gt;Go Live&lt;/code&gt;ボタンが表示されます。このボタンをクリックするとブラウザが起動し、ゲームをプレイできます。
+
 
 
 
@@ -943,6 +955,7 @@ Three
 
 
 
+
 &lt;figure &gt;
 
 
@@ -957,6 +970,7 @@ Three
 &lt;/figure&gt;
 
 次に、 &lt;a href=&#34;https://obsproject.com/forum/resources/obs-virtualcam.949/&#34;&gt;https://obsproject.com/forum/resources/obs-virtualcam.949/&lt;/a&gt; から&lt;code&gt;OBS Virtualcam&lt;/code&gt;をインストールします。画面右の&lt;code&gt;Go to download&lt;/code&gt;をクリックすることでインストーラーがダウンロードできます。
+
 
 
 
@@ -1011,6 +1025,7 @@ Three
 
 
 
+
 &lt;figure &gt;
 
 
@@ -1030,6 +1045,7 @@ Three
 &lt;p&gt;左上の&lt;code&gt;ツール&lt;/code&gt;メニューから&lt;code&gt;VirtualCam&lt;/code&gt;を選択します。&lt;br&gt;
 &lt;code&gt;VirtucalCam&lt;/code&gt;ダイアログで、&lt;code&gt;Start&lt;/code&gt;をクリックすることで仮想カメラに映像が出力されます。
 &lt;code&gt;Stop&lt;/code&gt;をクリックすれば映像出力が止まります。
+
 
 
 
@@ -1217,6 +1233,7 @@ git push -u origin master
 
 
 
+
 &lt;figure class=&#34;left&#34; &gt;
 
 
@@ -1231,6 +1248,7 @@ git push -u origin master
 &lt;/figure&gt;
 
 &lt;code&gt;Settings&lt;/code&gt;をクリックしてください。
+
 
 
 
@@ -1292,6 +1310,7 @@ git push -u origin master
 
 
 
+
 &lt;figure class=&#34;left&#34; &gt;
 
 
@@ -1321,6 +1340,7 @@ GitHubタブが開きます。
 
 
 
+
 &lt;figure class=&#34;left&#34; &gt;
 
 
@@ -1335,6 +1355,7 @@ GitHubタブが開きます。
 &lt;/figure&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;(初回のみ)&lt;/strong&gt; &lt;code&gt;Sign In&lt;/code&gt;をクリック&lt;br&gt;
+
 
 
 
@@ -1381,6 +1402,7 @@ GitHubタブが開きます。
 
 
 
+
 &lt;figure class=&#34;left&#34; &gt;
 
 
@@ -1397,6 +1419,7 @@ GitHubタブが開きます。
 &lt;/ol&gt;
 &lt;h1 id=&#34;使い方&#34;&gt;使い方&lt;/h1&gt;
 &lt;p&gt;&lt;code&gt;Changes&lt;/code&gt;を選択してください。前回保存した状態から変更があったファイルが一覧表示されます。
+
 
 
 
@@ -1551,6 +1574,7 @@ window.onresize = function(){ set_width(); };
       <pubDate>Tue, 28 Apr 2020 00:04:07 +0900</pubDate>
       <guid>https://blog.opuappnavi.com/project/opu-virtual-festival-2020/</guid>
       <description>&lt;p&gt;新型コロナウイルス感染拡大により、2020年5月30日、31日に開催予定だった第59回友好祭が中止となりました。中止となった友好祭に代わるイベントとして、コンピュータハウスランダムさんが提案されたのが、非公式オンラインイベント「府大バーチャル学祭」です。
+
 
 
 

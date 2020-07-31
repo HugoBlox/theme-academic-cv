@@ -85,6 +85,7 @@ API とは Application Programming Interface の略で、
 
 
 
+
 &lt;figure id=&#34;figure-ぐるなびapiサイト&#34;&gt;
 
 
@@ -112,6 +113,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 &lt;p&gt;そうするとクエリを送信ボタンの下に json 形式のデータが出てきます。
 これを見ると、たくさんのお店、かつラーメン屋が出てきたことが分かります。&lt;/p&gt;
 &lt;p&gt;他にも店の場所や説明なども載っていると思いますが、上記の key を指定し、条件を絞り込むことでそれらの指定をすることが出来ます。&lt;/p&gt;
+
 
 
 
@@ -167,6 +169,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 クエリを送信すると、大阪難波駅周辺のラーメン屋の json データを取得できるようになります。&lt;/p&gt;
 &lt;p&gt;取りたいデータが出てきたらその上にある URL という欄の url をメモしておきます。&lt;/p&gt;
 &lt;p&gt;例）&lt;code&gt;https://api.gnavi.co.jp/RestSearchAPI/v3/?keyid=(ここは後に取得するkeyidの値）&amp;amp;name=ラーメン&amp;amp;areacode_l=AREAL3310&lt;/code&gt;&lt;/p&gt;
+
 
 
 
@@ -380,6 +383,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 
 
 
+
 &lt;figure id=&#34;figure-ソードアートオンラインアリシゼーションブレイディング&#34;&gt;
 
 
@@ -406,6 +410,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
   &lt;i class=&#34;fas fa-arrow-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;コピーライト&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;feヒーローズ&#34;&gt;FEヒーローズ&lt;/h2&gt;
 &lt;p&gt;
+
 
 
 
@@ -461,6 +466,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 
 
 
+
 &lt;figure id=&#34;figure-pokémon-masters&#34;&gt;
 
 
@@ -488,6 +494,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
   &lt;i class=&#34;fas fa-arrow-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;権利表記&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;マリカ&#34;&gt;マリカ&lt;/h2&gt;
 &lt;p&gt;
+
 
 
 
@@ -543,6 +550,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 
 
 
+
 &lt;figure id=&#34;figure-とある魔術の禁書目録インテグラルファクター&#34;&gt;
 
 
@@ -583,6 +591,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 
 
 
+
 &lt;figure id=&#34;figure-この素晴らしい世界に祝福をファンタスティックデイズ&#34;&gt;
 
 
@@ -609,6 +618,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
   &lt;i class=&#34;fas fa-arrow-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;権利表記&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;装甲娘&#34;&gt;装甲娘&lt;/h2&gt;
 &lt;p&gt;
+
 
 
 
@@ -757,6 +767,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 
 
 
+
 &lt;figure id=&#34;figure-urpテンプレートの作成&#34;&gt;
 
 
@@ -775,6 +786,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 
 
 &lt;/figure&gt;
+
 
 
 
@@ -831,6 +843,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 
 
 
+
 &lt;figure id=&#34;figure-制作物見本&#34;&gt;
 
 
@@ -852,6 +865,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 
 &lt;h2 id=&#34;4-1-shadergraphの作成と画面説明&#34;&gt;4-1. ShaderGraphの作成と画面説明&lt;/h2&gt;
 &lt;p&gt;ShaderGraphのEditorは、Projectウィンドウから[Shader→Unlit Graph]を選択することで作成できます。ShaderGraphの種類はいくつかありますが、ここではLightに依存せず一番軽量なUnlitを用います。生成されたEditorを開いてみると下のような画面が表示されます。&lt;/p&gt;
+
 
 
 
@@ -912,6 +926,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 
 
 
+
 &lt;figure id=&#34;figure-虹色テクスチャの素材画像&#34;&gt;
 
 
@@ -955,6 +970,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 
 
 
+
 &lt;figure id=&#34;figure-ノードの追加&#34;&gt;
 
 
@@ -975,6 +991,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 &lt;/figure&gt;
 
 &lt;p&gt;ノードを追加できたら線を繋いでいきましょう。ノードの各項目の説明は割愛しますが、gifの通りに繋ぐとテクスチャがスクロールしてくれます。&lt;/p&gt;
+
 
 
 
@@ -1026,6 +1043,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 
 
 
+
 &lt;figure id=&#34;figure-materialの出力&#34;&gt;
 
 
@@ -1046,6 +1064,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 &lt;/figure&gt;
 
 &lt;p&gt;Objectは虹色になりましたか？成功したら次はスクロール速度を変えてみます。速度を可変にするには、変数としてSliderノードを追加し、さらに変数を反映させるためにMultiplyノード(掛け算)を追加します。Multiplyノードの入力にTimeノードとSliderノードを追加すれば実装完了です。&lt;/p&gt;
+
 
 
 
@@ -1098,6 +1117,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 
 
 
+
 &lt;figure id=&#34;figure-inspector上での変数参照方法&#34;&gt;
 
 
@@ -1119,6 +1139,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 
 &lt;h1 id=&#34;5-まとめ&#34;&gt;5. まとめ&lt;/h1&gt;
 &lt;p&gt;今回はShaderGraphについて紹介しました。ノードを作って繋ぐだけで簡単にMaterialの制御を実装でき、リアルタイムにグラフィックを確認できるため頭のイメージを具現化しやすいです。貴方にその有難みを少しでも体感して頂けたなら投稿者冥利に尽きます。&lt;/p&gt;
+
 
 
 
@@ -1186,6 +1207,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 
 
 
+
 &lt;figure id=&#34;figure-before&#34;&gt;
 
 
@@ -1204,6 +1226,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 
 
 &lt;/figure&gt;
+
 
 
 
@@ -1261,6 +1284,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 
 
 
+
 &lt;figure id=&#34;figure-最急降下法&#34;&gt;
 
 
@@ -1281,6 +1305,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 &lt;/figure&gt;
 
 &lt;p&gt;式としては以下のようになります。αは点の移動距離の大きさを決めるパラメーターです。&lt;/p&gt;
+
 
 
 
@@ -1346,6 +1371,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 
 
 
+
 &lt;figure id=&#34;figure-理論式&#34;&gt;
 
 
@@ -1369,6 +1395,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 &lt;a href=&#34;https://www.udemy.com/course/machine-learning-3algo/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;udemy 機械学習コース&lt;/a&gt;を参考にしたのでソースコードは載せられませんが上記の理論式を繰り返し、a,bそれぞれに最急降下法を用いて最適化することで
 &lt;a href=&#34;#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab&#34;&gt;冒頭&lt;/a&gt;に述べたような直線を引けます。&lt;/p&gt;
 &lt;p&gt;また各点の座標は行列を用いて下記のように定義しました。
+
 
 
 
@@ -1474,6 +1501,7 @@ window.onresize = function(){ set_width(); };
 
 
 
+
 &lt;figure id=&#34;figure-伝説のスタフィー2出典httpswwwnintendocojpn08avfjgamenindexhtml&#34;&gt;
 
 
@@ -1496,6 +1524,7 @@ window.onresize = function(){ set_width(); };
 参考にしたギミックは「見えない探し物が近くにあればあるほど，アラームを激しく鳴らす」というものです。「伝説のスタフィー2」では，草むらに隠れた見えないターゲットを音を頼りに見つけ出すというゲーム要素があり，私自身「伝説のスタフィー2」を遊んだ時にこのギミックがとても楽しかった記憶があって，「音で探す」システムを採用しました。&lt;/p&gt;
 &lt;p&gt;以上より「&lt;strong&gt;音を頼りに迷路を探索し妖精さんを見つける&lt;/strong&gt;」ゲームが企画されました。以下の画像は
 &lt;a href=&#34;https://www.sbcr.jp/product/4797377361/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ゲーム作りのはじめかた Unityで覚える企画からレベルデザインまで&lt;/a&gt;という本の「まずはゲームの企画をA4 1枚にペンで書け！」といった教えにのっとり書いた企画書です。
+
 
 
 
@@ -1557,6 +1586,7 @@ window.onresize = function(){ set_width(); };
 
 
 
+
 &lt;figure id=&#34;figure-穴掘り法による迷路生成&#34;&gt;
 
 
@@ -1603,6 +1633,7 @@ window.onresize = function(){ set_width(); };
 
 
 
+
 &lt;figure id=&#34;figure-ムービーシーン&#34;&gt;
 
 
@@ -1623,6 +1654,7 @@ window.onresize = function(){ set_width(); };
 &lt;/figure&gt;
 
 このムービーは，Unityの &lt;strong&gt;Timeline&lt;/strong&gt; という機能を用いて実装しました。Timelineを用いると，簡単にムービーシーンを作ることができるため大変便利です。
+
 
 
 
@@ -1686,6 +1718,7 @@ window.onresize = function(){ set_width(); };
 
 
 
+
 &lt;figure id=&#34;figure-ゲームのタイトル画面&#34;&gt;
 
 
@@ -1707,6 +1740,7 @@ window.onresize = function(){ set_width(); };
 &lt;/p&gt;
 &lt;h1 id=&#34;最後に&#34;&gt;最後に&lt;/h1&gt;
 &lt;p&gt;このような感じで「Finden die Feen」は約1ヶ月という期間で製作し，府大バーチャル学祭で公開されました。個人的には，完成度がそこそこ高く見えるため気に入っています。特に気に入っているのは，以下の画像のステージです。
+
 
 
 
@@ -1824,6 +1858,7 @@ window.onresize = function(){ set_width(); };
 
 
 
+
 &lt;figure id=&#34;figure-indexhtmlを開くとこのようなエラーメッセージが表示される&#34;&gt;
 
 
@@ -1867,6 +1902,7 @@ window.onresize = function(){ set_width(); };
 
 
 
+
 &lt;figure id=&#34;figure-拡張機能パネルを開くボタン&#34;&gt;
 
 
@@ -1887,6 +1923,7 @@ window.onresize = function(){ set_width(); };
 &lt;/figure&gt;
 
 パネル上の検索ボックスに&lt;code&gt;live server&lt;/code&gt;と入力し、検索結果の一番上にある&lt;code&gt;Live Server&lt;/code&gt;をクリックします。&lt;code&gt;拡張機能:Live Server&lt;/code&gt;タブが開くので、&lt;code&gt;インストール&lt;/code&gt;をクリックします。
+
 
 
 
@@ -1938,6 +1975,7 @@ window.onresize = function(){ set_width(); };
 
 
 
+
 &lt;figure id=&#34;figure-japanese-language-pack-for-visual-studio-codeインストール済み&#34;&gt;
 
 
@@ -1961,6 +1999,7 @@ window.onresize = function(){ set_width(); };
 &lt;p&gt;メニューの&lt;code&gt;ファイル(F)&lt;/code&gt;から&lt;code&gt;フォルダを開く... Ctrl+K Ctrl+O&lt;/code&gt;をクリックします。フォルダ選択ダイアログが表示されるので、出力された&lt;code&gt;Build&lt;/code&gt;フォルダと&lt;code&gt;TemplateData&lt;/code&gt;フォルダ、&lt;code&gt;index.html&lt;/code&gt;ファイルのあるフォルダを選択します。&lt;/p&gt;
 &lt;h1 id=&#34;3-ゲームをプレイ&#34;&gt;3. ゲームをプレイ&lt;/h1&gt;
 &lt;p&gt;正しくフォルダを開けていると画面右下に&lt;code&gt;Go Live&lt;/code&gt;ボタンが表示されます。このボタンをクリックするとブラウザが起動し、ゲームをプレイできます。
+
 
 
 
@@ -2197,6 +2236,7 @@ window.onresize = function(){ set_width(); };
 
 
 
+
 &lt;figure id=&#34;figure-作ったもの&#34;&gt;
 
 
@@ -2226,6 +2266,7 @@ window.onresize = function(){ set_width(); };
 &lt;h3 id=&#34;サーバー等の手続きがいらず簡単に公開できる&#34;&gt;サーバー等の手続きがいらず、簡単に公開できる&lt;/h3&gt;
 &lt;p&gt;GAS では Google のサーバーを使っているので、このような簡単なサイトでもサーバーを借りるなどの作業がいらず、実質ワンクリックで公開、利用できます。&lt;/p&gt;
 &lt;p&gt;GAS のエディタから、おおよそここをクリックしたら公開できます&lt;/p&gt;
+
 
 
 
@@ -2527,6 +2568,7 @@ function myFunction() {
 
 
 
+
 &lt;figure id=&#34;figure-helloworld&#34;&gt;
 
 
@@ -2552,6 +2594,7 @@ function myFunction() {
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;ちなみにHello Worldはこんな感じです。&lt;/p&gt;
+
 
 
 
@@ -2834,6 +2877,7 @@ SOFTWARE.
 
 
 
+
 &lt;figure &gt;
 
 
@@ -2848,6 +2892,7 @@ SOFTWARE.
 &lt;/figure&gt;
 
 次に、 &lt;a href=&#34;https://obsproject.com/forum/resources/obs-virtualcam.949/&#34;&gt;https://obsproject.com/forum/resources/obs-virtualcam.949/&lt;/a&gt; から&lt;code&gt;OBS Virtualcam&lt;/code&gt;をインストールします。画面右の&lt;code&gt;Go to download&lt;/code&gt;をクリックすることでインストーラーがダウンロードできます。
+
 
 
 
@@ -2902,6 +2947,7 @@ SOFTWARE.
 
 
 
+
 &lt;figure &gt;
 
 
@@ -2921,6 +2967,7 @@ SOFTWARE.
 &lt;p&gt;左上の&lt;code&gt;ツール&lt;/code&gt;メニューから&lt;code&gt;VirtualCam&lt;/code&gt;を選択します。&lt;br&gt;
 &lt;code&gt;VirtucalCam&lt;/code&gt;ダイアログで、&lt;code&gt;Start&lt;/code&gt;をクリックすることで仮想カメラに映像が出力されます。
 &lt;code&gt;Stop&lt;/code&gt;をクリックすれば映像出力が止まります。
+
 
 
 
@@ -3108,6 +3155,7 @@ git push -u origin master
 
 
 
+
 &lt;figure class=&#34;left&#34; &gt;
 
 
@@ -3122,6 +3170,7 @@ git push -u origin master
 &lt;/figure&gt;
 
 &lt;code&gt;Settings&lt;/code&gt;をクリックしてください。
+
 
 
 
@@ -3183,6 +3232,7 @@ git push -u origin master
 
 
 
+
 &lt;figure class=&#34;left&#34; &gt;
 
 
@@ -3212,6 +3262,7 @@ GitHubタブが開きます。
 
 
 
+
 &lt;figure class=&#34;left&#34; &gt;
 
 
@@ -3226,6 +3277,7 @@ GitHubタブが開きます。
 &lt;/figure&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;(初回のみ)&lt;/strong&gt; &lt;code&gt;Sign In&lt;/code&gt;をクリック&lt;br&gt;
+
 
 
 
@@ -3272,6 +3324,7 @@ GitHubタブが開きます。
 
 
 
+
 &lt;figure class=&#34;left&#34; &gt;
 
 
@@ -3288,6 +3341,7 @@ GitHubタブが開きます。
 &lt;/ol&gt;
 &lt;h1 id=&#34;使い方&#34;&gt;使い方&lt;/h1&gt;
 &lt;p&gt;&lt;code&gt;Changes&lt;/code&gt;を選択してください。前回保存した状態から変更があったファイルが一覧表示されます。
+
 
 
 
