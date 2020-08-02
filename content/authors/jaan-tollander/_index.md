@@ -14,48 +14,48 @@ role:
 
 # Organizations/Affiliations
 organizations:
-- name: 
-  url: ""
+- name: Aalto University
+  url: "https://www.aalto.fi/en"
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio: Jaan Tollander de Balsch is a computer scientist with a background in applied mathematics.
 
 # List each interest with a dash
-# interests:
-# - Interest 1
-# - Interest 2
+interests:
+- Algorithms and Computing
+- Mathematical Modeling
+- Scientific Writing
+- Software Engineering
 
-# education:
-#   courses:
-#   - course: Title course 1
-#     institution: Name of Institution
-#     year: 2012
-#   - course: Title course 1
-#     institution: Name of Institution
-#     year: 2012
+education:
+  courses:
+  - course: MSc in Computer Science
+    institution: Aalto University
+    year: 2021
+  - course: BSc in Applied Mathematics
+    institution: Aalto University
+    year: 2018
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-# - icon: envelope
-#   icon_pack: fas
-#   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-# - icon: twitter
-#   icon_pack: fab
-#   link: https://twitter.com/USERNAME
-# - icon: google-scholar
-#   icon_pack: ai
-#   link: https://scholar.google.com/citations?user=PERSON-ID
-# - icon: github
-#   icon_pack: fab
-#   link: https://github.com/USERNAME
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: user
+  icon_pack: fas
+  link: https://jaantollander.com/
+- icon: github
+  icon_pack: fab
+  link: https://github.com/jaantollander
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/jaantollander/
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/jaantollander
+- icon: youtube
+  icon_pack: fab
+  link: https://www.youtube.com/channel/UC26QrxlhGYTTFhdja4bO2GA
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -66,3 +66,5 @@ user_groups:
 - Group 1
 - Group 2
 ---
+
+Jaan Tollander de Balsch is a computer scientist with a background in applied mathematics, who focuses on algorithms, computation, and mathematical modeling. His interests include scientific writing, software engineering, and artificial intelligence. Professionally, he creates practical, well-documented, and tested software packages for solving mathematical and computational problems using Julia and Python programming languages. Apart from work and academics, he is passionate about health, athletics, productivity, and saunas.
