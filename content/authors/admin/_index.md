@@ -36,6 +36,6 @@ user_groups:
 - Visitors
 ---
 
-I am a doctoral candidate in Developmental Psychology working in Dr. Linda Smith's Cognitive Development Lab. My research focuses on early word learning and object recognition, specifically how the statistical structure of infants' early environments shape learning. I am also interested in the application of developmental principles to computer vision.
+I am a doctoral candidate in Developmental Psychology working in Dr. Linda Smith's Cognitive Development Lab. My research focuses on early word learning and object recognition, specifically how the statistical structure of infants' early environments shape learning. I am also interested in the application of developmental principles to machine learning.
 
 I am experienced with secondary data analysis of large corpora as well as experimental design. I am proficient in ego-centric data collection, including head-mounted eyetracking. 
