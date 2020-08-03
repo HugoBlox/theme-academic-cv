@@ -2,7 +2,7 @@
 %% http://bibdesk.sourceforge.net/
 
 
-%% Created for Carlos Maltzahn at 2020-07-03 10:01:51 -0700 
+%% Created for Carlos Maltzahn at 2020-07-30 14:13:56 -0700 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
@@ -60,11 +60,12 @@
 	Abstract = {Access libraries such as ROOT and HDF5 allow users to interact with datasets using high level abstractions, like coordinate systems and associated slicing operations. Unfortunately, the implementations of access libraries are based on outdated assumptions about storage systems interfaces and are generally unable to fully benefit from modern fast storage devices. For example, access libraries often implement buffering and data layout that assume that large, single-threaded sequential access patterns are causing less overall latency than small parallel random access: while this is true for spinning media, it is not true for flash media. The situation is getting worse with rapidly evolving storage devices such as non-volatile memory and ever larger datasets. Our Skyhook Dataset Mapping project explores distributed dataset mapping infrastructures that can integrate and scale out existing access libraries using Ceph's extensible object model, avoiding reimplementation or even modifications of these access libraries as much as possible. These programmable storage extensions coupled with our distributed dataset mapping techniques enable: 1) access library operations to be offloaded to storage system servers, 2) the independent evolution of access libraries and storage systems and 3) fully leveraging of the existing load balancing, elasticity, and failure management of distributed storage systems like Ceph. They also create more opportunities to conduct storage server-local optimizations specific to storage servers. For example, storage servers might include local key/value stores combined with chunk stores that require different optimizations than a local file system. As storage servers evolve to support new storage devices like non-volatile memory, these server-local optimizations can be implemented while minimizing disruptions to applications. We will report progress on the means by which distributed dataset mapping can be abstracted over particular access libraries, including access libraries for ROOT data, and how we address some of the challenges revolving around data partitioning and composability of access operations.},
 	Address = {Adelaide, Australia},
 	Author = {Aaron Chu and Jeff LeFevre and Carlos Maltzahn and Aldrin Montana and Peter Alvaro and Dana Robinson and Quincey Koziol},
-	Booktitle = {24th International Conference on Computing in High Energy \& Nuclear Physics},
+	Booktitle = {24th International Conference on Computing in High Energy \& Nuclear Physics)},
 	Date-Added = {2020-01-20 16:19:51 -0800},
-	Date-Modified = {2020-07-01 12:37:51 -0700},
+	Date-Modified = {2020-07-30 14:13:11 -0700},
 	Keywords = {papers, programmable, declarative, objectstorage, nsf1836650},
 	Month = {November 4-8},
+	Publisher = {arXiv:2007.01789v1 (Submitted for publication)},
 	Title = {SkyhookDM: Mapping Scientific Datasets to Programmable Storage},
 	Year = {2019},
 	Bdsk-File-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxBDLi4vLi4vLi4vLi4vLi4vVm9sdW1lcy9Hb29nbGVEcml2ZS9NeSBEcml2ZS9QYXBlcnMvQy9jaHUtY2hlcDE5LnBkZk8RAVgAAAAAAVgAAgAADEdvb2dsZSBEcml2ZQAAAAAAAAAAAAAAAAAAAAAAAABCRAAB/////w5jaHUtY2hlcDE5LnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAAAAAAA/////wAACgBjdQAAAAAAAAAAAAAAAAABQwAAAgA2LzpWb2x1bWVzOkdvb2dsZURyaXZlOk15IERyaXZlOlBhcGVyczpDOmNodS1jaGVwMTkucGRmAA4AHgAOAGMAaAB1AC0AYwBoAGUAcAAxADkALgBwAGQAZgAPABoADABHAG8AbwBnAGwAZQAgAEQAcgBpAHYAZQASACEvTXkgRHJpdmUvUGFwZXJzL0MvY2h1LWNoZXAxOS5wZGYAABMAFC9Wb2x1bWVzL0dvb2dsZURyaXZl//8AAAAIAA0AGgAkAGoAAAAAAAACAQAAAAAAAAAFAAAAAAAAAAAAAAAAAAABxg==},
