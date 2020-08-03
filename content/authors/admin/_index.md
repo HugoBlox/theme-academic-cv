@@ -69,24 +69,4 @@ user_groups:
 - Admin
 ---
 
-Our group is part of the [Systems Analysis Laboratory](https://sal.aalto.fi/en/) in the [Department of Mathematics and Systems Analysis](https://math.aalto.fi/en/) at [Aalto University](https://www.aalto.fi/en).
-
-## Research interests
-
-### Production systems planning and supply chain management
-
-- Energy system planning
-- Healthcare and humanitarian logistics
-- Process scheduling/ routing
-
-### Decision under uncertainty
-
-- Decision programming
-- Stochastic programming
-- Robust optimisation
-
-### Solution methods
-
-- Lagrangian-based decomposition methods
-- Cutting planes-based methods 
-- Convexification techniques
+The *Gamma-opt* group is a part of the [Systems Analysis Laboratory](https://sal.aalto.fi/en/) in the [Department of Mathematics and Systems Analysis](https://math.aalto.fi/en/) at [Aalto University](https://www.aalto.fi/en).
