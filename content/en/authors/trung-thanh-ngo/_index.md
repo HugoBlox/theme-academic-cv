@@ -66,8 +66,8 @@ user_groups:
 ---
 
 ### Contact
-- email: kajiwara@ids.
-- webpage: https://sites.google.com/site/moguranosenshi/
+- email: trung@am.sanken.
+- webpage: http://www.am.sanken.osaka-u.ac.jp/~trung/
 
 
 Please add `osaka-u.ac.jp` to complete email address
