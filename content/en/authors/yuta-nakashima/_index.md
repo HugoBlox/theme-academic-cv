@@ -2,6 +2,8 @@
 # Display name
 title: "Yuta Nakashima"
 
+weight: 20
+
 # Username (this should match the folder name and the name on publications)
 authors:
 - "yuta-nakashima"
@@ -11,6 +13,7 @@ superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
 role: Associate Professor
+group: Artificial Intelligence and Mathematics
 
 # Organizations/Affiliations
 organizations:
@@ -43,12 +46,20 @@ interests:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-#- icon: envelope
-#  icon_pack: fas
-#  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-#- icon: twitter
-#  icon_pack: fab
-#  link: https://twitter.com/USERNAME
+- icon: envelope
+  icon_pack: fas
+  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  str: "n-yuta@ids."
+  show_link: false
+- icon: phone
+  icon_pack: fas
+  str: "tel: 6070"
+  show_link: false
+- icon: home
+  icon_pack: fas
+  link: http://n-yuta.jp/
+  str: personal
+  show_link: true
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=LNvd0VQAAAAJ
@@ -68,6 +79,7 @@ email: ""
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Faculty
+- Fulltime
 ---
 
 ### Contact

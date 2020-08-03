@@ -12,7 +12,8 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Postdoctoral Fellow
+role: Specially-Appointed Researcher/Fellow
+group: Artificial Intelligence and Mathematics
 
 # Organizations/Affiliations
 organizations:
@@ -22,7 +23,7 @@ organizations:
   url: "http://www.osaka-u.ac.jp/"
 
 # Short bio (displayed in user profile at end of posts)
-bio:
+bio: "His research interests lie in deep learning, computer vision, robotics, and medical images."
 
 # List each interest with a dash
 interests:
@@ -53,7 +54,9 @@ social:
   link: 'https://www.liangzhili.com' 
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:li@ids.osaka-u.ac.jp'  # For a direct email link, use "mailto:test@example.org".
+  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  str: "li@ids."
+  show_link: false
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=JIRw_tMAAAAJ
@@ -69,6 +72,10 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/liangzhi-li-80a553154/
+- icon: phone
+  icon_pack: fas
+  str: "tel: 6074"
+  show_link: false
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -77,6 +84,7 @@ email: ""
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Researchers
+- Fulltime
 ---
 
 ### Contact

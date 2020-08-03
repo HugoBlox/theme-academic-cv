@@ -1,18 +1,18 @@
 ---
 # Display name
-title: "Tomoyuki Kajiwara"
+title: "Trung Thanh Ngo"
 
 weight: 40
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "tomoyuki-kajiwara"
+- "trung-thanh-ngo"
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Specially-Appointed Assistant Professor
+role: Guest Assistant Professor
 group: Artificial Intelligence and Mathematics
 
 # Organizations/Affiliations
@@ -23,12 +23,12 @@ organizations:
   url: "http://www.osaka-u.ac.jp/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: "Natural Language Processing. Especially: Text Simplification, Paraphrasing, Semantic Textual Similarity, Quality Estimation."
+bio: "His main research interests include 3D reconstruction, inverse rendering, and machine learning applications in computer vision."
 
 # List each interest with a dash
-interests:
-- Natural Language Processing
-- Computational Lingistics
+#interests:
+#- Natural Language Processing
+#- Computational Lingistics
   
 #education:
 #  courses:
@@ -47,15 +47,11 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-  str: "kajiwara@ids."
-  show_link: false
-- icon: phone
-  icon_pack: fas
-  str: "tel: 6072"
+  str: "trung@am.sanken."
   show_link: false
 - icon: home
   icon_pack: fas
-  link: http://cl.sd.tmu.ac.jp/~kajiwara/cv.pdf
+  link: http://www.am.sanken.osaka-u.ac.jp/~trung/
   str: personal
   show_link: true
 
@@ -65,13 +61,13 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Researchers
+- 招へい研究員
 - Fulltime
 ---
 
 ### Contact
-- email: kajiwara@ids.
-- webpage: https://sites.google.com/site/moguranosenshi/
+- email: trung@am.sanken.
+- webpage: http://www.am.sanken.osaka-u.ac.jp/~trung/
 
 
 Please add `osaka-u.ac.jp` to complete email address
