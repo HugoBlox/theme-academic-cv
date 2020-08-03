@@ -13,9 +13,9 @@ superuser: false
 role: Assistant Professor of Operational Research
 
 # Organizations/Affiliations
-organizations: 
+organizations:
 - name: Aalto University
-  url: "https://math.aalto.fi/fabricio"
+  url: "https://math.aalto.fi/~fabricio"
 
 # Short bio (displayed in user profile at end of posts)
 bio: "Fabricio Oliveira is a Assistant Professor of Operational Research in the Department of Mathematics and Systems Analysis."
