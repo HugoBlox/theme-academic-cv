@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Gamma-opt
+title: "Γ-opt"
 
 # Username (this should match the folder name)
 authors:
