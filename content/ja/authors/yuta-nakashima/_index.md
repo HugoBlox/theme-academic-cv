@@ -2,6 +2,8 @@
 # Display name
 title: "中島 悠太"
 
+weight: 20
+
 # Username (this should match the folder name and the name on publications)
 authors:
 - "yuta-nakashima"
@@ -11,6 +13,7 @@ superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
 role: 准教授
+group: 知能情報基盤部門
 
 # Organizations/Affiliations
 organizations:
@@ -20,7 +23,7 @@ organizations:
   url: "http://www.osaka-u.ac.jp/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Yuta Nakashima is an associate professor with Institute for Datability Science, Osaka University. His research interests include computer vision, pattern recognition, natural langauge processing, and their applications.
+bio: "コンピュータビジョン・パターン認識などの研究。ディープニューラルネットワークなどを用いた画像・映像の認識・理解を主に、自然言語処理を援用した応用研究などに従事。"
 
 # List each interest with a dash
 interests:
@@ -43,23 +46,26 @@ interests:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-#- icon: envelope
-#  icon_pack: fas
-#  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-#- icon: twitter
-#  icon_pack: fab
-#  link: https://twitter.com/USERNAME
+- icon: envelope
+  icon_pack: fas
+  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  str: "n-yuta@ids."
+  show_link: false
+- icon: phone
+  icon_pack: fas
+  str: "tel: 6070"
+  show_link: false
+- icon: home
+  icon_pack: fas
+  link: http://n-yuta.jp/
+  str: personal
+  show_link: true
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=LNvd0VQAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/USERNAME
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+  link: https://github.com/nyuta1212
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -68,6 +74,7 @@ email: ""
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - 教員
+- 専任
 ---
 
 ### Contact

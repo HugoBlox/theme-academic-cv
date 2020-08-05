@@ -2,7 +2,7 @@
 # Display name
 title: "新岡 宏彦"
 
-weight: 10
+weight: 20
 
 # Username (this should match the folder name and the name on publications)
 authors:
@@ -13,6 +13,7 @@ superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
 role: 特任准教授
+group: 知能情報基盤部門
 
 # Organizations/Affiliations
 organizations:
@@ -22,7 +23,7 @@ organizations:
   url: "http://www.osaka-u.ac.jp/"
 
 # Short bio (displayed in user profile at end of posts)
-bio:
+bio: "深層学習による様々なバイオイメージングデータの分類、医療データを用いた診断補助に従事。光学顕微鏡(蛍光顕微鏡、第二近赤外顕微鏡、ラマン顕微鏡など)によるデータベース作成と分類。CT画像やヘルスケアデータを扱う。"
 
 # List each interest with a dash
 interests:
@@ -69,6 +70,7 @@ email: ""
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - 研究員
+- 専任
 ---
 
 ### Contact

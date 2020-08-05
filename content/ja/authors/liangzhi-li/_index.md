@@ -13,6 +13,7 @@ superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
 role: 特任研究員
+group: 知能情報基盤部門
 
 # Organizations/Affiliations
 organizations:
@@ -22,7 +23,7 @@ organizations:
   url: "http://www.osaka-u.ac.jp/"
 
 # Short bio (displayed in user profile at end of posts)
-bio:
+bio: "His research interests lie in deep learning, computer vision, robotics, and medical images."
 
 # List each interest with a dash
 interests:
