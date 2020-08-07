@@ -49,6 +49,8 @@
 
 
 
+
+
 &lt;figure id=&#34;figure-urpテンプレートの作成&#34;&gt;
 
 
@@ -67,6 +69,8 @@
 
 
 &lt;/figure&gt;
+
+
 
 
 
@@ -125,6 +129,8 @@
 
 
 
+
+
 &lt;figure id=&#34;figure-制作物見本&#34;&gt;
 
 
@@ -146,6 +152,8 @@
 
 &lt;h2 id=&#34;4-1-shadergraphの作成と画面説明&#34;&gt;4-1. ShaderGraphの作成と画面説明&lt;/h2&gt;
 &lt;p&gt;ShaderGraphのEditorは、Projectウィンドウから[Shader→Unlit Graph]を選択することで作成できます。ShaderGraphの種類はいくつかありますが、ここではLightに依存せず一番軽量なUnlitを用います。生成されたEditorを開いてみると下のような画面が表示されます。&lt;/p&gt;
+
+
 
 
 
@@ -208,6 +216,8 @@
 
 
 
+
+
 &lt;figure id=&#34;figure-虹色テクスチャの素材画像&#34;&gt;
 
 
@@ -252,6 +262,8 @@
 
 
 
+
+
 &lt;figure id=&#34;figure-ノードの追加&#34;&gt;
 
 
@@ -272,6 +284,8 @@
 &lt;/figure&gt;
 
 &lt;p&gt;ノードを追加できたら線を繋いでいきましょう。ノードの各項目の説明は割愛しますが、gifの通りに繋ぐとテクスチャがスクロールしてくれます。&lt;/p&gt;
+
+
 
 
 
@@ -325,6 +339,8 @@
 
 
 
+
+
 &lt;figure id=&#34;figure-materialの出力&#34;&gt;
 
 
@@ -345,6 +361,8 @@
 &lt;/figure&gt;
 
 &lt;p&gt;Objectは虹色になりましたか？成功したら次はスクロール速度を変えてみます。速度を可変にするには、変数としてSliderノードを追加し、さらに変数を反映させるためにMultiplyノード(掛け算)を追加します。Multiplyノードの入力にTimeノードとSliderノードを追加すれば実装完了です。&lt;/p&gt;
+
+
 
 
 
@@ -399,6 +417,8 @@
 
 
 
+
+
 &lt;figure id=&#34;figure-inspector上での変数参照方法&#34;&gt;
 
 
@@ -420,6 +440,8 @@
 
 &lt;h1 id=&#34;5-まとめ&#34;&gt;5. まとめ&lt;/h1&gt;
 &lt;p&gt;今回はShaderGraphについて紹介しました。ノードを作って繋ぐだけで簡単にMaterialの制御を実装でき、リアルタイムにグラフィックを確認できるため頭のイメージを具現化しやすいです。貴方にその有難みを少しでも体感して頂けたなら投稿者冥利に尽きます。&lt;/p&gt;
+
+
 
 
 

@@ -34,6 +34,8 @@
 
 
 
+
+
 &lt;figure id=&#34;figure-indexhtmlを開くとこのようなエラーメッセージが表示される&#34;&gt;
 
 
@@ -78,6 +80,8 @@
 
 
 
+
+
 &lt;figure id=&#34;figure-拡張機能パネルを開くボタン&#34;&gt;
 
 
@@ -98,6 +102,8 @@
 &lt;/figure&gt;
 
 パネル上の検索ボックスに&lt;code&gt;live server&lt;/code&gt;と入力し、検索結果の一番上にある&lt;code&gt;Live Server&lt;/code&gt;をクリックします。&lt;code&gt;拡張機能:Live Server&lt;/code&gt;タブが開くので、&lt;code&gt;インストール&lt;/code&gt;をクリックします。
+
+
 
 
 
@@ -151,6 +157,8 @@
 
 
 
+
+
 &lt;figure id=&#34;figure-japanese-language-pack-for-visual-studio-codeインストール済み&#34;&gt;
 
 
@@ -174,6 +182,8 @@
 &lt;p&gt;メニューの&lt;code&gt;ファイル(F)&lt;/code&gt;から&lt;code&gt;フォルダを開く... Ctrl+K Ctrl+O&lt;/code&gt;をクリックします。フォルダ選択ダイアログが表示されるので、出力された&lt;code&gt;Build&lt;/code&gt;フォルダと&lt;code&gt;TemplateData&lt;/code&gt;フォルダ、&lt;code&gt;index.html&lt;/code&gt;ファイルのあるフォルダを選択します。&lt;/p&gt;
 &lt;h1 id=&#34;3-ゲームをプレイ&#34;&gt;3. ゲームをプレイ&lt;/h1&gt;
 &lt;p&gt;正しくフォルダを開けていると画面右下に&lt;code&gt;Go Live&lt;/code&gt;ボタンが表示されます。このボタンをクリックするとブラウザが起動し、ゲームをプレイできます。
+
+
 
 
 

@@ -86,6 +86,8 @@ API とは Application Programming Interface の略で、
 
 
 
+
+
 &lt;figure id=&#34;figure-ぐるなびapiサイト&#34;&gt;
 
 
@@ -113,6 +115,8 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 &lt;p&gt;そうするとクエリを送信ボタンの下に json 形式のデータが出てきます。
 これを見ると、たくさんのお店、かつラーメン屋が出てきたことが分かります。&lt;/p&gt;
 &lt;p&gt;他にも店の場所や説明なども載っていると思いますが、上記の key を指定し、条件を絞り込むことでそれらの指定をすることが出来ます。&lt;/p&gt;
+
+
 
 
 
@@ -169,6 +173,8 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 クエリを送信すると、大阪難波駅周辺のラーメン屋の json データを取得できるようになります。&lt;/p&gt;
 &lt;p&gt;取りたいデータが出てきたらその上にある URL という欄の url をメモしておきます。&lt;/p&gt;
 &lt;p&gt;例）&lt;code&gt;https://api.gnavi.co.jp/RestSearchAPI/v3/?keyid=(ここは後に取得するkeyidの値）&amp;amp;name=ラーメン&amp;amp;areacode_l=AREAL3310&lt;/code&gt;&lt;/p&gt;
+
+
 
 
 
@@ -470,6 +476,8 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 
 
 
+
+
 &lt;figure id=&#34;figure-作ったもの&#34;&gt;
 
 
@@ -499,6 +507,8 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 &lt;h3 id=&#34;サーバー等の手続きがいらず簡単に公開できる&#34;&gt;サーバー等の手続きがいらず、簡単に公開できる&lt;/h3&gt;
 &lt;p&gt;GAS では Google のサーバーを使っているので、このような簡単なサイトでもサーバーを借りるなどの作業がいらず、実質ワンクリックで公開、利用できます。&lt;/p&gt;
 &lt;p&gt;GAS のエディタから、おおよそここをクリックしたら公開できます&lt;/p&gt;
+
+
 
 
 
@@ -802,6 +812,8 @@ function myFunction() {
 
 
 
+
+
 &lt;figure id=&#34;figure-helloworld&#34;&gt;
 
 
@@ -827,6 +839,8 @@ function myFunction() {
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;ちなみにHello Worldはこんな感じです。&lt;/p&gt;
+
+
 
 
 

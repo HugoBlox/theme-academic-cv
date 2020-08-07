@@ -78,6 +78,8 @@ window.onresize = function(){ set_width(); };
 
 
 
+
+
 &lt;figure id=&#34;figure-伝説のスタフィー2出典httpswwwnintendocojpn08avfjgamenindexhtml&#34;&gt;
 
 
@@ -100,6 +102,8 @@ window.onresize = function(){ set_width(); };
 参考にしたギミックは「見えない探し物が近くにあればあるほど，アラームを激しく鳴らす」というものです。「伝説のスタフィー2」では，草むらに隠れた見えないターゲットを音を頼りに見つけ出すというゲーム要素があり，私自身「伝説のスタフィー2」を遊んだ時にこのギミックがとても楽しかった記憶があって，「音で探す」システムを採用しました。&lt;/p&gt;
 &lt;p&gt;以上より「&lt;strong&gt;音を頼りに迷路を探索し妖精さんを見つける&lt;/strong&gt;」ゲームが企画されました。以下の画像は
 &lt;a href=&#34;https://www.sbcr.jp/product/4797377361/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ゲーム作りのはじめかた Unityで覚える企画からレベルデザインまで&lt;/a&gt;という本の「まずはゲームの企画をA4 1枚にペンで書け！」といった教えにのっとり書いた企画書です。
+
+
 
 
 
@@ -163,6 +167,8 @@ window.onresize = function(){ set_width(); };
 
 
 
+
+
 &lt;figure id=&#34;figure-穴掘り法による迷路生成&#34;&gt;
 
 
@@ -210,6 +216,8 @@ window.onresize = function(){ set_width(); };
 
 
 
+
+
 &lt;figure id=&#34;figure-ムービーシーン&#34;&gt;
 
 
@@ -230,6 +238,8 @@ window.onresize = function(){ set_width(); };
 &lt;/figure&gt;
 
 このムービーは，Unityの &lt;strong&gt;Timeline&lt;/strong&gt; という機能を用いて実装しました。Timelineを用いると，簡単にムービーシーンを作ることができるため大変便利です。
+
+
 
 
 
@@ -295,6 +305,8 @@ window.onresize = function(){ set_width(); };
 
 
 
+
+
 &lt;figure id=&#34;figure-ゲームのタイトル画面&#34;&gt;
 
 
@@ -316,6 +328,8 @@ window.onresize = function(){ set_width(); };
 &lt;/p&gt;
 &lt;h1 id=&#34;最後に&#34;&gt;最後に&lt;/h1&gt;
 &lt;p&gt;このような感じで「Finden die Feen」は約1ヶ月という期間で製作し，府大バーチャル学祭で公開されました。個人的には，完成度がそこそこ高く見えるため気に入っています。特に気に入っているのは，以下の画像のステージです。
+
+
 
 
 

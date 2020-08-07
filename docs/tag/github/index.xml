@@ -301,6 +301,8 @@ git push -u origin master
 
 
 
+
+
 &lt;figure class=&#34;left&#34; &gt;
 
 
@@ -315,6 +317,8 @@ git push -u origin master
 &lt;/figure&gt;
 
 &lt;code&gt;Settings&lt;/code&gt;をクリックしてください。
+
+
 
 
 
@@ -378,6 +382,8 @@ git push -u origin master
 
 
 
+
+
 &lt;figure class=&#34;left&#34; &gt;
 
 
@@ -408,6 +414,8 @@ GitHubタブが開きます。
 
 
 
+
+
 &lt;figure class=&#34;left&#34; &gt;
 
 
@@ -422,6 +430,8 @@ GitHubタブが開きます。
 &lt;/figure&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;(初回のみ)&lt;/strong&gt; &lt;code&gt;Sign In&lt;/code&gt;をクリック&lt;br&gt;
+
+
 
 
 
@@ -470,6 +480,8 @@ GitHubタブが開きます。
 
 
 
+
+
 &lt;figure class=&#34;left&#34; &gt;
 
 
@@ -486,6 +498,8 @@ GitHubタブが開きます。
 &lt;/ol&gt;
 &lt;h1 id=&#34;使い方&#34;&gt;使い方&lt;/h1&gt;
 &lt;p&gt;&lt;code&gt;Changes&lt;/code&gt;を選択してください。前回保存した状態から変更があったファイルが一覧表示されます。
+
+
 
 
 
