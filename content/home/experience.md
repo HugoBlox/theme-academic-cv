@@ -42,7 +42,7 @@ date_format = "Jan 2006"
   company_url = "https://economics.osu.edu/"
   location = "Columbus, OH"
   date_start = "2018-08-01"
-  date_end = "2020-04-31"
+  date_end = "2020-04-30"
   description = """
   Recitation Leader for the courses:
   * ECON 8732 - (PhD) Econometrics II, Spring 2019
