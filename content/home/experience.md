@@ -18,27 +18,35 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
+  title = "Google Summer of Code 2020 Student"
+  company = "Econ-Ark"
+  company_url = "https://econ-ark.org/"
+  date_start = "2020-06-01"
+  date_end = "2020-08-31"
   description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
+  Implemented initial GPU support for HARK models with numba and cuda.
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  title = "Independent Instructor"
+  company = "Ohio State University"
+  company_url = "https://economics.osu.edu/"
+  location = "Columbus, OH"
+  date_start = "2020-05-01"
+  date_end = "2020-08-31"
+  description = """Taught Principles of Macroeconomics through distance learning (online delivery)."""
+
+[[experience]]
+  title = "Graduate Teaching Associate"
+  company = "Ohio State University"
+  company_url = "https://economics.osu.edu/"
+  location = "Columbus, OH"
+  date_start = "2018-08-01"
+  date_end = "2020-04-31"
+  description = """
+  Recitation Leader for the courses:
+  * ECON 8732 - (PhD) Econometrics II, Spring 2019
+  * ECON 2001.01 - Principles of Microeconomics, Fall 2018
+  """
 
 +++
