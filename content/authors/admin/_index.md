@@ -23,13 +23,14 @@ bio: My research interests # todo
 interests:
 - Quantitative Macroeconomics
 - Computational Economics
-- Inequality and Social Mobility
+- Inequality
+- Social Mobility
 
 education:
   courses:
   - course: PhD Candidate in Economics
     institution: Ohio State University
-    year: 2020
+    year: 2023 (Expected)
   - course: MA in Economics
     institution: University of Texas at Austin
     year: 2017
@@ -37,6 +38,9 @@ education:
     institution: University of Texas at Austin
     year: 2013
   - course: BA in Economics with Special Honors
+    institution: University of Texas at Austin
+    year: 2013
+  - course: BA in Government
     institution: University of Texas at Austin
     year: 2013
 
