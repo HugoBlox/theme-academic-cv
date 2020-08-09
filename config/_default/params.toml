@@ -13,7 +13,7 @@
 #   Latest themes (may require updating): https://sourcethemes.com/academic/themes/
 #   Browse built-in themes in `themes/academic/data/themes/`
 #   Browse user installed themes in `data/themes/`
-theme = "mr_robot"
+theme = "ocean"
 
 # Enable users to switch between day and night mode?
 day_night = true
