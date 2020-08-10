@@ -18,7 +18,7 @@ organizations:
   url: "https://economics.osu.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests # todo
+bio: My research interests include quantitative macroeconomics, inequality, and social mobility.
 
 interests:
 - Quantitative Macroeconomics
