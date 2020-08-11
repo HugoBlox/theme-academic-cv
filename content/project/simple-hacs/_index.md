@@ -1,5 +1,5 @@
 ---
-title: Posts
+title: Simple HACS
 
 # View.
 #   1 = List
@@ -12,3 +12,5 @@ header:
   caption: ""
   image: ""
 ---
+
+Simple HACS is a collection of simple Heterogeneous Agent Consumption Savings models.

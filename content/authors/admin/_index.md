@@ -74,4 +74,4 @@ user_groups:
 - Visitors
 ---
 
-# todo
+I am a PhD Candidate in the [Department of Economics](https://economics.osu.edu/) at [The Ohio State University](https://www.osu.edu/). 
