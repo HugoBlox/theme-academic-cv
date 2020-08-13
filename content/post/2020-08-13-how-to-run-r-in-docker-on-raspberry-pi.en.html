@@ -1,0 +1,53 @@
+---
+title: How to run R in Docker on Raspberry Pi
+author: ''
+date: '2020-08-13'
+draft: true
+slug: how-to-run-r-in-docker-on-raspberry-pi
+categories:
+  - Guide
+tags:
+  - R
+  - Raspberry Pi
+  - Docker
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-08-13T22:02:16+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+
+<p>When I began learning about how to use Docker I stumbled on an excellent project called <a href="https://www.rocker-project.org/">Rocker</a>. For anyone with an x86 machine these Rocker images allow them to run R and most of its dependencies in a containerised environment. Plumber APIs, anyone? What about your own Shiny server? Finally, data scientists using R can have the same level of control on dependencies and package versions as Python users have become accustomed to through <code>venv</code>.</p>
+<p>Things are a little more complicated for ARM users, especially 32-bit ARM architectures such as the Raspberry Pi. No Rocker images offer such compatibility so we’re on our own. This was the major reason I’ve started a project, called, <a href="https://www.algorist.co.uk/project/armr/">ARMR</a>, to build a series of Docker images that <strong>do</strong> offer compatibility with the lovable credit card sized computer.</p>
+<div id="hello-world" class="section level1">
+<h1>Hello world</h1>
+<p>Whilst not much has happened with the project so far, at least I have a version of “Hello world”: a container with r-base installed. But first we must install Docker.</p>
+<div id="installation" class="section level2">
+<h2>Installation</h2>
+</div>
+<div id="build-a-container" class="section level2">
+<h2>Build a container</h2>
+<p>Building a container is as simple as writing the code below to a file called <code>Dockerfile</code>. We use an arm32 ubuntu image as a base, from which we set an environment variable to force the terminal to be non-interactive. This is because when r-base is installed it waits for user input when setting parameters, hanging the container build. By setting the installation to be non-interactive we accept all the defaults, including timezone. Be mindful of this when handling datetimes!</p>
+<pre><code>FROM arm32v7/ubuntu
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt update &amp;&amp; apt install r-base -y</code></pre>
+<p>Once the Dockerfile is created you run it by typing <code>docker build</code> in the same folder in the terminal.</p>
+</div>
+</div>
+<div id="whats-next" class="section level1">
+<h1>What’s next?</h1>
+<p>Future development is likely to encompass the following:</p>
+<ul>
+<li>Shiny server (I’d like to host one on this site)</li>
+<li>Plumber API server</li>
+<li>Rstudio server (so I can do analysis from anywhere on anything, even a tablet)</li>
+<li>Images for commonly used packages (Tidyverse, data.table, caret, etc.)</li>
+</ul>
+</div>
