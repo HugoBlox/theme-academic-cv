@@ -26,11 +26,32 @@ When I began learning about how to use Docker I stumbled on an excellent project
 
 Things are a little more complicated for ARM users, especially 32-bit ARM architectures such as the Raspberry Pi. No Rocker images offer such compatibility so we're on our own. This was the major reason I've started a project, called, [ARMR](https://www.algorist.co.uk/project/armr/), to build a series of Docker images that **do** offer compatibility with the lovable credit card sized computer.
 
-# Hello world
+# Hello woRld
 
-Whilst not much has happened with the project so far, at least I have a version of "Hello world": a container with r-base installed. But first we must install Docker.
+Whilst not much has happened with the project so far, at least I have a version of "Hello woRld": a container with r-base installed. But first we must install Docker.
 
 ## Installation
+From the terminal on a Raspberry Pi, run the following.
+
+```
+# Downloads installation shell script and pipes it into the sh command
+curl -sSL https://get.docker.com | sh
+# Adds pi to the docker group so the user can run
+sudo usermod -aG docker pi
+```
+
+From here we can either reboot or run `systemctl start docker.service` to start up Docker. To test it is working, try `docker info`, then `docker version`.
+
+Once you know that Docker is running, let's try a few things in order of sophistication. `docker run hello-world` will run a container based on an image called _hello-world_. `docker run -it ubuntu bash` takes it up a notch: now we have an ubuntu bash container running in interactive mode in the terminal.
+
+To make it even more useful, we ought to have access to persistent storage. Let's modify the command to include a mount volume.
+
+```
+docker run -it -v /home:/home ubuntu bash
+```
+
+The `-v` flag tells Docker to attach a volume; the following argument contains the information on what locations should be used, of the form *from_volume:to_volume*. *from_volume* is the location on your machine and *to_volume* is the location on your container.
+
 
 ## Build a container
 
@@ -42,7 +63,10 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt update && apt install r-base -y
 ```
 
-Once the Dockerfile is created you run it by typing `docker build` in the same folder in the terminal.
+Once the Dockerfile is created you run it by typing `docker build -t armr` in the same folder in the terminal. Docker then builds an image with the tag _armr_. It builds by starting with the base image, setting the environment variable and adding a layer that comprises the result from the `RUN` command.
+
+In fact, you can see all the layers that a built into any image by running `docker history <image_name>` in the terminal.
+
 
 # What's next?
 Future development is likely to encompass the following:

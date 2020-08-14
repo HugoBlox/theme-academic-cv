@@ -27,10 +27,20 @@ projects: []
 <p>When I began learning about how to use Docker I stumbled on an excellent project called <a href="https://www.rocker-project.org/">Rocker</a>. For anyone with an x86 machine these Rocker images allow them to run R and most of its dependencies in a containerised environment. Plumber APIs, anyone? What about your own Shiny server? Finally, data scientists using R can have the same level of control on dependencies and package versions as Python users have become accustomed to through <code>venv</code>.</p>
 <p>Things are a little more complicated for ARM users, especially 32-bit ARM architectures such as the Raspberry Pi. No Rocker images offer such compatibility so we’re on our own. This was the major reason I’ve started a project, called, <a href="https://www.algorist.co.uk/project/armr/">ARMR</a>, to build a series of Docker images that <strong>do</strong> offer compatibility with the lovable credit card sized computer.</p>
 <div id="hello-world" class="section level1">
-<h1>Hello world</h1>
-<p>Whilst not much has happened with the project so far, at least I have a version of “Hello world”: a container with r-base installed. But first we must install Docker.</p>
+<h1>Hello woRld</h1>
+<p>Whilst not much has happened with the project so far, at least I have a version of “Hello woRld”: a container with r-base installed. But first we must install Docker.</p>
 <div id="installation" class="section level2">
 <h2>Installation</h2>
+<p>From the terminal on a Raspberry Pi, run the following.</p>
+<pre><code># Downloads installation shell script and pipes it into the sh command
+curl -sSL https://get.docker.com | sh
+# Adds pi to the docker group so the user can run
+sudo usermod -aG docker pi</code></pre>
+<p>From here we can either reboot or run <code>systemctl start docker.service</code> to start up Docker. To test it is working, try <code>docker info</code>, then <code>docker version</code>.</p>
+<p>Once you know that Docker is running, let’s try a few things in order of sophistication. <code>docker run hello-world</code> will run a container based on an image called <em>hello-world</em>. <code>docker run -it ubuntu bash</code> takes it up a notch: now we have an ubuntu bash container running in interactive mode in the terminal.</p>
+<p>To make it even more useful, we ought to have access to persistent storage. Let’s modify the command to include a mount volume.</p>
+<pre><code>docker run -it -v /home:/home ubuntu bash</code></pre>
+<p>The <code>-v</code> flag tells Docker to attach a volume; the following argument contains the information on what locations should be used, of the form <em>from_volume:to_volume</em>. <em>from_volume</em> is the location on your machine and <em>to_volume</em> is the location on your container.</p>
 </div>
 <div id="build-a-container" class="section level2">
 <h2>Build a container</h2>
@@ -38,7 +48,8 @@ projects: []
 <pre><code>FROM arm32v7/ubuntu
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt update &amp;&amp; apt install r-base -y</code></pre>
-<p>Once the Dockerfile is created you run it by typing <code>docker build</code> in the same folder in the terminal.</p>
+<p>Once the Dockerfile is created you run it by typing <code>docker build -t armr</code> in the same folder in the terminal. Docker then builds an image with the tag <em>armr</em>. It builds by starting with the base image, setting the environment variable and adding a layer that comprises the result from the <code>RUN</code> command.</p>
+<p>In fact, you can see all the layers that a built into any image by running <code>docker history &lt;image_name&gt;</code> in the terminal.</p>
 </div>
 </div>
 <div id="whats-next" class="section level1">
