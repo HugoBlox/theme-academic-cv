@@ -1,8 +1,7 @@
 ---
 title: How to run R in Docker on Raspberry Pi
 author: ''
-date: '2020-08-13'
-draft: true
+date: '2020-08-17'
 slug: how-to-run-r-in-docker-on-raspberry-pi
 categories:
   - Guide
@@ -40,21 +39,21 @@ sudo usermod -aG docker pi</code></pre>
 <p>Once you know that Docker is running, let’s try a few things in order of sophistication. <code>docker run hello-world</code> will run a container based on an image called <em>hello-world</em>. <code>docker run -it ubuntu bash</code> takes it up a notch: now we have an ubuntu bash container running in interactive mode in the terminal.</p>
 <p>To make it even more useful, we ought to have access to persistent storage. Let’s modify the command to include a mount volume.</p>
 <pre><code>docker run -it -v /home:/home ubuntu bash</code></pre>
-<p>The <code>-v</code> flag tells Docker to attach a volume; the following argument contains the information on what locations should be used, of the form <em>from_volume:to_volume</em>. <em>from_volume</em> is the location on your machine and <em>to_volume</em> is the location on your container.</p>
+<p>The <code>-v</code> flag tells Docker to attach a volume; the following argument contains the information on what locations should be used, of the form <em>from_volume:to_volume</em>. The location on your machine is the <em>from_volume</em> and the location on your container is the <em>to_volume</em>. In our example, anything you create in the home folder within the container will persist in the home folder of your Raspberry Pi after you close the container. The easiest way to test this is to type <code>touch myfile</code> in the interactive terminal in the container, and watch the same file appear in your home folder.</p>
 </div>
-<div id="build-a-container" class="section level2">
-<h2>Build a container</h2>
-<p>Building a container is as simple as writing the code below to a file called <code>Dockerfile</code>. We use an arm32 ubuntu image as a base, from which we set an environment variable to force the terminal to be non-interactive. This is because when r-base is installed it waits for user input when setting parameters, hanging the container build. By setting the installation to be non-interactive we accept all the defaults, including timezone. Be mindful of this when handling datetimes!</p>
+<div id="build-an-r-container" class="section level2">
+<h2>Build an R container</h2>
+<p>Building a base R container is as simple as writing the code below to a file called <code>Dockerfile</code>. We use an arm32 ubuntu image as a base, from which we set an environment variable to force the terminal to be non-interactive. This is because when r-base is installed it waits for user input when setting parameters, hanging the container build. By setting the installation to be non-interactive we accept all the defaults, including timezone. Be mindful of this when handling datetimes!</p>
 <pre><code>FROM arm32v7/ubuntu
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt update &amp;&amp; apt install r-base -y</code></pre>
 <p>Once the Dockerfile is created you run it by typing <code>docker build -t armr</code> in the same folder in the terminal. Docker then builds an image with the tag <em>armr</em>. It builds by starting with the base image, setting the environment variable and adding a layer that comprises the result from the <code>RUN</code> command.</p>
-<p>In fact, you can see all the layers that a built into any image by running <code>docker history &lt;image_name&gt;</code> in the terminal.</p>
+<p>In fact, you can see all the layers that are built into any image by running <code>docker history &lt;image_name&gt;</code> in the terminal.</p>
 </div>
 </div>
 <div id="whats-next" class="section level1">
 <h1>What’s next?</h1>
-<p>Future development is likely to encompass the following:</p>
+<p>Base R is fine but to be useful we need to add a lot more packages and supporting software. Future development is likely to encompass the following:</p>
 <ul>
 <li>Shiny server (I’d like to host one on this site)</li>
 <li>Plumber API server</li>
