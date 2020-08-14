@@ -13,6 +13,327 @@
     </image>
     
     <item>
+      <title>部員のオススメ書籍・サイト紹介</title>
+      <link>https://blog.opuappnavi.com/post/book-recommendation/</link>
+      <pubDate>Fri, 14 Aug 2020 17:52:45 +0900</pubDate>
+      <guid>https://blog.opuappnavi.com/post/book-recommendation/</guid>
+      <description>&lt;h1 id=&#34;部員のオススメ書籍サイト紹介&#34;&gt;部員のオススメ書籍・サイト紹介&lt;/h1&gt;
+&lt;p&gt;皆さん、暑さが厳しくなってきたこの季節、いかがお過ごしでしょうか？&lt;/p&gt;
+&lt;p&gt;大学生の方の多くは、もうすぐ夏休みの方も多いことかと思います。&lt;/p&gt;
+&lt;p&gt;そして、その夏休みというまとまった時間があるときにプログラミングをやってみようと思う方もいるのではないでしょうか？&lt;/p&gt;
+&lt;p&gt;そこで、そういった方の少しでも参考になればと、今日はアプリ Navi 部員がおすすめする入門用の書籍、サイトを紹介していきます！&lt;/p&gt;
+&lt;h2 id=&#34;紹介目次&#34;&gt;紹介目次&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;#android-%e3%82%a2%e3%83%97%e3%83%aa%e9%96%8b%e7%99%ba&#34;&gt;Android アプリ開発&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;#%e6%a9%9f%e6%a2%b0%e5%ad%a6%e7%bf%92&#34;&gt;機械学習&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;#unity&#34;&gt;Unity&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;#c&#34;&gt;C＃&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;#python&#34;&gt;Python&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;#web%e3%83%95%e3%83%ad%e3%83%b3%e3%83%88%e3%82%a8%e3%83%b3%e3%83%89&#34;&gt;Web(フロントエンド)&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&#34;#gas&#34;&gt;GAS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;（最後に少し部の宣伝もします）&lt;/p&gt;
+&lt;h2 id=&#34;おすすめ書籍サイト紹介&#34;&gt;おすすめ書籍・サイト紹介&lt;/h2&gt;
+&lt;h3 id=&#34;android-アプリ開発&#34;&gt;Android アプリ開発&lt;/h3&gt;
+&lt;p&gt;おすすめサイト&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=WTQUj8tXUKU&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Android Studio 入門 アプリ開発を始めてみよう[Kotlin プログラミング]&lt;/a&gt;&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/WTQUj8tXUKU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;部員コメント&lt;/p&gt;
+&lt;p&gt;Android アプリ開発は、古い入門書や入門サイトなどで学ぼうとすると、実際の UI や手順と一部異なっているために困惑することがあります。そのため、なるべく最近の本や動画などで学習することをおすすめします。&lt;/p&gt;
+&lt;h3 id=&#34;機械学習&#34;&gt;機械学習&lt;/h3&gt;
+&lt;p&gt;おすすめ書籍&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.amazon.co.jp/dp/4274219984/ref=cm_sw_r_cp_awdb_c_ZO5iFbP9FQD3M&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;機械学習入門 ボルツマン機械学習から深層学習まで 大関真之 著&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-機械学習書籍画像&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./machine_learning_rec.png&#34; data-caption=&#34;機械学習書籍画像&#34;&gt;
+
+
+  &lt;img src=&#34;./machine_learning_rec.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    機械学習書籍画像
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;部員コメント&lt;/p&gt;
+&lt;p&gt;童話になぞらえた対話型の形式で機械学習の基本を学ぶことが出来る一冊。イラストも多くとにかく分かりやすい。機械学習について触れてみたいけど少し取っつきにくく感じていたりする人にとてもオススメです。&lt;/p&gt;
+&lt;h3 id=&#34;unity&#34;&gt;Unity&lt;/h3&gt;
+&lt;p&gt;おすすめ書籍&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.amazon.co.jp/dp/B0855CF2FR?tag=keiji009-22&amp;amp;linkCode=ogi&amp;amp;th=1&amp;amp;psc=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;「Unity 3D/2D ゲーム開発実践入門 Unity2019 対応版」吉谷幹人 著&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-unity書籍画像&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./unity_rec.png&#34; data-caption=&#34;Unity書籍画像&#34;&gt;
+
+
+  &lt;img src=&#34;./unity_rec.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Unity書籍画像
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;部員コメント&lt;/p&gt;
+&lt;p&gt;Unity2019 に対応した入門書です。Unity の使い方だけでなく，Unity のインストール方法からスマートフォンへのビルド方法，アプリストアへのアプリ提出方法まで載っているため，この本 1 冊でアプリがリリースできます。&lt;/p&gt;
+&lt;p&gt;チュートリアルで扱うゲームが面白いのも特徴です。
+説明も画像が多く使われており，非常にわかりやすいものとなっています。&lt;/p&gt;
+&lt;p&gt;ただし，C#の解説自体は少ないため，C#の勉強はこの本以外で行うとよいと思います。
+Unity 入門書としては素晴らしいため，Unity 始めたい方には特におススメです。&lt;/p&gt;
+&lt;h3 id=&#34;c&#34;&gt;C＃&lt;/h3&gt;
+&lt;p&gt;おすすめ書籍&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.amazon.co.jp/%E7%8C%AB%E3%81%A7%E3%82%82%E3%82%8F%E3%81%8B%E3%82%8BC-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0-%E7%AC%AC3%E7%89%88-%E7%8C%AB%E3%81%A7%E3%82%82%E3%82%8F%E3%81%8B%E3%82%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0-%E7%B2%82%E4%BA%95/dp/4797385634&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;「猫でもわかる C#プログラミング 第 3 版」粂井康孝 著&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-c-書籍画像&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./c_sharp_rec.png&#34; data-caption=&#34;C# 書籍画像&#34;&gt;
+
+
+  &lt;img src=&#34;./c_sharp_rec.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    C# 書籍画像
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;部員コメント&lt;/p&gt;
+&lt;p&gt;説明が端的にまとめられて，かつコード例が多い本です。Visual Studio の導入方法も載っているためプログラム入門者に配慮したつくりになっています。&lt;/p&gt;
+&lt;p&gt;しかし，コードの説明が少々まとめられすぎているため，巷では「人類が猫以下であることを証明する本」などと呼ばれています。&lt;/p&gt;
+&lt;p&gt;それでも，C#の内容全体を網羅的に記載していますので，C#のコードがどのような感じなのかをざっとつかみたい人，辞書的に手元に置いておきたい人にはおススメです。&lt;/p&gt;
+&lt;h3 id=&#34;python&#34;&gt;Python&lt;/h3&gt;
+&lt;p&gt;おすすめ書籍&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.amazon.co.jp/%E3%81%BF%E3%82%93%E3%81%AA%E3%81%AEPython-%E7%AC%AC4%E7%89%88-%E6%9F%B4%E7%94%B0-%E6%B7%B3/dp/479738946X&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;「みんなの Python 第 4 版」柴田淳 著&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-python書籍画像&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./python_rec.png&#34; data-caption=&#34;Python書籍画像&#34;&gt;
+
+
+  &lt;img src=&#34;./python_rec.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Python書籍画像
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;部員コメント&lt;/p&gt;
+&lt;p&gt;Python の文法をざっとつかむのに使える本です。解説もわかりやすくコード例も多いため，特にこだわりがなければひとまず購入してみるのをおススメします。&lt;/p&gt;
+&lt;p&gt;Numpy や Matplotlib などのよく使うライブラリの説明も軽く掲載されています。&lt;/p&gt;
+&lt;p&gt;ただし，コード例に著者の趣味が若干漏れ出しています。そこだけ目を瞑れば良い本です。&lt;/p&gt;
+&lt;h3 id=&#34;webフロントエンド&#34;&gt;Web(フロントエンド)&lt;/h3&gt;
+&lt;p&gt;おすすめ書籍&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.amazon.co.jp/HTML-CSS%E3%81%A8Web%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%8C-1%E5%86%8A%E3%81%A7%E3%81%8D%E3%81%A1%E3%82%93%E3%81%A8%E8%BA%AB%E3%81%AB%E3%81%A4%E3%81%8F%E6%9C%AC-%E6%9C%8D%E9%83%A8-%E9%9B%84%E6%A8%B9/dp/4774190640/ref=sr_1_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;amp;crid=2YYCTPBFK1JBG&amp;amp;dchild=1&amp;amp;keywords=html&amp;#43;css&amp;#43;web%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3&amp;amp;qid=1596432292&amp;amp;sprefix=HTML&amp;#43;CSS%2Caps%2C297&amp;amp;sr=8-2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;「HTML&amp;amp;CSS と Web デザインが 1 冊できちんと身につく本」服部 雄樹 著&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-webフロントエンド書籍画像&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./web_rec.png&#34; data-caption=&#34;Web(フロントエンド)書籍画像&#34;&gt;
+
+
+  &lt;img src=&#34;./web_rec.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Web(フロントエンド)書籍画像
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;部員コメント&lt;/p&gt;
+&lt;p&gt;html や css の基本的な知識だけでなく、PC やスマホ等様々なデバイスで見ることを想定したレスポンシブデザインのノウハウにも対応しています。
+また実際に企業で使われている Web デザインが紹介されており、より実践的な手法をこれ一冊で学ぶことが出来ます。&lt;/p&gt;
+&lt;h3 id=&#34;gas&#34;&gt;GAS&lt;/h3&gt;
+&lt;p&gt;おすすめ書籍&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.amazon.co.jp/Google-Apps-Script%E5%AE%8C%E5%85%A8%E5%85%A5%E9%96%80-%EF%BD%9EGoogle-Suite%E3%81%AE%E6%9C%80%E6%96%B0%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%82%AC%E3%82%A4%E3%83%89%EF%BD%9E-ebook/dp/B07BNB1Z9L&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;詳解！ Google Apps Script 完全入門 ～ Google Apps &amp;amp; G Suite の最新プログラミングガイド～ 高橋宣成 著&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-gas書籍画像&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./gas_rec.png&#34; data-caption=&#34;GAS書籍画像&#34;&gt;
+
+
+  &lt;img src=&#34;./gas_rec.png&#34; alt=&#34;&#34; width=&#34;200&#34; &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    GAS書籍画像
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;部員コメント&lt;/p&gt;
+&lt;p&gt;GAS の基本的な話から文法、各サービスの使い方まで項目が豊富で、細かいところも抑えてくれているので辞書としても持っておくと助かります！ぜひ読んでみてください！&lt;/p&gt;
+&lt;h3 id=&#34;終わりに&#34;&gt;終わりに&lt;/h3&gt;
+&lt;p&gt;これまで部員がおススメする書籍・サイトを紹介してきました！&lt;/p&gt;
+&lt;p&gt;気になる分野があればぜひ紹介したものを参考にしてみてください！&lt;/p&gt;
+&lt;h2 id=&#34;ちょっと部活紹介&#34;&gt;ちょっと部活紹介～&lt;/h2&gt;
+&lt;p&gt;最後にお願いを！&lt;/p&gt;
+&lt;p&gt;アプリ Navi では後期、新しく入ってくれる部員を募集します！&lt;/p&gt;
+&lt;p&gt;この夏休みにプログラミングに興味を持ったり、今日紹介したものと同じものやったことある人、&lt;/p&gt;
+&lt;p&gt;そして新入生はもちろんの事、何回生の方でも活動に興味のある方はぜひ！&lt;/p&gt;
+&lt;p&gt;以下にて、部の情報や、後期での新歓情報を随時更新するのでチェックをよろしくお願いします！&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://twitter.com/opuappnavi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Twitter&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://opuappnavi.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HomePage&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>WebAPI で手軽に機能を実装する</title>
       <link>https://blog.opuappnavi.com/post/webapi-recommendation/</link>
       <pubDate>Wed, 22 Jul 2020 21:14:27 +0900</pubDate>
@@ -934,7 +1255,7 @@ function myFunction() {
   &lt;a href=&#34;mailto:computer.house.random@gmail.com&#34;&gt;お問い合わせ&lt;/a&gt;
 &lt;/div&gt;
 
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;【拡散希望】&lt;br&gt;大阪府立大学の有志イベント&lt;br&gt;府大バーチャル学祭のPV、デザインを担当させていただきました。&lt;br&gt;&lt;br&gt;各団体のイベント内容などの情報は &lt;a href=&#34;https://twitter.com/hashtag/%E5%BA%9C%E5%A4%A7%E3%83%90%E3%83%BC%E3%83%81%E3%83%A3%E3%83%AB%E5%AD%A6%E7%A5%AD?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#府大バーチャル学祭&lt;/a&gt; に追加していきます。&lt;a href=&#34;https://twitter.com/hashtag/%E6%98%A5%E3%81%8B%E3%82%89%E5%BA%9C%E5%A4%A7?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#春から府大&lt;/a&gt;　&lt;a href=&#34;https://twitter.com/hashtag/system?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#system&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/aftereffects?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#aftereffects&lt;/a&gt; &lt;a href=&#34;https://t.co/GtVtrQV5TI&#34;&gt;pic.twitter.com/GtVtrQV5TI&lt;/a&gt;&lt;/p&gt;&amp;mdash; SYSTEM-府大のオンライン団体- (@SystemOpu) &lt;a href=&#34;https://twitter.com/SystemOpu/status/1263016918182539264?ref_src=twsrc%5Etfw&#34;&gt;May 20, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;【拡散希望】&lt;br&gt;大阪府立大学の有志イベント&lt;br&gt;府大バーチャル学祭のPV、デザインを担当させていただきました。&lt;br&gt;&lt;br&gt;各団体のイベント内容などの情報は &lt;a href=&#34;https://twitter.com/hashtag/%E5%BA%9C%E5%A4%A7%E3%83%90%E3%83%BC%E3%83%81%E3%83%A3%E3%83%AB%E5%AD%A6%E7%A5%AD?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#府大バーチャル学祭&lt;/a&gt; に追加していきます。&lt;a href=&#34;https://twitter.com/hashtag/%E6%98%A5%E3%81%8B%E3%82%89%E5%BA%9C%E5%A4%A7?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#春から府大&lt;/a&gt;　&lt;a href=&#34;https://twitter.com/hashtag/system?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#system&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/aftereffects?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#aftereffects&lt;/a&gt; &lt;a href=&#34;https://t.co/GtVtrQV5TI&#34;&gt;pic.twitter.com/GtVtrQV5TI&lt;/a&gt;&lt;/p&gt;&amp;mdash; SYSTEM | 府大のオンライン団体 (@SystemOpu) &lt;a href=&#34;https://twitter.com/SystemOpu/status/1263016918182539264?ref_src=twsrc%5Etfw&#34;&gt;May 20, 2020&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
 アプリNaviの展示内容は、このサイトでのブログ記事公開と、下記特設サイトでのゲーム展示です。&lt;br&gt;

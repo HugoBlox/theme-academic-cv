@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.opuappnavi.com/</loc>
+    <lastmod>2020-08-14T17:52:45+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.opuappnavi.com/post/book-recommendation/</loc>
+    <lastmod>2020-08-14T17:52:45+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.opuappnavi.com/tag/google-apps-script/</loc>
     <lastmod>2020-07-31T17:51:31+09:00</lastmod>
   </url>
@@ -10,11 +20,6 @@
   <url>
     <loc>https://blog.opuappnavi.com/post/webapi-recommendation/</loc>
     <lastmod>2020-07-31T17:51:31+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.opuappnavi.com/</loc>
-    <lastmod>2020-07-31T18:02:35+09:00</lastmod>
   </url>
   
   <url>
