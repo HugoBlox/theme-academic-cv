@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
   Tutor for COMP3600/6466 (Algorithms) Responsibilities include:
-  * Cooperate with colleagues helping students learn, reviewing course content.
+  * Hold tutorials, cooperating with other tutors
   * Marking assignment, quizzes and examinations.
   * Receiving feedback from students, helping improve teaching quality.
   """
@@ -49,7 +49,7 @@ date_format = "Jan 2006"
   date_end = "2019-06-30"
 
 [[experience]]
-title = "Minister of Student Union"
+title = "Associative Leader of Student Union"
 company = "Shandong University, School of Mechanical, Electrical & Information Engineering"
 company_url = ""
 location = "Weihai, Shandong"

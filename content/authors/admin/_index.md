@@ -18,7 +18,7 @@ organizations:
   url: "https://www.anu.edu.au/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include neural network topology, computer vision and programmable matter.
+bio: My research interests include Baysian theory, Variational Inferences, Optimisation and other programmable matters.
 
 interests:
 - Machine Learning
@@ -31,7 +31,7 @@ education:
   courses:
   - course: BEng in Advanced Computing (Honours)
     institution: Australian National University
-    year: 2019-Now
+    year: 2019-2021
   - course: BEng in Computer Science and Technology
     institution: Shandong University
     year: 2017-2019
@@ -69,4 +69,6 @@ user_groups:
 - Visitors
 ---
 
-I'm an undergraduate student passionates in the fields of machine learning ,deep learning and algorithm. I spent my first two years of  college life in Shandong University which equipped me with solid programming and mathematics skills. I am currently studying computer vision and neural network in ANU, hoping to get a research opportunity in relative fields.
+I’m a senior year undergraduate student at Australian National University(ANU) pursuing for bachelor degree on Advanced Computing(honour), prior to join the 2+2 bachelor program of ANU, I was studying computer science at Shandong University in China.
+
+My current research is under the supervision of Professor Tom Gedeon at ANU on the topic of variational auto-encoder, I’m also doing some summarizing works on with respective to Bayesian network which is currently under review by my thesis co-supervisor. I have a 6.00/7.00 GPA and familiar with basic math tools e.g. variational inferences, probabilistic models, linear algebra, convex optimisation(learning this semester), etc.
