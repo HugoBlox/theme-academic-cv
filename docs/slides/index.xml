@@ -1,120 +1,98 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Slides | アプリNaviブログ</title>
-    <link>https://blog.opuappnavi.com/slides/</link>
-      <atom:link href="https://blog.opuappnavi.com/slides/index.xml" rel="self" type="application/rss+xml" />
-    <description>Slides</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710  2020</copyright><lastBuildDate>Sun, 17 May 2020 17:58:10 +0900</lastBuildDate>
-    <item>
-      <title>スライドの書き方</title>
-      <link>https://blog.opuappnavi.com/slides/slide-introduction/</link>
-      <pubDate>Sun, 17 May 2020 17:58:10 +0900</pubDate>
-      <guid>https://blog.opuappnavi.com/slides/slide-introduction/</guid>
-      <description>&lt;h1 id=&#34;スライド機能&#34;&gt;スライド機能&lt;/h1&gt;
-&lt;p&gt;Markdown記法＋αでスライドを作成することができます。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;操作方法&#34;&gt;操作方法&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;次のスライド: &lt;code&gt;Right Arrow&lt;/code&gt; または &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;前のスライド: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;最初のスライド: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;最後のスライド: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;一覧表示: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;スピーカーノート: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;フルスクリーン: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;ズーム: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;シンタックスハイライト機能&#34;&gt;シンタックスハイライト機能&lt;/h2&gt;
-&lt;p&gt;インラインコード:&lt;code&gt;print(&amp;quot;Hello, World!&amp;quot;)&lt;/code&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-c&#34;&gt;#include&amp;lt;stdio.h&amp;gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Slides | アプリNaviブログ</title><link>https://blog.opuappnavi.com/slides/</link><atom:link href="https://blog.opuappnavi.com/slides/index.xml" rel="self" type="application/rss+xml"/><description>Slides</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710 2020</copyright><lastBuildDate>Sun, 17 May 2020 17:58:10 +0900</lastBuildDate><item><title>スライドの書き方</title><link>https://blog.opuappnavi.com/slides/slide-introduction/</link><pubDate>Sun, 17 May 2020 17:58:10 +0900</pubDate><guid>https://blog.opuappnavi.com/slides/slide-introduction/</guid><description>&lt;h1 id="スライド機能">スライド機能&lt;/h1>
+&lt;p>Markdown記法＋αでスライドを作成することができます。&lt;/p>
+&lt;hr>
+&lt;h2 id="操作方法">操作方法&lt;/h2>
+&lt;ul>
+&lt;li>次のスライド: &lt;code>Right Arrow&lt;/code> または &lt;code>Space&lt;/code>&lt;/li>
+&lt;li>前のスライド: &lt;code>Left Arrow&lt;/code>&lt;/li>
+&lt;li>最初のスライド: &lt;code>Home&lt;/code>&lt;/li>
+&lt;li>最後のスライド: &lt;code>End&lt;/code>&lt;/li>
+&lt;li>一覧表示: &lt;code>Esc&lt;/code>&lt;/li>
+&lt;li>スピーカーノート: &lt;code>S&lt;/code>&lt;/li>
+&lt;li>フルスクリーン: &lt;code>F&lt;/code>&lt;/li>
+&lt;li>ズーム: &lt;code>Alt + Click&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="シンタックスハイライト機能">シンタックスハイライト機能&lt;/h2>
+&lt;p>インラインコード:&lt;code>print(&amp;quot;Hello, World!&amp;quot;)&lt;/code>&lt;/p>
+&lt;pre>&lt;code class="language-c">#include&amp;lt;stdio.h&amp;gt;
 int main(void){
-  printf(&amp;quot;Hello, World!&amp;quot;);
-  return 0;
+printf(&amp;quot;Hello, World!&amp;quot;);
+return 0;
 }
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;数式表示&#34;&gt;数式表示&lt;/h2&gt;
-&lt;p&gt;インライン表示:$ F=G\frac{Mm}{r^2} $&lt;/p&gt;
-&lt;p&gt;$$
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;h2 id="数式表示">数式表示&lt;/h2>
+&lt;p>インライン表示:$ F=G\frac{Mm}{r^2} $&lt;/p>
+&lt;p>$$
 F=G\frac{Mm}{r^2}
-$$&lt;/p&gt;
-&lt;p&gt;+++&lt;/p&gt;
-&lt;h2 id=&#34;縦スクロール&#34;&gt;縦スクロール&lt;/h2&gt;
-&lt;p&gt;補足情報など&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
-&lt;p&gt;後からコンテンツを表示します&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{% fragment %}} One {{% /fragment %}}
+$$&lt;/p>
+&lt;p>+++&lt;/p>
+&lt;h2 id="縦スクロール">縦スクロール&lt;/h2>
+&lt;p>補足情報など&lt;/p>
+&lt;hr>
+&lt;h2 id="fragments">Fragments&lt;/h2>
+&lt;p>後からコンテンツを表示します&lt;/p>
+&lt;pre>&lt;code class="language-md">{{% fragment %}} One {{% /fragment %}}
 {{% fragment %}} **Two** {{% /fragment %}}
 {{% fragment %}} Three {{% /fragment %}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;code&gt;Right Arrow&lt;/code&gt;か&lt;code&gt;Space&lt;/code&gt;を押すと現れます&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-One 
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-&lt;strong&gt;Two&lt;/strong&gt; 
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-Three 
-&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;+++&lt;/p&gt;
-&lt;h3 id=&#34;fragments補足&#34;&gt;Fragments補足&lt;/h3&gt;
-&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;スピーカーノート&#34;&gt;スピーカーノート&lt;/h2&gt;
-&lt;p&gt;スピーカーノートを追加できます&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{% speaker_note %}}
+&lt;/code>&lt;/pre>
+&lt;p>&lt;code>Right Arrow&lt;/code>か&lt;code>Space&lt;/code>を押すと現れます&lt;/p>
+&lt;p>&lt;span class="fragment " >
+One
+&lt;/span>
+&lt;span class="fragment " >
+&lt;strong>Two&lt;/strong>
+&lt;/span>
+&lt;span class="fragment " >
+Three
+&lt;/span>&lt;/p>
+&lt;p>+++&lt;/p>
+&lt;h3 id="fragments補足">Fragments補足&lt;/h3>
+&lt;p>A fragment can accept two optional parameters:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>class&lt;/code>: use a custom style (requires definition in custom CSS)&lt;/li>
+&lt;li>&lt;code>weight&lt;/code>: sets the order in which a fragment appears&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="スピーカーノート">スピーカーノート&lt;/h2>
+&lt;p>スピーカーノートを追加できます&lt;/p>
+&lt;pre>&lt;code class="language-md">{{% speaker_note %}}
 - スピーカーだけが見れるメモです
 - `S`を押さないとみれません
 {{% /speaker_note %}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;code&gt;S&lt;/code&gt;を押すとスピーカーノートを見れます&lt;/p&gt;
-&lt;aside class=&#34;notes&#34;&gt;
-  &lt;ul&gt;
-&lt;li&gt;スピーカーだけが見れるメモです&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;S&lt;/code&gt;を押さないとみれません&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/aside&gt;
-&lt;hr&gt;
-
+&lt;/code>&lt;/pre>
+&lt;p>&lt;code>S&lt;/code>を押すとスピーカーノートを見れます&lt;/p>
+&lt;aside class="notes">
+&lt;ul>
+&lt;li>スピーカーだけが見れるメモです&lt;/li>
+&lt;li>&lt;code>S&lt;/code>を押さないとみれません&lt;/li>
+&lt;/ul>
+&lt;/aside>
+&lt;hr>
 &lt;section data-noprocess data-shortcode-slide
-  
-      
-      data-background-image=&#34;/img/hero.jpg&#34;
-  &gt;
-
-&lt;h2 id=&#34;スライドのカスタマイズ&#34;&gt;スライドのカスタマイズ&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/img/画像名&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
-&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
-&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
-&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;+++&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
-&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
-&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+data-background-image="/img/hero.jpg"
+>
+&lt;h2 id="スライドのカスタマイズ">スライドのカスタマイズ&lt;/h2>
+&lt;pre>&lt;code class="language-md">{{&amp;lt; slide background-image=&amp;quot;/img/画像名&amp;quot; &amp;gt;}}
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-md">{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-md">{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code>&lt;/pre>
+&lt;hr>
+&lt;h2 id="themes">Themes&lt;/h2>
+&lt;ul>
+&lt;li>black: Black background, white text, blue links (default)&lt;/li>
+&lt;li>white: White background, black text, blue links&lt;/li>
+&lt;li>league: Gray background, white text, blue links&lt;/li>
+&lt;li>beige: Beige background, dark text, brown links&lt;/li>
+&lt;li>sky: Blue background, thin dark text, blue links&lt;/li>
+&lt;/ul>
+&lt;p>+++&lt;/p>
+&lt;ul>
+&lt;li>night: Black background, thick white text, orange links&lt;/li>
+&lt;li>serif: Cappuccino background, gray text, brown links&lt;/li>
+&lt;li>simple: White background, black text, blue links&lt;/li>
+&lt;li>solarized: Cream-colored background, dark green text, blue links&lt;/li>
+&lt;/ul></description></item></channel></rss>

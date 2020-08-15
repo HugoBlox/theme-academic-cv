@@ -1,56 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>GitHub | アプリNaviブログ</title>
-    <link>https://blog.opuappnavi.com/tag/github/</link>
-      <atom:link href="https://blog.opuappnavi.com/tag/github/index.xml" rel="self" type="application/rss+xml" />
-    <description>GitHub</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710  2020</copyright><lastBuildDate>Sun, 24 May 2020 22:37:45 +0900</lastBuildDate>
-    <image>
-      <url>https://blog.opuappnavi.com/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url>
-      <title>GitHub</title>
-      <link>https://blog.opuappnavi.com/tag/github/</link>
-    </image>
-    
-    <item>
-      <title>GitHubのforkとライセンス</title>
-      <link>https://blog.opuappnavi.com/post/github-fork-mit/</link>
-      <pubDate>Sun, 24 May 2020 22:37:45 +0900</pubDate>
-      <guid>https://blog.opuappnavi.com/post/github-fork-mit/</guid>
-      <description>&lt;h1 id=&#34;githubのfork&#34;&gt;GitHubのfork&lt;/h1&gt;
-&lt;p&gt;GitHubにはforkという機能があります。既に存在するリポジトリをコピーして、オリジナルのリポジトリに影響を与えることなく変更を加えることができます。&lt;br&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GitHub | アプリNaviブログ</title><link>https://blog.opuappnavi.com/tag/github/</link><atom:link href="https://blog.opuappnavi.com/tag/github/index.xml" rel="self" type="application/rss+xml"/><description>GitHub</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710 2020</copyright><lastBuildDate>Sun, 24 May 2020 22:37:45 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url><title>GitHub</title><link>https://blog.opuappnavi.com/tag/github/</link></image><item><title>GitHubのforkとライセンス</title><link>https://blog.opuappnavi.com/post/github-fork-mit/</link><pubDate>Sun, 24 May 2020 22:37:45 +0900</pubDate><guid>https://blog.opuappnavi.com/post/github-fork-mit/</guid><description>&lt;h1 id="githubのfork">GitHubのfork&lt;/h1>
+&lt;p>GitHubにはforkという機能があります。既に存在するリポジトリをコピーして、オリジナルのリポジトリに影響を与えることなく変更を加えることができます。&lt;br>
 このサイトは
-&lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic Kickstart&lt;/a&gt;というリポジトリをforkして開発しています。&lt;/p&gt;
-&lt;h1 id=&#34;ライセンス&#34;&gt;ライセンス&lt;/h1&gt;
-&lt;p&gt;GitHubのリポジトリにはたいてい、LICENSEという名前のファイルがあります。ライセンスはそのプログラムの改変・商用利用などをしても良いかなどを記したファイルで、何を許可するかによって様々なライセンスが存在します。&lt;br&gt;
+&lt;a href="https://github.com/sourcethemes/academic-kickstart" target="_blank" rel="noopener">Academic Kickstart&lt;/a>というリポジトリをforkして開発しています。&lt;/p>
+&lt;h1 id="ライセンス">ライセンス&lt;/h1>
+&lt;p>GitHubのリポジトリにはたいてい、LICENSEという名前のファイルがあります。ライセンスはそのプログラムの改変・商用利用などをしても良いかなどを記したファイルで、何を許可するかによって様々なライセンスが存在します。&lt;br>
 その中で一番多く用いられているライセンスの１つがMITライセンスです。
-&lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic Kickstart&lt;/a&gt;もMITライセンスです。
-MITライセンスが設定されたリポジトリは、以下の2つを守れば改変・商用利用など自由に使うことができます。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;元の著作権表示(&lt;code&gt;Copyright (c) 年 作者名&lt;/code&gt;)をそのまま掲載すること&lt;/li&gt;
-&lt;li&gt;ライセンスの全文（あるいは全文が掲載されたサイトのURL）を掲載すること&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;詳しくは
-&lt;a href=&#34;https://wisdommingle.com/mit-license/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;このサイト&lt;/a&gt;などを参照してください。&lt;/p&gt;
-&lt;h1 id=&#34;forkとライセンス&#34;&gt;forkとライセンス&lt;/h1&gt;
-&lt;p&gt;このサイトを開発する中で、「forkしたリポジトリのライセンスはどう変更するべきなのか」という疑問を持ち、検索してみました。その結果わかった2つの方法を紹介します。&lt;/p&gt;
-&lt;h2 id=&#34;方法1一行下に自分の著作権表示を追加&#34;&gt;方法1　一行下に自分の著作権表示を追加&lt;/h2&gt;
-&lt;details&gt;
-    &lt;summary&gt;方法1&lt;/summary&gt;
-    &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;The MIT License (MIT)
-
+&lt;a href="https://github.com/sourcethemes/academic-kickstart" target="_blank" rel="noopener">Academic Kickstart&lt;/a>もMITライセンスです。
+MITライセンスが設定されたリポジトリは、以下の2つを守れば改変・商用利用など自由に使うことができます。&lt;/p>
+&lt;ul>
+&lt;li>元の著作権表示(&lt;code>Copyright (c) 年 作者名&lt;/code>)をそのまま掲載すること&lt;/li>
+&lt;li>ライセンスの全文（あるいは全文が掲載されたサイトのURL）を掲載すること&lt;/li>
+&lt;/ul>
+&lt;p>詳しくは
+&lt;a href="https://wisdommingle.com/mit-license/" target="_blank" rel="noopener">このサイト&lt;/a>などを参照してください。&lt;/p>
+&lt;h1 id="forkとライセンス">forkとライセンス&lt;/h1>
+&lt;p>このサイトを開発する中で、「forkしたリポジトリのライセンスはどう変更するべきなのか」という疑問を持ち、検索してみました。その結果わかった2つの方法を紹介します。&lt;/p>
+&lt;h2 id="方法1一行下に自分の著作権表示を追加">方法1　一行下に自分の著作権表示を追加&lt;/h2>
+&lt;details>
+&lt;summary>方法1&lt;/summary>
+&lt;pre>&lt;code class="language-md">The MIT License (MIT)
 Copyright (c) 年 foo
-
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
-
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
-
 THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -58,23 +35,19 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;上のようなライセンスのリポジトリをforkする場合、次のように変更します。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;The MIT License (MIT)
-
+&lt;/code>&lt;/pre>
+&lt;p>上のようなライセンスのリポジトリをforkする場合、次のように変更します。&lt;/p>
+&lt;pre>&lt;code class="language-md">The MIT License (MIT)
 Copyright (c) 年 foo
 Copyright (c) 年 作者名(自分)
-
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
-
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
-
 THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -82,27 +55,21 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;/details&gt;
-
-&lt;h2 id=&#34;方法2ライセンスを併記&#34;&gt;方法2　ライセンスを併記&lt;/h2&gt;
-&lt;details&gt;
-    &lt;summary&gt;方法2&lt;/summary&gt;
-    &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;The MIT License (MIT)
-
+&lt;/code>&lt;/pre>
+&lt;/details>
+&lt;h2 id="方法2ライセンスを併記">方法2　ライセンスを併記&lt;/h2>
+&lt;details>
+&lt;summary>方法2&lt;/summary>
+&lt;pre>&lt;code class="language-md">The MIT License (MIT)
 Copyright (c) 年 foo
-
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
-
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
-
 THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -110,22 +77,18 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;上のようなライセンスのリポジトリをforkする場合、書き方は色々ありますが、例えば次のように変更します。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;The MIT License (MIT)
-
+&lt;/code>&lt;/pre>
+&lt;p>上のようなライセンスのリポジトリをforkする場合、書き方は色々ありますが、例えば次のように変更します。&lt;/p>
+&lt;pre>&lt;code class="language-md">The MIT License (MIT)
 Copyright (c) 年 作者名(自分)
-
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
-
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
-
 THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -133,23 +96,17 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
 Here is the original copyright notice:
-
 The MIT License (MIT)
-
 Copyright (c) 年 foo
-
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the &amp;quot;Software&amp;quot;), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
-
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
-
 THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -157,425 +114,219 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;GitHubはライセンスの種類を認識し、説明を表示する機能があります。この方法だとGitHubがGitHuMITライセンスだと認識してくれないという問題があります。&lt;/p&gt;
-
-&lt;/details&gt;
-
-&lt;h1 id=&#34;検証&#34;&gt;検証&lt;/h1&gt;
-&lt;p&gt;forkしたリポジトリのライセンス変更に、実際どのような方法が取られているか検証することにしました。検証するリポジトリは
-&lt;a href=&#34;https://github.com/tokyo-metropolitan-gov/covid19&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;東京都コロナウイルス対策サイト&lt;/a&gt;です。GitHubにMITライセンスのリポジトリが公開されており、多くの都道府県が(公式 / 非公式で)このリポジトリをforkした対策サイトを作成しています。
-&lt;a href=&#34;https://github.com/tokyo-metropolitan-gov/covid19/blob/development/FORKED_SITES.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;派生したサイト一覧&lt;/a&gt;に掲載されているリポジトリについて、&lt;code&gt;master&lt;/code&gt;ブランチの&lt;code&gt;LICENSE.txt&lt;/code&gt;の権利表記を比較すると、以下のような結果になりました。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;著作権表示に加えられた変更&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;リポジトリ数&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;そのまま&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;51&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;書き換え&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;7&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;方法1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;方法2&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;東京都のリポジトリの権利表記&lt;code&gt;Copyright (c) 2020 Tokyo Metropolitan Government and other contributors.&lt;/code&gt;をforkした側の名前に書き換えているリポジトリがいくつかありました。厳密に言えばこれはMITライセンスの規約違反になるので意外でした。「コロナ対策サイト」で著作権の問題は起こらないでしょうから、ライセンス関連はあまり気にしていないのかもしれません。&lt;/p&gt;
-&lt;h1 id=&#34;参考サイト&#34;&gt;参考サイト&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://help.github.com/ja/github/getting-started-with-github/fork-a-repo&#34;&gt;https://help.github.com/ja/github/getting-started-with-github/fork-a-repo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://wisdommingle.com/mit-license/&#34;&gt;https://wisdommingle.com/mit-license/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gist.github.com/fbaierl/1d740a7925a6e0e608824eb27a429370&#34;&gt;https://gist.github.com/fbaierl/1d740a7925a6e0e608824eb27a429370&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://opensource.stackexchange.com/questions/6119/forking-github-repository-mit-what-references-to-the-original-author-should-r&#34;&gt;https://opensource.stackexchange.com/questions/6119/forking-github-repository-mit-what-references-to-the-original-author-should-r&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://ja.stackoverflow.com/questions/3040/mit%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E3%81%AE%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E3%82%92%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AF%E3%81%97%E3%81%9F%E5%A0%B4%E5%90%88%E3%81%AE%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E8%A1%A8%E8%A8%98&#34;&gt;https://ja.stackoverflow.com/questions/3040/mit%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E3%81%AE%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E3%82%92%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AF%E3%81%97%E3%81%9F%E5%A0%B4%E5%90%88%E3%81%AE%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E8%A1%A8%E8%A8%98&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://softwareengineering.stackexchange.com/questions/277688/if-i-fork-a-project-on-github-that-is-licensed-under-mit-how-to-i-handle-the-at&#34;&gt;https://softwareengineering.stackexchange.com/questions/277688/if-i-fork-a-project-on-github-that-is-licensed-under-mit-how-to-i-handle-the-at&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;forkした側のライセンスを別ファイルに掲載しているリポジトリを含みます。 &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Unity製ゲームをWebで共有する方法</title>
-      <link>https://blog.opuappnavi.com/post/unity-github-pages/</link>
-      <pubDate>Mon, 04 May 2020 20:17:22 +0900</pubDate>
-      <guid>https://blog.opuappnavi.com/post/unity-github-pages/</guid>
-      <description>&lt;p&gt;Gitに詳しくない人向けに書いています。Gitに詳しい人は&lt;code&gt;詳しくない人向け&lt;/code&gt;の部分は読まなくて大丈夫です。&lt;/p&gt;
-&lt;h1 id=&#34;必要なもの&#34;&gt;必要なもの&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Unity&lt;/li&gt;
-&lt;li&gt;GitHub アカウント&lt;/li&gt;
-&lt;li&gt;Git：
-&lt;a href=&#34;https://git-scm.com/downloads&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ここ&lt;/a&gt;からダウンロードできます&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;1-unityでゲームをビルドする&#34;&gt;1. Unityでゲームをビルドする&lt;/h1&gt;
-&lt;h2 id=&#34;11-build-settingsを開く&#34;&gt;1.1 Build Settingsを開く&lt;/h2&gt;
-&lt;p&gt;左上のメニューで&lt;code&gt;File&lt;/code&gt;&amp;gt;&lt;code&gt;Build Settings&lt;/code&gt;をクリックしてください。&lt;/p&gt;
-&lt;h2 id=&#34;12-プラットフォームの変更&#34;&gt;1.2 プラットフォームの変更&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;WebGL&lt;/code&gt;を選択し、&lt;code&gt;Switch Platform&lt;/code&gt;をクリックしてください。&lt;/p&gt;
-&lt;h2 id=&#34;13-ゲームをビルド&#34;&gt;1.3 ゲームをビルド&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;Build&lt;/code&gt;をクリックしてください。ビルド先はどこでも構いません。私は&lt;code&gt;(プロジェクト名)/Builds/WebGL&lt;/code&gt;を選択しています。&lt;/p&gt;
-&lt;h1 id=&#34;2-githubにアップロード&#34;&gt;2. GitHubにアップロード&lt;/h1&gt;
-&lt;p&gt;ビルドの結果、以下の3つのファイルが生成されます。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Build&lt;/code&gt;フォルダ&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;TemplateData&lt;/code&gt;フォルダ&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;index.html&lt;/code&gt;ファイル&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;これらのファイルをGitHubにアップロードします。&lt;br&gt;
-&lt;details&gt;
-    &lt;summary&gt;詳しくない人向け&lt;/summary&gt;
-    &lt;h2 id=&#34;21-githubにサインイン&#34;&gt;2.1 GitHubにサインイン&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;にアクセスし、サインインしてください。&lt;/p&gt;
-&lt;h2 id=&#34;22-新しいリポジトリの作成&#34;&gt;2.2 新しいリポジトリの作成&lt;/h2&gt;
-&lt;figure class=&#34;left&#34; &gt;
-&lt;p&gt;&lt;a data-fancybox=&#34;&#34; href=&#34;./GitHub_New_Repository.png&#34; &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./GitHub_New_Repository.png&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;&lt;/p&gt;
-&lt;/figure&gt;
-&lt;p&gt;&lt;code&gt;Repositories&lt;/code&gt;の右にある&lt;code&gt;New&lt;/code&gt;をクリックしてください。&lt;/p&gt;
-&lt;figure class=&#34;left&#34; &gt;
-&lt;p&gt;&lt;a data-fancybox=&#34;&#34; href=&#34;./GitHub_New_Repository2.png&#34; &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./GitHub_New_Repository2.png&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;&lt;/p&gt;
-&lt;/figure&gt;
-&lt;p&gt;&lt;code&gt;Repository name&lt;/code&gt;は任意の名前で構いませんが、ゲームをプレイする人も見ることができるので注意してください。&lt;br&gt;
-&lt;code&gt;Public&lt;/code&gt;と&lt;code&gt;Private&lt;/code&gt;を選択できますが、&lt;code&gt;Public&lt;/code&gt;を選択してください。&lt;br&gt;
-&lt;code&gt;Create repository&lt;/code&gt;を選択してリポジトリを作成してください。&lt;/p&gt;
-&lt;figure class=&#34;left&#34; &gt;
-&lt;p&gt;&lt;a data-fancybox=&#34;&#34; href=&#34;./GitHub_New_Repository3.png&#34; &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./GitHub_New_Repository3.png&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;&lt;/p&gt;
-&lt;/figure&gt;
-&lt;p&gt;赤い枠で囲まれたボタンを押してください。左のURLがクリップボードにコピーされます。&lt;/p&gt;
-&lt;h2 id=&#34;23-ファイルのアップロード&#34;&gt;2.3 ファイルのアップロード&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;Git Bash&lt;/code&gt;を起動してください。
-起動時のフォルダは&lt;code&gt;C:\Users\(ユーザー名)&lt;/code&gt;なので、ビルド結果があるフォルダに移動してください。&lt;code&gt;cd (フォルダ名)&lt;/code&gt;コマンドで移動できます。
-移動したら、以下のコマンドを一行ずつ実行してください。&lt;/p&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    &lt;code&gt;Git Bash&lt;/code&gt;では&lt;code&gt;Shift&lt;/code&gt;+&lt;code&gt;Insert&lt;/code&gt;で貼り付けができます
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git init
+&lt;/code>&lt;/pre>
+&lt;p>GitHubはライセンスの種類を認識し、説明を表示する機能があります。この方法だとGitHubがGitHuMITライセンスだと認識してくれないという問題があります。&lt;/p>
+&lt;/details>
+&lt;h1 id="検証">検証&lt;/h1>
+&lt;p>forkしたリポジトリのライセンス変更に、実際どのような方法が取られているか検証することにしました。検証するリポジトリは
+&lt;a href="https://github.com/tokyo-metropolitan-gov/covid19" target="_blank" rel="noopener">東京都コロナウイルス対策サイト&lt;/a>です。GitHubにMITライセンスのリポジトリが公開されており、多くの都道府県が(公式 / 非公式で)このリポジトリをforkした対策サイトを作成しています。
+&lt;a href="https://github.com/tokyo-metropolitan-gov/covid19/blob/development/FORKED_SITES.md" target="_blank" rel="noopener">派生したサイト一覧&lt;/a>に掲載されているリポジトリについて、&lt;code>master&lt;/code>ブランチの&lt;code>LICENSE.txt&lt;/code>の権利表記を比較すると、以下のような結果になりました。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th align="center">著作権表示に加えられた変更&lt;/th>
+&lt;th align="center">リポジトリ数&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td align="center">そのまま&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/td>
+&lt;td align="center">51&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td align="center">書き換え&lt;/td>
+&lt;td align="center">7&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td align="center">方法1&lt;/td>
+&lt;td align="center">1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td align="center">方法2&lt;/td>
+&lt;td align="center">0&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>東京都のリポジトリの権利表記&lt;code>Copyright (c) 2020 Tokyo Metropolitan Government and other contributors.&lt;/code>をforkした側の名前に書き換えているリポジトリがいくつかありました。厳密に言えばこれはMITライセンスの規約違反になるので意外でした。「コロナ対策サイト」で著作権の問題は起こらないでしょうから、ライセンス関連はあまり気にしていないのかもしれません。&lt;/p>
+&lt;h1 id="参考サイト">参考サイト&lt;/h1>
+&lt;ul>
+&lt;li>&lt;a href="https://help.github.com/ja/github/getting-started-with-github/fork-a-repo">https://help.github.com/ja/github/getting-started-with-github/fork-a-repo&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://wisdommingle.com/mit-license/">https://wisdommingle.com/mit-license/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://gist.github.com/fbaierl/1d740a7925a6e0e608824eb27a429370">https://gist.github.com/fbaierl/1d740a7925a6e0e608824eb27a429370&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://opensource.stackexchange.com/questions/6119/forking-github-repository-mit-what-references-to-the-original-author-should-r">https://opensource.stackexchange.com/questions/6119/forking-github-repository-mit-what-references-to-the-original-author-should-r&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://ja.stackoverflow.com/questions/3040/mit%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E3%81%AE%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E3%82%92%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AF%E3%81%97%E3%81%9F%E5%A0%B4%E5%90%88%E3%81%AE%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E8%A1%A8%E8%A8%98">https://ja.stackoverflow.com/questions/3040/mit%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E3%81%AE%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E3%82%92%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AF%E3%81%97%E3%81%9F%E5%A0%B4%E5%90%88%E3%81%AE%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E8%A1%A8%E8%A8%98&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://softwareengineering.stackexchange.com/questions/277688/if-i-fork-a-project-on-github-that-is-licensed-under-mit-how-to-i-handle-the-at">https://softwareengineering.stackexchange.com/questions/277688/if-i-fork-a-project-on-github-that-is-licensed-under-mit-how-to-i-handle-the-at&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>forkした側のライセンスを別ファイルに掲載しているリポジトリを含みます。 &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Unity製ゲームをWebで共有する方法</title><link>https://blog.opuappnavi.com/post/unity-github-pages/</link><pubDate>Mon, 04 May 2020 20:17:22 +0900</pubDate><guid>https://blog.opuappnavi.com/post/unity-github-pages/</guid><description>&lt;p>Gitに詳しくない人向けに書いています。Gitに詳しい人は&lt;code>詳しくない人向け&lt;/code>の部分は読まなくて大丈夫です。&lt;/p>
+&lt;h1 id="必要なもの">必要なもの&lt;/h1>
+&lt;ul>
+&lt;li>Unity&lt;/li>
+&lt;li>GitHub アカウント&lt;/li>
+&lt;li>Git：
+&lt;a href="https://git-scm.com/downloads" target="_blank" rel="noopener">ここ&lt;/a>からダウンロードできます&lt;/li>
+&lt;/ul>
+&lt;h1 id="1-unityでゲームをビルドする">1. Unityでゲームをビルドする&lt;/h1>
+&lt;h2 id="11-build-settingsを開く">1.1 Build Settingsを開く&lt;/h2>
+&lt;p>左上のメニューで&lt;code>File&lt;/code>&amp;gt;&lt;code>Build Settings&lt;/code>をクリックしてください。&lt;/p>
+&lt;h2 id="12-プラットフォームの変更">1.2 プラットフォームの変更&lt;/h2>
+&lt;p>&lt;code>WebGL&lt;/code>を選択し、&lt;code>Switch Platform&lt;/code>をクリックしてください。&lt;/p>
+&lt;h2 id="13-ゲームをビルド">1.3 ゲームをビルド&lt;/h2>
+&lt;p>&lt;code>Build&lt;/code>をクリックしてください。ビルド先はどこでも構いません。私は&lt;code>(プロジェクト名)/Builds/WebGL&lt;/code>を選択しています。&lt;/p>
+&lt;h1 id="2-githubにアップロード">2. GitHubにアップロード&lt;/h1>
+&lt;p>ビルドの結果、以下の3つのファイルが生成されます。&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>Build&lt;/code>フォルダ&lt;/li>
+&lt;li>&lt;code>TemplateData&lt;/code>フォルダ&lt;/li>
+&lt;li>&lt;code>index.html&lt;/code>ファイル&lt;/li>
+&lt;/ul>
+&lt;p>これらのファイルをGitHubにアップロードします。&lt;br>
+&lt;details>
+&lt;summary>詳しくない人向け&lt;/summary>
+&lt;h2 id="21-githubにサインイン">2.1 GitHubにサインイン&lt;/h2>
+&lt;p>&lt;a href="https://github.com/">GitHub&lt;/a>にアクセスし、サインインしてください。&lt;/p>
+&lt;h2 id="22-新しいリポジトリの作成">2.2 新しいリポジトリの作成&lt;/h2>
+&lt;figure class="left" >
+&lt;p>&lt;a data-fancybox="" href="./GitHub_New_Repository.png" >&lt;/p>
+&lt;p>&lt;img src="./GitHub_New_Repository.png" alt="" >
+&lt;/a>&lt;/p>
+&lt;/figure>
+&lt;p>&lt;code>Repositories&lt;/code>の右にある&lt;code>New&lt;/code>をクリックしてください。&lt;/p>
+&lt;figure class="left" >
+&lt;p>&lt;a data-fancybox="" href="./GitHub_New_Repository2.png" >&lt;/p>
+&lt;p>&lt;img src="./GitHub_New_Repository2.png" alt="" >
+&lt;/a>&lt;/p>
+&lt;/figure>
+&lt;p>&lt;code>Repository name&lt;/code>は任意の名前で構いませんが、ゲームをプレイする人も見ることができるので注意してください。&lt;br>
+&lt;code>Public&lt;/code>と&lt;code>Private&lt;/code>を選択できますが、&lt;code>Public&lt;/code>を選択してください。&lt;br>
+&lt;code>Create repository&lt;/code>を選択してリポジトリを作成してください。&lt;/p>
+&lt;figure class="left" >
+&lt;p>&lt;a data-fancybox="" href="./GitHub_New_Repository3.png" >&lt;/p>
+&lt;p>&lt;img src="./GitHub_New_Repository3.png" alt="" >
+&lt;/a>&lt;/p>
+&lt;/figure>
+&lt;p>赤い枠で囲まれたボタンを押してください。左のURLがクリップボードにコピーされます。&lt;/p>
+&lt;h2 id="23-ファイルのアップロード">2.3 ファイルのアップロード&lt;/h2>
+&lt;p>&lt;code>Git Bash&lt;/code>を起動してください。
+起動時のフォルダは&lt;code>C:\Users\(ユーザー名)&lt;/code>なので、ビルド結果があるフォルダに移動してください。&lt;code>cd (フォルダ名)&lt;/code>コマンドで移動できます。
+移動したら、以下のコマンドを一行ずつ実行してください。&lt;/p>
+&lt;div class="alert alert-note">
+&lt;div>
+&lt;code>Git Bash&lt;/code>では&lt;code>Shift&lt;/code>+&lt;code>Insert&lt;/code>で貼り付けができます
+&lt;/div>
+&lt;/div>
+&lt;pre>&lt;code class="language-bash">git init
 git add .
 git commit -m &amp;quot;Initial Commit&amp;quot;
 git remote add origin (先ほどコピーしたURL)
 git push -u origin master
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;/details&gt;
-&lt;/p&gt;
-&lt;h1 id=&#34;3-webにゲームを公開&#34;&gt;3. Webにゲームを公開&lt;/h1&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34;left&#34; &gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;./GitHub_Pages.png&#34; &gt;
-
-
-  &lt;img src=&#34;./GitHub_Pages.png&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
-&lt;code&gt;Settings&lt;/code&gt;をクリックしてください。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34;left&#34; &gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;./GitHub_Pages2.png&#34; &gt;
-
-
-  &lt;img src=&#34;./GitHub_Pages2.png&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
-スクロールし、&lt;code&gt;GitHub Pages&lt;/code&gt;の&lt;code&gt;Source&lt;/code&gt;の下にあるドロップダウンリストで&lt;code&gt;master branch&lt;/code&gt;を選択してください。&lt;/p&gt;
-&lt;h1 id=&#34;公開したゲームをプレイ&#34;&gt;公開したゲームをプレイ&lt;/h1&gt;
-&lt;p&gt;&lt;code&gt;https://(ユーザー名).github.io/(リポジトリ名)/&lt;/code&gt;というURLにアクセスすると、作ったゲームをプレイすることができます。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>GitHub for Unityの紹介</title>
-      <link>https://blog.opuappnavi.com/post/github-for-unity/</link>
-      <pubDate>Thu, 30 Apr 2020 20:18:25 +0900</pubDate>
-      <guid>https://blog.opuappnavi.com/post/github-for-unity/</guid>
-      <description>&lt;h1 id=&#34;使用したunityのバージョン&#34;&gt;使用したUnityのバージョン&lt;/h1&gt;
-&lt;p&gt;Unity 2018.4.22f1&lt;/p&gt;
-&lt;h1 id=&#34;導入方法&#34;&gt;導入方法&lt;/h1&gt;
-&lt;p&gt;プロジェクトごとに行う必要があります。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Asset Storeから「GitHub for Unity」をインポート&lt;/li&gt;
-&lt;li&gt;メニューで&lt;code&gt;Window&lt;/code&gt;&amp;gt;&lt;code&gt;GitHub&lt;/code&gt;を選択&lt;br&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34;left&#34; &gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;./GitHub_Tab_Menu.png&#34; &gt;
-
-
-  &lt;img src=&#34;./GitHub_Tab_Menu.png&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;/code>&lt;/pre>
+&lt;/details>
+&lt;/p>
+&lt;h1 id="3-webにゲームを公開">3. Webにゲームを公開&lt;/h1>
+&lt;p>
+&lt;figure class="left" >
+&lt;a data-fancybox="" href="./GitHub_Pages.png" >
+&lt;img src="./GitHub_Pages.png" alt="" >
+&lt;/a>
+&lt;/figure>
+&lt;code>Settings&lt;/code>をクリックしてください。
+&lt;figure class="left" >
+&lt;a data-fancybox="" href="./GitHub_Pages2.png" >
+&lt;img src="./GitHub_Pages2.png" alt="" >
+&lt;/a>
+&lt;/figure>
+スクロールし、&lt;code>GitHub Pages&lt;/code>の&lt;code>Source&lt;/code>の下にあるドロップダウンリストで&lt;code>master branch&lt;/code>を選択してください。&lt;/p>
+&lt;h1 id="公開したゲームをプレイ">公開したゲームをプレイ&lt;/h1>
+&lt;p>&lt;code>https://(ユーザー名).github.io/(リポジトリ名)/&lt;/code>というURLにアクセスすると、作ったゲームをプレイすることができます。&lt;/p></description></item><item><title>GitHub for Unityの紹介</title><link>https://blog.opuappnavi.com/post/github-for-unity/</link><pubDate>Thu, 30 Apr 2020 20:18:25 +0900</pubDate><guid>https://blog.opuappnavi.com/post/github-for-unity/</guid><description>&lt;h1 id="使用したunityのバージョン">使用したUnityのバージョン&lt;/h1>
+&lt;p>Unity 2018.4.22f1&lt;/p>
+&lt;h1 id="導入方法">導入方法&lt;/h1>
+&lt;p>プロジェクトごとに行う必要があります。&lt;/p>
+&lt;ol>
+&lt;li>Asset Storeから「GitHub for Unity」をインポート&lt;/li>
+&lt;li>メニューで&lt;code>Window&lt;/code>&amp;gt;&lt;code>GitHub&lt;/code>を選択&lt;br>
+&lt;figure class="left" >
+&lt;a data-fancybox="" href="./GitHub_Tab_Menu.png" >
+&lt;img src="./GitHub_Tab_Menu.png" alt="" >
+&lt;/a>
+&lt;/figure>
 GitHubタブが開きます。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34;left&#34; &gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;./GitHub_Tab.png&#34; &gt;
-
-
-  &lt;img src=&#34;./GitHub_Tab.png&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;(初回のみ)&lt;/strong&gt; &lt;code&gt;Sign In&lt;/code&gt;をクリック&lt;br&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34;left&#34; &gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;./GitHub_SignIn.png&#34; &gt;
-
-
-  &lt;img src=&#34;./GitHub_SignIn.png&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
-ダイアログが表示されるので、GitHubアカウントでサインインしてください。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Initialize a git repository for this project&lt;/code&gt;をクリック&lt;br&gt;
-少し待つと、タブの中身が変化します。&lt;br&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34;left&#34; &gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;./GitHub_AfterGitInit.png&#34; &gt;
-
-
-  &lt;img src=&#34;./GitHub_AfterGitInit.png&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h1 id=&#34;使い方&#34;&gt;使い方&lt;/h1&gt;
-&lt;p&gt;&lt;code&gt;Changes&lt;/code&gt;を選択してください。前回保存した状態から変更があったファイルが一覧表示されます。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class=&#34;left&#34; &gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;./GitHub_Changes.png&#34; &gt;
-
-
-  &lt;img src=&#34;./GitHub_Changes.png&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-&lt;/p&gt;
-&lt;h2 id=&#34;変更を保存する&#34;&gt;変更を保存する&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;リストから保存したい変更をチェックマークをクリックして選択&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Commit summary&lt;/code&gt;に変更内容を記述&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Commit description&lt;/code&gt;に変更内容の詳細を記述（任意）&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Commit to [master]&lt;/code&gt;をクリック&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;変更内容を確認する&#34;&gt;変更内容を確認する&lt;/h2&gt;
-&lt;p&gt;前回保存した状態と現在の状態との差分を見ることができます。
-&lt;div class=&#34;alert alert-warning&#34;&gt;
-  &lt;div&gt;
-    差分を比較するソフトウェア(&lt;a href=&#34;https://forest.watch.impress.co.jp/library/software/winmerge/&#34;&gt;WinMerge&lt;/a&gt;など)をインストールする必要があります。
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;リストから差分を見たいファイルを右クリック&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Show Diff&lt;/code&gt;をクリック&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;変更を取り消す&#34;&gt;変更を取り消す&lt;/h3&gt;
-&lt;p&gt;加えた変更を無かったことにして、前回保存した状態に戻すことができます。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;リストから変更を取り消したいファイルを右クリック&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Discard&lt;/code&gt;をクリック&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h1 id=&#34;その他&#34;&gt;その他&lt;/h1&gt;
-&lt;h2 id=&#34;比較ソフトウェアを変更したい&#34;&gt;比較ソフトウェアを変更したい&lt;/h2&gt;
-&lt;p&gt;比較ソフトウェアが複数インストールされていて、変更したい場合&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;UnityのPreferenceを開く&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;External Tools&lt;/code&gt;を選択&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Revision Controll Diff/Merge&lt;/code&gt;でソフトウェアを選択&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr&gt;
-&lt;details&gt;
-    &lt;summary&gt;GitHubやGitに詳しい人向け&lt;/summary&gt;
-    &lt;h2 id=&#34;revert&#34;&gt;Revert&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;code&gt;History&lt;/code&gt;を選択&lt;/li&gt;
-&lt;li&gt;コミットを右クリック&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Revert&lt;/code&gt;をクリック&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;/details&gt;
-
-</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;figure class="left" >
+&lt;a data-fancybox="" href="./GitHub_Tab.png" >
+&lt;img src="./GitHub_Tab.png" alt="" >
+&lt;/a>
+&lt;/figure>
+&lt;/li>
+&lt;li>&lt;strong>(初回のみ)&lt;/strong> &lt;code>Sign In&lt;/code>をクリック&lt;br>
+&lt;figure class="left" >
+&lt;a data-fancybox="" href="./GitHub_SignIn.png" >
+&lt;img src="./GitHub_SignIn.png" alt="" >
+&lt;/a>
+&lt;/figure>
+ダイアログが表示されるので、GitHubアカウントでサインインしてください。&lt;/li>
+&lt;li>&lt;code>Initialize a git repository for this project&lt;/code>をクリック&lt;br>
+少し待つと、タブの中身が変化します。&lt;br>
+&lt;figure class="left" >
+&lt;a data-fancybox="" href="./GitHub_AfterGitInit.png" >
+&lt;img src="./GitHub_AfterGitInit.png" alt="" >
+&lt;/a>
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;h1 id="使い方">使い方&lt;/h1>
+&lt;p>&lt;code>Changes&lt;/code>を選択してください。前回保存した状態から変更があったファイルが一覧表示されます。
+&lt;figure class="left" >
+&lt;a data-fancybox="" href="./GitHub_Changes.png" >
+&lt;img src="./GitHub_Changes.png" alt="" >
+&lt;/a>
+&lt;/figure>
+&lt;/p>
+&lt;h2 id="変更を保存する">変更を保存する&lt;/h2>
+&lt;ol>
+&lt;li>リストから保存したい変更をチェックマークをクリックして選択&lt;/li>
+&lt;li>&lt;code>Commit summary&lt;/code>に変更内容を記述&lt;/li>
+&lt;li>&lt;code>Commit description&lt;/code>に変更内容の詳細を記述（任意）&lt;/li>
+&lt;li>&lt;code>Commit to [master]&lt;/code>をクリック&lt;/li>
+&lt;/ol>
+&lt;h2 id="変更内容を確認する">変更内容を確認する&lt;/h2>
+&lt;p>前回保存した状態と現在の状態との差分を見ることができます。
+&lt;div class="alert alert-warning">
+&lt;div>
+差分を比較するソフトウェア(&lt;a href="https://forest.watch.impress.co.jp/library/software/winmerge/">WinMerge&lt;/a>など)をインストールする必要があります。
+&lt;/div>
+&lt;/div>
+&lt;/p>
+&lt;ol>
+&lt;li>リストから差分を見たいファイルを右クリック&lt;/li>
+&lt;li>&lt;code>Show Diff&lt;/code>をクリック&lt;/li>
+&lt;/ol>
+&lt;h3 id="変更を取り消す">変更を取り消す&lt;/h3>
+&lt;p>加えた変更を無かったことにして、前回保存した状態に戻すことができます。&lt;/p>
+&lt;ol>
+&lt;li>リストから変更を取り消したいファイルを右クリック&lt;/li>
+&lt;li>&lt;code>Discard&lt;/code>をクリック&lt;/li>
+&lt;/ol>
+&lt;h1 id="その他">その他&lt;/h1>
+&lt;h2 id="比較ソフトウェアを変更したい">比較ソフトウェアを変更したい&lt;/h2>
+&lt;p>比較ソフトウェアが複数インストールされていて、変更したい場合&lt;/p>
+&lt;ol>
+&lt;li>UnityのPreferenceを開く&lt;/li>
+&lt;li>&lt;code>External Tools&lt;/code>を選択&lt;/li>
+&lt;li>&lt;code>Revision Controll Diff/Merge&lt;/code>でソフトウェアを選択&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;details>
+&lt;summary>GitHubやGitに詳しい人向け&lt;/summary>
+&lt;h2 id="revert">Revert&lt;/h2>
+&lt;ol>
+&lt;li>&lt;code>History&lt;/code>を選択&lt;/li>
+&lt;li>コミットを右クリック&lt;/li>
+&lt;li>&lt;code>Revert&lt;/code>をクリック&lt;/li>
+&lt;/ol>
+&lt;/details></description></item></channel></rss>
