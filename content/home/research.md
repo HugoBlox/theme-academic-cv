@@ -5,8 +5,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 
-title = "Research"
-subtitle = "Our research interests"
+title = "Research topics"
+# subtitle = "Our research interests"
 
 # Showcase personal skills or business features.
 #
@@ -15,9 +15,9 @@ subtitle = "Our research interests"
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 
 [[feature]]
-  icon = ""
-  icon_pack = "fab"
-  name = "Production systems planning and supply chain management"
+  icon = "production_system"
+  icon_pack = "custom/research-topics"
+  name = "Production systems & supply chain management"
   description = """
   - Energy system planning
   - Healthcare and humanitarian logistics
