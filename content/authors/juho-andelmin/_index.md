@@ -9,45 +9,57 @@ authors:
 # Is this the primary user of the site?
 superuser: false
 
-# Role/position (e.g., Professor of Artificial Intelligence)
-role:
+# Role/position (e.g., Professor of Artificial In
+role: Doctoral Candidate
 
 # Organizations/Affiliations
 organizations:
-- name: 
-  url: ""
+- name: Aalto University School of Science
+  url: "https://sal.aalto.fi/en/personnel/juho.andelmin/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio: "Juho Andelmin is a Doctoral Candidate in the Department of Mathematics and Systems Analysis at Aalto University School of Science."
 
 # List each interest with a dash
-# interests:
-# - Interest 1
-# - Interest 2
+interests:
+- Mathematical programming
+- Combinatorial optimization
+- Algorithms
+- Linear Programming
+- Integer Programming
+- Decomposition methods 
+- Vehicle routing problems
+- Decision-making under uncertainty 
 
-# education:
-#   courses:
-#   - course: Title course 1
-#     institution: Name of Institution
-#     year: 2012
-#   - course: Title course 1
-#     institution: Name of Institution
-#     year: 2012
+education:
+  courses:
+  - course: Doctoral Candidate in Mathematics and Systems Analysis
+    institution: Aalto University School of Science
+    year: 2015 --
+  - course: MSc in Systems and Operations Research
+    institution: Aalto University School of Science
+    year: 2014
+  - course: BSc in Systems Sciences
+    institution: Aalto University School of Science 
+    year: 2013
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-# - icon: envelope
-#   icon_pack: fas
-#   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+- icon: envelope
+  icon_pack: fas
+  link: "mailto:juho.andelmin@aalto.fi"
 # - icon: twitter
 #   icon_pack: fab
 #   link: https://twitter.com/USERNAME
-# - icon: google-scholar
-#   icon_pack: ai
-#   link: https://scholar.google.com/citations?user=PERSON-ID
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=YmTEz4UAAAAJ&hl=fi&oi=ao
+- icon: researchgate
+  icon_pack: ai
+  link: https://www.researchgate.net/profile/Juho_Andelmin
 # - icon: github
 #   icon_pack: fab
 #   link: https://github.com/USERNAME
@@ -66,3 +78,11 @@ user_groups:
 - Group 1
 - Group 2
 ---
+
+<div style="text-align: justify">
+  
+My previous research includes modeling and developing algorithms (both [exact](https://doi.org/10.1287/trsc.2016.0734) and [heuristic](https://doi.org/10.1016/j.cor.2019.04.018)) for Vehicle Routing Problems (VRPs), especially in the context of alternative fuel vehicles (e.g., [Electric VRP with Time Windows and Partial Recharges](https://sal.aalto.fi/files/personnel/juho.andelmin/tand14_public.pdf)), where fuel consumption and refueling stations are both included in the routing models. I have also studied [Resource Allocation Problems](https://doi.org/10.1016/j.ejor.2020.03.031) where decision makers wish to (re-)allocate input resources among several decision-making units (e.g., supermarkets, restaurants) to maximize total outputs (e.g., profit, sales) and/or minimize total inputs. 
+
+Currently, I am working on discrete multi-stage decision-making problems under endogenous uncertainty, specifically for problems that are represented as Limited Memory Influence Diagrams (LIMIDS) ([Lauritzen & Nilsson, 2001](https://doi.org/10.1287/mnsc.47.9.1235.9779)). Our [Decision Programming](https://arxiv.org/pdf/1910.09196.pdf) framework proposes a novel mixed-integer linear programming formulation for discrete multi-stage decision problems represented as LIMIDs. Future plans include developing decomposition algorithms for solving large instances to optimality.    
+
+</div>
