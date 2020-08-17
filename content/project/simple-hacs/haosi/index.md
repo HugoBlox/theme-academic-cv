@@ -1,43 +1,44 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+## Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Heterogeneous Agent Optimal Savings I"
 subtitle: "Linear Interpolation"
-summary: "Hugget 1993 with Linear Interpolation"
+summary: "Hugget (1993) with Linear Interpolation"
 authors: []
 tags: ["simple-hacs"]
 categories: []
 date: 2020-08-10T19:09:29-04:00
+type: book
 
-# Optional external URL for project (replaces project detail page).
+## Optional external URL for project (replaces project detail page).
 external_link: ""
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+## Featured image
+## To use, add an image named `featured.jpg/png` to your page's folder.
+## Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
   focal_point: ""
   preview_only: true
 
-# Custom links (optional).
-#   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
+## Custom links (optional).
+##   Uncomment and edit lines below to show custom links.
+## links:
+## - name: Follow
+##   url: https://twitter.com
+##   icon_pack: fab
+##   icon: twitter
 
 url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
 
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
+## Slides (optional).
+##   Associate this project with Markdown slides.
+##   Simply enter your slide deck's filename without extension.
+##   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+##   Otherwise, set `slides = ""`.
 slides: ""
 ---
 
@@ -54,22 +55,22 @@ First, we import relevant python libraries that will be useful in our calculatio
 
 
 ```python
-from time import time  # time keeping
+from time import time  ## time keeping
 
-import matplotlib.pyplot as plt  # plotting library
-import numpy as np  # numerical library
-from interpolation import interp  # linear interpolation
-from numba import njit  # just-in-time compiling nopython
-from numba import prange  # parallel range
+import matplotlib.pyplot as plt  ## plotting library
+import numpy as np  ## numerical library
+from interpolation import interp  ## linear interpolation
+from numba import njit  ## just-in-time compiling nopython
+from numba import prange  ## parallel range
 from quantecon.optimize.scalar_maximization import (
     brent_max as argmax,
-)  # finding maximum
-from scipy.optimize import toms748 as root  # finding roots
+)  ## finding maximum
+from scipy.optimize import toms748 as root  ## finding roots
 
 %matplotlib inline
 ```
 
-# Introduction
+## Introduction
 
 The most commonly used function for these models is the constant relative risk aversion (CRRA) specification, where the coefficient of risk aversion is $\sigma$. When $\sigma=1$, the limit of the function is $u(c)=\log(c)$, so in our definition we allow for different cases depending on the parameter. We use a function factory to create a jitted function for the model depending on the value of $\sigma$.
 
@@ -117,19 +118,19 @@ The first step in solving the model is creating an object that contains the mode
 
 
 ```python
-# Heterogeneous agent optimal savings
+## Heterogeneous agent optimal savings
 class HAOS(object):
     def __init__(
         self,
-        σ=1.5,  # CRRA parameter
-        u=None,  # user defined utility override
-        β=0.99322,  # discount factor
-        ω=[0.1, 1.0],  # labor earnings endowment
-        π=[[0.5, 0.5], [0.075, 0.925]],  # earnings transition matrix
-        b_bounds=[-4.0, 4.0],  # credit limits
-        Nb=100,  # number of value function grid points
+        σ=1.5,  ## CRRA parameter
+        u=None,  ## user defined utility override
+        β=0.99322,  ## discount factor
+        ω=[0.1, 1.0],  ## labor earnings endowment
+        π=[[0.5, 0.5], [0.075, 0.925]],  ## earnings transition matrix
+        b_bounds=[-4.0, 4.0],  ## credit limits
+        Nb=100,  ## number of value function grid points
         Nμ=1000,
-    ):  # number of distribution grid points
+    ):  ## number of distribution grid points
 
         self.σ = σ if u is None else None
         self.u = utility(σ) if u is None else u
@@ -141,9 +142,9 @@ class HAOS(object):
         Nz = self.ω.size
         self.Nz, self.Nb, self.Nμ = Nz, Nb, Nμ
 
-        # grid for value and policy functions
+        ## grid for value and policy functions
         self.bgrid = np.geomspace(1, bhigh - blow + 1, Nb) + blow - 1
-        # grid for distribution
+        ## grid for distribution
         self.μgrid = np.linspace(blow, bhigh, Nμ)
 
         self.init_value()
@@ -189,7 +190,7 @@ def init_distribution(Nz, Nμ):
 
 I use a log-spaced grid to solve the value and policy functions, expecting more concavity in the value function near the lower bound, or the credit limit. To solve for the stationary distribution, I use a finer linear grid. Additional helper methods such as $\texttt{init_*}$ and $\texttt{set_*}$ are used to store and clear previous solutions.
 
-# Value Function Iteration and the $T$ operator
+## Value Function Iteration and the $T$ operator
 
 To solve the value function, I use value function iteration (VFI) and the $T$ operator, the properties of which are well established in dynamic programming. To avoid having to pass all the model parameters every time we use the T operator, we can use a function factory as described below.
 
@@ -426,7 +427,7 @@ As we see above, parallel computation is on average a few microseconds faster, a
 
 We have now developed a sub-routine that is able to quickly solve the value and policy functions, given a price of bonds.
 
-# The stationary distribution and the $G$ operator
+## The stationary distribution and the $G$ operator
 
 \begin{equation}
     (G\mu)(B) = \int_S P(s,B)d\mu \text{ for } B \in \beta_S
@@ -588,7 +589,7 @@ def A_operator(model):
     return A
 ```
 
-# Solving the model
+## Solving the model
 
 
 ```python
@@ -765,6 +766,6 @@ solve_model(model, T, G, A, skip_policy=True, verbose=False, use_existing=True)
 
 
 
-# References
+## References
 
 Huggett, M. (1993). The risk-free rate in heterogeneous-agent incomplete-insurance economies. Journal of Economic Dynamics and Control, 17(5-6):953-969

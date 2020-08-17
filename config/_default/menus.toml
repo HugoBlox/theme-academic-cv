@@ -28,6 +28,16 @@
   url = "#contact"
   weight = 60
 
+[[main]]
+  name = "Courses"
+  identifier = "courses"
+  weight = 70
+
+[[main]]
+  name = "AU2020"
+  parent = "courses"
+  url = "/au2020"
+
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # [[main]]
