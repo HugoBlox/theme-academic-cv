@@ -1,0 +1,60 @@
+---
+title: How to write API packages for R
+author: ''
+date: '2020-08-17'
+draft: true
+slug: how-to-write-api-packages-for-r
+categories:
+  - R package
+  - Guide
+tags:
+  - R
+  - Vehicle fleet
+  - Govt
+  - API
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-08-17T17:15:13+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+# Overview
+
+# Installation
+
+`DVLA` is not yet on CRAN. To install, simply run the following in R.
+
+```{r installation, eval=FALSE, include=TRUE}
+devtools::install_github("daveyr/DVLA")
+```
+
+# Usage
+Documentation on functions and examples can be found on its [Github page](https://daveyr.github.io/DVLA/). Here's a more involved example, where we loop through a vector of car registration numbers.
+
+
+```{r}
+# DVLA API in action
+# 
+# library(DVLA)
+#  i <- 1
+#  dvla <- NULL
+#  for(reg in unique(fleet$reg)){
+#    df <- getDVLA(key, reg)
+#    dvla <- rbindlist(list(dvla,df), fill = T)
+#    i <- i + 1
+#    Sys.sleep(0.2) # avoid rate limits
+#  }
+#  
+#  complete <- fleet %>%
+# 	left_join(dvla, by = c("reg" = "registrationNumber"))
+```
+
+# Backend
+So what is happening behind the scenes? How would one go about replicating this type of package for another API?
