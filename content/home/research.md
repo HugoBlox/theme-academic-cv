@@ -42,6 +42,7 @@ title = "Research topics"
   - Lagrangian-based decomposition methods
   - Cutting planes-based methods
   - Convexification techniques
+  - Column Generation
   """
 
 # Uncomment to use emoji icons.
