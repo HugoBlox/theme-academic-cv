@@ -1,5 +1,5 @@
 ---
-title: How to run R in Docker on Raspberry Pi
+title: How to run R using Docker on Raspberry Pi
 author: ''
 publishDate: '2020-08-17'
 slug: how-to-run-r-in-docker-on-raspberry-pi
