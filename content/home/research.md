@@ -16,7 +16,7 @@ title = "Research topics"
 
 [[feature]]
   icon = "production_system"
-  icon_pack = "custom/research-topics"
+  icon_pack = "custom"
   name = "Production systems & supply chain management"
   description = """
   - Energy system planning
@@ -25,8 +25,8 @@ title = "Research topics"
   """
 
 [[feature]]
-  icon = ""
-  icon_pack = "fas"
+  icon = "decision_making"
+  icon_pack = "custom"
   name = "Decision making under uncertainty"
   description = """
   - Decision programming
@@ -35,8 +35,8 @@ title = "Research topics"
   """
 
 [[feature]]
-  icon = ""
-  icon_pack = "fas"
+  icon = "decomposition"
+  icon_pack = "custom"
   name = "Solution methods"
   description = """
   - Lagrangian-based decomposition methods
