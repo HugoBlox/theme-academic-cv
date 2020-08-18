@@ -18,15 +18,14 @@ organizations:
   url: "https://www.aalto.fi/en"
 
 # Short bio (displayed in user profile at end of posts)
-bio: "Emilia Vuola is a research assistant majoring in Operations research in Aalto University. In addition, she is studying towards a degree in Economics.
- 
-
-Emilia Vuola’s current research is about supply chain optimisation. She studies biodiesel supply chains with the presence of uncertainty. The uncertainties are accounted with data-driven robust optimisation.  In general she is interested in mathematical modelling and problem solving, especially in the field of economics."
+bio: "Emilia Vuola is a research assistant majoring in Operations research in Aalto University"
 
 # List each interest with a dash
-# interests:
-# - Interest 1
-# - Interest 2
+interests:
+- Operations research
+- Optimisation 
+- Statistics
+- Economics
 
 # education:
 #   courses:
@@ -69,3 +68,7 @@ user_groups:
 - Group 1
 - Group 2
 ---
+
+Emilia Vuola is a research assistant majoring in Operations research in Aalto University. In addition, she is studying towards a degree in Economics.
+ 
+Emilia Vuola’s current research is about supply chain optimisation. She studies biodiesel supply chains with the presence of uncertainty. The uncertainties are accounted with data-driven robust optimisation.  In general she is interested in mathematical modelling and problem solving, especially in the field of economics.

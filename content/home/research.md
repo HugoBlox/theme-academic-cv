@@ -37,7 +37,7 @@ title = "Research topics"
 [[feature]]
   icon = "decomposition"
   icon_pack = "custom"
-  name = "Solution methods"
+  name = "Efficient formulations and solution methods"
   description = """
   - Lagrangian-based decomposition methods
   - Cutting planes-based methods
