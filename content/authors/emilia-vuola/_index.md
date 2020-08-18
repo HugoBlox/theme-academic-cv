@@ -10,15 +10,18 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role:
+role: "Research assistant"
 
 # Organizations/Affiliations
 organizations:
-- name: 
-  url: ""
+- name: Aalto University
+  url: "https://www.aalto.fi/en"
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio: "Emilia Vuola is a research assistant majoring in Operations research in Aalto University. In addition, she is studying towards a degree in Economics.
+ 
+
+Emilia Vuola’s current research is about supply chain optimisation. She studies biodiesel supply chains with the presence of uncertainty. The uncertainties are accounted with data-driven robust optimisation.  In general she is interested in mathematical modelling and problem solving, especially in the field of economics."
 
 # List each interest with a dash
 # interests:
