@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Doctoral Student
+role: Doctoral Candidate
 
 # Organizations/Affiliations
 organizations:
@@ -18,11 +18,12 @@ organizations:
   url: "https://www.aalto.fi/en"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Olli Herrala is a Doctoral Student in the Systems Analysis Laboratory in Aalto University.
+bio: Olli Herrala is a Doctoral Candidate in the Systems Analysis Laboratory in Aalto University.
 
 # List each interest with a dash
 interests:
-- Optimization under uncertainty
+- Mathematical Programming
+- Decision-making under uncertainty
 - Sustainability
 
 education:
@@ -66,3 +67,9 @@ user_groups:
 - Group 1
 - Group 2
 ---
+
+My research is currently focused on optimization under uncertainty, developing [Decision Programming](https://github.com/gamma-opt/DecisionProgramming.jl) for multi-stage decision problems with exogenous and endogenous uncertainties. 
+
+The applications in my work (such as climate change cost-benefit analysis and water resources planning) feature long-term climate-related uncertainties. These problems are often very hard to solve with existing methods. The goal of my research is to develop methodology that allows for better solving such problems.
+
+My previous research includes retail promotions planning, where I developed a method for [evaluating cannibalization effects between products](https://sal.aalto.fi/publications/pdf-files/ther18_public.pdf).
