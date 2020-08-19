@@ -2,6 +2,9 @@
 # Display name
 title: "Fabricio Oliveira"
 
+# Weight (for sorting: 1: Fabricio, 2: Postdocs, 3: Doctoral Candidates, 4: Research Assistants)
+weight: 1
+
 # Username (this should match the folder name and the name on publications)
 authors:
 - "fabricio-oliveira"
@@ -67,8 +70,7 @@ email: "fabricio.oliveira@aalt"
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Group 1
-- Group 2
+- Research Group
 ---
 
 My research involves the topics of *prescriptive analytics* and **operations research**, in particular **analytics**, **optimisation**, and **mathematical programming**, applied to **supply chain management** and **production planning**.

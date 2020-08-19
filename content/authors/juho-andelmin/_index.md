@@ -2,6 +2,9 @@
 # Display name
 title: "Juho Andelmin"
 
+# Weight (for sorting: 1: Fabricio, 2: Postdocs, 3: Doctoral Candidates, 4: Research Assistants)
+weight: 3
+
 # Username (this should match the folder name and the name on publications)
 authors:
 - "juho-andelmin"
@@ -78,8 +81,8 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Group 1
-- Group 2
+- Research Group
+- Doctoral Candidates
 ---
 
 <div style="text-align: justify">

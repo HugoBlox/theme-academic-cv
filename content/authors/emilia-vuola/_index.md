@@ -2,6 +2,9 @@
 # Display name
 title: "Emilia Vuola"
 
+# Weight (for sorting: 1: Fabricio, 2: Postdocs, 3: Doctoral Candidates, 4: Research Assistants)
+weight: 4
+
 # Username (this should match the folder name and the name on publications)
 authors:
 - "emilia-vuola"
@@ -65,8 +68,8 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Group 1
-- Group 2
+- Research Group
+- Research Assistants
 ---
 
 Emilia Vuola is a research assistant majoring in Operations research in Aalto University. In addition, she is studying towards a degree in Economics.

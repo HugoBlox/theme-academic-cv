@@ -1,19 +1,16 @@
 ---
 # Display name
-title: "Hossein Mostafaei"
-
-# Weight (for sorting: 1: Fabricio, 2: Postdocs, 3: Doctoral Candidates, 4: Research Assistants)
-weight: 2
+title: "Lina Reichenberg"
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "hossein-mostafaei"
+- "lina-reichenberg"
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Postdoctoral Researcher
+role:
 
 # Organizations/Affiliations
 organizations:
@@ -41,7 +38,7 @@ bio:
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
-social:
+# social:
 # - icon: envelope
 #   icon_pack: fas
 #   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
@@ -66,6 +63,5 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Research Group
-- Postdocs
+- Collaborators
 ---

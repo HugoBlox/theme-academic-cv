@@ -2,6 +2,9 @@
 # Display name
 title: "Jaan Tollander de Balsch"
 
+# Weight (for sorting: 1: Fabricio, 2: Postdocs, 3: Doctoral Candidates, 4: Research Assistants)
+weight: 4
+
 # Username (this should match the folder name and the name on publications)
 authors:
 - "jaan-tollander"
@@ -63,8 +66,8 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Group 1
-- Group 2
+- Research Group
+- Research Assistants
 ---
 
 Jaan Tollander de Balsch is a computer scientist with a background in applied mathematics, who focuses on algorithms, computation, and mathematical modeling. His interests include scientific writing, software engineering, and artificial intelligence. Professionally, he creates practical, well-documented, and tested software packages for solving mathematical and computational problems using Julia and Python programming languages. Apart from work and academics, he is passionate about health, athletics, productivity, and saunas.
