@@ -34,8 +34,13 @@
   {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
   {{/* Get link to user's profile page. */}}
   {{ $link := "" }}
+  {{ $target := "" }}
   {{ with site.GetPage (printf "/authors/%s" (path.Base (path.Split .Path).Dir)) }}
     {{ $link = .RelPermalink }}
+    {{ with .Params.external_link }}
+    	{{ $link = . }}
+    	{{ $target = "target=\"_blank\" rel \"noopener\"" }}
+    {{ end }}
   {{ end }}
   <div class="col-12 col-sm-auto people-person">
     {{ $src := "" }}

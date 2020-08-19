@@ -1,0 +1,29 @@
+{{- define "main" -}}
+
+{{/* List of all authors. */}}
+
+{{ partial "page_header.html" . }}
+
+<div class="universal-wrapper">
+  {{ with .Content }}
+  <div class="article-style">{{ . }}</div>
+  {{ end }}
+
+  <ul>
+    {{ $paginator := .Paginate .Data.Pages }}
+    {{ range $k, $v := $paginator.Pages }}
+      {{ $name := $v.Title }}
+      {{ $link := $v.Permalink }}
+      {{ $target := "" }}
+      {{ with $v.Params.external_link }}
+        {{ $link = . }}
+        {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+      {{ end }}
+      <li><a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{$name}}</a></li>
+    {{ end }}
+  </ul>
+
+  {{ partial "pagination" . }}
+</div>
+
+{{- end -}}

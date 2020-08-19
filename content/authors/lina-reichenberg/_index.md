@@ -12,6 +12,9 @@ superuser: false
 # Role/position (e.g., Professor of Artificial Intelligence)
 role:
 
+# Optional external URL for author (replaces author detail page).
+external_link: "https://research.chalmers.se/en/person/linareic"
+
 # Organizations/Affiliations
 organizations:
 - name: 
