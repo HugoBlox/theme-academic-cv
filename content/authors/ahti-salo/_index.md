@@ -1,27 +1,27 @@
 ---
 # Display name
-title: "Lina Reichenberg"
+title: "Ahti Salo"
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "lina-reichenberg"
+- "ahti-salo"
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role:
+role: 
 
 # Optional external URL for author (replaces author detail page).
-external_link: "https://research.chalmers.se/en/person/linareic"
+external_link: "https://research.aalto.fi/en/persons/ahti-salo"
 
 # Organizations/Affiliations
 organizations:
-- name: "Chalmers University of Technology"
-  url: "https://www.chalmers.se/en/Pages/default.aspx"
+- name: "Aalto University"
+  url: 
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio:
 
 # List each interest with a dash
 # interests:

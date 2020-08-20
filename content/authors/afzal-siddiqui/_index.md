@@ -1,10 +1,10 @@
 ---
 # Display name
-title: "Lina Reichenberg"
+title: "Afzal Siddiqui"
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "lina-reichenberg"
+- "afzal-siddiqui"
 
 # Is this the primary user of the site?
 superuser: false
@@ -13,12 +13,12 @@ superuser: false
 role:
 
 # Optional external URL for author (replaces author detail page).
-external_link: "https://research.chalmers.se/en/person/linareic"
+external_link: "https://www.su.se/english/profiles/asidd-1.189734"
 
 # Organizations/Affiliations
 organizations:
-- name: "Chalmers University of Technology"
-  url: "https://www.chalmers.se/en/Pages/default.aspx"
+- name: "Stockholm University"
+  url: ""
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
