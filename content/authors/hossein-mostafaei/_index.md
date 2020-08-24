@@ -17,16 +17,18 @@ role: Postdoctoral Researcher
 
 # Organizations/Affiliations
 organizations:
-- name: 
-  url: ""
+- name: Aalto University
+  url: "https://www.aalto.fi/en"
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio:
 
 # List each interest with a dash
-# interests:
-# - Interest 1
-# - Interest 2
+interests:
+  - Mathematical programming
+  - Production planning and Scheduling
+  - Process Systems Engineering
+  - Data-driven Optimization
 
 # education:
 #   courses:
@@ -42,15 +44,18 @@ bio:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-# - icon: envelope
-#   icon_pack: fas
-#   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+- icon: envelope
+  icon_pack: fas
+  link: hossein.mostafaei@aalto.fi  # For a direct email link, use "mailto:test@example.org".
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=SR-R0boAAAAJ&hl
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/hossein-mostafaei-60446678/
 # - icon: twitter
 #   icon_pack: fab
 #   link: https://twitter.com/USERNAME
-# - icon: google-scholar
-#   icon_pack: ai
-#   link: https://scholar.google.com/citations?user=PERSON-ID
 # - icon: github
 #   icon_pack: fab
 #   link: https://github.com/USERNAME
@@ -69,3 +74,5 @@ user_groups:
 - Research Group
 - Postdocs
 ---
+
+Hossein received his Ph.D. in Operations Research in 2016. His research interests lie at the interface between Process Systems Engineering and Operations Research. He is currently a Postdoctoral Research Fellow at  Department of Mathematics and Systems Analysis, Aalto University, working with Prof. Fabrico Oliveira on production planning and scheduling optimization under uncertainty. In 2016, he visited Dr. Pedro M. Castro from the university of Lisbon and worked on Generalized Disjunctive Programming for scheduling problems and on the global optimization of nonconvex bilinear problems. During 2018-2019, he worked as a Postdoc Fellow (at the Department of Chemical and Metallurgical Engineering, Aalto University) with Prof. Iiro Harjunkoski on combining big data platforms, machine learning and data analytics methodologies with process planning and scheduling optimization technologies.
