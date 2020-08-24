@@ -75,7 +75,7 @@ user_groups:
 
 <div style="text-align: justify">
 
-My research focuses in optimization methods for reduced Generation and Transmission Expansion (G&TEP) planning.
+My research focuses in optimization methods for Generation and Transmission Expansion (G&TEP) planning.
 
 Currently, I'm analyzing the implications of temporal reduction in G&TEP using different clustering algorithms.
 
