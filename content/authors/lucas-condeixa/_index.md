@@ -2,6 +2,9 @@
 # Display name
 title: "Lucas Condeixa"
 
+# Weight (for sorting: 1: Fabricio, 2: Postdocs, 3: Doctoral Candidates, 4: Research Assistants)
+weight: 3
+
 # Username (this should match the folder name and the name on publications)
 authors:
 - "lucas-condeixa"
@@ -69,3 +72,11 @@ user_groups:
 - Research Group
 - Doctoral Candidates
 ---
+
+<div style="text-align: justify">
+
+My research focuses in optimization methods for Generation and Transmission Expansion (G&TEP) planning.
+
+Currently, I'm analyzing the implications of temporal reduction in G&TEP using different clustering algorithms.
+
+</div>
