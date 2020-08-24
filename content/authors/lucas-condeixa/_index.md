@@ -21,7 +21,7 @@ organizations:
 bio: Lucas Condeixa is a Doctoral Candidate in the Systems Analysis Laboratory in the department of Mathematics and Systems Analysis in Aalto University.
 
 # List each interest with a dash
-# interests:
+interests:
 - Optimization under uncertainty
 - Power systems
 - Data-driven optimization
@@ -66,6 +66,6 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Group 1
-- Group 2
+- Research Group
+- Doctoral Candidates
 ---
