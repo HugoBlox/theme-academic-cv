@@ -69,6 +69,6 @@ user_groups:
 - Visitors
 ---
 
-I’m a senior year undergraduate student at Australian National University(ANU) pursuing for bachelor degree on Advanced Computing(honour), prior to join the 2+2 bachelor program of ANU, I was studying computer science at Shandong University in China.
+I’m a senior year undergraduate student at Australian National University(ANU) pursuing a bachelor's degree in Advanced Computing(honor), prior to joining the 2+2 bachelor program of ANU, I was studying computer science at Shandong University in China.
 
-My current research is under the supervision of Professor Tom Gedeon at ANU on the topic of variational auto-encoder, I’m also doing some summarizing works on with respective to Bayesian network which is currently under review by my thesis co-supervisor. I have a 6.00/7.00 GPA and familiar with basic math tools e.g. variational inferences, probabilistic models, linear algebra, convex optimisation(learning this semester), etc.
+My current research is under the supervision of Professor Tom Gedeon at ANU on the topic of variational auto-encoder, I’m also doing some summarizing works with respect to the Bayesian network which is currently under review by my thesis co-supervisor. I have a 6.00/7.00 GPA and familiar with basic math tools e.g. variational inferences, probabilistic graphical models, convex optimization, etc.
