@@ -31,19 +31,14 @@ bio:
 education:
   courses:
   - course: MSc in Computational Engineering 
-     institution: Lappeenranta university of technology
-     country: Finland
-     year: 2018
+    institution: Lappeenranta university of technology
+    year: 2018
   - course: MSc in Applied Mathematics and Informatics
-     institution: Southern Federal University, Institute of Mathematics,
-     Mechanics and Computer Science
-     country: Russian Federation 
-     year: 2018
+    institution: Southern Federal University, Institute of Mathematics, Mechanics and Computer Science
+    year: 2018
   - course: BSc in Applied Mathematics and Informatics
-     institution: Southern Federal University, Institute of Mathematics,
-     Mechanics and Computer Science
-     country: Russian Federation
-     year: 2016
+    institution: Southern Federal University, Institute of Mathematics,Mechanics and Computer Science
+    year: 2016
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
