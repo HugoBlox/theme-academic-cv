@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Doctoral Student
+role: Doctoral Candidate
 
 # Organizations/Affiliations
 organizations:
@@ -28,14 +28,14 @@ interests:
 - Robust and distributionally robust optimization
 - Risk Analysis
 
- education:
-   courses:
-   - course: MSc in Production Engineering (emph. in Operations Research)
-     institution: Pontifical Catholic University of Rio de Janeiro
-     year: 2018
-   - course: BSc in Production Engineering
-     institution: Rio de Janeiro State University
-     year: 2015
+education:
+  courses:
+  - course: MSc in Production Engineering (emph. in Operations Research)
+    institution: Pontifical Catholic University of Rio de Janeiro
+    year: 2018
+  - course: BSc in Production Engineering
+    institution: Rio de Janeiro State University
+    year: 2015
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
