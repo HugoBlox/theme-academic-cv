@@ -28,8 +28,8 @@ bio:
 # - Interest 1
 # - Interest 2
 
- education:
-   courses:
+education:
+  courses:
   - course: MSc in Computational Engineering 
      institution: Lappeenranta university of technology
      country: Finland
