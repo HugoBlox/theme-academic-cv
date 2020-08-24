@@ -17,31 +17,40 @@ role: Doctoral Candidate
 
 # Organizations/Affiliations
 organizations:
-- name: 
-  url: ""
+- name: Aalto University
+  url: "https://www.aalto.fi/en"
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
 
 # List each interest with a dash
-# interests:
-# - Interest 1
-# - Interest 2
+interests:
+- Stochastic programming
+- Decomposition techniques
+- Parallel Programming
+- Machine learning
+- Energy markets
 
-# education:
-#   courses:
-#   - course: Title course 1
-#     institution: Name of Institution
-#     year: 2012
-#   - course: Title course 1
-#     institution: Name of Institution
-#     year: 2012
+education:
+  courses:
+  - course: MSc in Computational Engineering 
+    institution: Lappeenranta university of technology (Finland)
+    year: 2018
+  - course: MSc in Applied Mathematics and Informatics
+    institution: Southern Federal University, Institute of Mathematics, Mechanics and Computer Science (Russian Federation)
+    year: 2018
+  - course: BSc in Applied Mathematics and Informatics
+    institution: Southern Federal University, Institute of Mathematics,Mechanics and Computer Science (Russian Federation)
+    year: 2016
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/nikita-belyak/
 # - icon: envelope
 #   icon_pack: fas
 #   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
@@ -51,9 +60,9 @@ social:
 # - icon: google-scholar
 #   icon_pack: ai
 #   link: https://scholar.google.com/citations?user=PERSON-ID
-# - icon: github
-#   icon_pack: fab
-#   link: https://github.com/USERNAME
+- icon: github
+  icon_pack: fab
+  link: https://github.com/Nikita-Belyak
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv

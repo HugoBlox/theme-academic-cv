@@ -17,40 +17,43 @@ role: Doctoral Candidate
 
 # Organizations/Affiliations
 organizations:
-- name: 
-  url: ""
+- name: Aalto University
+  url: "https://www.aalto.fi/en"
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio: Lucas Condeixa is a Doctoral Candidate in the Systems Analysis Laboratory in the department of Mathematics and Systems Analysis in Aalto University.
 
 # List each interest with a dash
-# interests:
-# - Interest 1
-# - Interest 2
+interests:
+- Optimization under uncertainty
+- Power systems
+- Data-driven optimization
+- Robust and distributionally robust optimization
+- Risk Analysis
 
-# education:
-#   courses:
-#   - course: Title course 1
-#     institution: Name of Institution
-#     year: 2012
-#   - course: Title course 1
-#     institution: Name of Institution
-#     year: 2012
+education:
+  courses:
+  - course: MSc in Production Engineering (emph. in Operations Research)
+    institution: Pontifical Catholic University of Rio de Janeiro
+    year: 2018
+  - course: BSc in Production Engineering
+    institution: Rio de Janeiro State University
+    year: 2015
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-# - icon: envelope
-#   icon_pack: fas
-#   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+- icon: envelope
+  icon_pack: fas
+  link: 'mailto:lucas.condeixa@aalto.fi'  # For a direct email link, use "mailto:test@example.org".
 # - icon: twitter
 #   icon_pack: fab
 #   link: https://twitter.com/USERNAME
-# - icon: google-scholar
-#   icon_pack: ai
-#   link: https://scholar.google.com/citations?user=PERSON-ID
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=CC4whjkAAAAJ&hl=en
 # - icon: github
 #   icon_pack: fab
 #   link: https://github.com/USERNAME
@@ -69,3 +72,11 @@ user_groups:
 - Research Group
 - Doctoral Candidates
 ---
+
+<div style="text-align: justify">
+
+My research focuses in optimization methods for Generation and Transmission Expansion (G&TEP) planning.
+
+Currently, I'm analyzing the implications of temporal reduction in G&TEP using different clustering algorithms.
+
+</div>
