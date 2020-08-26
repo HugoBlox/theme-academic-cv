@@ -5,7 +5,7 @@ title: "ConsIndShockSolverNumba"
 subtitle: ""
 summary: ""
 authors: []
-tags: []
+tags: ["GSOC", "Econ-Ark"]
 categories: []
 date: 2020-07-13T14:12:49-04:00
 lastmod: 2020-07-13T14:12:49-04:00

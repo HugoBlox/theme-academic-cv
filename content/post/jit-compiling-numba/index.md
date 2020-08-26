@@ -5,7 +5,7 @@ title: "Just-in-time Compiling with Numba"
 subtitle: ""
 summary: ""
 authors: []
-tags: []
+tags: ["GSOC", "Econ-Ark"]
 categories: []
 date: 2020-06-14T12:05:07-04:00
 lastmod: 2020-06-14T12:05:07-04:00

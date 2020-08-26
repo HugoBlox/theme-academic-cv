@@ -8,7 +8,7 @@ authors: []
 tags: ["simple-hacs"]
 categories: []
 date: 2020-08-10T19:09:29-04:00
-type: book
+toc: true
 
 ## Optional external URL for project (replaces project detail page).
 external_link: ""

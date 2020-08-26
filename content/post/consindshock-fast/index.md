@@ -5,7 +5,7 @@ title: "ConsIndShockFastModel"
 subtitle: ""
 summary: ""
 authors: []
-tags: []
+tags: ["GSOC", "Econ-Ark"]
 categories: []
 date: 2020-07-27T14:17:50-04:00
 lastmod: 2020-07-27T14:17:50-04:00

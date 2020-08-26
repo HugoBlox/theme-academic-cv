@@ -5,7 +5,7 @@ title: "IndShockConsumerTypeNumba"
 subtitle: ""
 summary: ""
 authors: []
-tags: []
+tags: ["GSOC", "Econ-Ark"]
 categories: []
 date: 2020-06-28T13:48:08-04:00
 lastmod: 2020-06-28T13:48:08-04:00
