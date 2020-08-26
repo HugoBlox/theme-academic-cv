@@ -9,7 +9,7 @@ tags: [Julia, JuMP]
 categories: [Optimization]
 weight: 102
 featured: false
-draft: false
+draft: true
 
 external_link: https://github.com/gamma-opt/ShelfSpaceAllocation.jl
 
