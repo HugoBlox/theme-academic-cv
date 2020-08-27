@@ -6,8 +6,8 @@ title: Process industry scheduling optimization using genetic algorithm and math
 subtitle: ''
 summary: ''
 authors:
-- F. Oliveira
-- S. Hamacher
+- Fabricio Oliveira
+- Silvio Hamacher
 - M. R. Almeida
 tags:
 - '""'

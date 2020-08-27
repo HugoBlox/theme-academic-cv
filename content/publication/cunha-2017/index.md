@@ -7,7 +7,7 @@ subtitle: ''
 summary: ''
 authors:
 - P.S.A. Cunha
-- F. Oliveira
+- Fabricio Oliveira
 - Fernanda M.P. Raupp
 tags:
 - '"Replenishment and control systems"'

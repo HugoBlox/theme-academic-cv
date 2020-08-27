@@ -6,10 +6,10 @@ title: Combining penalty-based and Gauss-Seidel methods for solving stochastic m
 subtitle: ''
 summary: ''
 authors:
-- F. Oliveira
-- J. Christiansen
-- B. Dandurand
-- A. Eberhard
+- Fabricio Oliveira
+- Jeffrey Christiansen
+- Brian Dandurand
+- Andrew Eberhard
 tags:
 - '"Decomposition methods"'
 - '"Gauss-Seidel method"'

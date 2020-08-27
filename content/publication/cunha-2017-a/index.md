@@ -8,7 +8,7 @@ summary: ''
 authors:
 - P.S.A. Cunha
 - F.M.P. Raupp
-- F. Oliveira
+- Fabricio Oliveira
 tags:
 - '"Inventory policy"'
 - '"Periodic review"'

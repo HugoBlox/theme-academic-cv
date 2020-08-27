@@ -6,10 +6,10 @@ title: A Lagrangean decomposition approach for oil supply chain investment plann
 subtitle: ''
 summary: ''
 authors:
-- F. Oliveira
+- Fabricio Oliveira
 - V. Gupta
-- S. Hamacher
-- I. E. Grossmann
+- Silvio Hamacher
+- Ignacio Grossmann
 tags:
 - '"Lagrangean decomposition"'
 - '"Oil and gas"'

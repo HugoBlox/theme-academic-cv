@@ -6,9 +6,9 @@ title: Accelerating Benders stochastic decomposition for the optimization under 
 subtitle: ''
 summary: ''
 authors:
-- F. Oliveira
-- I. E. Grossmann
-- S. Hamacher
+- Fabricio Oliveira
+- Ignacio Grossmann
+- Silvio Hamacher
 tags:
 - '"Acceleration techniques"'
 - '"Stochastic Benders decomposition"'

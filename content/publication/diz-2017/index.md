@@ -7,7 +7,7 @@ subtitle: ''
 summary: ''
 authors:
 - Gustavo Souto dos Santos Diz
-- Fabrício Oliveira
+- Fabricio Oliveira
 - Silvio Hamacher
 tags:
 - '"Maritime inventory routing"'

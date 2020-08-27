@@ -6,7 +6,7 @@ subtitle: ''
 summary: ''
 authors:
 - Luiza Fiorencio
-- Fabrício Oliveira
+- Fabricio Oliveira
 - Paula Nunes
 - Silvio Hamacher
 tags:

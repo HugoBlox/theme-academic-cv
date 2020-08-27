@@ -7,7 +7,7 @@ summary: ''
 authors:
 - Sidney Pereira dos Santos
 - José Eugenio Leal
-- Fabrício Oliveira
+- Fabricio Oliveira
 tags:
 - '""'
 - '"Investment analysis"'

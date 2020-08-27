@@ -6,10 +6,10 @@ title: A framework for crude oil scheduling in an integrated terminal-refinery s
 subtitle: ''
 summary: ''
 authors:
-- F. Oliveira
-- P.M. Nunes
-- R. Blajberg
-- S. Hamacher
+- Fabricio Oliveira
+- Paula Nunes
+- Rosa Blajberg
+- Silvio Hamacher
 tags:
 - '"Crude oil scheduling"'
 - '"Stochastic programming"'
