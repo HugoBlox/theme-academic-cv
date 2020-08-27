@@ -11,7 +11,7 @@ weight: 102
 featured: false
 draft: false
 
-external_link: https://github.com/gamma-opt/EnergySystemModeling.jl
+# external_link: https://github.com/gamma-opt/EnergySystemModeling.jl
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

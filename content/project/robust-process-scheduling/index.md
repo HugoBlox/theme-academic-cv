@@ -1,10 +1,10 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Decision Programming"
+title: "Robust process scheduling"
 subtitle: ""
-summary: "DecisionProgramming.jl is a Julia package for solving multi-stage decision problems under uncertainty, modeled using (limited memory) influence diagrams, and formulated using mixed-integer linear programming."
-authors: [fabricio-oliveira, juho-andelmin, olli-herrala, jaan-tollander]
+summary: "Developing models and methods for robust planning of process systems"
+authors: [hossein-mostafaei, emilia-vuola, fabricio-oliveira]
 tags: []
 categories: []
 weight: 7
@@ -28,4 +28,3 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-

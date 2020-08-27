@@ -1,10 +1,10 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Decision Programming"
+title: "p-Lagrangian"
 subtitle: ""
-summary: "DecisionProgramming.jl is a Julia package for solving multi-stage decision problems under uncertainty, modeled using (limited memory) influence diagrams, and formulated using mixed-integer linear programming."
-authors: [fabricio-oliveira, juho-andelmin, olli-herrala, jaan-tollander]
+summary: "Efficient decomposition methods for MIQCQPs using Lagrangian decomposition and parallelisation"
+authors: [nikita-belyak, fabricio-oliveira]
 tags: []
 categories: []
 weight: 7
@@ -28,4 +28,3 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-
