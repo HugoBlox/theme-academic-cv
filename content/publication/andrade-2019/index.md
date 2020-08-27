@@ -1,13 +1,45 @@
 ---
-title: "Enhancing the normalized multiparametric disaggregation technique for mixed-integer quadratic programming"
-date: 2019-01-01
-publishDate: 2019-09-17T17:31:20.419494Z
-authors: ["Tiago Andrade", "Fabricio Oliveira", "Silvio Hamacher", "Andrew Eberhard"]
-projects: ["p-lagrangian"] 
-publication_types: ["2"]
-abstract: "We propose methods for improving the relaxations obtained by the normalized multiparametric disaggregation technique (NMDT). These relaxations constitute a key component for some methods for solving nonconvex mixed-integer quadratically constrained quadratic programming (MIQCQP) problems. It is shown that these relaxations can be more efficiently formulated by significantly reducing the number of auxiliary variables (in particular, binary variables) and constraints. Moreover, a novel algorithm for solving MIQCQP problems is proposed. It can be applied using either its original NMDT or the proposed reformulation. Computational experiments are performed using both benchmark instances from the literature and randomly generated instances. The numerical results suggest that the proposed techniques can improve the quality of the relaxations."
-featured: false
-publication: "*Journal of Global Optimization*"
-url_pdf: "https://link.springer.com/article/10.1007/s10898-018-0728-9"
----
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
+title: Enhancing the normalized multiparametric disaggregation technique for mixed-integer
+  quadratic programming
+subtitle: ''
+summary: ''
+authors:
+- Tiago Andrade
+- Fabricio Oliveira
+- Silvio Hamacher
+- Andrew Eberhard
+tags:
+- '"Convex relaxation"'
+- '"McCormick envelopes"'
+- '"Nonconvex mixed-integer quadratically constrained"'
+- '"Normalized multiparametric disaggregation techniqu"'
+categories: []
+date: '2019-04-01'
+lastmod: 2020-08-27T16:01:38+03:00
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+publishDate: '2020-08-27T13:01:38.690790Z'
+publication_types:
+- 2
+abstract: ''
+publication: '*Journal of Global Optimization*'
+url_pdf: http://link.springer.com/10.1007/s10898-018-0728-9
+doi: 10.1007/s10898-018-0728-9
+---
