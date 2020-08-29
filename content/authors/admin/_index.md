@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: "Astronomy student. Pythonist."
+role: "Astronomy student"
 
 # Organizations/Affiliations
 organizations:
