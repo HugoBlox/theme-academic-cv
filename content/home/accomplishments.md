@@ -5,8 +5,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 80  # Order that this section will appear.
 
-title = "Accomplish&shy;ments"
-subtitle = "Competitions, online courses and certifications."
+title = "Self learning"
+subtitle = "Competitions, online courses, etc."
 
 # Date format
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
@@ -28,25 +28,25 @@ date_format = "Jan 2006"
   date_end = ""
   description = ""
 
-[[item]]
-  organization = "IBM on Coursera"
-  organization_url = "https://www.coursera.org/ibm"
-  title = "IBM Data Science Professional Certificate"
-  url = "https://www.coursera.org/professional-certificates/ibm-data-science"
-  certificate_url = "https://www.coursera.org/account/accomplishments/professional-cert/certificate/BMYWRMMFT4UJ"
-  date_start = "2019-05-01"
-  date_end = ""
-  description = ""
-
 #[[item]]
-#  organization = "DataCamp"
-#  organization_url = "https://www.datacamp.com"
-#  title = "Data Scientist with Python"
-#  url = "https://www.datacamp.com/tracks/data-scientist-with-python"
-#  certificate_url = "https://www.datacamp.com/statement-of-accomplishment/track/247b8b28519c821395c00e222e79636ed08e7bb3"
-#  date_start = "2019-01-01"
+#  organization = "IBM on Coursera"
+#  organization_url = "https://www.coursera.org/ibm"
+#  title = "IBM Data Science Professional Certificate"
+#  url = "https://www.coursera.org/professional-certificates/ibm-data-science"
+#  certificate_url = "https://www.coursera.org/account/accomplishments/professional-cert/certificate/BMYWRMMFT4UJ"
+#  date_start = "2019-05-01"
 #  date_end = ""
 #  description = ""
+
+[[item]]
+  organization = "DataCamp"
+  organization_url = "https://www.datacamp.com"
+  title = "Data Scientist with Python"
+  url = "https://www.datacamp.com/tracks/data-scientist-with-python"
+  certificate_url = "https://www.datacamp.com/statement-of-accomplishment/track/247b8b28519c821395c00e222e79636ed08e7bb3"
+  date_start = "2019-01-01"
+  date_end = ""
+  description = ""
   
 #[[item]]
 #  organization = "Dataquest"
