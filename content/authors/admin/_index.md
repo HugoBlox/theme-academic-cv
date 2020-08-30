@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: William White
 
 # Username (this should match the folder name)
 authors:
@@ -10,20 +10,21 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Phd. Candidate in Statisitcs
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
-  url: ""
+- name: University of Geneva, Research Center for Statistics
+  url: "www.unige.ch/rcs"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: TBD
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Computational Statistics
+- Monte Carlo Methods
+- Statistics
+- Biostatistics
 
 education:
   courses:
