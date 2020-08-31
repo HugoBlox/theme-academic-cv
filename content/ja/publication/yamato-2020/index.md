@@ -1,5 +1,5 @@
 ---
-title: "Nerve Segmentation with Deep Learning from Label-Free Endoscopic Images Obtained Using Coherent Anti-Stokes Raman Scattering"
+title: "Nerve segmentation with deep learning from label-free endoscopic images obtained using coherent anti-stokes Raman scattering"
 date: 2020-07-01
 publishDate: 2020-08-31T09:34:21.382381Z
 authors: ["Naoki Yamato", "Mana Matsuya", "Hirohiko Niioka", "Jun Miyake", "Mamoru Hashimoto"]
