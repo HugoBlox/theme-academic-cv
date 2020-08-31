@@ -1,0 +1,13 @@
+{
+    "sshfs.configs": [
+        {
+            "group": "IDS",
+            "host": "10.10.3.21",
+            "label": "10.10.3.21",
+            "name": "10.10.3.21",
+            "passphrase": "true",
+            "privateKeyPath": "/Users/n-yuta/.ssh/id_rsa",
+            "username": "n-yuta"
+        }
+    ]
+}
