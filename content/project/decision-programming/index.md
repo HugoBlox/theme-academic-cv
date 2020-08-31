@@ -3,7 +3,7 @@
 
 title: "Decision Programming"
 subtitle: ""
-summary: "DecisionProgramming.jl is a Julia package for solving multi-stage decision problems under uncertainty, modeled using (limited memory) influence diagrams, and formulated using mixed-integer linear programming."
+summary: "Framework for solving multi-stage decision problems under uncertainty, modeled using influence diagrams, and formulated using mixed-integer linear programming."
 
 authors: [fabricio-oliveira, juho-andelmin, olli-herrala, jaan-tollander]
 tags: []
