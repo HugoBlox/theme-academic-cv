@@ -3,7 +3,7 @@
 
 title: "Knowledge VQA"
 summary: ""
-authors: ["Noa Garcia", "Zekun Yang", "Chenhui Chu", "Yuta Nakashima"]
+authors: ["Noa Garcia", "Zekun Yang", "Chenhui Chu", "Mayu Otani", "Yuta Nakashima"]
 tags: [kvqa]
 categories: []
 date: 2020-07-01T10:13:28+09:00
@@ -41,7 +41,12 @@ slides: ""
 ---
 Visual question answering (VQA) with knowledge is a task that requires knowledge to answer questions on images/video. This additional requirement of knowledge poses an interesting challenge on top of the classic VQA tasks. Specifically, a system needs to explore external knowledge sources to answer the questions correctly, as well as understanding the visual content.
 
-We created [a dedicated dataset for our knowledge VQA task](https://knowit-vqa.github.io) and made it open to the public so that everyone can enjoy our new task. We have also published several papers on this task.
+We created [a dedicated dataset for our knowledge VQA task](https://knowit-vqa.github.io) and made it open to the public so that everyone can enjoy our new task. 
+
+Our paper on this project is included in ECCV 2020, entitled: "[Knowledge-Based VideoQA with Unsupervised Scene Descriptions](https://arxiv.org/pdf/2007.08751.pdf)." Watch the [video](https://youtu.be/KCUUvSpf-Qo) on YouTube for detail.
+
+{{< youtube KCUUvSpf-Qo >}}
+
 
 ### Publications
 - Noa Garcia, Mayu Otani, Chenhui Chu, and Yuta Nakashima (2019). KnowIT VQA: Answering knowledge-based questions about videos. Proc. AAAI Conference on Artificial Intelligence, Feb. 2020.
