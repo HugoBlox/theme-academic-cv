@@ -23,7 +23,7 @@ date_format = "Jan 2006"
   company_url = ""
   location = ""
   date_start = "2020-05-04"
-  date_end = ""
+  date_end = "2020-08-31"
   description = """
   
   [Acceptance letter](files/acceptance-letter-gsoc20.pdf)
@@ -37,8 +37,6 @@ date_format = "Jan 2006"
   date_start = "2019-05-27"
   date_end = "2019-08-26"
   description = """
-
-  For more information please visit the [project's website](https://epassaro.github.io/gsoc19).
   
   [See certificate](files/certificate-gsoc19.pdf)  &#183;
   [Completion letter](files/completion-letter-gsoc19.pdf)
