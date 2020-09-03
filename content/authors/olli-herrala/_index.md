@@ -46,6 +46,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:olli.herrala@aalto.fi'  # For a direct email link, use "mailto:test@example.org".
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/olliherrala/
 # - icon: twitter
 #   icon_pack: fab
 #   link: https://twitter.com/USERNAME
