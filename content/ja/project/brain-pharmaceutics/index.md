@@ -1,10 +1,10 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "仏顔とAI"
+title: "全組織細胞イメージング／分子病態解析"
 summary: "大阪大学 薬学研究科の[橋本 均 教授](http://molpharm.umin.jp)との共同研究では、新しいイメージング技術に画像処理技術を組み合わせることで、脳全体をセンシングする技術に取り組んでいます。"
-authors: [" "Hajime Nagahara"]
-tags: ["buddha"]
+authors: ["Hajime Nagahara"]
+tags: []
 categories: []
 date: 2020-06-17T22:52:41+09:00
 
