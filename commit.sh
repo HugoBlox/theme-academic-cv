@@ -8,6 +8,6 @@ if [ $branch_name != "master" ]; then
     exit
   fi
 fi
-hugo --cleanDestinationDir --minify
+hugo --cleanDestinationDir --minify --gc
 git add .
 git commit
