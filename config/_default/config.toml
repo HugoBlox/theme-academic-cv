@@ -20,9 +20,6 @@ copyright = "&copy;Juris710  {year}"
 ############################
 publishDir = "docs"
 
-# Name of Academic theme folder in `themes/`.
-theme = "academic"
-
 # Get last modified date for content from Git?
 enableGitInfo = true
 
@@ -78,3 +75,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   category = "categories"
   publication_type = "publication_types"
   author = "authors"
+
+[module]
+  [[module.imports]]
+    path = "github.com/wowchemy/wowchemy-hugo-modules/wowchemy"
