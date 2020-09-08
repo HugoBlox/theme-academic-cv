@@ -1,0 +1,74 @@
+---
+title: Heave Ho! The cadence of Git
+author: ''
+date: '2020-09-08'
+slug: heave-ho-git
+categories:
+  - Blog
+tags:
+  - Git
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-09-08T15:43:21+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+I've been working with git for quite a while now. I've been _happily_ working with git for almost as long. After some in-person training and referring to [Happy Git for R](https://happygitwithr.com/), things finally clicked when I found a rhythm to all these strange commands. The git flow I found has helped me not only with what git command I want to use (is it a push? is it a merge?), but also when and in what order to do so.
+
+
+## Heave-Ho/Push-Pull
+After a while you notice a diurnal pattern. In the morning,
+
+```
+git fetch origin
+pull origin master
+```
+
+which fetches updates to all branches and pulls work on the master branch from the remote server that may have been added by others after you've logged off.
+
+At the end of the working day,
+
+```
+push origin mybranch
+```
+
+submits your changes back to the remote repository so others can pull in the morning. Simple!
+
+## Every bug or feature is an issue
+That branch you called `mybranch` has accumulated so many extra bits of code and analysis that you've entered the death-batch spiral of doing more and postponing the release of a workable product. To combat this, I've found that raising an issue and then creating a branch from the issue is the best way of avoiding the death-batch spiral (e.g., "#12-add-random-forest-model"). Gitlab does this out of the box but Github can be coerced to do so by linking pull requests.
+
+Ever found yourself on the master branch editing work? Best practice is to protect this branch so it is always a working copy of your program or project. Making every bug or feature an issue and a branch largely avoids the problem but I still find myself doing it from time to time. When it does I do the following (try and avoid committing!)
+
+```
+git checkout -b mynewbranch
+```
+
+This will create a branch and checkout the branch, complete with edited work not yet committed.
+
+To summarise:
+
+* Every discrete bug or feature is an issue
+* Every issue should be a new branch with a merge/pull request
+* Fix only the issue on the issue branch!
+* Merge the branch when done, closing the issue
+
+## The logical consequence of git + D.R.Y
+So I embraced version control in my projects and developed each feature in its own branch. I was also aware of the programmer's mantra, _don't repeat yourself_. From my experience, git changes the way you think - and not just eschewing files called `analysis_final_edit_version2`. It has had knock-on affects to my general work flow.
+
+### Make functions where possible
+Extending an analysis through the use of issues has now conditioned me to isolate functionality within my consultancy projects (my personal ones too). Using `git diff` or comparing changes for pull requests is not fun when the changes are sprawled out across many lines of one file or over different files. The answer to all these questions and more is to solve them through the use of functions. A delayed benefit from this approach is that you can reuse this function when a similar situation presents itself.
+
+### Make a package from your projects
+What's better than a set of functions that you can reuse? A fully featured R package or Python module of course. Writing a documented package in R is fairly straightforward by following Hadley Wickham's book called [R Packages](https://r-pkgs.org/). You can even make a website using the [pkgdown](https://pkgdown.r-lib.org/) library. With a small amount of diligence you'll have a suite of documented functions that will make the next similar project exponentially shorter to complete.
+
+### Don't Repeat Ourselves
+Did I mention _don't repeat yourself_? Even if each of us is diligently conforming to D.R.Y, we will still be repeating _ourselves_ because we're working in isolation. The answer is to collaborate, preferably with an open source license attached. And git (typically using a service like Github or Gitlab) is the framework to do it in.
+
+## Concluding remarks
+I've found that not only is git a good version control and collaboration framework, but it's also a discipline that creeps through into many other parts of my work. Starting small with a daily git cadence will grow quickly into a new way of working. It might even end up in open source package development.

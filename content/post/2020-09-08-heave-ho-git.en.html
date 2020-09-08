@@ -1,0 +1,68 @@
+---
+title: Heave Ho! The cadence of Git
+author: ''
+date: '2020-09-08'
+slug: heave-ho-git
+categories:
+  - Blog
+tags:
+  - Git
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-09-08T15:43:21+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+
+<p>I’ve been working with git for quite a while now. I’ve been <em>happily</em> working with git for almost as long. After some in-person training and referring to <a href="https://happygitwithr.com/">Happy Git for R</a>, things finally clicked when I found a rhythm to all these strange commands. The git flow I found has helped me not only with what git command I want to use (is it a push? is it a merge?), but also when and in what order to do so.</p>
+<div id="heave-hopush-pull" class="section level2">
+<h2>Heave-Ho/Push-Pull</h2>
+<p>After a while you notice a diurnal pattern. In the morning,</p>
+<pre><code>git fetch origin
+pull origin master</code></pre>
+<p>which fetches updates to all branches and pulls work on the master branch from the remote server that may have been added by others after you’ve logged off.</p>
+<p>At the end of the working day,</p>
+<pre><code>push origin mybranch</code></pre>
+<p>submits your changes back to the remote repository so others can pull in the morning. Simple!</p>
+</div>
+<div id="every-bug-or-feature-is-an-issue" class="section level2">
+<h2>Every bug or feature is an issue</h2>
+<p>That branch you called <code>mybranch</code> has accumulated so many extra bits of code and analysis that you’ve entered the death-batch spiral of doing more and postponing the release of a workable product. To combat this, I’ve found that raising an issue and then creating a branch from the issue is the best way of avoiding the death-batch spiral (e.g., “#12-add-random-forest-model”). Gitlab does this out of the box but Github can be coerced to do so by linking pull requests.</p>
+<p>Ever found yourself on the master branch editing work? Best practice is to protect this branch so it is always a working copy of your program or project. Making every bug or feature an issue and a branch largely avoids the problem but I still find myself doing it from time to time. When it does I do the following (try and avoid committing!)</p>
+<pre><code>git checkout -b mynewbranch</code></pre>
+<p>This will create a branch and checkout the branch, complete with edited work not yet committed.</p>
+<p>To summarise:</p>
+<ul>
+<li>Every discrete bug or feature is an issue</li>
+<li>Every issue should be a new branch with a merge/pull request</li>
+<li>Fix only the issue on the issue branch!</li>
+<li>Merge the branch when done, closing the issue</li>
+</ul>
+</div>
+<div id="the-logical-consequence-of-git-d.r.y" class="section level2">
+<h2>The logical consequence of git + D.R.Y</h2>
+<p>So I embraced version control in my projects and developed each feature in its own branch. I was also aware of the programmer’s mantra, <em>don’t repeat yourself</em>. From my experience, git changes the way you think - and not just eschewing files called <code>analysis_final_edit_version2</code>. It has had knock-on affects to my general work flow.</p>
+<div id="make-functions-where-possible" class="section level3">
+<h3>Make functions where possible</h3>
+<p>Extending an analysis through the use of issues has now conditioned me to isolate functionality within my consultancy projects (my personal ones too). Using <code>git diff</code> or comparing changes for pull requests is not fun when the changes are sprawled out across many lines of one file or over different files. The answer to all these questions and more is to solve them through the use of functions. A delayed benefit from this approach is that you can reuse this function when a similar situation presents itself.</p>
+</div>
+<div id="make-a-package-from-your-projects" class="section level3">
+<h3>Make a package from your projects</h3>
+<p>What’s better than a set of functions that you can reuse? A fully featured R package or Python module of course. Writing a documented package in R is fairly straightforward by following Hadley Wickham’s book called <a href="https://r-pkgs.org/">R Packages</a>. You can even make a website using the <a href="https://pkgdown.r-lib.org/">pkgdown</a> library. With a small amount of diligence you’ll have a suite of documented functions that will make the next similar project exponentially shorter to complete.</p>
+</div>
+<div id="dont-repeat-ourselves" class="section level3">
+<h3>Don’t Repeat Ourselves</h3>
+<p>Did I mention <em>don’t repeat yourself</em>? Even if each of us is diligently conforming to D.R.Y, we will still be repeating <em>ourselves</em> because we’re working in isolation. The answer is to collaborate, preferably with an open source license attached. And git (typically using a service like Github or Gitlab) is the framework to do it in.</p>
+</div>
+</div>
+<div id="concluding-remarks" class="section level2">
+<h2>Concluding remarks</h2>
+<p>I’ve found that not only is git a good version control and collaboration framework, but it’s also a discipline that creeps through into many other parts of my work. Starting small with a daily git cadence will grow quickly into a new way of working. It might even end up in open source package development.</p>
+</div>
