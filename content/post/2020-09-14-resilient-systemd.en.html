@@ -1,0 +1,72 @@
+---
+title: Configuring resilient programs with systemd
+author: ''
+publishdate: '2020-09-14'
+draft: true
+slug: resilient-systemd
+categories:
+  - Guide
+tags:
+  - Linux
+  - Python
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-09-10T10:09:28+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+
+<p>Ever since a week before lockdown in mid-March, I’ve been holed up in my conservatory working from home. The wild swings in temperature have provided ample motivation to build a temperature probe and live dashboard to track patterns and cope with the lead time that my pitiful electric heater requires.</p>
+<p>I will post a full write up of the hardware and software in due course, but in summary it involves a Raspberry Pi zero with a 1-wire temperature device, a Python script, SQLite database, Adafruit IO API for the dashboard and DarkSky API for local weather. To enable the script on boot I ran <code>crontab -e</code> to edit cron, with the following line to enable the Python script to run on boot.</p>
+<pre><code>@reboot sleep 30 &amp;&amp; /usr/bin/python3 /home/pi/python/temperature_dashboard/temp_dashboard.py &amp;</code></pre>
+<p>However, the script kept crashing out for some reason so I needed to make it more resilient. With some testing I found that the weak point in the service was the connection to the two web APIs. Since I poll them once every two minutes, if one refused to connect at any point the whole script would halt. So I added in <code>try:</code> and <code>except:</code> handling of connection errors into functions used to get local weather or post current temperature data. Example below:</p>
+<pre class="python"><code># Make sending IO feeds into a function with error handling
+def send_all():
+   global status
+   try:
+       aio.send(reg_temp_feed.key, read_temp())
+       aio.send(current_temp_feed.key, read_temp())
+       aio.send(current_weather_feed.key, weather[&#39;temperature&#39;])
+       aio.send(max_temp_feed.key, max_temp)
+       aio.send(min_temp_feed.key, min_temp)
+       aio.send(status_feed.key, status)
+       status = 1
+       print(&quot;Adafruit connection OK&quot;)
+   except:
+       print(&quot;Adafruit connection down&quot;)
+       sleep(10)
+       status = 0
+       return</code></pre>
+<p>Now the temperature dashboard is much more resilient, but for some reason it still crashes now and again. That’s when I stumbled on a great article called “Run your Raspberry Pi code automatically” from issue 34 of <a href="https://hackspace.raspberrypi.org/issues/34">Hackspace magazine</a>.</p>
+<div id="systemd" class="section level2">
+<h2>Systemd</h2>
+<p>Make executable</p>
+<p><code>chmod a+x /home/pi/python/temperature_dashboard/temp_dashboard.py</code></p>
+<p>Create service file</p>
+<pre><code>[Unit]
+Description=Launcher service for a temperature dashboard
+After=systemd-user-sessions.service
+
+[Service]
+Type=simple
+ExecStart=/home/pi/python/temperature_dashboard/temp_dashboard.py</code></pre>
+<p>copy to systemd
+<code>sudo cp /home/pi/python/temperature_dashboard/temperature.service /etc/systemd/system</code></p>
+<p>Start service with</p>
+<p><code>systemctl start temperature.service</code></p>
+<p>See its status with</p>
+<p><code>systemctl status hello.service</code></p>
+<p>And stop it with</p>
+<p><code>systemctl stop hello.service</code></p>
+<p>To launch the service at boot, type</p>
+<p><code>systemctl enable hello.service</code></p>
+<p>The corollary is to type the following to stop the service from starting automatically at boot</p>
+<p><code>systemctl disable hello.service</code></p>
+</div>
