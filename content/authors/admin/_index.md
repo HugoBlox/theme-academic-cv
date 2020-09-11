@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Jiaxu Liu
+title: Jiaxu Liu (刘嘉旭)
 
 # Username (this should match the folder name)
 authors:

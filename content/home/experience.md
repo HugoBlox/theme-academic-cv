@@ -26,9 +26,9 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
   Tutor for COMP3600/6466 (Algorithms) Responsibilities include:
-  * Hold tutorials, cooperating with other tutors
-  * Marking assignment, quizzes and examinations.
-  * Receiving feedback from students, helping improve teaching quality.
+  * Facilitator in weekly interactive tutorials, assist students with lab exercises and course content
+  * Responsible for creating&marking assignment, quizzes, and examinations
+  * As a sessional academic staff, receive feedback from students, help improve teaching quality
   """
 
 [[experience]]
@@ -65,9 +65,8 @@ date_start = "2019-01-15"
 date_end = "2019-02-21"
 description = """
 Responsibilities include:
-* Cooperate with colleagues in development department
-* Maintaining call centre system and develop new functions based on ASP.NET framework
-* Deploying system in various environment
+* Maintaining Customer relationship management (CRM) system and develop new functions within ASP.NET framework
+* Cooperate with engineers in the deployment department and implement the system in various environment
 """
 
 
