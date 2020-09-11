@@ -2,7 +2,6 @@
 title: Configuring resilient programs with systemd
 author: ''
 publishdate: '2020-09-14'
-draft: true
 slug: resilient-systemd
 categories:
   - Guide
@@ -24,7 +23,7 @@ projects: []
 
 Ever since a week before lockdown in mid-March, I've been holed up in my conservatory working from home. The wild swings in temperature have provided ample motivation to build a temperature probe and live dashboard to track patterns, open windows in good time or cope with the lead time that my pitiful electric heater requires.
 
-![Probably needs an enclosure](../../img/temp_probe.JPG)
+![_(Probably needs an enclosure)_](../../img/temp_probe.JPG)
 
 I will post a full write up of the hardware and software in due course, but in summary it involves a Raspberry Pi zero with a 1-wire temperature device, a Python script, SQLite database, Adafruit IO API for the dashboard and DarkSky API for local weather. To enable the script on boot I ran `crontab -e` to edit cron, with the following line to enable the Python script to run on boot.
 
@@ -68,7 +67,7 @@ With either cron or systemd the python program must have `#!/usr/bin/python3` at
 chmod a+x /home/pi/python/temperature_dashboard/temp_dashboard.py
 ```
 
-In order to create a service that systemd can run you need to create a service file. Mine is below.
+In order to create a service that systemd can run you need to create a service file. Mine is below, saved to a file called temperature.service.
 
 ```
 [Unit]
