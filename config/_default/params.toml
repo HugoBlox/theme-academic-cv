@@ -24,6 +24,12 @@ font = ""
 # Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
 font_size = "L"
 
+# Show related content at the bottom of pages?
+show_related = {docs = true, page = false, post = true, project = true, publication = true, talk = true}
+
+# Highlight the site author (superuser) in author lists? (true/false)
+highlight_superuser = false
+
 ############################
 ## Basic Info
 ############################
@@ -280,3 +286,9 @@ plugins_js  = []
 [cms]
   # See https://sourcethemes.com/academic/docs/install/#install-with-web-browser
   netlify_cms = true
+
+############################
+## Icon Pack Extensions
+############################
+[icon.pack]
+  ai = true  # Academicons icon pack https://jpswalsh.github.io/academicons/
