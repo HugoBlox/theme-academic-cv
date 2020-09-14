@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Energy System Modeling"
+title: "Energy Systems Modeling"
 subtitle: ""
 summary: "Generation and Transmission Expansion Planning (GTEP) stochastic models incorporating temporal reduction via clustering algorithms."
 authors: [fabricio-oliveira, lucas-condeixa, jaan-tollander]
@@ -17,7 +17,7 @@ external_link: https://github.com/gamma-opt/EnergySystemModeling.jl
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
+  caption: "gamma_ESM_sep_2020.png"
   focal_point: ""
   preview_only: false
 
