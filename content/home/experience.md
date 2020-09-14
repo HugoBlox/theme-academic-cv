@@ -26,8 +26,8 @@ date_format = "Jan 2006"
   date_end = "2020-08-31"
   description = """
   
-  [Acceptance letter](files/acceptance-letter-gsoc20.pdf)
-  """
+  [See certificate](files/certificate-gsoc20.pdf)  &#183;
+  [Completion letter](files/completion-letter-gsoc20.pdf)  """
 
 [[experience]]
   title = "Google Summer of Code student"
