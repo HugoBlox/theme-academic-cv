@@ -27,7 +27,7 @@ Ever since a week before lockdown in mid-March, I've been holed up in my conserv
 
 I will post a full write up of the hardware and software in due course, but in summary it involves a Raspberry Pi zero with a 1-wire temperature device, a Python script, SQLite database, Adafruit IO API for the dashboard and DarkSky API for local weather. To enable the script on boot I ran `crontab -e` to edit cron, with the following line to enable the Python script to run on boot.
 
-```
+```{shell}
 @reboot sleep 30 && /usr/bin/python3 /home/pi/python/temperature_dashboard/temp_dashboard.py &
 ```
 
@@ -63,13 +63,13 @@ Cron is a simple scheduler, no more no less. The benefit of systemd over cron is
 
 With either cron or systemd the python program must have `#!/usr/bin/python3` at the top and be executable.
 
-```
+```{shell}
 chmod a+x /home/pi/python/temperature_dashboard/temp_dashboard.py
 ```
 
 In order to create a service that systemd can run you need to create a service file. Mine is below, saved to a file called temperature.service.
 
-```
+```{shell}
 [Unit]
 Description=Launcher service for a temperature dashboard
 After=systemd-user-sessions.service

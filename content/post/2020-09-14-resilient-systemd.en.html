@@ -28,7 +28,7 @@ projects: []
 <p class="caption"><em>(Probably needs an enclosure)</em></p>
 </div>
 <p>I will post a full write up of the hardware and software in due course, but in summary it involves a Raspberry Pi zero with a 1-wire temperature device, a Python script, SQLite database, Adafruit IO API for the dashboard and DarkSky API for local weather. To enable the script on boot I ran <code>crontab -e</code> to edit cron, with the following line to enable the Python script to run on boot.</p>
-<pre><code>@reboot sleep 30 &amp;&amp; /usr/bin/python3 /home/pi/python/temperature_dashboard/temp_dashboard.py &amp;</code></pre>
+<pre class="shell"><code>@reboot sleep 30 &amp;&amp; /usr/bin/python3 /home/pi/python/temperature_dashboard/temp_dashboard.py &amp;</code></pre>
 <p>At the same time I began reading Antifragile by Nassim Taleb and I was seeing the fragility of systems everywhere. It was through this lens I saw my script kept crashing for some reason: it was a fragile process. How could I make it more resilient, if not antifragile?</p>
 <p>With some testing I found that the weak point in the service was the connection to the two web APIs. Since I poll them once every two minutes, if one refused to connect at any point the whole script would halt. So I added in <code>try:</code> and <code>except:</code> handling of connection errors into functions used to get local weather or post current temperature data. Example below:</p>
 <pre class="python"><code># Make sending IO feeds into a function with error handling
@@ -53,9 +53,9 @@ def send_all():
 <h2>Systemd</h2>
 <p>Cron is a simple scheduler, no more no less. The benefit of systemd over cron is that once you start a service, systemd will monitor it and will attempt to restart the service if it crashes for some reason. Obviously, this not an excuse to write shoddy code, but it represents an extra line of defence for any program where uptime mustn’t be compromised (live dashboards, for instance).</p>
 <p>With either cron or systemd the python program must have <code>#!/usr/bin/python3</code> at the top and be executable.</p>
-<pre><code>chmod a+x /home/pi/python/temperature_dashboard/temp_dashboard.py</code></pre>
+<pre class="shell"><code>chmod a+x /home/pi/python/temperature_dashboard/temp_dashboard.py</code></pre>
 <p>In order to create a service that systemd can run you need to create a service file. Mine is below, saved to a file called temperature.service.</p>
-<pre><code>[Unit]
+<pre class="shell"><code>[Unit]
 Description=Launcher service for a temperature dashboard
 After=systemd-user-sessions.service
 
