@@ -39,7 +39,7 @@ administration:
 - "[Lavinia Preston](https://www.linkedin.com/in/lavinia-preston-60806b127/)"
 
 researchers:
-- "[Kate Compton](https://www.galaxykate.com/)"
+# - "[Kate Compton](https://www.galaxykate.com/)"
 - "[Ivo Jimenez](http://www.linkedin.com/in/ivotron)"
 
 currentphds:
@@ -49,8 +49,8 @@ currentphds:
 - "[Esmaeil Mirvakili](https://www.linkedin.com/in/esmaeil-m-12a71879/)"
 - "[Yiming Zhang](https://www.linkedin.com/in/yiming-steven-zhang/)"
 
-currentmss:
-- "[Saloni Rane](https://www.linkedin.com/in/saloni-rane/)"
+# currentmss:
+# - "[Saloni Rane](https://www.linkedin.com/in/saloni-rane/)"
 
 graduatedphds:
   courses:
