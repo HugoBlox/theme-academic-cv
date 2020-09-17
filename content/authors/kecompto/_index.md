@@ -33,7 +33,7 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:galaxykate@gmail.com
-- icon: home 
+- icon: home
   icon_pack: fas
   link: https://www.galaxykate.com/
 - icon: linkedin
@@ -45,10 +45,10 @@ social:
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
-  
+
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
-user_groups:
-- Researchers
+user_groups: []
+# - Researchers
 ---
 Weird Futurist. Maker of many interesting things. Geologic choreographer, dance breeder, crafter of twitching generative bots. Ask me about JavaScript. She/her.
