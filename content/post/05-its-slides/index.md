@@ -34,4 +34,4 @@ projects = []
 
 Today it's the first day for the course on intelligent transportation systems. Please find slides [here](http://bit.ly/ITS2019-Control). 
 
-For more content check [here]({{< ref "/courses/its2/_index.md" >}})
+# For more content check [here]({{< ref "/courses/its2/_index.md" >}})
