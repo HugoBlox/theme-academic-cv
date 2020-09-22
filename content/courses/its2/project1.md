@@ -22,7 +22,7 @@ Source code and notebooks [here](https://github.com/aladinoster/prj_vplatoon)
 
 The main objective of this project is to design a controller for a platoon of vehicles in order to optimize the traffic flow and reduce the fuel consumption. A platoon of vehicles can be seen as follows.
 
-![CAV](/img/its_img/p2-cavs.png)
+![CAV](/media/its_img/p2-cavs.png)
 
 ## Objectives
 

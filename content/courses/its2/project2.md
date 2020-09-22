@@ -22,7 +22,7 @@ Source code and notebooks [here](https://github.com/aladinoster/prj_connectv2x)
 
 The main objective of this project is to study the effects of broadcasting messages from the infrastructure towards specific connected vehicles. The scheme is as follows. 
 
-![CAV](/img/its_img/scoop-test.png)
+![CAV](/media/its_img/scoop-test.png)
 
 ## Objectives
 

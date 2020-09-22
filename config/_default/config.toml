@@ -69,3 +69,29 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   category = "categories"
   publication_type = "publication_types"
   author = "authors"
+
+
+# Show related content at the bottom of pages?
+show_related = {docs = true, page = false, post = true, project = true, publication = true, talk = true}
+   
+# Show a copyright license from creativecommons.org in the site footer?
+# Page specific copyright licenses are also possible by adding this option to a page's front matter.
+copyright_license = {enable = false, allow_derivatives = false, share_alike = true, allow_commercial = false, notice = "This work is licensed under {license}"}
+   
+# Highlight the site author (superuser) in author lists? (true/false)
+highlight_superuser = false
+   
+# PLACE THIS NEW [CMS] CONFIG SECTION AT THE END OF THE FILE
+  
+############################
+## Content Management System
+############################
+[cms]
+ # See https://sourcethemes.com/academic/docs/install/
+ netlify_cms = true
+  
+############################
+## Icon Pack Extensions
+############################
+[icon.pack]
+ ai = false  # Academicons icon pack https://jpswalsh.github.io/academicons/
