@@ -17,8 +17,8 @@ external_link: https://github.com/gamma-opt/EnergySystemModeling.jl
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: gamma_ESM_sep_2020.png
-  focal_point: Smart
+  caption: "gamma_ESM_sep_2020.png"
+  focal_point: "Smart"
   preview_only: false
 
 # Projects (optional).
