@@ -1,0 +1,36 @@
+---
+title: "mtcars"
+author: "Richard Davey"
+date: "22/09/2020"
+params:
+  cyl: 4
+output: html_document
+---
+
+## Mtcars
+
+With parameterised reporting it is possible to feed in parameters using the `params:` section in the YAML header, and use these values within a `params` list object. This example uses the number of cylinders to filter the `mtcars` dataset and plot and show this filtered dataset. Common use cases within business could be reporting by region or by financial quarter.
+
+```{r cars, message=FALSE, warning=FALSE}
+library(dplyr)
+library(knitr)
+library(ggplot2)
+
+df <- mtcars %>%
+  filter(cyl == params$cyl)
+
+kable(df, caption = paste0("Table of cars with cyl == ", params$cyl))
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r plot, echo=TRUE, message=FALSE, warning=FALSE}
+ggplot(df, aes(x = disp, y = mpg)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  labs(title = paste0("Relationship between mpg and disp for ", params$cyl, " cylinder cars"))
+```
+

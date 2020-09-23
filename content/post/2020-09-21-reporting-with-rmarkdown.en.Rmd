@@ -1,0 +1,66 @@
+---
+title: Reporting with Rmarkdown
+author: ''
+date: '2020-09-21'
+draft: True
+slug: reporting-with-rmarkdown
+categories:
+  - Guide
+tags:
+  - R
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-09-21T21:10:29+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+output: html_document
+---
+
+Rmarkdown was a revelation to me when I was first introduced to it in SEAMS (now Arcadis Gen). I'd used Jupyter notebooks before for Python and loved the live lab notebook feel of them. Rmarkdown for R is like this but more polished, more final, more suited to a corporate or public end user. It also has a few tricks up its sleeve.
+
+## Reproducibility
+
+## Flexdashboards
+
+
+
+## Interactive dashboards with Shiny
+
+## Batch reporting using parameters
+Within the YAML header at the top of the Rmarkdown document you can specify a `params:` tag with _name: value_ pairs underneath. Within the code in the document, a list object called `params` is available containing the name and values specified in the header. Below is an example of an Rmarkdown document set up to report on the `mtcars` dataset built in R, filtered according to the cylinder value stored in `params$cyl`.
+
+### Rmarkdown document
+
+<pre>
+````
+`r paste(readLines('params_mtcars.Rmd'), collapse = '\n')`
+````
+</pre>
+
+### Batch reporting script
+
+Once the document is created the code below will batch generate reports for all valid cylinder values.
+
+```{r batch_report, eval=FALSE, message=FALSE, warning=FALSE}
+
+# Batch rendering of parameterised reports
+render_report <- function(input_cyl){
+  rmarkdown::render("params_mtcars.Rmd",
+                    params = list(
+                      cyl = input_cyl
+                    ),
+                    output_file = paste0("mtcars_cyl", input_cyl))
+}
+
+cylinders <- unique(mtcars$cyl)
+
+for(cyl in cylinders){
+  render_report(cyl)
+}
+
+```
