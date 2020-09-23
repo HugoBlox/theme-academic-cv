@@ -2,7 +2,6 @@
 title: Reporting with Rmarkdown
 author: ''
 date: '2020-09-21'
-draft: True
 slug: reporting-with-rmarkdown
 categories:
   - Guide
@@ -24,21 +23,63 @@ output: html_document
 Rmarkdown was a revelation to me when I was first introduced to it in SEAMS (now Arcadis Gen). I'd used Jupyter notebooks before for Python and loved the live lab notebook feel of them. Rmarkdown for R is like this but more polished, more final, more suited to a corporate or public end user. It also has a few tricks up its sleeve.
 
 ## Reproducibility
+Much like Jupyter notebooks, the biggest draw for RMarkdown is the reproducibility. Any other collaborator can take your document and re-render it using the same input data to produce the same output. The corollary is that if input data or assumptions change then it is very straightforward to rerun with no extra effort. For instance, sharing reports within a team may require your code chunks to be visible (just like Jupyter) but for external reporting these may need to be set to invisible (using one line of code):
+
+```{r eval=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Flow
+For a similar reason to the above, having code so close to commentary helps with flow. I've taken to doing exploratory data analysis within an Rmarkdown document that will eventually become my interim report document. This method requires some discipline up front (read: constant revision, simplification and lots of code comments!) but it can be a really helpful way of generating an artefact from what is a trial-and-error exploratory process.  
 
 ## Flexdashboards
+I've had limited exposure to using `flexdashboard`, but the principle is to render a mostly static dashboard with a few limited widgets and interactivity (such as leaflet maps). This is achieved with some minor additional markdown syntax and a changed YAML header like the one below.
 
+<pre>
+---
+title: "Untitled"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+</pre>
 
+The real benefit of flexdashboard over more interactive dashboards is that it is a portable document that doesn't require a client-server architecture.
 
 ## Interactive dashboards with Shiny
+When you really need filters, sliders, realtime data feeds and all sorts of interactivity and you are prepared to host it on a remote server then Shiny is the way to go. The code is essentially split into how the app looks (referred to as the `ui` object) and how the app processes (referred to as the `server` object). This can either be written in the same file, with the structure below, or split into `ui.R` and `server.R` files.
+
+```{r shiny, eval=FALSE}
+library(shiny)
+ui <- fluidPage(
+   titlePanel("Simple interactive iris plot"),
+   mainPanel(
+      checkboxGroupInput("species", "Species", choices = unique(iris$Species), selected = "setosa"),
+      plotOutput("irisplot")
+   )
+)
+server <- function(input, output) {
+   output$irisplot <- renderPlot({
+      with(iris[iris$Species %in% input$species,], plot(Petal.Width, Petal.Length, col = Species))
+   })
+}
+shinyApp(ui, server)
+
+```
+
+You don't need Rmarkdown to develop Shiny apps but if you want the same widgets in Rmarkdown you need to add `runtime: shiny` to the YAML header.
 
 ## Batch reporting using parameters
+The culmination of reproducibility and analytical flow is the concept of _write once render many_. Similar to DRY (don't repeat yourself), nothing beats preparing a single template document that can be automatically tweaked to generate lots of similar - but crucially unique - reports. This could be split by region, business unit, financial quarter, you name it.  Fortunately Rmarkdown is set up to easily do this.
+
 Within the YAML header at the top of the Rmarkdown document you can specify a `params:` tag with _name: value_ pairs underneath. Within the code in the document, a list object called `params` is available containing the name and values specified in the header. Below is an example of an Rmarkdown document set up to report on the `mtcars` dataset built in R, filtered according to the cylinder value stored in `params$cyl`.
 
 ### Rmarkdown document
 
 <pre>
 ````
-`r paste(readLines('params_mtcars.Rmd'), collapse = '\n')`
+`r paste(readLines('../../post/params_mtcars.Rmd'), collapse = '\n')`
 ````
 </pre>
 
@@ -64,3 +105,6 @@ for(cyl in cylinders){
 }
 
 ```
+
+
+Finally, if you needed even more endorsement you can actually write websites using Rmarkdown, just like this one. See [blogdown](https://bookdown.org/yihui/blogdown/) for details.

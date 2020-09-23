@@ -1,0 +1,135 @@
+---
+title: Reporting with Rmarkdown
+author: ''
+date: '2020-09-21'
+draft: True
+slug: reporting-with-rmarkdown
+categories:
+  - Guide
+tags:
+  - R
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-09-21T21:10:29+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+output: html_document
+---
+
+
+
+<p>Rmarkdown was a revelation to me when I was first introduced to it in SEAMS (now Arcadis Gen). I’d used Jupyter notebooks before for Python and loved the live lab notebook feel of them. Rmarkdown for R is like this but more polished, more final, more suited to a corporate or public end user. It also has a few tricks up its sleeve.</p>
+<div id="reproducibility" class="section level2">
+<h2>Reproducibility</h2>
+<p>Much like Jupyter notebooks, the biggest draw for RMarkdown is the reproducibility. Any other collaborator can take your document and re-render it using the same input data to produce the same output. The corollary is that if input data or assumptions change then it is very straightforward to rerun with no extra effort. For instance, sharing reports within a team may require your code chunks to be visible (just like Jupyter) but for external reporting these may need to be set to invisible (using one line of code):</p>
+<pre class="r"><code>knitr::opts_chunk$set(echo = FALSE)</code></pre>
+</div>
+<div id="flow" class="section level2">
+<h2>Flow</h2>
+<p>For a similar reason to the above, having code so close to commentary helps with flow. I’ve taken to doing exploratory data analysis within an Rmarkdown document that will eventually become my interim report document. This method requires some discipline up front (read: constant revision, simplification and lots of code comments!) but it can be a really helpful way of generating an artefact from what is a trial-and-error exploratory process.</p>
+</div>
+<div id="flexdashboards" class="section level2">
+<h2>Flexdashboards</h2>
+<p>I’ve had limited exposure to using <code>flexdashboard</code>, but the principle is to render a mostly static dashboard with a few limited widgets and interactivity (such as leaflet maps). This is achieved with some minor additional markdown syntax and a changed YAML header like the one below.</p>
+<pre>
+---
+title: "Untitled"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+</pre>
+<p>The real benefit of flexdashboard over more interactive dashboards is that it is a portable document that doesn’t require a client-server architecture.</p>
+</div>
+<div id="interactive-dashboards-with-shiny" class="section level2">
+<h2>Interactive dashboards with Shiny</h2>
+<p>When you really need filters, sliders, realtime data feeds and all sorts of interactivity and you are prepared to host it on a remote server then Shiny is the way to go. The code is essentially split into how the app looks (referred to as the <code>ui</code> object) and how the app processes (referred to as the <code>server</code> object). This can either be written in the same file, with the structure below, or split into <code>ui.R</code> and <code>server.R</code> files.</p>
+<pre class="r"><code>library(shiny)
+ui &lt;- fluidPage(
+   titlePanel(&quot;Simple interactive iris plot&quot;),
+   mainPanel(
+      checkboxGroupInput(&quot;species&quot;, &quot;Species&quot;, choices = unique(iris$Species), selected = &quot;setosa&quot;),
+      plotOutput(&quot;irisplot&quot;)
+   )
+)
+server &lt;- function(input, output) {
+   output$irisplot &lt;- renderPlot({
+      with(iris[iris$Species %in% input$species,], plot(Petal.Width, Petal.Length, col = Species))
+   })
+}
+shinyApp(ui, server)</code></pre>
+<p>You don’t need Rmarkdown to develop Shiny apps but if you want the same widgets in Rmarkdown you need to add <code>runtime: shiny</code> to the YAML header.</p>
+</div>
+<div id="batch-reporting-using-parameters" class="section level2">
+<h2>Batch reporting using parameters</h2>
+<p>The culmination of reproducibility and analytical flow is the concept of <em>write once render many</em>. Similar to DRY (don’t repeat yourself), nothing beats preparing a single template document that can be automatically tweaked to generate lots of similar - but crucially unique - reports. This could be split by region, business unit, financial quarter, you name it. Fortunately Rmarkdown is set up to easily do this.</p>
+<p>Within the YAML header at the top of the Rmarkdown document you can specify a <code>params:</code> tag with <em>name: value</em> pairs underneath. Within the code in the document, a list object called <code>params</code> is available containing the name and values specified in the header. Below is an example of an Rmarkdown document set up to report on the <code>mtcars</code> dataset built in R, filtered according to the cylinder value stored in <code>params$cyl</code>.</p>
+<div id="rmarkdown-document" class="section level3">
+<h3>Rmarkdown document</h3>
+<pre>
+````
+---
+title: "mtcars"
+author: "Richard Davey"
+date: "22/09/2020"
+params:
+  cyl: 4
+output: html_document
+---
+
+## Mtcars
+
+With parameterised reporting it is possible to feed in parameters using the `params:` section in the YAML header, and use these values within a `params` list object. This example uses the number of cylinders to filter the `mtcars` dataset and plot and show this filtered dataset. Common use cases within business could be reporting by region or by financial quarter.
+
+```{r cars, message=FALSE, warning=FALSE}
+library(dplyr)
+library(knitr)
+library(ggplot2)
+
+df <- mtcars %>%
+  filter(cyl == params$cyl)
+
+kable(df, caption = paste0("Table of cars with cyl == ", params$cyl))
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r plot, echo=TRUE, message=FALSE, warning=FALSE}
+ggplot(df, aes(x = disp, y = mpg)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  labs(title = paste0("Relationship between mpg and disp for ", params$cyl, " cylinder cars"))
+```
+
+````
+</pre>
+</div>
+<div id="batch-reporting-script" class="section level3">
+<h3>Batch reporting script</h3>
+<p>Once the document is created the code below will batch generate reports for all valid cylinder values.</p>
+<pre class="r"><code># Batch rendering of parameterised reports
+render_report &lt;- function(input_cyl){
+  rmarkdown::render(&quot;params_mtcars.Rmd&quot;,
+                    params = list(
+                      cyl = input_cyl
+                    ),
+                    output_file = paste0(&quot;mtcars_cyl&quot;, input_cyl))
+}
+
+cylinders &lt;- unique(mtcars$cyl)
+
+for(cyl in cylinders){
+  render_report(cyl)
+}</code></pre>
+<p>Finally, if you needed even more endorsement you can actually write websites using Rmarkdown, just like this one. See <a href="https://bookdown.org/yihui/blogdown/">blogdown</a> for details.</p>
+</div>
+</div>
