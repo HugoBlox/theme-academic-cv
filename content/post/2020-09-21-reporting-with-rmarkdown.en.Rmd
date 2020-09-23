@@ -79,7 +79,7 @@ Within the YAML header at the top of the Rmarkdown document you can specify a `p
 
 <pre>
 ````
-`r paste(readLines('../../post/params_mtcars.Rmd'), collapse = '\n')`
+`r paste(readLines('../../static/post/params_mtcars.Rmd'), collapse = '\n')`
 ````
 </pre>
 
