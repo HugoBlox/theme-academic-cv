@@ -7,8 +7,8 @@ summary: ""
 authors: [lucas-condeixa]
 tags: []
 categories: []
-date: 
-lastmod: 
+date: 2020-09-25T18:05:35+03:00
+lastmod: 2020-09-25T18:05:35+03:00
 featured: false
 draft: false
 
