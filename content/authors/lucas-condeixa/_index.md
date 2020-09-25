@@ -77,6 +77,6 @@ user_groups:
 
 Lucas works with optimization methods under uncertainty for systems analysis.
 
-His PhD research focuses on developing mathematical models for power systems Generation and Transmission Expansion (G&TEP) planning.  He is currently engaged with the implications of temporal reduction in G&TEP using different clustering algorithms.
+His PhD research focuses on developing mathematical models for power systems Generation, Transmission, and Storage Expansion Planning (GTSEP). He is currently engaged with the implications of temporal reduction in G&TEP using different clustering algorithms.
 
 </div>
