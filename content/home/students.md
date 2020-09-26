@@ -76,4 +76,12 @@ subtitle = ""
  css_class = ""
 +++
 
+PhD Students:
 
+* Reese Levine
+* [Gan Shen](https://gshen42.github.io/)
+* Patrick Redmond
+
+MS Students:
+
+* Farhad Akbar Yalmaz

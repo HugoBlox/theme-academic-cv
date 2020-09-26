@@ -45,8 +45,14 @@ subtitle = ""
 ![Owen Arden](/img/oarden.jpeg "Owen Arden")
 **[Owen Arden](https://www.soe.ucsc.edu/people/owen)**
 
-![Lindsey Kuper](/img/lkuper.jpeg "Lindsey Kuper")
-**[Lindsey Kuper](https://www.soe.ucsc.edu/people/lkuper)**
+![Daniel Fremont](/img/dfremont.jpeg "Daniel Fremont")
+**[Daniel Fremont](https://people.ucsc.edu/~dfremont/index.html)**
 
-![Lindsey Kuper](img/fnawab.jpeg "Faisal Nawab")
-**[Faisal Nawab](https://www.soe.ucsc.edu/people/nawab)**
+![Lindsey Kuper](/img/lkuper.jpeg "Lindsey Kuper")
+**[Lindsey Kuper](https://users.soe.ucsc.edu/~lkuper/)**
+
+![Tyler Sorensen](/img/tsorensen.jpeg "Tyler Sorensen")
+**[Tyler Sorensen](https://users.soe.ucsc.edu/~tsorensen/)**
+
+
+
