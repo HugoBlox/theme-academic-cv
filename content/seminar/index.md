@@ -28,7 +28,7 @@ If you have any questions or comments, please contact [Lindsey](https://users.so
 |[Oct. 9](#oct-9)     | [Matthías Páll Gissurarson](https://mpg.is/)       | Weakening Type Systems for Faster Prototyping |
 |[Oct. 16](#oct-16)   | [Wen Kokke](https://wen.works/)       | _TBD_|
 |[Oct. 23](#oct-23)   | [Kalev Alpernas](https://kalevalp.github.io/)       | _TBD_|
-|[Oct. 30](#oct-30)   | [Daniel Lehmann](http://software-lab.org/people/Daniel_Lehmann.html)       | _TBD_|
+|[Oct. 30](#oct-30)   | [Daniel Lehmann](http://software-lab.org/people/Daniel_Lehmann.html)       | Everything Old is New Again: Binary Security of WebAssembly|
 |[Nov. 6](#nov-6)     | [Uma Zalakain](https://umazalakain.info/)       | _TBD_|
 |[Nov. 13](#nov-13)   | [Katherine Ye](https://www.cs.cmu.edu/~kqy/)       | _TBD_|
 |[Nov. 20](#nov-20)   | [Jacob Nelson](https://sites.google.com/lehigh.edu/jacobnelson/home)       | _TBD_|
@@ -67,9 +67,31 @@ Class introduction
 
 **Speaker:** [Daniel Lehmann](http://software-lab.org/people/Daniel_Lehmann.html) (_University of Stuttgart_)
 
-**Title:** _TBD_
+**Title:** Everything Old is New Again: Binary Security of WebAssembly
 
-**Abstract:** _TBD_
+**Abstract:** WebAssembly is an increasingly popular, low-level binary format designed
+to run code in browsers and on other platforms safely and securely, by
+strictly separating code and data, enforcing types, and limiting
+indirect control flow. Still, vulnerabilities in memory-unsafe source
+languages can translate to vulnerabilities in WebAssembly binaries. We
+have analyzed to what extent vulnerabilities are exploitable in
+WebAssembly binaries, and how this compares to native code. We find that
+many classic vulnerabilities which, due to common mitigations, are no
+longer exploitable in native binaries, are completely exposed in
+WebAssembly. Moreover, WebAssembly enables unique attacks, such as
+overwriting supposedly constant data or manipulating the heap using a
+stack overflow. In this talk, we will explain several attack primitives
+that allow an attacker (i) to write arbitrary memory, (ii) to overwrite
+sensitive data, and (iii) to trigger unexpected behavior by diverting
+control flow or manipulating the host environment. This can ultimately
+lead to new forms of cross-site scripting in the browser or remote code
+execution on Node.js. We will also demonstrate one of our three
+end-to-end exploits, which cover three different WebAssembly platforms.
+In our quantitative evaluation of real-world WebAssembly binaries, we
+also measure how likely our attack primitives are feasible in practice.
+Overall, our findings show a perhaps surprising lack of binary security
+in WebAssembly. Finally, we will discuss some potential mitigations and
+give recommendations on how to harden WebAssembly binaries in the future.
 
 # Nov. 6
 
