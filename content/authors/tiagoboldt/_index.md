@@ -51,6 +51,6 @@ social:
 email: "tiagoboldt@gmail.com"
 
 ---
-Hi! I live in Porto, Portugal, and love music, movies, and sharing a good meal with friends. I've earned a Ph.D. in Informatics Engineering with the thesis *Engineering Software for the Cloud: A Pattern Language*.
+Hi! I live in Porto, Portugal, and love concerts, movies, and sharing a good meal with friends. I've earned a Ph.D. in Software Engineering with the thesis *Engineering Software for the Cloud: A Pattern Language*.
 
-Professionally, I split my time between industry and academy. I am the product lead at [Velocidi](https://www.velocidi.com/), a NY-based AdTech startup, and assistant lecturer at the [Faculty of Engineering from the University of Porto](https://sigarra.up.pt/feup/pt/func_geral.formview?p_codigo=479881).
+Professionally, I spend my time between industry and academy. I am the product lead at [Velocidi](https://www.velocidi.com/), a NY-based AdTech startup, and invited assistant professor at the [Faculty of Engineering from the University of Porto](https://sigarra.up.pt/feup/pt/func_geral.formview?p_codigo=479881).
