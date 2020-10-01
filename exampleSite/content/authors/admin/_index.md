@@ -66,6 +66,9 @@ social:
 # Email for Contact widget or Gravatar
 email: ""
 
+# Highlight the author in author lists? (true/false)
+highlight_name: false
+
 # Organizational groups that you belong to (for People widget)
 #   Remove this if you are not using the People widget.
 user_groups:
