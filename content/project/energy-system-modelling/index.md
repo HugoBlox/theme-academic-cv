@@ -35,3 +35,5 @@ The aggregation of uncertainties that are timely inter-related to both generatio
 We explore how data aggregation methods can influence decision making considering GTEP optimization models under uncertainty. Therefore, we analyse and discuss the relevance and impact of different clustering techniques in stochastic optimization models. We ally the best practices in data aggregation to optimization models adapted to uncertainties coming from modern applications within power systems such as: intermittent renewable generation, demand response mechanisms, electrical vehicles integration, energy storage technologies development, among others.
 
 The project brings a mathematical view over the trendy discussion of data handling and applications inside energy systems optimization under uncertainty models.
+
+_The project is funded by the Aalto Institue of Science (Advanced analytics for planning future energy systems)._
