@@ -12,7 +12,7 @@ The steps to make changes to the template and build the website are as follows:
 
 - Clone the source repository: `git clone https://github.com/lsd-ucsc/lsd-ucsc.github.io-source.git`
 - Init submodule: `cd lsd-ucsc.github.io-source; git submodule update --init --recursive`
-- Check that the `public/` folder exists. This contains the content of the generated website. *Do not make changes here*.
+- Check that the `public/` folder exists. This contains the content of the generated website. **Do not make changes here**.
 - If you want to see the changes you make to the template source code in real time, run `hugo server -D` and go to (by default) `localhost:1313`.
 - After you have made the changes you want to make, run `hugo` to generate the website. The website is generated in the `public/` directory. 
 - You must now push both the contents of `public/` to the `lsd-ucsc.github.io` repository and the changes you made to the template to this repository. 
