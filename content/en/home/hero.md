@@ -5,7 +5,11 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 5  # Order that this section will appear.
 
-title = "Join the Great Snowball Fight on January 4, 2020!"
+title = """The Great Snowball Fight 2021 is
+
+**CANCELLED**
+
+due to unforeseen worldwide pandemic"""
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
 hero_media = "hero-academic.png"
@@ -36,20 +40,24 @@ hero_media = "hero-academic.png"
 # Call to action links (optional).
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
-[cta]
-  url = "/register"
-  label = "Register!"
-  icon_pack = "fas"
-  icon = "snowflake"
+#[cta]
+#  url = "/register"
+#  label = "Register!"
+#  icon_pack = "fas"
+#  icon = "snowflake"
   
 #[cta_note]
 #  url = "/rules"
 #  label = "View rules"
   
-[cta_alt]
-  url = "/details"
-  label = "Learn more"
+#[cta_alt]
+#  url = "/details"
+#  label = "Learn more"
+
+[cta]
+  url = "/post/2021_canceled"
+  label = "Read the announcement"
   
 +++
 
-Following its millenary tradition, the next edition of the Great Snowball Fight will take place at the [Bivacco Menegazzi](https://goo.gl/maps/CRMbn2kRX38G78UF9) on the first Saturday of the year.
+<!-- Following its millenary tradition, the next edition of the Great Snowball Fight will take place at the [Bivacco Menegazzi](https://goo.gl/maps/CRMbn2kRX38G78UF9) on the first Saturday of the year. --> 

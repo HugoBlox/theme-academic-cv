@@ -11,7 +11,7 @@ It's pretty simple: we go there, we have some fun, we eat a warm lunch, we have 
 
 ## Where and when do we meet?
 Wondering how to get to us? Here are some organisational details to help with planning your trip!  
-We will meet in front of **Belluno's train station** the morning of the **4th of January, 2020, at 08:00**.
+We will meet in front of **Belluno's train station** the morning of the **2th of January, 2021, at 08:00**.
 From there on, we will organise transportation by car and separate the participants in groups, in order to minimise the number of vehicles.
 
 #### How to get to Belluno
