@@ -43,12 +43,12 @@ Conveniently, the hut (which is closed for the winter) has a very nice [webcam](
 
 This is the situation as of yesterday night: more than 60cm of snow have already fallen!
 
-![Malga Losch snow graph](/img/post/snow_losch_2019-11-15.jpg)
+![Malga Losch snow graph](/media/post/snow_losch_2019-11-15.jpg)
 
 Here are two good snapshot staken by the Scarpa--Gurekian hut webcam a few days ago:
 
-![Scarpa-Gurekian hut webcam](/img/post/webcam_scarpa_2019-11-14_night.jpg)
-![Scarpa-Gurekian hut webcam](/img/post/webcam_scarpa_2019-11-14_day.jpg)
+![Scarpa-Gurekian hut webcam](/media/post/webcam_scarpa_2019-11-14_night.jpg)
+![Scarpa-Gurekian hut webcam](/media/post/webcam_scarpa_2019-11-14_day.jpg)
 
 ---------
 
