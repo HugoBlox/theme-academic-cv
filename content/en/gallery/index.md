@@ -6,5 +6,7 @@ share = false
 
 Test gallery
 
+### People
+
 {{< gallery album="people" >}}
 
