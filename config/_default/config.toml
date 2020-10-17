@@ -20,6 +20,8 @@ showfooter = false
 ## Advanced options below ##
 ############################
 
+timeout = 20000
+
 # Get last modified date for content from Git?
 enableGitInfo = false
 
