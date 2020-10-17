@@ -50,3 +50,5 @@ In the meantime, stay safe, be responsible and hold tight for the next Great Sno
 Snowfully yours, APAZAF
 
 PS: as a consolation, you will find a gallery with the best pictures of the 2020 edition [here](/gallery).
+
+PPS: next year we will make sure to forbid pandemics in the [rulebook](/rules).
