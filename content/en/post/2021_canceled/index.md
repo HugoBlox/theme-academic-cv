@@ -48,3 +48,5 @@ IT IS AN EX-BATTLE!
 In the meantime, stay safe, be responsible and hold tight for the next Great Snowball Battle, to be held on the 8th of January, 2022!
 
 Snowfully yours, APAZAF
+
+PS: as a consolation, you will find a gallery with the best pictures of the 2020 edition [here](/gallery).

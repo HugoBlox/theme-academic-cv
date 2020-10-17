@@ -2,11 +2,7 @@
 share = false
 +++
 
-# Gallery
+# 2020 edition picture gallery
+##### Look at all this snowballing! Isn't it glorious?
 
-Test gallery
-
-### People
-
-{{< gallery album="people" >}}
-
+{{< gallery album="gallery_2020" >}}
