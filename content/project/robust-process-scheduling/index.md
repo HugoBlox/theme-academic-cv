@@ -1,12 +1,12 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Robust process scheduling"
+title: "Robust process systems"
 subtitle: ""
 summary: "Developing models and methods for robust planning of process systems"
 authors: [hossein-mostafaei, emilia-vuola, fabricio-oliveira]
-tags: []
-categories: []
+tags: [Process systems planning, robust optimisation]
+categories: [Production systems & supply chain management, Decision making under uncertainty]
 weight: 7
 featured: false
 draft: false

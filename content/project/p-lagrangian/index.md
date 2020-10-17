@@ -1,12 +1,12 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "p-Lagrangian"
+title: "p-Lagrangian decomposition"
 subtitle: ""
 summary: "Efficient decomposition methods for MIQCQPs using Lagrangian decomposition and parallelisation"
 authors: [nikita-belyak, fabricio-oliveira]
-tags: []
-categories: []
+tags: [Convexification techniques, Lagrangian-based decomposition methods]
+categories: [Efficient formulations and solution methods]
 weight: 7
 featured: false
 draft: false

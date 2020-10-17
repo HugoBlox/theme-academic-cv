@@ -1,12 +1,12 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Inventory management"
+title: "Blood units inventory management"
 subtitle: ""
 summary: "Defining optimal inventory control policies using stochastic programming."
-authors: [fabricio-oliveira, _ellie-dillon]
-tags: []
-categories: []
+authors: [fabricio-oliveira, _ellie-dillon, ilmari-vauhkonen]
+tags: [Heathcare and humanitarian logistics, Logistics management, Stochastic programming, Lagrangian-based decomposition methods]
+categories: [Supply chain management & production planning, Decision making under uncertainty]
 weight: 7
 featured: false
 draft: false

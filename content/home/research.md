@@ -19,9 +19,10 @@ title = "Research topics"
   icon_pack = "custom"
   name = "Production systems & supply chain management"
   description = """
-  - Energy system planning
-  - Healthcare and humanitarian logistics
-  - Process scheduling/ routing
+  - Healthcare and humanitarian systems
+  - Renewable energy generation
+  - Process systems planning
+  - Logistics management
   """
 
 [[feature]]
@@ -29,9 +30,10 @@ title = "Research topics"
   icon_pack = "custom"
   name = "Decision making under uncertainty"
   description = """
-  - Decision programming
-  - Stochastic programming
+  - Endogenous uncertainty
   - Robust optimisation
+  - Stochastic programming
+  - Time series aggregation
   """
 
 [[feature]]
@@ -39,25 +41,9 @@ title = "Research topics"
   icon_pack = "custom"
   name = "Efficient formulations and solution methods"
   description = """
-  - Lagrangian-based decomposition methods
-  - Cutting planes-based methods
   - Convexification techniques
-  - Column Generation
+  - Cutting planes & column generation
+  - Lagrangian-based decomposition methods
+  - Parallelisation
   """
-
-# Uncomment to use emoji icons.
-# [[feature]]
-#  icon = ":smile:"
-#  icon_pack = "emoji"
-#  name = "Emojiness"
-#  description = "100%"
-
-# Uncomment to use custom SVG icons.
-# Place custom SVG icon in `assets/images/icon-pack/`, creating folders if necessary.
-# [[feature]]
-#  icon = "beach-sunset"
-#  icon_pack = "custom"
-#  name = "Surfing"
-#  description = "90%"
-
 +++

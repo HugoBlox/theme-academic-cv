@@ -1,12 +1,12 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Energy Systems Modeling"
+title: "Future energy systems modelling"
 subtitle: ""
 summary: "Generation and Transmission Expansion Planning (GTEP) stochastic models incorporating temporal reduction via clustering algorithms."
 authors: [fabricio-oliveira, lucas-condeixa, jaan-tollander]
-tags: [GTEP, Clustering]
-categories: [Optimization]
+tags: [Renewable energy generation, Data aggregation]
+categories: [Supply chain management & production planning, Decision making under uncertainty]
 weight: 102
 featured: false
 draft: false
