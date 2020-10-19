@@ -1,0 +1,103 @@
+---
+title: Location heatmaps in R
+author: ''
+date: '2020-10-09'
+draft: true
+slug: location-heatmaps-in-r
+categories:
+  - Guide
+tags:
+  - R
+  - Mapping
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-10-09T12:02:29+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+```{r include=FALSE}
+knitr::opts_chunk$set(comment = "#>", echo = FALSE)
+```
+
+# Location heatmaps in R
+
+Let's use a built-in example within R: location of earthquakes off the island of Fiji.
+
+```{r}
+data(quakes)
+head(quakes)
+```
+
+This data set contains spatial point data of earthquakes modelled with a certain magnitude and focal depth using observations from a certain number of observatories (`stations`).
+
+
+# Take a shape and setup the base map
+
+```{r}
+library(sf)
+library(tmap)
+library(widgetframe) # only needed for displaying on this website
+pt <- st_as_sf(quakes, coords = c("long", "lat"), crs = 4326)
+
+tmap_mode("view")
+tm_basemap(c("CartoDB.Positron")) +
+  tm_shape(pt) +
+  tm_dots(id = "name", alpha = 0.3, size = 0.1, col = "mag",
+                palette = "-inferno", style = "log10", title = "Magnitude",
+                popup.vars = c("mag", "depth", "stations"))
+```
+
+# Create a grid
+This makes an outline and is a good check to see if the bounding box is correct
+```{r}
+outline <- st_make_grid(pt, n = 1)
+```
+
+Now divide into a grid with cells. In the case below we divide the bounding box region
+into 20 cells of equal size and equal length in both dimensions.
+```{r}
+library(tibble)
+grid <- st_make_grid(pt, n = 20) %>%
+  st_sf() %>%
+  rownames_to_column("id")
+```
+
+## Join and aggregate
+Form a spatial join with the point observations. Group by `id` of the cell and any group variables in the point observations (such as measurement type, date, object, etc.). Then aggregate, e.g., by summing or calculating the mean of all observations associated with that cell.
+
+```{r}
+library(dplyr)
+heat <- grid %>%
+  st_join(pt) %>%
+  group_by(id) %>%
+  summarise(value = mean(stations))
+
+ tm_basemap(c("CartoDB.Positron")) +
+        tm_shape(heat) +
+        tm_fill(col = "value", colorNA = NULL, title = "Mean station observations", style = "cont")
+
+```
+
+## A true heatmap
+The above wasn't really a heatmap so much as a grid. Fortunately the leaflet package has a built in function that is able to render heatmaps properly. Or rather it is contained in the leaflet.extras package.
+
+```{r}
+library(leaflet)
+library(leaflet.extras)
+map <- quakes %>%
+  leaflet() %>% 
+  addTiles() %>% 
+  addProviderTiles(providers$CartoDB.Positron) %>% 
+  addHeatmap(lng=~long,
+             lat=~lat,
+             intensity=~stations,
+             max=~max(stations) + 10,
+             radius=20,blur=10)
+frameWidget(map)
+```

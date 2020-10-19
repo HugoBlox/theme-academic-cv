@@ -1,0 +1,42 @@
+---
+title: Organising an analytical project
+author: ''
+date: '2020-10-16'
+draft: true
+slug: organising-projects
+categories:
+  - Blog
+tags:
+  - R
+  - Project Management
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-10-16T16:32:53+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+I almost didn't write this post because the topic of file organisation is incredibly boring for most people. What did drive me to write was a few horrendous project collaborations where the end result was a soup of files where much time was wasted deciphering what file was in use and where it came from. Especially for long-running projects with multiple authors, what generally results is what previous geologist coworkers called "stratigraphic filing": a time-based layering of work, within files, across versions and across a folder structure that seemed a good idea at the time.
+
+We've probably all come across similar problems. What is the alternative? The core aim is reproducibility; the second aim is legibility, which follows the first. Together they achieve accountability. The third aim is generality, and by this I mean that if you are following a function and package based philosophy *and* you follow separation of confidential data from code then it should be relatively easy to reuse the IP generated from one project into another. There may even be opportunities to make a product from a bespoke client consultation, yielding even more value. 
+
+* separate raw data from processed data. Even file conversions count as processed!
+
+* separate code from data from opinion (which includes reporting, charts and model results)
+
+```
+root /
+------ R / # for code
+------ raw-data / # for data from the client
+------ processed-data / # for the outputs from data cleaning scripts
+------ models /
+--------------- inputs / # the inputs to modelling
+--------------- outputs / # the outputs from modelling
+------ dashboards / # any dashboard or visualisation or summary files (non scripts)
+```
+

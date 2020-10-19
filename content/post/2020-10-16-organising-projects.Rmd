@@ -1,0 +1,49 @@
+---
+title: Organising an analytical project
+author: ''
+date: '2020-10-16'
+slug: organising-projects
+categories:
+  - Blog
+tags:
+  - R
+  - Project Management
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-10-16T16:32:53+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+I almost didn't write this post because the topic of file organisation is incredibly boring for most people (including me). What _did_ drive me to write was a few horrendous projects where the end result was a soup of files where much time was wasted deciphering what file was in use and where it came from. Especially for long-running projects with multiple authors, what generally results is what my previous geologist coworkers used to call "stratigraphic filing": a time-based layering of work, within files, across versions and across a folder structure that seemed a good idea at the time.
+
+We've probably all come across similar problems, but what is the alternative? For me, the core aim of an analytical project (apart from solving the actual business problem) is reproducibility; the second aim is legibility, which follows the first. Together they achieve accountability, which is another way of saying that you can clearly state what method you have applied to which data under a certain set of assumptions to produce a result. If results are the story, then we are talking about the story behind the story.
+
+The third aim is generality, and by this I mean that if you are following a function and package based philosophy *and* you follow separation of confidential data from code then it should be relatively easy to reuse the IP generated from one project into another. There may even be opportunities to make a product from a bespoke client consultation, yielding even more value. Our organisation of work should help not hinder these aims.
+
+So to summarise:
+
+* separate raw data from processed data. Even file conversions count as processed!
+* separate code from data from opinion (opinion includes reporting, charts and model results)
+* separate bespoke code (e.g., that deals with specific client data transformation) from code that solves the general problem (e.g., functions that optimise, model or visualise)
+* ideally you would extract a subset of client data, anonymise and simplify, or create synthetic data, in order to use as test data against your general functions or package
+
+An example folder structure is below. The advantage of this structure is that some of it mimics the way a standard R package is configured, so it would be easy to make one within a project or after the work is concluded. Another advantage is that you could initialise a git repository within the `R` folder, for instance, without tracking enormous binary data files (never mind the privacy or data security issues). An alternative would be to have `root` as your git repo and simply add `raw-data` and `processed-data` to your .gitignore file.
+
+```
+root /
+------ R / # for code
+------ raw-data / # for data from the client
+------ processed-data / # for the outputs from data cleaning scripts
+------ models /
+--------------- inputs / # the inputs to modelling
+--------------- outputs / # the outputs from modelling
+------ dashboards / # any dashboard or visualisation or summary files (non scripts)
+```
+
+Project folder organisation may be boring, but a little thought goes a long way to avoiding problems and making collaboration and reuse of work that much easier.
