@@ -1,3 +1,5 @@
+- id: slides
+  translation: スライド
 - id: toggle_navigation
   translation: ナビゲーションの切り替え
 - id: table_of_contents

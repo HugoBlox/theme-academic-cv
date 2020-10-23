@@ -159,7 +159,7 @@ Logger.log(json[&amp;quot;rest&amp;quot;][0][&amp;quot;name&amp;quot;]);
 &lt;/li>
 &lt;/ol>
 &lt;p>ここまで順を追って簡単にぐるなび API のデータの取得から利用方法まで見てきましたが、条件をある程度絞った中でユーザーに条件を入力してもうなど紹介したもの以外でもやり方は色々あると思うのでよければ試してみてください！&lt;/p>
-&lt;p>あと注意としてはお店のデータが&amp;quot;ぐるなび&amp;quot;と&amp;quot;ぐるなび API&amp;rdquo; では異なり、思ったような店が出力されないというのがあるのでまずはお試しという形で利用したほうがいいかもしれないです。&lt;/p>
+&lt;p>あと注意としてはお店のデータが&amp;quot;ぐるなび&amp;quot;と&amp;quot;ぐるなび API&amp;quot; では異なり、思ったような店が出力されないというのがあるのでまずはお試しという形で利用したほうがいいかもしれないです。&lt;/p>
 &lt;h1 id="参考サイト">参考サイト&lt;/h1>
 &lt;p>今さら聞けない IT 用語：やたらと耳にするけど「API」って何？&lt;/p>
 &lt;p>&lt;a href="https://data.wingarc.com/what-is-api-16084">https://data.wingarc.com/what-is-api-16084&lt;/a>&lt;/p>

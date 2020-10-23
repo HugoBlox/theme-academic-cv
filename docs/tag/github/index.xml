@@ -124,26 +124,26 @@ SOFTWARE.
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th align="center">著作権表示に加えられた変更&lt;/th>
-&lt;th align="center">リポジトリ数&lt;/th>
+&lt;th style="text-align:center">著作権表示に加えられた変更&lt;/th>
+&lt;th style="text-align:center">リポジトリ数&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td align="center">そのまま&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/td>
-&lt;td align="center">51&lt;/td>
+&lt;td style="text-align:center">そのまま&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/td>
+&lt;td style="text-align:center">51&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">書き換え&lt;/td>
-&lt;td align="center">7&lt;/td>
+&lt;td style="text-align:center">書き換え&lt;/td>
+&lt;td style="text-align:center">7&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">方法1&lt;/td>
-&lt;td align="center">1&lt;/td>
+&lt;td style="text-align:center">方法1&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">方法2&lt;/td>
-&lt;td align="center">0&lt;/td>
+&lt;td style="text-align:center">方法2&lt;/td>
+&lt;td style="text-align:center">0&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
