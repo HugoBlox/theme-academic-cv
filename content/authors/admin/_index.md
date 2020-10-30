@@ -69,6 +69,6 @@ user_groups:
 - Visitors
 ---
 
-I’m a senior year undergraduate student at Australian National University(ANU) pursuing a bachelor's degree of Advanced Computing(honor), prior to joining the double degree program of ANU, I was studying computer science at Shandong University in China.
+I’m a senior year undergraduate student at Australian National University pursuing a bachelor's degree of Advanced Computing(honour), prior to joining the double degree program, I was doing bachelor of computer science at Shandong University in China.
 
-My current research is on the topic of variational auto-encoder under the supervision of Prof. Tom Gedeon, I’m also doing some summarizing works with respect to the Graphical Models which is currently under review by my thesis co-supervisor Mr. Zhenyue. My research interests include variational inferences, probabilistic graphical models, convex optimization, etc.
+My current research basically focuses on machine learning(in particular variational techniques) under the supervision of Prof. Tom Gedeon, I’m also doing some summarizing works relating to the graphical models which is currently under review by my thesis co-supervisor Mr. Zhenyue Qin. My research interests include variational inferences, probabilistic graphical models, optimization(convex & non-convex), etc.

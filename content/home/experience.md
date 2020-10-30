@@ -27,7 +27,7 @@ date_format = "Jan 2006"
   description = """
   Tutor for COMP3600/6466 (Algorithms) Responsibilities include:
   * Facilitator in weekly interactive tutorials, assist students with lab exercises and course content
-  * Responsible for creating&marking assignment, quizzes, and examinations
+  * Responsible for creating & marking assignment, quizzes, and examinations
   * As a sessional academic staff, receive feedback from students, help improve teaching quality
   """
 
