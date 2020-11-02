@@ -237,15 +237,33 @@ $sidebar-width: 300px;
 ul.share {
     padding-bottom: 10px;
 }
-.dark .content-widget-hr{
+.dark .content-widget-hr {
     border-top: none;
 }
 .page-author-cards {
     //padding-top: 0;
-    .author-card{
+    .author-card {
         border-bottom: 2px solid rgba(255, 255, 255, 0.05);
-        &:last-child{
+        &:last-child {
             border-bottom: none;
         }
+    }
+}
+
+.chart {
+    height: 200px;
+    @include media-breakpoint-up(md) {
+        height: 300px;
+    }
+    @include media-breakpoint-up(lg) {
+        height: 400px;
+    }
+}
+
+.field-widget {
+    svg {
+        fill: #f76497;
+        width: 0.9em;
+        height: 0.9em;
     }
 }

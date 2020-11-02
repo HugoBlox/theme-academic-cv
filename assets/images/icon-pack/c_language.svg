@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="256"
+   viewBox="0 0 67.733333 67.733335"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="c_language.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.2842864"
+     inkscape:cx="120.22836"
+     inkscape:cy="153.02617"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:snap-page="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="レイヤー 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path869"
+       style="fill=currentColor;fill-opacity:1;stroke-width:0.188976"
+       d="M 128 3 L 19.746094 65.5 L 19.746094 190.5 L 128 253 L 236.25391 190.5 L 236.25391 65.5 L 128 3 z M 132 61.365234 C 142.43196 61.365234 151.72088 63.444403 159.86719 67.605469 C 168.0135 71.766532 174.25491 76.924437 178.5918 83.078125 C 182.92868 89.173205 185.09766 94.946076 185.09766 100.39648 C 185.09766 103.38542 184.04343 106.02294 181.93359 108.30859 C 179.82376 110.59425 177.27409 111.73633 174.28516 111.73633 C 170.94458 111.73633 168.4242 110.94566 166.72461 109.36328 C 165.08363 107.7809 163.23678 105.05553 161.18555 101.1875 C 157.78637 94.799388 153.7725 90.022177 149.14258 86.857422 C 144.57127 83.69267 138.91554 82.111328 132.17578 82.111328 C 121.45078 82.111328 112.89397 86.18377 106.50586 94.330078 C 100.17635 102.47639 97.011719 114.05141 97.011719 129.05469 C 97.011719 139.07641 98.419309 147.42823 101.23242 154.10938 C 104.04554 160.73192 108.03013 165.68483 113.1875 168.9668 C 118.34488 172.24876 124.3813 173.88867 131.29688 173.88867 C 138.79851 173.88867 145.12778 172.04378 150.28516 168.35156 C 155.50114 164.60074 159.42716 159.12071 162.06445 151.91211 C 163.17798 148.51293 164.55628 145.75827 166.19727 143.64844 C 167.83825 141.48 170.47577 140.39453 174.10938 140.39453 C 177.21552 140.39453 179.88233 141.48 182.10938 143.64844 C 184.33642 145.81688 185.44922 148.51297 185.44922 151.73633 C 185.44922 155.83879 184.42427 160.29192 182.37305 165.09766 C 180.38042 169.84479 177.21579 174.53415 172.87891 179.16406 C 168.54202 183.73537 163.00342 187.4564 156.26367 190.32812 C 149.52392 193.19985 141.66993 194.63477 132.70312 194.63477 C 125.90477 194.63477 119.72192 193.99051 114.1543 192.70117 C 108.58667 191.41183 103.51662 189.42051 98.945312 186.72461 C 94.43261 183.9701 90.272317 180.36425 86.462891 175.91016 C 83.063712 171.86631 80.162636 167.3546 77.759766 162.37305 C 75.356898 157.33288 73.539331 151.96999 72.308594 146.28516 C 71.136461 140.60032 70.550781 134.5639 70.550781 128.17578 C 70.550781 117.80242 72.04622 108.51351 75.035156 100.30859 C 78.082695 92.103678 82.418694 85.100874 88.044922 79.298828 C 93.671152 73.438172 100.26397 68.983086 107.82422 65.935547 C 115.38446 62.888005 123.44345 61.365234 132 61.365234 z "
+       transform="scale(0.26458333)" />
+    <g
+       aria-label="C"
+       id="text873"
+       style="font-style:normal;font-weight:normal;font-size:246.944px;line-height:1.25;font-family:sans-serif;fill=currentColor;fill-opacity:1;stroke:none;stroke-width:0.264583" />
+  </g>
+</svg>
