@@ -1,7 +1,7 @@
 ---
 title: "Deep-UV excitation fluorescence microscopy for detection of lymph node metastasis using deep neural network"
 date: 2019-12-01
-publishDate: 2020-08-03T05:48:42.682113Z
+publishDate: 2020-11-02T06:48:06.823453Z
 authors: ["Tatsuya Matsumoto", "Hirohiko Niioka", "Yasuaki Kumamoto", "Junya Sato", "Osamu Inamori", "Ryuta Nakao", "Yoshinori Harada", "Eiichi Konishi", "Eigo Otsuji", "Hideo Tanaka", "Jun Miyake", "Tetsuro Takamatsu"]
 publication_types: ["2"]
 abstract: ""

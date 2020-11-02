@@ -1,7 +1,7 @@
 ---
 title: "Metric for automatic machine translation evaluation based on universal sentence representations"
 date: 2018-01-01
-publishDate: 2020-08-03T05:49:12.265733Z
+publishDate: 2020-11-02T06:48:17.974138Z
 authors: ["Hiroki Shimanaka", "Tomoyuki Kajiwara", "Mamoru Komachi"]
 publication_types: ["1"]
 abstract: "Sentence representations can capture a wide range of information that cannot be captured by local features based on character or word N-grams. This paper examines the usefulness of universal sentence representations for evaluating the quality of machine translation. Al-though it is difficult to train sentence representations using small-scale translation datasets with manual evaluation, sentence representations trained from large-scale data in other tasks can improve the automatic evaluation of machine translation. Experimental results of the WMT-2016 dataset show that the proposed method achieves state-of-the-art performance with sentence representation features only."

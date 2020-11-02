@@ -1,7 +1,7 @@
 ---
 title: "ContextNet: representation and exploration for painting classification and retrieval in context"
 date: 2020-01-01
-publishDate: 2020-08-03T05:49:12.281766Z
+publishDate: 2020-11-02T06:48:17.999535Z
 authors: ["Noa Garcia", "Benjamin Renoust", "Yuta Nakashima"]
 publication_types: ["2"]
 abstract: "© 2019, The Author(s). In automatic art analysis, models that besides the visual elements of an artwork represent the relationships between the different artistic attributes could be very informative. Those kinds of relationships, however, usually appear in a very subtle way, being extremely difficult to detect with standard convolutional neural networks. In this work, we propose to capture contextual artistic information from fine-art paintings with a specific ContextNet network. As context can be obtained from multiple sources, we explore two modalities of ContextNets: one based on multitask learning and another one based on knowledge graphs. Once the contextual information is obtained, we use it to enhance visual representations computed with a neural network. In this way, we are able to (1) capture information about the content and the style with the visual representations and (2) encode relationships between different artistic attributes with the ContextNet. We evaluate our models on both painting classification and retrieval, and by visualising the resulting embeddings on a knowledge graph, we can confirm that our models represent specific stylistic aspects present in the data."

@@ -1,7 +1,7 @@
 ---
 title: "Fine-grained video retrieval for multi-clip video"
 date: 2017-01-01
-publishDate: 2020-08-03T05:48:42.533752Z
+publishDate: 2020-11-02T06:48:06.685782Z
 authors: ["Mayu Otani", "Yuta Nakashima", "Esa Rahtu", "Janne Heikkilä"]
 publication_types: ["1"]
 abstract: ""
