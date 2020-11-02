@@ -3,16 +3,16 @@
 
 <div class="row">
   {{ with $page.Title }}
-  <div class="col-md-12 section-heading">
-    <h1>{{ . | markdownify | emojify }}</h1>
-    {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
-  </div>
+    <div class="col-md-12 section-heading">
+      <h1>{{ . | markdownify | emojify }}</h1>
+      {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
+    </div>
   {{ end }}
 
   {{ with $page.Content }}
-  <div class="col-md-12">
-    {{ . }}
-  </div>
+    <div class="col-md-12">
+      {{ . }}
+    </div>
   {{ end }}
 
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -25,40 +25,44 @@
     google.charts.load("visualization", "1", { packages: ["corechart"] });
     google.charts.setOnLoadCallback(DrawPieChart);
     function DrawPieChart() {
-        // DEFINE AN ARRAY OF DATA.
-        var data1 = [
-            ['学年', '人数'],
-            ['二回生', 17],
-            ['三回生', 7],
-            ['四回生', 4],
-            ['院生', 3],
-        ];
-        var options1 = {
-            title: '部員数（学年別）',
-            pieSliceText: 'value'
-        };
-        var data2 = [
-            ['学類', '人数'],
-            ['電気電子系学類', 13],
-            ['知識情報システム学類', 11],
-            ['物質化学系学類', 2],
-            ['機械系学類', 1],
-            ['理学類', 1],
-            ['緑地環境科学類', 1],
-        ];
-        var options2 = {
-            title: '部員数（学類別）',
-            pieSliceText: 'value'
-        };
-        var figures1 = google.visualization.arrayToDataTable(data1);
-        var figures2 = google.visualization.arrayToDataTable(data2);
-        var chart1 = new google.visualization.PieChart(document.getElementById('chart-1'));
-        chart1.draw(figures1, options1);
-        var chart2 = new google.visualization.PieChart(document.getElementById('chart-2'));
-        chart2.draw(figures2, options2);
+      // DEFINE AN ARRAY OF DATA.
+      var data1 = [
+        ['学年', '人数'],
+        ['二回生', 17],
+        ['三回生', 7],
+        ['四回生', 4],
+        ['院生', 3],
+      ];
+      var options1 = {
+        title: '部員数（学年別）',
+        pieSliceText: 'value',
+        backgroundColor: 'transparent',
+      };
+      var data2 = [
+        ['学類', '人数'],
+        ['電気電子系学類', 13],
+        ['知識情報システム学類', 11],
+        ['物質化学系学類', 2],
+        ['機械系学類', 1],
+        ['理学類', 1],
+        ['緑地環境科学類', 1],
+      ];
+      var options2 = {
+        title: '部員数（学類別）',
+        pieSliceText: 'value',
+        backgroundColor: 'transparent',
+      };
+      var figures1 = google.visualization.arrayToDataTable(data1);
+      var figures2 = google.visualization.arrayToDataTable(data2);
+      var chart1 = new google.visualization.PieChart(document.getElementById('chart-1'));
+      chart1.draw(figures1, options1);
+      var chart2 = new google.visualization.PieChart(document.getElementById('chart-2'));
+      chart2.draw(figures2, options2);
+      document.querySelectorAll('#chart-1 text').forEach(t => t.setAttribute('fill', '#ffffff') );
+      document.querySelectorAll('#chart-2 text').forEach(t => t.setAttribute('fill', '#ffffff') );
     }
-    window.onresize = function(){
-        DrawPieChart();
+    window.onresize = function () {
+      DrawPieChart();
     }
-  </script>    
+  </script>
 </div>
