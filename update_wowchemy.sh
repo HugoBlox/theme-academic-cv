@@ -24,8 +24,8 @@ function update_wowchemy () {
 function update_netlify () {
   # - Update Netlify.toml with required Hugo version
   if [ -f ./netlify.toml ]; then
-    curl -o "tmp_get_version" https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/wowchemy/config.toml
-    version=$(sed -n 's/^[[:space:]]*min = //p' "tmp_get_version" | tr -d '"')
+    curl -o "tmp_get_version" https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/wowchemy/config.yaml
+    version=$(sed -n 's/^[[:space:]]*min: //p' "tmp_get_version" | tr -d "'")
     version="${version}"
     echo "Set Netlify Hugo version to v${version}"
     sed -i.bak -e "s/HUGO_VERSION = .*/HUGO_VERSION = \"$version\"/g" ./netlify.toml && rm -f ./netlify.toml.bak
@@ -38,7 +38,7 @@ update_wowchemy
 update_netlify
 
 echo
-echo "If there are breaking changes, the config and/or front matter of content" \
+echo "If there are breaking changes, the site structure, config, and/or front matter of content" \
 "may need upgrading by following the steps in the relevant consecutive release notes."
 echo
 echo "View the update guide at: https://wowchemy.com/docs/update/"
