@@ -53,7 +53,7 @@ education:
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Research Group
-- Research Assistants
+- Visitors
 ---
 
 Paula Weller is a visiting research assistant from RWTH Aachen University where she is studying towards her master's degree in Mathematics. Her main focus is optimization, more specifically combinatorial optimization and robust optimization. She is researching robust optimization and its applications to emergency response and resilience measures. Her goal is to use mathematics to eventually save the world.
