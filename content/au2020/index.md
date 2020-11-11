@@ -44,11 +44,11 @@ Study of problems currently facing the U.S. economy. The purpose of this course 
 **Pace of online activities:** This course is divided into **weekly modules** that are released one week ahead of time. Students are expected to keep pace with weekly deadlines but may schedule their efforts freely within that time frame.  
 **Credit hours and work expectations:** This is a **3-credit-hour course**. According to Ohio State policy (https://go.osu.edu/credithours) , students should expect around 3 hours per week of time spent on direct instruction (instructor content and Carmen activities, for example) in addition to 6 hours of homework (reading and assignment preparation, for example) to receive a grade of (C) average.  
 **Attendance and participation requirements:** Because this is an online course, your attendance is based on your online activity and participation. The following is a summary of students’ expected participation:
-- **Participating in online activities for attendance:** {{< hl >}}**AT LEAST ONCE PER WEEK**{{< /hl >}}  
+- **Participating in online activities for attendance:** **AT LEAST ONCE PER WEEK**  
   You are expected to log in to the course in Carmen every week. (During most weeks you will probably log in many times.) If you have a situation that might cause you to miss an entire week of class, discuss it with me as soon as possible.
-- **Office hours and live sessions:** {{< hl >}}**OPTIONAL**{{< /hl >}}  
+- **Office hours and live sessions:** **OPTIONAL**  
   All live, scheduled events for the course, including my office hours, are optional.
-- **Participating in discussion forums:** {{< hl >}}**2+ TIMES PER WEEK**{{< /hl >}}  
+- **Participating in discussion forums:** **2+ TIMES PER WEEK**  
   As part of your participation, each week you can expect to post at least twice as part of our substantive class discussion on the week's topics.
 
 ## Course Materials and Technologies
