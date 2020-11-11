@@ -10,9 +10,8 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Low-wage work",
-    "Housing",
-    "Health insurance",
+    "Low-wage work & inequality",
+    "Health policy",
     "Data science"
   ]
 
@@ -29,5 +28,5 @@ weight = 5
  
 +++
 
-Ian Eve Perry is the Policy Manager at TechEquity Collaborative. They focus on labor and housing policy. In the past, Ian Eve has worked extensivly on health care policy related to the Affordable Care Act.
+Ian Eve Perry is a quantitative public policy researcher. They focus on labor, healthcare, and housing policy.
  
