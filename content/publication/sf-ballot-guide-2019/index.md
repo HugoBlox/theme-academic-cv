@@ -1,7 +1,7 @@
 +++
 title = "TechEquity Voter Guide - SF Election 2019"
 date = 2019-10-22
-draft = false
+draft = true
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Ian Eve Perry"]

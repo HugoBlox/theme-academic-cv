@@ -12,6 +12,7 @@ weight = 5
   interests = [
     "Low-wage work & inequality",
     "Health policy",
+    "Housing",
     "Data science"
   ]
 
@@ -28,5 +29,5 @@ weight = 5
  
 +++
 
-Ian Eve Perry is a quantitative public policy researcher. They focus on labor, healthcare, and housing policy.
+Ian Eve Perry is a quantitative public policy researcher focusing on labor, health care, and housing.
  
