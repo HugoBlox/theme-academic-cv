@@ -20,7 +20,7 @@
   weight = 14
 
 [[main]]
-  name = "Rules"
+  name = "Rulebook"
   url = "/rules"
   weight = 40
 

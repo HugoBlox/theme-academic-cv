@@ -43,12 +43,12 @@ Il rifugio (chiuso d'inverno) dispone fortunatamente di una [webcam](https://www
 
 Questa è la situazione aggiornata a ieri sera: sono già caduti più di 60cm di neve!
 
-![Malga Losch snow graph](/img/post/snow_losch_2019-11-15.jpg)
+![Malga Losch snow graph](/media/post/snow_losch_2019-11-15.jpg)
 
 Qui ci sono due belle immagini scattate qualche giorno fa dalla webcam dello Scarpa--Gurekian:
 
-![Scarpa-Gurekian hut webcam](/img/post/webcam_scarpa_2019-11-14_night.jpg)
-![Scarpa-Gurekian hut webcam](/img/post/webcam_scarpa_2019-11-14_day.jpg)
+![Scarpa-Gurekian hut webcam](/media/post/webcam_scarpa_2019-11-14_night.jpg)
+![Scarpa-Gurekian hut webcam](/media/post/webcam_scarpa_2019-11-14_day.jpg)
 
 ---------
 

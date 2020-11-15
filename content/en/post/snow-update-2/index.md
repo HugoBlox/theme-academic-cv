@@ -31,13 +31,13 @@ projects: []
 Dear snowballers, as planned, a representative of APAZAF went on an exploratory mission at the battle site.
 The news are good: we have about 15cm of fresh snow (from 1300m upwards) resting on a solid 50-60cm of old, wet snow (1600m and upwards). Both the path and the road to the bivouac are mostly free of fallen trees and are easy to follow, thanks also to the limited amount of snow up to the 1600m mark. Proof there is plenty of snow:
 
-![Panorama from close to the bivouac](/img/post/menegazzi_neve.jpg)
+![Panorama from close to the bivouac](/media/post/menegazzi_neve.jpg)
 
 Excellent news also for the state of the bivouac. There is a new (well, "new") stove, which will help a lot with cooking and warming up (the old stove was a piece of junk):
-![The "new" stove](/img/post/menegazzi_stufa.jpg)
+![The "new" stove](/media/post/menegazzi_stufa.jpg)
 
 ... and there are also 4 new mattresses, perfect for the brave ones that want to have the extraodinary experience of a night in such a cold, lonely place. APAZAF can provide some sleeping bags, but only two of them are suitable for the cold temperatures. [Contact](/contact) APAZAF if you are interested and you need suggestions. (If you are in doubt, do it. It's worth it.)
-![The new mattreses](/img/post/menegazzi_letti.jpg)
+![The new mattreses](/media/post/menegazzi_letti.jpg)
 
 Huge thanks to the ANA Gosaldo (I think, at least) for the new equipment!
 

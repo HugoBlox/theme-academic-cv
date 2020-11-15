@@ -32,13 +32,13 @@ Cari palladinevisti, come pianificato, un rappresentante di APAZAF si è recato 
 Le notizie sono buone: ci sono circa 15cm di neve fresca (da 1300m di altitudine in su), che sono supportati da 50-60cm di vecchia neve bagnata (da 1600m in su).
 Sia la strada che il sentiero per raggiungere il luogo della battaglia sono percorribili agevolmente e ben tracciati, anche grazie all'ammontare di neve relativamente limitato, fino a 1600m. Come prova che c'è abbastanza neve, eccovi un panorama da poco sotto il bivacco:
 
-![Panorama a 200m dal bivacco](/img/post/menegazzi_neve.jpg)
+![Panorama a 200m dal bivacco](/media/post/menegazzi_neve.jpg)
 
 Ottime notizie anche per quanto riguarda lo stato del bivacco stesso. C'è una nuova (be', "nuova") stufa, il che aiuterà molto con la cottura del cibo e il riscaldamento dei poveri palladinevisti:
-![La "nuova" stufa](/img/post/menegazzi_stufa.jpg)
+![La "nuova" stufa](/media/post/menegazzi_stufa.jpg)
 
 ... ci sono inoltre 4 nuovi materassi, perfetti per i coraggiosi che intendono passare una notte straordinaria in questo luogo isolato e solitario. Per gli interessati, APAZAF può fornire qualche sacco a pelo, ma solo due adatti alle temperature del luogo. [Contattate](/it/contact) APAZAF se siete interessati e volete qualche suggerimento. (Se siete in dubbio, fatelo. Ne vale la pena.)
-![I nuovi materassi](/img/post/menegazzi_letti.jpg)
+![I nuovi materassi](/media/post/menegazzi_letti.jpg)
 
 I nostri ringraziamenti vanno all'ANA di Gosaldo (almeno credo) per i nuovi materiali!
 

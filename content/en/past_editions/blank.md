@@ -15,7 +15,10 @@ title = ""
 
 ## The Great Snowball fight is an ancient tradition, dating back to 2013.
 
-To give you an idea of what it feels like from the inside, we have interviewed two GBPN fans, whom we shall denote by John Doe and Valanga90. 
+To give you an idea of what it feels like from the inside, [here](/gallery) are some pictures from the 2020 edition.
+
+Below you will also find an interview of two GBPN fans, whom we shall denote by John Doe and Valanga90.
+May their insight enlighten you!
 
 #### How many editions of the GBPN have you attended?
 **JD:** Three, I think. Dunno.  

@@ -11,7 +11,7 @@ It's pretty simple: we go there, we have some fun, we eat a warm lunch, we have 
 
 ## Where and when do we meet?
 Wondering how to get to us? Here are some organisational details to help with planning your trip!  
-We will meet in front of **Belluno's train station** the morning of the **4th of January, 2020, at 08:00**.
+We will meet in front of **Belluno's train station** the morning of the **2th of January, 2021, at 08:00**.
 From there on, we will organise transportation by car and separate the participants in groups, in order to minimise the number of vehicles.
 
 #### How to get to Belluno
@@ -97,7 +97,7 @@ As such, be careful of where you step, listen to your more experienced snow coll
 
 #### What to do in Belluno
 Belluno and the surrounding towns are a small, little-know gem at the foot of the famous Dolomites, well worth a few days off if you can spare some.
-<img src="/img/belluno.jpg" style="width:100%;" title="A view of Belluno with its mountains in the background. Courtesy of Silvano Fantini.">
+<img src="/media/belluno.jpg" style="width:100%;" title="A view of Belluno with its mountains in the background. Courtesy of Silvano Fantini.">
 Feel free to combine your snowballing fever with some trekking, climbing or skiing in one of the various beautiful locations around the city. Keep in mind that you will likely need a car to be able to enjoy all of the attractions that surround Belluno. Two good sites kept up-to-date with events and info are [AdorableBelluno](http://adorable.belluno.it/) and [Infodolomiti](http://www.infodolomiti.it/).
 
 

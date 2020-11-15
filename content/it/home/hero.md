@@ -5,9 +5,13 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 5  # Order that this section will appear.
 
-title = "Partecipa alla Grande Battaglia di Palle di Neve il 4 gennaio 2020!"
+title = """La Grande Battaglia di Palle di Neve 2021
 
-# Hero image (optional). Enter filename of an image in the `static/img/` folder.
+**È ANNULLATA**
+
+causa pandemia imprevista"""
+
+# Hero image (optional). Enter filename of an image in the `static/media/` folder.
 hero_media = ""
 
 [design.background]
@@ -24,7 +28,7 @@ hero_media = ""
   gradient_end = "#2b94c3"
   
   # Background image.
-  image = "other/other2.jpg"  # Name of image in `static/img/`.
+  image = "other/other2.jpg"  # Name of image in `static/media/`.
   image_darken = 0.2  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
   image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
   image_position = "center"  # Options include `left`, `center` (default), or `right`.
@@ -36,20 +40,24 @@ hero_media = ""
 # Call to action links (optional).
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
-[cta]
-  url = "/it/register"
-  label = "Iscriviti!"
-  icon_pack = "fas"
-  icon = "snowflake"
+#[cta]
+#  url = "/it/register"
+#  label = "Iscriviti!"
+#  icon_pack = "fas"
+#  icon = "snowflake"
   
 #[cta_note]
 #  url = "/rules"
 #  label = "View rules"
   
-[cta_alt]
-  url = "/it/details"
-  label = "Scopri di più"
+#[cta_alt]
+#  url = "/it/details"
+#  label = "Scopri di più"
+
+[cta]
+  url = "/post/2021_canceled"
+  label = "Leggi l'annuncio"
   
 +++
 
-Come da tradizione millenaria, la prossima edizione della Grande Battaglia di Palle di Neve si terrà al [Bivacco Menegazzi](https://goo.gl/maps/CRMbn2kRX38G78UF9) il primo sabato dell'anno.
+<!-- Come da tradizione millenaria, la prossima edizione della Grande Battaglia di Palle di Neve si terrà al [Bivacco Menegazzi](https://goo.gl/maps/CRMbn2kRX38G78UF9) il primo sabato dell'anno. -->
