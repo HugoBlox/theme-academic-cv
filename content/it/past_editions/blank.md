@@ -17,6 +17,9 @@ title = ""
 
 ## La Grande Battaglia di Palle di Neve è una tradizione risalente al 2013.
 
+Per darvi un'idea di cosa è la Grande Battaglia, [qui](/it/gallery) potete trovare alcune immagini dell'edizione 2020.
+To give you an idea of what it feels like from the inside, [here](/gallery) are some pictures from the 2020 edition.
+
 Per darvi un'idea di come sia parteciparvi, 
 abbiamo intervistato due aficionados della GBPN, che indicheremo con gli pseudonimi Aulo Agerio e Valanga90.
 

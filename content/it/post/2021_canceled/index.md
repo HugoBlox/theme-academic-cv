@@ -4,7 +4,7 @@
 title: "La Battaglia è ANNULLATA!"
 subtitle: ":("
 summary: ""
-authors: []
+authors: [af]
 tags: []
 categories: []
 date: 2020-10-12T20:41:32+02:00

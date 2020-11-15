@@ -5,11 +5,11 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 5  # Order that this section will appear.
 
-title = """La Grande Battaglia di Palle di Neve 2021 è
+title = """La Grande Battaglia di Palle di Neve 2021
 
-**ANNULLATA**
+**È ANNULLATA**
 
-a causa di pandemia imprevista"""
+causa pandemia imprevista"""
 
 # Hero image (optional). Enter filename of an image in the `static/media/` folder.
 hero_media = ""
