@@ -44,7 +44,7 @@ Un elemento fundamental en el proceso de diagnóstico es nada menos que la extra
 
 ## RT-PCR
 
-Para detectar al SARS-CoV-2 existen, a la fecha, varias metodologías. La técnica _gold standard_ (es decir, la técnica de referencia) es la **RT-PCR**. Esta técnica involucra la **conversión del genoma viral (ARN) en moléculas de ADN**, y la **multiplicación específica de esas moléculas de ADN** al punto en que la cantidad de moléculas es tan grande que se pueda *"ver"*. 
+Para detectar al SARS-CoV-2 existen, a la fecha, varias metodologías. La técnica _gold standard_ (es decir, la técnica de referencia) es la **RT-PCR** (del inglés, *RetroTranscription - Polymerase Chain Reaction* o *Retrotranscripción seguida de Reacción en cadena de la polimerasa*). Esta técnica involucra la **conversión del genoma viral (ARN) en moléculas de ADN**, y la **multiplicación específica de esas moléculas de ADN** al punto en que la cantidad de moléculas es tan grande que se pueda *"ver"*. 
 
 [![RT-PCR](rt_amplification.png)](https://iaea.org/bulletin/infectious-diseases/how-is-the-covid-19-virus-detected-using-real-time-rt-pcr)
 _Imagen extraída del [Internationa Atomic Energy Agency](iaea.org/bulletin/infectious-diseases/how-is-the-covid-19-virus-detected-using-real-time-rt-pcr)_
