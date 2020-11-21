@@ -6,7 +6,7 @@
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
 # Title of your site
-title = "Academic"
+title = "笼鹰的自习室"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
@@ -14,7 +14,7 @@ baseurl = ""
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
-copyright = ""
+copyright = """<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">This work</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="/#about" property="cc:attributionName" rel="cc:attributionURL">Chenjiaxing</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br/> <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=61010302000452" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="/img/公网安.png" style="float:left;"/>陕公网安备 61010302000452号</a><br/>&copy; {year}"""
 
 ############################
 ## Advanced options below ##
