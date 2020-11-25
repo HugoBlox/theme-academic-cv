@@ -33,7 +33,7 @@
         <ul>
 	  {{ range $type_query }}
 	  <li>
-	    <a href="{{ .RelPermalink }}">{{ .Title }} {{ if gt (.Date.Year) 1 }} {{ printf "(%d)" .Date.Year }} {{ end }}</a>
+	    <a href="{{ .RelPermalink }}">{{ .Title }} {{ if ne $type "project"}} {{ printf "(%d)" .Date.Year }} {{ end }}</a>
 	  </li>
 	  {{ end }}
         </ul>

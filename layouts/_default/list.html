@@ -1,0 +1,61 @@
+{{- define "main" -}}
+
+{{ partial "page_header.html" . }}
+
+<div class="universal-wrapper">
+  {{ with .Content }}
+  <div class="article-style">{{ . }}</div>
+  {{ end }}
+
+  {{ $paginator := .Paginate .Data.Pages.ByDate.Reverse }}
+  {{ $types := slice "project" "publication" "talk" "post" }}
+  {{ range $type := $types }}
+  	  {{ $type_query := where $paginator.Pages "Section" $type }}
+  	  {{ if len $type_query }}
+	      	  <h2>{{ i18n (printf "%ss" $type) | default "Other" }}</h2>
+		  {{ range $type_query }}
+		    {{ $link := .RelPermalink }}
+		    {{ $target := "" }}
+			    <div>
+			      <h3><a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ .Title }} {{ if ne $type "project"}} {{ printf "(%d)" .Date.Year }} {{ end }}</a></h3>
+			      <div class="article-style">
+				{{ if .Params.summary }}
+				  {{ .Params.summary | plainify | emojify }}
+				{{ else if .Summary }}
+				  {{ .Summary | plainify | emojify }}
+				{{ end }}
+			      </div>
+			    </div>
+		  {{ end }}
+	  {{ end }}
+  {{ end }}
+  
+  {{ $pages_query := slice }}
+  {{ range $type := $types }}
+  	{{ $pages_query = $pages_query | append (where $paginator.Pages "Section" $type) }}
+  {{ end }}
+  {{ range $paginator.Pages | complement $pages_query }}
+    {{ $link := .RelPermalink }}
+    {{ $target := "" }}
+    {{ with .Params.external_link }}
+      {{ $link = . }}
+      {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+    {{ end }}
+    <div>
+      <h2><a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ .Title }}</a></h2>
+      <div class="article-style">
+        {{ if .Params.summary }}
+          {{ .Params.summary | plainify | emojify }}
+        {{ else if .Params.abstract }}
+          {{ .Params.abstract | plainify | emojify | truncate 250 }}
+        {{ else if .Summary }}
+          {{ .Summary | plainify | emojify }}
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+  
+  {{ partial "pagination" . }}
+</div>
+
+{{- end -}}
