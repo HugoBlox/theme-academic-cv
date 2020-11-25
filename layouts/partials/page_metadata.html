@@ -3,6 +3,7 @@
 
 <div class="article-metadata">
 
+  {{ if not (in (slice "project") $page.Type) }}
   {{/* If `authors` is set and is not empty. */}}
   {{ if $page.Params.authors }}
   {{ $authorLen := len $page.Params.authors }}
@@ -10,6 +11,7 @@
   <div>
     {{ partial "page_metadata_authors" $page }}
   </div>
+  {{ end }}
   {{ end }}
   {{ end }}
 
