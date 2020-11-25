@@ -17,7 +17,11 @@
 		    {{ $link := .RelPermalink }}
 		    {{ $target := "" }}
 			    <div>
-			      <h3><a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ .Title }} {{ if ne $type "project"}} {{ printf "(%d)" .Date.Year }} {{ end }}</a></h3>
+			      {{ if eq $type "project" }}
+			      	<h3><a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ .Title }} {{ if ne $type "project"}} {{ printf "(%d)" .Date.Year }} {{ end }}</a></h3>
+			      {{ else }}
+			      	<h4 style="font-weight:normal"><a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ .Title }} {{ if ne $type "project"}} {{ printf "(%d)" .Date.Year }} {{ end }}</a></h4>
+			      {{ end }}
 			      <div class="article-style">
 				{{ if .Params.summary }}
 				  {{ .Params.summary | plainify | emojify }}
