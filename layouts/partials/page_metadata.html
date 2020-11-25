@@ -56,12 +56,19 @@
 
   {{ $taxonomy := "categories" }}
   {{ if $page.Param $taxonomy }}
-  <span class="middot-divider"></span>
   <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i>
+  <b style="display:inline;font-size:120%">Research topics: </b>
     {{- range $index, $value := ($page.GetTerms $taxonomy) -}}
       {{- if gt $index 0 }}, {{ end -}}
-      <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+      {{ if eq .Title "Decision making under uncertainty" }}
+      	<a href="{{ .RelPermalink }}" title={{ .Title }}><img src="/images/icon-pack/decision_making.svg" alt={{ .LinkTitle }} width=45 height=45 style="display:inline"></a>
+      {{ else if eq .Title "Supply chain management & production planning" }}
+      	<a href="{{ .RelPermalink }}" title={{ .Title }}><img src="/images/icon-pack/production_system.svg" alt={{ .LinkTitle }} width=45 height=45 style="display:inline"></a>
+      {{ else if eq .Title "Efficient formulations and solution methods" }}
+      	<a href="{{ .RelPermalink }}" title={{ .Title }}><img src="/images/icon-pack/decomposition.svg" alt={{ .LinkTitle }} width=45 height=45 style="display:inline"></a>
+      {{ else }}
+      	<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+      {{ end }}
     {{- end -}}
   </span>
   {{ end }}
