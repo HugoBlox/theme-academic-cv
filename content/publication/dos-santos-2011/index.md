@@ -8,12 +8,12 @@ authors:
 - Sidney Pereira dos Santos
 - José Eugenio Leal
 - Fabricio Oliveira
-tags:
-- '""'
+tags: []
+categories: []
+keywords: 
 - '"Investment analysis"'
 - '"Natural gas industry"'
 - '"Planning framework"'
-categories: []
 date: '2011-09-01'
 lastmod: 2020-08-27T16:01:41+03:00
 featured: false

@@ -9,12 +9,13 @@ authors:
 - Fabricio Oliveira
 - Silvio Hamacher
 - Ali Almansoori
-tags:
+tags: []
+categories: []
+keywords: 
 - '"Hydrogen supply chain design"'
 - '"Optimization"'
 - '"Sample average approximation"'
 - '"Uncertainty"'
-categories: []
 date: '2015-12-01'
 lastmod: 2020-08-27T16:01:40+03:00
 featured: false

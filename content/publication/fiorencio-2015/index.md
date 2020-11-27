@@ -9,13 +9,13 @@ authors:
 - Fabricio Oliveira
 - Paula Nunes
 - Silvio Hamacher
-tags:
-- '""'
+tags: []
+categories: []
+keywords: 
 - '"Decision support system"'
 - '"Oil"'
 - '"Optimization"'
 - '"Supply chain design"'
-categories: []
 date: '2015-01-01'
 lastmod: 2020-08-27T16:01:41+03:00
 featured: false

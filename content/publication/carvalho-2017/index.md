@@ -9,13 +9,14 @@ authors:
 - Andréa Nunes Carvalho
 - Luiz Felipe Scavarda
 - Fabricio Oliveira
-tags:
+tags: []
+categories: []
+keywords: 
 - '"Action research"'
 - '"Aggregate production planning"'
 - '"Decision support system"'
 - '"Engineer-to-order"'
 - '"Mathematical programming"'
-categories: []
 date: '2017-09-01'
 lastmod: 2020-08-27T16:01:40+03:00
 featured: false

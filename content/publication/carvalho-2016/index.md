@@ -9,12 +9,13 @@ authors:
 - Andréa Nunes Carvalho
 - Fabricio Oliveira
 - Luiz Felipe Scavarda
-tags:
+tags: []
+categories: []
+keywords: 
 - '"Decision support system"'
 - '"Engineer-to-order"'
 - '"Mathematical modelling"'
 - '"Uncertainty"'
-categories: []
 date: '2016-01-01'
 lastmod: 2020-08-27T16:01:40+03:00
 featured: false

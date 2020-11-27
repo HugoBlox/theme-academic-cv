@@ -9,12 +9,13 @@ authors:
 - Fabricio Oliveira
 - Ignacio Grossmann
 - Silvio Hamacher
-tags:
+tags: []
+categories: []
+keywords: 
 - '"Acceleration techniques"'
 - '"Stochastic Benders decomposition"'
 - '"Stochastic programming"'
 - '"Supply chain investment planning"'
-categories: []
 date: '2014-01-01'
 lastmod: 2020-08-27T16:01:41+03:00
 featured: false

@@ -11,13 +11,14 @@ authors:
 - Brian Dandurand
 - Andrew Eberhard
 - Fabricio Oliveira
-tags:
+tags: []
+categories: []
+keywords: 
 - '"Augmented Lagrangian method"'
 - '"Nonlinear block Gauss–Seidel method"'
 - '"Parallel computing"'
 - '"Proximal bundle method"'
 - '"Simplicial decomposition method"'
-categories: []
 date: '2019-05-01'
 lastmod: 2020-08-27T16:01:38+03:00
 featured: false

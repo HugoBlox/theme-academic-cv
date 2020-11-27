@@ -9,13 +9,14 @@ authors:
 - P.S.A. Cunha
 - F.M.P. Raupp
 - Fabricio Oliveira
-tags:
+tags: []
+categories: []
+keywords: 
 - '"Inventory policy"'
 - '"Periodic review"'
 - '"Replenishment control system"'
 - '"Stochastic programming"'
 - '"Uncertain demand"'
-categories: []
 date: '2017-05-01'
 lastmod: 2020-08-27T16:01:39+03:00
 featured: false

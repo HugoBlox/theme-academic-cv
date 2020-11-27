@@ -9,13 +9,14 @@ authors:
 - Mary Dillon
 - Fabricio Oliveira
 - Babak Abbasi
-tags:
+tags: []
+categories: []
+keywords:
 - '"Blood supply chain"'
 - '"Inventory management"'
 - '"Perishability"'
 - '"Stochastic demand"'
 - '"Two-stage stochastic programming"'
-categories: []
 date: '2017-01-01'
 lastmod: 2020-08-27T16:01:40+03:00
 featured: false

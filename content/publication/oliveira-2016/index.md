@@ -10,12 +10,13 @@ authors:
 - Paula Nunes
 - Rosa Blajberg
 - Silvio Hamacher
-tags:
+tags: []
+categories: []
+keywords: 
 - '"Crude oil scheduling"'
 - '"Stochastic programming"'
 - '"Terminal-refinery system"'
 - '"Uncertain oil supply"'
-categories: []
 date: '2016-07-01'
 lastmod: 2020-08-27T16:01:40+03:00
 featured: false

@@ -13,12 +13,13 @@ authors:
 - Jeff Linderoth
 - James Luedtke
 - Fabricio Oliveira
-tags:
+tags: []
+categories: []
+keywords: 
 - '"Frank–Wolfe method"'
 - '"Lagrangian duality"'
 - '"Mixed-integer stochastic programming"'
 - '"Progressive hedging"'
-categories: []
 date: '2018-01-01'
 lastmod: 2020-08-27T16:11:43+03:00
 featured: false
