@@ -8,12 +8,13 @@ authors:
 - Gustavo Souto dos Santos Diz
 - Silvio Hamacher
 - Fabricio Oliveira
-tags:
+tags: []
+categories: []
+keywords:
 - '"Maritime inventory routing"'
 - '"Mathematical programming"'
 - '"Robust optimization"'
 - '"Uncertainty"'
-categories: []
 date: '2019-09-01'
 lastmod: 2020-08-27T16:01:39+03:00
 featured: false
