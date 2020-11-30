@@ -12,11 +12,7 @@ time_start = 2020-09-07T18:20:00+01:00
 authors = ["Lucas Condeixa","Fabricio Oliveira","Afzal Siddiqui"]
 
 # Abstract and optional shortened version.
-abstract = "As variable renewable energy sources are steadily incorporated in European power systems, the need for higher temporal resolution in capacity-expansion models also increases.
-Naturally, there exists a trade-off between the amount of temporal data used to plan power systems for decades ahead and time resolution needed to represent renewable energy variability accurately. 
-We propose the use of the Wasserstein distance as a measure of cluster discrepancy using it to cluster demand, wind availability, and solar availability data. 
-When compared to the Euclidean distance and the maximal distance, the hierarchical clustering performed using the Wasserstein distance leads to capacity-expansion planning that 1) more accurately estimates system costs and 2) more efﬁciently adopts storage resources. 
-Numerical results indicate an improvement in cost estimation by up to 5% vis-à-vis the Euclidean distance and a reduction of storage investment that is equivalent to nearly 100% of the installed capacity under the benchmark full time resolution."
+abstract = "As variable renewable energy sources are steadily incorporated in European power systems, the need for higher temporal resolution in capacity-expansion models also increases. \n\nNaturally, there exists a trade-off between the amount of temporal data used to plan power systems for decades ahead and time resolution needed to represent renewable energy variability accurately. \n\nWe propose the use of the Wasserstein distance as a measure of cluster discrepancy using it to cluster demand, wind availability, and solar availability data. \n\nWhen compared to the Euclidean distance and the maximal distance, the hierarchical clustering performed using the Wasserstein distance leads to capacity-expansion planning that 1) more accurately estimates system costs and 2) more efﬁciently adopts storage resources. \n\nNumerical results indicate an improvement in cost estimation by up to 5% vis-à-vis the Euclidean distance and a reduction of storage investment that is equivalent to nearly 100% of the installed capacity under the benchmark full time resolution."
 abstract_short = ""
 
 # Name of event and optional event URL.
