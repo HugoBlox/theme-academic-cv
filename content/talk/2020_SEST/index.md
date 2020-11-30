@@ -1,7 +1,7 @@
 +++
 title = "Wasserstein-Distance-Based Temporal Clustering for Capacity-Expansion Planning in Power Systems"
 date = 2020-09-07T18:20:00+01:00  # Schedule page publish date.
-draft = true
+draft = false
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
