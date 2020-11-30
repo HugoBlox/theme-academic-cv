@@ -7,7 +7,7 @@ summary: ''
 authors:
 - Juuso Liesiö
 - Juho Andelmin
-- Ahto Salo
+- Ahti Salo
 tags:
 - '"Decision support systems"'
 - '"Portfolio decision analysis"'
