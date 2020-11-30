@@ -1,8 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: Combining penalty-based and Gauss-Seidel methods for solving stochastic mixed-integer
-  problems
+title: An Exact Algorithm for the Green Vehicle Routing Problem
 subtitle: ''
 summary: ''
 authors:
