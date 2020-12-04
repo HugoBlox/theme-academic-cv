@@ -1,24 +1,24 @@
 ---
 # Display name
-name: Albert Wu
+name: Summer Rupper
 
 # Username (this should match the folder name)
 authors:
-- admin
+- PI
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
-role: Project Manager
+role: Science Team Lead
 
 # Organizations/Affiliations
 organizations:
-- name: NASA Goddard Space Flight Center 
-  url: "https://science.gsfc.nasa.gov/earth/"
+- name: University of Utah
+  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: I support Earth scientists doing integrative and airborne remote sensing work
+bio: I use remote sensing data to assess change of mountain glaciers. 
 
 #interests:
 #- glacier change
@@ -26,11 +26,14 @@ bio: I support Earth scientists doing integrative and airborne remote sensing wo
 
 education:
   courses:
-  - course: MEng in Aerospace Eng. Sciences
-    institution: University of Colorado at Boulder
-    year: 2010
-  - course: BSc in Aerospace Eng. Sciences
-    institution: University of Colorado at Boulder
+  - course: PhD in Geophysics
+    institution: University of Alaska Fairbanks
+    year: 2016
+  - course: MSc in Earth / Atm. Sciences
+    institution: University of Alberta
+    year: 2008
+  - course: BSc in Earth / Atm. Sciences
+    institution: University of Alberta
     year: 2006
 
 # Social/Academic Networking
@@ -40,11 +43,16 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:albert.wu@nasa.gov'
-- icon: cv
+  link: 'mailto:arendta@uw.edu'  
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/aaarendt
+- icon: google-scholar
   icon_pack: ai
-  link: 'https://science.gsfc.nasa.gov/sed/bio/albert.c.wu'
-
+  link: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C48&q=author%3Aanthony+author%3Aarendt&btnG=&oq=anthony+
+- icon: github
+  icon_pack: fab
+  link: https://github.com/aaarendt
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -57,7 +65,5 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Administration
+- Principal Investigators
 ---
-
-Albert Wu is ... 
