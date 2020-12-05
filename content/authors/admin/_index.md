@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a Machine Learning Engineer / Scientist with a specialisation in Deep Learning & NLP. I am particularly interested in dialogue systems, question-answering and representation learning.
+bio: I am a Machine Learning Engineer / Scientist with specialisation in Deep Learning & NLP. I am particularly interested in dialogue systems, question-answering and representation learning.
 
 interests:
 - Artificial Intelligence / Machine Learning / Deep Learning
@@ -71,6 +71,13 @@ user_groups:
 - Visitors
 ---
 
-I am a Machine Learning Scientist / Engineer with 5 years industry experience working as a Data Scientist and Machine Learning Engineer, and 4 years experience as an academic researcher and scientist. I am a specialist in deep learning and natural language processing (NLP) with a particular interest in dialogue and question-answer systems.
+I am a Machine Learning Engineer / Scientist with over 6 years industry experience working as a Data Scientist and Machine Learning Engineer, and 4 years experience as an academic researcher and scientist. I am a specialist in deep learning and natural language processing (NLP) with a particular interest in dialogue and question-answer systems.
 
-I have worked on various industry applications, highlights include: building dialogue and question-answer systems at a peer-to-peer chat technology startup; text summarization systems for news media; and developing a semantic search engine for company discovery. I have worked across several industries, namely: technology & innovation; interactive entertainment & video games; news media; healthcare & neuroscience; and human-computer interaction.
+I have worked on various industry applications, highlights include:
+
+  * building and deploying a deep neural biomedical question answering service able to query over 30M+ pubmed documents -- helping drug discovery scientists discover treatments to rare diseases faster
+  * building deep neural dialogue and question-answer systems at a peer-to-peer chat technology startup -- assisting scalable automated support for peer-to-peer conversations
+  * deep neural document summarization systems for news media -- enabling automated TLDR descriptions of complex news articles
+  * developing a semantic search engine for company discovery -- assisting with discovering novel technology companies for partnership & investment
+  
+  I have worked across several industries, namely: biotechnology & pharmaceutical; technology & innovation; interactive entertainment & video games; news media; healthcare & neuroscience; and human-computer interaction.
