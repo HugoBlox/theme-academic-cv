@@ -22,8 +22,8 @@ bio: I am a Machine Learning Engineer / Scientist with specialisation in Deep Le
 
 interests:
 - Artificial Intelligence / Machine Learning / Deep Learning
-- NLP / Computational Linguistics
-- Information Retrieval
+- Natural Language Processing (NLP) / Dialogue systems / question answering
+- News media / biology / video games
 
 education:
   courses:
@@ -71,13 +71,15 @@ user_groups:
 - Visitors
 ---
 
-I am a Machine Learning Engineer / Scientist with over 6 years industry experience working as a Data Scientist and Machine Learning Engineer, and 4 years experience as an academic researcher and scientist. I am a specialist in deep learning and natural language processing (NLP) with a particular interest in dialogue and question-answer systems.
+I am a Machine Learning Engineer :technologist: / Scientist :scientist: with over 6 years industry experience working as a Data Scientist and Machine Learning Engineer, and 4 years experience as an academic researcher and scientist. I am a specialist in deep learning and natural language processing (NLP) with a particular interest in dialogue :speech_balloon: and question-answering :8ball: systems.
 
 I have worked on various industry applications, highlights include:
 
-  * building and deploying a deep neural biomedical question answering service able to query over 30M+ pubmed documents -- helping drug discovery scientists discover treatments to rare diseases faster
-  * building deep neural dialogue and question-answer systems at a peer-to-peer chat technology startup -- assisting scalable automated support for peer-to-peer conversations
-  * deep neural document summarization systems for news media -- enabling automated TLDR descriptions of complex news articles
-  * developing a semantic search engine for company discovery -- assisting with discovering novel technology companies for partnership & investment
+  * building and deploying a deep neural biomedical question answering service able to query over 30M+ pubmed documents -- helping drug discovery scientists discover treatments to rare diseases faster :pill:
+  * building deep neural dialogue and question-answer systems at a peer-to-peer chat technology startup -- assisting scalable automated support for peer-to-peer conversations :man_student:
+  * deep neural document summarization systems for news media -- enabling automated TLDR descriptions of complex news articles :newspaper:
+  * developing a semantic search engine for company discovery -- assisting with discovering novel technology companies for partnership & investment :bulb:
   
-  I have worked across several industries, namely: biotechnology & pharmaceutical; technology & innovation; interactive entertainment & video games; news media; healthcare & neuroscience; and human-computer interaction.
+  I have worked across several industries, including...
+  
+  biotechnology & pharmaceutical :pill: -- edtech :man_student: -- technology & innovation :bulb: -- interactive entertainment & video games :video_game: -- news media :newspaper: -- healthcare & neuroscience :syringe: -- and human-computer interaction :man_technologist:
