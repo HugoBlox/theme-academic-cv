@@ -1,8 +1,7 @@
 ---
 # Display name
 title: "Liangzhi Li"
-
-wegith: 50
+wegith: 53
 
 # Username (this should match the folder name and the name on publications)
 authors:

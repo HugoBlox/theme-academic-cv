@@ -1,7 +1,6 @@
 ---
 # Display name
 title: "Manisha Verma"
-
 weight: 50
 
 # Username (this should match the folder name and the name on publications)

@@ -1,19 +1,18 @@
 ---
 # Display name
-title: "Noa Garcia"
-
-wegith: 51
+title: "Yiming Qian"
+weight: 55
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "noa-garcia"
+- "yiming-qian"
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-group: Artificial Intelligence and Mathematics
 role: Specially-Appointed Researcher/Fellow
+group: Artificial Intelligence and Mathematics Core
 
 # Organizations/Affiliations
 organizations:
@@ -23,21 +22,20 @@ organizations:
   url: "http://www.osaka-u.ac.jp/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: "Her research interests lie in computer vision and machine learning applied to visual retrieval and joint models of vision and language for high-level understanding tasks."
+bio: "Manisha's research interest broadly lies in computer vision and image processing. Currently, she is working on micro facial expression recognition using multi-model deep learning frameworks."
 
 # List each interest with a dash
 interests:
 - Computer Vision
-- Machine Learning
 
   
 #education:
 #  courses:
-#  - course: Title course 1
-#    institution: Name of Institution
-#    year: 2012
-#  - course: Title course 1
-#    institution: Name of Institution
+#  - course: PhD in Mathematics
+#    institution: Indian Institute of Technology Roorkee, India
+#    year: 2016
+#  - course: MSc in Industrial Mathematics and Informatics
+#    institution: Indian Institute of Technology Roorkee, India
 #    year: 2012
 
 # Social/Academic Networking
@@ -48,17 +46,24 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-  str: "noagarcia@ids."
+  str: "yimingqian@ids."
   show_link: false
 - icon: phone
   icon_pack: fas
   str: "tel: 6074"
   show_link: false
-- icon: home
-  icon_pack: fas
-  link: http://noagarciad.com/
-  str: personal
-  show_link: true
+#- icon: home
+#  icon_pack: fas
+#  link: 
+#  str: personal
+#  show_link: true
+#- icon: google-scholar
+#  icon_pack: ai
+#  link: 
+#- icon: linkedin
+#  icon_pack: fab
+#  link: 
+
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -71,8 +76,7 @@ user_groups:
 ---
 
 ### Contact
-- email: noagarcia@ids.
-- webpage: http://noagarciad.com/index.html
+- email: yimingqian@ids.
 
 
 Please add `osaka-u.ac.jp` to complete email address

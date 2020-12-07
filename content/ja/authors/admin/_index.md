@@ -75,9 +75,7 @@ user_groups:
 #- Visitors
 ---
 
-ISLab is a research group with Graduate School of Information Science and Technology, Osaka University, also known as Artificial Intelligence and Mathematics Group with Institute for Datability Science, Osaka University.
-
-As a research institute with a mission to provide data science-related technolgies to everyone, we are collaborating with various departments in Osaka University and other research institutes, as well as companies. As ISLab, a part of Graduate School of Information Science and Technology, we work with students to motivate them and cultivate their interests toward research as well as knowledge on releated fields. 
+知能センシング講座（ISLab; 長原研究室）は大阪大学 大学院情報科学研究科の協力講座です。人工知能をはじめとするデータサイエンスに関する技術を多くの人に利用してもらうことをミッションとする大阪大学データビリティフロンティア機構知能情報基盤部門を母体としており、学内外の様々な組織との共同研究などを実施しています。2020年度から大学院情報科学研究科の協力講座となり、学生の皆様と一緒に研究を進めることができるようになりました。学生の皆様が主体的・積極的に実施する研究プロジェクトをサポートしつつ、関連分野の知識・技術の獲得をお手伝いしていきます。当研究室で一緒に研究をしたい学生の皆様は[こちら](/ja/post/prospective-students/)。
 
 ### 研究分野
 - コンピュータビジョン

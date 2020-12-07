@@ -1,43 +1,42 @@
 ---
 # Display name
-title: "Noa Garcia"
+title: "Sudhakar Kumawat"
 
-wegith: 51
+weight: 55
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "noa-garcia"
+- "sudhakar-kumawat"
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-group: Artificial Intelligence and Mathematics
-role: Specially-Appointed Researcher/Fellow
+role: 特任研究員
+group: 知能情報基盤部門
 
 # Organizations/Affiliations
 organizations:
-- name: "Institute for Datability Science"
+- name: "データビリティフロンティア機構"
   url: "http://www.ids.osaka-u.ac.jp/"
-- name: "Osaka University"
+- name: "大阪大学"
   url: "http://www.osaka-u.ac.jp/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: "Her research interests lie in computer vision and machine learning applied to visual retrieval and joint models of vision and language for high-level understanding tasks."
+bio: ""
 
 # List each interest with a dash
 interests:
 - Computer Vision
-- Machine Learning
 
   
 #education:
 #  courses:
-#  - course: Title course 1
-#    institution: Name of Institution
-#    year: 2012
-#  - course: Title course 1
-#    institution: Name of Institution
+#  - course: PhD in Mathematics
+#    institution: Indian Institute of Technology Roorkee, India
+#    year: 2016
+#  - course: MSc in Industrial Mathematics and Informatics
+#    institution: Indian Institute of Technology Roorkee, India
 #    year: 2012
 
 # Social/Academic Networking
@@ -48,17 +47,24 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-  str: "noagarcia@ids."
+  str: "sudhakar@ids."
   show_link: false
 - icon: phone
   icon_pack: fas
   str: "tel: 6074"
   show_link: false
-- icon: home
-  icon_pack: fas
-  link: http://noagarciad.com/
-  str: personal
-  show_link: true
+#- icon: home
+#  icon_pack: fas
+#  link: 
+#  str: personal
+#  show_link: true
+#- icon: google-scholar
+#  icon_pack: ai
+#  link: 
+#- icon: linkedin
+#  icon_pack: fab
+#  link: 
+
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -66,13 +72,12 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Researchers
-- Fulltime
+- 研究員
+- 専任
 ---
 
 ### Contact
-- email: noagarcia@ids.
-- webpage: http://noagarciad.com/index.html
+- email: sudhakar@ids.
 
 
 Please add `osaka-u.ac.jp` to complete email address
