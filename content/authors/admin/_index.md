@@ -71,7 +71,7 @@ user_groups:
 - Visitors
 ---
 
-I am a Machine Learning Engineer :technologist: / Scientist :scientist: with over 6 years industry experience working as a Data Scientist and Machine Learning Engineer, and 4 years experience as an academic researcher and scientist. I am a specialist in deep learning and natural language processing (NLP) with a particular interest in dialogue :speech_balloon: and question-answering :8ball: systems.
+I am a Machine Learning Engineer :man_technologist: / Scientist :man_scientist: with over 6 years industry experience working as a Data Scientist and Machine Learning Engineer, and 4 years experience as an academic researcher and scientist. I am a specialist in deep learning and natural language processing (NLP) with a particular interest in dialogue :speech_balloon: and question-answering :8ball: systems.
 
 I have worked on various industry applications, highlights include:
 
@@ -81,5 +81,5 @@ I have worked on various industry applications, highlights include:
   * developing a semantic search engine for company discovery -- assisting with discovering novel technology companies for partnership & investment :bulb:
   
   I have worked across several industries, including...
-  
+
   biotechnology & pharmaceutical :pill: -- edtech :man_student: -- technology & innovation :bulb: -- interactive entertainment & video games :video_game: -- news media :newspaper: -- healthcare & neuroscience :syringe: -- and human-computer interaction :man_technologist:
