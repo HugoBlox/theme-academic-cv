@@ -77,7 +77,7 @@ user_groups:
 
 ISLab is a research group with Graduate School of Information Science and Technology, Osaka University, also known as Artificial Intelligence and Mathematics Group with Institute for Datability Science, Osaka University.
 
-As a research institute with a mission to provide data science-related technolgies to everyone, we are collaborating with various departments in Osaka University and other research institutes, as well as companies. As ISLab, a part of Graduate School of Information Science and Technology, we work with students to motivate them and cultivate their interests toward research as well as knowledge on releated fields. 
+As a research institute with a mission to provide data science-related technologies to everyone, we are collaborating with various departments in Osaka University and other research institutes, as well as companies. As ISLab, a part of the Graduate School of Information Science and Technology, we work with students to motivate them and cultivate their interests in research as well as knowledge in related fields. 
 
 ### For prospective students
 
