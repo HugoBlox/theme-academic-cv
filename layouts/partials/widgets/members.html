@@ -20,6 +20,9 @@
   </div>
   <div id="chart-2" class="col-12 col-md-6 chart">
   </div>
+  <div style="margin-left: auto;">
+    2020年12月10日時点
+  </div>
   <script>
     // VISUALIZATION API AND THE PIE CHART PACKAGE.
     google.charts.load("visualization", "1", { packages: ["corechart"] });
@@ -28,10 +31,11 @@
       // DEFINE AN ARRAY OF DATA.
       var data1 = [
         ['学年', '人数'],
-        ['二回生', 17],
-        ['三回生', 7],
-        ['四回生', 4],
-        ['院生', 3],
+        ['一回生', 1],
+        ['二回生', 13],
+        ['三回生', 8],
+        ['四回生', 3],
+        ['院生', 4],
       ];
       var options1 = {
         title: '部員数（学年別）',
@@ -40,12 +44,12 @@
       };
       var data2 = [
         ['学類', '人数'],
-        ['電気電子系学類', 13],
-        ['知識情報システム学類', 11],
-        ['物質化学系学類', 2],
-        ['機械系学類', 1],
+        ['電気電子系学類', 12],
+        ['知識情報システム学類', 9],
+        ['機械系学類', 2],
+        ['物質化学系学類', 1],
         ['理学類', 1],
-        ['緑地環境科学類', 1],
+        ['大学院', 4],
       ];
       var options2 = {
         title: '部員数（学類別）',
