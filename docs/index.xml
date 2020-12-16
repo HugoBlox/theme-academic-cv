@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>アプリNaviブログ</title><link>https://blog.opuappnavi.com/</link><atom:link href="https://blog.opuappnavi.com/index.xml" rel="self" type="application/rss+xml"/><description>アプリNaviブログ</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710 2020</copyright><lastBuildDate>Fri, 14 Aug 2020 17:52:45 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url><title>アプリNaviブログ</title><link>https://blog.opuappnavi.com/</link></image><item><title>部員のオススメ書籍・サイト紹介</title><link>https://blog.opuappnavi.com/post/book-recommendation/</link><pubDate>Fri, 14 Aug 2020 17:52:45 +0900</pubDate><guid>https://blog.opuappnavi.com/post/book-recommendation/</guid><description>&lt;h1 id="部員のオススメ書籍サイト紹介">部員のオススメ書籍・サイト紹介&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>アプリNaviブログ</title><link>https://blog.opuappnavi.com/</link><atom:link href="https://blog.opuappnavi.com/index.xml" rel="self" type="application/rss+xml"/><description>アプリNaviブログ</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710 2020</copyright><lastBuildDate>Wed, 16 Dec 2020 16:41:56 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url><title>アプリNaviブログ</title><link>https://blog.opuappnavi.com/</link></image><item><title>新入生歓迎イベントの反省</title><link>https://blog.opuappnavi.com/post/shirasagi-2020-online/</link><pubDate>Wed, 16 Dec 2020 16:41:56 +0900</pubDate><guid>https://blog.opuappnavi.com/post/shirasagi-2020-online/</guid><description>&lt;h1 id="新入生歓迎イベントとは">新入生歓迎イベントとは?&lt;/h1>
+&lt;p>アプリNaviは例年「友好祭」と「白鷺祭」という文化祭でゲーム展示を行っています。しかしながら、今年は新型コロナウイルスの影響により、どちらも中止となってしまいました。&lt;/p>
+&lt;p>そこで、白鷺祭の代わりとして開催されたイベントが「新入生歓迎イベント」です。大阪府立大学の1回生のみが参加でき、例年の白鷺祭のような屋内企画(もちろん全団体が感染症対策をした上での開催です)に加えて、特設サイトやYouTube動画などのオンライン企画も開催されました。&lt;/p>
+&lt;p>私たちアプリNaviは、屋内企画とオンライン企画の両方に参加しました。この記事では、オンライン企画に関する反省を書いていきます。&lt;/p>
+&lt;h1 id="オンライン企画特設サイト">オンライン企画特設サイト&lt;/h1>
+&lt;figure id="figure-特設サイトのホームページ">
+&lt;a data-fancybox="" href="https://blog.opuappnavi.com/post/shirasagi-2020-online/home_hu3525688c5a46648dd4de505184195447_639288_2000x2000_fit_lanczos_2.png" data-caption="特設サイトのホームページ">
+&lt;img data-src="https://blog.opuappnavi.com/post/shirasagi-2020-online/home_hu3525688c5a46648dd4de505184195447_639288_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="1902" height="789">
+&lt;/a>
+&lt;figcaption>
+特設サイトのホームページ
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>アプリNaviは新入生歓迎イベントオンライン企画として、部員が作成したゲームをプレイできる特設サイト「あぷりなびらんど(オンライン)」を作成しました。このブログと同じく、&lt;code>Hugo&lt;/code>を使って作成しました。&lt;/p>
+&lt;h1 id="反省">反省&lt;/h1>
+&lt;h2 id="頑張ったこと">頑張ったこと&lt;/h2>
+&lt;h3 id="aboutページ">Aboutページ&lt;/h3>
+&lt;p>特設サイトにアプリNaviについて紹介する「About」ページを作成しました。新入生歓迎イベント終了後、このブログのAboutページにコピペしたので、このブログと特設ページのAboutページはほぼ同じです。&lt;/p>
+&lt;p>「分野」のセクションでは、多くのアイコンを使いました。大半のアイコンは既存のものを使用しましたが、&lt;code>Hugo&lt;/code>、&lt;code>Flutter&lt;/code>、&lt;code>C&lt;/code>、&lt;code>C++&lt;/code>、&lt;code>C#&lt;/code>、&lt;code>Kotlin&lt;/code>、&lt;code>Dart&lt;/code>のアイコンは自作しました。&lt;/p>
+&lt;p>「部員」のセクションでは、&lt;code>Google Charts&lt;/code>を導入し、部員の構成を見やすくしました。&lt;/p>
+&lt;h3 id="ゲームページ">ゲームページ&lt;/h3>
+&lt;h4 id="操作方法の表示">操作方法の表示&lt;/h4>
+&lt;p>ゲームの操作方法をゲームの上に表示し、プレイする人にとって分かりやすくしました。&lt;/p>
+&lt;p>
+&lt;figure id="figure-操作方法キーボードのみで操作">
+&lt;a data-fancybox="" href="https://blog.opuappnavi.com/post/shirasagi-2020-online/game01_hu7cf5be3353530d7ff05d562ca0b1e857_10751_2000x2000_fit_lanczos_2.png" data-caption="操作方法①(キーボードのみで操作)">
+&lt;img data-src="https://blog.opuappnavi.com/post/shirasagi-2020-online/game01_hu7cf5be3353530d7ff05d562ca0b1e857_10751_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="276" height="110">
+&lt;/a>
+&lt;figcaption>
+操作方法①(キーボードのみで操作)
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure id="figure-操作方法マウスキーボードで操作">
+&lt;a data-fancybox="" href="https://blog.opuappnavi.com/post/shirasagi-2020-online/game02_hu9d0e66fa1f1e13ff4e33c9939f1bad19_12939_2000x2000_fit_lanczos_2.png" data-caption="操作方法②(マウス＆キーボードで操作)">
+&lt;img data-src="https://blog.opuappnavi.com/post/shirasagi-2020-online/game02_hu9d0e66fa1f1e13ff4e33c9939f1bad19_12939_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="466" height="110">
+&lt;/a>
+&lt;figcaption>
+操作方法②(マウス＆キーボードで操作)
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;h4 id="コメント機能の実装">コメント機能の実装&lt;/h4>
+&lt;p>Firebaseを使用し、各ゲームページにコメント投稿機能を実装しました。匿名ログインを利用して、自分で投稿したコメントの編集および削除ができるようにしました。&lt;/p>
+&lt;p>新入生歓迎イベントの2日間で、11件のコメントを頂きました。コメントしてくださった皆様、ありがとうございました。&lt;/p>
+&lt;h2 id="やりたかったけれど出来なかったこと">やりたかったけれど出来なかったこと&lt;/h2>
+&lt;h3 id="ゲームページ-1">ゲームページ&lt;/h3>
+&lt;h4 id="音量調整機能">音量調整機能&lt;/h4>
+&lt;p>ゲームページは、Unity製のゲームをiframeを用いて埋め込みました。iframeの仕様なのかもしれませんが、タイトルでBGMを流しているゲームの場合、iframeのどこかをクリックするまで音が流れません。逆に言えば、iframeのどこかクリックした途端いきなりBGMが流れるのでびっくりします。なので、「プレイ」ボタンを作り、そのボタンが押されるまで音が流れないようにするつもりでした。&lt;/p>
+&lt;p>しかしながら、Unity製のゲーム(WebGL)の音量を外部から変更する方法が分かりませんでした。そのため、音量調整機能の実装は諦め、代わりにゲームの上に「音量注意」の表示をつけました。&lt;/p>
+&lt;figure id="figure-音量注意の表示">
+&lt;a data-fancybox="" href="https://blog.opuappnavi.com/post/shirasagi-2020-online/game03_hue3c56796ef3c6ded53f6f0bdcad0c9e0_21997_2000x2000_fit_lanczos_2.png" data-caption="「音量注意」の表示">
+&lt;img data-src="https://blog.opuappnavi.com/post/shirasagi-2020-online/game03_hue3c56796ef3c6ded53f6f0bdcad0c9e0_21997_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="901" height="129">
+&lt;/a>
+&lt;figcaption>
+「音量注意」の表示
+&lt;/figcaption>
+&lt;/figure>
+&lt;h1 id="次回の祭りに向けて">次回の祭りに向けて&lt;/h1>
+&lt;p>来年の友好祭や白鷺祭でもオンライン企画が行われる可能性が高いと思うので、現在新しいゲーム展示サイトを制作中です。&lt;/p>
+&lt;p>今までサイトは&lt;code>Hugo&lt;/code>を使って作ってきましたが、次のサイトは&lt;code>Flutter&lt;/code>を使用して作成しています。&lt;/p></description></item><item><title>部員のオススメ書籍・サイト紹介</title><link>https://blog.opuappnavi.com/post/book-recommendation/</link><pubDate>Fri, 14 Aug 2020 17:52:45 +0900</pubDate><guid>https://blog.opuappnavi.com/post/book-recommendation/</guid><description>&lt;h1 id="部員のオススメ書籍サイト紹介">部員のオススメ書籍・サイト紹介&lt;/h1>
 &lt;p>皆さん、暑さが厳しくなってきたこの季節、いかがお過ごしでしょうか？&lt;/p>
 &lt;p>大学生の方の多くは、もうすぐ夏休みの方も多いことかと思います。&lt;/p>
 &lt;p>そして、その夏休みというまとまった時間があるときにプログラミングをやってみようと思う方もいるのではないでしょうか？&lt;/p>
@@ -732,21 +791,19 @@ after
 &lt;div id="unity_webgl_1_1" style="width: 100%; margin: 15px 0; background: white; border-radius: 15px;">
 &lt;div style="position: relative;">
 &lt;div id="unity_webgl_1_2" style="height: 0;">
-&lt;iframe id="unity_webgl_1_3" allowfullscreen>&lt;/iframe>
+&lt;iframe id="unity_webgl_1_3" src="https://hiroyuki-nakaya.github.io/Finden-die-Feen/" allowfullscreen>&lt;/iframe>
 &lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;script>
-let w = 980 ;
-let h = 700 ;
-let url = "https://hiroyuki-nakaya.github.io/Finden-die-Feen/";
-document.getElementById("unity_webgl_1_2").style.paddingBottom = 100 * h / w + "%";
-document.getElementById("unity_webgl_1_3").src = url;
-let set_width = function() {
-let client_w = document.getElementById("unity_webgl_1_2").clientWidth;
-let per = client_w / w;
-let rev = 100 / per;
-let iframe = document.getElementById("unity_webgl_1_3");
+document.getElementById("unity_webgl_1_2").style.paddingBottom = 100 * 700 / 980 + "%";
+function set_width() {
+const w = 980 ;
+const h = 700 ;
+const client_w = document.getElementById("unity_webgl_1_2").clientWidth;
+const per = client_w / w;
+const rev = 100 / per;
+const iframe = document.getElementById("unity_webgl_1_3");
 iframe.height = rev + "%";
 iframe.width = rev + "%";
 iframe.style = "position: absolute; top: 0; left: 0; transform:scale(" + per + ");-o-transform:scale(" + per + ");-webkit-transform:scale(" + per + ");-moz-transform:scale(" + per + ");-ms-transform:scale(" + per + ");transform-origin:top left; border: 0;"
@@ -1901,21 +1958,19 @@ GitHubタブが開きます。
 &lt;div id="unity_webgl_0_1" style="width: 100%; margin: 15px 0; background: white; border-radius: 15px;">
 &lt;div style="position: relative;">
 &lt;div id="unity_webgl_0_2" style="height: 0;">
-&lt;iframe id="unity_webgl_0_3" allowfullscreen>&lt;/iframe>
+&lt;iframe id="unity_webgl_0_3" src="https://juris710.github.io/TruckQuizSample/" allowfullscreen>&lt;/iframe>
 &lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;script>
-let w = 980 ;
-let h = 700 ;
-let url = "https://juris710.github.io/TruckQuizSample/";
-document.getElementById("unity_webgl_0_2").style.paddingBottom = 100 * h / w + "%";
-document.getElementById("unity_webgl_0_3").src = url;
-let set_width = function() {
-let client_w = document.getElementById("unity_webgl_0_2").clientWidth;
-let per = client_w / w;
-let rev = 100 / per;
-let iframe = document.getElementById("unity_webgl_0_3");
+document.getElementById("unity_webgl_0_2").style.paddingBottom = 100 * 700 / 980 + "%";
+function set_width() {
+const w = 980 ;
+const h = 700 ;
+const client_w = document.getElementById("unity_webgl_0_2").clientWidth;
+const per = client_w / w;
+const rev = 100 / per;
+const iframe = document.getElementById("unity_webgl_0_3");
 iframe.height = rev + "%";
 iframe.width = rev + "%";
 iframe.style = "position: absolute; top: 0; left: 0; transform:scale(" + per + ");-o-transform:scale(" + per + ");-webkit-transform:scale(" + per + ");-moz-transform:scale(" + per + ");-ms-transform:scale(" + per + ");transform-origin:top left; border: 0;"

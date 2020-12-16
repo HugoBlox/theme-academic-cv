@@ -9,21 +9,19 @@
 &lt;div id="unity_webgl_1_1" style="width: 100%; margin: 15px 0; background: white; border-radius: 15px;">
 &lt;div style="position: relative;">
 &lt;div id="unity_webgl_1_2" style="height: 0;">
-&lt;iframe id="unity_webgl_1_3" allowfullscreen>&lt;/iframe>
+&lt;iframe id="unity_webgl_1_3" src="https://hiroyuki-nakaya.github.io/Finden-die-Feen/" allowfullscreen>&lt;/iframe>
 &lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;script>
-let w = 980 ;
-let h = 700 ;
-let url = "https://hiroyuki-nakaya.github.io/Finden-die-Feen/";
-document.getElementById("unity_webgl_1_2").style.paddingBottom = 100 * h / w + "%";
-document.getElementById("unity_webgl_1_3").src = url;
-let set_width = function() {
-let client_w = document.getElementById("unity_webgl_1_2").clientWidth;
-let per = client_w / w;
-let rev = 100 / per;
-let iframe = document.getElementById("unity_webgl_1_3");
+document.getElementById("unity_webgl_1_2").style.paddingBottom = 100 * 700 / 980 + "%";
+function set_width() {
+const w = 980 ;
+const h = 700 ;
+const client_w = document.getElementById("unity_webgl_1_2").clientWidth;
+const per = client_w / w;
+const rev = 100 / per;
+const iframe = document.getElementById("unity_webgl_1_3");
 iframe.height = rev + "%";
 iframe.width = rev + "%";
 iframe.style = "position: absolute; top: 0; left: 0; transform:scale(" + per + ");-o-transform:scale(" + per + ");-webkit-transform:scale(" + per + ");-moz-transform:scale(" + per + ");-ms-transform:scale(" + per + ");transform-origin:top left; border: 0;"
@@ -425,21 +423,19 @@ GitHubタブが開きます。
 &lt;div id="unity_webgl_0_1" style="width: 100%; margin: 15px 0; background: white; border-radius: 15px;">
 &lt;div style="position: relative;">
 &lt;div id="unity_webgl_0_2" style="height: 0;">
-&lt;iframe id="unity_webgl_0_3" allowfullscreen>&lt;/iframe>
+&lt;iframe id="unity_webgl_0_3" src="https://juris710.github.io/TruckQuizSample/" allowfullscreen>&lt;/iframe>
 &lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;script>
-let w = 980 ;
-let h = 700 ;
-let url = "https://juris710.github.io/TruckQuizSample/";
-document.getElementById("unity_webgl_0_2").style.paddingBottom = 100 * h / w + "%";
-document.getElementById("unity_webgl_0_3").src = url;
-let set_width = function() {
-let client_w = document.getElementById("unity_webgl_0_2").clientWidth;
-let per = client_w / w;
-let rev = 100 / per;
-let iframe = document.getElementById("unity_webgl_0_3");
+document.getElementById("unity_webgl_0_2").style.paddingBottom = 100 * 700 / 980 + "%";
+function set_width() {
+const w = 980 ;
+const h = 700 ;
+const client_w = document.getElementById("unity_webgl_0_2").clientWidth;
+const per = client_w / w;
+const rev = 100 / per;
+const iframe = document.getElementById("unity_webgl_0_3");
 iframe.height = rev + "%";
 iframe.width = rev + "%";
 iframe.style = "position: absolute; top: 0; left: 0; transform:scale(" + per + ");-o-transform:scale(" + per + ");-webkit-transform:scale(" + per + ");-moz-transform:scale(" + per + ");-ms-transform:scale(" + per + ");transform-origin:top left; border: 0;"
