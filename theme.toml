@@ -2,7 +2,7 @@ name = "Academic"
 license = "MIT"
 licenselink = "https://github.com/wowchemy/starter-academic/blob/master/LICENSE.md"
 description = "Use the website builder to personalize your academic resumé with widgets and deploy with one click! Fully customize your site with themes, plugins, and language packs."
-homepage = "https://wowchemy.com"
+homepage = "https://wowchemy.com/templates/"
 min_version = "0.78"
 tags = ["widgets",
         "resume",
