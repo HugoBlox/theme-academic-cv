@@ -29,9 +29,9 @@ available as reference to, the HiMAT teams (both HiMAT-1 and -2).
 
 |Title                                                                        |Tags   |Temporal Coverage |Geographic Coverage |PI           |Related References
 |-----------------------------------------------------------------------------|-------|------------------|--------------------|-------------|------------
-|[8-meter DEM Mosaics](https://nsidc.org/data/HMA_DEM8m_MOS/versions/1)       |DEM    |2002 to 2016      |HMA                 |Shean        |Shean et al, 2020
-|[8-meter DEMs, cross-track](https://nsidc.org/data/HMA_DEM8m_CT/versions/1)  |DEM    |2002 to 2016      |HMA                 |Shean        |Shean et al, 2020
-|[8-meter DEMs, along-track](https://nsidc.org/data/HMA_DEM8m_AT/versions/1)  |DEM    |2002 to 2016      |HMA                 |Shean        |Shean et al, 2020
+|[8-meter DEM Mosaics](https://nsidc.org/data/HMA_DEM8m_MOS/versions/1)       |DEM    |2002 to 2016      |HMA                 |Shean        |[Shean et al, 2020](/publication/shean-systematic-2020/)
+|[8-meter DEMs, cross-track](https://nsidc.org/data/HMA_DEM8m_CT/versions/1)  |DEM    |2002 to 2016      |HMA                 |Shean        |[Shean et al, 2020](/publication/shean-systematic-2020/)
+|[8-meter DEMs, along-track](https://nsidc.org/data/HMA_DEM8m_AT/versions/1)  |DEM    |2002 to 2016      |HMA                 |Shean        |[Shean et al, 2020](/publication/shean-systematic-2020/)
 
 -------------------------------------------------------------------------------------------
 
@@ -39,11 +39,11 @@ available as reference to, the HiMAT teams (both HiMAT-1 and -2).
 
 |Title                                                            |Tags   |Temporal Coverage |Geographic Coverage |PI           |Related References
 |-----------------------------------------------------------------|-------|------------------|--------------------|-------------|------------
-|[Glacier thickness changes from multi-sensor DEMs](https://nsidc.org/data/HMA_Glacier_dH_Mosaics/versions/1)  | glacier | 1974 to 2017  | HMA    |     Rupper   |    Maurer et al, 2019
-|[Average glacier thickness change from multi-sensor DEMs](https://nsidc.org/data/HMA_GlacierAvg_dH/versions/1)   | glacier | 1974 to 2017 |  HMA   |      Rupper   |    Maurer et al, 2019
-|[Gridded glacier thickness change from multi-sensor DEMs](https://nsidc.org/data/HMA_Glacier_dH/versions/1)   | glacier |  1974 to 2017  |  HMA     |     Rupper   |     Maurer et al, 2019
-|[PyGEM glacier projections under different RCP model scenarios](https://nsidc.org/data/HMA_GL_RCP/versions/1) | glacier, model | 2000 to 2100  |  HMA  |     Rounce   |    Rounce et al, 2019
-|PyGEM glacier projections under different RCP model scenarios, rasterized  |glacier, model|2000 to 2100 |HMA |Lammers, Prusevich |Rounce et al, 2019
+|[Glacier thickness changes from multi-sensor DEMs](https://nsidc.org/data/HMA_Glacier_dH_Mosaics/versions/1)  | glacier | 1974 to 2017  | HMA    |     Rupper   |    [Maurer et al, 2019](/publication/maurer-acceleration-2019/)
+|[Average glacier thickness change from multi-sensor DEMs](https://nsidc.org/data/HMA_GlacierAvg_dH/versions/1)   | glacier | 1974 to 2017 |  HMA   |      Rupper   |    [Maurer et al, 2019](/publication/maurer-acceleration-2019/)
+|[Gridded glacier thickness change from multi-sensor DEMs](https://nsidc.org/data/HMA_Glacier_dH/versions/1)   | glacier |  1974 to 2017  |  HMA     |     Rupper   |     [Maurer et al, 2019](/publication/maurer-acceleration-2019/)
+|[PyGEM glacier projections under different RCP model scenarios](https://nsidc.org/data/HMA_GL_RCP/versions/1) | glacier, model | 2000 to 2100  |  HMA  |     Rounce   |    [Rounce et al, 2019](/publication/rounce-glacier-2019/)
+|PyGEM glacier projections under different RCP model scenarios, rasterized  |glacier, model|2000 to 2100 |HMA |Lammers, Prusevich | [Rounce et al, 2019](/publication/rounce-glacier-2019/)
 
 
 ## Snow
@@ -57,10 +57,10 @@ available as reference to, the HiMAT teams (both HiMAT-1 and -2).
 
 |Title                                                            |Tags   |Temporal Coverage |Geographic Coverage |PI           |Related References
 |-----------------------------------------------------------------|-------|------------------|--------------------|-------------|------------
-|[LIS model output](https://nsidc.org/data/HMA_LIS_LandSurfaceHydro/versions/1)           |snow, rad, soil moist., sfc temp |2003 to 2018   |HMA         |Kumar, S     |Loomis et al, 2019
+|[LIS model output](https://nsidc.org/data/HMA_LIS_LandSurfaceHydro/versions/1)           |snow, rad, soil moist., sfc temp |2003 to 2018   |HMA         |Kumar, S     |[Loomis et al, 2019](/publication/loomis-water-2019/)
 |[MAR V3.5 output](https://nsidc.org/data/HMA_MAR3_5/versions/1)            |albedo, sfc temp, rad, snow, wind |2000 to 2015   |HMA         |Tedesco |
 |[ASCAT freeze/thaw/melt status](https://nsidc.org/data/HMA_FreezeThawMelt_ASCAT/versions/1)     |sfc prop   |2009 to 2017   |HMA         |Steiner, McDonald |
-|[LDAS 1 km snow and temperature parameters](https://nsidc.org/data/HMA_STParams/versions/1) |snow, model  |2007 to 2008   |HMA         |Houser       |Yoon et al, 2019
+|[LDAS 1 km snow and temperature parameters](https://nsidc.org/data/HMA_STParams/versions/1) |snow, model  |2007 to 2008   |HMA         |Houser       |[Yoon et al, 2019](/publication/yoon-evaluating-2019/)
 |[Regional Climate Model Output, Monthly](https://nsidc.org/data/HMA_RCMO_M/versions/1)     |temp, humid, moist, precip, wind, ocean |1999 to 2014   |HMA+        |Osmanoglu |
 |[Regional Climate Model Output, Daily](https://nsidc.org/data/HMA_RCMO_D/versions/1) | temp, humid, moist, precip, wind, ocean |1999 to 2014   |HMA+        |Osmanoglu
 |Regional Climate Model Output, 6-hourly    |temp, humid, moist, precip, wind, ocean |1999 to 2014   |HMA+        |Osmanoglu
@@ -98,4 +98,4 @@ available as reference to, the HiMAT teams (both HiMAT-1 and -2).
 
 |Title                                                            |Tags   |Temporal Coverage |Geographic Coverage |PI           |Related References
 |-----------------------------------------------------------------|-------|------------------|--------------------|-------------|------------
-|[MODIS aerosol optical depth](https://nsidc.org/data/HMA_OptDepth/versions/1) |aerosol |2000 to 2019    |HMA          |Tsay          |Jeong et al, 2018
+|[MODIS aerosol optical depth](https://nsidc.org/data/HMA_OptDepth/versions/1) |aerosol |2000 to 2019    |HMA          |Tsay          |[Jeong et al, 2018](/publication/jeong-langley-2018/)
