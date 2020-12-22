@@ -26,7 +26,7 @@ title = "NASA High Mountain Asia Team"
 
 [cta]
   url = "/gmelt/data/"
-  label = '<i class="fa fa-download"></i>Get Data'
+  label = '<i class="fa fa-download"></i> Get Data'
 +++
 
 Collaborative research to study cryospheric changes
