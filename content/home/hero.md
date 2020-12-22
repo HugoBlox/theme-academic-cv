@@ -25,7 +25,7 @@ title = "NASA High Mountain Asia Team"
   text_color_light = true
 
 [cta]
-  url = "https://nsidc.org/data/highmountainasia/data-summaries/"
+  url = "/gmelt/data/"
   label = '<i class="fa fa-download"></i>Get Data'
 +++
 
