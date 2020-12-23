@@ -24,6 +24,10 @@ title = "NASA High Mountain Asia Team"
   # Text color (true=light or false=dark).
   text_color_light = true
 
+[design.spacing]
+  # Customize the section spacing. Order is top, right, bottom, left.
+  padding = ["100px", "10%", "200px", "10%"]
+
 [cta]
   url = "/gmelt/data/"
   label = '<i class="fa fa-download"></i> Get Data'
