@@ -36,8 +36,10 @@ enableRobotsTXT = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 
-# Workaround Hugo publishing taxonomy URLs as plurals - consistently use singular across Academic.
 [permalinks]
+  # If only creating events which are talks, we can optimize event URLs for talks.
+  event = "/talk/:slug/"
+  # Workaround Hugo publishing taxonomy URLs as plurals - consistently use singular across Academic.
   authors = "/author/:slug/"
   tags = "/tag/:slug/"
   categories = "/category/:slug/"
