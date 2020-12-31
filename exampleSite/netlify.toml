@@ -42,3 +42,4 @@
     upgrade-insecure-requests;
     report-uri https://julenetxaniz.report-uri.com/r/d/csp/enforce
     '''
+    X-Content-Type-Options = "nosniff"
