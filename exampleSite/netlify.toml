@@ -24,3 +24,13 @@
   for = "index.xml"
   [headers.values]
     Content-Type = "application/rss+xml"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy-Report-Only = '''
+    default-src 'none';
+    form-action 'none';
+    frame-ancestors 'none';
+    report-uri https://julenetxaniz.report-uri.com/r/d/csp/wizard
+    '''
