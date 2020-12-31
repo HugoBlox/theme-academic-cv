@@ -29,8 +29,16 @@
   for = "/*"
   [headers.values]
     Content-Security-Policy-Report-Only = '''
-    default-src 'none';
+    default-src 'self';
+    connect-src 'self' api.github.com www.netlifystatus.com;
+    font-src data: cdn.jsdelivr.net cdnjs.cloudflare.com fonts.gstatic.com;
+    img-src 'self' data: blob: a.tile.openstreetmap.org b.tile.openstreetmap.org c.tile.openstreetmap.org cdnjs.cloudflare.com; manifest-src 'self';
+    script-src 'self' 'unsafe-inline' 'unsafe-eval' buttons.github.io cdn.jsdelivr.net cdnjs.cloudflare.com identity.netlify.com;
+    style-src 'self' 'unsafe-inline' cdnjs.cloudflare.com fonts.googleapis.com;
     form-action 'none';
     frame-ancestors 'none';
-    report-uri https://julenetxaniz.report-uri.com/r/d/csp/wizard
+    object-src 'none';
+    base-uri 'none';
+    upgrade-insecure-requests;
+    report-uri https://julenetxaniz.report-uri.com/r/d/csp/reportOnly
     '''
