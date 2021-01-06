@@ -4,9 +4,6 @@
 title: "Journaling"
 subtitle: ""
 summary: ""
-authors: []
-tags: []
-categories: []
 date: 2021-01-02T20:04:31Z
 lastmod: 2021-01-02T20:04:31Z
 featured: false
@@ -21,18 +18,12 @@ image:
   preview_only: false
 
 ---
-
-<style>.hljs {white-space: pre-wrap;}</style>
-
-
-Last year, the confinement from Covid-19 demanded a routine change for most of us. Working from home reduced our social interactions and leisure routines. As an alternative, I've spend most of my free time reading, playing PlayStation and board games, and going through my IMDB watchlist. By the end of the year, I was feeling that I was mostly [consuming information, and not producing any](https://medium.com/swlh/consumer-vs-producer-a-change-in-mindset-that-will-change-your-life-11cf8092e3e6). A major change from the previous year, when I was completing my PhD thesis. Such tought sparked a will to write more again.
+Last year, the confinement from Covid-19 demanded a routine change for most of us. Working from home reduced our social interactions and leisure routines. I have spent most of my free time at home reading, playing PlayStation or board games, and going through my IMDB watchlist. By the end of the year, I felt that I was mostly [consuming information](https://medium.com/swlh/consumer-vs-producer-a-change-in-mindset-that-will-change-your-life-11cf8092e3e6) and not producing any. A significant change from the previous year, when I was completing my Ph.D. thesis. Such thought sparked a will to write more again. My approach was twofold. First, I've begun to journal daily, which is the subject of this post. Second, I've decided to blog infrequently about things I find interesting and useful for others. This article is the first step in that direction.
 
 
-I've been reading about journaling, and the positive impact it has on mental health.  . , which has proven results in terms of improving one's mental health.
+I recently took an interest in the concept of journaling. Multiple studies have shown evidence of its positive impact on improving one's mental health. [TODO-REFS]. Even  [filesystems to do it](https://en.wikipedia.org/wiki/Journaling_file_system).
 
-Even good [filesystems do it](https://en.wikipedia.org/wiki/Journaling_file_system)
-
-I wanted to be able to set yearly and monthly goals which I could quickly revisit, so I've created some aliases to make it easier to open specific entries. Using [fish](), they look like this:
+I wanted to be able to set yearly and monthly goals which I could quickly revisit, so I've created some aliases to make it easier to open specific entries. Using the [fish shell](https://fishshell.com/), they look like this:
 
 ```
 function jrnl_create_or_edit
@@ -49,7 +40,7 @@ alias jmm='jrnl_create_or_edit (date +\'%Y-%m-1\')'
 alias jyy='jrnl_create_or_edit (date +\'%Y-1-1\')'
 ```
 
-The `jrnl_create_or_edit` function cheks if there is an entry for a given date, creating it based on the template file if it doesn't exist. It then opens that day for edition.
+The `jrnl_create_or_edit` function checks if there is an entry for a given date, creating it based on the template file if it doesn't exist. It then opens that day for edition.
 
 ```markdown
 day++
@@ -61,4 +52,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 * Things that didn't
 ```
 
-This article was greatly inspired by [21st Century Journaling for Developers](https://medium.com/@mntlmaxi/21st-century-journaling-for-developers-f3a1c2a8eb4e)
+This article was inspired by [21st Century Journaling for Developers](https://medium.com/@mntlmaxi/21st-century-journaling-for-developers-f3a1c2a8eb4e).
+
+
+[How to Conduct an Annual Life Review That Will Catapult You into the New Year
+](https://schlaf.medium.com/how-to-conduct-an-annual-life-review-that-will-catapult-you-into-the-new-year-d5aaffebac1f)
