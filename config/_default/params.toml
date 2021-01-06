@@ -29,7 +29,7 @@ logo = ""
 # Enable source code highlighting? true/false
 # Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
 highlight = true
-highlight_languages = ["r"]  # Add support for highlighting additional languages
+# highlight_languages = ["r"]  # Add support for highlighting additional languages
 # highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
 
 # Enable LaTeX math rendering? true/false
@@ -111,6 +111,10 @@ gravatar = true
 
 # Main menu alignment (l = left, c = center, r = right) and logo options.
 main_menu = {align = "l", show_logo = true}
+
+# Show related content at the bottom of pages?
+show_related = {book = true, page = false, post = true, project = true, publication = true, talk = true}
+
 
 # Show estimated reading time for posts? (true/false)
 reading_time = true

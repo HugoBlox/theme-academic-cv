@@ -16,7 +16,7 @@ superuser: true
 
 # education:
 #   courses:
-#   - course: PhD in Software Engineering
+#   - course: PhD (Cum Laude) in Software Engineering
 #     institution: Faculty of Engineering University of Porto
 #     year: awaiting defense
 #   - course: MSc in Informatics and Computation
@@ -51,6 +51,10 @@ social:
 email: "tiagoboldt@gmail.com"
 
 ---
-Hi! I live in Porto, Portugal, and love concerts, movies, and sharing a good meal with friends. I've earned a Ph.D. in Software Engineering with the thesis *Engineering Software for the Cloud: A Pattern Language*.
 
-Professionally, I spend my time between industry and academy. I am the product lead at [Velocidi](https://www.velocidi.com/), a NY-based AdTech startup, and invited assistant professor at the [Faculty of Engineering from the University of Porto](https://sigarra.up.pt/feup/pt/func_geral.formview?p_codigo=479881).
+
+Tiago holds a Ph. D. in Software Engineering from the [Faculty of Engineering from the University of Porto](https://sigarra.up.pt/feup/pt/func_geral.formview?p_codigo=479881), specializing in cloud computing architectures, where he also teaches since 2012.
+
+In the industry, Tiago has mostly been building products for digital marketing since 2011. He was the first engineer at ShiftForward, soon moving to a product leadership role. He helped grew the company towards its acquisition by [Velocidi](https://www.velocidi.com/) in 2018, where he kept the same role. As product lead, Tiago owns the roadmap, defining and prioritizing new features, drafting them with the design team, supporting the engineers planning and methodology, and cooperating with the marketing team on product communication.
+
+His previous experiences took him through several R&D positions in academia and independent consulting in Software Engineering.
