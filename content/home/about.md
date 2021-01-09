@@ -29,5 +29,5 @@ weight = 10
  
 +++
 
-Ian Eve Perry is a quantitative public policy researcher focusing on labor, health care, and housing.
+Ian Eve Perry is a quantitative public policy researcher focusing on labor, healthcare, and housing.
  
