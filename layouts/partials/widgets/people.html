@@ -31,7 +31,10 @@
   {{end}}
 
   {{ range $query }}
-  {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
+  {{ $avatar := "" }}
+  {{ if in .Params.user_groups "Research Group" }}
+    {{ $avatar = (.Resources.ByType "image").GetMatch "*avatar*" }}
+  {{ end }}
   {{/* Get link to user's profile page. */}}
   {{ $link := "" }}
   {{ $target := "" }}
