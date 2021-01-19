@@ -22,7 +22,8 @@ menu:
 ---
 
 The following tables list data products that have been produced by, or are
-available as reference to, the HiMAT teams (both HiMAT-1 and -2).
+available as reference to, the HiMAT teams (both HiMAT-1 and -2). Datasets are hosted by the
+[National Snow and Ice Data Center (NSIDC)](https://nsidc.org/).
 
 
 ## Digital Elevation Models
@@ -33,7 +34,7 @@ available as reference to, the HiMAT teams (both HiMAT-1 and -2).
 |[8-meter DEMs, cross-track](https://nsidc.org/data/HMA_DEM8m_CT/versions/1)  |DEM    |2002 to 2016      |HMA                 |Shean        |[Shean et al, 2020](/publication/shean-systematic-2020/)
 |[8-meter DEMs, along-track](https://nsidc.org/data/HMA_DEM8m_AT/versions/1)  |DEM    |2002 to 2016      |HMA                 |Shean        |[Shean et al, 2020](/publication/shean-systematic-2020/)
 
--------------------------------------------------------------------------------------------
+
 
 ## Glaciers
 
