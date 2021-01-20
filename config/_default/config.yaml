@@ -1,0 +1,21 @@
+baseURL: "https://tiagoboldt.net"
+languageCode: "en"
+DefaultContentLanguage: "en"
+title: "Tiago Boldt Sousa"
+theme: "anatole"
+summarylength: 10
+enableEmoji: true
+enableRobotsTXT: true
+
+# Google Analytics
+#googleAnalytics: "UA-123-45"
+
+# Syntax highlighting
+pygmentsUseClasses: true
+pygmentsCodeFences: true
+pygmentsCodefencesGuessSyntax: true
+
+markup:
+  highlight:
+    style: monokai
+    tabWidth: 4

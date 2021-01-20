@@ -1,0 +1,31 @@
+title: Tiago Boldt Sousa
+author: Tiago Boldt Sousa
+keywords:
+description: Product doer, Invited Professor, Ph.D.
+profilePicture: images/tbs.jpg
+favicon: favicons/
+customCss:
+- css/custom.css
+- css/syntax.css
+mainSections: ['post']
+doNotLoadAnimations: true
+
+socialIcons:
+- icon: fab fa-linkedin
+  title: Linkedin
+  url: https://www.linkedin.com/in/tiagoboldt/
+- icon: fab fa-github
+  title: GitHub
+  url: https://github.com/tiagoboldt
+- icon: fas fa-envelope
+  title: e-mail
+  url: mailto:tiagoboldt@gmail.com
+- icon: fab fa-twitter
+  title: Twitter
+  url: https://twitter.com/tiagoboldt
+- icon: ai ai-google-scholar
+  title: Google Scholar
+  url: https://scholar.google.co.uk/citations?user=Q6Dv2ZcAAAAJ
+- icon: ai ai-cv
+  title: CV
+  url: https://files.tiagoboldt.net/tbs_cv.pdf

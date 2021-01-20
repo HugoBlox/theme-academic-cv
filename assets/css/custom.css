@@ -1,0 +1,14 @@
+.chroma { white-space: pre-wrap; }
+.sidebar {width: 33%; border-right: 0px;}
+.sidebar .logo-title {padding-top: 120px;}
+.content {width: 50%; margin-right: 17%;}
+.page-top{width: 50%; margin-right: 17%;}
+.post .post-content a {letter-spacing: 0px;}
+a:link, a:visited {color: #2f69b3;}
+
+@media screen and (max-width: 960px), print {
+  .sidebar {width: 100%; margin-right: 0px;}
+  .page-top {width: 100%; margin-right: 0px;}
+  .content {width: 100%; margin-right: 0px;}
+  .footer {display: block; position: fixed;}
+}
