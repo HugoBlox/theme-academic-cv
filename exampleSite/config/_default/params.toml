@@ -1,17 +1,17 @@
 # SITE SETUP
-# Guide: https://sourcethemes.com/academic/docs/get-started/
-# Documentation: https://sourcethemes.com/academic/docs/
+# Guide: https://wowchemy.com/docs/get-started/
+# Documentation: https://wowchemy.com/docs/
 #
 # This file is formatted using TOML syntax - learn more at https://learnxinyminutes.com/docs/toml/
-# Each configuration section is defined by a name in square brackets (e.g. `[search]`).
+# Each config section after this section is defined by a name in square brackets (e.g. `[search]`).
 
 ############################
 ## Theme
 ############################
 
 # Choose a theme.
-#   Latest themes (may require updating): https://sourcethemes.com/academic/themes/
-#   Browse built-in themes in `themes/academic/data/themes/`
+#   Guide to color themes: https://wowchemy.com/docs/customization/#color-themes
+#   Browse the latest built-in font sets at https://github.com/wowchemy/wowchemy-hugo-modules/tree/master/wowchemy/themes/
 #   Browse user installed themes in `data/themes/`
 theme = "minimal"
 
@@ -19,8 +19,8 @@ theme = "minimal"
 day_night = true
 
 # Override the theme's font set (optional).
-#   Latest font sets (may require updating): https://sourcethemes.com/academic/themes/
-#   Browse built-in font sets in `themes/academic/data/fonts/`
+#   Guide to font sets: https://wowchemy.com/docs/customization/#fonts
+#   Browse the latest built-in font sets at https://github.com/wowchemy/wowchemy-hugo-modules/tree/master/wowchemy/data/fonts
 #   Browse user installed font sets in `data/fonts/`
 font = ""
 
@@ -55,8 +55,8 @@ description = ""
 ############################
 
 # Enable source code highlighting? true/false
-# Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
-highlight = true
+# Documentation: https://wowchemy.com/docs/writing-markdown-latex/#highlighting-options
+highlight = false
 highlight_languages = ["r", "latex"]  # Add support for highlighting additional languages
 # highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
 
@@ -75,10 +75,10 @@ privacy_pack = false
 
 # Enable visitors to edit pages?
 #   `repo` defines the repository URL. `editable` defines which page types can be edited.
-edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir = "", repo_branch = "master", editable = {docs = true, page = false, post = false}}
+edit_page = {repo_url = "", content_dir = "", repo_branch = "main", editable = {page = false, post = false, book = false}}
 
 # Show related content at the bottom of pages?
-show_related = {docs = true, page = false, post = true, project = true, publication = true, talk = true}
+show_related = {book = true, page = false, post = true, project = true, publication = true, talk = true}
 
 ############################
 ## Contact details
@@ -133,7 +133,7 @@ twitter = ""
 ## Regional Settings
 ############################
 
-# Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
+# Date and time format (refer to https://wowchemy.com/docs/customization/#date-format )
 #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
 date_format = "Jan 2, 2006"
 #   Examples: "3:04 pm" or "15:04"
@@ -182,7 +182,7 @@ plugins_js  = []
 
 # Configuration of publication pages.
 [publications]
-  # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
+  # Date format (refer to https://wowchemy.com/docs/customization/#date-format )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
   date_format = "January 2006"
 
@@ -274,8 +274,8 @@ plugins_js  = []
 ## Content Management System
 ############################
 [cms]
-  # See https://sourcethemes.com/academic/docs/install/#install-with-web-browser
-  netlify_cms = true
+  # See https://wowchemy.com/docs/install/
+  netlify_cms = false
 
 ############################
 ## Icon Pack Extensions
