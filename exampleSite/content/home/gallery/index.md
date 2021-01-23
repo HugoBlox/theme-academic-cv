@@ -1,12 +1,16 @@
-+++
-# Gallery section using the Blank widget and Gallery element (shortcode).
-widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 66  # Order that this section will appear.
+---
+# An instance of the Blank widget with a Gallery page element.
+# Documentation: https://wowchemy.com/docs/getting-started/page-builder/
+widget: blank
 
-title = "Gallery"
-subtitle = ""
-+++
+# This file represents a page section.
+headless: true
+
+# Order that this section appears on the page.
+weight: 66
+
+title: Gallery
+subtitle:
+---
 
 {{< gallery >}}
