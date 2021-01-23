@@ -70,14 +70,14 @@ Example **inline math** `$\nabla F(\mathbf{x}_{n})$` renders as $\nabla F(\mathb
 Example **multi-line math** using the `\\\\` math linebreak:
 
 ```latex
-$$f(k;p_0^*) = \begin{cases} p_0^* & \text{if }k=1, \\\\
-1-p_0^* & \text {if }k=0.\end{cases}$$
+$$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\\\
+1-p_{0}^{*} & \text{if }k=0.\end{cases}$$
 ```
 
 renders as
 
-$$f(k;p_0^*) = \begin{cases} p_0^* & \text{if }k=1, \\\\
-1-p_0^* & \text {if }k=0.\end{cases}$$
+$$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\\\
+1-p_{0}^{*} & \text{if }k=0.\end{cases}$$
 
 ### Diagrams
 
