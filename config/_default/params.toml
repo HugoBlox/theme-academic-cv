@@ -200,6 +200,10 @@ plugins_js  = []
   publication_view = 2
   talk_view = 2
 
+# Breadcrumb navigation
+[breadcrumb]
+  page_types = {book = true}
+
 ############################
 ## Comments
 ############################
