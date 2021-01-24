@@ -1,10 +1,10 @@
 ---
 title: Courses
-layout: docs  # Do not modify.
+type: page
 
-# Optional header image (relative to `static/media/` folder).
 header:
   caption: ""
   image: ""
 ---
 
+I teach the following courses:

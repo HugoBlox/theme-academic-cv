@@ -1,62 +1,41 @@
 ---
-# Course title, summary, and position.
-linktitle: An Example Course
-summary: Learn how to use Academic's docs layout for publishing online courses, software documentation, and tutorials.
-weight: 1
-
-# Page metadata.
-title: Overview
-date: "2018-09-09T00:00:00Z"
-lastmod: "2018-09-09T00:00:00Z"
-draft: false  # Is this a draft? true/false
-toc: true  # Show table of contents? true/false
-type: docs  # Do not modify.
-
-# Add menu entry to sidebar.
-# - name: Declare this menu item as a parent with ID `name`.
-# - weight: Position of link in menu.
-menu:
-  example:
-    name: Overview
-    weight: 1
+title: 📊 Learn Data Science
+linkTitle: Data Science
+summary: An example of using Wowchemy's Book layout for publishing online courses.
+date: '2021-01-24'
+type: book
 ---
 
-## Flexibility
+{{< figure src="intro.jpg" >}}
 
-This feature can be used for publishing content such as:
+{{< toc hide_on="xl" >}}
 
-* **Online courses**
-* **Project or software documentation**
-* **Tutorials**
+## What you will learn
 
-The `courses` folder may be renamed. For example, we can rename it to `docs` for software/project documentation or `tutorials` for creating an online course.
+- Fundamental {{<hl>}}Python programming skills{{</hl>}}
+- {{<hl>}}Statistical concepts{{</hl>}} and how to apply them in practice
+- Gain experience with the {{<hl>}}Scikit{{</hl>}}, including data visualization with {{<hl>}}Plotly{{</hl>}} and data wrangling with {{<hl>}}Pandas{{</hl>}}
 
-## Delete tutorials
+## Program overview
 
-**To remove these pages, delete the `courses` folder and see below to delete the associated menu link.**
+The demand for skilled data science practitioners is rapidly growing. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi.
 
-## Update site menu
+## Courses in this program
 
-After renaming or deleting the `courses` folder, you may wish to update any `[[main]]` menu links to it by editing your menu configuration at `config/_default/menus.toml`.
+{{< list_children >}}
 
-For example, if you delete this folder, you can remove the following from your menu configuration:
+## Meet your instructor
 
-```toml
-[[main]]
-  name = "Courses"
-  url = "courses/"
-  weight = 50
-```
+{{< mention "admin" >}}
 
-Or, if you are creating a software documentation site, you can rename the `courses` folder to `docs` and update the associated *Courses* menu configuration to:
+## FAQs
 
-```toml
-[[main]]
-  name = "Docs"
-  url = "docs/"
-  weight = 50
-```
+{{< spoiler text="Are there prerequisites?" >}}
+There are no prerequisites for the first course.
+{{< /spoiler >}}
 
-## Update the docs menu
+{{< spoiler text="How often do the courses run?" >}}
+Continuously, at your own pace.
+{{< /spoiler >}}
 
-If you use the *docs* layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.<NewFolderName>]`.
+{{< cta cta_text="Begin the course" cta_link="python" >}}
