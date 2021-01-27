@@ -24,25 +24,3 @@
   for = "index.xml"
   [headers.values]
     Content-Type = "application/rss+xml"
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Content-Security-Policy = '''
-    default-src 'self';
-    connect-src 'self' api.github.com www.netlifystatus.com;
-    font-src data: cdn.jsdelivr.net cdnjs.cloudflare.com fonts.gstatic.com;
-    img-src 'self' data: blob: a.tile.openstreetmap.org b.tile.openstreetmap.org c.tile.openstreetmap.org cdnjs.cloudflare.com; manifest-src 'self';
-    script-src 'self' 'unsafe-inline' 'unsafe-eval' buttons.github.io cdn.jsdelivr.net cdnjs.cloudflare.com identity.netlify.com cdn.mathjax.org;
-    style-src 'self' 'unsafe-inline' cdnjs.cloudflare.com fonts.googleapis.com;
-    form-action 'none';
-    frame-ancestors 'none';
-    object-src 'none';
-    base-uri 'none';
-    upgrade-insecure-requests;
-    report-uri https://julenetxaniz.report-uri.com/r/d/csp/enforce
-    '''
-    X-Content-Type-Options = "nosniff"
-    Referrer-Policy	= "strict-origin-when-cross-origin"
-    Feature-Policy = "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'"
-    Permissions-Policy = "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
