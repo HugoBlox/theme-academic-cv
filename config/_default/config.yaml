@@ -3,12 +3,12 @@ languageCode: "en"
 DefaultContentLanguage: "en"
 title: "Tiago Boldt Sousa"
 theme: "anatole"
-summarylength: 10
+summarylength: 100
 enableEmoji: true
 enableRobotsTXT: true
 
 # Google Analytics
-#googleAnalytics: "UA-123-45"
+googleAnalytics: "UA-245030-9"
 
 # Syntax highlighting
 pygmentsUseClasses: true
@@ -18,4 +18,3 @@ pygmentsCodefencesGuessSyntax: true
 markup:
   highlight:
     style: monokai
-    tabWidth: 4
