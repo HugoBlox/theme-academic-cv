@@ -25,7 +25,7 @@ content:
   filters:
     tag: ''
     category: ''
-    publication_type: ''
+    publication_types: ''
     author: ''
     exclude_featured: true
 design:
