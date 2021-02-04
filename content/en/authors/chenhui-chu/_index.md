@@ -16,10 +16,10 @@ role: Guest Associate Professor
 
 # Organizations/Affiliations
 organizations:
-- name: "Institute for Datability Science"
-  url: "http://www.ids.osaka-u.ac.jp/"
-- name: "Osaka University"
-  url: "http://www.osaka-u.ac.jp/"
+- name: "Graduate School of Informatics"
+  url: ""
+- name: "Kyoto University"
+  url: ""
 
 # Short bio (displayed in user profile at end of posts)
 bio:

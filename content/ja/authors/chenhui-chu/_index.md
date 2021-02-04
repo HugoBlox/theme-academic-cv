@@ -16,10 +16,10 @@ role: 招へい准教授
 
 # Organizations/Affiliations
 organizations:
-- name: "データビリティフロンティア機構"
-  url: "http://www.ids.osaka-u.ac.jp/"
-- name: "大阪大学"
-  url: "http://www.osaka-u.ac.jp/"
+- name: "大学院情報学研究科"
+  url: ""
+- name: "京都大学"
+  url: ""
 
 # Short bio (displayed in user profile at end of posts)
 bio:

@@ -12,15 +12,15 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: 特任助教
+role: 招へい助教
 group: 知能情報基盤部門
 
 # Organizations/Affiliations
 organizations:
-- name: "データビリティフロンティア機構"
-  url: "http://www.ids.osaka-u.ac.jp/"
-- name: "大阪大学"
-  url: "http://www.osaka-u.ac.jp/"
+- name: "大学院理工学研究科"
+  url: ""
+- name: "愛媛大学"
+  url: ""
 
 # Short bio (displayed in user profile at end of posts)
 bio: 自然言語処理。特に、テキスト平易化、言い換え、意味的文間類似度、品質推定。
@@ -65,8 +65,8 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- 研究員
-- 専任
+- 招へい研究員
+
 ---
 
 ### Contact

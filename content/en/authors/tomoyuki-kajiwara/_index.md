@@ -12,15 +12,15 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Specially-Appointed Assistant Professor
+role: Guest Assistant Professor
 group: Artificial Intelligence and Mathematics
 
 # Organizations/Affiliations
 organizations:
-- name: "Institute for Datability Science"
-  url: "http://www.ids.osaka-u.ac.jp/"
-- name: "Osaka University"
-  url: "http://www.osaka-u.ac.jp/"
+- name: "Graduate School of Science and Engineering"
+  url: ""
+- name: "Ehime University"
+  url: ""
 
 # Short bio (displayed in user profile at end of posts)
 bio: "Natural Language Processing. Especially: Text Simplification, Paraphrasing, Semantic Textual Similarity, Quality Estimation."
@@ -65,8 +65,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Researchers
-- Fulltime
+- Guest Researchers
 ---
 
 ### Contact
