@@ -20,26 +20,28 @@
     {{end}}
 
     {{ $query := where .Pages ".IsNode" false }}
-    {{ $types := slice "project" "publication" "talk" "post" }}
     {{ $count := len $query }}
     {{ if $count }}
+    <!-- modication 1 -->
     <div class="article-widget content-widget-hr">
       <h3>{{ i18n "user_profile_latest" | default "Latest" }}</h3>
+      {{ $types := slice "project" "publication" "event" "post" }}
       {{ range $type := $types }}
       	{{ $type_query := where $query "Section" $type }}
       	{{ $type_query := where $type_query "RelPermalink" "ne" (printf "/%s/" $type) }}
       	{{ if len $type_query }}
       	<h4>{{ i18n (printf "%ss" $type) | default "Other" }}</h4>
         <ul>
-	  {{ range $type_query }}
-	  <li>
-	    <a href="{{ .RelPermalink }}">{{ .Title }} {{ if ne $type "project"}} {{ printf "(%d)" .Date.Year }} {{ end }}</a>
-	  </li>
-	  {{ end }}
+      {{ range $type_query }}
+     <li>
+       <a href="{{ .RelPermalink }}">{{ .Title }} {{ if ne $type "project"}} {{ printf "(%d)" .Date.Year }} {{ end }}</a>
+     </li>
+     {{ end }}
         </ul>
         {{ end }}
       {{ end }}
     </div>
+    <!-- /modication 1 -->
     {{ end }}
   </div>
 </section>

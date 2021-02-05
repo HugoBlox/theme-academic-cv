@@ -7,38 +7,41 @@
   <div class="article-style">{{ . }}</div>
   {{ end }}
 
+  <!-- modification 1 -->
   {{ $paginator := .Paginate .Data.Pages.ByDate.Reverse }}
-  {{ $types := slice "project" "publication" "talk" "post" }}
+  {{ $types := slice "project" "publication" "event" "post" }}
   {{ range $type := $types }}
-  	  {{ $type_query := where $paginator.Pages "Section" $type }}
-  	  {{ if len $type_query }}
-	      	  <h2>{{ i18n (printf "%ss" $type) | default "Other" }}</h2>
-		  {{ range $type_query }}
-		    {{ $link := .RelPermalink }}
-		    {{ $target := "" }}
-			    <div>
-			      {{ if eq $type "project" }}
-			      	<h3><a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ .Title }} {{ if ne $type "project"}} {{ printf "(%d)" .Date.Year }} {{ end }}</a></h3>
-			      {{ else }}
-			      	<h4 style="font-weight:normal"><a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ .Title }} {{ if ne $type "project"}} {{ printf "(%d)" .Date.Year }} {{ end }}</a></h4>
-			      {{ end }}
-			      <div class="article-style">
-				{{ if .Params.summary }}
-				  {{ .Params.summary | plainify | emojify }}
-				{{ else if .Summary }}
-				  {{ .Summary | plainify | emojify }}
-				{{ end }}
-			      </div>
-			    </div>
-		  {{ end }}
-	  {{ end }}
+      {{ $type_query := where $paginator.Pages "Section" $type }}
+      {{ if len $type_query }}
+            <h2>{{ i18n (printf "%ss" $type) | default "Other" }}</h2>
+      {{ range $type_query }}
+        {{ $link := .RelPermalink }}
+        {{ $target := "" }}
+          <div>
+            {{ if eq $type "project" }}
+              <h3><a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ .Title }} {{ if ne $type "project"}} {{ printf "(%d)" .Date.Year }} {{ end }}</a></h3>
+            {{ else }}
+              <h4 style="font-weight:normal"><a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ .Title }} {{ if ne $type "project"}} {{ printf "(%d)" .Date.Year }} {{ end }}</a></h4>
+            {{ end }}
+            <div class="article-style">
+        {{ if .Params.summary }}
+          {{ .Params.summary | plainify | emojify }}
+        {{ else if .Summary }}
+          {{ .Summary | plainify | emojify }}
+        {{ end }}
+            </div>
+          </div>
+      {{ end }}
+    {{ end }}
   {{ end }}
-  
+
   {{ $pages_query := slice }}
   {{ range $type := $types }}
-  	{{ $pages_query = $pages_query | append (where $paginator.Pages "Section" $type) }}
+    {{ $pages_query = $pages_query | append (where $paginator.Pages "Section" $type) }}
   {{ end }}
   {{ range $paginator.Pages | complement $pages_query }}
+  <!-- /modication 1 -->
+
     {{ $link := .RelPermalink }}
     {{ $target := "" }}
     {{ with .Params.external_link }}
@@ -58,7 +61,7 @@
       </div>
     </div>
   {{ end }}
-  
+
   {{ partial "pagination" . }}
 </div>
 

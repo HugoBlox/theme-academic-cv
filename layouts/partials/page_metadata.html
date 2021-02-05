@@ -3,7 +3,7 @@
 
 <div class="article-metadata">
 
-  {{ if not (in (slice "project") $page.Type) }}
+  {{ if not (in (slice "project") $page.Type) }} <!-- modication 1 -->
   {{/* If `authors` is set and is not empty. */}}
   {{ if $page.Params.authors }}
   {{ $authorLen := len $page.Params.authors }}
@@ -13,9 +13,9 @@
   </div>
   {{ end }}
   {{ end }}
-  {{ end }}
+  {{ end }} <!-- /modication 1 -->
 
-  {{ if not (in (slice "talk" "page" "project") $page.Type) }}
+  {{ if not (in (slice "event" "page" "project") $page.Type) }} <!-- modication 2 -->
   <span class="article-date">
     {{ $date := $page.Lastmod.Format site.Params.date_format }}
     {{ if eq $page.Type "publication" }}
@@ -48,7 +48,9 @@
   {{ end }}
 
   {{/* Show Disqus comment count if enabled. */}}
-  {{ $disqus_enabled := eq site.Params.comments.engine 1 | and (index site.Params.comments.commentable $page.Type) | and (ne $page.Params.commentable false) | or $page.Params.commentable }}
+  {{ $commentable_map := site.Params.comments.commentable | default dict }}
+  {{ $commentable_bool := index $commentable_map $page.Type | default false }}
+  {{ $disqus_enabled := eq site.Params.comments.engine 1 | and $commentable_bool | and (ne $page.Params.commentable false) | or $page.Params.commentable }}
   {{ if and $disqus_enabled (site.Params.comments.disqus.show_count | default true) }}
   <span class="middot-divider"></span>
   <a href="{{ $page.RelPermalink }}#disqus_thread"><!-- Count will be inserted here --></a>
@@ -56,7 +58,10 @@
 
   {{ $taxonomy := "categories" }}
   {{ if $page.Param $taxonomy }}
+  <span class="middot-divider"></span>
   <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i>
+  <!-- modication 1 -->
   <b style="font-size:16pt"> Research topics <br> </b>
     {{- range $index, $value := ($page.GetTerms $taxonomy) -}}
       {{- if gt $index 0 }} {{ end -}}
@@ -70,6 +75,7 @@
       	<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
       {{ end }}
     {{- end -}}
+    <!-- /modication 1 -->
   </span>
   {{ end }}
 
