@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Wowchemy Updater
-# Checks for available updates and then asks to install any updates.
+# Helps update Hugo modules and the compatible Hugo version for Netlify.
 # https://wowchemy.com/docs/update/
 #
 # Command: bash ./update_wowchemy.sh
@@ -14,9 +14,9 @@ fi
 
 # Update the Wowchemy Hugo module
 function update_wowchemy () {
-  # Update Wowchemy to the latest master version
-  echo -e "Updating Wowchemy to the latest master version...\n"
-  hugo mod get github.com/wowchemy/wowchemy-hugo-modules/wowchemy/@master
+  # Update Wowchemy to the latest main version
+  echo -e "Updating Hugo Modules to their latest version...\n"
+  hugo mod get -u ./...
   hugo mod tidy
 }
 
@@ -24,7 +24,8 @@ function update_wowchemy () {
 function update_netlify () {
   # - Update Netlify.toml with required Hugo version
   if [ -f ./netlify.toml ]; then
-    curl -o "tmp_get_version" https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/wowchemy/config.yaml
+    echo "Attempting to get compatible Hugo version from https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/main/wowchemy/config.yaml ..."
+    curl -o "tmp_get_version" https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/main/wowchemy/config.yaml
     version=$(sed -n 's/^[[:space:]]*min: //p' "tmp_get_version" | tr -d "'")
     version="${version}"
     echo "Set Netlify Hugo version to v${version}"
@@ -37,6 +38,8 @@ function update_netlify () {
 update_wowchemy
 update_netlify
 
+echo
+echo "Warning: review the changes made by this helper script before pushing them to your site."
 echo
 echo "If there are breaking changes, the site structure, config, and/or front matter of content" \
 "may need upgrading by following the steps in the relevant consecutive release notes."
