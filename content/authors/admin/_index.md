@@ -58,7 +58,7 @@ social:
 # and uncomment the lines below.
 - icon: cv
   icon_pack: ai
-  link: media/resume.pdf
+  link: media/Resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "sergio.gasquez@gmail.com"
