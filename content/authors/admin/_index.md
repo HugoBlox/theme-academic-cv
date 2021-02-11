@@ -68,7 +68,7 @@ email: "sergio.gasquez@gmail.com"
 highlight_name: false
 ---
 
-My name is Sergio Gasquez, I'm a Telecommunications Engineer with Masters in Electronic Systems for Intelligent Environments who loves Firmware and Embedded Systems Programming. I was born in Granada and after graduating, I moved to Barcelona to work as a Firmware Engineer in HP, where I developed security features for the Ink Delivery System. At the beginning of 2020, I reallocated into A Coruña to work as an Embedded Sofware Developer in Instituto Tecnológico de Galicia (ITG). At ITG I am in charge of developing firmware for a "drone in a box" solution. 
+My name is Sergio Gasquez, I'm a Telecommunications Engineer with Masters in Electronic Systems for Intelligent Environments who loves Firmware and Embedded Systems Programming. I was born in Granada and after graduating, I moved to Barcelona to work as a Firmware Engineer in HP, where I developed security features for the Ink Delivery System. At the beginning of 2020, I reallocated into A Coruña to work as an Embedded Sofware Developer in Instituto Tecnológico de Galicia (ITG). At ITG I am in charge of developing firmware for a drone in a box solution. 
 
 <!-- Dont hessitate to -->
 <!-- Technology is my biggest passion, I'm also curious learner  -->
