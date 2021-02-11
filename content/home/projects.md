@@ -27,10 +27,12 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Deep Learning
-    tag: Deep Learning
-  - name: Other
-    tag: Demo
+  - name: Embedded Software
+    tag: Embedded Software
+  - name: Electronics
+    tag: Electronics
+  - name: AI
+    tag: AI
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
