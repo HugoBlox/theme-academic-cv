@@ -9,8 +9,8 @@
   weight = 10
 
 [[main]]
-  name = "Posts"
-  url = "#posts"
+  name = "Experience"
+  url = "#experience"
   weight = 20
 
 [[main]]
@@ -18,15 +18,11 @@
   url = "#projects"
   weight = 30
 
-[[main]]
-  name = "Talks"
-  url = "#talks"
-  weight = 40
 
-[[main]]
-  name = "Publications"
-  url = "#featured"
-  weight = 50
+# [[main]]
+#   name = "Publications"
+#   url = "#featured"
+#   weight = 50
 
 [[main]]
   name = "Contact"
@@ -37,5 +33,5 @@
 # To enable, copy your resume/CV to `static/media/resume.pdf` and uncomment the lines below.
 [[main]]
    name = "CV"
-   url = "media/resume.pdf"
+   url = "media/Resume.pdf"
    weight = 70

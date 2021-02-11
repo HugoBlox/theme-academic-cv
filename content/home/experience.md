@@ -22,24 +22,40 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
-    location: California
-    date_start: '2017-01-01'
+  - title: Embedded Software Engineer
+    company: Instituto Tecnológico de Galicia (ITG)
+    company_url: 'https://itg.es/'
+    location: A Coruña, Spain
+    date_start: '2020-03-01'
     date_end: ''
     description: |2-
-        Responsibilities include:
+        R&D Embedded Engineer developing firmware for a "drone in a box" solution based on ARM and AVR microcontrollers. The system controls everything needed after the drone landing including communications, centering, charging, and encapsulation.
+    
+        * Technologies: C/C++, Python, Git, Docker, CMake, Linux
+        * Protocols: I2C, SPI, UART, MAVLink
         
-        * Analysing
-        * Modelling
-        * Deploying
-        
-  - title: Professor
-    company: University X
+  - title: Firmware Engineer
+    company: HP
+    company_url: 'https://hp.com/'
+    location: San Cugat del Vallés, Spain 
+    date_start: '2018-10-01'
+    date_end: '2020-01-01'
+    description: |2-
+        R&D Firmware Engineer developing security features for the Ink Delivery System both for 3D and Large Format Printers. Agile development using Scrum with Jira. 
+    
+        * Technologies: C++, Tcl, Svn, CMake, GTest, Linux, RTOS, ARM
+
+  - title: Embedded Software Engineer
+    company: Arual Design
     company_url: ''
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2016-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+    location: Granada, Spain 
+    date_start: '2018-02-01'
+    date_end: '2018-06-01'
+    description: |2-
+        - C/C++ programming: Software development for different AVR boards.
+        - Telecommunications: Communications using Sigfox and GPRS/GSM.
+        - IoT platforms: Visualization of data via IoT platforms like Losant.
+        - Protocols: MODBUS, I2C, SPI, RS232, UART, SDI12
+        - PCB Design.
+        - Hardware and software debugging.
 ---
