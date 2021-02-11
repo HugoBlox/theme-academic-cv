@@ -1,5 +1,5 @@
 ---
-title: Homodyne AM receiver
+title: Homodyne AM Receiver
 summary: Design and assemblage of an homodyne receiver syntonizing a commercial broadcasting station in A.M
 tags:
 - Electronics
