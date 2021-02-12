@@ -14,7 +14,7 @@ role: Embedded Software Engineer
   # url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Telecommunications Engineer with Masters in Electronic Systems for Intelligent Environments who loves firmware programming and embedded systems!
+bio: Telecommunications Engineer with Masters in Electronic Systems for Intelligent Environments who loves firmware and embedded systems programming!
 
 # Interests to show in About widget
 interests:
