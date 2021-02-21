@@ -47,6 +47,7 @@ currentphds:
 - "[Xiaowei Chu](https://www.linkedin.com/in/xweichu/)"
 - "[Jianshen Liu](https://www.linkedin.com/in/jianshenliu/)"
 - "[Esmaeil Mirvakili](https://www.linkedin.com/in/esmaeil-m-12a71879/)"
+- "[Farid Zakaria](https://www.linkedin.com/in/fmzakari/)"
 - "[Yiming Zhang](https://www.linkedin.com/in/yiming-steven-zhang/)"
 
 # currentmss:
