@@ -3,7 +3,7 @@
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.80.0"
+  HUGO_VERSION = "0.81.0"
   HUGO_ENABLEGITINFO = "true"
 
 [context.production.environment]
@@ -14,3 +14,8 @@
 
 [context.branch-deploy]
   command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+
+[[plugins]]
+  package = "netlify-plugin-hugo-cache-resources"
+  [plugins.inputs]
+    debug = true
