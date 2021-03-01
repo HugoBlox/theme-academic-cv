@@ -48,7 +48,7 @@ local_business_type = ""
 org_name = "アプリNavi"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = ""
+description = "大阪府立大学の部活アプリNaviのブログです。部員がプログラミング関連の記事を投稿しています。"
 
 ############################
 ## Site Features
