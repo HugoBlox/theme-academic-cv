@@ -77,6 +77,8 @@ address_format: en-us
 highlight: true
 highlight_languages:
   - r
+  - python
+  - latex
 math: false
 diagram: false
 privacy_pack: false
@@ -141,7 +143,7 @@ search:
     index_name: ''
     show_logo: false
 map:
-  provider: ''
+  provider: mapnik
   api_key: ''
   zoom: 15
 marketing:
@@ -155,4 +157,4 @@ cms:
   local_backend: false
 icon:
   pack:
-    ai: true
+    ai: false
