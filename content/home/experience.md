@@ -25,8 +25,7 @@ date_format = "Jan 2006"
   date_start = "2017-10-01"
   date_end = ""
   description = """
-  Responsibilities include:
-  
+
   * Teaching undergraduates in Introductory Microeconomics, Macroeconomics, Mathematical Methods, Probability & Statistics.
   * Conducting interviews for applicants for undergraduate economics.
   """
@@ -39,8 +38,7 @@ date_format = "Jan 2006"
   date_start = "2020-08-01"
   date_end = "2020-08-01"
   description = """
-  Responsibilities include:
-  
+
   * Assisting participants with Matlab code covering: DSGE models, estimation methods (Kalman filter, Bayesian estimation, MCMC), projection methods, parameterized expectations, heterogeneous agents models, continuous time models.
   """
 
@@ -52,8 +50,7 @@ date_format = "Jan 2006"
   date_start = "2020-04-01"
   date_end = "2020-10-01"
   description = """
-  Responsibilities include:
-  
+
   * Teaching undergraduates in Core Macroeconomics, Time Series Econometrics.
   """
 
