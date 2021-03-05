@@ -33,7 +33,7 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "TA for Computational Macroeconomics Summer School"
-  company = "Wouter den Haan and Petr Sedl\'{a}\v{c}ek"
+  company = "Wouter den Haan and Petr Sedlacek"
   company_url = ""
   location = "Oxford"
   date_start = "2020-08-01"
