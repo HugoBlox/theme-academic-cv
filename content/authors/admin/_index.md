@@ -18,10 +18,11 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include macroeconomics, labour economics, applied microeconometrics, automation, inequality and machine learning.
+bio: My research interests include macroeconomics, labour economics, firms, applied microeconometrics, automation, productivity, inequality and machine learning.
 
 interests:
 - Labour economics
+- Firms
 - Applied microeconometrics
 - Automation
 
@@ -72,3 +73,7 @@ user_groups:
 - Researchers
 - Visitors
 ---
+
+I am a DPhil student in Economics at the [University of Oxford](https://www.economics.ox.ac.uk/#/). I work on the economic impact on automation, with a specific interest in firms and the labour market. 
+
+I completed my undergraduate studies at [St Hilda's College](https://www.st-hildas.ox.ac.uk/) in Oxford, before working at data analytics consultancy [dunnhumby](https://www.dunnhumby.com/). I embarked on graduate study at [UCL](https://www.ucl.ac.uk/statistics/), taking courses in statistics and machine learning, before returning to [Oxford](https://www.economics.ox.ac.uk/#/) to train as an economist. I have taught undergraduate economics throughout my studies, and I am particularly interested in [various approaches](https://www.core-econ.org/teaching-macroeconomics/) to changing the economics syllabus.

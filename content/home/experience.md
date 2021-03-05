@@ -27,8 +27,34 @@ date_format = "Jan 2006"
   description = """
   Responsibilities include:
   
-  * Teaching undergraduates in Introductory Microeconomics, Macroeconomics and Mathematical Methods
-  * Conducting interviews for applicants for undergraduate economics
+  * Teaching undergraduates in Introductory Microeconomics, Macroeconomics, Mathematical Methods, Probability & Statistics.
+  * Conducting interviews for applicants for undergraduate economics.
+  """
+
+[[experience]]
+  title = "TA for Computational Macroeconomics Summer School"
+  company = "Wouter den Haan and Petr Sedl\'{a}\v{c}ek"
+  company_url = ""
+  location = "Oxford"
+  date_start = "2020-08-01"
+  date_end = "2020-08-01"
+  description = """
+  Responsibilities include:
+  
+  * Assisting participants with Matlab code covering: DSGE models, estimation methods (Kalman filter, Bayesian estimation, MCMC), projection methods, parameterized expectations, heterogeneous agents models, continuous time models.
+  """
+
+[[experience]]
+  title = "Non-stipendiary Lecturer in Economics"
+  company = "Christ Church College, University of Oxford"
+  company_url = ""
+  location = "Oxford"
+  date_start = "2020-04-01"
+  date_end = "2020-10-01"
+  description = """
+  Responsibilities include:
+  
+  * Teaching undergraduates in Core Macroeconomics, Time Series Econometrics.
   """
 
 [[experience]]
