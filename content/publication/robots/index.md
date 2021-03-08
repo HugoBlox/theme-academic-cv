@@ -11,11 +11,11 @@ authors:
 author_notes:
 - "Equal contribution"
 
-date: ""
+date: "2013-07-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: ""
+publishDate: "2017-01-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -30,7 +30,7 @@ publication_short: In *LABOUR*
 abstract: There is concern about robots taking our jobs. This analysis looks at the impact of industrial robot adoption in the UK. Using a novel instrument to deal with endogeneity of robot adoption, estimates suggest that higher robot use is associated with increased employment and some evidence of a positive effect on part‐time pay, contrary to evidence from other countries. However, there is a large amount of heterogeneity across industries. The results show that industrial robots have directly replaced workers in automobile manufacturing. On the other hand, they have had positive effects on other areas of the labour market such as services.
 
 # Summary. An optional shortened abstract.
-#summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags: []
 
@@ -39,8 +39,8 @@ featured: true
 
 # Custom links (uncomment lines below)
 # links:
- - name: Published paper
-   url: https://doi.org/10.1111/labr.12192
+# - name: Custom Link
+#   url: http://example.org
 
 url_pdf: ''
 url_code: ''
@@ -54,7 +54,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: ""
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
   focal_point: ""
   preview_only: false
 
