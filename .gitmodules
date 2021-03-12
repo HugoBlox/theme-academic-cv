@@ -1,0 +1,4 @@
+[submodule "themes"]
+	path = themes
+	url = https://github.com/wowchemy/wowchemy-hugo-modules
+	branch = main
