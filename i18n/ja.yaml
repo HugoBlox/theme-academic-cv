@@ -1,5 +1,3 @@
-- id: slides
-  translation: スライド
 - id: toggle_navigation
   translation: ナビゲーションの切り替え
 - id: table_of_contents
@@ -8,16 +6,32 @@
   translation: On this page
 - id: back_to_top
   translation: Back to top
+- id: home
+  translation: Home
+- id: close
+  translation: Close
+- id: languages
+  translation: Languages
 - id: related
   translation: 関連項目
 - id: minute_read
   translation: 分で読める
 - id: previous
-  translation: PREVIOUS
+  translation: 前へ
 - id: next
-  translation: NEXT
+  translation: 次へ
 - id: figure
   translation: '図 %d:'
+- id: edit_page
+  translation: Edit this page
+- id: theme_selector
+  translation: Display preferences
+- id: theme_light
+  translation: Light
+- id: theme_dark
+  translation: Dark
+- id: theme_auto
+  translation: Automatic
 - id: btn_preprint
   translation: プレプリント
 - id: btn_pdf
@@ -112,6 +126,10 @@
   translation: 登壇
 - id: projects
   translation: プロジェクト
+- id: slides
+  translation: Slides
+- id: authors
+  translation: Authors
 - id: search
   translation: Search
 - id: search_placeholder
@@ -120,6 +138,8 @@
   translation: 検索結果
 - id: search_no_results
   translation: 結果が見つかりませんでした
+- id: search_common_queries
+  translation: Common searches
 - id: page_not_found
   translation: ページが見つかりませんでした
 - id: 404_recommendations
@@ -130,3 +150,5 @@
   translation: はい
 - id: cookie_learn
   translation: 詳細を見る
+- id: published_with
+  translation: Published with {wowchemy} — the free, {repo_link}open source{/repo_link} website builder that empowers creators.
