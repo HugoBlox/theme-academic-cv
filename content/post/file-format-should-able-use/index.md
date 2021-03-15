@@ -61,9 +61,9 @@ Android StudioでのAndroidアプリ開発では、UIのレイアウトやスタ
 
 Unity開発でも将来的にXMLを使うことになるかもしれません。  
 Unity 2019から`UI Elements`という新しいUIシステムが使えます。`UI Elements`はwebに近い設計で、UIをレイアウト、スタイル、ロジックに分けて記述します。XMLをベースとしたUXMLファイルを記述することでレイアウトをカスタマイズすることができます。
-{{<alert note>}}
+{{<callout note>}}
 `UI Builder`(preview版)を使えば、マウスクリックやドラッグ＆ドロップなどでレイアウトやスタイルをカスタマイズできます。
-{{</alert>}}
+{{</callout>}}
 `UI Elements`は現状、エディタ拡張のUI(現在のIMGUI)にしか対応していませんが、将来的にはゲーム内UI(現在のuGUI)にも対応する予定とのことです。
 
 # 参考  

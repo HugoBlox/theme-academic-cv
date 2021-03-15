@@ -42,9 +42,9 @@ projects: []
 アプリNaviは新入生歓迎イベントオンライン企画として、部員が作成したゲームをプレイできる特設サイト「あぷりなびらんど(オンライン)」を作成しました。このブログと同じく、`Hugo`を使って作成しました。
 
 {{<comment>}}
-{{<alert info>}}
+{{<callout info>}}
 現在は特設サイトは閉鎖されており、アクセスすることはできません。
-{{</alert>}}
+{{</callout>}}
 
 # 展示ゲーム一覧
 
@@ -74,9 +74,9 @@ projects: []
 
 ## 迫りくる恐怖からの脱出’
 
-{{<alert warning>}}
+{{<callout warning>}}
 現在プレイできません
-{{</alert>}}
+{{</callout>}}
 
 {{<write-html>}}
   <div class="container pt-4">

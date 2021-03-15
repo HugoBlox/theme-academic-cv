@@ -62,9 +62,9 @@ Unity 2018.4.22f1
 ## 変更内容を確認する  
 
 前回保存した状態と現在の状態との差分を見ることができます。
-{{<alert warning>}}
+{{<callout warning>}}
 差分を比較するソフトウェア([WinMerge](https://forest.watch.impress.co.jp/library/software/winmerge/)など)をインストールする必要があります。
-{{</alert>}}
+{{</callout>}}
 
 1. リストから差分を見たいファイルを右クリック
 2. `Show Diff`をクリック

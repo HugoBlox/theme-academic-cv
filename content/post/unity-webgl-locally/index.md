@@ -29,9 +29,9 @@ projects: ["opu-virtual-festival-2020"]
 UnityでWebGLをプラットフォームに選択し、`Build And Run`を押すと、ブラウザが起動して、作ったゲームをプレイすることができます。WebGLのビルドにはとても時間がかかるので、毎回ビルドするのではなく、一度ビルドしたゲームを複数回プレイしたくなります。ですが、ただ単に出力されたファイル`index.html`を開くだけではプレイできません。  
 {{<figure src="./Unity_WebGL_Index_Html_Error.png" title="index.htmlを開くと、このようなエラーメッセージが表示される" >}}
 そこで、`Visual Studio Code`(`VSCode`)を使ってビルドしたゲームをプレイする方法を紹介します。  
-{{<alert note>}}
+{{<callout note>}}
 `VSCode`は https://code.visualstudio.com/ からダウンロードできます。
-{{</alert>}}
+{{</callout>}}
 
 # 1. 拡張機能のインストール
 

@@ -35,9 +35,9 @@ projects: []
 
 ## 記事を新規作成する方法
 
-{{< alert note >}}
+{{<callout note >}}
 「記事名」は英語（すべて小文字）で、単語間はハイフン（-）でつなぐのが望ましい
-{{</ alert >}}
+{{</callout>}}
 
 1. コマンドラインで`hugo new --kind post post/記事名` を実行
 2. `content/post/記事名/index.md`に記事を書く  
@@ -105,9 +105,9 @@ $header-height-small: 50px;
 
 `{{</*page*/>}}`などの形がおかしくなる可能性あり  
 解決のためには対象クラスを大量に指定する必要がある
-{{<alert note>}}
+{{<callout note>}}
 現状では解決法１を使っている
-{{</alert>}}
+{{</callout>}}
 
 ## ナビゲーションバーの不具合
 

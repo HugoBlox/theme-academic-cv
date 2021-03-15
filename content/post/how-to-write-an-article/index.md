@@ -40,9 +40,9 @@ projects: []
 ![代替テキスト](./画像名)
 ```
 
-{{<alert note>}}
+{{<callout note>}}
 「画像名」には拡張子も含めてください  
-{{</alert>}}
+{{</callout>}}
 画像のサイズを変えたい、または画像を左寄せ・右寄せしたい場合は下の[画像の挿入](#画像の挿入)を参照してください
 
 # Shortcodes  
@@ -55,9 +55,9 @@ ShortcodesとはHugo独自の機能で、Markdownファイルに書くことが�
 {{</*figure src="./画像名" title="代替テキスト"*/>}}
 ```
 
-{{<alert note>}}
+{{<callout note>}}
 「画像名」には拡張子も含めてください  
-{{</alert>}}
+{{</callout>}}
 
 ### 画像の左寄せ、右寄せ  
 
@@ -97,9 +97,9 @@ ShortcodesとはHugo独自の機能で、Markdownファイルに書くことが�
 {{</*youtube 動画のID*/>}}
 ```
 
-{{<alert note >}}
+{{<callout note >}}
 YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式になっています
-{{</alert>}}
+{{</callout>}}
 
 ## Unity WebGLの埋め込み  
 
@@ -115,9 +115,9 @@ YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式
 {{</*tweet ツイートID*/>}}
 ```
 
-{{<alert note >}}
+{{<callout note >}}
   ツイートのURLは「https://twitter.com/.../status/ツイートID」という形式になっています。
-{{</alert>}}  
+{{</callout>}}
 
 ## 折りたたみ  
 
