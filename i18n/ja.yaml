@@ -133,7 +133,7 @@
 - id: search
   translation: Search
 - id: search_placeholder
-  translation: 検索中...
+  translation: 検索
 - id: search_results
   translation: 検索結果
 - id: search_no_results
