@@ -27,11 +27,11 @@
 - id: theme_selector
   translation: Display preferences
 - id: theme_light
-  translation: Light
+  translation: ライトテーマ
 - id: theme_dark
-  translation: Dark
+  translation: ダークテーマ
 - id: theme_auto
-  translation: Automatic
+  translation: 自動
 - id: btn_preprint
   translation: プレプリント
 - id: btn_pdf
@@ -127,9 +127,9 @@
 - id: projects
   translation: プロジェクト
 - id: slides
-  translation: Slides
+  translation: スライド
 - id: authors
-  translation: Authors
+  translation: 著者
 - id: search
   translation: Search
 - id: search_placeholder
