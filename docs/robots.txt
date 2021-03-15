@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://blog.opuappnavi.com/sitemap.xml

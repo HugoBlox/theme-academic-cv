@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yuta | アプリNaviブログ</title><link>https://blog.opuappnavi.com/authors/yuta/</link><atom:link href="https://blog.opuappnavi.com/authors/yuta/index.xml" rel="self" type="application/rss+xml"/><description>Yuta</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>©Juris710 2021</copyright><image><url>https://blog.opuappnavi.com/authors/yuta/avatar_hud36b7fdb3a3f57b3a8b54855ee69833a_1590408_270x270_fill_q75_lanczos_center.jpg</url><title>Yuta</title><link>https://blog.opuappnavi.com/authors/yuta/</link></image><item><title>機械学習入門</title><link>https://blog.opuappnavi.com/post/machine-learning-newbie/</link><pubDate>Wed, 01 Jul 2020 10:11:52 +0900</pubDate><guid>https://blog.opuappnavi.com/post/machine-learning-newbie/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
+&lt;p>この記事は多くの理系大学生が1年生時に習う微分積分、線形代数が機械学習の分野においてどの様に活用されているのかを示すことで勉強のモチベーションを上げてもらおう、という趣旨の記事となっています。ここでは下の図のような、複数の座標上の点から推定される最適な直線を引くアルゴリズムを取り扱います。&lt;/p>
+&lt;figure id="figure-before">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./before.png" alt="before" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+before
+&lt;/figcaption>&lt;/figure>
+&lt;figure id="figure-after">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./after.png" alt="after" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+after
+&lt;/figcaption>&lt;/figure>
+&lt;h2 id="最急降下法">最急降下法&lt;/h2>
+&lt;p>機械学習の一例として、偏微分を用いた最急降下法というアルゴリズムを紹介します。&lt;a href="https://ja.wikipedia.org/wiki/%E6%9C%80%E6%80%A5%E9%99%8D%E4%B8%8B%E6%B3%95#:~:text=%E6%9C%80%E6%80%A5%E9%99%8D%E4%B8%8B%E6%B3%95%EF%BC%88%E3%81%95%E3%81%84%E3%81%8D%E3%82%85%E3%81%86%E3%81%93%E3%81%86,%E3%81%A6%E3%81%84%E3%82%8B%E5%A0%B4%E5%90%88%E3%81%AF%E5%A4%9A%E3%81%84%E3%80%82" target="_blank" rel="noopener">ウィキペディア&lt;/a>では最急降下法を以下の様に説明しています。&lt;/p>
+&lt;blockquote>
+&lt;p>最急降下法は、関数の傾きのみから、関数の最小値を探索する連続最適化問題の勾配法のアルゴリズムの一つ。&lt;/p>
+&lt;/blockquote>
+&lt;p>すなわち下図のように、関数上の初期地点から微分によって求まる傾きのマイナス方向へ点を移動させていき、初期地点から最も近い最小点(極小値)を求めるアルゴリズムです。&lt;/p>
+&lt;figure id="figure-最急降下法">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./%e6%9c%80%e6%80%a5%e9%99%8d%e4%b8%8b%e6%b3%95.png" alt="最急降下法" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+最急降下法
+&lt;/figcaption>&lt;/figure>
+&lt;p>式としては以下のようになります。αは点の移動距離の大きさを決めるパラメーターです。&lt;/p>
+&lt;figure id="figure-最急降下法式">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./%e6%9c%80%e6%80%a5%e9%99%8d%e4%b8%8b%e6%b3%95%e5%bc%8f.png" alt="最急降下法式" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+最急降下法式
+&lt;/figcaption>&lt;/figure>
+&lt;p>&lt;a href="https://ja.wikipedia.org/wiki/%E6%9C%80%E6%80%A5%E9%99%8D%E4%B8%8B%E6%B3%95#:~:text=%E6%9C%80%E6%80%A5%E9%99%8D%E4%B8%8B%E6%B3%95%EF%BC%88%E3%81%95%E3%81%84%E3%81%8D%E3%82%85%E3%81%86%E3%81%93%E3%81%86,%E3%81%A6%E3%81%84%E3%82%8B%E5%A0%B4%E5%90%88%E3%81%AF%E5%A4%9A%E3%81%84%E3%80%82" target="_blank" rel="noopener">ウィキペディア 最急降下法&lt;/a>&lt;/p>
+&lt;h2 id="最小二乗法">最小二乗法&lt;/h2>
+&lt;p>物理実験でも使われますが、複数の座標点から推定される直線を求めるために最小二乗法が用いられます。&lt;a href="https://ja.wikipedia.org/wiki/%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%97%E6%B3%95" target="_blank" rel="noopener">ウィキペディア&lt;/a>では最小二乗法は次のように説明されています。&lt;/p>
+&lt;blockquote>
+&lt;p>最小二乗法は、測定で得られた数値の組を、適当なモデルから想定される1次関数、対数曲線など特定の関数を用いて近似するときに、想定する関数が測定値に対してよい近似となるように、残差の二乗和を最小とするような係数を決定する方法、あるいはそのような方法によって近似を行うことである。&lt;/p>
+&lt;/blockquote>
+&lt;h1 id="実行">実行&lt;/h1>
+&lt;blockquote>
+&lt;p>使用したツール: spyder&lt;br>
+使用言語 : python ver3.7&lt;/p>
+&lt;p>上記のツール、言語はAnacondaというパッケージ管理ソフトで一括ダウンロード可能です。Anacondaのインストールに関しては&lt;a href="https://www.creativevillage.ne.jp/72837" target="_blank" rel="noopener">【入門編】便利なPython Anacondaをインストールから使い方まで徹底解説！&lt;/a>を参考にしました。&lt;/p>
+&lt;/blockquote>
+&lt;p>最急降下法と最小二乗法より以下のような理論式になります。
+&lt;figure id="figure-理論式">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./%e7%90%86%e8%ab%96%e5%bc%8f%20.png" alt="理論式" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+理論式
+&lt;/figcaption>&lt;/figure>&lt;/p>
+&lt;p>&lt;a href="https://www.udemy.com/course/machine-learning-3algo/" target="_blank" rel="noopener">udemy 機械学習コース&lt;/a>を参考にしたのでソースコードは載せられませんが上記の理論式を繰り返し、a,bそれぞれに最急降下法を用いて最適化することで&lt;a href="#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab">冒頭&lt;/a>に述べたような直線を引けます。&lt;/p>
+&lt;p>また各点の座標は行列を用いて下記のように定義しました。
+&lt;figure id="figure-行列">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./%e8%a1%8c%e5%88%97.png" alt="行列" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+行列
+&lt;/figcaption>&lt;/figure>&lt;/p>
+&lt;h1 id="おわりに">おわりに&lt;/h1>
+&lt;p>ここでは簡単な最急降下法について取り扱いましたが数学やプログラミングを学んでいくことで画像認識や&lt;a href="https://unity3d.com/jp/machine-learning" target="_blank" rel="noopener">unity&lt;/a>で物体の動きの最適化など、できることが増えていきます。興味がある方はぜひ大学の授業を活かして勉強してみてください。&lt;/p></description></item></channel></rss>
