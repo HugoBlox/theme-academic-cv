@@ -5,7 +5,7 @@
 name = "AppNavi"
 
 # Optional Google font URL
-google_fonts = "Noto+Serif+JP:400,700|Noto+Sans+JP:400,700|Roboto+Mono"
+google_fonts = "family=Noto+Sans+JP&family=Noto+Serif+JP&family=Roboto"
 # Font families
 heading_font = "Noto Serif JP"
 body_font = "Noto Sans JP"
