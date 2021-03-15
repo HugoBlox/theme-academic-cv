@@ -1,62 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>プロジェクト | アプリNaviブログ</title>
-    <link>https://blog.opuappnavi.com/project/</link>
-      <atom:link href="https://blog.opuappnavi.com/project/index.xml" rel="self" type="application/rss+xml" />
-    <description>プロジェクト</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>©Juris710  2021</copyright>
-    <image>
-      <url>https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url>
-      <title>プロジェクト</title>
-      <link>https://blog.opuappnavi.com/project/</link>
-    </image>
-    
-    <item>
-      <title>府大バーチャル学祭</title>
-      <link>https://blog.opuappnavi.com/project/opu-virtual-festival-2020/</link>
-      <pubDate>Tue, 28 Apr 2020 00:04:07 +0900</pubDate>
-      <guid>https://blog.opuappnavi.com/project/opu-virtual-festival-2020/</guid>
-      <description>&lt;p&gt;新型コロナウイルス感染拡大により、2020年5月30日、31日に開催予定だった第59回友好祭が中止となりました。中止となった友好祭に代わるイベントとして、コンピュータハウスランダムさんが提案されたのが、非公式オンラインイベント「府大バーチャル学祭」です。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;
-        &lt;img alt=&#34;&#34; srcset=&#34;
-               /project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_5762736a2b90d6002cff53fb9dc03c7c.jpg 400w,
-               /project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_55ebeb28d0640c1fe6d8089bf3b8dcc3.jpg 760w,
-               /project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
-               src=&#34;https://blog.opuappnavi.com/project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_5762736a2b90d6002cff53fb9dc03c7c.jpg&#34;
-               width=&#34;760&#34;
-               height=&#34;428&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-
-&lt;div style=&#34;display: flex; justify-content: space-around;&#34;&gt;
-  &lt;a href=&#34;https://ch-random.net/post/167&#34;&gt;一覧ページ&lt;/a&gt;
-  &lt;a href=&#34;mailto:computer.house.random@gmail.com&#34;&gt;お問い合わせ&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;【拡散希望】&lt;br&gt;大阪府立大学の有志イベント&lt;br&gt;府大バーチャル学祭のPV、デザインを担当させていただきました。&lt;br&gt;&lt;br&gt;各団体のイベント内容などの情報は &lt;a href=&#34;https://twitter.com/hashtag/%E5%BA%9C%E5%A4%A7%E3%83%90%E3%83%BC%E3%83%81%E3%83%A3%E3%83%AB%E5%AD%A6%E7%A5%AD?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#府大バーチャル学祭&lt;/a&gt; に追加していきます。&lt;a href=&#34;https://twitter.com/hashtag/%E6%98%A5%E3%81%8B%E3%82%89%E5%BA%9C%E5%A4%A7?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#春から府大&lt;/a&gt;　&lt;a href=&#34;https://twitter.com/hashtag/system?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#system&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/aftereffects?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#aftereffects&lt;/a&gt; &lt;a href=&#34;https://t.co/GtVtrQV5TI&#34;&gt;pic.twitter.com/GtVtrQV5TI&lt;/a&gt;&lt;/p&gt;&amp;mdash; SYSTEM｜システム (@SystemOpu) &lt;a href=&#34;https://twitter.com/SystemOpu/status/1263016918182539264?ref_src=twsrc%5Etfw&#34;&gt;May 20, 2020&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
-アプリNaviの展示内容は、このサイトでのブログ記事公開と、下記特設サイトでのゲーム展示です。&lt;br&gt;
-&lt;a href=&#34;http://appnavi.html.xdomain.jp/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;アプリNavi 府大バーチャル学祭特設サイト&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>プロジェクト | アプリNaviブログ</title><link>https://blog.opuappnavi.com/project/</link><atom:link href="https://blog.opuappnavi.com/project/index.xml" rel="self" type="application/rss+xml"/><description>プロジェクト</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>©Juris710 2021</copyright><image><url>https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url><title>プロジェクト</title><link>https://blog.opuappnavi.com/project/</link></image><item><title>府大バーチャル学祭</title><link>https://blog.opuappnavi.com/project/opu-virtual-festival-2020/</link><pubDate>Tue, 28 Apr 2020 00:04:07 +0900</pubDate><guid>https://blog.opuappnavi.com/project/opu-virtual-festival-2020/</guid><description>&lt;p>新型コロナウイルス感染拡大により、2020年5月30日、31日に開催予定だった第59回友好祭が中止となりました。中止となった友好祭に代わるイベントとして、コンピュータハウスランダムさんが提案されたのが、非公式オンラインイベント「府大バーチャル学祭」です。
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="" srcset="
+/project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_5762736a2b90d6002cff53fb9dc03c7c.jpg 400w,
+/project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_55ebeb28d0640c1fe6d8089bf3b8dcc3.jpg 760w,
+/project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_1200x1200_fit_q75_lanczos.jpg 1200w"
+src="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_5762736a2b90d6002cff53fb9dc03c7c.jpg"
+width="760"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;div style="display: flex; justify-content: space-around;">
+&lt;a href="https://ch-random.net/post/167">一覧ページ&lt;/a>
+&lt;a href="mailto:computer.house.random@gmail.com">お問い合わせ&lt;/a>
+&lt;/div>
+&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">【拡散希望】&lt;br>大阪府立大学の有志イベント&lt;br>府大バーチャル学祭のPV、デザインを担当させていただきました。&lt;br>&lt;br>各団体のイベント内容などの情報は &lt;a href="https://twitter.com/hashtag/%E5%BA%9C%E5%A4%A7%E3%83%90%E3%83%BC%E3%83%81%E3%83%A3%E3%83%AB%E5%AD%A6%E7%A5%AD?src=hash&amp;amp;ref_src=twsrc%5Etfw">#府大バーチャル学祭&lt;/a> に追加していきます。&lt;a href="https://twitter.com/hashtag/%E6%98%A5%E3%81%8B%E3%82%89%E5%BA%9C%E5%A4%A7?src=hash&amp;amp;ref_src=twsrc%5Etfw">#春から府大&lt;/a>　&lt;a href="https://twitter.com/hashtag/system?src=hash&amp;amp;ref_src=twsrc%5Etfw">#system&lt;/a> &lt;a href="https://twitter.com/hashtag/aftereffects?src=hash&amp;amp;ref_src=twsrc%5Etfw">#aftereffects&lt;/a> &lt;a href="https://t.co/GtVtrQV5TI">pic.twitter.com/GtVtrQV5TI&lt;/a>&lt;/p>&amp;mdash; SYSTEM｜システム (@SystemOpu) &lt;a href="https://twitter.com/SystemOpu/status/1263016918182539264?ref_src=twsrc%5Etfw">May 20, 2020&lt;/a>&lt;/blockquote>
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+アプリNaviの展示内容は、このサイトでのブログ記事公開と、下記特設サイトでのゲーム展示です。&lt;br>
+&lt;a href="http://appnavi.html.xdomain.jp/index.html" target="_blank" rel="noopener">アプリNavi 府大バーチャル学祭特設サイト&lt;/a>&lt;/p></description></item></channel></rss>

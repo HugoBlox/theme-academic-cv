@@ -1,249 +1,117 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>やん | アプリNaviブログ</title>
-    <link>https://blog.opuappnavi.com/authors/yan/</link>
-      <atom:link href="https://blog.opuappnavi.com/authors/yan/index.xml" rel="self" type="application/rss+xml" />
-    <description>やん</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>©Juris710  2021</copyright>
-    <image>
-      <url>https://blog.opuappnavi.com/authors/yan/avatar_hu109e9bd13cd451894bec1571ad2d95c4_10885_270x270_fill_q75_lanczos_center.jpg</url>
-      <title>やん</title>
-      <link>https://blog.opuappnavi.com/authors/yan/</link>
-    </image>
-    
-    <item>
-      <title>Finden die Feen 開発記録</title>
-      <link>https://blog.opuappnavi.com/post/record-findendiefeen/</link>
-      <pubDate>Mon, 22 Jun 2020 18:54:11 +0900</pubDate>
-      <guid>https://blog.opuappnavi.com/post/record-findendiefeen/</guid>
-      <description>&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;
-&lt;p&gt;この記事は，2020年5月30日から31日にかけて行われた &lt;a href=&#34;https://ch-random.net/post/167/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;府大バーチャル学祭&lt;/strong&gt;&lt;/a&gt; で展示された &lt;strong&gt;Finden die Feen&lt;/strong&gt; というゲームの開発記事です。どういった経緯でこのゲームが開発されたかを，この記事に書いていこうと思います。&lt;/p&gt;
-&lt;p&gt;まずはじめに，&lt;strong&gt;Finden die Feen&lt;/strong&gt; とは以下のようなゲームです。
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/hashtag/%E5%BA%9C%E5%A4%A7%E3%83%90%E3%83%BC%E3%83%81%E3%83%A3%E3%83%AB%E5%AD%A6%E7%A5%AD?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#府大バーチャル学祭&lt;/a&gt; &lt;br&gt;2つ目ー！！&lt;br&gt;タイトル：Finden die Feen&lt;br&gt;妖精たちとのかくれんぼ&lt;br&gt;迷路の中に隠れている見えない妖精たちを、音を頼りに探していこう！&lt;br&gt;マウスと方向キーだけの簡単操作で遊べるよ。&lt;br&gt;あなたは妖精たちとの遊びに最後までついていけるかな？&lt;br&gt;&lt;br&gt;↓↓Click！&lt;a href=&#34;https://t.co/8zEqY1KpKx&#34;&gt;https://t.co/8zEqY1KpKx&lt;/a&gt; &lt;a href=&#34;https://t.co/6be1bGRdb0&#34;&gt;pic.twitter.com/6be1bGRdb0&lt;/a&gt;&lt;/p&gt;&amp;mdash; OPU アプリNavi (@OPUAppNavi) &lt;a href=&#34;https://twitter.com/OPUAppNavi/status/1266598410095751169?ref_src=twsrc%5Etfw&#34;&gt;May 30, 2020&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;/p&gt;
-&lt;p&gt;上記のように，迷路の中で音を頼りに妖精さんを探す &lt;strong&gt;PC用ゲーム&lt;/strong&gt; です。まだ遊んだことのない方は，以下から遊ぶことができます。ぜひ遊んでみてからこの記事を読んでみてください。(音量注意！！！)&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-&lt;div id=&#34;unity_webgl_1_1&#34; style=&#34;width: 100%; margin: 15px 0; background: white; border-radius: 15px;&#34;&gt;
-  &lt;div style=&#34;position: relative;&#34;&gt;
-    &lt;div id=&#34;unity_webgl_1_2&#34; style=&#34;height: 0;&#34;&gt;
-      &lt;iframe id=&#34;unity_webgl_1_3&#34; src=&#34;https://hiroyuki-nakaya.github.io/Finden-die-Feen/&#34; allowfullscreen&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;script&gt;
-document.getElementById(&#34;unity_webgl_1_2&#34;).style.paddingBottom = 100 *  700  /  980  + &#34;%&#34;;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>やん | アプリNaviブログ</title><link>https://blog.opuappnavi.com/authors/yan/</link><atom:link href="https://blog.opuappnavi.com/authors/yan/index.xml" rel="self" type="application/rss+xml"/><description>やん</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>©Juris710 2021</copyright><image><url>https://blog.opuappnavi.com/authors/yan/avatar_hu109e9bd13cd451894bec1571ad2d95c4_10885_270x270_fill_q75_lanczos_center.jpg</url><title>やん</title><link>https://blog.opuappnavi.com/authors/yan/</link></image><item><title>Finden die Feen 開発記録</title><link>https://blog.opuappnavi.com/post/record-findendiefeen/</link><pubDate>Mon, 22 Jun 2020 18:54:11 +0900</pubDate><guid>https://blog.opuappnavi.com/post/record-findendiefeen/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
+&lt;p>この記事は，2020年5月30日から31日にかけて行われた &lt;a href="https://ch-random.net/post/167/" target="_blank" rel="noopener">&lt;strong>府大バーチャル学祭&lt;/strong>&lt;/a> で展示された &lt;strong>Finden die Feen&lt;/strong> というゲームの開発記事です。どういった経緯でこのゲームが開発されたかを，この記事に書いていこうと思います。&lt;/p>
+&lt;p>まずはじめに，&lt;strong>Finden die Feen&lt;/strong> とは以下のようなゲームです。
+&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">&lt;a href="https://twitter.com/hashtag/%E5%BA%9C%E5%A4%A7%E3%83%90%E3%83%BC%E3%83%81%E3%83%A3%E3%83%AB%E5%AD%A6%E7%A5%AD?src=hash&amp;amp;ref_src=twsrc%5Etfw">#府大バーチャル学祭&lt;/a> &lt;br>2つ目ー！！&lt;br>タイトル：Finden die Feen&lt;br>妖精たちとのかくれんぼ&lt;br>迷路の中に隠れている見えない妖精たちを、音を頼りに探していこう！&lt;br>マウスと方向キーだけの簡単操作で遊べるよ。&lt;br>あなたは妖精たちとの遊びに最後までついていけるかな？&lt;br>&lt;br>↓↓Click！&lt;a href="https://t.co/8zEqY1KpKx">https://t.co/8zEqY1KpKx&lt;/a> &lt;a href="https://t.co/6be1bGRdb0">pic.twitter.com/6be1bGRdb0&lt;/a>&lt;/p>&amp;mdash; OPU アプリNavi (@OPUAppNavi) &lt;a href="https://twitter.com/OPUAppNavi/status/1266598410095751169?ref_src=twsrc%5Etfw">May 30, 2020&lt;/a>&lt;/blockquote>
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;/p>
+&lt;p>上記のように，迷路の中で音を頼りに妖精さんを探す &lt;strong>PC用ゲーム&lt;/strong> です。まだ遊んだことのない方は，以下から遊ぶことができます。ぜひ遊んでみてからこの記事を読んでみてください。(音量注意！！！)&lt;/p>
+&lt;div id="unity_webgl_1_1" style="width: 100%; margin: 15px 0; background: white; border-radius: 15px;">
+&lt;div style="position: relative;">
+&lt;div id="unity_webgl_1_2" style="height: 0;">
+&lt;iframe id="unity_webgl_1_3" src="https://hiroyuki-nakaya.github.io/Finden-die-Feen/" allowfullscreen>&lt;/iframe>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;script>
+document.getElementById("unity_webgl_1_2").style.paddingBottom = 100 * 700 / 980 + "%";
 function set_width() {
-  const w =  980 ; 
-  const h =  700 ; 
-    const client_w = document.getElementById(&#34;unity_webgl_1_2&#34;).clientWidth;
-  const per = client_w / w;
-  const rev = 100 / per;
-  const iframe = document.getElementById(&#34;unity_webgl_1_3&#34;);
-  iframe.height = rev + &#34;%&#34;;
-  iframe.width = rev + &#34;%&#34;;
-  iframe.style = &#34;position: absolute; top: 0; left: 0;  transform:scale(&#34; + per + &#34;);-o-transform:scale(&#34; + per + &#34;);-webkit-transform:scale(&#34; + per + &#34;);-moz-transform:scale(&#34; + per + &#34;);-ms-transform:scale(&#34; + per + &#34;);transform-origin:top left; border: 0;&#34;
+const w = 980 ;
+const h = 700 ;
+const client_w = document.getElementById("unity_webgl_1_2").clientWidth;
+const per = client_w / w;
+const rev = 100 / per;
+const iframe = document.getElementById("unity_webgl_1_3");
+iframe.height = rev + "%";
+iframe.width = rev + "%";
+iframe.style = "position: absolute; top: 0; left: 0; transform:scale(" + per + ");-o-transform:scale(" + per + ");-webkit-transform:scale(" + per + ");-moz-transform:scale(" + per + ");-ms-transform:scale(" + per + ");transform-origin:top left; border: 0;"
 }
 set_width();
 window.onresize = function(){ set_width(); };
-&lt;/script&gt;
-&lt;h1 id=&#34;企画&#34;&gt;企画&lt;/h1&gt;
-&lt;p&gt;ここでは，どのようにして &lt;strong&gt;Finden die Feen&lt;/strong&gt; を思いついたのか書いていきます。普段，私は毎年5月末に行われる大学の文化祭に向けてゲームを作っており，今年は「&lt;strong&gt;探索&lt;/strong&gt;」というテーマでゲームを考えていました。このテーマは，「宝探しは楽しいよね！」と「あまりゲームが得意でない人でも遊べるゲーム」を両立させようという目論見がありました。そこで何かいい案はないかと&lt;a href=&#34;https://www.borndigital.co.jp/book/6633.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unityゲーム プログラミング・バイブル&lt;/a&gt;という本をパラパラめくっていたところ，5章の「3D迷路」の部分を読み，「ここに書いてある迷路生成プログラムを用いれば &lt;strong&gt;簡単に迷路が作れる&lt;/strong&gt; のでは？」と思い，該当部分をステージ生成の基礎として，迷路の中でもの探しをするというゲームを思いつきました。&lt;/p&gt;
-&lt;p&gt;ただし，単に迷路を探索するだけでは既存の迷路ゲームと変わらず，&lt;a href=&#34;https://www.borndigital.co.jp/book/6633.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unityゲーム プログラミング・バイブル&lt;/a&gt;の「3D迷路」の章のパクりとなり，なんら面白くありません。そこで，任天堂が2003年に発売した「&lt;strong&gt;伝説のスタフィー2&lt;/strong&gt;」というゲームの道中にあった「&lt;strong&gt;音で探す&lt;/strong&gt;」ゲームギミックを参考にしました。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-伝説のスタフィー2出典httpswwwnintendocojpn08avfjgamenindexhtml&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./blog_01.png&#34; alt=&#34;伝説のスタフィー2（出典：https://www.nintendo.co.jp/n08/avfj/gamen/index.html）&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      伝説のスタフィー2（出典：https://www.nintendo.co.jp/n08/avfj/gamen/index.html）
-    &lt;/figcaption&gt;&lt;/figure&gt;
-参考にしたギミックは「見えない探し物が近くにあればあるほど，アラームを激しく鳴らす」というものです。「伝説のスタフィー2」では，草むらに隠れた見えないターゲットを音を頼りに見つけ出すというゲーム要素があり，私自身「伝説のスタフィー2」を遊んだ時にこのギミックがとても楽しかった記憶があって，「音で探す」システムを採用しました。&lt;/p&gt;
-&lt;p&gt;以上より「&lt;strong&gt;音を頼りに迷路を探索し妖精さんを見つける&lt;/strong&gt;」ゲームが企画されました。以下の画像は&lt;a href=&#34;https://www.sbcr.jp/product/4797377361/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ゲーム作りのはじめかた Unityで覚える企画からレベルデザインまで&lt;/a&gt;という本の「まずはゲームの企画をA4 1枚にペンで書け！」といった教えにのっとり書いた企画書です。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-finden-die-feen-企画書&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./blog_02.jpg&#34; alt=&#34;Finden die Feen 企画書&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      Finden die Feen 企画書
-    &lt;/figcaption&gt;&lt;/figure&gt;
-上の企画書を見てみると，何個か夢物語が書いてありますが，「Finden die Feen」の原型は保たれてますね。また，この時点でゲームのタイトルはまだ決めていませんね。&lt;/p&gt;
-&lt;p&gt;ちなみに，この企画書は5月のはじめに書いたものです。提出締め切りが5月30日だったので，必然的に1か月で完成させなくてはいけなく，締め切り1週間前は地獄を見ました&amp;hellip;。&lt;del&gt;大学の文化祭が新型コロナウイルス騒ぎで中止になったと聞いて，今年はゲーム作らなくていいかと思ってたところにオンライン文化祭の通知が来たもん仕方ないね。&lt;/del&gt;&lt;/p&gt;
-&lt;h1 id=&#34;実装&#34;&gt;実装&lt;/h1&gt;
-&lt;h2 id=&#34;1-自動迷路生成の実装&#34;&gt;1. 自動迷路生成の実装&lt;/h2&gt;
-&lt;p&gt;代表的な迷路自動生成アルゴリズムには，以下の3種類があります。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;棒倒し法（比較的簡単な迷路生成）&lt;/li&gt;
-&lt;li&gt;壁伸ばし法（複雑な迷路生成）&lt;/li&gt;
-&lt;li&gt;穴掘り法（複雑な迷路生成）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;この中で，「Finden die Feen」の迷路自動生成アルゴリズムには「&lt;strong&gt;穴掘り法&lt;/strong&gt;」を用いました。コードはたった5,000円で買える素晴らしい本，&lt;a href=&#34;https://www.borndigital.co.jp/book/6633.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unityゲーム プログラミング・バイブル&lt;/a&gt;の5章「3D迷路」に載っていたものを&lt;del&gt;パクリ&lt;/del&gt;参考にしました。この穴掘り法を用いると，以下の画像のように任意の大きさの複雑な迷路を勝手に生成してくれます。とても楽ですし素晴らしいですね。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-穴掘り法による迷路生成&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./blog_03.png&#34; alt=&#34;穴掘り法による迷路生成&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      穴掘り法による迷路生成
-    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;h2 id=&#34;2-サウンドの実装&#34;&gt;2. サウンドの実装&lt;/h2&gt;
-&lt;p&gt;「Finden die Feen」では，妖精の位置によって音の鳴り方が変わり，プレイヤーからどれだけ近くに妖精がいるかを教えてくれるのが特徴です。この特徴的なソナー音やBGMなど，プレイヤーの位置に依存しないサウンドは，単一のゲームオブジェクトによる一括管理を行うことを考えます。このようなサウンドシステムの実装は，&lt;strong&gt;シングルトンパターン&lt;/strong&gt; を用いて実装されています。つまり，ゲーム実行中は常に1つのインスタンスが存在し，サウンドに関する処理を一括して行っています。ちなみに私はこの処理を，たった4,000円で買える本，&lt;a href=&#34;https://www.borndigital.co.jp/book/15163.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unity サウンド エキスパート養成講座&lt;/a&gt;の1章のコードを&lt;del&gt;パクって&lt;/del&gt;参考にして実装しました。&lt;/p&gt;
-&lt;p&gt;このような実装を行うと，音源の再生を行いたい場合に&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-c#:&#34;&gt;using SoundSystem;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;と宣言して&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-c#:&#34;&gt;SoundManager.Instance.Play(&amp;quot;音源のタイトル&amp;quot;);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;と任意の場所に書くと，音が再生されます。AudioSourceをGameObjectにいちいちアタッチせずに，たった1行処理を書くだけで音が再生されるので非常に便利です。&lt;/p&gt;
-&lt;h2 id=&#34;3-ムービーの実装&#34;&gt;3. ムービーの実装&lt;/h2&gt;
-&lt;p&gt;「Finden die Feen」では，チュートリアルや妖精を発見したときなどにムービーが流れます。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-ムービーシーン&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./blog_04.png&#34; alt=&#34;ムービーシーン&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      ムービーシーン
-    &lt;/figcaption&gt;&lt;/figure&gt;
-このムービーは，Unityの &lt;strong&gt;Timeline&lt;/strong&gt; という機能を用いて実装しました。Timelineを用いると，簡単にムービーシーンを作ることができるため大変便利です。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-unityのtimeline&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./blog_05.png&#34; alt=&#34;UnityのTimeline&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      UnityのTimeline
-    &lt;/figcaption&gt;&lt;/figure&gt;
-画像のように，動画編集みたいに時系列でプログラムを書かずにオブジェクトを操作できます。今回はTimelineを用いてテキスト表示を行うカスタムクリップを&lt;a href=&#34;https://blogs.unity3d.com/jp/2018/09/05/extending-timeline-a-practical-guide/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Timelineの拡張 ― 実践ガイド&lt;/a&gt;というサイトを参考に実装しました。何回かTimelineのカスタムクリップを実装したことはありますが，まともに勉強したのは初めてな気がします。&lt;/p&gt;
-&lt;p&gt;このとき，PlayableAssetを継承したクラス，PlayableBehaviourを継承したクラス，TrackAssetを継承したクラスそれぞれファイル名とクラス名を同じにしないと，Timelineからカスタムクリップが抜け落ちるという仕様に1日悩んだのはいい思い出です。&lt;del&gt;少し考えれば，あたりまえなんですけどね。&lt;/del&gt;&lt;/p&gt;
-&lt;h1 id=&#34;テストプレイから公開まで&#34;&gt;テストプレイから公開まで&lt;/h1&gt;
-&lt;p&gt;ここでは，ゲームバランス調整について書いていこうと思います。一般論として，開発者がプレイして開発者がちょうどいいと思う難易度にすると，たいてい &lt;strong&gt;超高難易度&lt;/strong&gt; になります。そのため，テストプレイはできる限り第3者に行ってもらうのがオススメです。私は締め切り1日前に妹にテストプレイをしてもらい，制限時間などのパラメータを調節しました。&lt;/p&gt;
-&lt;p&gt;ちなみにこのとき，妹から&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;妖精のいる方角を示すコンパスの色の点滅&lt;/li&gt;
-&lt;li&gt;制限時間を増やすアイテムの追加&lt;/li&gt;
-&lt;li&gt;制限時間がなくなってきたら，BGMのピッチを上げる&lt;/li&gt;
-&lt;li&gt;残りの妖精の数をUI表示&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;の機能を実装したほうがいいという&lt;del&gt;地獄のような&lt;/del&gt;素晴らしいアドバイスを &lt;strong&gt;締め切り直前&lt;/strong&gt; にいただき，締め切り前日の夜10時から締め切り当日の朝5時にかけて上記の機能を全て実装しました。このアドバイスによってよりゲームのクオリティが上がったと思うので妹には感謝しています。&lt;del&gt;アドバイスをもらったときは妹にうっすら殺意を覚えましたが。&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;そして最後にゲームの &lt;strong&gt;タイトル&lt;/strong&gt; を決めました。なんでもかんでも &lt;strong&gt;ドイツ語&lt;/strong&gt; にするとカッコいいよねという安直な考えで，「Finden die Feen」というタイトルになりました。ちなみに英語にすると「Find the Fairies」です。「妖精を発見する」的な意味です。そのままです。このタイトルをつけるためだけに，2年ぶりにドイツ語の文法書を引っ張り出しました。&lt;del&gt;ドイツ語の文法がおかしい？うるせえ黙れ！&lt;/del&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-ゲームのタイトル画面&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./blog_06.png&#34; alt=&#34;ゲームのタイトル画面&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      ゲームのタイトル画面
-    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;h1 id=&#34;最後に&#34;&gt;最後に&lt;/h1&gt;
-&lt;p&gt;このような感じで「Finden die Feen」は約1ヶ月という期間で製作し，府大バーチャル学祭で公開されました。個人的には，完成度がそこそこ高く見えるため気に入っています。特に気に入っているのは，以下の画像のステージです。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-お気に入りのステージ&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./blog_07.png&#34; alt=&#34;お気に入りのステージ&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      お気に入りのステージ
-    &lt;/figcaption&gt;&lt;/figure&gt;
-このステージは，赤，青，緑のライトが混ざり合うステージでとても綺麗だと思ってるのですが，みなさんはどう思いましたか？私はデバッグ中，このステージに1人で感動していました。&lt;/p&gt;
-&lt;p&gt;最後になりますが，ここまで読んで下さりありがとうございました。そしてまた改めて「Finden die Feen」で遊んでみてはいかがでしょうか？&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;/script>
+&lt;h1 id="企画">企画&lt;/h1>
+&lt;p>ここでは，どのようにして &lt;strong>Finden die Feen&lt;/strong> を思いついたのか書いていきます。普段，私は毎年5月末に行われる大学の文化祭に向けてゲームを作っており，今年は「&lt;strong>探索&lt;/strong>」というテーマでゲームを考えていました。このテーマは，「宝探しは楽しいよね！」と「あまりゲームが得意でない人でも遊べるゲーム」を両立させようという目論見がありました。そこで何かいい案はないかと&lt;a href="https://www.borndigital.co.jp/book/6633.html" target="_blank" rel="noopener">Unityゲーム プログラミング・バイブル&lt;/a>という本をパラパラめくっていたところ，5章の「3D迷路」の部分を読み，「ここに書いてある迷路生成プログラムを用いれば &lt;strong>簡単に迷路が作れる&lt;/strong> のでは？」と思い，該当部分をステージ生成の基礎として，迷路の中でもの探しをするというゲームを思いつきました。&lt;/p>
+&lt;p>ただし，単に迷路を探索するだけでは既存の迷路ゲームと変わらず，&lt;a href="https://www.borndigital.co.jp/book/6633.html" target="_blank" rel="noopener">Unityゲーム プログラミング・バイブル&lt;/a>の「3D迷路」の章のパクりとなり，なんら面白くありません。そこで，任天堂が2003年に発売した「&lt;strong>伝説のスタフィー2&lt;/strong>」というゲームの道中にあった「&lt;strong>音で探す&lt;/strong>」ゲームギミックを参考にしました。
+&lt;figure id="figure-伝説のスタフィー2出典httpswwwnintendocojpn08avfjgamenindexhtml">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./blog_01.png" alt="伝説のスタフィー2（出典：https://www.nintendo.co.jp/n08/avfj/gamen/index.html）" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+伝説のスタフィー2（出典：https://www.nintendo.co.jp/n08/avfj/gamen/index.html）
+&lt;/figcaption>&lt;/figure>
+参考にしたギミックは「見えない探し物が近くにあればあるほど，アラームを激しく鳴らす」というものです。「伝説のスタフィー2」では，草むらに隠れた見えないターゲットを音を頼りに見つけ出すというゲーム要素があり，私自身「伝説のスタフィー2」を遊んだ時にこのギミックがとても楽しかった記憶があって，「音で探す」システムを採用しました。&lt;/p>
+&lt;p>以上より「&lt;strong>音を頼りに迷路を探索し妖精さんを見つける&lt;/strong>」ゲームが企画されました。以下の画像は&lt;a href="https://www.sbcr.jp/product/4797377361/" target="_blank" rel="noopener">ゲーム作りのはじめかた Unityで覚える企画からレベルデザインまで&lt;/a>という本の「まずはゲームの企画をA4 1枚にペンで書け！」といった教えにのっとり書いた企画書です。
+&lt;figure id="figure-finden-die-feen-企画書">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./blog_02.jpg" alt="Finden die Feen 企画書" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Finden die Feen 企画書
+&lt;/figcaption>&lt;/figure>
+上の企画書を見てみると，何個か夢物語が書いてありますが，「Finden die Feen」の原型は保たれてますね。また，この時点でゲームのタイトルはまだ決めていませんね。&lt;/p>
+&lt;p>ちなみに，この企画書は5月のはじめに書いたものです。提出締め切りが5月30日だったので，必然的に1か月で完成させなくてはいけなく，締め切り1週間前は地獄を見ました&amp;hellip;。&lt;del>大学の文化祭が新型コロナウイルス騒ぎで中止になったと聞いて，今年はゲーム作らなくていいかと思ってたところにオンライン文化祭の通知が来たもん仕方ないね。&lt;/del>&lt;/p>
+&lt;h1 id="実装">実装&lt;/h1>
+&lt;h2 id="1-自動迷路生成の実装">1. 自動迷路生成の実装&lt;/h2>
+&lt;p>代表的な迷路自動生成アルゴリズムには，以下の3種類があります。&lt;/p>
+&lt;ul>
+&lt;li>棒倒し法（比較的簡単な迷路生成）&lt;/li>
+&lt;li>壁伸ばし法（複雑な迷路生成）&lt;/li>
+&lt;li>穴掘り法（複雑な迷路生成）&lt;/li>
+&lt;/ul>
+&lt;p>この中で，「Finden die Feen」の迷路自動生成アルゴリズムには「&lt;strong>穴掘り法&lt;/strong>」を用いました。コードはたった5,000円で買える素晴らしい本，&lt;a href="https://www.borndigital.co.jp/book/6633.html" target="_blank" rel="noopener">Unityゲーム プログラミング・バイブル&lt;/a>の5章「3D迷路」に載っていたものを&lt;del>パクリ&lt;/del>参考にしました。この穴掘り法を用いると，以下の画像のように任意の大きさの複雑な迷路を勝手に生成してくれます。とても楽ですし素晴らしいですね。
+&lt;figure id="figure-穴掘り法による迷路生成">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./blog_03.png" alt="穴掘り法による迷路生成" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+穴掘り法による迷路生成
+&lt;/figcaption>&lt;/figure>&lt;/p>
+&lt;h2 id="2-サウンドの実装">2. サウンドの実装&lt;/h2>
+&lt;p>「Finden die Feen」では，妖精の位置によって音の鳴り方が変わり，プレイヤーからどれだけ近くに妖精がいるかを教えてくれるのが特徴です。この特徴的なソナー音やBGMなど，プレイヤーの位置に依存しないサウンドは，単一のゲームオブジェクトによる一括管理を行うことを考えます。このようなサウンドシステムの実装は，&lt;strong>シングルトンパターン&lt;/strong> を用いて実装されています。つまり，ゲーム実行中は常に1つのインスタンスが存在し，サウンドに関する処理を一括して行っています。ちなみに私はこの処理を，たった4,000円で買える本，&lt;a href="https://www.borndigital.co.jp/book/15163.html" target="_blank" rel="noopener">Unity サウンド エキスパート養成講座&lt;/a>の1章のコードを&lt;del>パクって&lt;/del>参考にして実装しました。&lt;/p>
+&lt;p>このような実装を行うと，音源の再生を行いたい場合に&lt;/p>
+&lt;pre>&lt;code class="language-c#:">using SoundSystem;
+&lt;/code>&lt;/pre>
+&lt;p>と宣言して&lt;/p>
+&lt;pre>&lt;code class="language-c#:">SoundManager.Instance.Play(&amp;quot;音源のタイトル&amp;quot;);
+&lt;/code>&lt;/pre>
+&lt;p>と任意の場所に書くと，音が再生されます。AudioSourceをGameObjectにいちいちアタッチせずに，たった1行処理を書くだけで音が再生されるので非常に便利です。&lt;/p>
+&lt;h2 id="3-ムービーの実装">3. ムービーの実装&lt;/h2>
+&lt;p>「Finden die Feen」では，チュートリアルや妖精を発見したときなどにムービーが流れます。
+&lt;figure id="figure-ムービーシーン">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./blog_04.png" alt="ムービーシーン" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+ムービーシーン
+&lt;/figcaption>&lt;/figure>
+このムービーは，Unityの &lt;strong>Timeline&lt;/strong> という機能を用いて実装しました。Timelineを用いると，簡単にムービーシーンを作ることができるため大変便利です。
+&lt;figure id="figure-unityのtimeline">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./blog_05.png" alt="UnityのTimeline" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+UnityのTimeline
+&lt;/figcaption>&lt;/figure>
+画像のように，動画編集みたいに時系列でプログラムを書かずにオブジェクトを操作できます。今回はTimelineを用いてテキスト表示を行うカスタムクリップを&lt;a href="https://blogs.unity3d.com/jp/2018/09/05/extending-timeline-a-practical-guide/" target="_blank" rel="noopener">Timelineの拡張 ― 実践ガイド&lt;/a>というサイトを参考に実装しました。何回かTimelineのカスタムクリップを実装したことはありますが，まともに勉強したのは初めてな気がします。&lt;/p>
+&lt;p>このとき，PlayableAssetを継承したクラス，PlayableBehaviourを継承したクラス，TrackAssetを継承したクラスそれぞれファイル名とクラス名を同じにしないと，Timelineからカスタムクリップが抜け落ちるという仕様に1日悩んだのはいい思い出です。&lt;del>少し考えれば，あたりまえなんですけどね。&lt;/del>&lt;/p>
+&lt;h1 id="テストプレイから公開まで">テストプレイから公開まで&lt;/h1>
+&lt;p>ここでは，ゲームバランス調整について書いていこうと思います。一般論として，開発者がプレイして開発者がちょうどいいと思う難易度にすると，たいてい &lt;strong>超高難易度&lt;/strong> になります。そのため，テストプレイはできる限り第3者に行ってもらうのがオススメです。私は締め切り1日前に妹にテストプレイをしてもらい，制限時間などのパラメータを調節しました。&lt;/p>
+&lt;p>ちなみにこのとき，妹から&lt;/p>
+&lt;ul>
+&lt;li>妖精のいる方角を示すコンパスの色の点滅&lt;/li>
+&lt;li>制限時間を増やすアイテムの追加&lt;/li>
+&lt;li>制限時間がなくなってきたら，BGMのピッチを上げる&lt;/li>
+&lt;li>残りの妖精の数をUI表示&lt;/li>
+&lt;/ul>
+&lt;p>の機能を実装したほうがいいという&lt;del>地獄のような&lt;/del>素晴らしいアドバイスを &lt;strong>締め切り直前&lt;/strong> にいただき，締め切り前日の夜10時から締め切り当日の朝5時にかけて上記の機能を全て実装しました。このアドバイスによってよりゲームのクオリティが上がったと思うので妹には感謝しています。&lt;del>アドバイスをもらったときは妹にうっすら殺意を覚えましたが。&lt;/del>&lt;/p>
+&lt;p>そして最後にゲームの &lt;strong>タイトル&lt;/strong> を決めました。なんでもかんでも &lt;strong>ドイツ語&lt;/strong> にするとカッコいいよねという安直な考えで，「Finden die Feen」というタイトルになりました。ちなみに英語にすると「Find the Fairies」です。「妖精を発見する」的な意味です。そのままです。このタイトルをつけるためだけに，2年ぶりにドイツ語の文法書を引っ張り出しました。&lt;del>ドイツ語の文法がおかしい？うるせえ黙れ！&lt;/del>
+&lt;figure id="figure-ゲームのタイトル画面">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./blog_06.png" alt="ゲームのタイトル画面" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+ゲームのタイトル画面
+&lt;/figcaption>&lt;/figure>&lt;/p>
+&lt;h1 id="最後に">最後に&lt;/h1>
+&lt;p>このような感じで「Finden die Feen」は約1ヶ月という期間で製作し，府大バーチャル学祭で公開されました。個人的には，完成度がそこそこ高く見えるため気に入っています。特に気に入っているのは，以下の画像のステージです。
+&lt;figure id="figure-お気に入りのステージ">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./blog_07.png" alt="お気に入りのステージ" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+お気に入りのステージ
+&lt;/figcaption>&lt;/figure>
+このステージは，赤，青，緑のライトが混ざり合うステージでとても綺麗だと思ってるのですが，みなさんはどう思いましたか？私はデバッグ中，このステージに1人で感動していました。&lt;/p>
+&lt;p>最後になりますが，ここまで読んで下さりありがとうございました。そしてまた改めて「Finden die Feen」で遊んでみてはいかがでしょうか？&lt;/p></description></item></channel></rss>
