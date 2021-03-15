@@ -1,18 +1,1306 @@
-<!doctype html><html lang=ja><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=generator content="Wowchemy 5.0.0-beta.3 for Hugo"><meta name=author content="Juris710"><meta name=description content="Unityで作ったゲームを誰でもプレイできるようにする方法の解説です"><link rel=alternate hreflang=ja href=https://blog.opuappnavi.com/post/unity-github-pages/><link rel=preconnect href=https://fonts.gstatic.com crossorigin><meta name=theme-color content="hsl(339, 90%, 68%)"><script src=/js/mathjax-config.js></script><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin=anonymous><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin=anonymous><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/qtcreator_dark.min.css crossorigin=anonymous title=hl-light media=print onload="this.media='all'"><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/qtcreator_dark.min.css crossorigin=anonymous title=hl-dark media=print onload="this.media='all'" disabled><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin=anonymous media=print onload="this.media='all'"><script src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js integrity crossorigin=anonymous async></script><link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP&family=Roboto&display=swap"><link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP&family=Roboto&display=swap" media=print onload="this.media='all'"><link rel=stylesheet href=/css/wowchemy.5f6519d15936dd38a484ce68c4da8a4f.css><link rel=manifest href=/index.webmanifest><link rel=icon type=image/png href=/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_32x32_fill_lanczos_center_2.png><link rel=apple-touch-icon type=image/png href=/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_180x180_fill_lanczos_center_2.png><link rel=canonical href=https://blog.opuappnavi.com/post/unity-github-pages/><meta property="twitter:card" content="summary"><meta property="og:site_name" content="アプリNaviブログ"><meta property="og:url" content="https://blog.opuappnavi.com/post/unity-github-pages/"><meta property="og:title" content="Unity製ゲームをWebで共有する方法 | アプリNaviブログ"><meta property="og:description" content="Unityで作ったゲームを誰でもプレイできるようにする方法の解説です"><meta property="og:image" content="https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png"><meta property="twitter:image" content="https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="ja"><meta property="article:published_time" content="2020-05-04T20:17:22+09:00"><meta property="article:modified_time" content="2021-03-15T16:01:57+09:00"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.opuappnavi.com/post/unity-github-pages/"},"headline":"Unity製ゲームをWebで共有する方法","datePublished":"2020-05-04T20:17:22+09:00","dateModified":"2021-03-15T16:01:57+09:00","author":{"@type":"Person","name":"Juris710"},"publisher":{"@type":"Organization","name":"アプリNavi","logo":{"@type":"ImageObject","url":"https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_192x192_fill_lanczos_center_2.png"}},"description":"Unityで作ったゲームを誰でもプレイできるようにする方法の解説です"}</script><title>Unity製ゲームをWebで共有する方法 | アプリNaviブログ</title></head><body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class="page-wrapper dark" data-wc-page-id=2150ef7f33f2a6ec86bd03cc354523b5><script src=/js/wowchemy-init.min.f136ef8f91f7ffc549bf29e3952a584f.js></script><aside class=search-modal id=search><div class=container><section class=search-header><div class="row no-gutters justify-content-between mb-3"><div class=col-6><h1>Search</h1></div><div class="col-6 col-search-close"><a class=js-search href=# aria-label=Close><i class="fas fa-times-circle text-muted" aria-hidden=true></i></a></div></div><div id=search-box><input name=q id=search-query placeholder=検索 autocapitalize=off autocomplete=off autocorrect=off spellcheck=false type=search class=form-control aria-label=検索></div></section><section class=section-search-results><div id=search-hits></div></section></div></aside><div class=page-header><nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main><div class=container-xl><div class="d-none d-lg-inline-flex"><a class=navbar-brand href=/>アプリNaviブログ</a></div><button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar aria-expanded=false aria-label=ナビゲーションの切り替え>
-<span><i class="fas fa-bars"></i></span></button><div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none"><a class=navbar-brand href=/>アプリNaviブログ</a></div><div class="navbar-collapse main-menu-item collapse justify-content-end" id=navbar-content><ul class="navbar-nav d-md-inline-flex"><li class=nav-item><a class=nav-link href=/about><span>About</span></a></li><li class=nav-item><a class=nav-link href=/authors><span>Authors</span></a></li><li class=nav-item><a class="nav-link active" href=/post><span>Posts</span></a></li><li class=nav-item><a class=nav-link href=/project><span>Projects</span></a></li><li class=nav-item><a class=nav-link href=/category/%e4%bd%9c%e5%93%81%e7%b4%b9%e4%bb%8b><span>Works</span></a></li></ul></div><ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2"><li class=nav-item><a class="nav-link js-search" href=# aria-label=Search><i class="fas fa-search" aria-hidden=true></i></a></li></ul></div></nav></div><div class=page-body><div class=post-container><nav class=sidebar-wrap><div class=sidebar><h2>目次</h2><nav id=TableOfContents><ul><li><a href=#必要なもの>必要なもの</a></li><li><a href=#1-unityでゲームをビルドする>1. Unityでゲームをビルドする</a><ul><li><a href=#11-build-settingsを開く>1.1 Build Settingsを開く</a></li><li><a href=#12-プラットフォームの変更>1.2 プラットフォームの変更</a></li><li><a href=#13-ゲームをビルド>1.3 ゲームをビルド</a></li></ul></li><li><a href=#2-githubにアップロード>2. GitHubにアップロード</a></li><li><a href=#3-webにゲームを公開>3. Webにゲームを公開</a></li><li><a href=#公開したゲームをプレイ>公開したゲームをプレイ</a></li></ul></nav></div></nav><article class=article><div class="article-container pt-3"><h1>Unity製ゲームをWebで共有する方法</h1><p class=page-subtitle>Unity WebGL × GitHub Pages</p><div class=article-metadata><div><span><a href=/authors/juris710/>Juris710</a></span></div><span class=article-date>2020/05/04 投稿
-( 2021/03/15 最終更新 )</span></div><div class="btn-links mb-3"><a class="btn btn-outline-primary btn-page-header" href=/project/opu-virtual-festival-2020/>プロジェクト</a></div></div><div class=article-container><div class=article-style><p>Gitに詳しくない人向けに書いています。Gitに詳しい人は<code>詳しくない人向け</code>の部分は読まなくて大丈夫です。</p><h1 id=必要なもの>必要なもの</h1><ul><li>Unity</li><li>GitHub アカウント</li><li>Git：<a href=https://git-scm.com/downloads target=_blank rel=noopener>ここ</a>からダウンロードできます</li></ul><h1 id=1-unityでゲームをビルドする>1. Unityでゲームをビルドする</h1><h2 id=11-build-settingsを開く>1.1 Build Settingsを開く</h2><p>左上のメニューで<code>File</code>><code>Build Settings</code>をクリックしてください。</p><h2 id=12-プラットフォームの変更>1.2 プラットフォームの変更</h2><p><code>WebGL</code>を選択し、<code>Switch Platform</code>をクリックしてください。</p><h2 id=13-ゲームをビルド>1.3 ゲームをビルド</h2><p><code>Build</code>をクリックしてください。ビルド先はどこでも構いません。私は<code>(プロジェクト名)/Builds/WebGL</code>を選択しています。</p><h1 id=2-githubにアップロード>2. GitHubにアップロード</h1><p>ビルドの結果、以下の3つのファイルが生成されます。</p><ul><li><code>Build</code>フォルダ</li><li><code>TemplateData</code>フォルダ</li><li><code>index.html</code>ファイル</li></ul><p>これらのファイルをGitHubにアップロードします。<br><details><summary>詳しくない人向け</summary><h2 id=21-githubにサインイン>2.1 GitHubにサインイン</h2><p><a href=https://github.com/>GitHub</a>にアクセスし、サインインしてください。</p><h2 id=22-新しいリポジトリの作成>2.2 新しいリポジトリの作成</h2><figure class=left><div class="d-flex justify-content-center"><div class=w-100><img src=./GitHub_New_Repository.png alt loading=lazy data-zoomable></div></div></figure>`Repositories`の右にある`New`をクリックしてください。<figure class=left><div class="d-flex justify-content-center"><div class=w-100><img src=./GitHub_New_Repository2.png alt loading=lazy data-zoomable></div></div></figure>`Repository name`は任意の名前で構いませんが、ゲームをプレイする人も見ることができるので注意してください。
-`Public`と`Private`を選択できますが、`Public`を選択してください。
-`Create repository`を選択してリポジトリを作成してください。<figure class=left><div class="d-flex justify-content-center"><div class=w-100><img src=./GitHub_New_Repository3.png alt loading=lazy data-zoomable></div></div></figure>赤い枠で囲まれたボタンを押してください。左のURLがクリップボードにコピーされます。<h2 id=23-ファイルのアップロード>2.3 ファイルのアップロード</h2><p><code>Git Bash</code>を起動してください。
+<!DOCTYPE html><html lang="ja" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.0.0-beta.3 for Hugo" />
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Juris710" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Unityで作ったゲームを誰でもプレイできるようにする方法の解説です" />
+
+  
+  <link rel="alternate" hreflang="ja" href="https://blog.opuappnavi.com/post/unity-github-pages/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="hsl(339, 90%, 68%)" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/qtcreator_dark.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/qtcreator_dark.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+      
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP&family=Roboto&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP&family=Roboto&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.5f6519d15936dd38a484ce68c4da8a4f.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_32x32_fill_lanczos_center_2.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_180x180_fill_lanczos_center_2.png" />
+
+  <link rel="canonical" href="https://blog.opuappnavi.com/post/unity-github-pages/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="アプリNaviブログ" />
+  <meta property="og:url" content="https://blog.opuappnavi.com/post/unity-github-pages/" />
+  <meta property="og:title" content="Unity製ゲームをWebで共有する方法 | アプリNaviブログ" />
+  <meta property="og:description" content="Unityで作ったゲームを誰でもプレイできるようにする方法の解説です" /><meta property="og:image" content="https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png" />
+    <meta property="twitter:image" content="https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="ja" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2020-05-04T20:17:22&#43;09:00"
+      />
+    
+    <meta property="article:modified_time" content="2021-03-15T16:01:57&#43;09:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://blog.opuappnavi.com/post/unity-github-pages/"
+  },
+  "headline": "Unity製ゲームをWebで共有する方法",
+  
+  "datePublished": "2020-05-04T20:17:22+09:00",
+  "dateModified": "2021-03-15T16:01:57+09:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Juris710"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "アプリNavi",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Unityで作ったゲームを誰でもプレイできるようにする方法の解説です"
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Unity製ゲームをWebで共有する方法 | アプリNaviブログ</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  dark " data-wc-page-id="2150ef7f33f2a6ec86bd03cc354523b5" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.f136ef8f91f7ffc549bf29e3952a584f.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="検索" autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="検索">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">アプリNaviブログ</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="ナビゲーションの切り替え">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">アプリNaviブログ</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/about"><span>About</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/authors"><span>Authors</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/post"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/project"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/category/%e4%bd%9c%e5%93%81%e7%b4%b9%e4%bb%8b"><span>Works</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <div class="post-container">
+  <nav class="sidebar-wrap">
+    <div class="sidebar">
+      <h2>目次</h2>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#必要なもの">必要なもの</a></li>
+    <li><a href="#1-unityでゲームをビルドする">1. Unityでゲームをビルドする</a>
+      <ul>
+        <li><a href="#11-build-settingsを開く">1.1 Build Settingsを開く</a></li>
+        <li><a href="#12-プラットフォームの変更">1.2 プラットフォームの変更</a></li>
+        <li><a href="#13-ゲームをビルド">1.3 ゲームをビルド</a></li>
+      </ul>
+    </li>
+    <li><a href="#2-githubにアップロード">2. GitHubにアップロード</a></li>
+    <li><a href="#3-webにゲームを公開">3. Webにゲームを公開</a></li>
+    <li><a href="#公開したゲームをプレイ">公開したゲームをプレイ</a></li>
+  </ul>
+</nav>
+    </div>
+  </nav>
+  <article class="article">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Unity製ゲームをWebで共有する方法</h1>
+
+  
+  <p class="page-subtitle">Unity WebGL × GitHub Pages</p>
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+    
+    
+      <div>
+        
+
+  <span >
+      <a href="/authors/juris710/">Juris710</a></span>
+      </div>
+    
+  
+
+  
+  <span class="article-date">
+    
+    2020/05/04  投稿  
+    
+    
+      ( 2021/03/15  最終更新 )
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/project/opu-virtual-festival-2020/">
+    プロジェクト
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+  
+</div>
+
+
+
+    <div class="article-container">
+
+      <div class="article-style">
+        <p>Gitに詳しくない人向けに書いています。Gitに詳しい人は<code>詳しくない人向け</code>の部分は読まなくて大丈夫です。</p>
+<h1 id="必要なもの">必要なもの</h1>
+<ul>
+<li>Unity</li>
+<li>GitHub アカウント</li>
+<li>Git：<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">ここ</a>からダウンロードできます</li>
+</ul>
+<h1 id="1-unityでゲームをビルドする">1. Unityでゲームをビルドする</h1>
+<h2 id="11-build-settingsを開く">1.1 Build Settingsを開く</h2>
+<p>左上のメニューで<code>File</code>&gt;<code>Build Settings</code>をクリックしてください。</p>
+<h2 id="12-プラットフォームの変更">1.2 プラットフォームの変更</h2>
+<p><code>WebGL</code>を選択し、<code>Switch Platform</code>をクリックしてください。</p>
+<h2 id="13-ゲームをビルド">1.3 ゲームをビルド</h2>
+<p><code>Build</code>をクリックしてください。ビルド先はどこでも構いません。私は<code>(プロジェクト名)/Builds/WebGL</code>を選択しています。</p>
+<h1 id="2-githubにアップロード">2. GitHubにアップロード</h1>
+<p>ビルドの結果、以下の3つのファイルが生成されます。</p>
+<ul>
+<li><code>Build</code>フォルダ</li>
+<li><code>TemplateData</code>フォルダ</li>
+<li><code>index.html</code>ファイル</li>
+</ul>
+<p>これらのファイルをGitHubにアップロードします。<br>
+<details>
+    <summary>詳しくない人向け</summary>
+    <h2 id="21-githubにサインイン">2.1 GitHubにサインイン</h2>
+<p><a href="https://github.com/">GitHub</a>にアクセスし、サインインしてください。</p>
+<h2 id="22-新しいリポジトリの作成">2.2 新しいリポジトリの作成</h2>
+<figure class="left" >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="./GitHub_New_Repository.png" alt="" loading="lazy" data-zoomable /></div>
+  </div></figure>
+`Repositories`の右にある`New`をクリックしてください。  
+<figure class="left" >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="./GitHub_New_Repository2.png" alt="" loading="lazy" data-zoomable /></div>
+  </div></figure>
+`Repository name`は任意の名前で構いませんが、ゲームをプレイする人も見ることができるので注意してください。  
+`Public`と`Private`を選択できますが、`Public`を選択してください。  
+`Create repository`を選択してリポジトリを作成してください。  
+<figure class="left" >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="./GitHub_New_Repository3.png" alt="" loading="lazy" data-zoomable /></div>
+  </div></figure>
+赤い枠で囲まれたボタンを押してください。左のURLがクリップボードにコピーされます。
+<h2 id="23-ファイルのアップロード">2.3 ファイルのアップロード</h2>
+<p><code>Git Bash</code>を起動してください。
 起動時のフォルダは<code>C:\Users\(ユーザー名)</code>なので、ビルド結果があるフォルダに移動してください。<code>cd (フォルダ名)</code>コマンドで移動できます。
-移動したら、以下のコマンドを一行ずつ実行してください。</p><div class="alert alert-note"><div><code>Git Bash</code>では<code>Shift</code>+<code>Insert</code>で貼り付けができます</div></div><pre><code class=language-bash>git init
+移動したら、以下のコマンドを一行ずつ実行してください。</p>
+<div class="alert alert-note">
+  <div>
+    <code>Git Bash</code>では<code>Shift</code>+<code>Insert</code>で貼り付けができます
+  </div>
+</div>
+<pre><code class="language-bash">git init
 git add .
 git commit -m &quot;Initial Commit&quot;
 git remote add origin (先ほどコピーしたURL)
 git push -u origin master
-</code></pre></details></p><h1 id=3-webにゲームを公開>3. Webにゲームを公開</h1><p><figure class=left><div class="d-flex justify-content-center"><div class=w-100><img src=./GitHub_Pages.png alt loading=lazy data-zoomable></div></div></figure><code>Settings</code>をクリックしてください。<figure class=left><div class="d-flex justify-content-center"><div class=w-100><img src=./GitHub_Pages2.png alt loading=lazy data-zoomable></div></div></figure>スクロールし、<code>GitHub Pages</code>の<code>Source</code>の下にあるドロップダウンリストで<code>master branch</code>を選択してください。</p><h1 id=公開したゲームをプレイ>公開したゲームをプレイ</h1><p><code>https://(ユーザー名).github.io/(リポジトリ名)/</code>というURLにアクセスすると、作ったゲームをプレイすることができます。</p></div><div class=article-tags><a class="badge badge-light" href=/tag/unity/>Unity</a>
-<a class="badge badge-light" href=/tag/github/>GitHub</a></div><div class=share-box aria-hidden=true><ul class=share><li><a href="https://twitter.com/intent/tweet?url=https://blog.opuappnavi.com/post/unity-github-pages/&text=Unity%e8%a3%bd%e3%82%b2%e3%83%bc%e3%83%a0%e3%82%92Web%e3%81%a7%e5%85%b1%e6%9c%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" target=_blank rel=noopener class=share-btn-twitter><i class="fab fa-twitter"></i></a></li><li><a href="https://www.facebook.com/sharer.php?u=https://blog.opuappnavi.com/post/unity-github-pages/&t=Unity%e8%a3%bd%e3%82%b2%e3%83%bc%e3%83%a0%e3%82%92Web%e3%81%a7%e5%85%b1%e6%9c%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" target=_blank rel=noopener class=share-btn-facebook><i class="fab fa-facebook"></i></a></li><li><a href="mailto:?subject=Unity%e8%a3%bd%e3%82%b2%e3%83%bc%e3%83%a0%e3%82%92Web%e3%81%a7%e5%85%b1%e6%9c%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95&body=https://blog.opuappnavi.com/post/unity-github-pages/" target=_blank rel=noopener class=share-btn-email><i class="fas fa-envelope"></i></a></li><li><a href="https://www.linkedin.com/shareArticle?url=https://blog.opuappnavi.com/post/unity-github-pages/&title=Unity%e8%a3%bd%e3%82%b2%e3%83%bc%e3%83%a0%e3%82%92Web%e3%81%a7%e5%85%b1%e6%9c%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" target=_blank rel=noopener class=share-btn-linkedin><i class="fab fa-linkedin-in"></i></a></li></ul></div><div class=page-author-cards><div class="media author-card content-widget-hr"><a href=/authors/juris710/><img class="avatar mr-3 avatar-circle" src=/authors/juris710/avatar_hu5de0ea20705264e86c3c4da9248d73aa_202133_270x270_fill_q75_lanczos_center.jpg alt=Juris710></a><div class=media-body><h5 class=card-title><a href=/authors/juris710/>Juris710</a></h5><p class=card-text>このサイトの開発者です。</p><ul class=network-icon aria-hidden=true></ul></div></div></div><div class=article-widget><div class=post-nav><div class=post-nav-item><div class=meta-nav>次へ</div><a href=/post/file-format-should-able-use/ rel=next>(個人的)プログラマーなら使えたほうがいいファイル形式</a></div><div class=post-nav-item><div class=meta-nav>前へ</div><a href=/post/github-for-unity/ rel=prev>GitHub for Unityの紹介</a></div></div></div><div class="article-widget content-widget-hr"><h3>関連項目</h3><ul><li><a href=/post/github-for-unity/>GitHub for Unityの紹介</a></li><li><a href=/post/unity-webgl-locally/>Unity WebGLのゲームをローカルでプレイする方法</a></li><li><a href=/post/github-fork-mit/>GitHubのforkとライセンス</a></li><li><a href=/post/truck-quiz/>Truck Quiz</a></li><li><a href=/post/record-findendiefeen/>Finden die Feen 開発記録</a></li></ul></div></div></article></div><script>let needsCodeHeaderButtonRegex=RegExp(/.*language-(mermaid).*/);function needsCodeHeaderButton(a){return!needsCodeHeaderButtonRegex.test(a.className)}function addCodeTitle(b,c){let a=b.className.match(/.*language-.*:([^ ]+)/);if(a){let d=a[1],b=document.createElement('div');b.className="code-title",b.innerHTML=d,c.appendChild(b)}}function addCopyButton(e,c){let a=document.createElement('div');a.className="code-copied-text",a.innerHTML="コピーしました。";let b=document.createElement('button');b.className="copy-code-button",b.onclick=function(){let b=function(c){c.clipboardData.setData("text/plain",e.textContent),a.classList.add("active"),setTimeout(()=>{a.classList.remove("active")},3e3),c.preventDefault(),document.removeEventListener("copy",b)};document.addEventListener("copy",b),document.execCommand("copy")},c.appendChild(b),c.appendChild(a);let d=document.createElement('span');d.className="icon far fa-clipboard",b.appendChild(d),b.insertAdjacentHTML('beforeend',"&nbsp;&nbsp;COPY")}let multilineCodes=Array.from(document.querySelectorAll("pre>code"));multilineCodes.forEach(a=>{if(needsCodeHeaderButton(a)){let b=document.createElement('div');b.className="code-header",a.parentElement.parentElement.insertBefore(b,a.parentElement),addCodeTitle(a,b),addCopyButton(a,b)}})</script><script>function getNavBarHeight(){let a=$('#navbar-main'),b=a.outerHeight();return b}let bodyClassList=document.body.classList;function scrollTo(a){$('body').addClass('scrolling'),$('html, body').animate({scrollTop:a},600,function(){$('body').removeClass('scrolling')})}function jumpTo(a){let b=Math.ceil($(a).offset().top-getNavBarHeight());scrollTo(b)}function needsSmoothScroll(a){return!a.closest(".spoiler").length}function registerSmoothScrollOnJump(){$('a[href^="#"]').filter(function(){return needsSmoothScroll($(this))}).each(function(c,a){let b=decodeURIComponent(a.hash);b&&$(a).on("click",function(){jumpTo(b)})})}window.addEventListener('DOMContentLoaded',function(){registerSmoothScrollOnJump(),location.hash&&jumpTo(decodeURIComponent(location.hash))})</script></div><div class=page-footer><div class=container><footer class=site-footer><p class=powered-by>©Juris710 2021</p><p class=powered-by>Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target=_blank rel=noopener>Wowchemy</a> — the free, <a href=https://github.com/wowchemy/wowchemy-hugo-modules target=_blank rel=noopener>open source</a> website builder that empowers creators.</p></footer></div></div><div id=modal class="modal fade" role=dialog><div class=modal-dialog><div class=modal-content><div class=modal-header><h5 class=modal-title>引用</h5><button type=button class=close data-dismiss=modal aria-label=Close>
-<span aria-hidden=true>&#215;</span></button></div><div class=modal-body><pre><code class="tex hljs"></code></pre></div><div class=modal-footer><a class="btn btn-outline-primary my-1 js-copy-cite" href=# target=_blank><i class="fas fa-copy"></i>コピー</a>
-<a class="btn btn-outline-primary my-1 js-download-cite" href=# target=_blank><i class="fas fa-download"></i>ダウンロード</a><div id=modal-error></div></div></div></div></div><script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.8.4/mermaid.min.js integrity="sha512-as1BF4+iHZ3BVO6LLDQ7zrbvTXM+c/1iZ1qII/c3c4L8Rn5tHLpFUtpaEtBNS92f+xGsCzsD7b62XP3XYap6oA==" crossorigin=anonymous title=mermaid></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin=anonymous></script><script id=search-hit-fuse-template type=text/x-template>
+</code></pre>
+
+</details>
+</p>
+<h1 id="3-webにゲームを公開">3. Webにゲームを公開</h1>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure class="left" >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="./GitHub_Pages.png" alt="" loading="lazy" data-zoomable /></div>
+  </div></figure>
+<code>Settings</code>をクリックしてください。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure class="left" >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="./GitHub_Pages2.png" alt="" loading="lazy" data-zoomable /></div>
+  </div></figure>
+スクロールし、<code>GitHub Pages</code>の<code>Source</code>の下にあるドロップダウンリストで<code>master branch</code>を選択してください。</p>
+<h1 id="公開したゲームをプレイ">公開したゲームをプレイ</h1>
+<p><code>https://(ユーザー名).github.io/(リポジトリ名)/</code>というURLにアクセスすると、作ったゲームをプレイすることができます。</p>
+
+      </div>
+
+      
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/unity/">Unity</a>
+  
+  <a class="badge badge-light" href="/tag/github/">GitHub</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://blog.opuappnavi.com/post/unity-github-pages/&amp;text=Unity%e8%a3%bd%e3%82%b2%e3%83%bc%e3%83%a0%e3%82%92Web%e3%81%a7%e5%85%b1%e6%9c%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://blog.opuappnavi.com/post/unity-github-pages/&amp;t=Unity%e8%a3%bd%e3%82%b2%e3%83%bc%e3%83%a0%e3%82%92Web%e3%81%a7%e5%85%b1%e6%9c%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Unity%e8%a3%bd%e3%82%b2%e3%83%bc%e3%83%a0%e3%82%92Web%e3%81%a7%e5%85%b1%e6%9c%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95&amp;body=https://blog.opuappnavi.com/post/unity-github-pages/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://blog.opuappnavi.com/post/unity-github-pages/&amp;title=Unity%e8%a3%bd%e3%82%b2%e3%83%bc%e3%83%a0%e3%82%92Web%e3%81%a7%e5%85%b1%e6%9c%89%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="page-author-cards">
+    
+      
+      
+
+
+
+
+
+  
+    
+    
+    
+    
+    
+    <div class="media author-card content-widget-hr">
+      
+        
+        <a href="/authors/juris710/">
+          <img class="avatar mr-3 avatar-circle" src="/authors/juris710/avatar_hu5de0ea20705264e86c3c4da9248d73aa_202133_270x270_fill_q75_lanczos_center.jpg" alt="Juris710">
+        </a>
+      
+
+      <div class="media-body">
+        <h5 class="card-title"><a href="/authors/juris710/">Juris710</a></h5>
+        
+        <p class="card-text">このサイトの開発者です。</p>
+        <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+      </div>
+    </div>
+  
+
+
+    
+  </div>
+
+
+
+
+
+
+
+
+
+
+<div class="article-widget">
+  
+<div class="post-nav">
+  
+  <div class="post-nav-item">
+    
+    
+    
+    <div class="meta-nav">次へ</div>
+    <a href="/post/file-format-should-able-use/" rel="next">(個人的)プログラマーなら使えたほうがいいファイル形式</a>
+    
+  </div>
+  <div class="post-nav-item">
+    
+    
+    <div class="meta-nav">前へ</div>
+    <a href="/post/github-for-unity/" rel="prev">GitHub for Unityの紹介</a>
+    
+  </div>
+  
+</div>
+</div>
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>関連項目</h3>
+    <ul>
+      
+      <li><a href="/post/github-for-unity/">GitHub for Unityの紹介</a></li>
+      
+      <li><a href="/post/unity-webgl-locally/">Unity WebGLのゲームをローカルでプレイする方法</a></li>
+      
+      <li><a href="/post/github-fork-mit/">GitHubのforkとライセンス</a></li>
+      
+      <li><a href="/post/truck-quiz/">Truck Quiz</a></li>
+      
+      <li><a href="/post/record-findendiefeen/">Finden die Feen 開発記録</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+    </div>
+  </article>
+</div>
+<script>
+  let needsCodeHeaderButtonRegex = RegExp(/.*language-(mermaid).*/);
+  function needsCodeHeaderButton(code) {
+    return !needsCodeHeaderButtonRegex.test(code.className);
+  }
+  function addCodeTitle(code, codeHeader) {
+    let found = code.className.match(/.*language-.*:([^ ]+)/);
+    if (found) {
+      let filename = found[1];
+      let text = document.createElement('div');
+      text.className = "code-title";
+      text.innerHTML = filename;
+      codeHeader.appendChild(text);
+    }
+  }
+  function addCopyButton(code, codeHeader) {
+    let copiedText = document.createElement('div');
+    copiedText.className = "code-copied-text";
+    copiedText.innerHTML = "コピーしました。";
+
+    let button = document.createElement('button');
+    button.className = "copy-code-button";
+    button.onclick = function () {
+      
+      let listener = function (e) {
+        e.clipboardData.setData("text/plain", code.textContent);
+        copiedText.classList.add("active");
+        setTimeout(() => { copiedText.classList.remove("active"); }, 3000);
+        
+        e.preventDefault();
+        
+        document.removeEventListener("copy", listener);
+      }
+      
+      document.addEventListener("copy", listener);
+      
+      document.execCommand("copy");
+    }
+    codeHeader.appendChild(button);
+    codeHeader.appendChild(copiedText);
+    let icon = document.createElement('span');
+    icon.className = "icon far fa-clipboard";
+    button.appendChild(icon);
+    button.insertAdjacentHTML('beforeend', "&nbsp;&nbsp;COPY");
+  }
+  let multilineCodes = Array.from(document.querySelectorAll("pre>code"));
+  multilineCodes.forEach(code => {
+    if (needsCodeHeaderButton(code)) {
+      let codeHeader = document.createElement('div');
+      codeHeader.className = "code-header";
+      code.parentElement.parentElement.insertBefore(codeHeader, code.parentElement);
+      addCodeTitle(code, codeHeader);
+      addCopyButton(code, codeHeader);
+    }
+  });  
+</script>
+<script>
+  function getNavBarHeight() {
+    let $navbar = $('#navbar-main');
+    let navbar_offset = $navbar.outerHeight();
+    return navbar_offset;
+  }
+  let bodyClassList = document.body.classList;
+  function scrollTo(position) {
+    $('body').addClass('scrolling');
+    $('html, body').animate({
+      scrollTop: position
+    }, 600, function () {
+      $('body').removeClass('scrolling');
+    });
+  }
+  function jumpTo(hashId){
+    let elementOffset = Math.ceil($(hashId).offset().top - getNavBarHeight());
+    scrollTo(elementOffset);
+  }
+  function needsSmoothScroll(element){
+    if(element.closest(".spoiler").length){
+      return false; 
+    }
+    return true;
+  }
+  function registerSmoothScrollOnJump(){
+    $('a[href^="#"]').filter(function(){
+      return needsSmoothScroll($(this));
+    }).each(function(index, element){
+      let hashId = decodeURIComponent(element.hash);
+      if(hashId){
+        $(element).on("click", function(){
+          jumpTo(hashId);
+        });
+      }
+    });
+  }
+  
+  window.addEventListener('DOMContentLoaded', function(){
+    registerSmoothScrollOnJump();
+    if(location.hash){
+      
+      jumpTo(decodeURIComponent(location.hash));
+    }
+  });
+</script>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+  
+
+  <p class="powered-by">
+    ©Juris710  2021
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">引用</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> コピー
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> ダウンロード
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.8.4/mermaid.min.js" integrity="sha512-as1BF4+iHZ3BVO6LLDQ7zrbvTXM+c/1iZ1qII/c3c4L8Rn5tHLpFUtpaEtBNS92f+xGsCzsD7b62XP3XYap6oA==" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
         <div class="search-hit" id="summary-{{key}}">
           <div class="search-hit-content">
             <div class="search-hit-name">
@@ -22,4 +1310,56 @@ git push -u origin master
             </div>
           </div>
         </div>
-      </script><script src=https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin=anonymous></script><script src=/js/_vendor/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js></script><script src=/ja/js/wowchemy.min.eaefe98e3ea10b016464f8f3199b6553.js></script></body></html>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    <script src="/js/_vendor/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+      
+    
+    <script src="/ja/js/wowchemy.min.eaefe98e3ea10b016464f8f3199b6553.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

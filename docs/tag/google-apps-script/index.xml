@@ -1,480 +1,830 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Google Apps Script | アプリNaviブログ</title><link>https://blog.opuappnavi.com/tag/google-apps-script/</link><atom:link href="https://blog.opuappnavi.com/tag/google-apps-script/index.xml" rel="self" type="application/rss+xml"/><description>Google Apps Script</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>©Juris710 2021</copyright><lastBuildDate>Wed, 22 Jul 2020 21:14:27 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url><title>Google Apps Script</title><link>https://blog.opuappnavi.com/tag/google-apps-script/</link></image><item><title>WebAPI で手軽に機能を実装する</title><link>https://blog.opuappnavi.com/post/webapi-recommendation/</link><pubDate>Wed, 22 Jul 2020 21:14:27 +0900</pubDate><guid>https://blog.opuappnavi.com/post/webapi-recommendation/</guid><description>&lt;p>今日は WebAPI の紹介と簡単に使い方について書きたいと思います。
-現在さまざまな WebAPI とそれの使い方についての記事がたくさんある中で大体内容は似てくると思いますが、その存在を知ってもらい、開発の選択肢の一つになれば幸いです。&lt;/p>
-&lt;h1 id="api-とは">API とは&lt;/h1>
-&lt;p>最初に簡単に API の説明をしておくと、
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google Apps Script | アプリNaviブログ</title>
+    <link>https://blog.opuappnavi.com/tag/google-apps-script/</link>
+      <atom:link href="https://blog.opuappnavi.com/tag/google-apps-script/index.xml" rel="self" type="application/rss+xml" />
+    <description>Google Apps Script</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>©Juris710  2021</copyright><lastBuildDate>Wed, 22 Jul 2020 21:14:27 +0900</lastBuildDate>
+    <image>
+      <url>https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url>
+      <title>Google Apps Script</title>
+      <link>https://blog.opuappnavi.com/tag/google-apps-script/</link>
+    </image>
+    
+    <item>
+      <title>WebAPI で手軽に機能を実装する</title>
+      <link>https://blog.opuappnavi.com/post/webapi-recommendation/</link>
+      <pubDate>Wed, 22 Jul 2020 21:14:27 +0900</pubDate>
+      <guid>https://blog.opuappnavi.com/post/webapi-recommendation/</guid>
+      <description>&lt;p&gt;今日は WebAPI の紹介と簡単に使い方について書きたいと思います。
+現在さまざまな WebAPI とそれの使い方についての記事がたくさんある中で大体内容は似てくると思いますが、その存在を知ってもらい、開発の選択肢の一つになれば幸いです。&lt;/p&gt;
+&lt;h1 id=&#34;api-とは&#34;&gt;API とは&lt;/h1&gt;
+&lt;p&gt;最初に簡単に API の説明をしておくと、
 API とは Application Programming Interface の略で、
-その文字通りの意味をとると、アプリケーションとプログラミングをつなぎ合わせるものということになります。&lt;/p>
-&lt;p>API にもいろいろありますが、一般的にはある機能を API として公開することで、第三者がその機能を API を呼び出すだけで簡単に利用できます。&lt;/p>
-&lt;p>これらを用いることで&lt;strong>欲しい機能を一からプログラミングすることなく簡単に実装することができ、作業の効率化、セキュリティの向上&lt;/strong>等が見込まれます。&lt;/p>
-&lt;h1 id="webapi">webAPI&lt;/h1>
-&lt;p>では webAPI とは何かというと、もちろん API の一種で、
-その名の通り web 上に公開されていて、外部からの呼び出しで利用可能な API です。&lt;/p>
-&lt;p>Amazon や楽天と言ったサイトの商品情報を取得したり、利用することで Google の提供している OCR(光文字認識)といった、機械学習的な機能を取り入れることなどが出来ます。&lt;/p>
-&lt;p>他にもさまざまなシチュエーションで活用できる webAPI があるので下記サイトを挙げておきます。&lt;/p>
-&lt;p>またこれらは web サイトだけではなくスマホアプリや物によればゲーム開発などにも使えるので知っていて損はないのかと思います。&lt;/p>
-&lt;p>・参考サイト&lt;/p>
-&lt;p>&lt;a href="https://qiita.com/mikan3rd/items/ba4737023f08bb2ca161" target="_blank" rel="noopener">個人でも使える！おすすめ API 一覧&lt;/a>&lt;/p>
-&lt;h2 id="おススメ-webapi">おススメ webAPI&lt;/h2>
-&lt;p>サイトに載っているものから、個人的におススメのものを何点か挙げておきます。&lt;/p>
-&lt;h3 id="google-sheets-api">Google Sheets API&lt;/h3>
-&lt;p>&lt;a href="https://developers.google.com/sheets/api/reference/rest/" target="_blank" rel="noopener">公式サイト&lt;/a>&lt;/p>
-&lt;p>google spreadsehet の書き込み、読み込みなどができ、簡易的なデータベースとして利用できます。特にちょっとしたアプリなどに利用すると便利です。&lt;/p>
-&lt;h3 id="google-cloud-vision-api">Google Cloud Vision API&lt;/h3>
-&lt;p>&lt;a href="https://cloud.google.com/vision/docs/quickstart" target="_blank" rel="noopener">公式サイト&lt;/a>&lt;/p>
-&lt;p>顔や文字などの画像認識ができる API です。やってみたら結構楽しかったりします。無料で十分使えますが、その場合使用制限があるので注意が必要です。&lt;/p>
-&lt;h3 id="line-messaging-api">LINE Messaging API&lt;/h3>
-&lt;p>&lt;a href="https://developers.line.me/ja/docs/messaging-api/overview/" target="_blank" rel="noopener">公式サイト&lt;/a>&lt;/p>
-&lt;p>ラインで自動返信する bot などを作ることが出来る API です。。既存のもので bot を使えるやつがありますが、これを利用するとより自由度が高い bot を作成することが可能です。&lt;/p>
-&lt;p>今回紹介したもの以外にもギャグみたいな面白いものだったり、便利なものが色々とあるのでこんなのあったらいいなと思った時に調べてみると実はあるかもしれません。&lt;/p>
-&lt;h1 id="使い方の例">使い方の例&lt;/h1>
-&lt;p>webAPI では現在、基本的にデータのやり取りに json 形式が利用されます。（もちろん xml 形式を用いるものもあります。）&lt;/p>
-&lt;p>json については簡単に参考サイトを載せておきますので興味のある人は見てみてください。&lt;/p>
-&lt;p>・json ってまず何？&lt;/p>
-&lt;p>&lt;a href="https://wa3.i-3-i.info/word13798.html" target="_blank" rel="noopener">「分かりそう」で「分からない」でも「分かった」気になれる IT 用語辞典&lt;/a>&lt;/p>
-&lt;p>・json の使い方とか&lt;/p>
-&lt;p>&lt;a href="https://reffect.co.jp/html/what_is_json" target="_blank" rel="noopener">JSON ってなに?これさえ読めば理解が深まる&lt;/a>&lt;/p>
-&lt;p>今回は上記の API 一覧にのっている「ぐるなび API」を例として使い方をざっくり紹介したいと思います。&lt;/p>
-&lt;h2 id="ぐるなび-api-って">ぐるなび API って？&lt;/h2>
-&lt;p>ぐるなび API はぐるなびが提供する WebAPI で、ぐるなびに登録されている店の情報や、分野別の店の検索等が出来ます。&lt;/p>
-&lt;p>日本の企業でサイトも日本語で書かれていて、利用方法も簡単な url の取得だけで、テストツールも分かりやすく使いやすいことから webAPI を初めて利用する初心者の方に個人的にはおススメです。&lt;/p>
-&lt;h2 id="ぐるなび-api-の使い方">ぐるなび API の使い方&lt;/h2>
-&lt;ol>
-&lt;li>
-&lt;p>&lt;a href="https://api.gnavi.co.jp/api/" target="_blank" rel="noopener">ぐるなび API のサイト&lt;/a>にアクセスする。&lt;br>
+その文字通りの意味をとると、アプリケーションとプログラミングをつなぎ合わせるものということになります。&lt;/p&gt;
+&lt;p&gt;API にもいろいろありますが、一般的にはある機能を API として公開することで、第三者がその機能を API を呼び出すだけで簡単に利用できます。&lt;/p&gt;
+&lt;p&gt;これらを用いることで&lt;strong&gt;欲しい機能を一からプログラミングすることなく簡単に実装することができ、作業の効率化、セキュリティの向上&lt;/strong&gt;等が見込まれます。&lt;/p&gt;
+&lt;h1 id=&#34;webapi&#34;&gt;webAPI&lt;/h1&gt;
+&lt;p&gt;では webAPI とは何かというと、もちろん API の一種で、
+その名の通り web 上に公開されていて、外部からの呼び出しで利用可能な API です。&lt;/p&gt;
+&lt;p&gt;Amazon や楽天と言ったサイトの商品情報を取得したり、利用することで Google の提供している OCR(光文字認識)といった、機械学習的な機能を取り入れることなどが出来ます。&lt;/p&gt;
+&lt;p&gt;他にもさまざまなシチュエーションで活用できる webAPI があるので下記サイトを挙げておきます。&lt;/p&gt;
+&lt;p&gt;またこれらは web サイトだけではなくスマホアプリや物によればゲーム開発などにも使えるので知っていて損はないのかと思います。&lt;/p&gt;
+&lt;p&gt;・参考サイト&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://qiita.com/mikan3rd/items/ba4737023f08bb2ca161&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;個人でも使える！おすすめ API 一覧&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;おススメ-webapi&#34;&gt;おススメ webAPI&lt;/h2&gt;
+&lt;p&gt;サイトに載っているものから、個人的におススメのものを何点か挙げておきます。&lt;/p&gt;
+&lt;h3 id=&#34;google-sheets-api&#34;&gt;Google Sheets API&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://developers.google.com/sheets/api/reference/rest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式サイト&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;google spreadsehet の書き込み、読み込みなどができ、簡易的なデータベースとして利用できます。特にちょっとしたアプリなどに利用すると便利です。&lt;/p&gt;
+&lt;h3 id=&#34;google-cloud-vision-api&#34;&gt;Google Cloud Vision API&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://cloud.google.com/vision/docs/quickstart&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式サイト&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;顔や文字などの画像認識ができる API です。やってみたら結構楽しかったりします。無料で十分使えますが、その場合使用制限があるので注意が必要です。&lt;/p&gt;
+&lt;h3 id=&#34;line-messaging-api&#34;&gt;LINE Messaging API&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://developers.line.me/ja/docs/messaging-api/overview/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式サイト&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ラインで自動返信する bot などを作ることが出来る API です。。既存のもので bot を使えるやつがありますが、これを利用するとより自由度が高い bot を作成することが可能です。&lt;/p&gt;
+&lt;p&gt;今回紹介したもの以外にもギャグみたいな面白いものだったり、便利なものが色々とあるのでこんなのあったらいいなと思った時に調べてみると実はあるかもしれません。&lt;/p&gt;
+&lt;h1 id=&#34;使い方の例&#34;&gt;使い方の例&lt;/h1&gt;
+&lt;p&gt;webAPI では現在、基本的にデータのやり取りに json 形式が利用されます。（もちろん xml 形式を用いるものもあります。）&lt;/p&gt;
+&lt;p&gt;json については簡単に参考サイトを載せておきますので興味のある人は見てみてください。&lt;/p&gt;
+&lt;p&gt;・json ってまず何？&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wa3.i-3-i.info/word13798.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;「分かりそう」で「分からない」でも「分かった」気になれる IT 用語辞典&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;・json の使い方とか&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://reffect.co.jp/html/what_is_json&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;JSON ってなに?これさえ読めば理解が深まる&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;今回は上記の API 一覧にのっている「ぐるなび API」を例として使い方をざっくり紹介したいと思います。&lt;/p&gt;
+&lt;h2 id=&#34;ぐるなび-api-って&#34;&gt;ぐるなび API って？&lt;/h2&gt;
+&lt;p&gt;ぐるなび API はぐるなびが提供する WebAPI で、ぐるなびに登録されている店の情報や、分野別の店の検索等が出来ます。&lt;/p&gt;
+&lt;p&gt;日本の企業でサイトも日本語で書かれていて、利用方法も簡単な url の取得だけで、テストツールも分かりやすく使いやすいことから webAPI を初めて利用する初心者の方に個人的にはおススメです。&lt;/p&gt;
+&lt;h2 id=&#34;ぐるなび-api-の使い方&#34;&gt;ぐるなび API の使い方&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://api.gnavi.co.jp/api/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ぐるなび API のサイト&lt;/a&gt;にアクセスする。&lt;br&gt;
 利用規約や初めての方へなどを予め読んでおくと良いです。
-また 「API 仕様」の欄にてどのような API が提供されているかを詳しく見ることで使いたい機能を整理します。&lt;/p>
-&lt;p>この API からは、レストラン検索 API や都道府県マスタ取得 API などがあり、レストランを検索したり、業態別、地域別にお店を絞り込むことができるようです。
-&lt;figure id="figure-ぐるなびapiサイト">
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="./gurunavi.png" alt="ぐるなびAPIサイト" loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;figcaption>
-ぐるなびAPIサイト
-&lt;/figcaption>&lt;/figure>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>テストツールを使ってみる&lt;br>
-API 仕様を確認した後はテストツールを使ってみましょう。上部のテストツールという欄をクリックします。そうすると下のような画面になります。&lt;/p>
-&lt;p>今回は試しにレストラン検索 API で検索タブを name にラーメンにでもしてクエリを送信をクリックしてみましょう。&lt;/p>
-&lt;p>そうするとクエリを送信ボタンの下に json 形式のデータが出てきます。
-これを見ると、たくさんのお店、かつラーメン屋が出てきたことが分かります。&lt;/p>
-&lt;p>他にも店の場所や説明なども載っていると思いますが、上記の key を指定し、条件を絞り込むことでそれらの指定をすることが出来ます。&lt;/p>
-&lt;figure id="figure-テストツール画面">
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="./gurunavi2.png" alt="テストツール画面" loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;figcaption>
-テストツール画面
-&lt;/figcaption>&lt;/figure>
-&lt;p>次に大阪難波駅にあるラーメン屋さんのデータを json 形式で取得してみましょう。&lt;/p>
-&lt;p>検索の地域を絞るには同ぐるなび API にある&amp;quot;エリアLマスタ取得API&amp;quot;を使ってみます。&lt;/p>
-&lt;p>この API は場所のコードのデータを返してくれるのでそこから大阪難波の欄を探し、その&amp;quot;areacode_l&amp;quot;の値をメモしておきましょう。&lt;/p>
-&lt;p>例）&lt;/p>
-&lt;pre>&lt;code class="language-json">&amp;quot;garea_large&amp;quot;:[
-...
-{
-&amp;quot;areacode_l&amp;quot;: &amp;quot;AREAL3142&amp;quot;,
-&amp;quot;areaname_l&amp;quot;: &amp;quot;難波・道頓堀&amp;quot;,
-&amp;quot;pref&amp;quot;: {
-&amp;quot;pref_code&amp;quot;: &amp;quot;PREF27&amp;quot;,
-&amp;quot;pref_name&amp;quot;: &amp;quot;大阪府&amp;quot;
-}
-},
-...
+また 「API 仕様」の欄にてどのような API が提供されているかを詳しく見ることで使いたい機能を整理します。&lt;/p&gt;
+&lt;p&gt;この API からは、レストラン検索 API や都道府県マスタ取得 API などがあり、レストランを検索したり、業態別、地域別にお店を絞り込むことができるようです。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-ぐるなびapiサイト&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./gurunavi.png&#34; alt=&#34;ぐるなびAPIサイト&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      ぐるなびAPIサイト
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;テストツールを使ってみる&lt;br&gt;
+API 仕様を確認した後はテストツールを使ってみましょう。上部のテストツールという欄をクリックします。そうすると下のような画面になります。&lt;/p&gt;
+&lt;p&gt;今回は試しにレストラン検索 API で検索タブを name にラーメンにでもしてクエリを送信をクリックしてみましょう。&lt;/p&gt;
+&lt;p&gt;そうするとクエリを送信ボタンの下に json 形式のデータが出てきます。
+これを見ると、たくさんのお店、かつラーメン屋が出てきたことが分かります。&lt;/p&gt;
+&lt;p&gt;他にも店の場所や説明なども載っていると思いますが、上記の key を指定し、条件を絞り込むことでそれらの指定をすることが出来ます。&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-テストツール画面&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./gurunavi2.png&#34; alt=&#34;テストツール画面&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      テストツール画面
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;次に大阪難波駅にあるラーメン屋さんのデータを json 形式で取得してみましょう。&lt;/p&gt;
+&lt;p&gt;検索の地域を絞るには同ぐるなび API にある&amp;quot;エリアLマスタ取得API&amp;quot;を使ってみます。&lt;/p&gt;
+&lt;p&gt;この API は場所のコードのデータを返してくれるのでそこから大阪難波の欄を探し、その&amp;quot;areacode_l&amp;quot;の値をメモしておきましょう。&lt;/p&gt;
+&lt;p&gt;例）&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;&amp;quot;garea_large&amp;quot;:[
+    ...
+    {
+        &amp;quot;areacode_l&amp;quot;: &amp;quot;AREAL3142&amp;quot;,
+        &amp;quot;areaname_l&amp;quot;: &amp;quot;難波・道頓堀&amp;quot;,
+        &amp;quot;pref&amp;quot;: {
+            &amp;quot;pref_code&amp;quot;: &amp;quot;PREF27&amp;quot;,
+            &amp;quot;pref_name&amp;quot;: &amp;quot;大阪府&amp;quot;
+        }
+    },
+    ...
 ]
-&lt;/code>&lt;/pre>
-&lt;p>次にレストラン検索 API に戻り、areacode_l をメモした値にした後、
-クエリを送信すると、大阪難波駅周辺のラーメン屋の json データを取得できるようになります。&lt;/p>
-&lt;p>取りたいデータが出てきたらその上にある URL という欄の url をメモしておきます。&lt;/p>
-&lt;p>例）&lt;code>https://api.gnavi.co.jp/RestSearchAPI/v3/?keyid=(ここは後に取得するkeyidの値）&amp;amp;name=ラーメン&amp;amp;areacode_l=AREAL3310&lt;/code>&lt;/p>
-&lt;figure id="figure-検索例">
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="./gurunavi3.png" alt="検索例" loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;figcaption>
-検索例
-&lt;/figcaption>&lt;/figure>
-&lt;p>その他にも現在位置を別の API で取得して今いる位置の近くの店を検索したりするなど様々な条件で試してみるのもいいかもしれません。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>新規アカウント登録&lt;br>
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;次にレストラン検索 API に戻り、areacode_l をメモした値にした後、
+クエリを送信すると、大阪難波駅周辺のラーメン屋の json データを取得できるようになります。&lt;/p&gt;
+&lt;p&gt;取りたいデータが出てきたらその上にある URL という欄の url をメモしておきます。&lt;/p&gt;
+&lt;p&gt;例）&lt;code&gt;https://api.gnavi.co.jp/RestSearchAPI/v3/?keyid=(ここは後に取得するkeyidの値）&amp;amp;name=ラーメン&amp;amp;areacode_l=AREAL3310&lt;/code&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-検索例&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./gurunavi3.png&#34; alt=&#34;検索例&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      検索例
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;その他にも現在位置を別の API で取得して今いる位置の近くの店を検索したりするなど様々な条件で試してみるのもいいかもしれません。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;新規アカウント登録&lt;br&gt;
 テストである程度データの構造が分かったら、次は実際に使用します。
-ぐるなび API を利用するには、アカウント登録で個人情報や利用目的など、いくつかの項目に答える必要があります。&lt;/p>
-&lt;p>利用用途の欄がありますが、とりあえず始めるだけなので’試しに使用’でいいでしょう。これは使用期限はありますが、機能としては問題ないです。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>コードに取り入れる&lt;br>
+ぐるなび API を利用するには、アカウント登録で個人情報や利用目的など、いくつかの項目に答える必要があります。&lt;/p&gt;
+&lt;p&gt;利用用途の欄がありますが、とりあえず始めるだけなので’試しに使用’でいいでしょう。これは使用期限はありますが、機能としては問題ないです。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;コードに取り入れる&lt;br&gt;
 アカウントの登録が終わったらぐるなびからアクセスキーが発光されるので、
-先ほどメモを取った url の keyid 以下の文字列をアクセスキーに置き換え、利用することで指定した条件のお店を検索することが出来ます。&lt;/p>
-&lt;p>コードについては利用方法は使用言語によって異なってくると思うので、詳しい話は省きますが、とりあえず GAS(Google Apps Script)での利用例を載せておきます。&lt;/p>
-&lt;p>(GAS についての紹介はよければ下まで)
-&lt;div class="card-simple">
-&lt;div class="article-metadata">
-&lt;div>
-&lt;span >
-&lt;a href="https://blog.opuappnavi.com/authors/nobu/">Nobu&lt;/a>&lt;/span>
-&lt;/div>
-&lt;span class="article-date">
-2020/05/28 投稿
-( 2020/05/30 最終更新 )
-&lt;/span>
-&lt;/div>
-&lt;div class="section-subheading article-title mb-1 mt-3">
-&lt;a href="https://blog.opuappnavi.com/post/gas-recommendation/">手軽に始める！GAS を使ってみませんか～&lt;/a>
-&lt;/div>
-&lt;a href="https://blog.opuappnavi.com/post/gas-recommendation/" class="summary-link">
-&lt;div class="article-style">
-&lt;p>Google Apps Scriptの紹介&lt;/p>
-&lt;/div>
-&lt;/a>
-&lt;div class="btn-links">
-&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/">
-プロジェクト
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/p>
-&lt;pre>&lt;code class="language-JavaScript:コード.gs">function myFunction(e) {
-//取得したアクセスキー
-var gurunaviAPI = PropertiesService.getScriptProperties().getProperty('GURUNAVI_TOKEN');
-//データを取得するためにアクセスするurl
-var url = 'https://api.gnavi.co.jp/RestSearchAPI/v3/';
-url = url + '?keyid='+ gurunaviAPI;
-var gurunaviId = url + &amp;quot;&amp;amp;name=ラーメン&amp;amp;areacode_l=AREAL3142&amp;quot;
-var shop_url = UrlFetchApp.fetch(gurunaviId);
-//jsonのデータを配列に変換
-var json = JSON.parse(shop_url.getContentText());
-//取得したデータ一覧表示
-Logger.log(json);
-//rest以下の項目を取得できる
-//検索候補１つ目の店名を表示
-Logger.log(json[&amp;quot;rest&amp;quot;][0][&amp;quot;name&amp;quot;]);
+先ほどメモを取った url の keyid 以下の文字列をアクセスキーに置き換え、利用することで指定した条件のお店を検索することが出来ます。&lt;/p&gt;
+&lt;p&gt;コードについては利用方法は使用言語によって異なってくると思うので、詳しい話は省きますが、とりあえず GAS(Google Apps Script)での利用例を載せておきます。&lt;/p&gt;
+&lt;p&gt;(GAS についての紹介はよければ下まで)
+
+
+
+
+
+
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;card-simple&#34;&gt;
+
+  
+    
+
+
+&lt;div class=&#34;article-metadata&#34;&gt;
+
+  
+  
+    
+    
+      &lt;div&gt;
+        
+
+  &lt;span &gt;
+      &lt;a href=&#34;https://blog.opuappnavi.com/authors/nobu/&#34;&gt;Nobu&lt;/a&gt;&lt;/span&gt;
+      &lt;/div&gt;
+    
+  
+
+  
+  &lt;span class=&#34;article-date&#34;&gt;
+    
+    2020/05/28  投稿  
+    
+    
+      ( 2020/05/30  最終更新 )
+    
+  &lt;/span&gt;
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+&lt;/div&gt;
+
+  
+
+  
+  
+  
+
+  &lt;div class=&#34;section-subheading article-title mb-1 mt-3&#34;&gt;
+    &lt;a href=&#34;https://blog.opuappnavi.com/post/gas-recommendation/&#34;&gt;手軽に始める！GAS を使ってみませんか～&lt;/a&gt;
+  &lt;/div&gt;
+
+  
+  &lt;a href=&#34;https://blog.opuappnavi.com/post/gas-recommendation/&#34; class=&#34;summary-link&#34;&gt;
+    &lt;div class=&#34;article-style&#34;&gt;
+      &lt;p&gt;Google Apps Scriptの紹介&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/a&gt;
+  
+
+  
+  &lt;div class=&#34;btn-links&#34;&gt;
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://blog.opuappnavi.com/project/opu-virtual-festival-2020/&#34;&gt;
+    プロジェクト
+  &lt;/a&gt;
+  
+
+
+
+
+
+
+
+
+
+
+
+  &lt;/div&gt;
+  
+
+&lt;/div&gt;
+
+  
+
+&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-JavaScript:コード.gs&#34;&gt;function myFunction(e) {
+    //取得したアクセスキー
+    var gurunaviAPI = PropertiesService.getScriptProperties().getProperty(&#39;GURUNAVI_TOKEN&#39;);
+    //データを取得するためにアクセスするurl
+    var url = &#39;https://api.gnavi.co.jp/RestSearchAPI/v3/&#39;;
+    url = url + &#39;?keyid=&#39;+ gurunaviAPI;
+    var  gurunaviId = url + &amp;quot;&amp;amp;name=ラーメン&amp;amp;areacode_l=AREAL3142&amp;quot;
+    var shop_url = UrlFetchApp.fetch(gurunaviId);
+    //jsonのデータを配列に変換
+    var json = JSON.parse(shop_url.getContentText());
+    //取得したデータ一覧表示
+    Logger.log(json);
+    //rest以下の項目を取得できる
+    //検索候補１つ目の店名を表示
+    Logger.log(json[&amp;quot;rest&amp;quot;][0][&amp;quot;name&amp;quot;]);
 }
-&lt;/code>&lt;/pre>
-&lt;/li>
-&lt;/ol>
-&lt;p>ここまで順を追って簡単にぐるなび API のデータの取得から利用方法まで見てきましたが、条件をある程度絞った中でユーザーに条件を入力してもうなど紹介したもの以外でもやり方は色々あると思うのでよければ試してみてください！&lt;/p>
-&lt;p>あと注意としてはお店のデータが&amp;quot;ぐるなび&amp;quot;と&amp;quot;ぐるなび API&amp;quot; では異なり、思ったような店が出力されないというのがあるのでまずはお試しという形で利用したほうがいいかもしれないです。&lt;/p>
-&lt;h1 id="参考サイト">参考サイト&lt;/h1>
-&lt;p>今さら聞けない IT 用語：やたらと耳にするけど「API」って何？&lt;/p>
-&lt;p>&lt;a href="https://data.wingarc.com/what-is-api-16084">https://data.wingarc.com/what-is-api-16084&lt;/a>&lt;/p>
-&lt;h1 id="最後に">最後に&lt;/h1>
-&lt;p>改めて API、WebAPI を用いると簡単に機能が実装できるので、特に開発期間が短いハッカソンなどのイベント時では特に重宝しますし、これらの WebAPI を組み合わせることで、ある程度十分使えるものができるのではと思います。次回のイベントやもちろん普段の開発にでも知らなかった人は使ってみるといいかもしれません！&lt;/p></description></item><item><title>GAS でサクッと採点シート作ってみた</title><link>https://blog.opuappnavi.com/post/gas-scoring/</link><pubDate>Sat, 30 May 2020 10:04:44 +0900</pubDate><guid>https://blog.opuappnavi.com/post/gas-scoring/</guid><description>&lt;p>全然需要ないかもですが、GAS の紹介第二弾です。&lt;/p>
-&lt;p>今回は GAS を使って、以前ハッカソンの採点シートをちゃっと作った話をしたい思います。&lt;/p>
-&lt;p>手軽にできるので、JavaScript など、プログラミングを最近学び始めた方はちょっと実践がてらに GAS を利用して何か作ってみたらどうでしょう？みたいな気持ちで書いたので、読んでもらえたら幸いです。（GAS は一応 JavaScript ベースでできています(^^)/)&lt;/p>
-&lt;h2 id="gas-って">GAS って？&lt;/h2>
-&lt;p>こちらで紹介しているので良ければ見ていってください！&lt;/p>
-&lt;div class="card-simple">
-&lt;div class="article-metadata">
-&lt;div>
-&lt;span >
-&lt;a href="https://blog.opuappnavi.com/authors/nobu/">Nobu&lt;/a>&lt;/span>
-&lt;/div>
-&lt;span class="article-date">
-2020/05/28 投稿
-( 2020/05/30 最終更新 )
-&lt;/span>
-&lt;/div>
-&lt;div class="section-subheading article-title mb-1 mt-3">
-&lt;a href="https://blog.opuappnavi.com/post/gas-recommendation/">手軽に始める！GAS を使ってみませんか～&lt;/a>
-&lt;/div>
-&lt;a href="https://blog.opuappnavi.com/post/gas-recommendation/" class="summary-link">
-&lt;div class="article-style">
-&lt;p>Google Apps Scriptの紹介&lt;/p>
-&lt;/div>
-&lt;/a>
-&lt;div class="btn-links">
-&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/">
-プロジェクト
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;h2 id="作った経緯ついでにハッカソンの紹介">作った経緯（ついでにハッカソンの紹介）&lt;/h2>
-&lt;p>アプリ Navi では毎年、長期休みのどこかで、ハッカソンというものを開催しています。&lt;/p>
-&lt;p>&lt;strong>ハッカソン&lt;/strong>とは&lt;/p>
-&lt;blockquote>
-&lt;p>ハッカソン（英語: hackathon 、別名:hack day ,hackfest ,codefest ）とは、ソフトウェア開発分野のプログラマやグラフィックデザイナー、ユーザインタフェース設計者、プロジェクトマネージャらが集中的に作業をするソフトウェア関連プロジェクトのイベントである
-(&lt;a href="https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3" target="_blank" rel="noopener">Wikipedia より抜粋&lt;/a>)&lt;/p>
-&lt;/blockquote>
-&lt;p>とのこと。なんかヤバそう&amp;hellip;&lt;/p>
-&lt;p>もちろん、この文から読み取れるようなそこまでヤバそうな感じではないです（笑）&lt;/p>
-&lt;p>一言でいうと、参加者同士が、チームを組んで一つの作品を作ろうというイベントになっています。twitter にて簡単に紹介しているので良ければ見てください。&lt;/p>
-&lt;p>ハッカソンの紹介
-&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">&lt;a href="https://twitter.com/hashtag/%E5%A4%A7%E9%98%AA%E5%BA%9C%E7%AB%8B%E5%A4%A7%E5%AD%A6?src=hash&amp;amp;ref_src=twsrc%5Etfw">#大阪府立大学&lt;/a>&lt;br>&lt;br>今日紹介するのは、ハッカソンです！&lt;br>&lt;br>年に２回、コンピュータハウスランダムさんも交えてハッカソンを主催しています！&lt;br>アプリNaviでは部員同士でチームを組んで、発表されるお題に沿って、約２日で一つのゲームやアプリを制作、発表する形式をとっています。&lt;br>&lt;br>↓リプ欄に続く &lt;a href="https://t.co/pZdAznwB0V">pic.twitter.com/pZdAznwB0V&lt;/a>&lt;/p>&amp;mdash; OPU アプリNavi (@OPUAppNavi) &lt;a href="https://twitter.com/OPUAppNavi/status/1246644279813926912?ref_src=twsrc%5Etfw">April 5, 2020&lt;/a>&lt;/blockquote>
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
-&lt;/p>
-&lt;p>ハッカソンの紹介はこの程度にして、そこでは審査員の方もお呼びして、それぞれの作品を審査してもらう形を取っています。&lt;/p>
-&lt;p>その審査の際、採点用紙が必要だったので、ちょうど GAS を勉強し始めたこともあり自作することにしました。&lt;/p>
-&lt;h2 id="作ったもの">作ったもの&lt;/h2>
-&lt;p>それ専用に作ったので、完全に内輪向けですが画像としてはこんなものです。&lt;/p>
-&lt;figure id="figure-作ったもの">
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="./HackathonScoreSheet.png" alt="作ったもの" loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;figcaption>
-作ったもの
-&lt;/figcaption>&lt;/figure>
-&lt;p>見た目等はいまいちですが、ちゃんと動きます。&lt;/p>
-&lt;p>審査員の方に審査するチーム名を選択してもらい、それぞれの項目について点数を付け送信してもらうといった流れです。&lt;/p>
-&lt;p>こういうの何かの初歩の題材でありそうですね&amp;hellip;&lt;/p>
-&lt;h2 id="どうして-gas-で">どうして GAS で？&lt;/h2>
-&lt;p>大きな理由としては、GAS を知り始めて使ってみたかったというのがありますが、&lt;/p>
-&lt;p>その使ってみたくなるという前提となるのが、手軽に作成できるからです。&lt;/p>
-&lt;p>その理湯としては大きく分けて２つあります。&lt;/p>
-&lt;h3 id="サーバー等の手続きがいらず簡単に公開できる">サーバー等の手続きがいらず、簡単に公開できる&lt;/h3>
-&lt;p>GAS では Google のサーバーを使っているので、このような簡単なサイトでもサーバーを借りるなどの作業がいらず、実質ワンクリックで公開、利用できます。&lt;/p>
-&lt;p>GAS のエディタから、おおよそここをクリックしたら公開できます&lt;/p>
-&lt;figure id="figure-公開方法">
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="./GAS_Release.png" alt="公開方法" loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;figcaption>
-公開方法
-&lt;/figcaption>&lt;/figure>
-&lt;h4 id="spreadsheet-を簡易的なデータベースのように利用できる">SpreadSheet を簡易的なデータベースのように利用できる&lt;/h4>
-&lt;p>個人的には SpreadSheet を簡易的なデータベースとして利用できるのは大きいと思います。&lt;/p>
-&lt;p>SpreadSheet を簡易的なデータベースとして用いることで、データベースの知識がなくても簡単な事ならできますし、なんにせよ上限はありますが、無料で利用できるので、少なくとも何かをパッと作りたいときにはいいのではないかと！&lt;/p>
-&lt;p>一応、ちょっとした例として、ユーザーの入力を SpreadSheet に追加するコードを載せておきます…&lt;/p>
-&lt;ul>
-&lt;li>HTML の&lt;code>&amp;lt;form&amp;gt;&amp;lt;/form&amp;gt;&lt;/code>に入力された内容を SpreadSheet に記述&lt;/li>
-&lt;/ul>
-&lt;pre>&lt;code class="language-html:index.html">&amp;lt;form method=&amp;quot;post&amp;quot; action=&amp;quot;送信先のURL&amp;quot;&amp;gt;
-....
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;ここまで順を追って簡単にぐるなび API のデータの取得から利用方法まで見てきましたが、条件をある程度絞った中でユーザーに条件を入力してもうなど紹介したもの以外でもやり方は色々あると思うのでよければ試してみてください！&lt;/p&gt;
+&lt;p&gt;あと注意としてはお店のデータが&amp;quot;ぐるなび&amp;quot;と&amp;quot;ぐるなび API&amp;quot; では異なり、思ったような店が出力されないというのがあるのでまずはお試しという形で利用したほうがいいかもしれないです。&lt;/p&gt;
+&lt;h1 id=&#34;参考サイト&#34;&gt;参考サイト&lt;/h1&gt;
+&lt;p&gt;今さら聞けない IT 用語：やたらと耳にするけど「API」って何？&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://data.wingarc.com/what-is-api-16084&#34;&gt;https://data.wingarc.com/what-is-api-16084&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;最後に&#34;&gt;最後に&lt;/h1&gt;
+&lt;p&gt;改めて API、WebAPI を用いると簡単に機能が実装できるので、特に開発期間が短いハッカソンなどのイベント時では特に重宝しますし、これらの WebAPI を組み合わせることで、ある程度十分使えるものができるのではと思います。次回のイベントやもちろん普段の開発にでも知らなかった人は使ってみるといいかもしれません！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GAS でサクッと採点シート作ってみた</title>
+      <link>https://blog.opuappnavi.com/post/gas-scoring/</link>
+      <pubDate>Sat, 30 May 2020 10:04:44 +0900</pubDate>
+      <guid>https://blog.opuappnavi.com/post/gas-scoring/</guid>
+      <description>&lt;p&gt;全然需要ないかもですが、GAS の紹介第二弾です。&lt;/p&gt;
+&lt;p&gt;今回は GAS を使って、以前ハッカソンの採点シートをちゃっと作った話をしたい思います。&lt;/p&gt;
+&lt;p&gt;手軽にできるので、JavaScript など、プログラミングを最近学び始めた方はちょっと実践がてらに GAS を利用して何か作ってみたらどうでしょう？みたいな気持ちで書いたので、読んでもらえたら幸いです。（GAS は一応 JavaScript ベースでできています(^^)/)&lt;/p&gt;
+&lt;h2 id=&#34;gas-って&#34;&gt;GAS って？&lt;/h2&gt;
+&lt;p&gt;こちらで紹介しているので良ければ見ていってください！&lt;/p&gt;
+
+
+
+
+
+
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+&lt;div class=&#34;card-simple&#34;&gt;
+
+  
+    
+
+
+&lt;div class=&#34;article-metadata&#34;&gt;
+
+  
+  
+    
+    
+      &lt;div&gt;
+        
+
+  &lt;span &gt;
+      &lt;a href=&#34;https://blog.opuappnavi.com/authors/nobu/&#34;&gt;Nobu&lt;/a&gt;&lt;/span&gt;
+      &lt;/div&gt;
+    
+  
+
+  
+  &lt;span class=&#34;article-date&#34;&gt;
+    
+    2020/05/28  投稿  
+    
+    
+      ( 2020/05/30  最終更新 )
+    
+  &lt;/span&gt;
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+&lt;/div&gt;
+
+  
+
+  
+  
+  
+
+  &lt;div class=&#34;section-subheading article-title mb-1 mt-3&#34;&gt;
+    &lt;a href=&#34;https://blog.opuappnavi.com/post/gas-recommendation/&#34;&gt;手軽に始める！GAS を使ってみませんか～&lt;/a&gt;
+  &lt;/div&gt;
+
+  
+  &lt;a href=&#34;https://blog.opuappnavi.com/post/gas-recommendation/&#34; class=&#34;summary-link&#34;&gt;
+    &lt;div class=&#34;article-style&#34;&gt;
+      &lt;p&gt;Google Apps Scriptの紹介&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/a&gt;
+  
+
+  
+  &lt;div class=&#34;btn-links&#34;&gt;
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://blog.opuappnavi.com/project/opu-virtual-festival-2020/&#34;&gt;
+    プロジェクト
+  &lt;/a&gt;
+  
+
+
+
+
+
+
+
+
+
+
+
+  &lt;/div&gt;
+  
+
+&lt;/div&gt;
+
+  
+
+
+&lt;h2 id=&#34;作った経緯ついでにハッカソンの紹介&#34;&gt;作った経緯（ついでにハッカソンの紹介）&lt;/h2&gt;
+&lt;p&gt;アプリ Navi では毎年、長期休みのどこかで、ハッカソンというものを開催しています。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ハッカソン&lt;/strong&gt;とは&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ハッカソン（英語: hackathon 、別名:hack day ,hackfest ,codefest ）とは、ソフトウェア開発分野のプログラマやグラフィックデザイナー、ユーザインタフェース設計者、プロジェクトマネージャらが集中的に作業をするソフトウェア関連プロジェクトのイベントである
+(&lt;a href=&#34;https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wikipedia より抜粋&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;とのこと。なんかヤバそう&amp;hellip;&lt;/p&gt;
+&lt;p&gt;もちろん、この文から読み取れるようなそこまでヤバそうな感じではないです（笑）&lt;/p&gt;
+&lt;p&gt;一言でいうと、参加者同士が、チームを組んで一つの作品を作ろうというイベントになっています。twitter にて簡単に紹介しているので良ければ見てください。&lt;/p&gt;
+&lt;p&gt;ハッカソンの紹介
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/hashtag/%E5%A4%A7%E9%98%AA%E5%BA%9C%E7%AB%8B%E5%A4%A7%E5%AD%A6?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#大阪府立大学&lt;/a&gt;&lt;br&gt;&lt;br&gt;今日紹介するのは、ハッカソンです！&lt;br&gt;&lt;br&gt;年に２回、コンピュータハウスランダムさんも交えてハッカソンを主催しています！&lt;br&gt;アプリNaviでは部員同士でチームを組んで、発表されるお題に沿って、約２日で一つのゲームやアプリを制作、発表する形式をとっています。&lt;br&gt;&lt;br&gt;↓リプ欄に続く &lt;a href=&#34;https://t.co/pZdAznwB0V&#34;&gt;pic.twitter.com/pZdAznwB0V&lt;/a&gt;&lt;/p&gt;&amp;mdash; OPU アプリNavi (@OPUAppNavi) &lt;a href=&#34;https://twitter.com/OPUAppNavi/status/1246644279813926912?ref_src=twsrc%5Etfw&#34;&gt;April 5, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/p&gt;
+&lt;p&gt;ハッカソンの紹介はこの程度にして、そこでは審査員の方もお呼びして、それぞれの作品を審査してもらう形を取っています。&lt;/p&gt;
+&lt;p&gt;その審査の際、採点用紙が必要だったので、ちょうど GAS を勉強し始めたこともあり自作することにしました。&lt;/p&gt;
+&lt;h2 id=&#34;作ったもの&#34;&gt;作ったもの&lt;/h2&gt;
+&lt;p&gt;それ専用に作ったので、完全に内輪向けですが画像としてはこんなものです。&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-作ったもの&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./HackathonScoreSheet.png&#34; alt=&#34;作ったもの&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      作ったもの
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;見た目等はいまいちですが、ちゃんと動きます。&lt;/p&gt;
+&lt;p&gt;審査員の方に審査するチーム名を選択してもらい、それぞれの項目について点数を付け送信してもらうといった流れです。&lt;/p&gt;
+&lt;p&gt;こういうの何かの初歩の題材でありそうですね&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;どうして-gas-で&#34;&gt;どうして GAS で？&lt;/h2&gt;
+&lt;p&gt;大きな理由としては、GAS を知り始めて使ってみたかったというのがありますが、&lt;/p&gt;
+&lt;p&gt;その使ってみたくなるという前提となるのが、手軽に作成できるからです。&lt;/p&gt;
+&lt;p&gt;その理湯としては大きく分けて２つあります。&lt;/p&gt;
+&lt;h3 id=&#34;サーバー等の手続きがいらず簡単に公開できる&#34;&gt;サーバー等の手続きがいらず、簡単に公開できる&lt;/h3&gt;
+&lt;p&gt;GAS では Google のサーバーを使っているので、このような簡単なサイトでもサーバーを借りるなどの作業がいらず、実質ワンクリックで公開、利用できます。&lt;/p&gt;
+&lt;p&gt;GAS のエディタから、おおよそここをクリックしたら公開できます&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-公開方法&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./GAS_Release.png&#34; alt=&#34;公開方法&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      公開方法
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;spreadsheet-を簡易的なデータベースのように利用できる&#34;&gt;SpreadSheet を簡易的なデータベースのように利用できる&lt;/h4&gt;
+&lt;p&gt;個人的には SpreadSheet を簡易的なデータベースとして利用できるのは大きいと思います。&lt;/p&gt;
+&lt;p&gt;SpreadSheet を簡易的なデータベースとして用いることで、データベースの知識がなくても簡単な事ならできますし、なんにせよ上限はありますが、無料で利用できるので、少なくとも何かをパッと作りたいときにはいいのではないかと！&lt;/p&gt;
+&lt;p&gt;一応、ちょっとした例として、ユーザーの入力を SpreadSheet に追加するコードを載せておきます…&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;HTML の&lt;code&gt;&amp;lt;form&amp;gt;&amp;lt;/form&amp;gt;&lt;/code&gt;に入力された内容を SpreadSheet に記述&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-html:index.html&#34;&gt;&amp;lt;form method=&amp;quot;post&amp;quot; action=&amp;quot;送信先のURL&amp;quot;&amp;gt;
+  ....
 &amp;lt;/form&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;pre>&lt;code class="language-JavaScript:input.gs">function doPost(e){
-//データを記録するスプレッドシート
-var sheet =SpreadsheetApp.openByUrl(&amp;quot;//利用したいSpreadSheetのURL//&amp;quot;);
-...
-//チーム名、各採点項目の情報を取得
-var name = e.parameter.name;
-var theme = e.parameter.theme;
-var uniqe = e.parameter.uniqe;
-var practice = e.parameter.practice;
-var presentation = e.parameter.presentation;
-var comment = e.parameter.comment;
-//データ
-var array = [userEmail,name,theme,uniqe,practice,presentation,comment];
-//SpreadSheetにデータを追加
-sheet.appendRow(array);
-...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-JavaScript:input.gs&#34;&gt;function doPost(e){
+  //データを記録するスプレッドシート
+  var sheet =SpreadsheetApp.openByUrl(&amp;quot;//利用したいSpreadSheetのURL//&amp;quot;);
+  ...
+  //チーム名、各採点項目の情報を取得
+  var name = e.parameter.name;
+  var theme = e.parameter.theme;
+  var uniqe = e.parameter.uniqe;
+  var practice = e.parameter.practice;
+  var presentation = e.parameter.presentation;
+  var comment = e.parameter.comment;
+
+  //データ
+  var array = [userEmail,name,theme,uniqe,practice,presentation,comment];
+
+  //SpreadSheetにデータを追加
+  sheet.appendRow(array);
+  ...
 }
-&lt;/code>&lt;/pre>
-&lt;p>データの保存だけですが、このように SpreadSheet を用いることで手軽に簡易的なデータベースを利用することができます。&lt;/p>
-&lt;p>また SpreadSheet を Sheet API として利用することで GAS のプロジェクトだけではなく、その他の web 開発やスマホアプリ開発などにもデータベースとして活用できるので知っておいて損はないかと思います。&lt;/p>
-&lt;h2 id="コード">コード&lt;/h2>
-&lt;p>こんなので公開していいのかという思いもありますが、大まかなコードを載せておきます。お見苦しいですが、何卒ご容赦下さい、、、
-恐らくすごく簡単というのが分かると思います。&lt;/p>
-&lt;pre>&lt;code class="language-html:index.html">&amp;lt;!DOCTYPE html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;データの保存だけですが、このように SpreadSheet を用いることで手軽に簡易的なデータベースを利用することができます。&lt;/p&gt;
+&lt;p&gt;また SpreadSheet を Sheet API として利用することで GAS のプロジェクトだけではなく、その他の web 開発やスマホアプリ開発などにもデータベースとして活用できるので知っておいて損はないかと思います。&lt;/p&gt;
+&lt;h2 id=&#34;コード&#34;&gt;コード&lt;/h2&gt;
+&lt;p&gt;こんなので公開していいのかという思いもありますが、大まかなコードを載せておきます。お見苦しいですが、何卒ご容赦下さい、、、
+恐らくすごく簡単というのが分かると思います。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-html:index.html&#34;&gt;&amp;lt;!DOCTYPE html&amp;gt;
 &amp;lt;html lang=&amp;quot;ja&amp;quot;&amp;gt;
-&amp;lt;head&amp;gt;
-&amp;lt;base target=&amp;quot;_top&amp;quot; /&amp;gt;
-&amp;lt;!-- GASでのcssの読み込み--&amp;gt;
-&amp;lt;?!= HtmlService.createHtmlOutputFromFile('css').getContent(); ?&amp;gt;
-&amp;lt;meta
-name=&amp;quot;viewport&amp;quot;
-content=&amp;quot;width=device-width,initial-scale=1.0,minimum-scale=1.0&amp;quot;
-/&amp;gt;
-&amp;lt;/head&amp;gt;
-&amp;lt;body&amp;gt;
-&amp;lt;div class=&amp;quot;wrap&amp;quot;&amp;gt;
-&amp;lt;h1&amp;gt;ハッカソン 採点シート&amp;lt;/h1&amp;gt;
-&amp;lt;p&amp;gt;
-使い方:&amp;lt;br /&amp;gt;採点欄がチームごとに４つの項目があるので各１０点、&amp;lt;br /&amp;gt;
-合計40点で採点をお願いします。&amp;lt;br /&amp;gt;
-各チームの採点が終わり次第、一番下の送信ボタンをおしてください。&amp;lt;br /&amp;gt;
-また申し訳ありませんが、誤送信など、なにかございましたらすぐにご連絡ください
-&amp;lt;/p&amp;gt;
-&amp;lt;form method=&amp;quot;post&amp;quot; action=&amp;quot;送信先のURL&amp;quot;&amp;gt;
-&amp;lt;table border=&amp;quot;1&amp;quot; width=&amp;quot;100%&amp;quot; height=&amp;quot;30rem&amp;quot;&amp;gt;
-&amp;lt;tr&amp;gt;
-&amp;lt;th&amp;gt;チーム名&amp;lt;/th&amp;gt;
-&amp;lt;th&amp;gt;
-&amp;lt;select name=&amp;quot;name&amp;quot;&amp;gt;
-&amp;lt;option value=&amp;quot;&amp;quot;&amp;gt;選択してください&amp;lt;/option&amp;gt;
-&amp;lt;option value=&amp;quot;/*チーム名*/&amp;quot;&amp;gt;/*チーム名*/&amp;lt;/option&amp;gt;
-...
-&amp;lt;/select&amp;gt;
-&amp;lt;/th&amp;gt;
-&amp;lt;/tr&amp;gt;
-&amp;lt;tr&amp;gt;
-&amp;lt;th colspan=&amp;quot;2&amp;quot;&amp;gt;採点項目&amp;lt;/th&amp;gt;
-&amp;lt;/tr&amp;gt;
-&amp;lt;tr&amp;gt;
-&amp;lt;td&amp;gt;/*採点項目*/&amp;lt;/td&amp;gt;
-&amp;lt;td&amp;gt;&amp;lt;input type=&amp;quot;number&amp;quot; name=&amp;quot;name&amp;quot; min=&amp;quot;0&amp;quot; max=&amp;quot;10&amp;quot; /&amp;gt;/10&amp;lt;/td&amp;gt;
-...
-&amp;lt;/tr&amp;gt;
-&amp;lt;tr&amp;gt;
-&amp;lt;td&amp;gt;コメント&amp;lt;/td&amp;gt;
-&amp;lt;td&amp;gt;
-&amp;lt;textarea
-id=&amp;quot;commit&amp;quot;
-name=&amp;quot;comment&amp;quot;
-placeholder=&amp;quot;こちらに何かチームに向けてコメントあればお願いします！&amp;quot;
-&amp;gt;&amp;lt;/textarea&amp;gt;
-&amp;lt;/td&amp;gt;
-&amp;lt;/tr&amp;gt;
-&amp;lt;/table&amp;gt;
-&amp;lt;p&amp;gt;
-&amp;lt;input
-type=&amp;quot;submit&amp;quot;
-value=&amp;quot;送信する&amp;quot;
-style=&amp;quot;width:200px;height:100px;font-size:30px;float:right&amp;quot;
-/&amp;gt;
-&amp;lt;/p&amp;gt;
-&amp;lt;/form&amp;gt;
-&amp;lt;/div&amp;gt;
-&amp;lt;/body&amp;gt;
+  &amp;lt;head&amp;gt;
+    &amp;lt;base target=&amp;quot;_top&amp;quot; /&amp;gt;
+    &amp;lt;!-- GASでのcssの読み込み--&amp;gt;
+    &amp;lt;?!= HtmlService.createHtmlOutputFromFile(&#39;css&#39;).getContent(); ?&amp;gt;
+    &amp;lt;meta
+      name=&amp;quot;viewport&amp;quot;
+      content=&amp;quot;width=device-width,initial-scale=1.0,minimum-scale=1.0&amp;quot;
+    /&amp;gt;
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;div class=&amp;quot;wrap&amp;quot;&amp;gt;
+      &amp;lt;h1&amp;gt;ハッカソン 採点シート&amp;lt;/h1&amp;gt;
+      &amp;lt;p&amp;gt;
+        使い方:&amp;lt;br /&amp;gt;採点欄がチームごとに４つの項目があるので各１０点、&amp;lt;br /&amp;gt;
+        合計40点で採点をお願いします。&amp;lt;br /&amp;gt;
+        各チームの採点が終わり次第、一番下の送信ボタンをおしてください。&amp;lt;br /&amp;gt;
+        また申し訳ありませんが、誤送信など、なにかございましたらすぐにご連絡ください
+      &amp;lt;/p&amp;gt;
+      &amp;lt;form method=&amp;quot;post&amp;quot; action=&amp;quot;送信先のURL&amp;quot;&amp;gt;
+        &amp;lt;table border=&amp;quot;1&amp;quot; width=&amp;quot;100%&amp;quot; height=&amp;quot;30rem&amp;quot;&amp;gt;
+          &amp;lt;tr&amp;gt;
+            &amp;lt;th&amp;gt;チーム名&amp;lt;/th&amp;gt;
+            &amp;lt;th&amp;gt;
+              &amp;lt;select name=&amp;quot;name&amp;quot;&amp;gt;
+                &amp;lt;option value=&amp;quot;&amp;quot;&amp;gt;選択してください&amp;lt;/option&amp;gt;
+                &amp;lt;option value=&amp;quot;/*チーム名*/&amp;quot;&amp;gt;/*チーム名*/&amp;lt;/option&amp;gt;
+                ...
+              &amp;lt;/select&amp;gt;
+            &amp;lt;/th&amp;gt;
+          &amp;lt;/tr&amp;gt;
+          &amp;lt;tr&amp;gt;
+            &amp;lt;th colspan=&amp;quot;2&amp;quot;&amp;gt;採点項目&amp;lt;/th&amp;gt;
+          &amp;lt;/tr&amp;gt;
+          &amp;lt;tr&amp;gt;
+            &amp;lt;td&amp;gt;/*採点項目*/&amp;lt;/td&amp;gt;
+            &amp;lt;td&amp;gt;&amp;lt;input type=&amp;quot;number&amp;quot; name=&amp;quot;name&amp;quot; min=&amp;quot;0&amp;quot; max=&amp;quot;10&amp;quot; /&amp;gt;/10&amp;lt;/td&amp;gt;
+            ...
+          &amp;lt;/tr&amp;gt;
+
+          &amp;lt;tr&amp;gt;
+            &amp;lt;td&amp;gt;コメント&amp;lt;/td&amp;gt;
+            &amp;lt;td&amp;gt;
+              &amp;lt;textarea
+                id=&amp;quot;commit&amp;quot;
+                name=&amp;quot;comment&amp;quot;
+                placeholder=&amp;quot;こちらに何かチームに向けてコメントあればお願いします！&amp;quot;
+              &amp;gt;&amp;lt;/textarea&amp;gt;
+            &amp;lt;/td&amp;gt;
+          &amp;lt;/tr&amp;gt;
+        &amp;lt;/table&amp;gt;
+        &amp;lt;p&amp;gt;
+          &amp;lt;input
+            type=&amp;quot;submit&amp;quot;
+            value=&amp;quot;送信する&amp;quot;
+            style=&amp;quot;width:200px;height:100px;font-size:30px;float:right&amp;quot;
+          /&amp;gt;
+        &amp;lt;/p&amp;gt;
+      &amp;lt;/form&amp;gt;
+    &amp;lt;/div&amp;gt;
+  &amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;pre>&lt;code class="language-JavaScript:コード.gs">//htmlを読み込む
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-JavaScript:コード.gs&#34;&gt;//htmlを読み込む
 function doGet() {
-var template = 'index';
-return HtmlService.createTemplateFromFile(template).evaluate();
+  var template = &#39;index&#39;;
+  return HtmlService.createTemplateFromFile(template).evaluate();
 }
 //得点計算処理
 function myFunction() {
-var sum = [];
-var teamList = [&amp;quot;/*チームリスト*/&amp;quot;];
-for(var j = 0; j &amp;lt; 8;j++){
-sum[j] = 0;
-}
+
+  var sum = [];
+
+  var teamList = [&amp;quot;/*チームリスト*/&amp;quot;];
+
+  for(var j = 0; j &amp;lt; 8;j++){
+    sum[j] = 0;
+  }
 //spreadsheetのデータを取得する処理(細かい解説は省きます)
-var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
-var sheet = spreadsheet.getActiveSheet();
-var lastRow = sheet.getLastRow();
-Logger.log(lastRow);
-for(i = 9; i &amp;lt;= lastRow;i++){
-var range = sheet.getRange(i,2);
-for(k = 0; k &amp;lt; 8;k++){
-if(range.getValue() == teamList[k]){
-var range = sheet.getRange(i,3,1,4);
-var valueArray = range.getValues();
-for(var u = 0; u &amp;lt; 4;u++){
-sum[k] += valueArray[0][u];
+  var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
+  var sheet = spreadsheet.getActiveSheet();
+
+  var lastRow = sheet.getLastRow();
+  Logger.log(lastRow);
+
+  for(i = 9; i &amp;lt;= lastRow;i++){
+    var range = sheet.getRange(i,2);
+
+    for(k = 0; k &amp;lt; 8;k++){
+
+      if(range.getValue() == teamList[k]){
+        var range = sheet.getRange(i,3,1,4);
+        var valueArray = range.getValues();
+        for(var u = 0; u &amp;lt; 4;u++){
+          sum[k] += valueArray[0][u];
+    }
+      }
+  }
+  }
+  for(i = 0;i &amp;lt; 8;i++){
+    sheet.getRange(i + 1 ,9).setValue(sum[i]);
+  }
 }
-}
-}
-}
-for(i = 0;i &amp;lt; 8;i++){
-sheet.getRange(i + 1 ,9).setValue(sum[i]);
-}
-}
-&lt;/code>&lt;/pre>
-&lt;h2 id="作ってみた感想">作ってみた感想&lt;/h2>
-&lt;p>コード自体も非常に簡単ながら、データの保存等も SpreadSheet で行い、利用してもらうための公開もすぐにできるので、サクッと作ることが出来ました。
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;作ってみた感想&#34;&gt;作ってみた感想&lt;/h2&gt;
+&lt;p&gt;コード自体も非常に簡単ながら、データの保存等も SpreadSheet で行い、利用してもらうための公開もすぐにできるので、サクッと作ることが出来ました。
 ただやはり GAS 自体の勉強もいるかなという感じです。
-また勉強だけでなく、大小あれど自分で実際に使ってもらうものを作ることができたので、その点は良かったと思います。&lt;/p>
-&lt;h2 id="最後に">最後に&lt;/h2>
-&lt;p>今回は本当に簡単な例をあげましたが、かなりざっくりしていたので、説明不足の点も多々あって申し訳ないです。ただ、こんなのがあるとだけ伝われば幸いです。
-また、もちろん GAS にはもっと様々な事に利用することができるので、ご興味のある方は一度調べてみてください！&lt;/p>
-&lt;p>追伸&lt;/p>
-&lt;p>普通に Google Form とかでやればええやん、とかは言わないで m(_ _)m&lt;/p></description></item><item><title>手軽に始める！GAS を使ってみませんか～</title><link>https://blog.opuappnavi.com/post/gas-recommendation/</link><pubDate>Thu, 28 May 2020 19:47:24 +0900</pubDate><guid>https://blog.opuappnavi.com/post/gas-recommendation/</guid><description>&lt;p>どうもこんにちは、今回は自分がよく使っている、GAS について紹介したいと思います。&lt;/p>
-&lt;p>ちなみにタイトルの通り、手軽に始められるので、最近プログラミングを始めたという方にもおススメなのでぜひ見ていってください(^-^)&lt;/p>
-&lt;h1 id="gas-って">GAS って?&lt;/h1>
-&lt;p>&lt;strong>GAS&lt;/strong>とは &lt;strong>Google Apps Script&lt;/strong>の略でプログラミング言語の一つです。&lt;/p>
-&lt;p>読み方はガス、ギャスなどと言われることが多いです。&lt;/p>
-&lt;p>一応、
-&lt;a href="https://developers.google.com/gsuite/aspects/appsscript?hl=ja" target="_blank" rel="noopener">公式&lt;/a>の文言を載せておくと、&lt;/p>
-&lt;blockquote>
-&lt;p>Google Apps Script は JavaScript ベースのスクリプト言語で、ドキュメント、スプレッドシート、スライド、フォームなどの G Suite サービスをカスタマイズ、拡張できます。&lt;/p>
-&lt;/blockquote>
-&lt;p>とのこと。（抜粋）&lt;/p>
-&lt;h1 id="gas-で何ができるの">GAS で何ができるの？&lt;/h1>
-&lt;p>じゃあ GAS で何ができるのかというと、色々とあると思うのですが、とりあえず大きく分けてこの２つかなと。&lt;/p>
-&lt;ul>
-&lt;li>Google のサービスをより便利に活用する&lt;/li>
-&lt;li>web アプリケーションの作成、公開&lt;/li>
-&lt;/ul>
-&lt;p>順に紹介していきます。&lt;/p>
-&lt;h1 id="google-のサービスをより便利に活用する">Google のサービスをより便利に活用する&lt;/h1>
-&lt;p>GAS では Google のサービスをより自由に効率的に使うことが出来ます。&lt;/p>
-&lt;p>下記のようなサービスを利用する際、GAS のコードを加えることで、面倒な作業を自動化したりなどが可能です。&lt;/p>
-&lt;h2 id="利用できるサービス例">利用できるサービス例&lt;/h2>
-&lt;ul>
-&lt;li>Google Document&lt;/li>
-&lt;li>G Mail&lt;/li>
-&lt;li>Google SpreadSheet&lt;/li>
-&lt;li>Google Calender&lt;/li>
-&lt;li>Google Form 　　　　などなど…&lt;/li>
-&lt;/ul>
-&lt;p>これらのサービスを使っている人も比較的多いのではないでしょうか？&lt;/p>
-&lt;h2 id="使用例">使用例&lt;/h2>
-&lt;p>具体的に GAS で Google のサービスをより効果的に用いた使用例としてはこのようなものがあります。&lt;/p>
-&lt;ul>
-&lt;li>カレンダーに自動でスケジュールを記入&lt;/li>
-&lt;li>事務的メールを複数人に指定の時間に自動送信&lt;/li>
-&lt;li>Google Formを自分好みに改造&lt;/li>
-&lt;/ul>
-&lt;p>もちろん他にも色々とありますが、例のように日常の何気ない作業を自動化したり、普段用いているサービスの機能を拡張するようなことができます。&lt;/p>
-&lt;h1 id="web-アプリケーションの作成公開">Web アプリケーションの作成、公開&lt;/h1>
-&lt;p>GAS では、google のサービスと連携して、web アプリケーションを開発、公開する機能があります。&lt;/p>
-&lt;p>またアプリケーションの機能として、googleのサービスと連携しているのでその機能を簡単に用いることができ、少しのコードでちょっと素敵な事を行うことが可能です。&lt;/p>
-&lt;h2 id="使用例-1">使用例&lt;/h2>
-&lt;p>簡単に例をあげると&lt;/p>
-&lt;ul>
-&lt;li>SpreadSheetを簡易的なデータベースのように使う&lt;/li>
-&lt;li>G Mailを用いてメール送信機能を作る&lt;/li>
-&lt;/ul>
-&lt;p>などがあります。&lt;/p>
-&lt;p>他にも外部アプリケーションとの連携などを組合せて、様々な事ができると思うので、ぜひ試してください！&lt;/p>
-&lt;h1 id="gasを使用するメリット">GASを使用するメリット&lt;/h1>
-&lt;p>GASで何ができるかというのを紹介したところで、タイトルの&lt;strong>お手軽&lt;/strong>という理由を紹介していきます。&lt;/p>
-&lt;h2 id="開発環境構築がいらない">開発環境構築がいらない！&lt;/h2>
-&lt;p>GASでは新しく言語をはじめるときの面倒な環境構築はほとんどありません。&lt;/p>
-&lt;p>必要なのは&lt;strong>Googleアカウント&lt;/strong>だけ。&lt;/p>
-&lt;p>加えて、実行はGoogleのサーバーを利用するので、レンタルサーバーを用意したり、それ関係のツールを利用することもなく開発をすることができます。&lt;/p>
-&lt;h2 id="無料">無料！&lt;/h2>
-&lt;p>利用するのに基本的にお金はかかりません。&lt;/p>
-&lt;h2 id="学習コストが低い勉強になる">学習コストが低い、勉強になる！&lt;/h2>
-&lt;p>GASはJavaScriptベースで、そしてwebサイトを開発する時に良く用いられるHTML,CSSを使用して開発することが可能なので、一般的に学習コストはそこまで高くないです。&lt;/p>
-&lt;p>それにJavaScriptを勉強中の方はそれを使って手軽にアプリケーションを作ったりできるので、その学習の実践の場として助けにもなると思います。&lt;/p>
-&lt;h1 id="デメリットもあります">デメリットもあります…&lt;/h1>
-&lt;p>メリットの反面、やはりデメリットもあります。&lt;/p>
-&lt;p>その例として一つあげると無料で利用できる反面、Googleのサーバーを利用していているので、ユーザーによる過剰な負担を避けるために利用するのに制限があります。&lt;/p>
-&lt;p>もっとも大きな制限として考えられるのは実行制限で、&lt;/p>
-&lt;ul>
-&lt;li>1回あたりの実行制限時間: 6分&lt;/li>
-&lt;/ul>
-&lt;p>となっています。&lt;/p>
-&lt;p>これは工夫せずに重い処理を何度も書くと、引っかかってしまうので注意が必要です…&lt;/p>
-&lt;p>そのためGASはそこまで大きなプロジェクトには向いていないと言えます&amp;hellip;&lt;/p>
-&lt;p>詳しい公式の制限は&lt;a href="https://developers.google.com/apps-script/guides/services/quotas" target="_blank" rel="noopener">コチラ&lt;/a>&lt;/p>
-&lt;h1 id="さっそく始めてみよう">さっそく始めてみよう&lt;/h1>
-&lt;p>始める方法はとても簡単です。せっかくなので実際にやってみます。&lt;/p>
-&lt;ol start="0">
-&lt;li>
-&lt;p>googleアカウントの作成（無い方は）&lt;br>
+また勉強だけでなく、大小あれど自分で実際に使ってもらうものを作ることができたので、その点は良かったと思います。&lt;/p&gt;
+&lt;h2 id=&#34;最後に&#34;&gt;最後に&lt;/h2&gt;
+&lt;p&gt;今回は本当に簡単な例をあげましたが、かなりざっくりしていたので、説明不足の点も多々あって申し訳ないです。ただ、こんなのがあるとだけ伝われば幸いです。
+また、もちろん GAS にはもっと様々な事に利用することができるので、ご興味のある方は一度調べてみてください！&lt;/p&gt;
+&lt;p&gt;追伸&lt;/p&gt;
+&lt;p&gt;普通に Google Form とかでやればええやん、とかは言わないで m(_ _)m&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>手軽に始める！GAS を使ってみませんか～</title>
+      <link>https://blog.opuappnavi.com/post/gas-recommendation/</link>
+      <pubDate>Thu, 28 May 2020 19:47:24 +0900</pubDate>
+      <guid>https://blog.opuappnavi.com/post/gas-recommendation/</guid>
+      <description>&lt;p&gt;どうもこんにちは、今回は自分がよく使っている、GAS について紹介したいと思います。&lt;/p&gt;
+&lt;p&gt;ちなみにタイトルの通り、手軽に始められるので、最近プログラミングを始めたという方にもおススメなのでぜひ見ていってください(^-^)&lt;/p&gt;
+&lt;h1 id=&#34;gas-って&#34;&gt;GAS って?&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;GAS&lt;/strong&gt;とは &lt;strong&gt;Google Apps Script&lt;/strong&gt;の略でプログラミング言語の一つです。&lt;/p&gt;
+&lt;p&gt;読み方はガス、ギャスなどと言われることが多いです。&lt;/p&gt;
+&lt;p&gt;一応、
+&lt;a href=&#34;https://developers.google.com/gsuite/aspects/appsscript?hl=ja&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;公式&lt;/a&gt;の文言を載せておくと、&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Google Apps Script は JavaScript ベースのスクリプト言語で、ドキュメント、スプレッドシート、スライド、フォームなどの G Suite サービスをカスタマイズ、拡張できます。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;とのこと。（抜粋）&lt;/p&gt;
+&lt;h1 id=&#34;gas-で何ができるの&#34;&gt;GAS で何ができるの？&lt;/h1&gt;
+&lt;p&gt;じゃあ GAS で何ができるのかというと、色々とあると思うのですが、とりあえず大きく分けてこの２つかなと。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Google のサービスをより便利に活用する&lt;/li&gt;
+&lt;li&gt;web アプリケーションの作成、公開&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;順に紹介していきます。&lt;/p&gt;
+&lt;h1 id=&#34;google-のサービスをより便利に活用する&#34;&gt;Google のサービスをより便利に活用する&lt;/h1&gt;
+&lt;p&gt;GAS では Google のサービスをより自由に効率的に使うことが出来ます。&lt;/p&gt;
+&lt;p&gt;下記のようなサービスを利用する際、GAS のコードを加えることで、面倒な作業を自動化したりなどが可能です。&lt;/p&gt;
+&lt;h2 id=&#34;利用できるサービス例&#34;&gt;利用できるサービス例&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Google Document&lt;/li&gt;
+&lt;li&gt;G Mail&lt;/li&gt;
+&lt;li&gt;Google SpreadSheet&lt;/li&gt;
+&lt;li&gt;Google Calender&lt;/li&gt;
+&lt;li&gt;Google Form 　　　　などなど…&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらのサービスを使っている人も比較的多いのではないでしょうか？&lt;/p&gt;
+&lt;h2 id=&#34;使用例&#34;&gt;使用例&lt;/h2&gt;
+&lt;p&gt;具体的に GAS で Google のサービスをより効果的に用いた使用例としてはこのようなものがあります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;カレンダーに自動でスケジュールを記入&lt;/li&gt;
+&lt;li&gt;事務的メールを複数人に指定の時間に自動送信&lt;/li&gt;
+&lt;li&gt;Google Formを自分好みに改造&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;もちろん他にも色々とありますが、例のように日常の何気ない作業を自動化したり、普段用いているサービスの機能を拡張するようなことができます。&lt;/p&gt;
+&lt;h1 id=&#34;web-アプリケーションの作成公開&#34;&gt;Web アプリケーションの作成、公開&lt;/h1&gt;
+&lt;p&gt;GAS では、google のサービスと連携して、web アプリケーションを開発、公開する機能があります。&lt;/p&gt;
+&lt;p&gt;またアプリケーションの機能として、googleのサービスと連携しているのでその機能を簡単に用いることができ、少しのコードでちょっと素敵な事を行うことが可能です。&lt;/p&gt;
+&lt;h2 id=&#34;使用例-1&#34;&gt;使用例&lt;/h2&gt;
+&lt;p&gt;簡単に例をあげると&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SpreadSheetを簡易的なデータベースのように使う&lt;/li&gt;
+&lt;li&gt;G Mailを用いてメール送信機能を作る&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;などがあります。&lt;/p&gt;
+&lt;p&gt;他にも外部アプリケーションとの連携などを組合せて、様々な事ができると思うので、ぜひ試してください！&lt;/p&gt;
+&lt;h1 id=&#34;gasを使用するメリット&#34;&gt;GASを使用するメリット&lt;/h1&gt;
+&lt;p&gt;GASで何ができるかというのを紹介したところで、タイトルの&lt;strong&gt;お手軽&lt;/strong&gt;という理由を紹介していきます。&lt;/p&gt;
+&lt;h2 id=&#34;開発環境構築がいらない&#34;&gt;開発環境構築がいらない！&lt;/h2&gt;
+&lt;p&gt;GASでは新しく言語をはじめるときの面倒な環境構築はほとんどありません。&lt;/p&gt;
+&lt;p&gt;必要なのは&lt;strong&gt;Googleアカウント&lt;/strong&gt;だけ。&lt;/p&gt;
+&lt;p&gt;加えて、実行はGoogleのサーバーを利用するので、レンタルサーバーを用意したり、それ関係のツールを利用することもなく開発をすることができます。&lt;/p&gt;
+&lt;h2 id=&#34;無料&#34;&gt;無料！&lt;/h2&gt;
+&lt;p&gt;利用するのに基本的にお金はかかりません。&lt;/p&gt;
+&lt;h2 id=&#34;学習コストが低い勉強になる&#34;&gt;学習コストが低い、勉強になる！&lt;/h2&gt;
+&lt;p&gt;GASはJavaScriptベースで、そしてwebサイトを開発する時に良く用いられるHTML,CSSを使用して開発することが可能なので、一般的に学習コストはそこまで高くないです。&lt;/p&gt;
+&lt;p&gt;それにJavaScriptを勉強中の方はそれを使って手軽にアプリケーションを作ったりできるので、その学習の実践の場として助けにもなると思います。&lt;/p&gt;
+&lt;h1 id=&#34;デメリットもあります&#34;&gt;デメリットもあります…&lt;/h1&gt;
+&lt;p&gt;メリットの反面、やはりデメリットもあります。&lt;/p&gt;
+&lt;p&gt;その例として一つあげると無料で利用できる反面、Googleのサーバーを利用していているので、ユーザーによる過剰な負担を避けるために利用するのに制限があります。&lt;/p&gt;
+&lt;p&gt;もっとも大きな制限として考えられるのは実行制限で、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1回あたりの実行制限時間: 6分&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;となっています。&lt;/p&gt;
+&lt;p&gt;これは工夫せずに重い処理を何度も書くと、引っかかってしまうので注意が必要です…&lt;/p&gt;
+&lt;p&gt;そのためGASはそこまで大きなプロジェクトには向いていないと言えます&amp;hellip;&lt;/p&gt;
+&lt;p&gt;詳しい公式の制限は&lt;a href=&#34;https://developers.google.com/apps-script/guides/services/quotas&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;コチラ&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;さっそく始めてみよう&#34;&gt;さっそく始めてみよう&lt;/h1&gt;
+&lt;p&gt;始める方法はとても簡単です。せっかくなので実際にやってみます。&lt;/p&gt;
+&lt;ol start=&#34;0&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;googleアカウントの作成（無い方は）&lt;br&gt;
 こちらより必要事項を記入して
-&lt;a href="https://support.google.com/accounts/answer/27441?hl=ja" target="_blank" rel="noopener">Google アカウントを作成&lt;/a>
-します。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>ブラウザで&lt;a href="https://www.google.co.jp/drive/apps.html" target="_blank" rel="noopener">Google Drive&lt;/a>にアクセスします。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Google DriveにGoogle Apps Scriptを追加する&lt;br>
-左上の新規＋ボタンをクリックし、その他→アプリを追加→Google Apps Scriptを探し、接続をクリック&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>もう一度新規＋を押し、その他にGoogle Apps Scriptが出てきたら完了
-&lt;figure id="figure-helloworld">
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="./nobu_GAS_img_1.png" alt="HelloWorld" loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;figcaption>
-HelloWorld
-&lt;/figcaption>&lt;/figure>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>それをクリックすると、エディタがでてくるので、これでGASをはじめる準備が出来ました！&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;p>ちなみにHello Worldはこんな感じです。&lt;/p>
-&lt;figure id="figure-完了後">
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="./nobu_GAS_img_2.png" alt="完了後" loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;figcaption>
-完了後
-&lt;/figcaption>&lt;/figure>
-&lt;h1 id="最後に">最後に&lt;/h1>
-&lt;p>今回はざっくりでしたがGASについて簡単に紹介しました。&lt;/p>
-&lt;p>GASの存在だけでも知ってもらい、機会があれば何かで使ってもらえたら幸いです。&lt;/p>
-&lt;p>また、GASを十分使いこなせているとは言えない自分ですが、おすすめしたい参考サイトも載せておくので興味がある人は見てみてください！&lt;/p>
-&lt;h2 id="参考サイト">参考サイト&lt;/h2>
-&lt;p>&lt;a href="https://tonari-it.com/google-apps-script-manual/" target="_blank" rel="noopener">【保存版】初心者向け実務で使えるGoogle Apps Script完全マニュアル&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;a href=&#34;https://support.google.com/accounts/answer/27441?hl=ja&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google アカウントを作成&lt;/a&gt;
+します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ブラウザで&lt;a href=&#34;https://www.google.co.jp/drive/apps.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;にアクセスします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Google DriveにGoogle Apps Scriptを追加する&lt;br&gt;
+左上の新規＋ボタンをクリックし、その他→アプリを追加→Google Apps Scriptを探し、接続をクリック&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;もう一度新規＋を押し、その他にGoogle Apps Scriptが出てきたら完了
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-helloworld&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./nobu_GAS_img_1.png&#34; alt=&#34;HelloWorld&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      HelloWorld
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;それをクリックすると、エディタがでてくるので、これでGASをはじめる準備が出来ました！&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;ちなみにHello Worldはこんな感じです。&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-完了後&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./nobu_GAS_img_2.png&#34; alt=&#34;完了後&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      完了後
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;最後に&#34;&gt;最後に&lt;/h1&gt;
+&lt;p&gt;今回はざっくりでしたがGASについて簡単に紹介しました。&lt;/p&gt;
+&lt;p&gt;GASの存在だけでも知ってもらい、機会があれば何かで使ってもらえたら幸いです。&lt;/p&gt;
+&lt;p&gt;また、GASを十分使いこなせているとは言えない自分ですが、おすすめしたい参考サイトも載せておくので興味がある人は見てみてください！&lt;/p&gt;
+&lt;h2 id=&#34;参考サイト&#34;&gt;参考サイト&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://tonari-it.com/google-apps-script-manual/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;【保存版】初心者向け実務で使えるGoogle Apps Script完全マニュアル&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

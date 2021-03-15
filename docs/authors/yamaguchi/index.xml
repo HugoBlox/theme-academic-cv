@@ -1,73 +1,124 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ヤマグチ | アプリNaviブログ</title><link>https://blog.opuappnavi.com/authors/yamaguchi/</link><atom:link href="https://blog.opuappnavi.com/authors/yamaguchi/index.xml" rel="self" type="application/rss+xml"/><description>ヤマグチ</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>©Juris710 2021</copyright><image><url>https://blog.opuappnavi.com/authors/yamaguchi/avatar_hu1ef6a4fc48d80aa45c879d78edee6da8_924300_270x270_fill_q75_lanczos_center.jpg</url><title>ヤマグチ</title><link>https://blog.opuappnavi.com/authors/yamaguchi/</link></image><item><title>自己流ステージ作成方法</title><link>https://blog.opuappnavi.com/post/stage-create/</link><pubDate>Sat, 30 May 2020 10:17:55 +0900</pubDate><guid>https://blog.opuappnavi.com/post/stage-create/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
-&lt;p>初めまして、アプリNaviのヤマグチです。&lt;br>
-本日、府大バーチャル学祭開催に合わせ、『巡回！デリバリー屋さん』を&lt;a href="http://appnavi.html.xdomain.jp/index.html" target="_blank" rel="noopener">特設ページ&lt;/a>にて公開させていただきました。遊んで、楽しんでもらえたのなら嬉しいです。&lt;/p>
-&lt;p>今ゲームは2Dパズルアクションゲームで、ステージ作りにそれなりの時間を割きました。&lt;br>
-そこで、前半はステージ作りをするとき僕がどう考えていたかについて、後半はゲーム内に実装したステージを作った時に考えていたことの一部について書きます。&lt;br>
-あくまで僕自身の考え方であり他の方のものとは異なります。参考程度に読んでください。&lt;/p>
-&lt;h1 id="ステージ作成で大切なこと">ステージ作成で大切なこと&lt;/h1>
-&lt;p>この項では、僕がステージ作成で気にした方がいいと考えていることを書いていきます&lt;/p>
-&lt;h2 id="1-ステージに意図を持たせる">1. ステージに意図を持たせる&lt;/h2>
-&lt;p>皆さんはカードゲームをしたことがありますか。ない場合は武器やパーティをカスタム、編成するゲームを考えてください。カードゲームにおいて、何が一番いる能力だと思いますか。&lt;br>
-プレイング、読み、運、色々あると思います。&lt;br>
-僕の答えは構築力です。なぜ構築力なのかは、ここではあまり関係ないので省きますが、構築力が高いデッキはデッキ内のすべてのカードに採用する理由があります。完成された構築には意味のないカードはなく、製作者の意図、意志が反映されます。 限られたデッキ枚数に何を何枚採用するか。&lt;br>
-言い換えると、限られたスペースに何をどのくらい配置するか、何かに似てますね。&lt;br>
-そうです、ステージ作成です。特に今回のゲームでは、ステージは一画面に収まる量でなくてはダメでした。&lt;br>
-そこで、ステージの枠組みをどうするか、設置物をどこに置くか等、それぞれの配置に自分なりの考えを持つことを意識して作成しました。&lt;/p>
-&lt;h2 id="2-意味のないものを作る">2. 意味のないものを作る&lt;/h2>
-&lt;p>前項で書いたことに早速矛盾しました。&lt;br>
-しかし、意味のないものを作ることも必要です。遊んでくれる方は製作者の意図なんて知ったこっちゃありません。だからこそ、製作者にとっては無意味だとわかり切っているものにも意味があるんじゃないかと深読みしてくれます。 そうすれば、意味のないものを作ったつもりが意味のあるものを作れます。&lt;br>
-意図的に意味のないものを作ることでステージ全体に遊び心を与えることができるのです。&lt;/p>
-&lt;h2 id="3-ギミックの使い方を考える">3. ギミックの使い方を考える&lt;/h2>
-&lt;p>今回はステージの数が少なく、一つ一つのステージも小さいです。なので、できる限り同じ使い方でギミックを使わないことを気にしました。&lt;br>
-同じギミックでも、あるときはプラスの役割で使い、またある時はマイナスの役割で使うというようにギミックをより効果的に使うことを心がけました。&lt;/p>
-&lt;h2 id="4-自分が楽しむ">4. 自分が楽しむ&lt;/h2>
-&lt;p>これが一番大切な気がします。&lt;br>
-作った人が作ったものに対しての理解が最も深いはずです。その人が楽しめないものを他の人が楽しめるとは思えません。作ったステージを自分自身が楽しめるようになることが望ましいです。 作っている時は、作っているステージが面白いかどうかわからなくなってきます。しかし自分が面白いと思えば、少なくとも世界で誰も楽しめないステージではなくなります。&lt;br>
-僕は今回のゲーム内のステージでは僕が作ったステージが一番好きです。&lt;/p>
-&lt;h1 id="実際に作ったステージの解説">実際に作ったステージの解説&lt;/h1>
-&lt;p>この項では、僕が今回のゲームで作ったステージのちょっとした解説をしようと思います。&lt;br>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ヤマグチ | アプリNaviブログ</title>
+    <link>https://blog.opuappnavi.com/authors/yamaguchi/</link>
+      <atom:link href="https://blog.opuappnavi.com/authors/yamaguchi/index.xml" rel="self" type="application/rss+xml" />
+    <description>ヤマグチ</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>©Juris710  2021</copyright>
+    <image>
+      <url>https://blog.opuappnavi.com/authors/yamaguchi/avatar_hu1ef6a4fc48d80aa45c879d78edee6da8_924300_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>ヤマグチ</title>
+      <link>https://blog.opuappnavi.com/authors/yamaguchi/</link>
+    </image>
+    
+    <item>
+      <title>自己流ステージ作成方法</title>
+      <link>https://blog.opuappnavi.com/post/stage-create/</link>
+      <pubDate>Sat, 30 May 2020 10:17:55 +0900</pubDate>
+      <guid>https://blog.opuappnavi.com/post/stage-create/</guid>
+      <description>&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;
+&lt;p&gt;初めまして、アプリNaviのヤマグチです。&lt;br&gt;
+本日、府大バーチャル学祭開催に合わせ、『巡回！デリバリー屋さん』を&lt;a href=&#34;http://appnavi.html.xdomain.jp/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;特設ページ&lt;/a&gt;にて公開させていただきました。遊んで、楽しんでもらえたのなら嬉しいです。&lt;/p&gt;
+&lt;p&gt;今ゲームは2Dパズルアクションゲームで、ステージ作りにそれなりの時間を割きました。&lt;br&gt;
+そこで、前半はステージ作りをするとき僕がどう考えていたかについて、後半はゲーム内に実装したステージを作った時に考えていたことの一部について書きます。&lt;br&gt;
+あくまで僕自身の考え方であり他の方のものとは異なります。参考程度に読んでください。&lt;/p&gt;
+&lt;h1 id=&#34;ステージ作成で大切なこと&#34;&gt;ステージ作成で大切なこと&lt;/h1&gt;
+&lt;p&gt;この項では、僕がステージ作成で気にした方がいいと考えていることを書いていきます&lt;/p&gt;
+&lt;h2 id=&#34;1-ステージに意図を持たせる&#34;&gt;1. ステージに意図を持たせる&lt;/h2&gt;
+&lt;p&gt;皆さんはカードゲームをしたことがありますか。ない場合は武器やパーティをカスタム、編成するゲームを考えてください。カードゲームにおいて、何が一番いる能力だと思いますか。&lt;br&gt;
+プレイング、読み、運、色々あると思います。&lt;br&gt;
+僕の答えは構築力です。なぜ構築力なのかは、ここではあまり関係ないので省きますが、構築力が高いデッキはデッキ内のすべてのカードに採用する理由があります。完成された構築には意味のないカードはなく、製作者の意図、意志が反映されます。  限られたデッキ枚数に何を何枚採用するか。&lt;br&gt;
+言い換えると、限られたスペースに何をどのくらい配置するか、何かに似てますね。&lt;br&gt;
+そうです、ステージ作成です。特に今回のゲームでは、ステージは一画面に収まる量でなくてはダメでした。&lt;br&gt;
+そこで、ステージの枠組みをどうするか、設置物をどこに置くか等、それぞれの配置に自分なりの考えを持つことを意識して作成しました。&lt;/p&gt;
+&lt;h2 id=&#34;2-意味のないものを作る&#34;&gt;2. 意味のないものを作る&lt;/h2&gt;
+&lt;p&gt;前項で書いたことに早速矛盾しました。&lt;br&gt;
+しかし、意味のないものを作ることも必要です。遊んでくれる方は製作者の意図なんて知ったこっちゃありません。だからこそ、製作者にとっては無意味だとわかり切っているものにも意味があるんじゃないかと深読みしてくれます。  そうすれば、意味のないものを作ったつもりが意味のあるものを作れます。&lt;br&gt;
+意図的に意味のないものを作ることでステージ全体に遊び心を与えることができるのです。&lt;/p&gt;
+&lt;h2 id=&#34;3-ギミックの使い方を考える&#34;&gt;3. ギミックの使い方を考える&lt;/h2&gt;
+&lt;p&gt;今回はステージの数が少なく、一つ一つのステージも小さいです。なので、できる限り同じ使い方でギミックを使わないことを気にしました。&lt;br&gt;
+同じギミックでも、あるときはプラスの役割で使い、またある時はマイナスの役割で使うというようにギミックをより効果的に使うことを心がけました。&lt;/p&gt;
+&lt;h2 id=&#34;4-自分が楽しむ&#34;&gt;4. 自分が楽しむ&lt;/h2&gt;
+&lt;p&gt;これが一番大切な気がします。&lt;br&gt;
+作った人が作ったものに対しての理解が最も深いはずです。その人が楽しめないものを他の人が楽しめるとは思えません。作ったステージを自分自身が楽しめるようになることが望ましいです。  作っている時は、作っているステージが面白いかどうかわからなくなってきます。しかし自分が面白いと思えば、少なくとも世界で誰も楽しめないステージではなくなります。&lt;br&gt;
+僕は今回のゲーム内のステージでは僕が作ったステージが一番好きです。&lt;/p&gt;
+&lt;h1 id=&#34;実際に作ったステージの解説&#34;&gt;実際に作ったステージの解説&lt;/h1&gt;
+&lt;p&gt;この項では、僕が今回のゲームで作ったステージのちょっとした解説をしようと思います。&lt;br&gt;
 この先、ステージ9のネタバレを含みますのでプレイした後に読むことをお勧めします。
-&lt;details>
-&lt;summary>&lt;code>以下ステージ9ネタバレ&lt;/code>&lt;/summary>
-&lt;figure >
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="./stage9.png" alt="" loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-1の意図は、ステージ全体にコンセプトを持たせることです。
-初めにコンセプトを決めておくことで僕自身の中で方向性がブレないようにしました。このステージ全体のコンセプトは「ステージ一周」でした。その時に右周りでも左回りでもクリアできるようにするということを目標にしました。
-ステージ全体を荷物を取るエリアでそれぞれ区分けし、各エリアには入り口と出口を作り、周回方向によって入り口、出口が入れ替わるような配置にしました。
-上の画像では、赤枠の示す上から落ちるブロックを擬似的な通行止めとして利用しています。
-&lt;p>2の意味のないものは、どっち周りでもクリアできるという要素です。&lt;br>
-別に両方から進める必要は全くありません。左回りの時は右回りのギミックは不必要で、右回りの時は左回りのギミックは不必要となります。&lt;br>
-ただ、これがあることでこのステージの面白さが出ていると考えています。&lt;/p>
-&lt;p>3のギミックの使い方は、先ほども挙げた落ちるブロックによるステージの区切りです。&lt;br>
-他の僕の作ったステージでは、基本的にプレイヤーを倒すためだけのものでした。そこに他の役割である区切りという役割を持たせています。&lt;br>
-この使い方はプラスとマイナスの両方の使い方というわけではありませんが、違った使い方をした一例ではあります。&lt;/p>
-&lt;p>4の自分が楽しむに関しては、作ってる間すごく楽しかったです。コンセプトを思いついてからは非常にスムーズにステージ作成をすることができました。&lt;/p>
-&lt;p>以上が、僕の作ったステージのちょっとした解説になります。あまり話しすぎても面白くないのでこの辺りで終わります。&lt;/p>
-&lt;/details>
-&lt;/p>
-&lt;h2 id="終わりに">終わりに&lt;/h2>
-&lt;p>読んでいただきありがとうございました。&lt;br>
-まさかブログまで書くことになると思っていませんでしたが、ゲームも含めてまあ良いものになったんじゃないかなあと思っています。&lt;br>
-最後に、ゲームを遊んでいただいた方、このブログを読んでいただいた方ありがとうございました。それではまた何かの機会に。&lt;/p></description></item><item><title>府大バーチャル学祭</title><link>https://blog.opuappnavi.com/project/opu-virtual-festival-2020/</link><pubDate>Tue, 28 Apr 2020 00:04:07 +0900</pubDate><guid>https://blog.opuappnavi.com/project/opu-virtual-festival-2020/</guid><description>&lt;p>新型コロナウイルス感染拡大により、2020年5月30日、31日に開催予定だった第59回友好祭が中止となりました。中止となった友好祭に代わるイベントとして、コンピュータハウスランダムさんが提案されたのが、非公式オンラインイベント「府大バーチャル学祭」です。
-&lt;figure >
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >
-&lt;img alt="" srcset="
-/project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_5762736a2b90d6002cff53fb9dc03c7c.jpg 400w,
-/project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_55ebeb28d0640c1fe6d8089bf3b8dcc3.jpg 760w,
-/project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_1200x1200_fit_q75_lanczos.jpg 1200w"
-src="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_5762736a2b90d6002cff53fb9dc03c7c.jpg"
-width="760"
-height="428"
-loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-&lt;div style="display: flex; justify-content: space-around;">
-&lt;a href="https://ch-random.net/post/167">一覧ページ&lt;/a>
-&lt;a href="mailto:computer.house.random@gmail.com">お問い合わせ&lt;/a>
-&lt;/div>
-&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">【拡散希望】&lt;br>大阪府立大学の有志イベント&lt;br>府大バーチャル学祭のPV、デザインを担当させていただきました。&lt;br>&lt;br>各団体のイベント内容などの情報は &lt;a href="https://twitter.com/hashtag/%E5%BA%9C%E5%A4%A7%E3%83%90%E3%83%BC%E3%83%81%E3%83%A3%E3%83%AB%E5%AD%A6%E7%A5%AD?src=hash&amp;amp;ref_src=twsrc%5Etfw">#府大バーチャル学祭&lt;/a> に追加していきます。&lt;a href="https://twitter.com/hashtag/%E6%98%A5%E3%81%8B%E3%82%89%E5%BA%9C%E5%A4%A7?src=hash&amp;amp;ref_src=twsrc%5Etfw">#春から府大&lt;/a>　&lt;a href="https://twitter.com/hashtag/system?src=hash&amp;amp;ref_src=twsrc%5Etfw">#system&lt;/a> &lt;a href="https://twitter.com/hashtag/aftereffects?src=hash&amp;amp;ref_src=twsrc%5Etfw">#aftereffects&lt;/a> &lt;a href="https://t.co/GtVtrQV5TI">pic.twitter.com/GtVtrQV5TI&lt;/a>&lt;/p>&amp;mdash; SYSTEM｜システム (@SystemOpu) &lt;a href="https://twitter.com/SystemOpu/status/1263016918182539264?ref_src=twsrc%5Etfw">May 20, 2020&lt;/a>&lt;/blockquote>
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
-アプリNaviの展示内容は、このサイトでのブログ記事公開と、下記特設サイトでのゲーム展示です。&lt;br>
-&lt;a href="http://appnavi.html.xdomain.jp/index.html" target="_blank" rel="noopener">アプリNavi 府大バーチャル学祭特設サイト&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;details&gt;
+    &lt;summary&gt;&lt;code&gt;以下ステージ9ネタバレ&lt;/code&gt;&lt;/summary&gt;
+    &lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./stage9.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+1の意図は、ステージ全体にコンセプトを持たせることです。  
+初めにコンセプトを決めておくことで僕自身の中で方向性がブレないようにしました。このステージ全体のコンセプトは「ステージ一周」でした。その時に右周りでも左回りでもクリアできるようにするということを目標にしました。  
+ステージ全体を荷物を取るエリアでそれぞれ区分けし、各エリアには入り口と出口を作り、周回方向によって入り口、出口が入れ替わるような配置にしました。  
+上の画像では、赤枠の示す上から落ちるブロックを擬似的な通行止めとして利用しています。  
+&lt;p&gt;2の意味のないものは、どっち周りでもクリアできるという要素です。&lt;br&gt;
+別に両方から進める必要は全くありません。左回りの時は右回りのギミックは不必要で、右回りの時は左回りのギミックは不必要となります。&lt;br&gt;
+ただ、これがあることでこのステージの面白さが出ていると考えています。&lt;/p&gt;
+&lt;p&gt;3のギミックの使い方は、先ほども挙げた落ちるブロックによるステージの区切りです。&lt;br&gt;
+他の僕の作ったステージでは、基本的にプレイヤーを倒すためだけのものでした。そこに他の役割である区切りという役割を持たせています。&lt;br&gt;
+この使い方はプラスとマイナスの両方の使い方というわけではありませんが、違った使い方をした一例ではあります。&lt;/p&gt;
+&lt;p&gt;4の自分が楽しむに関しては、作ってる間すごく楽しかったです。コンセプトを思いついてからは非常にスムーズにステージ作成をすることができました。&lt;/p&gt;
+&lt;p&gt;以上が、僕の作ったステージのちょっとした解説になります。あまり話しすぎても面白くないのでこの辺りで終わります。&lt;/p&gt;
+
+&lt;/details&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;終わりに&#34;&gt;終わりに&lt;/h2&gt;
+&lt;p&gt;読んでいただきありがとうございました。&lt;br&gt;
+まさかブログまで書くことになると思っていませんでしたが、ゲームも含めてまあ良いものになったんじゃないかなあと思っています。&lt;br&gt;
+最後に、ゲームを遊んでいただいた方、このブログを読んでいただいた方ありがとうございました。それではまた何かの機会に。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>府大バーチャル学祭</title>
+      <link>https://blog.opuappnavi.com/project/opu-virtual-festival-2020/</link>
+      <pubDate>Tue, 28 Apr 2020 00:04:07 +0900</pubDate>
+      <guid>https://blog.opuappnavi.com/project/opu-virtual-festival-2020/</guid>
+      <description>&lt;p&gt;新型コロナウイルス感染拡大により、2020年5月30日、31日に開催予定だった第59回友好祭が中止となりました。中止となった友好祭に代わるイベントとして、コンピュータハウスランダムさんが提案されたのが、非公式オンラインイベント「府大バーチャル学祭」です。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;
+        &lt;img alt=&#34;&#34; srcset=&#34;
+               /project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_5762736a2b90d6002cff53fb9dc03c7c.jpg 400w,
+               /project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_55ebeb28d0640c1fe6d8089bf3b8dcc3.jpg 760w,
+               /project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
+               src=&#34;https://blog.opuappnavi.com/project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_5762736a2b90d6002cff53fb9dc03c7c.jpg&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+&lt;div style=&#34;display: flex; justify-content: space-around;&#34;&gt;
+  &lt;a href=&#34;https://ch-random.net/post/167&#34;&gt;一覧ページ&lt;/a&gt;
+  &lt;a href=&#34;mailto:computer.house.random@gmail.com&#34;&gt;お問い合わせ&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;【拡散希望】&lt;br&gt;大阪府立大学の有志イベント&lt;br&gt;府大バーチャル学祭のPV、デザインを担当させていただきました。&lt;br&gt;&lt;br&gt;各団体のイベント内容などの情報は &lt;a href=&#34;https://twitter.com/hashtag/%E5%BA%9C%E5%A4%A7%E3%83%90%E3%83%BC%E3%83%81%E3%83%A3%E3%83%AB%E5%AD%A6%E7%A5%AD?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#府大バーチャル学祭&lt;/a&gt; に追加していきます。&lt;a href=&#34;https://twitter.com/hashtag/%E6%98%A5%E3%81%8B%E3%82%89%E5%BA%9C%E5%A4%A7?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#春から府大&lt;/a&gt;　&lt;a href=&#34;https://twitter.com/hashtag/system?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#system&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/aftereffects?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#aftereffects&lt;/a&gt; &lt;a href=&#34;https://t.co/GtVtrQV5TI&#34;&gt;pic.twitter.com/GtVtrQV5TI&lt;/a&gt;&lt;/p&gt;&amp;mdash; SYSTEM｜システム (@SystemOpu) &lt;a href=&#34;https://twitter.com/SystemOpu/status/1263016918182539264?ref_src=twsrc%5Etfw&#34;&gt;May 20, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+アプリNaviの展示内容は、このサイトでのブログ記事公開と、下記特設サイトでのゲーム展示です。&lt;br&gt;
+&lt;a href=&#34;http://appnavi.html.xdomain.jp/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;アプリNavi 府大バーチャル学祭特設サイト&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

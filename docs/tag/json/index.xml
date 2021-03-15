@@ -1,38 +1,63 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JSON | アプリNaviブログ</title><link>https://blog.opuappnavi.com/tag/json/</link><atom:link href="https://blog.opuappnavi.com/tag/json/index.xml" rel="self" type="application/rss+xml"/><description>JSON</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>©Juris710 2021</copyright><lastBuildDate>Tue, 05 May 2020 21:46:39 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url><title>JSON</title><link>https://blog.opuappnavi.com/tag/json/</link></image><item><title>(個人的)プログラマーなら使えたほうがいいファイル形式</title><link>https://blog.opuappnavi.com/post/file-format-should-able-use/</link><pubDate>Tue, 05 May 2020 21:46:39 +0900</pubDate><guid>https://blog.opuappnavi.com/post/file-format-should-able-use/</guid><description>&lt;p>プログラミング入門講座を学び、UnityやAndroid、Webなどの開発を始めた脱プログラミング初心者に向けた記事です。何を開発するかに関わらず、内容を理解出来たり自分で書けたりすれば役にたつと思うファイル形式を3つ紹介します。&lt;/p>
-&lt;h1 id="markdown">Markdown&lt;/h1>
-&lt;p>Markdown（マークダウン）は、文書を記述するための軽量マークアップ言語のひとつです。
-ソフトウェアのインストールし使用する前の注意事項などを記述した&lt;code>Readme&lt;/code>ファイルなどに用いられています。また、このサイトの記事も全てMarkdownファイルです。&lt;/p>
-&lt;h1 id="json">JSON&lt;/h1>
-&lt;p>JSONは&lt;code>Javascript Object Notation&lt;/code>の略で、データを記述するための言語です。&lt;/p>
-&lt;h2 id="unity">Unity&lt;/h2>
-&lt;p>Unityでは&lt;code>JsonUtility&lt;/code>クラスを使用することで、オブジェクトをJSON形式の文字列に変換したり、逆にJSON形式の文字列からオブジェクトを生成することができます。といっても、オブジェクト指向に詳しくない人にはよく分からない説明だったと思います。簡単に言えば、JSONファイルからキャラクターのステータスなどのデータを読み込むことがとても簡単にできます。&lt;/p>
-&lt;h2 id="web-api">Web API&lt;/h2>
-&lt;p>Web APIとは、ものすごく乱暴に言えば、HTTP通信によって利用できる便利機能です。様々な種類のWebAPIがあり、WebAPIごとに特定のURLにアクセスすることで様々な機能を利用することができます。例えば、天気予報や鉄道の路線情報といったデータを取得したり、AIを用いた画像認識を利用したりすることが可能です。WebAPIを利用した結果は、JSON形式やXML形式の文字列で取得できることが多いです。&lt;/p>
-&lt;h1 id="xml">XML&lt;/h1>
-&lt;p>XMLは&lt;code>Extensible Markup Language&lt;/code>の略で、文書やデータの意味や構造を記述するためのマークアップ言語の一つです。マークアップ言語とは、「タグ」と呼ばれる特定の文字列で地の文に情報の意味や構造、装飾などを埋め込んでいく言語です。&lt;/p>
-&lt;h2 id="web-api-1">Web API&lt;/h2>
-&lt;p>WebAPIを利用した結果は、JSON形式やXML形式の文字列で取得できることが多いです。詳しくは&lt;a href="#json">JSON&lt;/a>を参照してください。&lt;/p>
-&lt;h2 id="android">Android&lt;/h2>
-&lt;p>Android StudioでのAndroidアプリ開発では、UIのレイアウトやスタイル、多言語対応の文字列などに関してxmlで記述されています。&lt;/p>
-&lt;h2 id="unity-1">Unity&lt;/h2>
-&lt;p>Unity開発でも将来的にXMLを使うことになるかもしれません。&lt;br>
-Unity 2019から&lt;code>UI Elements&lt;/code>という新しいUIシステムが使えます。&lt;code>UI Elements&lt;/code>はwebに近い設計で、UIをレイアウト、スタイル、ロジックに分けて記述します。XMLをベースとしたUXMLファイルを記述することでレイアウトをカスタマイズすることができます。
-&lt;div class="alert alert-note">
-&lt;div>
-&lt;code>UI Builder&lt;/code>(preview版)を使えば、マウスクリックやドラッグ＆ドロップなどでレイアウトやスタイルをカスタマイズできます。
-&lt;/div>
-&lt;/div>
-&lt;code>UI Elements&lt;/code>は現状、エディタ拡張のUI(現在のIMGUI)にしか対応していませんが、将来的にはゲーム内UI(現在のuGUI)にも対応する予定とのことです。&lt;/p>
-&lt;h1 id="参考">参考&lt;/h1>
-&lt;ul>
-&lt;li>&lt;a href="https://ja.wikipedia.org/wiki/Markdown">https://ja.wikipedia.org/wiki/Markdown&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%BC%E3%83%89%E3%83%9F%E3%83%BC">https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%BC%E3%83%89%E3%83%9F%E3%83%BC&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://ja.wikipedia.org/wiki/JavaScript_Object_Notation">https://ja.wikipedia.org/wiki/JavaScript_Object_Notation&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://qiita.com/mikan3rd/items/ba4737023f08bb2ca161">https://qiita.com/mikan3rd/items/ba4737023f08bb2ca161&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://qiita.com/NagaokaKenichi/items/df4c8455ab527aeacf02">https://qiita.com/NagaokaKenichi/items/df4c8455ab527aeacf02&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://itpropartners.com/blog/8546/">https://itpropartners.com/blog/8546/&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://ja.wikipedia.org/wiki/%E3%83%87%E3%83%BC%E3%82%BF%E8%A8%98%E8%BF%B0%E8%A8%80%E8%AA%9E">https://ja.wikipedia.org/wiki/%E3%83%87%E3%83%BC%E3%82%BF%E8%A8%98%E8%BF%B0%E8%A8%80%E8%AA%9E&lt;/a>&lt;/li>
-&lt;li>&lt;a href="http://e-words.jp/w/XML.html">http://e-words.jp/w/XML.html&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blogs.unity3d.com/jp/2019/04/23/whats-new-with-uielements-in-2019-1/">https://blogs.unity3d.com/jp/2019/04/23/whats-new-with-uielements-in-2019-1/&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.youtube.com/watch?v=5UTiLOIU8TE">https://www.youtube.com/watch?v=5UTiLOIU8TE&lt;/a>&lt;/li>
-&lt;/ul></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JSON | アプリNaviブログ</title>
+    <link>https://blog.opuappnavi.com/tag/json/</link>
+      <atom:link href="https://blog.opuappnavi.com/tag/json/index.xml" rel="self" type="application/rss+xml" />
+    <description>JSON</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>©Juris710  2021</copyright><lastBuildDate>Tue, 05 May 2020 21:46:39 +0900</lastBuildDate>
+    <image>
+      <url>https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url>
+      <title>JSON</title>
+      <link>https://blog.opuappnavi.com/tag/json/</link>
+    </image>
+    
+    <item>
+      <title>(個人的)プログラマーなら使えたほうがいいファイル形式</title>
+      <link>https://blog.opuappnavi.com/post/file-format-should-able-use/</link>
+      <pubDate>Tue, 05 May 2020 21:46:39 +0900</pubDate>
+      <guid>https://blog.opuappnavi.com/post/file-format-should-able-use/</guid>
+      <description>&lt;p&gt;プログラミング入門講座を学び、UnityやAndroid、Webなどの開発を始めた脱プログラミング初心者に向けた記事です。何を開発するかに関わらず、内容を理解出来たり自分で書けたりすれば役にたつと思うファイル形式を3つ紹介します。&lt;/p&gt;
+&lt;h1 id=&#34;markdown&#34;&gt;Markdown&lt;/h1&gt;
+&lt;p&gt;Markdown（マークダウン）は、文書を記述するための軽量マークアップ言語のひとつです。
+ソフトウェアのインストールし使用する前の注意事項などを記述した&lt;code&gt;Readme&lt;/code&gt;ファイルなどに用いられています。また、このサイトの記事も全てMarkdownファイルです。&lt;/p&gt;
+&lt;h1 id=&#34;json&#34;&gt;JSON&lt;/h1&gt;
+&lt;p&gt;JSONは&lt;code&gt;Javascript Object Notation&lt;/code&gt;の略で、データを記述するための言語です。&lt;/p&gt;
+&lt;h2 id=&#34;unity&#34;&gt;Unity&lt;/h2&gt;
+&lt;p&gt;Unityでは&lt;code&gt;JsonUtility&lt;/code&gt;クラスを使用することで、オブジェクトをJSON形式の文字列に変換したり、逆にJSON形式の文字列からオブジェクトを生成することができます。といっても、オブジェクト指向に詳しくない人にはよく分からない説明だったと思います。簡単に言えば、JSONファイルからキャラクターのステータスなどのデータを読み込むことがとても簡単にできます。&lt;/p&gt;
+&lt;h2 id=&#34;web-api&#34;&gt;Web API&lt;/h2&gt;
+&lt;p&gt;Web APIとは、ものすごく乱暴に言えば、HTTP通信によって利用できる便利機能です。様々な種類のWebAPIがあり、WebAPIごとに特定のURLにアクセスすることで様々な機能を利用することができます。例えば、天気予報や鉄道の路線情報といったデータを取得したり、AIを用いた画像認識を利用したりすることが可能です。WebAPIを利用した結果は、JSON形式やXML形式の文字列で取得できることが多いです。&lt;/p&gt;
+&lt;h1 id=&#34;xml&#34;&gt;XML&lt;/h1&gt;
+&lt;p&gt;XMLは&lt;code&gt;Extensible Markup Language&lt;/code&gt;の略で、文書やデータの意味や構造を記述するためのマークアップ言語の一つです。マークアップ言語とは、「タグ」と呼ばれる特定の文字列で地の文に情報の意味や構造、装飾などを埋め込んでいく言語です。&lt;/p&gt;
+&lt;h2 id=&#34;web-api-1&#34;&gt;Web API&lt;/h2&gt;
+&lt;p&gt;WebAPIを利用した結果は、JSON形式やXML形式の文字列で取得できることが多いです。詳しくは&lt;a href=&#34;#json&#34;&gt;JSON&lt;/a&gt;を参照してください。&lt;/p&gt;
+&lt;h2 id=&#34;android&#34;&gt;Android&lt;/h2&gt;
+&lt;p&gt;Android StudioでのAndroidアプリ開発では、UIのレイアウトやスタイル、多言語対応の文字列などに関してxmlで記述されています。&lt;/p&gt;
+&lt;h2 id=&#34;unity-1&#34;&gt;Unity&lt;/h2&gt;
+&lt;p&gt;Unity開発でも将来的にXMLを使うことになるかもしれません。&lt;br&gt;
+Unity 2019から&lt;code&gt;UI Elements&lt;/code&gt;という新しいUIシステムが使えます。&lt;code&gt;UI Elements&lt;/code&gt;はwebに近い設計で、UIをレイアウト、スタイル、ロジックに分けて記述します。XMLをベースとしたUXMLファイルを記述することでレイアウトをカスタマイズすることができます。
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;code&gt;UI Builder&lt;/code&gt;(preview版)を使えば、マウスクリックやドラッグ＆ドロップなどでレイアウトやスタイルをカスタマイズできます。
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;code&gt;UI Elements&lt;/code&gt;は現状、エディタ拡張のUI(現在のIMGUI)にしか対応していませんが、将来的にはゲーム内UI(現在のuGUI)にも対応する予定とのことです。&lt;/p&gt;
+&lt;h1 id=&#34;参考&#34;&gt;参考&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ja.wikipedia.org/wiki/Markdown&#34;&gt;https://ja.wikipedia.org/wiki/Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%BC%E3%83%89%E3%83%9F%E3%83%BC&#34;&gt;https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%BC%E3%83%89%E3%83%9F%E3%83%BC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ja.wikipedia.org/wiki/JavaScript_Object_Notation&#34;&gt;https://ja.wikipedia.org/wiki/JavaScript_Object_Notation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/mikan3rd/items/ba4737023f08bb2ca161&#34;&gt;https://qiita.com/mikan3rd/items/ba4737023f08bb2ca161&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://qiita.com/NagaokaKenichi/items/df4c8455ab527aeacf02&#34;&gt;https://qiita.com/NagaokaKenichi/items/df4c8455ab527aeacf02&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://itpropartners.com/blog/8546/&#34;&gt;https://itpropartners.com/blog/8546/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ja.wikipedia.org/wiki/%E3%83%87%E3%83%BC%E3%82%BF%E8%A8%98%E8%BF%B0%E8%A8%80%E8%AA%9E&#34;&gt;https://ja.wikipedia.org/wiki/%E3%83%87%E3%83%BC%E3%82%BF%E8%A8%98%E8%BF%B0%E8%A8%80%E8%AA%9E&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://e-words.jp/w/XML.html&#34;&gt;http://e-words.jp/w/XML.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blogs.unity3d.com/jp/2019/04/23/whats-new-with-uielements-in-2019-1/&#34;&gt;https://blogs.unity3d.com/jp/2019/04/23/whats-new-with-uielements-in-2019-1/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=5UTiLOIU8TE&#34;&gt;https://www.youtube.com/watch?v=5UTiLOIU8TE&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
