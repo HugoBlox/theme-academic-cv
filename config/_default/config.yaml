@@ -29,6 +29,7 @@ module:
 ## ADVANCED
 ############################
 
+publishDir: docs
 enableGitInfo: true
 summaryLength: 30
 paginate: 10

@@ -1,18 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GitHub | アプリNaviブログ</title><link>https://blog.opuappnavi.com/tag/github/</link><atom:link href="https://blog.opuappnavi.com/tag/github/index.xml" rel="self" type="application/rss+xml"/><description>GitHub</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710 2021</copyright><lastBuildDate>Sun, 24 May 2020 22:37:45 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url><title>GitHub</title><link>https://blog.opuappnavi.com/tag/github/</link></image><item><title>GitHubのforkとライセンス</title><link>https://blog.opuappnavi.com/post/github-fork-mit/</link><pubDate>Sun, 24 May 2020 22:37:45 +0900</pubDate><guid>https://blog.opuappnavi.com/post/github-fork-mit/</guid><description>&lt;h1 id="githubのfork">GitHubのfork&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GitHub | アプリNaviブログ</title><link>https://blog.opuappnavi.com/tag/github/</link><atom:link href="https://blog.opuappnavi.com/tag/github/index.xml" rel="self" type="application/rss+xml"/><description>GitHub</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>©Juris710 2021</copyright><lastBuildDate>Sun, 24 May 2020 22:37:45 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url><title>GitHub</title><link>https://blog.opuappnavi.com/tag/github/</link></image><item><title>GitHubのforkとライセンス</title><link>https://blog.opuappnavi.com/post/github-fork-mit/</link><pubDate>Sun, 24 May 2020 22:37:45 +0900</pubDate><guid>https://blog.opuappnavi.com/post/github-fork-mit/</guid><description>&lt;h1 id="githubのfork">GitHubのfork&lt;/h1>
 &lt;p>GitHubにはforkという機能があります。既に存在するリポジトリをコピーして、オリジナルのリポジトリに影響を与えることなく変更を加えることができます。&lt;br>
-このサイトは
-&lt;a href="https://github.com/sourcethemes/academic-kickstart" target="_blank" rel="noopener">Academic Kickstart&lt;/a>というリポジトリをforkして開発しています。&lt;/p>
+このサイトは&lt;a href="https://github.com/sourcethemes/academic-kickstart" target="_blank" rel="noopener">Academic Kickstart&lt;/a>というリポジトリをforkして開発しています。&lt;/p>
 &lt;h1 id="ライセンス">ライセンス&lt;/h1>
 &lt;p>GitHubのリポジトリにはたいてい、LICENSEという名前のファイルがあります。ライセンスはそのプログラムの改変・商用利用などをしても良いかなどを記したファイルで、何を許可するかによって様々なライセンスが存在します。&lt;br>
-その中で一番多く用いられているライセンスの１つがMITライセンスです。
-&lt;a href="https://github.com/sourcethemes/academic-kickstart" target="_blank" rel="noopener">Academic Kickstart&lt;/a>もMITライセンスです。
+その中で一番多く用いられているライセンスの１つがMITライセンスです。&lt;a href="https://github.com/sourcethemes/academic-kickstart" target="_blank" rel="noopener">Academic Kickstart&lt;/a>もMITライセンスです。
 MITライセンスが設定されたリポジトリは、以下の2つを守れば改変・商用利用など自由に使うことができます。&lt;/p>
 &lt;ul>
 &lt;li>元の著作権表示(&lt;code>Copyright (c) 年 作者名&lt;/code>)をそのまま掲載すること&lt;/li>
 &lt;li>ライセンスの全文（あるいは全文が掲載されたサイトのURL）を掲載すること&lt;/li>
 &lt;/ul>
-&lt;p>詳しくは
-&lt;a href="https://wisdommingle.com/mit-license/" target="_blank" rel="noopener">このサイト&lt;/a>などを参照してください。&lt;/p>
+&lt;p>詳しくは&lt;a href="https://wisdommingle.com/mit-license/" target="_blank" rel="noopener">このサイト&lt;/a>などを参照してください。&lt;/p>
 &lt;h1 id="forkとライセンス">forkとライセンス&lt;/h1>
 &lt;p>このサイトを開発する中で、「forkしたリポジトリのライセンスはどう変更するべきなのか」という疑問を持ち、検索してみました。その結果わかった2つの方法を紹介します。&lt;/p>
 &lt;h2 id="方法1一行下に自分の著作権表示を追加">方法1　一行下に自分の著作権表示を追加&lt;/h2>
@@ -118,9 +115,7 @@ SOFTWARE.
 &lt;p>GitHubはライセンスの種類を認識し、説明を表示する機能があります。この方法だとGitHubがGitHuMITライセンスだと認識してくれないという問題があります。&lt;/p>
 &lt;/details>
 &lt;h1 id="検証">検証&lt;/h1>
-&lt;p>forkしたリポジトリのライセンス変更に、実際どのような方法が取られているか検証することにしました。検証するリポジトリは
-&lt;a href="https://github.com/tokyo-metropolitan-gov/covid19" target="_blank" rel="noopener">東京都コロナウイルス対策サイト&lt;/a>です。GitHubにMITライセンスのリポジトリが公開されており、多くの都道府県が(公式 / 非公式で)このリポジトリをforkした対策サイトを作成しています。
-&lt;a href="https://github.com/tokyo-metropolitan-gov/covid19/blob/development/FORKED_SITES.md" target="_blank" rel="noopener">派生したサイト一覧&lt;/a>に掲載されているリポジトリについて、&lt;code>master&lt;/code>ブランチの&lt;code>LICENSE.txt&lt;/code>の権利表記を比較すると、以下のような結果になりました。&lt;/p>
+&lt;p>forkしたリポジトリのライセンス変更に、実際どのような方法が取られているか検証することにしました。検証するリポジトリは&lt;a href="https://github.com/tokyo-metropolitan-gov/covid19" target="_blank" rel="noopener">東京都コロナウイルス対策サイト&lt;/a>です。GitHubにMITライセンスのリポジトリが公開されており、多くの都道府県が(公式 / 非公式で)このリポジトリをforkした対策サイトを作成しています。&lt;a href="https://github.com/tokyo-metropolitan-gov/covid19/blob/development/FORKED_SITES.md" target="_blank" rel="noopener">派生したサイト一覧&lt;/a>に掲載されているリポジトリについて、&lt;code>master&lt;/code>ブランチの&lt;code>LICENSE.txt&lt;/code>の権利表記を比較すると、以下のような結果になりました。&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -169,8 +164,7 @@ SOFTWARE.
 &lt;ul>
 &lt;li>Unity&lt;/li>
 &lt;li>GitHub アカウント&lt;/li>
-&lt;li>Git：
-&lt;a href="https://git-scm.com/downloads" target="_blank" rel="noopener">ここ&lt;/a>からダウンロードできます&lt;/li>
+&lt;li>Git：&lt;a href="https://git-scm.com/downloads" target="_blank" rel="noopener">ここ&lt;/a>からダウンロードできます&lt;/li>
 &lt;/ul>
 &lt;h1 id="1-unityでゲームをビルドする">1. Unityでゲームをビルドする&lt;/h1>
 &lt;h2 id="11-build-settingsを開く">1.1 Build Settingsを開く&lt;/h2>
@@ -193,25 +187,22 @@ SOFTWARE.
 &lt;p>&lt;a href="https://github.com/">GitHub&lt;/a>にアクセスし、サインインしてください。&lt;/p>
 &lt;h2 id="22-新しいリポジトリの作成">2.2 新しいリポジトリの作成&lt;/h2>
 &lt;figure class="left" >
-&lt;p>&lt;a data-fancybox="" href="./GitHub_New_Repository.png" >&lt;/p>
-&lt;p>&lt;img src="./GitHub_New_Repository.png" alt="" >
-&lt;/a>&lt;/p>
-&lt;/figure>
-&lt;p>&lt;code>Repositories&lt;/code>の右にある&lt;code>New&lt;/code>をクリックしてください。&lt;/p>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./GitHub_New_Repository.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+`Repositories`の右にある`New`をクリックしてください。
 &lt;figure class="left" >
-&lt;p>&lt;a data-fancybox="" href="./GitHub_New_Repository2.png" >&lt;/p>
-&lt;p>&lt;img src="./GitHub_New_Repository2.png" alt="" >
-&lt;/a>&lt;/p>
-&lt;/figure>
-&lt;p>&lt;code>Repository name&lt;/code>は任意の名前で構いませんが、ゲームをプレイする人も見ることができるので注意してください。&lt;br>
-&lt;code>Public&lt;/code>と&lt;code>Private&lt;/code>を選択できますが、&lt;code>Public&lt;/code>を選択してください。&lt;br>
-&lt;code>Create repository&lt;/code>を選択してリポジトリを作成してください。&lt;/p>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./GitHub_New_Repository2.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+`Repository name`は任意の名前で構いませんが、ゲームをプレイする人も見ることができるので注意してください。
+`Public`と`Private`を選択できますが、`Public`を選択してください。
+`Create repository`を選択してリポジトリを作成してください。
 &lt;figure class="left" >
-&lt;p>&lt;a data-fancybox="" href="./GitHub_New_Repository3.png" >&lt;/p>
-&lt;p>&lt;img src="./GitHub_New_Repository3.png" alt="" >
-&lt;/a>&lt;/p>
-&lt;/figure>
-&lt;p>赤い枠で囲まれたボタンを押してください。左のURLがクリップボードにコピーされます。&lt;/p>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./GitHub_New_Repository3.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+赤い枠で囲まれたボタンを押してください。左のURLがクリップボードにコピーされます。
 &lt;h2 id="23-ファイルのアップロード">2.3 ファイルのアップロード&lt;/h2>
 &lt;p>&lt;code>Git Bash&lt;/code>を起動してください。
 起動時のフォルダは&lt;code>C:\Users\(ユーザー名)&lt;/code>なので、ビルド結果があるフォルダに移動してください。&lt;code>cd (フォルダ名)&lt;/code>コマンドで移動できます。
@@ -232,16 +223,14 @@ git push -u origin master
 &lt;h1 id="3-webにゲームを公開">3. Webにゲームを公開&lt;/h1>
 &lt;p>
 &lt;figure class="left" >
-&lt;a data-fancybox="" href="./GitHub_Pages.png" >
-&lt;img src="./GitHub_Pages.png" alt="" >
-&lt;/a>
-&lt;/figure>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./GitHub_Pages.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
 &lt;code>Settings&lt;/code>をクリックしてください。
 &lt;figure class="left" >
-&lt;a data-fancybox="" href="./GitHub_Pages2.png" >
-&lt;img src="./GitHub_Pages2.png" alt="" >
-&lt;/a>
-&lt;/figure>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./GitHub_Pages2.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
 スクロールし、&lt;code>GitHub Pages&lt;/code>の&lt;code>Source&lt;/code>の下にあるドロップダウンリストで&lt;code>master branch&lt;/code>を選択してください。&lt;/p>
 &lt;h1 id="公開したゲームをプレイ">公開したゲームをプレイ&lt;/h1>
 &lt;p>&lt;code>https://(ユーザー名).github.io/(リポジトリ名)/&lt;/code>というURLにアクセスすると、作ったゲームをプレイすることができます。&lt;/p></description></item><item><title>GitHub for Unityの紹介</title><link>https://blog.opuappnavi.com/post/github-for-unity/</link><pubDate>Thu, 30 Apr 2020 20:18:25 +0900</pubDate><guid>https://blog.opuappnavi.com/post/github-for-unity/</guid><description>&lt;h1 id="使用したunityのバージョン">使用したUnityのバージョン&lt;/h1>
@@ -252,41 +241,33 @@ git push -u origin master
 &lt;li>Asset Storeから「GitHub for Unity」をインポート&lt;/li>
 &lt;li>メニューで&lt;code>Window&lt;/code>&amp;gt;&lt;code>GitHub&lt;/code>を選択&lt;br>
 &lt;figure class="left" >
-&lt;a data-fancybox="" href="./GitHub_Tab_Menu.png" >
-&lt;img src="./GitHub_Tab_Menu.png" alt="" >
-&lt;/a>
-&lt;/figure>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./GitHub_Tab_Menu.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
 GitHubタブが開きます。
 &lt;figure class="left" >
-&lt;a data-fancybox="" href="./GitHub_Tab.png" >
-&lt;img src="./GitHub_Tab.png" alt="" >
-&lt;/a>
-&lt;/figure>
-&lt;/li>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./GitHub_Tab.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>&lt;/li>
 &lt;li>&lt;strong>(初回のみ)&lt;/strong> &lt;code>Sign In&lt;/code>をクリック&lt;br>
 &lt;figure class="left" >
-&lt;a data-fancybox="" href="./GitHub_SignIn.png" >
-&lt;img src="./GitHub_SignIn.png" alt="" >
-&lt;/a>
-&lt;/figure>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./GitHub_SignIn.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
 ダイアログが表示されるので、GitHubアカウントでサインインしてください。&lt;/li>
 &lt;li>&lt;code>Initialize a git repository for this project&lt;/code>をクリック&lt;br>
 少し待つと、タブの中身が変化します。&lt;br>
 &lt;figure class="left" >
-&lt;a data-fancybox="" href="./GitHub_AfterGitInit.png" >
-&lt;img src="./GitHub_AfterGitInit.png" alt="" >
-&lt;/a>
-&lt;/figure>
-&lt;/li>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./GitHub_AfterGitInit.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>&lt;/li>
 &lt;/ol>
 &lt;h1 id="使い方">使い方&lt;/h1>
 &lt;p>&lt;code>Changes&lt;/code>を選択してください。前回保存した状態から変更があったファイルが一覧表示されます。
 &lt;figure class="left" >
-&lt;a data-fancybox="" href="./GitHub_Changes.png" >
-&lt;img src="./GitHub_Changes.png" alt="" >
-&lt;/a>
-&lt;/figure>
-&lt;/p>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./GitHub_Changes.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>&lt;/p>
 &lt;h2 id="変更を保存する">変更を保存する&lt;/h2>
 &lt;ol>
 &lt;li>リストから保存したい変更をチェックマークをクリックして選択&lt;/li>

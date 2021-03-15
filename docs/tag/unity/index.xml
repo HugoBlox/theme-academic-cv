@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Unity | アプリNaviブログ</title><link>https://blog.opuappnavi.com/tag/unity/</link><atom:link href="https://blog.opuappnavi.com/tag/unity/index.xml" rel="self" type="application/rss+xml"/><description>Unity</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710 2021</copyright><lastBuildDate>Mon, 22 Jun 2020 18:54:11 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url><title>Unity</title><link>https://blog.opuappnavi.com/tag/unity/</link></image><item><title>Finden die Feen 開発記録</title><link>https://blog.opuappnavi.com/post/record-findendiefeen/</link><pubDate>Mon, 22 Jun 2020 18:54:11 +0900</pubDate><guid>https://blog.opuappnavi.com/post/record-findendiefeen/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
-&lt;p>この記事は，2020年5月30日から31日にかけて行われた
-&lt;a href="https://ch-random.net/post/167/" target="_blank" rel="noopener">&lt;strong>府大バーチャル学祭&lt;/strong>&lt;/a> で展示された &lt;strong>Finden die Feen&lt;/strong> というゲームの開発記事です。どういった経緯でこのゲームが開発されたかを，この記事に書いていこうと思います。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Unity | アプリNaviブログ</title><link>https://blog.opuappnavi.com/tag/unity/</link><atom:link href="https://blog.opuappnavi.com/tag/unity/index.xml" rel="self" type="application/rss+xml"/><description>Unity</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>©Juris710 2021</copyright><lastBuildDate>Mon, 22 Jun 2020 18:54:11 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url><title>Unity</title><link>https://blog.opuappnavi.com/tag/unity/</link></image><item><title>Finden die Feen 開発記録</title><link>https://blog.opuappnavi.com/post/record-findendiefeen/</link><pubDate>Mon, 22 Jun 2020 18:54:11 +0900</pubDate><guid>https://blog.opuappnavi.com/post/record-findendiefeen/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
+&lt;p>この記事は，2020年5月30日から31日にかけて行われた &lt;a href="https://ch-random.net/post/167/" target="_blank" rel="noopener">&lt;strong>府大バーチャル学祭&lt;/strong>&lt;/a> で展示された &lt;strong>Finden die Feen&lt;/strong> というゲームの開発記事です。どういった経緯でこのゲームが開発されたかを，この記事に書いていこうと思います。&lt;/p>
 &lt;p>まずはじめに，&lt;strong>Finden die Feen&lt;/strong> とは以下のようなゲームです。
 &lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">&lt;a href="https://twitter.com/hashtag/%E5%BA%9C%E5%A4%A7%E3%83%90%E3%83%BC%E3%83%81%E3%83%A3%E3%83%AB%E5%AD%A6%E7%A5%AD?src=hash&amp;amp;ref_src=twsrc%5Etfw">#府大バーチャル学祭&lt;/a> &lt;br>2つ目ー！！&lt;br>タイトル：Finden die Feen&lt;br>妖精たちとのかくれんぼ&lt;br>迷路の中に隠れている見えない妖精たちを、音を頼りに探していこう！&lt;br>マウスと方向キーだけの簡単操作で遊べるよ。&lt;br>あなたは妖精たちとの遊びに最後までついていけるかな？&lt;br>&lt;br>↓↓Click！&lt;a href="https://t.co/8zEqY1KpKx">https://t.co/8zEqY1KpKx&lt;/a> &lt;a href="https://t.co/6be1bGRdb0">pic.twitter.com/6be1bGRdb0&lt;/a>&lt;/p>&amp;mdash; OPU アプリNavi (@OPUAppNavi) &lt;a href="https://twitter.com/OPUAppNavi/status/1266598410095751169?ref_src=twsrc%5Etfw">May 30, 2020&lt;/a>&lt;/blockquote>
 &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
@@ -30,29 +29,22 @@ set_width();
 window.onresize = function(){ set_width(); };
 &lt;/script>
 &lt;h1 id="企画">企画&lt;/h1>
-&lt;p>ここでは，どのようにして &lt;strong>Finden die Feen&lt;/strong> を思いついたのか書いていきます。普段，私は毎年5月末に行われる大学の文化祭に向けてゲームを作っており，今年は「&lt;strong>探索&lt;/strong>」というテーマでゲームを考えていました。このテーマは，「宝探しは楽しいよね！」と「あまりゲームが得意でない人でも遊べるゲーム」を両立させようという目論見がありました。そこで何かいい案はないかと
-&lt;a href="https://www.borndigital.co.jp/book/6633.html" target="_blank" rel="noopener">Unityゲーム プログラミング・バイブル&lt;/a>という本をパラパラめくっていたところ，5章の「3D迷路」の部分を読み，「ここに書いてある迷路生成プログラムを用いれば &lt;strong>簡単に迷路が作れる&lt;/strong> のでは？」と思い，該当部分をステージ生成の基礎として，迷路の中でもの探しをするというゲームを思いつきました。&lt;/p>
-&lt;p>ただし，単に迷路を探索するだけでは既存の迷路ゲームと変わらず，
-&lt;a href="https://www.borndigital.co.jp/book/6633.html" target="_blank" rel="noopener">Unityゲーム プログラミング・バイブル&lt;/a>の「3D迷路」の章のパクりとなり，なんら面白くありません。そこで，任天堂が2003年に発売した「&lt;strong>伝説のスタフィー2&lt;/strong>」というゲームの道中にあった「&lt;strong>音で探す&lt;/strong>」ゲームギミックを参考にしました。
+&lt;p>ここでは，どのようにして &lt;strong>Finden die Feen&lt;/strong> を思いついたのか書いていきます。普段，私は毎年5月末に行われる大学の文化祭に向けてゲームを作っており，今年は「&lt;strong>探索&lt;/strong>」というテーマでゲームを考えていました。このテーマは，「宝探しは楽しいよね！」と「あまりゲームが得意でない人でも遊べるゲーム」を両立させようという目論見がありました。そこで何かいい案はないかと&lt;a href="https://www.borndigital.co.jp/book/6633.html" target="_blank" rel="noopener">Unityゲーム プログラミング・バイブル&lt;/a>という本をパラパラめくっていたところ，5章の「3D迷路」の部分を読み，「ここに書いてある迷路生成プログラムを用いれば &lt;strong>簡単に迷路が作れる&lt;/strong> のでは？」と思い，該当部分をステージ生成の基礎として，迷路の中でもの探しをするというゲームを思いつきました。&lt;/p>
+&lt;p>ただし，単に迷路を探索するだけでは既存の迷路ゲームと変わらず，&lt;a href="https://www.borndigital.co.jp/book/6633.html" target="_blank" rel="noopener">Unityゲーム プログラミング・バイブル&lt;/a>の「3D迷路」の章のパクりとなり，なんら面白くありません。そこで，任天堂が2003年に発売した「&lt;strong>伝説のスタフィー2&lt;/strong>」というゲームの道中にあった「&lt;strong>音で探す&lt;/strong>」ゲームギミックを参考にしました。
 &lt;figure id="figure-伝説のスタフィー2出典httpswwwnintendocojpn08avfjgamenindexhtml">
-&lt;a data-fancybox="" href="./blog_01.png" data-caption="伝説のスタフィー2（出典：https://www.nintendo.co.jp/n08/avfj/gamen/index.html）">
-&lt;img src="./blog_01.png" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./blog_01.png" alt="伝説のスタフィー2（出典：https://www.nintendo.co.jp/n08/avfj/gamen/index.html）" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
 伝説のスタフィー2（出典：https://www.nintendo.co.jp/n08/avfj/gamen/index.html）
-&lt;/figcaption>
-&lt;/figure>
+&lt;/figcaption>&lt;/figure>
 参考にしたギミックは「見えない探し物が近くにあればあるほど，アラームを激しく鳴らす」というものです。「伝説のスタフィー2」では，草むらに隠れた見えないターゲットを音を頼りに見つけ出すというゲーム要素があり，私自身「伝説のスタフィー2」を遊んだ時にこのギミックがとても楽しかった記憶があって，「音で探す」システムを採用しました。&lt;/p>
-&lt;p>以上より「&lt;strong>音を頼りに迷路を探索し妖精さんを見つける&lt;/strong>」ゲームが企画されました。以下の画像は
-&lt;a href="https://www.sbcr.jp/product/4797377361/" target="_blank" rel="noopener">ゲーム作りのはじめかた Unityで覚える企画からレベルデザインまで&lt;/a>という本の「まずはゲームの企画をA4 1枚にペンで書け！」といった教えにのっとり書いた企画書です。
+&lt;p>以上より「&lt;strong>音を頼りに迷路を探索し妖精さんを見つける&lt;/strong>」ゲームが企画されました。以下の画像は&lt;a href="https://www.sbcr.jp/product/4797377361/" target="_blank" rel="noopener">ゲーム作りのはじめかた Unityで覚える企画からレベルデザインまで&lt;/a>という本の「まずはゲームの企画をA4 1枚にペンで書け！」といった教えにのっとり書いた企画書です。
 &lt;figure id="figure-finden-die-feen-企画書">
-&lt;a data-fancybox="" href="./blog_02.jpg" data-caption="Finden die Feen 企画書">
-&lt;img src="./blog_02.jpg" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./blog_02.jpg" alt="Finden die Feen 企画書" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
 Finden die Feen 企画書
-&lt;/figcaption>
-&lt;/figure>
+&lt;/figcaption>&lt;/figure>
 上の企画書を見てみると，何個か夢物語が書いてありますが，「Finden die Feen」の原型は保たれてますね。また，この時点でゲームのタイトルはまだ決めていませんね。&lt;/p>
 &lt;p>ちなみに，この企画書は5月のはじめに書いたものです。提出締め切りが5月30日だったので，必然的に1か月で完成させなくてはいけなく，締め切り1週間前は地獄を見ました&amp;hellip;。&lt;del>大学の文化祭が新型コロナウイルス騒ぎで中止になったと聞いて，今年はゲーム作らなくていいかと思ってたところにオンライン文化祭の通知が来たもん仕方ないね。&lt;/del>&lt;/p>
 &lt;h1 id="実装">実装&lt;/h1>
@@ -63,20 +55,15 @@ Finden die Feen 企画書
 &lt;li>壁伸ばし法（複雑な迷路生成）&lt;/li>
 &lt;li>穴掘り法（複雑な迷路生成）&lt;/li>
 &lt;/ul>
-&lt;p>この中で，「Finden die Feen」の迷路自動生成アルゴリズムには「&lt;strong>穴掘り法&lt;/strong>」を用いました。コードはたった5,000円で買える素晴らしい本，
-&lt;a href="https://www.borndigital.co.jp/book/6633.html" target="_blank" rel="noopener">Unityゲーム プログラミング・バイブル&lt;/a>の5章「3D迷路」に載っていたものを&lt;del>パクリ&lt;/del>参考にしました。この穴掘り法を用いると，以下の画像のように任意の大きさの複雑な迷路を勝手に生成してくれます。とても楽ですし素晴らしいですね。
+&lt;p>この中で，「Finden die Feen」の迷路自動生成アルゴリズムには「&lt;strong>穴掘り法&lt;/strong>」を用いました。コードはたった5,000円で買える素晴らしい本，&lt;a href="https://www.borndigital.co.jp/book/6633.html" target="_blank" rel="noopener">Unityゲーム プログラミング・バイブル&lt;/a>の5章「3D迷路」に載っていたものを&lt;del>パクリ&lt;/del>参考にしました。この穴掘り法を用いると，以下の画像のように任意の大きさの複雑な迷路を勝手に生成してくれます。とても楽ですし素晴らしいですね。
 &lt;figure id="figure-穴掘り法による迷路生成">
-&lt;a data-fancybox="" href="./blog_03.png" data-caption="穴掘り法による迷路生成">
-&lt;img src="./blog_03.png" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./blog_03.png" alt="穴掘り法による迷路生成" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
 穴掘り法による迷路生成
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
+&lt;/figcaption>&lt;/figure>&lt;/p>
 &lt;h2 id="2-サウンドの実装">2. サウンドの実装&lt;/h2>
-&lt;p>「Finden die Feen」では，妖精の位置によって音の鳴り方が変わり，プレイヤーからどれだけ近くに妖精がいるかを教えてくれるのが特徴です。この特徴的なソナー音やBGMなど，プレイヤーの位置に依存しないサウンドは，単一のゲームオブジェクトによる一括管理を行うことを考えます。このようなサウンドシステムの実装は，&lt;strong>シングルトンパターン&lt;/strong> を用いて実装されています。つまり，ゲーム実行中は常に1つのインスタンスが存在し，サウンドに関する処理を一括して行っています。ちなみに私はこの処理を，たった4,000円で買える本，
-&lt;a href="https://www.borndigital.co.jp/book/15163.html" target="_blank" rel="noopener">Unity サウンド エキスパート養成講座&lt;/a>の1章のコードを&lt;del>パクって&lt;/del>参考にして実装しました。&lt;/p>
+&lt;p>「Finden die Feen」では，妖精の位置によって音の鳴り方が変わり，プレイヤーからどれだけ近くに妖精がいるかを教えてくれるのが特徴です。この特徴的なソナー音やBGMなど，プレイヤーの位置に依存しないサウンドは，単一のゲームオブジェクトによる一括管理を行うことを考えます。このようなサウンドシステムの実装は，&lt;strong>シングルトンパターン&lt;/strong> を用いて実装されています。つまり，ゲーム実行中は常に1つのインスタンスが存在し，サウンドに関する処理を一括して行っています。ちなみに私はこの処理を，たった4,000円で買える本，&lt;a href="https://www.borndigital.co.jp/book/15163.html" target="_blank" rel="noopener">Unity サウンド エキスパート養成講座&lt;/a>の1章のコードを&lt;del>パクって&lt;/del>参考にして実装しました。&lt;/p>
 &lt;p>このような実装を行うと，音源の再生を行いたい場合に&lt;/p>
 &lt;pre>&lt;code class="language-c#:">using SoundSystem;
 &lt;/code>&lt;/pre>
@@ -87,24 +74,19 @@ Finden die Feen 企画書
 &lt;h2 id="3-ムービーの実装">3. ムービーの実装&lt;/h2>
 &lt;p>「Finden die Feen」では，チュートリアルや妖精を発見したときなどにムービーが流れます。
 &lt;figure id="figure-ムービーシーン">
-&lt;a data-fancybox="" href="./blog_04.png" data-caption="ムービーシーン">
-&lt;img src="./blog_04.png" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./blog_04.png" alt="ムービーシーン" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
 ムービーシーン
-&lt;/figcaption>
-&lt;/figure>
+&lt;/figcaption>&lt;/figure>
 このムービーは，Unityの &lt;strong>Timeline&lt;/strong> という機能を用いて実装しました。Timelineを用いると，簡単にムービーシーンを作ることができるため大変便利です。
 &lt;figure id="figure-unityのtimeline">
-&lt;a data-fancybox="" href="./blog_05.png" data-caption="UnityのTimeline">
-&lt;img src="./blog_05.png" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./blog_05.png" alt="UnityのTimeline" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
 UnityのTimeline
-&lt;/figcaption>
-&lt;/figure>
-画像のように，動画編集みたいに時系列でプログラムを書かずにオブジェクトを操作できます。今回はTimelineを用いてテキスト表示を行うカスタムクリップを
-&lt;a href="https://blogs.unity3d.com/jp/2018/09/05/extending-timeline-a-practical-guide/" target="_blank" rel="noopener">Timelineの拡張 ― 実践ガイド&lt;/a>というサイトを参考に実装しました。何回かTimelineのカスタムクリップを実装したことはありますが，まともに勉強したのは初めてな気がします。&lt;/p>
+&lt;/figcaption>&lt;/figure>
+画像のように，動画編集みたいに時系列でプログラムを書かずにオブジェクトを操作できます。今回はTimelineを用いてテキスト表示を行うカスタムクリップを&lt;a href="https://blogs.unity3d.com/jp/2018/09/05/extending-timeline-a-practical-guide/" target="_blank" rel="noopener">Timelineの拡張 ― 実践ガイド&lt;/a>というサイトを参考に実装しました。何回かTimelineのカスタムクリップを実装したことはありますが，まともに勉強したのは初めてな気がします。&lt;/p>
 &lt;p>このとき，PlayableAssetを継承したクラス，PlayableBehaviourを継承したクラス，TrackAssetを継承したクラスそれぞれファイル名とクラス名を同じにしないと，Timelineからカスタムクリップが抜け落ちるという仕様に1日悩んだのはいい思い出です。&lt;del>少し考えれば，あたりまえなんですけどね。&lt;/del>&lt;/p>
 &lt;h1 id="テストプレイから公開まで">テストプレイから公開まで&lt;/h1>
 &lt;p>ここでは，ゲームバランス調整について書いていこうと思います。一般論として，開発者がプレイして開発者がちょうどいいと思う難易度にすると，たいてい &lt;strong>超高難易度&lt;/strong> になります。そのため，テストプレイはできる限り第3者に行ってもらうのがオススメです。私は締め切り1日前に妹にテストプレイをしてもらい，制限時間などのパラメータを調節しました。&lt;/p>
@@ -118,34 +100,27 @@ UnityのTimeline
 &lt;p>の機能を実装したほうがいいという&lt;del>地獄のような&lt;/del>素晴らしいアドバイスを &lt;strong>締め切り直前&lt;/strong> にいただき，締め切り前日の夜10時から締め切り当日の朝5時にかけて上記の機能を全て実装しました。このアドバイスによってよりゲームのクオリティが上がったと思うので妹には感謝しています。&lt;del>アドバイスをもらったときは妹にうっすら殺意を覚えましたが。&lt;/del>&lt;/p>
 &lt;p>そして最後にゲームの &lt;strong>タイトル&lt;/strong> を決めました。なんでもかんでも &lt;strong>ドイツ語&lt;/strong> にするとカッコいいよねという安直な考えで，「Finden die Feen」というタイトルになりました。ちなみに英語にすると「Find the Fairies」です。「妖精を発見する」的な意味です。そのままです。このタイトルをつけるためだけに，2年ぶりにドイツ語の文法書を引っ張り出しました。&lt;del>ドイツ語の文法がおかしい？うるせえ黙れ！&lt;/del>
 &lt;figure id="figure-ゲームのタイトル画面">
-&lt;a data-fancybox="" href="./blog_06.png" data-caption="ゲームのタイトル画面">
-&lt;img src="./blog_06.png" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./blog_06.png" alt="ゲームのタイトル画面" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
 ゲームのタイトル画面
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
+&lt;/figcaption>&lt;/figure>&lt;/p>
 &lt;h1 id="最後に">最後に&lt;/h1>
 &lt;p>このような感じで「Finden die Feen」は約1ヶ月という期間で製作し，府大バーチャル学祭で公開されました。個人的には，完成度がそこそこ高く見えるため気に入っています。特に気に入っているのは，以下の画像のステージです。
 &lt;figure id="figure-お気に入りのステージ">
-&lt;a data-fancybox="" href="./blog_07.png" data-caption="お気に入りのステージ">
-&lt;img src="./blog_07.png" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./blog_07.png" alt="お気に入りのステージ" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
 お気に入りのステージ
-&lt;/figcaption>
-&lt;/figure>
+&lt;/figcaption>&lt;/figure>
 このステージは，赤，青，緑のライトが混ざり合うステージでとても綺麗だと思ってるのですが，みなさんはどう思いましたか？私はデバッグ中，このステージに1人で感動していました。&lt;/p>
 &lt;p>最後になりますが，ここまで読んで下さりありがとうございました。そしてまた改めて「Finden die Feen」で遊んでみてはいかがでしょうか？&lt;/p></description></item><item><title>Unity WebGLのゲームをローカルでプレイする方法</title><link>https://blog.opuappnavi.com/post/unity-webgl-locally/</link><pubDate>Sat, 30 May 2020 16:45:03 +0900</pubDate><guid>https://blog.opuappnavi.com/post/unity-webgl-locally/</guid><description>&lt;p>UnityでWebGLをプラットフォームに選択し、&lt;code>Build And Run&lt;/code>を押すと、ブラウザが起動して、作ったゲームをプレイすることができます。WebGLのビルドにはとても時間がかかるので、毎回ビルドするのではなく、一度ビルドしたゲームを複数回プレイしたくなります。ですが、ただ単に出力されたファイル&lt;code>index.html&lt;/code>を開くだけではプレイできません。&lt;br>
 &lt;figure id="figure-indexhtmlを開くとこのようなエラーメッセージが表示される">
-&lt;a data-fancybox="" href="./Unity_WebGL_Index_Html_Error.png" data-caption="index.htmlを開くと、このようなエラーメッセージが表示される">
-&lt;img src="./Unity_WebGL_Index_Html_Error.png" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./Unity_WebGL_Index_Html_Error.png" alt="index.htmlを開くと、このようなエラーメッセージが表示される" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
 index.htmlを開くと、このようなエラーメッセージが表示される
-&lt;/figcaption>
-&lt;/figure>
+&lt;/figcaption>&lt;/figure>
 そこで、&lt;code>Visual Studio Code&lt;/code>(&lt;code>VSCode&lt;/code>)を使ってビルドしたゲームをプレイする方法を紹介します。&lt;br>
 &lt;div class="alert alert-note">
 &lt;div>
@@ -156,50 +131,39 @@ index.htmlを開くと、このようなエラーメッセージが表示され�
 &lt;h1 id="1-拡張機能のインストール">1. 拡張機能のインストール&lt;/h1>
 &lt;p>&lt;code>VSCode&lt;/code>を起動し、画面左のボタンを押して拡張機能パネルを開きます。
 &lt;figure id="figure-拡張機能パネルを開くボタン">
-&lt;a data-fancybox="" href="./VSCode_Japanese.png" data-caption="拡張機能パネルを開くボタン">
-&lt;img src="./VSCode_Japanese.png" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./VSCode_Japanese.png" alt="拡張機能パネルを開くボタン" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
 拡張機能パネルを開くボタン
-&lt;/figcaption>
-&lt;/figure>
+&lt;/figcaption>&lt;/figure>
 パネル上の検索ボックスに&lt;code>live server&lt;/code>と入力し、検索結果の一番上にある&lt;code>Live Server&lt;/code>をクリックします。&lt;code>拡張機能:Live Server&lt;/code>タブが開くので、&lt;code>インストール&lt;/code>をクリックします。
 &lt;figure id="figure-拡張機能live-serverタブ">
-&lt;a data-fancybox="" href="./VSCode_Live_Server.png" data-caption="「拡張機能：Live Server」タブ">
-&lt;img src="./VSCode_Live_Server.png" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./VSCode_Live_Server.png" alt="「拡張機能：Live Server」タブ" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
 「拡張機能：Live Server」タブ
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
+&lt;/figcaption>&lt;/figure>&lt;/p>
 &lt;h2 id="補足-vscode日本語化">(補足) VSCode日本語化&lt;/h2>
 &lt;p>検索ボックスに&lt;code>japanese&lt;/code>と入力し、検索結果の一番上にある拡張機能&lt;code>Japanese Language Pack for Visual Studio Code&lt;/code>をインストールすることで日本語化できます。
 &lt;figure id="figure-japanese-language-pack-for-visual-studio-codeインストール済み">
-&lt;a data-fancybox="" href="./VSCode_Japanese.png" data-caption="「Japanese Language Pack for Visual Studio Code」(インストール済み)">
-&lt;img src="./VSCode_Japanese.png" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./VSCode_Japanese.png" alt="「Japanese Language Pack for Visual Studio Code」(インストール済み)" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
 「Japanese Language Pack for Visual Studio Code」(インストール済み)
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
+&lt;/figcaption>&lt;/figure>&lt;/p>
 &lt;h1 id="2-ビルドしたゲームをvscodeで開く">2. ビルドしたゲームをVSCodeで開く&lt;/h1>
 &lt;p>メニューの&lt;code>ファイル(F)&lt;/code>から&lt;code>フォルダを開く... Ctrl+K Ctrl+O&lt;/code>をクリックします。フォルダ選択ダイアログが表示されるので、出力された&lt;code>Build&lt;/code>フォルダと&lt;code>TemplateData&lt;/code>フォルダ、&lt;code>index.html&lt;/code>ファイルのあるフォルダを選択します。&lt;/p>
 &lt;h1 id="3-ゲームをプレイ">3. ゲームをプレイ&lt;/h1>
 &lt;p>正しくフォルダを開けていると画面右下に&lt;code>Go Live&lt;/code>ボタンが表示されます。このボタンをクリックするとブラウザが起動し、ゲームをプレイできます。
 &lt;figure id="figure-go-live-ボタン">
-&lt;a data-fancybox="" href="./Live_Server_Go_Live.png" data-caption="Go Live ボタン">
-&lt;img src="./Live_Server_Go_Live.png" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./Live_Server_Go_Live.png" alt="Go Live ボタン" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
 Go Live ボタン
-&lt;/figcaption>
-&lt;/figure>
+&lt;/figcaption>&lt;/figure>
 &lt;code>Go Live&lt;/code>があった場所に表示される&lt;code>Port:5050&lt;/code>をクリックすれば、ブラウザでのプレイを停止できます。VSCodeを閉じれば自動的に停止するはずですが、プレイを止める際にはボタンを押すことをおすすめします。&lt;/p></description></item><item><title>自己流ステージ作成方法</title><link>https://blog.opuappnavi.com/post/stage-create/</link><pubDate>Sat, 30 May 2020 10:17:55 +0900</pubDate><guid>https://blog.opuappnavi.com/post/stage-create/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
 &lt;p>初めまして、アプリNaviのヤマグチです。&lt;br>
-本日、府大バーチャル学祭開催に合わせ、『巡回！デリバリー屋さん』を
-&lt;a href="http://appnavi.html.xdomain.jp/index.html" target="_blank" rel="noopener">特設ページ&lt;/a>にて公開させていただきました。遊んで、楽しんでもらえたのなら嬉しいです。&lt;/p>
+本日、府大バーチャル学祭開催に合わせ、『巡回！デリバリー屋さん』を&lt;a href="http://appnavi.html.xdomain.jp/index.html" target="_blank" rel="noopener">特設ページ&lt;/a>にて公開させていただきました。遊んで、楽しんでもらえたのなら嬉しいです。&lt;/p>
 &lt;p>今ゲームは2Dパズルアクションゲームで、ステージ作りにそれなりの時間を割きました。&lt;br>
 そこで、前半はステージ作りをするとき僕がどう考えていたかについて、後半はゲーム内に実装したステージを作った時に考えていたことの一部について書きます。&lt;br>
 あくまで僕自身の考え方であり他の方のものとは異なります。参考程度に読んでください。&lt;/p>
@@ -229,14 +193,13 @@ Go Live ボタン
 &lt;details>
 &lt;summary>&lt;code>以下ステージ9ネタバレ&lt;/code>&lt;/summary>
 &lt;figure >
-&lt;p>&lt;a data-fancybox="" href="./stage9.png" >&lt;/p>
-&lt;p>&lt;img src="./stage9.png" alt="" >
-&lt;/a>&lt;/p>
-&lt;/figure>
-&lt;p>1の意図は、ステージ全体にコンセプトを持たせることです。&lt;br>
-初めにコンセプトを決めておくことで僕自身の中で方向性がブレないようにしました。このステージ全体のコンセプトは「ステージ一周」でした。その時に右周りでも左回りでもクリアできるようにするということを目標にしました。&lt;br>
-ステージ全体を荷物を取るエリアでそれぞれ区分けし、各エリアには入り口と出口を作り、周回方向によって入り口、出口が入れ替わるような配置にしました。&lt;br>
-上の画像では、赤枠の示す上から落ちるブロックを擬似的な通行止めとして利用しています。&lt;/p>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./stage9.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+1の意図は、ステージ全体にコンセプトを持たせることです。
+初めにコンセプトを決めておくことで僕自身の中で方向性がブレないようにしました。このステージ全体のコンセプトは「ステージ一周」でした。その時に右周りでも左回りでもクリアできるようにするということを目標にしました。
+ステージ全体を荷物を取るエリアでそれぞれ区分けし、各エリアには入り口と出口を作り、周回方向によって入り口、出口が入れ替わるような配置にしました。
+上の画像では、赤枠の示す上から落ちるブロックを擬似的な通行止めとして利用しています。
 &lt;p>2の意味のないものは、どっち周りでもクリアできるという要素です。&lt;br>
 別に両方から進める必要は全くありません。左回りの時は右回りのギミックは不必要で、右回りの時は左回りのギミックは不必要となります。&lt;br>
 ただ、これがあることでこのステージの面白さが出ていると考えています。&lt;/p>
@@ -255,8 +218,7 @@ Go Live ボタン
 &lt;ul>
 &lt;li>Unity&lt;/li>
 &lt;li>GitHub アカウント&lt;/li>
-&lt;li>Git：
-&lt;a href="https://git-scm.com/downloads" target="_blank" rel="noopener">ここ&lt;/a>からダウンロードできます&lt;/li>
+&lt;li>Git：&lt;a href="https://git-scm.com/downloads" target="_blank" rel="noopener">ここ&lt;/a>からダウンロードできます&lt;/li>
 &lt;/ul>
 &lt;h1 id="1-unityでゲームをビルドする">1. Unityでゲームをビルドする&lt;/h1>
 &lt;h2 id="11-build-settingsを開く">1.1 Build Settingsを開く&lt;/h2>
@@ -279,25 +241,22 @@ Go Live ボタン
 &lt;p>&lt;a href="https://github.com/">GitHub&lt;/a>にアクセスし、サインインしてください。&lt;/p>
 &lt;h2 id="22-新しいリポジトリの作成">2.2 新しいリポジトリの作成&lt;/h2>
 &lt;figure class="left" >
-&lt;p>&lt;a data-fancybox="" href="./GitHub_New_Repository.png" >&lt;/p>
-&lt;p>&lt;img src="./GitHub_New_Repository.png" alt="" >
-&lt;/a>&lt;/p>
-&lt;/figure>
-&lt;p>&lt;code>Repositories&lt;/code>の右にある&lt;code>New&lt;/code>をクリックしてください。&lt;/p>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./GitHub_New_Repository.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+`Repositories`の右にある`New`をクリックしてください。
 &lt;figure class="left" >
-&lt;p>&lt;a data-fancybox="" href="./GitHub_New_Repository2.png" >&lt;/p>
-&lt;p>&lt;img src="./GitHub_New_Repository2.png" alt="" >
-&lt;/a>&lt;/p>
-&lt;/figure>
-&lt;p>&lt;code>Repository name&lt;/code>は任意の名前で構いませんが、ゲームをプレイする人も見ることができるので注意してください。&lt;br>
-&lt;code>Public&lt;/code>と&lt;code>Private&lt;/code>を選択できますが、&lt;code>Public&lt;/code>を選択してください。&lt;br>
-&lt;code>Create repository&lt;/code>を選択してリポジトリを作成してください。&lt;/p>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./GitHub_New_Repository2.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+`Repository name`は任意の名前で構いませんが、ゲームをプレイする人も見ることができるので注意してください。
+`Public`と`Private`を選択できますが、`Public`を選択してください。
+`Create repository`を選択してリポジトリを作成してください。
 &lt;figure class="left" >
-&lt;p>&lt;a data-fancybox="" href="./GitHub_New_Repository3.png" >&lt;/p>
-&lt;p>&lt;img src="./GitHub_New_Repository3.png" alt="" >
-&lt;/a>&lt;/p>
-&lt;/figure>
-&lt;p>赤い枠で囲まれたボタンを押してください。左のURLがクリップボードにコピーされます。&lt;/p>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./GitHub_New_Repository3.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+赤い枠で囲まれたボタンを押してください。左のURLがクリップボードにコピーされます。
 &lt;h2 id="23-ファイルのアップロード">2.3 ファイルのアップロード&lt;/h2>
 &lt;p>&lt;code>Git Bash&lt;/code>を起動してください。
 起動時のフォルダは&lt;code>C:\Users\(ユーザー名)&lt;/code>なので、ビルド結果があるフォルダに移動してください。&lt;code>cd (フォルダ名)&lt;/code>コマンドで移動できます。
@@ -318,16 +277,14 @@ git push -u origin master
 &lt;h1 id="3-webにゲームを公開">3. Webにゲームを公開&lt;/h1>
 &lt;p>
 &lt;figure class="left" >
-&lt;a data-fancybox="" href="./GitHub_Pages.png" >
-&lt;img src="./GitHub_Pages.png" alt="" >
-&lt;/a>
-&lt;/figure>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./GitHub_Pages.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
 &lt;code>Settings&lt;/code>をクリックしてください。
 &lt;figure class="left" >
-&lt;a data-fancybox="" href="./GitHub_Pages2.png" >
-&lt;img src="./GitHub_Pages2.png" alt="" >
-&lt;/a>
-&lt;/figure>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./GitHub_Pages2.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
 スクロールし、&lt;code>GitHub Pages&lt;/code>の&lt;code>Source&lt;/code>の下にあるドロップダウンリストで&lt;code>master branch&lt;/code>を選択してください。&lt;/p>
 &lt;h1 id="公開したゲームをプレイ">公開したゲームをプレイ&lt;/h1>
 &lt;p>&lt;code>https://(ユーザー名).github.io/(リポジトリ名)/&lt;/code>というURLにアクセスすると、作ったゲームをプレイすることができます。&lt;/p></description></item><item><title>GitHub for Unityの紹介</title><link>https://blog.opuappnavi.com/post/github-for-unity/</link><pubDate>Thu, 30 Apr 2020 20:18:25 +0900</pubDate><guid>https://blog.opuappnavi.com/post/github-for-unity/</guid><description>&lt;h1 id="使用したunityのバージョン">使用したUnityのバージョン&lt;/h1>
@@ -338,41 +295,33 @@ git push -u origin master
 &lt;li>Asset Storeから「GitHub for Unity」をインポート&lt;/li>
 &lt;li>メニューで&lt;code>Window&lt;/code>&amp;gt;&lt;code>GitHub&lt;/code>を選択&lt;br>
 &lt;figure class="left" >
-&lt;a data-fancybox="" href="./GitHub_Tab_Menu.png" >
-&lt;img src="./GitHub_Tab_Menu.png" alt="" >
-&lt;/a>
-&lt;/figure>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./GitHub_Tab_Menu.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
 GitHubタブが開きます。
 &lt;figure class="left" >
-&lt;a data-fancybox="" href="./GitHub_Tab.png" >
-&lt;img src="./GitHub_Tab.png" alt="" >
-&lt;/a>
-&lt;/figure>
-&lt;/li>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./GitHub_Tab.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>&lt;/li>
 &lt;li>&lt;strong>(初回のみ)&lt;/strong> &lt;code>Sign In&lt;/code>をクリック&lt;br>
 &lt;figure class="left" >
-&lt;a data-fancybox="" href="./GitHub_SignIn.png" >
-&lt;img src="./GitHub_SignIn.png" alt="" >
-&lt;/a>
-&lt;/figure>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./GitHub_SignIn.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
 ダイアログが表示されるので、GitHubアカウントでサインインしてください。&lt;/li>
 &lt;li>&lt;code>Initialize a git repository for this project&lt;/code>をクリック&lt;br>
 少し待つと、タブの中身が変化します。&lt;br>
 &lt;figure class="left" >
-&lt;a data-fancybox="" href="./GitHub_AfterGitInit.png" >
-&lt;img src="./GitHub_AfterGitInit.png" alt="" >
-&lt;/a>
-&lt;/figure>
-&lt;/li>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./GitHub_AfterGitInit.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>&lt;/li>
 &lt;/ol>
 &lt;h1 id="使い方">使い方&lt;/h1>
 &lt;p>&lt;code>Changes&lt;/code>を選択してください。前回保存した状態から変更があったファイルが一覧表示されます。
 &lt;figure class="left" >
-&lt;a data-fancybox="" href="./GitHub_Changes.png" >
-&lt;img src="./GitHub_Changes.png" alt="" >
-&lt;/a>
-&lt;/figure>
-&lt;/p>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./GitHub_Changes.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>&lt;/p>
 &lt;h2 id="変更を保存する">変更を保存する&lt;/h2>
 &lt;ol>
 &lt;li>リストから保存したい変更をチェックマークをクリックして選択&lt;/li>

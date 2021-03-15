@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Markdown | アプリNaviブログ</title><link>https://blog.opuappnavi.com/tag/markdown/</link><atom:link href="https://blog.opuappnavi.com/tag/markdown/index.xml" rel="self" type="application/rss+xml"/><description>Markdown</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710 2021</copyright><lastBuildDate>Tue, 05 May 2020 21:46:39 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url><title>Markdown</title><link>https://blog.opuappnavi.com/tag/markdown/</link></image><item><title>(個人的)プログラマーなら使えたほうがいいファイル形式</title><link>https://blog.opuappnavi.com/post/file-format-should-able-use/</link><pubDate>Tue, 05 May 2020 21:46:39 +0900</pubDate><guid>https://blog.opuappnavi.com/post/file-format-should-able-use/</guid><description>&lt;p>プログラミング入門講座を学び、UnityやAndroid、Webなどの開発を始めた脱プログラミング初心者に向けた記事です。何を開発するかに関わらず、内容を理解出来たり自分で書けたりすれば役にたつと思うファイル形式を3つ紹介します。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Markdown | アプリNaviブログ</title><link>https://blog.opuappnavi.com/tag/markdown/</link><atom:link href="https://blog.opuappnavi.com/tag/markdown/index.xml" rel="self" type="application/rss+xml"/><description>Markdown</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>©Juris710 2021</copyright><lastBuildDate>Tue, 05 May 2020 21:46:39 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url><title>Markdown</title><link>https://blog.opuappnavi.com/tag/markdown/</link></image><item><title>(個人的)プログラマーなら使えたほうがいいファイル形式</title><link>https://blog.opuappnavi.com/post/file-format-should-able-use/</link><pubDate>Tue, 05 May 2020 21:46:39 +0900</pubDate><guid>https://blog.opuappnavi.com/post/file-format-should-able-use/</guid><description>&lt;p>プログラミング入門講座を学び、UnityやAndroid、Webなどの開発を始めた脱プログラミング初心者に向けた記事です。何を開発するかに関わらず、内容を理解出来たり自分で書けたりすれば役にたつと思うファイル形式を3つ紹介します。&lt;/p>
 &lt;h1 id="markdown">Markdown&lt;/h1>
 &lt;p>Markdown（マークダウン）は、文書を記述するための軽量マークアップ言語のひとつです。
 ソフトウェアのインストールし使用する前の注意事項などを記述した&lt;code>Readme&lt;/code>ファイルなどに用いられています。また、このサイトの記事も全てMarkdownファイルです。&lt;/p>
@@ -11,8 +11,7 @@
 &lt;h1 id="xml">XML&lt;/h1>
 &lt;p>XMLは&lt;code>Extensible Markup Language&lt;/code>の略で、文書やデータの意味や構造を記述するためのマークアップ言語の一つです。マークアップ言語とは、「タグ」と呼ばれる特定の文字列で地の文に情報の意味や構造、装飾などを埋め込んでいく言語です。&lt;/p>
 &lt;h2 id="web-api-1">Web API&lt;/h2>
-&lt;p>WebAPIを利用した結果は、JSON形式やXML形式の文字列で取得できることが多いです。詳しくは
-&lt;a href="#json">JSON&lt;/a>を参照してください。&lt;/p>
+&lt;p>WebAPIを利用した結果は、JSON形式やXML形式の文字列で取得できることが多いです。詳しくは&lt;a href="#json">JSON&lt;/a>を参照してください。&lt;/p>
 &lt;h2 id="android">Android&lt;/h2>
 &lt;p>Android StudioでのAndroidアプリ開発では、UIのレイアウトやスタイル、多言語対応の文字列などに関してxmlで記述されています。&lt;/p>
 &lt;h2 id="unity-1">Unity&lt;/h2>
@@ -37,11 +36,9 @@ Unity 2019から&lt;code>UI Elements&lt;/code>という新しいUIシステム�
 &lt;li>&lt;a href="https://blogs.unity3d.com/jp/2019/04/23/whats-new-with-uielements-in-2019-1/">https://blogs.unity3d.com/jp/2019/04/23/whats-new-with-uielements-in-2019-1/&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.youtube.com/watch?v=5UTiLOIU8TE">https://www.youtube.com/watch?v=5UTiLOIU8TE&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>記事の書き方</title><link>https://blog.opuappnavi.com/post/how-to-write-an-article/</link><pubDate>Tue, 28 Apr 2020 00:01:09 +0900</pubDate><guid>https://blog.opuappnavi.com/post/how-to-write-an-article/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
-&lt;p>このサイトでの記事の書き方をまとめました。英語でも構わない場合は
-&lt;a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/" target="_blank" rel="noopener">公式ドキュメント&lt;/a>も参照してください。&lt;/p>
+&lt;p>このサイトでの記事の書き方をまとめました。英語でも構わない場合は&lt;a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/" target="_blank" rel="noopener">公式ドキュメント&lt;/a>も参照してください。&lt;/p>
 &lt;h1 id="markdown記法">Markdown記法&lt;/h1>
-&lt;p>全ての記事はMarkdown記法で書く必要があります。書き方については
-&lt;a href="https://qiita.com/kamorits/items/6f342da395ad57468ae3" target="_blank" rel="noopener">このサイト&lt;/a>を参照してください。&lt;/p>
+&lt;p>全ての記事はMarkdown記法で書く必要があります。書き方については&lt;a href="https://qiita.com/kamorits/items/6f342da395ad57468ae3" target="_blank" rel="noopener">このサイト&lt;/a>を参照してください。&lt;/p>
 &lt;h2 id="画像を挿入する場合">画像を挿入する場合&lt;/h2>
 &lt;pre>&lt;code class="language-md">![代替テキスト](./画像名)
 &lt;/code>&lt;/pre>
@@ -50,8 +47,7 @@ Unity 2019から&lt;code>UI Elements&lt;/code>という新しいUIシステム�
 「画像名」には拡張子も含めてください
 &lt;/div>
 &lt;/div>
-画像のサイズを変えたい、または画像を左寄せ・右寄せしたい場合は下の
-&lt;a href="#%e7%94%bb%e5%83%8f%e3%81%ae%e6%8c%bf%e5%85%a5">画像の挿入&lt;/a>を参照してください&lt;/p>
+画像のサイズを変えたい、または画像を左寄せ・右寄せしたい場合は下の&lt;a href="#%e7%94%bb%e5%83%8f%e3%81%ae%e6%8c%bf%e5%85%a5">画像の挿入&lt;/a>を参照してください&lt;/p>
 &lt;h1 id="shortcodes">Shortcodes&lt;/h1>
 &lt;p>ShortcodesとはHugo独自の機能で、Markdownファイルに書くことができるスニペットです。&lt;/p>
 &lt;h2 id="画像の挿入">画像の挿入&lt;/h2>
@@ -83,8 +79,7 @@ Unity 2019から&lt;code>UI Elements&lt;/code>という新しいUIシステム�
 &lt;pre>&lt;code class="language-md">{{&amp;lt;figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot; class=&amp;quot;float-right&amp;quot;&amp;gt;}}
 &lt;/code>&lt;/pre>
 &lt;/details>
-他にも、画像の幅・高さなどをカスタムすることができます。詳しくは
-&lt;a href="https://gohugo.io/content-management/shortcodes/#figure" target="_blank" rel="noopener">公式ドキュメント&lt;/a> を参照してください。&lt;/p>
+他にも、画像の幅・高さなどをカスタムすることができます。詳しくは&lt;a href="https://gohugo.io/content-management/shortcodes/#figure" target="_blank" rel="noopener">公式ドキュメント&lt;/a> を参照してください。&lt;/p>
 &lt;h2 id="youtube動画埋め込み">Youtube動画埋め込み&lt;/h2>
 &lt;pre>&lt;code class="language-md">{{&amp;lt;youtube 動画のID&amp;gt;}}
 &lt;/code>&lt;/pre>
@@ -94,8 +89,7 @@ YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式
 &lt;/div>
 &lt;/div>
 &lt;h2 id="unity-webglの埋め込み">Unity WebGLの埋め込み&lt;/h2>
-&lt;p>
-&lt;a href="https://ch-random.net/post/93/" target="_blank" rel="noopener">ランダムさんの記事&lt;/a>の内容を少し改変した自作Shortcodeです。Unity WebGLのゲームをページ内でプレイすることができます。&lt;/p>
+&lt;p>&lt;a href="https://ch-random.net/post/93/" target="_blank" rel="noopener">ランダムさんの記事&lt;/a>の内容を少し改変した自作Shortcodeです。Unity WebGLのゲームをページ内でプレイすることができます。&lt;/p>
 &lt;pre>&lt;code class="language-md">{{&amp;lt;unity src=&amp;quot;URL&amp;quot;&amp;gt;}}
 &lt;/code>&lt;/pre>
 &lt;h2 id="ツイートの埋め込み">ツイートの埋め込み&lt;/h2>
@@ -136,18 +130,19 @@ foo
 &lt;i class="fas fa-project-diagram pub-icon" aria-hidden="true">&lt;/i>
 &lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/" >府大バーチャル学祭&lt;/a>
 &lt;div class="article-metadata">
-&lt;span >&lt;a href="https://blog.opuappnavi.com/author/juris710/">Juris710&lt;/a>&lt;/span>, &lt;span >&lt;a href="https://blog.opuappnavi.com/author/nobu/">Nobu&lt;/a>&lt;/span>, &lt;span >&lt;a href="https://blog.opuappnavi.com/author/%E3%83%A4%E3%83%9E%E3%82%AF%E3%83%81/">ヤマグチ&lt;/a>&lt;/span>
-&lt;/div>
-&lt;div class="btn-links">
+&lt;span >
+&lt;a href="https://blog.opuappnavi.com/authors/juris710/">Juris710&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="https://blog.opuappnavi.com/authors/nobu/">Nobu&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="https://blog.opuappnavi.com/authors/yamaguchi/">ヤマグチ&lt;/a>&lt;/span>
 &lt;/div>
 &lt;/div>
 &lt;/p>
 &lt;p>&lt;code>view=&amp;quot;2&amp;quot;&lt;/code>に変えると、下のように表示されます。
 &lt;div class="media stream-item">
 &lt;div class="media-body">
-&lt;h3 class="article-title mb-0 mt-0">
+&lt;div class="section-subheading article-title mb-0 mt-0">
 &lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/" >府大バーチャル学祭&lt;/a>
-&lt;/h3>
+&lt;/div>
 &lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/" class="summary-link">
 &lt;div class="article-style">
 OPU Virtual Festival
@@ -155,10 +150,11 @@ OPU Virtual Festival
 &lt;/a>
 &lt;div class="stream-meta article-metadata">
 &lt;div>
-&lt;span >&lt;a href="https://blog.opuappnavi.com/author/juris710/">Juris710&lt;/a>&lt;/span>, &lt;span >&lt;a href="https://blog.opuappnavi.com/author/nobu/">Nobu&lt;/a>&lt;/span>, &lt;span >&lt;a href="https://blog.opuappnavi.com/author/%E3%83%A4%E3%83%9E%E3%82%AF%E3%83%81/">ヤマグチ&lt;/a>&lt;/span>
+&lt;span >
+&lt;a href="https://blog.opuappnavi.com/authors/juris710/">Juris710&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="https://blog.opuappnavi.com/authors/nobu/">Nobu&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="https://blog.opuappnavi.com/authors/yamaguchi/">ヤマグチ&lt;/a>&lt;/span>
 &lt;/div>
-&lt;/div>
-&lt;div class="btn-links">
 &lt;/div>
 &lt;/div>
 &lt;div class="ml-3">
@@ -169,16 +165,19 @@ OPU Virtual Festival
 &lt;div class="card-simple">
 &lt;div class="article-metadata">
 &lt;div>
-&lt;span >&lt;a href="https://blog.opuappnavi.com/author/juris710/">Juris710&lt;/a>&lt;/span>, &lt;span >&lt;a href="https://blog.opuappnavi.com/author/nobu/">Nobu&lt;/a>&lt;/span>, &lt;span >&lt;a href="https://blog.opuappnavi.com/author/%E3%83%A4%E3%83%9E%E3%82%AF%E3%83%81/">ヤマグチ&lt;/a>&lt;/span>
+&lt;span >
+&lt;a href="https://blog.opuappnavi.com/authors/juris710/">Juris710&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="https://blog.opuappnavi.com/authors/nobu/">Nobu&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="https://blog.opuappnavi.com/authors/yamaguchi/">ヤマグチ&lt;/a>&lt;/span>
 &lt;/div>
 &lt;span class="article-date">
 2020/04/28 投稿
 ( 2020/05/30 最終更新 )
 &lt;/span>
 &lt;/div>
-&lt;h3 class="article-title mb-1 mt-3">
+&lt;div class="section-subheading article-title mb-1 mt-3">
 &lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/">府大バーチャル学祭&lt;/a>
-&lt;/h3>
+&lt;/div>
 &lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/" class="summary-link">
 &lt;div class="article-style">
 &lt;p>OPU Virtual Festival&lt;/p>
@@ -190,7 +189,10 @@ OPU Virtual Festival
 &lt;div class="pub-list-item" style="margin-bottom: 1rem">
 &lt;i class="far fa-file-alt pub-icon" aria-hidden="true">&lt;/i>
 &lt;span class="article-metadata li-cite-author">
-&lt;span >&lt;a href="https://blog.opuappnavi.com/author/juris710/">Juris710&lt;/a>&lt;/span>, &lt;span >&lt;a href="https://blog.opuappnavi.com/author/nobu/">Nobu&lt;/a>&lt;/span>, &lt;span >&lt;a href="https://blog.opuappnavi.com/author/%E3%83%A4%E3%83%9E%E3%82%AF%E3%83%81/">ヤマグチ&lt;/a>&lt;/span>
+&lt;span >
+&lt;a href="https://blog.opuappnavi.com/authors/juris710/">Juris710&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="https://blog.opuappnavi.com/authors/nobu/">Nobu&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="https://blog.opuappnavi.com/authors/yamaguchi/">ヤマグチ&lt;/a>&lt;/span>
 &lt;/span>
 (2020).
 &lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/">府大バーチャル学祭&lt;/a>.
@@ -205,18 +207,10 @@ OPU Virtual Festival
 {{&amp;lt;/spoiler&amp;gt;}}
 &lt;/code>&lt;/pre>
 &lt;p>以下のように表示されます。&lt;/p>
-&lt;div class="spoiler " >
-&lt;p>
-&lt;a class="btn btn-primary" data-toggle="collapse" href="#spoiler-13" role="button" aria-expanded="false" aria-controls="spoiler-13">
-このサイトの名前は？(正解を見るにはここをクリック!)
-&lt;/a>
-&lt;/p>
-&lt;div class="collapse card " id="spoiler-13">
-&lt;div class="card-body">
-アプリNaviブログ
-&lt;/div>
-&lt;/div>
-&lt;/div>
+&lt;details class="spoiler " id="spoiler-13">
+&lt;summary>このサイトの名前は？(正解を見るにはここをクリック!)&lt;/summary>
+&lt;p>アプリNaviブログ&lt;/p>
+&lt;/details>
 &lt;h1 id="その他">その他&lt;/h1>
 &lt;h2 id="数式">数式&lt;/h2>
 &lt;p>$\LaTeX$ 記法を用いることで数式を表示することができます。数式は&lt;code>$$&lt;/code>で囲む必要があります。&lt;/p>

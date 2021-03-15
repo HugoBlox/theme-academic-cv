@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Google Apps Script | アプリNaviブログ</title><link>https://blog.opuappnavi.com/tag/google-apps-script/</link><atom:link href="https://blog.opuappnavi.com/tag/google-apps-script/index.xml" rel="self" type="application/rss+xml"/><description>Google Apps Script</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710 2021</copyright><lastBuildDate>Wed, 22 Jul 2020 21:14:27 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url><title>Google Apps Script</title><link>https://blog.opuappnavi.com/tag/google-apps-script/</link></image><item><title>WebAPI で手軽に機能を実装する</title><link>https://blog.opuappnavi.com/post/webapi-recommendation/</link><pubDate>Wed, 22 Jul 2020 21:14:27 +0900</pubDate><guid>https://blog.opuappnavi.com/post/webapi-recommendation/</guid><description>&lt;p>今日は WebAPI の紹介と簡単に使い方について書きたいと思います。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Google Apps Script | アプリNaviブログ</title><link>https://blog.opuappnavi.com/tag/google-apps-script/</link><atom:link href="https://blog.opuappnavi.com/tag/google-apps-script/index.xml" rel="self" type="application/rss+xml"/><description>Google Apps Script</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>©Juris710 2021</copyright><lastBuildDate>Wed, 22 Jul 2020 21:14:27 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url><title>Google Apps Script</title><link>https://blog.opuappnavi.com/tag/google-apps-script/</link></image><item><title>WebAPI で手軽に機能を実装する</title><link>https://blog.opuappnavi.com/post/webapi-recommendation/</link><pubDate>Wed, 22 Jul 2020 21:14:27 +0900</pubDate><guid>https://blog.opuappnavi.com/post/webapi-recommendation/</guid><description>&lt;p>今日は WebAPI の紹介と簡単に使い方について書きたいと思います。
 現在さまざまな WebAPI とそれの使い方についての記事がたくさんある中で大体内容は似てくると思いますが、その存在を知ってもらい、開発の選択肢の一つになれば幸いです。&lt;/p>
 &lt;h1 id="api-とは">API とは&lt;/h1>
 &lt;p>最初に簡単に API の説明をしておくと、
@@ -13,32 +13,26 @@ API とは Application Programming Interface の略で、
 &lt;p>他にもさまざまなシチュエーションで活用できる webAPI があるので下記サイトを挙げておきます。&lt;/p>
 &lt;p>またこれらは web サイトだけではなくスマホアプリや物によればゲーム開発などにも使えるので知っていて損はないのかと思います。&lt;/p>
 &lt;p>・参考サイト&lt;/p>
-&lt;p>
-&lt;a href="https://qiita.com/mikan3rd/items/ba4737023f08bb2ca161" target="_blank" rel="noopener">個人でも使える！おすすめ API 一覧&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://qiita.com/mikan3rd/items/ba4737023f08bb2ca161" target="_blank" rel="noopener">個人でも使える！おすすめ API 一覧&lt;/a>&lt;/p>
 &lt;h2 id="おススメ-webapi">おススメ webAPI&lt;/h2>
 &lt;p>サイトに載っているものから、個人的におススメのものを何点か挙げておきます。&lt;/p>
 &lt;h3 id="google-sheets-api">Google Sheets API&lt;/h3>
-&lt;p>
-&lt;a href="https://developers.google.com/sheets/api/reference/rest/" target="_blank" rel="noopener">公式サイト&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://developers.google.com/sheets/api/reference/rest/" target="_blank" rel="noopener">公式サイト&lt;/a>&lt;/p>
 &lt;p>google spreadsehet の書き込み、読み込みなどができ、簡易的なデータベースとして利用できます。特にちょっとしたアプリなどに利用すると便利です。&lt;/p>
 &lt;h3 id="google-cloud-vision-api">Google Cloud Vision API&lt;/h3>
-&lt;p>
-&lt;a href="https://cloud.google.com/vision/docs/quickstart" target="_blank" rel="noopener">公式サイト&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://cloud.google.com/vision/docs/quickstart" target="_blank" rel="noopener">公式サイト&lt;/a>&lt;/p>
 &lt;p>顔や文字などの画像認識ができる API です。やってみたら結構楽しかったりします。無料で十分使えますが、その場合使用制限があるので注意が必要です。&lt;/p>
 &lt;h3 id="line-messaging-api">LINE Messaging API&lt;/h3>
-&lt;p>
-&lt;a href="https://developers.line.me/ja/docs/messaging-api/overview/" target="_blank" rel="noopener">公式サイト&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://developers.line.me/ja/docs/messaging-api/overview/" target="_blank" rel="noopener">公式サイト&lt;/a>&lt;/p>
 &lt;p>ラインで自動返信する bot などを作ることが出来る API です。。既存のもので bot を使えるやつがありますが、これを利用するとより自由度が高い bot を作成することが可能です。&lt;/p>
 &lt;p>今回紹介したもの以外にもギャグみたいな面白いものだったり、便利なものが色々とあるのでこんなのあったらいいなと思った時に調べてみると実はあるかもしれません。&lt;/p>
 &lt;h1 id="使い方の例">使い方の例&lt;/h1>
 &lt;p>webAPI では現在、基本的にデータのやり取りに json 形式が利用されます。（もちろん xml 形式を用いるものもあります。）&lt;/p>
 &lt;p>json については簡単に参考サイトを載せておきますので興味のある人は見てみてください。&lt;/p>
 &lt;p>・json ってまず何？&lt;/p>
-&lt;p>
-&lt;a href="https://wa3.i-3-i.info/word13798.html" target="_blank" rel="noopener">「分かりそう」で「分からない」でも「分かった」気になれる IT 用語辞典&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://wa3.i-3-i.info/word13798.html" target="_blank" rel="noopener">「分かりそう」で「分からない」でも「分かった」気になれる IT 用語辞典&lt;/a>&lt;/p>
 &lt;p>・json の使い方とか&lt;/p>
-&lt;p>
-&lt;a href="https://reffect.co.jp/html/what_is_json" target="_blank" rel="noopener">JSON ってなに?これさえ読めば理解が深まる&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://reffect.co.jp/html/what_is_json" target="_blank" rel="noopener">JSON ってなに?これさえ読めば理解が深まる&lt;/a>&lt;/p>
 &lt;p>今回は上記の API 一覧にのっている「ぐるなび API」を例として使い方をざっくり紹介したいと思います。&lt;/p>
 &lt;h2 id="ぐるなび-api-って">ぐるなび API って？&lt;/h2>
 &lt;p>ぐるなび API はぐるなびが提供する WebAPI で、ぐるなびに登録されている店の情報や、分野別の店の検索等が出来ます。&lt;/p>
@@ -46,20 +40,16 @@ API とは Application Programming Interface の略で、
 &lt;h2 id="ぐるなび-api-の使い方">ぐるなび API の使い方&lt;/h2>
 &lt;ol>
 &lt;li>
-&lt;p>
-&lt;a href="https://api.gnavi.co.jp/api/" target="_blank" rel="noopener">ぐるなび API のサイト&lt;/a>にアクセスする。&lt;br>
+&lt;p>&lt;a href="https://api.gnavi.co.jp/api/" target="_blank" rel="noopener">ぐるなび API のサイト&lt;/a>にアクセスする。&lt;br>
 利用規約や初めての方へなどを予め読んでおくと良いです。
 また 「API 仕様」の欄にてどのような API が提供されているかを詳しく見ることで使いたい機能を整理します。&lt;/p>
 &lt;p>この API からは、レストラン検索 API や都道府県マスタ取得 API などがあり、レストランを検索したり、業態別、地域別にお店を絞り込むことができるようです。
 &lt;figure id="figure-ぐるなびapiサイト">
-&lt;a data-fancybox="" href="./gurunavi.png" data-caption="ぐるなびAPIサイト">
-&lt;img src="./gurunavi.png" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./gurunavi.png" alt="ぐるなびAPIサイト" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
 ぐるなびAPIサイト
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
+&lt;/figcaption>&lt;/figure>&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>テストツールを使ってみる&lt;br>
@@ -69,13 +59,11 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 これを見ると、たくさんのお店、かつラーメン屋が出てきたことが分かります。&lt;/p>
 &lt;p>他にも店の場所や説明なども載っていると思いますが、上記の key を指定し、条件を絞り込むことでそれらの指定をすることが出来ます。&lt;/p>
 &lt;figure id="figure-テストツール画面">
-&lt;a data-fancybox="" href="./gurunavi2.png" data-caption="テストツール画面">
-&lt;img src="./gurunavi2.png" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./gurunavi2.png" alt="テストツール画面" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
 テストツール画面
-&lt;/figcaption>
-&lt;/figure>
+&lt;/figcaption>&lt;/figure>
 &lt;p>次に大阪難波駅にあるラーメン屋さんのデータを json 形式で取得してみましょう。&lt;/p>
 &lt;p>検索の地域を絞るには同ぐるなび API にある&amp;quot;エリアLマスタ取得API&amp;quot;を使ってみます。&lt;/p>
 &lt;p>この API は場所のコードのデータを返してくれるのでそこから大阪難波の欄を探し、その&amp;quot;areacode_l&amp;quot;の値をメモしておきましょう。&lt;/p>
@@ -98,13 +86,11 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 &lt;p>取りたいデータが出てきたらその上にある URL という欄の url をメモしておきます。&lt;/p>
 &lt;p>例）&lt;code>https://api.gnavi.co.jp/RestSearchAPI/v3/?keyid=(ここは後に取得するkeyidの値）&amp;amp;name=ラーメン&amp;amp;areacode_l=AREAL3310&lt;/code>&lt;/p>
 &lt;figure id="figure-検索例">
-&lt;a data-fancybox="" href="./gurunavi3.png" data-caption="検索例">
-&lt;img src="./gurunavi3.png" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./gurunavi3.png" alt="検索例" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
 検索例
-&lt;/figcaption>
-&lt;/figure>
+&lt;/figcaption>&lt;/figure>
 &lt;p>その他にも現在位置を別の API で取得して今いる位置の近くの店を検索したりするなど様々な条件で試してみるのもいいかもしれません。&lt;/p>
 &lt;/li>
 &lt;li>
@@ -122,21 +108,27 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 &lt;div class="card-simple">
 &lt;div class="article-metadata">
 &lt;div>
-&lt;span >&lt;a href="https://blog.opuappnavi.com/author/nobu/">Nobu&lt;/a>&lt;/span>
+&lt;span >
+&lt;a href="https://blog.opuappnavi.com/authors/nobu/">Nobu&lt;/a>&lt;/span>
 &lt;/div>
 &lt;span class="article-date">
 2020/05/28 投稿
 ( 2020/05/30 最終更新 )
 &lt;/span>
 &lt;/div>
-&lt;h3 class="article-title mb-1 mt-3">
+&lt;div class="section-subheading article-title mb-1 mt-3">
 &lt;a href="https://blog.opuappnavi.com/post/gas-recommendation/">手軽に始める！GAS を使ってみませんか～&lt;/a>
-&lt;/h3>
+&lt;/div>
 &lt;a href="https://blog.opuappnavi.com/post/gas-recommendation/" class="summary-link">
 &lt;div class="article-style">
 &lt;p>Google Apps Scriptの紹介&lt;/p>
 &lt;/div>
 &lt;/a>
+&lt;div class="btn-links">
+&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/">
+プロジェクト
+&lt;/a>
+&lt;/div>
 &lt;/div>
 &lt;/p>
 &lt;pre>&lt;code class="language-JavaScript:コード.gs">function myFunction(e) {
@@ -172,29 +164,34 @@ Logger.log(json[&amp;quot;rest&amp;quot;][0][&amp;quot;name&amp;quot;]);
 &lt;div class="card-simple">
 &lt;div class="article-metadata">
 &lt;div>
-&lt;span >&lt;a href="https://blog.opuappnavi.com/author/nobu/">Nobu&lt;/a>&lt;/span>
+&lt;span >
+&lt;a href="https://blog.opuappnavi.com/authors/nobu/">Nobu&lt;/a>&lt;/span>
 &lt;/div>
 &lt;span class="article-date">
 2020/05/28 投稿
 ( 2020/05/30 最終更新 )
 &lt;/span>
 &lt;/div>
-&lt;h3 class="article-title mb-1 mt-3">
+&lt;div class="section-subheading article-title mb-1 mt-3">
 &lt;a href="https://blog.opuappnavi.com/post/gas-recommendation/">手軽に始める！GAS を使ってみませんか～&lt;/a>
-&lt;/h3>
+&lt;/div>
 &lt;a href="https://blog.opuappnavi.com/post/gas-recommendation/" class="summary-link">
 &lt;div class="article-style">
 &lt;p>Google Apps Scriptの紹介&lt;/p>
 &lt;/div>
 &lt;/a>
+&lt;div class="btn-links">
+&lt;a class="btn btn-outline-primary btn-page-header btn-sm" href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/">
+プロジェクト
+&lt;/a>
+&lt;/div>
 &lt;/div>
 &lt;h2 id="作った経緯ついでにハッカソンの紹介">作った経緯（ついでにハッカソンの紹介）&lt;/h2>
 &lt;p>アプリ Navi では毎年、長期休みのどこかで、ハッカソンというものを開催しています。&lt;/p>
 &lt;p>&lt;strong>ハッカソン&lt;/strong>とは&lt;/p>
 &lt;blockquote>
 &lt;p>ハッカソン（英語: hackathon 、別名:hack day ,hackfest ,codefest ）とは、ソフトウェア開発分野のプログラマやグラフィックデザイナー、ユーザインタフェース設計者、プロジェクトマネージャらが集中的に作業をするソフトウェア関連プロジェクトのイベントである
-(
-&lt;a href="https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3" target="_blank" rel="noopener">Wikipedia より抜粋&lt;/a>)&lt;/p>
+(&lt;a href="https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3" target="_blank" rel="noopener">Wikipedia より抜粋&lt;/a>)&lt;/p>
 &lt;/blockquote>
 &lt;p>とのこと。なんかヤバそう&amp;hellip;&lt;/p>
 &lt;p>もちろん、この文から読み取れるようなそこまでヤバそうな感じではないです（笑）&lt;/p>
@@ -208,13 +205,11 @@ Logger.log(json[&amp;quot;rest&amp;quot;][0][&amp;quot;name&amp;quot;]);
 &lt;h2 id="作ったもの">作ったもの&lt;/h2>
 &lt;p>それ専用に作ったので、完全に内輪向けですが画像としてはこんなものです。&lt;/p>
 &lt;figure id="figure-作ったもの">
-&lt;a data-fancybox="" href="./HackathonScoreSheet.png" data-caption="作ったもの">
-&lt;img src="./HackathonScoreSheet.png" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./HackathonScoreSheet.png" alt="作ったもの" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
 作ったもの
-&lt;/figcaption>
-&lt;/figure>
+&lt;/figcaption>&lt;/figure>
 &lt;p>見た目等はいまいちですが、ちゃんと動きます。&lt;/p>
 &lt;p>審査員の方に審査するチーム名を選択してもらい、それぞれの項目について点数を付け送信してもらうといった流れです。&lt;/p>
 &lt;p>こういうの何かの初歩の題材でありそうですね&amp;hellip;&lt;/p>
@@ -226,13 +221,11 @@ Logger.log(json[&amp;quot;rest&amp;quot;][0][&amp;quot;name&amp;quot;]);
 &lt;p>GAS では Google のサーバーを使っているので、このような簡単なサイトでもサーバーを借りるなどの作業がいらず、実質ワンクリックで公開、利用できます。&lt;/p>
 &lt;p>GAS のエディタから、おおよそここをクリックしたら公開できます&lt;/p>
 &lt;figure id="figure-公開方法">
-&lt;a data-fancybox="" href="./GAS_Release.png" data-caption="公開方法">
-&lt;img src="./GAS_Release.png" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./GAS_Release.png" alt="公開方法" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
 公開方法
-&lt;/figcaption>
-&lt;/figure>
+&lt;/figcaption>&lt;/figure>
 &lt;h4 id="spreadsheet-を簡易的なデータベースのように利用できる">SpreadSheet を簡易的なデータベースのように利用できる&lt;/h4>
 &lt;p>個人的には SpreadSheet を簡易的なデータベースとして利用できるのは大きいと思います。&lt;/p>
 &lt;p>SpreadSheet を簡易的なデータベースとして用いることで、データベースの知識がなくても簡単な事ならできますし、なんにせよ上限はありますが、無料で利用できるので、少なくとも何かをパッと作りたいときにはいいのではないかと！&lt;/p>
@@ -442,8 +435,7 @@ sheet.getRange(i + 1 ,9).setValue(sum[i]);
 &lt;p>となっています。&lt;/p>
 &lt;p>これは工夫せずに重い処理を何度も書くと、引っかかってしまうので注意が必要です…&lt;/p>
 &lt;p>そのためGASはそこまで大きなプロジェクトには向いていないと言えます&amp;hellip;&lt;/p>
-&lt;p>詳しい公式の制限は
-&lt;a href="https://developers.google.com/apps-script/guides/services/quotas" target="_blank" rel="noopener">コチラ&lt;/a>&lt;/p>
+&lt;p>詳しい公式の制限は&lt;a href="https://developers.google.com/apps-script/guides/services/quotas" target="_blank" rel="noopener">コチラ&lt;/a>&lt;/p>
 &lt;h1 id="さっそく始めてみよう">さっそく始めてみよう&lt;/h1>
 &lt;p>始める方法はとても簡単です。せっかくなので実際にやってみます。&lt;/p>
 &lt;ol start="0">
@@ -454,8 +446,7 @@ sheet.getRange(i + 1 ,9).setValue(sum[i]);
 します。&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>ブラウザで
-&lt;a href="https://www.google.co.jp/drive/apps.html" target="_blank" rel="noopener">Google Drive&lt;/a>にアクセスします。&lt;/p>
+&lt;p>ブラウザで&lt;a href="https://www.google.co.jp/drive/apps.html" target="_blank" rel="noopener">Google Drive&lt;/a>にアクセスします。&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Google DriveにGoogle Apps Scriptを追加する&lt;br>
@@ -464,14 +455,11 @@ sheet.getRange(i + 1 ,9).setValue(sum[i]);
 &lt;li>
 &lt;p>もう一度新規＋を押し、その他にGoogle Apps Scriptが出てきたら完了
 &lt;figure id="figure-helloworld">
-&lt;a data-fancybox="" href="./nobu_GAS_img_1.png" data-caption="HelloWorld">
-&lt;img src="./nobu_GAS_img_1.png" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./nobu_GAS_img_1.png" alt="HelloWorld" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
 HelloWorld
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
+&lt;/figcaption>&lt;/figure>&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>それをクリックすると、エディタがでてくるので、これでGASをはじめる準備が出来ました！&lt;/p>
@@ -479,17 +467,14 @@ HelloWorld
 &lt;/ol>
 &lt;p>ちなみにHello Worldはこんな感じです。&lt;/p>
 &lt;figure id="figure-完了後">
-&lt;a data-fancybox="" href="./nobu_GAS_img_2.png" data-caption="完了後">
-&lt;img src="./nobu_GAS_img_2.png" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./nobu_GAS_img_2.png" alt="完了後" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
 完了後
-&lt;/figcaption>
-&lt;/figure>
+&lt;/figcaption>&lt;/figure>
 &lt;h1 id="最後に">最後に&lt;/h1>
 &lt;p>今回はざっくりでしたがGASについて簡単に紹介しました。&lt;/p>
 &lt;p>GASの存在だけでも知ってもらい、機会があれば何かで使ってもらえたら幸いです。&lt;/p>
 &lt;p>また、GASを十分使いこなせているとは言えない自分ですが、おすすめしたい参考サイトも載せておくので興味がある人は見てみてください！&lt;/p>
 &lt;h2 id="参考サイト">参考サイト&lt;/h2>
-&lt;p>
-&lt;a href="https://tonari-it.com/google-apps-script-manual/" target="_blank" rel="noopener">【保存版】初心者向け実務で使えるGoogle Apps Script完全マニュアル&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;p>&lt;a href="https://tonari-it.com/google-apps-script-manual/" target="_blank" rel="noopener">【保存版】初心者向け実務で使えるGoogle Apps Script完全マニュアル&lt;/a>&lt;/p></description></item></channel></rss>

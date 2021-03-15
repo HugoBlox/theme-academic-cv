@@ -1,9 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo | アプリNaviブログ</title><link>https://blog.opuappnavi.com/tag/hugo/</link><atom:link href="https://blog.opuappnavi.com/tag/hugo/index.xml" rel="self" type="application/rss+xml"/><description>Hugo</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710 2021</copyright><lastBuildDate>Tue, 28 Apr 2020 00:01:09 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url><title>Hugo</title><link>https://blog.opuappnavi.com/tag/hugo/</link></image><item><title>記事の書き方</title><link>https://blog.opuappnavi.com/post/how-to-write-an-article/</link><pubDate>Tue, 28 Apr 2020 00:01:09 +0900</pubDate><guid>https://blog.opuappnavi.com/post/how-to-write-an-article/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
-&lt;p>このサイトでの記事の書き方をまとめました。英語でも構わない場合は
-&lt;a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/" target="_blank" rel="noopener">公式ドキュメント&lt;/a>も参照してください。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo | アプリNaviブログ</title><link>https://blog.opuappnavi.com/tag/hugo/</link><atom:link href="https://blog.opuappnavi.com/tag/hugo/index.xml" rel="self" type="application/rss+xml"/><description>Hugo</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>©Juris710 2021</copyright><lastBuildDate>Tue, 28 Apr 2020 00:01:09 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url><title>Hugo</title><link>https://blog.opuappnavi.com/tag/hugo/</link></image><item><title>記事の書き方</title><link>https://blog.opuappnavi.com/post/how-to-write-an-article/</link><pubDate>Tue, 28 Apr 2020 00:01:09 +0900</pubDate><guid>https://blog.opuappnavi.com/post/how-to-write-an-article/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
+&lt;p>このサイトでの記事の書き方をまとめました。英語でも構わない場合は&lt;a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/" target="_blank" rel="noopener">公式ドキュメント&lt;/a>も参照してください。&lt;/p>
 &lt;h1 id="markdown記法">Markdown記法&lt;/h1>
-&lt;p>全ての記事はMarkdown記法で書く必要があります。書き方については
-&lt;a href="https://qiita.com/kamorits/items/6f342da395ad57468ae3" target="_blank" rel="noopener">このサイト&lt;/a>を参照してください。&lt;/p>
+&lt;p>全ての記事はMarkdown記法で書く必要があります。書き方については&lt;a href="https://qiita.com/kamorits/items/6f342da395ad57468ae3" target="_blank" rel="noopener">このサイト&lt;/a>を参照してください。&lt;/p>
 &lt;h2 id="画像を挿入する場合">画像を挿入する場合&lt;/h2>
 &lt;pre>&lt;code class="language-md">![代替テキスト](./画像名)
 &lt;/code>&lt;/pre>
@@ -12,8 +10,7 @@
 「画像名」には拡張子も含めてください
 &lt;/div>
 &lt;/div>
-画像のサイズを変えたい、または画像を左寄せ・右寄せしたい場合は下の
-&lt;a href="#%e7%94%bb%e5%83%8f%e3%81%ae%e6%8c%bf%e5%85%a5">画像の挿入&lt;/a>を参照してください&lt;/p>
+画像のサイズを変えたい、または画像を左寄せ・右寄せしたい場合は下の&lt;a href="#%e7%94%bb%e5%83%8f%e3%81%ae%e6%8c%bf%e5%85%a5">画像の挿入&lt;/a>を参照してください&lt;/p>
 &lt;h1 id="shortcodes">Shortcodes&lt;/h1>
 &lt;p>ShortcodesとはHugo独自の機能で、Markdownファイルに書くことができるスニペットです。&lt;/p>
 &lt;h2 id="画像の挿入">画像の挿入&lt;/h2>
@@ -45,8 +42,7 @@
 &lt;pre>&lt;code class="language-md">{{&amp;lt;figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot; class=&amp;quot;float-right&amp;quot;&amp;gt;}}
 &lt;/code>&lt;/pre>
 &lt;/details>
-他にも、画像の幅・高さなどをカスタムすることができます。詳しくは
-&lt;a href="https://gohugo.io/content-management/shortcodes/#figure" target="_blank" rel="noopener">公式ドキュメント&lt;/a> を参照してください。&lt;/p>
+他にも、画像の幅・高さなどをカスタムすることができます。詳しくは&lt;a href="https://gohugo.io/content-management/shortcodes/#figure" target="_blank" rel="noopener">公式ドキュメント&lt;/a> を参照してください。&lt;/p>
 &lt;h2 id="youtube動画埋め込み">Youtube動画埋め込み&lt;/h2>
 &lt;pre>&lt;code class="language-md">{{&amp;lt;youtube 動画のID&amp;gt;}}
 &lt;/code>&lt;/pre>
@@ -56,8 +52,7 @@ YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式
 &lt;/div>
 &lt;/div>
 &lt;h2 id="unity-webglの埋め込み">Unity WebGLの埋め込み&lt;/h2>
-&lt;p>
-&lt;a href="https://ch-random.net/post/93/" target="_blank" rel="noopener">ランダムさんの記事&lt;/a>の内容を少し改変した自作Shortcodeです。Unity WebGLのゲームをページ内でプレイすることができます。&lt;/p>
+&lt;p>&lt;a href="https://ch-random.net/post/93/" target="_blank" rel="noopener">ランダムさんの記事&lt;/a>の内容を少し改変した自作Shortcodeです。Unity WebGLのゲームをページ内でプレイすることができます。&lt;/p>
 &lt;pre>&lt;code class="language-md">{{&amp;lt;unity src=&amp;quot;URL&amp;quot;&amp;gt;}}
 &lt;/code>&lt;/pre>
 &lt;h2 id="ツイートの埋め込み">ツイートの埋め込み&lt;/h2>
@@ -98,18 +93,19 @@ foo
 &lt;i class="fas fa-project-diagram pub-icon" aria-hidden="true">&lt;/i>
 &lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/" >府大バーチャル学祭&lt;/a>
 &lt;div class="article-metadata">
-&lt;span >&lt;a href="https://blog.opuappnavi.com/author/juris710/">Juris710&lt;/a>&lt;/span>, &lt;span >&lt;a href="https://blog.opuappnavi.com/author/nobu/">Nobu&lt;/a>&lt;/span>, &lt;span >&lt;a href="https://blog.opuappnavi.com/author/%E3%83%A4%E3%83%9E%E3%82%AF%E3%83%81/">ヤマグチ&lt;/a>&lt;/span>
-&lt;/div>
-&lt;div class="btn-links">
+&lt;span >
+&lt;a href="https://blog.opuappnavi.com/authors/juris710/">Juris710&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="https://blog.opuappnavi.com/authors/nobu/">Nobu&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="https://blog.opuappnavi.com/authors/yamaguchi/">ヤマグチ&lt;/a>&lt;/span>
 &lt;/div>
 &lt;/div>
 &lt;/p>
 &lt;p>&lt;code>view=&amp;quot;2&amp;quot;&lt;/code>に変えると、下のように表示されます。
 &lt;div class="media stream-item">
 &lt;div class="media-body">
-&lt;h3 class="article-title mb-0 mt-0">
+&lt;div class="section-subheading article-title mb-0 mt-0">
 &lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/" >府大バーチャル学祭&lt;/a>
-&lt;/h3>
+&lt;/div>
 &lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/" class="summary-link">
 &lt;div class="article-style">
 OPU Virtual Festival
@@ -117,10 +113,11 @@ OPU Virtual Festival
 &lt;/a>
 &lt;div class="stream-meta article-metadata">
 &lt;div>
-&lt;span >&lt;a href="https://blog.opuappnavi.com/author/juris710/">Juris710&lt;/a>&lt;/span>, &lt;span >&lt;a href="https://blog.opuappnavi.com/author/nobu/">Nobu&lt;/a>&lt;/span>, &lt;span >&lt;a href="https://blog.opuappnavi.com/author/%E3%83%A4%E3%83%9E%E3%82%AF%E3%83%81/">ヤマグチ&lt;/a>&lt;/span>
+&lt;span >
+&lt;a href="https://blog.opuappnavi.com/authors/juris710/">Juris710&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="https://blog.opuappnavi.com/authors/nobu/">Nobu&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="https://blog.opuappnavi.com/authors/yamaguchi/">ヤマグチ&lt;/a>&lt;/span>
 &lt;/div>
-&lt;/div>
-&lt;div class="btn-links">
 &lt;/div>
 &lt;/div>
 &lt;div class="ml-3">
@@ -131,16 +128,19 @@ OPU Virtual Festival
 &lt;div class="card-simple">
 &lt;div class="article-metadata">
 &lt;div>
-&lt;span >&lt;a href="https://blog.opuappnavi.com/author/juris710/">Juris710&lt;/a>&lt;/span>, &lt;span >&lt;a href="https://blog.opuappnavi.com/author/nobu/">Nobu&lt;/a>&lt;/span>, &lt;span >&lt;a href="https://blog.opuappnavi.com/author/%E3%83%A4%E3%83%9E%E3%82%AF%E3%83%81/">ヤマグチ&lt;/a>&lt;/span>
+&lt;span >
+&lt;a href="https://blog.opuappnavi.com/authors/juris710/">Juris710&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="https://blog.opuappnavi.com/authors/nobu/">Nobu&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="https://blog.opuappnavi.com/authors/yamaguchi/">ヤマグチ&lt;/a>&lt;/span>
 &lt;/div>
 &lt;span class="article-date">
 2020/04/28 投稿
 ( 2020/05/30 最終更新 )
 &lt;/span>
 &lt;/div>
-&lt;h3 class="article-title mb-1 mt-3">
+&lt;div class="section-subheading article-title mb-1 mt-3">
 &lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/">府大バーチャル学祭&lt;/a>
-&lt;/h3>
+&lt;/div>
 &lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/" class="summary-link">
 &lt;div class="article-style">
 &lt;p>OPU Virtual Festival&lt;/p>
@@ -152,7 +152,10 @@ OPU Virtual Festival
 &lt;div class="pub-list-item" style="margin-bottom: 1rem">
 &lt;i class="far fa-file-alt pub-icon" aria-hidden="true">&lt;/i>
 &lt;span class="article-metadata li-cite-author">
-&lt;span >&lt;a href="https://blog.opuappnavi.com/author/juris710/">Juris710&lt;/a>&lt;/span>, &lt;span >&lt;a href="https://blog.opuappnavi.com/author/nobu/">Nobu&lt;/a>&lt;/span>, &lt;span >&lt;a href="https://blog.opuappnavi.com/author/%E3%83%A4%E3%83%9E%E3%82%AF%E3%83%81/">ヤマグチ&lt;/a>&lt;/span>
+&lt;span >
+&lt;a href="https://blog.opuappnavi.com/authors/juris710/">Juris710&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="https://blog.opuappnavi.com/authors/nobu/">Nobu&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="https://blog.opuappnavi.com/authors/yamaguchi/">ヤマグチ&lt;/a>&lt;/span>
 &lt;/span>
 (2020).
 &lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/">府大バーチャル学祭&lt;/a>.
@@ -167,18 +170,10 @@ OPU Virtual Festival
 {{&amp;lt;/spoiler&amp;gt;}}
 &lt;/code>&lt;/pre>
 &lt;p>以下のように表示されます。&lt;/p>
-&lt;div class="spoiler " >
-&lt;p>
-&lt;a class="btn btn-primary" data-toggle="collapse" href="#spoiler-13" role="button" aria-expanded="false" aria-controls="spoiler-13">
-このサイトの名前は？(正解を見るにはここをクリック!)
-&lt;/a>
-&lt;/p>
-&lt;div class="collapse card " id="spoiler-13">
-&lt;div class="card-body">
-アプリNaviブログ
-&lt;/div>
-&lt;/div>
-&lt;/div>
+&lt;details class="spoiler " id="spoiler-13">
+&lt;summary>このサイトの名前は？(正解を見るにはここをクリック!)&lt;/summary>
+&lt;p>アプリNaviブログ&lt;/p>
+&lt;/details>
 &lt;h1 id="その他">その他&lt;/h1>
 &lt;h2 id="数式">数式&lt;/h2>
 &lt;p>$\LaTeX$ 記法を用いることで数式を表示することができます。数式は&lt;code>$$&lt;/code>で囲む必要があります。&lt;/p>
@@ -213,26 +208,27 @@ C--&amp;gt;D;
 &lt;div class="card-simple">
 &lt;div class="article-metadata">
 &lt;div>
-&lt;span >&lt;a href="https://blog.opuappnavi.com/author/juris710/">Juris710&lt;/a>&lt;/span>, &lt;span >&lt;a href="https://blog.opuappnavi.com/author/nobu/">Nobu&lt;/a>&lt;/span>, &lt;span >&lt;a href="https://blog.opuappnavi.com/author/%E3%83%A4%E3%83%9E%E3%82%AF%E3%83%81/">ヤマグチ&lt;/a>&lt;/span>
+&lt;span >
+&lt;a href="https://blog.opuappnavi.com/authors/juris710/">Juris710&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="https://blog.opuappnavi.com/authors/nobu/">Nobu&lt;/a>&lt;/span>, &lt;span >
+&lt;a href="https://blog.opuappnavi.com/authors/yamaguchi/">ヤマグチ&lt;/a>&lt;/span>
 &lt;/div>
 &lt;span class="article-date">
 2020/04/28 投稿
 ( 2020/05/30 最終更新 )
 &lt;/span>
 &lt;/div>
-&lt;h3 class="article-title mb-1 mt-3">
+&lt;div class="section-subheading article-title mb-1 mt-3">
 &lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/">府大バーチャル学祭&lt;/a>
-&lt;/h3>
+&lt;/div>
 &lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/" class="summary-link">
 &lt;div class="article-style">
 &lt;p>OPU Virtual Festival&lt;/p>
 &lt;/div>
 &lt;/a>
 &lt;/div>
-オンライン友好祭において、ゲーム展示以外にできることはないかと考え、部員がブログを書くのはどうだろうかと考えました。既に存在していた
-&lt;a href="https://opuappnavi.com/#/" target="_blank" rel="noopener">アプリNaviのウェブサイト&lt;/a>には
+オンライン友好祭において、ゲーム展示以外にできることはないかと考え、部員がブログを書くのはどうだろうかと考えました。既に存在していた&lt;a href="https://opuappnavi.com/#/" target="_blank" rel="noopener">アプリNaviのウェブサイト&lt;/a>には
 ブログ投稿機能がなかったことに加え、今まで触ったことがなかったWeb開発をしてみたかったこともありこのサイトを作成しました。&lt;br>
-サイトの作成にあたり、アプリNaviと同じく大阪府立大学の部活である、コンピュータハウスランダムさんの
-&lt;a href="https://ch-random.net/" target="_blank" rel="noopener">ウェブサイト&lt;/a>を参考にしました。&lt;/p>
+サイトの作成にあたり、アプリNaviと同じく大阪府立大学の部活である、コンピュータハウスランダムさんの&lt;a href="https://ch-random.net/" target="_blank" rel="noopener">ウェブサイト&lt;/a>を参考にしました。&lt;/p>
 &lt;h1 id="hugo">Hugo&lt;/h1>
 &lt;p>このサイトは、静的サイトジェネレーターであるHugoを用いて作成しました。htmlやcssについてある程度知っている程度でWeb関連に明るくない私でも、Hugoを使うことでとても簡単にWebサイトを作成できました。&lt;/p></description></item></channel></rss>

@@ -1,12 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Visual Studio Code | アプリNaviブログ</title><link>https://blog.opuappnavi.com/tag/visual-studio-code/</link><atom:link href="https://blog.opuappnavi.com/tag/visual-studio-code/index.xml" rel="self" type="application/rss+xml"/><description>Visual Studio Code</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><copyright>©Juris710 2021</copyright><lastBuildDate>Sat, 30 May 2020 16:45:03 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/images/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url><title>Visual Studio Code</title><link>https://blog.opuappnavi.com/tag/visual-studio-code/</link></image><item><title>Unity WebGLのゲームをローカルでプレイする方法</title><link>https://blog.opuappnavi.com/post/unity-webgl-locally/</link><pubDate>Sat, 30 May 2020 16:45:03 +0900</pubDate><guid>https://blog.opuappnavi.com/post/unity-webgl-locally/</guid><description>&lt;p>UnityでWebGLをプラットフォームに選択し、&lt;code>Build And Run&lt;/code>を押すと、ブラウザが起動して、作ったゲームをプレイすることができます。WebGLのビルドにはとても時間がかかるので、毎回ビルドするのではなく、一度ビルドしたゲームを複数回プレイしたくなります。ですが、ただ単に出力されたファイル&lt;code>index.html&lt;/code>を開くだけではプレイできません。&lt;br>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Visual Studio Code | アプリNaviブログ</title><link>https://blog.opuappnavi.com/tag/visual-studio-code/</link><atom:link href="https://blog.opuappnavi.com/tag/visual-studio-code/index.xml" rel="self" type="application/rss+xml"/><description>Visual Studio Code</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>©Juris710 2021</copyright><lastBuildDate>Sat, 30 May 2020 16:45:03 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png</url><title>Visual Studio Code</title><link>https://blog.opuappnavi.com/tag/visual-studio-code/</link></image><item><title>Unity WebGLのゲームをローカルでプレイする方法</title><link>https://blog.opuappnavi.com/post/unity-webgl-locally/</link><pubDate>Sat, 30 May 2020 16:45:03 +0900</pubDate><guid>https://blog.opuappnavi.com/post/unity-webgl-locally/</guid><description>&lt;p>UnityでWebGLをプラットフォームに選択し、&lt;code>Build And Run&lt;/code>を押すと、ブラウザが起動して、作ったゲームをプレイすることができます。WebGLのビルドにはとても時間がかかるので、毎回ビルドするのではなく、一度ビルドしたゲームを複数回プレイしたくなります。ですが、ただ単に出力されたファイル&lt;code>index.html&lt;/code>を開くだけではプレイできません。&lt;br>
 &lt;figure id="figure-indexhtmlを開くとこのようなエラーメッセージが表示される">
-&lt;a data-fancybox="" href="./Unity_WebGL_Index_Html_Error.png" data-caption="index.htmlを開くと、このようなエラーメッセージが表示される">
-&lt;img src="./Unity_WebGL_Index_Html_Error.png" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./Unity_WebGL_Index_Html_Error.png" alt="index.htmlを開くと、このようなエラーメッセージが表示される" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
 index.htmlを開くと、このようなエラーメッセージが表示される
-&lt;/figcaption>
-&lt;/figure>
+&lt;/figcaption>&lt;/figure>
 そこで、&lt;code>Visual Studio Code&lt;/code>(&lt;code>VSCode&lt;/code>)を使ってビルドしたゲームをプレイする方法を紹介します。&lt;br>
 &lt;div class="alert alert-note">
 &lt;div>
@@ -17,44 +15,34 @@ index.htmlを開くと、このようなエラーメッセージが表示され�
 &lt;h1 id="1-拡張機能のインストール">1. 拡張機能のインストール&lt;/h1>
 &lt;p>&lt;code>VSCode&lt;/code>を起動し、画面左のボタンを押して拡張機能パネルを開きます。
 &lt;figure id="figure-拡張機能パネルを開くボタン">
-&lt;a data-fancybox="" href="./VSCode_Japanese.png" data-caption="拡張機能パネルを開くボタン">
-&lt;img src="./VSCode_Japanese.png" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./VSCode_Japanese.png" alt="拡張機能パネルを開くボタン" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
 拡張機能パネルを開くボタン
-&lt;/figcaption>
-&lt;/figure>
+&lt;/figcaption>&lt;/figure>
 パネル上の検索ボックスに&lt;code>live server&lt;/code>と入力し、検索結果の一番上にある&lt;code>Live Server&lt;/code>をクリックします。&lt;code>拡張機能:Live Server&lt;/code>タブが開くので、&lt;code>インストール&lt;/code>をクリックします。
 &lt;figure id="figure-拡張機能live-serverタブ">
-&lt;a data-fancybox="" href="./VSCode_Live_Server.png" data-caption="「拡張機能：Live Server」タブ">
-&lt;img src="./VSCode_Live_Server.png" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./VSCode_Live_Server.png" alt="「拡張機能：Live Server」タブ" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
 「拡張機能：Live Server」タブ
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
+&lt;/figcaption>&lt;/figure>&lt;/p>
 &lt;h2 id="補足-vscode日本語化">(補足) VSCode日本語化&lt;/h2>
 &lt;p>検索ボックスに&lt;code>japanese&lt;/code>と入力し、検索結果の一番上にある拡張機能&lt;code>Japanese Language Pack for Visual Studio Code&lt;/code>をインストールすることで日本語化できます。
 &lt;figure id="figure-japanese-language-pack-for-visual-studio-codeインストール済み">
-&lt;a data-fancybox="" href="./VSCode_Japanese.png" data-caption="「Japanese Language Pack for Visual Studio Code」(インストール済み)">
-&lt;img src="./VSCode_Japanese.png" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./VSCode_Japanese.png" alt="「Japanese Language Pack for Visual Studio Code」(インストール済み)" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
 「Japanese Language Pack for Visual Studio Code」(インストール済み)
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
+&lt;/figcaption>&lt;/figure>&lt;/p>
 &lt;h1 id="2-ビルドしたゲームをvscodeで開く">2. ビルドしたゲームをVSCodeで開く&lt;/h1>
 &lt;p>メニューの&lt;code>ファイル(F)&lt;/code>から&lt;code>フォルダを開く... Ctrl+K Ctrl+O&lt;/code>をクリックします。フォルダ選択ダイアログが表示されるので、出力された&lt;code>Build&lt;/code>フォルダと&lt;code>TemplateData&lt;/code>フォルダ、&lt;code>index.html&lt;/code>ファイルのあるフォルダを選択します。&lt;/p>
 &lt;h1 id="3-ゲームをプレイ">3. ゲームをプレイ&lt;/h1>
 &lt;p>正しくフォルダを開けていると画面右下に&lt;code>Go Live&lt;/code>ボタンが表示されます。このボタンをクリックするとブラウザが起動し、ゲームをプレイできます。
 &lt;figure id="figure-go-live-ボタン">
-&lt;a data-fancybox="" href="./Live_Server_Go_Live.png" data-caption="Go Live ボタン">
-&lt;img src="./Live_Server_Go_Live.png" alt="" >
-&lt;/a>
-&lt;figcaption>
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./Live_Server_Go_Live.png" alt="Go Live ボタン" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
 Go Live ボタン
-&lt;/figcaption>
-&lt;/figure>
+&lt;/figcaption>&lt;/figure>
 &lt;code>Go Live&lt;/code>があった場所に表示される&lt;code>Port:5050&lt;/code>をクリックすれば、ブラウザでのプレイを停止できます。VSCodeを閉じれば自動的に停止するはずですが、プレイを止める際にはボタンを押すことをおすすめします。&lt;/p></description></item></channel></rss>
