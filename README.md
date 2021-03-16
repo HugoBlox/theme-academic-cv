@@ -2,6 +2,8 @@
 
 ## Getting Started
 
+### インストール
+
 1. 以下のソフトをインストール
    - [Git](https://git-scm.com/downloads)
    - [Hugo](https://gohugo.io/getting-started/installing)
@@ -11,7 +13,7 @@
 
 2. このリポジトリをクローン
 
-## ブラウザでのプレビュー
+### ブラウザでのプレビュー
 
 ```sh
 bash view.sh
