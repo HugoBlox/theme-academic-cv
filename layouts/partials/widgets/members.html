@@ -41,6 +41,17 @@
         title: '部員数（学年別）',
         pieSliceText: 'value',
         backgroundColor: 'transparent',
+        pieSliceTextStyle: {
+          color: 'white',
+        },
+        titleTextStyle: {
+          color: 'white'
+        },
+        legend: {
+          textStyle: {
+            color: 'white'
+          }
+        }
       };
       var data2 = [
         ['学類', '人数'],
@@ -50,11 +61,22 @@
         ['物質化学系学類', 1],
         ['理学類', 1],
         ['大学院', 4],
-      ];
-      var options2 = {
-        title: '部員数（学類別）',
-        pieSliceText: 'value',
-        backgroundColor: 'transparent',
+        ];
+        var options2 = {
+          title: '部員数（学類別）',
+          pieSliceText: 'value',
+          backgroundColor: 'transparent',
+          pieSliceTextStyle: {
+            color: 'white',
+          },
+          titleTextStyle: {
+            color: 'white'
+          },
+          legend: {
+            textStyle: {
+              color: 'white'
+            }
+          }
       };
       var figures1 = google.visualization.arrayToDataTable(data1);
       var figures2 = google.visualization.arrayToDataTable(data2);
@@ -62,8 +84,6 @@
       chart1.draw(figures1, options1);
       var chart2 = new google.visualization.PieChart(document.getElementById('chart-2'));
       chart2.draw(figures2, options2);
-      document.querySelectorAll('#chart-1 text').forEach(t => t.setAttribute('fill', '#ffffff') );
-      document.querySelectorAll('#chart-2 text').forEach(t => t.setAttribute('fill', '#ffffff') );
     }
     window.onresize = function () {
       DrawPieChart();
