@@ -7,7 +7,7 @@ weight = 1  # Order that this section will appear.
 
 date = 2019-12-11
 
-title = "NASA High Mountain Asia Team"
+title = "NASA’s High Mountain Asia Team"
 
 [design.background]
   # Apply a background color, gradient, or image.
