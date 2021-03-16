@@ -27,9 +27,9 @@
 &lt;h1 id="実際に作ったステージの解説">実際に作ったステージの解説&lt;/h1>
 &lt;p>この項では、僕が今回のゲームで作ったステージのちょっとした解説をしようと思います。&lt;br>
 この先、ステージ9のネタバレを含みますのでプレイした後に読むことをお勧めします。
-&lt;details>
+&lt;details class="spoiler " id="spoiler-0">
 &lt;summary>&lt;code>以下ステージ9ネタバレ&lt;/code>&lt;/summary>
-&lt;figure >
+&lt;p>&lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img src="./stage9.png" alt="" loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
@@ -45,8 +45,8 @@
 この使い方はプラスとマイナスの両方の使い方というわけではありませんが、違った使い方をした一例ではあります。&lt;/p>
 &lt;p>4の自分が楽しむに関しては、作ってる間すごく楽しかったです。コンセプトを思いついてからは非常にスムーズにステージ作成をすることができました。&lt;/p>
 &lt;p>以上が、僕の作ったステージのちょっとした解説になります。あまり話しすぎても面白くないのでこの辺りで終わります。&lt;/p>
-&lt;/details>
 &lt;/p>
+&lt;/details>&lt;/p>
 &lt;h2 id="終わりに">終わりに&lt;/h2>
 &lt;p>読んでいただきありがとうございました。&lt;br>
 まさかブログまで書くことになると思っていませんでしたが、ゲームも含めてまあ良いものになったんじゃないかなあと思っています。&lt;br>

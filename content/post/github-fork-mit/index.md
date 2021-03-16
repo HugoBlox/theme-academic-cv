@@ -48,7 +48,7 @@ MITライセンスが設定されたリポジトリは、以下の2つを守れ�
 
 ## 方法1　一行下に自分の著作権表示を追加  
 
-{{<collapsable 方法1>}}
+{{<spoiler text="方法1">}}
 
 ```md
 The MIT License (MIT)
@@ -101,11 +101,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-{{</collapsable>}}
+{{</spoiler>}}
 
 ## 方法2　ライセンスを併記  
 
-{{<collapsable 方法2>}}
+{{<spoiler text="方法2">}}
 
 ```md
 The MIT License (MIT)
@@ -182,7 +182,7 @@ SOFTWARE.
 ```
 
 GitHubはライセンスの種類を認識し、説明を表示する機能があります。この方法だとGitHubがGitHuMITライセンスだと認識してくれないという問題があります。
-{{</collapsable>}}
+{{</spoiler>}}
 
 # 検証  
 

@@ -190,9 +190,9 @@ Go Live ボタン
 &lt;h1 id="実際に作ったステージの解説">実際に作ったステージの解説&lt;/h1>
 &lt;p>この項では、僕が今回のゲームで作ったステージのちょっとした解説をしようと思います。&lt;br>
 この先、ステージ9のネタバレを含みますのでプレイした後に読むことをお勧めします。
-&lt;details>
+&lt;details class="spoiler " id="spoiler-0">
 &lt;summary>&lt;code>以下ステージ9ネタバレ&lt;/code>&lt;/summary>
-&lt;figure >
+&lt;p>&lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img src="./stage9.png" alt="" loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
@@ -208,8 +208,8 @@ Go Live ボタン
 この使い方はプラスとマイナスの両方の使い方というわけではありませんが、違った使い方をした一例ではあります。&lt;/p>
 &lt;p>4の自分が楽しむに関しては、作ってる間すごく楽しかったです。コンセプトを思いついてからは非常にスムーズにステージ作成をすることができました。&lt;/p>
 &lt;p>以上が、僕の作ったステージのちょっとした解説になります。あまり話しすぎても面白くないのでこの辺りで終わります。&lt;/p>
-&lt;/details>
 &lt;/p>
+&lt;/details>&lt;/p>
 &lt;h2 id="終わりに">終わりに&lt;/h2>
 &lt;p>読んでいただきありがとうございました。&lt;br>
 まさかブログまで書くことになると思っていませんでしたが、ゲームも含めてまあ良いものになったんじゃないかなあと思っています。&lt;br>
@@ -235,9 +235,9 @@ Go Live ボタン
 &lt;li>&lt;code>index.html&lt;/code>ファイル&lt;/li>
 &lt;/ul>
 &lt;p>これらのファイルをGitHubにアップロードします。&lt;br>
-&lt;details>
+&lt;details class="spoiler " id="spoiler-0">
 &lt;summary>詳しくない人向け&lt;/summary>
-&lt;h2 id="21-githubにサインイン">2.1 GitHubにサインイン&lt;/h2>
+&lt;p>&lt;h2 id="21-githubにサインイン">2.1 GitHubにサインイン&lt;/h2>
 &lt;p>&lt;a href="https://github.com/">GitHub&lt;/a>にアクセスし、サインインしてください。&lt;/p>
 &lt;h2 id="22-新しいリポジトリの作成">2.2 新しいリポジトリの作成&lt;/h2>
 &lt;figure class="left" >
@@ -272,8 +272,8 @@ git commit -m &amp;quot;Initial Commit&amp;quot;
 git remote add origin (先ほどコピーしたURL)
 git push -u origin master
 &lt;/code>&lt;/pre>
-&lt;/details>
 &lt;/p>
+&lt;/details>&lt;/p>
 &lt;h1 id="3-webにゲームを公開">3. Webにゲームを公開&lt;/h1>
 &lt;p>
 &lt;figure class="left" >
@@ -356,14 +356,15 @@ GitHubタブが開きます。
 &lt;li>&lt;code>Revision Controll Diff/Merge&lt;/code>でソフトウェアを選択&lt;/li>
 &lt;/ol>
 &lt;hr>
-&lt;details>
+&lt;details class="spoiler " id="spoiler-6">
 &lt;summary>GitHubやGitに詳しい人向け&lt;/summary>
-&lt;h2 id="revert">Revert&lt;/h2>
+&lt;p>&lt;h2 id="revert">Revert&lt;/h2>
 &lt;ol>
 &lt;li>&lt;code>History&lt;/code>を選択&lt;/li>
 &lt;li>コミットを右クリック&lt;/li>
 &lt;li>&lt;code>Revert&lt;/code>をクリック&lt;/li>
 &lt;/ol>
+&lt;/p>
 &lt;/details></description></item><item><title>Truck Quiz</title><link>https://blog.opuappnavi.com/post/truck-quiz/</link><pubDate>Tue, 28 Apr 2020 15:07:58 +0900</pubDate><guid>https://blog.opuappnavi.com/post/truck-quiz/</guid><description>&lt;p>Unityについて勉強するため春休みの間に作成した、&amp;ldquo;Truck Quiz&amp;quot;を紹介します。&lt;/p>
 &lt;h1 id="ゲームの説明">ゲームの説明&lt;/h1>
 &lt;p>某有名クイズ番組のクイズを模したゲームです。
@@ -401,18 +402,19 @@ window.onresize = function(){ set_width(); };
 &lt;li>問題の解説に文章だけでなく選択肢の画像も利用できるように&lt;/li>
 &lt;/ul>
 &lt;h1 id="実装の概説">実装の概説&lt;/h1>
-&lt;details>
+&lt;details class="spoiler " id="spoiler-1">
 &lt;summary>Unityに詳しい人向け&lt;/summary>
-&amp;ldquo;Truck Quiz&amp;quot;を主に動かしているのは&lt;code>StateMachineBehaviour&lt;/code>です。&lt;code>StateMachineBehaviour&lt;/code>について軽く説明すると、アニメーションの開始時、終了時、Update時(MonoBehaviourのUpdate関数同様、アニメーションの再生中定期的に呼ばれる)に任意の処理を挟むことのできるクラスです。&lt;br>
-トロッコとUIで2つのAnimatorがあり、「選択肢を選んだアニメーション」が終了したら「トロッコが曲がるアニメーション」を開始する、みたいな処理をGameManagerクラス内で実装しています。
+&lt;p>&amp;ldquo;Truck Quiz&amp;quot;を主に動かしているのは&lt;code>StateMachineBehaviour&lt;/code>です。&lt;code>StateMachineBehaviour&lt;/code>について軽く説明すると、アニメーションの開始時、終了時、Update時(MonoBehaviourのUpdate関数同様、アニメーションの再生中定期的に呼ばれる)に任意の処理を挟むことのできるクラスです。&lt;br>
+トロッコとUIで2つのAnimatorがあり、「選択肢を選んだアニメーション」が終了したら「トロッコが曲がるアニメーション」を開始する、みたいな処理をGameManagerクラス内で実装しています。&lt;/p>
 &lt;/details>
 &lt;h1 id="改良予定">改良予定&lt;/h1>
-&lt;details>
+&lt;details class="spoiler " id="spoiler-2">
 &lt;summary>Unityに詳しい人向け&lt;/summary>
-&lt;h2 id="assetbundleを使用した画像管理">AssetBundleを使用した画像管理&lt;/h2>
+&lt;p>&lt;h2 id="assetbundleを使用した画像管理">AssetBundleを使用した画像管理&lt;/h2>
 &lt;p>現状Resourceクラスで問題の画像を管理していますが、公式が「Resourceクラスは使うな」と言っているので、AssetBundleへの切替を検討しています&lt;/p>
 &lt;h2 id="unityバージョンのアップグレード">Unityバージョンのアップグレード&lt;/h2>
 &lt;p>現在使用しているUnityのバージョンは2018ですが、2018ではpreview版である&lt;code>Input System&lt;/code>を使用したいため、2019へのアップグレードを検討しています。&lt;/p>
 &lt;h2 id="デザイン面の改善">デザイン面の改善&lt;/h2>
 &lt;p>UIデザインの改善を検討しています。&lt;/p>
+&lt;/p>
 &lt;/details></description></item></channel></rss>

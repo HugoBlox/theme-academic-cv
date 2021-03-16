@@ -84,7 +84,7 @@ academic.jsの関数`scrollToAnchor`をページ内リンククリック時に�
 ### 解決法2
 
 関数`scrollToAnchor`を無効化し、以下をcustom.scssに追加
-{{<collapsable "custom.scss">}}
+{{<spoiler text="custom.scss">}}
 
 ```scss
 $header-height-default: 70px;
@@ -99,7 +99,7 @@ $header-height-small: 50px;
 }
 ```
 
-{{</collapsable>}}
+{{</spoiler>}}
 
 #### 問題
 

@@ -87,11 +87,11 @@ Unity 2018.4.22f1
 3. `Revision Controll Diff/Merge`でソフトウェアを選択  
 
 ---
-{{<collapsable GitHubやGitに詳しい人向け>}}
+{{<spoiler text="GitHubやGitに詳しい人向け">}}
 
 ## Revert  
 
 1. `History`を選択
 2. コミットを右クリック
 3. `Revert`をクリック
-{{</collapsable>}}
+{{</spoiler>}}

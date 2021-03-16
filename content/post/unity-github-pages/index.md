@@ -57,7 +57,7 @@ Gitに詳しくない人向けに書いています。Gitに詳しい人は`詳�
 - `index.html`ファイル  
 
 これらのファイルをGitHubにアップロードします。  
-{{<collapsable 詳しくない人向け>}}
+{{<spoiler text="詳しくない人向け">}}
 
 ## 2.1 GitHubにサインイン  
 
@@ -91,7 +91,7 @@ git remote add origin (先ほどコピーしたURL)
 git push -u origin master
 ```
 
-{{</collapsable>}}
+{{</spoiler>}}
 
 # 3. Webにゲームを公開  
 

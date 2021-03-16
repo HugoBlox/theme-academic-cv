@@ -143,9 +143,9 @@ UnityのTimeline
 &lt;h1 id="実際に作ったステージの解説">実際に作ったステージの解説&lt;/h1>
 &lt;p>この項では、僕が今回のゲームで作ったステージのちょっとした解説をしようと思います。&lt;br>
 この先、ステージ9のネタバレを含みますのでプレイした後に読むことをお勧めします。
-&lt;details>
+&lt;details class="spoiler " id="spoiler-0">
 &lt;summary>&lt;code>以下ステージ9ネタバレ&lt;/code>&lt;/summary>
-&lt;figure >
+&lt;p>&lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img src="./stage9.png" alt="" loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
@@ -161,8 +161,8 @@ UnityのTimeline
 この使い方はプラスとマイナスの両方の使い方というわけではありませんが、違った使い方をした一例ではあります。&lt;/p>
 &lt;p>4の自分が楽しむに関しては、作ってる間すごく楽しかったです。コンセプトを思いついてからは非常にスムーズにステージ作成をすることができました。&lt;/p>
 &lt;p>以上が、僕の作ったステージのちょっとした解説になります。あまり話しすぎても面白くないのでこの辺りで終わります。&lt;/p>
-&lt;/details>
 &lt;/p>
+&lt;/details>&lt;/p>
 &lt;h2 id="終わりに">終わりに&lt;/h2>
 &lt;p>読んでいただきありがとうございました。&lt;br>
 まさかブログまで書くことになると思っていませんでしたが、ゲームも含めてまあ良いものになったんじゃないかなあと思っています。&lt;br>
@@ -203,18 +203,19 @@ window.onresize = function(){ set_width(); };
 &lt;li>問題の解説に文章だけでなく選択肢の画像も利用できるように&lt;/li>
 &lt;/ul>
 &lt;h1 id="実装の概説">実装の概説&lt;/h1>
-&lt;details>
+&lt;details class="spoiler " id="spoiler-1">
 &lt;summary>Unityに詳しい人向け&lt;/summary>
-&amp;ldquo;Truck Quiz&amp;quot;を主に動かしているのは&lt;code>StateMachineBehaviour&lt;/code>です。&lt;code>StateMachineBehaviour&lt;/code>について軽く説明すると、アニメーションの開始時、終了時、Update時(MonoBehaviourのUpdate関数同様、アニメーションの再生中定期的に呼ばれる)に任意の処理を挟むことのできるクラスです。&lt;br>
-トロッコとUIで2つのAnimatorがあり、「選択肢を選んだアニメーション」が終了したら「トロッコが曲がるアニメーション」を開始する、みたいな処理をGameManagerクラス内で実装しています。
+&lt;p>&amp;ldquo;Truck Quiz&amp;quot;を主に動かしているのは&lt;code>StateMachineBehaviour&lt;/code>です。&lt;code>StateMachineBehaviour&lt;/code>について軽く説明すると、アニメーションの開始時、終了時、Update時(MonoBehaviourのUpdate関数同様、アニメーションの再生中定期的に呼ばれる)に任意の処理を挟むことのできるクラスです。&lt;br>
+トロッコとUIで2つのAnimatorがあり、「選択肢を選んだアニメーション」が終了したら「トロッコが曲がるアニメーション」を開始する、みたいな処理をGameManagerクラス内で実装しています。&lt;/p>
 &lt;/details>
 &lt;h1 id="改良予定">改良予定&lt;/h1>
-&lt;details>
+&lt;details class="spoiler " id="spoiler-2">
 &lt;summary>Unityに詳しい人向け&lt;/summary>
-&lt;h2 id="assetbundleを使用した画像管理">AssetBundleを使用した画像管理&lt;/h2>
+&lt;p>&lt;h2 id="assetbundleを使用した画像管理">AssetBundleを使用した画像管理&lt;/h2>
 &lt;p>現状Resourceクラスで問題の画像を管理していますが、公式が「Resourceクラスは使うな」と言っているので、AssetBundleへの切替を検討しています&lt;/p>
 &lt;h2 id="unityバージョンのアップグレード">Unityバージョンのアップグレード&lt;/h2>
 &lt;p>現在使用しているUnityのバージョンは2018ですが、2018ではpreview版である&lt;code>Input System&lt;/code>を使用したいため、2019へのアップグレードを検討しています。&lt;/p>
 &lt;h2 id="デザイン面の改善">デザイン面の改善&lt;/h2>
 &lt;p>UIデザインの改善を検討しています。&lt;/p>
+&lt;/p>
 &lt;/details></description></item></channel></rss>

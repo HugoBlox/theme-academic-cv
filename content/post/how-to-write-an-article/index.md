@@ -61,34 +61,34 @@ ShortcodesとはHugo独自の機能で、Markdownファイルに書くことが�
 
 ### 画像の左寄せ、右寄せ  
 
-{{< collapsable 左寄せ >}}
+{{<spoiler text="左寄せ ">}}
 
 ```md
 {{</*figure src="./画像名" title="代替テキスト"  class="left"*/>}}
 ```
 
-{{< /collapsable >}}
-{{< collapsable 右寄せ >}}
+{{</spoiler>}}
+{{<spoiler text="右寄せ ">}}
 
 ```md
 {{</*figure src="./画像名" title="代替テキスト"  class="right"*/>}}
 ```
 
-{{< /collapsable >}}
-{{< collapsable "左寄せ(float)" >}}
+{{</spoiler>}}
+{{<spoiler text="左寄せ(float)" >}}
 
 ```md
 {{</*figure src="./画像名" title="代替テキスト"  class="float-left"*/>}}
 ```
 
-{{< /collapsable >}}
-{{< collapsable "右寄せ(float)" >}}
+{{</spoiler>}}
+{{<spoiler text="右寄せ(float)" >}}
 
 ```md
 {{</*figure src="./画像名" title="代替テキスト"  class="float-right"*/>}}
 ```
 
-{{< /collapsable >}}
+{{</spoiler>}}
 他にも、画像の幅・高さなどをカスタムすることができます。詳しくは[公式ドキュメント](https://gohugo.io/content-management/shortcodes/#figure)  を参照してください。
 
 ## Youtube動画埋め込み  
@@ -139,11 +139,11 @@ YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式
 
 のように書けば、下のように表示されます。
 
-{{< collapsable "`Hello`">}}
+{{<spoiler text="`Hello`">}}
   foo  
   *bar*
   > Hello, World!
-{{< /collapsable>}}
+{{< /spoiler>}}
 
 ## ページへのリンク
 

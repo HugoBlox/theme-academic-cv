@@ -59,25 +59,29 @@ Unity 2019から&lt;code>UI Elements&lt;/code>という新しいUIシステム�
 &lt;/div>
 &lt;/div>
 &lt;h3 id="画像の左寄せ右寄せ">画像の左寄せ、右寄せ&lt;/h3>
-&lt;p>&lt;details>
+&lt;p>&lt;details class="spoiler " id="spoiler-2">
 &lt;summary>左寄せ&lt;/summary>
-&lt;pre>&lt;code class="language-md">{{&amp;lt;figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot; class=&amp;quot;left&amp;quot;&amp;gt;}}
+&lt;p>&lt;pre>&lt;code class="language-md">{{&amp;lt;figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot; class=&amp;quot;left&amp;quot;&amp;gt;}}
 &lt;/code>&lt;/pre>
+&lt;/p>
 &lt;/details>
-&lt;details>
+&lt;details class="spoiler " id="spoiler-3">
 &lt;summary>右寄せ&lt;/summary>
-&lt;pre>&lt;code class="language-md">{{&amp;lt;figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot; class=&amp;quot;right&amp;quot;&amp;gt;}}
+&lt;p>&lt;pre>&lt;code class="language-md">{{&amp;lt;figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot; class=&amp;quot;right&amp;quot;&amp;gt;}}
 &lt;/code>&lt;/pre>
+&lt;/p>
 &lt;/details>
-&lt;details>
+&lt;details class="spoiler " id="spoiler-4">
 &lt;summary>左寄せ(float)&lt;/summary>
-&lt;pre>&lt;code class="language-md">{{&amp;lt;figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot; class=&amp;quot;float-left&amp;quot;&amp;gt;}}
+&lt;p>&lt;pre>&lt;code class="language-md">{{&amp;lt;figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot; class=&amp;quot;float-left&amp;quot;&amp;gt;}}
 &lt;/code>&lt;/pre>
+&lt;/p>
 &lt;/details>
-&lt;details>
+&lt;details class="spoiler " id="spoiler-5">
 &lt;summary>右寄せ(float)&lt;/summary>
-&lt;pre>&lt;code class="language-md">{{&amp;lt;figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot; class=&amp;quot;float-right&amp;quot;&amp;gt;}}
+&lt;p>&lt;pre>&lt;code class="language-md">{{&amp;lt;figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot; class=&amp;quot;float-right&amp;quot;&amp;gt;}}
 &lt;/code>&lt;/pre>
+&lt;/p>
 &lt;/details>
 他にも、画像の幅・高さなどをカスタムすることができます。詳しくは&lt;a href="https://gohugo.io/content-management/shortcodes/#figure" target="_blank" rel="noopener">公式ドキュメント&lt;/a> を参照してください。&lt;/p>
 &lt;h2 id="youtube動画埋め込み">Youtube動画埋め込み&lt;/h2>
@@ -113,13 +117,14 @@ foo
 {{&amp;lt;/collapsable&amp;gt;}}
 &lt;/code>&lt;/pre>
 &lt;p>のように書けば、下のように表示されます。&lt;/p>
-&lt;details>
+&lt;details class="spoiler " id="spoiler-8">
 &lt;summary>&lt;code>Hello&lt;/code>&lt;/summary>
-&lt;p>foo&lt;br>
+&lt;p>&lt;p>foo&lt;br>
 &lt;em>bar&lt;/em>&lt;/p>
 &lt;blockquote>
 &lt;p>Hello, World!&lt;/p>
 &lt;/blockquote>
+&lt;/p>
 &lt;/details>
 &lt;h2 id="ページへのリンク">ページへのリンク&lt;/h2>
 &lt;pre>&lt;code class="language-md">{{&amp;lt;cite page=&amp;quot;表示したいページのパス(ホームからの相対パス)&amp;quot; view=&amp;quot;表示形式&amp;quot;&amp;gt;}}

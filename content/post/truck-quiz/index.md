@@ -46,14 +46,14 @@ Unityについて勉強するため春休みの間に作成した、"Truck Quiz"
 
 # 実装の概説  
 
-{{<collapsable "Unityに詳しい人向け">}}
+{{<spoiler text="Unityに詳しい人向け">}}
 "Truck Quiz"を主に動かしているのは`StateMachineBehaviour`です。`StateMachineBehaviour`について軽く説明すると、アニメーションの開始時、終了時、Update時(MonoBehaviourのUpdate関数同様、アニメーションの再生中定期的に呼ばれる)に任意の処理を挟むことのできるクラスです。  
 トロッコとUIで2つのAnimatorがあり、「選択肢を選んだアニメーション」が終了したら「トロッコが曲がるアニメーション」を開始する、みたいな処理をGameManagerクラス内で実装しています。
-{{</collapsable>}}
+{{</spoiler>}}
 
 # 改良予定  
 
-{{<collapsable "Unityに詳しい人向け">}}
+{{<spoiler text="Unityに詳しい人向け">}}
 
 ## AssetBundleを使用した画像管理  
 
@@ -66,4 +66,4 @@ Unityについて勉強するため春休みの間に作成した、"Truck Quiz"
 ## デザイン面の改善
 
 UIデザインの改善を検討しています。
-{{</collapsable>}}
+{{</spoiler>}}
