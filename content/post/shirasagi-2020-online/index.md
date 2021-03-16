@@ -78,7 +78,7 @@ projects: []
 現在プレイできません
 {{</callout>}}
 
-{{<write-html>}}
+{{<safe-html>}}
   <div class="container pt-4">
     <div class="row">
       <div class="col-6" style="margin: auto 0 0 0">
@@ -89,7 +89,7 @@ projects: []
       </div>
     </div>
   </div>
-{{</write-html>}}
+{{</safe-html>}}
 
 目覚めると部屋に閉じ込められていた。部屋の管理人に気をつけながら脱出する謎を解き、無事脱出せよ
 {{</comment>}}

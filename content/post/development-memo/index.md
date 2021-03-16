@@ -207,7 +207,7 @@ int main(void){
 
 ## レイアウトのhtmlファイルに関するメモ
 
-{{<write-html>}}
+{{<safe-html>}}
 <!-- 参考：https://www.conifer.jp/csstest/file-tree/index.html -->
 <style>
 .tree {
@@ -326,7 +326,7 @@ int main(void){
         </li>
     </ul>
 </div>
-{{</write-html>}}
+{{</safe-html>}}
 
 ## TableOfContents
 
