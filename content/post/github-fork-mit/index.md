@@ -181,7 +181,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-GitHubはライセンスの種類を認識し、説明を表示する機能があります。この方法だとGitHubがGitHuMITライセンスだと認識してくれないという問題があります。
+GitHubはライセンスの種類を認識し、説明を表示する機能があります。この方法だとGitHubがMITライセンスだと認識してくれないという問題があります。
 {{</spoiler>}}
 
 # 検証  

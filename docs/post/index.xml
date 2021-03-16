@@ -1536,7 +1536,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 &lt;/code>&lt;/pre>
-&lt;p>GitHubはライセンスの種類を認識し、説明を表示する機能があります。この方法だとGitHubがGitHuMITライセンスだと認識してくれないという問題があります。&lt;/p>
+&lt;p>GitHubはライセンスの種類を認識し、説明を表示する機能があります。この方法だとGitHubがMITライセンスだと認識してくれないという問題があります。&lt;/p>
 &lt;/p>
 &lt;/details>
 &lt;h1 id="検証">検証&lt;/h1>
