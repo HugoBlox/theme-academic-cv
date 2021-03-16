@@ -3,10 +3,3 @@
 {{ $src := (.Get "src")}}
 {{ $src_url := print .Site.BaseURL "slides/" $src}}
 <iframe id={{$src}} src={{$src_url}} width={{$width}} height={{$height}} allowfullscreen=true></iframe>
-<button onclick="test()">フルスクリーン</button>
-<script>
-    function test(){
-        let KEvent = new KeyboardEvent( "keydown", { keyCode: 70 });
-        document.getElementById({{$src}}).contentDocument.dispatchEvent(KEvent);
-    }
-</script> 
