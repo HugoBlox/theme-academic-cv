@@ -2,14 +2,14 @@
 # Display name
 title: "{{ replace .Name "-" " " | title }}"
 
-# Username (this should match the folder name)
+# Username (this should match the folder name and the name on publications)
 authors:
 - "{{ urlize .Name }}"
 
 # 「false」のままにする
 superuser: false
 
-# Role/position
+# Role/position (e.g., Professor of Artificial Intelligence)
 #role:
 
 #university
@@ -46,7 +46,7 @@ interests:
 
 # SNSなどのアカウント
 # Social/Academic Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
+# For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 #social:
@@ -70,6 +70,9 @@ interests:
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 #email: ""
+
+# Highlight the author in author lists? (true/false)
+highlight_name: false
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
