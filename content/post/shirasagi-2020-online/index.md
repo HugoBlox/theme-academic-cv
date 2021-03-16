@@ -41,58 +41,9 @@ projects: []
 
 アプリNaviは新入生歓迎イベントオンライン企画として、部員が作成したゲームをプレイできる特設サイト「あぷりなびらんど(オンライン)」を作成しました。このブログと同じく、`Hugo`を使って作成しました。
 
-{{<comment>}}
 {{<callout info>}}
 現在は特設サイトは閉鎖されており、アクセスすることはできません。
 {{</callout>}}
-
-# 展示ゲーム一覧
-
-## TruckQuiz
-
-{{<unity src="https://juris710.github.io/TruckQuizSample/">}}
-
-某有名クイズ番組のクイズを模したゲームです。 2択問題が5問出題されます。 間違えた時点でゲームオーバーです。
-
-## 巡回！ デリバリー屋さん
-
-{{<unity src="https://appnavicuby.github.io/CubyDeliveryRun/" width="1100" height="650">}}
-
-プレイヤーが家に荷物を届ける2Dアクションパズルゲームです。<br>荷物を集めて理想のデリバリー屋さんを目指そう！
-
-## Finden die Feen
-
-{{<unity src="https://hiroyuki-nakaya.github.io/Finden-die-Feen/">}}
-
-妖精たちとのかくれんぼ<br>迷路の中に隠れている見えない妖精たちを、音を頼りに探していこう！<br>マウスと方向キーだけの簡単操作で遊べるよ。
-
-## Attack on Parrot
-
-{{<unity src="https://7min-prog.github.io/SprFes2020Game_AttackOnParrot/" width="1600" height="1000">}}
-
-神速のタイピングをもって虹色に輝く鳥さんを撃退するゲーム。<br>あなたのタイピング力が今試されるっ！！<br><strong>(音量注意)</strong>
-
-## 迫りくる恐怖からの脱出’
-
-{{<callout warning>}}
-現在プレイできません
-{{</callout>}}
-
-{{<safe-html>}}
-  <div class="container pt-4">
-    <div class="row">
-      <div class="col-6" style="margin: auto 0 0 0">
-        {{<figure src="./escape-from-looming-fear-01.png" caption="スクリーンショット①" attr="" attrlink="" >}}
-      </div>
-      <div class="col-6" style="margin: auto 0 0 0">
-        {{<figure src="./escape-from-looming-fear-02.png" caption="スクリーンショット②" attr="" attrlink="" >}}
-      </div>
-    </div>
-  </div>
-{{</safe-html>}}
-
-目覚めると部屋に閉じ込められていた。部屋の管理人に気をつけながら脱出する謎を解き、無事脱出せよ
-{{</comment>}}
 
 # 反省
 
