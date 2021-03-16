@@ -1030,16 +1030,16 @@ YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式
 &lt;/div>
 &lt;/div>
 &lt;h2 id="折りたたみ">折りたたみ&lt;/h2>
-&lt;pre>&lt;code class="language-md">{{&amp;lt;collapsable &amp;quot;折りたたまれている時に表示する文字列&amp;quot;&amp;gt;}}
+&lt;pre>&lt;code class="language-md">{{&amp;lt;spoiler &amp;quot;折りたたまれている時に表示する文字列&amp;quot;&amp;gt;}}
 展開された時に表示する文章(複数行可)
-{{&amp;lt;/collapsable&amp;gt;}}
+{{&amp;lt;/spoiler&amp;gt;}}
 &lt;/code>&lt;/pre>
-&lt;p>自作Shortcodeです。折りたたまれている時、展開された時ともに、Markdown記法を用いた文章が使えます。例えば&lt;/p>
-&lt;pre>&lt;code class="language-md">{{&amp;lt;collapsable &amp;quot;`Hello`&amp;quot;&amp;gt;}}
+&lt;p>折りたたまれている時、展開された時ともに、Markdown記法を用いた文章が使えます。例えば&lt;/p>
+&lt;pre>&lt;code class="language-md">{{&amp;lt;spoiler &amp;quot;`Hello`&amp;quot;&amp;gt;}}
 foo
 *bar*
 &amp;gt; Hello, World!
-{{&amp;lt;/collapsable&amp;gt;}}
+{{&amp;lt;/spoiler&amp;gt;}}
 &lt;/code>&lt;/pre>
 &lt;p>のように書けば、下のように表示されます。&lt;/p>
 &lt;details class="spoiler " id="spoiler-8">
@@ -1130,17 +1130,6 @@ OPU Virtual Festival
 &lt;/p>
 &lt;/div>
 &lt;/p>
-&lt;h2 id="spoiler">Spoiler&lt;/h2>
-&lt;p>ボタンをクリックするまで見れない＆クリックすると開くテキストが作れるShortcodeです。クイズの正解表示などに使えます。&lt;/p>
-&lt;pre>&lt;code class="language-md">{{&amp;lt;spoiler text=&amp;quot;このサイトの名前は？(正解を見るにはここをクリック!)&amp;quot;&amp;gt;}}
-アプリNaviブログ
-{{&amp;lt;/spoiler&amp;gt;}}
-&lt;/code>&lt;/pre>
-&lt;p>以下のように表示されます。&lt;/p>
-&lt;details class="spoiler " id="spoiler-13">
-&lt;summary>このサイトの名前は？(正解を見るにはここをクリック!)&lt;/summary>
-&lt;p>アプリNaviブログ&lt;/p>
-&lt;/details>
 &lt;h1 id="その他">その他&lt;/h1>
 &lt;h2 id="数式">数式&lt;/h2>
 &lt;p>$\LaTeX$ 記法を用いることで数式を表示することができます。数式は&lt;code>$$&lt;/code>で囲む必要があります。&lt;/p>

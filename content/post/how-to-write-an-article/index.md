@@ -122,19 +122,19 @@ YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式
 ## 折りたたみ  
 
 ```md
-{{</*collapsable "折りたたまれている時に表示する文字列"*/>}}
+{{</*spoiler "折りたたまれている時に表示する文字列"*/>}}
   展開された時に表示する文章(複数行可)
-{{</*/collapsable*/>}}
+{{</*/spoiler*/>}}
 ```
 
-自作Shortcodeです。折りたたまれている時、展開された時ともに、Markdown記法を用いた文章が使えます。例えば
+折りたたまれている時、展開された時ともに、Markdown記法を用いた文章が使えます。例えば
 
 ```md
-{{</*collapsable "`Hello`"*/>}}
+{{</*spoiler "`Hello`"*/>}}
   foo
   *bar*
   > Hello, World!
-{{</*/collapsable*/>}}
+{{</*/spoiler*/>}}
 ```
 
 のように書けば、下のように表示されます。
@@ -164,22 +164,6 @@ YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式
 
 `view="4"`に変えると、下のように表示されます。
 {{<cite page="project/opu-virtual-festival-2020" view="4">}}
-
-## Spoiler
-
-ボタンをクリックするまで見れない＆クリックすると開くテキストが作れるShortcodeです。クイズの正解表示などに使えます。
-
-```md
-{{</*spoiler text="このサイトの名前は？(正解を見るにはここをクリック!)"*/>}}
-アプリNaviブログ
-{{</*/spoiler*/>}}
-```
-
-以下のように表示されます。
-
-{{<spoiler text="このサイトの名前は？(正解を見るにはここをクリック!)">}}
-アプリNaviブログ
-{{</spoiler>}}
 
 # その他  
 
