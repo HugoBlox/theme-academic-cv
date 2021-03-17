@@ -81,7 +81,7 @@ user_groups = ["Grad Students","Joint Program Students",]
 [[social]]
   icon = "cv"
   icon_pack = "ai"
-  link = "https://drive.google.com/file/d/1HlU2_PcmyVSu9gMqWa5IeXsHOoZ1fCQV/view?usp=sharing"
+  link = "https://drive.google.com/file/d/1jlrpkYzNJtu5ZBpRQ7dHQdmBckeOVVvr/view?usp=sharing"
 
 [[social]]
   icon = "home"
