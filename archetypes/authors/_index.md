@@ -29,7 +29,7 @@ university:
   grade_label:
 
 # Short bio (displayed in user profile at end of posts)
-#bio: My research interests include distributed robotics, mobile computing and programmable matter.
+#bio: 
 
 # 興味のある内容（複数記述可能）
 # 「- 内容」のように書く
