@@ -66,49 +66,6 @@ projects: []
 
 # Known Issues
 
-## Nested Shortcodes
-
-`{{.Inner}}`を用いるShortcodeで別のShortcodeがある文章を囲むと上手く表示されない。
-
-- `{{.Inner | markdownify}}`だと、Markdown→Htmlの変換は問題ないが、特殊文字(`&lt;` → `<`など)が上手く変換されない
-- `{{.Inner | safeHTML}}`だと、特殊文字(`&lt;` → `<`など)の変換は問題ないがMarkdownからHtmlに変換されない
-
-## ページ内リンクの不具合
-
-記事内でページ内リンク(例えば[はじめに](#はじめに))を使う際、移動先の一部がヘッダーによって隠れてしまう。
-
-### 解決法1
-
-academic.jsの関数`scrollToAnchor`をページ内リンククリック時に毎回実行するように
-
-### 解決法2
-
-関数`scrollToAnchor`を無効化し、以下をcustom.scssに追加
-{{<spoiler text="custom.scss">}}
-
-```scss
-$header-height-default: 70px;
-$header-height-small: 50px;
-.article-style h1[id],.article-style h2[id],.article-style h3[id],.article-style h4[id],.article-style h5[id],.article-style h6[id]{
-    padding-top: $header-height-default;
-    margin-top: -1 * $header-height-default;
-    @include media-breakpoint-down(md) {
-        padding-top: $header-height-small;
-        margin-top: -1 * $header-height-small;
-    }
-}
-```
-
-{{</spoiler>}}
-
-#### 問題
-
-`{{</*page*/>}}`などの形がおかしくなる可能性あり  
-解決のためには対象クラスを大量に指定する必要がある
-{{<callout note>}}
-現状では解決法１を使っている
-{{</callout>}}
-
 ## ナビゲーションバーの不具合
 
 現在いるページに該当するナビゲーションバーが太字になる（クラスに'active'が追加される機能）の不具合
@@ -120,20 +77,6 @@ $header-height-small: 50px;
 ### 対処法
 
 `themes\academic\layouts\partials\navbar.html`の79～90行目を修正
-
-## Spoiler
-
-自作スムーススクロール機能と競合して、ボタンを押した後の挙動がおかしくなる。
-
-### 対処法
-
-スムーススクロールを適用するaタグに以下のフィルターをかける。(jQuery)
-
-```js
-.filter(function(){
-  return !($(this).closest(".spoiler").length); //先祖にclass="spoiler"がない
-})
-```
 
 # Markdown
 
