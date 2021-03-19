@@ -15,7 +15,32 @@
   <div class="article-style">{{ . }}</div>
   {{ end }}
   
-  {{ partial "list_authors" .Data.Pages }}
+  {{ $author_pages := .Data.Pages }}
+  {{ $university_current_year :=  partial "functions/university_current_year" . }}
+  {{ $avatar_shape := site.Params.avatar.shape | default "circle" }}
+  {{ $no_author_image := (site.GetPage "/authors").Resources.GetMatch "no_author_image.png" }}
+
+  {{ $university_year_list := slice "1年" "2年" "3年" "4年" "M1" "M2" "D1" "D2" }}
+  {{ $page_groups := newScratch }}
+  {{ range $author_pages }}
+    {{ $page := .}}
+    {{ $year := partial "functions/university_grade" $page.Params.University }}
+    {{ $page_groups.Add $year (slice $page)}}
+  {{ end }} 
+
+  <div class="author-card-list">
+    {{range $university_year_list}}
+      {{ $year := . }}
+      {{ with $page_groups.Get $year }}
+        {{ $pages := . }}
+        {{ partial "author_page_group" (dict "avatar_shape" $avatar_shape "year" $year "pages" $pages) }}
+        {{ $page_groups.Delete $year }}
+      {{ end }}
+    {{ end }}
+    {{ range $year, $pages := $page_groups.Values }}
+      {{ partial "author_page_group" (dict "avatar_shape" $avatar_shape "year" $year "pages" $pages) }}
+    {{ end }}
+  </div>
 </div>
 
 {{- end -}}
