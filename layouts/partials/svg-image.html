@@ -1,1 +1,1 @@
-{{ readFile (.src) | replaceRE "<\\?[^>]*\\?>" "" | safeHTML}}
+{{ readFile (printf "assets/media/icon-pack/%s.svg" .icon) | replaceRE "<\\?[^>]*\\?>" "" | safeHTML}}
