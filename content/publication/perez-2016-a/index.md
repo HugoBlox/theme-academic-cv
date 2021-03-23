@@ -1,18 +1,19 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: A new mathematical model for theworkover rig scheduling problem
+title: A new mathematical model for the workover rig scheduling problem
 subtitle: ''
 summary: ''
 authors:
 - Miguel Pérez
 - Fabricio Oliveira
 - Silvio Hamacher
-tags:
+tags: []
+categories: []
+keywords:
 - '"0-1 Integer Linear Programming"'
 - '"Oil production"'
 - '"Workover rigs"'
-categories: []
 date: '2016-01-01'
 lastmod: 2020-08-27T16:01:40+03:00
 featured: false

@@ -9,12 +9,13 @@ authors:
 - P.S.A. Cunha
 - Fabricio Oliveira
 - Fernanda M.P. Raupp
-tags:
+tags: []
+categories: []
+keywords: 
 - '"Replenishment and control systems"'
 - '"Shortage rationing rules"'
 - '"Stochastic programming"'
-- '"Two-echelon logistics networks"'
-categories: []
+- '"Two-echelon logistics networks"' 
 date: '2017-08-01'
 lastmod: 2020-08-27T16:01:39+03:00
 featured: false

@@ -9,13 +9,13 @@ authors:
 - Fabricio Oliveira
 - Silvio Hamacher
 - M. R. Almeida
-tags:
-- '""'
+tags: []
+categories: []
+keywords: 
 - '"Genetic algorithm"'
 - '"MILP"'
 - '"Refining"'
 - '"Scheduling"'
-categories: []
 date: '2011-10-01'
 lastmod: 2020-08-27T16:01:42+03:00
 featured: false

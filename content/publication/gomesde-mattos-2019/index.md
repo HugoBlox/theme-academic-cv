@@ -11,13 +11,14 @@ authors:
 - Adriana Leiras
 - Abdon Baptista de Paula Filho
 - Paulo Gonçalves
-tags:
+tags: []
+categories: []
+keywords: 
 - '"Distribution campaigns"'
 - '"Humanitarian operations"'
 - '"Insecticide treated bed nets"'
 - '"Malaria"'
 - '"Robust optimization"'
-categories: []
 date: '2019-12-01'
 lastmod: 2020-08-27T16:01:39+03:00
 featured: false

@@ -9,14 +9,15 @@ authors:
 - Erfaneh Nikzad
 - Mahdi Bashiri
 - Fabricio Oliveira
-tags:
+tags: []
+categories: []
+keywords:
 - '"Chance constraints"'
 - '"Latin hypercube sampling method"'
 - '"Matheuristic algorithm"'
 - '"Medical drug distribution"'
 - '"Stochastic inventory routing problem"'
 - '"Two-stage stochastic programming"'
-categories: []
 date: '2019-02-01'
 lastmod: 2020-08-27T16:01:39+03:00
 featured: false

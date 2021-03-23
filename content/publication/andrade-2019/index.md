@@ -10,12 +10,13 @@ authors:
 - Fabricio Oliveira
 - Silvio Hamacher
 - Andrew Eberhard
-tags:
+tags: []
+categories: []
+keywords:
 - '"Convex relaxation"'
 - '"McCormick envelopes"'
 - '"Nonconvex mixed-integer quadratically constrained"'
-- '"Normalized multiparametric disaggregation techniqu"'
-categories: []
+- '"Normalized multiparametric disaggregation techniques"'
 date: '2019-04-01'
 lastmod: 2020-08-27T16:01:38+03:00
 featured: false

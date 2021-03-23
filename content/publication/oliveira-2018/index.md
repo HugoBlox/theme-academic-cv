@@ -10,13 +10,14 @@ authors:
 - Jeffrey Christiansen
 - Brian Dandurand
 - Andrew Eberhard
-tags:
+tags: []
+categories: []
+keywords: 
 - '"Decomposition methods"'
 - '"Gauss-Seidel method"'
 - '"Lagrangian duality"'
 - '"Penalty-based method"'
 - '"Stochastic programming"'
-categories: []
 date: '2020-01-01'
 lastmod: 2020-08-27T16:01:38+03:00
 featured: false

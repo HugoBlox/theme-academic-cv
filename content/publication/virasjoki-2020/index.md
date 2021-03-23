@@ -9,7 +9,9 @@ authors:
 - Afzal S. Siddiqui
 - Fabricio Oliveira
 - Ahti Salo
-tags:
+tags: []
+categories: []
+keywords:
 - '"Energy storage"'
 - '"Market power"'
 - '"Power market modeling"'
@@ -18,7 +20,6 @@ tags:
 - '"market"'
 - '"power market modeling"'
 - '"variable renewable energy"'
-categories: []
 date: '2020-05-01'
 lastmod: 2020-08-27T16:01:38+03:00
 featured: false

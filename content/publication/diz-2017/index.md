@@ -9,12 +9,13 @@ authors:
 - Gustavo Souto dos Santos Diz
 - Fabricio Oliveira
 - Silvio Hamacher
-tags:
+tags: []
+categories: []
+keywords: 
 - '"Maritime inventory routing"'
 - '"fixed charge network flow formulation"'
 - '"mixed-integer linear programming"'
 - '"ship scheduling"'
-categories: []
 date: '2017-01-01'
 lastmod: 2020-08-27T16:01:40+03:00
 featured: false

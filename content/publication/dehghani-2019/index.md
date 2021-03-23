@@ -9,13 +9,14 @@ authors:
 - Maryam Dehghani
 - Babak Abbasi
 - Fabricio Oliveira
-tags:
+tags: []
+categories: []
+keywords:
 - '"Blood supply chain"'
 - '"Healthcare operations"'
 - '"Inventory management"'
 - '"Lateral transshipment"'
 - '"Stochastic optimization"'
-categories: []
 date: '2019-08-01'
 lastmod: 2020-08-27T16:01:38+03:00
 featured: false

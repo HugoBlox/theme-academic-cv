@@ -9,13 +9,14 @@ authors:
 - Raphael Riemke de Campos Cesar Leão
 - Silvio Hamacher
 - Fabrício Oliveira
-tags:
+tags: []
+categories: []
+keywords:
 - '"Biodiesel"'
 - '"Brazil"'
 - '"Optimization"'
 - '"Small farmers"'
 - '"Supply chain"'
-categories: []
 date: '2011-01-01'
 lastmod: 2020-08-27T16:01:41+03:00
 featured: false

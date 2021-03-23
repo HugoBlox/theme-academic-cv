@@ -8,13 +8,14 @@ summary: ''
 authors:
 - Felipe Silva Placido dos Santos
 - Fabricio Oliveira
-tags:
+tags: []
+categories: []
+keywords:
 - '"Inventory control"'
 - '"L-Shaped method"'
 - '"Partial backordering"'
 - '"Stochastic programming"'
 - '"Uncertain demand"'
-categories: []
 date: '2019-06-01'
 lastmod: 2020-08-27T16:01:39+03:00
 featured: false

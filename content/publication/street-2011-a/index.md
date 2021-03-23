@@ -7,22 +7,20 @@ summary: ''
 authors:
 - Alexandre Street
 - Jose M José M. Arroyo
-- Fabrício Fabricio Oliveira
-tags:
-- '""'
+- Fabricio Oliveira
+tags: []
+categories: []
+keywords: 
 - '"Bilevel programming"'
 - '"Energy and reserve scheduling"'
 - '"N-K security criterion"'
 - '"Robust optimization"'
 - '"Umbrella contingencies"'
 - '"bilevel programming"'
-- '"energy and re-"'
+- '"energy and reserve scheduling"'
 - '"n-k security criterion"'
-- '"robust optimi-"'
-- '"serve scheduling"'
+- '"robust optimization"'
 - '"umbrella contingencies"'
-- '"zation"'
-categories: []
 date: '2011-01-01'
 lastmod: 2020-08-27T16:01:41+03:00
 featured: false

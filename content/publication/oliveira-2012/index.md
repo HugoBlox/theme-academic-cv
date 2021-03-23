@@ -8,12 +8,12 @@ summary: ''
 authors:
 - Fabricio Oliveira
 - Silvio Hamacher
-tags:
-- '""'
+tags: []
+categories: []
+keywords: 
 - '"Stochastic benders decomposition"'
 - '"Stochastic optimization"'
 - '"Supply chain investment planning"'
-categories: []
 date: '2012-12-01'
 lastmod: 2020-08-27T16:01:41+03:00
 featured: false

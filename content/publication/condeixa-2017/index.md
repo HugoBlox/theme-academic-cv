@@ -10,12 +10,13 @@ authors:
 - Adriana Leiras
 - Fabricio Oliveira
 - Irineu de Brito
-tags:
+tags: []
+categories: []
+keywords: 
 - '"Conditional Value at Risk"'
 - '"Humanitarian logistics"'
 - '"Risk analysis"'
 - '"Stochastic programming"'
-categories: []
 date: '2017-10-01'
 lastmod: 2020-08-27T16:01:39+03:00
 featured: false

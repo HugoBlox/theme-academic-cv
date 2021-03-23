@@ -10,14 +10,15 @@ authors:
 - V. Gupta
 - Silvio Hamacher
 - Ignacio Grossmann
-tags:
+tags: []
+categories: []
+keywords: 
 - '"Lagrangean decomposition"'
 - '"Oil and gas"'
 - '"Risk management"'
 - '"Scenario decomposition"'
 - '"Stochastic integer programming"'
 - '"Supply chain investment planning"'
-categories: []
 date: '2013-01-01'
 lastmod: 2020-08-27T16:01:41+03:00
 featured: false

@@ -9,14 +9,14 @@ authors:
 - Alexandre Street
 - Fabrício Oliveira
 - José M. Arroyo
-tags:
-- '""'
+tags: []
+categories: []
+keywords:
 - '"Bilevel programming"'
 - '"contingency-constrained unit commitment"'
 - '"n-K security criterion"'
 - '"robust optimization"'
 - '"umbrella contingency"'
-categories: []
 date: '2011-08-01'
 lastmod: 2020-08-27T16:01:41+03:00
 featured: false

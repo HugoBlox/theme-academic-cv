@@ -8,7 +8,9 @@ authors:
 - Douglas Alem
 - Fabricio Oliveira
 - Miguel Carrión Ruiz Peinado
-tags:
+tags: []
+categories: []
+keywords:
 - '"CVaR"'
 - '"first-order stochastic dominance"'
 - '"lot-sizing"'
@@ -16,7 +18,6 @@ tags:
 - '"second-order stochastic dominance"'
 - '"semideviation"'
 - '"two-stage stochastic programming"'
-categories: []
 date: '2020-05-01'
 lastmod: 2020-08-27T16:01:38+03:00
 featured: false

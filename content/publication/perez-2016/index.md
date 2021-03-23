@@ -8,11 +8,12 @@ authors:
 - Miguel Pérez
 - Fabricio Oliveira
 - Silvio Hamacher
-tags:
+tags: []
+categories: []
+keywords: 
 - '"0-1 Integer Linear Programming"'
 - '"Oil production"'
 - '"Workover rigs"'
-categories: []
 date: '2016-08-01'
 lastmod: 2020-08-27T16:01:40+03:00
 featured: false
