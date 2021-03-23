@@ -48,6 +48,9 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
+- icon: envelope
+  icon_pack: fas
+  link: 'mailto:nikita.belyak@aalto.fi'  # For a direct email link, use "mailto:test@example.org".
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/nikita-belyak/
@@ -78,3 +81,8 @@ user_groups:
 - Research Group
 - Doctoral Candidates
 ---
+<div style="text-align: justify">
+Nikita is PhD candidate with a background in applied mathematics and computer science. His research interests concern the development of efficient modelling and solution methods for optimization problems under uncertainty. The primary focus is on the problems aimed at increase of the renewable energy sources share in the energy systems. 
+
+He is currently engaged in the investigation and implementation of efficient strategies to combine branching and relaxation techniques for solving large-scale non-convex problems. 
+</div>
