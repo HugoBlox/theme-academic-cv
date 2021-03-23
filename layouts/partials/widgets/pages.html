@@ -44,19 +44,19 @@
   {{ $query = where $query "Date" "<" now }}
 {{ end }}
 
-
+<!-- modication 1 -->
 {{ if eq $items_type "publication" }}
   {{/* This is not very clean, I've never programmed in (Hu)Go */}}
-  
+
   {{/* Initialize empty arrays */}}
   {{ $post_query := slice }}
   {{ $author_query := slice }}
-  
+
   {{/* List all authors. TODO: this could be done with one line if I could figure out how to extract the title field on the same line */}}
   {{ range (where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice "Research Group" "Collaborators")) }}
     {{ $author_query = $author_query | union (slice .Params.title) }}
   {{ end }}
-  
+
   {{/* List all publications matching given conditions. */}}
   {{ range $post := $query }}
     {{/* At least two authors from our group (and collaborators). */}}
@@ -68,10 +68,10 @@
       {{ $post_query = $post_query | union (slice $post) }}
     {{ end }}
   {{ end }}
-  
+
   {{ $query = $post_query }}
 {{ end }}
-
+<!-- /modication 1 -->
 
 {{ $count := len $query }}
 
@@ -90,7 +90,7 @@
 {{ $i18n := "" }}
 {{ if eq $items_type "post" }}
   {{ $i18n = "more_posts" }}
-{{ else if eq $items_type "talk" }}
+{{ else if eq $items_type "event" }}
   {{ $i18n = "more_talks" }}
 {{ else if eq $items_type "publication" }}
   {{ $i18n = "more_publications" }}
@@ -98,35 +98,43 @@
   {{ $i18n = "more_pages" }}
 {{ end }}
 
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>{{ with $st.Title }}{{ . | markdownify | emojify }}{{ end }}</h1>
-    {{ with $st.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
-  </div>
-  <div class="col-12 col-lg-8">
+{{ $columns := $st.Params.design.columns | default "2" }}
 
-    {{ with $st.Content }}{{ . }}{{ end }}
+<div class="col-12 {{if eq $columns "2"}}col-lg-8{{end}}">
 
-    {{ range $post := $query }}
-      {{ if eq $st.Params.design.view 1 }}
-        {{ partial "li_list" . }}
-      {{ else if eq $st.Params.design.view 3 }}
-        {{ partial "li_card" . }}
-      {{ else if eq $st.Params.design.view 4 | and (eq $items_type "publication") }}
-        {{ partial "li_citation" . }}
-      {{ else }}
-        {{ partial "li_compact" . }}
-      {{ end }}
-    {{end}}
+  {{ with $st.Content }}{{ . }}{{ end }}
 
-    {{ if gt $count $items_count }}
-    <div class="see-all">
-      <a href="{{ $archive_page.RelPermalink }}">
-        {{ i18n $i18n | default "See all" }}
-        <i class="fas fa-angle-right"></i>
-      </a>
-    </div>
+  {{ range $post := $query }}
+    {{ if eq $st.Params.design.view 1 }}
+      {{ partial "li_list" . }}
+    {{ else if eq $st.Params.design.view 3 }}
+      {{ partial "li_card" . }}
+    {{ else if eq $st.Params.design.view 4 | and (eq $items_type "publication") }}
+      {{ partial "li_citation" . }}
+    {{ else }}
+      {{ partial "li_compact" . }}
     {{ end }}
+  {{end}}
 
+  {{/* Archive link */}}
+  {{ $show_archive_link := $st.Params.content.archive.enable | default (gt $count $items_count) }}
+  {{ if $show_archive_link }}
+
+  {{ $archive_link := "" }}
+  {{ if $st.Params.content.archive.link }}
+  {{ $archive_link = $st.Params.content.archive.link | relLangURL }}
+  {{ else }}
+  {{ $archive_link = $archive_page.RelPermalink }}
+  {{ end }}
+
+  {{ $archive_text := $st.Params.content.archive.text | default (i18n $i18n) | default "See all" }}
+
+  <div class="see-all">
+    <a href="{{ $archive_link }}">
+      {{ $archive_text | emojify }}
+      <i class="fas fa-angle-right"></i>
+    </a>
   </div>
+  {{ end }}
+
 </div>

@@ -19,18 +19,18 @@
   weight = 17
 
 [[main]]
-  name = "Posts"
-  url = "#posts"
+  name = "Projects"
+  url = "#projects"
   weight = 20
 
 [[main]]
-  name = "Projects"
-  url = "#projects"
+  name = "Posts"
+  url = "#posts"
   weight = 30
 
 [[main]]
-  name = "Talks"
-  url = "#talks"
+  name = "Events"
+  url = "#events"
   weight = 35
 
 [[main]]

@@ -11,7 +11,7 @@
 {{ $person_page_path := (printf "/authors/%s" $author) }}
 {{ $person_page := site.GetPage $person_page_path }}
 {{ if not $person_page }}
-  {{ errorf "Could not find an author page at `%s`. Please check the value of `author` in your About widget and create an associated author page if one does not already exist. See https://sourcethemes.com/academic/docs/page-builder/#about " $person_page_path }}
+  {{ errorf "Could not find an author page at `%s`. Please check the value of `author` in your About widget and create an associated author page if one does not already exist. See https://wowchemy.com/docs/page-builder/#about " $person_page_path }}
 {{end}}
 {{ $person := $person_page.Params }}
 {{ $avatar := ($person_page.Resources.ByType "image").GetMatch "*avatar*" }}
@@ -30,11 +30,13 @@
       {{ end }}
 
       <div class="portrait-title">
+        <!-- modification 1 -->
         <h2>
           {{with $person.external_link }}<a href="{{.}}" target="_blank" rel="noopener">{{end}}
           {{ $person_page.Title }}
           {{ if $person.external_link }}</a>{{end}}
         </h2>
+        <!-- /modication 1 -->
         {{ with $person.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}
 
         {{ range $person.organizations }}
@@ -47,13 +49,15 @@
       </div>
 
       <ul class="network-icon" aria-hidden="true">
-      	 {{ with $person.external_link }}
+         <!-- modication 2 -->
+         {{ with $person.external_link }}
           <li>
             <a href="{{ . }}" target="_blank" rel="noopener">
               <i class="fas fa-external-link-alt big-icon"></i>
             </a>
           </li>
-        {{ end }}
+          {{ end }}
+        <!-- /modication 2 -->
         {{ range $person.social }}
         {{ $pack := or .icon_pack "fas" }}
         {{ $pack_prefix := $pack }}
@@ -69,7 +73,7 @@
           {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
         {{ end }}
         <li>
-          <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
+          <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} aria-label="{{ .icon }}">
             <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }} big-icon"></i>
           </a>
         </li>
@@ -83,13 +87,15 @@
     {{/* Only display widget title in explicit instances of about widget, not in author pages. */}}
     {{ if and $page.Params.widget $page.Title }}<h1>{{ $page.Title | markdownify | emojify }}</h1>{{ end }}
 
+    <div class="article-style">
     {{ $person_page.Content }}
+    </div>
 
     <div class="row">
 
       {{ with $person.interests }}
       <div class="col-md-5">
-        <h3>{{ i18n "interests" | markdownify }}</h3>
+        <div class="section-subheading">{{ i18n "interests" | markdownify }}</div>
         <ul class="ul-interests">
           {{ range . }}
           <li>{{ . | markdownify | emojify }}</li>
@@ -100,7 +106,7 @@
 
       {{ with $person.education }}
       <div class="col-md-7">
-        <h3>{{ i18n "education" | markdownify }}</h3>
+        <div class="section-subheading">{{ i18n "education" | markdownify }}</div>
         <ul class="ul-edu fa-ul">
           {{ range .courses }}
           <li>

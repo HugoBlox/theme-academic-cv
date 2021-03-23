@@ -3,6 +3,7 @@
 {{- $taxonomy := "authors" -}}
 {{- $profile_page := site.GetPage (printf "/%s/%s" $taxonomy $username_url) -}}
 {{- $name := $profile_page.Title | default ($username|markdownify) -}}
+<!-- modication 1 -->
 {{- $link := $profile_page.RelPermalink -}}
 {{- $target := "" -}}
 {{- with $profile_page.Params.external_link -}}
@@ -11,6 +12,7 @@
 {{- end -}}
 {{- with $profile_page -}}
     <a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{$name}}</a>
+<!-- /modication 1 -->
 {{- else -}}
   {{- $name -}}
 {{- end -}}

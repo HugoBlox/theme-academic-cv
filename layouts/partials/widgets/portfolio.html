@@ -6,29 +6,7 @@
 {{ $items_type := $st.Params.content.page_type | default "project" }}
 {{ $columns := $st.Params.design.columns | default "2" }}
 
-{{ if ne $columns "1" }}
-{{/* Standard dual-column layout. */}}
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-
-    {{ with $st.Title }}<h1>{{ . | markdownify | emojify }}</h1>{{ end }}
-    {{ with $st.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
-
-  </div>
-  <div class="col-12 col-lg-8">
-
-{{ else }}
-{{/* Single column layout. */}}
-
-<div class="margin-auto">
-
-  <div class="center-text">
-    {{ with $st.Title }}<h1 class="mt-0">{{ . | markdownify | emojify }}</h1>{{ end }}
-    {{ with $st.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
-  </div>
-  <div>
-{{ end }}
+<div class="col-12 {{if eq $columns "2"}}col-lg-8{{end}}">
 
     {{ with $st.Content }}{{ . }}{{ end }}
 
@@ -67,12 +45,13 @@
     {{ end }}
 
     <div class="{{ if or $st.Params.content.filter_button (eq $st.Params.design.view 3) }}isotope projects-container{{end}} {{if eq $st.Params.design.view 3}}js-layout-masonry{{else}}row js-layout-row{{end}} {{ if eq $st.Params.design.view 5 }}project-showcase mt-5{{end}}">
+      <!-- modication 1 -->
       {{ range $idx, $item := where site.RegularPages "Type" $items_type }}
 
         {{ $link := $item.RelPermalink }}
         {{ $target := "" }}
-    
-	
+        <!-- /modication 1 -->
+
         {{ if eq $st.Params.design.view 1 }}
           {{ partial "portfolio_li_list" (dict "item" $item) }}
         {{ else if eq $st.Params.design.view 2 }}
@@ -85,6 +64,4 @@
 
       {{ end }}
     </div>
-
-  </div>
 </div>

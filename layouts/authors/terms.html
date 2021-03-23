@@ -12,7 +12,8 @@
   <ul>
     {{ $paginator := .Paginate .Data.Pages }}
     {{ range $k, $v := $paginator.Pages }}
-      {{ $name := $v.Title }}
+    {{ $name := $v.Title }}
+      <!-- modication 1 -->
       {{ $link := $v.Permalink }}
       {{ $target := "" }}
       {{ with $v.Params.external_link }}
@@ -20,6 +21,7 @@
         {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
       {{ end }}
       <li><a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{$name}}</a></li>
+      <!-- /modication 1 -->
     {{ end }}
   </ul>
 
