@@ -61,8 +61,8 @@ image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 i
   title = "Deans Award"
   url = ""
   certificate_url = ""
-  date_start = "2019"
-  date_end = "2020"
+  date_start = "2019-01-01"
+  date_end = "2020-12-30"
   description = ""
   
   [[item]]
@@ -71,8 +71,8 @@ image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 i
   title = "Predoctoral Fellowship"
   url = ""
   certificate_url = ""
-  date_start = "2019"
-  date_end = "2020"
+  date_start = "2019-01-01"
+  date_end = "2020-12-30"
   description = ""
   
 +++
