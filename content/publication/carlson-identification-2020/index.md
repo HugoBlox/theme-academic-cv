@@ -38,7 +38,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-03-24T04:23:18.348667Z'
+publishDate: '2021-03-24T04:30:22.830905Z'
 publication_types:
 - '2'
 abstract: Abstract   Background  Glioblastoma is the most common and aggressive type

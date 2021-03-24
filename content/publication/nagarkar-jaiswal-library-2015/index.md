@@ -44,7 +44,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-03-24T04:23:18.636199Z'
+publishDate: '2021-03-24T04:30:23.121520Z'
 publication_types:
 - '2'
 abstract: Here, we document a collection of ∼7434 MiMIC (Minos Mediated Integration
