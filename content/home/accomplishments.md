@@ -55,4 +55,24 @@ image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 i
   date_end = "2017-10-29"
   description = ""
 
+[[item]]
+  organization = "Baylor College of Medicine"
+  organization_url = "https://www.bcm.edu"
+  title = "Deans Award"
+  url = ""
+  certificate_url = ""
+  date_start = "2019"
+  date_end = "2020"
+  description = ""
+  
+  [[item]]
+  organization = "American Heart Association"
+  organization_url = "https://www.heart.org"
+  title = "Predoctoral Fellowship"
+  url = ""
+  certificate_url = ""
+  date_start = "2019"
+  date_end = "2020"
+  description = ""
+  
 +++
