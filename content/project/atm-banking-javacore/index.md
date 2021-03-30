@@ -9,7 +9,7 @@ categories: []
 date: 2021-03-30T17:11:50+07:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://github.com/truongvantuan/Banking_Techmaster_Java1B"
+external_link: ""
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -27,7 +27,7 @@ image:
 #   icon_pack: fab
 #   icon: twitter
 
-url_code: ""
+url_code: "https://github.com/truongvantuan/Banking_Techmaster_Java1B"
 url_pdf: ""
 url_slides: ""
 url_video: ""
