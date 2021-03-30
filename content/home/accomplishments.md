@@ -10,7 +10,7 @@ headless: true
 weight: 40
 
 # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-title: 'Thành tích Chứng chỉ'
+title: 'Chứng Chỉ Thành Tích'
 subtitle:
 
 # Date format
@@ -40,11 +40,11 @@ item:
   title: Java Programing II
   url: ""
 - certificate_url: https://www.datacamp.com
-  date_end: "2017-12-21"
-  date_start: "2017-07-01"
+  date_end: ""
+  date_start: "2020-12-06"
   description: ""
-  organization: DataCamp
-  organization_url: https://www.datacamp.com
-  title: 'Object-Oriented Programming in R: S3 and R6 Course'
+  organization: TechMaster Viet Nam
+  organization_url: https://techmaster.vn/
+  title: 'Second Prize Award TechMaster Algo Contest'
   url: ""
 ---
