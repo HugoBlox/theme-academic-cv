@@ -29,10 +29,10 @@ interests:
 education:
   courses:
   - course: Java Web Developer
-    institution: Techmaster Viet Nam
+    institution: Học viện CNTT Techmaster Viet Nam
     year: 2021
   - course: Java Programing
-    institution: University of Helsinki's MOOC
+    institution: Học liệu mở (MOOC) từ University of Helsinki
     year: 2020
   - course: BE in Mechanical Engineering
     institution: Hanoi University of Science and Technology

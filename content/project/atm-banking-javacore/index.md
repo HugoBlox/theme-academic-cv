@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Atm Banking Javacore"
+title: "ATM Banking Javacore"
 summary: "Dự án kết thúc module Java Core tại TechMaster"
 authors: []
 tags: [Java Core]
