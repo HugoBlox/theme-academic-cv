@@ -17,17 +17,18 @@ subtitle:
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
 - description: 90%
-  icon: r-project
+  icon: java
   icon_pack: fab
-  name: R
+  name: Java
 - description: 100%
-  icon: chart-line
-  icon_pack: fas
-  name: Statistics
+  icon: linux
+  icon_pack: fab
+  name: Linux OS
 - description: 10%
-  icon: camera-retro
-  icon_pack: fas
-  name: Photography
+  icon: git-alt
+  icon_pack: fab
+  name: Git
+  
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
