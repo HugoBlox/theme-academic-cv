@@ -44,9 +44,9 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-- icon: envelope
+- icon: address-book
   icon_pack: fas
-  link: '/#contact'
+  link: '#contact'
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/truongvantuanbk
@@ -75,4 +75,4 @@ highlight_name: false
 ---
 Xin chào, mình là Tuấn. Mình đến từ Hà Tĩnh. Tốt nghiệp ngành Cơ khí chế tạo máy. Hiện đang trong quá trình học tập để chuyển đổi nghề nghiệp và mong muốn trở thành lập trình viên Java - Spring Boot Backend. Cảm ơn bạn đã ghé thăm.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+<!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->

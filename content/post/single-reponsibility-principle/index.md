@@ -3,8 +3,9 @@
 
 title: "Nguyên tắc Nhiệm Vụ Đơn Lẻ"
 subtitle: ""
-summary: ""
-authors: []
+summary: "Các nguyên tắc thiết kế dẫn giắt các quyết định thiết kế của bạn để tạo ra phần mềm đáng tin cậy, linh hoạt và dễ bảo trì hơn. Một trong đó là nguyên tắc Nhiệm Vụ Đơn Lẻ.
+"
+authors: [admin]
 tags: []
 categories: []
 date: 2021-03-30T18:16:22+07:00
