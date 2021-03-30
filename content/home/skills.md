@@ -16,18 +16,31 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: 90%
+- description: 60%
   icon: java
   icon_pack: fab
   name: Java
-- description: 100%
+- description: 50%
+  icon: database
+  icon_pack: fas
+  name: SQL Database
+- description: 80%
   icon: linux
   icon_pack: fab
   name: Linux OS
-- description: 10%
+- description: 50%
   icon: git-alt
   icon_pack: fab
   name: Git
+- description: 50%
+  icon: html5
+  icon_pack: fab
+  name: HTML & CSS
+- description: 70%
+  icon: newspaper
+  icon_pack: far
+  name: SEO Copywriting
+
   
 
 # Uncomment to use emoji icons.

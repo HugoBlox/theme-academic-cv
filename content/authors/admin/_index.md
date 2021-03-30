@@ -18,8 +18,10 @@ bio: My research interests include distributed robotics, mobile computing and pr
 
 # Interests to show in About widget
 interests:
-- Coding - Java
-- Open Source - Linux
+- Coding
+- Java
+- Open Source
+- Linux
 - Sport - Cycling
 - Reading - Writing
 
@@ -28,6 +30,9 @@ education:
   courses:
   - course: Java Web Developer
     institution: Techmaster Viet Nam
+    year: 2021
+  - course: Java Programing
+    institution: University of Helsinki's MOOC
     year: 2020
   - course: BE in Mechanical Engineering
     institution: Hanoi University of Science and Technology
