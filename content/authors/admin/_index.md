@@ -14,7 +14,7 @@ role: Java Web Developer
 #   url: https://truongvantuan.github.io/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Lập trình viên Java Web, yêu thích Linux và các dự án nguồn mở.
 
 # Interests to show in About widget
 interests:
@@ -74,5 +74,7 @@ email: ""
 highlight_name: false
 ---
 Xin chào, mình là Tuấn. Mình đến từ Hà Tĩnh. Tốt nghiệp ngành Cơ khí chế tạo máy. Hiện đang trong quá trình học tập để chuyển đổi nghề nghiệp và mong muốn trở thành lập trình viên Java - Spring Boot Backend. Cảm ơn bạn đã ghé thăm.
+
+Mã nguồn mở của website này có sẵn trên [Github](https://github.com/truongvantuan/starter-academic).
 
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
