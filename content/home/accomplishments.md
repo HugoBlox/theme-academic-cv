@@ -31,7 +31,7 @@ item:
   organization_url: https://www.mooc.fi/en
   title: Java Programing I
   url: ""
-- certificate_url: https://certificates.mooc.fi/validate/gbg279lhnds
+- certificate_url: 
   date_end: ""
   date_start: "2021-04-26"
   description: ""
@@ -39,12 +39,12 @@ item:
   organization_url: https://www.mooc.fi/en
   title: Java Programing II
   url: ""
-- certificate_url: https://www.datacamp.com
+- certificate_url: https://www.dropbox.com/s/5jdtestxskvo9a1/techmaster%20algo%20contest.jpg?dl=0
   date_end: ""
   date_start: "2020-12-06"
   description: ""
   organization: TechMaster Viet Nam
   organization_url: https://techmaster.vn/
-  title: 'Second Prize Award TechMaster Algo Contest'
+  title: 'Giải nhì cuộc thi TechMaster Algo Contest'
   url: ""
 ---
