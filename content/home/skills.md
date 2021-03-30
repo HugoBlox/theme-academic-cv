@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-title: Skills
+title: Kỹ Năng
 subtitle:
 
 # Showcase personal skills or business features.

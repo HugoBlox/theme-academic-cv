@@ -4,25 +4,31 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
+  - name: Giới thiệu
     url: '#about'
     weight: 10
-  - name: Posts
-    url: '#posts'
+  - name: Kỹ năng
+    url: '#skills'
     weight: 20
-  - name: Projects
-    url: '#projects'
+  - name: Chứng chỉ
+    url: '#accomplishments'
     weight: 30
-  - name: Talks
-    url: '#talks'
+  - name: Dự án
+    url: '#projects'
     weight: 40
-  - name: Publications
-    url: '#featured'
+  - name: Bài viết
+    url: '#posts'
     weight: 50
-  - name: Contact
+  # - name: Talks
+  #   url: '#talks'
+  #   weight: 40
+  # - name: Publications
+  #   url: '#featured'
+  #   weight: 50
+  - name: Linux
     url: '#contact'
     weight: 60
-  - name: Linux
+  - name: Liên hệ
     url: '#contact'
     weight: 70
 

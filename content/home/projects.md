@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 50
 
-title: Dự Án Cá Nhân
+title: Dự Án
 subtitle: ''
 
 content:
