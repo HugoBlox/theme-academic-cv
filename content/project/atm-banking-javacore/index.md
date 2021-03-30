@@ -4,8 +4,8 @@
 title: "Atm Banking Javacore"
 summary: "Dự án kết thúc module Java Core tại TechMaster"
 authors: []
-tags: []
-categories: []
+tags: [Java Core]
+categories: [Java Core]
 date: 2021-03-30T17:11:50+07:00
 
 # Optional external URL for project (replaces project detail page).
