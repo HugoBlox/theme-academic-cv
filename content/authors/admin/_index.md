@@ -73,7 +73,7 @@ email: ""
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 ---
-Xin chào, mình là Tuấn. Mình đến từ Hà Tĩnh. Tốt nghiệp ngành Cơ khí chế tạo máy. Hiện đang trong quá trình học tập để trở thành lập trình viên Java Web - Spring Boot Backend. Với kinh nghiệm và kiến thức về lĩnh vực cơ khí, mong muốn được tham gia làm việc trong các dự án về nhà máy và sản xuất.
+Xin chào, mình là Tuấn. Mình đến từ Hà Tĩnh. Tốt nghiệp ngành Cơ khí Chế Tạo Máy. Hiện đang trong quá trình học tập để trở thành lập trình viên Java Web - Spring Boot Backend. Với kinh nghiệm và kiến thức về lĩnh vực cơ khí, mong muốn được tham gia làm việc tại các dự án về nhà máy và sản xuất.
 
 Yêu thích và sử dụng Linux, mình viết các bài hướng dẫn cài đặt và cấu hình Linux OS, cũng như các công cụ lập trình trên nền tảng này. Các bạn có thể tham khảo tại [Linux](linux/).
 Mình dịch các bài viết công nghệ về Java và học được rất nhiều từ việc dịch bài. Xem các bài mình dịch tại [Bài viết](post/).
