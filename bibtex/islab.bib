@@ -1,3 +1,102 @@
+
+@article{Dong2021,
+author = {Wenjian Dong and Mayu Otani and Noa Garcia and Yuta Nakashima and Chenhui Chu},
+title = {Cross-lingual visual grounding},
+abstract = {Visual grounding is a vision and language understanding task aiming at locating a region in an image according to a specific query phrase. However, most previous studies only address this task for the English language. Although there are previous cross-lingual vision and language studies, they work on image and video captioning, and visual question answering. In this paper, we present the first work on cross-lingual visual grounding to expand the task to different languages to study an effective yet efficient way for visual grounding on other languages. We construct a visual grounding dataset for French via crowdsourcing. Our dataset consists of 14k, 3k, and 3k query phrases with their corresponding image regions for 5k, 1k, and 1k training, validation and test images, respectively. In addition, we propose a cross-lingual visual grounding approach that transfers the knowledge from a learnt English model to a French model. Despite that the size of our French dataset is 1/6 of the English dataset, experiments indicate that our model achieves an accuracy of 65.17%, which is comparable to the accuracy 69.04% of the English model. Our dataset and codes are available at https://github.com/ids-cv/Multi-Lingual-Visual-Grounding.},
+year = {2020},
+month = {December},
+journal = {IEEE Access},
+volume = {9},
+url = {https://ieeexplore.ieee.org/document/9305199},
+doi = {https://doi.org/10.1109/ACCESS.2020.3046719},
+}
+
+@article{Babaguchi2021,
+author = {Noboru Babaguchi and Isao Echizen and Junichi Yamagishi and Naoko Nitta and Yuta Nakashima and Kazuaki Nakamura and Kazuhiro Kono and Fuming Fand, Seiko Myojin and Zhenzhong Kuang and Huy H Nguyen and Ngoc-Dung T Tieu},
+title = {Preventing fake information generation against media clone attacks},
+abstract = {Fake media has been spreading due to remarkable advances in media processing and machine leaning technologies, causing serious problems in society. We are conducting a research project called Media Clone aimed at developing methods for protecting people from fake but skillfully fabricated replicas of real media called media clones. Such media can be created from fake information about a specific person. Our goal is to develop a trusted communication system that can defend against attacks of media clones. This paper describes some research results of the Media Clone project, in particular, various methods for protecting personal information against generating fake information. We focus on 1) fake information generation in the physical world, 2) anonymization and abstraction in the cyber world, and 3) modeling of media clone attacks.},
+year = {2021},
+month = {January},
+journal = {IEICE Transactions on Information and Systems},
+volume = {E104-D},
+number = {1},
+pages = {2-11},
+url = {https://search.ieice.org/bin/summary.php?id=e104-d_1_2},
+doi = {https://doi.org/10.1587/transinf.2020MUI0001},
+}
+
+@article{Echizen2021,
+author = {Isao Echizen and Noboru Babaguchi and Junichi Yamagishi and Naoko Nitta and Yuta Nakashima and Kazuaki Nakamura and Kazuhiro Kono and Fuming Fand and Seiko Myojin and Zhenzhong Kuang and Huy H Nguyen and Ngoc-Dung T Tieu},
+title = {Generation and detection of media clones},
+abstract = {With the spread of high-performance sensors and social network services (SNS) and the remarkable advances in machine learning technologies, fake media such as fake videos, spoofed voices, and fake reviews that are generated using high-quality learning data and are very close to the real thing are causing serious social problems. We launched a research project, the Media Clone (MC) project, to protect receivers of replicas of real media called media clones (MCs) skillfully fabricated by means of media processing technologies. Our aim is to achieve a communication system that can defend against MC attacks and help ensure safe and reliable communication. This paper describes the results of research in two of the five themes in the MC project: 1) verification of the capability of generating various types of media clones such as audio, visual, and text derived from fake information and 2) realization of a protection shield for media clones' attacks by recognizing them.},
+year = {2021},
+month = {January},
+journal = {IEICE Transactions on Information and Systems },
+volume = {E104-D},
+number = {1},
+pages = {12-23},
+url = {https://search.ieice.org/bin/summary.php?id=e104-d_1_12},
+doi = {https://doi.org/10.1587/transinf.2020MUI0002},
+}
+
+@inproceedings{Kayatani2021,
+author = {Yuta Kayatani and Zekun Yang and Mayu Otani and Noa Garcia and Chenhui Chu and Yuta Nakashima and Haruo Takemura},
+title = {The laughing machine: Predicting humor in video},
+abstract  = {Humor is a very important communication tool; yet, it is an open problem for machines to understand humor. In this paper, we build a new multimodal dataset for humor prediction that includes subtitles and video frames, as well as humor labels associated with video's timestamps. On top of it, we present a model to predict whether a subtitle causes laughter. Our model uses the visual modality through facial expression and character name recognition, together with the verbal modality, to explore how the visual modality helps. In addition, we use an attention mechanism to adjust the weight for each modality to facilitate humor prediction. Interestingly, our experimental results show that the performance boost by combinations of different modalities, and the attention mechanism and the model mostly relies on the verbal modality.},
+year = {2021},
+month = {January},
+booktitle = {Proceedings - IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+pages = {2073-2083},
+url = {https://openaccess.thecvf.com/content/WACV2021/html/Kayatani_The_Laughing_Machine_Predicting_Humor_in_Video_WACV_2021_paper.html}
+}
+
+@article{Ashihara2020,
+author = {Kazuki Ashihara and Cheikh Brahim El Vaigh and Chenhui Chu and Benjamin Renoust and Noriko Okubo and Noriko Takemura and Yuta Nakashima and Hajime Nagahara},
+title = {Improving topic modeling through homophily for legal documents},
+abstract = {Topic modeling that can automatically assign topics to legal documents is very important in the domain of computational law. The relevance of the modeled topics strongly depends on the legal context they are used in. On the other hand, references to laws and prior cases are key elements for judges to rule on a case. Taken together, these references form a network, whose structure can be analysed with network analysis. However, the content of the referenced documents may not be always accessed. Even in that case, the reference structure itself shows that documents share latent similar characteristics. We propose to use this latent structure to improve topic modeling of law cases using document homophily. In this paper, we explore the use of homophily networks extracted from two types of references: prior cases and statute laws, to enhance topic modeling on legal case documents. We conduct in detail, an analysis on a dataset consisting of rich legal cases, i.e., the COLIEE dataset, to create these networks. The homophily networks consist of nodes for legal cases, and edges with weights for the two families of references between the case nodes. We further propose models to use the edge weights for topic modeling. In particular, we propose a cutting model and a weighting model to improve the relational topic model (RTM). The cutting model uses edges with weights higher than a threshold as document links in RTM; the weighting model uses the edge weights to weight the link probability function in RTM. The weights can be obtained either from the co-citations or from the cosine similarity based on an embedding of the homophily networks. Experiments show that the use of the homophily networks for topic modeling significantly outperforms previous studies, and the weighting model is more effective than the cutting model.},
+year = {2020},
+month = {October},
+journal = {Applied Network Science},
+volume = {5},
+url = {https://appliednetsci.springeropen.com/articles/10.1007/s41109-020-00321-y},
+doi = {https://doi.org/10.1007/s41109-020-00321-y}
+}
+
+@inproceedings{Ohashi2020,
+author = {Sora Ohashi and Tomoyuki Kajiwara and Chenhui Chu and Noriko Takemura and Yuta Nakashima and Hajime Nagahara},
+title = {IDSOU at WNUT-2020 Task 2: Identification of informative COVID-19 English tweets},
+abstract = {We introduce the IDSOU submission for the WNUT-2020 task 2: identification of informative COVID-19 English Tweets. Our system is an ensemble of pre-trained language models such as BERT. We ranked 16th in the F1 score.},
+year = {2020},
+month = {November},
+pages = {428--433},
+booktitle = {Proceedings - Workshop on Noisy User-generated Text (W-NUT 2020)},
+url = {https://www.aclweb.org/anthology/2020.wnut-1.62.pdf}
+}
+
+@inproceedings{Otani2020b,
+author = {Mayu Otani and Yuta Nakashima and Esa Rahtu and Janne Heikkilä},
+title = {Uncovering hidden challenges in query-based video moment retrieval},
+abstract = { The query-based moment retrieval is a problem of localising a specific clip from an untrimmed video according a query sentence. This is a challenging task that requires interpretation of both the natural language query and the video content. Like in many other areas in computer vision and machine learning, the progress in query-based mo- ment retrieval is heavily driven by the benchmark datasets and, therefore, their quality has significant impact on the field. In this paper, we present a series of experiments as- sessing how well the benchmark results reflect the true progress in solving the moment retrieval task. Our results indicate substantial biases in the popular datasets and unex- pected behaviour of the state-of-the-art models. Moreover, we present new sanity check experiments and approaches for visualising the results. Finally, we suggest possible di- rections to improve the temporal sentence grounding in the future.},
+booktitle = {Proceedings - British Machine Vision Conference},
+year = {2020},
+month = {September}
+url = {https://www.bmvc2020-conference.com/assets/papers/0306.pdf}
+}
+
+@article{Otani2020a,
+author = {Mayu Otani and Chenhui Chu and Yuta Nakashima},
+title = {Visually grounded paraphrase identification via gating and phrase localization},
+abstract = {Visually grounded paraphrases (VGPs) describe the same visual concept but in different wording. Previous studies have developed models to identify VGPs from language and visual features. In these existing methods, language and visual features are simply fused. However, our detailed analysis indicates that VGPs with different lexical similarities require different weights on language and visual features to maximize identification performance. This motivates us to propose a gated neural network model to adaptively control the weights. In addition, because VGP identification is closely related to phrase localization, we also propose a way to explicitly incorporate phrase-object correspondences. From our evaluation in detail, we confirmed our model outperforms the state-of-the-art model.},
+doi = {https://doi.org/10.1016/j.neucom.2020.04.066},
+journal = {Neurocomputing},
+volume = {404},
+month = {September},
+year = {2020},
+pages = {165--172},
+url = {https://www.sciencedirect.com/science/article/pii/S0925231220306512}
+}
+
+
 @article{Yanagawa2020,
 author = {Masahiro Yanagawa and Hirohiko Niioka and Masahiko Kusumoto and Kazuo Awai and Mitsuko Tsubamoto and Yukihisa Satoh and Tomo Miyata and Yuriko Yoshida and Noriko Kikuchi and Akinori Hata and Shohei Yamasaki and Shoji Kido and Hajime Nagahara and Jun Miyake and Noriyuki Tomiyama},
 title = {Diagnostic performance for pulmonary adenocarcinoma on CT: comparison of radiologists with and without three-dimensional convolutional neural network},
@@ -27,7 +126,7 @@ journal = {ACS Omega},
 month = {September},
 year = {2020},
 url = {https://pubs.acs.org/doi/pdf/10.1021/acsomega.0c02578},
-} (edited) 
+}
 
 @article{Yamato2020a,
 author = {Naoki Yamato and Hirohiko Niioka and Jun Miyake and Mamoru Hashimoto},

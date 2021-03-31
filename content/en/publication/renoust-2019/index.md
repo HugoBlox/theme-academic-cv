@@ -1,7 +1,7 @@
 ---
 title: "Historical and modern features for Buddha statue classification"
 date: 2019-01-01
-publishDate: 2020-11-02T06:48:06.744572Z
+publishDate: 2021-03-31T01:53:23.148178Z
 authors: ["B. Renoust", "M.O. Franca", "J. Chan", "N. Garcia", "V. Le", "A. Uesaka", "Y. Nakashima", "H. Nagahara", "J. Wang", "Y. Fujioka"]
 publication_types: ["1"]
 abstract: "© 2019 Copyright held by the owner/author(s). While Buddhism has spread along the Silk Roads, many pieces of art have been displaced. Only a few experts may identify these works, subjectively to their experience. The construction of Buddha statues was taught through the definition of canon rules, but the applications of those rules greatly varies across time and space. Automatic art analysis aims at supporting these challenges. We propose to automatically recover the proportions induced by the construction guidelines, in order to use them and compare between different deep learning features for several classification tasks, in a medium size but rich dataset of Buddha statues, collected with experts of Buddhism art history."

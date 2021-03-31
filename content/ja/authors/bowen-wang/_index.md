@@ -2,7 +2,7 @@
 # Display name
 title: "Bowen Wang"
 
-weight: 40
+weight: 1020200
 
 # Username (this should match the folder name and the name on publications)
 authors:
@@ -16,8 +16,6 @@ role: 博士後期課程学生
 
 # Organizations/Affiliations
 organizations:
-- name: "データビリティフロンティア機構"
-  url: "http://www.ids.osaka-u.ac.jp/"
 - name: "情報科学研究科"
   url: "http://www.ist.osaka-u.ac.jp/"
 - name: "大阪大学"

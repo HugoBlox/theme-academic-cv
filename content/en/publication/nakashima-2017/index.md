@@ -1,7 +1,7 @@
 ---
 title: "Realtime novel view synthesis with eigen-texture regression"
 date: 2017-01-01
-publishDate: 2020-11-02T06:48:06.772847Z
+publishDate: 2021-03-31T01:53:23.151227Z
 authors: ["Yuta Nakashima", "Fumio Okura", "Norihiko Kawai", "Hiroshi Kawasaki", "Ambrosio Blanco", "Katsushi Ikeuchi"]
 publication_types: ["1"]
 abstract: "Realtime novel view synthesis, which generates a novel view of a real object or scene in realtime, enjoys a wide range of applications including augmented reality, telepresence, and immersive telecommunication. Image-based rendering (IBR) with rough geometry can be done using only an off-the-shelf camera and thus can be used by many users. However, IBR from images in the wild (e.g., lighting condition changes or the scene contains objects with specular surfaces) has been a tough problem due to color discontinuity; IBR with rough geometry picks up appropriate images for a given viewpoint, but the image used for a rendering unit (a face or pixel) switches when the viewpoint moves, which may cause noticeable changes in color. We use the eigen-texture technique, which represents images for a certain face using a point in the eigenspace. We propose to regress a new point in this space, which moves smoothly, given a viewpoint so that we can generate an image whose color smoothly changes according to the point. Our regressor is based on a neural network with a single hidden layer and hyperbolic tangent nonlinearity. We demonstrate the advantages of our IBR approach using our own datasets as well as publicly available datasets for comparison."

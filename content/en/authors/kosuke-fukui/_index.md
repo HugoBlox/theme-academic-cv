@@ -2,7 +2,7 @@
 # Display name
 title: "Kosuke Fukui"
 
-weight: 50
+weight: 2020200
 
 # Username (this should match the folder name and the name on publications)
 authors:
@@ -16,8 +16,6 @@ role: Graduate Student
 
 # Organizations/Affiliations
 organizations:
-- name: "Institute for Datability Science"
-  url: "http://www.ids.osaka-u.ac.jp/"
 - name: "Graduate School of Information Science and Technology"
   url: "http://www.ist.osaka-u.ac.jp/"
 - name: "Osaka University"

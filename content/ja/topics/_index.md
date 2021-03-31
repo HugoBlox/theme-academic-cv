@@ -5,4 +5,8 @@ toc = true # Show table of contents? true/false
 type = "docs" # Do not modify. 
 +++
 
-We have beein working on a wide range of topics related to computational phography, computer vision, natural language processing, human sensing, etc. Some of them are introduced here. 
+{{< figure library="true" src="intelligence.jpg" numbered="false" width="1000" >}}
+
+自立した知能とは – 人間が持つ3つの機能、すなわち、知覚、思考、行動を備える知能は、自立した知能と言えるのではないでしょうか。まずは知覚。外界の情景を単に記録するだけではなく、実世界の物体の意味や相互関係、状況を理解します。続いて思考。知覚した情報から必要なものを抽出・予測するだけではなく、様々なコンテキストを考え合わせ、状況に応じた判断をします。最後に行動。物理的な動作のみではなく、人や環境に働きかけ、適応的なサポート・サービスを提供します。
+
+知能センシング講座（ISLab）では「自立した知能」の実現を目指し、コンピュータビジョン、コンピュテーショナルフォトグラフィ、機械学習、パターン認識、自然言語処理などの要素技術とその応用に関する研究に取り組んでいます。ここでは、これらの機能に関連するトピックを紹介します。

@@ -2,7 +2,7 @@
 # Display name
 title: "Bowen Wang"
 
-weight: 40
+weight: 1020200
 
 # Username (this should match the folder name and the name on publications)
 authors:
@@ -16,8 +16,6 @@ role: PhD Student
 
 # Organizations/Affiliations
 organizations:
-- name: "Institute for Datability Science"
-  url: "http://www.ids.osaka-u.ac.jp/"
 - name: "Graduate School of Information Science and Technology"
   url: "http://www.ist.osaka-u.ac.jp/"
 - name: "Osaka University"
@@ -72,7 +70,7 @@ user_groups:
 - Students
 ---
 ### Contact
-- email: bowen.wang@lab.ime.cmc.
+- email: bowen.wang@is.ids.
 
 
 Please add `osaka-u.ac.jp` to complete email address

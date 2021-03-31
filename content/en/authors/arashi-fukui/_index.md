@@ -2,7 +2,7 @@
 # Display name
 title: "Arashi Fukui"
 
-weight: 20200
+weight: 2020220
 
 # Username (this should match the folder name and the name on publications)
 authors:
@@ -12,12 +12,10 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Undergraduate Student
+role: Graduate Student
 
 # Organizations/Affiliations
 organizations:
-- name: "Institute for Datability Science"
-  url: "http://www.ids.osaka-u.ac.jp/"
 - name: "Graduate School of Information Science and Technology"
   url: "http://www.ist.osaka-u.ac.jp/"
 - name: "Osaka University"

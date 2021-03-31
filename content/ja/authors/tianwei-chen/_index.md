@@ -2,7 +2,7 @@
 # Display name
 title: "Tianwei Chen"
 
-weight: 100
+weight: 1020220
 
 # Username (this should match the folder name and the name on publications)
 authors:
@@ -12,13 +12,12 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: インターン
+role: 博士後期課程学生
 
 # Organizations/Affiliations
 organizations:
-- name: "データビリティフロンティア機構"
-  url: "http://www.ids.osaka-u.ac.jp/"
-
+- name: "情報科学研究科"
+  url: "http://www.ist.osaka-u.ac.jp/"
 - name: "大阪大学"
   url: "http://www.osaka-u.ac.jp/"
 
@@ -68,5 +67,10 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- 訪問研究者
+- 学生
 ---
+### Contact
+- email: chentw@is.ids.
+
+
+Please add `osaka-u.ac.jp` to complete email address

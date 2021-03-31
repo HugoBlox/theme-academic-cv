@@ -2,7 +2,7 @@
 # Display name
 title: "福井 嵐士"
 
-weight: 20200
+weight: 2020220
 
 # Username (this should match the folder name and the name on publications)
 authors:
@@ -12,12 +12,12 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: 学部学生
+role: 博士前期課程学生
 
 # Organizations/Affiliations
 organizations:
-- name: "データビリティフロンティア機構"
-  url: "http://www.ids.osaka-u.ac.jp/"
+- name: "情報科学研究科"
+  url: "http://www.ist.osaka-u.ac.jp/"
 - name: "大阪大学"
   url: "http://www.osaka-u.ac.jp/"
 
