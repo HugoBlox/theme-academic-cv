@@ -20,15 +20,16 @@ twitter: ''
 
 # Contact (edit or remove options as required)
 
+phone: '0973949816'
 email: truongvantuan@outlook.com.vn
-phone: 888 888 88 88
-# address:
+
+address:
 #   street: 450 Serra Mall
-#   city: Stanford
+  city: Hà Nội
 #   region: CA
-#   postcode: '94305'
-#   country: United States
-#   country_code: US
+  postcode: '100000'
+  country: Việt Nam
+  country_code: VN
 # coordinates:
 #   latitude: '37.4275'
 #   longitude: '-122.1697'
@@ -70,7 +71,7 @@ main_menu:
 
 date_format: 'Jan 2, 2006'
 time_format: '3:04 PM'
-address_format: en-us
+address_format: vi-vn
 
 # Site features
 

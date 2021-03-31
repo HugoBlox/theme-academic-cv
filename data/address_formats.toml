@@ -1,0 +1,3 @@
+# Address formats.
+vi-vn = {order = ['street', 'city', 'country', 'postcode'], delimiters = [', ', ', ', ' ', '']}
+en-us = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ' ', '']}

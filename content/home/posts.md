@@ -10,7 +10,7 @@ headless: true
 weight: 60
 
 title: Bài Viết
-subtitle:
+subtitle: 'Dịch các bài viết công nghệ liên quan đến Java'
 
 content:
   # Page type to display. E.g. post, talk, publication...
