@@ -61,7 +61,7 @@
 - id: education
   translation: Học Vấn
 - id: user_profile_latest
-  translation: Latest
+  translation: Mới nhất
 - id: see_certificate
   translation: Xem chứng chỉ
 - id: present
@@ -93,7 +93,7 @@
 - id: date
   translation: Thời Gian
 - id: last_updated
-  translation: Cập Nhật Lần Cuối
+  translation: Cập nhật lần cuối
 - id: event
   translation: Sự Kiện
 - id: location
@@ -117,7 +117,7 @@
 - id: pub_patent
   translation: Patent
 - id: open_project_site
-  translation: Đến Trang Dự Án
+  translation: Đến trang Dự Án
 - id: posts
   translation: Bài Đăng
 - id: publications
@@ -149,6 +149,6 @@
 - id: cookie_dismiss
   translation: Got it!
 - id: cookie_learn
-  translation: Learn more
+  translation: Tìm hiểu thêm
 - id: published_with
   translation: Published with {wowchemy} — the free, {repo_link}open source{/repo_link} website builder that empowers creators.

@@ -20,8 +20,8 @@ bio: Lập trình viên Java Web, yêu thích Linux và các dự án nguồn m�
 interests:
 - Coding
 - Java
-- Open Source
 - Linux
+- Open Source
 - Sport - Cycling
 - Reading - Writing
 
@@ -73,8 +73,11 @@ email: ""
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 ---
-Xin chào, mình là Tuấn. Mình đến từ Hà Tĩnh. Tốt nghiệp ngành Cơ khí chế tạo máy. Hiện đang trong quá trình học tập để chuyển đổi nghề nghiệp và mong muốn trở thành lập trình viên Java - Spring Boot Backend. Cảm ơn bạn đã ghé thăm.
+Xin chào, mình là Tuấn. Mình đến từ Hà Tĩnh. Tốt nghiệp ngành Cơ khí chế tạo máy. Hiện đang trong quá trình học tập để trở thành lập trình viên Java Web - Spring Boot Backend. Với kinh nghiệm và kiến thức về lĩnh vực cơ khí, mong muốn được tham gia làm việc trong các dự án về nhà máy và sản xuất.
 
-Mã nguồn mở của website này có sẵn trên [Github](https://github.com/truongvantuan/starter-academic).
+Yêu thích và sử dụng Linux, mình viết các bài hướng dẫn cài đặt và cấu hình Linux OS, cũng như các công cụ lập trình trên nền tảng này. Các bạn có thể tham khảo tại [Linux](linux/).
+Mình dịch các bài viết công nghệ về Java và học được rất nhiều từ việc dịch bài. Xem các bài mình dịch tại [Bài viết](post/).
+
+Mã nguồn mở của website này có sẵn trên [Github](https://github.com/truongvantuan/starter-academic). Tài liệu sử dụng được nhà phát triển viết chi tiết tại [Wowchemy](https://wowchemy.com/docs/). Cảm ơn bạn đã ghé thăm.
 
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->

@@ -1,5 +1,5 @@
 ---
-title: Posts
+title: Bài viết
 cms_exclude: true
 
 # View.

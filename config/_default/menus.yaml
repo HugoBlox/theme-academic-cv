@@ -19,12 +19,6 @@ main:
   - name: Bài viết
     url: '#posts'
     weight: 50
-  # - name: Talks
-  #   url: '#talks'
-  #   weight: 40
-  # - name: Publications
-  #   url: '#featured'
-  #   weight: 50
   - name: Linux
     url: 'linux/'
     weight: 60
