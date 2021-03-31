@@ -10,7 +10,7 @@ headless: true
 weight: 50
 
 title: Dự Án
-subtitle: ''
+subtitle: Dự án cá nhân, bài tập hoàn thành khóa học
 
 content:
   # Page type to display. E.g. project.

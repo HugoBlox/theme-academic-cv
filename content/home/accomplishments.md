@@ -11,7 +11,7 @@ weight: 40
 
 # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
 title: Chứng Chỉ
-subtitle:
+subtitle: Chứng chỉ học tập và thành tích các cuộc thi nội bộ
 
 # Date format
 #   Refer to https://wowchemy.com/docs/customization/#date-format
