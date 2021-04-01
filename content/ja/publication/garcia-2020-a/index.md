@@ -1,7 +1,7 @@
 ---
 title: "KnowIT VQA: Answering knowledge-based questions about videos"
 date: 2020-02-01
-publishDate: 2021-03-31T01:53:09.656895Z
+publishDate: 2021-04-01T02:47:13.630612Z
 authors: ["Noa Garcia", "Mayu Otani", "Chenhui Chu", "Yuta Nakashima"]
 publication_types: ["1"]
 abstract: "We propose a novel video understanding task by fusing knowledge-based and video question answering. First, we introduce KnowIT VQA, a video dataset with 24,282 human-generated question-answer pairs about a popular sitcom. The dataset combines visual, textual and temporal coherence reasoning together with knowledge-based questions, which need of the experience obtained from the viewing of the series to be answered. Second, we propose a video understanding model by combining the visual and textual video content with specific knowledge about the show. Our main findings are: (i) the incorporation of knowledge produces outstanding improvements for VQA in video, and (ii) the performance on KnowIT VQA still lags well behind human accuracy, indicating its usefulness for studying current video modelling limitations."

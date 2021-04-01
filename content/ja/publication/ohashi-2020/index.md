@@ -1,7 +1,7 @@
 ---
 title: "IDSOU at WNUT-2020 Task 2: Identification of informative COVID-19 English tweets"
 date: 2020-11-01
-publishDate: 2021-03-31T01:53:09.613030Z
+publishDate: 2021-04-01T02:47:13.597732Z
 authors: ["Sora Ohashi", "Tomoyuki Kajiwara", "Chenhui Chu", "Noriko Takemura", "Yuta Nakashima", "Hajime Nagahara"]
 publication_types: ["1"]
 abstract: "We introduce the IDSOU submission for the WNUT-2020 task 2: identification of informative COVID-19 English Tweets. Our system is an ensemble of pre-trained language models such as BERT. We ranked 16th in the F1 score."
