@@ -65,10 +65,10 @@ projects: []
 
 {{<cta cta_text="Attack on Parrotをプレイする（新しいタブに別サイトが開きます）" cta_link="https://7min-prog.github.io/SprFes2020Game_AttackOnParrot/" cta_new_tab="true" >}}
 
-# 迫りくる恐怖からの脱出’
+# Riddle House
 
-{{<figure src="escape-from-looming-fear.png" caption="スクリーンショット" >}}
+{{<figure src="riddle-house.png" caption="スクリーンショット" >}}
 
 目覚めると部屋に閉じ込められていた。部屋の管理人に気をつけながら脱出する謎を解き、無事脱出せよ
 
-{{<cta cta_text="迫りくる恐怖からの脱出’をプレイする" cta_link="https://unityroom.com/games/20201031" cta_new_tab="true" >}}
+{{<cta cta_text="Riddle Houseをプレイする" cta_link="https://unityroom.com/games/20201031" cta_new_tab="true" >}}
