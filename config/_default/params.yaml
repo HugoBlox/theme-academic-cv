@@ -16,7 +16,7 @@ site_type: Person
 local_business_type: ''
 org_name: ''
 description: 'Lập trình viên Java Web, yêu thích Linux và các dự án mã nguồn mở.'
-twitter: ''
+twitter: 'https://twitter.com/truongvantuanbk'
 
 # Contact (edit or remove options as required)
 
@@ -29,7 +29,7 @@ address:
 #   region: CA
   postcode: '100000'
   country: Việt Nam
-  country_code: VN
+  country_code: +84
 # coordinates:
 #   latitude: '37.4275'
 #   longitude: '-122.1697'
