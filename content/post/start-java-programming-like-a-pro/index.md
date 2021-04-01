@@ -28,7 +28,7 @@ image:
 projects: []
 ---
 
-> Bài viết gốc: [Start Java Programming Like a Pro - Your Best Plan to Avoid Mistakes](https://blogs.oracle.com/certification/start-java-programming-like-a-pro-your-best-plan-to-avoid-mistakes-in-learning) in Learning by Eva Chase
+> Bài viết gốc: [Start Java Programming Like a Pro - Your Best Plan to Avoid Mistakes in Learning](https://blogs.oracle.com/certification/start-java-programming-like-a-pro-your-best-plan-to-avoid-mistakes-in-learning) by Eva Chase
 
 Bạn phát hiện ra Java và quyết định trau dồi kỹ năng cho ngôn ngữ lập trình cực kỳ phổ biến và có nhu cầu việc làm cao. Xin chúc mừng, bạn đã thực hiện bước đầu tiên để trờ thành một chuyên gia Java.
 

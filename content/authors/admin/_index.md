@@ -14,7 +14,7 @@ role: Java Web Developer
 #   url: https://truongvantuan.github.io/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Lập trình viên Java Web, yêu thích Linux và các dự án nguồn mở.
+bio: Lập trình viên Java Web, yêu thích Linux và các dự án mã nguồn mở.
 
 # Interests to show in About widget
 interests:
