@@ -7,13 +7,14 @@ summary: ''
 authors:
 - Juho Andelmin
 - Enrico Bartolini
-tags:
+tags: []
+categories: []
+keywords: 
 - '"Dual ascent"'
 - '"Lagrangian duality"'
 - '"Subgradient optimization"'
 - '"Column generation"'
 - '"Cutting planes"'
-categories: []
 date: '2017-09-01'
 lastmod: 2020-08-27T16:01:38+03:00
 featured: true

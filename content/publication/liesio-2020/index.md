@@ -8,13 +8,14 @@ authors:
 - Juuso Liesiö
 - Juho Andelmin
 - Ahti Salo
-tags:
+tags: []
+categories: []
+keywords:
 - '"Decision support systems"'
 - '"Portfolio decision analysis"'
 - '"Resource allocation"'
 - '"Efficiency analysis"'
 - '"Multi-objective linear programming"'
-categories: []
 date: '2020-10-16'
 lastmod: 2020-08-27T16:01:38+03:00
 featured: true
