@@ -7,13 +7,14 @@ summary: ''
 authors:
 - Juho Andelmin
 - Enrico Bartolini
-tags:
+tags: []
+categories: []
+keywords: 
 - '"Vehicle routing"'
 - '"Alternative fuel vehicles"'
 - '"Matheuristic"'
 - '"Decomposition"'
 - '"Multigraph"'
-categories: []
 date: '2019-09-01'
 lastmod: 2020-08-27T16:01:38+03:00
 featured: true
