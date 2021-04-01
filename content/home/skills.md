@@ -20,10 +20,10 @@ feature:
   icon: java
   icon_pack: fab
   name: Java
-- description: 50%
-  icon: database
-  icon_pack: fas
-  name: SQL Database
+- icon: springio-icon
+  icon_pack: "custom"
+  name: "Spring Boot"
+  description: 20%
 - description: 80%
   icon: linux
   icon_pack: fab
@@ -33,13 +33,18 @@ feature:
   icon_pack: fab
   name: Git
 - description: 50%
+  icon: database
+  icon_pack: fas
+  name: SQL Database
+- description: 50%
   icon: html5
   icon_pack: fab
   name: HTML & CSS
-- description: 70%
-  icon: newspaper
-  icon_pack: far
-  name: SEO Copywriting
+# - description: 70%
+#   icon: newspaper
+#   icon_pack: far
+#   name: SEO Copywriting
+
 
   
 
