@@ -43,6 +43,8 @@ slides: ""
 # Bài kiểm tra kết thúc module Java Core
 Đề bài: Thiết kế ứng dụng ngân hàng mô phỏng các chức năng tạo tài khoản, nạp/rút tiền, tài khoản gửi/vay, tất toán khoản gửi/vay, ...
 
+![Main Menu](images/main.png)
+
 Diagram mô tả cấu trúc ứng dụng:
 ![diagram](images/BankTransaction_Diagram.png)
 
@@ -72,6 +74,7 @@ mvn compiler:compile
 
 2. Mở tài khoản tiết kiệm
  - Mỗi tài khoản có thể mở nhiều tài khoản tiếp kiệm. Với tùy chọn số tiền gửi, kỳ hạn gửi và số tiền gửi góp vào hàng tháng tiếp theo.
+ ![saving-account-print](images/6.png)
  - Tất toán tiền gửi: sẽ xóa bỏ tài khoản tiền gửi, cộng lãi và gốc vào tài khoản hiện tại. Giao dịch được ghi lại và liệt kê tại Lịch sử giao dịch.
 ![saving-account](images/4.png)
 
