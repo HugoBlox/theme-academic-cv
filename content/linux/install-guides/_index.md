@@ -1,7 +1,7 @@
 ---
 # Page title
 title: Hướng dẫn cài đặt
-
+tags: [Linux OS, Fedora]
 # Title for the menu link if you wish to use a shorter link title
 linktitle: Linux OS   
 
