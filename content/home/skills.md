@@ -16,26 +16,26 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: 60%
+- description: 50% | Java Core - OOP
   icon: java
   icon_pack: fab
   name: Java
 - icon: springio-icon
   icon_pack: "custom"
   name: "Spring Boot"
-  description: 20%
-- description: 80%
+  description: Đang Học
+- description: 60% | Linux Command - Bash
   icon: linux
   icon_pack: fab
   name: Linux OS
-- description: 50%
+- description: 50% | Git - GitHub
   icon: git-alt
   icon_pack: fab
   name: Git
-- description: 50%
+- description: 40% | mySQL
   icon: database
   icon_pack: fas
-  name: SQL Database
+  name: Database
 - description: 50%
   icon: html5
   icon_pack: fab
