@@ -69,6 +69,6 @@ projects: []
 
 {{<figure src="riddle-house.png" caption="スクリーンショット" >}}
 
-目覚めると部屋に閉じ込められていた。部屋の管理人に気をつけながら脱出する謎を解き、無事脱出せよ
+目が覚めると知らない建物に閉じ込められていた。部屋の者に気づかれずに謎をときながら部屋を脱出せよ
 
 {{<cta cta_text="Riddle Houseをプレイする" cta_link="https://unityroom.com/games/20201031" cta_new_tab="true" >}}
