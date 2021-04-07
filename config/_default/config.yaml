@@ -75,3 +75,20 @@ related:
       weight: 100
     - name: categories
       weight: 70
+# ":resourceDir/"はこのプロジェクトのresourcesフォルダー
+caches:
+  assets:
+    dir: :resourceDir/_gen
+    maxAge: -1
+  getcsv:
+    dir: "C:\\Temp\\hugo_cache\\:project"
+    maxAge: -1
+  getjson:
+    dir: "C:\\Temp\\hugo_cache\\:project"
+    maxAge: -1
+  images:
+    dir: :resourceDir/_gen
+    maxAge: -1
+  modules:
+    dir: "C:\\Temp\\hugo_cache\\modules"
+    maxAge: -1
