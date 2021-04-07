@@ -1,4 +1,149 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Juris710 | アプリNaviブログ</title><link>https://blog.opuappnavi.com/authors/juris710/</link><atom:link href="https://blog.opuappnavi.com/authors/juris710/index.xml" rel="self" type="application/rss+xml"/><description>Juris710</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>©Juris710 2021</copyright><image><url>https://blog.opuappnavi.com/authors/juris710/avatar_hu5de0ea20705264e86c3c4da9248d73aa_202133_270x270_fill_q75_lanczos_center.jpg</url><title>Juris710</title><link>https://blog.opuappnavi.com/authors/juris710/</link></image><item><title>新入生歓迎イベントの展示ゲーム</title><link>https://blog.opuappnavi.com/post/shirasagi-2020-online-games/</link><pubDate>Tue, 16 Mar 2021 16:43:57 +0900</pubDate><guid>https://blog.opuappnavi.com/post/shirasagi-2020-online-games/</guid><description>&lt;p>2020年11月1日・2日に新入生歓迎イベントが開催されました。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Juris710 | アプリNaviブログ</title><link>https://blog.opuappnavi.com/authors/juris710/</link><atom:link href="https://blog.opuappnavi.com/authors/juris710/index.xml" rel="self" type="application/rss+xml"/><description>Juris710</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>©Juris710 2021</copyright><image><url>https://blog.opuappnavi.com/authors/juris710/avatar_hu5de0ea20705264e86c3c4da9248d73aa_202133_270x270_fill_q75_lanczos_center.jpg</url><title>Juris710</title><link>https://blog.opuappnavi.com/authors/juris710/</link></image><item><title>おすすめプログラミングYouTubeチャンネル</title><link>https://blog.opuappnavi.com/post/recommended-youtube-channels/</link><pubDate>Wed, 07 Apr 2021 16:13:36 +0900</pubDate><guid>https://blog.opuappnavi.com/post/recommended-youtube-channels/</guid><description>&lt;p>私がアプリを開発する際に参考にしているYouTubeチャンネルを紹介します。&lt;/p>
+&lt;div class="alert alert-note">
+&lt;div>
+全て英語の動画を投稿しているチャンネルです。
+&lt;/div>
+&lt;/div>
+&lt;h1 id="fireship">Fireship&lt;/h1>
+&lt;p>Angular、React、Flutter、Dockerなど幅広いジャンルの動画を投稿しています。&lt;/p>
+&lt;p>一部の動画では、動画内で扱ったデモのソースコードをGitHubに後悔しています。&lt;/p>
+&lt;ul class="cta-group">
+&lt;li>
+&lt;a href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA" target="_blank" rel="noopener" class="btn btn-primary px-3 py-3">チャンネルを見る&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="おすすめ動画">おすすめ動画&lt;/h2>
+&lt;h3 id="100-seconds-of-code">100 Seconds of Code&lt;/h3>
+&lt;p>様々なプログラミング関連の話題について100秒で解説する動画シリーズです。100秒解説の後、おまけとしてより詳細な解説やデモがついた動画もあります。&lt;/p>
+&lt;ul class="cta-group">
+&lt;li>
+&lt;a href="https://www.youtube.com/playlist?list=PL0vfts4VzfNiI1BsIK5u7LpPaIDKMJIDN" target="_blank" rel="noopener" class="btn btn-primary px-3 py-3">再生リストを見る&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="philipp-lackner">Philipp Lackner&lt;/h1>
+&lt;p>ネイティブのAndroidアプリ開発に関する動画を主に投稿しているチャンネルです。
+実際にアプリを制作するチュートリアルなど、実践的な動画が数多くあります。&lt;/p>
+&lt;p>ネイティブのAndroidアプリ開発は情報の変化が激しく、ネットで調べると古い情報ばかりが出てきます。
+例えば、昔の情報と最新の情報を比べると、使用するプログラミング言語すら異なります。
+最初はJavaが用いられていましたが、現在ではKotlinという言語を使うことが推奨されています。（今でもJavaを使うことはできます）&lt;/p>
+&lt;p>そんななか、このチャンネルは現在でもかなり頻繁に動画が投稿されており、最新の情報を知ることができます。&lt;/p>
+&lt;ul class="cta-group">
+&lt;li>
+&lt;a href="https://www.youtube.com/channel/UCKNTZMRHPLXfqlbdOI7mCkg" target="_blank" rel="noopener" class="btn btn-primary px-3 py-3">チャンネルを見る&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="おすすめ動画-1">おすすめ動画&lt;/h2>
+&lt;h3 id="mvvm-running-tracker-app-dagger-hilt">MVVM Running Tracker App (Dagger-Hilt)&lt;/h3>
+&lt;p>自分が走ったコースを記録し地図に表示するというアプリを制作するチュートリアルです。
+バックグラウンド処理や依存性注入、MVVMといった、専門的な内容について知ることができます。&lt;/p>
+&lt;ul class="cta-group">
+&lt;li>
+&lt;a href="https://www.youtube.com/playlist?list=PLQkwcJG4YTCQ6emtoqSZS2FVwZR9FT3BV" target="_blank" rel="noopener" class="btn btn-primary px-3 py-3">再生リストを見る&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="flutter">Flutter&lt;/h1>
+&lt;p>Flutterの公式YouTubeチャンネルです。Flutterの解説動画やFlutterを用いて制作されたアプリの紹介動画などが投稿されています。&lt;/p>
+&lt;ul class="cta-group">
+&lt;li>
+&lt;a href="https://www.youtube.com/c/flutterdev" target="_blank" rel="noopener" class="btn btn-primary px-3 py-3">チャンネルを見る&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="おすすめ動画-2">おすすめ動画&lt;/h2>
+&lt;h3 id="flutter-widget-of-the-week">Flutter Widget of the Week&lt;/h3>
+&lt;p>Flutterにおいて、UIを構成する部品のことを&amp;quot;Widget&amp;quot;と呼びます。Flutterが提供しているWidgetは数多くあり、それらを1つずつ解説しています。&lt;/p>
+&lt;ul class="cta-group">
+&lt;li>
+&lt;a href="https://www.youtube.com/playlist?list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG" target="_blank" rel="noopener" class="btn btn-primary px-3 py-3">再生リストを見る&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="web-dev-simplified">Web Dev Simplified&lt;/h1>
+&lt;p>Web開発に関するチュートリアル動画などを投稿しています。フロントエンドとバックエンドの両方を扱っています。&lt;/p>
+&lt;ul class="cta-group">
+&lt;li>
+&lt;a href="https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw" target="_blank" rel="noopener" class="btn btn-primary px-3 py-3">チャンネルを見る&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="おすすめ動画-3">おすすめ動画&lt;/h2>
+&lt;h3 id="5-must-know-javascript-features-that-almost-nobody-knows">5 Must Know JavaScript Features That Almost Nobody Knows&lt;/h3>
+&lt;p>知らない人が多いJavascriptの便利な5つの機能について解説しています。&lt;/p>
+&lt;ul class="cta-group">
+&lt;li>
+&lt;a href="https://www.youtube.com/watch?v=v2tJ3nzXh8I" target="_blank" rel="noopener" class="btn btn-primary px-3 py-3">動画を見る&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="5-more-must-know-javascript-features-that-almost-nobody-knows">5 MORE Must Know JavaScript Features That Almost Nobody Knows&lt;/h3>
+&lt;p>知らない人が多いJavascriptの便利な5つの機能解説Part2です。&lt;/p>
+&lt;ul class="cta-group">
+&lt;li>
+&lt;a href="https://www.youtube.com/watch?v=WIP1czLm3CY" target="_blank" rel="noopener" class="btn btn-primary px-3 py-3">動画を見る&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="another-5-must-know-javascript-features-that-almost-nobody-knows">Another 5 Must Know JavaScript Features That Almost Nobody Knows&lt;/h3>
+&lt;p>知らない人が多いJavascriptの便利な5つの機能解説Part3です。&lt;/p>
+&lt;ul class="cta-group">
+&lt;li>
+&lt;a href="https://www.youtube.com/watch?v=yJDofSGTSPQ" target="_blank" rel="noopener" class="btn btn-primary px-3 py-3">動画を見る&lt;/a>
+&lt;/li>
+&lt;/ul></description></item><item><title>アプリNaviの備品紹介</title><link>https://blog.opuappnavi.com/post/club-equipments/</link><pubDate>Wed, 07 Apr 2021 16:05:55 +0900</pubDate><guid>https://blog.opuappnavi.com/post/club-equipments/</guid><description>&lt;p>今までアプリNaviにどのような備品があるかを紹介したことがなかったので、紹介したいと思います。&lt;/p>
+&lt;h1 id="プログラミング関連書籍">プログラミング関連書籍&lt;/h1>
+&lt;p>アプリNaviの部室の本棚には、プログラミング関連書籍が置かれています。
+部員が欲しいと思う本を提案し、提案が通れば部費を使って購入します。&lt;/p>
+&lt;p>最近だと、以下の本を購入しました。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.oreilly.co.jp/books/9784873115658/" target="_blank" rel="noopener">リーダブルコード&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.sbcr.jp/product/4797393248/" target="_blank" rel="noopener">配色アイデア手帖 めくって見つける新しいデザインの本&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.borndigital.co.jp/book/16550.html" target="_blank" rel="noopener">ゲームを動かす技術と発想R&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://gihyo.jp/book/2015/978-4-7741-7413-6" target="_blank" rel="noopener">ゲームプログラマのためのコーディング技術&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h1 id="vrゲーム用機器">VRゲーム用機器&lt;/h1>
+&lt;p>アプリNaviは友好祭や白鷺祭においてVRゲームのプレイ会を開催しています。&lt;/p>
+&lt;p>VRのプレイに必要な以下の二つをアプリNaviは所有しています。&lt;/p>
+&lt;h2 id="vrゴーグル">VRゴーグル&lt;/h2>
+&lt;p>VRゲームをプレイするには絶対に必要なものです。&lt;/p>
+&lt;p>アプリNaviが所持しているVRゴーグルは、下の画像のようなスマホをはめ込んで使用するタイプです。
+&lt;figure id="figure-アプリnaviが所持しているvrゴーグル">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./vr_headsets.jpg" alt="アプリNaviが所持しているVRゴーグル" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+アプリNaviが所持しているVRゴーグル
+&lt;/figcaption>&lt;/figure>&lt;/p>
+&lt;h2 id="コントローラー">コントローラー&lt;/h2>
+&lt;p>私と同世代の人でないとわからないかもしれませんが、Wiiのヌンチャクのようなコントローラーです。&lt;/p>
+&lt;figure id="figure-アプリnaviが所持しているコントローラー">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./vr_controller.jpg" alt="アプリNaviが所持しているコントローラー" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+アプリNaviが所持しているコントローラー
+&lt;/figcaption>&lt;/figure>
+&lt;h2 id="ヘッドフォン">ヘッドフォン&lt;/h2>
+&lt;figure id="figure-アプリnaviが所持しているヘッドフォン">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./headphone.jpg" alt="アプリNaviが所持しているヘッドフォン" loading="lazy" data-zoomable width="400" />&lt;/div>
+&lt;/div>&lt;figcaption>
+アプリNaviが所持しているヘッドフォン
+&lt;/figcaption>&lt;/figure>
+&lt;h2 id="vrマスク">VRマスク&lt;/h2>
+&lt;p>去年度からVRゲームをプレイする際には新型コロナウイルス感染症の対策として、画像のようなマスクを使用しています。&lt;/p>
+&lt;figure id="figure-アプリnaviが所持しているvrマスク">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./vr_mask.jpg" alt="アプリNaviが所持しているVRマスク" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+アプリNaviが所持しているVRマスク
+&lt;/figcaption>&lt;/figure>
+&lt;h1 id="サーバー">サーバー&lt;/h1>
+&lt;p>備品とは少しずれるかもしれませんが、アプリNaviは&lt;a href="https://vps.sakura.ad.jp/" target="_blank" rel="noopener">さくらのVPS&lt;/a>というサーバーを契約しています。
+レンタルサーバーとは異なり、プログラムのインストールなどを自由に行うことができます。&lt;/p>
+&lt;p>現在では&lt;a href="https://shinkan.opuappnavi.com/" target="_blank" rel="noopener">新入生Navi&lt;/a>を提供するために使用しています。&lt;/p>
+&lt;p>今後の使用用途としては、&lt;a href="https://unityroom.com/" target="_blank" rel="noopener">unityroom&lt;/a>のような、部員の作成したゲームを保存・提供するサーバーアプリケーションを自作して導入する予定です。&lt;/p>
+&lt;h1 id="その他">その他&lt;/h1>
+&lt;p>他にも、アプリNaviには以下の備品があります。&lt;/p>
+&lt;ul>
+&lt;li>ディスプレイ&lt;/li>
+&lt;li>ストーブ&lt;/li>
+&lt;li>扇風機&lt;/li>
+&lt;/ul></description></item><item><title>2021年春クラブ紹介ブログリレー</title><link>https://blog.opuappnavi.com/project/club-introduction-blog-relay-2021-spring/</link><pubDate>Tue, 30 Mar 2021 22:43:01 +0900</pubDate><guid>https://blog.opuappnavi.com/project/club-introduction-blog-relay-2021-spring/</guid><description>&lt;p>2021年度に大阪府立大学に入学した新入生やどのクラブに入部しようか考えている人向けに、アプリNaviを紹介するブログリレーです。&lt;/p>
+&lt;p>アイキャッチ画像の引用元は次の通りです。&lt;br>
+&lt;a href="https://pixabay.com/ja/users/annaliseart-7089643/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=4039218">Please Don&amp;rsquo;t sell My Artwork AS IS&lt;/a>による&lt;a href="https://pixabay.com/ja/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=4039218">Pixabay&lt;/a>からの画像&lt;/p></description></item><item><title>新入生歓迎イベントの展示ゲーム</title><link>https://blog.opuappnavi.com/post/shirasagi-2020-online-games/</link><pubDate>Tue, 16 Mar 2021 16:43:57 +0900</pubDate><guid>https://blog.opuappnavi.com/post/shirasagi-2020-online-games/</guid><description>&lt;p>2020年11月1日・2日に新入生歓迎イベントが開催されました。
 このイベントについては以前記事にしているので、興味がある方は読んでみてください。&lt;/p>
 &lt;div class="card-simple">
 &lt;div class="article-metadata">
@@ -105,25 +250,25 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://7min-prog.github.io/SprFes2020Game_AttackOnParrot/" target="_blank" rel="noopener" class="btn btn-primary px-3 py-3">Attack on Parrotをプレイする（新しいタブに別サイトが開きます）&lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;h1 id="迫りくる恐怖からの脱出">迫りくる恐怖からの脱出’&lt;/h1>
+&lt;h1 id="riddle-house">Riddle House&lt;/h1>
 &lt;figure id="figure-スクリーンショット">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >
 &lt;img alt="スクリーンショット" srcset="
-/post/shirasagi-2020-online-games/escape-from-looming-fear_hu4653e3dd112ef8429c3501931557e9db_806742_9d69bdcf6cca4acb00af2e68767e0c14.png 400w,
-/post/shirasagi-2020-online-games/escape-from-looming-fear_hu4653e3dd112ef8429c3501931557e9db_806742_354619dfc278355337434bcaed377db7.png 760w,
-/post/shirasagi-2020-online-games/escape-from-looming-fear_hu4653e3dd112ef8429c3501931557e9db_806742_1200x1200_fit_lanczos_2.png 1200w"
-src="https://blog.opuappnavi.com/post/shirasagi-2020-online-games/escape-from-looming-fear_hu4653e3dd112ef8429c3501931557e9db_806742_9d69bdcf6cca4acb00af2e68767e0c14.png"
+/post/shirasagi-2020-online-games/riddle-house_hu4653e3dd112ef8429c3501931557e9db_806742_50175a6379a5c2baa0d122993ae2c834.png 400w,
+/post/shirasagi-2020-online-games/riddle-house_hu4653e3dd112ef8429c3501931557e9db_806742_56238664324269869f445bee632c9fab.png 760w,
+/post/shirasagi-2020-online-games/riddle-house_hu4653e3dd112ef8429c3501931557e9db_806742_1200x1200_fit_lanczos_2.png 1200w"
+src="https://blog.opuappnavi.com/post/shirasagi-2020-online-games/riddle-house_hu4653e3dd112ef8429c3501931557e9db_806742_50175a6379a5c2baa0d122993ae2c834.png"
 width="760"
 height="355"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;figcaption>
 スクリーンショット
 &lt;/figcaption>&lt;/figure>
-&lt;p>目覚めると部屋に閉じ込められていた。部屋の管理人に気をつけながら脱出する謎を解き、無事脱出せよ&lt;/p>
+&lt;p>目が覚めると知らない建物に閉じ込められていた。部屋の者に気づかれずに謎をときながら部屋を脱出せよ&lt;/p>
 &lt;ul class="cta-group">
 &lt;li>
-&lt;a href="https://unityroom.com/games/20201031" target="_blank" rel="noopener" class="btn btn-primary px-3 py-3">迫りくる恐怖からの脱出’をプレイする&lt;/a>
+&lt;a href="https://unityroom.com/games/20201031" target="_blank" rel="noopener" class="btn btn-primary px-3 py-3">Riddle Houseをプレイする&lt;/a>
 &lt;/li>
 &lt;/ul></description></item><item><title>新入生歓迎イベントの反省</title><link>https://blog.opuappnavi.com/post/shirasagi-2020-online/</link><pubDate>Wed, 16 Dec 2020 16:41:56 +0900</pubDate><guid>https://blog.opuappnavi.com/post/shirasagi-2020-online/</guid><description>&lt;h1 id="新入生歓迎イベントとは">新入生歓迎イベントとは?&lt;/h1>
 &lt;p>アプリNaviは例年「友好祭」と「白鷺祭」という文化祭でゲーム展示を行っています。しかしながら、今年は新型コロナウイルスの影響により、どちらも中止となってしまいました。&lt;/p>

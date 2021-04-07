@@ -7,9 +7,9 @@ summary: "アプリNaviが所有している備品について紹介します。
 authors: ["juris710"]
 tags: []
 categories: []
-date: 2021-03-30T22:42:10+09:00
-featured: false
-draft: true
+date: 2021-04-07T16:05:55+09:00
+featured: true
+draft: false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
