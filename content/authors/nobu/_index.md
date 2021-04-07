@@ -29,7 +29,7 @@ university:
   grade_label: 
 
 # Short bio (displayed in user profile at end of posts)
-bio: 人に頼み事をする係です。
+bio: これならできます。って言いたい。
 
 # 興味のある内容（複数記述可能）
 # 「- 内容」のように書く
@@ -37,6 +37,7 @@ interests:
 - Web系
 - Unity
 - Google Apps Script
+- Python
 
 #education:
 #  courses:
@@ -83,4 +84,5 @@ interests:
 #- Researchers
 #- Visitors
 ---
-webとかUnityとかちょっとずつかじってます。
+web,Unity,GASなどちょくちょく触ってます。
+機械学習使えるようになりたい。
