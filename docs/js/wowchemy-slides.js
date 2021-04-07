@@ -2,7 +2,6 @@
   // ns-params:@params
   var slides = {highlight_style: "dracula", theme: "black"};
 
-
   function fixMermaid(render = false) {
     let mermaids = [];
     [].push.apply(mermaids, document.getElementsByClassName("language-mermaid"));
