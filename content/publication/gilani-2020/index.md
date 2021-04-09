@@ -46,7 +46,7 @@ tags:
 - Renewable energy generation
 
 categories: 
-- Supply chain management & production planning
+- Production systems & supply chain management 
 - Decision making under uncertainty
 - 
 

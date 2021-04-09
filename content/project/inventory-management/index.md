@@ -6,7 +6,7 @@ subtitle: ""
 summary: "Defining optimal inventory control policies using stochastic programming."
 authors: [fabricio-oliveira, _ellie-dillon, ilmari-vauhkonen]
 tags: [Heathcare and humanitarian logistics, Logistics management, Stochastic programming, Lagrangian-based decomposition methods]
-categories: [Supply chain management & production planning, Decision making under uncertainty]
+categories: [Production systems & supply chain management, Decision making under uncertainty]
 weight: 7
 featured: false
 draft: false
