@@ -13,9 +13,9 @@ publishDate: {{ .Date }}
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["0"]
+publication_types: [0]
 
-# Publication name and optional abbreviated publication name.
+# Publication takes the journal name (use * Journal name *) and optional abbreviated publication name.
 publication: ""
 publication_short: ""
 
@@ -31,7 +31,7 @@ summary: ""
 #    include all the keywords in your paper, they will be shown on the 
 #    publication page.
 #  Tags are like keywords, but for projects, posts and events 
-#    If you are thinking about including a tag for your page, check if
+#    Use those below each main research area. You can check if
 #    suitable tags already exist (gamma-opt.aalto.fi/tags). Add new ones  
 #    only if necessary.
 #  Categories are the "highest" taxonomy level, there are three categories 
