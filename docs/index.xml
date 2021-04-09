@@ -1290,7 +1290,7 @@ index.htmlを開くと、このようなエラーメッセージが表示され�
 &lt;p>&lt;code>VSCode&lt;/code>を起動し、画面左のボタンを押して拡張機能パネルを開きます。
 &lt;figure id="figure-拡張機能パネルを開くボタン">
 &lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="./VSCode_Japanese.png" alt="拡張機能パネルを開くボタン" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img src="./VSCode_Activity_Bar_Extension.png" alt="拡張機能パネルを開くボタン" loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;figcaption>
 拡張機能パネルを開くボタン
 &lt;/figcaption>&lt;/figure>

@@ -36,7 +36,7 @@ UnityでWebGLをプラットフォームに選択し、`Build And Run`を押す�
 # 1. 拡張機能のインストール
 
 `VSCode`を起動し、画面左のボタンを押して拡張機能パネルを開きます。
-{{<figure src="./VSCode_Japanese.png" title="拡張機能パネルを開くボタン">}}
+{{<figure src="./VSCode_Activity_Bar_Extension.png" title="拡張機能パネルを開くボタン">}}
 パネル上の検索ボックスに`live server`と入力し、検索結果の一番上にある`Live Server`をクリックします。`拡張機能:Live Server`タブが開くので、`インストール`をクリックします。
 {{<figure src="./VSCode_Live_Server.png" title="「拡張機能：Live Server」タブ">}}
 
