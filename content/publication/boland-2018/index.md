@@ -11,8 +11,8 @@ authors:
 - Brian Dandurand
 - Andrew Eberhard
 - Fabricio Oliveira
-tags: []
-categories: []
+tags: [Lagrangian-based decomposition methods, Stochastic programming]
+categories: [Efficient formulations and solution methods, Decision making under uncertainty]
 keywords: 
 - '"Augmented Lagrangian method"'
 - '"Nonlinear block Gauss–Seidel method"'

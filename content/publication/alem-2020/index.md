@@ -8,8 +8,8 @@ authors:
 - Douglas Alem
 - Fabricio Oliveira
 - Miguel Carrión Ruiz Peinado
-tags: []
-categories: []
+tags: [Stochastic programming]
+categories: [Decision making under uncertainty]
 keywords:
 - '"CVaR"'
 - '"first-order stochastic dominance"'

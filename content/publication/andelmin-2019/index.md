@@ -7,8 +7,8 @@ summary: ''
 authors:
 - Juho Andelmin
 - Enrico Bartolini
-tags: []
-categories: []
+tags: [Logistics management]
+categories: [Production systems & supply chain management, Efficient formulations and solution methods]
 keywords: 
 - '"Vehicle routing"'
 - '"Alternative fuel vehicles"'

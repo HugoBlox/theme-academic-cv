@@ -9,8 +9,8 @@ authors:
 - Tiago Andrade
 - Gabriela Ribas
 - Fabricio Oliveira
-tags: []
-categories: []
+tags: [Convexification techniques]
+categories: [Efficient formulations and solution methods]
 keywords: []
 date: '2016-01-01'
 lastmod: 2020-08-27T16:01:40+03:00
