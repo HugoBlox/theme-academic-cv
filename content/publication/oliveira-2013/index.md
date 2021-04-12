@@ -10,8 +10,14 @@ authors:
 - V. Gupta
 - Silvio Hamacher
 - Ignacio Grossmann
-tags: []
-categories: []
+tags: 
+- Logistics management
+- Stochastic programming
+- Lagrangian-based decomposition methods
+categories: 
+- Production systems & supply chain management 
+- Decision making under uncertainty 
+- Efficient formulations and solution methods
 keywords: 
 - '"Lagrangean decomposition"'
 - '"Oil and gas"'

@@ -6,11 +6,11 @@ title: Optimizing Workover Rig Fleet Sizing and Scheduling Using Deterministic a
 subtitle: ''
 summary: ''
 authors:
-- Miguel A. Fernández Pérez
+- Miguel Fernández Pérez
 - Fabricio Oliveira
 - Silvio Hamacher
-tags: []
-categories: []
+tags: [Logistics management, Stochastic programming]
+categories: [Production systems & supply chain management, Decision making under uncertainty]
 keywords: []
 date: '2018-06-01'
 lastmod: 2020-08-27T16:01:39+03:00

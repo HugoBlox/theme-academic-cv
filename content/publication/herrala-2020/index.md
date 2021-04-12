@@ -7,8 +7,8 @@ subtitle: ''
 summary: ''
 authors:
 - Olli Herrala
-tags: []
-categories: []
+tags: [Endogenous uncertainty, Stochastic programming]
+categories: [Decision making under uncertainty]
 keywords: []
 date: '2020-02-13'
 lastmod: '2020-02-13'

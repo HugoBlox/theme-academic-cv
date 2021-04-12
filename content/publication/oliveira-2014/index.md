@@ -9,8 +9,14 @@ authors:
 - Fabricio Oliveira
 - Ignacio Grossmann
 - Silvio Hamacher
-tags: []
-categories: []
+tags: 
+- Logistics management
+- Stochastic programming
+- Cutting planes & column generation
+categories: 
+- Production systems & supply chain management 
+- Decision making under uncertainty 
+- Efficient formulations and solution methods
 keywords: 
 - '"Acceleration techniques"'
 - '"Stochastic Benders decomposition"'

@@ -40,7 +40,7 @@ summary: ""
 #  Categories are the "highest" taxonomy level, there are three categories 
 #    (23.3.2021) corresponding to the research topics listed on the front 
 #    page. 
-tags: []
+tags: [Renewable energy generation, Time series aggregation]
 categories: 
 - Decision making under uncertainty
 - Production systems & supply chain management

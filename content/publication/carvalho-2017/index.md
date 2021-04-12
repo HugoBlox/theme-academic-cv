@@ -9,8 +9,8 @@ authors:
 - Andréa Nunes Carvalho
 - Luiz Felipe Scavarda
 - Fabricio Oliveira
-tags: []
-categories: []
+tags: [Process systems planning]
+categories: [Production systems & supply chain management]
 keywords: 
 - '"Action research"'
 - '"Aggregate production planning"'

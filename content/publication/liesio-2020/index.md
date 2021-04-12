@@ -9,7 +9,7 @@ authors:
 - Juho Andelmin
 - Ahti Salo
 tags: []
-categories: []
+categories: [Decision making under uncertainty]
 keywords:
 - '"Decision support systems"'
 - '"Portfolio decision analysis"'

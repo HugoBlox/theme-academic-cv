@@ -1,15 +1,20 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: Stochastic benders decomposition for the supply chain investment planning problem
-  under demand uncertainty
+title: Stochastic benders decomposition for the supply chain investment planning problem under demand uncertainty
 subtitle: ''
 summary: ''
 authors:
 - Fabricio Oliveira
 - Silvio Hamacher
-tags: []
-categories: []
+tags: 
+- Logistics management
+- Stochastic programming
+- Cutting planes & column generation
+categories: 
+- Production systems & supply chain management 
+- Decision making under uncertainty 
+- Efficient formulations and solution methods
 keywords: 
 - '"Stochastic benders decomposition"'
 - '"Stochastic optimization"'

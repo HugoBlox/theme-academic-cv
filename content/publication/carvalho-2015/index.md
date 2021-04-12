@@ -8,8 +8,8 @@ authors:
 - Andréa Nunes Carvalho
 - Fabricio Oliveira
 - Luiz Felipe Scavarda
-tags: []
-categories: []
+tags: [Process systems planning]
+categories: [Production systems & supply chain management]
 keywords: 
 - '"Aggregate production planning"'
 - '"Decision support system"'

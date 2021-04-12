@@ -8,8 +8,8 @@ authors:
 - Alexandre Street
 - Jose M José M. Arroyo
 - Fabricio Oliveira
-tags: []
-categories: []
+tags: [Process systems planning, Robust optimisation]
+categories: [Production systems & supply chain management, Decision making under uncertainty]
 keywords: 
 - '"Bilevel programming"'
 - '"Energy and reserve scheduling"'

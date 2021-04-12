@@ -1,16 +1,15 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: Process industry scheduling optimization using genetic algorithm and mathematical
-  programming
+title: Process industry scheduling optimization using genetic algorithm and mathematical programming
 subtitle: ''
 summary: ''
 authors:
 - Fabricio Oliveira
 - Silvio Hamacher
 - M. R. Almeida
-tags: []
-categories: []
+tags: [Process systems planning]
+categories: [Production systems & supply chain management, Efficient formulations and solution methods]
 keywords: 
 - '"Genetic algorithm"'
 - '"MILP"'

@@ -10,8 +10,8 @@ authors:
 - Adriana Leiras
 - Fabricio Oliveira
 - Irineu de Brito
-tags: []
-categories: []
+tags: [Healthcare and humanitarian systems, Stochastic programming]
+categories: [Production systems & supply chain management, Decision making under uncertainty]
 keywords: 
 - '"Conditional Value at Risk"'
 - '"Humanitarian logistics"'

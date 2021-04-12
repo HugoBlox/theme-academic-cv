@@ -9,8 +9,8 @@ authors:
 - Raphael Riemke de Campos Cesar Leão
 - Silvio Hamacher
 - Fabrício Oliveira
-tags: []
-categories: []
+tags: [Renewable energy generation]
+categories: [Production systems & supply chain management]
 keywords:
 - '"Biodiesel"'
 - '"Brazil"'

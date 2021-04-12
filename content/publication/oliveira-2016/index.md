@@ -1,8 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: A framework for crude oil scheduling in an integrated terminal-refinery system
-  under supply uncertainty
+title: A framework for crude oil scheduling in an integrated terminal-refinery system under supply uncertainty
 subtitle: ''
 summary: ''
 authors:
@@ -10,8 +9,8 @@ authors:
 - Paula Nunes
 - Rosa Blajberg
 - Silvio Hamacher
-tags: []
-categories: []
+tags: [Production systems & supply chain management, Decision making under uncertainty]
+categories: [Logistics management, Stochastic programming]
 keywords: 
 - '"Crude oil scheduling"'
 - '"Stochastic programming"'

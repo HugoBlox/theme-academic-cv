@@ -8,8 +8,8 @@ authors:
 - Sidney Pereira dos Santos
 - José Eugenio Leal
 - Fabricio Oliveira
-tags: []
-categories: []
+tags: [Process systems planning]
+categories: [Production systems & supply chain management]
 keywords: 
 - '"Investment analysis"'
 - '"Natural gas industry"'

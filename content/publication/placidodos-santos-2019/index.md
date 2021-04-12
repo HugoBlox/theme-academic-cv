@@ -8,8 +8,14 @@ summary: ''
 authors:
 - Felipe Silva Placido dos Santos
 - Fabricio Oliveira
-tags: []
-categories: []
+tags: 
+- Logistics management
+- Stochastic programming
+- Cutting planes & column generation
+categories: 
+- Production systems & supply chain management
+- Decision making under uncertainty
+- Efficient formulations and solution methods
 keywords:
 - '"Inventory control"'
 - '"L-Shaped method"'

@@ -8,9 +8,15 @@ authors:
 - Ahti Salo
 - Juho Andelmin
 - Fabricio Oliveira
-tags: []
-categories: []
-keywords: []
+tags: [Endogenous uncertainty]
+categories: [Decision making under uncertainty]
+keywords: 
+- Decision analysis 
+- Influence diagrams 
+- Decision trees 
+- Contingent Portfolio Programming -
+- Stochastic programming 
+- Endogenous uncertainty
 date: '2019-10-01'
 lastmod: 2020-08-27T16:01:39+03:00
 featured: false

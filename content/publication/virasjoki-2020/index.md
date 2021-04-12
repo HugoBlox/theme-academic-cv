@@ -9,8 +9,8 @@ authors:
 - Afzal S. Siddiqui
 - Fabricio Oliveira
 - Ahti Salo
-tags: []
-categories: []
+tags: [Renewable energy generation]
+categories: [Production systems & supply chain management]
 keywords:
 - '"Energy storage"'
 - '"Market power"'
