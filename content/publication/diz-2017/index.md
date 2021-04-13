@@ -1,16 +1,15 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: 'Improving maritime inventory routing: application to a Brazilian petroleum
-  case'
+title: 'Improving maritime inventory routing: application to a Brazilian petroleum case'
 subtitle: ''
 summary: ''
 authors:
 - Gustavo Souto dos Santos Diz
 - Fabricio Oliveira
 - Silvio Hamacher
-tags: []
-categories: []
+tags: [Logistics management]
+categories: [Production systems & supply chain management]
 keywords: 
 - '"Maritime inventory routing"'
 - '"fixed charge network flow formulation"'

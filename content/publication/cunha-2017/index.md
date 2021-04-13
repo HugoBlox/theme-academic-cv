@@ -1,16 +1,15 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: 'PERIODIC REVIEW SYSTEM FOR INVENTORY REPLENISHMENT CONTROL FOR A TWO-ECHELON
-  LOGISTICS NETWORK UNDER DEMAND UNCERTAINTY: A TWO-STAGE STOCHASTIC PROGRAMING APPROACH'
+title: "Periodic review system for inventory replenishment control for a two-echelon logistics network under demand uncertainty: a two-stage stochastic programming approach"
 subtitle: ''
 summary: ''
 authors:
-- P.S.A. Cunha
+- Paulo Cunha
 - Fabricio Oliveira
-- Fernanda M.P. Raupp
-tags: []
-categories: []
+- Fernanda Raupp
+tags: [Logistics management, Stochastic programming]
+categories: [Production systems & supply chain management, Decision making under uncertainty]
 keywords: 
 - '"Replenishment and control systems"'
 - '"Shortage rationing rules"'
@@ -34,11 +33,11 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: ["inventory-management"]
+projects: []
 publishDate: '2020-08-27T13:01:39.594040Z'
 publication_types:
 - 2
-abstract: ABSTRACT Here, we propose a novel methodology for replenishment and control
+abstract: We propose a novel methodology for replenishment and control
   systems for inventories of two-echelon logistics networks using a two-stage stochastic
   programming, considering periodic review and uncertain demands. In addition, to
   achieve better customer services, we introduce a variable rationing rule to address

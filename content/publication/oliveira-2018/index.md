@@ -10,8 +10,8 @@ authors:
 - Jeffrey Christiansen
 - Brian Dandurand
 - Andrew Eberhard
-tags: []
-categories: []
+tags: [Lagrangian-based decomposition methods, Stochastic programming]
+categories: [Efficient formulations and solution methods, Decision making under uncertainty]
 keywords: 
 - '"Decomposition methods"'
 - '"Gauss-Seidel method"'

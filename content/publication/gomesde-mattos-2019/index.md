@@ -11,8 +11,8 @@ authors:
 - Adriana Leiras
 - Abdon Baptista de Paula Filho
 - Paulo Gonçalves
-tags: []
-categories: []
+tags: [Healthcare and humanitarian systems, Robust optimisation]
+categories: [Production systems & supply chain management, Decision making under uncertainty]
 keywords: 
 - '"Distribution campaigns"'
 - '"Humanitarian operations"'
@@ -38,7 +38,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-08-27T13:01:38.911171Z'
+publishDate: '2018-09-06
 publication_types:
 - 2
 abstract: © 2018, Springer Science+Business Media, LLC, part of Springer Nature. Vector

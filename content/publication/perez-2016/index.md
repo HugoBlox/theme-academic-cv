@@ -1,20 +1,20 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: A NEW MATHEMATICAL MODEL FOR THE WORKOVER RIG SCHEDULING PROBLEM
+title: A new mathematical model for the workover rig scheduling problem
 subtitle: ''
 summary: ''
 authors:
 - Miguel Pérez
 - Fabricio Oliveira
 - Silvio Hamacher
-tags: []
-categories: []
+tags: [Logistics management]
+categories: [Production systems & supply chain management]
 keywords: 
 - '"0-1 Integer Linear Programming"'
 - '"Oil production"'
 - '"Workover rigs"'
-date: '2016-08-01'
+date: 2016-08-01
 lastmod: 2020-08-27T16:01:40+03:00
 featured: false
 draft: false
@@ -33,11 +33,9 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-08-27T13:01:40.266792Z'
 publication_types:
 - 2
-abstract: © 2016 Brazilian Operations Research Society. One of the most important
-  activities in the oil and gas industry is the intervention in wells for maintenance
+abstract: One of the most important activities in the oil and gas industry is the intervention in wells for maintenance
   services, which is necessary to ensure the constant production of oil. These interventions
   are carried out by workover rigs. Thus, the Workover Rig Scheduling Problem (WRSP)
   consists of finding the best schedule to service the wells while considering the

@@ -13,8 +13,8 @@ authors:
 - Jeff Linderoth
 - James Luedtke
 - Fabricio Oliveira
-tags: []
-categories: []
+tags: [Lagrangian-based decomposition methods]
+categories: [Efficient formulations and solution methods]
 keywords: 
 - '"Frank–Wolfe method"'
 - '"Lagrangian duality"'

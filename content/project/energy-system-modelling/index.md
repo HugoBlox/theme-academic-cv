@@ -6,7 +6,7 @@ subtitle: ""
 summary: "Generation and Transmission Expansion Planning (GTEP) stochastic models incorporating temporal reduction via clustering algorithms."
 authors: [fabricio-oliveira, lucas-condeixa, jaan-tollander]
 tags: [Renewable energy generation, Data aggregation]
-categories: [Supply chain management & production planning, Decision making under uncertainty]
+categories: [Production systems & supply chain management, Decision making under uncertainty]
 weight: 102
 featured: false
 draft: false

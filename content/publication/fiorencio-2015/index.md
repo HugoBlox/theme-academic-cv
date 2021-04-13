@@ -9,8 +9,8 @@ authors:
 - Fabricio Oliveira
 - Paula Nunes
 - Silvio Hamacher
-tags: []
-categories: []
+tags: [Logistics management]
+categories: [Production systems & supply chain management]
 keywords: 
 - '"Decision support system"'
 - '"Oil"'

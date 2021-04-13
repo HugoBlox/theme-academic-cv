@@ -9,8 +9,8 @@ authors:
 - Mary Dillon
 - Fabricio Oliveira
 - Babak Abbasi
-tags: []
-categories: []
+tags: [Healthcare and humanitarian systems, Stochastic programming]
+categories: [Production systems & supply chain management, Decision making under uncertainty]
 keywords:
 - '"Blood supply chain"'
 - '"Inventory management"'

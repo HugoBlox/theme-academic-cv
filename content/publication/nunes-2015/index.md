@@ -9,8 +9,8 @@ authors:
 - Fabricio Oliveira
 - Silvio Hamacher
 - Ali Almansoori
-tags: []
-categories: []
+tags: [Renewable energy generation, Stochastic programming]
+categories: [Production systems & supply chain management, Decision making under uncertainty]
 keywords: 
 - '"Hydrogen supply chain design"'
 - '"Optimization"'

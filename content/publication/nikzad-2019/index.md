@@ -9,8 +9,8 @@ authors:
 - Erfaneh Nikzad
 - Mahdi Bashiri
 - Fabricio Oliveira
-tags: []
-categories: []
+tags: [Healthcare and humanitarian systems, Stochastic programming]
+categories: [Production systems & supply chain management, Production systems & supply chain management]
 keywords:
 - '"Chance constraints"'
 - '"Latin hypercube sampling method"'

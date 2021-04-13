@@ -35,7 +35,9 @@
   <!-- modication 1 -->
   {{ $avatar := "" }}
   {{ if in .Params.user_groups "Research Group" }}
-    {{ $avatar = (.Resources.ByType "image").GetMatch "*avatar*" }}
+	{{ $avatar = (.Resources.ByType "image").GetMatch "*avatar*" }}
+  {{ else }}
+	{{ $show_role = false }}
   {{ end }}
   {{/* Get link to user's profile page. */}}
   {{ $link := "" }}

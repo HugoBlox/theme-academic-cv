@@ -9,8 +9,8 @@ authors:
 - Maryam Dehghani
 - Babak Abbasi
 - Fabricio Oliveira
-tags: []
-categories: []
+tags: [Healthcare and humanitarian systems, Stochastic programming]
+categories: [Production systems & supply chain management, Decision making under uncertainty]
 keywords:
 - '"Blood supply chain"'
 - '"Healthcare operations"'
@@ -35,7 +35,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: ["inventory-management"]
+projects: []
 publishDate: '2020-08-27T13:01:38.793953Z'
 publication_types:
 - 2

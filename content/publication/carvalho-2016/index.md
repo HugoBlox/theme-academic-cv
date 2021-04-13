@@ -9,8 +9,8 @@ authors:
 - Andréa Nunes Carvalho
 - Fabricio Oliveira
 - Luiz Felipe Scavarda
-tags: []
-categories: []
+tags: [Production systems & supply chain management, Decision making under uncertainty]
+categories: [Production systems & supply chain management, Robust optimisation]
 keywords: 
 - '"Decision support system"'
 - '"Engineer-to-order"'

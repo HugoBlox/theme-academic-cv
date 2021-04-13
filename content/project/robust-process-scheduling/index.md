@@ -6,7 +6,7 @@ subtitle: ""
 summary: "Developing models and methods for robust planning of process systems"
 authors: [hossein-mostafaei, emilia-vuola, fabricio-oliveira]
 tags: [Process systems planning, robust optimisation]
-categories: [Supply chain management & production planning, Decision making under uncertainty]
+categories: [Production systems & supply chain management, Decision making under uncertainty]
 weight: 7
 featured: false
 draft: false

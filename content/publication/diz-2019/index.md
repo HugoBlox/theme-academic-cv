@@ -8,8 +8,8 @@ authors:
 - Gustavo Souto dos Santos Diz
 - Silvio Hamacher
 - Fabricio Oliveira
-tags: []
-categories: []
+tags: [Logistics management, Robust optimisation]
+categories: [Production systems & supply chain management, Decision making under uncertainty]
 keywords:
 - '"Maritime inventory routing"'
 - '"Mathematical programming"'

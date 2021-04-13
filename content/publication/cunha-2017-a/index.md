@@ -6,11 +6,11 @@ title: A two-stage stochastic programming model for periodic replenishment contr
 subtitle: ''
 summary: ''
 authors:
-- P.S.A. Cunha
-- F.M.P. Raupp
+- Paulo Cunha
+- Fernanda Raupp
 - Fabricio Oliveira
-tags: []
-categories: []
+tags: [Logistics management, Stochastic programming]
+categories: [Production systems & supply chain management, Decision making under uncertainty]
 keywords: 
 - '"Inventory policy"'
 - '"Periodic review"'

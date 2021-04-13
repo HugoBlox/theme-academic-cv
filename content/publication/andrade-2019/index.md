@@ -10,8 +10,8 @@ authors:
 - Fabricio Oliveira
 - Silvio Hamacher
 - Andrew Eberhard
-tags: []
-categories: []
+tags: [Convexification techniques]
+categories: [Efficient formulations and solution methods]
 keywords:
 - '"Convex relaxation"'
 - '"McCormick envelopes"'
