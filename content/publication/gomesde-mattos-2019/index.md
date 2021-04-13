@@ -38,7 +38,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2018-09-06
+publishDate: '2018-09-06'
 publication_types:
 - 2
 abstract: © 2018, Springer Science+Business Media, LLC, part of Springer Nature. Vector
