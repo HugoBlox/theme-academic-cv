@@ -21,7 +21,7 @@ organizations:
   url: "https://www.aalto.fi/en"
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio: Nikita Belyak is a Doctoral Candidate at the department of Mathematics and Systems Analysis of Aalto University.
 
 # List each interest with a dash
 interests:
