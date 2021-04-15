@@ -32,4 +32,8 @@ To help us develop this template and software sustainably under the MIT license,
 - [Open book](https://unsplash.com/photos/J4kK8b9Fgj8)
 - [Course](https://unsplash.com/photos/JKUTrJ4vK00)
 
+## Latest news
+<!--START_SECTION:news-->
+<!--END_SECTION:news-->
+
 [![Analytics](https://ga-beacon.appspot.com/UA-78646709-2/starter-academic/readme?pixel)](https://github.com/igrigorik/ga-beacon)
