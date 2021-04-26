@@ -23,7 +23,7 @@ menu:
 
 The following tables list data products that have been produced by, or are
 available as reference to, the HiMAT teams (both HiMAT-1 and -2). Datasets are hosted by the
-[National Snow and Ice Data Center (NSIDC)](https://nsidc.org/).
+[National Snow and Ice Data Center (NSIDC)](https://nsidc.org/data/highmountainasia).
 
 
 ## Digital Elevation Models
@@ -53,6 +53,7 @@ available as reference to, the HiMAT teams (both HiMAT-1 and -2). Datasets are h
 |-----------------------------------------------------------------|-------|------------------|--------------------|-------------|------------
 |[Langtang snow bidirectional reflectance factor](https://nsidc.org/data/HMA_SBRF/versions/1) |snow    |2018-04-23/24   |Langtang, NP |Tsay |
 |[Langtang snow properties](https://nsidc.org/data/HMA_Snowfield/versions/1)                  |snow    |2018-04-23/24   |Langtang, NP |Tsay |
+|[Daily snow reanalysis](https://nsidc.org/data/HMA_SR_D/versions/1)                          |snow    |1999 to 2017    |HMA          | Margulis |
 
 ## Land Surface Properties
 
