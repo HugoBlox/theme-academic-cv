@@ -58,10 +58,10 @@ interval = false
   overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 
   # Call to action
-  cta_label = "Upcoming"
-  cta_url = "https://aprank.trypanosomatics.org"
-  cta_icon_pack = "fas"
-  cta_icon = "clock"
+  cta_label = "Preprint"
+  cta_url = "publication/2021-ricci-aprank-biorxiv/"
+  cta_icon_pack = "ai"
+  cta_icon = "biorxiv"
 
 [[item]]
   title = "ChagasTope"
