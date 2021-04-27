@@ -56,7 +56,7 @@ social:
   show_link: false
 - icon: home
   icon_pack: fas
-  link: http://www.ids.osaka-u.ac.jp/nagahara/
+  link: https://researchmap.jp/read0054705
   str: personal
   show_link: true
 - icon: google-scholar
@@ -76,6 +76,6 @@ user_groups:
 
 ### Contact
 - email: nagahara@ids.
-- webpage: https://www.ids.osaka-u.ac.jp/nagahara/
+- webpage: https://researchmap.jp/read0054705
 
 Please add `osaka-u.ac.jp` to complete email address
