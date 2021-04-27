@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "福井 宏祐"
+title: "福井宏祐"
 
 weight: 2020200
 

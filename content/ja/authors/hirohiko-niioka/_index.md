@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "新岡 宏彦"
+title: "新岡宏彦"
 
 weight: 20
 

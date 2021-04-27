@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "Yusuke Hirota"
+title: "廣田裕亮"
 
 weight: 2020210
 

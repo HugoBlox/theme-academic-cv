@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "福井 嵐士"
+title: "福井嵐士"
 
 weight: 2020220
 

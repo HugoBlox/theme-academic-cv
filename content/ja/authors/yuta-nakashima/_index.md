@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "中島 悠太"
+title: "中島悠太"
 
 weight: 20
 

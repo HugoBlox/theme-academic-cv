@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "吉田 道隆"
+title: "吉田道隆"
 
 weight: 1020190
 

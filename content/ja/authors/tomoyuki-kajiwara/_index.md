@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "梶原 智之"
+title: "梶原智之"
 
 weight: 40
 

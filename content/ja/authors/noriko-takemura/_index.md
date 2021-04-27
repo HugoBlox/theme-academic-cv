@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "武村 紀子"
+title: "武村紀子"
 
 weight: 20
 
