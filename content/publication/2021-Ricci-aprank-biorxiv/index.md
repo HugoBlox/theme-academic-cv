@@ -4,7 +4,7 @@
 title: "APRANK: computational prioritization of antigenic proteins and peptides from complete pathogen proteomes"
 authors: ["@alejandro", "Mauricio Brunner", "Diego Ramoa", "@santiago", "Mortn Nielsen", "@fernan"]
 date: 2021-04-27T16:35:37-03:00
-doi: ""
+doi: "10.1101/2021.04.27.441630"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2021-04-27T16:35:37-03:00
@@ -36,7 +36,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
+url_pdf: https://www.biorxiv.org/content/10.1101/2021.04.27.441630v1
 url_code: https://github.com/trypanosomatics/aprank
 url_dataset: https://doi.org/10.5061/dryad.zcrjdfnb1
 url_poster:
