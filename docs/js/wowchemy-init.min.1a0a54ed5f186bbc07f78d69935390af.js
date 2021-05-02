@@ -1,8 +1,5 @@
 (() => {
   // <stdin>
-  /*! Wowchemy v5.0.0-beta.3 | https://wowchemy.com/ */
-  /*! Copyright 2016-present George Cushen (https://georgecushen.com/) */
-  /*! License: https://github.com/wowchemy/wowchemy-hugo-modules/blob/main/LICENSE.md */
   (() => {
     var a = document.body, e, f;
     function b() {
@@ -36,3 +33,6 @@
     }), d(), window.PlotlyConfig = {MathJaxConfig: "local"};
   })();
 })();
+/*! Copyright 2016-present George Cushen (https://georgecushen.com/) */
+/*! License: https://github.com/wowchemy/wowchemy-hugo-modules/blob/main/LICENSE.md */
+/*! Wowchemy v5.1.0 | https://wowchemy.com/ */

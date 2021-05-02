@@ -158,7 +158,7 @@ SOFTWARE.
 &lt;hr>
 &lt;ol>
 &lt;li id="fn:1" role="doc-endnote">
-&lt;p>forkした側のライセンスを別ファイルに掲載しているリポジトリを含みます。 &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;p>forkした側のライセンスを別ファイルに掲載しているリポジトリを含みます。&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item><item><title>Unity製ゲームをWebで共有する方法</title><link>https://blog.opuappnavi.com/post/unity-github-pages/</link><pubDate>Mon, 04 May 2020 20:17:22 +0900</pubDate><guid>https://blog.opuappnavi.com/post/unity-github-pages/</guid><description>&lt;p>Gitに詳しくない人向けに書いています。Gitに詳しい人は&lt;code>詳しくない人向け&lt;/code>の部分は読まなくて大丈夫です。&lt;/p>
