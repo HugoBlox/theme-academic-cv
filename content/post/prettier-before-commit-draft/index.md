@@ -63,6 +63,26 @@ npx mrm lint-staged
 yarn global add mrm mrm-task-lint-staged
 ```
 
+# 3. `package.json`の編集
+
+このままだと、js・css・mdファイルしかフォーマットされません。`package.json`の`"lint-staged"`を編集することでフォーマット対象ファイルを増やせます。例えば、次のように編集します。
+
+```package.json
+"lint-staged": {
+  "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+    "prettier --write"
+  ]
+}
+```
+
+# 4. ソースコードのフォーマット
+
+今回の方法は、`git commit`が実行された際に変更が加えられたファイルに対してフォーマットを実行するものです。そのため、既にコミット済みのソースコードはフォーマットされないので、最初は手動でフォーマットする必要があります。
+
+```shell
+npx prettier --write .
+```
+
 # 参考文献
 
 - https://prettier.io/docs/en/precommit.html
