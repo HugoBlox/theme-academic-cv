@@ -57,11 +57,64 @@ npx mrm lint-staged
 
 ## 失敗した場合
 
-私がこのコマンドを実行した際、エラーが出て上手くいきませんでした。以下のコマンドを実行した後でもう一度試すと、上手くいきました。
+私の環境ではエラーが出て上手くいきませんでした。以下のコマンドを実行した後でもう一度試すと、上手くいきました。
 
 ```shell
 yarn global add mrm mrm-task-lint-staged
 ```
+
+## 不要なファイルの削除
+
+私の環境では、実行後`6`という名前のファイルが作成されました。ただのログファイルみたいなので、削除しても問題と思います。
+
+{{<spoiler text="`6`の中身">}}
+
+```txt:6
+yarn add v1.22.5
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info electron-installer-debian@3.1.0: The platform "win32" is incompatible with this module.
+info "electron-installer-debian@3.1.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info electron-installer-redhat@3.3.0: The platform "win32" is incompatible with this module.
+info "electron-installer-redhat@3.3.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info fsevents@2.3.2: The platform "win32" is incompatible with this module.
+info "fsevents@2.3.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info fsevents@1.2.13: The platform "win32" is incompatible with this module.
+info "fsevents@1.2.13" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 20 new dependencies.
+info Direct dependencies
+├─ husky@6.0.0
+└─ lint-staged@10.5.4
+info All dependencies
+├─ aggregate-error@3.1.0
+├─ clean-stack@2.2.0
+├─ dedent@0.7.0
+├─ execa@4.1.0
+├─ get-own-enumerable-property-symbols@3.0.2
+├─ human-signals@1.1.1
+├─ husky@6.0.0
+├─ is-obj@1.0.1
+├─ is-regexp@1.0.0
+├─ is-stream@2.0.0
+├─ lint-staged@10.5.4
+├─ listr2@3.8.1
+├─ log-update@4.0.0
+├─ merge-stream@2.0.0
+├─ npm-run-path@4.0.1
+├─ p-map@4.0.0
+├─ please-upgrade-node@3.2.0
+├─ string-argv@0.3.1
+├─ stringify-object@3.3.0
+└─ strip-final-newline@2.0.0
+$ husky install
+husky - Git hooks installed
+Done in 5.92s.
+```
+
+{{</spoiler>}}
 
 # 3. `package.json`の編集
 
