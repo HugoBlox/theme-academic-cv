@@ -122,7 +122,7 @@ Done in 5.92s.
 
 ```package.json
 "lint-staged": {
-  "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+  "*.{js,jsx,ts,tsx,json,css,scss,md}": [
     "prettier --write"
   ]
 }
