@@ -5,7 +5,7 @@ title: "Decision Programming"
 subtitle: ""
 summary: "Solving multi-stage decision problems under uncertainty, using influence diagrams and mixed-integer linear programming."
 
-authors: [fabricio-oliveira, juho-andelmin, olli-herrala, jaan-tollander,_ahti-salo, _tommi-ekholm]
+authors: [fabricio-oliveira, juho-andelmin, olli-herrala, jaan-tollander, helmi-hankimaa, _ahti-salo, _tommi-ekholm]
 tags: [Stochastic programming, Endogenous uncertainty]
 categories: [Decision making under uncertainty]
 weight: 7
