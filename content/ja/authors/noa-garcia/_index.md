@@ -2,7 +2,7 @@
 # Display name
 title: "Noa Garcia"
 
-wegith: 50
+weight: 40
 
 # Username (this should match the folder name and the name on publications)
 authors:
@@ -12,7 +12,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: 特任研究員
+role: 特任助教
 group: 知能情報基盤部門
 
 # Organizations/Affiliations

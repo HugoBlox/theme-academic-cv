@@ -2,7 +2,7 @@
 # Display name
 title: "Noa Garcia"
 
-wegith: 51
+weight: 40
 
 # Username (this should match the folder name and the name on publications)
 authors:
@@ -13,7 +13,7 @@ superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
 group: Artificial Intelligence and Mathematics
-role: Specially-Appointed Researcher/Fellow
+role: Specially-Appointed Assistant Professor
 
 # Organizations/Affiliations
 organizations:
