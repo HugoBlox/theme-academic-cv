@@ -1,6 +1,7 @@
-public/
+# IDEs
 .idea/
 
+<<<<<<< HEAD
 # Created by https://www.gitignore.io/api/hugo
 # Edit at https://www.gitignore.io/?templates=hugo
 
@@ -48,3 +49,10 @@ Temporary Items
 .apdisk
 
 # End of https://www.gitignore.io/api/macos
+=======
+# Hugo
+/resources/
+public/
+jsconfig.json
+node_modules/
+>>>>>>> upstream/master
