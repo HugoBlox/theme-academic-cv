@@ -31,9 +31,9 @@ item:
   organization_url: https://www.mooc.fi/en
   title: Java Programing I
   url: ""
-- certificate_url: 
+- certificate_url: https://certificates.mooc.fi/validate/tfjzxnfu47t
   date_end: ""
-  date_start: "2021-04-26"
+  date_start: "2021-05-24"
   description: ""
   organization: University of Helsinki’s MOOC
   organization_url: https://www.mooc.fi/en
