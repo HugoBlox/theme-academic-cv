@@ -21,7 +21,8 @@
   <div id="chart-2" class="col-12 col-md-6 google-chart">
   </div>
   <div style="margin-left: auto;">
-    2021年5月29日時点
+    {{ $page.Params.members.updatedAt }}
+    時点
   </div>
   <script>
     // VISUALIZATION API AND THE PIE CHART PACKAGE.
@@ -31,11 +32,9 @@
       // DEFINE AN ARRAY OF DATA.
       var data1 = [
         ['学年', '人数'],
-        ['一回生', 9],
-        ['二回生', 2],
-        ['三回生', 15],
-        ['四回生', 7],
-        ['院生', 4],
+        {{ range $page.Params.members.grades }}
+          [{{ .label }}, {{ .number}}],
+        {{ end }}
       ];
       var options1 = {
         title: '部員数（学年別）',
@@ -55,12 +54,9 @@
       };
       var data2 = [
         ['学類', '人数'],
-        ['電気電子系学類', 20],
-        ['知識情報システム学類', 10],
-        ['機械系学類', 1],
-        ['物質化学系学類', 1],
-        ['理学類', 1],
-        ['大学院', 4],
+        {{ range $page.Params.members.departments }}
+          [{{ .label }}, {{ .number}}],
+        {{ end }}
         ];
         var options2 = {
           title: '部員数（学類別）',
