@@ -11,6 +11,9 @@ weight: 66
 
 title: Gallery
 subtitle:
+
+design:
+  columns: '2'
 ---
 
-{{< gallery >}}
+{{< gallery album="themes" >}}
