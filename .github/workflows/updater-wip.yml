@@ -3,9 +3,6 @@ name: Updater (WIP)
 on:
   schedule:
     - cron: 0 0 * * 0
-  push:
-    branches:
-      - master
 
 jobs:
   update:
