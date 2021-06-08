@@ -23,15 +23,15 @@ twitter: ''
 email: ''
 phone: ''
 address:
-  street: 学園町1番1号 A5棟
-  city: 堺市
-  region: 大阪府
-  postcode: '5998531'
+  street: '大阪府立大学 文化部室'
+  city: ''
+  region: ''
+  postcode: ''
   country: 日本
   country_code: ja
 coordinates:
-  latitude: '34.547818'
-  longitude: '135.505782'
+  latitude: '34.54660552201642'
+  longitude: '135.5041274897414'
 directions: ''
 office_hours: []
 appointment_url: ''
