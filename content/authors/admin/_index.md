@@ -29,7 +29,10 @@ education:
   courses:
   - course: BA in Mathematics with a Statistics Track
     institution: Carleton College
-    year: 2017
+    year: "2017"
+  - course: MA in Statistics
+    institution: University of Michigan
+    year: "2021"
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -50,9 +53,9 @@ social:
   link: https://github.com/manncz
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+  icon_pack: ai
+  link: files/mann_CV.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "manncz@umich.edu"
