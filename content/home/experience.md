@@ -20,7 +20,7 @@ date_format = "Jan 2006"
 [[experience]]
   title = "Graduate Student Instructor"
   company = "University of Michigan"
-  company_url = ""
+  company_url = "https://lsa.umich.edu/stats"
   location = "Ann Arbor, MI"
   date_start = "2019-09-01"
   date_end = ""
@@ -32,7 +32,11 @@ date_format = "Jan 2006"
   location = "Boston, MA"
   date_start = "2017-08-14"
   date_end = "2019-07-14"
-  description = """ Analyst (August 2017 – December 2018), Intern Analyst (June 2016 - August 2016). Contributed to the creation and support of data-driven arguments in anti-trust and consumer survey cases."""
+  description = """ Analyst (August 2017 – December 2018)
+
+  Intern Analyst (June 2016 - August 2016)
+
+  Contributed to the creation and support of data-driven arguments in anti-trust and consumer survey cases."""
 
 [[experience]]
   title = "Undergraduate Researcher"
@@ -47,6 +51,7 @@ project, poster, and technical report for client Amita Mehta at the Joint Center
 [[experience]]
   title = "Research Assistant"
   company = "Iowa State University"
+  company_url = "https://www.stat.iastate.edu/"
   location = "Ames, Iowa"
   date_start = "2014-06-03"
   date_end = "2014-08-14"
