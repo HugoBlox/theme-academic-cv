@@ -5,7 +5,7 @@
 
 title: Trương Tuấn # Website name
 baseurl: 'https://truongvantuan.github.io/' # Website URL
-copyright: '© 2021 TRUONG TUAN' # Footer text, e.g. '© {year} Me'
+copyright: '© {year} TRUONG TUAN' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
@@ -57,7 +57,7 @@ markup:
     endLevel: 3
 imaging:
   resampleFilter: lanczos
-  quality: 75
+  quality: 90
   anchor: smart
 timeout: 600000
 taxonomies:

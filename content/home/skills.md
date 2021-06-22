@@ -16,37 +16,30 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: 50% | Java Core - OOP
+- description: Java Core - OOP
   icon: java
   icon_pack: fab
   name: Java
 - icon: springio-icon
   icon_pack: "custom"
-  name: "Spring Boot"
-  description: Đang Học
-- description: 60% | Linux Command - Bash
+  name: "Spring Framework"
+  description: "Spring Boot - Spring Data"
+- description: "Linux Command - Bash"
   icon: linux
   icon_pack: fab
-  name: Linux OS
-- description: 50% | Git - GitHub
+  name: "Linux OS"
+- description: Git - GitHub
   icon: git-alt
   icon_pack: fab
   name: Git
-- description: 40% | mySQL
+- description: mySQL
   icon: database
   icon_pack: fas
   name: Database
-- description: 50%
+- description: Boostrap
   icon: html5
   icon_pack: fab
-  name: HTML & CSS
-# - description: 70%
-#   icon: newspaper
-#   icon_pack: far
-#   name: SEO Copywriting
-
-
-  
+  name: HTML & CSS  
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
