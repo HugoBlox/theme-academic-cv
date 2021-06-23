@@ -60,7 +60,7 @@ address:
 
 main_menu:
   enable: true
-  align: l
+  align: c
   show_logo: true
   show_language: false
   show_day_night: true

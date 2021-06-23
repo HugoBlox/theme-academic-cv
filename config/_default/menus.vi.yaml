@@ -1,0 +1,37 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+main:
+  - name: Giới thiệu
+    url: '#about'
+    weight: 10
+  - name: Kỹ năng
+    url: '#skills'
+    weight: 20
+  - name: Chứng chỉ
+    url: '#accomplishments'
+    weight: 30
+  - name: Kinh nghiệm
+    url: '#experience'
+    weight: 35
+  - name: Dự án
+    url: '#projects'
+    weight: 40
+  - name: Bài viết
+    url: '#posts'
+    weight: 50
+  - name: Linux
+    url: 'linux/'
+    weight: 60
+  - name: Liên hệ
+    url: '#contact'
+    weight: 70
+  # - name: CV
+  #   url: media/my-resume.pdf
+  #   weight: 80
+
+
+# Link to a PDF of your resume/CV from the menu.
+# To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.

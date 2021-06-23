@@ -24,6 +24,9 @@ module:
   imports:
     - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms
     - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy
+  hugoVersion:
+    min: '0.83.1'
+    extended: true
 
 ############################
 ## ADVANCED
@@ -57,7 +60,7 @@ markup:
     endLevel: 3
 imaging:
   resampleFilter: lanczos
-  quality: 90
+  quality: 80
   anchor: smart
 timeout: 600000
 taxonomies:
