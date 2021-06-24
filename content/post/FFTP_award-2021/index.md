@@ -7,8 +7,8 @@ summary: ""
 authors: [fabricio-oliveira]
 tags: []
 categories: []
-date: 2021-06-24T12:19:29+03:00
-lastmod: 2021-06-24T12:19:29+03:00
+date: 2021-06-23T12:19:29+03:00
+lastmod: 2021-06-23T12:19:29+03:00
 featured: false
 draft: false
 
