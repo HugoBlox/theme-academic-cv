@@ -39,7 +39,11 @@ feature:
 - description: Boostrap
   icon: html5
   icon_pack: fab
-  name: HTML & CSS  
+  name: HTML & CSS
+- description: Docker - Docker Compose
+  icon: docker
+  icon_pack: fab
+  name: Container
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
