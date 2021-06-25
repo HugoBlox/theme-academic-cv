@@ -13,6 +13,9 @@ main:
   - name: Chứng chỉ
     url: '#accomplishments'
     weight: 30
+  - name: Kinh nghiệm
+    url: '#experience'
+    weight: 35
   - name: Dự án
     url: '#projects'
     weight: 40
@@ -25,9 +28,9 @@ main:
   - name: Liên hệ
     url: '#contact'
     weight: 70
-  - name: CV
-    url: media/my-resume.pdf
-    weight: 80
+  # - name: CV
+  #   url: media/my-resume.pdf
+  #   weight: 80
 
 
 # Link to a PDF of your resume/CV from the menu.
