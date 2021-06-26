@@ -77,7 +77,8 @@ address_format: vi-vn
 
 highlight: true
 highlight_languages:
-  - r
+  - java
+highlight_style: "atom-one-light"
 math: false
 diagram: false
 privacy_pack: false
