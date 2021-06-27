@@ -28,9 +28,11 @@ image:
 projects: []
 ---
 
->Bài viết gốc: [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+> Bài viết gốc: [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+
+> Việc định dạng cấu trúc code giờ đây có thể được hoành thành bởi tính năng "format document" có sẵn trong các Editor, IDE. Tuy nhiên việc nắm vững các quy chuẩn viết code, ở đây là chuẩn Google Java giúp nâng cao kỹ năng lập trình của bạn lên một cấp độ mới. Cách thức trình bày code tốt cho thấy sự chuyên của lập trình viên, nó cũng gây ấn tượng tốt với nhà tuyển dụng.
 >
->Việc định dạng cấu trúc code giờ đây có thể được hoành thành bởi tính năng format document có sẵn trong các editor, IDE. Tuy nhiên việc nắm vững các quy chuẩn viết code, ở đây là chuẩn Google giúp nâng cao kỹ năng lập trình của bạn lên một cấp độ mới. Cách thức trình bày code tốt cho thấy sự chuyên nghiệp,
+> Trong quá trình dịch sẽ không tránh khỏi sai sót, vì vậy rất mong các bạn tiếp cận bài viết gốc được dẫn link ở trên để có được nội dung chính xác nhất. Nếu trong quá trình tìm hiểu, nếu có phần nội dung nào bạn đã sử dụng thành thục, bạn nên bỏ qua vì nó đã chuyển thành kỹ năng của bạn rồi.
 
 # 1. Giới thiệu
 
@@ -450,3 +452,5 @@ public protected private abstract default static final transient volatile synchr
 4.8.8 Numeric liter
 
 các giá trị số nguyên lớn (`long`) được sử dụng hậu tố `L` (`3000000000L`), không bảo giờ viết thường (`3000000000l`) để tránh nhầm lẫn với số 1.
+
+> Phần 2: [Hướng dẫn lập trình Java theo tiêu chuẩn Google - Phần 1](/post/java-style-guide-part2/)
