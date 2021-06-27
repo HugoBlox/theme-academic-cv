@@ -10,9 +10,10 @@ weight = 10
 # List your academic interests.
 [interests]
   interests = [
+    "Ending homelessness",
+    "Housing",
     "Low-wage work & inequality",
     "Health policy",
-    "Housing",
     "Data science"
   ]
 
@@ -29,5 +30,5 @@ weight = 10
  
 +++
 
-Ian Eve Perry is a quantitative public policy researcher focusing on labor, healthcare, and housing.
+Eve Perry is a quantitative public policy researcher focusing on homelessness, housing, labor, and healthcare.
  

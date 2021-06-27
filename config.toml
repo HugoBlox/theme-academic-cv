@@ -6,14 +6,14 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "https://www.ianeveperry.com/"
+baseurl = "https://www.eveperry.com/"
 
 # Title of your site
-title = "Ian Eve Perry"
+title = "Eve Perry"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "Ian Eve Perry &copy; 2020"
+copyright = "Eve Perry &copy; 2021"
 
 theme = "academic"
 enableEmoji = true
@@ -52,8 +52,8 @@ enableGitInfo = true
   # AUTHOR SETUP
 
   # Your details.
-  name = "Ian Eve Perry"
-  role = "Labor, Healthcare, and Housing Policy Researcher"
+  name = "Eve Perry"
+  role = "Homlessness and Housing Policy Researcher"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -63,7 +63,7 @@ enableGitInfo = true
   avatar = "headshot.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
-  email = "ian.eve.perry@gmail.com"
+  email = "eve@eveperry.com"
   #address = "Building 1 Room 1, Stanford University, California, 90210, USA"
   #office_hours = """
   #Monday 10:00 to 13:00\\
@@ -122,7 +122,7 @@ enableGitInfo = true
   sharing_image = ""
 
   # Twitter username (without @). Used when a vistor shares your site on Twitter.
-  twitter = "ianeveperry"
+  twitter = "eveyperry"
 
   # Diplay a logo in navigation bar rather than title (optional).
   #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
@@ -270,7 +270,7 @@ enableGitInfo = true
   [[params.social]]
     icon = "twitter"
     icon_pack = "fab"
-    link = "https://twitter.com/ianeveperry"
+    link = "https://twitter.com/eveyperry"
 
  # [[params.social]]
  #   icon = "google-scholar"
@@ -280,7 +280,7 @@ enableGitInfo = true
   [[params.social]]
     icon = "github"
     icon_pack = "fab"
-    link = "https://github.com/ianeveperry"
+    link = "https://github.com/eveyp"
 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

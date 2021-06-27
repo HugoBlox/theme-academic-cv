@@ -19,6 +19,21 @@ date_format = "January 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Data Scientist"
+  company = "UCSF Benioff Homelessness and Housing Initiative"
+  company_url = "http://homelessness.ucsf.edu"
+  location = "San Francisco, California"
+  date_start = "2021-04-01"
+
+
+[[experience]]
+  title = "Data Consultant"
+  company = "Freelance"
+  location = "Oakland, California"
+  date_start = "2020-01-01"
+  date_end = "2021-04-01"
+
+[[experience]]
   title = "Policy Manager"
   company = "TechEquity Collaborative"
   company_url = "http://techequitycollaborative.org"
