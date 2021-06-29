@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Academic # Website name
-baseurl: '' # Website URL
+baseurl: 'https://example.com/' # Website URL
 copyright: '' # Footer text, e.g. '© {year} Me'
 
 ############################
@@ -22,8 +22,8 @@ removePathAccents: true
 
 module:
   imports:
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy
+    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5
+    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5
 
 ############################
 ## ADVANCED
@@ -45,16 +45,6 @@ disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
   section: [HTML, RSS]
-markup:
-  defaultMarkdownHandler: goldmark
-  goldmark:
-    renderer:
-      unsafe: true
-  highlight:
-    codeFences: false
-  tableOfContents:
-    startLevel: 2
-    endLevel: 3
 imaging:
   resampleFilter: lanczos
   quality: 75
