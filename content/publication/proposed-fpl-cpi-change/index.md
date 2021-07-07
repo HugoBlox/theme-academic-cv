@@ -4,7 +4,7 @@ date = 2019-06-11
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Ian Eve Perry"]
+authors = ["Eve Perry"]
 
 # Publication type.
 # Legend:
@@ -28,7 +28,7 @@ abstract = "In May, the Trump administration announced it was considering changi
 abstract_short = ""
 
 # Is this a selected publication? (true/false)
-selected = true
+featured = true
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.

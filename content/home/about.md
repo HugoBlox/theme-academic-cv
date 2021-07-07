@@ -2,33 +2,11 @@
 # About/Biography widget.
 widget = "about"
 active = true
-date = 2016-04-20T00:00:00
+weight = 10 # Order that this section will appear in.
 
-# Order that this section will appear in.
-weight = 10
+title = ""
 
-# List your academic interests.
-[interests]
-  interests = [
-    "Ending homelessness",
-    "Housing",
-    "Low-wage work & inequality",
-    "Health policy",
-    "Data science"
-  ]
-
-# List your qualifications (such as academic degrees).
-[[education.courses]]
-  course = "Master of Public Policy"
-  institution = "UC Berkeley, Goldman School of Public Policy"
-  year = 2017
-
-[[education.courses]]
-  course = "Bachelor of Arts in Economics"
-  institution = "Harvard University"
-  year = 2009
- 
-+++
-
-Eve Perry is a quantitative public policy researcher focusing on homelessness, housing, labor, and healthcare.
- 
+# Choose the user profile to display
+# This should be the username of a profile in your `content/author/` folder.
+author = "Admin"
++++ 

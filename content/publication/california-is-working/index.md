@@ -4,7 +4,7 @@ date = 2017-11-14
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Ian Eve Perry"]
+authors = ["Eve Perry"]
 
 # Publication type.
 # Legend:
@@ -27,8 +27,8 @@ publication_short = ""
 abstract = "Between 2011 and 2016, California enacted a set of 51 policy measures addressing workers’ rights, environmental issues, safety net programs, taxation, and infrastructure and housing. Critics predicted that these policies—collectively called “the California Policy Model” (CPM) in this paper—would reduce employment and slow economic growth, while supporters argued that they would raise wages for low-wage workers, increase access to health insurance, lower wage inequality, and reduce carbon emissions. This paper assesses some of these claims and prognoses, and finds that: Employment and GDP growth were not adversely affected by the California Policy Model; Wages for low-wage workers as well as overall health insurance rates statewide rose with the implementation of the California Policy Model; Wage inequality declined modestly as the California Policy Model was enacted; California was successful in putting the state on pace to meet its 2020 carbon emissions reduction goals. Though California has begun to address these issues, enforcement of labor standards and a lack of affordable housing remain as challenges facing the state. While there are methodological challenges inherent in this type of policy evaluation, the findings of this analysis suggest that the CPM was successful in meeting its goals for increased wage growth and health insurance access and decreases in carbon emissions and wage inequality, without reducing employment or impeding economic growth."
 abstract_short = "Between 2011 and 2016, California enacted a set of 51 policy measures addressing workers’ rights, environmental issues, safety net programs, taxation, and infrastructure and housing. Collectively called “the California Policy Model” (CPM), the findings of this analysis suggest that the CPM was successful in meeting its goals for increased wage growth and health insurance access and decreases in carbon emissions and wage inequality, without reducing employment or impeding economic growth."
 
-# Is this a selected publication? (true/false)
-selected = true
+# Is this a featured publication? (true/false)
+featured = true
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -37,14 +37,6 @@ selected = true
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects = []
-
-# Slides (optional).
-#   Associate this page with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references 
-#   `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides = ""
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
@@ -68,6 +60,8 @@ url_source = ""
 # Digital Object Identifier (DOI)
 doi = ""
 
+# Does this page contain LaTeX math? (true/false)
+math = false
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 [image]

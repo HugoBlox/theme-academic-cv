@@ -4,7 +4,7 @@ date = 2018-08-16
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Ian Eve Perry"]
+authors = ["Eve Perry"]
 
 # Publication type.
 # Legend:
@@ -26,7 +26,7 @@ abstract = "The Low-Wage Work in California Data Explorer offers an in-depth loo
 abstract_short = ""
 
 # Is this a selected publication? (true/false)
-selected = true
+featured = true
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
