@@ -6,7 +6,7 @@ title: Hazel Hyeseung Kang
 superuser: true
 
 # Role/position/tagline
-role: PhD Student in Business Administration
+role: PhD Student in Business 
 
 # Organizations/Affiliations to show in About widget
 organizations:
