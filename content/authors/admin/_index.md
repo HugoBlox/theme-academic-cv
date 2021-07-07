@@ -18,9 +18,10 @@ bio: My research interests include E-commerce, Digital Platforms, and E-health.
 
 # Interests to show in About widget
 interests:
-- E-commerce
+- Economics of IS
 - Digital Platforms
 - E-health
+- Social Media
 
 # Education to show in About widget
 education:
@@ -70,6 +71,8 @@ email: ""
 highlight_name: false
 ---
 
-I am Hazel Hyeseung Kang, a PhD student in Information Systems at Questrom School of Business, Boston University. 
+I am Hazel Hyeseung Kang, a PhD student in Information Systems at Questrom School of Business, Boston University. My interest areas lie in Economics of IS, E-health, E-commerce, Online communities, Digital Platforms, and Social Media.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+I was born in Seoul and attended schools in Bonn, New Delhi, New Jersey, and Seoul. I love to travel, try out new food, and hang out with friends & family. 
+
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/cv_july2021.pdf" "newtab" >}}resumé{{< /staticref >}}.
