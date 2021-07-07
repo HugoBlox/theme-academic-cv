@@ -8,7 +8,7 @@
   HUGO_ENABLEGITINFO = "true"
 
 [context.branch-deploy.environment]
-  HUGO_VERSION = "0.56"
+  HUGO_VERSION = "0.56.3" 
 
 [[redirects]]
   from = "https://ianeveperry.com/*"
