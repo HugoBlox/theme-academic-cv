@@ -7,6 +7,9 @@
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
 
+[context.branch-deploy.environment]
+  HUGO_VERSION = "0.56"
+
 [[redirects]]
   from = "https://ianeveperry.com/*"
   to = "https://eveperry.com/:splat"
