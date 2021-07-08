@@ -6,12 +6,12 @@ title: Hazel Hyeseung Kang
 superuser: true
 
 # Role/position/tagline
-role: PhD Student in Business 
+role: PhD in Information Systems  
 
 # Organizations/Affiliations to show in About widget
 organizations:
 - name: Boston University
-  url: https://www.bu.edu/
+  url: http://www.bu.edu/questrom/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include E-commerce, Digital Platforms, and E-health. 
