@@ -25,7 +25,7 @@ publication_short = ""
 
 # Abstract and optional shortened version.
 abstract = "Measure A would authorize a $600 million bond to fund affordable housing in San Francisco. This would be the largest affordable housing bond in San Francisco’s history and could add 2,800 affordable units in the city over the next four years. Originally, the proposal was for a $300 million bond but was doubled following a finding from the City Controller’s Office that the larger bond would not increase property taxes."
-abstract_short = ""
+summary = ""
 
 # Is this a selected publication? (true/false)
 selected = false

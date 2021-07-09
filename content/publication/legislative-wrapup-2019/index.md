@@ -25,7 +25,7 @@ publication_short = ""
 
 # Abstract and optional shortened version.
 abstract = "October 13th was the last day for Governor Gavin Newsom to approve bills passed in 2019, marking the end of the legislative year. This session, we saw a number of hotly-debated bills work their way through the legislature to reach the Governor’s desk. To wrap up this season, we’re giving you a summary of what passed in our issue areas of housing and workforce & labor, and what it means for our affordability crisis moving forward."
-abstract_short = ""
+summary = ""
 
 # Is this a selected publication? (true/false)
 selected = false

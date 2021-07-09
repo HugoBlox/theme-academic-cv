@@ -25,7 +25,7 @@ publication_short = ""
 
 # Abstract and optional shortened version.
 abstract = "Proposition E would allow the construction of 100% affordable housing and housing for teachers on public land where these kinds of projects are currently prohibited. Parks in the city would be excluded from Proposition E."
-abstract_short = ""
+summary = ""
 
 # Is this a selected publication? (true/false)
 selected = false

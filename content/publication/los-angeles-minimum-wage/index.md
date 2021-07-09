@@ -25,7 +25,7 @@ publication_short = ""
 
 # Abstract and optional shortened version.
 abstract = "The Los Angeles City Council is considering a citywide minimum wage increase to $13.25 by 2017 and $15.25 by 2019, followed by annual increases indexed to inflation. In this prospective study, we assess the economic impact of the proposal on workers, businesses and the city’s economy, and analyze a range of policy design options."
-abstract_short = ""
+summary = ""
 
 # Is this a selected publication? (true/false)
 selected = false

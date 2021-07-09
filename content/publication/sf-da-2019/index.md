@@ -25,7 +25,7 @@ publication_short = ""
 
 # Abstract and optional shortened version.
 abstract = "George Gascón was the San Francisco district attorney (DA) since 2011, but last year he announced he would not run for re-election, setting up the first open district attorney race in more than 100 years. On October 18th, however, Gascón resigned and Mayor London Breed appointed Suzy Loftus, who is running this year, as the interim DA. Mayor Breed has faced criticism for appointing Loftus, with critics seeing the appointment as an inappropriate attempt to sway voters."
-abstract_short = ""
+summary = ""
 
 # Is this a selected publication? (true/false)
 selected = false

@@ -25,7 +25,7 @@ publication_short = ""
 
 # Abstract and optional shortened version.
 abstract = "In this technical report we document a methodology developed by the UC Berkeley Center on Wage and Employment Dynamics to estimate the number of workers affected by proposed local minimum wage laws, as well as the expected increase in wages. This methodology is similar to that used by researchers to generate impact estimates for national and state minimum wage proposals, but differs in several respects because of significant data limitations for city- or county-based analyses."
-abstract_short = ""
+summary = ""
 
 # Is this a selected publication? (true/false)
 selected = false

@@ -25,7 +25,7 @@ publication_short = ""
 
 # Abstract and optional shortened version.
 abstract = "Proposition F would strengthen campaign finance regulations in San Francisco with three new requirements."
-abstract_short = ""
+summary = ""
 
 # Is this a selected publication? (true/false)
 selected = false

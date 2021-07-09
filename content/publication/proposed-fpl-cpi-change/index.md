@@ -25,7 +25,7 @@ publication_short = ""
 
 # Abstract and optional shortened version.
 abstract = "In May, the Trump administration announced it was considering changing the way the federal poverty line is adjusted annually for increases in cost of living, and is seeking public comment until June 21, 2019. The alternatives they are considering could take away Medi-Cal eligibility for tens of thousands of Californians, reduce subsidies for over one million Californians with subsidized insurance from Covered California, and reduce the number eligible for dozens of other programs including CalFresh. The Center on Budget and Policy Priorities estimates that, nationally, millions of people could lose or see reductions in their benefits."
-abstract_short = ""
+summary = ""
 
 # Is this a selected publication? (true/false)
 featured = true

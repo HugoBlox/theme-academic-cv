@@ -23,7 +23,7 @@ publication_short = ""
 
 # Abstract and optional shortened version.
 abstract = "The Low-Wage Work in California Data Explorer offers an in-depth look at the people who make up California’s low-wage workforce and provides users with graphics, tables, research summaries, interactive visualizations, and downloadable data. The explorer provides a wide range of information on the state’s low-wage workforce, including demographics, job characteristics, industries, occupations, use of public assistance programs, and geography."
-abstract_short = ""
+summary = ""
 
 # Is this a selected publication? (true/false)
 featured = true

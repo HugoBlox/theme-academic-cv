@@ -25,7 +25,7 @@ publication_short = ""
 
 # Abstract and optional shortened version.
 abstract = "Between 2011 and 2013 more than half (52 percent) of workers earning less than $15 per hour in New York were enrolled, or had a family member enrolled, in one or more of the major public assistance programs. The total annual cost of public assistance to low-wage workers in the State of New York during this time was $9.1 billion, with a cost to the state and local governments of $2.9 billion."
-abstract_short = ""
+summary = ""
 
 # Is this a selected publication? (true/false)
 selected = false

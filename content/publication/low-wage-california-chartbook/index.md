@@ -25,7 +25,7 @@ publication_short = ""
 
 # Abstract and optional shortened version.
 abstract = ""
-abstract_short = ""
+summary = ""
 
 # Is this a selected publication? (true/false)
 selected = false

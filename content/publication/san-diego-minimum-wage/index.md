@@ -25,7 +25,7 @@ publication_short = ""
 
 # Abstract and optional shortened version.
 abstract = "The City of San Diego is considering a proposal to establish a citywide minimum wage. The proposed minimum wage would phase in over three years as follows: $9.75 on January 1, 2015; $10.50 on January 1, 2016; and $11.50 on January 1, 2017. Beginning in 2019, the city’s minimum wage would be adjusted annually to keep up with increases in the cost of living."
-abstract_short = ""
+summary = ""
 
 # Is this a selected publication? (true/false)
 selected = false
