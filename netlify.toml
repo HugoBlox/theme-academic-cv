@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "hugo/"
+  command = "hugo"
 
 [build.environment]
   HUGO_THEME = "repo"
