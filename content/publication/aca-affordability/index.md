@@ -63,7 +63,7 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Website", url = "https://www.commonwealthfund.org/publications/issue-briefs/2011/apr/realizing-health-reforms-potential-will-affordable-care-act-make"}]
+links = [{name = "Website", url = "https://www.commonwealthfund.org/publications/issue-briefs/2011/apr/realizing-health-reforms-potential-will-affordable-care-act-make"}]
 
 # Digital Object Identifier (DOI)
 doi = ""

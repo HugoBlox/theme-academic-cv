@@ -63,7 +63,7 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Post", url = "https://medium.com/techequity-collaborative/measure-for-measure-measure-d-6fbd8eb031fb"}]
+links = [{name = "Post", url = "https://medium.com/techequity-collaborative/measure-for-measure-measure-d-6fbd8eb031fb"}]
 
 # Digital Object Identifier (DOI)
 doi = ""

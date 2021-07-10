@@ -61,7 +61,7 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-	url_custom = [{name = "Website", url = "http://laborcenter.berkeley.edu/low-wage-work-in-california"}]
+	links = [{name = "Website", url = "http://laborcenter.berkeley.edu/low-wage-work-in-california"}]
 
 # Digital Object Identifier (DOI)
 doi = ""

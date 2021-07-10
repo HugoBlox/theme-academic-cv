@@ -63,7 +63,7 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Website", url = "http://laborcenter.berkeley.edu/data-and-methods-for-estimating-the-impact-of-proposed-local-minimum-wage-laws-3/"}, {name = "2015 Version", url = "http://laborcenter.berkeley.edu/data-and-methods-for-estimating-the-impact-of-proposed-local-minimum-wage-laws-2/"}, {name = "2014 Version", url = "http://laborcenter.berkeley.edu/data-and-methods-for-estimating-the-impact-of-proposed-local-minimum-wage-laws/"}]
+links = [{name = "Website", url = "http://laborcenter.berkeley.edu/data-and-methods-for-estimating-the-impact-of-proposed-local-minimum-wage-laws-3/"}, {name = "2015 Version", url = "http://laborcenter.berkeley.edu/data-and-methods-for-estimating-the-impact-of-proposed-local-minimum-wage-laws-2/"}, {name = "2014 Version", url = "http://laborcenter.berkeley.edu/data-and-methods-for-estimating-the-impact-of-proposed-local-minimum-wage-laws/"}]
 
 # Digital Object Identifier (DOI)
 doi = ""
