@@ -25,7 +25,7 @@ publication_short = ""
 
 # Abstract and optional shortened version.
 abstract = "The Ensuring Opportunity Campaign to Cut Poverty in Contra Costa has introduced a plan to establish a $15 per hour minimum wage in Contra Costa County, California, by 2020. The proposal would phase in the minimum wage increase over five steps. This study examines the effects of the proposed minimum wage increase on Contra Costa workers and businesses (assuming that all of the cities in the county, as well as the county itself, enact the proposed law)."
-abstract_short = ""
+summary = ""
 
 # Is this a selected publication? (true/false)
 selected = false
@@ -63,7 +63,7 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Website", url = "http://laborcenter.berkeley.edu/contra-costa-countys-proposed-minimum-wage-law-a-prospective-impact-study/"}]
+links = [{name = "Website", url = "http://laborcenter.berkeley.edu/contra-costa-countys-proposed-minimum-wage-law-a-prospective-impact-study/"}]
 
 # Digital Object Identifier (DOI)
 doi = ""

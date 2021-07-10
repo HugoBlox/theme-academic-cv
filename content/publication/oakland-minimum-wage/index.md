@@ -25,7 +25,7 @@ publication_short = ""
 
 # Abstract and optional shortened version.
 abstract = "The Lift Up Oakland Coalition, an alliance of community, labor, small business and faith organizations, has placed an initiative on the Oakland November 2014 ballot that would establish a minimum wage of $12.25 for businesses in the city starting March 1, 2015. This study examines the effects of a $12.25 minimum wage on Oakland workers and businesses."
-abstract_short = ""
+summary = ""
 
 # Is this a selected publication? (true/false)
 selected = false
@@ -63,7 +63,7 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Website", url = "http://laborcenter.berkeley.edu/the-impact-of-oaklands-proposed-city-minimum-wage-law-a-prospective-study/"}]
+links = [{name = "Website", url = "http://laborcenter.berkeley.edu/the-impact-of-oaklands-proposed-city-minimum-wage-law-a-prospective-study/"}]
 
 # Digital Object Identifier (DOI)
 doi = ""

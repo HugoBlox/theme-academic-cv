@@ -25,7 +25,7 @@ publication_short = ""
 
 # Abstract and optional shortened version.
 abstract = "The Mayor of Los Angeles has requested that UC Berkeley’s Institute for Research on Labor and Employment conduct an impact study of his proposal to establish a city-wide minimum wage of $13.25 an hour by 2017, phased in over three steps. This report therefore examines the effects of the minimum wage policy on Los Angeles workers, businesses and the overall economy."
-abstract_short = ""
+summary = ""
 
 # Is this a selected publication? (true/false)
 selected = false
@@ -63,7 +63,7 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Website", url = "http://laborcenter.berkeley.edu/the-mayor-of-los-angeles-proposed-city-minimum-wage-policy/"}]
+links = [{name = "Website", url = "http://laborcenter.berkeley.edu/the-mayor-of-los-angeles-proposed-city-minimum-wage-policy/"}]
 
 # Digital Object Identifier (DOI)
 doi = ""

@@ -13,7 +13,7 @@
   <!-- Carousel slides wrapper -->
   <div class="carousel-inner" style="min-height: {{$page.Params.height | default "300px"}};">
     {{ range $index, $item := $page.Params.item }}
-    <div class="hero-overlay carousel-item{{ if eq $index 0 }} active{{ end }}" style="min-height: inherit;
+    <div class="wg-hero carousel-item{{ if eq $index 0 }} active{{ end }}" style="min-height: inherit;
       {{ if $item.overlay_color }}
       background-color: {{ $item.overlay_color | default "transparent" }};
       {{ end }}
@@ -37,7 +37,7 @@
           {{ if $item.cta_url }}
           {{ $pack := or .icon_pack "fa" }}
           <p>
-            <a href="{{ $item.cta_url }}" class="btn btn-outline-light btn-lg">
+            <a href="{{ $item.cta_url }}" class="btn btn-light btn-lg">
               {{- with $item.cta_icon -}}<i class="{{ $pack }} {{ $pack }}-{{ . }}" style="padding-right: 10px;"></i>{{- end -}}
               {{- $item.cta_label | emojify | safeHTML -}}
             </a>

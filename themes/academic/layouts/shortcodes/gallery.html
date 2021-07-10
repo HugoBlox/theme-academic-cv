@@ -1,11 +1,14 @@
 {{ $album := "gallery" }}
 {{ with .Get "album" }}{{ $album = . }}{{ end }}
+{{ $album_path := printf "%s/*" $album }}
+{{/* if eq .Page.Type "home" */}}{{/* $album_path = "*" */}}{{/* end */}}
 <div class="gallery">
 
   {{/* Attempt to automatically load gallery images from page bundle */}}
-  {{ $images := ($.Page.Resources.ByType "image").Match (printf "%s/*" $album) }}
+  {{ $images := ($.Page.Resources.ByType "image").Match $album_path }}
   {{ with $images }}
   {{ range $images }}
+    {{ $image := .Resize "x190" }}
     {{/* Check if the user set a caption for this image */}}
     {{ $filename := .Name }}
     {{ $caption := "" }}
@@ -15,13 +18,14 @@
     {{ end }}
     {{ end }}
   <a data-fancybox="gallery-{{$album}}" href="{{ .RelPermalink }}" {{ with $caption }}data-caption="{{.}}"{{ end }}>
-  <img src="{{ .RelPermalink }}" alt="">
+  <img src="{{ $image.RelPermalink }}" alt="">
   </a>
   {{end}}
 
   {{else}}
   {{/* Load gallery images from the `static/img/` media library or internet */}}
 
+  {{ if $.Page.Params.gallery_item }}
   {{ range (where $.Page.Params.gallery_item "album" $album) }}
   {{/* Set image path. */}}
   {{ $.Scratch.Set "src" .image }}
@@ -33,6 +37,9 @@
   <a data-fancybox="gallery{{ with .album }}-{{.}}{{ end }}" {{ with .caption }}data-caption="{{.}}"{{ end }} href="{{$.Scratch.Get "src"}}">
     <img src="{{$.Scratch.Get "src"}}" alt="">
   </a>
-  {{ end }}
+  {{end}}
+  {{else}}
+  {{ errorf "Unable to load gallery in %s." .Page.Filename }}
+  {{end}}
   {{end}}
 </div>

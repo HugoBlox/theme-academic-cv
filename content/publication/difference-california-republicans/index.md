@@ -25,7 +25,7 @@ publication_short = ""
 
 # Abstract and optional shortened version.
 abstract = ""
-abstract_short = ""
+summary = ""
 
 # Is this a selected publication? (true/false)
 selected = false
@@ -63,7 +63,7 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Website", url = "http://laborcenter.berkeley.edu/this-one-cartoon-explains-the-difference-between-california-and-republican-economic-policy/"}]
+links = [{name = "Website", url = "http://laborcenter.berkeley.edu/this-one-cartoon-explains-the-difference-between-california-and-republican-economic-policy/"}]
 
 # Digital Object Identifier (DOI)
 doi = ""

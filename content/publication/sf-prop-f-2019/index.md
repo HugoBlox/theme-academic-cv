@@ -25,7 +25,7 @@ publication_short = ""
 
 # Abstract and optional shortened version.
 abstract = "Proposition F would strengthen campaign finance regulations in San Francisco with three new requirements."
-abstract_short = ""
+summary = ""
 
 # Is this a selected publication? (true/false)
 selected = false
@@ -63,7 +63,7 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Post", url = "https://medium.com/techequity-collaborative/measure-for-measure-proposition-f-22e2b5c5a602"}]
+links = [{name = "Post", url = "https://medium.com/techequity-collaborative/measure-for-measure-proposition-f-22e2b5c5a602"}]
 
 # Digital Object Identifier (DOI)
 doi = ""

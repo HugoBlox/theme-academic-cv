@@ -25,7 +25,7 @@ publication_short = ""
 
 # Abstract and optional shortened version.
 abstract = "San Francisco’s Mayor, members of the Board of Supervisors, and labor, business and community leaders recently agreed to place an initiative on the November 2014 ballot that would raise the minimum wage in the city to $15.00 an hour by 2018, phased in over four steps. This study examines the effects of the minimum wage proposal on San Francisco workers and businesses."
-abstract_short = ""
+summary = ""
 
 # Is this a selected publication? (true/false)
 selected = false
@@ -63,7 +63,7 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Website", url = "http://laborcenter.berkeley.edu/san-franciscos-proposed-city-minimum-wage-law-a-prospective-impact-study/"}]
+links = [{name = "Website", url = "http://laborcenter.berkeley.edu/san-franciscos-proposed-city-minimum-wage-law-a-prospective-impact-study/"}]
 
 # Digital Object Identifier (DOI)
 doi = ""

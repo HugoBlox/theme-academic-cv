@@ -1,8 +1,7 @@
 +++
-# Hero Carousel widget.
-widget = "hero_carousel"
-active = false
-date = 2017-10-15T00:00:00
+# Slider widget.
+widget = "slider"  # Do not modify this line!
+active = false  # Activate this widget? true/false
 
 # Order that this section will appear in.
 weight = 1
@@ -53,5 +52,4 @@ height = "300px"
   overlay_color = "#333"  # An HTML color value.
   overlay_img = ""  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.5  # Darken the image. Value in range 0-1.
-
 +++

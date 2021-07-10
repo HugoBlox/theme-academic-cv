@@ -25,7 +25,7 @@ publication_short = ""
 
 # Abstract and optional shortened version.
 abstract = "Using a simulation model of Massachusetts businesses, this study estimates the impact of reducing health care cost growth on total employer health spending and employee wages, and on workforce investments and employer profitability. The results are clear: bringing health insurance premium growth more in line with general inflation would result in significant gains for the employers, workers, and citizens of the Commonwealth."
-abstract_short = ""
+summary = ""
 
 # Is this a selected publication? (true/false)
 selected = false
@@ -63,7 +63,7 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-#url_custom = [{name = "Website", url = ""}]
+#links = [{name = "Website", url = ""}]
 
 # Digital Object Identifier (DOI)
 doi = ""

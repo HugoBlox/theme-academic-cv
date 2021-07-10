@@ -25,7 +25,7 @@ publication_short = ""
 
 # Abstract and optional shortened version.
 abstract = "Proposition D would institute a small tax on Uber and Lyft rides to reduce traffic congestion and raise money for public transportation. Specifically, it would tax standard Uber and Lyft rides at 3.25% and shared rides at 1.5% beginning January 1, 2020. Until 2025, all rides in zero-emission vehicles would be taxed at 1.5%. The $30–35 million in annual revenue raised by the tax would be split between Muni and safety improvements for pedestrians and cyclists. City economist Ted Egan believes that most of the cost of the tax will be passed onto riders."
-abstract_short = ""
+summary = ""
 
 # Is this a selected publication? (true/false)
 selected = false
@@ -63,7 +63,7 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Post", url = "https://medium.com/techequity-collaborative/measure-for-measure-measure-d-6fbd8eb031fb"}]
+links = [{name = "Post", url = "https://medium.com/techequity-collaborative/measure-for-measure-measure-d-6fbd8eb031fb"}]
 
 # Digital Object Identifier (DOI)
 doi = ""

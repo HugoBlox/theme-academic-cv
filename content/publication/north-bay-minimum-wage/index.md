@@ -25,7 +25,7 @@ publication_short = ""
 
 # Abstract and optional shortened version.
 abstract = "North Bay Jobs with Justice, the North Bay Labor Council and other labor, environmental, and community organizations will propose a $15-an-hour citywide minimum wage by 2020 to the cities of Novato, Petaluma, Sonoma, Sebastopol, and Santa Rosa. This paper analyzes the prospective impact of that proposal in the four North Bay counties—Marin, Sonoma, Napa and Solano. The proposal would raise the minimum wage in these cities on a faster timetable than the state as a whole (see Table 1). Under the proposal, the minimum wage would be raised to $12.75 on July 1, 2019, and to $15.00 on July 1, 2020. In Section 1 of this report, we estimate the effects of the wage increase on workers and businesses, and place the proposal in context with other local minimum wage laws. In Section 2, we review the economic research literature on the effects of minimum wage increases on workers, employment, and business operations."
-abstract_short = ""
+summary = ""
 
 # Is this a selected publication? (true/false)
 selected = false
@@ -63,7 +63,7 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Website", url = "http://laborcenter.berkeley.edu/north-bay-minimum-wage/"}]
+links = [{name = "Website", url = "http://laborcenter.berkeley.edu/north-bay-minimum-wage/"}]
 
 # Digital Object Identifier (DOI)
 doi = ""

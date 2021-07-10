@@ -25,7 +25,7 @@ publication_short = ""
 
 # Abstract and optional shortened version.
 abstract = "In this technical report we document a methodology developed by the UC Berkeley Center on Wage and Employment Dynamics to estimate the number of workers affected by proposed local minimum wage laws, as well as the expected increase in wages. This methodology is similar to that used by researchers to generate impact estimates for national and state minimum wage proposals, but differs in several respects because of significant data limitations for city- or county-based analyses."
-abstract_short = ""
+summary = ""
 
 # Is this a selected publication? (true/false)
 selected = false
@@ -63,7 +63,7 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Website", url = "http://laborcenter.berkeley.edu/data-and-methods-for-estimating-the-impact-of-proposed-local-minimum-wage-laws-3/"}, {name = "2015 Version", url = "http://laborcenter.berkeley.edu/data-and-methods-for-estimating-the-impact-of-proposed-local-minimum-wage-laws-2/"}, {name = "2014 Version", url = "http://laborcenter.berkeley.edu/data-and-methods-for-estimating-the-impact-of-proposed-local-minimum-wage-laws/"}]
+links = [{name = "Website", url = "http://laborcenter.berkeley.edu/data-and-methods-for-estimating-the-impact-of-proposed-local-minimum-wage-laws-3/"}, {name = "2015 Version", url = "http://laborcenter.berkeley.edu/data-and-methods-for-estimating-the-impact-of-proposed-local-minimum-wage-laws-2/"}, {name = "2014 Version", url = "http://laborcenter.berkeley.edu/data-and-methods-for-estimating-the-impact-of-proposed-local-minimum-wage-laws/"}]
 
 # Digital Object Identifier (DOI)
 doi = ""

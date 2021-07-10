@@ -1,7 +1,7 @@
 +++
 # Hero Carousel widget.
-widget = "hero_carousel"  # Do not modify this line!
-active = false  # Activate this widget? true/false
+widget = "slider"
+active = false
 
 # Order that this section will appear in.
 weight = 1

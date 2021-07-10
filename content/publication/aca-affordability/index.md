@@ -25,7 +25,7 @@ publication_short = ""
 
 # Abstract and optional shortened version.
 abstract = "Using a budget-based approach to measuring affordability, this issue brief explores whether the subsidies available through the Affordable Care Act are enough to make health insurance affordable for low-income families. Drawing from the Consumer Expenditure Survey, the authors assess how much \"room\" people have in their budget, after paying for other necessities, to pay for health care needs. The results show that an overwhelming majority of households have room in their budgets for the necessities, health insurance premiums, and moderate levels of out-of-pocket costs established by the Affordable Care Act. Fewer than 10 percent of families above the federal poverty level do not have the resources to pay for premiums and typical out-of-pocket costs, even with the subsidies provided by the health reform law. Affordability remains a concern for some families with high out-of-pocket spending, suggesting that this is the major risk to insurance affordability."
-abstract_short = ""
+summary = ""
 
 # Is this a selected publication? (true/false)
 selected = false
@@ -63,7 +63,7 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Website", url = "https://www.commonwealthfund.org/publications/issue-briefs/2011/apr/realizing-health-reforms-potential-will-affordable-care-act-make"}]
+links = [{name = "Website", url = "https://www.commonwealthfund.org/publications/issue-briefs/2011/apr/realizing-health-reforms-potential-will-affordable-care-act-make"}]
 
 # Digital Object Identifier (DOI)
 doi = ""

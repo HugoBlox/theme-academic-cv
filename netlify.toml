@@ -2,13 +2,12 @@
   publish = "public"
   command = "hugo"
 
-[context.production.environment]
-  HUGO_VERSION = "0.56"
-  HUGO_ENV = "production"
+[build.environment]
+  HUGO_VERSION = "0.56.3"
   HUGO_ENABLEGITINFO = "true"
 
-[context.branch-deploy.environment]
-  HUGO_VERSION = "0.56.3" 
+[context.production.environment]
+  HUGO_ENV = "production"
 
 [[redirects]]
   from = "https://ianeveperry.com/*"

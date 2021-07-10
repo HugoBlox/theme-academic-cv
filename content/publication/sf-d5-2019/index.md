@@ -25,7 +25,7 @@ publication_short = ""
 
 # Abstract and optional shortened version.
 abstract = "After former District 5 Supervisor London Breed won the 2018 mayoral special election, she appointed Vallie Brown to take over as D5 Supervisor. This election determines who will serve the remainder of Breed’s original term. The seat will be up for election again in 2020, but this year’s special election winner is expected to gain a large advantage for the 2020 race. Observers have noted the importance of this race on the composition of the Board of Supervisors for years to come."
-abstract_short = ""
+summary = ""
 
 # Is this a selected publication? (true/false)
 selected = false
@@ -63,7 +63,7 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Post", url = "https://medium.com/techequity-collaborative/candidate-spotlight-district-5-supervisor-ec417041e0e1"}]
+links = [{name = "Post", url = "https://medium.com/techequity-collaborative/candidate-spotlight-district-5-supervisor-ec417041e0e1"}]
 
 # Digital Object Identifier (DOI)
 doi = ""

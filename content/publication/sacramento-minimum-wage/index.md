@@ -25,7 +25,7 @@ publication_short = ""
 
 # Abstract and optional shortened version.
 abstract = "The Raise the Wage Sacramento Coalition has put forth a proposal to establish a $13.50 per hour minimum wage by 2019 in the city of Sacramento (see Table 1). The minimum wage would be raised to $11.50 on January 1, 2017; to $12.50 on January 1, 2018; and to $13.50 on January 1, 2019. In Section 1 of this report, we estimate the effects of the proposal on Sacramento workers and businesses, and place the proposal in context with other local minimum wage laws. In Section 2, we review the economic research literature on the effects of minimum wage increases on workers, employment, and business operations."
-abstract_short = ""
+summary = ""
 
 # Is this a selected publication? (true/false)
 selected = false
@@ -63,7 +63,7 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Website", url = "http://laborcenter.berkeley.edu/estimated-impact-of-a-proposed-minimum-wage-law-for-sacramento/"}]
+links = [{name = "Website", url = "http://laborcenter.berkeley.edu/estimated-impact-of-a-proposed-minimum-wage-law-for-sacramento/"}]
 
 # Digital Object Identifier (DOI)
 doi = ""
