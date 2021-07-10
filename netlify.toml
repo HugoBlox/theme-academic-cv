@@ -3,7 +3,6 @@
   command = "hugo"
 
 [build.environment]
-  HUGO_THEME = "repo"
   HUGO_VERSION = "0.56.3"
   HUGO_ENABLEGITINFO = "true"
 
