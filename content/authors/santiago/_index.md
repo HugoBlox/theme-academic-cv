@@ -19,6 +19,10 @@ weight = 10
   icon = "researcherid"
   icon_pack = "ai"
   link = "http://www.researcherid.com/rid/E-9356-2015"
+[[social]]
+  icon = "twitter"
+  icon_pack = "fab"
+  link = "https://twitter.com/carmonation"
 
 +++
 
@@ -29,4 +33,4 @@ weight = 10
 
 # Current Position
 
-Ludwig Institute for Cancer Research - University of Lausanne, Switzerland
+Ludwig Institute for Cancer Research - University of Lausanne, Switzerland. https://unil.ch/dof/carmona

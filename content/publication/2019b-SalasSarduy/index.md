@@ -25,7 +25,7 @@ abstract: "Chagas disease is a neglected tropical illness caused by the protozoa
 summary: ""
 
 tags: ["Chagas Disease", "HTS"]
-categories: []
+categories: ["Drug Discovery"]
 featured: false
 
 # Custom links (optional).

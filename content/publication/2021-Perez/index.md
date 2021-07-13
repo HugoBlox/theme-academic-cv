@@ -25,7 +25,7 @@ abstract: "A common strategy to identify new antiparasitic agents is the targeti
 summary: ""
 
 tags: ["Chagas Disease", "drug-discovery", "GSK-Chemboxes", "HTS", "neglected diseases", "metacaspases", "inhibitors"]
-categories: ["hts"]
+categories: ["Drug Discovery"]
 featured: false
 
 # Custom links (optional).
