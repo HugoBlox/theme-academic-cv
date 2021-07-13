@@ -24,7 +24,7 @@ abstract: "The long and boring but academically correct abstract is available at
 # Summary. An optional shortened abstract.
 summary: "APRANK takes a pathogen proteome as input, and provides a ranked list of the _best_ candidate antigens and epitopes."
 
-tags: ["antigens", "predictors", "epitopes", "antigenicity", "proteins", "peptides", "diagnostics", "biomarkers"]
+tags: ["antigens", "predictors", "epitopes", "antigenicity", "proteins", "peptides", "diagnostics", "biomarkers", "human pathogens"]
 categories: ["Predictors"]
 featured: false
 
@@ -45,15 +45,14 @@ links:
   url: https://doi.org/10.5281/zenodo.4939160
 
 
-
-url_pdf:
-url_code:
-url_dataset:
-url_poster:
-url_project:
-url_slides:
-url_source:
-url_video:
+#url_pdf:
+#url_code:
+#url_dataset:
+#url_poster:
+#url_project:
+#url_slides:
+#url_source:
+#url_video:
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -75,7 +74,7 @@ projects: ["immunomics"]
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: ""
+#slides: ""
 ---
 
 &nbsp;  
