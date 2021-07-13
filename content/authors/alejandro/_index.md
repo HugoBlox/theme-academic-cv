@@ -19,7 +19,7 @@ role = "PhD Student"
 organizations = [ { name = "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET)", url = "http://www.conicet.gob.ar" }, {name="Universidad de San Martín", url="http://www.unsam.edu.ar"} ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "PhD Student"
+bio = "PhD Fellow. Processing big data to draw biological conclusions."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "aricci@iib.unsam.edu.ar"
@@ -51,6 +51,11 @@ user_groups = ["Grad Students"]
   icon = "envelope"
   icon_pack = "fas"
   link = "mailto:aricci@iib.unsam.edu.ar"
+  
+[[social]]
+  icon = "orcid"
+  icon_pack = "ai"
+  link = "https://orcid.org/0000-0002-1814-0568"
 #
 #[[social]]
 #  icon = "twitter"
@@ -68,11 +73,6 @@ user_groups = ["Grad Students"]
 #  link = "https://github.com/fernan"
 #
 #[[social]]
-#  icon = "orcid"
-#  icon_pack = "ai"
-#  link = "https://orcid.org/0000-0003-1331-5741"
-#
-#[[social]]
 #  icon = "pubmed"
 #  icon_pack = "ai"
 #  link = "http://1.usa.gov/12p0C2W"
@@ -88,7 +88,7 @@ user_groups = ["Grad Students"]
 
 # About me 
 
-I specialize in the use of bioinformatics to process data and draw conclussions from biological experiments, specially those resulting in large amounts of data, such as high-throughput microarrays. I also use said data to create predictors that infer new biological knowledge or help designing new experiments.
+I specialize in the use of bioinformatics to process data and draw conclusions from biological experiments, specially those resulting in large amounts of data, such as high-throughput microarrays. I also use said data to create predictors that infer new biological knowledge or help designing new experiments.
 
 I'm doing a PhD in Molecular Biology and Biotechnology in the "Instituto de Investigaciones Biotecnológicas" (IIB) at the "Universidad de San Martín" (UNSAM, Argentina).
 
