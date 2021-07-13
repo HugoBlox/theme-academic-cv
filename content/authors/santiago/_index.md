@@ -3,7 +3,7 @@ name = "Santiago J Carmona"
 authors = ["santiago"]
 email = "sjcarmona@gmail.com"
 user_groups = ["Past Lab Members"]
-role = "Former Trypanosomatics Lab Member (2007 -- 2015)"
+role = "Former Lab Member (2007 -- 2015)"
 bio = "Present address: Ludwig Center for Cancer Research, University of Lausanne"
 weight = 10
 

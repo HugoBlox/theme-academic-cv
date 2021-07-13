@@ -34,7 +34,7 @@ subtitle = ""
     tag = "immunomics"
   
   [[content.filter_button]]
-    name = "Chemogenomics"
+    name = "Drug Discovery"
     tag = "chemogenomics"
 
 [design]
