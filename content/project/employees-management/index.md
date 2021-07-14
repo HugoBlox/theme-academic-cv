@@ -2,7 +2,8 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Employees Management"
-summary: "Ứng dụng CRUD RESTful API và Thymeleaf quản lý employee với chức năng thêm mới, cập nhật, tìm kiếm."
+summary: "Ứng dụng CRUD Java Spring Boot quản lý employee với chức năng thêm mới, cập nhật, tìm kiếm.
+Gồm module Spring MVC dùng Thymeleaf và backend RESTfull API"
 authors: []
 tags: []
 categories: []
