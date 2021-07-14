@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "ATM Banking Javacore"
+title: "ATM Banking JavaCore"
 summary: "Dự án kết thúc module JavaCore khóa học Java Spring Boot tại TechMaster Việt Nam"
 authors: []
 tags: [Java Core]
