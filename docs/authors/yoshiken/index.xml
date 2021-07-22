@@ -11,7 +11,14 @@
 &lt;br>
 簡単に言いますと情報系の国家試験です。そして情報処理技術者試験の一区分として、今回私がその勉強を推奨する基本情報技術者試験があります。
 &lt;br>
-&lt;p>&lt;img src="./taikei.png" alt="情報処理技術者試験の体系図" title="体系図">&lt;/p>
+&lt;p>
+&lt;figure id="figure-体系図">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./taikei.png" alt="情報処理技術者試験の体系図" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+体系図
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
 &lt;p>&lt;a href="https://www.jitec.ipa.go.jp/1_08gaiyou/_index_gaiyou.html" target="_blank" rel="noopener">IPA 試験区分一覧&lt;/a>
 &lt;a href="https://www.jitec.ipa.go.jp/1_08gaiyou/_index_gaiyou.html" target="_blank" rel="noopener">https://www.jitec.ipa.go.jp/1_08gaiyou/_index_gaiyou.html&lt;/a>&lt;/p>
 &lt;h1 id="基本情報技術者試験とは">基本情報技術者試験とは&lt;/h1>
