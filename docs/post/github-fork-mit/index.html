@@ -1,7 +1,162 @@
-<!doctype html><html lang=ja><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=generator content="Wowchemy 5.1.0 for Hugo"><meta name=author content="Juris710"><meta name=description content="GitHubを使ったことのある人向け"><link rel=alternate hreflang=ja href=https://blog.opuappnavi.com/post/github-fork-mit/><link rel=preconnect href=https://fonts.gstatic.com crossorigin><meta name=theme-color content="hsl(339, 90%, 68%)"><script src=/js/mathjax-config.js></script><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin=anonymous><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin=anonymous><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/qtcreator_dark.min.css crossorigin=anonymous title=hl-light media=print onload="this.media='all'"><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/qtcreator_dark.min.css crossorigin=anonymous title=hl-dark media=print onload="this.media='all'" disabled><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin=anonymous media=print onload="this.media='all'"><script src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js integrity crossorigin=anonymous async></script><link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP&family=Roboto&display=swap"><link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP&family=Roboto&display=swap" media=print onload="this.media='all'"><link rel=stylesheet href=/css/wowchemy.aa95888ebeacdb3858f04b6aea26a89a.css><link rel=manifest href=/index.webmanifest><link rel=icon type=image/png href=/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_32x32_fill_lanczos_center_2.png><link rel=apple-touch-icon type=image/png href=/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_180x180_fill_lanczos_center_2.png><link rel=canonical href=https://blog.opuappnavi.com/post/github-fork-mit/><meta property="twitter:card" content="summary"><meta property="og:site_name" content="アプリNaviブログ"><meta property="og:url" content="https://blog.opuappnavi.com/post/github-fork-mit/"><meta property="og:title" content="GitHubのforkとライセンス | アプリNaviブログ"><meta property="og:description" content="GitHubを使ったことのある人向け"><meta property="og:image" content="https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png"><meta property="twitter:image" content="https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="ja"><meta property="article:published_time" content="2020-05-24T22:37:45+09:00"><meta property="article:modified_time" content="2021-03-16T23:15:59+09:00"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.opuappnavi.com/post/github-fork-mit/"},"headline":"GitHubのforkとライセンス","datePublished":"2020-05-24T22:37:45+09:00","dateModified":"2021-03-16T23:15:59+09:00","author":{"@type":"Person","name":"Juris710"},"publisher":{"@type":"Organization","name":"アプリNavi","logo":{"@type":"ImageObject","url":"https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_192x192_fill_lanczos_center_2.png"}},"description":"GitHubを使ったことのある人向け"}</script><title>GitHubのforkとライセンス | アプリNaviブログ</title></head><body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class="page-wrapper dark" data-wc-page-id=7c034dd1da9164f3121daa4cee640615><script src=/js/wowchemy-init.min.1a0a54ed5f186bbc07f78d69935390af.js></script><aside class=search-modal id=search><div class=container><section class=search-header><div class="row no-gutters justify-content-between mb-3"><div class=col-6><h1>Search</h1></div><div class="col-6 col-search-close"><a class=js-search href=# aria-label=Close><i class="fas fa-times-circle text-muted" aria-hidden=true></i></a></div></div><div id=search-box><input name=q id=search-query placeholder=検索 autocapitalize=off autocomplete=off autocorrect=off spellcheck=false type=search class=form-control aria-label=検索></div></section><section class=section-search-results><div id=search-hits></div></section></div></aside><div class=page-header><nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main><div class=container-xl><div class="d-none d-lg-inline-flex"><a class=navbar-brand href=/>アプリNaviブログ</a></div><button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar-content aria-expanded=false aria-label=ナビゲーションの切り替え>
-<span><i class="fas fa-bars"></i></span></button><div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none"><a class=navbar-brand href=/>アプリNaviブログ</a></div><div class="navbar-collapse main-menu-item collapse justify-content-end" id=navbar-content><ul class="navbar-nav d-md-inline-flex"><li class=nav-item><a class=nav-link href=/about><span>About</span></a></li><li class=nav-item><a class=nav-link href=/authors><span>Authors</span></a></li><li class=nav-item><a class="nav-link active" href=/post><span>Posts</span></a></li><li class=nav-item><a class=nav-link href=/project><span>Projects</span></a></li><li class=nav-item><a class=nav-link href=/category/%e4%bd%9c%e5%93%81%e7%b4%b9%e4%bb%8b><span>Works</span></a></li></ul></div><ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2"><li class=nav-item><a class="nav-link js-search" href=# aria-label=Search><i class="fas fa-search" aria-hidden=true></i></a></li></ul></div></nav></div><div class=page-body><div class=post-container><nav class=sidebar-wrap><div class=sidebar><h2>目次</h2><nav id=TableOfContents><ul><li><a href=#githubのfork>GitHubのfork</a></li><li><a href=#ライセンス>ライセンス</a></li><li><a href=#forkとライセンス>forkとライセンス</a><ul><li><a href=#方法1一行下に自分の著作権表示を追加>方法1　一行下に自分の著作権表示を追加</a></li><li><a href=#方法2ライセンスを併記>方法2　ライセンスを併記</a></li></ul></li><li><a href=#検証>検証</a></li><li><a href=#参考サイト>参考サイト</a></li></ul></nav></div></nav><article class=article><div class="article-container pt-3"><h1>GitHubのforkとライセンス</h1><p class=page-subtitle>forkしたリポジトリのライセンスについて</p><div class=article-metadata><div><span><a href=/authors/juris710/>Juris710</a></span></div><span class=article-date>2020/05/24 投稿
-( 2021/03/16 最終更新 )</span></div><div class="btn-links mb-3"><a class="btn btn-outline-primary btn-page-header" href=/project/opu-virtual-festival-2020/>プロジェクト</a></div></div><div class=article-container><div class=article-style><h1 id=githubのfork>GitHubのfork</h1><p>GitHubにはforkという機能があります。既に存在するリポジトリをコピーして、オリジナルのリポジトリに影響を与えることなく変更を加えることができます。<br>このサイトは<a href=https://github.com/sourcethemes/academic-kickstart target=_blank rel=noopener>Academic Kickstart</a>というリポジトリをforkして開発しています。</p><h1 id=ライセンス>ライセンス</h1><p>GitHubのリポジトリにはたいてい、LICENSEという名前のファイルがあります。ライセンスはそのプログラムの改変・商用利用などをしても良いかなどを記したファイルで、何を許可するかによって様々なライセンスが存在します。<br>その中で一番多く用いられているライセンスの１つがMITライセンスです。<a href=https://github.com/sourcethemes/academic-kickstart target=_blank rel=noopener>Academic Kickstart</a>もMITライセンスです。
-MITライセンスが設定されたリポジトリは、以下の2つを守れば改変・商用利用など自由に使うことができます。</p><ul><li>元の著作権表示(<code>Copyright (c) 年 作者名</code>)をそのまま掲載すること</li><li>ライセンスの全文（あるいは全文が掲載されたサイトのURL）を掲載すること</li></ul><p>詳しくは<a href=https://wisdommingle.com/mit-license/ target=_blank rel=noopener>このサイト</a>などを参照してください。</p><h1 id=forkとライセンス>forkとライセンス</h1><p>このサイトを開発する中で、「forkしたリポジトリのライセンスはどう変更するべきなのか」という疑問を持ち、検索してみました。その結果わかった2つの方法を紹介します。</p><h2 id=方法1一行下に自分の著作権表示を追加>方法1　一行下に自分の著作権表示を追加</h2><details class=spoiler id=spoiler-0><summary>方法1</summary><p><pre><code class=language-md>The MIT License (MIT)
+<!doctype html><html lang=ja>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=generator content="Wowchemy 5.1.0 for Hugo">
+<meta name=author content="Juris710">
+<meta name=description content="GitHubを使ったことのある人向け">
+<link rel=alternate hreflang=ja href=https://blog.opuappnavi.com/post/github-fork-mit/>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<meta name=theme-color content="hsl(339, 90%, 68%)">
+<script src=/js/mathjax-config.js></script>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin=anonymous>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin=anonymous>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/qtcreator_dark.min.css crossorigin=anonymous title=hl-light media=print onload="this.media='all'">
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/qtcreator_dark.min.css crossorigin=anonymous title=hl-dark media=print onload="this.media='all'" disabled>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin=anonymous media=print onload="this.media='all'">
+<script src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js integrity crossorigin=anonymous async></script>
+<link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP&family=Roboto&display=swap">
+<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP&family=Roboto&display=swap" media=print onload="this.media='all'">
+<link rel=stylesheet href=/css/wowchemy.b1aec094aa0bcce5645f6b005922050f.css>
+<link rel=manifest href=/index.webmanifest>
+<link rel=icon type=image/png href=/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_32x32_fill_lanczos_center_3.png>
+<link rel=apple-touch-icon type=image/png href=/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_180x180_fill_lanczos_center_3.png>
+<link rel=canonical href=https://blog.opuappnavi.com/post/github-fork-mit/>
+<meta property="twitter:card" content="summary">
+<meta property="og:site_name" content="アプリNaviブログ">
+<meta property="og:url" content="https://blog.opuappnavi.com/post/github-fork-mit/">
+<meta property="og:title" content="GitHubのforkとライセンス | アプリNaviブログ">
+<meta property="og:description" content="GitHubを使ったことのある人向け"><meta property="og:image" content="https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_3.png">
+<meta property="twitter:image" content="https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="ja">
+<meta property="article:published_time" content="2020-05-24T22:37:45+09:00">
+<meta property="article:modified_time" content="2021-03-16T23:15:59+09:00">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.opuappnavi.com/post/github-fork-mit/"},"headline":"GitHubのforkとライセンス","datePublished":"2020-05-24T22:37:45+09:00","dateModified":"2021-03-16T23:15:59+09:00","author":{"@type":"Person","name":"Juris710"},"publisher":{"@type":"Organization","name":"アプリNavi","logo":{"@type":"ImageObject","url":"https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_192x192_fill_lanczos_center_3.png"}},"description":"GitHubを使ったことのある人向け"}</script>
+<title>GitHubのforkとライセンス | アプリNaviブログ</title>
+</head>
+<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class="page-wrapper dark" data-wc-page-id=7c034dd1da9164f3121daa4cee640615>
+<script src=/js/wowchemy-init.min.1a0a54ed5f186bbc07f78d69935390af.js></script>
+<aside class=search-modal id=search>
+<div class=container>
+<section class=search-header>
+<div class="row no-gutters justify-content-between mb-3">
+<div class=col-6>
+<h1>Search</h1>
+</div>
+<div class="col-6 col-search-close">
+<a class=js-search href=# aria-label=Close><i class="fas fa-times-circle text-muted" aria-hidden=true></i></a>
+</div>
+</div>
+<div id=search-box>
+<input name=q id=search-query placeholder=検索 autocapitalize=off autocomplete=off autocorrect=off spellcheck=false type=search class=form-control aria-label=検索>
+</div>
+</section>
+<section class=section-search-results>
+<div id=search-hits>
+</div>
+</section>
+</div>
+</aside>
+<div class=page-header>
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main>
+<div class=container-xl>
+<div class="d-none d-lg-inline-flex">
+<a class=navbar-brand href=/>アプリNaviブログ</a>
+</div>
+<button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar-content aria-expanded=false aria-label=ナビゲーションの切り替え>
+<span><i class="fas fa-bars"></i></span>
+</button>
+<div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+<a class=navbar-brand href=/>アプリNaviブログ</a>
+</div>
+<div class="navbar-collapse main-menu-item collapse justify-content-end" id=navbar-content>
+<ul class="navbar-nav d-md-inline-flex">
+<li class=nav-item>
+<a class=nav-link href=/about><span>About</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/authors><span>Authors</span></a>
+</li>
+<li class=nav-item>
+<a class="nav-link active" href=/post><span>Posts</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/project><span>Projects</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/category/%e4%bd%9c%e5%93%81%e7%b4%b9%e4%bb%8b><span>Works</span></a>
+</li>
+</ul>
+</div>
+<ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+<li class=nav-item>
+<a class="nav-link js-search" href=# aria-label=Search><i class="fas fa-search" aria-hidden=true></i></a>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+<div class=page-body>
+<div class=post-container>
+<nav class=sidebar-wrap>
+<div class=sidebar>
+<h2>目次</h2>
+<nav id=TableOfContents>
+<ul>
+<li><a href=#githubのfork>GitHubのfork</a></li>
+<li><a href=#ライセンス>ライセンス</a></li>
+<li><a href=#forkとライセンス>forkとライセンス</a>
+<ul>
+<li><a href=#方法1一行下に自分の著作権表示を追加>方法1　一行下に自分の著作権表示を追加</a></li>
+<li><a href=#方法2ライセンスを併記>方法2　ライセンスを併記</a></li>
+</ul>
+</li>
+<li><a href=#検証>検証</a></li>
+<li><a href=#参考サイト>参考サイト</a></li>
+</ul>
+</nav>
+</div>
+</nav>
+<article class=article>
+<div class="article-container pt-3">
+<h1>GitHubのforkとライセンス</h1>
+<p class=page-subtitle>forkしたリポジトリのライセンスについて</p>
+<div class=article-metadata>
+<div>
+<span>
+<a href=/authors/juris710/>Juris710</a></span>
+</div>
+<span class=article-date>
+2020/05/24 投稿
+( 2021/03/16 最終更新 )
+</span>
+</div>
+<div class="btn-links mb-3">
+<a class="btn btn-outline-primary btn-page-header" href=/project/opu-virtual-festival-2020/>
+プロジェクト
+</a>
+</div>
+</div>
+<div class=article-container>
+<div class=article-style>
+<h1 id=githubのfork>GitHubのfork</h1>
+<p>GitHubにはforkという機能があります。既に存在するリポジトリをコピーして、オリジナルのリポジトリに影響を与えることなく変更を加えることができます。<br>
+このサイトは<a href=https://github.com/sourcethemes/academic-kickstart target=_blank rel=noopener>Academic Kickstart</a>というリポジトリをforkして開発しています。</p>
+<h1 id=ライセンス>ライセンス</h1>
+<p>GitHubのリポジトリにはたいてい、LICENSEという名前のファイルがあります。ライセンスはそのプログラムの改変・商用利用などをしても良いかなどを記したファイルで、何を許可するかによって様々なライセンスが存在します。<br>
+その中で一番多く用いられているライセンスの１つがMITライセンスです。<a href=https://github.com/sourcethemes/academic-kickstart target=_blank rel=noopener>Academic Kickstart</a>もMITライセンスです。
+MITライセンスが設定されたリポジトリは、以下の2つを守れば改変・商用利用など自由に使うことができます。</p>
+<ul>
+<li>元の著作権表示(<code>Copyright (c) 年 作者名</code>)をそのまま掲載すること</li>
+<li>ライセンスの全文（あるいは全文が掲載されたサイトのURL）を掲載すること</li>
+</ul>
+<p>詳しくは<a href=https://wisdommingle.com/mit-license/ target=_blank rel=noopener>このサイト</a>などを参照してください。</p>
+<h1 id=forkとライセンス>forkとライセンス</h1>
+<p>このサイトを開発する中で、「forkしたリポジトリのライセンスはどう変更するべきなのか」という疑問を持ち、検索してみました。その結果わかった2つの方法を紹介します。</p>
+<h2 id=方法1一行下に自分の著作権表示を追加>方法1　一行下に自分の著作権表示を追加</h2>
+<details class=spoiler id=spoiler-0>
+<summary>方法1</summary>
+<p><pre><code class=language-md>The MIT License (MIT)
 
 Copyright (c) 年 foo
 
@@ -22,7 +177,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-</code></pre><p>上のようなライセンスのリポジトリをforkする場合、次のように変更します。</p><pre><code class=language-md>The MIT License (MIT)
+</code></pre>
+<p>上のようなライセンスのリポジトリをforkする場合、次のように変更します。</p>
+<pre><code class=language-md>The MIT License (MIT)
 
 Copyright (c) 年 foo
 Copyright (c) 年 作者名(自分)
@@ -44,7 +201,13 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-</code></pre></p></details><h2 id=方法2ライセンスを併記>方法2　ライセンスを併記</h2><details class=spoiler id=spoiler-1><summary>方法2</summary><p><pre><code class=language-md>The MIT License (MIT)
+</code></pre>
+</p>
+</details>
+<h2 id=方法2ライセンスを併記>方法2　ライセンスを併記</h2>
+<details class=spoiler id=spoiler-1>
+<summary>方法2</summary>
+<p><pre><code class=language-md>The MIT License (MIT)
 
 Copyright (c) 年 foo
 
@@ -65,7 +228,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-</code></pre><p>上のようなライセンスのリポジトリをforkする場合、書き方は色々ありますが、例えば次のように変更します。</p><pre><code class=language-md>The MIT License (MIT)
+</code></pre>
+<p>上のようなライセンスのリポジトリをforkする場合、書き方は色々ありますが、例えば次のように変更します。</p>
+<pre><code class=language-md>The MIT License (MIT)
 
 Copyright (c) 年 作者名(自分)
 
@@ -110,9 +275,163 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-</code></pre><p>GitHubはライセンスの種類を認識し、説明を表示する機能があります。この方法だとGitHubがMITライセンスだと認識してくれないという問題があります。</p></p></details><h1 id=検証>検証</h1><p>forkしたリポジトリのライセンス変更に、実際どのような方法が取られているか検証することにしました。検証するリポジトリは<a href=https://github.com/tokyo-metropolitan-gov/covid19 target=_blank rel=noopener>東京都コロナウイルス対策サイト</a>です。GitHubにMITライセンスのリポジトリが公開されており、多くの都道府県が(公式 / 非公式で)このリポジトリをforkした対策サイトを作成しています。<a href=https://github.com/tokyo-metropolitan-gov/covid19/blob/development/FORKED_SITES.md target=_blank rel=noopener>派生したサイト一覧</a>に掲載されているリポジトリについて、<code>master</code>ブランチの<code>LICENSE.txt</code>の権利表記を比較すると、以下のような結果になりました。</p><table><thead><tr><th style=text-align:center>著作権表示に加えられた変更</th><th style=text-align:center>リポジトリ数</th></tr></thead><tbody><tr><td style=text-align:center>そのまま<sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup></td><td style=text-align:center>51</td></tr><tr><td style=text-align:center>書き換え</td><td style=text-align:center>7</td></tr><tr><td style=text-align:center>方法1</td><td style=text-align:center>1</td></tr><tr><td style=text-align:center>方法2</td><td style=text-align:center>0</td></tr></tbody></table><p>東京都のリポジトリの権利表記<code>Copyright (c) 2020 Tokyo Metropolitan Government and other contributors.</code>をforkした側の名前に書き換えているリポジトリがいくつかありました。厳密に言えばこれはMITライセンスの規約違反になるので意外でした。「コロナ対策サイト」で著作権の問題は起こらないでしょうから、ライセンス関連はあまり気にしていないのかもしれません。</p><h1 id=参考サイト>参考サイト</h1><ul><li><a href=https://help.github.com/ja/github/getting-started-with-github/fork-a-repo>https://help.github.com/ja/github/getting-started-with-github/fork-a-repo</a></li><li><a href=https://wisdommingle.com/mit-license/>https://wisdommingle.com/mit-license/</a></li><li><a href=https://gist.github.com/fbaierl/1d740a7925a6e0e608824eb27a429370>https://gist.github.com/fbaierl/1d740a7925a6e0e608824eb27a429370</a></li><li><a href=https://opensource.stackexchange.com/questions/6119/forking-github-repository-mit-what-references-to-the-original-author-should-r>https://opensource.stackexchange.com/questions/6119/forking-github-repository-mit-what-references-to-the-original-author-should-r</a></li><li><a href=https://ja.stackoverflow.com/questions/3040/mit%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E3%81%AE%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E3%82%92%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AF%E3%81%97%E3%81%9F%E5%A0%B4%E5%90%88%E3%81%AE%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E8%A1%A8%E8%A8%98>https://ja.stackoverflow.com/questions/3040/mit%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E3%81%AE%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E3%82%92%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AF%E3%81%97%E3%81%9F%E5%A0%B4%E5%90%88%E3%81%AE%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E8%A1%A8%E8%A8%98</a></li><li><a href=https://softwareengineering.stackexchange.com/questions/277688/if-i-fork-a-project-on-github-that-is-licensed-under-mit-how-to-i-handle-the-at>https://softwareengineering.stackexchange.com/questions/277688/if-i-fork-a-project-on-github-that-is-licensed-under-mit-how-to-i-handle-the-at</a></li></ul><section class=footnotes role=doc-endnotes><hr><ol><li id=fn:1 role=doc-endnote><p>forkした側のライセンスを別ファイルに掲載しているリポジトリを含みます。&#160;<a href=#fnref:1 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li></ol></section></div><div class=article-tags><a class="badge badge-light" href=/tag/github/>GitHub</a></div><div class=share-box aria-hidden=true><ul class=share><li><a href="https://twitter.com/intent/tweet?url=https://blog.opuappnavi.com/post/github-fork-mit/&text=GitHub%e3%81%aefork%e3%81%a8%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9" target=_blank rel=noopener class=share-btn-twitter><i class="fab fa-twitter"></i></a></li><li><a href="https://www.facebook.com/sharer.php?u=https://blog.opuappnavi.com/post/github-fork-mit/&t=GitHub%e3%81%aefork%e3%81%a8%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9" target=_blank rel=noopener class=share-btn-facebook><i class="fab fa-facebook"></i></a></li><li><a href="mailto:?subject=GitHub%e3%81%aefork%e3%81%a8%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9&body=https://blog.opuappnavi.com/post/github-fork-mit/" target=_blank rel=noopener class=share-btn-email><i class="fas fa-envelope"></i></a></li><li><a href="https://www.linkedin.com/shareArticle?url=https://blog.opuappnavi.com/post/github-fork-mit/&title=GitHub%e3%81%aefork%e3%81%a8%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9" target=_blank rel=noopener class=share-btn-linkedin><i class="fab fa-linkedin-in"></i></a></li></ul></div><div class="media author-card content-widget-hr"><a href=/authors/juris710/><img class="avatar mr-3 avatar-circle" src=/authors/juris710/avatar_hu5de0ea20705264e86c3c4da9248d73aa_202133_270x270_fill_q75_lanczos_center.jpg alt=Juris710></a><div class=media-body><h5 class=card-title><a href=/authors/juris710/>Juris710</a></h5><p class=card-text>このサイトの開発者です。</p><ul class=network-icon aria-hidden=true></ul></div></div><div class=article-widget><div class=post-nav><div class=post-nav-item><div class=meta-nav>次へ</div><a href=/post/gas-recommendation/ rel=next>手軽に始める！GAS を使ってみませんか～</a></div><div class=post-nav-item><div class=meta-nav>前へ</div><a href=/post/file-format-should-able-use/ rel=prev>(個人的)プログラマーなら使えたほうがいいファイル形式</a></div></div></div><div class="article-widget content-widget-hr"><h3>関連項目</h3><ul><li><a href=/post/unity-github-pages/>Unity製ゲームをWebで共有する方法</a></li><li><a href=/post/github-for-unity/>GitHub for Unityの紹介</a></li></ul></div></div></article></div><script>let needsCodeHeaderButtonRegex=RegExp(/.*language-(mermaid).*/);function needsCodeHeaderButton(a){return!needsCodeHeaderButtonRegex.test(a.className)}function addCodeTitle(b,c){let a=b.className.match(/.*language-.*:([^ ]+)/);if(a){let d=a[1],b=document.createElement('div');b.className="code-title",b.innerHTML=d,c.appendChild(b)}}function addCopyButton(e,c){let a=document.createElement('div');a.className="code-copied-text",a.innerHTML="コピーしました。";let b=document.createElement('button');b.className="copy-code-button",b.onclick=function(){let b=function(c){c.clipboardData.setData("text/plain",e.textContent),a.classList.add("active"),setTimeout(()=>{a.classList.remove("active")},3e3),c.preventDefault(),document.removeEventListener("copy",b)};document.addEventListener("copy",b),document.execCommand("copy")},c.appendChild(b),c.appendChild(a);let d=document.createElement('span');d.className="icon far fa-clipboard",b.appendChild(d),b.insertAdjacentHTML('beforeend',"&nbsp;&nbsp;COPY")}let multilineCodes=Array.from(document.querySelectorAll("pre>code"));multilineCodes.forEach(a=>{if(needsCodeHeaderButton(a)){let b=document.createElement('div');b.className="code-header",a.parentElement.parentElement.insertBefore(b,a.parentElement),addCodeTitle(a,b),addCopyButton(a,b)}})</script><script>function getNavBarHeight(){let a=$('#navbar-main'),b=a.outerHeight();return b}let bodyClassList=document.body.classList;function scrollTo(a){$('body').addClass('scrolling'),$('html, body').animate({scrollTop:a},600,function(){$('body').removeClass('scrolling')})}function jumpTo(a){let b=Math.ceil($(a).offset().top-getNavBarHeight());scrollTo(b)}function needsSmoothScroll(a){return!a.closest(".spoiler").length}function registerSmoothScrollOnJump(){$('a[href^="#"]').filter(function(){return needsSmoothScroll($(this))}).each(function(c,a){let b=decodeURIComponent(a.hash);b&&$(a).on("click",function(){jumpTo(b)})})}window.addEventListener('DOMContentLoaded',function(){registerSmoothScrollOnJump(),location.hash&&jumpTo(decodeURIComponent(location.hash))})</script></div><div class=page-footer><div class=container><footer class=site-footer><p class=powered-by>©Juris710 2021</p><p class=powered-by>Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target=_blank rel=noopener>Wowchemy</a> — the free, <a href=https://github.com/wowchemy/wowchemy-hugo-modules target=_blank rel=noopener>open source</a> website builder that empowers creators.</p></footer></div></div><div id=modal class="modal fade" role=dialog><div class=modal-dialog><div class=modal-content><div class=modal-header><h5 class=modal-title>引用</h5><button type=button class=close data-dismiss=modal aria-label=Close>
-<span aria-hidden=true>&#215;</span></button></div><div class=modal-body><pre><code class="tex hljs"></code></pre></div><div class=modal-footer><a class="btn btn-outline-primary my-1 js-copy-cite" href=# target=_blank><i class="fas fa-copy"></i> コピー</a>
-<a class="btn btn-outline-primary my-1 js-download-cite" href=# target=_blank><i class="fas fa-download"></i> ダウンロード</a><div id=modal-error></div></div></div></div></div><script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.8.4/mermaid.min.js integrity="sha512-as1BF4+iHZ3BVO6LLDQ7zrbvTXM+c/1iZ1qII/c3c4L8Rn5tHLpFUtpaEtBNS92f+xGsCzsD7b62XP3XYap6oA==" crossorigin=anonymous title=mermaid></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin=anonymous></script><script id=search-hit-fuse-template type=text/x-template>
+</code></pre>
+<p>GitHubはライセンスの種類を認識し、説明を表示する機能があります。この方法だとGitHubがMITライセンスだと認識してくれないという問題があります。</p>
+</p>
+</details>
+<h1 id=検証>検証</h1>
+<p>forkしたリポジトリのライセンス変更に、実際どのような方法が取られているか検証することにしました。検証するリポジトリは<a href=https://github.com/tokyo-metropolitan-gov/covid19 target=_blank rel=noopener>東京都コロナウイルス対策サイト</a>です。GitHubにMITライセンスのリポジトリが公開されており、多くの都道府県が(公式 / 非公式で)このリポジトリをforkした対策サイトを作成しています。<a href=https://github.com/tokyo-metropolitan-gov/covid19/blob/development/FORKED_SITES.md target=_blank rel=noopener>派生したサイト一覧</a>に掲載されているリポジトリについて、<code>master</code>ブランチの<code>LICENSE.txt</code>の権利表記を比較すると、以下のような結果になりました。</p>
+<table>
+<thead>
+<tr>
+<th style=text-align:center>著作権表示に加えられた変更</th>
+<th style=text-align:center>リポジトリ数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style=text-align:center>そのまま<sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup></td>
+<td style=text-align:center>51</td>
+</tr>
+<tr>
+<td style=text-align:center>書き換え</td>
+<td style=text-align:center>7</td>
+</tr>
+<tr>
+<td style=text-align:center>方法1</td>
+<td style=text-align:center>1</td>
+</tr>
+<tr>
+<td style=text-align:center>方法2</td>
+<td style=text-align:center>0</td>
+</tr>
+</tbody>
+</table>
+<p>東京都のリポジトリの権利表記<code>Copyright (c) 2020 Tokyo Metropolitan Government and other contributors.</code>をforkした側の名前に書き換えているリポジトリがいくつかありました。厳密に言えばこれはMITライセンスの規約違反になるので意外でした。「コロナ対策サイト」で著作権の問題は起こらないでしょうから、ライセンス関連はあまり気にしていないのかもしれません。</p>
+<h1 id=参考サイト>参考サイト</h1>
+<ul>
+<li><a href=https://help.github.com/ja/github/getting-started-with-github/fork-a-repo target=_blank rel=noopener>https://help.github.com/ja/github/getting-started-with-github/fork-a-repo</a></li>
+<li><a href=https://wisdommingle.com/mit-license/ target=_blank rel=noopener>https://wisdommingle.com/mit-license/</a></li>
+<li><a href=https://gist.github.com/fbaierl/1d740a7925a6e0e608824eb27a429370 target=_blank rel=noopener>https://gist.github.com/fbaierl/1d740a7925a6e0e608824eb27a429370</a></li>
+<li><a href=https://opensource.stackexchange.com/questions/6119/forking-github-repository-mit-what-references-to-the-original-author-should-r target=_blank rel=noopener>https://opensource.stackexchange.com/questions/6119/forking-github-repository-mit-what-references-to-the-original-author-should-r</a></li>
+<li><a href=https://ja.stackoverflow.com/questions/3040/mit%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E3%81%AE%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E3%82%92%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AF%E3%81%97%E3%81%9F%E5%A0%B4%E5%90%88%E3%81%AE%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E8%A1%A8%E8%A8%98 target=_blank rel=noopener>https://ja.stackoverflow.com/questions/3040/mit%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E3%81%AE%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E3%82%92%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AF%E3%81%97%E3%81%9F%E5%A0%B4%E5%90%88%E3%81%AE%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9%E8%A1%A8%E8%A8%98</a></li>
+<li><a href=https://softwareengineering.stackexchange.com/questions/277688/if-i-fork-a-project-on-github-that-is-licensed-under-mit-how-to-i-handle-the-at target=_blank rel=noopener>https://softwareengineering.stackexchange.com/questions/277688/if-i-fork-a-project-on-github-that-is-licensed-under-mit-how-to-i-handle-the-at</a></li>
+</ul>
+<section class=footnotes role=doc-endnotes>
+<hr>
+<ol>
+<li id=fn:1 role=doc-endnote>
+<p>forkした側のライセンスを別ファイルに掲載しているリポジトリを含みます。&#160;<a href=#fnref:1 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+</div>
+<div class=article-tags>
+<a class="badge badge-light" href=/tag/github/>GitHub</a>
+</div>
+<div class=share-box aria-hidden=true>
+<ul class=share>
+<li>
+<a href="https://twitter.com/intent/tweet?url=https://blog.opuappnavi.com/post/github-fork-mit/&text=GitHub%e3%81%aefork%e3%81%a8%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9" target=_blank rel=noopener class=share-btn-twitter>
+<i class="fab fa-twitter"></i>
+</a>
+</li>
+<li>
+<a href="https://www.facebook.com/sharer.php?u=https://blog.opuappnavi.com/post/github-fork-mit/&t=GitHub%e3%81%aefork%e3%81%a8%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9" target=_blank rel=noopener class=share-btn-facebook>
+<i class="fab fa-facebook"></i>
+</a>
+</li>
+<li>
+<a href="mailto:?subject=GitHub%e3%81%aefork%e3%81%a8%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9&body=https://blog.opuappnavi.com/post/github-fork-mit/" target=_blank rel=noopener class=share-btn-email>
+<i class="fas fa-envelope"></i>
+</a>
+</li>
+<li>
+<a href="https://www.linkedin.com/shareArticle?url=https://blog.opuappnavi.com/post/github-fork-mit/&title=GitHub%e3%81%aefork%e3%81%a8%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9" target=_blank rel=noopener class=share-btn-linkedin>
+<i class="fab fa-linkedin-in"></i>
+</a>
+</li>
+</ul>
+</div>
+<div class="media author-card content-widget-hr">
+<a href=/authors/juris710/><img class="avatar mr-3 avatar-circle" src=/authors/juris710/avatar_hu5de0ea20705264e86c3c4da9248d73aa_202133_270x270_fill_q75_lanczos_center.jpg alt=Juris710></a>
+<div class=media-body>
+<h5 class=card-title><a href=/authors/juris710/>Juris710</a></h5>
+<p class=card-text>このサイトの開発者です。</p>
+<ul class=network-icon aria-hidden=true>
+</ul>
+</div>
+</div>
+<div class=article-widget>
+<div class=post-nav>
+<div class=post-nav-item>
+<div class=meta-nav>次へ</div>
+<a href=/post/gas-recommendation/ rel=next>手軽に始める！GAS を使ってみませんか～</a>
+</div>
+<div class=post-nav-item>
+<div class=meta-nav>前へ</div>
+<a href=/post/file-format-should-able-use/ rel=prev>(個人的)プログラマーなら使えたほうがいいファイル形式</a>
+</div>
+</div>
+</div>
+<div class="article-widget content-widget-hr">
+<h3>関連項目</h3>
+<ul>
+<li><a href=/post/unity-github-pages/>Unity製ゲームをWebで共有する方法</a></li>
+<li><a href=/post/github-for-unity/>GitHub for Unityの紹介</a></li>
+</ul>
+</div>
+</div>
+</article>
+</div>
+<script>let needsCodeHeaderButtonRegex=RegExp(/.*language-(mermaid).*/);function needsCodeHeaderButton(a){return!needsCodeHeaderButtonRegex.test(a.className)}function addCodeTitle(b,c){let a=b.className.match(/.*language-.*:([^ ]+)/);if(a){let d=a[1],b=document.createElement('div');b.className="code-title",b.innerHTML=d,c.appendChild(b)}}function addCopyButton(e,c){let a=document.createElement('div');a.className="code-copied-text",a.innerHTML="コピーしました。";let b=document.createElement('button');b.className="copy-code-button",b.onclick=function(){let b=function(c){c.clipboardData.setData("text/plain",e.textContent),a.classList.add("active"),setTimeout(()=>{a.classList.remove("active")},3e3),c.preventDefault(),document.removeEventListener("copy",b)};document.addEventListener("copy",b),document.execCommand("copy")},c.appendChild(b),c.appendChild(a);let d=document.createElement('span');d.className="icon far fa-clipboard",b.appendChild(d),b.insertAdjacentHTML('beforeend',"&nbsp;&nbsp;COPY")}let multilineCodes=Array.from(document.querySelectorAll("pre>code"));multilineCodes.forEach(a=>{if(needsCodeHeaderButton(a)){let b=document.createElement('div');b.className="code-header",a.parentElement.parentElement.insertBefore(b,a.parentElement),addCodeTitle(a,b),addCopyButton(a,b)}})</script>
+<script>function getNavBarHeight(){let a=$('#navbar-main'),b=a.outerHeight();return b}let bodyClassList=document.body.classList;function scrollTo(a){$('body').addClass('scrolling'),$('html, body').animate({scrollTop:a},600,function(){$('body').removeClass('scrolling')})}function jumpTo(a){let b=Math.ceil($(a).offset().top-getNavBarHeight());scrollTo(b)}function needsSmoothScroll(a){return!a.closest(".spoiler").length}function registerSmoothScrollOnJump(){$('a[href^="#"]').filter(function(){return needsSmoothScroll($(this))}).each(function(c,a){let b=decodeURIComponent(a.hash);b&&$(a).on("click",function(){jumpTo(b)})})}window.addEventListener('DOMContentLoaded',function(){registerSmoothScrollOnJump(),location.hash&&jumpTo(decodeURIComponent(location.hash))})</script>
+</div>
+<div class=page-footer>
+<div class=container>
+<footer class=site-footer>
+<p class=powered-by>
+©Juris710 2021
+</p>
+<p class=powered-by>
+Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target=_blank rel=noopener>Wowchemy</a> — the free, <a href=https://github.com/wowchemy/wowchemy-hugo-modules target=_blank rel=noopener>open source</a> website builder that empowers creators.
+</p>
+</footer>
+</div>
+</div>
+<div id=modal class="modal fade" role=dialog>
+<div class=modal-dialog>
+<div class=modal-content>
+<div class=modal-header>
+<h5 class=modal-title>引用</h5>
+<button type=button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span>
+</button>
+</div>
+<div class=modal-body>
+<pre><code class="tex hljs"></code></pre>
+</div>
+<div class=modal-footer>
+<a class="btn btn-outline-primary my-1 js-copy-cite" href=# target=_blank>
+<i class="fas fa-copy"></i> コピー
+</a>
+<a class="btn btn-outline-primary my-1 js-download-cite" href=# target=_blank>
+<i class="fas fa-download"></i> ダウンロード
+</a>
+<div id=modal-error></div>
+</div>
+</div>
+</div>
+</div>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.8.4/mermaid.min.js integrity="sha512-as1BF4+iHZ3BVO6LLDQ7zrbvTXM+c/1iZ1qII/c3c4L8Rn5tHLpFUtpaEtBNS92f+xGsCzsD7b62XP3XYap6oA==" crossorigin=anonymous title=mermaid></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin=anonymous></script>
+<script id=search-hit-fuse-template type=text/x-template>
         <div class="search-hit" id="summary-{{key}}">
           <div class="search-hit-content">
             <div class="search-hit-name">
@@ -122,4 +441,10 @@ SOFTWARE.
             </div>
           </div>
         </div>
-      </script><script src=https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin=anonymous></script><script src=/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js></script><script src=/ja/js/wowchemy.min.9b173bd6350014b87bd227e3168bddfa.js></script></body></html>
+      </script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin=anonymous></script>
+<script src=/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js></script>
+<script src=/ja/js/wowchemy.min.fcee4cab74dbdf8cc5fcb929cde8d9e9.js></script>
+</body>
+</html>

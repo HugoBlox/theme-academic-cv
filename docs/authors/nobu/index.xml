@@ -388,7 +388,7 @@ Logger.log(json[&amp;quot;rest&amp;quot;][0][&amp;quot;name&amp;quot;]);
 &lt;p>あと注意としてはお店のデータが&amp;quot;ぐるなび&amp;quot;と&amp;quot;ぐるなび API&amp;quot; では異なり、思ったような店が出力されないというのがあるのでまずはお試しという形で利用したほうがいいかもしれないです。&lt;/p>
 &lt;h1 id="参考サイト">参考サイト&lt;/h1>
 &lt;p>今さら聞けない IT 用語：やたらと耳にするけど「API」って何？&lt;/p>
-&lt;p>&lt;a href="https://data.wingarc.com/what-is-api-16084">https://data.wingarc.com/what-is-api-16084&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://data.wingarc.com/what-is-api-16084" target="_blank" rel="noopener">https://data.wingarc.com/what-is-api-16084&lt;/a>&lt;/p>
 &lt;h1 id="最後に">最後に&lt;/h1>
 &lt;p>改めて API、WebAPI を用いると簡単に機能が実装できるので、特に開発期間が短いハッカソンなどのイベント時では特に重宝しますし、これらの WebAPI を組み合わせることで、ある程度十分使えるものができるのではと思います。次回のイベントやもちろん普段の開発にでも知らなかった人は使ってみるといいかもしれません！&lt;/p></description></item><item><title>GAS でサクッと採点シート作ってみた</title><link>https://blog.opuappnavi.com/post/gas-scoring/</link><pubDate>Sat, 30 May 2020 10:04:44 +0900</pubDate><guid>https://blog.opuappnavi.com/post/gas-scoring/</guid><description>&lt;p>全然需要ないかもですが、GAS の紹介第二弾です。&lt;/p>
 &lt;p>今回は GAS を使って、以前ハッカソンの採点シートをちゃっと作った話をしたい思います。&lt;/p>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yoshiken | アプリNaviブログ</title><link>https://blog.opuappnavi.com/authors/yoshiken/</link><atom:link href="https://blog.opuappnavi.com/authors/yoshiken/index.xml" rel="self" type="application/rss+xml"/><description>Yoshiken</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>©Juris710 2021</copyright><image><url>https://blog.opuappnavi.com/authors/yoshiken/avatar_hue23e6e46f9b15a70320d89c05462c5d5_146366_270x270_fill_lanczos_center_2.png</url><title>Yoshiken</title><link>https://blog.opuappnavi.com/authors/yoshiken/</link></image><item><title>なぜ基本情報技術者試験の勉強をしないのか？</title><link>https://blog.opuappnavi.com/post/fe-study-recommendation/</link><pubDate>Wed, 17 Jun 2020 00:17:53 +0900</pubDate><guid>https://blog.opuappnavi.com/post/fe-study-recommendation/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yoshiken | アプリNaviブログ</title><link>https://blog.opuappnavi.com/authors/yoshiken/</link><atom:link href="https://blog.opuappnavi.com/authors/yoshiken/index.xml" rel="self" type="application/rss+xml"/><description>Yoshiken</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>©Juris710 2021</copyright><image><url>https://blog.opuappnavi.com/authors/yoshiken/avatar_hue23e6e46f9b15a70320d89c05462c5d5_146366_270x270_fill_lanczos_center_3.png</url><title>Yoshiken</title><link>https://blog.opuappnavi.com/authors/yoshiken/</link></image><item><title>なぜ基本情報技術者試験の勉強をしないのか？</title><link>https://blog.opuappnavi.com/post/fe-study-recommendation/</link><pubDate>Wed, 17 Jun 2020 00:17:53 +0900</pubDate><guid>https://blog.opuappnavi.com/post/fe-study-recommendation/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
 &lt;p>この記事は主に大阪府立大学現代システム科学域知識情報システム学類に所属している学生に向けて、基本情報技術者試験の勉強を推奨するものです。&lt;/p>
 &lt;h1 id="時間がない人向け要約">時間がない人向け要約&lt;/h1>
 &lt;p>基本情報技術者試験の勉強をすると大学の授業内容を分かりやすく先取りできるから成績上がるぞ。オススメ。&lt;/p>
@@ -13,7 +13,7 @@
 &lt;br>
 &lt;p>&lt;img src="./taikei.png" alt="情報処理技術者試験の体系図" title="体系図">&lt;/p>
 &lt;p>&lt;a href="https://www.jitec.ipa.go.jp/1_08gaiyou/_index_gaiyou.html" target="_blank" rel="noopener">IPA 試験区分一覧&lt;/a>
-&lt;a href="https://www.jitec.ipa.go.jp/1_08gaiyou/_index_gaiyou.html">https://www.jitec.ipa.go.jp/1_08gaiyou/_index_gaiyou.html&lt;/a>&lt;/p>
+&lt;a href="https://www.jitec.ipa.go.jp/1_08gaiyou/_index_gaiyou.html" target="_blank" rel="noopener">https://www.jitec.ipa.go.jp/1_08gaiyou/_index_gaiyou.html&lt;/a>&lt;/p>
 &lt;h1 id="基本情報技術者試験とは">基本情報技術者試験とは&lt;/h1>
 &lt;p>基本情報技術者試験とは、情報処理技術者試験の一区分です。
 難易度としては四段階中の二段階目として設定されており、ITエンジニアの登竜門とされているようです。&lt;br>&lt;/p>
@@ -26,7 +26,7 @@
 　(2) システムの設計・開発を行い、又は汎用製品の最適組合せ（インテグレーション）によって、信頼性・生産性の高いシステムを構築する。また、その安定的な運用サービスの実現に貢献する。&lt;br>&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;a href="https://www.jitec.ipa.go.jp/1_11seido/fe.html" target="_blank" rel="noopener">IPA 基本情報技術者試験&lt;/a>
-&lt;a href="https://www.jitec.ipa.go.jp/1_11seido/fe.html">https://www.jitec.ipa.go.jp/1_11seido/fe.html&lt;/a>&lt;/p>
+&lt;a href="https://www.jitec.ipa.go.jp/1_11seido/fe.html" target="_blank" rel="noopener">https://www.jitec.ipa.go.jp/1_11seido/fe.html&lt;/a>&lt;/p>
 &lt;h1 id="基本情報技術者試験の勉強をオススメする理由">基本情報技術者試験の勉強をオススメする理由&lt;/h1>
 &lt;p>理由はシンプルで、知識情報システム学類の専門科目の内容が基本情報技術者試験の内容と被るところが多いからです。このため基本情報技術者試験の勉強は、新入生にとって専門科目の良い予習となり、在学生にとっては専門科目の良い復習となります。&lt;br>&lt;/p>
 &lt;p>私は二年生の後期から基本情報技術者試験の勉強を始めましたが、その内容は大学の専門科目の範囲と重なる部分がとても多く、良い専門科目の予習と復習になりました。また大学の教科書よりも基本情報技術者試験の参考書の方が分かりやすかったため、大学の授業中に基本情報技術者の参考書を開くことも少なくありませんでした。&lt;/p>

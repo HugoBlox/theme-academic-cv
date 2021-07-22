@@ -221,10 +221,16 @@
         case 0:
           localStorage.setItem("wcTheme", "0"), a2 = false, console.debug("User changed theme variation to Light.");
           break;
+          localStorage.setItem("wcTheme", "0"), a2 = false, console.debug("User changed theme variation to Light.");
+          break;
         case 1:
           localStorage.setItem("wcTheme", "1"), a2 = true, console.debug("User changed theme variation to Dark.");
           break;
+          localStorage.setItem("wcTheme", "1"), a2 = true, console.debug("User changed theme variation to Dark.");
+          break;
         default:
+          localStorage.setItem("wcTheme", "2"), window.matchMedia("(prefers-color-scheme: dark)").matches ? a2 = true : window.matchMedia("(prefers-color-scheme: light)").matches ? a2 = false : a2 = window.wc.isSiteThemeDark, console.debug("User changed theme variation to Auto.");
+          break;
           localStorage.setItem("wcTheme", "2"), window.matchMedia("(prefers-color-scheme: dark)").matches ? a2 = true : window.matchMedia("(prefers-color-scheme: light)").matches ? a2 = false : a2 = window.wc.isSiteThemeDark, console.debug("User changed theme variation to Auto.");
           break;
       }
@@ -238,10 +244,16 @@
         case 0:
           a2.classList.add("dropdown-item-active"), b2.classList.remove("dropdown-item-active"), c2.classList.remove("dropdown-item-active");
           break;
+          a2.classList.add("dropdown-item-active"), b2.classList.remove("dropdown-item-active"), c2.classList.remove("dropdown-item-active");
+          break;
         case 1:
           a2.classList.remove("dropdown-item-active"), b2.classList.add("dropdown-item-active"), c2.classList.remove("dropdown-item-active");
           break;
+          a2.classList.remove("dropdown-item-active"), b2.classList.add("dropdown-item-active"), c2.classList.remove("dropdown-item-active");
+          break;
         default:
+          a2.classList.remove("dropdown-item-active"), b2.classList.remove("dropdown-item-active"), c2.classList.add("dropdown-item-active");
+          break;
           a2.classList.remove("dropdown-item-active"), b2.classList.remove("dropdown-item-active"), c2.classList.add("dropdown-item-active");
           break;
       }

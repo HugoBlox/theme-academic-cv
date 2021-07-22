@@ -1,20 +1,145 @@
-<!doctype html><html lang=ja><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=generator content="Wowchemy 5.1.0 for Hugo"><link rel=manifest href=/index.webmanifest><link rel=icon type=image/png href=/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_32x32_fill_lanczos_center_2.png><link rel=apple-touch-icon type=image/png href=/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_192x192_fill_lanczos_center_2.png><link rel=canonical href=https://blog.opuappnavi.com/slides/slide-introduction/><title>スライドの書き方 | アプリNaviブログ</title><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.css><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/theme/black.min.css><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css crossorigin=anonymous id=highlight-theme><link rel=stylesheet href=/css/reveal_custom.min.css></head><body><div class=reveal><div class=slides><section><h1 id=スライド機能>スライド機能</h1><p>Markdown記法＋αでスライドを作成することができます。</p></section><section><h2 id=操作方法>操作方法</h2><ul><li>次のスライド: <code>Right Arrow</code> または <code>Space</code></li><li>前のスライド: <code>Left Arrow</code></li><li>最初のスライド: <code>Home</code></li><li>最後のスライド: <code>End</code></li><li>一覧表示: <code>Esc</code></li><li>スピーカーノート: <code>S</code></li><li>フルスクリーン: <code>F</code></li><li>ズーム: <code>Alt + Click</code></li></ul></section><section><h2 id=シンタックスハイライト機能>シンタックスハイライト機能</h2><p>インラインコード:<code>print("Hello, World!")</code></p><pre><code class=language-c>#include&lt;stdio.h&gt;
+<!doctype html><html lang=ja>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=generator content="Wowchemy 5.1.0 for Hugo">
+<link rel=manifest href=/index.webmanifest>
+<link rel=icon type=image/png href=/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_32x32_fill_lanczos_center_3.png>
+<link rel=apple-touch-icon type=image/png href=/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_192x192_fill_lanczos_center_3.png>
+<link rel=canonical href=https://blog.opuappnavi.com/slides/slide-introduction/>
+<title>スライドの書き方 | アプリNaviブログ</title>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.css><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/theme/black.min.css><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css crossorigin=anonymous id=highlight-theme>
+<link rel=stylesheet href=/css/reveal_custom.min.css>
+</head>
+<body>
+<div class=reveal>
+<div class=slides>
+<section>
+<h1 id=スライド機能>スライド機能</h1>
+<p>Markdown記法＋αでスライドを作成することができます。</p>
+</section>
+<section>
+<h2 id=操作方法>操作方法</h2>
+<ul>
+<li>次のスライド: <code>Right Arrow</code> または <code>Space</code></li>
+<li>前のスライド: <code>Left Arrow</code></li>
+<li>最初のスライド: <code>Home</code></li>
+<li>最後のスライド: <code>End</code></li>
+<li>一覧表示: <code>Esc</code></li>
+<li>スピーカーノート: <code>S</code></li>
+<li>フルスクリーン: <code>F</code></li>
+<li>ズーム: <code>Alt + Click</code></li>
+</ul>
+</section>
+<section>
+<h2 id=シンタックスハイライト機能>シンタックスハイライト機能</h2>
+<p>インラインコード:<code>print("Hello, World!")</code></p>
+<pre><code class=language-c>#include&lt;stdio.h&gt;
 int main(void){
   printf(&quot;Hello, World!&quot;);
   return 0;
 }
-</code></pre></section><section><section><h2 id=数式表示>数式表示</h2><p>インライン表示:$ F=G\frac{Mm}{r^2} $</p><p>$$
+</code></pre>
+</section>
+<section>
+<section>
+<h2 id=数式表示>数式表示</h2>
+<p>インライン表示:$ F=G\frac{Mm}{r^2} $</p>
+<p>$$
 F=G\frac{Mm}{r^2}
-$$</p></section><section><h2 id=縦スクロール>縦スクロール</h2><p>補足情報など</p></section></section><section><section><h2 id=fragments>Fragments</h2><p>後からコンテンツを表示します</p><pre><code class=language-md>{{% fragment %}} One {{% /fragment %}}
+$$</p>
+</section>
+<section>
+<h2 id=縦スクロール>縦スクロール</h2>
+<p>補足情報など</p>
+</section>
+</section>
+<section>
+<section>
+<h2 id=fragments>Fragments</h2>
+<p>後からコンテンツを表示します</p>
+<pre><code class=language-md>{{% fragment %}} One {{% /fragment %}}
 {{% fragment %}} **Two** {{% /fragment %}}
 {{% fragment %}} Three {{% /fragment %}}
-</code></pre><p><code>Right Arrow</code>か<code>Space</code>を押すと現れます</p><p><span class=fragment>One</span>
-<span class=fragment><strong>Two</strong></span>
-<span class=fragment>Three</span></p></section><section><h3 id=fragments補足>Fragments補足</h3><p>A fragment can accept two optional parameters:</p><ul><li><code>class</code>: use a custom style (requires definition in custom CSS)</li><li><code>weight</code>: sets the order in which a fragment appears</li></ul></section></section><section><h2 id=スピーカーノート>スピーカーノート</h2><p>スピーカーノートを追加できます</p><pre><code class=language-md>{{% speaker_note %}}
+</code></pre>
+<p><code>Right Arrow</code>か<code>Space</code>を押すと現れます</p>
+<p><span class=fragment>
+One
+</span>
+<span class=fragment>
+<strong>Two</strong>
+</span>
+<span class=fragment>
+Three
+</span></p>
+</section>
+<section>
+<h3 id=fragments補足>Fragments補足</h3>
+<p>A fragment can accept two optional parameters:</p>
+<ul>
+<li><code>class</code>: use a custom style (requires definition in custom CSS)</li>
+<li><code>weight</code>: sets the order in which a fragment appears</li>
+</ul>
+</section>
+</section>
+<section>
+<h2 id=スピーカーノート>スピーカーノート</h2>
+<p>スピーカーノートを追加できます</p>
+<pre><code class=language-md>{{% speaker_note %}}
 - スピーカーだけが見れるメモです
 - `S`を押さないとみれません
 {{% /speaker_note %}}
-</code></pre><p><code>S</code>を押すとスピーカーノートを見れます</p><aside class=notes><ul><li>スピーカーだけが見れるメモです</li><li><code>S</code>を押さないとみれません</li></ul></aside></section><section data-noprocess data-shortcode-slide data-background-image=/img/hero.jpg><h2 id=スライドのカスタマイズ>スライドのカスタマイズ</h2><pre><code class=language-md>{{&lt; slide background-image=&quot;/img/画像名&quot; &gt;}}
-</code></pre><pre><code class=language-md>{{&lt; slide background-color=&quot;#0000FF&quot; &gt;}}
-</code></pre><pre><code class=language-md>{{&lt; slide class=&quot;my-style&quot; &gt;}}
-</code></pre></section><section><section><h2 id=themes>Themes</h2><ul><li>black: Black background, white text, blue links (default)</li><li>white: White background, black text, blue links</li><li>league: Gray background, white text, blue links</li><li>beige: Beige background, dark text, brown links</li><li>sky: Blue background, thin dark text, blue links</li></ul></section><section><ul><li>night: Black background, thick white text, orange links</li><li>serif: Cappuccino background, gray text, brown links</li><li>simple: White background, black text, blue links</li><li>solarized: Cream-colored background, dark green text, blue links</li></ul></section></section></div></div><script src=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.js integrity="sha512-Xu/cezKABTI81MGnaBm64vdiS7XkttHeYGOgr2Mdga0bTplSBGongLq2lhK2HwL79wefKM0u4uTCLD0ha1sRzQ==" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/markdown/markdown.min.js integrity="sha512-eZZqO4ECmVvGhCt+6VZ7ian2bCu4S6yrjSFH9fXLY1zTokpAWsxAxQwM4x6+7G+G4ha5tFIe0jY0XjpBUqS49Q==" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/highlight.min.js integrity="sha512-NA5UCab7xDKQPXGsmIp8iEuId5BAKGPiqHZsZQcBuySfp1n3dZrwBDKpPNL23Db5upay1nULxU14JV1ggFOD2A==" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/notes/notes.min.js integrity="sha512-FYeeQscKqibmYKr0+nE2+fN5prBsFwgjsBVwkrA88O6mN2+ai6EvRkSi6txuhXlWsyK1MUfoV+94+q6HLouJSQ==" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/search/search.min.js integrity="sha512-2yh3Y2gEdboEnZb9d0QZP05N3e0jTkcjhbG9xYL97mbnZ53IXzF5R2TCTmSrtuspDyJ5FWBSh+8izjiGjVdLWw==" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/math/math.min.js integrity="sha512-FUzQmRJDLL111zqJg/vN1YzQFQtZNWfBH2VaOiv30dXRXgaTRn3F/Ibda92klSAVjfz3Q9UqS88R4RF4Ip01fQ==" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/zoom/zoom.min.js integrity="sha512-zPYOPjR7Hg9BPUYkfNlvVtrC37QlYwq/7mI42VTuXKTcNBp7QvMfuqUTMesOf74OrZ3AEdxJGndGSrJG9O2j5Q==" crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/plugin.js integrity="sha256-M6JwAjnRAWmi+sbXURR/yAhWZKYhAw7YXnnLvIxrdGs=" crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.js integrity="sha256-l14dklFcW5mWar6w/9KaW0fWVerf3mYr7Wt0+rXzFAA=" crossorigin=anonymous></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.css integrity="sha256-0fU8HKLaTjgzfaV9CgSqbsN8ilA3zo6zK1M6rlgULd8=" crossorigin=anonymous><script src=/js/wowchemy-slides.js></script></body></html>
+</code></pre>
+<p><code>S</code>を押すとスピーカーノートを見れます</p>
+<aside class=notes>
+<ul>
+<li>スピーカーだけが見れるメモです</li>
+<li><code>S</code>を押さないとみれません</li>
+</ul>
+</aside>
+</section>
+<section data-noprocess data-shortcode-slide data-background-image=/img/hero.jpg>
+<h2 id=スライドのカスタマイズ>スライドのカスタマイズ</h2>
+<pre><code class=language-md>{{&lt; slide background-image=&quot;/img/画像名&quot; &gt;}}
+</code></pre>
+<pre><code class=language-md>{{&lt; slide background-color=&quot;#0000FF&quot; &gt;}}
+</code></pre>
+<pre><code class=language-md>{{&lt; slide class=&quot;my-style&quot; &gt;}}
+</code></pre>
+</section>
+<section>
+<section>
+<h2 id=themes>Themes</h2>
+<ul>
+<li>black: Black background, white text, blue links (default)</li>
+<li>white: White background, black text, blue links</li>
+<li>league: Gray background, white text, blue links</li>
+<li>beige: Beige background, dark text, brown links</li>
+<li>sky: Blue background, thin dark text, blue links</li>
+</ul>
+</section>
+<section>
+<ul>
+<li>night: Black background, thick white text, orange links</li>
+<li>serif: Cappuccino background, gray text, brown links</li>
+<li>simple: White background, black text, blue links</li>
+<li>solarized: Cream-colored background, dark green text, blue links</li>
+</ul>
+</section>
+</section>
+</div>
+</div>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.js integrity="sha512-Xu/cezKABTI81MGnaBm64vdiS7XkttHeYGOgr2Mdga0bTplSBGongLq2lhK2HwL79wefKM0u4uTCLD0ha1sRzQ==" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/markdown/markdown.min.js integrity="sha512-eZZqO4ECmVvGhCt+6VZ7ian2bCu4S6yrjSFH9fXLY1zTokpAWsxAxQwM4x6+7G+G4ha5tFIe0jY0XjpBUqS49Q==" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/highlight.min.js integrity="sha512-NA5UCab7xDKQPXGsmIp8iEuId5BAKGPiqHZsZQcBuySfp1n3dZrwBDKpPNL23Db5upay1nULxU14JV1ggFOD2A==" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/notes/notes.min.js integrity="sha512-FYeeQscKqibmYKr0+nE2+fN5prBsFwgjsBVwkrA88O6mN2+ai6EvRkSi6txuhXlWsyK1MUfoV+94+q6HLouJSQ==" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/search/search.min.js integrity="sha512-2yh3Y2gEdboEnZb9d0QZP05N3e0jTkcjhbG9xYL97mbnZ53IXzF5R2TCTmSrtuspDyJ5FWBSh+8izjiGjVdLWw==" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/math/math.min.js integrity="sha512-FUzQmRJDLL111zqJg/vN1YzQFQtZNWfBH2VaOiv30dXRXgaTRn3F/Ibda92klSAVjfz3Q9UqS88R4RF4Ip01fQ==" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/zoom/zoom.min.js integrity="sha512-zPYOPjR7Hg9BPUYkfNlvVtrC37QlYwq/7mI42VTuXKTcNBp7QvMfuqUTMesOf74OrZ3AEdxJGndGSrJG9O2j5Q==" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/plugin.js integrity="sha256-M6JwAjnRAWmi+sbXURR/yAhWZKYhAw7YXnnLvIxrdGs=" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.js integrity="sha256-l14dklFcW5mWar6w/9KaW0fWVerf3mYr7Wt0+rXzFAA=" crossorigin=anonymous></script>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/reveal.js-menu@2.1.0/menu.css integrity="sha256-0fU8HKLaTjgzfaV9CgSqbsN8ilA3zo6zK1M6rlgULd8=" crossorigin=anonymous>
+<script src=/js/wowchemy-slides.js></script>
+</body>
+</html>
