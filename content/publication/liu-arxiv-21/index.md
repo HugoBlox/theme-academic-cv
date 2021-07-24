@@ -16,4 +16,5 @@ projects:
 - programmable-storage
 - eusocial-storage
 - declstore
+- smartnic
 ---
