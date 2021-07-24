@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Carlos Maltzahn
+title: Carlos Maltzahn
 
 # Username (this should match the folder name)
 authors:

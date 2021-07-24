@@ -45,7 +45,7 @@ subtitle = "Google Scholar: [by year](https://scholar.google.com/citations?hl=en
   view = 5
 
   # For Showcase view, flip alternate rows?
-  flip_alt_rows = false 
+  flip_alt_rows = false
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -68,15 +68,15 @@ subtitle = "Google Scholar: [by year](https://scholar.google.com/citations?hl=en
   # text_color_light = true  
 
 [advanced]
- # Custom CSS. 
+ # Custom CSS.
  css_style = ""
 
  # CSS class.
  css_class = ""
 +++
 
-{{< alert note >}}
+{{< callout note >}}
 
 For a current list of tech reports, go to the [Technical Reports of the Jack Baskin School of Engineering](http://www.soe.ucsc.edu/research/technical-reports), click on SEARCH, type in “Carlos Maltzahn” for Keywords and hit Submit. Make sure to also check our [Publications](#publications).
 
-{{< /alert >}}
+{{< /callout >}}

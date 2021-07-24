@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Peter Alvaro
+title: Peter Alvaro
 
 # Username (this should match the folder name)
 authors:
@@ -24,7 +24,7 @@ organizations:
 
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio:
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -47,7 +47,7 @@ social:
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
-  
+
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:

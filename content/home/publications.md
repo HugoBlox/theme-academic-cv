@@ -59,13 +59,13 @@ subtitle = "Google Scholar: [by year](https://scholar.google.com/citations?hl=en
   # text_color_light = true  
 
 [advanced]
- # Custom CSS. 
+ # Custom CSS.
  css_style = ""
 
  # CSS class.
  css_class = ""
 +++
 
-{{< alert note >}}
+{{< callout note >}}
 Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
-{{< /alert >}}
+{{< /callout >}}
