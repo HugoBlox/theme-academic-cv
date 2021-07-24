@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1627165718611.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "6FEF516F",
+    "lastKnownWriteTime" : 1627165449,
+    "last_content_update" : 1627165449,
+    "path" : "E:/GitHub/starter-hugo-academic/content/admin/index.md",
+    "project_path" : "content/admin/index.md",
+    "properties" : {
+        "cursorPosition" : "1,23",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "markdown"
+}

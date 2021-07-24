@@ -1,0 +1,7 @@
+auto_roxygenize_for_build_and_reload="0"
+auto_roxygenize_for_build_package="1"
+auto_roxygenize_for_check="1"
+live_preview_website="1"
+makefile_args=""
+preview_website="1"
+website_output_format="all"

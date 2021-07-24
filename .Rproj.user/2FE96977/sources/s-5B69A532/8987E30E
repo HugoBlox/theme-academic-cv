@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1627165528082.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2899769695",
+    "id" : "8987E30E",
+    "lastKnownWriteTime" : 1627165449,
+    "last_content_update" : 1627165449,
+    "path" : "E:/GitHub/starter-hugo-academic/scripts/init_kickstart.sh",
+    "project_path" : "scripts/init_kickstart.sh",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "sh"
+}
