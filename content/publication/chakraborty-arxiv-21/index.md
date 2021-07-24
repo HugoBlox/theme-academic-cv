@@ -12,4 +12,5 @@ projects:
 - programmable-storage
 - declstore
 - eusocial-storage
+- skyhook
 ---

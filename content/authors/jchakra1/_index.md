@@ -1,21 +1,23 @@
 ---
 # Display name
-title: Esmaeil Mirvakili
+title: Jayjeet Chakraborty
 
 # Username (this should match the folder name)
 authors:
-- smirvaki
+- jchakra1
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Phd Student, CROSS Research Fellow
+role: PhD Student
 
 # Organizations/Affiliations
 organizations:
 - name: Department of Computer Science & Engineering
   url: "https://www.soe.ucsc.edu/departments/computer-science-and-engineering"
+- name: Center for Research in Open Source Software (CROSS)
+  url: "https://cross.ucsc.edu"
 - name: Jack Baskin School of Engineering
   url: "https://www.soe.ucsc.edu"
 - name: University of California, Santa Cruz
@@ -32,11 +34,10 @@ bio:
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:smirvaki@ucsc.edu
+  link: mailto:jchakra1@ucsc.edu
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/esmaeil-m-12a71879/
-
+  link: https://www.linkedin.com/in/jianshenliu/
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""

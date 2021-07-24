@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Esmaeil Mirvakili
+title: Farid Zakaria
 
 # Username (this should match the folder name)
 authors:
-- smirvaki
+- fmzakari
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Phd Student, CROSS Research Fellow
+role: Phd Student
 
 # Organizations/Affiliations
 organizations:
@@ -32,10 +32,10 @@ bio:
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:smirvaki@ucsc.edu
+  link: mailto:fmzakari@ucsc.edu
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/esmaeil-m-12a71879/
+  link: https://www.linkedin.com/in/fmzakari/
 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)

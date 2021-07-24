@@ -8,5 +8,9 @@ abstract: "Access libraries such as ROOT and HDF5 allow users to interact with d
 featured: false
 publication: "*EPJ Web Conf.*"
 tags: ["papers", "programmable", "declarative", "objectstorage", "nsf1836650"]
+projects:
+- declstore
+- programmable-storage
+- eusocial-storage
+- skyhook
 ---
-
