@@ -201,10 +201,10 @@ plugins_js  = []
 ############################
 [comments]
   # Comment provider:
-  #   0: Disabled
-  #   1: Disqus (https://disqus.com)
-  #   2: Commento (https://commento.io)
-  engine = 0
+  #   "": Disabled
+  #   "disqus": Disqus (https://disqus.com)
+  #   "commento": Commento (https://commento.io)
+  provider = ""
 
   # Which page types are commentable?
   commentable = {page = true, post = true, docs = true, project = true, publication = true, talk = true}
@@ -251,11 +251,11 @@ plugins_js  = []
   #   https://www.mapbox.com/studio/account/tokens
   #
   # Map provider:
-  #   0: No map
-  #   1: Google Maps
-  #   2: OpenStreetMap (Mapnik)
-  #   3: OpenStreetMap (Mapbox)
-  engine = 2
+  #   "": No map
+  #   "google": Google Maps
+  #   "mapnik": OpenStreetMap (Mapnik)
+  #   "mapbox": OpenStreetMap (Mapbox)
+  provider = "google"
   api_key = ""
   zoom = 15
 
@@ -272,6 +272,7 @@ plugins_js  = []
 [cms]
  # Enable the admin panel. See https://wowchemy.com/docs/install/
  netlify_cms = true
+ branch = "master"
 
 # Icon Pack Extensions
 [icon.pack]

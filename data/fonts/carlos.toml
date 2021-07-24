@@ -6,7 +6,7 @@ google_fonts = "family=EB+Garamond:ital,wght@0,400;0,700;1,400&family=Roboto:wgh
 
 # Font families
 heading_font = "Roboto"
-body_font = "EB Garamond"
-#body_font = "Roboto"
+#body_font = "EB Garamond"
+body_font = "Roboto"
 nav_font = "Roboto"
 mono_font = "Roboto Mono"
