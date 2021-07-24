@@ -28,7 +28,7 @@ url_video: ""
 slides: []
 ---
 
-**Funding:** DOE ASCR DE-NA0003525 (FWP 20-023266): UCSC subcontractor of Sandia National Labs.
+**Funding:** DOE ASCR DE-NA0003525 (FWP 20-023266): UCSC subcontractor of Sandia National Labs.  
 **Press Coverage:** [The Next Platform (5/24/21)](https://www.nextplatform.com/2021/05/24/testing-the-limits-of-the-bluefield-2-smartnic/)   
 
 The responsibilities of the I/O subsystem in high-performance computing (HPC) platforms have grown significantly over the last decade. In addition to delivering high-bandwidth, high-volume storage for results and checkpoints, the platform is expected to provide a variety of data management and storage services (DMSSes) that have become an essential part of users’ workflows. These services include lightweight key/value stores for aggregating state, in-memory object stores for data handoffs between workflow applications, I/O libraries that manage shared state for complex structured data, and programmable storage frameworks that generate live annotations of simulations.
