@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Phd Student
+role: Phd Student, CROSS Research Fellow
 
 # Organizations/Affiliations
 organizations:

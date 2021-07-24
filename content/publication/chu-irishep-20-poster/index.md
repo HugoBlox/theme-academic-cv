@@ -11,6 +11,6 @@ tags: ["poster", "programmable", "storage", "hep"]
 projects:
 - programmable-storage
 - declstore
+- skyhook
 url_poster: https://indico.cern.ch/event/894127/attachments/1996570/3331170/2_-_maltzahn-irishep-poster.pdf
 ---
-
