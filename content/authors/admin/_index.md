@@ -44,6 +44,7 @@ researchers:
 
 currentphds:
 - "[Saheed Adepoju](https://www.linkedin.com/in/saheedadepoju/)"
+- "[Jayjeet Chakraborty](https://www.linkedin.com/in/jayjeet-chakraborty-077579162/)"
 - "[Xiaowei Chu](https://www.linkedin.com/in/xweichu/)"
 - "[Jianshen Liu](https://www.linkedin.com/in/jianshenliu/)"
 - "[Esmaeil Mirvakili](https://www.linkedin.com/in/esmaeil-m-12a71879/)"
