@@ -2,11 +2,11 @@
 name = "Minimal"
 
 # Optional Google font URL
-google_fonts = "EB+Garamond:400,400i,700|Roboto:400,700|Roboto+Mono"
+google_fonts = "family=EB+Garamond:ital,wght@0,400;0,700;1,400&family=Roboto:wght@400;700&family=Roboto+Mono:ital,wght@0,400;0,700;1,400"
 
 # Font families
 heading_font = "Roboto"
-#body_font = "EB Garamond"
-body_font = "Roboto"
+body_font = "EB Garamond"
+#body_font = "Roboto"
 nav_font = "Roboto"
 mono_font = "Roboto Mono"
