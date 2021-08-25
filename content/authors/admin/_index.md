@@ -34,9 +34,9 @@ education:
   - course: Java Programing
     institution: Học liệu mở (MOOC) từ University of Helsinki
     year: 2020
-  - course: Mechanical Engineering
-    institution: Đại học Bách Khoa Hà Nội
-    year: 2018
+  # - course: Mechanical Engineering
+  #   institution: Đại học Bách Khoa Hà Nội
+  #   year: 2018
 
 
 # Social/Academic Networking

@@ -40,10 +40,10 @@ feature:
   icon: html5
   icon_pack: fab
   name: HTML & CSS
-# - description: Docker - Docker Compose
-#   icon: docker
-#   icon_pack: fab
-#   name: Container
+- description: Docker - Docker Compose
+  icon: docker
+  icon_pack: fab
+  name: Docker
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"

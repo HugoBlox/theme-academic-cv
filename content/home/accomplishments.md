@@ -39,12 +39,12 @@ item:
   organization_url: https://www.mooc.fi/en
   title: Java Programing II
   url: ""
-- certificate_url: https://www.dropbox.com/s/5jdtestxskvo9a1/techmaster%20algo%20contest.jpg?dl=0
-  date_end: ""
-  date_start: "2020-12-06"
-  description: ""
-  organization: TechMaster Viet Nam
-  organization_url: https://techmaster.vn/
-  title: 'Giải nhì cuộc thi TechMaster Algo Contest'
-  url: ""
+# - certificate_url: https://www.dropbox.com/s/5jdtestxskvo9a1/techmaster%20algo%20contest.jpg?dl=0
+#   date_end: ""
+#   date_start: "2020-12-06"
+#   description: ""
+#   organization: TechMaster Viet Nam
+#   organization_url: https://techmaster.vn/
+#   title: 'Giải nhì cuộc thi TechMaster Algo Contest'
+#   url: ""
 ---
