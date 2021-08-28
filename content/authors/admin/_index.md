@@ -75,4 +75,4 @@ I am Hazel Hyeseung Kang, a PhD student in Information Systems at Questrom Schoo
 
 I was born in Seoul and attended schools in Bonn, New Delhi, New Jersey, and Seoul. I love to travel, try out new food, and hang out with friends & family. 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/cv_july2021.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV_August 2021.pdf" "newtab" >}}CV{{< /staticref >}}.
