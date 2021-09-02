@@ -16,7 +16,7 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: Java Core - OOP
+- description: OOP - Java Core - Unit Test
   icon: java
   icon_pack: fab
   name: Java
@@ -44,6 +44,10 @@ feature:
   icon: docker
   icon_pack: fab
   name: Docker
+- icon: googleanalytics
+  icon_pack: "custom"
+  name: "SEO"
+  description: "SEO - Content"
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
