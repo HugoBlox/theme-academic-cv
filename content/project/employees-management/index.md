@@ -10,7 +10,7 @@ categories: []
 date: 2021-07-14T09:56:44+07:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://github.com/truongvantuan/springboot-assignment-techmaster/tree/main/assignment_03/employeemanager"
+external_link: "https://github.com/truongvantuan/springboot-assignment-techmaster/tree/main/assignment_03/employee-management-restfull"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -28,7 +28,7 @@ image:
 #   icon_pack: fab
 #   icon: twitter
 
-url_code: "https://github.com/truongvantuan/springboot-assignment-techmaster/tree/main/assignment_03/employeemanager"
+url_code: "https://github.com/truongvantuan/springboot-assignment-techmaster/tree/main/assignment_03/employee-management-restfull"
 url_pdf: ""
 url_slides: ""
 url_video: ""
