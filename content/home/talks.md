@@ -1,5 +1,6 @@
 ---
 # An instance of the Pages widget.
+active: false
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: pages
 
