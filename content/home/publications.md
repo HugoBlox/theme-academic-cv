@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 90
 
-title: Recent Publications
+title: RESEARCH MANUSCRIPTS
 subtitle: ''
 
 content:
@@ -36,6 +36,12 @@ design:
   #   4 = Citation (publication only)
   view: 4
 ---
+
+Atuhurra Jesse, Yusuke Sakai, Hiroyuki Shindo, Taro Watanabe, “Can Syllable Embeddings improve
+representations for Low-resource Languages? A case study on the Swahili language”. (Under Review) 
+
+Atuhurra Jesse, Takanori Hara, Yuanyu Zhang, and Shoji Kasahara, “OADIS: Online, Adaptive, Deep
+Reinforcement Learning based Intrusion Detection with SMOTE sampling in IoT networks”. (In preparation)
 
 {{% callout note %}}
 Quickly discover relevant content by [filtering publications](./publication/).
