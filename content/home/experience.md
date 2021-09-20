@@ -25,7 +25,7 @@ experience:
   - title: Software Engineer
     company: Real-Time Innovations (RTI)
     company_url: 'https://www.rti.com/en/'
-    location: Granada, Spain
+    location: Remote (Granada, Spain)
     date_start: '2021-03-22'
     date_end: ''
     description: |2-
