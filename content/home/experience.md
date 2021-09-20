@@ -22,33 +22,45 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Software Engineer
+    company: Real-Time Innovations (RTI)
+    company_url: 'https://www.rti.com/en/'
+    location: Granada, Spain
+    date_start: '2021-03-22'
+    date_end: ''
+    description: |2-
+        Software developer for Connext DDS Micro.
+
+        * Technologies: C/C++, Git, CMake, Linux
+        * Protocols: DDS
+
   - title: Embedded Software Engineer
     company: Instituto Tecnológico de Galicia (ITG)
     company_url: 'https://itg.es/'
     location: A Coruña, Spain
     date_start: '2020-03-01'
-    date_end: ''
+    date_end: '2021-03-22'
     description: |2-
         R&D Embedded Engineer developing firmware for a "drone in a box" solution based on ARM and AVR microcontrollers. The system controls everything needed after the drone landing including communications, centering, charging, and encapsulation.
-    
+
         * Technologies: C/C++, Python, Git, Docker, CMake, Linux
         * Protocols: I2C, SPI, UART, MAVLink
-        
+
   - title: Firmware Engineer
     company: HP
     company_url: 'https://hp.com/'
-    location: San Cugat del Vallés, Spain 
+    location: San Cugat del Vallés, Spain
     date_start: '2018-10-01'
     date_end: '2020-01-01'
     description: |2-
-        R&D Firmware Engineer developing security features for the Ink Delivery System both for 3D and Large Format Printers. Agile development using Scrum with Jira. 
-    
+        R&D Firmware Engineer developing security features for the Ink Delivery System both for 3D and Large Format Printers. Agile development using Scrum with Jira.
+
         * Technologies: C++, Tcl, Svn, CMake, GTest, Linux, RTOS, ARM
 
   - title: Embedded Software Engineer
     company: Arual Design
     company_url: ''
-    location: Granada, Spain 
+    location: Granada, Spain
     date_start: '2018-02-01'
     date_end: '2018-06-01'
     description: |2-
