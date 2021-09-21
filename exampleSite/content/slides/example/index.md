@@ -19,7 +19,7 @@ slides:
 
 ---
 
-## Features
+## Máximo Fernández Riera
 
 - Efficiently write slides in Markdown
 - 3-in-1: Create, Present, and Publish your slides
