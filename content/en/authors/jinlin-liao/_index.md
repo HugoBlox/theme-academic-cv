@@ -1,24 +1,24 @@
 ---
 # Display name
-title: "Zongshang Pang"
+title: "Jinlin Liao"
 
-weight: 1021220
+weight: 1021200
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "zongshang-pang"
+- "jinlin Liao"
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: 博士後期課程学生
+role: PhD Student
 
 # Organizations/Affiliations
 organizations:
-- name: "情報科学研究科"
+- name: "Graduate School of Information Science and Technology"
   url: "http://www.ist.osaka-u.ac.jp/"
-- name: "大阪大学"
+- name: "Osaka University"
   url: "http://www.osaka-u.ac.jp/"
 
 
@@ -67,10 +67,10 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- 学生
+- Students
 ---
 ### Contact
-- email: pangzs@is.ids.
+- email: jinlin@is.ids.
 
 
 Please add `osaka-u.ac.jp` to complete email address

@@ -2,7 +2,7 @@
 # Display name
 title: "Anh-Khoa Vo"
 
-weight: 6020220
+weight: 2021200
 
 # Username (this should match the folder name and the name on publications)
 authors:
@@ -12,7 +12,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: 研究生
+role: 博士前期課程学生
 
 # Organizations/Affiliations
 organizations:

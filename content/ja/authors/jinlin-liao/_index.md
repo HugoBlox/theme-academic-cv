@@ -1,12 +1,12 @@
 ---
 # Display name
-title: "Zongshang Pang"
+title: "Jinlin Liao"
 
-weight: 1021220
+weight: 1021200
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "zongshang-pang"
+- "jinlin-liao"
 
 # Is this the primary user of the site?
 superuser: false
@@ -70,7 +70,7 @@ user_groups:
 - 学生
 ---
 ### Contact
-- email: pangzs@is.ids.
+- email: jinlin@is.ids.
 
 
 Please add `osaka-u.ac.jp` to complete email address

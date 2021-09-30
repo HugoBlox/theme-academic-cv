@@ -12,7 +12,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Guest Assistant Professor
+role: 特任助教
 group: Artificial Intelligence and Mathematics
 
 # Organizations/Affiliations
@@ -61,7 +61,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- 招へい研究員
+- 研究員
 - Fulltime
 ---
 

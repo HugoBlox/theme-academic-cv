@@ -2,7 +2,7 @@
 # Display name
 title: "Zongshang Pang"
 
-weight: 5020220
+weight: 1021220
 
 # Username (this should match the folder name and the name on publications)
 authors:
@@ -12,7 +12,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Research Student
+role: PhD Student
 
 # Organizations/Affiliations
 organizations:
