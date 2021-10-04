@@ -19,7 +19,7 @@ bio: Telecommunications Engineer with Masters in Electronic Systems for Intellig
 # Interests to show in About widget
 interests:
 - Embedded System
-- Firmware 
+- Firmware
 - IoT
 - Modern C++
 
@@ -53,13 +53,17 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: www.linkedin.com/in/sergiogasquez
-
+- icon: brain
+  icon_pack: fas
+  link: https://sergiogasquez.notion.site/Sergio-Gasquez-Personal-Wiki-0d2f9be521094316aa12fcbbc5d20fab
 # Link to a PDF of your resume/CV.
-# To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 
+# To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`,
 # and uncomment the lines below.
 - icon: cv
   icon_pack: ai
   link: media/Resume.pdf
+
+
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "sergio.gasquez@gmail.com"
@@ -68,9 +72,11 @@ email: "sergio.gasquez@gmail.com"
 highlight_name: false
 ---
 
-My name is Sergio Gasquez, I'm a Telecommunications Engineer with Masters in Electronic Systems for Intelligent Environments who loves Firmware and Embedded Systems Programming. I was born in Granada and after graduating, I moved to Barcelona to work as a Firmware Engineer in HP, where I developed security features for the Ink Delivery System. At the beginning of 2020, I reallocated into A Coruña to work as an Embedded Sofware Developer at Instituto Tecnológico de Galicia (ITG) where ITG I was in charge of developing firmware for a ["drone in a box solution"](https://www.youtube.com/watch?v=A6RUV0yKewg). In March 2021 I joined RTI as a Software Developer for Connext Micro, a connectivity framework based on the DDS standar for resource-constrained applications.
+My name is Sergio Gasquez, I'm a Telecommunications Engineer with Masters in Electronic Systems for Intelligent Environments who loves Firmware and Embedded Systems Programming. I was born in Granada and after graduating, I moved to Barcelona to work as a Firmware Engineer in HP, where I developed security features for the Ink Delivery System. At the beginning of 2020, I reallocated into A Coruña to work as an Embedded Sofware Developer at Instituto Tecnológico de Galicia (ITG) where ITG I was in charge of developing firmware for a ["drone in a box solution"](https://www.youtube.com/watch?v=A6RUV0yKewg). In March 2021 I joined RTI as a Software Developer for Connext Micro, a connectivity framework based on the DDS standard for resource-constrained applications.
 
 
-I am a passionate technologist :man_technologist: who enjoys learning new things :bulb:, especially electronics :robot: and programming :computer:! In my spare time I love doing sports :climbing: :swimming_man: :hiking_boot:, traveling :earth_africa:, and listening music :love_you_gesture:. 
+I am a passionate technologist :man_technologist: who enjoys learning new things :bulb:, especially electronics :robot: and programming :computer:! In my spare time I love doing sports :climbing: :swimming_man: :hiking_boot:, traveling :earth_africa:, and listening to music :love_you_gesture:.
+
+If you wanna know more about me, here is my [personal wiki](https://sergiogasquez.notion.site/Personal-Wiki-0d2f9be521094316aa12fcbbc5d20fab) where I share most things I know
 
 Don't hesitate to contact me! 
