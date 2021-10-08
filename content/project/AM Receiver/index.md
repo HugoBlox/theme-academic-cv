@@ -30,12 +30,12 @@ url_video: ""
 # slides: example
 ---
 
-Desing and assemblage of an homodyne receiver syntonizing a commercial broadcasting station in A.M. The radio was made of differents stages:
+Design and assemblage of a homodyne receiver syntonizing a commercial broadcasting station in A.M. The radio was made of different stages:
 
 Audio stage
 Antenna
 Syntonized Amplifier
 Colpitts Oscillator
 AM demodulator and modulator
-Aditionall amplifier stage
+Additional amplifier stage
 Power and regulator
