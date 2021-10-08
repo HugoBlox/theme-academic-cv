@@ -4,21 +4,21 @@ authors:
 bio: My research interests include early word learning, object recognition, and statistical learning.
 education:
   courses:
-  - course: PhD in Developmental Psychology
+  - course: PhD in Psychology
     institution: Indiana University
-    year: expected 2021
+    year: September 2021
   - course: BA with Honors in Psychology
     institution: Indiana University
-    year: 2015
-email: "emclerki@indiana.edu"
+    year: May 2015
+email: "emclerki@iu.edu"
 interests:
-- Early word learning
-- Object recognition
-- Statistical learning
+- Learning
+- User Experience
+- Educational Technology
 organizations:
 - name: Indiana University
   url: "https://cogdev.sitehost.iu.edu/"
-role: Doctoral Candidate
+role: Psychology PhD
 social:
 - icon: envelope
   icon_pack: fas
@@ -36,6 +36,10 @@ user_groups:
 - Visitors
 ---
 
-I am a doctoral candidate in Developmental Psychology working in Dr. Linda Smith's Cognitive Development Lab. My research focuses on early word learning and object recognition, specifically how the statistical structure of infants' early environments shape learning. I am also interested in the application of developmental principles to machine learning.
+I am an expert in human learning and development with 6+ years of experience designing, managing, and executing cutting edge research projects. I recently graduated with my PhD in Psychology from Indiana University. I work in Dr. Linda Smith's Cognitive Development Lab studying early world learning and object recognition, specifically how the statistical structure of infants' early environments shape learning. 
 
-I am experienced with secondary data analysis of large corpora as well as experimental design. I am proficient in ego-centric data collection, including head-mounted eyetracking. 
+I am excitedly pursuing a career in behavioral research in industry because I want to directly impact the learning experiences of people on a global scale. I am eager to apply my research expertise to enabling learners to reach their full potential with technology!
+
+I am a wiz at secondary data analysis of large corpora as well as experimental design. I am skilled in ego-centric data collection, including head-mounted eyetracking which I have done with participants of ALL ages. I am very comfortable with public speaking, and I have given talks and posters at 9 international research conferences. I have also been published in top academic journals.
+
+In my free time, I love to bake and bullet journal. I am also passionate about dance — I have been dancing since I was 3! 
