@@ -36,11 +36,11 @@ bio: My research interests include programmable storage systems, big data storag
 
 administration:
 - "[Stephanie Lieggi](https://www.linkedin.com/in/stephanie-lieggi-8542624/)"
-- "[Lavinia Preston](https://www.linkedin.com/in/lavinia-preston-60806b127/)"
+# - "[Lavinia Preston](https://www.linkedin.com/in/lavinia-preston-60806b127/)"
 
-researchers:
+# researchers:
 # - "[Kate Compton](https://www.galaxykate.com/)"
-- "[Ivo Jimenez](http://www.linkedin.com/in/ivotron)"
+# - "[Ivo Jimenez](http://www.linkedin.com/in/ivotron)"
 
 currentphds:
 - "[Saheed Adepoju](https://www.linkedin.com/in/saheedadepoju/)"
@@ -49,7 +49,6 @@ currentphds:
 - "[Jianshen Liu](https://www.linkedin.com/in/jianshenliu/)"
 - "[Esmaeil Mirvakili](https://www.linkedin.com/in/esmaeil-m-12a71879/)"
 - "[Farid Zakaria](https://www.linkedin.com/in/fmzakari/)"
-- "[Yiming Zhang](https://www.linkedin.com/in/yiming-steven-zhang/)"
 
 # currentmss:
 # - "[Saloni Rane](https://www.linkedin.com/in/saloni-rane/)"
@@ -97,6 +96,8 @@ graduatedmss:
     year: "2013"
   - course: "[Haiyu Yang](https://www.linkedin.com/in/haiyu-yang-120652b4/)"
     year: "2017"
+  - course: "[Yiming Zhang](https://www.linkedin.com/in/yiming-steven-zhang/)"
+    year: "2021"
 
 # - course: "[Alexander Ames](http://www.linkedin.com/in/sashaames)" #
 #	  year: "[2011](https://search.proquest.com/docview/926578311)"

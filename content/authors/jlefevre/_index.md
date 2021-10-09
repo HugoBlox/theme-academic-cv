@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Assistant Adjunct Professor, CROSS Incubator Fellow
+role: Assistant Adjunct Professor
 
 # Organizations/Affiliations
 organizations:
