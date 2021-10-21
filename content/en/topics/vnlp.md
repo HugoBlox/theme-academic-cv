@@ -12,6 +12,14 @@ weight = 20
 
 Since the dawn of deep neural network-related technologies, the combination of vision and language modalities has become one of the mainstream research areas in both computer vision and natural language processing communities. We have been working on the following topics in this area.
 
+## Explain Me the Painting: Multi-Topic Knowledgeable Art Description Generation
+
+Have you ever looked at a painting and wondered what is the story behind it? This work presents a framework to bring art closer to people by generating comprehensive descriptions of fine-art paintings. Generating informative descriptions for artworks, however, is extremely challenging, as it requires to 1) describe multiple aspects of the image such as its style, content, or composition, and 2) provide background and contextual knowledge about the artist, their influences, or the historical period. To address these challenges, we introduce a multi-topic and knowledgeable art description framework, which modules the generated sentences according to three artistic topics and, additionally, enhances each description with external knowledge. The framework is validated through an exhaustive analysis, both quantitative and qualitative, as well as a comparative human evaluation, demonstrating outstanding results in terms of both topic diversity and information veracity.
+
+{{< youtube lRtyhIHyZFw >}}
+
+You can find more details including the paper and code [here](https://sites.google.com/view/art-description-generation). 
+
 ## Uncovering Hidden Challenges in Query-based Video Moment Retrieval
 
 {{< figure library="true" src="topics-vmr.png" numbered="false" width="500" >}}
