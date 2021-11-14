@@ -9,7 +9,7 @@ tags: []
 categories: []
 date: 2020-10-12T20:41:32+02:00
 lastmod: 2020-10-12T20:41:32+02:00
-featured: true
+featured: false
 draft: false
 
 # Featured image
