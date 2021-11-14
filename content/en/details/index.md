@@ -11,11 +11,11 @@ It's pretty simple: we go there, we have some fun, we eat a warm lunch, we have 
 
 ## Where and when do we meet?
 Wondering how to get to us? Here are some organisational details to help with planning your trip!  
-We will meet in front of **Belluno's train station** the morning of the **2th of January, 2021, at 08:00**.
+We will meet in front of **Belluno's train station** the morning of the **8th of January, 2022, at 07:30**.
 From there on, we will organise transportation by car and separate the participants in groups, in order to minimise the number of vehicles.
 
 #### How to get to Belluno
-Getting to Belluno by car is easy: it is served by the A27 highway, about a 1.5 hour drive from Padova and Venice, 2.5 hours from Trieste, 4 hours from Milan. Every year snowballers from all over the world reach Belluno for the GBPN, so if you want to share the trip [let us know](/contact): we'll do our best to get you in touch with those who could be interested!  
+Getting to Belluno by car is easy: it is served by the A27 highway, about a 1.5 hour drive from Padova and Venice, 2.5 hours from Trieste, 4 hours from Milan. Every year snowballers from all over the world reach Belluno for the GBPN, so if you want to share the trip [let us know](/contact): we'll do our best to get you in touch with those who could be interested! You can also join the [Telegram group](https://t.me/joinchat/UsNhFbmVl6W_Odyz) to coordinate with the other participants.
 Train lines reach the city from East (Conegliano), North (Cortina) and South (Padova); trains are usually few and far between, so plan your trip in advance.
 
 #### Accomodation
@@ -105,7 +105,7 @@ Feel free to combine your snowballing fever with some trekking, climbing or skii
 All locations, times and dates are subject to sudden change without prior notice from APAZAF, should the necessity arise. All information regarding such changes will be published on the GBPN's [website](/post) as soon as possible.
 
 #### Privacy
-By subscribing and/or partecipating to the GBPN you implicitly accept that your personal data (Name, Surname, phone number, email) is stored by APAZAF with the only purpose of organising future snowball fights.  
+By subscribing and/or participating to the GBPN you implicitly accept that your personal data (Name, Surname, phone number, email) is stored by APAZAF with the only purpose of organising future snowball fights.  
 Additionally, during the GBPN photos and videos will be taken by both APAZAF and third parties. APAZAF may use these photos/videos on their website and in various channels where APAZAF disseminates information about their activities.
 
 If you want at any time to withdraw from this consent, please [contact us](/contact). Note: this will not apply to material already published. APAZAF cannot control already published material or recall them.

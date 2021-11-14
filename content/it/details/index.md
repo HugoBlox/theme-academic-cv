@@ -9,11 +9,11 @@ Come ogni anno, la battaglia si svolgerà al [Bivacco Menegazzi](https://goo.gl/
 
 ## Dove e come ci troviamo?
 Vi state chiedendo come raggiungerci? Qui di sotto ci sono alcuni dettagli per aiutarvi a pianificare il viaggio.
-Ci incontriamo alla **Stazione di Belluno** la mattina del **4 gennaio 2020 alle 08:00**.
+Ci incontriamo alla **Stazione di Belluno** la mattina del **8 gennaio 2022 alle 07:30**.
 Da lì in poi, organizzeremo il trasporto in auto e divideremo i partecipanti in gruppi in modo da minimizzare il numero delle stesse.
 
 #### Arrivare a Belluno
-Arrivare a Belluno in auto è facile: basta prendere la A27, circa 1.5 ore da Padova o Venezia, 2.5 ore da Trieste, 4 ore da Milano. Ogni anno diversi palladinevisti raggiungono Belluno dai quattro angoli del globo, per cui se volete condividere il mezzo di trasporto [informateci](/it/contact): tenteremo di mettervi in contatto tra di voi!  
+Arrivare a Belluno in auto è facile: basta prendere la A27, circa 1.5 ore da Padova o Venezia, 2.5 ore da Trieste, 4 ore da Milano. Ogni anno diversi palladinevisti raggiungono Belluno dai quattro angoli del globo, per cui se volete condividere il mezzo di trasporto [informateci](/it/contact): tenteremo di mettervi in contatto tra di voi! Potete anche unirvi al [gruppo Telegram](https://t.me/joinchat/UsNhFbmVl6W_Odyz) per coordinarvi in autonomia con gli altri partecipanti.
 Treni arrivano da est (Conegliano), nord (Cortina) e sud (Padova). I treni sono pochi, pianificate di conseguenza.
 
 #### Alloggio
