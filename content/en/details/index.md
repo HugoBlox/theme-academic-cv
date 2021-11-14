@@ -39,7 +39,7 @@ The exact GPS coordinates of the parking area are [46.217733N, 11.928870E](https
 <!-- <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1L4QMF90G6f9P3XUTF-BxAJImoeocQmp7&z=11" width="100%" height="600"></iframe> -->
 
 #### Trekking map
-Worried you'll wander forever in the woods above Gosaldo? Worry you not, because here's our awesome trekking map, courtesy of [Komoot](https://www.komoot.com/tour/98511283)! You can even send this to your phone, thanks to the magic of the internet.
+Worried you'll wander forever in the woods above Gosaldo? Worry you not, because here's our awesome trekking map, courtesy of [Komoot](https://www.komoot.com/tour/98511283?share_token=aLKSMS920WlBNaoNIDvj7XMvejWsaSQH12kmU1toTKC2PrayuZ&ref=wtd)! You can even send this to your phone, thanks to the magic of the internet.
 
 You'll need to walk for about 5km (round trip). There are two possible ways:
 
@@ -48,8 +48,7 @@ You'll need to walk for about 5km (round trip). There are two possible ways:
 
 We'll mostly move as a group although of course anybody can decide on his/her own what to do. Depending on the group's fitness and on the amount of snow, reaching the Bivouac usually takes around 1.5 hours.
 
-<iframe src="https://www.komoot.com/tour/98511283/embed?profile=1" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
-
+<iframe src="https://www.komoot.com/tour/98511283/embed?share_token=aLKSMS920WlBNaoNIDvj7XMvejWsaSQH12kmU1toTKC2PrayuZ&profile=1" width="100%" height="680" frameborder="0" scrolling="no"></iframe>
 [Here's](https://goo.gl/maps/CRMbn2kRX38G78UF9) the Bivouac on Google Maps.
 
 ## What to bring?
@@ -98,7 +97,9 @@ As such, be careful of where you step, listen to your more experienced snow coll
 #### What to do in Belluno
 Belluno and the surrounding towns are a small, little-know gem at the foot of the famous Dolomites, well worth a few days off if you can spare some.
 <img src="/media/belluno.jpg" style="width:100%;" title="A view of Belluno with its mountains in the background. Courtesy of Silvano Fantini.">
-Feel free to combine your snowballing fever with some trekking, climbing or skiing in one of the various beautiful locations around the city. Keep in mind that you will likely need a car to be able to enjoy all of the attractions that surround Belluno. Two good sites kept up-to-date with events and info are [AdorableBelluno](http://adorable.belluno.it/) and [Infodolomiti](http://www.infodolomiti.it/).
+Feel free to combine your snowballing fever with some trekking, climbing or skiing in one of the various beautiful locations around the city. Keep in mind that you will likely need a car to be able to enjoy all of the attractions that surround Belluno.
+Two good sites kept up-to-date with events and info are [AdorableBelluno](http://adorable.belluno.it/) and [Infodolomiti](http://www.infodolomiti.it/).
+APAZAF would be more than happy to help: just [ask](/contact)!
 
 
 ## Disclaimers
