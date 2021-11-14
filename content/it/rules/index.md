@@ -7,7 +7,7 @@ math: false
 share: false
 # markup: mmark
 url_pdf: /it/rules/gbpn-rules.pdf
-# can be compiled into pdf with the script /scripts/generate_pdf.sh
+# can be compiled into pdf with the script /scripts/generate_rules_pdf.sh
 ---
 
 
