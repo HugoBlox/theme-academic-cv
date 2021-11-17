@@ -25,23 +25,20 @@ bio: Jiangyi Huang is a part-time Doctoral Candidate at the department of Mathem
 
 # List each interest with a dash
 interests:
-- Stochastic programming
-- Decomposition techniques
-- Parallel Programming
-- Machine learning
-- Energy markets
+- Mathematical foundations for energy systems modelling and optimisation
+- Machine learning, data science techniques for energy systems analysis
+- Mathematical programming
+- Algorithms
+- Optimisation
 
 education:
   courses:
-  - course: MSc in Computational Engineering 
-    institution: Lappeenranta university of technology (Finland)
+  - course: MSc in Energy Science
+    institution: Utrecht University (the Netherlands)
     year: 2018
-  - course: MSc in Applied Mathematics and Informatics
-    institution: Southern Federal University, Institute of Mathematics, Mechanics and Computer Science (Russian Federation)
-    year: 2018
-  - course: BSc in Applied Mathematics and Informatics
-    institution: Southern Federal University, Institute of Mathematics,Mechanics and Computer Science (Russian Federation)
-    year: 2016
+  - course: BSc in Environmental Science
+    institution: Nanjing University (P.R.China)
+    year: 2015
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -50,10 +47,10 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:nikita.belyak@aalto.fi'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:jiangyi.huang@aalto.fi'  # For a direct email link, use "mailto:test@example.org".
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/nikita-belyak/
+  link: https://www.linkedin.com/in/huangjiangyi/
 # - icon: envelope
 #   icon_pack: fas
 #   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
@@ -65,7 +62,7 @@ social:
 #   link: https://scholar.google.com/citations?user=PERSON-ID
 #- icon: github
 #  icon_pack: fab
-#  link: https://github.com/Nikita-Belyak
+#  link: https://github.com/nnhjy
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -82,7 +79,7 @@ user_groups:
 - Doctoral Candidates
 ---
 <div style="text-align: justify">
-Nikita is PhD candidate with a background in applied mathematics and computer science. His research interests concern the development of efficient modelling and solution methods for optimization problems under uncertainty. The primary focus is on the problems aimed at increase of the renewable energy sources share in the energy systems. 
+Jiangyi Huang is a part-time PhD candidate who also works as a Research Scientist at Technical Research Centre of Finland (VTT). He has a background in Energy Science and Environmental Science. Jiangyi is interested in mathematical problems arising from energy systems modelling, optimisation and analysis. His expertise includes techno-economic modelling on energy systems and developing advanced modelling tools. Jiangyi is experienced in model formulation, programming and data processing (Python and Julia). He has participated in several research projects regarding model development and system analysis for the sustainable transitions of energy systems at VTT.
 
-He is currently engaged in the investigation and implementation of efficient strategies to combine branching and relaxation techniques for solving large-scale non-convex problems. 
+Jiangyi's current research focuses on implementing bilevel programming and optimisation to model transmission expansion and generation expansion problems with considering operational details of energy systems.
 </div>
