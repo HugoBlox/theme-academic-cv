@@ -79,7 +79,7 @@ user_groups:
 - Doctoral Candidates
 ---
 <div style="text-align: justify">
-Jiangyi Huang is a part-time PhD candidate who also works as a Research Scientist at Technical Research Centre of Finland (VTT). He has a background in Energy Science and Environmental Science. Jiangyi is interested in mathematical problems arising from energy systems modelling, optimisation and analysis. His expertise includes techno-economic modelling on energy systems and developing advanced modelling tools. Jiangyi is experienced in model formulation, programming and data processing (Python and Julia). He has participated in several research projects regarding model development and system analysis for the sustainable transitions of energy systems at VTT.
+Jiangyi Huang is a part-time PhD candidate with a background in Energy Science and Environmental Science. He also works as a Research Scientist at Technical Research Centre of Finland (VTT). Jiangyi is interested in mathematical problems arising from energy systems modelling, optimisation and analysis. His expertise includes techno-economic modelling on energy systems and developing advanced modelling tools. Jiangyi is experienced in model formulation, programming and data processing (Python and Julia). He has participated in several research projects regarding model development and system analysis for the sustainable transitions of energy systems at VTT.
 
-Jiangyi's current research focuses on implementing bilevel programming and optimisation to model transmission expansion and generation expansion problems with considering operational details of energy systems.
+Jiangyi's current research focuses on implementing bilevel programming and optimisation to model capacity (incl. transmission, generation, and storage) expansion problems of energy systems with considering the operational details, e.g. unit commitment and economic dispatch in power systems.
 </div>
