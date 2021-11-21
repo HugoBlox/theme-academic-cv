@@ -1,11 +1,11 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "The dates for the 2022 battle are OFFICIAL!"
+title: "The dates for the 2022 Great Snowball Fight are OFFICIAL!"
 subtitle: "Mark Saturday, 8 January 2022 on your calendars!"
 summary: "Mark Saturday, 8 January 2022 on your calendars!"
 authors: [af]
-tags: []
+tags: [2022]
 categories: []
 date: 2021-11-14T15:12:11+01:00
 lastmod: 2021-11-14T15:12:11+01:00
@@ -28,13 +28,13 @@ image:
 projects: []
 ---
 
-Dear snowballers!
+Dear snowballers, long time no see!
 
-Ready your gloves, sharpen your forks, knit your hats... for the Battle is BACK!
+Fret not! Ready your gloves, sharpen your forks, knit your hats... for the Battle is BACK!
 
-It is with immense pleasure that we, the one and only APAZAF, are proud to announce that the 2022 edition of the Great Snowball Fight will take place on the 8th of January, 2022! Mark your calendars!
+It is with immense pleasure that we, the one and only APAZAF, are proud to announce that the 2022 edition of the Great Snowball Fight will take place on the 8th of January, 2022!
 
 Exiting changes are in store for this year's edition!
 Follow the [news](/post) section or the [Telegram group](https://t.me/joinchat/UsNhFbmVl6W_Odyz) if you do not want to miss the updates!
 
-In the meantime... mark your calendars!
+In the meantime... mark your calendars, and may the snow gods bless us with plenty of snowballable material!
