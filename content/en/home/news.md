@@ -15,7 +15,7 @@ subtitle = ""
   page_type = "post"
   
   # Choose how much pages you would like to display (0 = all pages)
-  count = 5
+  count = 0
   
   # Choose how many pages you would like to offset by
   offset = 0
@@ -25,7 +25,7 @@ subtitle = ""
 
   # Filter posts by a taxonomy term.
   [content.filters]
-    tag = ""
+    tag = "2022"
     category = ""
     publication_type = ""
     exclude_featured = false
