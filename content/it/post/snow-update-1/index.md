@@ -5,7 +5,7 @@ title: "Aggiornamenti neve! Siamo lanciati!"
 subtitle: ""
 summary: ""
 authors: [ap]
-tags: []
+tags: [2020]
 categories: []
 date: 2019-11-16T09:12:44+01:00
 lastmod: 2019-11-16T09:12:44+01:00

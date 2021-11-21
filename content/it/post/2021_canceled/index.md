@@ -1,11 +1,11 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "La Battaglia è ANNULLATA!"
+title: "La Battaglia 2021 è ANNULLATA!"
 subtitle: ":("
 summary: ""
 authors: [af]
-tags: []
+tags: [2021]
 categories: []
 date: 2020-10-12T20:41:32+02:00
 lastmod: 2020-10-12T20:41:32+02:00

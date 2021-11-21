@@ -1,11 +1,11 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "The Fight is CANCELLED!"
+title: "The 2021 Fight is CANCELLED!"
 subtitle: ":("
 summary: ""
 authors: [af]
-tags: []
+tags: [2021]
 categories: []
 date: 2020-10-12T20:41:32+02:00
 lastmod: 2020-10-12T20:41:32+02:00
