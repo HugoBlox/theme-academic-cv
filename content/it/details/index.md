@@ -9,7 +9,7 @@ Come ogni anno, la battaglia si svolgerà al [Bivacco Menegazzi](https://goo.gl/
 
 ## Dove e come ci troviamo?
 Vi state chiedendo come raggiungerci? Qui di sotto ci sono alcuni dettagli per aiutarvi a pianificare il viaggio.
-Ci incontriamo alla **Stazione di Belluno** la mattina del **8 gennaio 2022 alle 07:30**.
+Ci incontriamo alla **Stazione di Belluno** la mattina del **8 gennaio 2022 alle 07:00**.
 Da lì in poi, organizzeremo il trasporto in auto e divideremo i partecipanti in gruppi in modo da minimizzare il numero delle stesse.
 
 #### Arrivare a Belluno
