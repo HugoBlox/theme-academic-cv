@@ -5,7 +5,7 @@ title: "Snow Update 2"
 subtitle: ""
 summary: ""
 authors: []
-tags: []
+tags: [2020]
 categories: []
 date: 2019-12-24T18:24:12+01:00
 lastmod: 2019-12-24T18:24:12+01:00

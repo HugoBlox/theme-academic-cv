@@ -40,6 +40,9 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]
   section = [ "HTML", "RSS" ]
 
+[markup.goldmark.renderer] # To make widgets, such as the one in the snow page, work
+unsafe = true
+
 [mediaTypes."application/manifest+json"]
   suffixes = ["webmanifest"]
 

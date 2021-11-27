@@ -18,4 +18,4 @@ autolink = true
 email_form = 1
 +++
 
-Any questions or suggestions? Shoot us an email, we'll get back to you in no time. If you prefer, feel free to check out our [issue tracker](https://github.com/apazaf/gbpn/issues)!
+Any questions or suggestions? Shoot us an email, we'll get back to you in no time. If you prefer, feel free to check out our [issue tracker](https://github.com/apazaf/gbpn/issues) or pop by the [Telegram group](https://t.me/joinchat/UsNhFbmVl6W_Odyz)!
