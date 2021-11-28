@@ -9,7 +9,7 @@ Potete verificare la situazione neve attuale consultando la stazione meteo di Ma
 
 ![Current snow status at Malga Losch](https://www.arpa.veneto.it/bollettini/meteo/h24/img00/Graf_390_LIVNEVE.jpg)
 
-Il rifugio Scarpa--Gurekian si trova vicino alla malga, e dispone di una bellissima webcam puntata a N-E verso la valle di Agordo. È anche un ottimo indicatore per la quantità attuale di neve. Questa è l'ultima immagine disponibile:
+Il rifugio Scarpa--Gurekian si trova vicino alla malga, e dispone di una bellissima webcam puntata a N-E verso la valle di Agordo. È anche un ottimo indicatore per la quantità attuale di neve. Questa è l'ultima immagine disponibile (potrebbe non essere aggiornata!):
 
 ![Scarpa hut webcam](https://www.rifuginrete.com/rifugio/scarpa/webcam/cam.jpg)
 
