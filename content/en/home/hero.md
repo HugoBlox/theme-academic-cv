@@ -46,10 +46,6 @@ hero_media = "hero-academic.png"
 #  icon_pack = "fas"
 #  icon = "snowflake"
   
-#[cta_note]
-#  url = "/rules"
-#  label = "View rules"
-  
 #[cta_alt]
 #  url = "/details"
 #  label = "Learn more"
@@ -57,6 +53,10 @@ hero_media = "hero-academic.png"
 [cta]
   url = "/post/2022_announcement"
   label = "Read the announcement"
+  
+[cta_alt]
+  url = "/rules"
+  label = "View rulebook"
   
 +++
 

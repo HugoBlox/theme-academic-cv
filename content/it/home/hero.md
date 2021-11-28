@@ -58,6 +58,10 @@ hero_media = ""
   url = "/it/post/2022_announcement"
   label = "Leggi l'annuncio"
   
+[cta_alt]
+  url = "/it/rules"
+  label = "Leggi il regolamento"
+  
 +++
 
 <!-- Come da tradizione millenaria, la prossima edizione della Grande Battaglia di Palle di Neve si terrà al [Bivacco Menegazzi](https://goo.gl/maps/CRMbn2kRX38G78UF9) il primo sabato dell'anno. -->
