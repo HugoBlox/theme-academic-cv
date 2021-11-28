@@ -15,7 +15,7 @@ subtitle = "Join the battle!"
 
 +++
 
-[**REGISTRATION IS CURRENTLY SUSPENDED DUE TO WORLDWIDE PANDEMIC :(**](/post/2021_canceled)
+**REGISTRATION IS NOT AVAILABLE YET, CHECK BACK SOON!**
 
 Please monitor the [news section](/post) for updates.
 

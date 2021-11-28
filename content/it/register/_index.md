@@ -15,7 +15,11 @@ subtitle = "Partecipa alla Battaglia!"
 
 +++
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScAxbHp1a_3cVqgN8l9IFmVQF4y6PihjxchN1wOCepn17KIeA/viewform?embedded=true" width="100%" height="1606" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+**LA REGISTRAZIONE NON È ANCORA DISPONIBILE (ma lo sarà presto)!**
+
+Controllate la [sezione notizie](/it/post) per tutti gli aggiornamenti.
+
+<!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScAxbHp1a_3cVqgN8l9IFmVQF4y6PihjxchN1wOCepn17KIeA/viewform?embedded=true" width="100%" height="1606" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
 
 <!--
 Typeform popup for the form:
