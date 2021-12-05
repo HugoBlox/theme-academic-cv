@@ -55,8 +55,8 @@ hero_media = "hero-academic.png"
   label = "Read the announcement"
   
 [cta_alt]
-  url = "/rules"
-  label = "View rulebook"
+  url = "/register"
+  label = "Register now!"
   
 +++
 

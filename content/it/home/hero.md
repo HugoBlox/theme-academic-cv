@@ -59,8 +59,8 @@ hero_media = ""
   label = "Leggi l'annuncio"
   
 [cta_alt]
-  url = "/it/rules"
-  label = "Leggi il regolamento"
+  url = "/it/register"
+  label = "Iscriviti!"
   
 +++
 
