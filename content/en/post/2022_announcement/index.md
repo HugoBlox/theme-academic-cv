@@ -32,7 +32,7 @@ Dear snowballers, long time no see!
 
 Fret not! Ready your gloves, sharpen your forks, knit your hats... for the Battle is BACK!
 
-It is with immense pleasure that we, the one and only APAZAF, are proud to announce that the 2022 edition of the Great Snowball Fight will take place on January 8, 2022!
+It is with immense pleasure that we, the one and only APAZAF, are proud to announce that the 2022 edition of the Great Snowball Fight will take place on Saturday, 8 January 2022!
 
 Exiting changes are in store for this year's edition!
 Follow the [news](/post) section or the [Telegram group](https://t.me/joinchat/UsNhFbmVl6W_Odyz) if you do not want to miss the updates!
