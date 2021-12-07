@@ -15,11 +15,11 @@ role: Adjunct Professor, Founder & Director of CROSS
 # Organizations/Affiliations
 organizations:
 - name: Department of Computer Science & Engineering
-  url: "https://www.soe.ucsc.edu/departments/computer-science-and-engineering"
+  url: "https://engineering.ucsc.edu/departments/computer-science-and-engineering"
 - name: Center for Research in Open Source Software (CROSS)
   url: "https://cross.ucsc.edu"
 - name: Jack Baskin School of Engineering
-  url: "https://www.soe.ucsc.edu"
+  url: "https://engineering.ucsc.edu"
 - name: University of California, Santa Cruz
   url: "https://www.ucsc.edu"
 
