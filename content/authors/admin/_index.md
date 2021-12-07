@@ -18,7 +18,7 @@ organizations:
   url: "https://engineering.ucsc.edu/departments/computer-science-and-engineering"
 - name: Center for Research in Open Source Software (CROSS)
   url: "https://cross.ucsc.edu"
-- name: Jack Baskin School of Engineering
+- name: Baskin School of Engineering
   url: "https://engineering.ucsc.edu"
 - name: University of California, Santa Cruz
   url: "https://www.ucsc.edu"
