@@ -1,10 +1,10 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "An open source framework for atomic data"
+title: "An Open Source Framework for Atomic Data"
 authors: [Pássaro E. A., Kerzendorf W. E., Floers A., Vogl C.]
 date: 2019-09-15T16:55:25-03:00
-doi: ""
+doi: "10.5281/zenodo.4062426"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2020-02-21T16:55:25-03:00
@@ -35,10 +35,6 @@ featured: true
 #   url: https://twitter.com
 #   icon_pack: fab
 #   icon: twitter
-
-links:
-- name: 'PNG'
-  url: 'files/poster-aaa2019.png'
 
 url_pdf: 'files/poster-aaa2019.pdf'
 url_code:

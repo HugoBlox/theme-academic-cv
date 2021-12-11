@@ -1,22 +1,22 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Lands of Buenos Aires"
-summary: ""
-authors: [admin]
-tags: [dataset]
+title: "texbuilder"
+summary: "Build and preview LaTeX documents with GitHub Actions"
+authors: []
+tags: []
 categories: []
-date: 2020-02-21T16:52:08-03:00
+date: 2021-12-11T20:59:00-03:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: https://www.kaggle.com/epassaro/lands-of-buenos-aires-prices
+external_link: "https://github.com/epassaro/texbuilder"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
-  focal_point: "smart"
+  focal_point: ""
   preview_only: false
 
 # Custom links (optional).

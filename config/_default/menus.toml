@@ -8,29 +8,29 @@
   url = "#about"
   weight = 10
 
-#[[main]]
-#  name = "Posts"
-#  url = "#posts"
-#  weight = 20
+[[main]]
+  name = "Blog"
+  url = "/post"
+  weight = 40
 
 #[[main]]
 #  name = "Projects"
 #  url = "#projects"
-#  weight = 40
+#  weight = 30
 
 [[main]]
   name = "Publications"
   url = "#featured"
-  weight = 30
+  weight = 20
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 70
+  weight = 60
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-[[main]]
-  name = "CV"
-  url = "https://epassaro.github.io/cv"
-  weight = 60
+# [[main]]
+#   name = "CV"
+#   url = ""
+#   weight = 50

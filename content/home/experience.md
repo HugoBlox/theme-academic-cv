@@ -18,26 +18,39 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Google Summer of Code student"
+  title = "CI/CD Engineer"
+  company = "NumFOCUS"
+  company_url = "https://numfocus.org/"
+  location = "La Plata, Argentina (Remote)"
+  date_start = "2021-05-21"
+  date_end = ""
+  description = ""
+
+[[experience]]
+  title = "Student Developer"
   company = "TARDIS-SN"
-  company_url = ""
+  company_url = "https://tardis-sn.github.io/"
   location = ""
   date_start = "2020-05-04"
   date_end = "2020-08-31"
   description = """
   
+  Project funded by the [Google Summer of Code](https://summerofcode.withgoogle.com/) program.
+
   [See certificate](files/certificate-gsoc20.pdf)  &#183;
   [Completion letter](files/completion-letter-gsoc20.pdf)  """
 
 [[experience]]
-  title = "Google Summer of Code student"
+  title = "Student Developer"
   company = "Python Software Foundation"
-  company_url = ""
+  company_url = "https://www.python.org/psf/"
   location = ""
   date_start = "2019-05-27"
   date_end = "2019-08-26"
   description = """
-  
+
+  Project funded by the [Google Summer of Code](https://summerofcode.withgoogle.com/) program.
+
   [See certificate](files/certificate-gsoc19.pdf)  &#183;
   [Completion letter](files/completion-letter-gsoc19.pdf)
   """

@@ -82,7 +82,8 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir 
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "epassaro@fcaglp.unlp.edu.ar"
+email = "epassaro15@gmail.com"
+alt_email = "epassaro@fcaglp.unlp.edu.ar"
 # phone = "888 888 88 88"
 
 # Address

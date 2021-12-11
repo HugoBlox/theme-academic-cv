@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: "Astronomy student"
+role: "Student. Developer."
 
 # Organizations/Affiliations
 organizations:
@@ -21,9 +21,9 @@ organizations:
 bio:
 
 interests:
-- Astrophysics
-- Machine Learning
-- HPC & Cloud Computing
+  - Supernovae
+  - Machine Learning
+  - HPC & Cloud Computing
 
 education:
   courses:
@@ -59,9 +59,9 @@ social:
 - icon: dev
   icon_pack: fab
   link: "https://dev.to/epassaro"
-- icon: medium
-  icon_pack: fab
-  link: "https://medium.com/@epassaro"
+#- icon: medium
+#  icon_pack: fab
+#  link: "https://medium.com/@epassaro"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -73,4 +73,5 @@ user_groups:
 #- Visitors
 ---
 
-I’m a last year astronomy student at Universidad Nacional de La Plata and open source enthusiast.
+I’m a last-year astronomy student at Universidad Nacional de La Plata and open-source enthusiast.
+

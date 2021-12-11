@@ -1,12 +1,12 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "COVID-19 Daily Update"
-summary: ""
-authors: [admin]
-tags: [data visualization]
+title: "covid-19"
+summary: "An example tracker dashboard made with Bokeh and Panel"
+authors: []
+tags: []
 categories: []
-date: 2020-04-01T20:43:00-03:00
+date: 2021-12-11T20:44:37-03:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: "https://epassaro.github.io/covid-19"
