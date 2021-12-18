@@ -45,7 +45,6 @@ administration:
 currentphds:
 - "[Saheed Adepoju](https://www.linkedin.com/in/saheedadepoju/)"
 - "[Jayjeet Chakraborty](https://www.linkedin.com/in/jayjeet-chakraborty-077579162/)"
-- "[Xiaowei Chu](https://www.linkedin.com/in/xweichu/)"
 - "[Jianshen Liu](https://www.linkedin.com/in/jianshenliu/)"
 - "[Esmaeil Mirvakili](https://www.linkedin.com/in/esmaeil-m-12a71879/)"
 - "[Farid Zakaria](https://www.linkedin.com/in/fmzakari/)"
@@ -80,6 +79,8 @@ graduatedmss:
     year: "2017"
   - course: "[Zheyuan Chen](https://www.linkedin.com/in/zheyuan-chen/)"
     year: "2017"
+  - course: "[Xiaowei Chu](https://www.linkedin.com/in/xweichu/)"
+    year: "2021"
   - course: "[Abhishek Grover](https://www.linkedin.com/in/abhishek-grover-8183a024/)"
     year: "2016"
   - course: "[Bettie Jea](https://www.linkedin.com/in/bettiejea/)"
