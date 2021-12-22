@@ -2,10 +2,19 @@
 share= false
 +++
 # Cos'è?
-Come da tradizione, APAZAF organizza una battaglia di palle di neve amichevole il primo sabato dell'anno nuovo.
+Come da tradizione, APAZAF organizza una amichevole Grande Battaglia di Palle di Neve (GBPN) all'inizio dell'anno nuovo.
 La battaglia procede secondo delle semplici [regole](/it/rules), alla base è "cattura la bandiera".
 Come ogni anno, la battaglia si svolgerà al [Bivacco Menegazzi](https://goo.gl/maps/CRMbn2kRX38G78UF9), un bucolico bivacco con tutte le caratteristiche desiderabili: è al contempo facile da raggiungere e sufficientemente in alto (1737 m s.l.m.) da essere ben fornito di neve.
 È molto semplice: andiamo al bivacco, ci divertiamo un po', mangiamo un pranzo caldo, ci divertiamo un altro po' e torniamo a casa, stanchi e felici.
+
+## Nota COVID-19
+APAZAF è cosciente della situazione pandemica in peggioramento.
+Tutti i partecipanti alla GBPN devono possedere e, su richiesta, esibire un Certificato Verde COVID-19 valido.
+La Battaglia si svolge all'aperto, il che minimizza il rischio di contrarre il virus.
+Ciononostante, è richiesto che tutti i partecipanti indossino una mascherina quando possibile e mantengano le distanze minime.
+È obbligatorio indossare una mascherina all'interno del bivacco.
+
+Tutti i partecipanti devono attenersi alle normative COVID locali e nazionali.
 
 ## Dove e come ci troviamo?
 Vi state chiedendo come raggiungerci? Qui di sotto ci sono alcuni dettagli per aiutarvi a pianificare il viaggio.
@@ -17,7 +26,7 @@ Arrivare a Belluno in auto è facile: basta prendere la A27, circa 1.5 ore da Pa
 Treni arrivano da est (Conegliano), nord (Cortina) e sud (Padova). I treni sono pochi, pianificate di conseguenza.
 
 #### Alloggio
-08:00 è troppo presto per voi, o temete di non farcela a prendere l'ultimo treno al ritorno?
+La partenza alpina è troppo presto per voi, o temete di non farcela a prendere l'ultimo treno al ritorno?
 Niente paura! APAZAF si farà in quattro (dai tre che sono) per garantirvi un alloggio gratuito a casa di uno dei partecipanti bellunesi: colleghi di palle di neve sono sempre benvenuti!
 Semplicemente fateci sapere con anticipo al momento della registrazione, e cercheremo di prenotare un letto per voi. Se poi cambiate idea, [contattateci](/it/contact)!
 Se desiderate, potete anche dormire al bivacco, che è provvisto di letti e (forse) materassi. Avrete solo bisogno di sacchi a pelo caldi, visto che la temperatura notturna potrebbe facilmente raggiungere i -15°C.
@@ -58,6 +67,7 @@ Ecco una breve lista di cose che potreste voler portare con voi sino al bivacco.
 - Qualcosa da mangiare (cioccolato!), anche se il pranzo sarà fornito (vedi sotto)
 - Qualcosa da bere, almeno 1 l è fortemente consigliato
 - Scarponi da montagna e/o ciaspe
+- Certificazione Verde COVID-19 valida
 
 #### Fortemente consigliato
 - Una torcia frontale
