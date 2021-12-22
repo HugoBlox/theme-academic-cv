@@ -4,10 +4,19 @@ share = false
 
 
 # What's this?
-As is traditional, APAZAF organises a friendly snowball fight on the first Saturday of the new year.
+As is traditional, APAZAF organises a friendly snowball fight (Grande Battaglia di Palle di Neve in italian, in short GBPN) at the beginning of the new year.
 The fight follows a simple set of [rules](/rules), in the "capture the flag" style.  
 Like every year, the fight takes place at the [Bivacco Menegazzi](https://goo.gl/maps/CRMbn2kRX38G78UF9), a beautiful bivouac which has the desiderable characteristics of being both easy to reach and positioned at an elevation of 1737 m, where snow is often plentiful.  
 It's pretty simple: we go there, we have some fun, we eat a warm lunch, we have some more fun and we go back home, happy and tired.
+
+## COVID-19 notice
+APAZAF is acutely aware of the pandemic situation.
+Every participant in the GBPN is REQUIRED to possess and, on request, show a valid EU Digital COVID Certificate.
+The Battle takes place in the open, which minimises the risk of exposure to the virus.
+Nevertheless, participants are required to wear a mask whenever possible and maintain social distancing.
+Wearing a mask is mandatory when inside the bivouac.
+
+Additionally, participants are of course required to comply to all local and national COVID regulations.
 
 ## Where and when do we meet?
 Wondering how to get to us? Here are some organisational details to help with planning your trip!  
@@ -19,7 +28,7 @@ Getting to Belluno by car is easy: it is served by the A27 highway, about a 1.5 
 Train lines reach the city from East (Conegliano), North (Cortina) and South (Padova); trains are usually few and far between, so plan your trip in advance.
 
 #### Accomodation
-08:00 in the morning is too early for you, or you fear you'll miss the last train?
+Is the Alpine start too early for you, or you fear you'll miss the last train?
 Fret you not! APAZAF will try to find free accommodation for you in the house of one of the participants from Belluno: fellow snowballers are more than welcome!
 Just let us know in advance when you register and we'll try to reserve a bed for you. If you change your mind, just [contact us](/contact)!
 
@@ -61,6 +70,7 @@ Here's a short list of what you might want to bring along with you to the battle
 - Something to eat for yourself (chocolate!), although lunch will be provided (see below)
 - Something to drink, at least 1L is strongly recommended
 - Mountain boots or snow boots
+- Valid EU Digital COVID Certificate
 
 #### Highly recommended
 - A Headlamp
