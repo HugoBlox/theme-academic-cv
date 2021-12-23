@@ -114,7 +114,7 @@ Rules
 
 28. The fighting ground shall be defined before the fight by APAZAF's unappealable decision.
 
-29. Any kind of physical contact between enemy players is forbidden, except kisses. *2022 addendum: we remind everyone that current pandemic-limiting regulations must be followed by all participants.*
+29. Any kind of physical contact between enemy players is forbidden, except kisses. _2022 addendum: we remind everyone that current pandemic-limiting regulations must be followed by all participants._
 
 30. Pandemics are strictly forbidden.
 

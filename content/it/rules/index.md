@@ -170,7 +170,7 @@ Regolamento
     in base all'insindacabile volere di APAZAF.
 
 29. È vietato ogni tipo di contatto fisico tra membri di squadre
-    avversarie, tranne i bacini. *Aggiunta per il 2022: ricordiamo a tutti che le norme vigenti volte a contenere la pandemia devono essere osservate da tutti i partecipanti.*
+    avversarie, tranne i bacini. _Aggiunta per il 2022: ricordiamo a tutti che le norme vigenti volte a contenere la pandemia devono essere osservate da tutti i partecipanti._
 
 30. Le pandemie sono severamente vietate.
 
