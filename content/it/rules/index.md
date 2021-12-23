@@ -149,8 +149,7 @@ Regolamento
 
 25. All'inizio della Battaglia sarà concesso del tempo alle squadre per
     fortificare la propria base a proprio piacimento. A questo scopo è
-    possibile utilizzare attrezzi come vasi da fiori o cestini. Non è
-    possibile utilizzare pale o strumenti similari.
+    possibile utilizzare attrezzi come vasi da fiori o cestini.
 
 26. Oltre alle armi e agli scudi, ogni giocatore può trasportare altri
     oggetti a propria discrezione (purché sempre a propulsione umana)
@@ -171,22 +170,24 @@ Regolamento
     in base all'insindacabile volere di APAZAF.
 
 29. È vietato ogni tipo di contatto fisico tra membri di squadre
-    avversarie, tranne i bacini.
+    avversarie, tranne i bacini. *Aggiunta per il 2022: ricordiamo a tutti che le norme vigenti volte a contenere la pandemia devono essere osservate da tutti i partecipanti.*
 
-30. È vietato danneggiare oggetti della squadra avversaria, se non
+30. Le pandemie sono severamente vietate.
+
+31. È vietato danneggiare oggetti della squadra avversaria, se non
     inavvertitamente tramite il lancio di palle di neve da una distanza
     non sospetta.
 
-31. Sono vietate le valanghe. Eventuali valanghe che desiderassero
+32. Sono vietate le valanghe. Eventuali valanghe che desiderassero
     transitare sul campo di battaglia durante la Battaglia debbono
     notificare APAZAF con congruo anticipo per permettere un'adeguata
     pianificazione dell'evento.
 
-32. Quanto non è coperto da questo regolamento è sottoposto al buon
+33. Quanto non è coperto da questo regolamento è sottoposto al buon
     senso e all'onestà di ciascuno; nel caso in cui queste
     caratteristiche dovessero mancare, il parere di APAZAF è vincolante.
 
-33. Durante lo svolgimento della battaglia è vietato funchionciare
+34. Durante lo svolgimento della battaglia è vietato funchionciare
     all'indietro.
 
 Durante lo svolgimento della Battaglia il presente regolamento trascende

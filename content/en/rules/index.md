@@ -103,7 +103,7 @@ Rules
     In the same way, any means of transportation which is not human-powered (see point 15) is also forbidden.
 
 25. At the inception of the fight some time shall be allocated for the teams to fortify their base at will.
-    For this purpose it is allowed to use such tools as flowerpots or litter bins. It is forbidden to use shovels or similar items. 
+    For this purpose it is allowed to use such tools as flowerpots or litter bins.
 
 26. On top of weapons and shields, players can carry other (human-powered) items, such as snowball-making tools, buckets of snowballs, 
     French fans from the 17th century. Such items kill the bearer(s) if they are hit by a rules-complying snowball.
@@ -114,15 +114,17 @@ Rules
 
 28. The fighting ground shall be defined before the fight by APAZAF's unappealable decision.
 
-29. Any kind of physical contact between enemy players is forbidden, except kisses.
+29. Any kind of physical contact between enemy players is forbidden, except kisses. *2022 addendum: we remind everyone that current pandemic-limiting regulations must be followed by all participants.*
 
-30. It is forbidden to damage items belonging to the enemy team, unless done unwilfully by throwing a snowball from far enough. 
+30. Pandemics are strictly forbidden.
 
-31. Avalanches are forbidden. Any avalanche wishing to cross the fighting ground during the fight shall notify APAZAF in due time in order to allow for appropriate adjustments.
+31. It is forbidden to damage items belonging to the enemy team, unless done unwilfully by throwing a snowball from far enough. 
 
-32. Anything not covered by these rules is subject to everyone's common sense and honesty. If such qualities should be lacking, APAZAF's opinion is binding. 
+32. Avalanches are forbidden. Any avalanche wishing to cross the fighting ground during the fight shall notify APAZAF in due time in order to allow for appropriate adjustments.
 
-33. During the fight it is forbidden to finkle backwards.
+33. Anything not covered by these rules is subject to everyone's common sense and honesty. If such qualities should be lacking, APAZAF's opinion is binding. 
+
+34. During the fight it is forbidden to finkle backwards.
 
 During the fight these rules trump all current legislation, including themselves.
 
