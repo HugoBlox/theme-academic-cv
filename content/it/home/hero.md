@@ -5,11 +5,10 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 5  # Order that this section will appear.
 
-title = """La Grande Battaglia di Palle di Neve
+title = """La Grande Battaglia di Palle di Neve 2022
 
-**È TORNATA!**
-
-Sabato 8 gennaio 2022"""
+**È ANNULLATA!**
+"""
 
 # Hero image (optional). Enter filename of an image in the `static/media/` folder.
 hero_media = ""
@@ -55,12 +54,12 @@ hero_media = ""
 #  label = "Scopri di più"
 
 [cta]
-  url = "/it/post/2022_announcement"
+  url = "/it/post/2022_canceled"
   label = "Leggi l'annuncio"
   
-[cta_alt]
-  url = "/it/register"
-  label = "Iscriviti!"
+#[cta_alt]
+#  url = "/it/register"
+#  label = "Iscriviti!"
   
 +++
 
