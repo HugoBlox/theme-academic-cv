@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "La Battaglia 2021 è ANNULLATA!"
+title: "La Battaglia 2022 è ANNULLATA!"
 subtitle: ":("
 summary: ""
 authors: [af]
