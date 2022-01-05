@@ -5,11 +5,10 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 5  # Order that this section will appear.
 
-title = """The Great Snowball Fight is
+title = """The Great Snowball Fight 2022
 
-**IS BACK!**
-
-Saturday 8 January 2022"""
+**IS CANCELED!**
+"""
 
 # Hero image (optional). Enter filename of an image in the `static/media/` folder.
 hero_media = "hero-academic.png"
@@ -51,12 +50,12 @@ hero_media = "hero-academic.png"
 #  label = "Learn more"
 
 [cta]
-  url = "/post/2022_announcement"
+  url = "/post/2022_canceled"
   label = "Read the announcement"
   
-[cta_alt]
-  url = "/register"
-  label = "Register now!"
+#[cta_alt]
+#  url = "/register"
+#  label = "Register now!"
   
 +++
 
