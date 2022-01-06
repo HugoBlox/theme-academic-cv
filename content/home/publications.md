@@ -7,9 +7,9 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-weight: 90
+weight: 70
 
-title: Recent Publications
+title: Publications
 subtitle: ''
 
 content:
@@ -36,6 +36,4 @@ design:
   columns: '2'
 ---
 
-{{% callout note %}}
-Quickly discover relevant content by [filtering publications](./publication/).
-{{% /callout %}}
+

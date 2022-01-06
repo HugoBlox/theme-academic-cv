@@ -1,5 +1,5 @@
 ---
-title: "An example journal article"
+title: "Construction of binary matrices for near-optimal compressed sensing"
 authors:
 - admin
 - Robert Ford

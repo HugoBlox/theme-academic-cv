@@ -20,40 +20,39 @@ twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
-phone: 888 888 88 88
-address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
-  country_code: US
-coordinates:
-  latitude: '37.4275'
-  longitude: '-122.1697'
-directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-office_hours:
-  - 'Monday 10:00 to 13:00'
-  - 'Wednesday 09:00 to 10:00'
-appointment_url: 'https://calendly.com'
+email: ivanlau@nus.edu.sg
 contact_links:
   - icon: twitter
     icon_pack: fab
-    name: DM Me
-    link: 'https://twitter.com/Twitter'
-  - icon: skype
+    name: Follow me on Twitter
+    link: 'https://twitter.com/IvanPHLau'
+  - icon: google-scholar  # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: ai
+    name: All my publications here
+    link: 'https://scholar.google.com/citations?user=jDu9ZzYAAAAJ&hl=en'
+  - icon: researchgate
+    icon_pack: ai
+    name: Follow me on ResearchGate
+    link: 'https://www.researchgate.net/profile/Ivan-Lau-3'
+  - icon: linkedin
     icon_pack: fab
-    name: Skype Me
-    link: 'skype:echo123?call'
-  - icon: keybase
-    icon_pack: fab
-    name: Chat on Keybase
-    link: 'https://keybase.io/'
-  - icon: comments
+    name: Connect on LinkedIn
+    link: 'https://www.linkedin.com/in/ivan-lau-663731b7/?originalSubdomain=ca'
+  - icon: map-marker-alt
     icon_pack: fas
-    name: Discuss on Forum
-    link: 'https://discourse.gohugo.io'
+    name: COM2 \#B1-01, 15 Computing Dr, Singapore 117418
+    link: 'https://goo.gl/maps/LLtS4Nv5wAKAo8UM7'
+   # icon_pack: fab
+    #name: Skype Me
+    #link: 'skype:echo123?call'
+  #- icon: keybase
+   # icon_pack: fab
+    #name: Chat on Keybase
+    #link: 'https://keybase.io/'
+  #- icon: comments
+   # icon_pack: fas
+    #name: Discuss on Forum
+    #link: 'https://discourse.gohugo.io'
 
 # Site header
 

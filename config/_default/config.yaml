@@ -3,13 +3,15 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Academic # Website name
-baseurl: 'https://example.com/' # Website URL
+# title: Ivan Lau # Website name
+baseurl: 'https://marcoytng.github.io' # Website URL
 copyright: '' # Footer text, e.g. '© {year} Me'
+# publishDir: "public"
 
 ############################
 ## LANGUAGE
 ############################
+
 
 defaultContentLanguage: en
 hasCJKLanguage: false
