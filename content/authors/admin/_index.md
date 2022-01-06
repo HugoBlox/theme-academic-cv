@@ -41,9 +41,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:ivanlau@nus.edu.sg'
-# - icon: cv
-#  icon_pack: ai
-#  link: uploads/CV.pdf
+- icon: cv
+  icon_pack: ai
+  link: uploads/CV.pdf
 - icon: google-scholar  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: ai
   link: https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=jDu9ZzYAAAAJ
