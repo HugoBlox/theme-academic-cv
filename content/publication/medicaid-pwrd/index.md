@@ -43,7 +43,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://muse.jhu.edu/article/804376
+url_pdf: https://muse.jhu.edu/article/804376/pdf
 url_code:
 url_dataset:
 url_poster:

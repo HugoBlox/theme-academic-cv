@@ -42,7 +42,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://journals.lww.com/md-journal/Fulltext/2021/10080/Derivation_and_external_validation_of_a_simple.25.aspx
+url_pdf:
 url_code:
 url_dataset:
 url_poster:
