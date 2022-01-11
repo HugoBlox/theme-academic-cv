@@ -4,7 +4,7 @@
 title: Protocol -- Evaluating the effect of ACA Medicaid expansion on mortality during the COVID-19 pandemic using county level matching
 authors: ["Charlotte Z. Mann, Ben B. Hansen, Lauren Gaydosh, Tim Lycurgus"]
 date: "2021-04-27"
-doi: ""
+doi: "10.1353/obs.2021.0033"
 
 # Schedule page publish date (NOT publication's date).
 publishDate:
@@ -36,7 +36,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://obsstudies.org/protocol-evaluating-the-effect-of-aca-medicaid-expansion-on-mortality-during-the-covid-19-pandemic-using-county-level-matching/
+url_pdf: https://muse.jhu.edu/article/804376/pdf
 url_code:
 url_dataset:
 url_poster:

@@ -4,7 +4,7 @@
 title: "Protocol: Evaluating the Effect of ACA Medicaid Expansion on 2015-2018 Mortality Through Matching and Weighting"
 authors: [Tim Lycurgus, Ben B. Hansen, Charlotte Z. Mann]
 date: "2021-04-27"
-doi: ""
+doi: "doi:10.1353/obs.2021.0034"
 
 # Schedule page publish date (NOT publication's date).
 publishDate:
@@ -43,7 +43,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://obsstudies.org/protocol-evaluating-the-effect-of-aca-medicaid-expansion-on-mortality-during-the-covid-19-pandemic-using-county-level-matching/
+url_pdf: https://muse.jhu.edu/article/804376
 url_code:
 url_dataset:
 url_poster:
