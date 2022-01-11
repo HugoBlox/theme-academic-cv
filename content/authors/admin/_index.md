@@ -27,12 +27,16 @@ interests:
 
 education:
   courses:
-  - course: BA in Mathematics with a Statistics Track
-    institution: Carleton College
-    year: "2017"
+  - course: PhD in Statistics (expected)
+    institution: University of Michigan
+    year: "2024"
   - course: MA in Statistics
     institution: University of Michigan
     year: "2021"
+  - course: BA in Mathematics with a Statistics Track
+    institution: Carleton College
+    year: "2017"
+
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
