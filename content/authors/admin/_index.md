@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Statistics PhD Student
+role: Statistics PhD Candidate
 
 # Organizations/Affiliations
 organizations:
@@ -71,6 +71,6 @@ user_groups:
 - Visitors
 ---
 
-I am a second year PhD student in the Statistics department at the University of Michigan. I currently work with Johann Gagnon-Bartsch and Ben Hansen on projects relating to causal inference with interference, improving estimation using observational data and data from randomized controlled trials, and propensity score matching.
+I am a third year PhD candidate in the Department of Statistics at the University of Michigan. I currently work with Johann Gagnon-Bartsch and Ben B. Hansen on projects relating to a range of topics within causal inference. I am primarily interested in improving treatment effect estimation using data from randomized controlled trials (RCTs). Our projects include improved estimation by combining observational data and data from randomized controlled trials, precise estimators for paired cluster randomized trials, and  I am also interested in causal inference under the presence of interference.
 
 My interests are driven by a desire to do research with applications in education and public health, with focuses on educational interventions, pedagogy, equity in education, social determinants of health, and equity in health care access. I am also committed to improving as an instructor and am interested in Statistics pedagogy, with particular interest in improving instruction of introductory statistics courses.
