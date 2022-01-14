@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 20  # Order that this section will appear in.
 
 
-title = "Hey, I'm Manuel!"
+title = "Hi, I'm Manuel!"
 
 # Choose the user profile to display
 # This should be the username of a profile in your `content/authors/` folder.
