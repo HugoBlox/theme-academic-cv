@@ -1,0 +1,12 @@
+{
+  "name": "exampleSite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "hugo-extended": "^0.92.0"
+  },
+  "scripts": {
+    "start": "hugo server"
+  }
+}
