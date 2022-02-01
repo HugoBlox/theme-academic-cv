@@ -1,39 +1,36 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Benjamin Misteli     
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: PhD Student in Aquatic Ecologz
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
+- name: Université de Rennes 1
+  url: https://www.univ-rennes1.fr/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My PhD research focus on the effects of Macrophyte removal on aquatic biodiversity.
 
 # Interests to show in About widget
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Aqautic Ecosytems
+- Macroinvertebrates
+- Zoo-, and Phytoplankton
 
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: MSc in Environmental Sciences, Major in Ecology and Evolution
+    institution: ETH Zürich
+    year: 2019
+  - course: BSc in Geo Science, Major in Biogeography and Applied Ecology
+    institution: University of Basel
+    year: 2017
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
