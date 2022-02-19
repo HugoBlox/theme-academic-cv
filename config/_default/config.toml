@@ -83,3 +83,8 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   tags = "/tag/:slug/"
   categories = "/category/:slug/"
   publication_types = "/publication-type/:slug/"
+
+# Hugo version >= 0.91
+[security]
+  [security.funcs]
+    getenv = ["^HUGO_", "^WC_"]
