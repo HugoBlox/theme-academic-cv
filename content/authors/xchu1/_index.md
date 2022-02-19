@@ -10,14 +10,12 @@ authors:
 superuser: false
 
 # Role/position
-role: PhD Student, CROSS Research Fellow
+role: MS Student
 
 # Organizations/Affiliations
 organizations:
 - name: Department of Computer Science & Engineering
   url: "https://www.soe.ucsc.edu/departments/computer-science-and-engineering"
-- name: Center for Research in Open Source Software (CROSS)
-  url: "https://cross.ucsc.edu"
 - name: Jack Baskin School of Engineering
   url: "https://www.soe.ucsc.edu"
 - name: University of California, Santa Cruz
@@ -45,6 +43,6 @@ email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
-user_groups:
-- Current PhD Students
+#user_groups:
+#- Current PhD Students
 ---
