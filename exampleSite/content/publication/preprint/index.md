@@ -31,7 +31,7 @@ links:
 - name: Custom Link
   url: http://example.org
 url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: '#'
+url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 url_dataset: '#'
 url_poster: '#'
 url_project: ''
