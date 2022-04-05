@@ -12,8 +12,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-group: Artificial Intelligence and Mathematics
-role: Associate Professor
+role: Guest Associate Professor
 
 # Organizations/Affiliations
 organizations:
@@ -65,8 +64,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Faculty
-- Fulltime
+- Guest Researchers
 ---
 
 ### Contact

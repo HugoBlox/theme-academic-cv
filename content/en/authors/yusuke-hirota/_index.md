@@ -2,7 +2,7 @@
 # Display name
 title: "Yusuke Hirota"
 
-weight: 2020210
+weight: 1022110
 
 # Username (this should match the folder name and the name on publications)
 authors:
@@ -12,7 +12,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Graduate Student
+role: PhD Student
 
 # Organizations/Affiliations
 organizations:

@@ -23,7 +23,7 @@ organizations:
   url: "http://www.osaka-u.ac.jp/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: ""
+bio: "His research interests are privacy preservation in computer vision, transfer learning in computational photography, and action recognition."
 
 # List each interest with a dash
 interests:

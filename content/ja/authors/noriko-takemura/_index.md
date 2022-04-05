@@ -12,8 +12,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: 准教授
-group: 知能情報基盤部門
+role: 招へい准教授
 
 # Organizations/Affiliations
 organizations:
@@ -65,8 +64,8 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- 教員
-- 専任
+- 招へい研究員
+
 ---
 
 ### Contact
