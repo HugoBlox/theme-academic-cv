@@ -91,3 +91,8 @@ caches:
   modules:
     dir: "C:\\Temp\\hugo_cache\\modules"
     maxAge: -1
+security:
+  funcs:
+    getenv:
+      - ^HUGO_
+      - ^WC_
