@@ -5,154 +5,129 @@
 
 # Appearance
 
-theme: dark
-day_night: false
-font: 'appnavi'
-font_size: L
+appearance:
+  theme_day: ''
+  theme_night: 'appnavi'
+  font: 'appnavi'
+  font_size: L
 
 # SEO
 
-site_type: Organization
-local_business_type: ''
-org_name: 'アプリNavi'
-description: '大阪府立大学の部活アプリNaviのブログです。部員がプログラミング関連の記事を投稿しています。'
-twitter: ''
-
-# Contact (edit or remove options as required)
-
-email: ''
-phone: ''
-address:
-  street: '大阪府立大学 文化部室'
-  city: ''
-  region: ''
-  postcode: ''
-  country: 日本
-  country_code: ja
-coordinates:
-  latitude: '34.54660552201642'
-  longitude: '135.5041274897414'
-directions: ''
-office_hours: []
-appointment_url: ''
-contact_links:
-  - icon: twitter
-    icon_pack: fab
-    name: Twitter
-    link: 'https://twitter.com/OPUAppNavi'
-  - icon: line
-    icon_pack: fab
-    name: LINE Openchat
-    line: https://line.me/ti/g2/WmwnmlbJNN6U5F9ZKhO3tg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default
-  - icon: envelope
-    icon_pack: fas
-    name: Email
-    link: 'mailto:contact@opuappnavi.com'
-  - icon: laptop
-    icon_pack: fas
-    name: Web Site
-    link: 'https://opuappnavi.com/#/'
+marketing:
+  seo:
+    site_type: Organization
+    local_business_type: ''
+    org_name: 'アプリNavi'
+    description: '大阪府立大学の部活アプリNaviのブログです。部員がプログラミング関連の記事を投稿しています。'
+    twitter: ''
+  analytics:
+    google_analytics: ''
+    baidu_tongji: ''
+  verification:
+    google: ''
+    baidu: ''
 
 # Site header
 
-main_menu:
-  enable: true
-  align: r
-  show_logo: true
-  show_language: false
-  show_day_night: false
-  show_search: true
-  highlight_active_link: true
+header:
+  navbar:
+    enable: true
+    align: r
+    show_logo: true
+    show_language: false
+    show_day_night: false
+    show_search: true
+    highlight_active_link: true
+
+footer:
+  copyright:
+    notice: '&copy;Juris710  {year}'
+    license:
+      enable: false
+      allow_derivatives: false
+      share_alike: true
+      allow_commercial: false
+      # notice: 'This work is licensed under {license}'
 
 # Localization
 
-date_format: '2006/01/02'
-time_format: '15:04'
-address_format: ja
+locale:
+  date_format: '2006/01/02'
+  time_format: '15:04'
+  address_format: ja
 
 # Site features
 
-highlight: true
-highlight_languages:
-  - r
-highlight_style: qtcreator_dark
-math: true
-diagram: true
-privacy_pack: false
-edit_page:
-  repo_url: ''
-  content_dir: ''
-  repo_branch: main
-  editable:
-    page: false
-    post: false
-    book: false
-show_related:
-  book: true
-  page: false
-  post: true
-  project: true
-  publication: true
-  event: true
+features:
+  syntax_highlighter:
+    enable: true
+    extra_languages:
+      - r
+      - latex
+    theme: qtcreator_dark
+  math:
+    enable: true
+  diagram:
+    enable: true
+  privacy_pack:
+    enable: false
+  repository:
+    url: ''
+    content_dir: content
+    branch: master
+  avatar:
+    gravatar: false
+    shape: circle
+  comment:
+    provider: ''
+    disqus:
+      shortname: ''
+      show_count: true
+    commento:
+      url: ''
+  search:
+    provider: wowchemy
+    algolia:
+      app_id: ''
+      api_key: ''
+      index_name: ''
+      show_logo: false
+  map:
+    provider: 'mapnik'
+    api_key: ''
+    zoom: 20
+show_related: true
+# show_related:
+#   book: true
+#   page: false
+#   post: true
+#   project: true
+#   publication: true
+#   event: true
 reading_time: false
 section_pager: true
-docs_section_pager: true
 sharing: true
-copyright_license:
-  enable: false
-  allow_derivatives: false
-  share_alike: true
-  allow_commercial: false
-  notice: 'This work is licensed under {license}'
-abstract_length: 135
 plugins_js:
   - custom
-avatar:
-  gravatar: false
-  shape: circle
-publications:
-  date_format: January 2006
-  citation_style: apa
-projects:
-  post_view: 3
-  publication_view: 2
-  talk_view: 2
-breadcrumb:
-  page_types:
-    book: true
-comments:
-  provider: ''
-  commentable:
-    post: true
-    book: true
-    project: true
-    publication: true
-    event: true
-  disqus:
-    shortname: ''
-    show_count: true
-  commento:
-    url: ''
-search:
-  provider: wowchemy
-  algolia:
-    app_id: ''
-    api_key: ''
-    index_name: ''
-    show_logo: false
-map:
-  provider: mapnik
-  api_key: ''
-  zoom: 20
-marketing:
-  google_analytics: ''
-  google_tag_manager: ''
-  google_site_verification: ''
-  baidu_site_verification: ''
-  baidu_tongji: ''
-cms:
-  branch: master
-  local_backend: false
-icon:
-  pack:
-    ai: true
+# publications:
+#   date_format: January 2006
+#   citation_style: apa
+# projects:
+#   post_view: 3
+#   publication_view: 2
+#   talk_view: 2
+# icon:
+#   pack:
+#     ai: true
+
+# Extensions
+
+extensions:
+  cms:
+    branch: master
+    local_backend: false
+  isotope:
+    # Enable if you use the Portfolio widget or Publication filter
+    enable: false
+  academicons:
+    enable: false

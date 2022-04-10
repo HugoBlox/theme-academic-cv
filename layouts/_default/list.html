@@ -13,8 +13,8 @@
     {{ end }}
   {{ else }}
     {{ $paginator := .Paginate .Data.Pages }}
-    {{ range $paginator.Pages }}
-        {{ partial "li_card" . }}
+    {{ range $index, $post := $paginator.Pages }}
+      {{ partial "functions/render_view" (dict "page" $ "item" . "view" ($.Params.view | default "card") "index" $index) }}
     {{ end }}
     {{ partial "pagination" . }}
   {{ end }}

@@ -5,7 +5,6 @@
 
 title: 'アプリNaviブログ' # Website name
 baseurl: 'https://blog.opuappnavi.com/' # Website URL
-copyright: '&copy;Juris710  {year}' # Footer text, e.g. '息 {year} Me'
 
 ############################
 ## LANGUAGE
@@ -24,12 +23,13 @@ module:
   imports:
     - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5
     - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5
+
 ############################
 ## ADVANCED
 ############################
 
-publishDir: docs
 enableGitInfo: true
+publishDir: docs
 summaryLength: 30
 paginate: 10
 enableEmoji: true
@@ -45,16 +45,6 @@ disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
   section: [HTML, RSS]
-markup:
-  defaultMarkdownHandler: goldmark
-  goldmark:
-    renderer:
-      unsafe: true
-  highlight:
-    codeFences: false
-  tableOfContents:
-    startLevel: 1
-    endLevel: 3
 imaging:
   resampleFilter: lanczos
   quality: 75
@@ -65,6 +55,17 @@ taxonomies:
   category: categories
   publication_type: publication_types
   author: authors
+markup:
+  _merge: deep
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    codeFences: false
+  tableOfContents:
+    startLevel: 1
+    endLevel: 3
 related:
   threshold: 80
   includeNewer: true
@@ -92,7 +93,10 @@ caches:
     dir: "C:\\Temp\\hugo_cache\\modules"
     maxAge: -1
 security:
+  _merge: deep
   funcs:
     getenv:
       - ^HUGO_
       - ^WC_
+sitemap:
+  _merge: deep

@@ -25,7 +25,8 @@
     <div class="article-widget content-widget-hr">
       <h3>{{ i18n "user_profile_latest" | default "Latest" }}</h3>
       {{ range $query }}
-        {{ partial "li_card" . }}
+        {{ partial "functions/render_view" (dict "page" $ "item" . "view" ($.Params.view | default "compact")) }}
+        {{/* partial "functions/render_view" (dict "page" $ "item" . "view" ($.Params.view | default "compact") "index" $index) */}}
       {{ end }}
     </div>
     {{ end }}
