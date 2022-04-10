@@ -47,6 +47,6 @@ slides: ""
   <a href="mailto:computer.house.random@gmail.com">お問い合わせ</a>
 </div>
 {{</safe-html>}}
-{{<twitter user="SystemOpu" id="1263016918182539264">}}
+{{<tweet user="SystemOpu" id="1263016918182539264">}}
 アプリNaviの展示内容は、このサイトでのブログ記事公開と、下記特設サイトでのゲーム展示です。  
 [アプリNavi 府大バーチャル学祭特設サイト](http://appnavi.html.xdomain.jp/index.html)
