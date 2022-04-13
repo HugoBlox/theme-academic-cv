@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GitHub | アプリNaviブログ</title><link>https://blog.opuappnavi.com/tag/github/</link><atom:link href="https://blog.opuappnavi.com/tag/github/index.xml" rel="self" type="application/rss+xml"/><description>GitHub</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>©Juris710 2021</copyright><lastBuildDate>Sun, 24 May 2020 22:37:45 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_3.png</url><title>GitHub</title><link>https://blog.opuappnavi.com/tag/github/</link></image><item><title>GitHubのforkとライセンス</title><link>https://blog.opuappnavi.com/post/github-fork-mit/</link><pubDate>Sun, 24 May 2020 22:37:45 +0900</pubDate><guid>https://blog.opuappnavi.com/post/github-fork-mit/</guid><description>&lt;h1 id="githubのfork">GitHubのfork&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GitHub | アプリNaviブログ</title><link>https://blog.opuappnavi.com/tag/github/</link><atom:link href="https://blog.opuappnavi.com/tag/github/index.xml" rel="self" type="application/rss+xml"/><description>GitHub</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><lastBuildDate>Sun, 24 May 2020 22:37:45 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_3.png</url><title>GitHub</title><link>https://blog.opuappnavi.com/tag/github/</link></image><item><title>GitHubのforkとライセンス</title><link>https://blog.opuappnavi.com/post/github-fork-mit/</link><pubDate>Sun, 24 May 2020 22:37:45 +0900</pubDate><guid>https://blog.opuappnavi.com/post/github-fork-mit/</guid><description>&lt;h1 id="githubのfork">GitHubのfork&lt;/h1>
 &lt;p>GitHubにはforkという機能があります。既に存在するリポジトリをコピーして、オリジナルのリポジトリに影響を与えることなく変更を加えることができます。&lt;br>
 このサイトは&lt;a href="https://github.com/sourcethemes/academic-kickstart" target="_blank" rel="noopener">Academic Kickstart&lt;/a>というリポジトリをforkして開発しています。&lt;/p>
 &lt;h1 id="ライセンス">ライセンス&lt;/h1>
@@ -186,7 +186,7 @@ SOFTWARE.
 &lt;details class="spoiler " id="spoiler-0">
 &lt;summary>詳しくない人向け&lt;/summary>
 &lt;p>&lt;h2 id="21-githubにサインイン">2.1 GitHubにサインイン&lt;/h2>
-&lt;p>&lt;a href="https://github.com/">GitHub&lt;/a>にアクセスし、サインインしてください。&lt;/p>
+&lt;p>&lt;a href="https://github.com/" target="_blank" rel="noopener">GitHub&lt;/a>にアクセスし、サインインしてください。&lt;/p>
 &lt;h2 id="22-新しいリポジトリの作成">2.2 新しいリポジトリの作成&lt;/h2>
 &lt;figure class="left" >
 &lt;div class="d-flex justify-content-center">
@@ -281,7 +281,7 @@ GitHubタブが開きます。
 &lt;p>前回保存した状態と現在の状態との差分を見ることができます。
 &lt;div class="alert alert-warning">
 &lt;div>
-差分を比較するソフトウェア(&lt;a href="https://forest.watch.impress.co.jp/library/software/winmerge/">WinMerge&lt;/a>など)をインストールする必要があります。
+差分を比較するソフトウェア(&lt;a href="https://forest.watch.impress.co.jp/library/software/winmerge/" target="_blank" rel="noopener">WinMerge&lt;/a>など)をインストールする必要があります。
 &lt;/div>
 &lt;/div>
 &lt;/p>

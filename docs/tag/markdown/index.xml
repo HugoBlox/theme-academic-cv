@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Markdown | アプリNaviブログ</title><link>https://blog.opuappnavi.com/tag/markdown/</link><atom:link href="https://blog.opuappnavi.com/tag/markdown/index.xml" rel="self" type="application/rss+xml"/><description>Markdown</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>©Juris710 2021</copyright><lastBuildDate>Tue, 05 May 2020 21:46:39 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_3.png</url><title>Markdown</title><link>https://blog.opuappnavi.com/tag/markdown/</link></image><item><title>(個人的)プログラマーなら使えたほうがいいファイル形式</title><link>https://blog.opuappnavi.com/post/file-format-should-able-use/</link><pubDate>Tue, 05 May 2020 21:46:39 +0900</pubDate><guid>https://blog.opuappnavi.com/post/file-format-should-able-use/</guid><description>&lt;p>プログラミング入門講座を学び、UnityやAndroid、Webなどの開発を始めた脱プログラミング初心者に向けた記事です。何を開発するかに関わらず、内容を理解出来たり自分で書けたりすれば役にたつと思うファイル形式を3つ紹介します。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Markdown | アプリNaviブログ</title><link>https://blog.opuappnavi.com/tag/markdown/</link><atom:link href="https://blog.opuappnavi.com/tag/markdown/index.xml" rel="self" type="application/rss+xml"/><description>Markdown</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><lastBuildDate>Tue, 05 May 2020 21:46:39 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_3.png</url><title>Markdown</title><link>https://blog.opuappnavi.com/tag/markdown/</link></image><item><title>(個人的)プログラマーなら使えたほうがいいファイル形式</title><link>https://blog.opuappnavi.com/post/file-format-should-able-use/</link><pubDate>Tue, 05 May 2020 21:46:39 +0900</pubDate><guid>https://blog.opuappnavi.com/post/file-format-should-able-use/</guid><description>&lt;p>プログラミング入門講座を学び、UnityやAndroid、Webなどの開発を始めた脱プログラミング初心者に向けた記事です。何を開発するかに関わらず、内容を理解出来たり自分で書けたりすれば役にたつと思うファイル形式を3つ紹介します。&lt;/p>
 &lt;h1 id="markdown">Markdown&lt;/h1>
 &lt;p>Markdown（マークダウン）は、文書を記述するための軽量マークアップ言語のひとつです。
 ソフトウェアのインストールし使用する前の注意事項などを記述した&lt;code>Readme&lt;/code>ファイルなどに用いられています。また、このサイトの記事も全てMarkdownファイルです。&lt;/p>
@@ -131,7 +131,7 @@ foo
 &lt;/code>&lt;/pre>
 &lt;p>表示形式には1から4の数値が指定できます。&lt;/p>
 &lt;p>例えば、&lt;code>{{&amp;lt;cite page=&amp;quot;project/opu-virtual-festival-2020&amp;quot; view=&amp;quot;1&amp;quot;&amp;gt;}}&lt;/code>と記述すると、下のように表示されます。
-&lt;div class="view-list-item">
+&lt;div class="view-list view-list-item">
 &lt;i class="fas fa-project-diagram pub-icon" aria-hidden="true">&lt;/i>
 &lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/" >府大バーチャル学祭&lt;/a>
 &lt;div class="article-metadata">
@@ -143,7 +143,7 @@ foo
 &lt;/div>
 &lt;/p>
 &lt;p>&lt;code>view=&amp;quot;2&amp;quot;&lt;/code>に変えると、下のように表示されます。
-&lt;div class="media stream-item">
+&lt;div class="media stream-item view-compact">
 &lt;div class="media-body">
 &lt;div class="section-subheading article-title mb-0 mt-0">
 &lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/" >府大バーチャル学祭&lt;/a>
@@ -167,7 +167,7 @@ OPU Virtual Festival
 &lt;/div>
 &lt;/p>
 &lt;p>&lt;code>view=&amp;quot;3&amp;quot;&lt;/code>に変えると、下のように表示されます。
-&lt;div class="card-simple">
+&lt;div class="card-simple view-card">
 &lt;div class="article-metadata">
 &lt;div>
 &lt;span >
@@ -177,11 +177,11 @@ OPU Virtual Festival
 &lt;/div>
 &lt;span class="article-date">
 2020/04/28 投稿
-( 2021/03/16 最終更新 )
+( 2022/04/10 最終更新 )
 &lt;/span>
 &lt;/div>
 &lt;div class="section-subheading article-title mb-1 mt-3">
-&lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/">府大バーチャル学祭&lt;/a>
+&lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/" >府大バーチャル学祭&lt;/a>
 &lt;/div>
 &lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/" class="summary-link">
 &lt;div class="article-style">
@@ -191,7 +191,7 @@ OPU Virtual Festival
 &lt;/div>
 &lt;/p>
 &lt;p>&lt;code>view=&amp;quot;4&amp;quot;&lt;/code>に変えると、下のように表示されます。
-&lt;div class="pub-list-item" style="margin-bottom: 1rem">
+&lt;div class="pub-list-item view-citation" style="margin-bottom: 1rem">
 &lt;i class="far fa-file-alt pub-icon" aria-hidden="true">&lt;/i>
 &lt;span class="article-metadata li-cite-author">
 &lt;span >

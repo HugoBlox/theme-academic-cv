@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Google Apps Script | アプリNaviブログ</title><link>https://blog.opuappnavi.com/tag/google-apps-script/</link><atom:link href="https://blog.opuappnavi.com/tag/google-apps-script/index.xml" rel="self" type="application/rss+xml"/><description>Google Apps Script</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>©Juris710 2021</copyright><lastBuildDate>Wed, 07 Apr 2021 23:01:38 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_3.png</url><title>Google Apps Script</title><link>https://blog.opuappnavi.com/tag/google-apps-script/</link></image><item><title>一般人とプログラマーの違い（youtube動画紹介)</title><link>https://blog.opuappnavi.com/post/gas-programmer/</link><pubDate>Wed, 07 Apr 2021 23:01:38 +0900</pubDate><guid>https://blog.opuappnavi.com/post/gas-programmer/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Google Apps Script | アプリNaviブログ</title><link>https://blog.opuappnavi.com/tag/google-apps-script/</link><atom:link href="https://blog.opuappnavi.com/tag/google-apps-script/index.xml" rel="self" type="application/rss+xml"/><description>Google Apps Script</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><lastBuildDate>Wed, 07 Apr 2021 23:01:38 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_3.png</url><title>Google Apps Script</title><link>https://blog.opuappnavi.com/tag/google-apps-script/</link></image><item><title>一般人とプログラマーの違い（youtube動画紹介)</title><link>https://blog.opuappnavi.com/post/gas-programmer/</link><pubDate>Wed, 07 Apr 2021 23:01:38 +0900</pubDate><guid>https://blog.opuappnavi.com/post/gas-programmer/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
 &lt;p>どうも、部内でブログを書くとなるとGASを使って何かしたいNobuです。（需要はあまりなさそうですが）&lt;/p>
 &lt;p>今回はyoutubeで少し気になった動画があり、GASも使っていたのでそれの紹介と実際にやってみたいと思います！&lt;/p>
 &lt;h1 id="対象">対象&lt;/h1>
@@ -50,7 +50,7 @@
 &lt;h2 id="最初に読んでみたらいいかも環境設定">最初に読んでみたらいいかも(環境設定)&lt;/h2>
 &lt;p>GAS(Google Apps Script)を使います。
 GASの詳細や環境設定（超簡単）とかは以前書いたこの記事などにのっているのでよかったら！&lt;/p>
-&lt;div class="card-simple">
+&lt;div class="card-simple view-card">
 &lt;div class="article-metadata">
 &lt;div>
 &lt;span >
@@ -62,7 +62,7 @@ GASの詳細や環境設定（超簡単）とかは以前書いたこの記事�
 &lt;/span>
 &lt;/div>
 &lt;div class="section-subheading article-title mb-1 mt-3">
-&lt;a href="https://blog.opuappnavi.com/post/gas-recommendation/">手軽に始める！GAS を使ってみませんか～&lt;/a>
+&lt;a href="https://blog.opuappnavi.com/post/gas-recommendation/" >手軽に始める！GAS を使ってみませんか～&lt;/a>
 &lt;/div>
 &lt;a href="https://blog.opuappnavi.com/post/gas-recommendation/" class="summary-link">
 &lt;div class="article-style">
@@ -231,7 +231,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 先ほどメモを取った url の keyid 以下の文字列をアクセスキーに置き換え、利用することで指定した条件のお店を検索することが出来ます。&lt;/p>
 &lt;p>コードについては利用方法は使用言語によって異なってくると思うので、詳しい話は省きますが、とりあえず GAS(Google Apps Script)での利用例を載せておきます。&lt;/p>
 &lt;p>(GAS についての紹介はよければ下まで)
-&lt;div class="card-simple">
+&lt;div class="card-simple view-card">
 &lt;div class="article-metadata">
 &lt;div>
 &lt;span >
@@ -243,7 +243,7 @@ API 仕様を確認した後はテストツールを使ってみましょう。�
 &lt;/span>
 &lt;/div>
 &lt;div class="section-subheading article-title mb-1 mt-3">
-&lt;a href="https://blog.opuappnavi.com/post/gas-recommendation/">手軽に始める！GAS を使ってみませんか～&lt;/a>
+&lt;a href="https://blog.opuappnavi.com/post/gas-recommendation/" >手軽に始める！GAS を使ってみませんか～&lt;/a>
 &lt;/div>
 &lt;a href="https://blog.opuappnavi.com/post/gas-recommendation/" class="summary-link">
 &lt;div class="article-style">
@@ -287,7 +287,7 @@ Logger.log(json[&amp;quot;rest&amp;quot;][0][&amp;quot;name&amp;quot;]);
 &lt;p>手軽にできるので、JavaScript など、プログラミングを最近学び始めた方はちょっと実践がてらに GAS を利用して何か作ってみたらどうでしょう？みたいな気持ちで書いたので、読んでもらえたら幸いです。（GAS は一応 JavaScript ベースでできています(^^)/)&lt;/p>
 &lt;h2 id="gas-って">GAS って？&lt;/h2>
 &lt;p>こちらで紹介しているので良ければ見ていってください！&lt;/p>
-&lt;div class="card-simple">
+&lt;div class="card-simple view-card">
 &lt;div class="article-metadata">
 &lt;div>
 &lt;span >
@@ -299,7 +299,7 @@ Logger.log(json[&amp;quot;rest&amp;quot;][0][&amp;quot;name&amp;quot;]);
 &lt;/span>
 &lt;/div>
 &lt;div class="section-subheading article-title mb-1 mt-3">
-&lt;a href="https://blog.opuappnavi.com/post/gas-recommendation/">手軽に始める！GAS を使ってみませんか～&lt;/a>
+&lt;a href="https://blog.opuappnavi.com/post/gas-recommendation/" >手軽に始める！GAS を使ってみませんか～&lt;/a>
 &lt;/div>
 &lt;a href="https://blog.opuappnavi.com/post/gas-recommendation/" class="summary-link">
 &lt;div class="article-style">

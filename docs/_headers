@@ -1,6 +1,6 @@
 # Netlify headers
 # Automatically generated
-# Documentation: http://bit.ly/netlify-deployment
+# Documentation: https://wowchemy.com/docs/hugo-tutorials/security/
 /*
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block

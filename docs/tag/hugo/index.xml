@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo | アプリNaviブログ</title><link>https://blog.opuappnavi.com/tag/hugo/</link><atom:link href="https://blog.opuappnavi.com/tag/hugo/index.xml" rel="self" type="application/rss+xml"/><description>Hugo</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>©Juris710 2021</copyright><lastBuildDate>Tue, 28 Apr 2020 00:01:09 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_3.png</url><title>Hugo</title><link>https://blog.opuappnavi.com/tag/hugo/</link></image><item><title>記事の書き方</title><link>https://blog.opuappnavi.com/post/how-to-write-an-article/</link><pubDate>Tue, 28 Apr 2020 00:01:09 +0900</pubDate><guid>https://blog.opuappnavi.com/post/how-to-write-an-article/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo | アプリNaviブログ</title><link>https://blog.opuappnavi.com/tag/hugo/</link><atom:link href="https://blog.opuappnavi.com/tag/hugo/index.xml" rel="self" type="application/rss+xml"/><description>Hugo</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><lastBuildDate>Tue, 28 Apr 2020 00:01:09 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_3.png</url><title>Hugo</title><link>https://blog.opuappnavi.com/tag/hugo/</link></image><item><title>記事の書き方</title><link>https://blog.opuappnavi.com/post/how-to-write-an-article/</link><pubDate>Tue, 28 Apr 2020 00:01:09 +0900</pubDate><guid>https://blog.opuappnavi.com/post/how-to-write-an-article/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
 &lt;p>このサイトでの記事の書き方をまとめました。英語でも構わない場合は&lt;a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/" target="_blank" rel="noopener">公式ドキュメント&lt;/a>も参照してください。&lt;/p>
 &lt;h1 id="markdown記法">Markdown記法&lt;/h1>
 &lt;p>全ての記事はMarkdown記法で書く必要があります。書き方については&lt;a href="https://qiita.com/kamorits/items/6f342da395ad57468ae3" target="_blank" rel="noopener">このサイト&lt;/a>を参照してください。&lt;/p>
@@ -94,7 +94,7 @@ foo
 &lt;/code>&lt;/pre>
 &lt;p>表示形式には1から4の数値が指定できます。&lt;/p>
 &lt;p>例えば、&lt;code>{{&amp;lt;cite page=&amp;quot;project/opu-virtual-festival-2020&amp;quot; view=&amp;quot;1&amp;quot;&amp;gt;}}&lt;/code>と記述すると、下のように表示されます。
-&lt;div class="view-list-item">
+&lt;div class="view-list view-list-item">
 &lt;i class="fas fa-project-diagram pub-icon" aria-hidden="true">&lt;/i>
 &lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/" >府大バーチャル学祭&lt;/a>
 &lt;div class="article-metadata">
@@ -106,7 +106,7 @@ foo
 &lt;/div>
 &lt;/p>
 &lt;p>&lt;code>view=&amp;quot;2&amp;quot;&lt;/code>に変えると、下のように表示されます。
-&lt;div class="media stream-item">
+&lt;div class="media stream-item view-compact">
 &lt;div class="media-body">
 &lt;div class="section-subheading article-title mb-0 mt-0">
 &lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/" >府大バーチャル学祭&lt;/a>
@@ -130,7 +130,7 @@ OPU Virtual Festival
 &lt;/div>
 &lt;/p>
 &lt;p>&lt;code>view=&amp;quot;3&amp;quot;&lt;/code>に変えると、下のように表示されます。
-&lt;div class="card-simple">
+&lt;div class="card-simple view-card">
 &lt;div class="article-metadata">
 &lt;div>
 &lt;span >
@@ -140,11 +140,11 @@ OPU Virtual Festival
 &lt;/div>
 &lt;span class="article-date">
 2020/04/28 投稿
-( 2021/03/16 最終更新 )
+( 2022/04/10 最終更新 )
 &lt;/span>
 &lt;/div>
 &lt;div class="section-subheading article-title mb-1 mt-3">
-&lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/">府大バーチャル学祭&lt;/a>
+&lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/" >府大バーチャル学祭&lt;/a>
 &lt;/div>
 &lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/" class="summary-link">
 &lt;div class="article-style">
@@ -154,7 +154,7 @@ OPU Virtual Festival
 &lt;/div>
 &lt;/p>
 &lt;p>&lt;code>view=&amp;quot;4&amp;quot;&lt;/code>に変えると、下のように表示されます。
-&lt;div class="pub-list-item" style="margin-bottom: 1rem">
+&lt;div class="pub-list-item view-citation" style="margin-bottom: 1rem">
 &lt;i class="far fa-file-alt pub-icon" aria-hidden="true">&lt;/i>
 &lt;span class="article-metadata li-cite-author">
 &lt;span >
@@ -199,7 +199,7 @@ C--&amp;gt;D;
 &lt;/code>&lt;/pre>
 &lt;iframe id=slide-introduction src=https://blog.opuappnavi.com/slides/slide-introduction width=640 height=360 allowfullscreen=true>&lt;/iframe></description></item><item><title>このサイトについて</title><link>https://blog.opuappnavi.com/post/site-introduction/</link><pubDate>Tue, 28 Apr 2020 00:00:59 +0900</pubDate><guid>https://blog.opuappnavi.com/post/site-introduction/</guid><description>&lt;h1 id="サイト制作の経緯">サイト制作の経緯&lt;/h1>
 &lt;p>4月末に、コンピュータハウスランダムさんからオンライン友好祭が提案されました。
-&lt;div class="card-simple">
+&lt;div class="card-simple view-card">
 &lt;div class="article-metadata">
 &lt;div>
 &lt;span >
@@ -209,11 +209,11 @@ C--&amp;gt;D;
 &lt;/div>
 &lt;span class="article-date">
 2020/04/28 投稿
-( 2021/03/16 最終更新 )
+( 2022/04/10 最終更新 )
 &lt;/span>
 &lt;/div>
 &lt;div class="section-subheading article-title mb-1 mt-3">
-&lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/">府大バーチャル学祭&lt;/a>
+&lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/" >府大バーチャル学祭&lt;/a>
 &lt;/div>
 &lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/" class="summary-link">
 &lt;div class="article-style">

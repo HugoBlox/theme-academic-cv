@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Juris710 | アプリNaviブログ</title><link>https://blog.opuappnavi.com/authors/juris710/</link><atom:link href="https://blog.opuappnavi.com/authors/juris710/index.xml" rel="self" type="application/rss+xml"/><description>Juris710</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>©Juris710 2021</copyright><image><url>https://blog.opuappnavi.com/authors/juris710/avatar_hu5de0ea20705264e86c3c4da9248d73aa_202133_270x270_fill_q75_lanczos_center.jpg</url><title>Juris710</title><link>https://blog.opuappnavi.com/authors/juris710/</link></image><item><title>おすすめプログラミングYouTubeチャンネル</title><link>https://blog.opuappnavi.com/post/recommended-youtube-channels/</link><pubDate>Wed, 07 Apr 2021 16:13:36 +0900</pubDate><guid>https://blog.opuappnavi.com/post/recommended-youtube-channels/</guid><description>&lt;p>私がアプリを開発する際に参考にしているYouTubeチャンネルを紹介します。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Juris710 | アプリNaviブログ</title><link>https://blog.opuappnavi.com/authors/juris710/</link><atom:link href="https://blog.opuappnavi.com/authors/juris710/index.xml" rel="self" type="application/rss+xml"/><description>Juris710</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><image><url>https://blog.opuappnavi.com/authors/juris710/avatar_hu5de0ea20705264e86c3c4da9248d73aa_202133_270x270_fill_q75_lanczos_center.jpg</url><title>Juris710</title><link>https://blog.opuappnavi.com/authors/juris710/</link></image><item><title>2021年度に制作したゲーム紹介</title><link>https://blog.opuappnavi.com/post/games-in-2021/</link><pubDate>Wed, 13 Apr 2022 22:36:31 +0900</pubDate><guid>https://blog.opuappnavi.com/post/games-in-2021/</guid><description>&lt;p>約一年ぶりの投稿となります。&lt;/p>
+&lt;p>昨年度もコロナの影響で、例年行ってきた友好祭と白鷺祭でのゲーム展示を開催することが出来ませんでした。
+一方で、例年行ってきたコンピュータハウスランダムさんとの合同ハッカソンは、オンラインではありますが開催することができました。
+例年ハッカソンは1年に2回開催しており、昨年度も2回開催することができました。&lt;/p>
+&lt;p>この記事では、昨年度のハッカソンでアプリNavi部員が制作したゲームのうち、インターネット上に公開されている2作品を紹介します。&lt;/p>
+&lt;h1 id="survice-railway">Survice Railway&lt;/h1>
+&lt;figure id="figure-survice-railwayのスクリーンショット">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Survice Railwayのスクリーンショット" srcset="
+/post/games-in-2021/survice-railway_hubc10b0936c23df1f3a623a5a8f1a710d_1161078_23f3550b7d1c4a8ee43fc03941ebddcc.webp 400w,
+/post/games-in-2021/survice-railway_hubc10b0936c23df1f3a623a5a8f1a710d_1161078_cf1f328e8943060ce407713b524c6975.webp 760w,
+/post/games-in-2021/survice-railway_hubc10b0936c23df1f3a623a5a8f1a710d_1161078_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://blog.opuappnavi.com/post/games-in-2021/survice-railway_hubc10b0936c23df1f3a623a5a8f1a710d_1161078_23f3550b7d1c4a8ee43fc03941ebddcc.webp"
+width="430"
+height="760"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Survice Railwayのスクリーンショット
+&lt;/figcaption>&lt;/figure>
+&lt;p>2021年秋ハッカソンで制作したゲームです。
+例年は夏休み中に開催されますが、今回は変則的に10月に開催されました。&lt;/p>
+&lt;p>この時のテーマは&amp;quot;スイッチ&amp;quot;。
+障害物に衝突しないように電車の行先を切り替え（スイッチし）ていくゲームです。&lt;/p>
+&lt;ul class="cta-group">
+&lt;li>
+&lt;a href="https://resources.opuappnavi.com/works/hackathon2021fall/survive-railway/webgl/" target="_blank" rel="noopener" class="btn btn-primary px-3 py-3">Survice Railwayをプレイする（新しいタブに別サイトが開きます）&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="jumpin">Jumpin'&lt;/h1>
+&lt;figure id="figure-jumpinのスクリーンショット">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Jumpin&amp;#39;のスクリーンショット" srcset="
+/post/games-in-2021/jumpin_hu5262b62705033900f1a534865a3bda44_767908_6f90ed975a76fc7c3dd7fb676af4c429.webp 400w,
+/post/games-in-2021/jumpin_hu5262b62705033900f1a534865a3bda44_767908_f224f1b2531c5fdc55ca5f3600973e92.webp 760w,
+/post/games-in-2021/jumpin_hu5262b62705033900f1a534865a3bda44_767908_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://blog.opuappnavi.com/post/games-in-2021/jumpin_hu5262b62705033900f1a534865a3bda44_767908_6f90ed975a76fc7c3dd7fb676af4c429.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Jumpin&amp;rsquo;のスクリーンショット
+&lt;/figcaption>&lt;/figure>
+&lt;p>2022年春ハッカソンで制作したゲームです。&lt;/p>
+&lt;p>この時のテーマは&amp;quot;ジャンプ&amp;quot;。
+青色のピンをジャンプさせて指定ターン以内にゴールを目指すパズルゲームです。
+&lt;a href="https://ja.wikipedia.org/wiki/%E3%83%80%E3%82%A4%E3%83%A4%E3%83%A2%E3%83%B3%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0" target="_blank" rel="noopener">ダイヤモンドゲーム&lt;/a>というボードゲームから着想を得て制作しました。&lt;/p>
+&lt;p>プレイヤーは1ターンの中で2種類の動作のいずれかを行うことができます。一つは前後左右の隣接マスへ移動すること。もう一つは隣接マスにピンがいる時に、そのピンをジャンプで飛び越えることです。飛び越えた先の隣接マスにピンがいる限り、同じターン内に何度でもジャンプすることができます。
+一見ターン数が足りないように見えても、ジャンプを駆使して遠くに移動することで、クリアできるようになっています。&lt;/p>
+&lt;ul class="cta-group">
+&lt;li>
+&lt;a href="https://resources.opuappnavi.com/works/hackathon2022spring/jumpin/webgl/" target="_blank" rel="noopener" class="btn btn-primary px-3 py-3">Jumpin&amp;rsquo;をプレイする（新しいタブに別サイトが開きます）&lt;/a>
+&lt;/li>
+&lt;/ul></description></item><item><title>おすすめプログラミングYouTubeチャンネル</title><link>https://blog.opuappnavi.com/post/recommended-youtube-channels/</link><pubDate>Wed, 07 Apr 2021 16:13:36 +0900</pubDate><guid>https://blog.opuappnavi.com/post/recommended-youtube-channels/</guid><description>&lt;p>私がアプリを開発する際に参考にしているYouTubeチャンネルを紹介します。&lt;/p>
 &lt;div class="alert alert-note">
 &lt;div>
 全て英語の動画を投稿しているチャンネルです。
@@ -145,7 +197,7 @@
 &lt;p>アイキャッチ画像の引用元は次の通りです。&lt;br>
 &lt;a href="https://pixabay.com/ja/users/annaliseart-7089643/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=4039218">Please Don&amp;rsquo;t sell My Artwork AS IS&lt;/a>による&lt;a href="https://pixabay.com/ja/?utm_source=link-attribution&amp;amp;utm_medium=referral&amp;amp;utm_campaign=image&amp;amp;utm_content=4039218">Pixabay&lt;/a>からの画像&lt;/p></description></item><item><title>新入生歓迎イベントの展示ゲーム</title><link>https://blog.opuappnavi.com/post/shirasagi-2020-online-games/</link><pubDate>Tue, 16 Mar 2021 16:43:57 +0900</pubDate><guid>https://blog.opuappnavi.com/post/shirasagi-2020-online-games/</guid><description>&lt;p>2020年11月1日・2日に新入生歓迎イベントが開催されました。
 このイベントについては以前記事にしているので、興味がある方は読んでみてください。&lt;/p>
-&lt;div class="card-simple">
+&lt;div class="card-simple view-card">
 &lt;div class="article-metadata">
 &lt;div>
 &lt;span >
@@ -157,7 +209,7 @@
 &lt;/span>
 &lt;/div>
 &lt;div class="section-subheading article-title mb-1 mt-3">
-&lt;a href="https://blog.opuappnavi.com/post/shirasagi-2020-online/">新入生歓迎イベントの反省&lt;/a>
+&lt;a href="https://blog.opuappnavi.com/post/shirasagi-2020-online/" >新入生歓迎イベントの反省&lt;/a>
 &lt;/div>
 &lt;a href="https://blog.opuappnavi.com/post/shirasagi-2020-online/" class="summary-link">
 &lt;div class="article-style">
@@ -170,10 +222,10 @@
 &lt;figure id="figure-スクリーンショット">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="スクリーンショット" srcset="
-/post/shirasagi-2020-online-games/truck-quiz_hua9b33dcef0a537f5e4deb0baf32f8973_424238_6fadd27d67961ca62ed6700e836ab5ad.png 400w,
-/post/shirasagi-2020-online-games/truck-quiz_hua9b33dcef0a537f5e4deb0baf32f8973_424238_004ae8055e5009b530e5ed310c5f4a81.png 760w,
-/post/shirasagi-2020-online-games/truck-quiz_hua9b33dcef0a537f5e4deb0baf32f8973_424238_1200x1200_fit_lanczos_3.png 1200w"
-src="https://blog.opuappnavi.com/post/shirasagi-2020-online-games/truck-quiz_hua9b33dcef0a537f5e4deb0baf32f8973_424238_6fadd27d67961ca62ed6700e836ab5ad.png"
+/post/shirasagi-2020-online-games/truck-quiz_hua9b33dcef0a537f5e4deb0baf32f8973_424238_482cefd7d2f65ac15d7c205edb20b30d.webp 400w,
+/post/shirasagi-2020-online-games/truck-quiz_hua9b33dcef0a537f5e4deb0baf32f8973_424238_de6d79e2bef32fcf40ca53cbf92e378e.webp 760w,
+/post/shirasagi-2020-online-games/truck-quiz_hua9b33dcef0a537f5e4deb0baf32f8973_424238_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://blog.opuappnavi.com/post/shirasagi-2020-online-games/truck-quiz_hua9b33dcef0a537f5e4deb0baf32f8973_424238_482cefd7d2f65ac15d7c205edb20b30d.webp"
 width="691"
 height="391"
 loading="lazy" data-zoomable />&lt;/div>
@@ -190,10 +242,10 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure id="figure-スクリーンショット">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="スクリーンショット" srcset="
-/post/shirasagi-2020-online-games/junkai-delivery-ya-san_hu9ef702ee403aa02d3794b094e45afaf7_294932_36cd1cc93669bb2dfa7784a31540fe32.png 400w,
-/post/shirasagi-2020-online-games/junkai-delivery-ya-san_hu9ef702ee403aa02d3794b094e45afaf7_294932_03432c9b9ec80bb44e4c9c6c64690570.png 760w,
-/post/shirasagi-2020-online-games/junkai-delivery-ya-san_hu9ef702ee403aa02d3794b094e45afaf7_294932_1200x1200_fit_lanczos_3.png 1200w"
-src="https://blog.opuappnavi.com/post/shirasagi-2020-online-games/junkai-delivery-ya-san_hu9ef702ee403aa02d3794b094e45afaf7_294932_36cd1cc93669bb2dfa7784a31540fe32.png"
+/post/shirasagi-2020-online-games/junkai-delivery-ya-san_hu9ef702ee403aa02d3794b094e45afaf7_294932_c852b8bca6718a297cf0389134fbb49b.webp 400w,
+/post/shirasagi-2020-online-games/junkai-delivery-ya-san_hu9ef702ee403aa02d3794b094e45afaf7_294932_29015c317f91493312d8f7cbbd0e3330.webp 760w,
+/post/shirasagi-2020-online-games/junkai-delivery-ya-san_hu9ef702ee403aa02d3794b094e45afaf7_294932_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://blog.opuappnavi.com/post/shirasagi-2020-online-games/junkai-delivery-ya-san_hu9ef702ee403aa02d3794b094e45afaf7_294932_c852b8bca6718a297cf0389134fbb49b.webp"
 width="691"
 height="390"
 loading="lazy" data-zoomable />&lt;/div>
@@ -210,10 +262,10 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure id="figure-スクリーンショット">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="スクリーンショット" srcset="
-/post/shirasagi-2020-online-games/finden-die-feen_hu0cce10295c395c6b779d7522ccb50826_492077_ee6e184a8859e40a3d3ceadd6b93fd7d.png 400w,
-/post/shirasagi-2020-online-games/finden-die-feen_hu0cce10295c395c6b779d7522ccb50826_492077_1aa459f730cffa56339ab09085f54604.png 760w,
-/post/shirasagi-2020-online-games/finden-die-feen_hu0cce10295c395c6b779d7522ccb50826_492077_1200x1200_fit_lanczos_3.png 1200w"
-src="https://blog.opuappnavi.com/post/shirasagi-2020-online-games/finden-die-feen_hu0cce10295c395c6b779d7522ccb50826_492077_ee6e184a8859e40a3d3ceadd6b93fd7d.png"
+/post/shirasagi-2020-online-games/finden-die-feen_hu0cce10295c395c6b779d7522ccb50826_492077_0e2208b6bd1e1fb125ec065ead115b75.webp 400w,
+/post/shirasagi-2020-online-games/finden-die-feen_hu0cce10295c395c6b779d7522ccb50826_492077_ef74bdeca8af573e5fb4b444877d3f43.webp 760w,
+/post/shirasagi-2020-online-games/finden-die-feen_hu0cce10295c395c6b779d7522ccb50826_492077_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://blog.opuappnavi.com/post/shirasagi-2020-online-games/finden-die-feen_hu0cce10295c395c6b779d7522ccb50826_492077_0e2208b6bd1e1fb125ec065ead115b75.webp"
 width="691"
 height="396"
 loading="lazy" data-zoomable />&lt;/div>
@@ -230,10 +282,10 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure id="figure-スクリーンショット">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="スクリーンショット" srcset="
-/post/shirasagi-2020-online-games/attack-on-parrot_huf7a471a3ccf3ed79fdc38d3f54103392_634074_b2aab7c3a88d4ff663ebef4393294437.png 400w,
-/post/shirasagi-2020-online-games/attack-on-parrot_huf7a471a3ccf3ed79fdc38d3f54103392_634074_6ff11f80b8719b73318fc3d49ea981b0.png 760w,
-/post/shirasagi-2020-online-games/attack-on-parrot_huf7a471a3ccf3ed79fdc38d3f54103392_634074_1200x1200_fit_lanczos_3.png 1200w"
-src="https://blog.opuappnavi.com/post/shirasagi-2020-online-games/attack-on-parrot_huf7a471a3ccf3ed79fdc38d3f54103392_634074_b2aab7c3a88d4ff663ebef4393294437.png"
+/post/shirasagi-2020-online-games/attack-on-parrot_huf7a471a3ccf3ed79fdc38d3f54103392_634074_a51bd63dc20ad8113b76ac78a07033dc.webp 400w,
+/post/shirasagi-2020-online-games/attack-on-parrot_huf7a471a3ccf3ed79fdc38d3f54103392_634074_8e5cc18aa916fad4a9ee88a6946387d2.webp 760w,
+/post/shirasagi-2020-online-games/attack-on-parrot_huf7a471a3ccf3ed79fdc38d3f54103392_634074_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://blog.opuappnavi.com/post/shirasagi-2020-online-games/attack-on-parrot_huf7a471a3ccf3ed79fdc38d3f54103392_634074_a51bd63dc20ad8113b76ac78a07033dc.webp"
 width="760"
 height="535"
 loading="lazy" data-zoomable />&lt;/div>
@@ -250,10 +302,10 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure id="figure-スクリーンショット">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="スクリーンショット" srcset="
-/post/shirasagi-2020-online-games/riddle-house_hu4653e3dd112ef8429c3501931557e9db_806742_6fff250aba7c8c9c424d8301fbed5d45.png 400w,
-/post/shirasagi-2020-online-games/riddle-house_hu4653e3dd112ef8429c3501931557e9db_806742_5b49026ec35f36b8725eab9c3e6f9e8f.png 760w,
-/post/shirasagi-2020-online-games/riddle-house_hu4653e3dd112ef8429c3501931557e9db_806742_1200x1200_fit_lanczos_3.png 1200w"
-src="https://blog.opuappnavi.com/post/shirasagi-2020-online-games/riddle-house_hu4653e3dd112ef8429c3501931557e9db_806742_6fff250aba7c8c9c424d8301fbed5d45.png"
+/post/shirasagi-2020-online-games/riddle-house_hu4653e3dd112ef8429c3501931557e9db_806742_8fba5b274204d7ac08cf40947656688d.webp 400w,
+/post/shirasagi-2020-online-games/riddle-house_hu4653e3dd112ef8429c3501931557e9db_806742_697d6ed0ea9abea22814e41c91e99eda.webp 760w,
+/post/shirasagi-2020-online-games/riddle-house_hu4653e3dd112ef8429c3501931557e9db_806742_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://blog.opuappnavi.com/post/shirasagi-2020-online-games/riddle-house_hu4653e3dd112ef8429c3501931557e9db_806742_8fba5b274204d7ac08cf40947656688d.webp"
 width="760"
 height="355"
 loading="lazy" data-zoomable />&lt;/div>
@@ -273,10 +325,10 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure id="figure-特設サイトのホームページ">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="特設サイトのホームページ" srcset="
-/post/shirasagi-2020-online/home_hu3525688c5a46648dd4de505184195447_639288_b5fac97f705ae418f2c4d201515f9948.png 400w,
-/post/shirasagi-2020-online/home_hu3525688c5a46648dd4de505184195447_639288_ae307f46240fd77b0d4e77a6dd4a12cd.png 760w,
-/post/shirasagi-2020-online/home_hu3525688c5a46648dd4de505184195447_639288_1200x1200_fit_lanczos_3.png 1200w"
-src="https://blog.opuappnavi.com/post/shirasagi-2020-online/home_hu3525688c5a46648dd4de505184195447_639288_b5fac97f705ae418f2c4d201515f9948.png"
+/post/shirasagi-2020-online/home_hu3525688c5a46648dd4de505184195447_639288_fcce0a2a879c1acdfc0030cfe1923e51.webp 400w,
+/post/shirasagi-2020-online/home_hu3525688c5a46648dd4de505184195447_639288_335f321b72e766e9b32a3a377f3773cf.webp 760w,
+/post/shirasagi-2020-online/home_hu3525688c5a46648dd4de505184195447_639288_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://blog.opuappnavi.com/post/shirasagi-2020-online/home_hu3525688c5a46648dd4de505184195447_639288_fcce0a2a879c1acdfc0030cfe1923e51.webp"
 width="760"
 height="315"
 loading="lazy" data-zoomable />&lt;/div>
@@ -302,10 +354,10 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure id="figure-操作方法キーボードのみで操作">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="操作方法①(キーボードのみで操作)" srcset="
-/post/shirasagi-2020-online/game01_hu7cf5be3353530d7ff05d562ca0b1e857_10751_1831fecaae11e0f487f108421bf0ea6c.png 400w,
-/post/shirasagi-2020-online/game01_hu7cf5be3353530d7ff05d562ca0b1e857_10751_02a7e033da34a8db68a1586ae7771e6d.png 760w,
-/post/shirasagi-2020-online/game01_hu7cf5be3353530d7ff05d562ca0b1e857_10751_1200x1200_fit_lanczos_3.png 1200w"
-src="https://blog.opuappnavi.com/post/shirasagi-2020-online/game01_hu7cf5be3353530d7ff05d562ca0b1e857_10751_1831fecaae11e0f487f108421bf0ea6c.png"
+/post/shirasagi-2020-online/game01_hu7cf5be3353530d7ff05d562ca0b1e857_10751_8455f1c29620cb3639cf4bbe6fcb9038.webp 400w,
+/post/shirasagi-2020-online/game01_hu7cf5be3353530d7ff05d562ca0b1e857_10751_5a66a359bfb5554230c9d33be31a3905.webp 760w,
+/post/shirasagi-2020-online/game01_hu7cf5be3353530d7ff05d562ca0b1e857_10751_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://blog.opuappnavi.com/post/shirasagi-2020-online/game01_hu7cf5be3353530d7ff05d562ca0b1e857_10751_8455f1c29620cb3639cf4bbe6fcb9038.webp"
 width="276"
 height="110"
 loading="lazy" data-zoomable />&lt;/div>
@@ -315,10 +367,10 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure id="figure-操作方法マウスキーボードで操作">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="操作方法②(マウス＆キーボードで操作)" srcset="
-/post/shirasagi-2020-online/game02_hu9d0e66fa1f1e13ff4e33c9939f1bad19_12939_498efa354d47cc591c272a530b97a50e.png 400w,
-/post/shirasagi-2020-online/game02_hu9d0e66fa1f1e13ff4e33c9939f1bad19_12939_d76f088cdc0acfc41f8f2f39190bc232.png 760w,
-/post/shirasagi-2020-online/game02_hu9d0e66fa1f1e13ff4e33c9939f1bad19_12939_1200x1200_fit_lanczos_3.png 1200w"
-src="https://blog.opuappnavi.com/post/shirasagi-2020-online/game02_hu9d0e66fa1f1e13ff4e33c9939f1bad19_12939_498efa354d47cc591c272a530b97a50e.png"
+/post/shirasagi-2020-online/game02_hu9d0e66fa1f1e13ff4e33c9939f1bad19_12939_0b52f1a5557be141fc731ae9b20486bc.webp 400w,
+/post/shirasagi-2020-online/game02_hu9d0e66fa1f1e13ff4e33c9939f1bad19_12939_23f66ea174ea2594ed8e36208f58f0f9.webp 760w,
+/post/shirasagi-2020-online/game02_hu9d0e66fa1f1e13ff4e33c9939f1bad19_12939_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://blog.opuappnavi.com/post/shirasagi-2020-online/game02_hu9d0e66fa1f1e13ff4e33c9939f1bad19_12939_0b52f1a5557be141fc731ae9b20486bc.webp"
 width="466"
 height="110"
 loading="lazy" data-zoomable />&lt;/div>
@@ -336,10 +388,10 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure id="figure-音量注意の表示">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="「音量注意」の表示" srcset="
-/post/shirasagi-2020-online/game03_hue3c56796ef3c6ded53f6f0bdcad0c9e0_21997_b3b11f9cc30738028df71f836e25eb9a.png 400w,
-/post/shirasagi-2020-online/game03_hue3c56796ef3c6ded53f6f0bdcad0c9e0_21997_896916ac8992613b485209264d4477f3.png 760w,
-/post/shirasagi-2020-online/game03_hue3c56796ef3c6ded53f6f0bdcad0c9e0_21997_1200x1200_fit_lanczos_3.png 1200w"
-src="https://blog.opuappnavi.com/post/shirasagi-2020-online/game03_hue3c56796ef3c6ded53f6f0bdcad0c9e0_21997_b3b11f9cc30738028df71f836e25eb9a.png"
+/post/shirasagi-2020-online/game03_hue3c56796ef3c6ded53f6f0bdcad0c9e0_21997_1b36df3ad7dffde5b38b05fc6d2ac2fc.webp 400w,
+/post/shirasagi-2020-online/game03_hue3c56796ef3c6ded53f6f0bdcad0c9e0_21997_8f6b5c84d759005d76634fb96036eefd.webp 760w,
+/post/shirasagi-2020-online/game03_hue3c56796ef3c6ded53f6f0bdcad0c9e0_21997_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://blog.opuappnavi.com/post/shirasagi-2020-online/game03_hue3c56796ef3c6ded53f6f0bdcad0c9e0_21997_1b36df3ad7dffde5b38b05fc6d2ac2fc.webp"
 width="760"
 height="109"
 loading="lazy" data-zoomable />&lt;/div>
@@ -538,7 +590,7 @@ index.htmlを開くと、このようなエラーメッセージが表示され�
 そこで、&lt;code>Visual Studio Code&lt;/code>(&lt;code>VSCode&lt;/code>)を使ってビルドしたゲームをプレイする方法を紹介します。&lt;br>
 &lt;div class="alert alert-note">
 &lt;div>
-&lt;code>VSCode&lt;/code>は &lt;a href="https://code.visualstudio.com/">https://code.visualstudio.com/&lt;/a> からダウンロードできます。
+&lt;code>VSCode&lt;/code>は &lt;a href="https://code.visualstudio.com/" target="_blank" rel="noopener">https://code.visualstudio.com/&lt;/a> からダウンロードできます。
 &lt;/div>
 &lt;/div>
 &lt;/p>
@@ -778,7 +830,7 @@ $$&lt;/p>
 {{% fragment %}} Three {{% /fragment %}}
 &lt;/code>&lt;/pre>
 &lt;p>&lt;code>Right Arrow&lt;/code>か&lt;code>Space&lt;/code>を押すと現れます&lt;/p>
-&lt;p>&lt;span class="fragment " >
+&lt;span class="fragment " >
 One
 &lt;/span>
 &lt;span class="fragment " >
@@ -786,7 +838,7 @@ One
 &lt;/span>
 &lt;span class="fragment " >
 Three
-&lt;/span>&lt;/p>
+&lt;/span>
 &lt;p>+++&lt;/p>
 &lt;h3 id="fragments補足">Fragments補足&lt;/h3>
 &lt;p>A fragment can accept two optional parameters:&lt;/p>
@@ -897,7 +949,7 @@ Unity 2019から&lt;code>UI Elements&lt;/code>という新しいUIシステム�
 &lt;details class="spoiler " id="spoiler-0">
 &lt;summary>詳しくない人向け&lt;/summary>
 &lt;p>&lt;h2 id="21-githubにサインイン">2.1 GitHubにサインイン&lt;/h2>
-&lt;p>&lt;a href="https://github.com/">GitHub&lt;/a>にアクセスし、サインインしてください。&lt;/p>
+&lt;p>&lt;a href="https://github.com/" target="_blank" rel="noopener">GitHub&lt;/a>にアクセスし、サインインしてください。&lt;/p>
 &lt;h2 id="22-新しいリポジトリの作成">2.2 新しいリポジトリの作成&lt;/h2>
 &lt;figure class="left" >
 &lt;div class="d-flex justify-content-center">
@@ -992,7 +1044,7 @@ GitHubタブが開きます。
 &lt;p>前回保存した状態と現在の状態との差分を見ることができます。
 &lt;div class="alert alert-warning">
 &lt;div>
-差分を比較するソフトウェア(&lt;a href="https://forest.watch.impress.co.jp/library/software/winmerge/">WinMerge&lt;/a>など)をインストールする必要があります。
+差分を比較するソフトウェア(&lt;a href="https://forest.watch.impress.co.jp/library/software/winmerge/" target="_blank" rel="noopener">WinMerge&lt;/a>など)をインストールする必要があります。
 &lt;/div>
 &lt;/div>
 &lt;/p>
@@ -1080,10 +1132,10 @@ window.onresize = function(){ set_width(); };
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="" srcset="
-/project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_5762736a2b90d6002cff53fb9dc03c7c.jpg 400w,
-/project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_55ebeb28d0640c1fe6d8089bf3b8dcc3.jpg 760w,
-/project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_1200x1200_fit_q75_lanczos.jpg 1200w"
-src="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_5762736a2b90d6002cff53fb9dc03c7c.jpg"
+/project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_137106bac9cef1da27c0f89122c60371.webp 400w,
+/project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_1613777ac8b868f62148c02fb7f1e17f.webp 760w,
+/project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_137106bac9cef1da27c0f89122c60371.webp"
 width="760"
 height="428"
 loading="lazy" data-zoomable />&lt;/div>
@@ -1191,7 +1243,7 @@ foo
 &lt;/code>&lt;/pre>
 &lt;p>表示形式には1から4の数値が指定できます。&lt;/p>
 &lt;p>例えば、&lt;code>{{&amp;lt;cite page=&amp;quot;project/opu-virtual-festival-2020&amp;quot; view=&amp;quot;1&amp;quot;&amp;gt;}}&lt;/code>と記述すると、下のように表示されます。
-&lt;div class="view-list-item">
+&lt;div class="view-list view-list-item">
 &lt;i class="fas fa-project-diagram pub-icon" aria-hidden="true">&lt;/i>
 &lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/" >府大バーチャル学祭&lt;/a>
 &lt;div class="article-metadata">
@@ -1203,7 +1255,7 @@ foo
 &lt;/div>
 &lt;/p>
 &lt;p>&lt;code>view=&amp;quot;2&amp;quot;&lt;/code>に変えると、下のように表示されます。
-&lt;div class="media stream-item">
+&lt;div class="media stream-item view-compact">
 &lt;div class="media-body">
 &lt;div class="section-subheading article-title mb-0 mt-0">
 &lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/" >府大バーチャル学祭&lt;/a>
@@ -1227,7 +1279,7 @@ OPU Virtual Festival
 &lt;/div>
 &lt;/p>
 &lt;p>&lt;code>view=&amp;quot;3&amp;quot;&lt;/code>に変えると、下のように表示されます。
-&lt;div class="card-simple">
+&lt;div class="card-simple view-card">
 &lt;div class="article-metadata">
 &lt;div>
 &lt;span >
@@ -1237,11 +1289,11 @@ OPU Virtual Festival
 &lt;/div>
 &lt;span class="article-date">
 2020/04/28 投稿
-( 2021/03/16 最終更新 )
+( 2022/04/10 最終更新 )
 &lt;/span>
 &lt;/div>
 &lt;div class="section-subheading article-title mb-1 mt-3">
-&lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/">府大バーチャル学祭&lt;/a>
+&lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/" >府大バーチャル学祭&lt;/a>
 &lt;/div>
 &lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/" class="summary-link">
 &lt;div class="article-style">
@@ -1251,7 +1303,7 @@ OPU Virtual Festival
 &lt;/div>
 &lt;/p>
 &lt;p>&lt;code>view=&amp;quot;4&amp;quot;&lt;/code>に変えると、下のように表示されます。
-&lt;div class="pub-list-item" style="margin-bottom: 1rem">
+&lt;div class="pub-list-item view-citation" style="margin-bottom: 1rem">
 &lt;i class="far fa-file-alt pub-icon" aria-hidden="true">&lt;/i>
 &lt;span class="article-metadata li-cite-author">
 &lt;span >
@@ -1296,7 +1348,7 @@ C--&amp;gt;D;
 &lt;/code>&lt;/pre>
 &lt;iframe id=slide-introduction src=https://blog.opuappnavi.com/slides/slide-introduction width=640 height=360 allowfullscreen=true>&lt;/iframe></description></item><item><title>このサイトについて</title><link>https://blog.opuappnavi.com/post/site-introduction/</link><pubDate>Tue, 28 Apr 2020 00:00:59 +0900</pubDate><guid>https://blog.opuappnavi.com/post/site-introduction/</guid><description>&lt;h1 id="サイト制作の経緯">サイト制作の経緯&lt;/h1>
 &lt;p>4月末に、コンピュータハウスランダムさんからオンライン友好祭が提案されました。
-&lt;div class="card-simple">
+&lt;div class="card-simple view-card">
 &lt;div class="article-metadata">
 &lt;div>
 &lt;span >
@@ -1306,11 +1358,11 @@ C--&amp;gt;D;
 &lt;/div>
 &lt;span class="article-date">
 2020/04/28 投稿
-( 2021/03/16 最終更新 )
+( 2022/04/10 最終更新 )
 &lt;/span>
 &lt;/div>
 &lt;div class="section-subheading article-title mb-1 mt-3">
-&lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/">府大バーチャル学祭&lt;/a>
+&lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/" >府大バーチャル学祭&lt;/a>
 &lt;/div>
 &lt;a href="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/" class="summary-link">
 &lt;div class="article-style">

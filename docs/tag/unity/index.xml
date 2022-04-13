@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Unity | アプリNaviブログ</title><link>https://blog.opuappnavi.com/tag/unity/</link><atom:link href="https://blog.opuappnavi.com/tag/unity/index.xml" rel="self" type="application/rss+xml"/><description>Unity</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>©Juris710 2021</copyright><lastBuildDate>Mon, 22 Jun 2020 18:54:11 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_3.png</url><title>Unity</title><link>https://blog.opuappnavi.com/tag/unity/</link></image><item><title>Finden die Feen 開発記録</title><link>https://blog.opuappnavi.com/post/record-findendiefeen/</link><pubDate>Mon, 22 Jun 2020 18:54:11 +0900</pubDate><guid>https://blog.opuappnavi.com/post/record-findendiefeen/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Unity | アプリNaviブログ</title><link>https://blog.opuappnavi.com/tag/unity/</link><atom:link href="https://blog.opuappnavi.com/tag/unity/index.xml" rel="self" type="application/rss+xml"/><description>Unity</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><lastBuildDate>Mon, 22 Jun 2020 18:54:11 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_3.png</url><title>Unity</title><link>https://blog.opuappnavi.com/tag/unity/</link></image><item><title>Finden die Feen 開発記録</title><link>https://blog.opuappnavi.com/post/record-findendiefeen/</link><pubDate>Mon, 22 Jun 2020 18:54:11 +0900</pubDate><guid>https://blog.opuappnavi.com/post/record-findendiefeen/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
 &lt;p>この記事は，2020年5月30日から31日にかけて行われた &lt;a href="https://ch-random.net/post/167/" target="_blank" rel="noopener">&lt;strong>府大バーチャル学祭&lt;/strong>&lt;/a> で展示された &lt;strong>Finden die Feen&lt;/strong> というゲームの開発記事です。どういった経緯でこのゲームが開発されたかを，この記事に書いていこうと思います。&lt;/p>
 &lt;p>まずはじめに，&lt;strong>Finden die Feen&lt;/strong> とは以下のようなゲームです。
 &lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">&lt;a href="https://twitter.com/hashtag/%E5%BA%9C%E5%A4%A7%E3%83%90%E3%83%BC%E3%83%81%E3%83%A3%E3%83%AB%E5%AD%A6%E7%A5%AD?src=hash&amp;amp;ref_src=twsrc%5Etfw">#府大バーチャル学祭&lt;/a> &lt;br>2つ目ー！！&lt;br>タイトル：Finden die Feen&lt;br>妖精たちとのかくれんぼ&lt;br>迷路の中に隠れている見えない妖精たちを、音を頼りに探していこう！&lt;br>マウスと方向キーだけの簡単操作で遊べるよ。&lt;br>あなたは妖精たちとの遊びに最後までついていけるかな？&lt;br>&lt;br>↓↓Click！&lt;a href="https://t.co/8zEqY1KpKx">https://t.co/8zEqY1KpKx&lt;/a> &lt;a href="https://t.co/6be1bGRdb0">pic.twitter.com/6be1bGRdb0&lt;/a>&lt;/p>&amp;mdash; OPU アプリNavi (@OPUAppNavi) &lt;a href="https://twitter.com/OPUAppNavi/status/1266598410095751169?ref_src=twsrc%5Etfw">May 30, 2020&lt;/a>&lt;/blockquote>
@@ -124,7 +124,7 @@ index.htmlを開くと、このようなエラーメッセージが表示され�
 そこで、&lt;code>Visual Studio Code&lt;/code>(&lt;code>VSCode&lt;/code>)を使ってビルドしたゲームをプレイする方法を紹介します。&lt;br>
 &lt;div class="alert alert-note">
 &lt;div>
-&lt;code>VSCode&lt;/code>は &lt;a href="https://code.visualstudio.com/">https://code.visualstudio.com/&lt;/a> からダウンロードできます。
+&lt;code>VSCode&lt;/code>は &lt;a href="https://code.visualstudio.com/" target="_blank" rel="noopener">https://code.visualstudio.com/&lt;/a> からダウンロードできます。
 &lt;/div>
 &lt;/div>
 &lt;/p>
@@ -238,7 +238,7 @@ Go Live ボタン
 &lt;details class="spoiler " id="spoiler-0">
 &lt;summary>詳しくない人向け&lt;/summary>
 &lt;p>&lt;h2 id="21-githubにサインイン">2.1 GitHubにサインイン&lt;/h2>
-&lt;p>&lt;a href="https://github.com/">GitHub&lt;/a>にアクセスし、サインインしてください。&lt;/p>
+&lt;p>&lt;a href="https://github.com/" target="_blank" rel="noopener">GitHub&lt;/a>にアクセスし、サインインしてください。&lt;/p>
 &lt;h2 id="22-新しいリポジトリの作成">2.2 新しいリポジトリの作成&lt;/h2>
 &lt;figure class="left" >
 &lt;div class="d-flex justify-content-center">
@@ -333,7 +333,7 @@ GitHubタブが開きます。
 &lt;p>前回保存した状態と現在の状態との差分を見ることができます。
 &lt;div class="alert alert-warning">
 &lt;div>
-差分を比較するソフトウェア(&lt;a href="https://forest.watch.impress.co.jp/library/software/winmerge/">WinMerge&lt;/a>など)をインストールする必要があります。
+差分を比較するソフトウェア(&lt;a href="https://forest.watch.impress.co.jp/library/software/winmerge/" target="_blank" rel="noopener">WinMerge&lt;/a>など)をインストールする必要があります。
 &lt;/div>
 &lt;/div>
 &lt;/p>

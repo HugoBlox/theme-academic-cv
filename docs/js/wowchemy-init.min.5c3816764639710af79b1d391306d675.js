@@ -1,0 +1,6 @@
+/*! Wowchemy v5.4.0 | https://wowchemy.com/ */
+/*! Copyright 2016-present George Cushen (https://georgecushen.com/) */
+/*! License: https://github.com/wowchemy/wowchemy-hugo-themes/blob/main/LICENSE.md */
+
+;
+(()=>{(()=>{var e=document.body,o,i;function t(){return parseInt(localStorage.getItem("wcTheme")||2)}function n(){return Boolean(window.wc.darkLightEnabled)}function s(){if(!n())return console.debug("User theming disabled."),{isDarkTheme:window.wc.isSiteThemeDark,themeMode:window.wc.isSiteThemeDark?1:0};console.debug("User theming enabled.");let s,o=t();switch(console.debug(`User's theme variation: ${o}`),o){case 0:s=!1;break;case 1:s=!0;break;default:window.matchMedia("(prefers-color-scheme: dark)").matches?s=!0:window.matchMedia("(prefers-color-scheme: light)").matches?s=!1:s=window.wc.isSiteThemeDark;break}return s&&!e.classList.contains("dark")?(console.debug("Applying Wowchemy dark theme"),document.body.classList.add("dark")):!s&&e.classList.contains("dark")&&(console.debug("Applying Wowchemy light theme"),document.body.classList.remove("dark")),{isDarkTheme:s,themeMode:o}}o="",i=!0,window.wc={darkLightEnabled:o,isSiteThemeDark:i},window.netlifyIdentity&&window.netlifyIdentity.on("init",e=>{e||window.netlifyIdentity.on("login",()=>{document.location.href="/admin/"})}),s(),window.PlotlyConfig={MathJaxConfig:"local"}})()})()

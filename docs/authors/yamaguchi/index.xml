@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ヤマグチ | アプリNaviブログ</title><link>https://blog.opuappnavi.com/authors/yamaguchi/</link><atom:link href="https://blog.opuappnavi.com/authors/yamaguchi/index.xml" rel="self" type="application/rss+xml"/><description>ヤマグチ</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><copyright>©Juris710 2021</copyright><image><url>https://blog.opuappnavi.com/authors/yamaguchi/avatar_hu1ef6a4fc48d80aa45c879d78edee6da8_924300_270x270_fill_q75_lanczos_center.jpg</url><title>ヤマグチ</title><link>https://blog.opuappnavi.com/authors/yamaguchi/</link></image><item><title>自己流ステージ作成方法</title><link>https://blog.opuappnavi.com/post/stage-create/</link><pubDate>Sat, 30 May 2020 10:17:55 +0900</pubDate><guid>https://blog.opuappnavi.com/post/stage-create/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ヤマグチ | アプリNaviブログ</title><link>https://blog.opuappnavi.com/authors/yamaguchi/</link><atom:link href="https://blog.opuappnavi.com/authors/yamaguchi/index.xml" rel="self" type="application/rss+xml"/><description>ヤマグチ</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><image><url>https://blog.opuappnavi.com/authors/yamaguchi/avatar_hu1ef6a4fc48d80aa45c879d78edee6da8_924300_270x270_fill_q75_lanczos_center.jpg</url><title>ヤマグチ</title><link>https://blog.opuappnavi.com/authors/yamaguchi/</link></image><item><title>自己流ステージ作成方法</title><link>https://blog.opuappnavi.com/post/stage-create/</link><pubDate>Sat, 30 May 2020 10:17:55 +0900</pubDate><guid>https://blog.opuappnavi.com/post/stage-create/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
 &lt;p>初めまして、アプリNaviのヤマグチです。&lt;br>
 本日、府大バーチャル学祭開催に合わせ、『巡回！デリバリー屋さん』を&lt;a href="http://appnavi.html.xdomain.jp/index.html" target="_blank" rel="noopener">特設ページ&lt;/a>にて公開させていただきました。遊んで、楽しんでもらえたのなら嬉しいです。&lt;/p>
 &lt;p>今ゲームは2Dパズルアクションゲームで、ステージ作りにそれなりの時間を割きました。&lt;br>
@@ -54,10 +54,10 @@
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="" srcset="
-/project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_5762736a2b90d6002cff53fb9dc03c7c.jpg 400w,
-/project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_55ebeb28d0640c1fe6d8089bf3b8dcc3.jpg 760w,
-/project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_1200x1200_fit_q75_lanczos.jpg 1200w"
-src="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_5762736a2b90d6002cff53fb9dc03c7c.jpg"
+/project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_137106bac9cef1da27c0f89122c60371.webp 400w,
+/project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_1613777ac8b868f62148c02fb7f1e17f.webp 760w,
+/project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://blog.opuappnavi.com/project/opu-virtual-festival-2020/festival-image_hu2622289715c90b6ab17c1ba3b3cabf34_184214_137106bac9cef1da27c0f89122c60371.webp"
 width="760"
 height="428"
 loading="lazy" data-zoomable />&lt;/div>
