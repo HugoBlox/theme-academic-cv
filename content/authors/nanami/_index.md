@@ -26,7 +26,7 @@ university:
   course: 電気情報システム工学分野
   enrollment: 2016
   year_offset: 
-  grade_label:
+  grade_label: OB
 
 # Short bio (displayed in user profile at end of posts)
 bio: UnityでIoT触りたい野望。最近はスイーツとVTuberがマイブーム。

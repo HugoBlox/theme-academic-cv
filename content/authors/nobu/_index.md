@@ -26,7 +26,7 @@ university:
   course: 電子物理課程
   enrollment: 2018
   year_offset: 
-  grade_label: 
+  grade_label: OB
 
 # Short bio (displayed in user profile at end of posts)
 bio: これならできます。って言いたい。

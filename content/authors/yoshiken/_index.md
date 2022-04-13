@@ -24,7 +24,7 @@ university:
   department: 知識情報システム学類
   course: 
   enrollment: 2017
-  grade_label: 
+  grade_label: OB
 
 # Short bio (displayed in user profile at end of posts)
 bio: 部長でした。
