@@ -24,7 +24,7 @@ content:
   email: ''
   phone: ''
   address:
-    street: '大阪府立大学 文化部室'
+    street: '大阪公立大学 文化部室'
     city: ''
     region: ''
     postcode: ''
