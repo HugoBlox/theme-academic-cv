@@ -34,9 +34,9 @@ projects: []
 
 この記事では、昨年度のハッカソンでアプリNavi部員が制作したゲームのうち、インターネット上に公開されている2作品を紹介します。
 
-# Survice Railway
+# Survive Railway
 
-{{<figure src="survice-railway.png" caption="Survice Railwayのスクリーンショット" >}}
+{{<figure src="survive-railway.png" caption="Survive Railwayのスクリーンショット" >}}
 
 2021年秋ハッカソンで制作したゲームです。
 例年は夏休み中に開催されますが、今回は変則的に10月に開催されました。
@@ -44,7 +44,7 @@ projects: []
 この時のテーマは"スイッチ"。
 障害物に衝突しないように電車の行先を切り替え（スイッチし）ていくゲームです。
 
-{{<cta cta_text="Survice Railwayをプレイする（新しいタブに別サイトが開きます）" cta_link="https://resources.opuappnavi.com/works/hackathon2021fall/survive-railway/webgl/" cta_new_tab="true" >}}
+{{<cta cta_text="Survive Railwayをプレイする（新しいタブに別サイトが開きます）" cta_link="https://resources.opuappnavi.com/works/hackathon2021fall/survive-railway/webgl/" cta_new_tab="true" >}}
 
 # Jumpin'
 
