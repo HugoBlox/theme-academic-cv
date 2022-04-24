@@ -39,6 +39,8 @@ header:
     show_search: true
     highlight_active_link: true
 
+# Site footer
+
 footer:
   copyright:
     notice: '© {year} Me. This work is licensed under {license}'
@@ -64,8 +66,6 @@ features:
       - r
       - latex
   math:
-    enable: false
-  diagram:
     enable: false
   privacy_pack:
     enable: false
@@ -101,8 +101,5 @@ extensions:
   cms:
     branch: master
     local_backend: false
-  isotope:
-    # Enable if you use the Portfolio widget or Publication filter
-    enable: true
   academicons:
     enable: true

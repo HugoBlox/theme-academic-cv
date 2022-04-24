@@ -61,7 +61,7 @@ The Wowchemy **Academic Resumé Template** for Hugo empowers you to create your 
 - 👉 [**Get Started**](https://wowchemy.com/docs/install/)
 - 📚 [View the **documentation**](https://wowchemy.com/docs/)
 - 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
+- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
 - 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-modules/issues)
 - ⬆️ **Updating Wowchemy?** View the [Update Guide](https://wowchemy.com/docs/update/) and [Release Notes](https://wowchemy.com/updates/)
 
@@ -74,9 +74,9 @@ To help us develop this template and software sustainably under the MIT license,
 ## You're looking at a Wowchemy _widget_
 
 {{% callout note %}}
-This homepage section is an example of adding [elements](https://sourcethemes.com/academic/docs/writing-markdown-latex/) to the [*Blank* widget](https://sourcethemes.com/academic/docs/widgets/).
+This homepage section is an example of adding [elements](https://wowchemy.com/docs/content/writing-markdown-latex/) to the [_Blank_ widget](https://wowchemy.com/docs/widget/).
 
-Backgrounds can be applied to any section. Here, the *background* option is set give a *color gradient*.
+Backgrounds can be applied to any section. Here, the _background_ option is set give a _color gradient_.
 
 **To remove this section, delete `content/home/demo.md`.**
 {{% /callout %}}
