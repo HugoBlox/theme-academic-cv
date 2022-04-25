@@ -1,0 +1,16 @@
+@inproceedings{chakraborty:ccgrid22,
+ abstract = {With the ever-increasing dataset sizes, several file formats such as Parquet, ORC, and Avro have been developed to store data efficiently, save the network, and interconnect bandwidth at the price of additional CPU utilization. However, with the advent of networks supporting 25-100 Gb/s and storage devices delivering 1,000,000 reqs/sec, the CPU has become the bottleneck trying to keep up feeding data in and out of these fast devices. The result is that data access libraries executed on single clients are often CPU-bound and cannot utilize the scale-out benefits of distributed storage systems. One attractive solution to this problem is to offload data-reducing processing and filtering tasks to the storage layer. However, modifying legacy storage systems to support compute offloading is often tedious and requires an extensive understanding of the system internals. Previous approaches re-implemented functionality of data processing frameworks and access libraries for a particular storage system, a duplication of effort that might have to be repeated for different storage systems.
+
+This paper introduces a new design paradigm that allows extending programmable object storage systems to embed existing, widely used data processing frameworks and access libraries into the storage layer with no modifications. In this approach, data processing frameworks and access libraries can evolve independently from storage systems while leveraging distributed storage systems' scale-out and availability properties. We present Skyhook, an example implementation of our design paradigm using Ceph, Apache Arrow, and Parquet. We provide a brief performance evaluation of Skyhook and discuss key results.},
+ address = {Taormina (Messina), Italy},
+ author = {Jayjeet Chakraborty and Ivo Jimenez and Sebastiaan Alvarez Rodriguez and Alexandru Uta and Jeff LeFevre and Carlos Maltzahn},
+ bdsk-file-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxAzLi4vLi4vLi4vTXkgRHJpdmUvUGFwZXJzL0MvY2hha3JhYm9ydHktY2NncmlkMjIucGRmTxEBggAAAAABggACAAAMTWFjaW50b3NoIEhEAAAAAAAAAAAAAAAAAAAAAAAAAEJEAAH/////GGNoYWtyYWJvcnR5LWNjZ3JpZDIyLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAAAAAAAAAwAEAAAKIGN1AAAAAAAAAAAAAAAAAAFDAAACAD0vOlVzZXJzOmNhcmxvc21hbHQ6TXkgRHJpdmU6UGFwZXJzOkM6Y2hha3JhYm9ydHktY2NncmlkMjIucGRmAAAOADIAGABjAGgAYQBrAHIAYQBiAG8AcgB0AHkALQBjAGMAZwByAGkAZAAyADIALgBwAGQAZgAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASADtVc2Vycy9jYXJsb3NtYWx0L015IERyaXZlL1BhcGVycy9DL2NoYWtyYWJvcnR5LWNjZ3JpZDIyLnBkZgAAEwABLwAAFQACABH//wAAAAgADQAaACQAWgAAAAAAAAIBAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAHg},
+ booktitle = {CCGrid22},
+ date-added = {2022-04-11 19:45:31 -0700},
+ date-modified = {2022-04-11 19:57:58 -0700},
+ keywords = {papers, programmable, storage, systems, arrow, nsf1836650, nsf1705021, nsf1764102},
+ month = {May 16-19},
+ title = {Skyhook: Towards an Arrow-Native Storage System},
+ year = {2022}
+}
+
