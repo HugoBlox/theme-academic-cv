@@ -40,7 +40,7 @@ content:
     - icon: twitter
       icon_pack: fab
       name: Twitter
-      link: 'https://twitter.com/OPUAppNavi'
+      link: 'https://twitter.com/OMUAppNavi'
     - icon: line
       icon_pack: fab
       name: LINE Openchat

@@ -167,6 +167,6 @@ GAS の基本的な話から文法、各サービスの使い方まで項目が�
 
 以下にて、部の情報や、後期での新歓情報を随時更新するのでチェックをよろしくお願いします！
 
-[Twitter](https://twitter.com/opuappnavi)
+[Twitter](https://twitter.com/omuappnavi)
 
 [HomePage](https://opuappnavi.com/)
