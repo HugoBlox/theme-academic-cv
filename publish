@@ -1,0 +1,14 @@
+#! /bin/bash
+
+#REMOTE='carlosm@raindance.cse.ucsc.edu'
+#REMOTE='carlosm@soe.ucsc.edu'
+REMOTE='carlosm@riverdance.soe.ucsc.edu'
+RSH='ssh'
+RSYNC='/usr/bin/rsync -avz'
+SITES=~/Sites
+SITE=$SITES/UCSC
+CROSS=$SITES/CROSS
+ACADEMIC=$HOME/git/carlosmalt/ucsc-homepage
+
+(pushd $ACADEMIC; academic import --bibtex maltzahn.bib; python3 addpdfs.py; hugo; popd)
+$RSYNC -e "$RSH" $ACADEMIC/public/* $REMOTE:.html/dev/
