@@ -1,12 +1,12 @@
 ---
-title: "Center for Research in Open Source Software"
-summary: "Making a university infrastructure for bridging the gap between student research and open source projects."
+title: "Open Source Program Office - UC Santa Cruz"
+summary: "Making a university infrastructure for amplifying research impact."
 tags:
-- cross
-date: "2016-04-23T00:00:00Z"
+- ospo
+date: "2022-05-10T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://cross.ucsc.edu"
+external_link: "https://ucsc-ospo.netlify.app"
 
 image:
   caption: ""
