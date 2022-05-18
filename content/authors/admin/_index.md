@@ -41,10 +41,10 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:mguiterr@bcm.edu'  # For a direct email link, use "mailto:mguiterr@bcm.edu".
+  link: 'mailto:cantugutim@chop.edu'  # For a direct email link, use "mailto:mguiterr@bcm.edu".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/mcoffeewanderer
+  link: https://twitter.com/mrcoldbrews
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=IxTqkrEAAAAJ&hl=en&oi=ao
