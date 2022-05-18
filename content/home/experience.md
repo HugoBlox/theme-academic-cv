@@ -27,12 +27,23 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "PhD Candidate"
+  title = "Scientist I"
+  company = "Lingappan Lab"
+  company_url = "https://www.lingappanlab.com/"
+  location = "Philadelphia, PA"
+  date_start = "2022-02-10"
+  date_end = ""
+  description = """
+  
+  """
+  
+[[experience]]
+  title = "PhD in Developmental Biology"
   company = "Baylor College of Medicine"
   company_url = ""
   location = "Texas"
   date_start = "2015-05-20"
-  date_end = ""
+  date_end = "2021-12-11"
   description = """
   
   """
