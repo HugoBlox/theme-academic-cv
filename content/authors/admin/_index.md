@@ -66,10 +66,11 @@ user_groups:
 ---
 
 
-Welcome 👨🏻
-💻!
-I am a PhD Student at BCM. Originally from Mexico I moved to Texas to pursue a Biology degree at The University of Texas-Pan American.
+Welcome 👨🏻💻!
+I am a Scientist I in the Lingappan Lab at Children's Hopsital of Philadelphia. Originally from Mexico I moved to Texas to pursue a Biology degree at The University of Texas-Pan American.
 
 In college, I studied neurodegeneration using pond snails (I know, not the fastest animal model) while completing my undergraduate education at UTPA (now UTRGV) in Dr Dan Plas’ laboratory. Also as an undergraduate student and thanks to HHMI EXROP, I got the opportunity to perform research in Dr Hugo Bellen’s lab at BCM helping in the development of a genetic tool that allows for the tagging of genes and a reversible, spatial and temporal knockdown of proteins in fruit flies.
 
-Those experiences showed me the power of genetics and model organisms to the advance of our understanding of basic developmental biology and human disease. I started my PhD in Developmental Biology in the summer of 2015 and joined the Wythe Lab in 2016. My research in the Wythe Lab focuses on the study the molecular mechanisms that regulate angiogenesis during development using zebrafish and mice as model organisms. I hope that our studies will provide a better understanding into human pathologies that involve problems in vascularization like arteriovenous malformations. 
+Those experiences showed me the power of genetics and model organisms to the advance of our understanding of basic developmental biology and human disease. I started my PhD in Developmental Biology in the summer of 2015 and joined the Wythe Lab in 2016. My research in the Wythe Lab focused on the study the molecular mechanisms that regulate angiogenesis during development using zebrafish and mice as model organisms. 
+
+Now in the Lingappan lab, I am interested in understanding the sex-specific developmental reponse to lung injury. More specifically, my goal is to better understand what happens in premature babies that develop bronchopulmonary displasya (BPD) in a mouse model of hyperxic injury with the hope that it will eventually lead to better and targetted treatments. 
