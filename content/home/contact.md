@@ -25,15 +25,15 @@ content:
       captcha: false
 
   # Contact details (edit or remove options as required)
-  email: test@example.org
-  phone: 888 888 88 88
+  email: denega.katya@mail.ru
+  phone: +7 977 6616019
   address:
-    street: 450 Serra Mall
-    city: Stanford
-    region: CA
+    street: Миклухо_Маклая
+    city: Москаа
+    region: 
     postcode: '94305'
-    country: United States
-    country_code: US
+    country: Российская Федерация
+    country_code: RU
   coordinates:
     latitude: '37.4275'
     longitude: '-122.1697'
@@ -43,10 +43,10 @@ content:
     - 'Wednesday 09:00 to 10:00'
   appointment_url: 'https://calendly.com'
   contact_links:
-    - icon: twitter
+    - icon: vk
       icon_pack: fab
       name: DM Me
-      link: 'https://twitter.com/Twitter'
+      link: 'https://vk.com/id675736714'
     - icon: video
       icon_pack: fas
       name: Zoom Me
