@@ -14,8 +14,8 @@ role: Scientist
 
 # Organizations/Affiliations
 organizations:
-- name: Wythe Lab at Baylor College of Medicine
-  url: "https://wythelab.com"
+- name: Lingappan Lab at Children's Hospital of Philadelphia
+  url: "https://lingappanlab.com"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include blood vessel development and genomics.
