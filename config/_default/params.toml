@@ -273,6 +273,7 @@ plugins_js  = []
  # Enable the admin panel. See https://wowchemy.com/docs/install/
  netlify_cms = true
  branch = "master"
+ local_backend = true
 
 # Icon Pack Extensions
 [icon.pack]
