@@ -61,6 +61,7 @@ email: ""
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
+Update: I will start my Ph.D. in Electrical and Computer Engineering at [Rice University](https://www.rice.edu/) in Fall 2022.
 
 I am currently a research assistant in the [Department of Computer Science](https://www.comp.nus.edu.sg/) at the [National University of Singapore](http://www.nus.edu.sg/), advised by [Jonathan Scarlett](https://www.comp.nus.edu.sg/~scarlett/). My research interests are in the areas of machine learning, information theory, signal processing, and their applications in healthcare.
 
