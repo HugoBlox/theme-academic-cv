@@ -4,7 +4,7 @@ summary: An introduction to using Wowchemy's Slides feature.
 authors: []
 tags: []
 categories: []
-date: "2019-02-05T00:00:00Z"
+date: '2019-02-05T00:00:00Z'
 slides:
   # Choose a theme from https://github.com/hakimel/reveal.js#theming
   theme: black
@@ -38,7 +38,7 @@ slides:
 - Speaker notes: `S`
 - Fullscreen: `F`
 - Zoom: `Alt + Click`
-- [PDF Export](https://github.com/hakimel/reveal.js#pdf-export): `E`
+- [PDF Export](https://revealjs.com/pdf-export/)
 
 ---
 
@@ -47,6 +47,7 @@ slides:
 Inline code: `variable`
 
 Code block:
+
 ```python
 porridge = "blueberry"
 if porridge == "blueberry":
@@ -98,17 +99,19 @@ Add speaker notes to your presentation
 
 ```markdown
 {{%/* speaker_note */%}}
+
 - Only the speaker can read these notes
 - Press `S` key to view
-{{%/* /speaker_note */%}}
+  {{%/* /speaker_note */%}}
 ```
 
 Press the `S` key to view the speaker notes!
 
 {{< speaker_note >}}
+
 - Only the speaker can read these notes
 - Press `S` key to view
-{{< /speaker_note >}}
+  {{< /speaker_note >}}
 
 ---
 
