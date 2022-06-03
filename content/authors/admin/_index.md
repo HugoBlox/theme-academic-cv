@@ -77,9 +77,6 @@ email: ''
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
+My name is Sophie Fortz. I am a Ph.D. student in software engineering at the University of Namur, and a member of VERTIGO team. I am also a member of the PReCISE research centre and Namur Digital Institute. I work under the supervision of Gilles Perrouin and Patrick Heymans. After one year of PhD funded by the EoS (Excellence of Science) VeriLearn, I obtained a FRIA (FNRS) Grant. My thesis is entitled: "LIFTS: Learning Featured Transition Systems". My main research interests include variability-intensive systems, behavioural modelling, model-based software testing, AI4SE and SE4AI.
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+On my spare hours, I like to read and follow drawing/painting classes. I am also an active member of the Belgian Guides Federation, where I have been successively girl guide, group leader and trainer.
