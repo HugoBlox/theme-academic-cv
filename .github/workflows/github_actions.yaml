@@ -17,7 +17,7 @@ jobs:
         submodules: true
 
     - name: Hugo Deploy GitHub Pages
-      uses: benmatselby/hugo-deploy-gh-pages@master
+      uses: sfortz/hugo-deploy-gh-pages@main
       env:
         HUGO_VERSION: 0.100.1
         TARGET_REPO: sfortz/sfortz.github.io
