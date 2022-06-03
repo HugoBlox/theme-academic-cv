@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/sfortz/sfortz.github.io.git
+	branch = main
