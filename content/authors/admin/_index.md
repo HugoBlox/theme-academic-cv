@@ -45,7 +45,7 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
-  - icon: institution
+  - icon: university
     icon_pack: fas
     link: https://directory.unamur.be/staff/sfortz
   - icon: twitter
