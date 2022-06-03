@@ -51,6 +51,9 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
+  - icon: institution
+    icon_pack: fas
+    link: https://directory.unamur.be/staff/sfortz
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/GeorgeCushen
