@@ -57,8 +57,8 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Research Group
 - Research Assistants
+- Past Members
 ---
 
 Jaan Tollander de Balsch is a computer scientist with a background in applied mathematics, who focuses on algorithms, computation, and mathematical modeling. His interests include scientific writing, software engineering, and artificial intelligence. Professionally, he creates practical, well-documented, and tested software packages for solving mathematical and computational problems using Julia and Python programming languages. Apart from work and academics, he is passionate about health, athletics, productivity, and saunas.
