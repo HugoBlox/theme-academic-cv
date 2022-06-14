@@ -12,7 +12,7 @@ weight: 10
 active: true
 
 # Section title
-title: What we do
+title: Size matters for changing ecosystems
 
 # Section subtitle
 subtitle:
