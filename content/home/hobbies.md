@@ -16,15 +16,15 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-  - icon: r-project
-    icon_pack: fab
-    name: R
-  - icon: chart-line
+  - icon: paint-brush
     icon_pack: fas
-    name: Statistics
-  - icon: camera-retro
+    name: Drawing & Painting
+  - icon: camping-tent
     icon_pack: fas
-    name: Photography
+    name: Girl Guide
+  - icon: book
+    icon_pack: fas
+    name: Reading
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
 #  icon_pack: "emoji"

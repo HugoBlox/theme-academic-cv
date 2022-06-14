@@ -27,7 +27,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Model Learning & Software Product Lines
+    - course: PhD in Software Engineering
       institution: University of Namur
       year: 2023 (ongoing)
     - course: MSc in Computer Science, specialised in Sofware Engineering
@@ -63,7 +63,7 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/sophie-fortz-554240177/
-    
+
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
 # and uncomment the lines below.
