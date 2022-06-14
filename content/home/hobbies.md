@@ -21,7 +21,7 @@ feature:
     name: Drawing & Painting
   - icon: campground # {{< figure src="image.jpg" caption="A caption" >}}
     icon_pack: fas
-    name: Girl Guide
+    name: Girl Guides
   - icon: book
     icon_pack: fas
     name: Reading
