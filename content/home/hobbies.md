@@ -19,7 +19,7 @@ feature:
   - icon: paint-brush
     icon_pack: fas
     name: Drawing & Painting
-  - icon: camping-tent
+  - icon: campground # {{< figure src="image.jpg" caption="A caption" >}}
     icon_pack: fas
     name: Girl Guide
   - icon: book
