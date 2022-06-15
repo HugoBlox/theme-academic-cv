@@ -50,6 +50,15 @@ experience:
     date_end: '2023-09-01'
     description: The ALMIN is the alumni association of the computer science faculty in the university of Namur. This group organise activities for all the master and bachelor students who got their degree in the faculty. I am a board member of the association since 2019 and in 2021, I took the presidence.
 
+  - title: ALMIN president
+    company: University of Namur
+    company_url: ''
+    company_logo: almin-2
+    location: Namur, Belgium
+    date_start: '2021-09-01'
+    date_end: ''
+    description: The ALMIN is the alumni association of the computer science faculty in the university of Namur. This group organise activities for all the master and bachelor students who got their degree in the faculty. I am a board member of the association since 2019 and in 2021, I took the presidence.
+
   - title: Research internship
     company: Polytechnic University of Valencia
     company_url: ''
@@ -67,6 +76,7 @@ experience:
     date_start: '2017-09-01'
     date_end: '2019-12-31'
     description: '[CSLabs]({{< relref "../cslabs" >}}) is a non-profit organisation founded by students from Unamur’s Faculty of Computer Science, in order to promote computer science externally and provide trainings in different fields by and for students.'
+
 
 
 design:
