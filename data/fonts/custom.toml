@@ -1,0 +1,17 @@
+# Font style metadata
+name = "Custom"
+
+# Optional Google font URL
+google_fonts = "family=Baloo+Bhai+2:wght@700&family=Roboto"
+
+#Permanent Marker|Alternate Gothic|Helvetica"
+
+# Font families
+heading_font = "Baloo Bhai 2"
+body_font = "Roboto"
+nav_font = "Baloo Bhai 2"
+mono_font = "Roboto"
+
+# Font size # not sure if still working (from old theme)
+#font_size = "20"
+#font_size_small = "18"

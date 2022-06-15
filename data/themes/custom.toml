@@ -1,0 +1,23 @@
+# Theme metadata
+name = "custom"
+
+[light]
+  # Primary
+  primary = "#24C2F2" # don't know
+
+  # Menu
+  menu_primary = "#fff" # color of header band
+  menu_text = "#00A550" # text and symbol appearing in the header
+  menu_text_active = "#24C2F2" # selected text in the roll down menu
+  menu_title = "#00A550" #cyan
+
+  # Home sections
+  home_section_odd = "rgb(247, 247, 247)" # background color, start at odd, can be overidden individually
+  home_section_even = "rgb(255, 255, 255)"
+
+# footer
+#  link = "#E1793E"
+#  link_hover = "#E1793E"
+#primary_light = "#635D5E"
+#primary_dark = "#00A550"
+#background = "#fff"
