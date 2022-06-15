@@ -18,13 +18,32 @@ subtitle:
 feature:
   - icon: paint-brush
     icon_pack: fas
+    url: ../contact/
     name: Drawing & Painting
-  - icon: campground # {{< figure src="image.jpg" caption="A caption" >}}
+    link:
+  - icon: campground
     icon_pack: fas
     name: Girl Guides
+  #- icon: guides.png
+  #  icon_pack: custom
+  #  name: Girl Guides
   - icon: book
     icon_pack: fas
     name: Reading
+#  - icon: music
+#    icon_pack: fas
+#    name: Playing flute
+
+# Following courses at Gribouill’Art since 2005
+# Music Solfege degree in 2012 in the music academy of Eghezée Flute from 2007 to 2014
+# Belgian Girl Scout Since 2001
+  # Leader of the 8-12 year olds 2013-2015
+  # Leader of the 12-16 year olds 2015-2016
+  # Leader for young adults with mental disabilities 2017-2020
+  # Holiday Centre Trainer’s Certificate Obtained in 2014
+  # Federal Trainer Since 2015
+
+
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
 #  icon_pack: "emoji"

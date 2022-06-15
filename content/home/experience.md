@@ -26,16 +26,25 @@ experience:
   - title: PhD Student
     company: University of Namur
     company_url: ''
-    company_logo: org-gc
+    company_logo: unamur
     location: Namur, Belgium
     date_start: '2019-09-01'
     date_end: ''
     description: My thesis is entitled *Learning Featured Transition Systems*. I am studying how to model the behaviour of Software Product Lines and how to automatically generate those kind of models.
 
+  - title: ALMIN president
+    company: University of Namur
+    company_url: ''
+    company_logo: almin-2
+    location: Namur, Belgium
+    date_start: '2021-09-01'
+    date_end: ''
+    description: The ALMIN is the alumni association of the computer science faculty in the university of Namur. This group organise activities for all the master and bachelor students who got their degree in the faculty. I am a board member of the association since 2019 and in 2021, I took the presidence.
+
   - title: Research internship
     company: Polytechnic University of Valencia
     company_url: ''
-    company_logo: org-gc
+    company_logo: upv
     location: Valencia, Spain
     date_start: '2019-02-01'
     date_end: '2019-04-30'
@@ -44,11 +53,12 @@ experience:
   - title: Secretary and board member
     company: Computer Science Labs (CSLabs)
     company_url: ''
-    company_logo: org-x
+    company_logo: cslabs
     location: Namur, Belgium
     date_start: '2017-09-01'
     date_end: '2019-12-31'
     description: CSLabs is a non-profit organisation founded by students from Unamur’s Faculty of Computer Science, in order to promote computer science externally and provide trainings in different fields by and for students.
+
 
 design:
   columns: '2'
