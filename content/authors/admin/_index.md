@@ -50,7 +50,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: mailto:sophie.fortz@unamur.be
   - icon: university
     icon_pack: fas
     link: https://directory.unamur.be/staff/sfortz
