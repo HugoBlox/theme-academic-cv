@@ -28,7 +28,7 @@ content:
         icon: paint-brush
         icon_pack: fas
         text: Show more
-        url: ../paint/
+        url: ../painting/
     - title: Girl Guides
       content: ''
       align: center
