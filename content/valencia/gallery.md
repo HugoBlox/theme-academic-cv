@@ -12,5 +12,6 @@ design:
 
 
 ---
+During my master thesis, I had the chance to go in Valencia (Spain) for a three months research internship. Under the supervision of Pr. German Vidal, I worked on an SMT-based concolic testing tool for logic programs. In 2020, this work was published as a short paper in the 15th International Symposium on Functional and Logic Programming (FLOPS 2020, Akita, Japan). Due to Covid-19, the conference was held online.
 
-{{< gallery album="valencia">}}
+<center>{{< gallery album="valencia">}}

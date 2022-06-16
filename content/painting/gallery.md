@@ -13,6 +13,6 @@ design:
 
 ---
 
-Following courses at Gribouill’Art since 2005
+In the beginning of 2005, my school participate to a drawing contest. Two classes were invited to an exhibition, retracing the life of a famous regional poet. Back at school, each student had to produce a drawing about this story. Despite having zero experience, I won a price and was invited to a small ceremony where I met the jury. One of them, Emilia, was drawing and painting teacher in a non-profit association. This is how, in September 2005, I joined Gribouill’Art. 17 years later,  I'm still waiting for my weekly class impatiently!
 
-{{< gallery album="paints">}}
+<center>{{< gallery album="paints">}}
