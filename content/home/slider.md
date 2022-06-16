@@ -17,18 +17,18 @@ design:
 
 content:
   slides:
-    - title: Drawing & Painting
+    - title: PhD Project
       content: ''
-      align: right
+      align: left
       background:
         position: center
         brightness: 0.8
-        media: aquarelle.jpg
+        media: poster.jpeg
       link:
-        icon: paint-brush
+        icon: map-signs
         icon_pack: fas
         text: Show more
-        url: ../painting/
+        url: ../poster/
     - title: Research Internship
       content: ''
       align: center
@@ -53,6 +53,18 @@ content:
         icon_pack: fas
         text: Show more
         url: ../cslabs/
+    - title: Drawing & Painting
+      content: ''
+      align: right
+      background:
+        position: center
+        brightness: 0.8
+        media: aquarelle.jpg
+      link:
+        icon: paint-brush
+        icon_pack: fas
+        text: Show more
+        url: ../painting/
     - title: Girl Guides
       content: ''
       align: center
