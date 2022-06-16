@@ -65,6 +65,30 @@ content:
         icon_pack: fas
         text: Show more
         url: ../painting/
+    - title: Research Internship
+      content: ''
+      align: center
+      background:
+        position: center
+        brightness: 0.8
+        media: valencia.jpg
+      link:
+        icon: university
+        icon_pack: fas
+        text: Show more
+        url: ../valencia/
+    - title: CSLabs
+      content: ''
+      align: left
+      background:
+        position: center
+        brightness: 0.8
+        media: ca.jpg
+      link:
+        icon: users
+        icon_pack: fas
+        text: Show more
+        url: ../cslabs/
     - title: Girl Guides
       content: ''
       align: center
