@@ -6,10 +6,24 @@ headless: true
 title: Computer Science Labs
 subtitle:
 weight: 10  # section position on page
+
+gallery_item:
+  - album: cslabs
+    image: 1.jpg
+    caption: Training session
+  - album: cslabs
+    image: 2.jpg
+    caption: CSLabs board at gala of the Computer Science faculty (2018-2019)
+  - album: cslabs
+    image: 3.jpg
+    caption: Back-to-school meeting (2018)
+  - album: cslabs
+    image: 4.jpg
+    caption: CSLabs board (2018-2019)
+
 design:
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns: '1'
-
 ---
 
 <center>{{< figure src="cslabs.png" width="250" >}}</center>

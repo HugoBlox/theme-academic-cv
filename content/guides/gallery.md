@@ -6,9 +6,39 @@ headless: true
 title: Belgian Girl Guides
 subtitle:
 weight: 10  # section position on page
+
 design:
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns: '1'
+
+gallery_item:
+  - album: guides
+    image: 1.jpg
+    caption: My first camp in the "middle" section (age 8)
+  - album: guides
+    image: 2.jpg
+    caption: A few days before getting my Trainer’s Certificate
+  - album: guides
+    image: 3.jpg
+    caption: Guide Camp (Section for 12 to 16 years old)
+  - album: guides
+    image: 4.jpg
+    caption: With my support, Mathieu promises in front of the group
+  - album: guides
+    image: 5.jpg
+    caption: Alpaca tour with Vincent
+  - album: guides
+    image: 6.jpg
+    caption: When Nicolas meets an elk
+  - album: guides
+    image: 7.jpg
+    caption: Trainings build friendships
+  - album: guides
+    image: 8.jpg
+    caption: Guitar training
+  - album: guides
+    image: 9.jpg
+    caption: Guide promise
 
 ---
 
