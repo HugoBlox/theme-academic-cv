@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "Carlos Rafael Gil Alvarado"
+title: "Carlos Gil"
 
 weight: 2022330
 
