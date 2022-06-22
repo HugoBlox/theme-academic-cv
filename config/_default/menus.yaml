@@ -19,9 +19,12 @@ main:
   - name: Publications
     url: '#featured'
     weight: 50
-  - name: Contact
-    url: '#contact'
+  - name: Blog
+    url: 'blog/'
     weight: 60
+  - name: Tutorials
+    url: 'tutorials/'
+    weight: 70
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
