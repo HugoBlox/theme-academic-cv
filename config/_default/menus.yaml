@@ -17,14 +17,19 @@ main:
     url: '#talks'
     weight: 40
   - name: Publications
-    url: '#featured'
+    url: 'publication/'
     weight: 50
   - name: Blog
     url: 'blog/'
     weight: 60
   - name: Tutorials
+    identifier: tutorials-identifier
     url: 'tutorials/'
     weight: 70
+  - name: EEG
+    parent: tutorials-identifier
+    url: 'tutorials/EEG/'
+    weight: 10
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
