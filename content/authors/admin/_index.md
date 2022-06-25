@@ -14,7 +14,7 @@ organizations:
     url: https://www.unamur.be
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include software testing, software product lines and behavioural modeling.
+bio: My research interests include software testing, software product lines and behavioural modelling.
 
 # Interests to show in About widget
 interests:
@@ -30,7 +30,7 @@ education:
     - course: PhD in Software Engineering
       institution: University of Namur
       year: 2023 (ongoing)
-    - course: MSc in Computer Science, specialised in Sofware Engineering
+    - course: MSc in Computer Science, specialised in Software Engineering
       institution: University of Namur
       year: 2019
     - course: BSc in Computer Science
@@ -77,6 +77,6 @@ email: ''
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-My name is Sophie Fortz. I am a Ph.D. student in software engineering at the University of Namur, and a member of VERTIGO team. I am also a member of the PReCISE research centre and Namur Digital Institute. I work under the supervision of Gilles Perrouin and Patrick Heymans. After one year of PhD funded by the EoS (Excellence of Science) VeriLearn, I obtained a FRIA (FNRS) Grant. My thesis is entitled: "LIFTS: Learning Featured Transition Systems". My main research interests include variability-intensive systems, behavioural modelling, model-based software testing, AI4SE and SE4AI.
+My name is Sophie Fortz. I am a Ph.D. student in software engineering at the University of Namur, under the supervision of Dr. Gilles Perrouin and Pr. Patrick Heymans. I am also a member of the PReCISE research centre and the Namur Digital Institute. After one year of PhD funded by the EoS (Excellence of Science) VeriLearn project, I obtained a [FRIA (FNRS) Grant](https://www.frs-fnrs.be/en/financements-resp/chercheur-doctorant). My thesis is entitled: [*"LIFTS: Learning Featured Transition Systems"*](poster). My main research interests include variability-intensive systems, behavioural modelling, model-based software testing, AI4SE and SE4AI.
 
-On my spare hours, I like to read and follow drawing/painting classes. I am also an active member of the Belgian Guides Federation, where I have been successively girl guide, group leader and trainer.
+On my spare hours, I like to read and follow [drawing/painting classes](painting). I am also an active member of [the Belgian Guide Federation](guides), where I have been successively girl guide, group leader and trainer.
