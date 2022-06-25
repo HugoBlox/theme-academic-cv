@@ -28,7 +28,7 @@ design:
 
 <center>{{< figure src="cslabs.png" width="250" >}}</center>
 
-CSLabs is a non-profit organisation founded by students from Unamur’s Faculty of Computer Science, in order to promote computer science externally and provide trainings in different fields by and for students. I joined CSLabs shortly after its creation. After a few months, I joined the board as the secretary. I was in charge of tasks such as:
+[CSLabs](https://www.cslabs.be/) is a non-profit organisation founded by students from Unamur’s Faculty of Computer Science, in order to promote computer science externally and provide trainings in different fields by and for students. I joined CSLabs shortly after its creation. After a few months, I joined the board as the secretary. I was in charge of tasks such as:
 
 - Organising board meetings and general assembly
 - Writing new procedures (very important for such a young organisation!)

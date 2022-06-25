@@ -19,6 +19,9 @@ main:
   - name: Hobbies
     url: '#hobbies'
     weight: 50
+  - name: PhD project
+    url: 'poster'
+    weight: 60
   - name: Curriculum Vitae
     url: uploads/resume.pdf
-    weight: 60
+    weight: 70
