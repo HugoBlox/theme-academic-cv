@@ -30,7 +30,7 @@ experience:
     location: Namur, Belgium
     date_start: '2019-09-01'
     date_end: ''
-    description: My thesis is entitled *Learning Featured Transition Systems*. I am studying how to model the behaviour of Software Product Lines and how to automatically generate those kind of models.
+    description: My thesis is entitled [*Learning Featured Transition Systems*]({{< relref "../poster" >}}). I am studying how to model the behaviour of Software Product Lines and how to automatically generate those kind of models.
 
   - title: ALMIN president
     company: University of Namur
@@ -48,7 +48,7 @@ experience:
     location: Valencia, Spain
     date_start: '2019-02-01'
     date_end: '2019-04-30'
-    description: During my master thesis, I’ve done three months of research at the polytechnic university of Valencia (Spain), under the supervision of Pr. German Vidal.
+    description: During my [master thesis]({{< relref "../valencia" >}}), I’ve done three months of research at the polytechnic university of Valencia (Spain), under the supervision of Pr. German Vidal.
 
   - title: Secretary and board member
     company: Computer Science Labs (CSLabs)
@@ -57,7 +57,7 @@ experience:
     location: Namur, Belgium
     date_start: '2017-09-01'
     date_end: '2019-12-31'
-    description: CSLabs is a non-profit organisation founded by students from Unamur’s Faculty of Computer Science, in order to promote computer science externally and provide trainings in different fields by and for students.
+    description: '[CSLabs]({{< relref "../cslabs" >}}) is a non-profit organisation founded by students from Unamur’s Faculty of Computer Science, in order to promote computer science externally and provide trainings in different fields by and for students.'
 
 
 design:
