@@ -3,7 +3,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - github-actions
+      - main
 
 # jobs:
 #   build:
