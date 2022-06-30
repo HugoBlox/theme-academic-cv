@@ -1,0 +1,68 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - github-actions
+
+# jobs:
+#   build:
+
+#     runs-on: ubuntu-latest
+
+
+#     steps:
+#       - name: Checkout master
+#         uses: actions/checkout@v2
+#         with:
+#           submodules: true
+#           fetch-depth: 0
+
+#       - name: Set up Go
+#         uses: actions/setup-go@v2
+#         with:
+#           go-version: '^1.15.0' # The Go version to download (if necessary) and use.
+      
+#       - name: Test Go
+#         run: go version
+
+#       - name: Hugo Deploy GitHub Pages
+#         uses: benmatselby/hugo-deploy-gh-pages@master
+#         env:
+#           HUGO_VERSION: 0.88.1
+#           TARGET_REPO: LumingSun/lumingsun.github.io
+#           TOKEN: ${{ secrets.hugo }}
+#           HUGO_ARGS: '-t academic'
+#           CNAME: lumingsun.github.io
+
+
+jobs:
+  Build_and_Deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.99.0'
+          extended: true
+          
+      - name: Setup Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: '1.18.1' # The Go version to download (if necessary) and use.
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.ACTION_ACCESS_TOKEN }}
+          publish_dir: ./public
+          publish_branch: main
+          external_repository: dayicklp/dayicklp.github.io
