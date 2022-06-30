@@ -1,33 +1,68 @@
-name: github pages # 名字自取
+name: Build and Deploy
 
 on:
   push:
     branches:
-      - github-actions  # 这里的意思是当 main分支发生push的时候，运行下面的jobs，这里先改为github-actions
+      - github-actions
+
+# jobs:
+#   build:
+
+#     runs-on: ubuntu-latest
+
+
+#     steps:
+#       - name: Checkout master
+#         uses: actions/checkout@v2
+#         with:
+#           submodules: true
+#           fetch-depth: 0
+
+#       - name: Set up Go
+#         uses: actions/setup-go@v2
+#         with:
+#           go-version: '^1.15.0' # The Go version to download (if necessary) and use.
+      
+#       - name: Test Go
+#         run: go version
+
+#       - name: Hugo Deploy GitHub Pages
+#         uses: benmatselby/hugo-deploy-gh-pages@master
+#         env:
+#           HUGO_VERSION: 0.88.1
+#           TARGET_REPO: LumingSun/lumingsun.github.io
+#           TOKEN: ${{ secrets.hugo }}
+#           HUGO_ARGS: '-t academic'
+#           CNAME: lumingsun.github.io
+
 
 jobs:
-  deploy: # 任务名自取
-    runs-on: ubuntu-18.04	# 在什么环境运行任务
+  Build_and_Deploy:
+    runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@v2	# 引用actions/checkout这个action，与所在的github仓库同名
+      - uses: actions/checkout@v2
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive) 获取submodule主题
+          submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Setup Hugo	# 步骤名自取
-        uses: peaceiris/actions-hugo@v2	# hugo官方提供的action，用于在任务环境中获取hugo
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'	# 获取最新版本的hugo
-          # extended: true
+          hugo-version: '0.99.0'
+          extended: true
+          
+      - name: Setup Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: '1.18.1' # The Go version to download (if necessary) and use.
 
       - name: Build
-        run: hugo --minify	# 使用hugo构建静态网页
+        run: hugo --minify
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3	# 一个自动发布github pages的action
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          # github_token: ${{ secrets.GITHUB_TOKEN }} 该项适用于发布到源码相同repo的情况，不能用于发布到其他repo
-          external_repository: dayicklp/dayicklp.github.io	# 发布到哪个repo
-          personal_token: ${{ secrets.ACTION_ACCESS_TOKEN }}	# 发布到其他repo需要提供上面生成的personal access token
-          publish_dir: ./public	# 注意这里指的是要发布哪个文件夹的内容，而不是指发布到目的仓库的什么位置，因为hugo默认生成静态网页到public文件夹，所以这里发布public文件夹里的内容
-          publish_branch: main	# 发布到哪个branch
+          personal_token: ${{ secrets.ACTION_ACCESS_TOKEN }}
+          publish_dir: ./public
+          publish_branch: main
+          external_repository: dayicklp/dayicklp.github.io
