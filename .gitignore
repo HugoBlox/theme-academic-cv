@@ -1,14 +1,11 @@
 # IDEs
 .idea/
-
+.Rproj.user
+.Rhistory
 # Hugo
 resources/
 public/
 jsconfig.json
 node_modules/
-<<<<<<< HEAD
-.Rproj.user
-=======
 go.sum
 .hugo_build.lock
->>>>>>> 8d177463e8f2911088168487354bcd8d4fca7e0a
