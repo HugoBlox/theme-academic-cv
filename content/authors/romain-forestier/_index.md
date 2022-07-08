@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: IT/Mizer specialist
+role: Research Data Scientist
 # Organizations/Affiliations
 organizations:
 - name: 

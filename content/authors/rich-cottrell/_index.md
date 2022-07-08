@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: (soon to be) Post-Doc
+role: Research fellow
 # Organizations/Affiliations
 organizations:
 - name: 

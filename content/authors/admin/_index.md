@@ -1,7 +1,7 @@
 ---
 # Display name
 title: Julia Blanchard
-weight: 31
+weight: 1
 # Username (this should match the folder name)
 authors:
 - admin
@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: PI & Associate Professor
+role: Professor
 # Organizations/Affiliations
 organizations:
 - name: 

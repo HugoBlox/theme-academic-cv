@@ -1,7 +1,7 @@
 ---
 # Display name
 title: Amy Coghlan
-
+weight: 12
 # Username (this should match the folder name)
 authors:
 - amy-coghlan

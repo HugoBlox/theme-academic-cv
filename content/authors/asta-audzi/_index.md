@@ -14,7 +14,7 @@ role: Research Fellow
 
 # Organizations/Affiliations
 organizations:
-  - name: IMAS
+  - name: ""
     url: ""
 
 # Short bio (displayed in user profile at end of posts)

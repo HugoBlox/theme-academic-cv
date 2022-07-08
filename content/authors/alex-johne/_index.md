@@ -1,7 +1,7 @@
 ---
 # Display name
 title: Alexandra Johne
-
+weigth: 80
 # Username (this should match the folder name)
 authors:
 - alex-johne

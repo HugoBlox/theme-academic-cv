@@ -19,6 +19,7 @@ content:
     - Visitors
     - Alumni
     - Team
+    - Past members
     
 design:
   # Show user's social networking links? (true/false)
