@@ -19,9 +19,6 @@ main:
   - name: Publications
     url: 'publication/'
     weight: 50
-  - name: Blog
-    url: 'blog/'
-    weight: 60
   - name: Tutorials
     identifier: tutorials-identifier
     url: 'tutorials/'
