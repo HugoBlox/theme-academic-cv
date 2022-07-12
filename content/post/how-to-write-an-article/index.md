@@ -28,7 +28,7 @@ projects: []
 ---
 # はじめに  
 
-このサイトでの記事の書き方をまとめました。英語でも構わない場合は[公式ドキュメント](https://wowchemy.com/docs/)も参照してください。
+このサイトでの記事の書き方をまとめました。英語でも構わない場合は[公式ドキュメント](https://wowchemy.com/docs/content/writing-markdown-latex/)も参照してください。
 
 # Markdown記法  
 
