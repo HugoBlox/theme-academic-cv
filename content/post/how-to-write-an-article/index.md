@@ -165,7 +165,77 @@ YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式
 `view="4"`に変えると、下のように表示されます。
 {{<cite page="project/opu-virtual-festival-2020" view="4">}}
 
+## ハイライト
+
+```md
+これは {{</* hl */>}}ハイライトされた{{</* /hl */>}}文章です。
+```
+
+これは {{< hl >}}ハイライトされた{{< /hl >}}文章です。
+
+## 注意書き・警告
+
+```md
+{{</* callout note */>}}
+注意書きを表示することができます。
+{{</* /callout */>}}
+
+{{</* callout warning */>}}
+警告を表示することもできます。
+{{</* /callout */>}}
+```
+
+{{< callout note >}}
+注意書きを表示することができます。
+{{< /callout >}}
+
+{{< callout warning >}}
+警告を表示することもできます。
+{{< /callout >}}
+
 # その他  
+
+## 文字色・背景色
+
+通常のMarkdownにはない記法ですが、`{style="color: (色)"}`のように書くことで、そのすぐ上の文章の文字色を変更することができます。
+
+また、[公式ドキュメント](https://wowchemy.com/docs/content/writing-markdown-latex/)には書かれていませんが、`color`以外のHTMLのstyleの記法も使えるようです。
+
+```md
+通常の文章1
+
+赤色の文章1  
+赤色の文章2  
+{style="color: red"}
+
+RGBで色を指定した文章
+{style="color: #f76497"}
+
+背景色を指定した文章
+{style="background: blue"}
+
+文字色と背景色を同時に指定した文章
+{style="background: pink; color: blue"}
+
+通常の文章2
+```
+
+通常の文章1
+
+赤色の文章1  
+赤色の文章2  
+{style="color: red"}
+
+RGBで色を指定した文章
+{style="color: #f76497"}
+
+背景色を指定した文章
+{style="background: blue"}
+
+文字色と背景色を同時に指定した文章
+{style="background: pink; color: blue"}
+
+通常の文章2
 
 ## 数式  
 
