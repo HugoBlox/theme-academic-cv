@@ -103,7 +103,7 @@ YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式
 
 ## Unity WebGLの埋め込み  
 
-ランダムさんの記事(現在は非公開)の内容を少し改変した自作Shortcodeです。Unity WebGLのゲームをページ内でプレイすることができます。
+[コンピュータハウスランダムさんのブログ](https://ch-random.net/)に投稿された記事(現在は非公開)の内容を少し改変した自作Shortcodeです。Unity WebGLのゲームをページ内でプレイすることができます。
 
 ```md
 {{</*unity src="URL"*/>}}
