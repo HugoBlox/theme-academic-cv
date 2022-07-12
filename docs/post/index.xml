@@ -2145,7 +2145,7 @@ window.onresize = function(){ set_width(); };
 &lt;p>UIデザインの改善を検討しています。&lt;/p>
 &lt;/p>
 &lt;/details></description></item><item><title>記事の書き方</title><link>https://blog.opuappnavi.com/post/how-to-write-an-article/</link><pubDate>Tue, 28 Apr 2020 00:01:09 +0900</pubDate><guid>https://blog.opuappnavi.com/post/how-to-write-an-article/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
-&lt;p>このサイトでの記事の書き方をまとめました。英語でも構わない場合は&lt;a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/" target="_blank" rel="noopener">公式ドキュメント&lt;/a>も参照してください。&lt;/p>
+&lt;p>このサイトでの記事の書き方をまとめました。英語でも構わない場合は&lt;a href="https://wowchemy.com/docs/content/writing-markdown-latex/" target="_blank" rel="noopener">公式ドキュメント&lt;/a>も参照してください。&lt;/p>
 &lt;h1 id="markdown記法">Markdown記法&lt;/h1>
 &lt;p>全ての記事はMarkdown記法で書く必要があります。書き方については&lt;a href="https://qiita.com/kamorits/items/6f342da395ad57468ae3" target="_blank" rel="noopener">このサイト&lt;/a>を参照してください。&lt;/p>
 &lt;h2 id="画像を挿入する場合">画像を挿入する場合&lt;/h2>
@@ -2170,25 +2170,49 @@ window.onresize = function(){ set_width(); };
 &lt;h3 id="画像の左寄せ右寄せ">画像の左寄せ、右寄せ&lt;/h3>
 &lt;p>&lt;details class="spoiler " id="spoiler-2">
 &lt;summary>左寄せ&lt;/summary>
-&lt;p>&lt;pre>&lt;code class="language-md">{{&amp;lt;figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot; class=&amp;quot;left&amp;quot;&amp;gt;}}
+&lt;p>&lt;pre>&lt;code class="language-md">
+&lt;figure class="left" id="figure-代替テキスト">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./%e7%94%bb%e5%83%8f%e5%90%8d" alt="代替テキスト" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+代替テキスト
+&lt;/figcaption>&lt;/figure>
 &lt;/code>&lt;/pre>
 &lt;/p>
 &lt;/details>
 &lt;details class="spoiler " id="spoiler-3">
 &lt;summary>右寄せ&lt;/summary>
-&lt;p>&lt;pre>&lt;code class="language-md">{{&amp;lt;figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot; class=&amp;quot;right&amp;quot;&amp;gt;}}
+&lt;p>&lt;pre>&lt;code class="language-md">
+&lt;figure class="right" id="figure-代替テキスト">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./%e7%94%bb%e5%83%8f%e5%90%8d" alt="代替テキスト" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+代替テキスト
+&lt;/figcaption>&lt;/figure>
 &lt;/code>&lt;/pre>
 &lt;/p>
 &lt;/details>
 &lt;details class="spoiler " id="spoiler-4">
 &lt;summary>左寄せ(float)&lt;/summary>
-&lt;p>&lt;pre>&lt;code class="language-md">{{&amp;lt;figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot; class=&amp;quot;float-left&amp;quot;&amp;gt;}}
+&lt;p>&lt;pre>&lt;code class="language-md">
+&lt;figure class="float-left" id="figure-代替テキスト">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./%e7%94%bb%e5%83%8f%e5%90%8d" alt="代替テキスト" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+代替テキスト
+&lt;/figcaption>&lt;/figure>
 &lt;/code>&lt;/pre>
 &lt;/p>
 &lt;/details>
 &lt;details class="spoiler " id="spoiler-5">
 &lt;summary>右寄せ(float)&lt;/summary>
-&lt;p>&lt;pre>&lt;code class="language-md">{{&amp;lt;figure src=&amp;quot;./画像名&amp;quot; title=&amp;quot;代替テキスト&amp;quot; class=&amp;quot;float-right&amp;quot;&amp;gt;}}
+&lt;p>&lt;pre>&lt;code class="language-md">
+&lt;figure class="float-right" id="figure-代替テキスト">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./%e7%94%bb%e5%83%8f%e5%90%8d" alt="代替テキスト" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+代替テキスト
+&lt;/figcaption>&lt;/figure>
 &lt;/code>&lt;/pre>
 &lt;/p>
 &lt;/details>
@@ -2202,7 +2226,7 @@ YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式
 &lt;/div>
 &lt;/div>
 &lt;h2 id="unity-webglの埋め込み">Unity WebGLの埋め込み&lt;/h2>
-&lt;p>&lt;a href="https://ch-random.net/post/93/" target="_blank" rel="noopener">ランダムさんの記事&lt;/a>の内容を少し改変した自作Shortcodeです。Unity WebGLのゲームをページ内でプレイすることができます。&lt;/p>
+&lt;p>&lt;a href="https://ch-random.net/" target="_blank" rel="noopener">コンピュータハウスランダムさんのブログ&lt;/a>に投稿された記事(現在は非公開)の内容を少し改変した自作Shortcodeです。Unity WebGLのゲームをページ内でプレイすることができます。&lt;/p>
 &lt;pre>&lt;code class="language-md">{{&amp;lt;unity src=&amp;quot;URL&amp;quot;&amp;gt;}}
 &lt;/code>&lt;/pre>
 &lt;h2 id="ツイートの埋め込み">ツイートの埋め込み&lt;/h2>
@@ -2314,7 +2338,51 @@ OPU Virtual Festival
 &lt;/p>
 &lt;/div>
 &lt;/p>
+&lt;h2 id="ハイライト">ハイライト&lt;/h2>
+&lt;pre>&lt;code class="language-md">これは {{&amp;lt; hl &amp;gt;}}ハイライトされた{{&amp;lt; /hl &amp;gt;}}文章です。
+&lt;/code>&lt;/pre>
+&lt;p>これは &lt;mark>ハイライトされた&lt;/mark>文章です。&lt;/p>
+&lt;h2 id="注意書き警告">注意書き・警告&lt;/h2>
+&lt;pre>&lt;code class="language-md">{{&amp;lt; callout note &amp;gt;}}
+注意書きを表示することができます。
+{{&amp;lt; /callout &amp;gt;}}
+{{&amp;lt; callout warning &amp;gt;}}
+警告を表示することもできます。
+{{&amp;lt; /callout &amp;gt;}}
+&lt;/code>&lt;/pre>
+&lt;div class="alert alert-note">
+&lt;div>
+注意書きを表示することができます。
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-warning">
+&lt;div>
+警告を表示することもできます。
+&lt;/div>
+&lt;/div>
 &lt;h1 id="その他">その他&lt;/h1>
+&lt;h2 id="文字色背景色">文字色・背景色&lt;/h2>
+&lt;p>通常のMarkdownにはない記法ですが、&lt;code>{style=&amp;quot;color: (色)&amp;quot;}&lt;/code>のように書くことで、そのすぐ上の文章の文字色を変更することができます。&lt;/p>
+&lt;p>また、&lt;a href="https://wowchemy.com/docs/content/writing-markdown-latex/" target="_blank" rel="noopener">公式ドキュメント&lt;/a>には書かれていませんが、&lt;code>color&lt;/code>以外のHTMLのstyleの記法も使えるようです。&lt;/p>
+&lt;pre>&lt;code class="language-md">通常の文章1
+赤色の文章1
+赤色の文章2
+{style=&amp;quot;color: red&amp;quot;}
+RGBで色を指定した文章
+{style=&amp;quot;color: #f76497&amp;quot;}
+背景色を指定した文章
+{style=&amp;quot;background: blue&amp;quot;}
+文字色と背景色を同時に指定した文章
+{style=&amp;quot;background: pink; color: blue&amp;quot;}
+通常の文章2
+&lt;/code>&lt;/pre>
+&lt;p>通常の文章1&lt;/p>
+&lt;p style="color: red">赤色の文章1&lt;br>
+赤色の文章2&lt;/p>
+&lt;p style="color: #f76497">RGBで色を指定した文章&lt;/p>
+&lt;p style="background: blue">背景色を指定した文章&lt;/p>
+&lt;p style="background: pink; color: blue">文字色と背景色を同時に指定した文章&lt;/p>
+&lt;p>通常の文章2&lt;/p>
 &lt;h2 id="数式">数式&lt;/h2>
 &lt;p>$\LaTeX$ 記法を用いることで数式を表示することができます。数式は&lt;code>$$&lt;/code>で囲む必要があります。&lt;/p>
 &lt;pre>&lt;code class="language-md">$$ F=G\frac{Mm}{r^2} $$
@@ -2340,7 +2408,8 @@ B--&amp;gt;D;
 C--&amp;gt;D;
 &lt;/code>&lt;/pre>
 &lt;h2 id="スライド">スライド&lt;/h2>
-&lt;p>Markdown記法で簡易的なスライドを作成することができます。&lt;/p>
+&lt;p>このブログでは、Markdown記法で簡易的なスライドを作成することができます。&lt;/p>
+&lt;p>作成したスライドを記事内に表示することができます。&lt;/p>
 &lt;pre>&lt;code class="language-md">{{&amp;lt;slide-frame src=&amp;quot;スライド名&amp;quot;&amp;gt;}}
 &lt;/code>&lt;/pre>
 &lt;iframe id=slide-introduction src=https://blog.opuappnavi.com/slides/slide-introduction width=640 height=360 allowfullscreen=true>&lt;/iframe></description></item><item><title>このサイトについて</title><link>https://blog.opuappnavi.com/post/site-introduction/</link><pubDate>Tue, 28 Apr 2020 00:00:59 +0900</pubDate><guid>https://blog.opuappnavi.com/post/site-introduction/</guid><description>&lt;h1 id="サイト制作の経緯">サイト制作の経緯&lt;/h1>
