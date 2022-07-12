@@ -28,7 +28,7 @@ projects: []
 ---
 # はじめに  
 
-このサイトでの記事の書き方をまとめました。英語でも構わない場合は[公式ドキュメント](https://sourcethemes.com/academic/docs/writing-markdown-latex/)も参照してください。
+このサイトでの記事の書き方をまとめました。英語でも構わない場合は[公式ドキュメント](https://wowchemy.com/docs/)も参照してください。
 
 # Markdown記法  
 
@@ -103,7 +103,7 @@ YoutubeのURLは「https://www.youtube.com/watch?v=動画のID」という形式
 
 ## Unity WebGLの埋め込み  
 
-[ランダムさんの記事](https://ch-random.net/post/93/)の内容を少し改変した自作Shortcodeです。Unity WebGLのゲームをページ内でプレイすることができます。
+ランダムさんの記事(現在は非公開)の内容を少し改変した自作Shortcodeです。Unity WebGLのゲームをページ内でプレイすることができます。
 
 ```md
 {{</*unity src="URL"*/>}}
