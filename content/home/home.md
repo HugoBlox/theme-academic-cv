@@ -23,7 +23,7 @@ design:
   background:
     image: amyspic.jpg
     parallax: true
-    image_darken: 0.5
+    image_darken: 0.4
     image_parallax: true
     image_position: center
     image_size: cover
