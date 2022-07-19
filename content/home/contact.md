@@ -25,8 +25,8 @@ content:
       captcha: false
 
   # Contact details (edit or remove options as required)
-  email: test@example.org
-  phone: 888 888 88 88
+  email: mhebtehaj@uwaterloo.ca 
+<!--   phone: 888 888 88 88
   address:
     street: 450 Serra Mall
     city: Stanford
@@ -50,7 +50,7 @@ content:
     - icon: video
       icon_pack: fas
       name: Zoom Me
-      link: 'https://zoom.com'
+      link: 'https://zoom.com' -->
 
 design:
   columns: '2'
