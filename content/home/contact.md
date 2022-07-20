@@ -26,8 +26,8 @@ content:
 
   # Contact details (edit or remove options as required)
   email: mhebtehaj@uwaterloo.ca 
-  phone: 888 888 88 88
-  address:
+<!--   phone: 888 888 88 88 -->
+<!--   address:
     street: 450 Serra Mall
     city: Stanford
     region: CA
@@ -50,7 +50,7 @@ content:
     - icon: video
       icon_pack: fas
       name: Zoom Me
-      link: 'https://zoom.com'
+      link: 'https://zoom.com' -->
 
 design:
   columns: '2'
