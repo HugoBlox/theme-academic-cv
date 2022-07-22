@@ -3,7 +3,7 @@ name = "Santiago J Carmona"
 authors = ["santiago"]
 email = "sjcarmona@gmail.com"
 user_groups = ["Past Lab Members"]
-role = "Former Trypanosomatics Lab Member (2007 -- 2015)"
+role = "Former Lab Member (2007 -- 2015)"
 bio = "Present address: Ludwig Center for Cancer Research, University of Lausanne"
 weight = 10
 
@@ -19,6 +19,10 @@ weight = 10
   icon = "researcherid"
   icon_pack = "ai"
   link = "http://www.researcherid.com/rid/E-9356-2015"
+[[social]]
+  icon = "twitter"
+  icon_pack = "fab"
+  link = "https://twitter.com/carmonation"
 
 +++
 
@@ -29,4 +33,4 @@ weight = 10
 
 # Current Position
 
-Ludwig Institute for Cancer Research - University of Lausanne, Switzerland
+Ludwig Institute for Cancer Research - University of Lausanne, Switzerland. https://unil.ch/dof/carmona

@@ -12,7 +12,7 @@ authors = ["mercedes"]
 mercedes = [""]
 
 # Role/position
-role = "Undergrad Student"
+role = "PhD Student"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -29,7 +29,7 @@ interests = ["Chemogenomics","Neglected Diseases","Drug Discovery"]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Alumni"]
+user_groups = ["Grad Students"]
 
 # List qualifications (such as academic degrees)
 #[[education.courses]]
@@ -63,6 +63,11 @@ user_groups = ["Alumni"]
   icon_pack = "fab"
   link = "https://github.com/mercedesgarnham"
 
+[[social]]
+  icon = "twitter"
+  icon_pack = "fab"
+  link = "https://twitter.com/MMDidierGarnham"
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # [[social]]
@@ -75,3 +80,11 @@ user_groups = ["Alumni"]
 # About me 
 
 I am currently doing my bachelor’s degree in Biotechnology at the University of Hurlingham (UNAHUR). I work in Bioinformatics, using computer science and programming to analize chemogenomic information. I’m researching new compounds that might be useful to treat Chagas disease by using genome-wide data and chemical libraries at IIBIO-CONICET.
+
+# Previous positions in the lab
+
+ * 2018-2020 Undergrad Student
+
+# Current Position
+
+ * 2021-- PhD Student

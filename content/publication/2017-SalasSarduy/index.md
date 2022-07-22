@@ -12,6 +12,7 @@ image_preview = ""
 featured = false
 projects = ["chemogenomics", "HTS"]
 tags = ["cruzipain", "GSK-Chemboxes", "drug-discovery", "HTS"]
+categories = ["Drug Discovery"]
 url_pdf = ""
 url_preprint = ""
 url_code = ""

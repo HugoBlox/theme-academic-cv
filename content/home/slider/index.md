@@ -49,7 +49,7 @@ interval = false
 #  cta_icon = "globe"
 
 [[item]]
-  title = "Aprank"
+  title = "APRANK"
   content = "A tool for genome-wide antigenicity predictions"
   align = "left"
 
@@ -57,11 +57,12 @@ interval = false
   overlay_img = "aprank-v1.png"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 
-  # Call to action
-  cta_label = "Upcoming"
-  cta_url = "https://aprank.trypanosomatics.org"
-  cta_icon_pack = "fas"
-  cta_icon = "clock"
+  # Call to action:w
+  
+  cta_label = "Publication"
+  cta_url = "publication/2021-ricci-aprank-frontiers/"
+  cta_icon_pack = "ai"
+  cta_icon = "open-access"
 
 [[item]]
   title = "ChagasTope"

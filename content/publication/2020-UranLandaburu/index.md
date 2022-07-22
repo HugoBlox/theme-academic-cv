@@ -46,7 +46,7 @@ unknown targets. TDR Targets is available at https://tdrtargets.org."
 summary: "TDR Targets, a chemogenomics resource for Neglected Diseases"
 
 tags: ["TDR Targets", "chemogenomics", "drug-repositioning", "drug-discovery", "multilayer-networks", "neglected diseases"]
-categories: ["Databases"]
+categories: ["Databases", "Drug Discovery"]
 featured: true
 
 # Custom links (optional).
@@ -59,6 +59,8 @@ featured: true
 links:
 - name: "TDR Targets Database"
   url: https://tdrtargets.org
+  icon: database
+  icon_pack: fas
 
 
 url_pdf:
