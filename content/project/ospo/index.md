@@ -6,7 +6,7 @@ tags:
 date: "2022-05-10T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://ucsc-ospo.netlify.app"
+external_link: "https://ospo.ucsc.edu"
 
 image:
   caption: ""
