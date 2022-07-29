@@ -39,6 +39,18 @@ item:
     organization_url: https://academy.neuromatch.io
     title: NMA Deeplearning
     url: ''
+  - certificate_url: https://drive.google.com/file/d/1gQYa7dihlm81iKOke0w9K71oooBVJH0s/view?usp=sharing
+    date_end: ''
+    date_start: '2022-07-29'
+    description: Successful participants learn how to use
+                    the tools of the trade, think analytically about complex problems,
+                    manage large data sets, deploy statistical principles, create
+                    visualizations, build and evaluate machine learning algorithms, publish
+                    reproducible analyses, and develop data products.
+    organization: Coursera
+    organization_url: https://coursera.org/share/0fd950b2ac9e144a46db7922f1538d6d
+    title: Data Science Specialization
+    url: ''
 
 design:
   columns: '2'
