@@ -1,21 +1,27 @@
 {{- define "main" -}}
-
-<article class="article">
-
-  {{ partial "page_header" . }}
-
-  <div class="article-container">
-
-    <div class="article-style">
-      {{ .Content }}
+{{ if .Params.toc }}
+<div class="container-fluid docs">
+    <div class="row flex-xl-nowrap">
+      <div class="d-none d-xl-block col-xl-2 docs-toc">
+        <ul class="nav toc-top">
+          <li><a href="#" id="back_to_top" class="docs-toc-title">{{ i18n "on_this_page" }}</a></li>
+        </ul>
+        {{ .TableOfContents }}
+      </div>
+      <main class="col-12 col-md-0 col-xl-10 py-md-3 pl-md-5 docs-content" role="main">
+{{ end }}
+        <article class="article">
+            {{ partial "page_header" . }}
+            <div class="article-container">
+              <div class="article-style">
+                {{ .Content }}
+              </div>
+              {{ partial "page_footer" . }}
+            </div>
+        </article>
+  {{ if .Params.toc }}
+      </main>
     </div>
-
-    {{ partial "page_footer" . }}
-
   </div>
-</article>
-<aside>
-  {{ .TableOfContents }}
-</aside>
-
+  {{ end }}
 {{- end -}}
