@@ -3,7 +3,7 @@
 
 title: "Draw an image on a specific screen location using Psychtoolbox"
 subtitle: ""
-summary: ""
+summary: "This tutorial explains what a rect is in PTB, the coordinate system and how to draw images to exact locations on screen."
 authors: []
 tags: []
 categories: [Matlab, Psychtoolbox]
@@ -30,8 +30,6 @@ image:
 projects: []
 ---
 ## TL;DR
-
-![An image showing a rectangle on screen, where the top left corner is located at (x1,y1), and the bottom right corner is located at (x2,y2). The origin for coordinates is the upper left corner.](pic1.png "Display an image in rect [x1,x2,y1,y2]")
 ```python
 img = imread('img.png'); 
 Texture = Screen('MakeTexture', window, img);
@@ -79,13 +77,21 @@ When using `Screen('DrawTexture')`, we neeed to designate a spot for the image t
 
 ![An image showing a rectangle on screen, where the top left corner is located at (x1,y1), and the bottom right corner is located at (x2,y2). The origin for coordinates is the upper left corner.](pic1.png "Display an image in rect [x1,x2,y1,y2]")
 
-The origin of the coordinates is the top left corner of a screen. 
-draft: 
-1) explain the coordinate system 
-2) explain the rect
-3) display what happens to a picture when rect size is different to pic size.
-4) tip on relative coordinates
+The origin of the coordinates is the top left corner of a screen. To know the limits of the screen, we can use `[screenXpixels, screenYpixels] = Screen('WindowSize', window);`. It returns total pixels on x axis and y axis respectively, which is determined by the screen resolution.
+
+Since the screen resolution might differ across devices, I recommend using relative coordinates(e.g. 1/2 of vertical screen pixels) instead of absolute values when specifying the rect. Point (1500, 0) will be near the top right corner of a screen that has a resolution of 1920 x 1080, but it won't be shown on another device with a resolution of 1280 x 768, because it's simply outside the screen. (Note that in this case PTB will not throw any errors, so you will only see a blank screen.)
+
+When drawing images to a rect, it might be resized to fit in. If we don't want to scale the image, make sure the rect size is exactly the same as the image's. The coordinates can be specified as `[X_top_left, Y_top,left, X_top_left + image_width, Y_top + image_height]`.
+
+![The rect on the left is not scaled when drawn into a rect that has the same size as the original image, but the rect on the right is scaled because the rect is two times the width and three time the height of the original image.](pic2.png "A 100 x 100 rect being scaled when using a rect two times the width and three time the height of the original image.")
 
 ## Using the center point to locate the rect
+One trick I often use when specifying the rect is not calculating the coordinates of its two corners. It would be more convinient to use a single point, isn't it? Luckily, Psychtoolbox has [many functions](http://psychtoolbox.org/docs/PsychRects) that support rect manipulations including centered a rect on one point
+(`newRect = CenterRectOnPoint(rect,x,y)`). In this case, we just need to find the coordinates where we want the center point of our rect to be at.
 
-
+In the following example I created a 100 x 100 rect located at the top left corner of my screen. Then, I move it to be centered at (500,500). 
+```Python
+rect = [0,0,100,100];
+newRect = CenterRectOnPoint(rect, 500,500);
+```
+The new rect should be [450, 450, 550, 550]. Luckily we don't have to calculate it ourselves.
