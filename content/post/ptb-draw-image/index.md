@@ -29,7 +29,9 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+See [code](drawImage.html) for this blog.
 ## TL;DR
+Images will be drawn to a rect [x1,y1,x2,y2], specified by the coordinates of top left(x1, y1) and buttom right corner(x2,y2) respectively.
 ```python
 img = imread('img.png'); 
 Texture = Screen('MakeTexture', window, img);
