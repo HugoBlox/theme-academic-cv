@@ -23,9 +23,9 @@ main:
     identifier: tutorials-identifier
     url: 'tutorials/'
     weight: 70
-  - name: EEG
+  - name: EEG Preprocessing
     parent: tutorials-identifier
-    url: 'tutorials/EEG/'
+    url: 'tutorials/eeg-preprocessing/'
     weight: 10
 
 # Link to a PDF of your resume/CV from the menu.

@@ -92,8 +92,8 @@ When drawing images to a rect, it might be resized to fit in. If we don't want t
 ![The rect on the left is not scaled when drawn into a rect that has the same size as the original image, but the rect on the right is scaled because the rect is two times the width and three time the height of the original image.](pic2.png "A 100 x 100 rect being scaled when using a rect two times the width and three time the height of the original image.")
 
 ## Using the center point to locate the rect
-One trick I often use when specifying the rect is not calculating the coordinates of its two corners. It would be more convinient to use a single point, isn't it? Luckily, Psychtoolbox has [many functions](http://psychtoolbox.org/docs/PsychRects) that support rect manipulations including centered a rect on one point
-(`newRect = CenterRectOnPoint(rect,x,y)`). In this case, we just need to find the coordinates where we want the center point of our rect to be at.
+One trick I often use when specifying a rect is not calculating the coordinates of its two corners. It would be more convinient to use a single point, isn't it? Luckily, Psychtoolbox has [many functions](http://psychtoolbox.org/docs/PsychRects) that support rect manipulations including centered a rect on one point
+(`newRect = CenterRectOnPoint(rect,x,y)`). In this case, we just need to find the coordinates where we want the center point of our rect to be.
 
 In the following example I created a 100 x 100 rect located at the top left corner of my screen. Then, I move it to be centered at (500,500). 
 ```Python
