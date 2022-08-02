@@ -22,6 +22,11 @@ image:
   focal_point: ""
   preview_only: false
 
+# Add code url
+links:
+  - name: Code
+    url: 'drawImage.html'
+    
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
@@ -29,7 +34,6 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-See [sample code](drawImage.html) for this tutorial.
 ## TL;DR
 Images will be drawn to a rect [x1,y1,x2,y2], specified by the coordinates of top left(x1, y1) and buttom right corner(x2,y2) respectively.
 ```python

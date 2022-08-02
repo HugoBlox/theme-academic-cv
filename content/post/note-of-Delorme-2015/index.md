@@ -6,7 +6,7 @@ subtitle: "A brief note of Chaumon et al.(2015)"
 summary: ""
 authors: []
 tags: []
-categories: []
+categories: [EEG Preprocessing]
 date: 2022-07-12T05:34:04+08:00
 lastmod: 2022-07-12T05:34:04+08:00
 featured: false
