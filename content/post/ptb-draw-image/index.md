@@ -29,7 +29,7 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-See [code](drawImage.html) for this blog.
+See [sample code](drawImage.html) for this tutorial.
 ## TL;DR
 Images will be drawn to a rect [x1,y1,x2,y2], specified by the coordinates of top left(x1, y1) and buttom right corner(x2,y2) respectively.
 ```python
@@ -71,7 +71,7 @@ Using `Screen('DrawTexture')`, the texture object is loaded in the buffer. It is
 Screen('Flip', window);
 WaitSecs(2);
 ```
-Imagine the image is pre-drawn onto the back of our scrren. `Screen('Flip')` flip the back to the front, making the image and other stuff appears on command. This mechanic helps guarantee the time percision needed in a psychological experiment. Also, make sure to wait for a few seconds or the program will exit before you catch the image.
+Imagine the image is pre-drawn onto the back of our scrren. `Screen('Flip')` flip the back to the front, making the image and other stuff appears on command. This mechanic helps guarantee the time percision needed in a psychological experiment. Also, make sure to wait for a few seconds otherwise the program will exit before you catch the image.
 
 ## Rect: where images will be drawn
 
