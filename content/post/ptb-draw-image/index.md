@@ -20,7 +20,7 @@ toc: true
 image:
   caption: ""
   focal_point: ""
-  preview_only: false
+  preview_only: true
 
 # Add code url
 links:

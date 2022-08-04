@@ -21,6 +21,12 @@ image:
   focal_point: ""
   preview_only: false
 
+links:
+  - name: Paper
+    icon : "elsevier"
+    icon_pack : "ai"
+    url: 'https://www.sciencedirect.com/science/article/abs/pii/S0165027015000928?via%3Dihub' 
+
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
@@ -68,7 +74,7 @@ power spectra show no power peak at physiological frequencies.
 ## Muscle Component 
 * Components capturing muscle activity are usually very focal, encompassing a local group of electrodes (sometimes with opposite polarity) on the edge of the electrode cap. 
 * Time courses show a steady noise activity, often remarkable because they do not vary with task events (i.e. no ERP is visible), but rather across trials.  
-* The power spectrum of these compo- nents often shows strong power at high frequencies (>20 Hz).  
+* The power spectrum of these components often shows strong power at high frequencies (>20 Hz).  
 
 |Toolbox  | Things to check |
 |----|----|
