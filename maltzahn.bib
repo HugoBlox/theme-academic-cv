@@ -1,7 +1,7 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% https://bibdesk.sourceforge.io/
 
-%% Created for Carlos Maltzahn at 2022-08-16 18:28:12 -0700 
+%% Created for Carlos Maltzahn at 2022-08-16 18:44:16 -0700 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
@@ -26,11 +26,12 @@ This award reflects NSF's statutory mission and has been deemed worthy of suppor
 	year = {2022}}
 
 @inproceedings{liu:hpec22,
+	abstract = {Many distributed applications implement complex data flows and need a flexible mechanism for routing data between producers and consumers. Recent advances in programmable network interface cards, or SmartNICs, represent an opportunity to offload data-flow tasks into the network fabric, thereby freeing the hosts to perform other work. System architects in this space face multiple questions about the best way to leverage SmartNICs as processing elements in data flows. In this paper, we advocate the use of Apache Arrow as a foundation to implement data flow tasks on SmartNICs. We report on our experience adapting a partitioning algorithm for particle data to Apache Arrow and measure the on-card processing performance for the BlueField-2 SmartNIC. Our experiments confirm that the BlueField-2's (de)compression hardware can have a significant impact on in-transit workflows where data must be unpacked, processed, and repacked.},
 	address = {Virtual Event},
 	author = {Jianshen Liu and Carlos Maltzahn and Matthew L. Curry and Craig Ulmer},
 	booktitle = {2022 IEEE High Performance Extreme Computing Conference (IEEE HPEC 2022)},
 	date-added = {2022-08-16 17:08:46 -0700},
-	date-modified = {2022-08-16 17:22:38 -0700},
+	date-modified = {2022-08-16 18:44:04 -0700},
 	keywords = {smartnics, offloading, datamanagement, hpc},
 	month = {September 19-23},
 	title = {{Processing Particle Data Flows with SmartNICs}},
@@ -38,11 +39,12 @@ This award reflects NSF's statutory mission and has been deemed worthy of suppor
 	bdsk-file-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxApLi4vLi4vLi4vTXkgRHJpdmUvUGFwZXJzL0wvbGl1LWhwZWMyMi5wZGZPEQFaAAAAAAFaAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8ObGl1LWhwZWMyMi5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAAADAAQAAAogY3UAAAAAAAAAAAAAAAAAAUwAAAIAMy86VXNlcnM6Y2FybG9zbWFsdDpNeSBEcml2ZTpQYXBlcnM6TDpsaXUtaHBlYzIyLnBkZgAADgAeAA4AbABpAHUALQBoAHAAZQBjADIAMgAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIAMVVzZXJzL2Nhcmxvc21hbHQvTXkgRHJpdmUvUGFwZXJzL0wvbGl1LWhwZWMyMi5wZGYAABMAAS8AABUAAgAR//8AAAAIAA0AGgAkAFAAAAAAAAACAQAAAAAAAAAFAAAAAAAAAAAAAAAAAAABrg==}}
 
 @inproceedings{zakaria:sc22,
+	abstract = {High Performance Computing (HPC) software stacks have become complex, with the dependencies of some applications numbering in the hundreds. Packaging, distributing, and administering software stacks of that scale is a complex undertaking anywhere. HPC systems deal with esoteric compilers, hardware, and a panoply of uncommon combinations. In this paper, we explore the mechanisms available for packaging software to find its own dependencies in the context of a taxonomy of software distribution, and discuss their benefits and pitfalls. We discuss workarounds for some common problems caused by using these composed stacks and introduce Shrinkwrap: A solution to producing binaries that directly load their dependencies from precise locations and in a precise order. Beyond simplifying the use of the binaries, this approach also speeds up loading as much as 7× for a large dynamically-linked MPI application in our evaluation.},
 	address = {Dallas, TX},
 	author = {Farid Zakaria and Thomas R. W. Scogland and Todd Gamblin and Carlos Maltzahn},
 	booktitle = {SC22},
 	date-added = {2022-08-09 12:51:12 -0700},
-	date-modified = {2022-08-09 12:53:35 -0700},
+	date-modified = {2022-08-16 18:42:03 -0700},
 	keywords = {linking, packaging, softwareengineering, oss, reproducibility, compiler},
 	month = {November 13-18},
 	title = {Mapping Out the HPC Dependency Chaos},
