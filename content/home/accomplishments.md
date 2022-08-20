@@ -23,7 +23,7 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-  - certificate_url: https://drive.google.com/file/d/1_pWyO8MZMMiePvNSi87kVt7zmeqAP7Ju/view?usp=sharing
+  - certificate_url: uploads/nma-certificate.pdf
     date_end: ''
     date_start: '2020-07-31'
     description: 'A 3-week computational neuroscience summer school'
@@ -31,7 +31,7 @@ item:
     organization_url: https://academy.neuromatch.io
     title: NMA Computational Neuroscience
     url: ''
-  - certificate_url: https://drive.google.com/file/d/1rBG3UfWcXMuBytb5noOWQ7OCZyvKnXJs/view?usp=sharing
+  - certificate_url: uploads/nmadl-certificate.pdf
     date_end: ''
     date_start: '2021-08-20'
     description: A 3-week deeplearning summer school
@@ -39,14 +39,11 @@ item:
     organization_url: https://academy.neuromatch.io
     title: NMA Deeplearning
     url: ''
-  - certificate_url: https://drive.google.com/file/d/1gQYa7dihlm81iKOke0w9K71oooBVJH0s/view?usp=sharing
+  - certificate_url: uploads/coursera-ds.pdf
     date_end: ''
     date_start: '2022-07-29'
-    description: Successful participants learn how to use
-                    the tools of the trade, think analytically about complex problems,
-                    manage large data sets, deploy statistical principles, create
-                    visualizations, build and evaluate machine learning algorithms, publish
-                    reproducible analyses, and develop data products.
+    description: The Data Science Specialization covers the concepts and tools for an
+entire data science pipeline.
     organization: Coursera
     organization_url: https://coursera.org/share/0fd950b2ac9e144a46db7922f1538d6d
     title: Data Science Specialization

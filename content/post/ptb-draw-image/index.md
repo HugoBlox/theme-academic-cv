@@ -81,7 +81,7 @@ Imagine the image is pre-drawn onto the back of our scrren. `Screen('Flip')` fli
 
 When using `Screen('DrawTexture')`, we neeed to designate a spot for the image to be displayed. A rect is the rectangle area on your screen that can be specified by its top left corner and bottom right corner's coordinates.
 
-![An image showing a rectangle on screen, where the top left corner is located at (x1,y1), and the bottom right corner is located at (x2,y2). The origin for coordinates is the upper left corner.](pic1.png "Display an image in rect [x1,x2,y1,y2]")
+![An image showing a rectangle on screen, where the top left corner is located at (x1,y1), and the bottom right corner is located at (x2,y2). The origin for coordinates is the upper left corner.](featured.png "Display an image in rect [x1,x2,y1,y2]")
 
 The origin of the coordinates is the top left corner of a screen. To know the limits of the screen, we can use `[screenXpixels, screenYpixels] = Screen('WindowSize', window);`. It returns total pixels on x axis and y axis respectively, which is determined by the screen resolution.
 
