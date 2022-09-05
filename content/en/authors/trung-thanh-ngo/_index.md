@@ -2,7 +2,7 @@
 # Display name
 title: "Trung Thanh Ngo"
 
-weight: 40
+weight: 60
 
 # Username (this should match the folder name and the name on publications)
 authors:
@@ -12,7 +12,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Specially-Appointed Assistant Professor
+role: Guest Researcher
 group: Artificial Intelligence and Mathematics
 
 # Organizations/Affiliations
@@ -61,7 +61,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-#- Researchers
+- Guest Researchers
 #- Fulltime
 ---
 
