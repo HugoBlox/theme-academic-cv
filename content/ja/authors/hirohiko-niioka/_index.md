@@ -2,7 +2,7 @@
 # Display name
 title: "新岡宏彦"
 
-weight: 20
+weight: 21
 
 # Username (this should match the folder name and the name on publications)
 authors:
