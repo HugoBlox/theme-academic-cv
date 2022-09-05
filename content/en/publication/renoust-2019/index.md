@@ -1,13 +1,38 @@
 ---
-title: "Historical and modern features for Buddha statue classification"
-date: 2019-01-01
-publishDate: 2021-04-01T02:47:20.119948Z
-authors: ["B. Renoust", "M.O. Franca", "J. Chan", "N. Garcia", "V. Le", "A. Uesaka", "Y. Nakashima", "H. Nagahara", "J. Wang", "Y. Fujioka"]
-publication_types: ["1"]
-abstract: "© 2019 Copyright held by the owner/author(s). While Buddhism has spread along the Silk Roads, many pieces of art have been displaced. Only a few experts may identify these works, subjectively to their experience. The construction of Buddha statues was taught through the definition of canon rules, but the applications of those rules greatly varies across time and space. Automatic art analysis aims at supporting these challenges. We propose to automatically recover the proportions induced by the construction guidelines, in order to use them and compare between different deep learning features for several classification tasks, in a medium size but rich dataset of Buddha statues, collected with experts of Buddhism art history."
+title: Historical and modern features for Buddha statue classification
+date: '2019-01-01'
+publishDate: '2022-09-05T07:51:49.881535Z'
+authors:
+- B. Renoust
+- M.O. Franca
+- J. Chan
+- N. Garcia
+- V. Le
+- A. Uesaka
+- Y. Nakashima
+- H. Nagahara
+- J. Wang
+- Y. Fujioka
+publication_types:
+- '1'
+abstract: © 2019 Copyright held by the owner/author(s). While Buddhism has spread
+  along the Silk Roads, many pieces of art have been displaced. Only a few experts
+  may identify these works, subjectively to their experience. The construction of
+  Buddha statues was taught through the definition of canon rules, but the applications
+  of those rules greatly varies across time and space. Automatic art analysis aims
+  at supporting these challenges. We propose to automatically recover the proportions
+  induced by the construction guidelines, in order to use them and compare between
+  different deep learning features for several classification tasks, in a medium size
+  but rich dataset of Buddha statues, collected with experts of Buddhism art history.
 featured: false
-publication: "*SUMAC 2019 - Proceedings of the 1st Workshop on Structuring and Understanding of Multimedia heritAge Contents, co-located with MM 2019*"
-tags: ["art history", "buddha statues", "classification", "face landmarks", "buddha"]
-doi: "10.1145/3347317.3357239"
+publication: '*SUMAC 2019 - Proceedings of the 1st Workshop on Structuring and Understanding
+  of Multimedia heritAge Contents, co-located with MM 2019*'
+tags:
+- Art history
+- Buddha statues
+- Classification
+- Face landmarks
+- Buddha
+doi: 10.1145/3347317.3357239
 ---
 

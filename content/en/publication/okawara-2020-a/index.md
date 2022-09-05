@@ -1,12 +1,37 @@
 ---
-title: "Action recognition from a single coded image"
-date: 2020-01-01
-publishDate: 2021-04-01T02:47:20.104224Z
-authors: ["Tadashi Okawara", "Michitaka Yoshida", "Hajime Nagahara", "Yasushi Yagi"]
-publication_types: ["1"]
-abstract: "Cameras are prevalent in society at the present time, for example, surveillance cameras, and smartphones equipped with cameras and smart speakers. There is an increasing demand to analyze human actions from these cameras to detect unusual behavior or within a man-machine interface for Internet of Things (IoT) devices. For a camera, there is a trade-off between spatial resolution and frame rate. A feasible approach to overcome this trade-off is compressive video sensing. Compressive video sensing uses random coded exposure and reconstructs higher than read out of sensor frame rate video from a single coded image. It is possible to recognize an action in a scene from a single coded image because the image contains multiple temporal information for reconstructing a video. In this paper, we propose reconstruction-free action recognition from a single coded exposure image. We also proposed deep sensing framework which models camera sensing and classification models into convolutional neural network (CNN) and jointly optimize the coded exposure and classification model simultaneously. We demonstrated that the proposed method can recognize human actions from only a single coded image. We also compared it with competitive inputs, such as low-resolution video with a high frame rate and high-resolution video with a single frame in simulation and real experiments."
+title: Action recognition from a single coded image
+date: '2020-01-01'
+publishDate: '2022-09-05T07:51:48.553755Z'
+authors:
+- Tadashi Okawara
+- Michitaka Yoshida
+- Hajime Nagahara
+- Yasushi Yagi
+publication_types:
+- '1'
+abstract: Cameras are prevalent in society at the present time, for example, surveillance
+  cameras, and smartphones equipped with cameras and smart speakers. There is an increasing
+  demand to analyze human actions from these cameras to detect unusual behavior or
+  within a man-machine interface for Internet of Things (IoT) devices. For a camera,
+  there is a trade-off between spatial resolution and frame rate. A feasible approach
+  to overcome this trade-off is compressive video sensing. Compressive video sensing
+  uses random coded exposure and reconstructs higher than read out of sensor frame
+  rate video from a single coded image. It is possible to recognize an action in a
+  scene from a single coded image because the image contains multiple temporal information
+  for reconstructing a video. In this paper, we propose reconstruction-free action
+  recognition from a single coded exposure image. We also proposed deep sensing framework
+  which models camera sensing and classification models into convolutional neural
+  network (CNN) and jointly optimize the coded exposure and classification model simultaneously.
+  We demonstrated that the proposed method can recognize human actions from only a
+  single coded image. We also compared it with competitive inputs, such as low-resolution
+  video with a high frame rate and high-resolution video with a single frame in simulation
+  and real experiments.
 featured: false
-publication: "*Proceedings - 2020 IEEE International Conference on Computational Photography (ICCP)*"
-url_pdf: "https://ieeexplore.ieee.org/document/9105176"
+publication: '*Proceedings - 2020 IEEE International Conference on Computational Photography
+  (ICCP)*'
+url_pdf: https://ieeexplore.ieee.org/document/9105176
+links:
+- name: URL
+  url: https://ieeexplore.ieee.org/document/9105176
 ---
 

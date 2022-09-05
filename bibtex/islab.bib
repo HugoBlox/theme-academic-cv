@@ -1,3 +1,279 @@
+@article{virgo2022sncs,
+author = {Felix Giovanni Virgo and Chenhui Chu and Takaya Ogawa and Koji Tanaka and Kazuki Ashihara and Yuta Nakashima and Noriko Takemura and Hajime Nagahara and Takao Fujikawa},
+title = {Information Extraction from Public Meeting Articles},
+journal = {SN Computer Science},
+volume = {3},
+number = {285},
+abstract = {Public meeting articles are the key to understanding the history of public opinion and public sphere in Australia. Information extraction from public meeting articles can obtain new insights into Australian history. In this paper, we create an information extraction dataset in the public meeting domain. We manually annotate the date and time, place, purpose, people who requested the meeting, people who convened the meeting, and people who were convened of 1258 public meeting articles. We further present an information extraction system, which formulates information extraction from public meeting articles as a machine reading comprehension task. Experiments indicate that our system can achieve an F1 score of 74.98% for information extraction from public meeting articles.},
+}
+
+@article{kuang2022privacy,
+author = {Zhenzhong Kuang and Longbin Teng and Xingchi He and Jiajun Ding and Yuta Nakashima and Noboru Babaguchi}, 
+title = {Anonymous identity sampling and reusable synthesis for sensitive face camouflage},
+journal = {Journal of Electronic Imaging},
+year = {2022},
+volume = {31},
+number = {2}, 
+month = 3,
+pages = {023011-1--023011-18},
+doi = {https://doi.org/10.1117/1.JEI.31.2.023011},
+url = {https://doi.org/10.1117/1.JEI.31.2.023011},
+abstract = {An increasing amount of face images are being captured, shared, or applied in various applications. These images usually contain lots of sensitive information that may lead to privacy disclosure and misuse problems. Some pioneering works show that face image anonymization is one of the promising solutions. We present an innovative identity (ID) camouflage approach by synthesizing anonymous faces so that both artificial intelligence algorithms and humans are unable to recognize them and misuse them freely. Given a face image, our approach consists of two steps. First, we sample an anonymous ID feature point in the feature space. Then, we synthesize a camouflage face by training an anonymous deep generative adversarial network model. To reduce the risk of re-identification, we optimize our anonymous face generator based on the k-nearest neighbors to make a good balance between anonymity and utility of the original face image. The experimental results over the public dataset have verified the feasibility and state-of-the-art efficacy of our approach.},
+}
+
+@article{kumawat2021stft,
+author = {Sudhakar Kumawat and Manisha Verma and Yuta Nakashima and Shanmuganathan Raman}, 
+title = {Depthwise spatio-temporal {STFT} convolutional neural networks for human action recognition}, 
+journal = {IEEE Trans.~Pattern Analysis and Machine Intelligence},
+year = {2022},
+pages = {4839--4851},
+volume = {44},
+url = {https://doi.ieeecomputersociety.org/10.1109/TPAMI.2021.3076522},
+doi = {https://doi.org/10.1109/TPAMI.2021.3076522},
+abstract = {Conventional 3D convolutional neural networks (CNNs) are computationally expensive, memory intensive, prone to overfitting, and most importantly, there is a need to improve their feature learning capabilities. To address these issues, we propose spatio-temporal short-term Fourier transform (STFT) blocks, a new class of convolutional blocks that can serve as an alternative to the 3D convolutional layer and its variants in 3D CNNs. An STFT block consists of non-trainable convolution layers that capture spatially and/or temporally local Fourier information using an STFT kernel at multiple low frequency points, followed by a set of trainable linear weights for learning channel correlations. The STFT blocks significantly reduce the space-time complexity in 3D CNNs. In general, they use 3.5 to 4.5 times less parameters and 1.5 to 1.8 times less computational costs when compared to the state-of-the-art methods. Furthermore, their feature learning capabilities are significantly better than the conventional 3D convolutional layer and its variants. Our extensive evaluation on seven action recognition datasets, including Something-Something v1 and v2, Jester, Diving-48, Kinetics-400, UCF 101, and HMDB 51, demonstrate that STFT blocks based 3D CNNs achieve on par or even better performance compared to the state-of-the-art methods.},
+}
+
+@article{chu2021semantic,
+  title = {The semantic typology of visually grounded paraphrases},
+  author = {Chu, Chenhui and Oliveira, Vinicius and Virgo, Felix Giovanni and Otani, Mayu and Garcia, Noa and Yuta Nakashima},
+  journal = {Computer Vision and Image Understanding},
+  year = {2021},
+  volume = {215},
+  month = 12,
+  pages = {10 pages},
+  doi = {https://doi.org/10.1016/j.cviu.2021.103333},
+  url = {https://www.sciencedirect.com/science/article/pii/S1077314221001697},
+  abstract = {Visually grounded paraphrases (VGPs) are different phrasal expressions describing the same visual concept in an image. Previous studies treat VGP identification as a binary classification task, which ignores various phenomena behind VGPs (i.e., different linguistic interpretation of the same visual concept) such as linguistic paraphrases and VGPs from different aspects. In this paper, we propose semantic typology for VGPs, aiming to elucidate the VGP phenomena and deepen the understanding about how human beings interpret vision with language. We construct a large VGP dataset that annotates the class to which each VGP pair belongs according to our typology. In addition, we present a classification model that fuses language and visual features for VGP classification on our dataset. Experiments indicate that joint language and vision representation learning is important for VGP classification. We further demonstrate that our VGP typology can boost the performance of visually grounded textual entailment.},
+}
+
+@article{wang2021noisy,
+author = {Bowen Wang and Liangzhi Li and Yuta Nakashima and Ryo Kawasaki and Hajime Nagahara and Yasushi Yagi},
+title = {{Noisy-LSTM}: Improving temporal awareness for video semantic segmentation},
+journal = {IEEE Access}, 
+volume = {9}, 
+pages = {pp.~46810--46820},
+year = {2021},
+month = 3,
+url = {https://doi.org/10.1109/ACCESS.2021.3067928},
+doi = {https://doi.org/10.1109/ACCESS.2021.3067928},
+abstract = {Semantic video segmentation is a key challenge for various applications. This paper presents a new model named Noisy-LSTM, which is trainable in an end-to-end manner, with convolutional LSTMs (ConvLSTMs) to leverage the temporal coherence in video frames, together with a simple yet effective training strategy that replaces a frame in a given video sequence with noises. Our training strategy spoils the temporal coherence in video frames and thus makes the temporal links in ConvLSTMs unreliable; this may consequently improve the ability of the model to extract features from video frames and serve as a regularizer to avoid overfitting, without requiring extra data annotations or computational costs. Experimental results demonstrate that the proposed model can achieve state-of-the-art performances on both the CityScapes and EndoVis2018 datasets. The code for the proposed method is available at https://github.com/wbw520/NoisyLSTM.},
+}
+
+@article{yang2021bert,
+author = {Zekun Yang and Noa Garcia and Chenhui Chu and Mayu Otani and Yuta Nakashima and Haruo Takemura}, 
+title = {A comparative study of language Transformers for video question answering}, 
+journal = {Neurocomputing}, 
+volume = {445}, 
+pages = {pp.~121--133},
+year = {2021},
+month = 7,
+url = {https://doi.org/10.1016/j.neucom.2021.02.092},
+doi = {https://doi.org/10.1016/j.neucom.2021.02.092},
+abstract = {With the goal of correctly answering questions about images or videos, visual question answering (VQA) has quickly developed in recent years. However, current VQA systems mainly focus on answering questions about a single image and face many challenges in answering video-based questions. VQA in video not only has to understand the evolution between video frames but also requires a certain understanding of corresponding subtitles. In this paper, we propose a language Transformer-based video question answering model to encode the complex semantics from video clips. Different from previous models which represent visual features by recurrent neural networks, our model encodes visual concept sequences with a pre-trained language Transformer. We investigate the performance of our model using four language Transformers over two different datasets. The results demonstrate outstanding improvements compared to previous work.},
+}
+
+@inproceedings{hirota2022facct,
+author = {Yusuke Hirota and Yuta Nakashima and Noa Garcia},
+title = {Gender and Racial Bias in Visual Question Answering Datasets},
+booktitle = {Proc.~ACM Conference on Fairness, Accountability, and Transparency (FAccT)},
+year = {2022},
+month = 6,
+addendum = {(accepted, \textbf{採択率: 25.1\%})}
+}
+
+@inproceedings{hirota2022cvpr,
+author = {Yusuke Hirota and Yuta Nakashima and Noa Garcia}, 
+title = {Quantifying Societal Bias Amplification in Image Captioning}, 
+booktitle = {Proc.~IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+note = {10 pages},
+year = {2022},
+month = 6,
+url = {https://facctconference.org/static/pdfs_2022/facct22-102.pdf},
+abstract = {Vision-and-language tasks have increasingly drawn more attention as a means to evaluate human-like reasoning in machine learning models. A popular task in the field is visual question answering (VQA), which aims to answer questions about images. However, VQA models have been shown to exploit language bias by learning the statistical correlations between questions and answers without looking into the image content: e.g., questions about the color of a banana are answered with yellow, even if the banana in the image is green. If societal bias (e.g., sexism, racism, ableism, etc.) is present in the training data, this problem may be causing VQA models to learn harmful stereotypes. For this reason, we investigate gender and racial bias in five VQA datasets. In our analysis, we find that the distribution of answers is highly different between questions about women and men, as well as the existence of detrimental gender-stereotypical samples. Likewise, we identify that specific race-related attributes are underrepresented, whereas potentially discriminatory samples appear in the analyzed datasets. Our findings suggest that there are dangers associated to using VQA datasets without considering and dealing with the potentially harmful stereotypes. We conclude the paper by proposing solutions to alleviate the problem before, during, and after the dataset collection process.},
+}
+
+
+@inproceedings{otani2022cvpr,
+author = {Mayu Otani and Riku Togashi and Yuta Nakashima and Esa Rahtu and Janne Heikkil\"a and Shin'ichi Satoh}, 
+title = {Optimal Correction Cost for Object Detection Evaluation}, 
+booktitle = {Proc.~IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+note = {9 pages},
+year = {2022},
+month = 6,
+url = {https://openaccess.thecvf.com/content/CVPR2022/papers/Otani_Optimal_Correction_Cost_for_Object_Detection_Evaluation_CVPR_2022_paper.pdf}
+abstract = {Mean Average Precision (mAP) is the primary evaluation measure for object detection. Although object detection has a broad range of applications, mAP evaluates detectors in terms of the performance of ranked instance retrieval. Such the assumption for the evaluation task does not suit some downstream tasks. To alleviate the gap between downstream tasks and the evaluation scenario, we propose Optimal Correction Cost (OC-cost), which assesses detection accuracy at image level. OC-cost computes the cost of correcting detections to ground truths as a measure of accuracy. The cost is obtained by solving an optimal transportation problem between the detections and the ground truths. Unlike mAP, OC-cost is designed to penalize false positive and false negative detections properly, and every image in a dataset is treated equally. Our experimental result validates that OC-cost has better agreement with human preference than a ranking-based measure, i.e., mAP for a single image. We also show that detectors' rankings by OC-cost are more consistent on different data splits than mAP. Our goal is not to replace mAP with OC-cost but provide an additional tool to evaluate detectors from another aspect. To help future researchers and developers choose a target measure, we provide a series of experiments to clarify how mAP and OC-cost differ.},
+}
+
+
+@inproceedings{togashi2022cvpr,
+author = {Riku Togashi and Mayu Otani and Yuta Nakashima and Esa Rahtu, Janne Heikkil\"a and Tetsuya Sakai}, 
+title = {{AxIoU}: An Axiomatically Justified Measure for Video Moment Retrieval}, 
+booktitle = {Proc.~IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+note = {10 pages},
+year = {2022},
+month = 6,
+url = {https://openaccess.thecvf.com/content/CVPR2022/papers/Togashi_AxIoU_An_Axiomatically_Justified_Measure_for_Video_Moment_Retrieval_CVPR_2022_paper.pdf},
+abstract = {Evaluation measures have a crucial impact on the direction of research. Therefore, it is of utmost importance to develop appropriate and reliable evaluation measures for new applications where conventional measures are not well suited. Video Moment Retrieval (VMR) is one such application, and the current practice is to use R@K,θ for evaluating VMR systems. However, this measure has two disadvantages. First, it is rank-insensitive: It ignores the rank positions of successfully localised moments in the top-K ranked list by treating the list as a set. Second, it binarizes the Intersection over Union (IoU) of each retrieved video moment using the threshold θ and thereby ignoring fine-grained localisation quality of ranked moments.
+We propose an alternative measure for evaluating VMR, called Average Max IoU (AxIoU), which is free from the above two problems. We show that AxIoU satisfies two important axioms for VMR evaluation, namely, Invariance against Redundant Moments and Monotonicity with respect to the Best Moment, and also that R@K,θ satisfies the first axiom only. We also empirically examine how AxIoU agrees with R@K,θ, as well as its stability with respect to change in the test data and human-annotated temporal boundaries.},
+}
+
+@inproceedings{teshima2022,
+title = {Integration of gesture generation system using gesture library with {DIY} robot design kit},
+author = {Hitoshi Teshima and Naoki Wake and Diego Thomas and Yuta Nakashima and David Baumert and Hiroshi Kawasaki and Katsushi Ikeuchi},
+year = {2022},
+month = 1,
+booktitle = {Proc.~IEEE/SICE International Symposium on System Integration (SII)},
+pages = {361--366},
+url = {https://ieeexplore.ieee.org/document/9708837},
+abstract = {Conversational agents are expected to improve the quality of communication by adding gestures to the speech, and are considered to be a promising tool. Recent data-driven methods are capable of attaching gestures to arbitrary speech, but the output is still not in line with human intuition. Therefore, we propose a gesture transformation system that utilizes gesture types as intermediate information, based on the theory of psycholinguistics. We employ the gesture-first principle to create gesture clusters based on gesture similarities among imagistic gestures, one type of gesture to represent image-like motions, which are considered to represent important concepts in conversations. Since this system explicitly takes into account the gesture types recognized by a deep neural network (DNN) and the semantics of the sentence to select gestures, it is expected to output gestures that are more in line with human intuition than existing end-to-end systems that do not place these intermediate states. We prepared a DIY robot kit consisting of cheap parts so that conversational agents at home become available to ordinary users, and implemented the proposed gesture generation system on this robot. In order to evaluate the effectiveness of the conversational agent, we evaluated user impression when using various media for conversation and confirmed the advantage of using our agent.},
+}
+
+@inproceedings{shoji2021, 
+title = {Museum Experience into a Souvenir: Generating Memorable Postcards from Guide Device Behavior Log},
+Author = {Yoshiyuki Shoji and Kenro Aihara and Noriko Kando and Yuta Nakashima and Hiroaki Ohshima and Shio Takidaira and Masaki Ueta and Takehiro Yamamoto and Yusuke Yamamoto},
+year = {2021},
+month = 9, 
+booktitle = {Proc.~ACM/IEEE Joint Conference on Digital Libraries (JCDL)},
+pages = {120-129},
+url = {https://ieeexplore.ieee.org/document/9651764},
+doi = {https://doi.org/10.1109/JCDL52503.2021.00024},
+abstract = {This paper proposes a method for automatically generating postcards that reflect each visitor's museum experience by analyzing the log of our original iPad app that supports and guides personalized navigation in the National Museum of Ethnology. Museum experiences have become more personalized with the evolution of guiding devices. Each visitor views the different exhibits in a different order. Souvenirs serve to remind visitors of their museum experience and cement it in their memories; thus, souvenir postcards should be tailored to each visitor's museum experience. Such tailored postcards can effectively remind visitors of their experiences, deepen their impressions when they look back at them, and promote post-learning. In this paper, we proposed a system that automatically generates a postcard for each visitor for each visit by selecting the five most relevant and impressive exhibits based on the search and navigation logs on our museum guide app. We analyzed the search logs of the guide devices based on the psychological effects on impressions and memory to estimate which exhibits had the strongest impact on the visitors. We then conducted an in laboratory controlled user experiment with 16 participants to check what exhibits had made an impression on visitors by using the implemented system. The results showed that the exhibits that were seen frequently and the exhibits that participants added to their favorites were the most memorable.}
+}
+
+@inproceedings{wu2021transferring,
+author = {Tianran Wu and Noa Garcia and Mayu Otani and Chenhui Chu and Yuta Nakashima and Haruo Takemura},
+title = {Transferring domain-agnostic knowledge in video question answering},
+booktitle = {Proc.~British Machine Vision Conference (BMVC)},
+month = 11,
+year = {2021},
+note = {13 pages},
+}
+
+@inproceedings{vaigh2021gcnboost,
+author = {Cheikh Brahim El Vaigh and Noa Garcia and Benjamin Renoust and Chenhui Chu and Yuta Nakashima and Hajime Nagahara},
+title = {{GCNBoost}: Artwork Classificationby Label Propagation Through a Knowledge Graph},
+booktitle = {Proc.~ACM International Conference on Multimedia Retrieval (ICMR)},
+month = 11,
+year = {2021},
+note = {92--100},
+url = {https://www.bmvc2021-virtualconference.com/assets/papers/1187.pdf},
+abstract = {Video question answering (VideoQA) is designed to answer a given question based on a relevant video clip. The current available large-scale datasets have made it possible to formulate VideoQA as the joint understanding of visual and language information. However, this training procedure is costly and still less competent with human performance. In this paper, we investigate a transfer learning method by the introduction of domain-agnostic knowledge and domain-specific knowledge. First, we develop a novel transfer learning framework, which finetunes the pre-trained model by applying domain-agnostic knowledge as the medium. Second, we construct a new VideoQA dataset with 21,412 human-generated question-answer samples for comparable transfer of knowledge. Our experiments show that: (i) domain-agnostic knowledge is transferable and (ii) our proposed transfer learning framework can boost VideoQA performance effectively.},
+}
+
+@inproceedings{wang2021image,
+author = {Bowen Wang and Liangzhi Li and Yuta Nakashima and Takehiro Yamamoto and Hiroaki Ohshima and Yoshiyuki Shoji and Kenro Aihara and Noriko Kando},
+title = {Image Retrieval by Hierarchy-aware Deep Hashing Based on Multi-task Learning},
+booktitle = {Proc.~ACM International Conference on Multimedia Retrieval (ICMR)},
+month = 11,
+year = {2021},
+pages = {486--490},
+url = {https://dl.acm.org/doi/10.1145/3460426.3463586},
+abstract = {Deep hashing has been widely used to approximate nearest-neighbor search for image retrieval tasks. Most of them are trained with image-label pairs without any inter-label relationship, which may not make full use of the real-world data. This paper presents deep hashing, named HA2SH, that leverages multiple types of labels with hierarchical structures that an ethnological museum assigns to their artifacts. We experimentally prove that HA2SH can learn to generate hashes that give a better retrieval performance. Our code is available at https://github.com/wbw520/minpaku.},
+}
+
+@inproceedings{qian2021built,
+author = {Yiming Qian and Cheikh Brahim El Vaigh and Yuta Nakashima and Benjamin Renoust and Hajime Nagahara and Yutaka Fujioka},
+title = {Built year prediction from Buddha face with heterogeneous labels},
+booktitle = {Proc.~Workshop on Structuring and Understanding of Multimedia Heritage Contents (SUMAC)},
+month = 10,
+year = {2021},
+pages = {5--12},
+url = {https://dl.acm.org/doi/abs/10.1145/3475720.3484441},
+abstract = {Buddha statues are a part of human culture, especially of the Asia area, and they have been alongside human civilisation for more than 2,000 years. As history goes by, due to wars, natural disasters, and other reasons, the records that show the built years of Buddha statues went missing, which makes it an immense work for historians to estimate the built years. In this paper, we pursue the idea of building a neural network model that automatically estimates the built years of Buddha statues based only on their face images. Our model uses a loss function that consists of three terms: an MSE loss that provides the basis for built year estimation; a KL divergence-based loss that handles the samples with both an exact built year and a possible range of built years (e.g., dynasty or centuries) estimated by historians; finally a regularisation that utilises both labelled and unlabelled samples based on manifold assumption. By combining those three terms in the training process, we show that our method is able to estimate built years for given images with 37.5 years of a mean absolute error on the test set.},
+}
+
+
+@inproceedings{bai2021explain,
+author = {Zechen Bai and Yuta Nakashima and Noa Garcia},
+title = {Explain me the painting: Multi-topic knowledgeable art description generation},
+booktitle = {Proc.~IEEE/CVF International Conference on Computer Vision (ICCV)},
+month = 10,
+year = {2021},
+pages = {5422--5432},
+url = {https://openaccess.thecvf.com/content/ICCV2021/papers/Bai_Explain_Me_the_Painting_Multi-Topic_Knowledgeable_Art_Description_Generation_ICCV_2021_paper.pdf},
+abstract = {Have you ever looked at a painting and wondered what is the story behind it? This work presents a framework to bring art closer to people by generating comprehensive descriptions of fine-art paintings. Generating informative descriptions for artworks, however, is extremely challenging, as it requires to 1) describe multiple aspects of the image such as its style, content, or composition, and 2) provide background and contextual knowledge about the artist, their influences, or the historical period. To address these challenges, we introduce a multi-topic and knowledgeable art description framework, which modules the generated sentences according to three artistic topics and, additionally, enhances each description with external knowledge. The framework is validated through an exhaustive analysis, both quantitative and qualitative, as well as a comparative human evaluation, demonstrating outstanding results in terms of both topic diversity and information veracity.},
+}
+
+@inproceedings{li2021scouter,
+author = {Liangzhi Li and Bowen Wang and Manisha Verma and Yuta Nakashima and Ryo Kawasaki and Hajime Nagahara},
+title = {{SCOUTER}: Slot attention-based classifier for explainable image recognition},
+booktitle = {Proc.~IEEE/CVF International Conference on Computer Vision (ICCV)},
+note = {pp.~1046--1055},
+month = 11,
+year = {2021},
+pages = {5422--5432},
+url = {https://openaccess.thecvf.com/content/ICCV2021/papers/Li_SCOUTER_Slot_Attention-Based_Classifier_for_Explainable_Image_Recognition_ICCV_2021_paper.pdf},
+abstract = {Explainable artificial intelligence has been gaining attention in the past few years. However, most existing methods are based on gradients or intermediate features, which are not directly involved in the decision-making process of the classifier. In this paper, we propose a slot attention-based classifier called SCOUTER for transparent yet accurate classification. Two major differences from other attention-based methods include: (a) SCOUTER's explanation is involved in the final confidence for each category, offering more intuitive interpretation, and (b) all the categories have their corresponding positive or negative explanation, which tells "why the image is of a certain category" or "why the image is not of a certain category." We design a new loss tailored for SCOUTER that controls the model's behavior to switch between positive and negative explanations, as well as the size of explanatory regions. Experimental results show that SCOUTER can give better visual explanations in terms of various metrics while keeping good accuracy on small and medium-sized datasets.},
+}
+
+@inproceedings{hirota2021visual,
+author = {Yusuke Hirota and Noa Garcia and Mayu Otani and Chenhui Chu and Yuta Nakashima and Ittetsu Taniguchi and Takao Onoye},
+title = {Visual question answering with textual representations for images},
+booktitle = {Proc.~IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)},
+month = 10,
+year = {2021},
+pages = {3154--3157},
+url = {https://openaccess.thecvf.com/content/ICCV2021W/CLVL/papers/Hirota_Visual_Question_Answering_With_Textual_Representations_for_Images_ICCVW_2021_paper.pdf}
+abstract = {How far can we go with textual representations for understanding pictures? Deep visual features extracted by object recognition models are prevailing used in multiple tasks, and especially in visual question answering (VQA). However, conventional deep visual features may struggle to convey all the details in an image as we humans do. Meanwhile, with recent language models' progress, descriptive text may be an alternative to this problem. This paper delves into the effectiveness of textual representations for image understanding in the specific context of VQA.},
+}
+
+@inproceedings{sayo2021posern,
+author = {Akihiko Sayo and Diego Thomas and Hiroshi Kawasaki and Yuta Nakashima and Katsushi Ikeuchi},
+title = {{PoseRN}: A {2D} pose refinement network for bias-free multi-view {3D} human pose estimation},
+booktitle = {Proc.~International Conference on Image Processing (ICIP)},
+month = 9,
+year = {2021},
+pages = {3233--3237},
+url = {https://arxiv.org/pdf/2107.03000.pdf},
+abstract = {We propose a new 2D pose refinement network that learns to predict the human bias in the estimated 2D pose. There are biases in 2D pose estimations that are due to differences between annotations of 2D joint locations based on annotators' perception and those defined by motion capture (MoCap) systems. These biases are crafted into publicly available 2D pose datasets and cannot be removed with existing error reduction approaches. Our proposed pose refinement network allows us to efficiently remove the human bias in the estimated 2D poses and achieve highly accurate multi-view 3D human pose estimation.},
+}
+
+@inproceedings{verma2021learners,
+author = {Manisha Verma and Yuta Nakashima and Hirokazu Kobori and Ryota Takaoka and Noriko Takemura and Tsukasa Kimura and Hajime Nagahara and Masayuki Numao and Kazumitsu Shinohara},
+title = {Learners' efficiency prediction using facial behavior analysis},
+booktitle = {Proc.~International Conference on Image Processing (ICIP)},
+month = 9,
+year = {2021},
+pages = {1084--1088},
+url = {https://ieeexplore.ieee.org/document/9506203},
+abstract = {In the e-learning context, how much the learner is concentrated and engaged, or the learners' efficiency, is essential for providing adaptive and flexible materials, timely suggestions, etc., which can lead to efficient learning. In this work, we explore to predict learners' efficiency with a realistic configuration, in which we use a webcam or a laptop PC's built-in camera. Specifically, we first provide a feasible definition of the learners' efficiency, and based on this definition, we predict one's efficiency from facial behavior. We predict the learners' efficiency using various convolutional neural networks. Results are discussed using different evaluation metrics.}
+} 
+
+@inproceedings{samaran2021attending,
+author = {Jules Samaran and Noa Garcia and Mayu Otani and Chenhui Chu and Yuta Nakashima},
+title = {Attending self-attention: A case study of visually grounded supervision in vision-and-language transformers},
+booktitle = {Proc.~Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing: Student Research Workshop},
+month = 8,
+year = {2021},
+pages = {81--86},
+url = {https://aclanthology.org/2021.acl-srw.8/},
+abstract = {The impressive performances of pre-trained visually grounded language models have motivated a growing body of research investigating what has been learned during the pre-training. As a lot of these models are based on Transformers, several studies on the attention mechanisms used by the models to learn to associate phrases with their visual grounding in the image have been conducted. In this work, we investigate how supervising attention directly to learn visual grounding can affect the behavior of such models. We compare three different methods on attention supervision and their impact on the performances of a state-of-the-art visually grounded language model on two popular vision-and-language tasks.},
+}
+
+@inproceedings{kajiwara2021wrime,
+author = {Tomoyuki Kajiwara and Chenhui Chu and Noriko Takemura and Yuta Nakashima and Hajime Nagahara},
+title = {{WRIME}: A new dataset for emotional intensity estimation with subjective and objective annotations},
+booktitle = {Proc.~Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)},
+month = 6,
+year = {2021},
+pages = {2095--2104},
+url = {https://aclanthology.org/2021.naacl-main.169/},
+abstract = {We annotate 17,000 SNS posts with both the writer’s subjective emotional intensity and the reader’s objective one to construct a Japanese emotion analysis dataset. In this study, we explore the difference between the emotional intensity of the writer and that of the readers with this dataset. We found that the reader cannot fully detect the emotions of the writer, especially anger and trust. In addition, experimental results in estimating the emotional intensity show that it is more difficult to estimate the writer’s subjective labels than the readers’. The large gap between the subjective and objective emotions imply the complexity of the mapping from a post to the subjective emotion intensities, which also leads to a lower performance with machine learning models.},
+}
+
+@inproceedings{wang2021mtunet,
+author = {Bowen Wang and Liangzhi Li and Manisha Verma and Yuta Nakashima and Ryo Kawasaki and Hajime Nagahara},
+title = {{MTUNet}: Few-shot image classification with visual explanations},
+booktitle = {Proc.~IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
+month = 6,
+year = {2021},
+pages = {2294--2298},
+url = {https://openaccess.thecvf.com/content/CVPR2021W/RCV/papers/Wang_MTUNet_Few-Shot_Image_Classification_With_Visual_Explanations_CVPRW_2021_paper.pdf},
+abstract = {Few-shot learning (FSL) approaches, mostly neural network-based, are assuming that the pre-trained knowledge can be obtained from base (seen) categories and transferred to novel (unseen) categories. However, the black-box nature of neural networks makes it difficult to understand what is actually transferred, which may hamper its application in some risk-sensitive areas. In this paper, we reveal a new way to perform explainable FSL for image classification, using discriminative patterns and pairwise matching. Experimental results prove that the proposed method can achieve satisfactory explainability on two mainstream datasets. Code is available*.},
+}
+
+
+
 @inproceedings{bae2020,
   author={Kyuho Bae and Andre Ivan and Hajime Nagahara and In Kyu Park},
   booktitle={International Conference on Pattern Recognition}, 

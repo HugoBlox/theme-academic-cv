@@ -1,11 +1,23 @@
 ---
-title: "Video meets knowledge in visual question answering"
-date: 2019-01-01
-publishDate: 2021-04-01T02:47:13.641616Z
-authors: ["Noa Garcia", "Chenhui Chu", "Mayu Otani", "Yuta Nakashima"]
-publication_types: ["1"]
-abstract: "In this work, we address knowledge-based visual question answering in videos. First, we introduce KnowIT VQA, a video dataset with 24,282 human-generated question-answer pairs that combines visual, textual and temporal coherence reasoning together with knowledge-based questions. Second, we propose a video understanding model by combining the visual and textual video information with specific knowledge about the dataset. We find that the incorporation of knowledge produces outstanding improvements for VQA in video. However, the performance on KnowIT VQA still lags well behind human accuracy, indicating its usefulness for studying current video modelling limitations."
+title: Video meets knowledge in visual question answering
+date: '2019-01-01'
+publishDate: '2022-09-05T07:52:14.711890Z'
+authors:
+- Noa Garcia
+- Chenhui Chu
+- Mayu Otani
+- Yuta Nakashima
+publication_types:
+- '1'
+abstract: In this work, we address knowledge-based visual question answering in videos.
+  First, we introduce KnowIT VQA, a video dataset with 24,282 human-generated question-answer
+  pairs that combines visual, textual and temporal coherence reasoning together with
+  knowledge-based questions. Second, we propose a video understanding model by combining
+  the visual and textual video information with specific knowledge about the dataset.
+  We find that the incorporation of knowledge produces outstanding improvements for
+  VQA in video. However, the performance on KnowIT VQA still lags well behind human
+  accuracy, indicating its usefulness for studying current video modelling limitations.
 featured: false
-publication: "*画像の認識・理解シンポジウム(MIRU2019)論文集*"
+publication: '*画像の認識・理解シンポジウム(MIRU2019)論文集*'
 ---
 
