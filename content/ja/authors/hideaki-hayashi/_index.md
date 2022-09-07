@@ -26,11 +26,11 @@ organizations:
 bio: "深層学習やベイズ推定を基盤とした機械学習アルゴリズムの開発を中心に、生体信号解析、医用画像処理などの応用研究に従事。"
 
 # List each interest with a dash
-#interests:
-#- コンピュータビジョン
-#- 自然言語処理
-#- パターン認識
-#- 機械学習
+interests:
+- 機械学習
+- パターン認識
+- コンピュータビジョン
+- 生体信号解析
 
 #education:
 #  courses:
@@ -55,17 +55,17 @@ social:
   icon_pack: fas
   str: "tel: 6069"
   show_link: false
-#- icon: home
-#  icon_pack: fas
-#  link: http://n-yuta.jp/
-#  str: personal
-#  show_link: true
-#- icon: google-scholar
-#  icon_pack: ai
-#  link: https://scholar.google.com/citations?user=LNvd0VQAAAAJ
-#- icon: github
-#  icon_pack: fab
-#  link: https://github.com/nyuta1212
+- icon: home
+  icon_pack: fas
+  link: https://sites.google.com/view/hideakihayashi/home
+  str: personal
+  show_link: true
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.co.jp/citations?user=XwYPKOYAAAAJ&hl=ja
+- icon: github
+  icon_pack: fab
+  link: https://github.com/HideakiHayashi
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -79,5 +79,6 @@ user_groups:
 
 ### Contact
 - email: hayashi@ids.
+- webpage: https://sites.google.com/view/hideakihayashi/home
 
 Please add `osaka-u.ac.jp` to complete email address
