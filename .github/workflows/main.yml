@@ -1,0 +1,37 @@
+name: build-and-deploy-website
+on: push
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.102.3"
+
+      # - name: Clean
+      #   run: hugo mod clean
+
+      - name: Build
+        # remove --minify tag if you do not need it
+        # docs: https://gohugo.io/hugo-pipes/minification/
+        run: hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.TOKEN }}
+          external_repository: gunnarvoet/gunnarvoet.github.io
+          publish_dir: ./public
+          #   keep_files: true
+          user_name: gunnarvoet
+          user_email: <gunnarvoet@gmail.com>
+          publish_branch: main
+        #   cname: example.com
+
