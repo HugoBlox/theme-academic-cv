@@ -33,18 +33,26 @@ date_format = "Jan 2006"
 #  """
 
 [[experience]]
+  title = "Associate Project Scientist"
+  company = "Scripps Institution of Oceanography / UCSD"
+  company_url = ""
+  location = "La Jolla, California"
+  date_start = "2020-07-01"
+  date_end = ""
+  description = """
+  Roles include:
+
+  * PI and co-PI on various research projects
+  * Lead mooring engineer for Multiscale Ocean Dynamics group
+  """
+
+[[experience]]
   title = "Assistant Project Scientist"
   company = "Scripps Institution of Oceanography / UCSD"
   company_url = ""
   location = "La Jolla, California"
   date_start = "2014-07-01"
-  date_end = ""
-  description = """
-  Roles include:
-
-  * PI and co-PI on several research projects
-  * Lead mooring engineer for Multiscale Ocean Dynamics group
-  """
+  date_end = "2020-06-30"
 
 [[experience]]
   title = "Postdoctoral Scholar"
