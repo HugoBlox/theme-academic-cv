@@ -62,6 +62,13 @@ CTD Data Processing in Python.
 &nbsp; / &nbsp;
 [{{< icon name="book" pack="fas" padding_left="1" >}} docs](https://ctdproc.readthedocs.io/en/latest/)
 
+### velosearaptor
+ADCP Data Processing in Python. 
+
+[{{< icon name="github" pack="fab" padding_left="1" >}} code](https://github.com/modscripps/velosearaptor)
+&nbsp; / &nbsp;
+[{{< icon name="book" pack="fas" padding_left="1" >}} docs](https://modscripps.github.io/velosearaptor)
+
 ### gvpy
 Somewhat random collection of data analysis code snippets written in Python. Sharing this here as I sometimes find inspiration in other peoples code. Please be aware that breaking changes may occur at any moment.
 
