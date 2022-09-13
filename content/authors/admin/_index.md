@@ -21,6 +21,7 @@ interests:
   - Software testing
   - Software product lines
   - Behavioural modelling
+  - Automata learning
   - AI4SE & SE4AI
 
 
@@ -77,6 +78,6 @@ email: ''
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-My name is Sophie Fortz. I am a Ph.D. student in software engineering at the University of Namur, under the supervision of Dr. Gilles Perrouin and Pr. Patrick Heymans. I am also a member of the PReCISE research centre and the Namur Digital Institute. After one year of PhD funded by the EoS (Excellence of Science) VeriLearn project, I obtained a [FRIA (FNRS) Grant](https://www.frs-fnrs.be/en/financements-resp/chercheur-doctorant). My thesis is entitled: [*"LIFTS: Learning Featured Transition Systems"*](poster). My main research interests include variability-intensive systems, behavioural modelling, model-based software testing, AI4SE and SE4AI. Being in my last PhD year, I'm open to discuss about posdoctoral position. So, do not hesitate to contact me to discuss research! 
+My name is Sophie Fortz. I am a Ph.D. student in software engineering at the University of Namur, under the supervision of Dr. Gilles Perrouin and Pr. Patrick Heymans. I am also a member of the PReCISE research centre and the Namur Digital Institute. After one year of PhD funded by the EoS (Excellence of Science) VeriLearn project, I obtained a [FRIA (FNRS) Grant](https://www.frs-fnrs.be/en/financements-resp/chercheur-doctorant). My thesis is entitled: [*"LIFTS: Learning Featured Transition Systems"*](poster). My main research interests include variability-intensive systems, behavioural modelling, model-based software testing, AI4SE and SE4AI. Being in my last PhD year, I'm open to discuss about posdoctoral position. So, do not hesitate to contact me to discuss research!
 
 On my spare hours, I like to read and follow [drawing/painting classes](painting). I am also an active member of [the Belgian Guide Federation](guides), where I have been successively girl guide, group leader and trainer.
