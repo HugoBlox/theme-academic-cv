@@ -16,9 +16,12 @@ main:
   - name: Teaching activities
     url: "#courses"
     weight: 40
-  - name: Hobbies
-    url: '#hobbies'
+  - name: Service activities
+    url: "#services"
     weight: 50
+  #- name: Hobbies
+  #  url: '#hobbies'
+  #  weight: 50
   - name: PhD project
     url: 'poster'
     weight: 60

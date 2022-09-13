@@ -48,7 +48,7 @@ experience:
     location: Valencia, Spain
     date_start: '2019-02-01'
     date_end: '2019-04-30'
-    description: During my [master thesis]({{< relref "../valencia" >}}), I’ve done three months of research at the polytechnic university of Valencia (Spain), under the supervision of Pr. German Vidal.
+    description: During my [master thesis]({{< relref "../valencia" >}}), I’ve done three months of research at the polytechnic university of Valencia (Spain), under the supervision of Pr. German Vidal. My work was nominated for the Jean Fichefet award (best master thesis award).
 
   - title: Secretary and board member
     company: Computer Science Labs (CSLabs)

@@ -13,7 +13,7 @@ design:
 
 During my PhD, I took part to several comitees and help the community in various ways:
 
-* Writing 3 ***reviews*** (as a subreviewer) for several specialised conferences (ICSR, SPLC) or revue (EMSE journal)&nbsp;;<br/><br/>
+* ***Reviewing*** (mainly as a subreviewer) for several specialised conferences (ICSR, SPLC) or journals (EMSE)&nbsp;;<br/><br/>
 
 * Representing scientifics at the Computer Science ***Faculty Council***&nbsp;;<br/><br/>
 
