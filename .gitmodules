@@ -5,3 +5,7 @@
 	path = public
 	url = https://github.com/gunnarvoet/gunnarvoet.github.io.git
 	branch = master
+[submodule "themes/hugo-academic-theme"]
+	path = themes/hugo-academic-theme
+	url = https://github.com/gunnarvoet/hugo-academic-theme
+    branch = gunnarvoet

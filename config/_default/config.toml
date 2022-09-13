@@ -20,7 +20,7 @@ copyright = "&copy; {year} Gunnar Voet"
 ############################
 
 # Name of Academic theme folder in `themes/`.
-theme = "academic"
+theme = "hugo-academic-theme"
 
 # Get last modified date for content from Git?
 enableGitInfo = false
