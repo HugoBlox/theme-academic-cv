@@ -13,7 +13,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Doctoral Candidate
+role: Doctoral Researcher
 
 # Organizations/Affiliations
 organizations:
