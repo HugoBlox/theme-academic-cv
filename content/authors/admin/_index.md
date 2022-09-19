@@ -10,14 +10,16 @@ authors:
 superuser: true
 
 # Role/position
-role: Adjunct Professor, Founder & Director of CROSS
+role: Adjunct Professor, Founder & Director of CROSS, OSPO
 
 # Organizations/Affiliations
 organizations:
-- name: Department of Computer Science & Engineering
-  url: "https://engineering.ucsc.edu/departments/computer-science-and-engineering"
+- name: Open Source Program Office, UC Santa Cruz (OSPO)
+  url: "https://ospo.ucsc.edu"
 - name: Center for Research in Open Source Software (CROSS)
   url: "https://cross.ucsc.edu"
+- name: Department of Computer Science & Engineering
+  url: "https://engineering.ucsc.edu/departments/computer-science-and-engineering"
 - name: Baskin School of Engineering
   url: "https://engineering.ucsc.edu"
 - name: University of California, Santa Cruz

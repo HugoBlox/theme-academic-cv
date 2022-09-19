@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Assistant Director of CROSS
+role: Executive Director of OSPO, Executive Director of CROSS
 
 # Organizations/Affiliations
 organizations:
