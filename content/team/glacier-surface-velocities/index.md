@@ -2,8 +2,7 @@
 title: Glacier Surface Velocities
 summary: Developing high-resolution glacier velocity products
 tags:
-- science theme
-- subgroup
+- crossteam-collab
 date: "2022-09-22T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

@@ -2,8 +2,7 @@
 title: Glacier Mass Balance Sensitivity
 summary: Calibrating and evaluating glacier mass balance models
 tags:
-- science theme
-- subgroup
+- crossteam-collab
 date: "2022-09-22T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

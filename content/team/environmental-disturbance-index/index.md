@@ -2,8 +2,7 @@
 title: Environmental Disturbance Index
 summary: Leveraging high-resolution products across the HMA region 
 tags:
-- science theme
-- subgroup
+- crossteam-collab
 date: "2022-09-22T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
