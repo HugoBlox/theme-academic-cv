@@ -5,8 +5,8 @@ title: "迷路の自動生成と自動探索（Unity）" # 記事タイトル
 subtitle: "" # 記事のサブタイトル(省略可)
 summary: "Unityで迷路の自動生成と自動探索をやってみました。" # 要約：記事の中身を端的に表す短い文章
 authors: [shota-kawaguchi] # 著者ID(複数可)
-tags: [] # タグ：記事内容のジャンルなどを表す単語(複数可)
-categories: ["Unity", "棒倒し法", "深さ優先探索", "幅優先探索", "Stack", "Queue"]
+tags: ["Unity", "棒倒し法", "深さ優先探索", "幅優先探索", "Stack", "Queue"] # タグ：記事内容のジャンルなどを表す単語(複数可)
+categories: []
 date: 2022-09-24T15:38:09+09:00
 featured: false
 draft: false
