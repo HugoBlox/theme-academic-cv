@@ -4,7 +4,7 @@
 title: "作業効率が上がるwindowsアプリの紹介" # 記事タイトル
 subtitle: "" # 記事のサブタイトル(省略可)
 summary: "windows専用の、エクスプローラーの拡張機能的に使用できるアプリを紹介します。" # 要約：記事の中身を端的に表す短い文章
-authors: [1lenonva1] # 著者ID(複数可)
+authors: ["1lenonva1"] # 著者ID(複数可)
 tags: [] # タグ：記事内容のジャンルなどを表す単語(複数可)
 categories: []
 date: 2022-09-22T13:29:47+09:00
