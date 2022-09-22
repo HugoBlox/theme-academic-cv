@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Visual Studio | アプリNaviブログ</title><link>https://blog.opuappnavi.com/tag/visual-studio/</link><atom:link href="https://blog.opuappnavi.com/tag/visual-studio/index.xml" rel="self" type="application/rss+xml"/><description>Visual Studio</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><lastBuildDate>Wed, 21 Sep 2022 21:03:53 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_3.png</url><title>Visual Studio</title><link>https://blog.opuappnavi.com/tag/visual-studio/</link></image><item><title>Visual Studio で選択範囲を括弧で囲む方法</title><link>https://blog.opuappnavi.com/post/visual-studio-wrap-selection-with-braces/</link><pubDate>Wed, 21 Sep 2022 21:03:53 +0900</pubDate><guid>https://blog.opuappnavi.com/post/visual-studio-wrap-selection-with-braces/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
+&lt;p>&lt;a href="https://code.visualstudio.com/" target="_blank" rel="noopener">Visual Studio Code&lt;/a> などのエディタでは、テキストを選択した状態で 括弧&lt;code>(&lt;/code>を入力すると、選択範囲の前後に括弧が挿入されます。
+&lt;code>(&lt;/code>以外のキーでも同様の機能があり、例えばダブルクォーテーション&lt;code>&amp;quot;&lt;/code>を入力すると、選択範囲の前後にダブルクオーテーションが挿入されます。&lt;/p>
+&lt;figure id="figure-選択範囲の前後に括弧などを挿入するvscodeの機能">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./vscode-wrap-selection.png" alt="選択範囲の前後に括弧などを挿入するVSCodeの機能" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+選択範囲の前後に括弧などを挿入するVSCodeの機能
+&lt;/figcaption>&lt;/figure>
+&lt;p>一方で、&lt;a href="https://visualstudio.microsoft.com/ja/" target="_blank" rel="noopener">Visual Studio&lt;/a>はVSCodeと挙動が異なります。テキストを選択した状態で&lt;code>(&lt;/code>や&lt;code>&amp;quot;&lt;/code>を入力すると、選択範囲が消えて&lt;code>(&lt;/code>や&lt;code>&amp;quot;&lt;/code>に置き換わってしまいます。&lt;/p>
+&lt;p>この記事では、Visual Studio においてもVSCodeと同様の機能を実現する方法について紹介します。&lt;/p>
+&lt;p>今回の記事で想定する Visual Studio のバージョンは以下の通りです。&lt;/p>
+&lt;ul>
+&lt;li>Visual Studio Community 2019&lt;/li>
+&lt;li>Visual Studio Community 2022&lt;/li>
+&lt;/ul>
+&lt;h1 id="方法1">方法1&lt;/h1>
+&lt;h2 id="方法1のメリット">方法1のメリット&lt;/h2>
+&lt;ul>
+&lt;li>設定変更のみで実現可能&lt;/li>
+&lt;li>Visual Studio 2017 にも対応？（未検証）&lt;/li>
+&lt;/ul>
+&lt;h2 id="方法1のデメリット">方法1のデメリット&lt;/h2>
+&lt;ul>
+&lt;li>C言語とC++のソースコードを編集している時のみ利用可能&lt;/li>
+&lt;li>一部の記号のみ対応&lt;/li>
+&lt;/ul>
+&lt;h2 id="方法1の手順">方法1の手順&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Visual Studio を起動&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Visual Studio 左上のメニューから &lt;code>ツール&lt;/code> → &lt;code>オプション&lt;/code>を選択&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./method1-procedure2.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>「オプション」ウィンドウ左側のメニューから&lt;code>テキスト エディター&lt;/code>→&lt;code>C/C++&lt;/code>→&lt;code>詳細設定&lt;/code>を選択&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./method1-procedure3.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>「オプション」ウィンドウ右側で&lt;code>テキスト エディター&lt;/code>を選択&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Visual Studio 2019 の場合&lt;/p>
+&lt;ol>
+&lt;li>&lt;code>波かっこによる囲みの有効化&lt;/code>の値を&lt;code>True&lt;/code>に設定&lt;/li>
+&lt;li>&lt;code>かっこによる囲みの有効化&lt;/code>の値を&lt;code>True&lt;/code>に設定&lt;/li>
+&lt;/ol>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./method1-procedure4-2019.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>Visual Studio 2022 の場合&lt;/p>
+&lt;p>&lt;code>自動囲みモード&lt;/code>を次のいずれかの値に設定&lt;/p>
+&lt;ul>
+&lt;li>すべて&lt;/li>
+&lt;li>引用符のみ&lt;/li>
+&lt;li>角かっこのみ&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h1 id="方法2">方法2&lt;/h1>
+&lt;h2 id="方法2のメリット">方法2のメリット&lt;/h2>
+&lt;ul>
+&lt;li>多くの言語に対応&lt;/li>
+&lt;li>多くの記号に対応&lt;/li>
+&lt;/ul>
+&lt;h2 id="方法2のデメリット">方法2のデメリット&lt;/h2>
+&lt;ul>
+&lt;li>第三者が作成した拡張機能を導入する必要あり&lt;/li>
+&lt;/ul>
+&lt;h2 id="方法2の手順">方法2の手順&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Visual Studio を起動&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Visual Studio 左上のメニューから &lt;code>拡張機能&lt;/code> → &lt;code>拡張機能の管理&lt;/code>を選択&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./method2-procedure2.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>「拡張機能の管理」ウィンドウ左側から&lt;code>オンライン&lt;/code>を選択&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>「拡張機能の管理」ウィンドウ右上の検索ボックスに&lt;code>Auto Surround&lt;/code>を入力しEnter&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>「拡張機能の管理」中央のリストに表示された&lt;code>Auto Surround&lt;/code>を選択し、右上の&lt;code>ダウンロード&lt;/code>をクリック&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./method2-procedure3.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>Visual Studio を終了&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>「VSIX Installer」ウィンドウ右下の&lt;code>Modify&lt;/code>をクリック&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./method2-procedure7.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>「VSIX Installer」ウィンドウに「変更が完了しました」と表示されるまで待機&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./method2-procedure8.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>「VSIX Installer」ウィンドウに右下の&lt;code>Close&lt;/code>をクリック&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h1 id="参考文献">参考文献&lt;/h1>
+&lt;ul>
+&lt;li>&lt;a href="https://stackoverflow.com/questions/37226014/visual-studio-is-there-a-shortcut-to-insert-parentheses-around-a-selection" target="_blank" rel="noopener">https://stackoverflow.com/questions/37226014/visual-studio-is-there-a-shortcut-to-insert-parentheses-around-a-selection&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://marketplace.visualstudio.com/items?itemName=reduckted.AutoSurround" target="_blank" rel="noopener">https://marketplace.visualstudio.com/items?itemName=reduckted.AutoSurround&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

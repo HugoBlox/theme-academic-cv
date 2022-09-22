@@ -1,4 +1,208 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>記事一覧 | アプリNaviブログ</title><link>https://blog.opuappnavi.com/post/</link><atom:link href="https://blog.opuappnavi.com/post/index.xml" rel="self" type="application/rss+xml"/><description>記事一覧</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><image><url>https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_3.png</url><title>記事一覧</title><link>https://blog.opuappnavi.com/post/</link></image><item><title>2021年度に制作したゲーム紹介</title><link>https://blog.opuappnavi.com/post/games-in-2021/</link><pubDate>Wed, 13 Apr 2022 22:36:31 +0900</pubDate><guid>https://blog.opuappnavi.com/post/games-in-2021/</guid><description>&lt;p>約一年ぶりの投稿となります。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>記事一覧 | アプリNaviブログ</title><link>https://blog.opuappnavi.com/post/</link><atom:link href="https://blog.opuappnavi.com/post/index.xml" rel="self" type="application/rss+xml"/><description>記事一覧</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><image><url>https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_3.png</url><title>記事一覧</title><link>https://blog.opuappnavi.com/post/</link></image><item><title>Visual Studio で選択範囲を括弧で囲む方法</title><link>https://blog.opuappnavi.com/post/visual-studio-wrap-selection-with-braces/</link><pubDate>Wed, 21 Sep 2022 21:03:53 +0900</pubDate><guid>https://blog.opuappnavi.com/post/visual-studio-wrap-selection-with-braces/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
+&lt;p>&lt;a href="https://code.visualstudio.com/" target="_blank" rel="noopener">Visual Studio Code&lt;/a> などのエディタでは、テキストを選択した状態で 括弧&lt;code>(&lt;/code>を入力すると、選択範囲の前後に括弧が挿入されます。
+&lt;code>(&lt;/code>以外のキーでも同様の機能があり、例えばダブルクォーテーション&lt;code>&amp;quot;&lt;/code>を入力すると、選択範囲の前後にダブルクオーテーションが挿入されます。&lt;/p>
+&lt;figure id="figure-選択範囲の前後に括弧などを挿入するvscodeの機能">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./vscode-wrap-selection.png" alt="選択範囲の前後に括弧などを挿入するVSCodeの機能" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+選択範囲の前後に括弧などを挿入するVSCodeの機能
+&lt;/figcaption>&lt;/figure>
+&lt;p>一方で、&lt;a href="https://visualstudio.microsoft.com/ja/" target="_blank" rel="noopener">Visual Studio&lt;/a>はVSCodeと挙動が異なります。テキストを選択した状態で&lt;code>(&lt;/code>や&lt;code>&amp;quot;&lt;/code>を入力すると、選択範囲が消えて&lt;code>(&lt;/code>や&lt;code>&amp;quot;&lt;/code>に置き換わってしまいます。&lt;/p>
+&lt;p>この記事では、Visual Studio においてもVSCodeと同様の機能を実現する方法について紹介します。&lt;/p>
+&lt;p>今回の記事で想定する Visual Studio のバージョンは以下の通りです。&lt;/p>
+&lt;ul>
+&lt;li>Visual Studio Community 2019&lt;/li>
+&lt;li>Visual Studio Community 2022&lt;/li>
+&lt;/ul>
+&lt;h1 id="方法1">方法1&lt;/h1>
+&lt;h2 id="方法1のメリット">方法1のメリット&lt;/h2>
+&lt;ul>
+&lt;li>設定変更のみで実現可能&lt;/li>
+&lt;li>Visual Studio 2017 にも対応？（未検証）&lt;/li>
+&lt;/ul>
+&lt;h2 id="方法1のデメリット">方法1のデメリット&lt;/h2>
+&lt;ul>
+&lt;li>C言語とC++のソースコードを編集している時のみ利用可能&lt;/li>
+&lt;li>一部の記号のみ対応&lt;/li>
+&lt;/ul>
+&lt;h2 id="方法1の手順">方法1の手順&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Visual Studio を起動&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Visual Studio 左上のメニューから &lt;code>ツール&lt;/code> → &lt;code>オプション&lt;/code>を選択&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./method1-procedure2.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>「オプション」ウィンドウ左側のメニューから&lt;code>テキスト エディター&lt;/code>→&lt;code>C/C++&lt;/code>→&lt;code>詳細設定&lt;/code>を選択&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./method1-procedure3.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>「オプション」ウィンドウ右側で&lt;code>テキスト エディター&lt;/code>を選択&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Visual Studio 2019 の場合&lt;/p>
+&lt;ol>
+&lt;li>&lt;code>波かっこによる囲みの有効化&lt;/code>の値を&lt;code>True&lt;/code>に設定&lt;/li>
+&lt;li>&lt;code>かっこによる囲みの有効化&lt;/code>の値を&lt;code>True&lt;/code>に設定&lt;/li>
+&lt;/ol>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./method1-procedure4-2019.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>Visual Studio 2022 の場合&lt;/p>
+&lt;p>&lt;code>自動囲みモード&lt;/code>を次のいずれかの値に設定&lt;/p>
+&lt;ul>
+&lt;li>すべて&lt;/li>
+&lt;li>引用符のみ&lt;/li>
+&lt;li>角かっこのみ&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h1 id="方法2">方法2&lt;/h1>
+&lt;h2 id="方法2のメリット">方法2のメリット&lt;/h2>
+&lt;ul>
+&lt;li>多くの言語に対応&lt;/li>
+&lt;li>多くの記号に対応&lt;/li>
+&lt;/ul>
+&lt;h2 id="方法2のデメリット">方法2のデメリット&lt;/h2>
+&lt;ul>
+&lt;li>第三者が作成した拡張機能を導入する必要あり&lt;/li>
+&lt;/ul>
+&lt;h2 id="方法2の手順">方法2の手順&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Visual Studio を起動&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Visual Studio 左上のメニューから &lt;code>拡張機能&lt;/code> → &lt;code>拡張機能の管理&lt;/code>を選択&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./method2-procedure2.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>「拡張機能の管理」ウィンドウ左側から&lt;code>オンライン&lt;/code>を選択&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>「拡張機能の管理」ウィンドウ右上の検索ボックスに&lt;code>Auto Surround&lt;/code>を入力しEnter&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>「拡張機能の管理」中央のリストに表示された&lt;code>Auto Surround&lt;/code>を選択し、右上の&lt;code>ダウンロード&lt;/code>をクリック&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./method2-procedure3.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>Visual Studio を終了&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>「VSIX Installer」ウィンドウ右下の&lt;code>Modify&lt;/code>をクリック&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./method2-procedure7.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>「VSIX Installer」ウィンドウに「変更が完了しました」と表示されるまで待機&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./method2-procedure8.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/li>
+&lt;li>
+&lt;p>「VSIX Installer」ウィンドウに右下の&lt;code>Close&lt;/code>をクリック&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h1 id="参考文献">参考文献&lt;/h1>
+&lt;ul>
+&lt;li>&lt;a href="https://stackoverflow.com/questions/37226014/visual-studio-is-there-a-shortcut-to-insert-parentheses-around-a-selection" target="_blank" rel="noopener">https://stackoverflow.com/questions/37226014/visual-studio-is-there-a-shortcut-to-insert-parentheses-around-a-selection&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://marketplace.visualstudio.com/items?itemName=reduckted.AutoSurround" target="_blank" rel="noopener">https://marketplace.visualstudio.com/items?itemName=reduckted.AutoSurround&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>正規表現</title><link>https://blog.opuappnavi.com/post/reguler-expression-introduce/</link><pubDate>Tue, 20 Sep 2022 20:00:00 +0900</pubDate><guid>https://blog.opuappnavi.com/post/reguler-expression-introduce/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
+&lt;p>　そこそこの分量のある文章を書いたとき、途中で「この漢字間違ってた！」とか「単位をmmじゃなくてcmにしていた！」となった経験はあるでしょうか。多少の修正ならばいいものの、修正箇所が多い場合、どこか分からない場合は非常に面倒なことになってしまいます。&lt;br>
+　そんな時に有用なのが「検索と置換」という機能です。特定の文章を別の文章に一括で置き換えることができます。しかし、「約○○m」のように値を保持したまま前後に文章を追加するとなると一筋縄ではいきません。また、意図しない変更が起きてしまうのも避けたいところです。&lt;/p>
+&lt;figure id="figure-意図しない変更が起きてしまう例">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./regexp_mistake.jpg" alt="意図しない変更が起きてしまう例" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+意図しない変更が起きてしまう例
+&lt;/figcaption>&lt;/figure>
+&lt;p>　このような問題は、「正規表現」と呼ばれるものを用いることで解決できるかもしれません。&lt;/p>
+&lt;h1 id="正規表現とは">正規表現とは&lt;/h1>
+&lt;p>　特定の条件を満たす文字列の集合を、１つの形式で表現する方法です。例えば &lt;code>\d{4}/\d{2}/\d{2}&lt;/code> と書くと &lt;code>2022/09/20&lt;/code> や &lt;code>1999/10/23&lt;/code> のように日付を表す文字列の集合を表しますし、&lt;code>[a-z]{5}&lt;/code> と書くと &lt;code>extra&lt;/code> や &lt;code>abcde&lt;/code> のような５文字の小文字アルファベットを表します。&lt;/p>
+&lt;hr>
+&lt;h2 id="メタ文字">メタ文字&lt;/h2>
+&lt;p>　正規表現では、 &lt;code>.()[]{}/\*+-|?&lt;/code> 等の&lt;strong>メタ文字&lt;/strong>と呼ばれるものは特殊な意味を持ちます。また、メタ文字は組み合わせて複雑な正規表現を表すことができます。以下は主なメタ文字と正規表現の例です。&lt;/p>
+&lt;h4 id="-ドット">. （ドット）&lt;/h4>
+&lt;p>改行を除く任意の１文字を表します。&lt;br>
+&lt;code>あ.こ&lt;/code> は &lt;code>あいこ&lt;/code> &lt;code>あいす&lt;/code> &lt;code>あXこ&lt;/code> 等が当てはまります。&lt;/p>
+&lt;h4 id="-プラス">+ （プラス）&lt;/h4>
+&lt;p>直前の文字が１文字以上続くことを表します。&lt;br>
+&lt;code>go+gle&lt;/code> は &lt;code>gogle&lt;/code> &lt;code>google&lt;/code> &lt;code>goooooogle&lt;/code> 等が当てはまります。&lt;/p>
+&lt;h4 id="-アスタリスク">* （アスタリスク）&lt;/h4>
+&lt;p>直前の文字が&lt;strong>0文字&lt;/strong>以上続くことを表します。&lt;br>
+&lt;code>かた*き&lt;/code> は &lt;code>かき&lt;/code> &lt;code>かたき&lt;/code> &lt;code>かたたたき&lt;/code> 等が当てはまります。&lt;/p>
+&lt;h4 id="-クエスチョンマーク">? （クエスチョンマーク）&lt;/h4>
+&lt;p>直前の文字が0文字か1文字あることを表します。&lt;br>
+&lt;code>100億?円&lt;/code> は &lt;code>100円&lt;/code> と &lt;code>100億円&lt;/code> が当てはまります。&lt;/p>
+&lt;h4 id="-丸括弧">() （丸括弧）&lt;/h4>
+&lt;p>複数文字の表現をグループ化することができます。&lt;br>
+&lt;code>(ひい)*おじいちゃん&lt;/code> は &lt;code>おじいちゃん&lt;/code> &lt;code>ひいひいおじいちゃん&lt;/code> 等が当てはまります。&lt;/p>
+&lt;h4 id="-パイプ">| （パイプ）&lt;/h4>
+&lt;p>複数表現のいずれかを表します。&lt;br>
+&lt;code>good (morning|afternoon|night)&lt;/code> は &lt;code>good morning&lt;/code> &lt;code>good afternoon&lt;/code> &lt;code>good night&lt;/code> が当てはまります。&lt;/p>
+&lt;h4 id="-角括弧">[] （角括弧）&lt;/h4>
+&lt;p>括弧内の文字のいずれかを表します。アルファベットやひらがな、数字などは &lt;code>A-Z&lt;/code> 、 &lt;code>a-z&lt;/code> 、 &lt;code>か-こ&lt;/code> 、 &lt;code>0-9&lt;/code> のように省略することもできます。&lt;br>
+&lt;code>[aiueo]+&lt;/code> は &lt;code>oue&lt;/code> &lt;code>ai&lt;/code> のように母音だけで表される１文字以上の文字列が当てはまります。&lt;/p>
+&lt;h4 id="-波括弧">{} （波括弧）&lt;/h4>
+&lt;p>直前の文字が連続する回数を制限します。 &lt;code>{n}&lt;/code> はn回、 &lt;code>{n,m}&lt;/code> はn回以上m回以下繰り返すことを表します。 &lt;code>[1-9][0-9]{5}&lt;/code> は &lt;code>123456&lt;/code> &lt;code>314159&lt;/code> のような６桁の数字を表します。&lt;/p>
+&lt;p>　なお、これらメタ文字自身を正規表現で表すときは &lt;code>\&lt;/code> （バックスラッシュ）をメタ文字の前に付けて表します。&lt;/p>
+&lt;hr>
+&lt;h2 id="エスケープシーケンス">エスケープシーケンス&lt;/h2>
+&lt;p>　正規表現の中でバックスラッシュはメタ文字をただの文字として扱うために用いられますが、いくつかのアルファベットの前につけることで別の使い方をすることができます。以下はその数例です。&lt;/p>
+&lt;h4 id="d">&lt;code>\d&lt;/code>&lt;/h4>
+&lt;p>&lt;code>[0-9]&lt;/code> と同じ意味で、任意のアラビア数字１文字を表します。&lt;/p>
+&lt;h4 id="w">&lt;code>\w&lt;/code>&lt;/h4>
+&lt;p>&lt;code>[0-9a-zA-Z_]&lt;/code> と同じ意味で、アルファベット、アラビア数字、アンダースコア &lt;code>_&lt;/code> のうち任意の１文字を表します。&lt;/p>
+&lt;h4 id="r">&lt;code>\R&lt;/code>&lt;/h4>
+&lt;p>全ての改行コードのうちいずれかを表します。&lt;/p>
+&lt;h4 id="s">&lt;code>\s&lt;/code>&lt;/h4>
+&lt;p>半角スペース、タブ、改行などの空白文字のうちいずれかを表します。&lt;/p>
+&lt;h4 id="s-1">&lt;code>\S&lt;/code>&lt;/h4>
+&lt;p>&lt;code>\s&lt;/code> で表されるもの以外の任意の文字を表します。同様に、 &lt;code>\D&lt;/code> は数字以外、 &lt;code>\W&lt;/code> はアルファベット、数字、アンダースコア以外の文字を表します。&lt;/p>
+&lt;hr>
+&lt;h2 id="キャプチャと後方参照">キャプチャと後方参照&lt;/h2>
+&lt;p>　丸括弧を使うと正規表現のグループ化ができますが、正規表現に当てはまる文字列を見つけた際に括弧内の表現を保持することができます。&lt;/p>
+&lt;p>　例えば、この記事の最初のように４桁の標高「○○m」を「約○○M」と置換することを考えます。４桁の標高は &lt;code>[1-9]\d{3}m&lt;/code> という正規表現で表されます。この数字部分を丸括弧に入れる、すなわち &lt;code>([1-9]\d{3})m&lt;/code> という正規表現にすると、各標高の値を保持できます。&lt;br>
+　保持した表現を用いるには &lt;code>$n&lt;/code> を用います（注：ものによって &lt;code>\n&lt;/code> を用いることもあります。どちらを用いるかは使うもの毎に確認をお願いします）。ここで &lt;code>n&lt;/code> は、正規表現にある何番目の括弧の表現を用いるかによって変わります。今回は括弧は１つしか使用していないため、置換後の文字列を表す正規表現は &lt;code>約$1M&lt;/code> となります。実際にやってみましょう。&lt;/p>
+&lt;p>
+&lt;figure id="figure-置換前">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./regexp_before.jpg" alt="置換前" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+置換前
+&lt;/figcaption>&lt;/figure>
+&lt;figure id="figure-置換後">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./regexp_after.jpg" alt="置換後" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+置換後
+&lt;/figcaption>&lt;/figure>&lt;/p>
+&lt;p>　無事、ローマ字表記を崩さずに標高の表記だけを変えることができました！&lt;/p>
+&lt;h1 id="まとめ">まとめ&lt;/h1>
+&lt;p>　正規表現を用いることで、面倒な置換作業を楽に行うことができます。今回紹介した正規表現以外にも便利な記法がたくさんあります。正規表現は置換作業の簡略化以外にも、パスワードや住所等を入力するフォームで入力形式が正しいか確認したりすることもできます。正規表現はとても奥が深いので、興味を持った方はぜひ調べてみることをお勧めします。&lt;/p></description></item><item><title>2021年度に制作したゲーム紹介</title><link>https://blog.opuappnavi.com/post/games-in-2021/</link><pubDate>Wed, 13 Apr 2022 22:36:31 +0900</pubDate><guid>https://blog.opuappnavi.com/post/games-in-2021/</guid><description>&lt;p>約一年ぶりの投稿となります。&lt;/p>
 &lt;p>昨年度もコロナの影響で、例年行ってきた友好祭と白鷺祭でのゲーム展示を開催することが出来ませんでした。
 一方で、例年行ってきたコンピュータハウスランダムさんとの合同ハッカソンは、オンラインではありますが開催することができました。
 例年ハッカソンは1年に2回開催しており、昨年度も2回開催することができました。&lt;/p>
