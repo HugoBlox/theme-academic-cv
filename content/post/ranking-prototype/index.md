@@ -1,13 +1,13 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "unityでランキング機能作ってみた【ニフクラ】" # 記事タイトル
+title: "【ニフクラ】unityでランキング機能作ってみた" # 記事タイトル
 subtitle: "" # 記事のサブタイトル(省略可)
 summary: "ニフクラMobileBackendを使ってランキング機能を作るまでの過程です。" # 要約：記事の中身を端的に表す短い文章
 authors: ["nakanishi"] # 著者ID(複数可)
 tags: ["unity"] # タグ：記事内容のジャンルなどを表す単語(複数可)
 categories: []
-date: 2022-09-23T15:37:56+09:00
+date: 2022-09-21T23:00:00+09:00
 featured: false
 draft: false
 
@@ -26,13 +26,30 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-みなさん！Unity使ってますか？<br>
-__使ってますね？__<br>
+(Unityでランキング機能を自作したいなぁ)<br>
+そう思ったことありませんか？<br>
+__ありますね？__<br>
 この記事では、ランキング機能が完成するまでの過程を載せていきます。<br>
 # 下準備
-仮のデータを用いてランキングを表示する機能を、あらかじめ作ります。<br>
-{{<figure src="./RankingPrototype_1" title="あらかじめ作ったランキング機能">}}
-あとは、ランキングデータを取得するだけ。
+仮のデータ（HighScoreクラスのリスト）を用いてランキングを表示する機能を、あらかじめ作ります。<br>
+{{<figure src="./RankingPrototype_1.gif" title="あらかじめ作ったランキング機能">}}
+HighScoreクラスの中身はこんな感じ
+
+```c#:
+public class HighScore
+{
+    public string Name { set; get; }
+    public int Score { set; get; } 
+
+    public HighScore(string name, int score)
+    {
+        this.Name = name;
+        this.Score = score;
+    }
+}
+```
+
+あとは、ランキングデータをオンライン上で取得するだけ。
 # ニフクラ（NIF CLOUD）を使う
 ニフクラパワー！！！<br>
 はい、ニフクラのmobilebackend使います。<br>
@@ -42,11 +59,14 @@ https://mbaas.nifcloud.com/ <br>
 ニフクラは富士通が提供しているクラウドサービスですね。
 今回は、その中のサービスの一つであるmobilebackendを使って、ランキングをオンライン対応にしていきます。
 ## 1 NCMBのダウンロード
-まずは、NCMBのダウンロー...おっと、彼が説明してくれるみたいだ。-> https://mbaas.nifcloud.com/doc/current/introduction/quickstart_unity.html<br>
+まずは、NCMBのダウンロー...おっと、彼が説明してくれるみたいだ。↓
+
+ https://mbaas.nifcloud.com/doc/current/introduction/quickstart_unity.html
+
 ありがたくご教授いただこう。
 
 これを自分のプロジェクトに導入していきます。
-{{<figure src="./ScreenShot" title="導入した画像">}}
+{{<figure src="./ScreenShot.png" title="導入した画像">}}
 
 ## 2 プログラミング
 まず、基本的には公式ホームページに載ってあるコードを写して行います。
@@ -173,10 +193,17 @@ void ChangeData(NCMBObject obj, HighScore highScore)
 
 苦労した点は、名前の通りSaveAsyncやFindAsyncが非同期メソッドであることですかね。<br>
 引数である匿名メソッドの中にその後の処理を書かないと、思った通りの動きをしてくれないので苦しかったです。<br>
+
 # 完成品はこちら
-{{<figure src="./RankingPrototype_2" title="完成したランキング機能">}}<br>
-↓unityroomからプレイ
+{{<figure src="./RankingPrototype_2.gif" title="完成したランキング機能">}}<br>
+↓unityroomからプレイ<br>
 https://unityroom.com/games/rankingprototype
+
+↓githubからコードを見る<br>
+https://github.com/KenshinKaraage/RankingPrototype
+
+コーディングに関して意見があれば、お願いします。
+
 # 以上
 今回はほとんどニフクラMobileBackendの説明になりましたが、使いどころはまだまだたくさんあります。<br>
 皆さんも是非、オンライン実装してみてはいかがでしょうか。<br>
