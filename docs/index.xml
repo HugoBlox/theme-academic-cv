@@ -1,4 +1,74 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>アプリNaviブログ</title><link>https://blog.opuappnavi.com/</link><atom:link href="https://blog.opuappnavi.com/index.xml" rel="self" type="application/rss+xml"/><description>アプリNaviブログ</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><lastBuildDate>Thu, 22 Sep 2022 21:56:40 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_3.png</url><title>アプリNaviブログ</title><link>https://blog.opuappnavi.com/</link></image><item><title>作業効率が上がるwindowsアプリの紹介</title><link>https://blog.opuappnavi.com/post/convenient_app/</link><pubDate>Thu, 22 Sep 2022 21:56:40 +0900</pubDate><guid>https://blog.opuappnavi.com/post/convenient_app/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>アプリNaviブログ</title><link>https://blog.opuappnavi.com/</link><atom:link href="https://blog.opuappnavi.com/index.xml" rel="self" type="application/rss+xml"/><description>アプリNaviブログ</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><lastBuildDate>Fri, 23 Sep 2022 20:30:00 +0900</lastBuildDate><image><url>https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_3.png</url><title>アプリNaviブログ</title><link>https://blog.opuappnavi.com/</link></image><item><title>ゼロから始めるWebページ作成</title><link>https://blog.opuappnavi.com/post/making-my-hp/</link><pubDate>Fri, 23 Sep 2022 20:30:00 +0900</pubDate><guid>https://blog.opuappnavi.com/post/making-my-hp/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
+&lt;p>おうちが大好きで休日は基本ひきこもり生活をしているNanamofuです。&lt;br>
+ただ寝て食べて動画みて終わる夏休みなんて嫌だ、嫌すぎる。&lt;br>
+何か成果を残したい……。&lt;/p>
+&lt;p>よし、Webページ作ってみるか！！&lt;br>
+（Twitterやpixivといったものができる前のヲタクたちはWebページ自作してたっていうし、自分でもできるやろって思ったんです……。はい。）&lt;/p>
+&lt;h1 id="htmlとcssって">HTMLとCSSって？&lt;/h1>
+&lt;p>そもそもWebページってどうやってつくってるんでしょうか。HTML、CSSって聞いたことはあるけれどなんのことなんだか。&lt;/p>
+&lt;ul>
+&lt;li>HTML&lt;br>
+HTMLとは　Hyper Text Markup Language　のことでWebページを作成するための言語です。&lt;/li>
+&lt;li>CSS&lt;br>
+CSSとは　Cascading Style Sheets　のことでスタイルシート言語でHTMLなどで記述された文書の体裁や見栄えを表現するために用いられています。&lt;/li>
+&lt;/ul>
+&lt;h1 id="やってみた">やってみた&lt;/h1>
+&lt;p>今回は「konkon webチャンネル」さんを参考にしながら空想のカフェのWebページを作成してみました。
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/qM2N78hbd10" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;p>動画を見ながら自分のファイルに少しずつ書き加えたものの一部がこちらになります。&lt;/p>
+&lt;ul>
+&lt;li>HTML&lt;br>
+開始タグと終了タグでサンドイッチしていくのが特徴ですね。
+&lt;figure id="figure-htmlのコード">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./html.png" alt="HTMLのコード" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+HTMLのコード
+&lt;/figcaption>&lt;/figure>&lt;br>
+ちなみに、これだけだとこうなります。
+&lt;figure id="figure-htmlだけのページ">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./pre%20pages.png" alt="HTMLだけのページ" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+HTMLだけのページ
+&lt;/figcaption>&lt;/figure>&lt;br>
+シンプルすぎますね。おしゃれとは言い難い……。&lt;br>
+ここでCSSの出番です。&lt;/li>
+&lt;li>CSS&lt;br>
+HTMLでの項目について色やフォントサイズ、配置などを指示していきます。
+&lt;figure id="figure-cssのコード">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./css.png" alt="CSSのコード" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+CSSのコード
+&lt;/figcaption>&lt;/figure>&lt;br>
+CSSによって見栄えをよくするとこうなります！
+&lt;figure id="figure-完成版のページ">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./pages.png" alt="完成版のページ" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+完成版のページ
+&lt;/figcaption>&lt;/figure>&lt;br>
+凄い。CSSのコードだけ見ても何がなんだかよくわからない感じですがあのシンプルすぎたHTMLだけのページがおしゃれに生まれ変わった！&lt;br>
+凄いぞスタイルシート。（二回目）&lt;/li>
+&lt;/ul>
+&lt;h1 id="インターネット上に公開しよう">インターネット上に公開しよう&lt;/h1>
+&lt;p>出来上がったページを友人にみせたくてファイルを送ったのですが、&lt;br>
+「Nanamofu、コードしか見えへんで……？」&lt;/p>
+&lt;h2 id="え見えない">え？見えない？&lt;/h2>
+&lt;p>そう、ローカルなファイルなので自分のPCからは上手くページを表示できますが、&lt;/p>
+&lt;p style="color: #fff26b">&lt;strong>&amp;ldquo;インターネット上に公開しないと&amp;rdquo;&lt;/strong>&lt;/p>
+&lt;p>他者のPCからは見えないのです。（Word、Excelなどのようにファイルだけ送ればいいと思ってました。）&lt;/p>
+&lt;p>サーバーをかりてドメインを取得して……といった方法が一般的のようですが、今回はGitHubを使って公開しました。&lt;br>
+以下のサイトを参考にしました。&lt;br>
+&lt;a href="https://prog-8.com/docs/github-pages" target="_blank" rel="noopener">自分で作ったWebページをインターネット上に公開しよう！&lt;/a>&lt;/p>
+&lt;p>こちらがインターネット上に公開した出来上がった空想カフェのWebページです。（よかったら覗いてみてください）&lt;br>
+&lt;a href="https://nanamofu.github.io/NanaHP/" target="_blank" rel="noopener">おさかなカフェ&lt;/a>&lt;/p>
+&lt;h1 id="最後に">最後に&lt;/h1>
+&lt;p>今回は触れることのできなかったサーバやドメインについても勉強する必要がありそうです。ただ、実際のお店のページのようなものを作れて楽しかったです。皆さんには何も知らない状態でもそれなりにWebページをを作成できることが伝われば幸いです。自作ホームページに興味のある方は調べてみてください！&lt;/p></description></item><item><title>作業効率が上がるwindowsアプリの紹介</title><link>https://blog.opuappnavi.com/post/convenient_app/</link><pubDate>Thu, 22 Sep 2022 21:56:40 +0900</pubDate><guid>https://blog.opuappnavi.com/post/convenient_app/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
 &lt;p>　この世の中には生活を便利にする物があふれていますよね。当然、PCを使用する上で便利なアプリもたくさん存在するわけです。&lt;br>
 　今回は、その中で僕のPCライフを大きく変えたアプリである &lt;mark>QTTabBar&lt;/mark>を紹介していきます。
 &lt;br>&lt;/p>
