@@ -1,0 +1,325 @@
+<!doctype html><html lang=ja><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=generator content="Wowchemy 5.4.0 for Hugo"><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP&family=Roboto&display=swap"><link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP&family=Roboto&display=swap" media=print onload='this.media="all"'><meta name=author content="Juris710"><meta name=description content="Unityで迷路の自動生成と自動探索をやってみました。"><link rel=alternate hreflang=ja href=https://blog.opuappnavi.com/post/syota-kawaguchi-2022/><meta name=theme-color content="hsl(339, 90%, 68%)"><script src=/js/mathjax-config.js></script>
+<link rel=stylesheet href=/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css media=print onload='this.media="all"'><link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/qtcreator_dark.min.css crossorigin=anonymous title=hl-light media=print onload='this.media="all"'><link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/qtcreator_dark.min.css crossorigin=anonymous title=hl-dark media=print onload='this.media="all"' disabled><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css integrity crossorigin=anonymous media=print onload='this.media="all"'><script src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js integrity crossorigin=anonymous async></script>
+<link rel=stylesheet href=/css/wowchemy.c607d686ce27725e30a4fd6a712d65b1.css><link rel=manifest href=/manifest.webmanifest><link rel=icon type=image/png href=/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_32x32_fill_lanczos_center_3.png><link rel=apple-touch-icon type=image/png href=/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_180x180_fill_lanczos_center_3.png><link rel=canonical href=https://blog.opuappnavi.com/post/syota-kawaguchi-2022/><meta property="twitter:card" content="summary"><meta property="og:site_name" content="アプリNaviブログ"><meta property="og:url" content="https://blog.opuappnavi.com/post/syota-kawaguchi-2022/"><meta property="og:title" content="迷路の自動生成と自動探索（Unity） | アプリNaviブログ"><meta property="og:description" content="Unityで迷路の自動生成と自動探索をやってみました。"><meta property="og:image" content="https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_3.png"><meta property="twitter:image" content="https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="ja"><meta property="article:published_time" content="2022-09-24T20:30:00+09:00"><meta property="article:modified_time" content="2022-09-24T20:22:58+09:00"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.opuappnavi.com/post/syota-kawaguchi-2022/"},"headline":"迷路の自動生成と自動探索（Unity）","datePublished":"2022-09-24T20:30:00+09:00","dateModified":"2022-09-24T20:22:58+09:00","author":{"@type":"Person","name":"Shota Kawaguchi"},"publisher":{"@type":"Organization","name":"アプリNavi","logo":{"@type":"ImageObject","url":"https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_192x192_fill_lanczos_center_3.png"}},"description":"Unityで迷路の自動生成と自動探索をやってみました。"}</script><title>迷路の自動生成と自動探索（Unity） | アプリNaviブログ</title></head><body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class="page-wrapper dark" data-wc-page-id=899fd348b4f33e9418c0df0a61fc6ede><script src=/js/wowchemy-init.min.83c7c198de91d0f154f77d42ae9be087.js></script><aside class=search-modal id=search><div class=container><section class=search-header><div class="row no-gutters justify-content-between mb-3"><div class=col-6><h1>Search</h1></div><div class="col-6 col-search-close"><a class=js-search href=# aria-label=Close><i class="fas fa-times-circle text-muted" aria-hidden=true></i></a></div></div><div id=search-box><input name=q id=search-query placeholder=検索 autocapitalize=off autocomplete=off autocorrect=off spellcheck=false type=search class=form-control aria-label=検索></div></section><section class=section-search-results><div id=search-hits></div></section></div></aside><div class=page-header><header class=header--fixed><nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main><div class=container-xl><div class="d-none d-lg-inline-flex"><a class=navbar-brand href=/>アプリNaviブログ</a></div><button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar-content aria-expanded=false aria-label=ナビゲーションの切り替え>
+<span><i class="fas fa-bars"></i></span></button><div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none"><a class=navbar-brand href=/>アプリNaviブログ</a></div><div class="navbar-collapse main-menu-item collapse justify-content-end" id=navbar-content><ul class="navbar-nav d-md-inline-flex"><li class=nav-item><a class=nav-link href=/about><span>About</span></a></li><li class=nav-item><a class=nav-link href=/authors><span>Authors</span></a></li><li class=nav-item><a class="nav-link active" href=/post><span>Posts</span></a></li><li class=nav-item><a class=nav-link href=/project><span>Projects</span></a></li><li class=nav-item><a class=nav-link href=/category/%e4%bd%9c%e5%93%81%e7%b4%b9%e4%bb%8b><span>Works</span></a></li></ul></div><ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2"><li class=nav-item><a class="nav-link js-search" href=# aria-label=Search><i class="fas fa-search" aria-hidden=true></i></a></li></ul></div></nav></header></div><div class=page-body><div class=post-container><nav class=sidebar-wrap><div class=sidebar><h2>目次</h2><nav id=TableOfContents><ul><li><a href=#はじめに>はじめに</a></li><li><a href=#迷路の自動生成>迷路の自動生成</a></li><li><a href=#迷路の自動探索>迷路の自動探索</a><ul><li><a href=#深さ優先探索>深さ優先探索</a></li><li><a href=#幅優先探索>幅優先探索</a></li></ul></li><li><a href=#実装>実装</a><ul><li><a href=#最後に>最後に</a></li></ul></li></ul></nav></div></nav><article class=article><div class="article-container pt-3"><h1>迷路の自動生成と自動探索（Unity）</h1><div class=article-metadata><div><span><a href=/authors/shota-kawaguchi/>Shota Kawaguchi</a></span></div><span class=article-date>2022/09/24 投稿</span></div></div><div class=article-container><div class=article-style><h1 id=はじめに>はじめに</h1><p>夏休みにアプリNaviでAdvent Calendar的なものをすることになり、Unityで迷路の自動生成と自動探索を実装してみましたので、今回はそれを記事に書いていこうと思います。(といっても他の記事からロジックを拝借して実装しただけですが&mldr;)</p><h1 id=迷路の自動生成>迷路の自動生成</h1><p>まず迷路の自動生成を行います。迷路の自動生成は以下の記事から棒倒し法のロジックを拝借いたしました。棒倒し法で生成した迷路をUnityで実体化しております。<br>棒倒し法について知りたい方は以下の記事を参考にしてください。</p><p><a href=https://algoful.com/Archive/Algorithm/MazeExtend target=_blank rel=noopener>アルゴリズム初心者向けの基礎と入門(C#, Pythonとか)</a></p><h1 id=迷路の自動探索>迷路の自動探索</h1><p>続いて迷路の探索について書いていきます。<br>迷路の探索ロジックは以下の２つが有名です。</p><ul><li>深さ優先探索(Depth First)</li><li>幅優先探索(Breadth First)</li></ul><br><h2 id=深さ優先探索>深さ優先探索</h2><p>　深さ優先探索ではStackというデータ構造を使います。Stackはデータの出し入れが後入れ先出し方式(Last In First Out)となっております。<br>　例えば皿洗いをしている際、洗い終わった皿を上に積んでいくとします。皿を洗い終わったあと棚にしまう際、お皿の上からしまうと思います。最後に洗い終わった皿からしまうので「後入れ先出し」というわけです。<br>　なお、Stackにデータを入れることをPush、データを取り出すことをPopといいます。</p><p><figure><div class="d-flex justify-content-center"><div class=w-100><img alt=画像 srcset="/post/syota-kawaguchi-2022/LastInFirstOut_huabb40cf8f270c816af22caf875704285_254584_a68224e191b6da23d5e97cb1e5545e1c.webp 400w,
+/post/syota-kawaguchi-2022/LastInFirstOut_huabb40cf8f270c816af22caf875704285_254584_287ecef22201b31734505dd1df1f472e.webp 760w,
+/post/syota-kawaguchi-2022/LastInFirstOut_huabb40cf8f270c816af22caf875704285_254584_1200x1200_fit_q75_h2_lanczos_3.webp 1200w" src=/post/syota-kawaguchi-2022/LastInFirstOut_huabb40cf8f270c816af22caf875704285_254584_a68224e191b6da23d5e97cb1e5545e1c.webp width=760 height=428 loading=lazy data-zoomable></div></div></figure></p><p>深さ優先探索のアルゴリズムは以下のとおりです</p><ol><li>現在地をすでに通ったマスに設定後、現在地から移動可能なマス(壁ではない＆すでに通ったマスではない)を取得する。(マスが見つかり次第、移動可能なマスの探索は終了する)</li><li>進めるマスがあれば現在地をStackにPushし、現在地を1で取得したマスに変更する。</li><li>進めるマスがなければスタックからPopし、そのマスを現在地とする。(前のマスに戻る処理)</li><li>ゴールするまで1 ~ 3を繰り返す</li></ol><p>なお、深さ優先探索の実装ではStackの中身が0個になった時点でゴールまでのルートなしとして処理を止めています。</p><p>迷路の経路に探索される順番を割り当てると以下の図のようになります。(方向の優先度は適当)</p><p><figure><div class="d-flex justify-content-center"><div class=w-100><img alt=画像 srcset="/post/syota-kawaguchi-2022/DepthFirst_hu214f3ce13b0fc97822fefa89111c7ec5_11310_e1037dcd310ff69e8f5b9a7906c2494e.webp 400w,
+/post/syota-kawaguchi-2022/DepthFirst_hu214f3ce13b0fc97822fefa89111c7ec5_11310_19e65fe38f899951796dd8ebbe3aee79.webp 760w,
+/post/syota-kawaguchi-2022/DepthFirst_hu214f3ce13b0fc97822fefa89111c7ec5_11310_1200x1200_fit_q75_h2_lanczos_3.webp 1200w" src=/post/syota-kawaguchi-2022/DepthFirst_hu214f3ce13b0fc97822fefa89111c7ec5_11310_e1037dcd310ff69e8f5b9a7906c2494e.webp width=270 height=279 loading=lazy data-zoomable></div></div></figure></p><p>図より行き止まりまでまっすぐに探索していることがわかると思います。<br></p><p>深さ優先探索では次のような特徴があります。</p><ul><li>迷路と探索の優先度によって早く経路を求めることができる</li><li>メモリの消費量が少ない。</li><li>迷路と探索の優先度によって計算時間が大きくなる。</li><li>求めた経路が最短経路であるとは限らない</li></ul><br><h2 id=幅優先探索>幅優先探索</h2><p>　
+　幅優先探索ではQueue(キュー)というデータ構造を使います。Queueはデータの出し入れが先入れ先出し方式(First In First Out)となっております。<br>　コンビニやスーパーのレジをイメージするとわかりやすいと思います。レジでは先に並んだお客さんから精算されますが、Queueもデータを取り出す際、先に入れられたデータから取り出されます。
+　なお、Queueにデータを入れることをEnqueue(エンキュー)、データを取り出すことをDequeue(デキュー)と言います。</p><p><figure><div class="d-flex justify-content-center"><div class=w-100><img alt=画像 srcset="/post/syota-kawaguchi-2022/Queue_hu789c7561cf84da3a05931861506322e6_175845_c0084cdd14aaae5ddd828d638a988320.webp 400w,
+/post/syota-kawaguchi-2022/Queue_hu789c7561cf84da3a05931861506322e6_175845_a1888890ff01e5902a0bb6c945dcc7a9.webp 760w,
+/post/syota-kawaguchi-2022/Queue_hu789c7561cf84da3a05931861506322e6_175845_1200x1200_fit_q75_h2_lanczos_3.webp 1200w" src=/post/syota-kawaguchi-2022/Queue_hu789c7561cf84da3a05931861506322e6_175845_c0084cdd14aaae5ddd828d638a988320.webp width=550 height=321 loading=lazy data-zoomable></div></div></figure></p><p>幅優先探索のアルゴリズムは以下のとおりです。</p><ol><li>現在地をすでに通ったマスに設定後、現在地から移動可能なマスをすべて取得する。</li><li>取得した移動可能なマスをすべてQueueに格納する。このとき、移動可能なマスがどこマスから来たのか記録しておく。(のちに最短経路を求める際に利用)</li><li>Queueからマスを一つ取り出し、現在地とする。</li><li>ゴールするまで1~3を繰り返す。</li></ol><p>なお、深さ優先探索と同様Queueの中身が0個になった時点でゴールまでのルートなしとして処理を止めています。</p><p>迷路の経路に幅優先探索で探索される順番を割り当てると以下の図のようになります。(方向の優先度は適当)</p><p><figure><div class="d-flex justify-content-center"><div class=w-100><img alt=画像 srcset="/post/syota-kawaguchi-2022/BreadthFirst_hu93ce28bb9d6af05f9bdbdc0650f5351a_9692_610dc635a0e1b9187642e4ac0f0ee182.webp 400w,
+/post/syota-kawaguchi-2022/BreadthFirst_hu93ce28bb9d6af05f9bdbdc0650f5351a_9692_7ff90f07d78b1bdcde89f28d4d0cd2e8.webp 760w,
+/post/syota-kawaguchi-2022/BreadthFirst_hu93ce28bb9d6af05f9bdbdc0650f5351a_9692_1200x1200_fit_q75_h2_lanczos_3.webp 1200w" src=/post/syota-kawaguchi-2022/BreadthFirst_hu93ce28bb9d6af05f9bdbdc0650f5351a_9692_610dc635a0e1b9187642e4ac0f0ee182.webp width=270 height=279 loading=lazy data-zoomable></div></div></figure></p><p>図よりスタート地点から広がっていくように探索されていることがわかると思います。</p><p>幅優先探索では次のような特徴があります。</p><ul><li>安定した時間で経路を求めることができる。</li><li>常に最短経路を求めることができる。</li><li>迷路によっては計算時間が大きくなる(複雑な地形や大きな迷路など)。</li><li>メモリの消費量が大きい</li></ul><h1 id=実装>実装</h1><p>まず、棒倒し法をつかって迷路の自動生成をしていきます。int型の２次元配列で返すようにしています。0を通路、1を壁としています。</p><details><summary>コード</summary><pre><code class=language-C#>using System;
+using System.Text;
+using UnityEngine;
+
+public class Maze
+{
+    const int PATH = 0;
+    const int WALL = 1;
+
+    public static int[,] Generate(int width, int height) {
+        // 5未満のサイズでは生成できない
+        if (height &lt; 5 || width &lt; 5) throw new ArgumentOutOfRangeException();
+        if (width % 2 == 0) width++;
+        if (height % 2 == 0) height++;
+
+        // 指定サイズで生成し外周を壁にする
+        var maze = new int[width, height];
+        for (int x = 0; x &lt; width; x++)
+            for (int y = 0; y &lt; height; y++)
+                if (x == 0 || y == 0 || x == width - 1 || y == height - 1)
+                    maze[x, y] = WALL; // 外周はすべて壁
+                else
+                    maze[x, y] = PATH;  // 外周以外は通路
+
+        // 棒を立て、倒す
+        var rnd = new System.Random();
+        for (int x = 2; x &lt; width - 1; x += 2) {
+            for (int y = 2; y &lt; height - 1; y += 2) {
+                maze[x, y] = WALL; // 棒を立てる
+
+                // 倒せるまで繰り返す
+                while (true) {
+                    // 1行目のみ上に倒せる
+                    int direction;
+                    if (y == 2)
+                        direction = rnd.Next(4);
+                    else
+                        direction = rnd.Next(3);
+
+                    // 棒を倒す方向を決める
+                    int WALLX = x;
+                    int WALLY = y;
+                    switch (direction) {
+                        case 0: // 右
+                            WALLX++;
+                            break;
+                        case 1: // 下
+                            WALLY++;
+                            break;
+                        case 2: // 左
+                            WALLX--;
+                            break;
+                        case 3: // 上
+                            WALLY--;
+                            break;
+                    }
+                    // 壁じゃない場合のみ倒して終了
+                    if (maze[WALLX, WALLY] != WALL) {
+                        maze[WALLX, WALLY] = WALL;
+                        break;
+                    }
+                }
+            }
+        }
+        return maze;
+    }
+
+    public static void DebugPrint(int[,] maze) {
+        StringBuilder sb = new StringBuilder();
+        for (int y = maze.GetLength(0) - 1; 0 &lt;= y; y--) {
+            for (int x = 0; x &lt; maze.GetLength(1); x++) {
+                sb.Append($&quot;{maze[x, y]}, &quot;);
+            }
+            sb.Append(&quot;\n&quot;);
+        }
+        Debug.Log(sb);
+    }
+}
+</code></pre></details><br><p>つづいて探索の実装です。深さ優先探索、幅優先探索をそれぞれ実装しています。</p><details><summary>コード</summary><pre><code class=language-C#>using System.Collections;
+using System.Collections.Generic;
+using System;
+using UnityEngine;
+
+public class Searcher
+{
+    const int PATH = 0;
+    const int WALL = 1;
+    const int GOAL = 2;
+    const int ALREADYPASS = 1;
+
+    private int[,] maze;
+
+    //通過した経路を記録する配列。
+    //0:通過していない通路, 1:通過した通路または壁
+    int[,] passedCells;
+
+    public Searcher(int[,] maze) {
+        this.maze = maze;
+        passedCells = new int[maze.GetLength(0), maze.GetLength(1)];
+    }
+
+    //深さ優先探索
+    public Tuple&lt;int, int&gt;[] DepthFirst(Tuple&lt;int, int&gt; startPos, Tuple&lt;int, int&gt; goal) {
+
+        if (maze[startPos.Item1, startPos.Item2] != PATH) {
+            throw new Exception(&quot;開始地点が通路ではありません&quot;);
+        }
+        if (maze[goal.Item1, goal.Item2] != PATH) {
+            throw new Exception(&quot;ゴールが通路ではありません&quot;);
+        }
+
+        var stack = new Stack&lt;Tuple&lt;int, int&gt;&gt;();
+        var currentPos = startPos;
+        maze[goal.Item1, goal.Item2] = GOAL;
+        Array.Copy(maze, passedCells, maze.Length);
+
+        while (true) {
+            passedCells[currentPos.Item1, currentPos.Item2] = 1;
+            var nextPos = GetCandidate(currentPos);
+            Maze.DebugPrint(passedCells);
+
+            if (nextPos == null) {
+
+                if (stack.Count == 0) break;
+
+                currentPos = stack.Pop();
+                continue;
+            }
+
+            stack.Push(currentPos);
+
+            currentPos = nextPos;
+
+            if (maze[currentPos.Item1, currentPos.Item2] == GOAL) {
+                stack.Push(currentPos);
+                break;
+            }
+        }
+
+        var route = stack.ToArray();
+        Array.Reverse(route);
+
+        return route;
+    }
+
+    //幅優先探索
+    public Tuple&lt;int, int&gt;[] BreadthFirst(Tuple&lt;int, int&gt; startPos, Tuple&lt;int, int&gt; goal) {
+
+        if (maze[startPos.Item1, startPos.Item2] != PATH) {
+            throw new Exception(&quot;開始地点が通路ではありません&quot;);
+        }
+        if (maze[goal.Item1, goal.Item2] != PATH) {
+            throw new Exception(&quot;ゴールが通路ではありません&quot;);
+        }
+
+        var isGoal = false;
+        var queue = new Queue&lt;Tuple&lt;int, int&gt;&gt;();
+        //進めるマスがどこから来たか記録する辞書型
+        var dict = new Dictionary&lt;Tuple&lt;int, int&gt;, Tuple&lt;int, int&gt;&gt;();
+        var currentPos = startPos;
+        maze[goal.Item1, goal.Item2] = GOAL;
+        Array.Copy(maze, passedCells, maze.Length);
+
+        while (true) {
+            passedCells[currentPos.Item1, currentPos.Item2] = 1;
+            var candidates = GetCandidates(currentPos);
+            foreach (var candidate in candidates) {
+                queue.Enqueue(candidate);
+                dict[candidate] = currentPos;
+            }
+
+            if (queue.Count == 0) break;
+
+            currentPos = queue.Dequeue();
+
+            if (maze[currentPos.Item1, currentPos.Item2] == GOAL) {
+                isGoal = true;
+                break;
+            }
+        }
+
+        var route = new List&lt;Tuple&lt;int, int&gt;&gt;();
+        while (isGoal) {
+            route.Insert(0, currentPos);
+            if (currentPos == startPos) break;
+            currentPos = dict[currentPos];
+        }
+
+        return route.ToArray();
+    }
+
+    //現在地から移動可能なマスを取得する
+    private Tuple&lt;int, int&gt; GetCandidate(Tuple&lt;int, int&gt; cell) {
+        if (IsNotWALL(cell.Item1 + 1, cell.Item2) &amp;&amp; !IsAlreadyPassed(cell.Item1 + 1, cell.Item2)) return new Tuple&lt;int, int&gt;(cell.Item1 + 1, cell.Item2);
+        if (IsNotWALL(cell.Item1, cell.Item2 + 1) &amp;&amp; !IsAlreadyPassed(cell.Item1, cell.Item2 + 1)) return new Tuple&lt;int, int&gt;(cell.Item1, cell.Item2 + 1);
+        if (IsNotWALL(cell.Item1 - 1, cell.Item2) &amp;&amp; !IsAlreadyPassed(cell.Item1 - 1, cell.Item2)) return new Tuple&lt;int, int&gt;(cell.Item1 - 1, cell.Item2);
+        if (IsNotWALL(cell.Item1, cell.Item2 - 1) &amp;&amp; !IsAlreadyPassed(cell.Item1, cell.Item2 - 1)) return new Tuple&lt;int, int&gt;(cell.Item1, cell.Item2 - 1);
+        return null;
+    }
+
+    private List&lt;Tuple&lt;int, int&gt;&gt; GetCandidates(Tuple&lt;int, int&gt; cell) {
+        var result = new List&lt;Tuple&lt;int, int&gt;&gt;();
+        if (IsNotWALL(cell.Item1 + 1, cell.Item2) &amp;&amp; !IsAlreadyPassed(cell.Item1 + 1, cell.Item2)) result.Add(new Tuple&lt;int, int&gt;(cell.Item1 + 1, cell.Item2));
+        if (IsNotWALL(cell.Item1, cell.Item2 + 1) &amp;&amp; !IsAlreadyPassed(cell.Item1, cell.Item2 + 1)) result.Add(new Tuple&lt;int, int&gt;(cell.Item1, cell.Item2 + 1));
+        if (IsNotWALL(cell.Item1 - 1, cell.Item2) &amp;&amp; !IsAlreadyPassed(cell.Item1 - 1, cell.Item2)) result.Add(new Tuple&lt;int, int&gt;(cell.Item1 - 1, cell.Item2));
+        if (IsNotWALL(cell.Item1, cell.Item2 - 1) &amp;&amp; !IsAlreadyPassed(cell.Item1, cell.Item2 - 1)) result.Add(new Tuple&lt;int, int&gt;(cell.Item1, cell.Item2 - 1));
+        return result;
+    }
+
+    private bool IsNotWALL(int x, int y) {
+        return (0 &lt;= x &amp;&amp; x &lt; maze.GetLength(0)) &amp;&amp; (0 &lt;= y &amp;&amp; y &lt; maze.GetLength(1)) &amp;&amp; maze[x, y] != WALL;
+    }
+
+    private bool IsAlreadyPassed(int x, int y) {
+        return passedCells[x, y] == ALREADYPASS;
+    }
+}
+</code></pre></details><br><p>最後に呼び出し側の実装です。まず、Mazeクラスから迷路の作成結果を受け取り、オブジェクトを配置しています。配置が完了すると自動探索でゴールまでの経路を導き、受け取った経路をもとにPlayerオブジェクトを動かしています。</p><details><summary>コード</summary><pre><code class=language-C#>using System.Collections;
+using System.Collections.Generic;
+using System;
+using UnityEngine;
+
+enum Mode {
+    DepthFirst,
+    BreadthFirst
+}
+
+public class Generator : MonoBehaviour
+{
+    [SerializeField] private Mode mode = Mode.DepthFirst;
+
+    int[,] maze;
+    [SerializeField] private int width = 7;
+    [SerializeField] private int height = 7;
+
+    [SerializeField] private GameObject wall;
+    [SerializeField] private GameObject playerPrefab;
+
+    const int PATH = 0;
+    const int WALL = 1;
+
+    IEnumerator Start()
+    {
+        var maze = Maze.Generate(width, height);
+        Debug.Log(&quot;Maze is generated&quot;);
+        Maze.DebugPrint(maze);
+        yield return StartCoroutine(GenerateStage(maze));
+        var searcher = new Searcher(maze);
+        var startPos = new Tuple&lt;int, int&gt;(1, 1);
+        var goalPos = new Tuple&lt;int, int&gt;(5, 5);
+        var route = mode == Mode.DepthFirst ?
+            searcher.DepthFirst(startPos, goalPos) :
+            searcher.BreadthFirst(startPos, goalPos);
+        Debug.Log($&quot;route length : {route.Length}&quot;);
+        foreach(var cell in route) {
+            Debug.Log($&quot;x:{cell.Item1}, y:{cell.Item2}&quot;);
+        }
+        yield return StartCoroutine(Go(route));
+    }
+
+    private IEnumerator GenerateStage(int[,] maze) {
+        int wallSizeX = 1;
+        int wallSizeZ= 1;
+        for (int i = 0; i &lt; maze.GetLength(0); i++) {
+            for (int j = 0; j &lt; maze.GetLength(1); j++) {
+                if (maze[i, j] == WALL) {
+                    Instantiate(wall, new Vector3(wallSizeX * i, 0.25f, wallSizeZ * j), Quaternion.identity);
+                    yield return new WaitForSeconds(0.1f);
+                }
+            }
+        }
+    }
+
+    private IEnumerator Go(Tuple&lt;int, int&gt;[] route) {
+        var player = Instantiate(playerPrefab, new Vector3(route[0].Item1, 1, route[0].Item2), Quaternion.identity);
+
+        for (int i = 1; i &lt; route.Length; i++) {
+            player.transform.position = new Vector3(route[i].Item1, 1, route[i].Item2);
+            Debug.Log($&quot;i:{i}, position({route[i].Item1}, 1, {route[i].Item2})&quot;);
+            yield return new WaitForSeconds(0.5f);
+        }
+    }
+}
+</code></pre></details><br><p>以下の画像はMazeクラスで作成した迷路をもとにUnity上にオブジェクトを配置した結果です。</p><p><figure><div class="d-flex justify-content-center"><div class=w-100><img alt=画像 srcset="/post/syota-kawaguchi-2022/MazeGenerated_huf542778ba76cacef68703605ac9c3b33_26779_34d540d5f7af82bf0c04a4b570df0fe0.webp 400w,
+/post/syota-kawaguchi-2022/MazeGenerated_huf542778ba76cacef68703605ac9c3b33_26779_066ccfc2768d8c52aa3e69468e8e6807.webp 760w,
+/post/syota-kawaguchi-2022/MazeGenerated_huf542778ba76cacef68703605ac9c3b33_26779_1200x1200_fit_q75_h2_lanczos_3.webp 1200w" src=/post/syota-kawaguchi-2022/MazeGenerated_huf542778ba76cacef68703605ac9c3b33_26779_34d540d5f7af82bf0c04a4b570df0fe0.webp width=490 height=446 loading=lazy data-zoomable></div></div></figure></p><h2 id=最後に>最後に</h2><p>今回は迷路を自動生成し、探索アルゴリズムを用いてゴールまでの経路を求めてみました。配列からUnityへの座標変換で少し手こずりましたがなんとか実装できたと思います。もし間違いやもっとこうしたほうが良いというアドバイスがありましたら、アプリNavi宛にご連絡頂けますと幸いです。<br><br>また今回のプロジェクトはGithubにあげておりますので、もしよろしければ御覧ください。
+ここまで読んでいただきありがとうございました。</p><p><a href=https://github.com/syota-kawaguchi/MazeSearch target=_blank rel=noopener>Github</a></p></div><div class=article-tags><a class="badge badge-light" href=/tag/unity/>Unity</a>
+<a class="badge badge-light" href=/tag/%E6%A3%92%E5%80%92%E3%81%97%E6%B3%95/>棒倒し法</a>
+<a class="badge badge-light" href=/tag/%E6%B7%B1%E3%81%95%E5%84%AA%E5%85%88%E6%8E%A2%E7%B4%A2/>深さ優先探索</a>
+<a class="badge badge-light" href=/tag/%E5%B9%85%E5%84%AA%E5%85%88%E6%8E%A2%E7%B4%A2/>幅優先探索</a>
+<a class="badge badge-light" href=/tag/stack/>Stack</a>
+<a class="badge badge-light" href=/tag/queue/>Queue</a></div><div class=share-box><ul class=share><li><a href="https://twitter.com/intent/tweet?url=https://blog.opuappnavi.com/post/syota-kawaguchi-2022/&text=%e8%bf%b7%e8%b7%af%e3%81%ae%e8%87%aa%e5%8b%95%e7%94%9f%e6%88%90%e3%81%a8%e8%87%aa%e5%8b%95%e6%8e%a2%e7%b4%a2%ef%bc%88Unity%ef%bc%89" target=_blank rel=noopener class=share-btn-twitter aria-label=twitter><i class="fab fa-twitter"></i></a></li><li><a href="https://www.facebook.com/sharer.php?u=https://blog.opuappnavi.com/post/syota-kawaguchi-2022/&t=%e8%bf%b7%e8%b7%af%e3%81%ae%e8%87%aa%e5%8b%95%e7%94%9f%e6%88%90%e3%81%a8%e8%87%aa%e5%8b%95%e6%8e%a2%e7%b4%a2%ef%bc%88Unity%ef%bc%89" target=_blank rel=noopener class=share-btn-facebook aria-label=facebook><i class="fab fa-facebook"></i></a></li><li><a href="mailto:?subject=%e8%bf%b7%e8%b7%af%e3%81%ae%e8%87%aa%e5%8b%95%e7%94%9f%e6%88%90%e3%81%a8%e8%87%aa%e5%8b%95%e6%8e%a2%e7%b4%a2%ef%bc%88Unity%ef%bc%89&body=https://blog.opuappnavi.com/post/syota-kawaguchi-2022/" target=_blank rel=noopener class=share-btn-email aria-label=envelope><i class="fas fa-envelope"></i></a></li><li><a href="https://www.linkedin.com/shareArticle?url=https://blog.opuappnavi.com/post/syota-kawaguchi-2022/&title=%e8%bf%b7%e8%b7%af%e3%81%ae%e8%87%aa%e5%8b%95%e7%94%9f%e6%88%90%e3%81%a8%e8%87%aa%e5%8b%95%e6%8e%a2%e7%b4%a2%ef%bc%88Unity%ef%bc%89" target=_blank rel=noopener class=share-btn-linkedin aria-label=linkedin-in><i class="fab fa-linkedin-in"></i></a></li></ul></div><div class="media author-card content-widget-hr"><a href=/authors/shota-kawaguchi/><img class="avatar mr-3 avatar-circle" src=/authors/shota-kawaguchi/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg alt="Shota Kawaguchi"></a><div class=media-body><h5 class=card-title><a href=/authors/shota-kawaguchi/>Shota Kawaguchi</a></h5><p class=card-text>広く浅く学んでいる学生です。</p><ul class=network-icon aria-hidden=true></ul></div></div><div class=article-widget><div class=post-nav><div class=post-nav-item></div><div class=post-nav-item><div class=meta-nav>前へ</div><a href=/post/making-my-hp/ rel=prev>ゼロから始めるWebページ作成</a></div></div></div></div></article></div><script>let needsCodeHeaderButtonRegex=RegExp(/.*language-(mermaid).*/);function needsCodeHeaderButton(e){return!needsCodeHeaderButtonRegex.test(e.className)}function addCodeTitle(e,t){let n=e.className.match(/.*language-.*:([^ ]+)/);if(n){let s=n[1],e=document.createElement("div");e.className="code-title",e.innerHTML=s,t.appendChild(e)}}function addCopyButton(e,t){let n=document.createElement("div");n.className="code-copied-text",n.innerHTML="コピーしました。";let s=document.createElement("button");s.className="copy-code-button",s.onclick=function(){let t=function(s){s.clipboardData.setData("text/plain",e.textContent),n.classList.add("active"),setTimeout(()=>{n.classList.remove("active")},3e3),s.preventDefault(),document.removeEventListener("copy",t)};document.addEventListener("copy",t),document.execCommand("copy")},t.appendChild(s),t.appendChild(n);let o=document.createElement("span");o.className="icon far fa-clipboard",s.appendChild(o),s.insertAdjacentHTML("beforeend","&nbsp;&nbsp;COPY")}let multilineCodes=Array.from(document.querySelectorAll("pre>code"));multilineCodes.forEach(e=>{if(needsCodeHeaderButton(e)){let t=document.createElement("div");t.className="code-header",e.parentElement.parentElement.insertBefore(t,e.parentElement),addCodeTitle(e,t),addCopyButton(e,t)}})</script><script>function getNavBarHeight(){let e=$("#navbar-main"),t=e.outerHeight();return t}let bodyClassList=document.body.classList;function scrollTo(e){$("body").addClass("scrolling"),$("html, body").animate({scrollTop:e},600,function(){$("body").removeClass("scrolling")})}function jumpTo(e){let t=Math.ceil($(e).offset().top-getNavBarHeight());scrollTo(t)}function needsSmoothScroll(e){return!e.closest(".spoiler").length}function registerSmoothScrollOnJump(){$('a[href^="#"]').filter(function(){return needsSmoothScroll($(this))}).each(function(e,t){let n=decodeURIComponent(t.hash);n&&$(t).on("click",function(){jumpTo(n)})})}window.addEventListener("DOMContentLoaded",function(){registerSmoothScrollOnJump(),location.hash&&jumpTo(decodeURIComponent(location.hash))})</script></div><div class=page-footer><div class=container><footer class=site-footer><p class="powered-by copyright-license-text">©Juris710 2022</p><p class=powered-by>Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target=_blank rel=noopener>Wowchemy</a> — the free, <a href=https://github.com/wowchemy/wowchemy-hugo-themes target=_blank rel=noopener>open source</a> website builder that empowers creators.</p></footer></div></div><script src=/js/vendor-bundle.min.9592335d574f7a97010f99b90ad0f310.js></script>
+<script src=https://cdn.jsdelivr.net/gh/mermaid-js/mermaid@v8.8.4/dist/mermaid.min.js integrity="sha512-+TNmhaRJf3jyYHTpzEq/5I6b+aGyhzWb21mGdHAjxSGSYwxN9Grug3Y3B9qVxWfKKY8MscE/6mr9walWvFLFvQ==" crossorigin=anonymous title=mermaid></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js integrity crossorigin=anonymous></script>
+<script id=search-hit-fuse-template type=text/x-template>
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script><script src=https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin=anonymous></script>
+<script id=page-data type=application/json>{"use_headroom":true}</script><script src=/js/wowchemy-headroom.c251366b4128fd5e6b046d4c97a62a51.js type=module></script>
+<script src=/ja/js/wowchemy.min.14eab6a5438dd542c1a018ef8a4df1b0.js></script>
+<script src=/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js type=module></script></body></html>
