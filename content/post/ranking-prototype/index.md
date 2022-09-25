@@ -7,7 +7,7 @@ summary: "ニフクラMobileBackendを使ってランキング機能を作るま
 authors: ["nakanishi"] # 著者ID(複数可)
 tags: ["unity"] # タグ：記事内容のジャンルなどを表す単語(複数可)
 categories: []
-date: 2022-09-21T23:00:00+09:00
+date: 2022-09-25T21:00:00+09:00
 featured: false
 draft: false
 
