@@ -1,1 +1,89 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>1lenonva1 | アプリNaviブログ</title><link>https://blog.opuappnavi.com/authors/1lenonva1/</link><atom:link href="https://blog.opuappnavi.com/authors/1lenonva1/index.xml" rel="self" type="application/rss+xml"/><description>1lenonva1</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><image><url>https://blog.opuappnavi.com/authors/1lenonva1/avatar_hub483260046977c89dd5c5f3ae63d21c0_21466_270x270_fill_q75_lanczos_center.jpg</url><title>1lenonva1</title><link>https://blog.opuappnavi.com/authors/1lenonva1/</link></image></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>1lenonva1 | アプリNaviブログ</title><link>https://blog.opuappnavi.com/authors/1lenonva1/</link><atom:link href="https://blog.opuappnavi.com/authors/1lenonva1/index.xml" rel="self" type="application/rss+xml"/><description>1lenonva1</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><image><url>https://blog.opuappnavi.com/authors/1lenonva1/avatar_hub483260046977c89dd5c5f3ae63d21c0_21466_270x270_fill_q75_lanczos_center.jpg</url><title>1lenonva1</title><link>https://blog.opuappnavi.com/authors/1lenonva1/</link></image><item><title>作業効率が上がるwindowsアプリの紹介</title><link>https://blog.opuappnavi.com/post/convenient_app/</link><pubDate>Thu, 22 Sep 2022 21:56:40 +0900</pubDate><guid>https://blog.opuappnavi.com/post/convenient_app/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
+&lt;p>　この世の中には生活を便利にする物があふれていますよね。当然、PCを使用する上で便利なアプリもたくさん存在するわけです。&lt;br>
+　今回は、その中で僕のPCライフを大きく変えたアプリである &lt;mark>QTTabBar&lt;/mark>を紹介していきます。
+&lt;br>&lt;/p>
+&lt;h1 id="どんなアプリなの">どんなアプリなの？&lt;/h1>
+&lt;p>　端的にいえば、「windows標準搭載の&lt;strong>エクスプローラーをグレードアップしてくれるアプリ&lt;/strong>」です。1つのアプリの中に機能がてんこ盛りになっているので、特に便利で私が実際に使用している機能を順に紹介していきます。&lt;/p>
+&lt;hr>
+&lt;h2 id="タブ整理機能">タブ整理機能&lt;/h2>
+&lt;p>　このアプリの目玉機能であり、アプリの名前にもなっていますね。&lt;br>
+　エクスプローラーで複数のフォルダを開こうとすると毎回新しいウィンドウが作られますよね？1つ2つくらいなら大して気になりませんが、大量のファイルを開く場面になると、管理が大変です。今ご自分が使用しているブラウザが、新規タブを作るたびにウィンドウが増えると想像してみてください。ああ恐ろしい。&lt;/p>
+&lt;figure id="figure-フォルダが散らかってるの図">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="フォルダが散らかってるの図" srcset="
+/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%20%E3%81%94%E3%81%A1%E3%82%83_huf85fd0c03f30592a6518ea245698b6c9_382035_ef2676648e42c411e0ad6824430967f4.webp 400w,
+/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%20%E3%81%94%E3%81%A1%E3%82%83_huf85fd0c03f30592a6518ea245698b6c9_382035_189600ba3e28b66227b5cf3573ea2324.webp 760w,
+/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%20%E3%81%94%E3%81%A1%E3%82%83_huf85fd0c03f30592a6518ea245698b6c9_382035_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://blog.opuappnavi.com/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%20%E3%81%94%E3%81%A1%E3%82%83_huf85fd0c03f30592a6518ea245698b6c9_382035_ef2676648e42c411e0ad6824430967f4.webp"
+width="760"
+height="412"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+フォルダが散らかってるの図
+&lt;/figcaption>&lt;/figure>
+&lt;p>　QTTabBarを使うと複数のフォルダを1つの画面で管理できるのでとてもすっきりします。最初からこの機能を搭載してほしいくらいです。Microsoftさん頑張ってください。&lt;/p>
+&lt;figure id="figure-ウィンドウ1つですっきりの図">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="ウィンドウ1つですっきりの図" srcset="
+/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%20%E3%81%99%E3%81%A3%E3%81%8D%E3%82%8A_hu8b66c6ca7a37cd1c32e7cc687d0423ba_138982_363c322f8f33dd5d3bec731a2fb52d39.webp 400w,
+/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%20%E3%81%99%E3%81%A3%E3%81%8D%E3%82%8A_hu8b66c6ca7a37cd1c32e7cc687d0423ba_138982_d4bacb51e868a8bfb5fbad97880a1142.webp 760w,
+/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%20%E3%81%99%E3%81%A3%E3%81%8D%E3%82%8A_hu8b66c6ca7a37cd1c32e7cc687d0423ba_138982_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://blog.opuappnavi.com/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%20%E3%81%99%E3%81%A3%E3%81%8D%E3%82%8A_hu8b66c6ca7a37cd1c32e7cc687d0423ba_138982_363c322f8f33dd5d3bec731a2fb52d39.webp"
+width="760"
+height="451"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+ウィンドウ1つですっきりの図
+&lt;/figcaption>&lt;/figure>
+&lt;p>　ちなみに、タブ同士をグループ化することでいつでもまとめて開いたり、さらにはその指定したタブグループをエクスプローラー起動時に開くといったこともできます。&lt;br>
+&lt;br>&lt;/p>
+&lt;hr>
+&lt;h2 id="プレビュー機能">プレビュー機能&lt;/h2>
+&lt;p>　画像や動画ファイルの上にマウスカーソルを合わせると自動的にプレビュー表示してくれる機能です。特に動画は本来はサムネイルしか確認で大量の画像や動画を整理するときには以外と重宝します。ファイル名を適当に付けて何が何だか分からなくなってしまう人にもおススメです（笑）&lt;/p>
+&lt;figure id="figure-プレビュー機能諸事情により直撮り">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="プレビュー機能（諸事情により直撮り）" srcset="
+/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%E3%80%80%E3%83%97%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC_hub88e326afd9e242e91212c4e450712b4_3713089_c0f71184e67e733232a78005d60a8716.webp 400w,
+/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%E3%80%80%E3%83%97%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC_hub88e326afd9e242e91212c4e450712b4_3713089_1237f3678ee69a8abed94da56f87eed7.webp 760w,
+/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%E3%80%80%E3%83%97%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC_hub88e326afd9e242e91212c4e450712b4_3713089_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://blog.opuappnavi.com/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%E3%80%80%E3%83%97%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC_hub88e326afd9e242e91212c4e450712b4_3713089_c0f71184e67e733232a78005d60a8716.webp"
+width="760"
+height="453"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+プレビュー機能（諸事情により直撮り）
+&lt;/figcaption>&lt;/figure>
+&lt;br>
+&lt;hr>
+&lt;h2 id="ファイル名一括編集機能">ファイル名一括編集機能&lt;/h2>
+&lt;p>　1つのフォルダ内にあるファイル名をまとめて変更できます。特定の文字を全てのファイル名から消去したり、連番にすることもできます。例えば画像のように、「2021年」の部分をまとめて「2022年」に変更するといった使い方ができます。&lt;/p>
+&lt;figure id="figure-リネーム機能">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="リネーム機能" srcset="
+/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%20%E3%83%AA%E3%83%8D%E3%83%BC%E3%83%A0_hu3bcd8d2313758a7dcbc62e24ab0a0e6f_152187_337ebd569f9c83d7079b35c7b026394e.webp 400w,
+/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%20%E3%83%AA%E3%83%8D%E3%83%BC%E3%83%A0_hu3bcd8d2313758a7dcbc62e24ab0a0e6f_152187_7cbf44a8b85b8ccb79008351354f1444.webp 760w,
+/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%20%E3%83%AA%E3%83%8D%E3%83%BC%E3%83%A0_hu3bcd8d2313758a7dcbc62e24ab0a0e6f_152187_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://blog.opuappnavi.com/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%20%E3%83%AA%E3%83%8D%E3%83%BC%E3%83%A0_hu3bcd8d2313758a7dcbc62e24ab0a0e6f_152187_337ebd569f9c83d7079b35c7b026394e.webp"
+width="760"
+height="678"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+リネーム機能
+&lt;/figcaption>&lt;/figure>
+&lt;p>　私はもともとファイル名をまとめて編集できる別のアプリを入れていましたが、なんとQTTabBarでもできると知ってからはもう使っていません。&lt;br>
+　また、ファイル名の変更は正規表現にも対応しているので、より自由度の高い編集ができます。正規表現について記事を書いている部員がいるので覗いてみてはいかがでしょうか。&lt;br>
+&lt;br>
+&lt;a href="https://blog.opuappnavi.com/post/reguler-expression-introduce/" target="_blank" rel="noopener">→正規表現について&lt;/a>&lt;br>
+&lt;br>&lt;/p>
+&lt;h1 id="さいごに">さいごに&lt;/h1>
+&lt;p>　windowsのエクスプローラーを強化する便利アプリ、QTTabBarをここまで紹介してきたわけですが、前述のとおり数ある機能からほんの一部を見せたに過ぎません。アプリのオプション設定画面を開くと、設定項目の多さに仰天すると思います（笑）&lt;br>
+　自分に合った機能を使って、よりよいPCライフを過ごしてみるのはどうでしょうか。&lt;br>
+　QTTabBarはこちらの公式サイトからインストールできます↓&lt;br>
+&lt;br>
+&lt;a href="http://qttabbar-ja.wikidot.com/" target="_blank" rel="noopener">→QTTabBar公式ダウンロードページ&lt;/a>&lt;br>
+&lt;div class="alert alert-note">
+&lt;div>
+windows11のPCでも、beta版でない方のアプリが問題なく動かせます。逆にbeta版はうまくインストールできないので注意しましょう。
+&lt;/div>
+&lt;/div>
+&lt;/p></description></item></channel></rss>

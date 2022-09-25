@@ -6,6 +6,9 @@ title: "{{ replace .Name "-" " " | title }}"
 authors:
 - "{{ urlize .Name }}"
 
+# この項目は編集せず、そのままにすること。
+superuser: false
+
 # 大学の学域・学類・課程
 # faculty: 学域
 # department: 学類

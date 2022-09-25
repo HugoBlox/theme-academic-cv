@@ -1,4 +1,549 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>記事一覧 | アプリNaviブログ</title><link>https://blog.opuappnavi.com/post/</link><atom:link href="https://blog.opuappnavi.com/post/index.xml" rel="self" type="application/rss+xml"/><description>記事一覧</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><image><url>https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_3.png</url><title>記事一覧</title><link>https://blog.opuappnavi.com/post/</link></image><item><title>Visual Studio で選択範囲を括弧で囲む方法</title><link>https://blog.opuappnavi.com/post/visual-studio-wrap-selection-with-braces/</link><pubDate>Wed, 21 Sep 2022 21:03:53 +0900</pubDate><guid>https://blog.opuappnavi.com/post/visual-studio-wrap-selection-with-braces/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>記事一覧 | アプリNaviブログ</title><link>https://blog.opuappnavi.com/post/</link><atom:link href="https://blog.opuappnavi.com/post/index.xml" rel="self" type="application/rss+xml"/><description>記事一覧</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ja</language><image><url>https://blog.opuappnavi.com/media/icon_hude4548ff0fbec708553074fd5e552c37_155941_512x512_fill_lanczos_center_3.png</url><title>記事一覧</title><link>https://blog.opuappnavi.com/post/</link></image><item><title>迷路の自動生成と自動探索（Unity）</title><link>https://blog.opuappnavi.com/post/syota-kawaguchi-2022/</link><pubDate>Sat, 24 Sep 2022 20:30:00 +0900</pubDate><guid>https://blog.opuappnavi.com/post/syota-kawaguchi-2022/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
+&lt;p>夏休みにアプリNaviでAdvent Calendar的なものをすることになり、Unityで迷路の自動生成と自動探索を実装してみましたので、今回はそれを記事に書いていこうと思います。(といっても他の記事からロジックを拝借して実装しただけですが&amp;hellip;)&lt;/p>
+&lt;h1 id="迷路の自動生成">迷路の自動生成&lt;/h1>
+&lt;p>まず迷路の自動生成を行います。迷路の自動生成は以下の記事から棒倒し法のロジックを拝借いたしました。棒倒し法で生成した迷路をUnityで実体化しております。&lt;br>
+棒倒し法について知りたい方は以下の記事を参考にしてください。&lt;/p>
+&lt;p>&lt;a href="https://algoful.com/Archive/Algorithm/MazeExtend" target="_blank" rel="noopener">アルゴリズム初心者向けの基礎と入門(C#, Pythonとか)&lt;/a>&lt;/p>
+&lt;h1 id="迷路の自動探索">迷路の自動探索&lt;/h1>
+&lt;p>続いて迷路の探索について書いていきます。&lt;br>
+迷路の探索ロジックは以下の２つが有名です。&lt;/p>
+&lt;ul>
+&lt;li>深さ優先探索(Depth First)&lt;/li>
+&lt;li>幅優先探索(Breadth First)&lt;/li>
+&lt;/ul>
+&lt;br>
+&lt;h2 id="深さ優先探索">深さ優先探索&lt;/h2>
+&lt;p>　深さ優先探索ではStackというデータ構造を使います。Stackはデータの出し入れが後入れ先出し方式(Last In First Out)となっております。&lt;br>
+　例えば皿洗いをしている際、洗い終わった皿を上に積んでいくとします。皿を洗い終わったあと棚にしまう際、お皿の上からしまうと思います。最後に洗い終わった皿からしまうので「後入れ先出し」というわけです。&lt;br>
+　なお、Stackにデータを入れることをPush、データを取り出すことをPopといいます。&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="画像" srcset="
+/post/syota-kawaguchi-2022/LastInFirstOut_huabb40cf8f270c816af22caf875704285_254584_a68224e191b6da23d5e97cb1e5545e1c.webp 400w,
+/post/syota-kawaguchi-2022/LastInFirstOut_huabb40cf8f270c816af22caf875704285_254584_287ecef22201b31734505dd1df1f472e.webp 760w,
+/post/syota-kawaguchi-2022/LastInFirstOut_huabb40cf8f270c816af22caf875704285_254584_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://blog.opuappnavi.com/post/syota-kawaguchi-2022/LastInFirstOut_huabb40cf8f270c816af22caf875704285_254584_a68224e191b6da23d5e97cb1e5545e1c.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>深さ優先探索のアルゴリズムは以下のとおりです&lt;/p>
+&lt;ol>
+&lt;li>現在地をすでに通ったマスに設定後、現在地から移動可能なマス(壁ではない＆すでに通ったマスではない)を取得する。(マスが見つかり次第、移動可能なマスの探索は終了する)&lt;/li>
+&lt;li>進めるマスがあれば現在地をStackにPushし、現在地を1で取得したマスに変更する。&lt;/li>
+&lt;li>進めるマスがなければスタックからPopし、そのマスを現在地とする。(前のマスに戻る処理)&lt;/li>
+&lt;li>ゴールするまで1 ~ 3を繰り返す&lt;/li>
+&lt;/ol>
+&lt;p>なお、深さ優先探索の実装ではStackの中身が0個になった時点でゴールまでのルートなしとして処理を止めています。&lt;/p>
+&lt;p>迷路の経路に探索される順番を割り当てると以下の図のようになります。(方向の優先度は適当)&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="画像" srcset="
+/post/syota-kawaguchi-2022/DepthFirst_hu214f3ce13b0fc97822fefa89111c7ec5_11310_e1037dcd310ff69e8f5b9a7906c2494e.webp 400w,
+/post/syota-kawaguchi-2022/DepthFirst_hu214f3ce13b0fc97822fefa89111c7ec5_11310_19e65fe38f899951796dd8ebbe3aee79.webp 760w,
+/post/syota-kawaguchi-2022/DepthFirst_hu214f3ce13b0fc97822fefa89111c7ec5_11310_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://blog.opuappnavi.com/post/syota-kawaguchi-2022/DepthFirst_hu214f3ce13b0fc97822fefa89111c7ec5_11310_e1037dcd310ff69e8f5b9a7906c2494e.webp"
+width="270"
+height="279"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>図より行き止まりまでまっすぐに探索していることがわかると思います。&lt;br>&lt;/p>
+&lt;p>深さ優先探索では次のような特徴があります。&lt;/p>
+&lt;ul>
+&lt;li>迷路と探索の優先度によって早く経路を求めることができる&lt;/li>
+&lt;li>メモリの消費量が少ない。&lt;/li>
+&lt;li>迷路と探索の優先度によって計算時間が大きくなる。&lt;/li>
+&lt;li>求めた経路が最短経路であるとは限らない&lt;/li>
+&lt;/ul>
+&lt;br>
+&lt;h2 id="幅優先探索">幅優先探索&lt;/h2>
+&lt;p>　
+　幅優先探索ではQueue(キュー)というデータ構造を使います。Queueはデータの出し入れが先入れ先出し方式(First In First Out)となっております。&lt;br>
+　コンビニやスーパーのレジをイメージするとわかりやすいと思います。レジでは先に並んだお客さんから精算されますが、Queueもデータを取り出す際、先に入れられたデータから取り出されます。
+　なお、Queueにデータを入れることをEnqueue(エンキュー)、データを取り出すことをDequeue(デキュー)と言います。&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="画像" srcset="
+/post/syota-kawaguchi-2022/Queue_hu789c7561cf84da3a05931861506322e6_175845_c0084cdd14aaae5ddd828d638a988320.webp 400w,
+/post/syota-kawaguchi-2022/Queue_hu789c7561cf84da3a05931861506322e6_175845_a1888890ff01e5902a0bb6c945dcc7a9.webp 760w,
+/post/syota-kawaguchi-2022/Queue_hu789c7561cf84da3a05931861506322e6_175845_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://blog.opuappnavi.com/post/syota-kawaguchi-2022/Queue_hu789c7561cf84da3a05931861506322e6_175845_c0084cdd14aaae5ddd828d638a988320.webp"
+width="550"
+height="321"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>幅優先探索のアルゴリズムは以下のとおりです。&lt;/p>
+&lt;ol>
+&lt;li>現在地をすでに通ったマスに設定後、現在地から移動可能なマスをすべて取得する。&lt;/li>
+&lt;li>取得した移動可能なマスをすべてQueueに格納する。このとき、移動可能なマスがどこマスから来たのか記録しておく。(のちに最短経路を求める際に利用)&lt;/li>
+&lt;li>Queueからマスを一つ取り出し、現在地とする。&lt;/li>
+&lt;li>ゴールするまで1~3を繰り返す。&lt;/li>
+&lt;/ol>
+&lt;p>なお、深さ優先探索と同様Queueの中身が0個になった時点でゴールまでのルートなしとして処理を止めています。&lt;/p>
+&lt;p>迷路の経路に幅優先探索で探索される順番を割り当てると以下の図のようになります。(方向の優先度は適当)&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="画像" srcset="
+/post/syota-kawaguchi-2022/BreadthFirst_hu93ce28bb9d6af05f9bdbdc0650f5351a_9692_610dc635a0e1b9187642e4ac0f0ee182.webp 400w,
+/post/syota-kawaguchi-2022/BreadthFirst_hu93ce28bb9d6af05f9bdbdc0650f5351a_9692_7ff90f07d78b1bdcde89f28d4d0cd2e8.webp 760w,
+/post/syota-kawaguchi-2022/BreadthFirst_hu93ce28bb9d6af05f9bdbdc0650f5351a_9692_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://blog.opuappnavi.com/post/syota-kawaguchi-2022/BreadthFirst_hu93ce28bb9d6af05f9bdbdc0650f5351a_9692_610dc635a0e1b9187642e4ac0f0ee182.webp"
+width="270"
+height="279"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>図よりスタート地点から広がっていくように探索されていることがわかると思います。&lt;/p>
+&lt;p>幅優先探索では次のような特徴があります。&lt;/p>
+&lt;ul>
+&lt;li>安定した時間で経路を求めることができる。&lt;/li>
+&lt;li>常に最短経路を求めることができる。&lt;/li>
+&lt;li>迷路によっては計算時間が大きくなる(複雑な地形や大きな迷路など)。&lt;/li>
+&lt;li>メモリの消費量が大きい&lt;/li>
+&lt;/ul>
+&lt;h1 id="実装">実装&lt;/h1>
+&lt;p>まず、棒倒し法をつかって迷路の自動生成をしていきます。int型の２次元配列で返すようにしています。0を通路、1を壁としています。&lt;/p>
+&lt;details>
+&lt;summary>コード&lt;/summary>
+&lt;pre>&lt;code class="language-C#">using System;
+using System.Text;
+using UnityEngine;
+public class Maze
+{
+const int PATH = 0;
+const int WALL = 1;
+public static int[,] Generate(int width, int height) {
+// 5未満のサイズでは生成できない
+if (height &amp;lt; 5 || width &amp;lt; 5) throw new ArgumentOutOfRangeException();
+if (width % 2 == 0) width++;
+if (height % 2 == 0) height++;
+// 指定サイズで生成し外周を壁にする
+var maze = new int[width, height];
+for (int x = 0; x &amp;lt; width; x++)
+for (int y = 0; y &amp;lt; height; y++)
+if (x == 0 || y == 0 || x == width - 1 || y == height - 1)
+maze[x, y] = WALL; // 外周はすべて壁
+else
+maze[x, y] = PATH; // 外周以外は通路
+// 棒を立て、倒す
+var rnd = new System.Random();
+for (int x = 2; x &amp;lt; width - 1; x += 2) {
+for (int y = 2; y &amp;lt; height - 1; y += 2) {
+maze[x, y] = WALL; // 棒を立てる
+// 倒せるまで繰り返す
+while (true) {
+// 1行目のみ上に倒せる
+int direction;
+if (y == 2)
+direction = rnd.Next(4);
+else
+direction = rnd.Next(3);
+// 棒を倒す方向を決める
+int WALLX = x;
+int WALLY = y;
+switch (direction) {
+case 0: // 右
+WALLX++;
+break;
+case 1: // 下
+WALLY++;
+break;
+case 2: // 左
+WALLX--;
+break;
+case 3: // 上
+WALLY--;
+break;
+}
+// 壁じゃない場合のみ倒して終了
+if (maze[WALLX, WALLY] != WALL) {
+maze[WALLX, WALLY] = WALL;
+break;
+}
+}
+}
+}
+return maze;
+}
+public static void DebugPrint(int[,] maze) {
+StringBuilder sb = new StringBuilder();
+for (int y = maze.GetLength(0) - 1; 0 &amp;lt;= y; y--) {
+for (int x = 0; x &amp;lt; maze.GetLength(1); x++) {
+sb.Append($&amp;quot;{maze[x, y]}, &amp;quot;);
+}
+sb.Append(&amp;quot;\n&amp;quot;);
+}
+Debug.Log(sb);
+}
+}
+&lt;/code>&lt;/pre>
+&lt;/details>
+&lt;br>
+&lt;p>つづいて探索の実装です。深さ優先探索、幅優先探索をそれぞれ実装しています。&lt;/p>
+&lt;details>
+&lt;summary>コード&lt;/summary>
+&lt;pre>&lt;code class="language-C#">using System.Collections;
+using System.Collections.Generic;
+using System;
+using UnityEngine;
+public class Searcher
+{
+const int PATH = 0;
+const int WALL = 1;
+const int GOAL = 2;
+const int ALREADYPASS = 1;
+private int[,] maze;
+//通過した経路を記録する配列。
+//0:通過していない通路, 1:通過した通路または壁
+int[,] passedCells;
+public Searcher(int[,] maze) {
+this.maze = maze;
+passedCells = new int[maze.GetLength(0), maze.GetLength(1)];
+}
+//深さ優先探索
+public Tuple&amp;lt;int, int&amp;gt;[] DepthFirst(Tuple&amp;lt;int, int&amp;gt; startPos, Tuple&amp;lt;int, int&amp;gt; goal) {
+if (maze[startPos.Item1, startPos.Item2] != PATH) {
+throw new Exception(&amp;quot;開始地点が通路ではありません&amp;quot;);
+}
+if (maze[goal.Item1, goal.Item2] != PATH) {
+throw new Exception(&amp;quot;ゴールが通路ではありません&amp;quot;);
+}
+var stack = new Stack&amp;lt;Tuple&amp;lt;int, int&amp;gt;&amp;gt;();
+var currentPos = startPos;
+maze[goal.Item1, goal.Item2] = GOAL;
+Array.Copy(maze, passedCells, maze.Length);
+while (true) {
+passedCells[currentPos.Item1, currentPos.Item2] = 1;
+var nextPos = GetCandidate(currentPos);
+Maze.DebugPrint(passedCells);
+if (nextPos == null) {
+if (stack.Count == 0) break;
+currentPos = stack.Pop();
+continue;
+}
+stack.Push(currentPos);
+currentPos = nextPos;
+if (maze[currentPos.Item1, currentPos.Item2] == GOAL) {
+stack.Push(currentPos);
+break;
+}
+}
+var route = stack.ToArray();
+Array.Reverse(route);
+return route;
+}
+//幅優先探索
+public Tuple&amp;lt;int, int&amp;gt;[] BreadthFirst(Tuple&amp;lt;int, int&amp;gt; startPos, Tuple&amp;lt;int, int&amp;gt; goal) {
+if (maze[startPos.Item1, startPos.Item2] != PATH) {
+throw new Exception(&amp;quot;開始地点が通路ではありません&amp;quot;);
+}
+if (maze[goal.Item1, goal.Item2] != PATH) {
+throw new Exception(&amp;quot;ゴールが通路ではありません&amp;quot;);
+}
+var isGoal = false;
+var queue = new Queue&amp;lt;Tuple&amp;lt;int, int&amp;gt;&amp;gt;();
+//進めるマスがどこから来たか記録する辞書型
+var dict = new Dictionary&amp;lt;Tuple&amp;lt;int, int&amp;gt;, Tuple&amp;lt;int, int&amp;gt;&amp;gt;();
+var currentPos = startPos;
+maze[goal.Item1, goal.Item2] = GOAL;
+Array.Copy(maze, passedCells, maze.Length);
+while (true) {
+passedCells[currentPos.Item1, currentPos.Item2] = 1;
+var candidates = GetCandidates(currentPos);
+foreach (var candidate in candidates) {
+queue.Enqueue(candidate);
+dict[candidate] = currentPos;
+}
+if (queue.Count == 0) break;
+currentPos = queue.Dequeue();
+if (maze[currentPos.Item1, currentPos.Item2] == GOAL) {
+isGoal = true;
+break;
+}
+}
+var route = new List&amp;lt;Tuple&amp;lt;int, int&amp;gt;&amp;gt;();
+while (isGoal) {
+route.Insert(0, currentPos);
+if (currentPos == startPos) break;
+currentPos = dict[currentPos];
+}
+return route.ToArray();
+}
+//現在地から移動可能なマスを取得する
+private Tuple&amp;lt;int, int&amp;gt; GetCandidate(Tuple&amp;lt;int, int&amp;gt; cell) {
+if (IsNotWALL(cell.Item1 + 1, cell.Item2) &amp;amp;&amp;amp; !IsAlreadyPassed(cell.Item1 + 1, cell.Item2)) return new Tuple&amp;lt;int, int&amp;gt;(cell.Item1 + 1, cell.Item2);
+if (IsNotWALL(cell.Item1, cell.Item2 + 1) &amp;amp;&amp;amp; !IsAlreadyPassed(cell.Item1, cell.Item2 + 1)) return new Tuple&amp;lt;int, int&amp;gt;(cell.Item1, cell.Item2 + 1);
+if (IsNotWALL(cell.Item1 - 1, cell.Item2) &amp;amp;&amp;amp; !IsAlreadyPassed(cell.Item1 - 1, cell.Item2)) return new Tuple&amp;lt;int, int&amp;gt;(cell.Item1 - 1, cell.Item2);
+if (IsNotWALL(cell.Item1, cell.Item2 - 1) &amp;amp;&amp;amp; !IsAlreadyPassed(cell.Item1, cell.Item2 - 1)) return new Tuple&amp;lt;int, int&amp;gt;(cell.Item1, cell.Item2 - 1);
+return null;
+}
+private List&amp;lt;Tuple&amp;lt;int, int&amp;gt;&amp;gt; GetCandidates(Tuple&amp;lt;int, int&amp;gt; cell) {
+var result = new List&amp;lt;Tuple&amp;lt;int, int&amp;gt;&amp;gt;();
+if (IsNotWALL(cell.Item1 + 1, cell.Item2) &amp;amp;&amp;amp; !IsAlreadyPassed(cell.Item1 + 1, cell.Item2)) result.Add(new Tuple&amp;lt;int, int&amp;gt;(cell.Item1 + 1, cell.Item2));
+if (IsNotWALL(cell.Item1, cell.Item2 + 1) &amp;amp;&amp;amp; !IsAlreadyPassed(cell.Item1, cell.Item2 + 1)) result.Add(new Tuple&amp;lt;int, int&amp;gt;(cell.Item1, cell.Item2 + 1));
+if (IsNotWALL(cell.Item1 - 1, cell.Item2) &amp;amp;&amp;amp; !IsAlreadyPassed(cell.Item1 - 1, cell.Item2)) result.Add(new Tuple&amp;lt;int, int&amp;gt;(cell.Item1 - 1, cell.Item2));
+if (IsNotWALL(cell.Item1, cell.Item2 - 1) &amp;amp;&amp;amp; !IsAlreadyPassed(cell.Item1, cell.Item2 - 1)) result.Add(new Tuple&amp;lt;int, int&amp;gt;(cell.Item1, cell.Item2 - 1));
+return result;
+}
+private bool IsNotWALL(int x, int y) {
+return (0 &amp;lt;= x &amp;amp;&amp;amp; x &amp;lt; maze.GetLength(0)) &amp;amp;&amp;amp; (0 &amp;lt;= y &amp;amp;&amp;amp; y &amp;lt; maze.GetLength(1)) &amp;amp;&amp;amp; maze[x, y] != WALL;
+}
+private bool IsAlreadyPassed(int x, int y) {
+return passedCells[x, y] == ALREADYPASS;
+}
+}
+&lt;/code>&lt;/pre>
+&lt;/details>
+&lt;br>
+&lt;p>最後に呼び出し側の実装です。まず、Mazeクラスから迷路の作成結果を受け取り、オブジェクトを配置しています。配置が完了すると自動探索でゴールまでの経路を導き、受け取った経路をもとにPlayerオブジェクトを動かしています。&lt;/p>
+&lt;details>
+&lt;summary>コード&lt;/summary>
+&lt;pre>&lt;code class="language-C#">using System.Collections;
+using System.Collections.Generic;
+using System;
+using UnityEngine;
+enum Mode {
+DepthFirst,
+BreadthFirst
+}
+public class Generator : MonoBehaviour
+{
+[SerializeField] private Mode mode = Mode.DepthFirst;
+int[,] maze;
+[SerializeField] private int width = 7;
+[SerializeField] private int height = 7;
+[SerializeField] private GameObject wall;
+[SerializeField] private GameObject playerPrefab;
+const int PATH = 0;
+const int WALL = 1;
+IEnumerator Start()
+{
+var maze = Maze.Generate(width, height);
+Debug.Log(&amp;quot;Maze is generated&amp;quot;);
+Maze.DebugPrint(maze);
+yield return StartCoroutine(GenerateStage(maze));
+var searcher = new Searcher(maze);
+var startPos = new Tuple&amp;lt;int, int&amp;gt;(1, 1);
+var goalPos = new Tuple&amp;lt;int, int&amp;gt;(5, 5);
+var route = mode == Mode.DepthFirst ?
+searcher.DepthFirst(startPos, goalPos) :
+searcher.BreadthFirst(startPos, goalPos);
+Debug.Log($&amp;quot;route length : {route.Length}&amp;quot;);
+foreach(var cell in route) {
+Debug.Log($&amp;quot;x:{cell.Item1}, y:{cell.Item2}&amp;quot;);
+}
+yield return StartCoroutine(Go(route));
+}
+private IEnumerator GenerateStage(int[,] maze) {
+int wallSizeX = 1;
+int wallSizeZ= 1;
+for (int i = 0; i &amp;lt; maze.GetLength(0); i++) {
+for (int j = 0; j &amp;lt; maze.GetLength(1); j++) {
+if (maze[i, j] == WALL) {
+Instantiate(wall, new Vector3(wallSizeX * i, 0.25f, wallSizeZ * j), Quaternion.identity);
+yield return new WaitForSeconds(0.1f);
+}
+}
+}
+}
+private IEnumerator Go(Tuple&amp;lt;int, int&amp;gt;[] route) {
+var player = Instantiate(playerPrefab, new Vector3(route[0].Item1, 1, route[0].Item2), Quaternion.identity);
+for (int i = 1; i &amp;lt; route.Length; i++) {
+player.transform.position = new Vector3(route[i].Item1, 1, route[i].Item2);
+Debug.Log($&amp;quot;i:{i}, position({route[i].Item1}, 1, {route[i].Item2})&amp;quot;);
+yield return new WaitForSeconds(0.5f);
+}
+}
+}
+&lt;/code>&lt;/pre>
+&lt;/details>
+&lt;br>
+&lt;p>以下の画像はMazeクラスで作成した迷路をもとにUnity上にオブジェクトを配置した結果です。&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="画像" srcset="
+/post/syota-kawaguchi-2022/MazeGenerated_huf542778ba76cacef68703605ac9c3b33_26779_34d540d5f7af82bf0c04a4b570df0fe0.webp 400w,
+/post/syota-kawaguchi-2022/MazeGenerated_huf542778ba76cacef68703605ac9c3b33_26779_066ccfc2768d8c52aa3e69468e8e6807.webp 760w,
+/post/syota-kawaguchi-2022/MazeGenerated_huf542778ba76cacef68703605ac9c3b33_26779_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://blog.opuappnavi.com/post/syota-kawaguchi-2022/MazeGenerated_huf542778ba76cacef68703605ac9c3b33_26779_34d540d5f7af82bf0c04a4b570df0fe0.webp"
+width="490"
+height="446"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="最後に">最後に&lt;/h2>
+&lt;p>今回は迷路を自動生成し、探索アルゴリズムを用いてゴールまでの経路を求めてみました。配列からUnityへの座標変換で少し手こずりましたがなんとか実装できたと思います。もし間違いやもっとこうしたほうが良いというアドバイスがありましたら、アプリNavi宛にご連絡頂けますと幸いです。
+&lt;br>
+&lt;br>
+また今回のプロジェクトはGithubにあげておりますので、もしよろしければ御覧ください。
+ここまで読んでいただきありがとうございました。&lt;/p>
+&lt;p>&lt;a href="https://github.com/syota-kawaguchi/MazeSearch" target="_blank" rel="noopener">Github&lt;/a>&lt;/p></description></item><item><title>ゼロから始めるWebページ作成</title><link>https://blog.opuappnavi.com/post/making-my-hp/</link><pubDate>Fri, 23 Sep 2022 20:30:00 +0900</pubDate><guid>https://blog.opuappnavi.com/post/making-my-hp/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
+&lt;p>おうちが大好きで休日は基本ひきこもり生活をしているNanamofuです。&lt;br>
+ただ寝て食べて動画みて終わる夏休みなんて嫌だ、嫌すぎる。&lt;br>
+何か成果を残したい……。&lt;/p>
+&lt;p>よし、Webページ作ってみるか！！&lt;br>
+（Twitterやpixivといったものができる前のヲタクたちはWebページ自作してたっていうし、自分でもできるやろって思ったんです……。はい。）&lt;/p>
+&lt;h1 id="htmlとcssって">HTMLとCSSって？&lt;/h1>
+&lt;p>そもそもWebページってどうやってつくってるんでしょうか。HTML、CSSって聞いたことはあるけれどなんのことなんだか。&lt;/p>
+&lt;ul>
+&lt;li>HTML&lt;br>
+HTMLとは　Hyper Text Markup Language　のことでWebページを作成するための言語です。&lt;/li>
+&lt;li>CSS&lt;br>
+CSSとは　Cascading Style Sheets　のことでスタイルシート言語でHTMLなどで記述された文書の体裁や見栄えを表現するために用いられています。&lt;/li>
+&lt;/ul>
+&lt;h1 id="やってみた">やってみた&lt;/h1>
+&lt;p>今回は「konkon webチャンネル」さんを参考にしながら空想のカフェのWebページを作成してみました。
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/qM2N78hbd10" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;p>動画を見ながら自分のファイルに少しずつ書き加えたものの一部がこちらになります。&lt;/p>
+&lt;ul>
+&lt;li>HTML&lt;br>
+開始タグと終了タグでサンドイッチしていくのが特徴ですね。
+&lt;figure id="figure-htmlのコード">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./html.png" alt="HTMLのコード" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+HTMLのコード
+&lt;/figcaption>&lt;/figure>&lt;br>
+ちなみに、これだけだとこうなります。
+&lt;figure id="figure-htmlだけのページ">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./pre%20pages.png" alt="HTMLだけのページ" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+HTMLだけのページ
+&lt;/figcaption>&lt;/figure>&lt;br>
+シンプルすぎますね。おしゃれとは言い難い……。&lt;br>
+ここでCSSの出番です。&lt;/li>
+&lt;li>CSS&lt;br>
+HTMLでの項目について色やフォントサイズ、配置などを指示していきます。
+&lt;figure id="figure-cssのコード">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./css.png" alt="CSSのコード" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+CSSのコード
+&lt;/figcaption>&lt;/figure>&lt;br>
+CSSによって見栄えをよくするとこうなります！
+&lt;figure id="figure-完成版のページ">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./pages.png" alt="完成版のページ" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+完成版のページ
+&lt;/figcaption>&lt;/figure>&lt;br>
+凄い。CSSのコードだけ見ても何がなんだかよくわからない感じですがあのシンプルすぎたHTMLだけのページがおしゃれに生まれ変わった！&lt;br>
+凄いぞスタイルシート。（二回目）&lt;/li>
+&lt;/ul>
+&lt;h1 id="インターネット上に公開しよう">インターネット上に公開しよう&lt;/h1>
+&lt;p>出来上がったページを友人にみせたくてファイルを送ったのですが、&lt;br>
+「Nanamofu、コードしか見えへんで……？」&lt;/p>
+&lt;h2 id="え見えない">え？見えない？&lt;/h2>
+&lt;p>そう、ローカルなファイルなので自分のPCからは上手くページを表示できますが、&lt;/p>
+&lt;p style="color: #fff26b">&lt;strong>&amp;ldquo;インターネット上に公開しないと&amp;rdquo;&lt;/strong>&lt;/p>
+&lt;p>他者のPCからは見えないのです。（Word、Excelなどのようにファイルだけ送ればいいと思ってました。）&lt;/p>
+&lt;p>サーバーをかりてドメインを取得して……といった方法が一般的のようですが、今回はGitHubを使って公開しました。&lt;br>
+以下のサイトを参考にしました。&lt;br>
+&lt;a href="https://prog-8.com/docs/github-pages" target="_blank" rel="noopener">自分で作ったWebページをインターネット上に公開しよう！&lt;/a>&lt;/p>
+&lt;p>こちらがインターネット上に公開した出来上がった空想カフェのWebページです。（よかったら覗いてみてください）&lt;br>
+&lt;a href="https://nanamofu.github.io/NanaHP/" target="_blank" rel="noopener">おさかなカフェ&lt;/a>&lt;/p>
+&lt;h1 id="最後に">最後に&lt;/h1>
+&lt;p>今回は触れることのできなかったサーバやドメインについても勉強する必要がありそうです。ただ、実際のお店のページのようなものを作れて楽しかったです。皆さんには何も知らない状態でもそれなりにWebページをを作成できることが伝われば幸いです。自作ホームページに興味のある方は調べてみてください！&lt;/p></description></item><item><title>作業効率が上がるwindowsアプリの紹介</title><link>https://blog.opuappnavi.com/post/convenient_app/</link><pubDate>Thu, 22 Sep 2022 21:56:40 +0900</pubDate><guid>https://blog.opuappnavi.com/post/convenient_app/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
+&lt;p>　この世の中には生活を便利にする物があふれていますよね。当然、PCを使用する上で便利なアプリもたくさん存在するわけです。&lt;br>
+　今回は、その中で僕のPCライフを大きく変えたアプリである &lt;mark>QTTabBar&lt;/mark>を紹介していきます。
+&lt;br>&lt;/p>
+&lt;h1 id="どんなアプリなの">どんなアプリなの？&lt;/h1>
+&lt;p>　端的にいえば、「windows標準搭載の&lt;strong>エクスプローラーをグレードアップしてくれるアプリ&lt;/strong>」です。1つのアプリの中に機能がてんこ盛りになっているので、特に便利で私が実際に使用している機能を順に紹介していきます。&lt;/p>
+&lt;hr>
+&lt;h2 id="タブ整理機能">タブ整理機能&lt;/h2>
+&lt;p>　このアプリの目玉機能であり、アプリの名前にもなっていますね。&lt;br>
+　エクスプローラーで複数のフォルダを開こうとすると毎回新しいウィンドウが作られますよね？1つ2つくらいなら大して気になりませんが、大量のファイルを開く場面になると、管理が大変です。今ご自分が使用しているブラウザが、新規タブを作るたびにウィンドウが増えると想像してみてください。ああ恐ろしい。&lt;/p>
+&lt;figure id="figure-フォルダが散らかってるの図">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="フォルダが散らかってるの図" srcset="
+/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%20%E3%81%94%E3%81%A1%E3%82%83_huf85fd0c03f30592a6518ea245698b6c9_382035_ef2676648e42c411e0ad6824430967f4.webp 400w,
+/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%20%E3%81%94%E3%81%A1%E3%82%83_huf85fd0c03f30592a6518ea245698b6c9_382035_189600ba3e28b66227b5cf3573ea2324.webp 760w,
+/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%20%E3%81%94%E3%81%A1%E3%82%83_huf85fd0c03f30592a6518ea245698b6c9_382035_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://blog.opuappnavi.com/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%20%E3%81%94%E3%81%A1%E3%82%83_huf85fd0c03f30592a6518ea245698b6c9_382035_ef2676648e42c411e0ad6824430967f4.webp"
+width="760"
+height="412"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+フォルダが散らかってるの図
+&lt;/figcaption>&lt;/figure>
+&lt;p>　QTTabBarを使うと複数のフォルダを1つの画面で管理できるのでとてもすっきりします。最初からこの機能を搭載してほしいくらいです。Microsoftさん頑張ってください。&lt;/p>
+&lt;figure id="figure-ウィンドウ1つですっきりの図">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="ウィンドウ1つですっきりの図" srcset="
+/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%20%E3%81%99%E3%81%A3%E3%81%8D%E3%82%8A_hu8b66c6ca7a37cd1c32e7cc687d0423ba_138982_363c322f8f33dd5d3bec731a2fb52d39.webp 400w,
+/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%20%E3%81%99%E3%81%A3%E3%81%8D%E3%82%8A_hu8b66c6ca7a37cd1c32e7cc687d0423ba_138982_d4bacb51e868a8bfb5fbad97880a1142.webp 760w,
+/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%20%E3%81%99%E3%81%A3%E3%81%8D%E3%82%8A_hu8b66c6ca7a37cd1c32e7cc687d0423ba_138982_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://blog.opuappnavi.com/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%20%E3%81%99%E3%81%A3%E3%81%8D%E3%82%8A_hu8b66c6ca7a37cd1c32e7cc687d0423ba_138982_363c322f8f33dd5d3bec731a2fb52d39.webp"
+width="760"
+height="451"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+ウィンドウ1つですっきりの図
+&lt;/figcaption>&lt;/figure>
+&lt;p>　ちなみに、タブ同士をグループ化することでいつでもまとめて開いたり、さらにはその指定したタブグループをエクスプローラー起動時に開くといったこともできます。&lt;br>
+&lt;br>&lt;/p>
+&lt;hr>
+&lt;h2 id="プレビュー機能">プレビュー機能&lt;/h2>
+&lt;p>　画像や動画ファイルの上にマウスカーソルを合わせると自動的にプレビュー表示してくれる機能です。特に動画は本来はサムネイルしか確認で大量の画像や動画を整理するときには以外と重宝します。ファイル名を適当に付けて何が何だか分からなくなってしまう人にもおススメです（笑）&lt;/p>
+&lt;figure id="figure-プレビュー機能諸事情により直撮り">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="プレビュー機能（諸事情により直撮り）" srcset="
+/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%E3%80%80%E3%83%97%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC_hub88e326afd9e242e91212c4e450712b4_3713089_c0f71184e67e733232a78005d60a8716.webp 400w,
+/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%E3%80%80%E3%83%97%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC_hub88e326afd9e242e91212c4e450712b4_3713089_1237f3678ee69a8abed94da56f87eed7.webp 760w,
+/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%E3%80%80%E3%83%97%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC_hub88e326afd9e242e91212c4e450712b4_3713089_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://blog.opuappnavi.com/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%E3%80%80%E3%83%97%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC_hub88e326afd9e242e91212c4e450712b4_3713089_c0f71184e67e733232a78005d60a8716.webp"
+width="760"
+height="453"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+プレビュー機能（諸事情により直撮り）
+&lt;/figcaption>&lt;/figure>
+&lt;br>
+&lt;hr>
+&lt;h2 id="ファイル名一括編集機能">ファイル名一括編集機能&lt;/h2>
+&lt;p>　1つのフォルダ内にあるファイル名をまとめて変更できます。特定の文字を全てのファイル名から消去したり、連番にすることもできます。例えば画像のように、「2021年」の部分をまとめて「2022年」に変更するといった使い方ができます。&lt;/p>
+&lt;figure id="figure-リネーム機能">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="リネーム機能" srcset="
+/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%20%E3%83%AA%E3%83%8D%E3%83%BC%E3%83%A0_hu3bcd8d2313758a7dcbc62e24ab0a0e6f_152187_337ebd569f9c83d7079b35c7b026394e.webp 400w,
+/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%20%E3%83%AA%E3%83%8D%E3%83%BC%E3%83%A0_hu3bcd8d2313758a7dcbc62e24ab0a0e6f_152187_7cbf44a8b85b8ccb79008351354f1444.webp 760w,
+/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%20%E3%83%AA%E3%83%8D%E3%83%BC%E3%83%A0_hu3bcd8d2313758a7dcbc62e24ab0a0e6f_152187_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://blog.opuappnavi.com/post/convenient_app/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%20%E3%83%AA%E3%83%8D%E3%83%BC%E3%83%A0_hu3bcd8d2313758a7dcbc62e24ab0a0e6f_152187_337ebd569f9c83d7079b35c7b026394e.webp"
+width="760"
+height="678"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+リネーム機能
+&lt;/figcaption>&lt;/figure>
+&lt;p>　私はもともとファイル名をまとめて編集できる別のアプリを入れていましたが、なんとQTTabBarでもできると知ってからはもう使っていません。&lt;br>
+　また、ファイル名の変更は正規表現にも対応しているので、より自由度の高い編集ができます。正規表現について記事を書いている部員がいるので覗いてみてはいかがでしょうか。&lt;br>
+&lt;br>
+&lt;a href="https://blog.opuappnavi.com/post/reguler-expression-introduce/" target="_blank" rel="noopener">→正規表現について&lt;/a>&lt;br>
+&lt;br>&lt;/p>
+&lt;h1 id="さいごに">さいごに&lt;/h1>
+&lt;p>　windowsのエクスプローラーを強化する便利アプリ、QTTabBarをここまで紹介してきたわけですが、前述のとおり数ある機能からほんの一部を見せたに過ぎません。アプリのオプション設定画面を開くと、設定項目の多さに仰天すると思います（笑）&lt;br>
+　自分に合った機能を使って、よりよいPCライフを過ごしてみるのはどうでしょうか。&lt;br>
+　QTTabBarはこちらの公式サイトからインストールできます↓&lt;br>
+&lt;br>
+&lt;a href="http://qttabbar-ja.wikidot.com/" target="_blank" rel="noopener">→QTTabBar公式ダウンロードページ&lt;/a>&lt;br>
+&lt;div class="alert alert-note">
+&lt;div>
+windows11のPCでも、beta版でない方のアプリが問題なく動かせます。逆にbeta版はうまくインストールできないので注意しましょう。
+&lt;/div>
+&lt;/div>
+&lt;/p></description></item><item><title>Visual Studio で選択範囲を括弧で囲む方法</title><link>https://blog.opuappnavi.com/post/visual-studio-wrap-selection-with-braces/</link><pubDate>Wed, 21 Sep 2022 21:03:53 +0900</pubDate><guid>https://blog.opuappnavi.com/post/visual-studio-wrap-selection-with-braces/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
 &lt;p>&lt;a href="https://code.visualstudio.com/" target="_blank" rel="noopener">Visual Studio Code&lt;/a> などのエディタでは、テキストを選択した状態で 括弧&lt;code>(&lt;/code>を入力すると、選択範囲の前後に括弧が挿入されます。
 &lt;code>(&lt;/code>以外のキーでも同様の機能があり、例えばダブルクォーテーション&lt;code>&amp;quot;&lt;/code>を入力すると、選択範囲の前後にダブルクオーテーションが挿入されます。&lt;/p>
 &lt;figure id="figure-選択範囲の前後に括弧などを挿入するvscodeの機能">
