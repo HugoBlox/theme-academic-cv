@@ -1,15 +1,15 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Kiban_s Plenoptic"
+title: "Computational Optical Imaging for Endoscopic Surgery"
 summary: ""
 authors: ["Hajime Nagahara"]
 tags: []
 categories: []
-date: 2020-07-01T10:12:37+09:00
+date: 2022-10-01T00:00:00+09:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "https://www.ids.osaka-u.ac.jp/nagahara/projects/kibanS-17H06102/"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -39,4 +39,3 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-Coming soon.

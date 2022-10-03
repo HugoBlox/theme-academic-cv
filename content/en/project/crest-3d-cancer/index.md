@@ -1,20 +1,21 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Crest 3d Cancer"
+title: "CREST 3D Image Recognition AI for Cancer Diagnosis Support"
 summary: ""
 authors: ["Hajime Nagahara"]
 tags: []
 categories: []
 date: 2020-07-01T10:08:48+09:00
+lastmod: 2022-10-01T00:00:00+09:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "http://www.cc.okayama-u.ac.jp/~iim/project/AIcytology/"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
+image: 
   caption: ""
   focal_point: ""
   preview_only: false
@@ -39,4 +40,3 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-Coming soon.
