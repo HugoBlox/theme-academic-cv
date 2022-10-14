@@ -22,7 +22,7 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
+  - title: Research Assistant
     company: GenCoin
     company_url: ''
     company_logo: org-gc
@@ -36,8 +36,8 @@ experience:
         * Modelling
         * Deploying
 
-  - title: Professor of Semiconductor Physics
-    company: University X
+  - title: Research Engineer
+    company: ASELSAN 
     company_url: ''
     company_logo: org-x
     location: California
