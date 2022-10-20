@@ -23,10 +23,10 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - title: Research Assistant
-    company: GenCoin
+    company: Bundeswehr University Munich
     company_url: ''
-    company_logo: org-gc
-    location: California
+    company_logo: bw-logo
+    location: Munich, Germany
     date_start: '2021-01-01'
     date_end: ''
     description: |2-
@@ -36,13 +36,31 @@ experience:
         * Modelling
         * Deploying
 
+  - title: Research Assistant
+    company: Yildiz Technical University 
+    company_url: ''
+    company_logo: ytu-logo
+    location: Ankara, Turkey
+    date_start: '2019-12-01'
+    date_end: '2020-06-30'
+    description: Taught electronic engineering and researched semiconductor physics.
+
   - title: Research Engineer
     company: ASELSAN 
     company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
+    company_logo: aselsan-logo
+    location: Ankara, Turkey
+    date_start: '2019-12-01'
+    date_end: '2020-06-30'
+    description: Taught electronic engineering and  researched semiconductor physics.
+
+  - title: Research Assistant
+    company: Yildiz Technical University 
+    company_url: ''
+    company_logo: ytu-logo
+    location: Ankara, Turkey
+    date_start: '2019-12-01'
+    date_end: '2020-06-30'
     description: Taught electronic engineering and researched semiconductor physics.
 
 design:

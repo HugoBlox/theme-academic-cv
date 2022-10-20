@@ -30,10 +30,10 @@ interests:
 education:
   courses:
     - course: MSc in Mechatronics Engineering
-      institution: Yildiz Techinical University
+      institution: Yildiz Technical University
       year: 2022
     - course: BSc in Mechatronics Engineering
-      institution: Yildiz Techinical University
+      institution: Yildiz Technical University
       year: 2020
 
 # Social/Academic Networking
@@ -68,8 +68,8 @@ email: ''
 highlight_name: true
 ---
 
-Alice Bighetti is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a Research Assistant at Bundeswehr University Munich. I am working on computer vision and deep generative networks for single cell analysis.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I obtained my Master and Bachelor degree in Mechatronics Engineering from Yildiz Techinal University (YTU) under supervision of Prof. Huseyin Uvet. For 6 years, I am member of Advanced System and Innovation Laboratories in YTU as Student Assistant (2017-2020), Research Assistant (2020-2022) and now Engineering Manager (2022-now). Also, I was the Research Engineer at ASELSAN for 6 months in 2020. 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
