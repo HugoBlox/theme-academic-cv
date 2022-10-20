@@ -22,9 +22,9 @@ bio: My research interests include computer vision, deep learning, biomedical im
 
 # Interests to show in About widget
 interests:
-  - Computer Vision
-  - Deep Learning
   - Microrobotics
+  - Computer Vision
+  - Deep Learning  
 
 # Education to show in About widget
 education:
@@ -72,4 +72,4 @@ I am a Research Assistant at Bundeswehr University Munich. I am working on compu
 
 I obtained my Master and Bachelor degree in Mechatronics Engineering from Yildiz Techinal University (YTU) under supervision of Prof. Huseyin Uvet. For 6 years, I am member of Advanced System and Innovation Laboratories in YTU as Student Assistant (2017-2020), Research Assistant (2020-2022) and now Engineering Manager (2022-now). Also, I was the Research Engineer at ASELSAN for 6 months in 2020. 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/yilmaz_cv.pdf" "newtab" >}}resumé{{< /staticref >}}.
