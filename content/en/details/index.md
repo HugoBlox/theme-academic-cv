@@ -20,7 +20,7 @@ Additionally, participants are of course required to comply to all local and nat
 
 ## Where and when do we meet?
 Wondering how to get to us? Here are some organisational details to help with planning your trip!  
-We will meet in front of **Belluno's train station** the morning of the **8th of January, 2022, at 07:00**.
+We will meet in front of **Belluno's train station** the morning of the **7th of January, 2023, at 07:00**.
 From there on, we will organise transportation by car and separate the participants in groups, in order to minimise the number of vehicles.
 
 #### How to get to Belluno
@@ -48,7 +48,7 @@ The exact GPS coordinates of the parking area are [46.217733N, 11.928870E](https
 <!-- <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1L4QMF90G6f9P3XUTF-BxAJImoeocQmp7&z=11" width="100%" height="600"></iframe> -->
 
 #### Trekking map
-Worried you'll wander forever in the woods above Gosaldo? Worry you not, because here's our awesome trekking map, courtesy of [Komoot](https://www.komoot.com/tour/98511283?share_token=aLKSMS920WlBNaoNIDvj7XMvejWsaSQH12kmU1toTKC2PrayuZ&ref=wtd)! You can even send this to your phone, thanks to the magic of the internet.
+Worried you'll wander forever in the woods above Gosaldo? Worry you not, because here's our awesome trekking map, courtesy of [Komoot](https://www.komoot.com/tour/970092972?share_token=affgA8ds9kadCC3TvuvHQSu5a2sUJTAVPYruiBtqiYTMnNK7Rf&ref=wtd)! You can even send this to your phone, thanks to the magic of the internet.
 
 You'll need to walk for about 5km (round trip). There are two possible ways:
 
@@ -57,8 +57,9 @@ You'll need to walk for about 5km (round trip). There are two possible ways:
 
 We'll mostly move as a group although of course anybody can decide on his/her own what to do. Depending on the group's fitness and on the amount of snow, reaching the Bivouac usually takes around 1.5 hours.
 
-<iframe src="https://www.komoot.com/tour/98511283/embed?share_token=aLKSMS920WlBNaoNIDvj7XMvejWsaSQH12kmU1toTKC2PrayuZ&profile=1" width="100%" height="680" frameborder="0" scrolling="no"></iframe>
-[Here's](https://goo.gl/maps/CRMbn2kRX38G78UF9) the Bivouac on Google Maps.
+<iframe src="https://www.komoot.com/tour/970092972/embed?share_token=affgA8ds9kadCC3TvuvHQSu5a2sUJTAVPYruiBtqiYTMnNK7Rf&profile=1" width="100%" height="680" frameborder="0" scrolling="no"></iframe>
+
+[Here](https://goo.gl/maps/CRMbn2kRX38G78UF9)'s the Bivouac on Google Maps.
 
 ## What to bring?
 Here's a short list of what you might want to bring along with you to the battle site.
