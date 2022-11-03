@@ -47,7 +47,7 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-I {{< icon name="heart" pack="fas" padding_left="0" padding_right="0" >}} Open Source
+I {{< icon name="heart" pack="fas" padding_left="0" padding_right="0" >}} Open Source.
 ### mixsea
 Ocean Mixing Parameterizations in Python.
 
