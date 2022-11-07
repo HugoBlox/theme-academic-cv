@@ -15,8 +15,7 @@ subtitle = "Join the battle!"
 
 +++
 
-The Battle is CANCELED!
-See the [announcement](/post/2022_canceled).
+COMING SOON!
 
 <!-- Please complete the form below to register to the Battle!
 
