@@ -10,13 +10,10 @@ Like every year, the fight takes place at the [Bivacco Menegazzi](https://goo.gl
 It's pretty simple: we go there, we have some fun, we eat a warm lunch, we have some more fun and we go back home, happy and tired.
 
 ## COVID-19 notice
-APAZAF is acutely aware of the pandemic situation.
-Every participant in the GBPN is REQUIRED to possess and, on request, show a valid EU Digital COVID Certificate.
 The Battle takes place in the open, which minimises the risk of exposure to the virus.
 Nevertheless, participants are required to wear a mask whenever possible and maintain social distancing.
-Wearing a mask is mandatory when inside the bivouac.
 
-Additionally, participants are of course required to comply to all local and national COVID regulations.
+Additionally, participants are required to comply to all local and national COVID regulations.
 
 ## Where and when do we meet?
 Wondering how to get to us? Here are some organisational details to help with planning your trip!  

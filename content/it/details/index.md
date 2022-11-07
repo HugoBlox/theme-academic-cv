@@ -8,11 +8,8 @@ Come ogni anno, la battaglia si svolgerà al [Bivacco Menegazzi](https://goo.gl/
 È molto semplice: andiamo al bivacco, ci divertiamo un po', mangiamo un pranzo caldo, ci divertiamo un altro po' e torniamo a casa, stanchi e felici.
 
 ## Nota COVID-19
-APAZAF è cosciente della situazione pandemica in peggioramento.
-Tutti i partecipanti alla GBPN devono possedere e, su richiesta, esibire un Certificato Verde COVID-19 valido.
 La Battaglia si svolge all'aperto, il che minimizza il rischio di contrarre il virus.
 Ciononostante, è richiesto che tutti i partecipanti indossino una mascherina quando possibile e mantengano le distanze minime.
-È obbligatorio indossare una mascherina all'interno del bivacco.
 
 Tutti i partecipanti devono attenersi alle normative COVID locali e nazionali.
 
