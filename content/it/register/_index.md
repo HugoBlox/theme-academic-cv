@@ -15,8 +15,7 @@ subtitle = "Partecipa alla Battaglia!"
 
 +++
 
-La Battaglia è CANCELLATA!
-Leggete l'[annuncio](/it/post/2022_canceled).
+COMING SOON!
 
 <!-- Completate il form sottostante per iscrivervi alla Battaglia!
 

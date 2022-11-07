@@ -8,17 +8,14 @@ Come ogni anno, la battaglia si svolgerà al [Bivacco Menegazzi](https://goo.gl/
 È molto semplice: andiamo al bivacco, ci divertiamo un po', mangiamo un pranzo caldo, ci divertiamo un altro po' e torniamo a casa, stanchi e felici.
 
 ## Nota COVID-19
-APAZAF è cosciente della situazione pandemica in peggioramento.
-Tutti i partecipanti alla GBPN devono possedere e, su richiesta, esibire un Certificato Verde COVID-19 valido.
 La Battaglia si svolge all'aperto, il che minimizza il rischio di contrarre il virus.
 Ciononostante, è richiesto che tutti i partecipanti indossino una mascherina quando possibile e mantengano le distanze minime.
-È obbligatorio indossare una mascherina all'interno del bivacco.
 
 Tutti i partecipanti devono attenersi alle normative COVID locali e nazionali.
 
 ## Dove e come ci troviamo?
 Vi state chiedendo come raggiungerci? Qui di sotto ci sono alcuni dettagli per aiutarvi a pianificare il viaggio.
-Ci incontriamo alla **Stazione di Belluno** la mattina del **8 gennaio 2022 alle 07:00**.
+Ci incontriamo alla **Stazione di Belluno** la mattina del **7 gennaio 2023 alle 07:00**.
 Da lì in poi, organizzeremo il trasporto in auto e divideremo i partecipanti in gruppi in modo da minimizzare il numero delle stesse.
 
 #### Arrivare a Belluno
@@ -44,7 +41,7 @@ Le coordinate GPS del parcheggio a Faustin sono [46.217733N, 11.928870E](https:/
 <!-- <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1L4QMF90G6f9P3XUTF-BxAJImoeocQmp7&z=11" width="100%" height="600"></iframe> -->
 
 #### Mappa della camminata
-Preoccupati di vagare per sempre nei boschi sopra Gosaldo? Non temete, perché abbiamo una fantastica mappa, gentilmente fornita da [Komoot](https://www.komoot.com/tour/98511283?share_token=aLKSMS920WlBNaoNIDvj7XMvejWsaSQH12kmU1toTKC2PrayuZ&ref=wtd)! Potete financo mandarla al vostro telefono, grazie alla magia dell'internet.
+Preoccupati di vagare per sempre nei boschi sopra Gosaldo? Non temete, perché abbiamo una fantastica mappa, gentilmente fornita da [Komoot](https://www.komoot.com/tour/970092972?share_token=affgA8ds9kadCC3TvuvHQSu5a2sUJTAVPYruiBtqiYTMnNK7Rf&ref=wtd)! Potete financo mandarla al vostro telefono, grazie alla magia dell'internet.
 
 Dovrete camminare per circa 5 km (in totale). Ci sono due sentieri possibili:
 
@@ -53,7 +50,7 @@ Dovrete camminare per circa 5 km (in totale). Ci sono due sentieri possibili:
 
 Ci muoveremo perlopiù in gruppo, anche se ovviamente ognuno può decidere per sé cosa fare. A seconda dello stato di forma e della quantità di neve, arrivare al bivacco prende circa 1.5 ore.
 
-<iframe src="https://www.komoot.com/tour/98511283/embed?share_token=aLKSMS920WlBNaoNIDvj7XMvejWsaSQH12kmU1toTKC2PrayuZ&profile=1" width="100%" height="680" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://www.komoot.com/tour/970092972/embed?share_token=affgA8ds9kadCC3TvuvHQSu5a2sUJTAVPYruiBtqiYTMnNK7Rf&profile=1" width="100%" height="680" frameborder="0" scrolling="no"></iframe>
 
 [Qui](https://goo.gl/maps/CRMbn2kRX38G78UF9) c'è il bivacco su Google Maps.
 
