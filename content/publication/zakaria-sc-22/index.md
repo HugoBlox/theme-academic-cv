@@ -37,6 +37,7 @@ image:
 #   Otherwise, set `projects = []`.
 projects: 
 - practical-reproducibility
+- packaging
 publishDate: '2022-08-09T19:58:38.331246Z'
 publication_types:
 - '1'
