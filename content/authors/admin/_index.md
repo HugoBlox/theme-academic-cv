@@ -128,6 +128,9 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/cross_ucsc
+- icon: mastodon
+  icon_pack: fab
+  link: https://discuss.systems/@Carlos
 - icon: github
   icon_pack: fab
   link: https://github.com/carlosmalt
