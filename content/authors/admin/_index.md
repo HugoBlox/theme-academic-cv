@@ -70,8 +70,7 @@ email: ''
 highlight_name: true
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Yunwei Dai is a computational neuroscience student, a self-taught progammer and a machine learning practicer. During his bachelor study, he focus on electrophisiological data analysis (EEG and fNIRs). Recently, he diveds into deep learning and has started a youtube channel called  [{{< icon name="youtube" pack="fab" >}}貓的神經網路](https://www.youtube.com/@neuralneko), where he would share interesting topics in deep learning and hopefully cognitive neuroscience.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé (working on it){{< /staticref >}}.

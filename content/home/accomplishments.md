@@ -42,8 +42,7 @@ item:
   - certificate_url: uploads/coursera-ds.pdf
     date_end: ''
     date_start: '2022-07-29'
-    description: The Data Science Specialization covers the concepts and tools for an
-entire data science pipeline.
+    description: The Data Science Specialization covers the concepts and tools for an entire data science pipeline.
     organization: Coursera
     organization_url: https://coursera.org/share/0fd950b2ac9e144a46db7922f1538d6d
     title: Data Science Specialization

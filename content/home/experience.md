@@ -22,28 +22,32 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
-    date_end: ''
+  - title: Summer Research Intern
+    company: Language and Cognition Lab (UCL)
+    company_url: 'http://www.language-cognition-lab.org/research/ecological-language/'
+    company_logo: org-ucl
+    location: Remote
+    date_start: '2020-07-08'
+    date_end: '2021-03-16'
     description: |2-
         Responsibilities include:
+        * Data labeling using praat
+        * Assist data processing with Python script
+  - title: Partime Research Intern
+    company: Xinghua Hospital Affiliated To Shanghai Jiao Tong University School of Medicine
+    company_url: 'https://www.xinhuamed.com.cn/index.html'
+    company_logo: org-xinhua
+    location: Shanghai/Remote
+    date_start: '2020-03-01'
+    date_end: '2022-01-01'
+    description: |+
+      1. Data management 
         
-        * Analysing
-        * Modelling
-        * Deploying
+      2. Behavioral data processing 
+        
+      3. fNIRs data processing
 
-  - title: Professor of Semiconductor Physics
-    company: University X
-    company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+      
 
 design:
   columns: '2'
