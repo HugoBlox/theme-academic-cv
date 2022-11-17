@@ -70,7 +70,7 @@ email: ''
 highlight_name: true
 ---
 
-Yunwei Dai is a computational neuroscience student, a self-taught progammer and a machine learning practicer. During his bachelor study, he focus on electrophisiological data analysis (EEG and fNIRs). Recently, he diveds into deep learning and has started a youtube channel called  [{{< icon name="youtube" pack="fab" >}}貓的神經網路](https://www.youtube.com/@neuralneko), where he would share interesting topics in deep learning and hopefully cognitive neuroscience.
+Yunwei Dai is a computational neuroscience student, a self-taught progammer and a machine learning practicer. During his bachelor study, he focus on electrophisiological data analysis (EEG and fNIRs). Recently, he dives into deep learning and has started a youtube channel called  [{{< icon name="youtube" pack="fab" >}}貓的神經網路](https://www.youtube.com/@neuralneko), where he would share interesting topics in deep learning and cognitive neuroscience.
 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé (working on it){{< /staticref >}}.

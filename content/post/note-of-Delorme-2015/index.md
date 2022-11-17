@@ -34,7 +34,9 @@ links:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+{{% callout note %}}
 This is only a brief note of a journal article written by Chaumon et al.(2015). Figures of EEG components are useful to understand what those artifacts look like, but they won't be published on this site. You can check the original paper or [my note](my_note.pdf) for those figures. 
+{{% /callout %}}
 ## ICA component of Neural Origin 
 * The components are often dipolar, and their topography is regular and smooth. 
   * Delorme A, Palmer J, Onton J, Oostenveld R, Makeig S. Independent EEG sources are dipolar. PLoS ONE 2012;7(2):e30135, http://dx.doi.org/10.1371/journal.pone.0030135.
