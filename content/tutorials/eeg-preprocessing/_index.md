@@ -2,6 +2,7 @@
 title: EEG Preprocessing
 type: book # Do not modify.
 toc: false
+summary: EEG preprocessing from theory to practice.
 ---
  {{% callout warning %}}
 This is an ongoing project.
