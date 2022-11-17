@@ -12,6 +12,9 @@ weight: 70
 title: 'Recent & Upcoming Talks'
 subtitle:
 
+# hide the widget, set to true to show it on homepage
+active: false
+
 content:
   # Page type to display. E.g. post, event, publication...
   page_type: event

@@ -12,6 +12,9 @@ weight: 80
 title: Featured Publications
 subtitle: ''
 
+# hide the widget, set to true to show it on homepage
+active: false
+
 content:
   # Page type to display. E.g. post, talk, publication...
   page_type: publication

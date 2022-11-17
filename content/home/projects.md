@@ -12,6 +12,9 @@ weight: 65
 title: Projects
 subtitle: ''
 
+# hide the widget, set to true to show it on homepage
+active: false
+
 content:
   # Page type to display. E.g. project.
   page_type: project
