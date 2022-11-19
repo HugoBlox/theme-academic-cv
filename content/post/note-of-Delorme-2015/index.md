@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Selecting ICA components for artifact correction"
+title: "Selecting ICA components for EEG artifact correction"
 subtitle: "A brief note of Chaumon et al.(2015)"
 summary: ""
 authors: []
