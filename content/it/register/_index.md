@@ -15,12 +15,10 @@ subtitle = "Partecipa alla Battaglia!"
 
 +++
 
-COMING SOON!
-
-<!-- Completate il form sottostante per iscrivervi alla Battaglia!
+Completate il form sottostante per iscrivervi alla Battaglia!
 
 L'iscrizione non è vincolante: ti consigliamo di inscriverti anche se vuoi solo tenerti informato!
 Registrandoti, accetti che APAZAF ti mandi occasionali aggiornamenti via mail riguardo alla GBPN.
 Puoi disiscriverti in qualsiasi momento [scrivendo ad APAZAF](/it/contact/).
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeP7SjBkCWj489zhgF-tP5yII15MabZNxyO8Wt28c6A4KT9FA/viewform?embedded=true" width="100%" height="1606" frameborder="0" marginheight="0" marginwidth="0">Caricamento…</iframe> -->
+<iframe src="https://docs.google.com/forms/d/1jOSg3ZXuU5B2hB39c6295BW-j78Wpv-dSU7vFYZ-8xg/viewform?embedded=true" width="100%" height="1606" frameborder="0" marginheight="0" marginwidth="0">Caricamento…</iframe>
