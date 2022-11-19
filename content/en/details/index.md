@@ -17,7 +17,7 @@ Additionally, participants are required to comply to all local and national COVI
 
 ## Where and when do we meet?
 Wondering how to get to us? Here are some organisational details to help with planning your trip!  
-We will meet in front of **Belluno's train station** the morning of the **7th of January, 2023, at 07:00**.
+We will meet in front of **Belluno train station** the morning of the **7th of January, 2023, at 07:00**.
 From there on, we will organise transportation by car and separate the participants in groups, in order to minimise the number of vehicles.
 
 #### How to get to Belluno
