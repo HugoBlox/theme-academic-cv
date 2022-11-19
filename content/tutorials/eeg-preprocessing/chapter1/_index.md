@@ -1,6 +1,6 @@
 ---
 # Title, summary, and page position.
-linktitle: Chapter 1
+linktitle: General Introduction
 summary: Learn how to use Wowchemy's docs layout for publishing online courses, software documentation, and tutorials.
 weight: 1
 icon: fa-thin fa-1
@@ -8,7 +8,7 @@ icon_pack: fab
 
 # Page metadata.
 title: Chapter 1
-date: '2018-09-09T00:00:00Z'
+date: '2022-11-19T00:00:00Z'
 type: book # Do not modify.
 ---
 
