@@ -1,0 +1,139 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>untitled</title><meta name="generator" content="MATLAB 9.12"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2022-08-02"><meta name="DC.source" content="untitled.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; }
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+span.typesection { color:#A0522D }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><pre class="codeinput"><span class="comment">% adapted from psychtoolbox tutorials https://www.peterscarfe.com/ptbtutorials.html</span>
+<span class="comment">% Read the image file</span>
+img = imread(<span class="string">'rect.png'</span>);
+
+<span class="comment">% Specify the rect</span>
+rect = [0,0,100,100];
+
+<span class="comment">% Here we call some default settings for setting up Psychtoolbox</span>
+PsychDefaultSetup(2);
+
+<span class="comment">% Get the screen numbers</span>
+screens = Screen(<span class="string">'Screens'</span>);
+
+<span class="comment">% Draw to the external screen if avaliable</span>
+screenNumber = max(screens);
+
+<span class="comment">% Open an on screen window</span>
+[window, windowRect] = PsychImaging(<span class="string">'OpenWindow'</span>, screenNumber);
+
+<span class="comment">% Make the image into a texture</span>
+imgTexture = Screen(<span class="string">'MakeTexture'</span>, window, img);
+
+<span class="comment">% Draw the image to rect</span>
+Screen(<span class="string">'DrawTexture'</span>, window, imgTexture, [], rect, 0);
+
+<span class="comment">% Flip to the screen</span>
+Screen(<span class="string">'Flip'</span>, window);
+
+<span class="comment">% Wait for two seconds</span>
+WaitSecs(2);
+
+<span class="comment">% Close the window</span>
+sca;
+</pre><p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2022a</a><br></p></div><!--
+##### SOURCE BEGIN #####
+% adapted from psychtoolbox tutorials https://www.peterscarfe.com/ptbtutorials.html
+% Read the image file
+img = imread('rect.png');
+
+% Specify the rect
+rect = [0,0,100,100];
+
+% Here we call some default settings for setting up Psychtoolbox
+PsychDefaultSetup(2);
+
+% Get the screen numbers
+screens = Screen('Screens');
+
+% Draw to the external screen if avaliable
+screenNumber = max(screens);
+
+% Open an on screen window
+[window, windowRect] = PsychImaging('OpenWindow', screenNumber);
+
+% Make the image into a texture
+imgTexture = Screen('MakeTexture', window, img);
+
+% Draw the image to rect
+Screen('DrawTexture', window, imgTexture, [], rect, 0);
+
+% Flip to the screen
+Screen('Flip', window);
+
+% Wait for two seconds
+WaitSecs(2);
+
+% Close the window
+sca;
+##### SOURCE END #####
+--></body></html>
