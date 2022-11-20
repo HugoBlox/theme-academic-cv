@@ -28,6 +28,9 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+{{% callout note %}}
+This post is updated now and then, latest update 2022/11/20
+{{% /callout %}}
 ## Architectures
 ```mermaid
 flowchart TD
@@ -36,7 +39,7 @@ flowchart TD
 						AlexNet --> |mlpconv. 1x1|NiN
 ```
 ### LeNet
-
+{{<cite page="/publication/undergrad-thesis" view="1" >}}
 ### AlexNet
 Krizhevsky, A., Sutskever, I., & Hinton, G. E. (2017). ImageNet classification with deep convolutional neural networks. Communications of the ACM, 60(6), 84–90. https://doi.org/10.1145/3065386 
 {style="color: grey"}
