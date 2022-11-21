@@ -1,17 +1,17 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "VAUD: A visual analysis approach for exploring spatio-temporal urban data"
+title: "DRGraph: An Efficient Graph Layout Algorithm for Large-scale Graphs by Dimensionality Reduction"
 authors:
   [
-    Wei Chen,
-    Zhaosong Huang,
-    Feiran Wu,
     Minfeng Zhu,
-    Huihua Guan,
-    Ross Maciejewski
+    Wei Chen,
+    Yuanzhe Hu,
+    Yuxuan Hou,
+    Liangjun Liu,
+    Kaiyuan Zhang
   ]
-date: 2018-11-02T15:46:02+08:00
+date: 2021-02-02T15:46:02+08:00
 doi: ""
 
 # Publication type.
@@ -24,18 +24,15 @@ publication_types: ["2"]
 publication: "IEEE Transactions on Visualization and Computer Graphics"
 publication_short: "IEEE TVCG"
 
-abstract: "Urban data is massive, heterogeneous, and spatio-temporal, posing a substantial challenge for visualization and analysis. In this paper, we design and implement a novel visual analytics approach, Visual Analyzer for Urban Data (VAUD), that supports the visualization, querying, and exploration of urban data. Our approach allows for cross-domain correlation from multiple data sources by leveraging spatial-temporal and social inter-connectedness features. Through our approach, the analyst is able to select, filter, aggregate across multiple data sources and extract information that would be hidden to a single data subset. To illustrate the effectiveness of our approach, we provide case studies on a real urban dataset that contains the cyber-, physical-, and socialinformation of 14 million citizens over 22 days."
+abstract: "Efficient layout of large-scale graphs remains a challenging problem: the force-directed and dimensionality reduction-based methods suffer from high overhead for graph distance and gradient computation. In this paper, we present a new graph layout algorithm, called DRGraph, that enhances the nonlinear dimensionality reduction process with three schemes: approximating graph distances by means of a sparse distance matrix, estimating the gradient by using the negative sampling technique, and accelerating the optimization process through a multi-level layout scheme. DRGraph achieves a linear complexity for the computation and memory consumption, and scales up to large-scale graphs with millions of nodes. Experimental results and comparisons with state-of-the-art graph layout methods demonstrate that DRGraph can generate visually comparable layouts with a faster running time and a lower memory requirement."
 
 # Summary. An optional shortened abstract.
 summary: ""
 
 tags:
   [
-    "Urban data",
-    "Visual Analysis",
-    "Visual Reasoning",
-    "Heterogeneous",
-    "Spatio-temporal",
+    "Graph Layout",
+    "Dimensionality Reduction",
   ]
 categories: []
 featured: false
@@ -48,22 +45,22 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: http://www.cad.zju.edu.cn/home/vagblog/VAG_Work/VAUD.pdf
+url_pdf: https://ieeexplore.ieee.org/abstract/document/9282195
 url_code:
 url_dataset:
 url_poster:
 url_project:
 url_slides:
 url_source:
-url_video: https://zhaosongh.github.io/publication/VAUD.mp4
+url_video: 
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: "featured"
-  focal_point: "Top"
-  preview_only: false
+# image:
+#   caption: "featured"
+#   focal_point: "Top"
+#   preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
