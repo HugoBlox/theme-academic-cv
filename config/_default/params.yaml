@@ -68,7 +68,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/minfengzhu/minfengzhu.github.io'
     content_dir: content
     branch: main
   avatar:
