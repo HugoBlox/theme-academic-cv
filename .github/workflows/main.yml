@@ -1,0 +1,33 @@
+name: main
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0
+            
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: latest
+          extended: true
+            
+      - name: Build Web
+        run: hugo --minify
+
+      - name: Deploy Web
+        uses: peaceiris/actions-gh-pages@v3
+        env:
+          ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          EXTERNAL_REPOSITORY: MinfengZhu/MinfengZhu.github.io
+          PUBLISH_BRANCH: main
+          PUBLISH_DIR: ./public
