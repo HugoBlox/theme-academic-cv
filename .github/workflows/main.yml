@@ -9,6 +9,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: true
             
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
