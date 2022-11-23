@@ -1,53 +1,78 @@
----
-# An instance of the Accomplishments widget.
-# Documentation: https://wowchemy.com/docs/page-builder/
-widget: accomplishments
++++
+# Accomplishments widget.
+widget = "accomplishments"  # See https://sourcethemes.com/academic/docs/page-builder/
+headless = true  # This file represents a page section.
+active = true  # Activate this widget? true/false
+weight = 50  # Order that this section will appear.
 
-# This file represents a page section.
-headless: true
-
-# Order that this section appears on the page.
-weight: 50
-
-# Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-title: 'Accomplish&shy;ments'
-subtitle:
+title = "Accomplish&shy;ments"
+subtitle = ""
 
 # Date format
-#   Refer to https://wowchemy.com/docs/customization/#date-format
-date_format: Jan 2006
+#   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
+date_format = "Jan 2006"
+
+[design.background]
+#Background image.
+image = "art1.jpg"  # Name of image in `static/img/`.
+image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+
+# Text color (true=light or false=dark).
+  text_color_light = true 
 
 # Accomplishments.
-#   Add/remove as many `item` blocks below as you like.
-#   `title`, `organization`, and `date_start` are the required parameters.
+#   Add/remove as many `[[item]]` blocks below as you like.
+#   `title`, `organization` and `date_start` are the required parameters.
 #   Leave other parameters empty if not required.
-#   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-item:
-  - certificate_url: https://www.coursera.org
-    date_end: ''
-    date_start: '2021-01-25'
-    description: ''
-    organization: Coursera
-    organization_url: https://www.coursera.org
-    title: Neural Networks and Deep Learning
-    url: ''
-  - certificate_url: https://www.edx.org
-    date_end: ''
-    date_start: '2021-01-01'
-    description: Formulated informed blockchain models, hypotheses, and use cases.
-    organization: edX
-    organization_url: https://www.edx.org
-    title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-  - certificate_url: https://www.datacamp.com
-    date_end: '2020-12-21'
-    date_start: '2020-07-01'
-    description: ''
-    organization: DataCamp
-    organization_url: https://www.datacamp.com
-    title: 'Object-Oriented Programming in R'
-    url: ''
+#   Begin/end multi-line descriptions with 3 quotes `"""`.
 
-design:
-  columns: '2'
----
+[[item]]
+  organization = "HHMI"
+  organization_url = "https://www.hhmi.org"
+  title = "Exceptional Research Opportunities Program (EXROP)"
+  url = "https://www.hhmi.org/science-education/programs/exceptional-research-opportunities-program-exrop"
+  date_start = "2014-05-10"
+  date_end = "2014-08-10"
+  description = ""
+
+[[item]]
+  organization = "Marine Biological Laboratory"
+  organization_url = "https://www.mbl.edu/"
+  title = "Zebrafish Development and Genetics Course"
+  url = "https://www.mbl.edu/zebrafish/"
+  certificate_url = ""
+  date_start = "2016-08-15"
+  date_end = "2016-08-30"
+  description = ""
+  
+[[item]]
+  organization = "Harvard University"
+  organization_url = "https://www.harvard.edu"
+  title = "Tissue Clearing Workshop 2017"
+  url = "https://hcbi.fas.harvard.edu/tcw2017"
+  certificate_url = ""
+  date_start = "2017-10-27"
+  date_end = "2017-10-29"
+  description = ""
+
+[[item]]
+  organization = "Baylor College of Medicine"
+  organization_url = "https://www.bcm.edu"
+  title = "Deans Award"
+  url = ""
+  certificate_url = ""
+  date_start = "2019-01-01"
+  date_end = "2020-12-30"
+  description = ""
+  
+  [[item]]
+  organization = "American Heart Association"
+  organization_url = "https://www.heart.org"
+  title = "Predoctoral Fellowship"
+  url = ""
+  certificate_url = ""
+  date_start = "2019-01-01"
+  date_end = "2020-12-30"
+  description = ""
+  
++++
