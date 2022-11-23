@@ -42,9 +42,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:cantugutim@chop.edu'  # For a direct email link, use "mailto:mguiterr@bcm.edu".
-- icon: twitter
+- icon: mastodon
   icon_pack: fab
-  link: https://twitter.com/mrcoldbrews
+  link: https://twitter.com/mani_brews
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=IxTqkrEAAAAJ&hl=en&oi=ao
