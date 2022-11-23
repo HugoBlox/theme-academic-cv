@@ -1,5 +1,6 @@
 ---
 title: Recent & Upcoming Talks
+cms_exclude: true
 
 # View.
 #   1 = List
@@ -7,8 +8,8 @@ title: Recent & Upcoming Talks
 #   3 = Card
 view: 2
 
-# Optional header image (relative to `static/img/` folder).
+# Optional header image (relative to `static/media/` folder).
 header:
-  caption: ""
-  image: ""
+  caption: ''
+  image: ''
 ---

@@ -1,5 +1,5 @@
 # Page Sharer
-# Documentation: https://sourcethemes.com/academic/docs/customization/#page-sharer
+# Documentation: https://wowchemy.com/docs/hugo-tutorials/page-sharer/
 
 [[buttons]]
   id = "twitter"
@@ -14,7 +14,7 @@
   url = "https://www.facebook.com/sharer.php?u={url}&t={title}"
   title = "Facebook"
   icon_pack = "fab"
-  icon = "facebook-f"
+  icon = "facebook"
   enable = true
 
 [[buttons]]
@@ -35,7 +35,7 @@
 
 [[buttons]]
   id = "whatsapp"
-  url = "https://web.whatsapp.com/send?text={title}%20{url}"
+  url = "whatsapp://send?text={title}%20{url}"
   title = "WhatsApp"
   icon_pack = "fab"
   icon = "whatsapp"
@@ -71,4 +71,12 @@
   title = "Xing"
   icon_pack = "fab"
   icon = "xing"
+  enable = false
+
+[[buttons]]
+  id = "tumblr"
+  url = "https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&title={title}"
+  title = "Tumblr"
+  icon_pack = "fab"
+  icon = "tumblr"
   enable = false
