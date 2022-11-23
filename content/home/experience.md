@@ -1,60 +1,50 @@
-+++
-# Experience widget.
-widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+---
+# An instance of the Experience widget.
+# Documentation: https://wowchemy.com/docs/page-builder/
+widget: experience
 
-title = "Experience"
-subtitle = ""
+# This file represents a page section.
+headless: true
 
-[design.background]
-#Background image.
-image = "inj.jpg"  # Name of image in `static/img/`.
-image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+# Order that this section appears on the page.
+weight: 40
 
-
-# Text color (true=light or false=dark).
-  text_color_light = true 
+title: Experience
+subtitle:
 
 # Date format for experience
-#   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
-date_format = "Jan 2006"
+#   Refer to https://wowchemy.com/docs/customization/#date-format
+date_format: Jan 2006
 
 # Experiences.
-#   Add/remove as many `[[experience]]` blocks below as you like.
+#   Add/remove as many `experience` items below as you like.
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
-#   Begin/end multi-line descriptions with 3 quotes `"""`.
-[[experience]]
-  title = "Scientist I"
-  company = "Lingappan Lab"
-  company_url = "https://www.lingappanlab.com/"
-  location = "Philadelphia, PA"
-  date_start = "2022-02-10"
-  date_end = ""
-  description = """
-  
-  """
-  
-[[experience]]
-  title = "PhD in Developmental Biology"
-  company = "Baylor College of Medicine"
-  company_url = ""
-  location = "Texas"
-  date_start = "2015-05-20"
-  date_end = "2021-12-11"
-  description = """
-  
-  """
+#   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+experience:
+  - title: CEO
+    company: GenCoin
+    company_url: ''
+    company_logo: org-gc
+    location: California
+    date_start: '2021-01-01'
+    date_end: ''
+    description: |2-
+        Responsibilities include:
+        
+        * Analysing
+        * Modelling
+        * Deploying
 
-[[experience]]
-  title = "Research Assistant"
-  company = "The University of Texas-Pan American"
-  company_url = ""
-  location = "Texas"
-  date_start = "2013-05-01"
-  date_end = "2015-05-10"
-  description = """"""
+  - title: Professor of Semiconductor Physics
+    company: University X
+    company_url: ''
+    company_logo: org-x
+    location: California
+    date_start: '2016-01-01'
+    date_end: '2020-12-31'
+    description: Taught electronic engineering and researched semiconductor physics.
 
-+++
+design:
+  columns: '2'
+---

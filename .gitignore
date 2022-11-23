@@ -1,3 +1,9 @@
-public/
+# IDEs
 .idea/
-.Rproj.user
+
+# Hugo
+resources/
+jsconfig.json
+node_modules/
+go.sum
+.hugo_build.lock
