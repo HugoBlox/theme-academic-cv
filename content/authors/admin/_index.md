@@ -44,7 +44,7 @@ social:
   link: 'mailto:cantugutim@chop.edu'  # For a direct email link, use "mailto:mguiterr@bcm.edu".
 - icon: mastodon
   icon_pack: fab
-  link: rel="me" href="https://mastodon.social/@Mani_brews"
+  link: https://mastodon.social/@Mani_brews
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=IxTqkrEAAAAJ&hl=en&oi=ao
