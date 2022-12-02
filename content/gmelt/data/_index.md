@@ -46,7 +46,7 @@ The following tables list data products that have been produced or will soon be 
 |[Gridded glacier thickness change from multi-sensor DEMs](https://nsidc.org/data/HMA_Glacier_dH/versions/1)   | glacier |  1974 to 2017  |  HMA     |     Rupper (HMA-1)   |     [Maurer et al, 2019](/publication/maurer-acceleration-2019/)
 |[PyGEM glacier projections under different RCP model scenarios](https://nsidc.org/data/HMA_GL_RCP/versions/1) | glacier, model | 2000 to 2100  |  HMA  |     Osmanoglu (HMA-1)   |    [Rounce et al, 2019](/publication/rounce-glacier-2019/)
 |[PyGEM glacier projections under different RCP model scenarios, rasterized](https://nsidc.org/data/hma_gl_rcpr/versions/1)  |glacier, model|2000 to 2100 |HMA |Osmanoglu (HMA-1) | [Rounce et al, 2019](/publication/rounce-glacier-2019/)
-|[Debris thickness estimates and corresponding sub-debris melt factors](https://nsidc.org/data/hma_dte/versions/1) | glacier, debris | 2000 to 2018 | Global | Rounce (HMA-2) |
+|[Debris thickness estimates and corresponding sub-debris melt factors](https://nsidc.org/data/hma_dte/versions/1) | glacier, debris | 2000 to 2018 | Global | Rounce (HMA-2) | [Rounce, et al, 2021](/publication/rounce-distributed-2021/)
 |Glacier projections (mass, area, runoff, mass balance components, etc.) | glacier, projections | 2000 - 2100 | | Rounce (HMA-2) | Estimated publication: late 2022
 | Debris-covered glacier surface melt products (High-resolution DEMs, maps of surface melt, flux divegence and velocity for six glaciers in Nepal) | glacier, debris | | Nepal | Rounce (HMA-2) | Estimated publication: mid-2023
 | Seasonal surface velocity products for select glaciers in Nepal | glacier, velocity | Monthly timeseries | Nepal | Rounce (HMA-2) | Estimated publication: mid-2023
