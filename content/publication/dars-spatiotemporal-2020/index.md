@@ -13,15 +13,15 @@ authors:
 - Syed Hammad Ali
 tags:
 - '"climate change"'
-- '"Indus"'
-- '"Karakoram region"'
-- '"Pakistan"'
 - '"Precipitation"'
+- '"Indus"'
 - '"RCM"'
 - '"Temperature"'
-- '"Upper Indus Basin"'
 - '"VAlidation"'
 - '"WRF"'
+- '"Karakoram region"'
+- '"Pakistan"'
+- '"Upper Indus Basin"'
 - '"WRF-ARW model"'
 categories: []
 date: '2020-01-01'
@@ -43,7 +43,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-12-22T21:07:24.192242Z'
+publishDate: '2022-12-05T16:59:28.298714Z'
 publication_types:
 - '2'
 abstract: Investigating the trends in the major climatic variables over the Upper

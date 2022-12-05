@@ -40,7 +40,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-12-22T21:07:21.692048Z'
+publishDate: '2022-12-05T16:59:26.732528Z'
 publication_types:
 - '2'
 abstract: The SMART-s (Spectral Measurements for Atmospheric Radiative Transfer—spectroradiometer)

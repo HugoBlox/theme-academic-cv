@@ -31,7 +31,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-10-03T23:28:49.393818Z'
+publishDate: '2022-12-05T16:59:35.495009Z'
 publication_types:
 - '2'
 abstract: The Tibetan plateau plays an essential role in the water supply to Asia’s

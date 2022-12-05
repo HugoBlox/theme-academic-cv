@@ -14,17 +14,17 @@ authors:
 - A. E. Putnam
 - N. Young
 tags:
-- '"ALOS"'
+- '"Remote sensing"'
+- '"Landsat"'
+- '"Glacial lake outburst floods (GLOF)"'
 - '"Bhutan"'
 - '"Flood modeling"'
-- '"Geomorphology"'
-- '"Glacial lake outburst floods (GLOF)"'
-- '"GLOFs"'
 - '"Hazards"'
 - '"Hexagon"'
-- '"Landsat"'
-- '"Remote sensing"'
 - '"Seismic observations"'
+- '"ALOS"'
+- '"Geomorphology"'
+- '"GLOFs"'
 categories: []
 date: '2020-09-01'
 lastmod: 2020-12-22T16:07:23-05:00
@@ -45,7 +45,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-12-22T21:07:23.366648Z'
+publishDate: '2022-12-05T16:59:27.268142Z'
 publication_types:
 - '2'
 abstract: Glacial lake outburst floods (GLOFs) are a substantial hazard for downstream

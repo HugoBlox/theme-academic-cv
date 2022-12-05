@@ -39,7 +39,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-12-22T21:07:24.054328Z'
+publishDate: '2022-12-05T16:59:28.115958Z'
 publication_types:
 - '2'
 abstract: Mapping and monitoring landslides in remote areas with steep and mountainous

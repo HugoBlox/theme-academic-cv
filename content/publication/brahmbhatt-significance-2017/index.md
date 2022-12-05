@@ -41,7 +41,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-12-22T21:07:25.853952Z'
+publishDate: '2022-12-05T16:59:33.963946Z'
 publication_types:
 - '2'
 abstract: A study has been carried out in part of Chenab basin, Himalaya to understand

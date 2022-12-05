@@ -36,7 +36,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-12-22T21:10:16.531729Z'
+publishDate: '2022-12-05T16:59:34.993687Z'
 publication_types:
 - '2'
 abstract: Glacial lakes are rapidly growing in response to climate change and glacier

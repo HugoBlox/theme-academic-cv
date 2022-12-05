@@ -52,7 +52,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-10-03T23:28:50.059601Z'
+publishDate: '2022-12-05T16:59:36.180354Z'
 publication_types:
 - '2'
 abstract: Climate-influenced changes in hydrology affect water-food-energy security

@@ -38,9 +38,9 @@ authors:
 - T. Yao
 - J. E. M. Baillie
 tags:
+- '"Indus"'
 - '"climate projections"'
 - '"global"'
-- '"Indus"'
 - '"mountain resources"'
 - '"vulnerability"'
 - '"water"'
@@ -65,7 +65,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-12-22T21:07:24.334025Z'
+publishDate: '2022-12-05T16:59:28.482724Z'
 publication_types:
 - '2'
 abstract: Mountains are the water towers of the world, supplying a substantial part

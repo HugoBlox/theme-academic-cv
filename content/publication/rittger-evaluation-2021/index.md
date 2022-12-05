@@ -32,7 +32,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-10-03T23:28:52.170448Z'
+publishDate: '2022-12-05T16:59:38.396514Z'
 publication_types:
 - '2'
 abstract: We present the first application of the Snow Covered Area and Grain size
