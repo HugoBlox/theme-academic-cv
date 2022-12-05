@@ -70,7 +70,8 @@ email: ''
 highlight_name: true
 ---
 
-Yunwei Dai is a computational neuroscience student, a self-taught progammer and a machine learning practicer. During his bachelor study, he focus on electrophisiological data analysis (EEG and fNIRs). Recently, he dives into deep learning and has started a youtube channel called  [{{< icon name="youtube" pack="fab" >}}貓的神經網路](https://www.youtube.com/@neuralneko), where he would share interesting topics in deep learning and cognitive neuroscience.
+你好，我叫戴運維，是一名計算神經科學學生。大學主修心理學時接觸到神經科學，對人類認知系統和其神經基礎產生了不菲的興趣，又因為專業的原因廣泛涉獵資料科學，現在儼然是一名資工學生。我主要接觸腦電波(EEG)和近紅外成像(fNIRs)等研究手段，對深度學習也不陌生。我正在建立一個youtube頻道
+[{{< icon name="youtube" pack="fab" >}}貓的神經網路](https://www.youtube.com/@neuralneko), 希望在學習之餘分享關於機器學習和認知神經科學的有趣話題。
 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé (working on it){{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} 我的履歷還沒有整理好 {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé (working on it){{< /staticref >}}.

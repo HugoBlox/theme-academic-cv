@@ -51,7 +51,7 @@ To display an image on screen, we need to `imread()` an image, make a texture ob
 ```python
 img = imread('img.png'); 
 ```
-The image file should be a 3-D array(height x weight x rgb). 
+The image file should be a 3-D array(height x width x RGB). 
 
 One time I tried to read a single color PNG file but a 2-D array was returned. It turned out to be a gray scale file, which cannot be feed into psychtoolbox `Screen('MakeTexture')` directly. I have to use the following code to change the format. This behavior of `imread()` only happens in Matlab, not in octave as I've tested it.
 
