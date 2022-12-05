@@ -1,32 +1,32 @@
 ---
 # Display name
-title: Yunwei Dai
+title: 戴運維
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: BSc Psychology
+role: 心理學學士
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: East China Normal University
+  - name: 華東師範大學
     #url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Cognitive Computational Neuroscience, Machine Learning, Deep Learning
+bio: 半路出家走上資料科學的道路，興趣是神經科學，愛好是深度學習。
 
 # Interests to show in About widget
 interests:
-  - Cognitive Computational Neuroscience
-  - Machine Learning
-  - Deep Learning
+  - 計算神經科學
+  - 機器學習/深度學習
+  - 人工智慧
 
 # Education to show in About widget
 education:
   courses:
-    - course: BSc in Psychology
-      institution: East China Normal University
+    - course: 心理學 學士
+      institution: 華東師範大學
       year: 2020
     #- course: MEng in Artificial Intelligence
     #  institution: Massachusetts Institute of Technology

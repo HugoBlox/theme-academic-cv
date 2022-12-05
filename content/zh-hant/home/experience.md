@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 40
 
-title: Experience
+title: 經歷
 subtitle:
 
 # Date format for experience
@@ -22,7 +22,7 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Summer Research Intern
+  - title: 暑期研究助理
     company: Language and Cognition Lab (UCL)
     company_url: 'http://www.language-cognition-lab.org/research/ecological-language/'
     company_logo: org-ucl
@@ -33,7 +33,7 @@ experience:
         Responsibilities include:
         * Data labeling using praat
         * Assist data processing with Python script
-  - title: Partime Research Intern
+  - title: 研究助理(兼任)
     company: Xinghua Hospital Affiliated To Shanghai Jiao Tong University School of Medicine
     company_url: 'https://www.xinhuamed.com.cn/index.html'
     company_logo: org-xinhua
