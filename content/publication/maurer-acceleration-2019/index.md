@@ -1,7 +1,7 @@
 ---
 title: Acceleration of ice loss across the Himalayas over the past 40 years
 date: '2019-06-01'
-publishDate: '2022-12-05T16:59:29.599908Z'
+publishDate: '2022-12-05T20:14:00.669730Z'
 authors:
 - J. M. Maurer
 - J. M. Schaefer

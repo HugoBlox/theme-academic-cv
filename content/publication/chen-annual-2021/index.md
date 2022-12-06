@@ -34,11 +34,10 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-12-05T16:59:35.322506Z'
+publishDate: '2022-12-05T20:14:08.188341Z'
 publication_types:
 - '2'
-abstract: textlessptextgreatertextlessstrong class=\"journal-contentHeaderColor\"textgreaterAbstract.textless/strongtextgreater
-  Atmospheric warming is intensifying glacier melting and glacial-lake development
+abstract: Atmospheric warming is intensifying glacier melting and glacial-lake development
   in High Mountain Asia (HMA), and this could increase glacial-lake outburst flood
   (GLOF) hazards and impact water resources and hydroelectric-power management. There
   is therefore a pressing need to obtain comprehensive knowledge of the distribution
@@ -70,7 +69,7 @@ abstract: textlessptextgreatertextlessstrong class=\"journal-contentHeaderColor\
   the current distribution of supraglacial- and proglacial-lake area across HMA. The
   Hi-MAG database is available at textlessa href=\"https://doi.org/10.5281/zenodo.4275164\"textgreaterhttps://doi.org/10.5281/zenodo.4275164textless/atextgreater
   (Chen et al., 2020), and it can be used for studies of the complex interactions
-  between glaciers, climate and glacial lakes, studies of GLOFs, and water resources.textless/ptextgreater
+  between glaciers, climate and glacial lakes, studies of GLOFs, and water resources.
 publication: '*Earth System Science Data*'
 url_pdf: https://essd.copernicus.org/articles/13/741/2021/
 doi: 10.5194/essd-13-741-2021

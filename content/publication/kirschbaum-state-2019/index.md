@@ -2,7 +2,7 @@
 title: The State of Remote Sensing Capabilities of Cascading Hazards Over High Mountain
   Asia
 date: '2019-01-01'
-publishDate: '2022-12-05T16:59:33.294487Z'
+publishDate: '2022-12-05T20:14:05.402794Z'
 authors:
 - Dalia Kirschbaum
 - C. Scott Watson

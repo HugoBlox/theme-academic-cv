@@ -2,7 +2,7 @@
 title: A Joint Landsat- and MODIS-Based Reanalysis Approach for Midlatitude Montane
   Seasonal Snow Characterization
 date: '2019-01-01'
-publishDate: '2022-12-05T16:59:29.760966Z'
+publishDate: '2022-12-05T20:14:00.873505Z'
 authors:
 - Steven A. Margulis
 - Yufei Liu

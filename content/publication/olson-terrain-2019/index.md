@@ -2,7 +2,7 @@
 title: Terrain Induced Biases in Clear-Sky Shortwave Radiation Due to Digital Elevation
   Model Resolution for Glaciers in Complex Terrain
 date: '2019-01-01'
-publishDate: '2022-12-05T16:59:31.747264Z'
+publishDate: '2022-12-05T20:14:03.348735Z'
 authors:
 - Matthew Olson
 - Summer Rupper

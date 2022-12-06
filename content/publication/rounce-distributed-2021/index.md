@@ -42,7 +42,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-12-05T16:59:35.659862Z'
+publishDate: '2022-12-05T20:14:08.600780Z'
 publication_types:
 - '2'
 abstract: Supraglacial debris affects glacier mass balance as a thin layer enhances

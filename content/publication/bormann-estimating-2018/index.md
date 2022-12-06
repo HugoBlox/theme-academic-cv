@@ -34,7 +34,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-12-05T16:59:27.603885Z'
+publishDate: '2022-12-05T20:13:58.060353Z'
 publication_types:
 - '2'
 abstract: Extensive evidence reveals that Earth’s snow cover is declining, but our

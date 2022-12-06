@@ -2,7 +2,7 @@
 title: 'GLAM Bio-Lith RT: A Tool for Remote Sensing Reflectance Simulation and Water
   Components Concentration Retrieval in Glacial Lakes'
 date: '2019-01-01'
-publishDate: '2022-12-05T16:59:30.794443Z'
+publishDate: '2022-12-05T20:14:02.266537Z'
 authors:
 - Enrico Schiassi
 - Roberto Furfaro

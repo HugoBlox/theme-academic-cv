@@ -34,7 +34,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-12-05T16:59:36.841498Z'
+publishDate: '2022-12-05T20:14:10.230221Z'
 publication_types:
 - '2'
 abstract: Glacial lake outburst floods, and specifically those triggered by avalanche-induced

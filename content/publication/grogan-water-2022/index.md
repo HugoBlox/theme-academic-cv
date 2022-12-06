@@ -33,20 +33,19 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-12-05T16:59:38.927597Z'
+publishDate: '2022-12-05T20:14:12.950176Z'
 publication_types:
 - '2'
-abstract: 'textlessptextgreatertextlessstrong class=\"journal-contentHeaderColor\"textgreaterAbstract.textless/strongtextgreater
-  This paper describes the University of New Hampshire Water Balance Model, WBM, a
-  process-based gridded global hydrologic model that simulates the land surface components
-  of the global water cycle and includes water extraction for use in agriculture and
-  domestic sectors. The WBM was first published in 1989; here, we describe the first
-  fully open-source WBM version (v.1.0.0). Earlier descriptions of WBM methods provide
-  the foundation for the most recent model version that is detailed here. We present
-  an overview of the model functionality, utility, and evaluation of simulated global
-  river discharge and irrigation water use. This new version adds a novel suite of
-  water source tracking modules that enable the analysis of flow-path histories on
-  water supply. A key feature of WBM v.1.0.0 is the ability to identify the partitioning
+abstract: 'This paper describes the University of New Hampshire Water Balance Model,
+  WBM, a process-based gridded global hydrologic model that simulates the land surface
+  components of the global water cycle and includes water extraction for use in agriculture
+  and domestic sectors. The WBM was first published in 1989; here, we describe the
+  first fully open-source WBM version (v.1.0.0). Earlier descriptions of WBM methods
+  provide the foundation for the most recent model version that is detailed here.
+  We present an overview of the model functionality, utility, and evaluation of simulated
+  global river discharge and irrigation water use. This new version adds a novel suite
+  of water source tracking modules that enable the analysis of flow-path histories
+  on water supply. A key feature of WBM v.1.0.0 is the ability to identify the partitioning
   of sources for each stock or flux within the model. Three different categories of
   tracking are available: (1) primary inputs of water to the surface of the terrestrial
   hydrologic cycle (liquid precipitation, snowmelt, glacier melt, and unsustainable

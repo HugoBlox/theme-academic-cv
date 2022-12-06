@@ -44,7 +44,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-12-05T16:59:38.572843Z'
+publishDate: '2022-12-05T20:14:12.484191Z'
 publication_types:
 - '2'
 abstract: An ensemble Kalman filter is used to assimilate Advanced Microwave Scanning

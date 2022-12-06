@@ -2,7 +2,7 @@
 title: Bayesian Multi-Scale Spatio-Temporal Modeling of Precipitation in the Indus
   Watershed
 date: '2019-01-01'
-publishDate: '2022-12-05T16:59:33.626692Z'
+publishDate: '2022-12-05T20:14:05.829511Z'
 authors:
 - Michael F. Christensen
 - Matthew J. Heaton

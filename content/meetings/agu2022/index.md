@@ -22,6 +22,7 @@ List of sessions where HiMAT researchers are presenting at the AGU 2022 Fall Mee
 | [C22C-06](https://agu.confex.com/agu/fm22/meetingapp.cgi/Paper/1059250) | Quantifying all the snow and ice melt across High Mountain Asia | Tue 13 Dec | 09:50 - 10:00 | Ned Bair | No |
 | [U23D-01](https://agu.confex.com/agu/fm22/meetingapp.cgi/Paper/1228018) | A Retrospective Outlook of Heavy Downpours over Pakistan | Tue 13 Dec | 11:00 - 11:12 | Ishrat Jahan Dollan | Yes |
 | [U23D-03](https://agu.confex.com/agu/fm22/meetingapp.cgi/Paper/1228106) | Hydroclimatic Risk in High Mountain Asia: a Novel Assessment of Impacts | Tue 13 Dec | 11:24 - 11:36 | Mariam Khanam | Yes |
+| [TH25J](https://agu.confex.com/agu/fm22/meetingapp.cgi/Session/161999) | SERVIR’s Approach to Integrating Open-Source Science into Co-development of Earth Observations-Based Services for Climate Adaptation | Tue 13 Dec | 18:30 - 19:30 | Ashutosh Limaye | No |
 | [C25D-0839](https://agu.confex.com/agu/fm22/meetingapp.cgi/Paper/1160611) | Impact of Climate Change on Streamflow Magnitude and Characteristics in High Mountain Asia | Tue 13 Dec | 14:45 - 18:15 | Anju Vijayan Nair | Yes |
 | [GC35J-0806](https://agu.confex.com/agu/fm22/meetingapp.cgi/Paper/1178906) | Future Changes on Hydrological Extremes in High Mountain Asia | Wed 14 Dec | 14:45 - 18:15 | Diogo Araujo | Yes |
 | [H35M-1293](https://agu.confex.com/agu/fm22/meetingapp.cgi/Paper/1099113) | Characterizing Precipitation Patterns Over High Mountain Asia Using an Ensemble Product | Wed 14 Dec | 14:45 - 18:15 | Ishrat Dollan | Yes |

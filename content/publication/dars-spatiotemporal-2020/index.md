@@ -43,7 +43,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-12-05T16:59:28.298714Z'
+publishDate: '2022-12-05T20:13:58.995030Z'
 publication_types:
 - '2'
 abstract: Investigating the trends in the major climatic variables over the Upper

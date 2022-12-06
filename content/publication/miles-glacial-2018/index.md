@@ -16,13 +16,13 @@ authors:
 - Bryn Hubbard
 - Patrick Wagnon
 tags:
-- '"PlanetScope"'
-- '"Remote sensing"'
-- '"Glacial lake outburst floods (GLOF)"'
 - '"Everest"'
 - '"Glacial lake drainage"'
+- '"Glacial lake outburst floods (GLOF)"'
 - '"orthoimagery"'
+- '"PlanetScope"'
 - '"Pleiades"'
+- '"Remote sensing"'
 categories: []
 date: '2018-12-01'
 lastmod: 2020-12-22T16:07:24-05:00
@@ -43,12 +43,12 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-12-05T16:59:29.241398Z'
+publishDate: '2022-12-05T20:14:00.200282Z'
 publication_types:
 - '2'
-abstract: textlessptextgreatertextlessstrongtextgreaterAbstract.textless/strongtextgreater
-  A set of supraglacial ponds filled rapidly between April and July 2017 on Changri
-  Shar Glacier in the Everest region of Nepal, coalescing into a textlessspan class=\"inline-formula\"textgreater∼180textless/spantextgreater&thinsp;000&thinsp;mtextlessspan
+abstract: A set of supraglacial ponds filled rapidly between April and July 2017 on
+  Changri Shar Glacier in the Everest region of Nepal, coalescing into a textlessspan
+  class=\"inline-formula\"textgreater∼180textless/spantextgreater&thinsp;000&thinsp;mtextlessspan
   class=\"inline-formula\"textgreater$^textrm2$textless/spantextgreater lake before
   sudden and complete drainage through Changri Shar and Khumbu glaciers (15–17 July).
   We use PlanetScope and Pléiades satellite orthoimagery to document the system's
@@ -74,7 +74,7 @@ abstract: textlessptextgreatertextlessstrongtextgreaterAbstract.textless/strongt
   of shallow englacial conduits near the Khumbu terminus and extensive, enhanced bank
   erosion at least as far as 11&thinsp;km downstream below Khumbu Glacier. These sudden
   changes destroyed major trails in three locations, demonstrating the potential hazard
-  that short-lived, relatively small glacial lakes pose.textless/ptextgreater
+  that short-lived, relatively small glacial lakes pose.
 publication: '*The Cryosphere*'
 url_pdf: https://www.the-cryosphere.net/12/3891/2018/
 doi: https://doi.org/10.5194/tc-12-3891-2018

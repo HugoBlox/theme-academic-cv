@@ -34,7 +34,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-12-05T16:59:35.161123Z'
+publishDate: '2022-12-05T20:14:07.953828Z'
 publication_types:
 - '2'
 abstract: ABSTRACT. Glaciers in central Asia that developed under a range of climatic

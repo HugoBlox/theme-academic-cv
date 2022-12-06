@@ -2,7 +2,7 @@
 title: Shrinkage of Nepal’s Second Largest Lake (Phewa Tal) Due to Watershed Degradation
   and Increased Sediment Influx
 date: '2019-01-01'
-publishDate: '2022-12-05T16:59:30.462232Z'
+publishDate: '2022-12-05T20:14:01.793146Z'
 authors:
 - C. Scott Watson
 - Jeffrey S. Kargel

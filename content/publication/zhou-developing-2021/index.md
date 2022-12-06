@@ -35,11 +35,10 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-12-05T16:59:39.460798Z'
+publishDate: '2022-12-05T20:14:13.635428Z'
 publication_types:
 - '2'
-abstract: textlessptextgreatertextlessstrong class=\"journal-contentHeaderColor\"textgreaterAbstract.textless/strongtextgreater
-  South and Southeast Asia is subject to significant hydrometeorological extremes,
+abstract: South and Southeast Asia is subject to significant hydrometeorological extremes,
   including drought. Under rising temperatures, growing populations, and an apparent
   weakening of the South Asian monsoon in recent decades, concerns regarding drought
   and its potential impacts on water and food security are on the rise. Reliable sub-seasonal
@@ -64,7 +63,7 @@ abstract: textlessptextgreatertextlessstrong class=\"journal-contentHeaderColor\
   can positively contribute to forecast skills throughout the entire 9-month prediction
   period in areas with limited precipitation. This SAHFS-S2S has been operationalized
   at the International Centre for Integrated Mountain Development (ICIMOD) to support
-  drought monitoring and warning needs in the region.textless/ptextgreater
+  drought monitoring and warning needs in the region.
 publication: '*Hydrology and Earth System Sciences*'
 url_pdf: https://hess.copernicus.org/articles/25/41/2021/
 doi: 10.5194/hess-25-41-2021

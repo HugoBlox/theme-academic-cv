@@ -42,7 +42,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-12-05T16:59:26.921168Z'
+publishDate: '2022-12-05T20:13:57.138511Z'
 publication_types:
 - '6'
 abstract: Extreme precipitation from the South-Asian monsoon season combines with

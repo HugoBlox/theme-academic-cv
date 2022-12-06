@@ -2,7 +2,7 @@
 title: 'Langley Calibration Analysis of Solar Spectroradiometric Measurements: Spectral
   Aerosol Optical Thickness Retrievals'
 date: '2018-01-01'
-publishDate: '2022-12-05T16:59:34.136585Z'
+publishDate: '2022-12-05T20:14:06.525276Z'
 authors:
 - Ukkyo Jeong
 - Si-Chee Tsay

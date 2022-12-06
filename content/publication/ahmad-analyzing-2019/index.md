@@ -2,7 +2,7 @@
 title: Analyzing Machine Learning Predictions of Passive Microwave Brightness Temperature
   Spectral Difference Over Snow-Covered Terrain in High Mountain Asia
 date: '2019-01-01'
-publishDate: '2022-12-05T16:59:34.666788Z'
+publishDate: '2022-12-05T20:14:07.219309Z'
 authors:
 - Jawairia A. Ahmad
 - Barton A. Forman

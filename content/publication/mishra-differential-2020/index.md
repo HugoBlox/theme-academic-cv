@@ -40,7 +40,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-12-05T16:59:32.105872Z'
+publishDate: '2022-12-05T20:14:03.825533Z'
 publication_types:
 - '2'
 abstract: Water stored in the form of snow and glaciers in the High Mountain Asia

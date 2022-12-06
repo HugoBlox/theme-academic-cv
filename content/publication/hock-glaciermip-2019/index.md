@@ -2,7 +2,7 @@
 title: GlacierMIP – A model intercomparison of global-scale glacier mass-balance models
   and projections
 date: '2019-06-01'
-publishDate: '2022-12-05T16:59:33.455778Z'
+publishDate: '2022-12-05T20:14:05.616430Z'
 authors:
 - Regine Hock
 - Andrew Bliss

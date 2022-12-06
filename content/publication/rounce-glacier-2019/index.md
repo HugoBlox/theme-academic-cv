@@ -2,7 +2,7 @@
 title: Glacier mass change in High Mountain Asia through 2100 using the open-source
   Python Glacier Evolution Model (PyGEM)
 date: '2019-01-01'
-publishDate: '2022-12-05T16:59:31.323217Z'
+publishDate: '2022-12-05T20:14:02.889209Z'
 authors:
 - David R. Rounce
 - Regine Hock

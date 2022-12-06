@@ -2,7 +2,7 @@
 title: An Automated Approach for Estimating Snowline Altitudes in the Karakoram and
   Eastern Himalaya From Remote Sensing
 date: '2019-01-01'
-publishDate: '2022-12-05T16:59:31.496081Z'
+publishDate: '2022-12-05T20:14:03.129737Z'
 authors:
 - Adina E. Racoviteanu
 - Karl Rittger

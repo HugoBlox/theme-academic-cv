@@ -38,11 +38,10 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-12-05T16:59:28.668830Z'
+publishDate: '2022-12-05T20:13:59.469736Z'
 publication_types:
 - '2'
-abstract: textlessptextgreatertextlessstrongtextgreaterAbstract.textless/strongtextgreater
-  In north-western Tibet (34.0textlessspan class=\"inline-formula\"textgreater$^textrm∘$textless/spantextgreater&thinsp;N,
+abstract: In north-western Tibet (34.0textlessspan class=\"inline-formula\"textgreater$^textrm∘$textless/spantextgreater&thinsp;N,
   82.2textlessspan class=\"inline-formula\"textgreater$^textrm∘$textless/spantextgreater&thinsp;E)
   near lake Aru Co, the entire ablation areas of two glaciers (Aru-1 and Aru-2) suddenly
   collapsed on 17 July and 21 September 2016. The masses transformed into ice avalanches
@@ -73,7 +72,7 @@ abstract: textlessptextgreatertextlessstrongtextgreaterAbstract.textless/strongt
   silt with a low friction angle. The twin 2016 Aru collapses would thus have been
   driven by a failing basal substrate linked to increasing pore water pressure in
   the subglacial drainage system in response to increases in surface melting and rain
-  during the 5–6 years preceding the collapse dates.textless/ptextgreater
+  during the 5–6 years preceding the collapse dates.
 publication: '*The Cryosphere*'
 url_pdf: https://www.the-cryosphere.net/12/2883/2018/
 doi: https://doi.org/10.5194/tc-12-2883-2018

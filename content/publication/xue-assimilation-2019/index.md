@@ -2,7 +2,7 @@
 title: Assimilation of Satellite-Based Snow Cover and Freeze/Thaw Observations Over
   High Mountain Asia
 date: '2019-01-01'
-publishDate: '2022-12-05T16:59:29.929469Z'
+publishDate: '2022-12-05T20:14:01.106492Z'
 authors:
 - Yuan Xue
 - Paul R. Houser

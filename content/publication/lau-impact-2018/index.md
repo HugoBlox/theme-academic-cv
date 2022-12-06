@@ -3,7 +3,7 @@ title: 'Impact of Snow Darkening by Deposition of Light-Absorbing Aerosols on Sn
   Cover in the Himalayas–Tibetan Plateau and Influence on the Asian Summer Monsoon:
   A Possible Mechanism for the Blanford Hypothesis'
 date: '2018-11-01'
-publishDate: '2022-12-05T16:59:32.455265Z'
+publishDate: '2022-12-05T20:14:04.281203Z'
 authors:
 - William K. M. Lau
 - Kyu-Myong Kim

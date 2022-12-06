@@ -33,14 +33,13 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-12-05T16:59:39.629196Z'
+publishDate: '2022-12-05T20:14:13.847544Z'
 publication_types:
 - '2'
-abstract: textlessptextgreatertextlessstrong class=\"journal-contentHeaderColor\"textgreaterAbstract.textless/strongtextgreater
-  Parameterizing incident solar radiation over complex topography regions in Earth
-  System Models (ESMs) remains a challenging task. In ESMs, downward solar radiative
-  fluxes at the surface are typically computed using plane parallel radiative transfer
-  schemes, which do not explicitly account for the effects of a three-dimensional
+abstract: Parameterizing incident solar radiation over complex topography regions
+  in Earth System Models (ESMs) remains a challenging task. In ESMs, downward solar
+  radiative fluxes at the surface are typically computed using plane parallel radiative
+  transfer schemes, which do not explicitly account for the effects of a three-dimensional
   topography, such as shading and reflections. To improve the representation of these
   processes, we introduce and test a parameterization of radiation-topography interactions
   tailored to the Geophysical Fluid Dynamics Laboratory (GFDL) ESM land model. The
@@ -65,7 +64,7 @@ abstract: textlessptextgreatertextlessstrong class=\"journal-contentHeaderColor\
   average topographic corrections. Finally, we quantify the importance of the topographic
   correction for a varying number of terrain clusters and for different radiation
   terms (direct, diffuse, and reflected radiative fluxes) in order to inform the application
-  of this methodology in different ESMs with varying sub-grid tile structure.textless/ptextgreater
+  of this methodology in different ESMs with varying sub-grid tile structure.
 publication: '*EGUsphere*'
 url_pdf: https://egusphere.copernicus.org/preprints/2022/egusphere-2022-770/
 doi: 10.5194/egusphere-2022-770

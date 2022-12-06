@@ -40,7 +40,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-12-05T16:59:30.966240Z'
+publishDate: '2022-12-05T20:14:02.451318Z'
 publication_types:
 - '2'
 abstract: High-mountain Asia (HMA) constitutes the largest glacierized region outside

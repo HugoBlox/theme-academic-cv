@@ -1,7 +1,7 @@
 ---
 title: Mass loss from calving in Himalayan proglacial lakes
 date: '2019-01-01'
-publishDate: '2022-12-05T16:59:30.300613Z'
+publishDate: '2022-12-05T20:14:01.576975Z'
 authors:
 - C. Scott Watson
 - Jeffrey S. Kargel

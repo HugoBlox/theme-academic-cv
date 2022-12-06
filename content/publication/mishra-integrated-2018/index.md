@@ -3,7 +3,7 @@ title: 'An integrated assessment approach for estimating the economic impacts of
   change on River systems: An application to hydropower and fisheries in a Himalayan
   River, Trishuli'
 date: '2018-09-01'
-publishDate: '2022-12-05T16:59:31.933799Z'
+publishDate: '2022-12-05T20:14:03.587760Z'
 authors:
 - Shruti Khadka Mishra
 - John Hayse

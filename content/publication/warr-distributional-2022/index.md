@@ -36,7 +36,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-12-05T16:59:39.291255Z'
+publishDate: '2022-12-05T20:14:13.398600Z'
 publication_types:
 - '2'
 abstract: The high mountain regions of Asia contain more glacial ice than anywhere

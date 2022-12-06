@@ -33,12 +33,11 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-12-05T16:59:38.752918Z'
+publishDate: '2022-12-05T20:14:12.716857Z'
 publication_types:
 - '2'
-abstract: 'textlessptextgreatertextlessstrong class=\"journal-contentHeaderColor\"textgreaterAbstract.textless/strongtextgreater
-  Snow cover mapping algorithms utilizing multispectral satellite data at various
-  spatial resolutions are available, each treating subpixel variation differently.
+abstract: 'Snow cover mapping algorithms utilizing multispectral satellite data at
+  various spatial resolutions are available, each treating subpixel variation differently.
   Past evaluations of snow mapping accuracy typically relied on satellite data collected
   at a higher spatial resolution than the data in question. However, these optical
   data cannot characterize snow cover mapping performance under forest canopies or
@@ -65,7 +64,7 @@ abstract: 'textlessptextgreatertextlessstrong class=\"journal-contentHeaderColor
   %), with higher F statistics (95.6 %, 96.1 %) relative to the band ratio approaches
   for MODIS. Landsat 8 products are all spectral mixture methods with low biases (-0.4
   to 0.3 %), low RMSE (11.4 to 15.8 %), and high F statistics (97.3 to 99.1 %). Spectral
-  unmixing methods can improve snow cover mapping at the global scale.textless/ptextgreater'
+  unmixing methods can improve snow cover mapping at the global scale.'
 publication: '*The Cryosphere Discussions*'
 url_pdf: https://tc.copernicus.org/preprints/tc-2022-159/
 doi: 10.5194/tc-2022-159
