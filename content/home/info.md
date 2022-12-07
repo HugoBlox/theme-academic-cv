@@ -12,10 +12,10 @@ weight = 2
 
 +++
 
-Some of the questions that guide our research: 
+Assessing and projecting changes in HMA’s water, ice, snow, hazards, and related phenomena
+to improve our understanding of regional changes, water resources, and induced impacts and
+vulnerabilities in human and biogeophysical systems. 
 
-1. What is driving changes in hydrology and cryosphere in the High Asia region?
-2. What range of possible impacts on local stakeholders can we expect in the future?
-3. ...
-
-In our research, we use satellite data, model simulations and field data to assess the changing hydrology and cryosphere of the High Mountain Asia region.
+Using open source science approaches to accelerate advances, foster transdisciplinary
+research and ensure FAIR (findability, accessability, interoperability, and
+reproducability) practices.
