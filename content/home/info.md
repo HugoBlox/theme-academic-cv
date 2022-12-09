@@ -17,5 +17,5 @@ to improve our understanding of regional changes, water resources, and induced i
 vulnerabilities in human and biogeophysical systems. 
 
 Using open source science approaches to accelerate advances, foster transdisciplinary
-research and ensure FAIR (findability, accessability, interoperability, and
-reproducability) practices.
+research and ensure FAIR (findability, accessibility, interoperability, and
+reproducibility) practices.
