@@ -3,7 +3,7 @@
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: accomplishments
 
-active: false
+active: true
 
 
 # This file represents a page section.
