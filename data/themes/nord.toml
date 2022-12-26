@@ -16,23 +16,6 @@ name = "nord" # Based on https://www.nordtheme.com/
   menu_title = "#D08770"
 
   # Home sections
-  home_section_odd = "#ECEFF4"
-  home_section_even = "#D8DEE9"
+  home_section_odd = "#FFFBF2"
+  home_section_even = "#FFFBF2"
 
-[dark]
-  # Primary
-  primary = "#88C0D0"
-  background = "#2E3440"
-
-  link = "#88C0D0"
-  link_hover = "#D08770"
-
-  # Menu
-  menu_primary = "#3B4252"
-  menu_text = "#D8DEE9"
-  menu_text_active = "#88C0D0"
-  menu_title = "#81A1C1"
-
-  # Home sections
-  home_section_odd = "#4C566A"
-  home_section_even = "#3B4252"
