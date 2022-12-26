@@ -6,14 +6,14 @@ name = "nord" # Based on https://www.nordtheme.com/
   primary = "#012641"
   background = "#FFFBF2"
 
-  link = "#D08770"
-  link_hover = "#88C0D0"
+  link = "#012641"
+  link_hover = "#A23E02"
 
   # Menu
   menu_primary = "#FFFBF2"
   menu_text = "#012641"
   menu_text_active = "#EBCB8B"
-  menu_title = "#D08770"
+  menu_title = "#012641"
 
   # Home sections
   home_section_odd = "#FFFBF2"
