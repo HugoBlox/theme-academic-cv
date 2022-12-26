@@ -9,7 +9,7 @@ appearance:
   theme_day: nord
   theme_night: nord
   font: minimal
-  font_size: M
+  font_size: S
 
 # SEO
 
