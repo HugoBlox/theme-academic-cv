@@ -1,0 +1,38 @@
+# Theme metadata
+name = "nord" # Based on https://www.nordtheme.com/
+
+[light]
+  # Primary
+  primary = "#D08770"
+  background = "#ECEFF4"
+
+  link = "#D08770"
+  link_hover = "#88C0D0"
+
+  # Menu
+  menu_primary = "#5E81AC"
+  menu_text = "#E5E9F0"
+  menu_text_active = "#EBCB8B"
+  menu_title = "#D08770"
+
+  # Home sections
+  home_section_odd = "#ECEFF4"
+  home_section_even = "#D8DEE9"
+
+[dark]
+  # Primary
+  primary = "#88C0D0"
+  background = "#2E3440"
+
+  link = "#88C0D0"
+  link_hover = "#D08770"
+
+  # Menu
+  menu_primary = "#3B4252"
+  menu_text = "#D8DEE9"
+  menu_text_active = "#88C0D0"
+  menu_title = "#81A1C1"
+
+  # Home sections
+  home_section_odd = "#4C566A"
+  home_section_even = "#3B4252"
