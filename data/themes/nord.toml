@@ -13,7 +13,7 @@ name = "nord" # Based on https://www.nordtheme.com/
   menu_primary = "#FFFBF2"
   menu_text = "#A23E02"
   menu_text_active = "#C49373"
-  menu_title = "#012641"
+  menu_title = "#A23E02"
 
   # Home sections
   home_section_odd = "#FFFBF2"
