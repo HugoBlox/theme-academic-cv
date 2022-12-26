@@ -6,8 +6,8 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
-  theme_night: minimal
+  theme_day: nord
+  theme_night: nord
   font: minimal
   font_size: S
 
