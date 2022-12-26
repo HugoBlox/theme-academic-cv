@@ -11,7 +11,7 @@ name = "nord" # Based on https://www.nordtheme.com/
 
   # Menu
   menu_primary = "#FFFBF2"
-  menu_text = "#012641"
+  menu_text = "#A23E02"
   menu_text_active = "#C49373"
   menu_title = "#012641"
 
