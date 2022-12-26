@@ -6,7 +6,7 @@ name = "nord" # Based on https://www.nordtheme.com/
   primary = "#000000"
   background = "#FFFBF2"
 
-  link = "#012641"
+  link = "#A23E02"
   link_hover = "#A23E02"
 
   # Menu
