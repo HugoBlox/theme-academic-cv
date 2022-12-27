@@ -46,7 +46,7 @@ links:
     url:  'https://www.tandfonline.com/doi/full/10.1080/17419166.2018.1555691'
  
 
-url_pdf: "publication/demsec20/backing_despots.pdf"
+# url_pdf: "publication/demsec20/backing_despots.pdf"
 url_code: ''
 url_dataset: ''
 url_poster: ''
