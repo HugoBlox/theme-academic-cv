@@ -15,7 +15,7 @@ authors:
 # - 'Equal contribution'
 
 date: '2022-01-01T00:00:00Z'
-doi: '10.1177/00104140221139380'
+# doi: '10.1177/00104140221139380'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2020-01-01T00:00:00Z'
@@ -30,7 +30,8 @@ publication_types: ['3']
 # publication: In *Comparative Political Studies*, forthcoming
 # publication_short: In *ICW*
 
-abstract: Some politicians engage in relationships with criminal actors in pursuit of mutual interests. How does their rise to power affect state capacity? I focus on one of Colombia’s worst episodes of criminal politics to understand how the victory of paramilitary-friendly mayors impacted subnational taxation. Focusing on close races, I find that the victory of a paramilitary-friendly mayor in 2007 led to a substantive drop in property taxation in subsequent years. I argue that criminal collusion allows politicians and criminals to accumulate wealth and political power, but doing so requires them to deliberately undermine local state institutions. Indeed, the evidence suggests that municipalities governed by paramilitary-friendly politicians experienced a weakening of property rights, the worsening of local judicial institutions, and an alteration of the electoral playing field. Rather than a mere consequence of criminal collusion, state weakening is a politically strategic decision that serves the interests of both criminals and politicians.
+# abstract: 
+
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
@@ -44,7 +45,7 @@ featured: true
  # - name: Custom Link
  # url:  
 
-url_pdf: "publication/cps22_col/criminalcollusion_colombia.pdf"
+url_pdf: ''
 url_code: ''
 url_dataset: ''
 url_poster: ''
