@@ -14,7 +14,7 @@ authors:
 #  - 'Equal contribution'
 # - 'Equal contribution'
 
-date: '2018-12-24T00:00:00Z'
+date: '2020-01-01T00:00:00Z'
 doi: 'https://doi.org/10.1080/17419166.2018.1555691'
 
 # Schedule page publish date (NOT publication's date).
@@ -45,7 +45,7 @@ featured: true
  # - name: Custom Link
  # url: https://www.tandfonline.com/doi/full/10.1080/17419166.2018.1555691
 
-url_pdf: 'backing_despots.pdf'
+url_pdf: "backing_despots.pdf"
 url_code: ''
 url_dataset: ''
 url_poster: ''
