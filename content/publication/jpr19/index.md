@@ -14,7 +14,7 @@ authors:
 # - 'Equal contribution'
 
 date: '2019-01-01T00:00:00Z'
-doi: 'https://doi.org/10.1177/0022343318802986'
+doi: 'https://journals.sagepub.com/doi/10.1177/0022343318802986'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2019-01-01T00:00:00Z'
