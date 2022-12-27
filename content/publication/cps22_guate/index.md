@@ -45,7 +45,7 @@ featured: true
  # - name: Custom Link
  # url:  
 
-url_pdf: "inter_prosecution_guatemala.pdf"
+url_pdf: "publication/cps22_guate/inter_prosecution_guatemala.pdf"
 url_code: ''
 url_dataset: ''
 url_poster: ''
