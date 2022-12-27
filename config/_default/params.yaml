@@ -8,7 +8,7 @@
 appearance:
   theme_day: nord
   theme_night: nord
-  font: classic
+  font: minimal
   font_size: M
   
 
