@@ -38,11 +38,11 @@ design:
 
 ### UTSA
 
-The Politics of Civil Wars (G)
-Human Rights and Global Development (G)
+- The Politics of Civil Wars (G)
+- Human Rights and Global Development (G)
 
 ### Tulane
 
-Scope and Methods for Political Science (UG)
-Comparative Politics (UG)
+- Scope and Methods for Political Science (UG)
+- Comparative Politics (UG)
 
