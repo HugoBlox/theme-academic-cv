@@ -19,7 +19,7 @@ content:
       - teaching
     tag: ''
     category: ''
-    publication_type: ''
+    publication_type: '1'
     author: ''
     exclude_featured: false
     exclude_future: false
