@@ -70,6 +70,9 @@ email: ''
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
+
+# {{< icon name="download" pack="fas" >}} Download my {{< staticref "https://app.box.com/s/nkikrodx3yscguuwtv1ayndu8u41858w" "newtab" >}}CV{{< /staticref >}}.
+
 ---
 
 I am an assistant professor of political science at the [University of Texas at San Antonio](https://www.utsa.edu). I am also a research affiliate at the [Violence and Transitional Justice Lab](https://kellogg.nd.edu/v-tj-lab-about) at Notre Dame's Kellogg Institute. Prior to coming to UTSA, I was a postdoctoral fellow at the Center for Inter-American Policy and Research (CIPR) at Tulane University. 
