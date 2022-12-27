@@ -16,6 +16,9 @@ main:
  #  name: Talks
  #  url: '#talks'
  #   weight: 40
+  - name: CV
+    url: https://app.box.com/s/nkikrodx3yscguuwtv1ayndu8u41858w
+    weight: 15
   - name: Publications
     url: '#publications'
     weight: 20
