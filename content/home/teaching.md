@@ -6,7 +6,7 @@ widget: pages
 design:
   spacing:
     # Customize the section spacing. Order is top, right, bottom, left.
-    padding: ["20px", "0", "20px", "0"]
+    padding: ["2px", "0", "2px", "0"]
     
 # This file represents a page section.
 headless: true
