@@ -6,7 +6,7 @@ widget: blank
 design:
   spacing:
     # Customize the section spacing. Order is top, right, bottom, left.
-    padding: ["2px", "0", "2px", "0"]
+    padding: ["0", "0", "0", "0"]
     
 # This file represents a page section.
 headless: true
@@ -20,8 +20,7 @@ subtitle: ''
 content:
   # Filter on criteria
   filters:
-    folders:
-      - teaching
+    folders: ''
     tag: ''
     category: ''
     publication_type: ''
