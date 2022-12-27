@@ -41,7 +41,7 @@ tags: []
 featured: true
 
 # Custom links (uncomment lines below)
-  links:
+links:
   - name: Article
     url:  'https://journals.sagepub.com/doi/10.1177/00220027221118813'
 
