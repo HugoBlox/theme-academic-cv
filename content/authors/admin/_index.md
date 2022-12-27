@@ -26,13 +26,13 @@ interests:
 education:
   courses:
     - course: PhD in Political Science
-      institution: University of Notre Dame 🇺🇸
+      institution: [University of Notre Dame](www.nd.edu) 🇺🇸
       year: 2020
     - course: MA in Public Policy
-      institution: Universität Erfurt 🇩🇪
+      institution: [Universität Erfurt](www.uni-erfurt.de) 🇩🇪
       year: 2013
     - course: BA in Political Science 
-      institution: Pontificia Universidad Javeriana 🇨🇴
+      institution: [Pontificia Universidad Javeriana](www.javeriana.edu.co) 🇨🇴
       year: 2009
 
 # Social/Academic Networking
@@ -45,10 +45,10 @@ social:
     link: '/#contact'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/camilonim
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=M9aoOygAAAAJ&hl=en
   - icon: github
     icon_pack: fab
     link: https://github.com/gcushen
