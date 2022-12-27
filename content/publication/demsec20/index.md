@@ -51,7 +51,7 @@ url_dataset: ''
 url_poster: ''
 # url_project: ''
 # url_slides: ''
-url_source: 'https://www.tandfonline.com/doi/full/10.1080/17419166.2018.1555691'
+url_source: ''
 url_video: ''
 
 # Featured image
