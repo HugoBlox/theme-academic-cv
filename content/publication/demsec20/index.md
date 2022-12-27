@@ -45,7 +45,7 @@ featured: true
  - name: Custom Link
    url: https://www.tandfonline.com/doi/full/10.1080/17419166.2018.1555691
 
-url_pdf: 'demsec20.pdf'
+url_pdf: ''
 url_code: ''
 url_dataset: ''
 url_poster: ''
