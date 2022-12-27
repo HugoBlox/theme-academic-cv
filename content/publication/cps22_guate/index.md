@@ -15,7 +15,7 @@ authors:
 # - 'Equal contribution'
 
 date: '2022-01-01T00:00:00Z'
-doi: '10.1177/00104140221139386'
+# doi: '10.1177/00104140221139386'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2020-01-01T00:00:00Z'
@@ -45,7 +45,13 @@ featured: true
  # - name: Custom Link
  # url:  
 
-url_pdf: "publication/cps22_guate/inter_prosecution_guatemala.pdf"
+
+# Custom links (uncomment lines below)
+links: 
+  - name: Article
+    url:  'https://journals.sagepub.com/doi/abs/10.1177/00104140221139386'
+
+# url_pdf: "publication/cps22_guate/inter_prosecution_guatemala.pdf"
 url_code: ''
 url_dataset: ''
 url_poster: ''
