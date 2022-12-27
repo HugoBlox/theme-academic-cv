@@ -1,7 +1,7 @@
 :root {
     --theme: #fff;
     --entry: #cfcfff;
-    --primary: rgba(0, 0, 106, 0.88);
+    --primary: rgba(0, 0, 0, 0);
     --secondary: rgba(0, 0, 80, 0.78);
     --tertiary: rgba(0, 0, 106, 0.16);
     --content: rgba(0, 0, 60, 0.88);
@@ -13,7 +13,7 @@
 .light {
     --theme: #101c7a;
     --entry: #202062;
-    --primary: rgba(235, 235, 255, 0.96);
+    --primary: rgba(0, 0, 0, 0);
     --secondary: rgba(235, 235, 255, 0.66);
     --tertiary: rgba(1, 1, 5, 0.32);
     --content: rgba(235, 235, 255, 0.82);
