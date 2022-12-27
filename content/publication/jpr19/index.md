@@ -41,7 +41,7 @@ featured: true
 
 # Custom links (uncomment lines below)
 links:
-  - name: Custom Link
+  - name: Article
     url: 'https://journals.sagepub.com/doi/10.1177/0022343318802986'
 
 # url_pdf: "publication/jpr19/democracy_countryside.pdf"
