@@ -42,11 +42,11 @@ content:
     - 'Tuesday 2:00 - 3:30 pm'
     - 'By appointment'
  # appointment_url: 'https://calendly.com'
-  contact_links:
-    - icon: twitter
-      icon_pack: fab
-      name: DM Me
-      link: 'https://twitter.com/camilonim'
+ # contact_links:
+ #   - icon: twitter
+ #     icon_pack: fab
+ #     name: DM Me
+ #     link: 'https://twitter.com/camilonim'
   #  - icon: video
   #    icon_pack: fas
    #   name: Zoom Me
