@@ -42,8 +42,8 @@ featured: true
 # Custom links (uncomment lines below)
   links: 
   - name: Article
-  url:  "https://journals.sagepub.com/doi/abs/10.1177/00104140221139380"
-
+    url:  'https://journals.sagepub.com/doi/abs/10.1177/00104140221139380'
+    
 url_pdf: ''
 url_code: ''
 url_dataset: ''
