@@ -10,7 +10,7 @@
     --border: #eee;
 }
 
-.dark {
+.light {
     --theme: #101c7a;
     --entry: #202062;
     --primary: rgba(235, 235, 255, 0.96);
