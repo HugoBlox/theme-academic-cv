@@ -70,7 +70,7 @@ email: ''
 highlight_name: true
 ---
 
-I am an assistant professor of political science at the [University of Texas at San Antonio](www.utsa.edu). I am also a research affiliate at the [Violence and Transitional Justice Lab](https://kellogg.nd.edu/v-tj-lab-about) at Notre Dame's Kellogg Institute. Prior to coming to UTSA, I was a postdoctoral fellow at the Center for Inter-American Policy and Research (CIPR) at Tulane University. 
+I am an assistant professor of political science at the [University of Texas at San Antonio](https://www.utsa.edu). I am also a research affiliate at the [Violence and Transitional Justice Lab](https://kellogg.nd.edu/v-tj-lab-about) at Notre Dame's Kellogg Institute. Prior to coming to UTSA, I was a postdoctoral fellow at the Center for Inter-American Policy and Research (CIPR) at Tulane University. 
 
 My main research interests include political economy, political and criminal violence, state capacity, the politics of land, and the intersection of conflict and democracy in Latin America. My current research explores the consequences of land inequality and criminal politics for state capacity, in particular, the state's ability to extract revenue from the population. I am also interested in why and how changes in democratic institutions trigger outbreaks of violent conflict in some cases but in others contribute to contain violence and promote peaceful development. 
 
