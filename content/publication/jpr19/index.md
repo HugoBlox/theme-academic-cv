@@ -44,7 +44,7 @@ featured: true
  # - name: Custom Link
  # url: https://journals.sagepub.com/doi/10.1177/0022343318802986
 
-url_pdf: "democracy_countryside.pdf"
+url_pdf: "publication/jpr19/democracy_countryside.pdf"
 url_code: ''
 url_dataset: ''
 url_poster: ''
