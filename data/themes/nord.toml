@@ -3,7 +3,7 @@ name = "nord" # Based on https://www.nordtheme.com/
 
 [light]
   # Primary
-  primary = "#FFFBF2"
+  primary = "#000000"
   background = "#FFFBF2"
 
   link = "#A23E02"
