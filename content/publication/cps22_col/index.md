@@ -44,7 +44,7 @@ featured: true
  # - name: Custom Link
  # url:  
 
-url_pdf: "criminalcollusion_colombia.pdf"
+url_pdf: "publication/cps22_guate/criminalcollusion_colombia.pdf"
 url_code: ''
 url_dataset: ''
 url_poster: ''
