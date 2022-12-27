@@ -77,4 +77,4 @@ I am an assistant professor of political science at the [University of Texas at 
 My main research interests include political economy, political and criminal violence, state capacity, the politics of land, and the intersection of conflict and democracy in Latin America. My current research explores the consequences of land inequality and criminal politics for state capacity, in particular, the state's ability to extract revenue from the population. I am also interested in why and how changes in democratic institutions trigger outbreaks of violent conflict in some cases but in others contribute to contain violence and promote peaceful development. 
 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "https://app.box.com/s/nkikrodx3yscguuwtv1ayndu8u41858w" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "https://app.box.com/s/nkikrodx3yscguuwtv1ayndu8u41858w" "newtab" >}}CV{{< /staticref >}}.
