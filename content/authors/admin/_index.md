@@ -50,8 +50,8 @@ social:
     icon_pack: fas
     link: https://scholar.google.com/citations?user=M9aoOygAAAAJ&hl=en
   - icon: orcid
-    icon_pack: fas
-    link: https://github.com/gcushen
+    icon_pack: ai
+    link: https://orcid.org/0000-0002-1917-003X
  # - icon: linkedin
  #   icon_pack: fab
  #   link: https://www.linkedin.com/
