@@ -15,7 +15,7 @@ authors:
 # - 'Equal contribution'
 
 date: '2022-01-01T00:00:00Z'
-doi: '10.1177/00220027221118813'
+# doi: '10.1177/00220027221118813'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2020-01-01T00:00:00Z'
@@ -41,11 +41,11 @@ tags: []
 featured: true
 
 # Custom links (uncomment lines below)
- # links:
- # - name: Custom Link
- # url:  
+  links:
+  - name: Article
+    url:  'https://journals.sagepub.com/doi/10.1177/00220027221118813'
 
-url_pdf: "publication/jcr22/landcoalitions_colombia.pdf"
+# url_pdf: "publication/jcr22/landcoalitions_colombia.pdf"
 url_code: ''
 url_dataset: ''
 url_poster: ''
