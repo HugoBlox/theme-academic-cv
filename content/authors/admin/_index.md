@@ -19,20 +19,20 @@ organizations:
 # Interests to show in About widget
 interests:
   - Political and criminal violence
-  - State capacity
-  - Politics of land
+  - State capacity and rule of law
+  - Politics of land conflict
 
 # Education to show in About widget
 education:
   courses:
     - course: PhD in Political Science
-      institution: University of Notre Dame 🇺🇸
+      institution: University of Notre Dame 
       year: 2020
     - course: MA in Public Policy
-      institution: Universität Erfurt 🇩🇪
+      institution: Universität Erfurt 
       year: 2013
     - course: BA in Political Science 
-      institution: Pontificia Universidad Javeriana🇨🇴
+      institution: Pontificia Universidad Javeriana
       year: 2009
 
 # Social/Academic Networking
