@@ -50,6 +50,10 @@ url_poster: ''
 url_source: ''
 url_video: ''
 
+# Custom links (uncomment lines below)
+links: 
+  - name: Article
+    url:  'https://journals.sagepub.com/doi/abs/10.1177/00104140221139380'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
