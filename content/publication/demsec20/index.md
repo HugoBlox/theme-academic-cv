@@ -45,7 +45,7 @@ featured: true
  # - name: Custom Link
  # url: https://www.tandfonline.com/doi/full/10.1080/17419166.2018.1555691
 
-url_pdf: 'publication/demsec20/Backing_Despots_Foreign_Aid_and_the_Survival_of_Autocratic_Regimes.pdf'
+url_pdf: 'content/publication/demsec20/Backing_Despots_Foreign_Aid_and_the_Survival_of_Autocratic_Regimes.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
