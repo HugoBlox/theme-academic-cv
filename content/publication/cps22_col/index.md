@@ -15,7 +15,7 @@ authors:
 # - 'Equal contribution'
 
 date: '2022-01-01T00:00:00Z'
-doi: '10.1177/00104140221139380'
+doi: ''
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2020-01-01T00:00:00Z'
@@ -40,11 +40,11 @@ tags: []
 featured: true
 
 # Custom links (uncomment lines below)
- # links:
- # - name: Custom Link
- # url:  
+  links: 
+  - name: Article
+  url:  "https://journals.sagepub.com/doi/abs/10.1177/00104140221139380"
 
-url_pdf: "publication/cps22_col/criminalcollusion_colombia.pdf"
+url_pdf: ''
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -53,11 +53,6 @@ url_poster: ''
 url_source: ''
 url_video: ''
 
-links:
-  - icon_pack: fab
-    icon: twitter
-    name: Follow
-    url: 'https://twitter.com/Twitter'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
