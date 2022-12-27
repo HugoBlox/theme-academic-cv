@@ -1,11 +1,12 @@
 ---
-title: 'An example conference paper'
+title: 'Backing Despots? Foreign Aid and the Survival of Autocratic Regimes'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
+  - Luis Schenoni
 
 
 # Author notes (optional)
@@ -13,11 +14,11 @@ authors:
 #  - 'Equal contribution'
 # - 'Equal contribution'
 
-date: '2013-07-01T00:00:00Z'
-doi: ''
+date: '2018-12-24T00:00:00Z'
+doi: 'https://doi.org/10.1080/17419166.2018.1555691'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2020-01-01T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -26,10 +27,10 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['2']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Wowchemy Conference*
-publication_short: In *ICW*
+publication: In *Democracy and Security*
+# publication_short: In *ICW*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: What is the effect of foreign aid on the survival of autocratic regimes? Extant work about the effect of foreign aid on the recipient’s political regime has come to contradictory conclusions. Current findings display the full spectrum of possibilities from a democratizing effect to the enhancement of authoritarian survival. While some studies suggest that foreign aid strengthen autocrats and their incentives to cling to power, others have focused on specific periods and donors, thus finding a democratizing effect of foreign aid. In this article, we argue that the effect of foreign aid on autocratic survival does not operate in a direct way, but it is conditional on the levels of political leverage exerted by democratic donors vis-à-vis the autocratic leaders. This leverage, we find, is defined by the capability of democratic donors to back conditionality with effective political pressure. More specifically, we find that given similar levels of aid, autocratic recipients that are highly dependent on the United States—a quintessential democratic donor with extensive political influence—have a shorter survival rate when compared to those with which the United States has weaker ties and thus lower leverage.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -40,11 +41,11 @@ tags: []
 featured: true
 
 # Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
+ links:
+ - name: Custom Link
+   url: https://www.tandfonline.com/doi/full/10.1080/17419166.2018.1555691
 
-url_pdf: ''
+url_pdf: 'demsec20.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
