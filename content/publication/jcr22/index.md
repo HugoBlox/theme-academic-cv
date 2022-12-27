@@ -15,7 +15,7 @@ authors:
 # - 'Equal contribution'
 
 date: '2022-01-01T00:00:00Z'
-doi: 'https://doi.org/10.1177/00220027221118813'
+doi: 'https://journals.sagepub.com/doi/10.1177/00220027221118813'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2020-01-01T00:00:00Z'
@@ -43,7 +43,7 @@ featured: true
 # Custom links (uncomment lines below)
  # links:
  # - name: Custom Link
- # url: https://www.tandfonline.com/doi/full/10.1080/17419166.2018.1555691
+ # url:  
 
 url_pdf: "landcoalitions_colombia.pdf"
 url_code: ''
