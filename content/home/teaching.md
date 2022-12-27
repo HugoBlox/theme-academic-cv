@@ -38,6 +38,11 @@ design:
 
 ### UTSA
 
-#### The Politics of Civil Wars
-#### Human Rights and Global Development
+The Politics of Civil Wars
+Human Rights and Global Development
+
+### Tulane
+
+Scope and Methods for Political Science
+Comparative Politics
 
