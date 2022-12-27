@@ -26,13 +26,13 @@ interests:
 education:
   courses:
     - course: PhD in Political Science
-      institution: [University of Notre Dame](https://www.nd.edu) 🇺🇸
+      institution: University of Notre Dame 🇺🇸
       year: 2020
     - course: MA in Public Policy
-      institution: [Universität Erfurt](https://www.uni-erfurt.de) 🇩🇪
+      institution: Universität Erfurt 🇩🇪
       year: 2013
     - course: BA in Political Science 
-      institution: [Pontificia Universidad Javeriana](https://www.javeriana.edu.co) 🇨🇴
+      institution: Pontificia Universidad Javeriana🇨🇴
       year: 2009
 
 # Social/Academic Networking
