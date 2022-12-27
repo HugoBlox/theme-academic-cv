@@ -41,9 +41,9 @@ tags: []
 featured: true
 
 # Custom links (uncomment lines below)
- links:
- - name: Custom Link
-   url: https://www.tandfonline.com/doi/full/10.1080/17419166.2018.1555691
+ # links:
+ # - name: Custom Link
+ # url: https://www.tandfonline.com/doi/full/10.1080/17419166.2018.1555691
 
 url_pdf: ''
 url_code: ''
