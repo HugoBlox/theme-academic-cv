@@ -43,6 +43,8 @@ featured: true
 links:
   - name: Article
     url: 'https://journals.sagepub.com/doi/10.1177/0022343318802986'
+  - name: Replication Material
+    url:  'publications/jpr19/jpr19_code.zip'
 
 # url_pdf: "publication/jpr19/democracy_countryside.pdf"
 url_code: ''
