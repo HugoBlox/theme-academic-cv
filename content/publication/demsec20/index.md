@@ -45,7 +45,7 @@ links:
   - name: Article
     url:  'https://www.tandfonline.com/doi/full/10.1080/17419166.2018.1555691'
   - name: Replication Material
-    url:  'publications/demsec20/demsec20_code.zip'
+    url:  'publication/demsec20/demsec20_code.zip'
  
 
 # url_pdf: "publication/demsec20/backing_despots.pdf"
