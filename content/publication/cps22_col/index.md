@@ -43,6 +43,9 @@ featured: true
 links: 
   - name: Article
     url:  'https://journals.sagepub.com/doi/abs/10.1177/00104140221139380'
+  - name: Replication Material
+    url:  'publication/cps22_col/cps22col_code.zip'
+
 
     
 url_pdf: ''
