@@ -45,6 +45,9 @@ featured: true
 links: 
   - name: Article
     url:  'https://journals.sagepub.com/doi/abs/10.1177/00104140221139386'
+  - name: Replication Material
+    url:  'publication/cps22_guate/cps22guate_code.zip'
+    
 
 # url_pdf: "publication/cps22_guate/inter_prosecution_guatemala.pdf"
 url_code: ''
