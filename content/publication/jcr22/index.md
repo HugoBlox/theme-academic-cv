@@ -44,6 +44,9 @@ featured: true
 links:
   - name: Article
     url:  'https://journals.sagepub.com/doi/10.1177/00220027221118813'
+  - name: Replication Material
+    url:  'publication/jcr22/jcr22_code.zip'
+
 
 # url_pdf: "publication/jcr22/landcoalitions_colombia.pdf"
 url_code: ''
