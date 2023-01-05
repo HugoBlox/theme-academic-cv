@@ -6,7 +6,7 @@ subtitle: ""
 summary: ""
 authors: [ap]
 tags: [2020]
-categories: []
+categories: [2020, aggiornamento]
 date: 2019-11-16T09:12:44+01:00
 lastmod: 2019-11-16T09:12:44+01:00
 featured: false

@@ -6,7 +6,7 @@ subtitle: ":("
 summary: ""
 authors: [af]
 tags: [2022]
-categories: []
+categories: [2022, cancellazione]
 date: 2022-01-05T17:58:22+01:00
 lastmod: 2022-01-05T17:58:22+01:00
 featured: false

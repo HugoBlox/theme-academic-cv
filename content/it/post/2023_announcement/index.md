@@ -6,7 +6,7 @@ subtitle: "Segnate sabato 7 gennaio 2023 sui vostri calendari!"
 summary: "Segnate sabato 7 gennaio 2023 sui vostri calendari!"
 authors: [af]
 tags: [2023]
-categories: []
+categories: [2023, annuncio]
 date: 2022-11-01T16:05:08+01:00
 lastmod: 2022-11-01T16:05:08+01:00
 featured: false

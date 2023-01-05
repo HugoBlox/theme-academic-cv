@@ -4,6 +4,7 @@ date: 2020-01-02T13:24:12+01:00
 featured: false
 share: false
 tags: [2020]
+categories: [2020, aggiornamento]
 ---
 In data 2 gennaio dei rappresentanti di APAZAF hanno svolto una seconda ricognizione del Luogo. Qui il riassunto di cosa hanno determinato:
 

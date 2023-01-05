@@ -7,16 +7,11 @@ La battaglia procede secondo delle semplici [regole](/it/rules), alla base è "c
 Come ogni anno, la battaglia si svolgerà al [Bivacco Menegazzi](https://goo.gl/maps/CRMbn2kRX38G78UF9), un bucolico bivacco con tutte le caratteristiche desiderabili: è al contempo facile da raggiungere e sufficientemente in alto (1737 m s.l.m.) da essere ben fornito di neve.
 È molto semplice: andiamo al bivacco, ci divertiamo un po', mangiamo un pranzo caldo, ci divertiamo un altro po' e torniamo a casa, stanchi e felici.
 
-## Nota COVID-19
-La Battaglia si svolge all'aperto, il che minimizza il rischio di contrarre il virus.
-Ciononostante, è richiesto che tutti i partecipanti indossino una mascherina quando possibile e mantengano le distanze minime.
-
-Tutti i partecipanti devono attenersi alle normative COVID locali e nazionali.
-
 ## Dove e come ci troviamo?
 Vi state chiedendo come raggiungerci? Qui di sotto ci sono alcuni dettagli per aiutarvi a pianificare il viaggio.
-Ci incontriamo alla **Stazione di Belluno** la mattina del **7 gennaio 2023 alle 07:00**.
+Ci incontriamo alla **Stazione di Belluno** la mattina del **7 gennaio 2023 alle 07:30**.
 Da lì in poi, organizzeremo il trasporto in auto e divideremo i partecipanti in gruppi in modo da minimizzare il numero delle stesse.
+Naturalmente è possibile anche recarsi in maniera autonoma al luogo della battaglia, o trovarsi a metà strada.
 
 #### Arrivare a Belluno
 Arrivare a Belluno in auto è facile: basta prendere la A27, circa 1.5 ore da Padova o Venezia, 2.5 ore da Trieste, 4 ore da Milano. Ogni anno diversi palladinevisti raggiungono Belluno dai quattro angoli del globo, per cui se volete condividere il mezzo di trasporto [informateci](/it/contact): tenteremo di mettervi in contatto tra di voi! Potete anche unirvi al [gruppo Telegram](https://t.me/joinchat/UsNhFbmVl6W_Odyz) per coordinarvi in autonomia con gli altri partecipanti.
@@ -64,7 +59,6 @@ Ecco una breve lista di cose che potreste voler portare con voi sino al bivacco.
 - Qualcosa da mangiare (cioccolato!), anche se il pranzo sarà fornito (vedi sotto)
 - Qualcosa da bere, almeno 1 l è fortemente consigliato
 - Scarponi da montagna e/o ciaspe
-- Certificazione Verde COVID-19 valida
 
 #### Fortemente consigliato
 - Una torcia frontale

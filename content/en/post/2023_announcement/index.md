@@ -6,7 +6,7 @@ subtitle: "Mark Saturday, 7 January 2023 on your calendars!"
 summary: "Mark Saturday, 7 January 2023 on your calendars!"
 authors: [af]
 tags: [2023]
-categories: []
+categories: [2023, announcement]
 date: 2022-11-01T16:05:08+01:00
 lastmod: 2022-11-01T16:05:08+01:00
 featured: false

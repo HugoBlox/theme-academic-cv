@@ -9,16 +9,11 @@ The fight follows a simple set of [rules](/rules), in the "capture the flag" sty
 Like every year, the fight takes place at the [Bivacco Menegazzi](https://goo.gl/maps/CRMbn2kRX38G78UF9), a beautiful bivouac which has the desiderable characteristics of being both easy to reach and positioned at an elevation of 1737 m, where snow is often plentiful.  
 It's pretty simple: we go there, we have some fun, we eat a warm lunch, we have some more fun and we go back home, happy and tired.
 
-## COVID-19 notice
-The Battle takes place in the open, which minimises the risk of exposure to the virus.
-Nevertheless, participants are required to wear a mask whenever possible and maintain social distancing.
-
-Additionally, participants are required to comply to all local and national COVID regulations.
-
 ## Where and when do we meet?
 Wondering how to get to us? Here are some organisational details to help with planning your trip!  
-We will meet in front of **Belluno train station** the morning of the **7th of January, 2023, at 07:00**.
+We will meet in front of the **Belluno train station** the morning of the **7th of January, 2023, at 07:30**.
 From there on, we will organise transportation by car and separate the participants in groups, in order to minimise the number of vehicles.
+Of course, if you want to autonomously get to the battle site or meet half way, that is fine too!
 
 #### How to get to Belluno
 Getting to Belluno by car is easy: it is served by the A27 highway, about a 1.5 hour drive from Padova and Venice, 2.5 hours from Trieste, 4 hours from Milan. Every year snowballers from all over the world reach Belluno for the GBPN, so if you want to share the trip [let us know](/contact): we'll do our best to get you in touch with those who could be interested! You can also join the [Telegram group](https://t.me/joinchat/UsNhFbmVl6W_Odyz) to coordinate with the other participants.
@@ -68,7 +63,6 @@ Here's a short list of what you might want to bring along with you to the battle
 - Something to eat for yourself (chocolate!), although lunch will be provided (see below)
 - Something to drink, at least 1L is strongly recommended
 - Mountain boots or snow boots
-- Valid EU Digital COVID Certificate
 
 #### Highly recommended
 - A Headlamp

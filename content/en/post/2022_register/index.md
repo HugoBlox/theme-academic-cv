@@ -6,7 +6,7 @@ subtitle: "Quick! Be among the first to register to the snowy event of the year!
 summary: "Quick! Be among the first to register to the snowy event of the year!"
 authors: [af]
 tags: [2022]
-categories: []
+categories: [2022, announcement]
 date: 2021-12-06T18:51:11+01:00
 lastmod: 2021-12-06T18:51:11+01:00
 featured: false
