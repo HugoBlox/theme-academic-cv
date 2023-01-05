@@ -17,8 +17,9 @@ Additionally, participants are required to comply to all local and national COVI
 
 ## Where and when do we meet?
 Wondering how to get to us? Here are some organisational details to help with planning your trip!  
-We will meet in front of **Belluno's train station** the morning of the **7th of January, 2023, at 07:00**.
+We will meet in front of **Belluno's train station** the morning of the **7th of January, 2023, at 07:30**.
 From there on, we will organise transportation by car and separate the participants in groups, in order to minimise the number of vehicles.
+Of course, if you want to autonomously get to the battle site or meet half way, that is fine too!
 
 #### How to get to Belluno
 Getting to Belluno by car is easy: it is served by the A27 highway, about a 1.5 hour drive from Padova and Venice, 2.5 hours from Trieste, 4 hours from Milan. Every year snowballers from all over the world reach Belluno for the GBPN, so if you want to share the trip [let us know](/contact): we'll do our best to get you in touch with those who could be interested! You can also join the [Telegram group](https://t.me/joinchat/UsNhFbmVl6W_Odyz) to coordinate with the other participants.

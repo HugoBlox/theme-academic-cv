@@ -15,8 +15,9 @@ Tutti i partecipanti devono attenersi alle normative COVID locali e nazionali.
 
 ## Dove e come ci troviamo?
 Vi state chiedendo come raggiungerci? Qui di sotto ci sono alcuni dettagli per aiutarvi a pianificare il viaggio.
-Ci incontriamo alla **Stazione di Belluno** la mattina del **7 gennaio 2023 alle 07:00**.
+Ci incontriamo alla **Stazione di Belluno** la mattina del **7 gennaio 2023 alle 07:30**.
 Da lì in poi, organizzeremo il trasporto in auto e divideremo i partecipanti in gruppi in modo da minimizzare il numero delle stesse.
+Naturalmente è possibile anche recarsi in maniera autonoma al luogo della battaglia, o trovarsi a metà strada.
 
 #### Arrivare a Belluno
 Arrivare a Belluno in auto è facile: basta prendere la A27, circa 1.5 ore da Padova o Venezia, 2.5 ore da Trieste, 4 ore da Milano. Ogni anno diversi palladinevisti raggiungono Belluno dai quattro angoli del globo, per cui se volete condividere il mezzo di trasporto [informateci](/it/contact): tenteremo di mettervi in contatto tra di voi! Potete anche unirvi al [gruppo Telegram](https://t.me/joinchat/UsNhFbmVl6W_Odyz) per coordinarvi in autonomia con gli altri partecipanti.
