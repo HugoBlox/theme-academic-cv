@@ -6,7 +6,7 @@ subtitle: ""
 summary: ""
 authors: []
 tags: [2020]
-categories: []
+categories: [2020, update]
 date: 2019-12-24T18:24:12+01:00
 lastmod: 2019-12-24T18:24:12+01:00
 featured: false

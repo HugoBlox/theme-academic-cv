@@ -6,7 +6,7 @@ subtitle: "Sii tra i primi a iscriverti all'evento nevoso dell'anno!"
 summary: "Sii tra i primi a iscriverti all'evento nevoso dell'anno!"
 authors: [af]
 tags: [2022]
-categories: []
+categories: [2022, annuncio]
 date: 2021-12-06T18:51:11+01:00
 lastmod: 2021-12-06T18:51:11+01:00
 featured: false

@@ -6,10 +6,10 @@ subtitle: "Mark Saturday, 8 January 2022 on your calendars!"
 summary: "Mark Saturday, 8 January 2022 on your calendars!"
 authors: [af]
 tags: [2022]
-categories: []
+categories: [2022, announcement]
 date: 2021-11-14T15:12:11+01:00
 lastmod: 2021-11-14T15:12:11+01:00
-featured: true
+featured: false
 draft: false
 
 # Featured image

@@ -6,10 +6,10 @@ subtitle: "Segnate sabato 8 gennaio 2022 sui vostri calendari!"
 summary: "Segnate sabato 8 gennaio 2022 sui vostri calendari!"
 authors: [af]
 tags: [2022]
-categories: []
+categories: [2022, annuncio]
 date: 2021-11-14T15:12:11+01:00
 lastmod: 2021-11-14T15:12:11+01:00
-featured: true
+featured: false
 draft: false
 
 # Featured image

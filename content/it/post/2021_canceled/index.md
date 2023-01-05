@@ -6,7 +6,7 @@ subtitle: ":("
 summary: ""
 authors: [af]
 tags: [2021]
-categories: []
+categories: [2021, cancellazione]
 date: 2020-10-12T20:41:32+02:00
 lastmod: 2020-10-12T20:41:32+02:00
 featured: false
