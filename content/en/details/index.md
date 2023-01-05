@@ -9,12 +9,6 @@ The fight follows a simple set of [rules](/rules), in the "capture the flag" sty
 Like every year, the fight takes place at the [Bivacco Menegazzi](https://goo.gl/maps/CRMbn2kRX38G78UF9), a beautiful bivouac which has the desiderable characteristics of being both easy to reach and positioned at an elevation of 1737 m, where snow is often plentiful.  
 It's pretty simple: we go there, we have some fun, we eat a warm lunch, we have some more fun and we go back home, happy and tired.
 
-## COVID-19 notice
-The Battle takes place in the open, which minimises the risk of exposure to the virus.
-Nevertheless, participants are required to wear a mask whenever possible and maintain social distancing.
-
-Additionally, participants are required to comply to all local and national COVID regulations.
-
 ## Where and when do we meet?
 Wondering how to get to us? Here are some organisational details to help with planning your trip!  
 We will meet in front of **Belluno's train station** the morning of the **7th of January, 2023, at 07:30**.
@@ -69,7 +63,6 @@ Here's a short list of what you might want to bring along with you to the battle
 - Something to eat for yourself (chocolate!), although lunch will be provided (see below)
 - Something to drink, at least 1L is strongly recommended
 - Mountain boots or snow boots
-- Valid EU Digital COVID Certificate
 
 #### Highly recommended
 - A Headlamp
