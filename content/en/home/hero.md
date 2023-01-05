@@ -39,19 +39,19 @@ hero_media = "hero-academic.png"
 # Call to action links (optional).
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
-#[cta]
-#  url = "/register"
-#  label = "Register!"
-#  icon_pack = "fas"
-#  icon = "snowflake"
-  
-#[cta_alt]
-#  url = "/details"
-#  label = "Learn more"
-
 [cta]
-  url = "/post/2023_announcement"
-  label = "Read the announcement"
+  url = "/register"
+  label = "Register!"
+  icon_pack = "fas"
+  icon = "snowflake"
+  
+[cta_alt]
+  url = "/details"
+  label = "Learn more"
+
+#[cta]
+#  url = "/post/2023_announcement"
+#  label = "Read the announcement"
   
 #[cta_alt]
 #  url = "/register"
@@ -59,4 +59,4 @@ hero_media = "hero-academic.png"
   
 +++
 
-<!-- Following its millenary tradition, the next edition of the Great Snowball Fight will take place at the [Bivacco Menegazzi](https://goo.gl/maps/CRMbn2kRX38G78UF9) on the first Saturday of the year. --> 
+Following its millenary tradition, the next edition of the Great Snowball Fight will take place at the [Bivacco Menegazzi](https://goo.gl/maps/CRMbn2kRX38G78UF9) on the first Saturday of the year.

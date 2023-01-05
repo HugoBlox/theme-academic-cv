@@ -39,23 +39,23 @@ hero_media = ""
 # Call to action links (optional).
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
-#[cta]
-#  url = "/it/register"
-#  label = "Iscriviti!"
-#  icon_pack = "fas"
-#  icon = "snowflake"
+[cta]
+  url = "/it/register"
+  label = "Iscriviti!"
+  icon_pack = "fas"
+  icon = "snowflake"
   
 #[cta_note]
-#  url = "/rules"
-#  label = "View rules"
+#  url = "/it/rules"
+#  label = "Regole"
   
-#[cta_alt]
-#  url = "/it/details"
-#  label = "Scopri di più"
+[cta_alt]
+  url = "/it/details"
+  label = "Scopri di più"
 
-[cta]
-  url = "/it/post/2023_announcement"
-  label = "Leggi l'annuncio"
+#[cta]
+#  url = "/it/post/2023_announcement"
+#  label = "Leggi l'annuncio"
   
 #[cta_alt]
 #  url = "/it/register"
@@ -63,4 +63,4 @@ hero_media = ""
   
 +++
 
-<!-- Come da tradizione millenaria, la prossima edizione della Grande Battaglia di Palle di Neve si terrà al [Bivacco Menegazzi](https://goo.gl/maps/CRMbn2kRX38G78UF9) il primo sabato dell'anno. -->
+Come da tradizione millenaria, la prossima edizione della Grande Battaglia di Palle di Neve si terrà al [Bivacco Menegazzi](https://goo.gl/maps/CRMbn2kRX38G78UF9) il primo sabato dell'anno.
