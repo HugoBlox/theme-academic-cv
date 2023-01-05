@@ -6,7 +6,7 @@ subtitle: "Tell your friends!"
 summary: "Join the merry mob!"
 authors: [ap]
 tags: [2023]
-categories: []
+categories: [2023, announcement]
 date: 2022-11-19T17:35:17+01:00
 lastmod: 2022-11-19T17:35:17+01:00
 featured: false
