@@ -49,7 +49,8 @@ education:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-#- Research Group
+- Research Group
+- Past Members
 ---
 
 Topias Terho is a fresh master of science from the field of mathemathics and operations research, whose role in the gamma opt is a research assistant. He is interested in applications and methodological development of decision making problems with uncertainties. His main focus is the development of the decision programming framework. 

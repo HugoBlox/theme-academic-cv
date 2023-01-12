@@ -7,7 +7,7 @@ weight: 3
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "Xinwei Lin"
+- "xinwei-lin"
 
 # Is this the primary user of the site?
 superuser: false
@@ -33,11 +33,11 @@ interests:
 education:
   courses:
  - course: Doctoral Candidate in Control Science and Engineering
-    institution: East China University of Science and Technology, Shanghai, China.
-    year: 2018-
-  - course: BSc in Automation
-    institution: Jiangnan University, Jiangsu, China.
-    year: 2018
+   institution: East China University of Science and Technology, Shanghai, China
+   year: 2018
+ - course: BSc in Automation
+   institution: Jiangnan University, Jiangsu, China
+   year: 2018
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -46,7 +46,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:xinwei.lin@aalto.fi'  # For a direct email link, use "mailto:test@example.org".
+  link: "mailto:xinwei.lin@aalto.fi"  # For a direct email link, use "mailto:test@example.org".
 
 
 # # Enter email to display Gravatar (if Gravatar enabled in Config)
