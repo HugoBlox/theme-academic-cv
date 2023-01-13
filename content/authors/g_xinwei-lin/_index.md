@@ -32,12 +32,12 @@ interests:
 
 education:
   courses:
- - course: Doctoral Candidate in Control Science and Engineering
-   institution: East China University of Science and Technology, Shanghai, China
+  - course: Doctoral Candidate in Control Science   and Engineering
+    institution: East China University of Science and Technology, Shanghai, China
    year: 2018
- - course: BSc in Automation
-   institution: Jiangnan University, Jiangsu, China
-   year: 2018
+  - course: BSc in Automation
+    institution: Jiangnan University, Jiangsu, China
+    year: 2018
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -59,8 +59,7 @@ user_groups:
 - Visitor
 ---
 
-
-Xinwei Lin is a Visiting Ph.D. Student at the Department of Mathematics and Systems Analysis, and working with Dr. Fabricio Oliveira at Aalto University. His research project is cyclic scheduling optimization of ethylene cracking furnace system (ECFS) under uncertainty. He is interested in modeling for ECFS, decision making under uncertainty, robut optimization, and efficient strategies to solve large-scale problems.
+Xinwei Lin is a Visiting Ph.D. Student at the Department of Mathematics and Systems Analysis, and working with Prof. Fabricio Oliveira at Aalto University. His research project is cyclic scheduling optimization of ethylene cracking furnace system (ECFS) under uncertainty. He is interested in modeling for ECFS, decision making under uncertainty, robut optimization, and efficient strategies to solve large-scale problems.
 
 
 
