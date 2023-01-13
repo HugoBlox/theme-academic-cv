@@ -32,9 +32,9 @@ interests:
 
 education:
   courses:
-  - course: Doctoral Candidate in Control Science   and Engineering
-    institution: East China University of Science and Technology, Shanghai, China
-   year: 2018
+  # - course: Doctoral Candidate in Control Science and Engineering
+  #   institution: East China University of Science and Technology, Shanghai, China
+  #  year: 2018
   - course: BSc in Automation
     institution: Jiangnan University, Jiangsu, China
     year: 2018
