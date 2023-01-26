@@ -40,7 +40,8 @@ administration:
 - "[Stephanie Lieggi](https://www.linkedin.com/in/stephanie-lieggi-8542624/)"
 # - "[Lavinia Preston](https://www.linkedin.com/in/lavinia-preston-60806b127/)"
 
-# researchers:
+researchers:
+- "[Oskar Elek](https://elek.pub)"
 # - "[Kate Compton](https://www.galaxykate.com/)"
 # - "[Ivo Jimenez](http://www.linkedin.com/in/ivotron)"
 
