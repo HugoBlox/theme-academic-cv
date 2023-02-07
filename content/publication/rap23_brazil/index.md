@@ -1,4 +1,3 @@
----
 title: 'Why Programmatic Parties Reduce Criminal Violence: Theory and Evidence from Brazil'
 
 # Authors
@@ -77,3 +76,4 @@ image:
 #   Otherwise, set `slides: ""`.
 slides: example
 ---
+](https://journals.sagepub.com/doi/10.1177/20531680231155615)
