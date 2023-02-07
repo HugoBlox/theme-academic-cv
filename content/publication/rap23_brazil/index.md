@@ -46,7 +46,7 @@ featured: true
  # - name: Custom Link
  # url:  
 
-url_pdf: ''
+url_pdf: 'https://journals.sagepub.com/doi/10.1177/20531680231155615'
 url_code: ''
 url_dataset: ''
 url_poster: ''
