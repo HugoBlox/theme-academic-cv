@@ -15,7 +15,7 @@ authors:
 #  - 'Equal contribution'
 # - 'Equal contribution'
 
-date: '2023-02-01T00:00:00Z'
+date: '2022-01-01T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -25,10 +25,10 @@ publishDate: ''
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ['2']
+publication_types: ['3']
 
 # Publication name and optional abbreviated publication name.
- publication:  Research and Politics
+# publication:  
 # publication_short: In *ICW*
 
 # abstract: 
@@ -46,7 +46,7 @@ featured: true
  # - name: Custom Link
  # url:  
 
-url_pdf: 'https://journals.sagepub.com/doi/10.1177/20531680231155615'
+url_pdf: ''
 url_code: ''
 url_dataset: ''
 url_poster: ''
