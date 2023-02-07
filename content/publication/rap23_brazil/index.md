@@ -45,9 +45,9 @@ featured: true
 # Custom links (uncomment lines below)
 links: 
   - name: Article
-    url:  'https://journals.sagepub.com/doi/abs/10.1177/00104140221139386'
+    url:  'https://journals.sagepub.com/doi/10.1177/20531680231155615'
   - name: Replication Material
-    url:  'publication/cps22_guate/cps22guate_code.zip'
+    url:  'publication/rap23_brazil/rap23_brazil_code.zip'
     
 
 # url_pdf: "publication/cps22_guate/inter_prosecution_guatemala.pdf"
