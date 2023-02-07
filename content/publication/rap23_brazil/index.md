@@ -42,11 +42,11 @@ tags: []
 featured: true
 
 # Custom links (uncomment lines below)
-links:
-  - name: Article
-    url: 'https://journals.sagepub.com/doi/10.1177/20531680231155615'
- -  name: Replication Material
-    url:  'publication/rap23_brazil/rap23_brazil_code.zip'   
+# links:
+ # - name: Article
+#    url: 'https://journals.sagepub.com/doi/10.1177/20531680231155615'
+# -  name: Replication Material
+#    url:  'publication/rap23_brazil/rap23_brazil_code.zip'   
 
 # url_pdf: 'https://journals.sagepub.com/doi/10.1177/20531680231155615'
 url_code: ''
