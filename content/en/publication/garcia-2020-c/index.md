@@ -1,10 +1,34 @@
 ---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
 title: Knowledge-based video question answering with unsupervised scene descriptions
-date: '2020-08-01'
-publishDate: '2022-09-05T07:51:49.032085Z'
+subtitle: ''
+summary: ''
 authors:
 - Noa Garcia
 - Yuta Nakashima
+tags: []
+categories: []
+date: '2020-08-01'
+lastmod: 2023-02-15T15:27:38+09:00
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+publishDate: '2023-02-15T06:27:38.025663Z'
 publication_types:
 - '1'
 abstract: 'To understand movies, humans constantly reason over the dialogues and actions
@@ -20,12 +44,9 @@ abstract: 'To understand movies, humans constantly reason over the dialogues and
   from the different sources. Exhaustive evaluation demonstrates the effectiveness
   of our approach, which yields a new state-of-the-art on two challenging video question
   answering datasets: KnowIT VQA and TVQA+.'
-featured: false
 publication: '*Proceedings - European Conference on Computer Vision*'
-url_pdf: https://arxiv.org/abs/2007.08751
 doi: ''
 links:
 - name: URL
   url: https://arxiv.org/abs/2007.08751
 ---
-

@@ -5,7 +5,7 @@ _build:
   list: never
   publishResources: false
 date: '2022-06-01'
-publishDate: '2022-09-05T07:52:08.506252Z'
+publishDate: '2023-02-15T06:28:41.210461Z'
 authors:
 - Yusuke Hirota
 - Yuta Nakashima
@@ -16,5 +16,6 @@ abstract: ''
 featured: false
 publication: '*Proc.~ACM Conference on Fairness, Accountability, and Transparency
   (FAccT)*'
+url_pdf: https://facctconference.org/static/pdfs_2022/facct22-102.pdf
 ---
 

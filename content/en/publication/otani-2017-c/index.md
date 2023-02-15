@@ -1,7 +1,11 @@
 ---
 title: Video summarization using textual descriptions for authoring video blogs
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2017-05-01'
-publishDate: '2022-09-05T07:51:50.798168Z'
+publishDate: '2023-02-15T06:27:40.707696Z'
 authors:
 - Mayu Otani
 - Yuta Nakashima

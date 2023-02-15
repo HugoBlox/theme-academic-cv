@@ -1,7 +1,11 @@
 ---
 title: Acquiring dynamic light fields through coded aperture camera
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2020-08-01'
-publishDate: '2022-09-05T07:52:10.756751Z'
+publishDate: '2023-02-15T06:28:43.512568Z'
 authors:
 - Kohei Sakai
 - Keita Takahashi
@@ -23,7 +27,7 @@ abstract: We investigate the problem of compressive acquisition of a dynamic lig
   a computer-generated scene and a real camera.
 featured: false
 publication: '*Proceedings - European Conference on Computer Vision*'
-url_pdf: https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123640358.pdf
 doi: ''
+url_pdf: https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123640358.pdf
 ---
 

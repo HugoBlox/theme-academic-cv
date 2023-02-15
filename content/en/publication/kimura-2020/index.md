@@ -1,8 +1,10 @@
 ---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
 title: Warmer Environments Increase Implicit Mental Workload Even If Learning Efficiency
   Is Enhanced
-date: '2020-01-01'
-publishDate: '2022-09-05T07:51:53.658032Z'
+subtitle: ''
+summary: ''
 authors:
 - T. Kimura
 - N. Takemura
@@ -11,6 +13,33 @@ authors:
 - H. Nagahara
 - M. Numao
 - K. Shinohara
+tags:
+- Eeg
+- Autonomic nervous system
+- Learning efficiency
+- Mental workload
+- Thermal environment
+categories: []
+date: '2020-01-01'
+lastmod: 2023-02-15T15:27:45+09:00
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+publishDate: '2023-02-15T06:27:45.014697Z'
 publication_types:
 - '2'
 abstract: © Copyright © 2020 Kimura, Takemura, Nakashima, Kobori, Nagahara, Numao
@@ -38,14 +67,6 @@ abstract: © Copyright © 2020 Kimura, Takemura, Nakashima, Kobori, Nagahara, Nu
   integrated evidence for relationships among task performance, psychological state,
   and thermal environment by analyzing behavioral, subjective, and physiological indexes
   multidirectionally.
-featured: false
 publication: '*Frontiers in Psychology*'
-tags:
-- Eeg
-- Autonomic nervous system
-- Learning efficiency
-- Mental workload
-- Thermal environment
 doi: 10.3389/fpsyg.2020.00568
 ---
-

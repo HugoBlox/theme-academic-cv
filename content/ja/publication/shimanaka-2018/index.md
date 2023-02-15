@@ -1,8 +1,12 @@
 ---
 title: 'RUSE: Regressor using sentence embeddings for automatic machine translation
   evaluation'
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2018-01-01'
-publishDate: '2022-09-05T07:52:11.802982Z'
+publishDate: '2023-02-15T06:28:44.613620Z'
 authors:
 - Hiroki Shimanaka
 - Tomoyuki Kajiwara
@@ -21,7 +25,6 @@ abstract: We introduce the RUSE metric for the WMT18 metrics shared task. Senten
 featured: false
 publication: '*Proceedings of the Third Conference on Machine Translation: Shared
   Task Papers (WMT 18)*'
-url_pdf: http://aclweb.org/anthology/W18-6456
 doi: 10.18653/v1/W18-6456
 links:
 - name: URL

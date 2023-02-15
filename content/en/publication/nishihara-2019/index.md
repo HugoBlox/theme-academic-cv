@@ -1,11 +1,35 @@
 ---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
 title: Controllable text simplification with lexical constraint loss
-date: '2019-01-01'
-publishDate: '2022-09-05T07:51:50.726505Z'
+subtitle: ''
+summary: ''
 authors:
 - Daiki. Nishihara
 - Tomoyuki. Kajiwara
 - Yuki. Arase
+tags: []
+categories: []
+date: '2019-01-01'
+lastmod: 2023-02-15T15:27:40+09:00
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+publishDate: '2023-02-15T06:27:40.561174Z'
 publication_types:
 - '1'
 abstract: We propose a method to control the level of a sentence in a text simplification
@@ -21,12 +45,9 @@ abstract: We propose a method to control the level of a sentence in a text simpl
   words beyond the target level. Our approach can control both the lexical and syntactic
   complexity and achieve an aggressive rewriting. Experiment results indicate that
   the proposed method improves the metrics of both BLEU and SARI.
-featured: false
 publication: '*Proceedings of the ACL 2019 Student Research Workshop (ACL 2019 SRW)*'
-url_pdf: https://www.aclweb.org/anthology/P19-2036/
 doi: 10.18653/v1/P19-2036
 links:
 - name: URL
   url: https://www.aclweb.org/anthology/P19-2036/
 ---
-

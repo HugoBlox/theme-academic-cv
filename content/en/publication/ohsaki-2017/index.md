@@ -1,7 +1,11 @@
 ---
 title: Hyperspectral imaging using flickerless active LED illumination
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2017-03-01'
-publishDate: '2022-09-05T07:51:51.432390Z'
+publishDate: '2023-02-15T06:27:41.671337Z'
 authors:
 - Makoto Ohsaki
 - Hajime Nagahara

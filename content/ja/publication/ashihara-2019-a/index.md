@@ -1,7 +1,11 @@
 ---
 title: Contextualized multi-sense word embedding
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2019-12-01'
-publishDate: '2022-09-05T07:52:16.127048Z'
+publishDate: '2023-02-15T06:28:49.124277Z'
 authors:
 - Kazuki Ashihara
 - Tomoyuki Kajiwara
@@ -24,7 +28,6 @@ abstract: Currently, distributed word representations are employed in many natur
   effectiveness of our approaches to generate more subtle multiple word representations.
 featured: false
 publication: '*Journal of Natural Language Processing*'
-url_pdf: https://www.jstage.jst.go.jp/article/jnlp/26/4/26_689/_article/-char/ja/
 doi: 10.5715/jnlp.26.689
 links:
 - name: URL

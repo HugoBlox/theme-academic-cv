@@ -1,10 +1,38 @@
 ---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
 title: Deep compressive sensing for visual privacy protection in flatcam imaging
-date: '2019-10-01'
-publishDate: '2022-09-05T07:51:52.728213Z'
+subtitle: ''
+summary: ''
 authors:
 - Thuong Nguyen Canh
 - Hajime Nagahara
+tags:
+- Compressive sensing
+- Deep compressive sensing
+- Deep learning
+- Visual privacy protection
+categories: []
+date: '2019-10-01'
+lastmod: 2023-02-15T15:27:43+09:00
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+publishDate: '2023-02-15T06:27:43.455568Z'
 publication_types:
 - '1'
 abstract: Detection followed by projection in conventional privacy cameras is vulnerable
@@ -17,14 +45,7 @@ abstract: Detection followed by projection in conventional privacy cameras is vu
   predict sensitive regions via facial segmentation and separate them from the captured
   measurements. Our deep compressive sensing network was trained with simulated data,
   and was tested on both simulated and real FlatCam data.
-featured: false
 publication: '*Proceedings - 2019 International Conference on Computer Vision Workshop,
   ICCVW 2019*'
-tags:
-- Compressive sensing
-- Deep compressive sensing
-- Deep learning
-- Visual privacy protection
 doi: 10.1109/ICCVW.2019.00492
 ---
-

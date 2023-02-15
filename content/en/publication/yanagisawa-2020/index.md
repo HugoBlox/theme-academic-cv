@@ -1,8 +1,12 @@
 ---
 title: Convolutional Neural Network Can Recognize Drug Resistance of Single Cancer
   Cells
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2020-04-01'
-publishDate: '2022-09-05T07:51:50.940573Z'
+publishDate: '2023-02-15T06:27:40.858708Z'
 authors:
 - Kiminori Yanagisawa
 - Masayasu Toratani
@@ -36,7 +40,6 @@ abstract: textlessptextgreaterIt is known that single or isolated tumor cells en
   blood and performing classification by using an AI system.textless/ptextgreater
 featured: false
 publication: '*International Journal of Molecular Sciences*'
-url_pdf: https://www.mdpi.com/1422-0067/21/9/3166
 doi: 10.3390/ijms21093166
 links:
 - name: URL

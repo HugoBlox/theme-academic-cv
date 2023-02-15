@@ -1,7 +1,11 @@
 ---
 title: 'ReMagicMirror: Action learning using human reenactment with the mirror metaphor'
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2017-01-01'
-publishDate: '2022-09-05T07:51:52.583123Z'
+publishDate: '2023-02-15T06:27:43.304751Z'
 authors:
 - Fabian Lorenzo Dayrit
 - Ryosuke Kimura

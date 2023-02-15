@@ -1,7 +1,9 @@
 ---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
 title: Improving topic modeling through homophily for legal documents
-date: '2020-10-01'
-publishDate: '2022-09-05T07:51:47.835453Z'
+subtitle: ''
+summary: ''
 authors:
 - Kazuki Ashihara
 - Cheikh Brahim El Vaigh
@@ -11,6 +13,28 @@ authors:
 - Noriko Takemura
 - Yuta Nakashima
 - Hajime Nagahara
+tags: []
+categories: []
+date: '2020-10-01'
+lastmod: 2023-02-15T15:27:36+09:00
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+publishDate: '2023-02-15T06:27:36.225033Z'
 publication_types:
 - '2'
 abstract: 'Topic modeling that can automatically assign topics to legal documents
@@ -36,12 +60,9 @@ abstract: 'Topic modeling that can automatically assign topics to legal document
   homophily networks. Experiments show that the use of the homophily networks for
   topic modeling significantly outperforms previous studies, and the weighting model
   is more effective than the cutting model.'
-featured: false
 publication: '*Applied Network Science*'
-url_pdf: https://appliednetsci.springeropen.com/articles/10.1007/s41109-020-00321-y
 doi: https://doi.org/10.1007/s41109-020-00321-y
 links:
 - name: URL
   url: https://appliednetsci.springeropen.com/articles/10.1007/s41109-020-00321-y
 ---
-

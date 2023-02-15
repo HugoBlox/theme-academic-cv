@@ -1,7 +1,11 @@
 ---
 title: 'KnowIT VQA: Answering knowledge-based questions about videos'
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2020-02-01'
-publishDate: '2022-09-05T07:52:13.649058Z'
+publishDate: '2023-02-15T06:28:46.541112Z'
 authors:
 - Noa Garcia
 - Mayu Otani
@@ -23,7 +27,6 @@ featured: false
 publication: '*Proceedings - 2020 AAAI Conference on Artificial Intelligence*'
 tags:
 - Kvqa
-url_pdf: http://arxiv.org/abs/1910.10706 https://aaai.org/ojs/index.php/AAAI/article/view/6713/6567
 links:
 - name: arXiv
   url: https://arxiv.org/abs/1910.10706

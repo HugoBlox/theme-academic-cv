@@ -1,7 +1,11 @@
 ---
 title: Generation and detection of media clones
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2021-01-01'
-publishDate: '2022-09-05T07:52:10.036057Z'
+publishDate: '2023-02-15T06:28:42.765660Z'
 authors:
 - Isao Echizen
 - Noboru Babaguchi
@@ -32,7 +36,6 @@ abstract: "With the spread of high-performance sensors and social network servic
   \ by recognizing them."
 featured: false
 publication: '*IEICE Transactions on Information and Systems *'
-url_pdf: https://search.ieice.org/bin/summary.php?id=e104-d_1_12
 doi: https://doi.org/10.1587/transinf.2020MUI0002
 links:
 - name: URL

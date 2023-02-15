@@ -1,8 +1,12 @@
 ---
 title: 'Buda.art: A multimodal content-based analysis and retrieval system for Buddha
   statues'
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2019-01-01'
-publishDate: '2022-09-05T07:51:50.870274Z'
+publishDate: '2023-02-15T06:27:40.783236Z'
 authors:
 - Benjamin Renoust
 - Matheus Oliveira M.O. Franca

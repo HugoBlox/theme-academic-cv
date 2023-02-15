@@ -1,7 +1,11 @@
 ---
 title: Public meeting corpus construction and content delivery
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2019-12-01'
-publishDate: '2022-09-05T07:51:48.760545Z'
+publishDate: '2023-02-15T06:27:37.581111Z'
 authors:
 - Chenhui Chu
 - Koji Tanaka

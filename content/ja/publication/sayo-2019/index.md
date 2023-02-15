@@ -1,8 +1,12 @@
 ---
 title: Human shape reconstruction with loose clothes from partially observed data
   by pose specific deformation
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2019-11-01'
-publishDate: '2022-09-05T07:52:14.001748Z'
+publishDate: '2023-02-15T06:28:46.909497Z'
 authors:
 - Akihiko Sayo
 - Hayato Onizuka

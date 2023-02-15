@@ -11,7 +11,7 @@ authors:
 tags: []
 categories: []
 date: '2021-10-01'
-lastmod: 2022-09-05T16:51:46+09:00
+lastmod: 2023-02-15T15:27:34+09:00
 featured: false
 draft: false
 
@@ -29,7 +29,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-09-05T07:51:46.398704Z'
+publishDate: '2023-02-15T06:27:34.672547Z'
 publication_types:
 - '1'
 abstract: Have you ever looked at a painting and wondered what is the story behind

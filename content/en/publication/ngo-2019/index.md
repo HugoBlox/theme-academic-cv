@@ -1,13 +1,41 @@
 ---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
 title: Reflectance and Shape Estimation with a Light Field Camera Under Natural Illumination
-date: '2019-12-01'
-publishDate: '2022-09-05T07:51:51.362493Z'
+subtitle: ''
+summary: ''
 authors:
 - Thanh Trung Ngo
 - Hajime Nagahara
 - Ko Nishino
 - Rin ichiro Taniguchi
 - Yasushi Yagi
+tags:
+- Light field camera
+- Natural illumination
+- Reflectance
+- Shape from shading
+categories: []
+date: '2019-12-01'
+lastmod: 2023-02-15T15:27:41+09:00
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+publishDate: '2023-02-15T06:27:41.525559Z'
 publication_types:
 - '2'
 abstract: Reflectance and shape are two important components in visually perceiving
@@ -24,13 +52,6 @@ abstract: Reflectance and shape are two important components in visually perceiv
   a light field camera to capture one light field image of the object, and a 360-degree
   camera to capture the illumination. The proposed method provides positive results
   in both simulation and real-world experiments.
-featured: false
 publication: '*International Journal of Computer Vision*'
-tags:
-- Light field camera
-- Natural illumination
-- Reflectance
-- Shape from shading
 doi: 10.1007/s11263-019-01149-5
 ---
-

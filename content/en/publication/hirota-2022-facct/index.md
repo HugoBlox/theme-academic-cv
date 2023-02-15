@@ -11,7 +11,7 @@ authors:
 tags: []
 categories: []
 date: '2022-06-01'
-lastmod: 2022-09-05T16:51:45+09:00
+lastmod: 2023-02-15T15:27:33+09:00
 featured: false
 draft: false
 
@@ -29,10 +29,11 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-09-05T07:51:45.198340Z'
+publishDate: '2023-02-15T06:27:33.786584Z'
 publication_types:
 - '1'
 abstract: ''
 publication: '*Proc.~ACM Conference on Fairness, Accountability, and Transparency
   (FAccT)*'
+url_pdf: https://facctconference.org/static/pdfs_2022/facct22-102.pdf
 ---

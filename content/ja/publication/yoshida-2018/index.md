@@ -1,8 +1,12 @@
 ---
 title: Joint optimization for compressive video sensing and reconstruction under hardware
   constraints
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2018-01-01'
-publishDate: '2022-09-05T07:52:12.657373Z'
+publishDate: '2023-02-15T06:28:45.506604Z'
 authors:
 - Michitaka Yoshida
 - Akihiko Torii

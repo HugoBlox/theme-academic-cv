@@ -1,7 +1,11 @@
 ---
 title: Knowledge-based video question answering with unsupervised scene descriptions
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2020-08-01'
-publishDate: '2022-09-05T07:52:11.382412Z'
+publishDate: '2023-02-15T06:28:44.170304Z'
 authors:
 - Noa Garcia
 - Yuta Nakashima
@@ -22,7 +26,6 @@ abstract: 'To understand movies, humans constantly reason over the dialogues and
   answering datasets: KnowIT VQA and TVQA+.'
 featured: false
 publication: '*Proceedings - European Conference on Computer Vision*'
-url_pdf: https://arxiv.org/abs/2007.08751
 doi: ''
 links:
 - name: URL

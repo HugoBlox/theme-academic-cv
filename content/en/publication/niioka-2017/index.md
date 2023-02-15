@@ -1,8 +1,12 @@
 ---
 title: Classification of C2C12 cells at differentiation by convolutional neural network
   of deep learning using phase contrast images
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2017-01-01'
-publishDate: '2022-09-05T07:51:49.592642Z'
+publishDate: '2023-02-15T06:27:38.845222Z'
 authors:
 - H. Niioka
 - S. Asatani

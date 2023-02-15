@@ -1,8 +1,12 @@
 ---
 title: Metric for automatic machine translation evaluation based on universal sentence
   representations
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2018-01-01'
-publishDate: '2022-09-05T07:51:53.226607Z'
+publishDate: '2023-02-15T06:27:44.269451Z'
 authors:
 - Hiroki Shimanaka
 - Tomoyuki Kajiwara
@@ -21,7 +25,6 @@ abstract: Sentence representations can capture a wide range of information that 
 featured: false
 publication: '*Proceedings of the NAACL 2018 Student Research Workshop (NAACL 2018
   SRW)*'
-url_pdf: http://aclweb.org/anthology/N18-4015
 doi: 10.18653/v1/N18-4015
 links:
 - name: URL

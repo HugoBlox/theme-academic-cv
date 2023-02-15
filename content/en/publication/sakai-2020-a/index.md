@@ -1,12 +1,36 @@
 ---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
 title: Acquiring dynamic light fields through coded aperture camera
-date: '2020-08-01'
-publishDate: '2022-09-05T07:51:48.412190Z'
+subtitle: ''
+summary: ''
 authors:
 - Kohei Sakai
 - Keita Takahashi
 - Toshiaki Fujii
 - Hajime Nagahara
+tags: []
+categories: []
+date: '2020-08-01'
+lastmod: 2023-02-15T15:27:37+09:00
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+publishDate: '2023-02-15T06:27:37.068120Z'
 publication_types:
 - '1'
 abstract: We investigate the problem of compressive acquisition of a dynamic light
@@ -21,9 +45,7 @@ abstract: We investigate the problem of compressive acquisition of a dynamic lig
   of image observation, called V-shape observation, and train the CNN using a dynamic-light-field
   dataset with pseudo motions. Our method is validated through experiments using both
   a computer-generated scene and a real camera.
-featured: false
 publication: '*Proceedings - European Conference on Computer Vision*'
-url_pdf: https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123640358.pdf
 doi: ''
+url_pdf: https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123640358.pdf
 ---
-

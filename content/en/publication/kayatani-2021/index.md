@@ -1,7 +1,11 @@
 ---
 title: 'The laughing machine: Predicting humor in video'
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2021-01-01'
-publishDate: '2022-09-05T07:51:47.764536Z'
+publishDate: '2023-02-15T06:27:36.148556Z'
 authors:
 - Yuta Kayatani
 - Zekun Yang
@@ -26,7 +30,6 @@ abstract: Humor is a very important communication tool; yet, it is an open probl
 featured: false
 publication: '*Proceedings - IEEE/CVF Winter Conference on Applications of Computer
   Vision (WACV)*'
-url_pdf: https://openaccess.thecvf.com/content/WACV2021/html/Kayatani_The_Laughing_Machine_Predicting_Humor_in_Video_WACV_2021_paper.html
 links:
 - name: URL
   url: https://openaccess.thecvf.com/content/WACV2021/html/Kayatani_The_Laughing_Machine_Predicting_Humor_in_Video_WACV_2021_paper.html

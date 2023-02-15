@@ -14,7 +14,7 @@ authors:
 tags: []
 categories: []
 date: '2021-11-01'
-lastmod: 2022-09-05T16:51:46+09:00
+lastmod: 2023-02-15T15:27:34+09:00
 featured: false
 draft: false
 
@@ -32,7 +32,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-09-05T07:51:46.532607Z'
+publishDate: '2023-02-15T06:27:34.816840Z'
 publication_types:
 - '1'
 abstract: "Explainable artificial intelligence has been gaining attention in the past\

@@ -1,9 +1,142 @@
+@inproceedings{mizuno2022dynamic,
+author = {Mizuno, Ryoya and Takahashi, Keita and Yoshida, Michitaka and Tsutake, Chihiro and Fujii, Toshiaki and Nagahara, Hajime},
+title = {Acquiring a Dynamic Light Field Through a Single-Shot Coded Image},
+booktitle = {Proc.~IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+pages = {19830--19840},
+year = {2022},
+month = 6,
+url = {https://openaccess.thecvf.com/content/CVPR2022/papers/Mizuno_Acquiring_a_Dynamic_Light_Field_Through_a_Single-Shot_Coded_Image_CVPR_2022_paper.pdf},
+abstract = {We propose a method for compressively acquiring a dynamic light field (a 5-D volume) through a single-shot coded image (a 2-D measurement). We designed an imaging model that synchronously applies aperture coding and pixel-wise exposure coding within a single exposure time. This coding scheme enables us to effectively embed the original information into a single observed image. The observed image is then fed to a convolutional neural network (CNN) for light-field reconstruction, which is jointly trained with the camera-side coding patterns. We also developed a hardware prototype to capture a real 3-D scene moving over time. We succeeded in acquiring a dynamic light field with 5x5 viewpoints over 4 temporal sub-frames (100 views in total) from a single observed image. Repeating capture and reconstruction processes over time, we can acquire a dynamic light field at 4x the frame rate of the camera. To our knowledge, our method is the first to achieve a finer temporal resolution than the camera itself in compressive light-field acquisition. Our software is available from our project webpage.},
+}
+
+@article{yoshida2019highspeed,
+author = {Yoshida, Michitaka and Sonoda, Toshiki and Nagahara, Hajime and Endo, Kenta and Sugiyama, Yukinobu and Taniguchi, Rin-ichiro},
+title = {High-Speed Imaging Using CMOS Image Sensor With Quasi Pixel-Wise Exposure},
+journal = {IEEE Transactions on Computational Imaging},
+year = {2019},
+pages = {463--476},
+volume = {6},
+url = {https://ieeexplore.ieee.org/abstract/document/8918110},
+doi = {10.1109/TCI.2019.2956885},
+abstract = {Several recent studies on compressive video sensing realized scene capture beyond the fundamental trade-off limit between spatial resolution and temporal resolution using random space-time sampling. However, most of these studies obtained results for higher-frame-rate video that was produced in simulation experiments or using an optically simulated random sampling camera, because there are currently no commercially available image sensors with random exposure or sampling capabilities. We fabricated a prototype complementary metal-oxide-semiconductor (CMOS) image sensor with quasi pixel-wise exposure timing that can realize nonuniform space-time sampling. The prototype sensor resets exposures independently by columns and fixes these exposures by rows for each 8 × 8-pixel block. This CMOS sensor is not fully controllable the pixels and has line-dependent control, but offers greater flexibility when compared with regular CMOS or charge-coupled device sensors with global or rolling shutters. We propose a method of realizing pseudo-random sampling for high-speed video acquisition that uses the flexibility of the CMOS sensor. We reconstruct the high-speed video sequence from images produced in pseudo-random sampling using a pre-learned decoder.},
+}
+
+@article{li2023cross,
+  title={Cross-language font style transfer},
+  author={Li, Chenhao and Taniguchi, Yuta and Lu, Min and Konomi, Shin'ichi and Nagahara, Hajime},
+  journal={Applied Intelligence},
+  pages={1--15},
+  year={2023},
+  abstract={In this paper, we propose a cross-language font style transfer system that can synthesize a new font by observing only a few samples from another language. Automatic font synthesis is a challenging task and has attracted much research interest. Most previous works addressed this problem by transferring the style of the given subset to the content of unseen ones. Nevertheless, they only focused on the font style transfer in the same language. In many cases, we need to learn font style from one language and then apply it to other languages. Existing methods make this difficult to accomplish because of the abstraction of style and language differences. To address this problem, we specifically designed the network into a multi-level attention form to capture both local and global features of the font style. To validate the generative ability of our model, we constructed an experimental font dataset of 847 fonts, each containing English and Chinese characters with the same style. Results show that our model generates 80.3% of users’ preferred images compared with state-of-the-art models.},
+}
+
+@article{wang2022match,
+  title={Match them up: visually explainable few-shot image classification},
+  author={Wang, Bowen and Li, Liangzhi and Verma, Manisha and Nakashima, Yuta and Kawasaki, Ryo and Nagahara, Hajime},
+  journal={Applied Intelligence},
+  pages={1--22},
+  year={2022},
+  url = {https://github.com/wbw520/MTUNet},
+  doi = {https://doi.org/10.1007/s10489-022-04072-4},
+  abstract={Few-shot learning (FSL) approaches, mostly neural network-based, assume that pre-trained knowledge can be obtained from base (seen) classes and transferred to novel (unseen) classes. However, the black-box nature of neural networks makes it difficult to understand what is actually transferred, which may hamper FSL application in some risk-sensitive areas. In this paper, we reveal a new way to perform FSL for image classification, using a visual representation from the backbone model and patterns generated by a self-attention based explainable module. The representation weighted by patterns only includes a minimum number of distinguishable features and the visualized patterns can serve as an informative hint on the transferred knowledge. On three mainstream datasets, experimental results prove that the proposed method can enable satisfying explainability and achieve high classification results. Code is available at https://github.com/wbw520/MTUNet.}
+}
+
+@article{goto2023development,
+  title={Development of a vertex finding algorithm using Recurrent Neural Network},
+  author={Goto, Kiichi and Suehara, Taikan and Yoshioka, Tamaki and Kurata, Masakazu and Nagahara, Hajime and Nakashima, Yuta and Takemura, Noriko and Iwasaki, Masako},
+  journal={Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment},
+  volume={1047},
+  pages={167836},
+  year={2023},
+  abstract={Deep learning is a rapidly-evolving technology with the possibility to significantly improve the physics reach of collider experiments. In this study we developed a novel vertex finding algorithm for future lepton colliders such as the International Linear Collider. We deploy two networks: one consists of simple fully-connected layers to look for vertex seeds from track pairs, and the other is a customized Recurrent Neural Network with an attention mechanism and an encoder–decoder structure to associate tracks to the vertex seeds. The performance of the vertex finder is compared with the standard ILC vertex reconstruction algorithm.}
+}
+
+@inproceedings{vo2022tone,
+  title={Tone Classification for Political Advertising Video using Multimodal Cues},
+  author={Vo, Anh-Khoa and Nakashima, Yuta},
+  booktitle={Proceedings of the 3rd ACM Workshop on Intelligent Cross-Data Analysis and Retrieval},
+  pages={17--21},
+  year={2022},
+  abstract={Politics has always gotten much attention throughout history, and video advertisement has become one of the most essential tools for political communication. Analysis of such political advertising videos can provide more insight into the political campaign by evaluating the message in it, such as a candidate's attitude toward a certain political issue. In this paper, we propose to classify the tone in political advertising videos into promotive, contrastive, and their mixture using a deep neural network to benefit automatic analysis of such videos. We especially explore how different modalities of videos, i.e., visuals, audio, and text, contribute to improving the classification accuracy.}
+}
+
+@inproceedings{dao2022icdar,
+  title={ICDAR'22: Intelligent Cross-Data Analysis and Retrieval},
+  author={Dao, Minh-Son and Riegler, Michael Alexander and Dang-Nguyen, Duc-Tien and Gurrin, Cathal and Nakashima, Yuta and Dong, Mianxiong},
+  booktitle={Proceedings of the 2022 International Conference on Multimedia Retrieval},
+  pages={690--691},
+  year={2022},
+  abstract={We have witnessed the rise of cross-data against multimodal data problems recently. The cross-modal retrieval system uses a textual query to look for images; the air quality index can be predicted using lifelogging images; the congestion can be predicted using weather and tweets data; daily exercises and meals can help to predict the sleeping quality are some examples of this research direction. Although vast investigations focusing on multimodal data analytics have been developed, few cross-data (e.g., cross-modal data, cross-domain, cross-platform) research has been carried on. In order to promote intelligent cross-data analytics and retrieval research and to bring a smart, sustainable society to human beings, the specific article collection on "Intelligent Cross-Data Analysis and Retrieval" is introduced. This Research Topic welcomes those who come from diverse research domains and disciplines such as well-being, disaster prevention and mitigation, mobility, climate change, tourism, healthcare, and food computing.}
+}
+
+@inproceedings{verma2022multi,
+  title={Multi-label disengagement and behavior prediction in online learning},
+  author={Verma, Manisha and Nakashima, Yuta and Takemura, Noriko and Nagahara, Hajime},
+  booktitle={Artificial Intelligence in Education: 23rd International Conference, AIED 2022, Durham, UK, July 27--31, 2022, Proceedings, Part I},
+  pages={633--639},
+  year={2022},
+  abstract={Student disengagement prediction in online learning environments is beneficial in various ways, especially to help provide timely cues to make some feedback or stimuli to the students. In this work, we propose a neural network-based model to predict students’ disengagement, as well as other behavioral cues, which might be relevant to students’ performance, using facial image sequences. For training and evaluating our model, we collected samples from multiple participants and annotated them with temporal segments of disengagement and other relevant behavioral cues with our multiple in-house annotators. We present prediction results of all behavior cues along with baseline comparison.}
+}
+
+@article{tanaka2022corpus,
+  title={Corpus Construction for Historical Newspapers: A Case Study on Public Meeting Corpus Construction Using OCR Error Correction},
+  author={Tanaka, Koji and Chu, Chenhui and Kajiwara, Tomoyuki and Nakashima, Yuta and Takemura, Noriko and Nagahara, Hajime and Fujikawa, Takao},
+  journal={SN Computer Science},
+  volume={3},
+  number={6},
+  pages={489},
+  year={2022},
+  publisher={Large text corpora are indispensable for natural language processing. However, in various fields such as literature and humanities, many documents to be studied are only scanned to images, but not converted to text data. Optical character recognition (OCR) is a technology to convert scanned document images into text data. However, OCR often misrecognizes characters due to the low quality of the scanned document images, which is a crucial factor that degrades the quality of constructed text corpora. This paper works on corpus construction for historical newspapers. We present a corpus construction method based on a pipeline of image processing, OCR, and filtering. To improve the quality, we further propose to integrate OCR error correction. To this end, we manually construct an OCR error correction dataset in the historical newspaper domain, propose methods to improve a neural OCR correction model and compare various OCR error correction models. We evaluate our corpus construction method on the accuracy of extracting articles of a specific topic to construct a historical newspaper corpus. As a result, our method improves the article extraction F score by 1.7% via OCR error correction comparing to previous work. This verifies the effectiveness of OCR error correction for corpus construction.}
+}
+
+@inproceedings{teshima2022deep,
+  title={Deep Gesture Generation for Social Robots Using Type-Specific Libraries},
+  author={Teshima, Hitoshi and Wake, Naoki and Thomas, Diego and Nakashima, Yuta and Kawasaki, Hiroshi and Ikeuchi, Katsushi},
+  booktitle={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={8286--8291},
+  year={2022},
+  abstract={Body language such as conversational gesture is a powerful way to ease communication. Conversational gestures do not only make a speech more lively but also contain semantic meaning that helps to stress important information in the discussion. In the field of robotics, giving conversational agents (humanoid robots or virtual avatars) the ability to properly use gestures is critical, yet remain a task of extraordinary difficulty. This is because given only a text as input, there are many possibilities and ambiguities to generate an appropriate gesture. Different to previous works we propose a new method that explicitly takes into account the gesture types to reduce these ambiguities and generate human-like conversational gestures. Key to our proposed system is a new gesture database built on the TED dataset that allows us to map a word to one of three types of gestures: “Imagistic” gestures, which express the content of the speech, “Beat” gestures, which emphasize words, and “No gestures.” We propose a system that first maps the words in the input text to their corresponding gesture type, generate type-specific gestures and combine the generated gestures into one final smooth gesture. In our comparative experiments, the effectiveness of the proposed method was confirmed in user studies for both avatar and humanoid robot.}
+}
+
+@inproceedings{pang2023contrastive,
+  title={Contrastive Losses Are Natural Criteria for Unsupervised Video Summarization},
+  author={Pang, Zongshang and Nakashima, Yuta and Otani, Mayu and Nagahara, Hajime},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={2010--2019},
+  year={2023},
+  abstract={Video summarization aims to select a most informative subset of frames in a video to facilitate efficient video browsing. Unsupervised methods usually rely on heuristic training objectives such as diversity and representativeness. However, such methods need to bootstrap the online-generated summaries to compute the objectives for importance score regression. We consider such a pipeline inefficient and seek to directly quantify the frame-level importance with the help of contrastive losses in the representation learning literature. Leveraging the contrastive losses, we propose three metrics featuring a desirable key frame: local dissimilarity, global consistency, and uniqueness. With features pre-trained on an image classification task, the metrics can already yield high-quality importance scores, demonstrating better or competitive performance compared with past heavily-trained methods. We show that by refining the pre-trained features with contrastive learning, the frame-level importance scores can be further improved, and the model can learn from random videos and generalize to test videos with decent performance.}
+}
+
+@inproceedings{suzuki2022emotional,
+  title={Emotional Intensity Estimation based on Writer’s Personality},
+  author={Suzuki, Haruya and Tarumoto, Sora and Kajiwara, Tomoyuki and Ninomiya, Takashi and Nakashima, Yuta and Nagahara, Hajime},
+  booktitle={Proceedings of the 2nd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 12th International Joint Conference on Natural Language Processing: Student Research Workshop},
+  pages={1--7},
+  year={2022},
+  abstract={We propose a method for personalized emotional intensity estimation based on a writer’s personality test for Japanese SNS posts. Existing emotion analysis models are difficult to accurately estimate the writer’s subjective emotions behind the text. We personalize the emotion analysis using not only the text but also the writer’s personality information. Experimental results show that personality information improves the performance of emotional intensity estimation. Furthermore, a hybrid model combining the existing personalized method with ours achieved state-of-the-art performance.}
+}
+
+@article{li2023automated,
+  title={Automated grading system of retinal arterio-venous crossing patterns: A deep learning approach replicating ophthalmologist’s diagnostic process of arteriolosclerosis},
+  author={Li, Liangzhi and Verma, Manisha and Wang, Bowen and Nakashima, Yuta and Nagahara, Hajime and Kawasaki, Ryo},
+  journal={PLOS Digital Health},
+  volume={2},
+  number={1},
+  pages={e0000174},
+  year={2023},
+  url={https://github.com/conscienceli/MDTNet},
+  doi={https://doi.org/10.1371/journal.pdig.0000174},
+  abstract={The morphological feature of retinal arterio-venous crossing patterns is a valuable source of cardiovascular risk stratification as it directly captures vascular health. Although Scheie’s classification, which was proposed in 1953, has been used to grade the severity of arteriolosclerosis as diagnostic criteria, it is not widely used in clinical settings as mastering this grading is challenging as it requires vast experience. In this paper, we propose a deep learning approach to replicate a diagnostic process of ophthalmologists while providing a checkpoint to secure explainability to understand the grading process. The proposed pipeline is three-fold to replicate a diagnostic process of ophthalmologists. First, we adopt segmentation and classification models to automatically obtain vessels in a retinal image with the corresponding artery/vein labels and find candidate arterio-venous crossing points. Second, we use a classification model to validate the true crossing point. At last, the grade of severity for the vessel crossings is classified. To better address the problem of label ambiguity and imbalanced label distribution, we propose a new model, named multi-diagnosis team network (MDTNet), in which the sub-models with different structures or different loss functions provide different decisions. MDTNet unifies these diverse theories to give the final decision with high accuracy. Our automated grading pipeline was able to validate crossing points with precision and recall of 96.3% and 96.3%, respectively. Among correctly detected crossing points, the kappa value for the agreement between the grading by a retina specialist and the estimated score was 0.85, with an accuracy of 0.92. The numerical results demonstrate that our method can achieve a good performance in both arterio-venous crossing validation and severity grading tasks following the diagnostic process of ophthalmologists. By the proposed models, we could build a pipeline reproducing ophthalmologists’ diagnostic process without requiring subjective feature extractions. The code is available (https://github.com/conscienceli/MDTNet).}
+}
+
 @article{virgo2022sncs,
 author = {Felix Giovanni Virgo and Chenhui Chu and Takaya Ogawa and Koji Tanaka and Kazuki Ashihara and Yuta Nakashima and Noriko Takemura and Hajime Nagahara and Takao Fujikawa},
 title = {Information Extraction from Public Meeting Articles},
 journal = {SN Computer Science},
 volume = {3},
 number = {285},
+year = {2022},
+month = 5,
 abstract = {Public meeting articles are the key to understanding the history of public opinion and public sphere in Australia. Information extraction from public meeting articles can obtain new insights into Australian history. In this paper, we create an information extraction dataset in the public meeting domain. We manually annotate the date and time, place, purpose, people who requested the meeting, people who convened the meeting, and people who were convened of 1258 public meeting articles. We further present an information extraction system, which formulates information extraction from public meeting articles as a machine reading comprehension task. Experiments indicate that our system can achieve an F1 score of 74.98% for information extraction from public meeting articles.},
 }
 
@@ -78,6 +211,7 @@ title = {Gender and Racial Bias in Visual Question Answering Datasets},
 booktitle = {Proc.~ACM Conference on Fairness, Accountability, and Transparency (FAccT)},
 year = {2022},
 month = 6,
+url = {https://facctconference.org/static/pdfs_2022/facct22-102.pdf},
 addendum = {(accepted, \textbf{採択率: 25.1\%})}
 }
 
@@ -88,7 +222,7 @@ booktitle = {Proc.~IEEE/CVF Conference on Computer Vision and Pattern Recognitio
 note = {10 pages},
 year = {2022},
 month = 6,
-url = {https://facctconference.org/static/pdfs_2022/facct22-102.pdf},
+url = {https://openaccess.thecvf.com/content/CVPR2022/papers/Hirota_Quantifying_Societal_Bias_Amplification_in_Image_Captioning_CVPR_2022_paper.pdf},
 abstract = {Vision-and-language tasks have increasingly drawn more attention as a means to evaluate human-like reasoning in machine learning models. A popular task in the field is visual question answering (VQA), which aims to answer questions about images. However, VQA models have been shown to exploit language bias by learning the statistical correlations between questions and answers without looking into the image content: e.g., questions about the color of a banana are answered with yellow, even if the banana in the image is green. If societal bias (e.g., sexism, racism, ableism, etc.) is present in the training data, this problem may be causing VQA models to learn harmful stereotypes. For this reason, we investigate gender and racial bias in five VQA datasets. In our analysis, we find that the distribution of answers is highly different between questions about women and men, as well as the existence of detrimental gender-stereotypical samples. Likewise, we identify that specific race-related attributes are underrepresented, whereas potentially discriminatory samples appear in the analyzed datasets. Our findings suggest that there are dangers associated to using VQA datasets without considering and dealing with the potentially harmful stereotypes. We conclude the paper by proposing solutions to alleviate the problem before, during, and after the dataset collection process.},
 }
 

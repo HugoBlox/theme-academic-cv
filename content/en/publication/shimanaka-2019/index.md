@@ -1,8 +1,12 @@
 ---
 title: Metric for automatic machine translation evaluation based on pre-trained sentence
   embeddings
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2019-09-01'
-publishDate: '2022-09-05T07:51:50.021456Z'
+publishDate: '2023-02-15T06:27:39.514528Z'
 authors:
 - Hiroki Shimanaka
 - Tomoyuki Kajiwara
@@ -22,7 +26,6 @@ abstract: This study describes a segment-level metric for automatic machine tran
   the WMT dataset with human evaluation score.
 featured: false
 publication: '*Journal of Natural Language Processing*'
-url_pdf: https://www.jstage.jst.go.jp/article/jnlp/26/3/26_613/_article/-char/ja/
 doi: 10.5715/jnlp.26.613
 links:
 - name: URL

@@ -1,7 +1,11 @@
 ---
 title: Joint learning of vessel segmentation and artery/vein classification with post-processing
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2020-01-01'
-publishDate: '2022-09-05T07:52:15.911443Z'
+publishDate: '2023-02-15T06:28:48.900644Z'
 authors:
 - Liangzhi Li
 - Manisha Verma
@@ -32,7 +36,6 @@ tags:
 - Retina images
 - Vessel classification
 - Vessel segmentation
-url_pdf: https://www.liangzhili.com/publication/li-2020-joint/
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2005.13337

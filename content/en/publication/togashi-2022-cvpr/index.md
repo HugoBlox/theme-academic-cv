@@ -1,37 +1,17 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: 'AxIoU: An Axiomatically Justified Measure for Video Moment Retrieval'
-subtitle: ''
-summary: ''
+_build:
+  render: never
+  list: never
+  publishResources: false
+date: '2022-06-01'
+publishDate: '2023-02-15T06:27:34.006697Z'
 authors:
 - Riku Togashi
 - Mayu Otani
 - Yuta Nakashima
 - Janne Heikkilä Esa Rahtu
 - Tetsuya Sakai
-tags: []
-categories: []
-date: '2022-06-01'
-lastmod: 2022-09-05T16:51:45+09:00
-featured: false
-draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2022-09-05T07:51:45.464172Z'
 publication_types:
 - '1'
 abstract: 'Evaluation measures have a crucial impact on the direction of research.
@@ -49,7 +29,9 @@ abstract: 'Evaluation measures have a crucial impact on the direction of researc
   with respect to the Best Moment, and also that R@K,θ satisfies the first axiom only.
   We also empirically examine how AxIoU agrees with R@K,θ, as well as its stability
   with respect to change in the test data and human-annotated temporal boundaries.'
+featured: false
 publication: '*Proc.~IEEE/CVF Conference on Computer Vision and Pattern Recognition
   (CVPR)*'
 url_pdf: https://openaccess.thecvf.com/content/CVPR2022/papers/Togashi_AxIoU_An_Axiomatically_Justified_Measure_for_Video_Moment_Retrieval_CVPR_2022_paper.pdf
 ---
+

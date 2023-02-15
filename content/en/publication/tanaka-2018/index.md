@@ -1,7 +1,11 @@
 ---
 title: Iterative applications of image completion with CNN-based failure detection
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2018-08-01'
-publishDate: '2022-09-05T07:51:53.009411Z'
+publishDate: '2023-02-15T06:27:43.898340Z'
 authors:
 - Takahiro Tanaka
 - Norihiko Kawai

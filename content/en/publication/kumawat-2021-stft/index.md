@@ -1,37 +1,17 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: Depthwise spatio-temporal STFT convolutional neural networks for human action
   recognition
-subtitle: ''
-summary: ''
+_build:
+  render: never
+  list: never
+  publishResources: false
+date: '2022-01-01'
+publishDate: '2023-02-15T06:27:33.338445Z'
 authors:
 - Sudhakar Kumawat
 - Manisha Verma
 - Yuta Nakashima
 - Shanmuganathan Raman
-tags: []
-categories: []
-date: '2022-01-01'
-lastmod: 2022-09-05T16:51:44+09:00
-featured: false
-draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2022-09-05T07:51:44.664384Z'
 publication_types:
 - '2'
 abstract: Conventional 3D convolutional neural networks (CNNs) are computationally
@@ -51,9 +31,11 @@ abstract: Conventional 3D convolutional neural networks (CNNs) are computational
   and v2, Jester, Diving-48, Kinetics-400, UCF 101, and HMDB 51, demonstrate that
   STFT blocks based 3D CNNs achieve on par or even better performance compared to
   the state-of-the-art methods.
+featured: false
 publication: '*IEEE Trans.~Pattern Analysis and Machine Intelligence*'
 doi: https://doi.org/10.1109/TPAMI.2021.3076522
 links:
 - name: URL
   url: https://doi.ieeecomputersociety.org/10.1109/TPAMI.2021.3076522
 ---
+

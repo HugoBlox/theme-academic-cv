@@ -1,7 +1,11 @@
 ---
 title: Facial expression recognition with skip-connection to leverage low-level features
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2019-01-01'
-publishDate: '2022-09-05T07:52:14.428548Z'
+publishDate: '2023-02-15T06:28:47.353492Z'
 authors:
 - Manisha Verma
 - Hirokazu Kobori
@@ -24,7 +28,6 @@ abstract: Deep convolutional neural networks (CNNs) have established their feet 
   datasets.
 featured: false
 publication: '*Proceedings - IEEE International Conference on Image Processing (ICIP)*'
-url_pdf: https://ieeexplore.ieee.org/abstract/document/8803396
 doi: 10.1109/ICIP.2019.8803396
 links:
 - name: URL

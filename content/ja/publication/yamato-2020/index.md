@@ -1,8 +1,12 @@
 ---
 title: Nerve segmentation with deep learning from label-free endoscopic images obtained
   using coherent anti-stokes Raman scattering
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2020-07-01'
-publishDate: '2022-09-05T07:52:10.684492Z'
+publishDate: '2023-02-15T06:28:43.437622Z'
 authors:
 - Naoki Yamato
 - Mana Matsuya
@@ -29,7 +33,6 @@ abstract: Semantic segmentation with deep learning to extract nerves from label-
   prognosis after surgery.
 featured: false
 publication: '*Biomolecules*'
-url_pdf: https://www.mdpi.com/2218-273X/10/7/1012
 doi: https://doi.org/10.3390/biom10071012
 links:
 - name: URL

@@ -1,7 +1,11 @@
 ---
 title: 歴史研究におけるビッグデータの活用－オーストラリアを中心に
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2019-12-01'
-publishDate: '2022-09-05T07:52:11.035961Z'
+publishDate: '2023-02-15T06:28:43.806420Z'
 authors:
 - 藤川 隆男
 - Chenhui Chu

@@ -1,12 +1,42 @@
 ---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
 title: Speech-driven face reenactment for a video sequence
-date: '2020-01-01'
-publishDate: '2022-09-05T07:51:51.155033Z'
+subtitle: ''
+summary: ''
 authors:
 - Yuta Nakashima
 - Takaaki Yasui
 - Leon Nguyen
 - Noboru Babaguchi
+tags:
+- 3d geometry
+- Face reenactment
+- Speech-driven
+- Talking head
+- Speech-driven
+- Talking head
+categories: []
+date: '2020-01-01'
+lastmod: 2023-02-15T15:27:41+09:00
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+publishDate: '2023-02-15T06:27:41.083541Z'
 publication_types:
 - '2'
 abstract: We present a system for reenacting a person's face driven by speech. Given
@@ -23,15 +53,6 @@ abstract: We present a system for reenacting a person's face driven by speech. G
   coined S2TH (speech to talking head), does not require any special hardware to capture
   the 3D geometry of faces but uses the state-of-the-art method for facial geometry
   regression. We visually and subjectively demonstrate reenactment quality.
-featured: false
 publication: '*ITE Transactions on Media Technology and Applications*'
-tags:
-- 3d geometry
-- Face reenactment
-- Speech-driven
-- Talking head
-- Speech-driven
-- Talking head
 doi: 10.3169/mta.8.60
 ---
-

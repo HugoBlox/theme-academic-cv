@@ -1,7 +1,11 @@
 ---
 title: Improving topic modeling through homophily for legal documents
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2020-10-01'
-publishDate: '2022-09-05T07:52:10.180175Z'
+publishDate: '2023-02-15T06:28:42.915187Z'
 authors:
 - Kazuki Ashihara
 - Cheikh Brahim El Vaigh
@@ -38,7 +42,6 @@ abstract: 'Topic modeling that can automatically assign topics to legal document
   is more effective than the cutting model.'
 featured: false
 publication: '*Applied Network Science*'
-url_pdf: https://appliednetsci.springeropen.com/articles/10.1007/s41109-020-00321-y
 doi: https://doi.org/10.1007/s41109-020-00321-y
 links:
 - name: URL

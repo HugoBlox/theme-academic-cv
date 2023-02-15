@@ -1,7 +1,11 @@
 ---
 title: 'iParaphrasing: Extracting visually grounded paraphrases via an image'
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2018-06-01'
-publishDate: '2022-09-05T07:51:49.315390Z'
+publishDate: '2023-02-15T06:27:38.402738Z'
 authors:
 - Chenhui Chu
 - Mayu Otani
@@ -23,7 +27,6 @@ publication: '*Proceedings - International Conference on Compuational Linguistic
   (COLING)*'
 tags:
 - Vgp
-url_pdf: http://arxiv.org/abs/1806.04284
 links:
 - name: arXiv
   url: https://arxiv.org/abs/1806.04284

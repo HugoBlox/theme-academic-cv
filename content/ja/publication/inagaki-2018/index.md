@@ -1,7 +1,11 @@
 ---
 title: Learning to capture light fields through a coded aperture camera
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2018-01-01'
-publishDate: '2022-09-05T07:52:12.728054Z'
+publishDate: '2023-02-15T06:28:45.579853Z'
 authors:
 - Yasutaka Inagaki
 - Yuto Kobayashi

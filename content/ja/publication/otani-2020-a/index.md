@@ -1,7 +1,11 @@
 ---
 title: Visually grounded paraphrase identification via gating and phrase localization
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2020-09-01'
-publishDate: '2022-09-05T07:52:10.321831Z'
+publishDate: '2023-02-15T06:28:43.060522Z'
 authors:
 - Mayu Otani
 - Chenhui Chu
@@ -20,7 +24,6 @@ abstract: Visually grounded paraphrases (VGPs) describe the same visual concept 
   outperforms the state-of-the-art model.
 featured: false
 publication: '*Neurocomputing*'
-url_pdf: https://www.sciencedirect.com/science/article/pii/S0925231220306512
 doi: https://doi.org/10.1016/j.neucom.2020.04.066
 links:
 - name: URL

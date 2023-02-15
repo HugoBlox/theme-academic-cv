@@ -1,8 +1,12 @@
 ---
 title: 'IterNet: retinal image segmentation utilizing structural redundancy in vessel
   networks'
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2020-01-01'
-publishDate: '2022-09-05T07:52:12.443639Z'
+publishDate: '2023-02-15T06:28:45.281781Z'
 authors:
 - Liangzhi Li
 - Manisha Verma
@@ -25,7 +29,6 @@ abstract: Retinal vessel segmentation is of great interest for diagnosis of reti
 featured: false
 publication: '*Proceedings - The IEEE Winter Conference on Applications of Computer
   Vision (WACV)*'
-url_pdf: https://www.liangzhili.com/publication/li-2020-iternet/
 doi: 10.1109/wacv45572.2020.9093621
 links:
 - name: arXiv

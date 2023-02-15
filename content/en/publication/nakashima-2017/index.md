@@ -1,7 +1,11 @@
 ---
 title: Realtime novel view synthesis with eigen-texture regression
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2017-01-01'
-publishDate: '2022-09-05T07:51:50.161827Z'
+publishDate: '2023-02-15T06:27:39.667426Z'
 authors:
 - Yuta Nakashima
 - Fumio Okura

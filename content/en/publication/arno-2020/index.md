@@ -1,8 +1,12 @@
 ---
 title: Following Embryonic Stem Cells, Their Differentiated Progeny, and Cell-State
   Changes During iPS Reprogramming by Raman Spectroscopy
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2020-10-01'
-publishDate: '2022-09-05T07:51:47.475992Z'
+publishDate: '2023-02-15T06:27:35.630057Z'
 authors:
 - Arno Germond
 - Yulia Panina
@@ -27,7 +31,6 @@ abstract: Monitoring cell-state transition in pluripotent cells is invaluable fo
   reprogrammed cells is also discussed.
 featured: false
 publication: '*Analytical Chemistry*'
-url_pdf: https://pubs.acs.org/doi/pdf/10.1021/acs.analchem.0c01800
 doi: https://doi.org/10.1021/acs.analchem.0c01800
 links:
 - name: URL

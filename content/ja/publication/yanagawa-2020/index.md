@@ -1,8 +1,12 @@
 ---
 title: 'Diagnostic performance for pulmonary adenocarcinoma on CT: comparison of radiologists
   with and without three-dimensional convolutional neural network'
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2020-10-01'
-publishDate: '2022-09-05T07:52:10.392437Z'
+publishDate: '2023-02-15T06:28:43.136879Z'
 authors:
 - Masahiro Yanagawa
 - Hirohiko Niioka

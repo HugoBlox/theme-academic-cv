@@ -1,7 +1,11 @@
 ---
 title: Action recognition from a single coded image
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2020-01-01'
-publishDate: '2022-09-05T07:51:48.553755Z'
+publishDate: '2023-02-15T06:27:37.287050Z'
 authors:
 - Tadashi Okawara
 - Michitaka Yoshida
@@ -29,7 +33,6 @@ abstract: Cameras are prevalent in society at the present time, for example, sur
 featured: false
 publication: '*Proceedings - 2020 IEEE International Conference on Computational Photography
   (ICCP)*'
-url_pdf: https://ieeexplore.ieee.org/document/9105176
 links:
 - name: URL
   url: https://ieeexplore.ieee.org/document/9105176

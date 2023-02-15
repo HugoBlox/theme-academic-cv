@@ -1,8 +1,12 @@
 ---
 title: Summarization of user-generated sports video by using deep action recognition
   features
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2018-08-01'
-publishDate: '2022-09-05T07:51:50.512439Z'
+publishDate: '2023-02-15T06:27:40.188213Z'
 authors:
 - Antonio Tejero-De-Pablos
 - Yuta Nakashima
@@ -61,7 +65,6 @@ tags:
 - Video highlights
 - Video segments
 - Video signal processing
-url_pdf: https://ieeexplore.ieee.org/document/8259321
 doi: 10.1109/TMM.2018.2794265
 links:
 - name: arXiv

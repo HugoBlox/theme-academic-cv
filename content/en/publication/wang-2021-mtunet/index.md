@@ -14,7 +14,7 @@ authors:
 tags: []
 categories: []
 date: '2021-06-01'
-lastmod: 2022-09-05T16:51:47+09:00
+lastmod: 2023-02-15T15:27:35+09:00
 featured: false
 draft: false
 
@@ -32,7 +32,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-09-05T07:51:47.200973Z'
+publishDate: '2023-02-15T06:27:35.336169Z'
 publication_types:
 - '1'
 abstract: Few-shot learning (FSL) approaches, mostly neural network-based, are assuming

@@ -1,7 +1,11 @@
 ---
 title: 公開集会記事からの情報抽出
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2020-06-01'
-publishDate: '2022-09-05T07:52:11.176328Z'
+publishDate: '2023-02-15T06:28:43.951766Z'
 authors:
 - 田中 昂志
 - 芦原 和樹

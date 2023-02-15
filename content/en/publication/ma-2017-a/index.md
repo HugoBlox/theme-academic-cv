@@ -1,7 +1,9 @@
 ---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
 title: Adapting local features for face detection in thermal image
-date: '2017-12-01'
-publishDate: '2022-09-05T07:51:53.080442Z'
+subtitle: ''
+summary: ''
 authors:
 - Chao Ma
 - Ngo Thanh Trung
@@ -9,6 +11,36 @@ authors:
 - Hajime Nagahara
 - Atsushi Shimada
 - Rin Ichiro Taniguchi
+tags:
+- Adaboost
+- Face detection
+- Haar-like
+- Histogram of oriented gradient
+- Local binary pattern
+- Local ternary pattern
+- Mixed features
+- Thermal image
+categories: []
+date: '2017-12-01'
+lastmod: 2023-02-15T15:27:44+09:00
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+publishDate: '2023-02-15T06:27:43.974157Z'
 publication_types:
 - '2'
 abstract: A thermal camera captures the temperature distribution of a scene as a thermal
@@ -34,17 +66,6 @@ abstract: A thermal camera captures the temperature distribution of a scene as a
   proposed approaches effectively improve the performance of face detection in thermal
   images. In the field experiment, we compared the face detection performance in realistic
   scenes using thermal and RGB images, and gave discussion based on the results.
-featured: false
 publication: '*Sensors (Switzerland)*'
-tags:
-- Adaboost
-- Face detection
-- Haar-like
-- Histogram of oriented gradient
-- Local binary pattern
-- Local ternary pattern
-- Mixed features
-- Thermal image
 doi: 10.3390/s17122741
 ---
-

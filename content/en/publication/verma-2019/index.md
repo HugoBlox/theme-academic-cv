@@ -1,13 +1,37 @@
 ---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
 title: Facial expression recognition with skip-connection to leverage low-level features
-date: '2019-01-01'
-publishDate: '2022-09-05T07:51:52.091095Z'
+subtitle: ''
+summary: ''
 authors:
 - Manisha Verma
 - Hirokazu Kobori
 - Yuta Nakashima
 - Noriko Takemura
 - Hajime Nagahara
+tags: []
+categories: []
+date: '2019-01-01'
+lastmod: 2023-02-15T15:27:42+09:00
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+publishDate: '2023-02-15T06:27:42.493178Z'
 publication_types:
 - '1'
 abstract: Deep convolutional neural networks (CNNs) have established their feet in
@@ -22,12 +46,9 @@ abstract: Deep convolutional neural networks (CNNs) have established their feet 
   motion trajectory features. These visual and landmark features are fused to improve
   the performance. Our method is evaluated on the CK+ and Oulu-CASIA facial expression
   datasets.
-featured: false
 publication: '*Proceedings - IEEE International Conference on Image Processing (ICIP)*'
-url_pdf: https://ieeexplore.ieee.org/abstract/document/8803396
 doi: 10.1109/ICIP.2019.8803396
 links:
 - name: URL
   url: https://ieeexplore.ieee.org/abstract/document/8803396
 ---
-

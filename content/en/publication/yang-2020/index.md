@@ -1,7 +1,9 @@
 ---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
 title: BERT representations for video question answering
-date: '2020-01-01'
-publishDate: '2022-09-05T07:51:53.372865Z'
+subtitle: ''
+summary: ''
 authors:
 - Zekun Yang
 - Noa Garcia
@@ -9,6 +11,29 @@ authors:
 - Mayu Otani
 - Yuta Nakashima
 - Haruo Takemura
+tags:
+- Kvqa
+categories: []
+date: '2020-01-01'
+lastmod: 2023-02-15T15:27:44+09:00
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+publishDate: '2023-02-15T06:27:44.494275Z'
 publication_types:
 - '1'
 abstract: 'Visual question answering (VQA) aims at answering questions about the visual
@@ -24,11 +49,7 @@ abstract: 'Visual question answering (VQA) aims at answering questions about the
   In our experiments, we exhaustively study the performance of our model by taking
   different input arrangements, showing outstanding improvements when compared against
   previous work on two well-known video VQA datasets: TVQA and Pororo.'
-featured: false
 publication: '*Proceedings - 2020 IEEE Winter Conference on Applications of Computer
   Vision, WACV 2020*'
-tags:
-- Kvqa
 doi: 10.1109/WACV45572.2020.9093596
 ---
-

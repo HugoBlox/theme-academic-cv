@@ -1,7 +1,11 @@
 ---
 title: Deep compressive sensing for visual privacy protection in flatcam imaging
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2019-10-01'
-publishDate: '2022-09-05T07:52:15.059144Z'
+publishDate: '2023-02-15T06:28:48.013398Z'
 authors:
 - Thuong Nguyen Canh
 - Hajime Nagahara

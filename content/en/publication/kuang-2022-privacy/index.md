@@ -1,9 +1,11 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: Anonymous identity sampling and reusable synthesis for sensitive face camouflage
-subtitle: ''
-summary: ''
+_build:
+  render: never
+  list: never
+  publishResources: false
+date: '2022-03-01'
+publishDate: '2023-02-15T06:27:33.260474Z'
 authors:
 - Zhenzhong Kuang
 - Longbin Teng
@@ -11,28 +13,6 @@ authors:
 - Jiajun Ding
 - Yuta Nakashima
 - Noboru Babaguchi
-tags: []
-categories: []
-date: '2022-03-01'
-lastmod: 2022-09-05T16:51:44+09:00
-featured: false
-draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2022-09-05T07:51:44.532650Z'
 publication_types:
 - '2'
 abstract: An increasing amount of face images are being captured, shared, or applied
@@ -48,9 +28,11 @@ abstract: An increasing amount of face images are being captured, shared, or app
   the k-nearest neighbors to make a good balance between anonymity and utility of
   the original face image. The experimental results over the public dataset have verified
   the feasibility and state-of-the-art efficacy of our approach.
+featured: false
 publication: '*Journal of Electronic Imaging*'
 doi: https://doi.org/10.1117/1.JEI.31.2.023011
 links:
 - name: URL
   url: https://doi.org/10.1117/1.JEI.31.2.023011
 ---
+

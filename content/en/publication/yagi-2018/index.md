@@ -1,7 +1,11 @@
 ---
 title: Designing coded aperture camera based on PCA and NMF for light field acquisition
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2018-09-01'
-publishDate: '2022-09-05T07:51:52.305108Z'
+publishDate: '2023-02-15T06:27:42.864261Z'
 authors:
 - Yusuke Yagi
 - Keita Takahashi

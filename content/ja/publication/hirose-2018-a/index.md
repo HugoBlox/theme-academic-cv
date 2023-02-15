@@ -1,8 +1,12 @@
 ---
 title: Coherent anti-stokes Raman scattering rigid endoscope toward robot-assisted
   surgery
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2018-01-01'
-publishDate: '2022-09-05T07:52:14.780060Z'
+publishDate: '2023-02-15T06:28:47.718643Z'
 authors:
 - K. Hirose
 - T. Aoki

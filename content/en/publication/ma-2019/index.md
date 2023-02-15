@@ -1,13 +1,42 @@
 ---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
 title: Fall detection using optical level anonymous image sensing system
-date: '2019-02-01'
-publishDate: '2022-09-05T07:51:49.809845Z'
+subtitle: ''
+summary: ''
 authors:
 - Chao Ma
 - Atsushi Shimada
 - Hideaki Uchiyama
 - Hajime Nagahara
 - Rin ichiro Taniguchi
+tags:
+- 3d convolutional neural network
+- Computational imaging
+- Fall detection
+- Optical level anonymous
+- Privacy protection
+categories: []
+date: '2019-02-01'
+lastmod: 2023-02-15T15:27:39+09:00
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+publishDate: '2023-02-15T06:27:39.146228Z'
 publication_types:
 - '2'
 abstract: Fall is one of the leading causes of injury for the elderly individuals.
@@ -27,14 +56,6 @@ abstract: Fall is one of the leading causes of injury for the elderly individual
   validation experiment, and showed its effectiveness. In field tests, we showed and
   discussed the applicability of the optical level anonymous image sensing system
   for privacy protection and fall detection.
-featured: false
 publication: '*Optics and Laser Technology*'
-tags:
-- 3d convolutional neural network
-- Computational imaging
-- Fall detection
-- Optical level anonymous
-- Privacy protection
 doi: 10.1016/j.optlastec.2018.07.013
 ---
-

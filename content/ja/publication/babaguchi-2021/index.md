@@ -1,7 +1,11 @@
 ---
 title: Preventing fake information generation against media clone attacks
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2021-01-01'
-publishDate: '2022-09-05T07:52:09.963432Z'
+publishDate: '2023-02-15T06:28:42.691347Z'
 authors:
 - Noboru Babaguchi
 - Isao Echizen
@@ -29,7 +33,6 @@ abstract: Fake media has been spreading due to remarkable advances in media proc
   attacks.
 featured: false
 publication: '*IEICE Transactions on Information and Systems*'
-url_pdf: https://search.ieice.org/bin/summary.php?id=e104-d_1_2
 doi: https://doi.org/10.1587/transinf.2020MUI0001
 links:
 - name: URL

@@ -1,7 +1,11 @@
 ---
 title: Cross-lingual visual grounding
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2020-12-01'
-publishDate: '2022-09-05T07:52:09.893264Z'
+publishDate: '2023-02-15T06:28:42.617001Z'
 authors:
 - Wenjian Dong
 - Mayu Otani
@@ -27,7 +31,6 @@ abstract: Visual grounding is a vision and language understanding task aiming at
   are available at https://github.com/ids-cv/Multi-Lingual-Visual-Grounding.
 featured: false
 publication: '*IEEE Access*'
-url_pdf: https://ieeexplore.ieee.org/document/9305199
 doi: https://doi.org/10.1109/ACCESS.2020.3046719
 links:
 - name: URL

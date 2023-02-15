@@ -1,7 +1,11 @@
 ---
 title: 3D Image Reconstruction from Multi-focus Microscopic Images
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2020-01-01'
-publishDate: '2022-09-05T07:52:12.942441Z'
+publishDate: '2023-02-15T06:28:45.804535Z'
 authors:
 - Takahiro Yamaguchi
 - Hajime Nagahara

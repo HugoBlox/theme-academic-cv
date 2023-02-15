@@ -1,7 +1,11 @@
 ---
 title: CFA Handling and Quality Analysis for Compressive Light Field Camera
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2021-01-01'
-publishDate: '2022-09-05T07:51:47.402959Z'
+publishDate: '2023-02-15T06:27:35.555610Z'
 authors:
 - Kohei Sakai
 - Yasutaka Inagaki

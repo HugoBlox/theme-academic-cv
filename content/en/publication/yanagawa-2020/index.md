@@ -1,8 +1,10 @@
 ---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
 title: 'Diagnostic performance for pulmonary adenocarcinoma on CT: comparison of radiologists
   with and without three-dimensional convolutional neural network'
-date: '2020-10-01'
-publishDate: '2022-09-05T07:51:48.047371Z'
+subtitle: ''
+summary: ''
 authors:
 - Masahiro Yanagawa
 - Hirohiko Niioka
@@ -19,6 +21,28 @@ authors:
 - Hajime Nagahara
 - Jun Miyake
 - Noriyuki Tomiyama
+tags: []
+categories: []
+date: '2020-10-01'
+lastmod: 2023-02-15T15:27:36+09:00
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+publishDate: '2023-02-15T06:27:36.535882Z'
 publication_types:
 - '2'
 abstract: 'Objectives To compare diagnostic performance for pulmonary invasive adenocarcinoma
@@ -46,8 +70,6 @@ abstract: 'Objectives To compare diagnostic performance for pulmonary invasive a
   • The 3D-CNN model is a non-invasive method for predicting pulmonary invasive adenocarcinoma
   in CT images with high sensitivity. • Diagnostic accuracy by a less-experienced
   radiologist was better with the 3D-CNN model than without the model.'
-featured: false
 publication: '*European Radiology*'
 doi: https://doi.org/10.1007/s00330-020-07339-x
 ---
-

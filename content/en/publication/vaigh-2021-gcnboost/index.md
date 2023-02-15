@@ -1,9 +1,11 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: 'GCNBoost: Artwork Classificationby Label Propagation Through a Knowledge Graph'
-subtitle: ''
-summary: ''
+_build:
+  render: never
+  list: never
+  publishResources: false
+date: '2021-11-01'
+publishDate: '2023-02-15T06:27:34.302605Z'
 authors:
 - Cheikh Brahim El Vaigh
 - Noa Garcia
@@ -11,28 +13,6 @@ authors:
 - Chenhui Chu
 - Yuta Nakashima
 - Hajime Nagahara
-tags: []
-categories: []
-date: '2021-11-01'
-lastmod: 2022-09-05T16:51:46+09:00
-featured: false
-draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2022-09-05T07:51:45.996564Z'
 publication_types:
 - '1'
 abstract: 'Video question answering (VideoQA) is designed to answer a given question
@@ -47,6 +27,8 @@ abstract: 'Video question answering (VideoQA) is designed to answer a given ques
   transfer of knowledge. Our experiments show that: (i) domain-agnostic knowledge
   is transferable and (ii) our proposed transfer learning framework can boost VideoQA
   performance effectively.'
+featured: false
 publication: '*Proc.~ACM International Conference on Multimedia Retrieval (ICMR)*'
 url_pdf: https://www.bmvc2021-virtualconference.com/assets/papers/1187.pdf
 ---
+

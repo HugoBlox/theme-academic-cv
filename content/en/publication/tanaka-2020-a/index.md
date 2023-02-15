@@ -1,7 +1,11 @@
 ---
 title: Constructing a public meeting corpus
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2020-05-01'
-publishDate: '2022-09-05T07:51:48.625457Z'
+publishDate: '2023-02-15T06:27:37.361072Z'
 publication_types:
 - '1'
 abstract: In this paper, we propose a method for constructing a large corpus about

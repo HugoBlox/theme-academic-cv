@@ -1,7 +1,11 @@
 ---
 title: Complex word identification based on frequency in a learner corpus
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2018-01-01'
-publishDate: '2022-09-05T07:51:51.503148Z'
+publishDate: '2023-02-15T06:27:41.746345Z'
 authors:
 - Tomoyuki Kajiwara
 - Mamoru Komachi
@@ -15,7 +19,6 @@ abstract: We introduce the TMU systems for the Complex Word Identification (CWI)
 featured: false
 publication: '*Proceedings of the Thirteenth Workshop on Innovative Use of NLP for
   Building Educational Applications (BEA 13)*'
-url_pdf: http://aclweb.org/anthology/W18-0521
 doi: 10.18653/v1/W18-0521
 links:
 - name: URL

@@ -1,7 +1,11 @@
 ---
 title: Contextualized context2vec
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2019-01-01'
-publishDate: '2022-09-05T07:52:15.201304Z'
+publishDate: '2023-02-15T06:28:48.161190Z'
 authors:
 - Kazuki Ashihara
 - Tomoyuki Kajiwara
@@ -22,7 +26,6 @@ abstract: 'Lexical substitution ranks substitution candidates from the viewpoint
 featured: false
 publication: '*Proceedings of the 5th Workshop on Noisy User-generated Text (W-NUT
   2019)*'
-url_pdf: https://www.aclweb.org/anthology/D19-5552
 doi: 10.18653/v1/D19-5552
 links:
 - name: URL

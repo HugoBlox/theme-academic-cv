@@ -1,8 +1,10 @@
 ---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
 title: Efficacy of Novel Multispectral Imaging Device to Determine Anastomosis for
   Esophagogastrostomy
-date: '2019-01-01'
-publishDate: '2022-09-05T07:51:49.736637Z'
+subtitle: ''
+summary: ''
 authors:
 - R. Tsutsumi
 - T. Ikeda
@@ -12,6 +14,33 @@ authors:
 - E. Oki
 - Y. Maehara
 - M. Hashizume
+tags:
+- Anastomosis
+- Esophagogastrostomy
+- Hemoglobin
+- Oxygen saturation
+- Quantitative imaging
+categories: []
+date: '2019-01-01'
+lastmod: 2023-02-15T15:27:39+09:00
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+publishDate: '2023-02-15T06:27:38.997346Z'
 publication_types:
 - '2'
 abstract: '© 2019 The Authors  Background: Biomedical imaging devices that utilize
@@ -34,14 +63,6 @@ abstract: '© 2019 The Authors  Background: Biomedical imaging devices that util
   tissue O 2 saturation and Hb level in real time and noninvasively using a multispectral
   device allows instantaneous determination of the anastomosis and related organ conditions,
   thereby contributing to determining the appropriate treatment direction.'
-featured: false
 publication: '*Journal of Surgical Research*'
-tags:
-- Anastomosis
-- Esophagogastrostomy
-- Hemoglobin
-- Oxygen saturation
-- Quantitative imaging
 doi: 10.1016/j.jss.2019.04.033
 ---
-

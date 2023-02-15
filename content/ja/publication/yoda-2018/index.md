@@ -1,7 +1,11 @@
 ---
 title: The dynamic photometric stereo method using a multi-tap CMOS image sensor
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2018-01-01'
-publishDate: '2022-09-05T07:52:11.521700Z'
+publishDate: '2023-02-15T06:28:44.318607Z'
 authors:
 - T. Yoda
 - H. Nagahara

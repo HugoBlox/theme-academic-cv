@@ -1,8 +1,12 @@
 ---
 title: 'IDSOU at WNUT-2020 Task 2: Identification of informative COVID-19 English
   tweets'
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2020-11-01'
-publishDate: '2022-09-05T07:52:10.252868Z'
+publishDate: '2023-02-15T06:28:42.988869Z'
 authors:
 - Sora Ohashi
 - Tomoyuki Kajiwara

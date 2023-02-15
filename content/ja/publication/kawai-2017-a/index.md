@@ -1,7 +1,11 @@
 ---
 title: Augmented reality marker hiding with texture deformation
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2017-10-01'
-publishDate: '2022-09-05T07:52:14.570128Z'
+publishDate: '2023-02-15T06:28:47.499229Z'
 authors:
 - Norihiko Kawai
 - Tomokazu Sato

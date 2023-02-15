@@ -1,7 +1,11 @@
 ---
 title: Speech-driven face reenactment for a video sequence
+_build:
+  render: never
+  list: never
+  publishResources: false
 date: '2020-01-01'
-publishDate: '2022-09-05T07:52:13.510553Z'
+publishDate: '2023-02-15T06:28:46.395793Z'
 authors:
 - Yuta Nakashima
 - Takaaki Yasui
