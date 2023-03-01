@@ -3,7 +3,7 @@
 title: "Pattanun Chanpiwat"
 
 # Weight (for sorting: 1: Fabricio, 2: Postdocs, 3: Doctoral Candidates, 4: Research Assistants)
-weight: 3
+weight: 5
 
 # Username (this should match the folder name and the name on publications)
 authors:

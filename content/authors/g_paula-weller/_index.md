@@ -2,7 +2,7 @@
 # Display name
 title: "Paula Weller"
 
-# Weight (for sorting: 1: Fabricio, 2: Postdocs, 3: Doctoral Candidates, 4: Research Assistants)
+# Weight (for sorting: 1: Fabricio, 2: Postdocs, 3: Doctoral Candidates, 4: Research Assistants, 5: Visitors)
 weight: 3
 
 # Username (this should match the folder name and the name on publications)
