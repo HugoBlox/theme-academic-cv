@@ -13,7 +13,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Visiting Doctoral Candidate
+role: Visiting Doctoral Researcher
 
 # Organizations/Affiliations
 organizations:
@@ -21,7 +21,7 @@ organizations:
   url: "https://www.aalto.fi/en"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Xinwei Lin is a Visiting Doctoral Candidate in the Systems Analysis Laboratory in Aalto University.
+bio: Xinwei Lin is a Visiting Doctoral Researcher in the Systems Analysis Laboratory in Aalto University.
 
 # List each interest with a dash
 interests:

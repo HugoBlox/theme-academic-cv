@@ -68,8 +68,9 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Research Group
-- Research Assistants
+- Past Members
+# - Research Group
+# - Research Assistants
 ---
 
 I am a research assistant with a background in mathematics and systems sciences, currently pursuing a master's degree in Machine Learning, Data Science and AI at Aalto University. 
