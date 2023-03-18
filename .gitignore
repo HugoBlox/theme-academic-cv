@@ -8,3 +8,8 @@ jsconfig.json
 node_modules/
 go.sum
 .hugo_build.lock
+.Rproj.user
+
+# Mac files
+.DS_Store
+.github/.DS_Store
