@@ -7,7 +7,7 @@ weight: 1
 # Page metadata.
 title: Data Products related to High Mountain Asia
 date: "2022-11-30T00:00:00Z"
-lastmod: "2022-11-30T00:00:00Z"
+lastmod: "2023-03-21T00:00:00Z"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -34,7 +34,7 @@ The following tables list data products that have been produced or will soon be 
 |[8-meter DEMs, along-track](https://nsidc.org/data/HMA_DEM8m_AT/versions/1)                                                  |DEM      |2002 to 2016       |HMA                  |Arendt (HMA-1)  |[Shean et al, 2020](/publication/shean-systematic-2020/)
 |[Chamoli Disaster Pre-event 2-m DEM Composite: September 2015](https://zenodo.org/record/4554647)                            |DEM, haz |Sep 2015           |Chamoli              |Rounce (HMA-2)  |[Shean et al, 2020](/publication/shean-systematic-2020/)
 |[Chamoli Disaster Post-event 2-m DEM Composite (February 10-11, 2021) and Difference Map](https://zenodo.org/record/4558692) |DEM, haz |Feb 2021           |Chamoli              |Rounce (HMA-2)  |[Shean et al, 2020](/publication/shean-systematic-2020/)
-|MERIT-Endorheic Dataset: Delineation of endorheic basins in 5 and 15 min upscaled river networks | river basins | | | Rounce (HMA-2) | Estimated publication: December 2022
+|[MERIT-Endorheic Dataset: Delineation of endorheic basins in 5 and 15 min upscaled river networks](https://data.msdlive.org/records/154gm-kvq48) | river network | | | Rounce (HMA-2) | 
 
 
 ## Glaciers
@@ -91,7 +91,7 @@ The following tables list data products that have been produced or will soon be 
 |[GFDL FLOR modeled daily precipitation](https://nsidc.org/data/HMA_EAPrecip_FLOR/versions/1)  | precip, model | 1961 to 2000, 1982 to 2017, 2061 to 2100  |HMA    |Kirschbaum, Kapnick (HMA-1)|
 |[GFDL FLOR modeled extreme precipitation indices](https://nsidc.org/data/HMA_Precip_FLOR/versions/1)   |precip, model |2000 to 2016   |HMA         |Kirschbaum, Kapnick (HMA-1)|
 |[TRMM-derived 3B42 extreme precipitation indices](https://nsidc.org/data/HMA_Precip_3B42/versions/1)  |precip |1999 to 2017   |near-global |Kirschbaum (HMA-1) |
-<!-- | Downscaled daily precipitation derived from GFDL SPEAR 30-member ensemble | precip, model | daily | 5 km resolution | Nikolopoulos (HMA-2) | -->
+| Downscaled daily precipitation derived from GFDL SPEAR 30-member ensemble | precip, model | daily | 5 km resolution | Nikolopoulos (HMA-2) | 
                                            
 
 ## Landslides and Hazards
@@ -103,6 +103,7 @@ The following tables list data products that have been produced or will soon be 
 |[Multitemporal landslide inventory for Pumqu/Arun river basin](https://nsidc.org/data/HMA-2_mtli/versions/1) | haz | 2011 to 2020 | Pumqu/Arun River Basins | Kirschbaum (HMA-2)
 | Inventory of newly discovered glacial lake outburst floods across the Himalayas | lakes, haz, glof | | HMA | McCoy (HMA-2) | Estimated publication: TBD
 | Landslide hazard indicator | haz | | 5 km resolution | Kirschbaum (HMA-2) | Estimated publication: TBD
+| 30m Flood Geomorphic Potential Index for entire HMA | haz, floods | | HMA | Nikolopoulos (HMA-2) | 
 
 ## Lakes
 
@@ -123,9 +124,11 @@ The following tables list data products that have been produced or will soon be 
 ## Water Budget
 | Title | Tags | Temporal Coverage | Geographic Coverage | PI | Notes/References
 |-------|------|-------------------|---------------------|----|----------------------
+|[Global Inter-Basin Hydrological Transfer Database](https://data.msdlive.org/records/fkaan-vw036) | hydrological modeling | | Global | Rounce (HMA-2) | 
 |River vector discharge at overpass intervals over entire domain | discharge |  | | Gleason (HMA-2) | Estimated publication: TBD
 |Small river vector discahrge from Planet over select basins | discharge | | | Gleason (HMA-2) | Estimated publication: summer 2023
 |Total water storage, river discharge, other major water balance variables over HMA  | TWS, discharge | 1980 - | 6 arcminute resolution | Rounce (HMA-2) | Estimated publication: spring 2023
+|Water Balance Model output for Parts of Afghanistan, Tajikistan, Kyrgystan, and Pakistan | 2016-2099 | Western HMA | Rounce (HMA-2) |
 
 ## Weather Station Data
 
