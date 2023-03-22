@@ -34,7 +34,7 @@ The following tables list data products that have been produced or will soon be 
 |[8-meter DEMs, along-track](https://nsidc.org/data/HMA_DEM8m_AT/versions/1)                                                  |DEM      |2002 to 2016       |HMA                  |Arendt (HMA-1)  |[Shean et al, 2020](/publication/shean-systematic-2020/)
 |[Chamoli Disaster Pre-event 2-m DEM Composite: September 2015](https://zenodo.org/record/4554647)                            |DEM, haz |Sep 2015           |Chamoli              |Rounce (HMA-2)  |[Shean et al, 2020](/publication/shean-systematic-2020/)
 |[Chamoli Disaster Post-event 2-m DEM Composite (February 10-11, 2021) and Difference Map](https://zenodo.org/record/4558692) |DEM, haz |Feb 2021           |Chamoli              |Rounce (HMA-2)  |[Shean et al, 2020](/publication/shean-systematic-2020/)
-|[MERIT-Endorheic Dataset: Delineation of endorheic basins in 5 and 15 min upscaled river networks](https://data.msdlive.org/records/154gm-kvq48) | river network | | | Rounce (HMA-2) | 
+|[MERIT-Endorheic Dataset: Delineation of endorheic basins in 5 and 15 min upscaled river networks](https://data.msdlive.org/records/154gm-kvq48) | river network | | Global | Rounce (HMA-2) | [Prusevich et al, 2022](https://doi.org/10.57931/1904379)
 
 
 ## Glaciers
@@ -124,11 +124,11 @@ The following tables list data products that have been produced or will soon be 
 ## Water Budget
 | Title | Tags | Temporal Coverage | Geographic Coverage | PI | Notes/References
 |-------|------|-------------------|---------------------|----|----------------------
-|[Global Inter-Basin Hydrological Transfer Database](https://data.msdlive.org/records/fkaan-vw036) | hydrological modeling | | Global | Rounce (HMA-2) | 
+|[Global Inter-Basin Hydrological Transfer Database](https://data.msdlive.org/records/fkaan-vw036) | hydrological modeling | | Global | Rounce (HMA-2) | [Lammers et al, 2022](https://doi.org/10.57931/1905995)
 |River vector discharge at overpass intervals over entire domain | discharge |  | | Gleason (HMA-2) | Estimated publication: TBD
 |Small river vector discahrge from Planet over select basins | discharge | | | Gleason (HMA-2) | Estimated publication: summer 2023
 |Total water storage, river discharge, other major water balance variables over HMA  | TWS, discharge | 1980 - | 6 arcminute resolution | Rounce (HMA-2) | Estimated publication: spring 2023
-|Water Balance Model output for Parts of Afghanistan, Tajikistan, Kyrgystan, and Pakistan | 2016-2099 | Western HMA | Rounce (HMA-2) |
+|Water Balance Model output for Parts of Afghanistan, Tajikistan, Kyrgystan, and Pakistan | hydrological modeling | 2016-2099 | Western HMA | Rounce (HMA-2) |
 
 ## Weather Station Data
 
