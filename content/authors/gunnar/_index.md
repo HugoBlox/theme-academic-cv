@@ -79,4 +79,4 @@ email: ""
 #- Visitors
 ---
 
-I am a physical oceanographer working as project scientist at [Scripps Institution of Oceanography](https://scripps.ucsd.edu/). My research interests include oceanic processes like dense overflows and hydraulics, internal waves and turbulent mixing, and their impacts on the large-scale ocean circulation. My research is primarily based on the collection and analysis of shipboard and moored in-situ observations. I am a member of [Multiscale Ocean Dynamics](http://mod.ucsd.edu) at Scripps.
+I am a physical oceanographer working as project scientist at the [Scripps Institution of Oceanography](https://scripps.ucsd.edu/). My research interests include oceanic processes like dense overflows and hydraulics, internal waves and turbulent mixing, and their impacts on the large-scale ocean circulation. My research is primarily based on the collection and analysis of shipboard and moored in-situ observations. I am a member of [Multiscale Ocean Dynamics](http://mod.ucsd.edu) at Scripps.
