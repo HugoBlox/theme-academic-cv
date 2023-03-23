@@ -22,6 +22,7 @@ bio: My research interests include small-scale physical oceanic processes and th
 
 interests:
 - Overflows and Hydraulics
+- Flow-Topography Interaction
 - Ocean Turbulence and Mixing
 - Internal Waves
 - Global Overturning Circulation
