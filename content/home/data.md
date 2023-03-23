@@ -54,8 +54,9 @@ Mooring and shipboard data from the [Samoan Passage project]({{< ref "/project/s
 
 [{{< icon name="github" pack="fab" padding_left="1" >}} data repository](https://github.com/gunnarvoet/sp-data-archive)
 
-<!-- ### PISTON -->
-<!-- Mooring data from [PISTON]({{< ref "/project/piston" >}}). -->
+### PISTON
+Mooring data from [PISTON]({{< ref "/project/piston" >}}). 
 
-<!-- [{{< icon name="github" pack="fab" padding_left="1" >}} data repository](https://github.com/gunnarvoet/piston-mooring-data) -->
-<!-- [{{< icon name="github" pack="fab" padding_left="1" >}} processing code](https://github.com/gunnarvoet/piston-proc) -->
+[{{< icon name="github" pack="fab" padding_left="1" >}} data repository](https://github.com/gunnarvoet/piston-mooring-data) | [{{< icon name="github" pack="fab" padding_left="1" >}} processing code](https://github.com/gunnarvoet/piston-proc)
+
+PISTON data have also been archived to the [CAMP2EX_PISTON data repository](https://www-air.larc.nasa.gov/cgi-bin/ArcView/camp2ex?MOORING=1) hosted by NASA.
