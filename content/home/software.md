@@ -51,32 +51,32 @@ I {{< icon name="heart" pack="fas" padding_left="0" padding_right="0" >}} Open S
 ### mixsea
 Ocean Mixing Parameterizations in Python.
 
-[{{< icon name="github" pack="fab" padding_left="1" >}} code](https://github.com/modscripps/mixsea)
-&nbsp; / &nbsp;
-[{{< icon name="book" pack="fas" padding_left="1" >}} docs](https://mixsea.readthedocs.io/en/latest/)
+[{{< icon name="github" pack="fab" padding_left="0" padding_right="1">}} code](https://github.com/modscripps/mixsea)
+&nbsp; | &nbsp;
+[{{< icon name="book" pack="fas" padding_left="0" padding_right="1">}} docs](https://mixsea.readthedocs.io/en/latest/)
 
 ### ctdproc
 CTD Data Processing in Python. 
 
-[{{< icon name="github" pack="fab" padding_left="1" >}} code](https://github.com/gunnarvoet/ctdproc)
-&nbsp; / &nbsp;
-[{{< icon name="book" pack="fas" padding_left="1" >}} docs](https://ctdproc.readthedocs.io/en/latest/)
+[{{< icon name="github" pack="fab" padding_left="0" padding_right="1">}} code](https://github.com/gunnarvoet/ctdproc)
+&nbsp; | &nbsp;
+[{{< icon name="book" pack="fas" padding_left="0" padding_right="1">}} docs](https://ctdproc.readthedocs.io/en/latest/)
 
 ### velosearaptor
 ADCP Data Processing in Python. 
 
-[{{< icon name="github" pack="fab" padding_left="1" >}} code](https://github.com/modscripps/velosearaptor)
-&nbsp; / &nbsp;
-[{{< icon name="book" pack="fas" padding_left="1" >}} docs](https://modscripps.github.io/velosearaptor)
+[{{< icon name="github" pack="fab" padding_left="0" padding_right="1">}} code](https://github.com/modscripps/velosearaptor)
+&nbsp; | &nbsp;
+[{{< icon name="book" pack="fas" padding_left="0" padding_right="1">}} docs](https://modscripps.github.io/velosearaptor)
 
 ### gvpy
 Somewhat random collection of data analysis code snippets written in Python. Sharing this here as I sometimes find inspiration in other peoples code. Please be aware that breaking changes may occur at any moment.
 
-[{{< icon name="github" pack="fab" padding_left="1" >}} code](https://github.com/gunnarvoet/gvpy)
-&nbsp; / &nbsp;
-[{{< icon name="book" pack="fas" padding_left="1" >}} docs](https://gunnarvoet.github.io/gvpy)
+[{{< icon name="github" pack="fab" padding_left="0" padding_right="1">}} code](https://github.com/gunnarvoet/gvpy)
+&nbsp; | &nbsp;
+[{{< icon name="book" pack="fas" padding_left="0" padding_right="1">}}docs](https://gunnarvoet.github.io/gvpy)
 
 ### watchmagic
 Adds a magic command to IPython that will watch out for file changes and re-evaluate a notebook cell if any changes occur.
 
-[{{< icon name="github" pack="fab" padding_left="1" >}} code](https://github.com/gunnarvoet/watchmagic)
+[{{< icon name="github" pack="fab" padding_left="0" padding_right="1" >}}code](https://github.com/gunnarvoet/watchmagic)
