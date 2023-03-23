@@ -14,6 +14,7 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "0.111.3"
+          extended: true
 
       # - name: Clean
       #   run: hugo mod clean
