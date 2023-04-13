@@ -2,7 +2,7 @@
 # Display name
 title: "Saurabh Kumar"
 
-wegith: 53
+weight: 56
 
 # Username (this should match the folder name and the name on publications)
 authors:

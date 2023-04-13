@@ -1,12 +1,12 @@
 ---
 # Display name
-title: "福井嵐士"
+title: "大竹俊輔"
 
-weight: 2020220
+weight: 2022300
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "arashi-fukui"
+- "shunsuke-otake"
 
 # Is this the primary user of the site?
 superuser: false
@@ -17,7 +17,7 @@ role: 博士前期課程学生
 # Organizations/Affiliations
 organizations:
 - name: "情報科学研究科"
-  url: "http://www.ist.osaka-u.ac.jp/"
+  url: "https://www.es.osaka-u.ac.jp/ja/"
 - name: "大阪大学"
   url: "http://www.osaka-u.ac.jp/"
 
@@ -67,10 +67,10 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Almuni
+- 学生
 ---
 ### Contact
-- email: ars1504@is.ids.
+- email: otake@is.ids.
 
 
 Please add `osaka-u.ac.jp` to complete email address

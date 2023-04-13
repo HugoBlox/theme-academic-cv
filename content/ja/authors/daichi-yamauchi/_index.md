@@ -2,7 +2,7 @@
 # Display name
 title: "山内大地"
 
-weight: 2022300
+weight: 2023100
 
 # Username (this should match the folder name and the name on publications)
 authors:
@@ -12,11 +12,11 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: 学部学生
+role: 博士前期課程学生
 
 # Organizations/Affiliations
 organizations:
-- name: "基礎工学部"
+- name: "情報科学研究科"
   url: "https://www.es.osaka-u.ac.jp/ja/"
 - name: "大阪大学"
   url: "http://www.osaka-u.ac.jp/"

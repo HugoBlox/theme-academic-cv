@@ -2,7 +2,7 @@
 # Display name
 title: "Daichi Yamauchi"
 
-weight: 2022300
+weight: 2023100
 
 # Username (this should match the folder name and the name on publications)
 authors:
@@ -12,12 +12,12 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Undergraduate Student
+role: Graduate Student
 
 # Organizations/Affiliations
 organizations:
-- name: "School of Engineering Science"
-  url: "https://www.es.osaka-u.ac.jp/en/"
+- name: "Graduate School of Information Science and Technology"
+  url: "https://www.ist.osaka-u.ac.jp/english/"
 - name: "Osaka University"
   url: "http://www.osaka-u.ac.jp/"
 

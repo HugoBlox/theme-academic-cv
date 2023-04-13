@@ -1,23 +1,24 @@
 ---
 # Display name
-title: "福井嵐士"
+title: "廣瀬 雄基"
 
-weight: 2020220
+weight: 58
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "arashi-fukui"
+- "yuki-hirose"
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: 博士前期課程学生
+role: 特任研究員
+group: 知能情報基盤部門
 
 # Organizations/Affiliations
 organizations:
-- name: "情報科学研究科"
-  url: "http://www.ist.osaka-u.ac.jp/"
+- name: "データビリティフロンティア機構"
+  url: "http://www.ids.osaka-u.ac.jp/"
 - name: "大阪大学"
   url: "http://www.osaka-u.ac.jp/"
 
@@ -67,10 +68,12 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Almuni
+- 研究員
+- 専任
+
 ---
 ### Contact
-- email: ars1504@is.ids.
+- email: hirose@ids.
 
 
 Please add `osaka-u.ac.jp` to complete email address

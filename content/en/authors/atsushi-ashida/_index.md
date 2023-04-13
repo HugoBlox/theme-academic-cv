@@ -1,24 +1,25 @@
 ---
 # Display name
-title: "福井嵐士"
+title: "Atsushi Ashida"
 
-weight: 2020220
+weight: 58
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "arashi-fukui"
+- "atsushi-ashida"
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: 博士前期課程学生
+group: Artificial Intelligence and Mathematics
+role: Specially-Appointed Researcher/Fellow
 
 # Organizations/Affiliations
 organizations:
-- name: "情報科学研究科"
-  url: "http://www.ist.osaka-u.ac.jp/"
-- name: "大阪大学"
+- name: "Institute for Datability Science"
+  url: "http://www.ids.osaka-u.ac.jp/"
+- name: "Osaka University"
   url: "http://www.osaka-u.ac.jp/"
 
 
@@ -67,10 +68,11 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Almuni
+- Researchers
+- Fulltime
 ---
 ### Contact
-- email: ars1504@is.ids.
+- email: ashida@ids.
 
 
 Please add `osaka-u.ac.jp` to complete email address
