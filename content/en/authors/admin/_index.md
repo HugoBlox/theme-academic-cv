@@ -79,6 +79,10 @@ ISLab is a research group with Graduate School of Information Science and Techno
 
 As a research institute with a mission to provide data science-related technologies to everyone, we are collaborating with various departments in Osaka University and other research institutes, as well as companies. As ISLab, a part of the Graduate School of Information Science and Technology, we work with students to motivate them and cultivate their interests in research as well as knowledge in related fields. 
 
+### We are hiring
+
+We have multiple open postdoc positions! [Click here](/post/we-are-hiring/) for more details.
+
 ### For prospective students
 
 We welcome students who want to work with us. [Click here](/post/prospective-students/) for more details.
