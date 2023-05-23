@@ -78,5 +78,5 @@ email: 'minfeng_zhu@zju.edu.cn'
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-I am a researcher in the School of Software & the State Key Laboratory of CAD&CG at Zhejiang University. I received Ph.D. Degree in Computer Graphics from Zhejiang University under the supervision of Prof. Wei Chen. My research interests include visual analysis and artificial intelligence.
+I am a researcher in the School of Software & the State Key Laboratory of CAD&CG at Zhejiang University. I received Ph.D. Degree in Computer Science from Zhejiang University under the supervision of Prof. Wei Chen. My research interests include visual analysis and artificial intelligence.
 
