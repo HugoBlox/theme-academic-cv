@@ -14,11 +14,13 @@ superuser: true
 
 # Organizations/Affiliations to show in About widget
 organizations:
+  - name: ZJU VAI
+    url: https://zjuvag.org
   - name: Zhejiang University
-    #url: https://www.stanford.edu/
+    url: https://www.zju.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+# bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
 interests:
@@ -76,5 +78,5 @@ email: 'minfeng_zhu@zju.edu.cn'
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-Minfeng Zhu is a Ph.D from State Key Lab of CAD&CG, Zhejiang University, supervised by Prof. Wei Chen. His research interests include visual analysis and computer vision.
+I am a researcher in the School of Software & the State Key Laboratory of CAD&CG at Zhejiang University. I received Ph.D. Degree in Computer Graphics from Zhejiang University under the supervision of Prof. Wei Chen. My research interests include visual analysis and artificial intelligence.
 
