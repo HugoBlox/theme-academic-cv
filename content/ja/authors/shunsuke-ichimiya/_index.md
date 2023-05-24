@@ -1,24 +1,25 @@
 ---
 # Display name
-title: "Liu Yi"
+title: "一宮俊介"
 
-weight: 2023100
+# 2023-04-01 00:00:00
+weight: 3023102
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "liu-yi"
+- "shunsuke-ichimiya"
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Graduate Student
+role: 学部学生
 
 # Organizations/Affiliations
 organizations:
-- name: "Graduate School of Information Science and Technology"
-  url: "https://www.ist.osaka-u.ac.jp/english/"
-- name: "Osaka University"
+- name: "基礎工学部"
+  url: "https://www.es.osaka-u.ac.jp/ja/"
+- name: "大阪大学"
   url: "http://www.osaka-u.ac.jp/"
 
 
@@ -67,10 +68,10 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Students
+- 学生
 ---
 ### Contact
-- email: liy-yi@is.ids.
+- email: ichimiya-s@is.ids.
 
 
 Please add `osaka-u.ac.jp` to complete email address

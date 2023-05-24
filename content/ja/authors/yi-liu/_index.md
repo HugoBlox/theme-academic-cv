@@ -1,23 +1,24 @@
 ---
 # Display name
-title: "越山嘉祈"
+title: "Yi Liu"
 
-weight: 3022100
+# 2023-04-01 00:00:00
+weight: 2023101
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "hiroki-koshiyama"
+- "yi-liu"
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: 学部学生
+role: 博士前期課程学生
 
 # Organizations/Affiliations
 organizations:
-- name: "基礎工学部"
-  url: "https://www.es.osaka-u.ac.jp/ja/"
+- name: "情報科学研究科"
+  url: "http://www.ist.osaka-u.ac.jp/"
 - name: "大阪大学"
   url: "http://www.osaka-u.ac.jp/"
 
@@ -70,7 +71,7 @@ user_groups:
 - 学生
 ---
 ### Contact
-- email: koshiyama@is.ids.
+- email: liuyi@is.ids.
 
 
 Please add `osaka-u.ac.jp` to complete email address

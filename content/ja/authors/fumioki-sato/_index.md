@@ -1,22 +1,23 @@
 ---
 # Display name
-title: "Liu Yi"
+title: "佐藤史興"
 
-weight: 2023100
+# 2023-04-01 00:00:00
+weight: 3023103
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "liu-yi"
+- "fumioki-sato"
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: 博士前期課程学生
+role: 学部学生
 
 # Organizations/Affiliations
 organizations:
-- name: "情報科学研究科"
+- name: "基礎工学部"
   url: "https://www.es.osaka-u.ac.jp/ja/"
 - name: "大阪大学"
   url: "http://www.osaka-u.ac.jp/"
@@ -70,7 +71,7 @@ user_groups:
 - 学生
 ---
 ### Contact
-- email: liuyi@is.ids.
+- email: sato-f@is.ids.
 
 
 Please add `osaka-u.ac.jp` to complete email address

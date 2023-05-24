@@ -1,12 +1,13 @@
 ---
 # Display name
-title: "越山嘉祈"
+title: "石山和樹"
 
-weight: 3022100
+# 2023-04-01 00:00:00
+weight: 3023101
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "hiroki-koshiyama"
+- "kazuki-ishiyama"
 
 # Is this the primary user of the site?
 superuser: false
@@ -70,7 +71,7 @@ user_groups:
 - 学生
 ---
 ### Contact
-- email: koshiyama@is.ids.
+- email: ishiyama-k@is.ids.
 
 
 Please add `osaka-u.ac.jp` to complete email address

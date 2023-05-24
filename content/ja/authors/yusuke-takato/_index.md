@@ -1,12 +1,13 @@
 ---
 # Display name
-title: "越山嘉祈"
+title: "高東佑輔"
 
-weight: 3022100
+# 2023-04-01 00:00:00
+weight: 3023104
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "hiroki-koshiyama"
+- "yusuke-takato"
 
 # Is this the primary user of the site?
 superuser: false
@@ -70,7 +71,7 @@ user_groups:
 - 学生
 ---
 ### Contact
-- email: koshiyama@is.ids.
+- email: takato-y@is.ids.
 
 
 Please add `osaka-u.ac.jp` to complete email address

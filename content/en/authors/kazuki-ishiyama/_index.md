@@ -1,24 +1,25 @@
 ---
 # Display name
-title: "越山嘉祈"
+title: "Kazuki Ishiyama"
 
-weight: 3022100
+# 2023-04-01 00:00:00
+weight: 3023101
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "hiroki-koshiyama"
+- "kazuki-ishiyama"
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: 学部学生
+role: Undergraduate Student
 
 # Organizations/Affiliations
 organizations:
-- name: "基礎工学部"
-  url: "https://www.es.osaka-u.ac.jp/ja/"
-- name: "大阪大学"
+- name: "School of Engineering Science"
+  url: "https://www.es.osaka-u.ac.jp/en/"
+- name: "Osaka University"
   url: "http://www.osaka-u.ac.jp/"
 
 
@@ -67,10 +68,10 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- 学生
+- Students
 ---
 ### Contact
-- email: koshiyama@is.ids.
+- email: ishiyama-k@is.ids.
 
 
 Please add `osaka-u.ac.jp` to complete email address
