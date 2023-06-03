@@ -48,11 +48,13 @@ Inline code: `variable`
 
 Code block:
 
+{% raw %}
 ```python
 porridge = "blueberry"
 if porridge == "blueberry":
     print("Eating...")
 ```
+{% endraw %}  
 
 ---
 
