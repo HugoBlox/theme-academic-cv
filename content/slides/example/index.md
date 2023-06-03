@@ -54,7 +54,7 @@ porridge = "blueberry"
 if porridge == "blueberry":
     print("Eating...")
 ```
-{% endraw %}  
+{% endraw %}
 
 ---
 
