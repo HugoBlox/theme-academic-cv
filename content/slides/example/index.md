@@ -48,13 +48,6 @@ Inline code: `variable`
 
 Code block:
 
-{% highlight ruby %}
-```python
-porridge = "blueberry"
-if porridge == "blueberry":
-    print("Eating...")
-```
-{% endhighlight %}
 
 ---
 
