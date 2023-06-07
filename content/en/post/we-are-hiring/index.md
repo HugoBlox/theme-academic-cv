@@ -31,7 +31,7 @@ ISLab is opening a few postdoctoral positions for computer vision and/or machine
 
 ## About ISLab
 
-ISLab is a new research group at Osaka University, Japan, affiliated with [Institute for Datability Science (IDS)](https://www.ids.osaka-u.ac.jp/en/), Osaka University. One of our main missions is to provide latest machine learning and data science techniques to other departments/institutes at Osaka University or any other organizations (e.g., universities and companies) through interdisciplinary collaborative research projects. 
+ISLab is a new research group at Osaka University, Japan, affiliated with [Institute for Datability Science (IDS)](https://www.ids.osaka-u.ac.jp/en/), Osaka University. Our mission includes providing the latest machine learning and data science techniques to other departments/institutes at Osaka University or any other organizations (e.g., universities and companies) through interdisciplinary collaborative research projects. 
 
 ISLab is also affiliated with [Graduate School of Information Science and Technology, Osaka University](https://www.ist.osaka-u.ac.jp/english/), and we cultivate undergraduate and graduate students' skills and knowledge in computer vision, machine learning, natural language processing, and related fields. 
 
@@ -55,7 +55,7 @@ We have many projects on various topics, including application-specific ones inv
 
 Please refer to [our website](https://www.is.ids.osaka-u.ac.jp/) for more details on some (but not all) of the projects. 
 
-All our researchers and students are encouraged to submit papers to top conferences like CVPR, ICCV, ECCV, ICLR, ICCP, etc. (we have 5 papers at CVPR 2023 and 4 at CVPR 2022). We welcome researchers who can lead individual projects from the very beginning of their lifecycle (i.e., project proposals given an specific application or a topic) in collaboration with the faculty members. Interested researchers may advice undergraduate or graduate students. 
+All our researchers and students are encouraged to submit papers to top conferences like CVPR, ICCV, ECCV, ICLR, ICCP, etc. (we have 5 papers at CVPR 2023 and 4 at CVPR 2022). We welcome researchers who can lead individual projects from the very beginning of their lifecycle (i.e., project proposals given a specific application or a topic) in collaboration with the faculty members. Interested researchers may advise undergraduate or graduate students. 
 
 All our researchers can use 20% of their time for their own research projects and are encouraged to submit applications for funding. 
 
