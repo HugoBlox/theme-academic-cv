@@ -31,13 +31,14 @@ ISLab is opening a few postdoctoral positions for computer vision and/or machine
 
 ## About ISLab
 
-ISLab is a new research group at Osaka University, Japan, affiliated with [Institute for Datability Science (IDS)](https://www.ids.osaka-u.ac.jp/en/), Osaka University. Our mission includes providing the latest machine learning and data science techniques to other departments/institutes at Osaka University or any other organizations (e.g., universities and companies) through interdisciplinary collaborative research projects. 
+ISLab is a research group at Osaka University, Japan, affiliated with [Institute for Datability Science (IDS)](https://www.ids.osaka-u.ac.jp/en/), Osaka University. Our mission includes providing/transferring the latest machine learning and data science techniques to other departments/institutes at Osaka University or any other organizations (e.g., universities and companies) through interdisciplinary collaborative research projects. 
 
 ISLab is also affiliated with [Graduate School of Information Science and Technology, Osaka University](https://www.ist.osaka-u.ac.jp/english/), and we cultivate undergraduate and graduate students' skills and knowledge in computer vision, machine learning, natural language processing, and related fields. 
 
 ## Qualifications
 
 We are looking for postdoctoral researchers who are an expert in and have some publications on (but not limited to):
+
 - Deep learning
 - Explainable AI
 - Computational photography and imaging
@@ -46,7 +47,7 @@ We are looking for postdoctoral researchers who are an expert in and have some p
 
 ## Your role
 
-We have many projects on various topics, including application-specific ones involving our interdisciplinary collaborations and fundamental computer vision and machine learning ones, for example:
+We have many projects on various topics, including application-specific projects involving our interdisciplinary collaborations and fundamental computer vision and machine learning projects, for example:
 
 - Medial applications
 - Digital humanities
