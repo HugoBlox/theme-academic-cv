@@ -19,4 +19,4 @@ active: true
 projects: [ospo]
 ---
 
-We are very excited to have been selected as a [2023 Google Summer of Code](https://summerofcode.withgoogle.com) Mentor Organization. The [2023 Open Source Research Experience](/osre) and with it the [2023 Summer of Reproducibility](/sor) will therefore benefit from GSOC's world-wide outreach and generous funding of contributors. We are now listed among [172 selected mentor organizations](https://summerofcode.withgoogle.com/programs/2023/organizations). We are listed under "Data" and "Science and medicine".
+We are very excited to have been selected as a [2023 Google Summer of Code](https://summerofcode.withgoogle.com) Mentor Organization. The [2023 Open Source Research Experience](https://ospo.ucsc.edu/osre) and with it the [2023 Summer of Reproducibility](https://ospo.ucsc.edu/sor) will therefore benefit from GSOC's world-wide outreach and generous funding of contributors. We are now listed among [172 selected mentor organizations](https://summerofcode.withgoogle.com/programs/2023/organizations). We are listed under "Data" and "Science and medicine".

@@ -34,8 +34,8 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
-- eusocial-storage
-- smartnic
+  - eusocial-storage
+  - smartnic
 publishDate: '2022-08-17T01:23:04.962887Z'
 publication_types:
 - '1'
