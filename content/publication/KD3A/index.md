@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "location2vec: a situation-aware representation for visual exploration of urban locations"
+title: "KD3A: Unsupervised Multi-Source Decentralized Domain Adaptation via Knowledge Distillation"
 authors:
   [
     Haozhe Feng, 
