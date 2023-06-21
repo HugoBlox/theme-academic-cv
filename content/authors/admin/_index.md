@@ -48,7 +48,6 @@ researchers:
 currentphds:
 - "[Saheed Adepoju](https://www.linkedin.com/in/saheedadepoju/)"
 - "[Jayjeet Chakraborty](https://www.linkedin.com/in/jayjeet-chakraborty-077579162/)"
-- "[Jianshen Liu](https://www.linkedin.com/in/jianshenliu/)"
 - "[Esmaeil Mirvakili](https://www.linkedin.com/in/esmaeil-m-12a71879/)"
 - "[Farid Zakaria](https://www.linkedin.com/in/fmzakari/)"
 
@@ -67,6 +66,8 @@ graduatedphds:
     year: "[2018 (thesis)](https://escholarship.org/uc/item/4vs7g3pk)"
   - course: "[Ivo Jimenez](http://www.linkedin.com/in/ivotron)"
     year: "[2019 (thesis)](https://escholarship.org/uc/item/8206n6nz)"
+  - course: "[Jianshen Liu](https://www.linkedin.com/in/jianshenliu/)"
+    year: "2023 (thesis)"
   - course: "[Michael Sevilla](http://www.linkedin.com/in/michaelandrewsevilla)"
     year: "[2018 (thesis)](https://escholarship.org/uc/item/3wd0x3b4)"
   - course: "[Andrew Shewmaker](http://www.linkedin.com/in/ashewmaker)"
