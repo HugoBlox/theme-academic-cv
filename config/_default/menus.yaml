@@ -19,17 +19,17 @@ main:
   - name: Publications
     url: 'publication/'
     weight: 50
-  - name: Tutorials
-    identifier: tutorials-identifier
-    url: 'tutorials/'
-    weight: 70
-  - name: EEG Preprocessing
-    parent: tutorials-identifier
-    url: 'tutorials/eeg-preprocessing/'
-    weight: 10
+  #- name: Tutorials
+  #  identifier: tutorials-identifier
+  #  url: 'tutorials/'
+  #  weight: 70
+  #- name: EEG Preprocessing
+  #  parent: tutorials-identifier
+  #  url: 'tutorials/eeg-preprocessing/'
+  #  weight: 10
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
-#  - name: CV
-#    url: uploads/resume.pdf
-#    weight: 70
+  - name: CV
+    url: uploads/resume.pdf
+    weight: 70

@@ -47,9 +47,9 @@ item:
     organization_url: https://coursera.org/share/0fd950b2ac9e144a46db7922f1538d6d
     title: Data Science Specialization
     url: ''
-  - certificate_url: uploads/coursera-DL.pdf
+  - certificate_url: uploads/coursera-dl.pdf
     date_end: ''
-    date_start: '2022-07-29'
+    date_start: '2023-04-16'
     description: Deep Learning Specialization offered by Deeplearning.AI
     organization: Coursera
     organization_url: https://www.deeplearning.ai/
