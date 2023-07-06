@@ -36,6 +36,7 @@ image:
 projects:
   - eusocial-storage
   - smartnic
+  - skyhook
 publishDate: '2022-08-17T01:23:04.962887Z'
 publication_types:
 - '1'

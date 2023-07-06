@@ -6,6 +6,7 @@ tags:
 - eusocial
 - skyhook
 date: "2022-05-09T00:00:00Z"
+last_update: 2023-07-05
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -28,7 +29,7 @@ url_video: ""
 slides: []
 ---
 
-**Website:** [IRIS-HEP project](https://iris-hep.org/projects/skyhookdm.html)  
+**Websites:** [Skyhook Data Management](https://github.com/skyhookdm), [IRIS-HEP project](https://iris-hep.org/projects/skyhookdm.html)  
 **Funding:** [NSF TI-2229773](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2229773), DOE ASCR DE-NA0003525 (FWP 20-023266): UCSC subcontractor of Sandia National Labs, [NSF OAC-1836650](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1836650), [NSF CNS-1764102](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1764102), [NSF CNS-1705021](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1705021), and [CROSS](https://cross.ucsc.edu/)  
 **Overview:** [CCGrid'22 paper]({{< ref "/publication/chakraborty-ccgrid-22" >}})  
 **Important Links:** [github repository](https://github.com/apache/arrow/tree/master/cpp/src/skyhook), getting started [instructions](https://skyhookdm-arrow.readthedocs.io/en/latest/getting_started.html) and [notebook](https://github.com/uccross/arrow/blob/rados-dataset-dev/cpp/src/arrow/adapters/arrow-rados-cls/docs/demo.ipynb), code walkthrough [video](https://www.youtube.com/watch?v=XfJsnadp18c).
