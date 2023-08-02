@@ -45,6 +45,8 @@ first_name: Grace
 email: ""
 ---
 Njogu Grace is a data scientist and machine learning specialist who is passionate about using data to solve real-world problems. She has a knack for collecting, analyzing, and interpreting complex data sets to uncover valuable patterns and trends. She is also skilled at developing and deploying **machine learning models** that can automate tasks and make recommendations.
+
 In addition to her technical skills, Njogu is also a gifted storyteller. She has the rare ability to convert complex data analyses into compelling narratives that resonate with diverse audiences. Her storytelling skills have proven instrumental in securing buy-ins for data-driven initiatives, fostering a data-driven culture, and driving organizational change.
+
 Njogu is a true trailblazer in the data space. She is a role model for **Women in Data Science (WiDS)** and analytics, and she is an inspiration to all who are passionate about using data to make a difference in the world.
 {style="text-align: justify;"}
