@@ -21,7 +21,7 @@ social:
     icon_pack: fab
     link: https://www.linkedin.com/in/njogu-grace
 organizations:
-  - name: African Center for Women, Information and Communication Technology (ACWICT)
+  - name: ACWICT
     url: ""
 education:
   courses:
