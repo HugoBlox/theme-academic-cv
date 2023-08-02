@@ -2,7 +2,7 @@
 title: Njogu Grace
 role: Data Scientist | Data Analyst | ML Specialist | Business Analyst | Data
   Story Teller | Mentor
-bio: I'm curious, Arguementative and judgemental and passionate in exploring Data.
+bio: I'm curious, argumentative, judgemental and passionate in exploring Data.
 interests:
   - Data Science
   - Data Analysis
@@ -32,7 +32,7 @@ education:
       institution: Kenya School of Law
       year: 2017
     - course: BSc. Business Administration, Finance
-      institution: Kiriri Women's University of SCience and Technology
+      institution: Kiriri Women's University of Science and Technology
       year: 2016
 superuser: true
 user_groups:
