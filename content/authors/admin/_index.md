@@ -22,7 +22,7 @@ social:
     link: https://www.linkedin.com/in/njogu-grace
 organizations:
   - name: African Center for Women, Information and Communication Technology (ACWICT)
-    url: https://www.acwict.org
+    url: ""
 education:
   courses:
     - course: Data Science for Business Innovation
