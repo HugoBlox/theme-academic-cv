@@ -1,30 +1,8 @@
 ---
-# Display name
 title: Njogu Grace
-
-# Full name (for SEO)
-first_name: Grace
-last_name: Njogu
-
-# Status emoji
-status:
-  icon: ☕️
-
-# Is this the primary user of the site?
-superuser: true
-
-# Role/position/tagline
-role: Data Scientist | Data Analyst | ML Specialist | Business Analyst | Data Story Teller | Mentor
-
-# Organizations/Affiliations to show in About widget
-organizations:
-  - name: African Center for Women, Information and Communication Technology (ACWICT)
-    url: https://www.acwict.org
-
-# Short bio (displayed in user profile at end of posts)
+role: Data Scientist | Data Analyst | ML Specialist | Business Analyst | Data
+  Story Teller | Mentor
 bio: I'm curious, Arguementative and judgemental and passionate in exploring Data.
-
-# Interests to show in About widget
 interests:
   - Data Science
   - Data Analysis
@@ -32,8 +10,19 @@ interests:
   - Business Analysis
   - Data Story Telling
   - Mentorship
-
-# Education to show in About widget
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: /#contact
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/njogugrace
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/njogu-grace
+organizations:
+  - name: African Center for Women, Information and Communication Technology (ACWICT)
+    url: https://www.acwict.org
 education:
   courses:
     - course: Data Science for Business Innovation
@@ -45,43 +34,17 @@ education:
     - course: BSc. Business Administration, Finance
       institution: Kiriri Women's University of SCience and Technology
       year: 2016
-
-# Social/Academic Networking
-# For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: '/#contact'
-  # - icon: twitter
-  #   icon_pack: fab
-  #   link: https://twitter.com/GeorgeCushen
-  #   label: Follow me on Twitter
-  #   display:
-  #     header: true
-  # - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-  #   icon_pack: fas
-  #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/njogugrace
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/in/njogu-grace
-  # Link to a PDF of your resume/CV.
-  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-  # and uncomment the lines below.
-  # - icon: cv
-  #   icon_pack: ai
-  #   link: uploads/resume.pdf
-
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
-
-# Highlight the author in author lists? (true/false)
+superuser: true
+user_groups:
+  - Mentor
+status:
+  icon: ☕️
+last_name: Njogu
 highlight_name: true
+first_name: Grace
+email: ""
 ---
-
-Njogu Grace is a highly accomplished and versatile professional who has made significant contributions in the fields of data science and analytics, machine learning, data storytelling, and mentorship. With a passion for data-driven insights, Ms. Njogu has established herself as a prominent Women in Data Science (WiDS).
+Njogu Grace is a data scientist and machine learning specialist who is passionate about using data to solve real-world problems. She has a knack for collecting, analyzing, and interpreting complex data sets to uncover valuable patterns and trends. She is also skilled at developing and deploying **machine learning models** that can automate tasks and make recommendations.
+In addition to her technical skills, Njogu is also a gifted storyteller. She has the rare ability to convert complex data analyses into compelling narratives that resonate with diverse audiences. Her storytelling skills have proven instrumental in securing buy-ins for data-driven initiatives, fostering a data-driven culture, and driving organizational change.
+Njogu is a true trailblazer in the data space. She is a role model for **Women in Data Science (WiDS)** and analytics, and she is an inspiration to all who are passionate about using data to make a difference in the world.
 {style="text-align: justify;"}
