@@ -8,19 +8,19 @@ main:
     url: '#about'
     weight: 10
   - name: Posts
-    url: '#posts'
+    url: 'post/'
     weight: 20
   - name: Projects
-    url: '#projects'
+    url: 'project/'
     weight: 30
   - name: Talks
-    url: '#talks'
+    url: 'event/'
     weight: 40
   - name: Publications
-    url: '#featured'
+    url: 'publication/'
     weight: 50
   - name: Contact
-    url: '#contact'
+    url: 'contact/'
     weight: 60
 
 # Link to a PDF of your resume/CV from the menu.
