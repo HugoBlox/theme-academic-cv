@@ -75,8 +75,3 @@ subtitle = "Google Scholar: [by year](https://scholar.google.com/citations?hl=en
  css_class = ""
 +++
 
-{{< callout note >}}
-
-For a current list of tech reports, go to the [Technical Reports of the Jack Baskin School of Engineering](http://www.soe.ucsc.edu/research/technical-reports), click on SEARCH, type in “Carlos Maltzahn” for Keywords and hit Submit. Make sure to also check our [Publications](#publications).
-
-{{< /callout >}}

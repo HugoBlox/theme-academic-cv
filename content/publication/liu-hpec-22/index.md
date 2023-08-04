@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Processing Particle Data Flows with SmartNICs
+title: Processing Particle Data Flows with SmartNICs (Outstanding Student Paper)
 subtitle: ''
 summary: ''
 authors:
@@ -41,6 +41,5 @@ publishDate: '2022-08-17T01:23:04.962887Z'
 publication_types:
 - '1'
 abstract: "Many distributed applications implement complex data flows and need a flexible mechanism for routing data between producers and consumers. Recent advances in programmable network interface cards, or SmartNICs, represent an opportunity to offload data-flow tasks into the network fabric, thereby freeing the hosts to perform other work. System architects in this space face multiple questions about the best way to leverage SmartNICs as processing elements in data flows. In this paper, we advocate the use of Apache Arrow as a foundation to implement data flow tasks on SmartNICs. We report on our experience adapting a partitioning algorithm for particle data to Apache Arrow and measure the on-card processing performance for the BlueField-2 SmartNIC. Our experiments confirm that the BlueField-2's (de)compression hardware can have a significant impact on in-transit workflows where data must be unpacked, processed, and repacked."
-publication: '*2022 IEEE High Performance Extreme Computing Conference (IEEE HPEC
-  2022)*'
+publication: '*2022 IEEE High Performance Extreme Computing Conference (IEEE HPEC 2022)*'
 ---
