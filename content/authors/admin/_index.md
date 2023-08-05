@@ -20,9 +20,7 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/njogu-grace
-organizations:
-  - name: ACWICT
-    url: ""
+organizations: []
 education:
   courses:
     - course: Data Science for Business Innovation
