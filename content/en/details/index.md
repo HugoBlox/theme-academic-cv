@@ -11,7 +11,7 @@ It's pretty simple: we go there, we have some fun, we eat a warm lunch, we have 
 
 ## Where and when do we meet?
 Wondering how to get to us? Here are some organisational details to help with planning your trip!  
-We will meet at **Belluno's sporting centre free parking** ([46.144970N, 12.213757E](https://goo.gl/maps/NCjzBdygPNi8cSFFA)) the morning of the **7th of January, 2023, at 07:30**.
+We will meet at **Belluno's sporting centre free parking** ([46.144970N, 12.213757E](https://goo.gl/maps/NCjzBdygPNi8cSFFA)) the morning of the **3th of January, 2024, at 07:30**.
 From there on, we will organise transportation by car and separate the participants in groups, in order to minimise the number of vehicles.
 Of course, if you want to autonomously get to the battle site or meet half way, that is fine too!
 

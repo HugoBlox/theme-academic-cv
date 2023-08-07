@@ -7,7 +7,7 @@ weight = 5  # Order that this section will appear.
 
 title = """La Grande Battaglia di Palle di Neve
 
-si terrà **sabato 7 gennaio 2023**!
+si terrà **mercoledì 3 gennaio 2024**!
 """
 
 # Hero image (optional). Enter filename of an image in the `static/media/` folder.

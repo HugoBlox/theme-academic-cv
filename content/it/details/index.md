@@ -9,7 +9,7 @@ Come ogni anno, la battaglia si svolgerà al [Bivacco Menegazzi](https://goo.gl/
 
 ## Dove e come ci troviamo?
 Vi state chiedendo come raggiungerci? Qui di sotto ci sono alcuni dettagli per aiutarvi a pianificare il viaggio.
-Ci incontriamo al **parcheggio gratuito del palasport di Belluno** ([46.144970N, 12.213757E](https://goo.gl/maps/NCjzBdygPNi8cSFFA)) la mattina del **7 gennaio 2023 alle 07:30**.
+Ci incontriamo al **parcheggio gratuito del palasport di Belluno** ([46.144970N, 12.213757E](https://goo.gl/maps/NCjzBdygPNi8cSFFA)) la mattina del **3 gennaio 2024 alle 07:30**.
 Da lì in poi, organizzeremo il trasporto in auto e divideremo i partecipanti in gruppi in modo da minimizzare il numero delle stesse.
 Naturalmente è possibile anche recarsi in maniera autonoma al luogo della battaglia, o trovarsi a metà strada.
 

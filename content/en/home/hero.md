@@ -7,7 +7,7 @@ weight = 5  # Order that this section will appear.
 
 title = """The Great Snowball Fight
 
-will be held on **Saturaday, 7 January, 2023**!
+will be held on **Wednesday, 3 January, 2024**!
 """
 
 # Hero image (optional). Enter filename of an image in the `static/media/` folder.
