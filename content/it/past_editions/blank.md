@@ -17,7 +17,7 @@ title = ""
 
 ## La Grande Battaglia di Palle di Neve è una tradizione risalente al 2013.
 
-Per darvi un'idea di cosa è la Grande Battaglia, [qui](/it/gallery) potete trovare alcune immagini dell'edizione 2020.
+Per darvi un'idea di cosa è la Grande Battaglia, [qui](/it/galleries) potete trovare alcune immagini delle edizioni passate.
 
 
 Per darvi un'idea di come sia parteciparvi, 
