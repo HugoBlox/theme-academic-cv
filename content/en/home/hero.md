@@ -5,9 +5,9 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 5  # Order that this section will appear.
 
-title = """The Great Snowball Fight
+title = """The Great Snowball Fight 2023
 
-will be held on **Saturaday, 7 January, 2023**!
+took place on **Saturaday, 7 January**!
 """
 
 # Hero image (optional). Enter filename of an image in the `static/media/` folder.
@@ -39,15 +39,19 @@ hero_media = "hero-academic.png"
 # Call to action links (optional).
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
-[cta]
-  url = "/register"
-  label = "Register!"
-  icon_pack = "fas"
-  icon = "snowflake"
+# [cta]
+#   url = "/register"
+#   label = "Register!"
+#   icon_pack = "fas"
+#   icon = "snowflake"
   
 [cta_alt]
-  url = "/details"
-  label = "Learn more"
+  url = "/2023_after"
+  label = "Find out more" 
+
+# [cta_alt]
+#   url = "/details"
+#   label = "Learn more"
 
 #[cta]
 #  url = "/post/2023_announcement"
@@ -59,4 +63,5 @@ hero_media = "hero-academic.png"
   
 +++
 
-Following its millenary tradition, the next edition of the Great Snowball Fight will take place at the [Bivacco Menegazzi](https://goo.gl/maps/CRMbn2kRX38G78UF9) on the first Saturday of the year.
+Thank you to all the participants, we had loads of fun!
+<!-- Following its millenary tradition, the next edition of the Great Snowball Fight will take place at the [Bivacco Menegazzi](https://goo.gl/maps/CRMbn2kRX38G78UF9) on the first Saturday of the year. -->
