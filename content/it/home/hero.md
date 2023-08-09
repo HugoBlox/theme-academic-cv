@@ -5,9 +5,9 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 5  # Order that this section will appear.
 
-title = """La Grande Battaglia di Palle di Neve 2023
+title = """La Grande Battaglia di Palle di Neve 2024
 
-si è svolta **sabato 7 gennaio**!
+si terrà **mercoledì 3 gennaio 2024**!
 """
 
 # Hero image (optional). Enter filename of an image in the `static/media/` folder.
@@ -39,22 +39,18 @@ hero_media = ""
 # Call to action links (optional).
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
-# [cta]
-#   url = "/it/register"
-#   label = "Iscriviti!"
-#   icon_pack = "fas"
-#   icon = "snowflake"
-  
-#[cta_note]
-#  url = "/it/rules"
-#  label = "Regole"
+[cta]
+  url = "/it/register"
+  label = "Iscriviti!"
+  icon_pack = "fas"
+  icon = "snowflake"
   
 [cta_alt]
-  url = "/it/2023_after"
+  url = "/it/details"
   label = "Scopri di più"
   
 # [cta_alt]
-#   url = "/it/details"
+#   url = "/it/2023_after"
 #   label = "Scopri di più"
 
 #[cta]
@@ -67,5 +63,4 @@ hero_media = ""
   
 +++
 
-Grazie a tutti i partecipanti, ci siamo divertiti un mondo!
-<!-- Come da tradizione millenaria, la prossima edizione della Grande Battaglia di Palle di Neve si terrà al [Bivacco Menegazzi](https://goo.gl/maps/CRMbn2kRX38G78UF9) il primo sabato dell'anno. -->
+Come da tradizione millenaria, la prossima edizione della Grande Battaglia di Palle di Neve si terrà al [Bivacco Menegazzi](https://goo.gl/maps/CRMbn2kRX38G78UF9) all'inizio dell'anno nuovo.
