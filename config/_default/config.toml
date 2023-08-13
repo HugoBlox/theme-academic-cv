@@ -70,3 +70,6 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   publication_type = "publication_types"
   author = "authors"
 
+[security.funcs]
+  getenv = [ "^HUGO_", "^WC_" ]
+
