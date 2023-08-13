@@ -1,31 +1,39 @@
 ---
 # Display name
-name: Mohammad A. Noureddine
+title: Mohammad A. Noureddine
 
-# Username (this should match the folder name)
-authors:
-- admin
+# Full name (for SEO)
+first_name: Mohammad
+last_name: Noureddine
+
+# Status emoji
+status:
+  icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: P.h.D candidate at the Computer Science Department
+role: Assistant Professor of Computer Science and Software Engineering
 
 # Organizations/Affiliations
 organizations:
-- name: University of Illinois at Urbana-Champaign
-  url: "https://cs.illinois.edu"
+- name: Rose-Hulman Institute of Technology
+  url: "https://rose-hulman.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a P.h.D. candidate at the University of Illinois at Urbana-Champaign. My research interests include secure system design, computer networking, game-theory, and software verification.
+bio:  'I am an assistant professor of computer science and software engineering
+at the Rose-Hulman Institute of Technology. My teaching and researc interests
+include network security, operating systems, and computer architecture.'
 
+# Interests to show in About widget
 interests:
-- Computer Networking
-- System Security
-- Game Theory
-- Software Verification and Program Analysis
+  - System Security
+  - Computer Networking
+  - Programmable Networking
+  - Computer Architecture
 
+# Education to show in About widget
 education:
   courses:
   - course: PhD in Computer Science
@@ -45,16 +53,19 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:nouredd2@illinois.edu'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:noureddi@rose-hulman.edu'  # For a direct email link, use "mailto:test@example.org".
 # - icon: twitter
 #   icon_pack: fab
 #   link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
+- icon: graduation-cap
+  icon_pack: fas
   link: https://scholar.google.com/citations?user=iLJ3TyQAAAAJ&hl=en
 - icon: github
   icon_pack: fab
   link: https://github.com/nouredd2
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/mohammad-noureddine/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -62,13 +73,10 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: 'noureddi@rose-hulman.edu'
 
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-- Researchers
-- Visitors
+# Highlight the author in author lists? (true/false)
+highlight_name: true
 ---
 
 __I will be joining the [Rose-Hulman Institute of Technology](https://www.rose-hulman.edu) as an

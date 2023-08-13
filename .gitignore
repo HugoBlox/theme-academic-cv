@@ -48,3 +48,14 @@ Temporary Items
 .apdisk
 
 # End of https://www.gitignore.io/api/macos
+.hugo_build.lock
+
+# imported from the update hugo academic
+# Hugo
+resources/
+public/
+jsconfig.json
+node_modules/
+go.sum
+.hugo_build.lock
+
