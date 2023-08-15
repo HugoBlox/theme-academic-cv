@@ -67,7 +67,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Mentee
+  - Mentees
 ---
 
 John Karanja possesses a deep-seated passion for unraveling intricate data trends. His skill set includes proficiency in essential tools such as Excel, SQL, and R. Driven by a strong desire to continuously acquire knowledge, he remains committed to steering data-driven decisions.
