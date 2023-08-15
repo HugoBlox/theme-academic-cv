@@ -50,7 +50,7 @@ social:
     icon_pack: fab
     link: https://linkedin.com/in/mikaranja
   - icon: github
-    icon_pack: fab
+    icon_pack: fas
     link: https://github.com/mikaranja
   - icon: globe
     icon_pack: fab
