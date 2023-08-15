@@ -7,7 +7,7 @@
 
 appearance:
   theme_day: strawberry
-  theme_night: strawberry
+  # theme_night: strawberry
   font: minimal
   font_size: L
 
