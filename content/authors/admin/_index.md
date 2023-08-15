@@ -34,7 +34,7 @@ education:
       year: 2016
 superuser: true
 user_groups:
-  - Mentor
+  # - Mentor
 status:
   icon: ☕️
 last_name: Njogu
