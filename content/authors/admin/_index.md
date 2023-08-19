@@ -23,15 +23,15 @@ organizations:
 
 # Short bio (displayed in user profile at end of posts)
 bio:  'I am an assistant professor of computer science and software engineering
-at the Rose-Hulman Institute of Technology. My teaching and researc interests
+at the Rose-Hulman Institute of Technology. My teaching and research interests
 include network security, operating systems, and computer architecture.'
 
 # Interests to show in About widget
 interests:
   - System Security
+  - Operating Systems
   - Computer Networking
   - Programmable Networking
-  - Computer Architecture
 
 # Education to show in About widget
 education:
@@ -79,21 +79,23 @@ email: 'noureddi@rose-hulman.edu'
 highlight_name: true
 ---
 
-__I will be joining the [Rose-Hulman Institute of Technology](https://www.rose-hulman.edu) as an
-assistant professor starting Fall 2020.__
+<!-- Biography goes here, make sure to keep this up to date with the updates -->
 
-I am a P.h.D. candidate at the Computer Science Department at the University of Illinois at
-Urbana-Champaign, advised by Professor [William H. Sanders](http://whs.crhc.illinois.edu).
-I mainly work on various aspects of secure and resilient networking design, combining practical
-design principles with game- and control-theoretic analysis. 
-My ultimate research objective is to integrate theoretical analysis along with practical design
-patterns to build secure and resilient networks and systems. 
+I am an assistant professor of [Computer Science and Software Engineering
+(CSSE)](https://rose-hulman.edu/academics/academic-departments/computer-science-software-engineering/index.html)
+at the [Rose-Hulman Institte of Technology](https://rose-hulman.edu/).
+I currently run the NeTwork Security and Operating Systems (NeTSoS) research group
+at the department. My research focuses on various aspects of systems security,
+with focus on networking and operating systems.
 
-I have a passion for learning, teaching, and the overall exchange of knowledge. I have taught [ECE
-541: Computer System Analysis](https://courses.engr.illinois.edu/ece541/fa2018/) and have been a
-Teaching Assistant for the Operating Systems course at UIUC. I am a big fan of teaching Linux kernel
-programming and learning new things about the kernel. 
+I completed my PhD at the [Computer Science
+department](https://cs.illinois.edu/) at the [University of Illinois at
+Urbana-Champaign](https://illinois.edu/), advised by Professor [William H.
+Sanders](https://engineering.cmu.edu/directory/bios/sanders-william.html).  I
+mainly worked on various aspects of secure and resilient networking design,
+combining practical design principles with game- and control-theoretic analysis.
 
-Outside of the computer world, I am an amateur student of philosophy. My favorite philosophers are
-[S&oslash;ren Kierkegaard](https://plato.stanford.edu/entries/kierkegaard/) and [Slavoj
+Outside of the computer world, I am an amateur student of philosophy. My
+favorite philosophers are [S&oslash;ren
+Kierkegaard](https://plato.stanford.edu/entries/kierkegaard/) and [Slavoj
 &Zcaron;i&zcaron;ek](https://www.iep.utm.edu/zizek/).
