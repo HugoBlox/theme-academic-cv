@@ -5,7 +5,7 @@ _build:
   list: never
   publishResources: false
 date: '2021-01-01'
-publishDate: '2023-02-15T06:27:35.555610Z'
+publishDate: '2023-08-20T08:43:21.770814Z'
 authors:
 - Kohei Sakai
 - Yasutaka Inagaki

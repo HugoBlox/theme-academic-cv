@@ -37,7 +37,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-02-15T06:27:40.264706Z'
+publishDate: '2023-08-20T08:43:24.999656Z'
 publication_types:
 - '1'
 abstract: This paper presents a method for reconstructing 3D image from multi-focus

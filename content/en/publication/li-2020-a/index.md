@@ -37,7 +37,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-02-15T06:27:44.864970Z'
+publishDate: '2023-08-20T08:43:28.017899Z'
 publication_types:
 - '1'
 abstract: Retinal imaging serves as a valuable tool for diagnosis of various diseases.

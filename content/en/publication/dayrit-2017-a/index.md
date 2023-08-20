@@ -34,7 +34,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-02-15T06:27:44.122169Z'
+publishDate: '2023-08-20T08:43:27.582054Z'
 publication_types:
 - '2'
 abstract: Standard video does not capture the 3D aspect of human motion, which is

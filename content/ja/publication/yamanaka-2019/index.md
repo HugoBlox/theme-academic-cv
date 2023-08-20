@@ -6,7 +6,7 @@ _build:
   list: never
   publishResources: false
 date: '2019-07-01'
-publishDate: '2023-02-15T06:28:45.134730Z'
+publishDate: '2023-08-20T08:45:18.123432Z'
 authors:
 - Masahito Yamanaka
 - Hirohiko Niioka

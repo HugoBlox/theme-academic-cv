@@ -37,7 +37,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-02-15T06:27:43.751365Z'
+publishDate: '2023-08-20T08:43:27.363807Z'
 publication_types:
 - '2'
 abstract: © 2018 The Author(s) Alleles of human leukocyte antigen (HLA)-A DNAs are

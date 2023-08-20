@@ -32,7 +32,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-02-15T06:27:31.343486Z'
+publishDate: '2023-08-20T08:43:19.241433Z'
 publication_types:
 - '2'
 abstract: Several recent studies on compressive video sensing realized scene capture

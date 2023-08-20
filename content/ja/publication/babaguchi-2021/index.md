@@ -5,7 +5,7 @@ _build:
   list: never
   publishResources: false
 date: '2021-01-01'
-publishDate: '2023-02-15T06:28:42.691347Z'
+publishDate: '2023-08-20T08:45:15.784516Z'
 authors:
 - Noboru Babaguchi
 - Isao Echizen

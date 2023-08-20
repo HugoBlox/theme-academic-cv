@@ -6,7 +6,7 @@ _build:
   list: never
   publishResources: false
 date: '2019-09-01'
-publishDate: '2023-02-15T06:27:43.602618Z'
+publishDate: '2023-08-20T08:43:27.221735Z'
 authors:
 - Keita Maruyama
 - Yasutaka Inagaki

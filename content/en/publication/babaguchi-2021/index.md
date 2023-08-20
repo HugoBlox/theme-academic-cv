@@ -37,7 +37,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-02-15T06:27:35.848477Z'
+publishDate: '2023-08-20T08:43:21.987361Z'
 publication_types:
 - '2'
 abstract: Fake media has been spreading due to remarkable advances in media processing

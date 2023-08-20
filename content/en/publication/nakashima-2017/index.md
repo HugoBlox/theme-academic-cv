@@ -5,7 +5,7 @@ _build:
   list: never
   publishResources: false
 date: '2017-01-01'
-publishDate: '2023-02-15T06:27:39.667426Z'
+publishDate: '2023-08-20T08:43:24.564351Z'
 authors:
 - Yuta Nakashima
 - Fumio Okura

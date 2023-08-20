@@ -33,7 +33,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-02-15T06:27:42.716859Z'
+publishDate: '2023-08-20T08:43:26.650807Z'
 publication_types:
 - '2'
 abstract: Augmented reality (AR) marker hiding is a technique to visually remove AR

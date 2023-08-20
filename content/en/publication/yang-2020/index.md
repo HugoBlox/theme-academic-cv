@@ -33,7 +33,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-02-15T06:27:44.494275Z'
+publishDate: '2023-08-20T08:43:27.799573Z'
 publication_types:
 - '1'
 abstract: 'Visual question answering (VQA) aims at answering questions about the visual

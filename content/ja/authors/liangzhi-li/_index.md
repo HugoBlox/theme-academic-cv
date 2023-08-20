@@ -12,7 +12,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: 特任助教
+role: 招へい助教
 group: 知能情報基盤部門
 
 # Organizations/Affiliations
@@ -70,7 +70,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Almuni
+- Guest Researchers
 ---
 
 ### Contact

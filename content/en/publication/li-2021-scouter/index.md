@@ -32,7 +32,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-02-15T06:27:34.816840Z'
+publishDate: '2023-08-20T08:43:21.271341Z'
 publication_types:
 - '1'
 abstract: "Explainable artificial intelligence has been gaining attention in the past\

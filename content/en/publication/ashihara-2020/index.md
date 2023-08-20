@@ -34,7 +34,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-02-15T06:27:36.225033Z'
+publishDate: '2023-08-20T08:43:22.204779Z'
 publication_types:
 - '2'
 abstract: 'Topic modeling that can automatically assign topics to legal documents

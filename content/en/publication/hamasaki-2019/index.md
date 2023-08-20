@@ -39,7 +39,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-02-15T06:27:44.344515Z'
+publishDate: '2023-08-20T08:43:27.725843Z'
 publication_types:
 - '5'
 abstract: © 2019, Springer Nature Switzerland AG. Barcodes and 2D codes are widely

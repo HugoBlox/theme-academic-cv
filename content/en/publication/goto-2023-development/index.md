@@ -34,7 +34,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-02-15T06:27:31.784462Z'
+publishDate: '2023-08-20T08:43:19.466885Z'
 publication_types:
 - '2'
 abstract: 'Deep learning is a rapidly-evolving technology with the possibility to

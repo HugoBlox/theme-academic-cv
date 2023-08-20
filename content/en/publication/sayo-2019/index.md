@@ -37,7 +37,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-02-15T06:27:41.966645Z'
+publishDate: '2023-08-20T08:43:26.073940Z'
 publication_types:
 - '1'
 abstract: Reconstructing the entire body of moving human in a computer is important

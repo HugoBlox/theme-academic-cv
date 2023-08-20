@@ -5,7 +5,7 @@ _build:
   list: never
   publishResources: false
 date: '2017-09-01'
-publishDate: '2023-02-15T06:27:41.008902Z'
+publishDate: '2023-08-20T08:43:25.502928Z'
 authors:
 - Tsubasa Minematsu
 - Hideaki Uchiyama

@@ -5,7 +5,7 @@ _build:
   list: never
   publishResources: false
 date: '2018-01-01'
-publishDate: '2023-02-15T06:27:41.746345Z'
+publishDate: '2023-08-20T08:43:25.934714Z'
 authors:
 - Tomoyuki Kajiwara
 - Mamoru Komachi

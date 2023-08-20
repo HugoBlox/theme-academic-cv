@@ -6,7 +6,7 @@ _build:
   list: never
   publishResources: false
 date: '2018-11-01'
-publishDate: '2023-02-15T06:28:44.835462Z'
+publishDate: '2023-08-20T08:45:17.833388Z'
 authors:
 - Ryosuke Kimura
 - Akihiko Sayo

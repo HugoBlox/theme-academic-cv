@@ -36,7 +36,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-02-15T06:27:39.146228Z'
+publishDate: '2023-08-20T08:43:24.205647Z'
 publication_types:
 - '2'
 abstract: Fall is one of the leading causes of injury for the elderly individuals.

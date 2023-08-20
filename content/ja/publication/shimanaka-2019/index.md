@@ -6,7 +6,7 @@ _build:
   list: never
   publishResources: false
 date: '2019-09-01'
-publishDate: '2023-02-15T06:28:45.207903Z'
+publishDate: '2023-08-20T08:45:18.192547Z'
 authors:
 - Hiroki Shimanaka
 - Tomoyuki Kajiwara

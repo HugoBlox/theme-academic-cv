@@ -32,7 +32,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-02-15T06:27:35.336169Z'
+publishDate: '2023-08-20T08:43:21.628424Z'
 publication_types:
 - '1'
 abstract: Few-shot learning (FSL) approaches, mostly neural network-based, are assuming

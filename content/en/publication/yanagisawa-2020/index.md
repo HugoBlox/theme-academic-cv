@@ -6,7 +6,7 @@ _build:
   list: never
   publishResources: false
 date: '2020-04-01'
-publishDate: '2023-02-15T06:27:40.858708Z'
+publishDate: '2023-08-20T08:43:25.358861Z'
 authors:
 - Kiminori Yanagisawa
 - Masayasu Toratani

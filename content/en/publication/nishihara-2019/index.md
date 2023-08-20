@@ -29,7 +29,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-02-15T06:27:40.561174Z'
+publishDate: '2023-08-20T08:43:25.142556Z'
 publication_types:
 - '1'
 abstract: We propose a method to control the level of a sentence in a text simplification

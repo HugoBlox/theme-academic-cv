@@ -5,7 +5,7 @@ _build:
   list: never
   publishResources: false
 date: '2016-01-01'
-publishDate: '2023-02-15T06:27:42.641563Z'
+publishDate: '2023-08-20T08:43:26.579931Z'
 authors:
 - Takuya Yoda
 - Hajime Nagahara
