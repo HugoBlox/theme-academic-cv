@@ -16,7 +16,7 @@ main:
   #   weight: 40
   #
   - name: Teaching
-    url: '#teaching_experience'
+    url: '/teaching'
     weight: 40
 
   - name: Recent Publications
