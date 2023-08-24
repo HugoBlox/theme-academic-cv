@@ -1,20 +1,18 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Validating the Integrity of Audit Logs Against Execution Repartitioning Attacks
+title: Transparent Interpretation and Integration of Layered Software Architecture
+  Even Streams
 subtitle: ''
 summary: ''
 authors:
-- Carter Yagemann
-- Mohammad A. Noureddine
+- Adam Bates Yuile
 - Wajih Ul Hassan
-- Simon Chung
-- Adam Bates
-- Wenke Lee
+- Mohammad A. Noureddine
 tags: []
 categories: []
-date: '2021-01-01'
-lastmod: 2023-08-18T19:56:49-04:00
+date: '2023-07-01'
+lastmod: 2023-08-23T21:46:25-04:00
 featured: false
 draft: false
 
@@ -32,12 +30,13 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-08-18T23:56:49.288827Z'
+publishDate: '2023-08-24T01:46:25.337763Z'
 publication_types:
-- '1'
+- '8'
 abstract: ''
-publication: '*Proceedings of the 2021 ACM SIGSAC Conference on Computer and Communications
-  Security*'
-doi: 10.1145/3460120.3484551
-url_pdf: "files/yagemann21.pdf"
+publication: '*US Patent 11,704,129, 2023*'
+links:
+  - name: URL
+    url: https://patents.google.com/patent/US11704129B2/en
+
 ---

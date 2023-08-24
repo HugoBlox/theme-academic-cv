@@ -7,5 +7,6 @@ publication_types: ["6"]
 abstract: ""
 featured: false
 publication: "*Formal Aspects of Component Software*"
+doi: 10.1007/978-3-319-15317-9_18
 ---
 

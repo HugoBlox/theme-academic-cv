@@ -7,6 +7,7 @@ publication_types: ["1"]
 abstract: ""
 featured: false
 publication: "*2017 IEEE 36th Symposium on Reliable Distributed Systems (SRDS)*"
+doi: "10.1109/SRDS.2017.31"
 url_pdf: "files/17BOH01.pdf"
 ---
 

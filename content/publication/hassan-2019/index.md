@@ -17,5 +17,6 @@ publication: '*27th Annual Network and Distributed System Security Symposium, ND
 links:
 - name: URL
   url: https://www.ndss-symposium.org/ndss-paper/omegalog-high-fidelity-attack-investigation-via-transparent-multi-layer-log-analysis/
+url_pdf: 'files/hassan19.pdf'
 ---
 

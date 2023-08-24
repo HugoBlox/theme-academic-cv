@@ -7,5 +7,7 @@ publication_types: ["1"]
 abstract: ""
 featured: false
 publication: "*Proceedings of the 27th Annual ACM Symposium on Applied Computing-Poster Session*"
+doi: 10.1145/2245276.2232093
+url_pdf: 'files/zaraket12.pdf'
 ---
 
