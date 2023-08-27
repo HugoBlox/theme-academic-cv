@@ -124,6 +124,18 @@ social:
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.co.uk/citations?hl=en&user=ntU7-hwAAAAJ
+- icon: arxiv
+  icon_pack: ai
+  link: https://arxiv.org/search/?query=Carlos+Maltzahn&searchtype=author&abstracts=show&order=-announced_date_first&size=50
+- icon: acmdl
+  icon_pack: ai
+  link: https://dl.acm.org/profile/81452607446
+- icon: dblp
+  icon_pack: ai
+  link: https://dblp.org/pid/83/2134.html?q=Carlos%20Maltzahn
+- icon: archive
+  icon_pack: ai
+  link: https://scholar.archive.org/search?q=Carlos%20Maltzahn
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/carlosmaltzahn/

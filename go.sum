@@ -3,6 +3,8 @@ github.com/wowchemy/wowchemy-hugo-modules/netlify-cms-academic v0.0.0-2021012002
 github.com/wowchemy/wowchemy-hugo-modules/v5 v5.3.0/go.mod h1:akNBhhT0UAOXSREplKkLe2wyHeo51qm6f+vqNkQkcmE=
 github.com/wowchemy/wowchemy-hugo-modules/v5 v5.4.0 h1:jWlAOA8e40owFc+tyHrQdRZGXQpxbWeml0vkhBftoHg=
 github.com/wowchemy/wowchemy-hugo-modules/v5 v5.4.0/go.mod h1:akNBhhT0UAOXSREplKkLe2wyHeo51qm6f+vqNkQkcmE=
+github.com/wowchemy/wowchemy-hugo-modules/v5 v5.5.0 h1:7mJrVZe/UeeNlaiB2A5OmBlrb/ieXVaMGQXM2r5wGUg=
+github.com/wowchemy/wowchemy-hugo-modules/v5 v5.5.0/go.mod h1:akNBhhT0UAOXSREplKkLe2wyHeo51qm6f+vqNkQkcmE=
 github.com/wowchemy/wowchemy-hugo-modules/wowchemy v0.0.0-20210120025205-e0ae7c979cda h1:DjweNGYmNRnVhG48yarIZQiYvLKub1s7K3mwSaSZXQs=
 github.com/wowchemy/wowchemy-hugo-modules/wowchemy v0.0.0-20210120025205-e0ae7c979cda/go.mod h1:H22qfH9qj3FWwsk7+bAZpmT24yRGNQURah2/IRwjbn8=
 github.com/wowchemy/wowchemy-hugo-modules/wowchemy v0.0.0-20210211185922-b811f9a1bb9c h1:rcd9H2OHyw3xiu2H140g22AUvYZPBfvynAyTfubpvg4=
@@ -19,3 +21,14 @@ github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms v0.0.0-20210525210730-89d
 github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms v0.0.0-20210525210730-89d079bcf055/go.mod h1:AKpYbqUVlj0VYsc7Jsxe1o8Ko2yV31A5ZPdfpACcXJw=
 github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5 v5.0.0-20210629192904-559885af86b7/go.mod h1:Sp/AKo+2HAPi/IPHp1MEdKPmee+mzO5+efUBUPLPqPE=
 github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5 v5.0.0-20210629192904-559885af86b7/go.mod h1:2iL9rdrUYyJXX2BeHKfK+QbqZlubCsaR60nQ87NRQTY=
+github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.1.0/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
+github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.2.0/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
+github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.0.1-0.20230812165109-98c928a76715 h1:yIEUin2AbhMSRs6dQrnX8bxBwcmrVO42X+3X3Zxqrss=
+github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.0.1-0.20230812165109-98c928a76715/go.mod h1:s40UgLsWfVyCLQ2F4F3dBcNfZOXcPGld7KxsKhZdzvM=
+github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms v1.0.1-0.20230812165109-98c928a76715 h1:/JLEPNH/fXDXlEgd0t1n6keZ7ghWvgOGBpsKkSeevHM=
+github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms v1.0.1-0.20230812165109-98c928a76715/go.mod h1:X1mETJo6Lkv9tEgfU0UYFRiRInf0RbgW+s1RKXB4GMA=
+github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-reveal v0.0.0-20230812165109-98c928a76715 h1:FIMexgyswUDqr/Jn0ty0WJSX/1qL8fCnhKn64S/JOGI=
+github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-reveal v0.0.0-20230812165109-98c928a76715/go.mod h1:u2hgU45C6Oi3CwMzSNvTwuRTsKs7O46EG3MTjNKu7gE=
+github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-seo v0.1.0/go.mod h1:R01vz++1i/KR2n00aWGcs6m/L7ky1klbrpqA2KXjMCk=
+github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.8.1 h1:aqJ7yg+JYu64bh0r/VpwT2KaqhEHxdiX8JbH92shr00=
+github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.8.1/go.mod h1:aTjV1UoWPt03vYsb6TImLXMlby6p1lXF9aUy+GnAuqw=
