@@ -3,9 +3,9 @@
 title: Carlos Maltzahn
 
 # Username (this should match the folder name)
-author: admin
+author: carlosm
 authors:
-- admin
+- carlosm
 
 # Is this the primary user of the site?
 superuser: true
