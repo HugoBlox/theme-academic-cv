@@ -4,7 +4,7 @@
 title: "NSF will fund design of a support infrastructure for CROSS incubator project"
 subtitle: ""
 summary: "With the support of a one-year, $300,000 grant from the NSF, PI Carlos Maltzahn and co-PI Stephanie Lieggi will explore sustainable support infrastructures for the Skyhook Data Management project."
-authors: [admin]
+authors: [carlosm]
 tags: []
 categories: [News]
 date: 2022-09-09T19:15:56-07:00

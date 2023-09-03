@@ -2,7 +2,7 @@
 title: "Ivo Jimenez wins BSSw Fellowship"
 summary: "The DOE Exascale Computing Project recognized four Better Scientific Software Fellows this year. Ivo is the only graduate student among them."
 authors:
-- admin
+- carlosm
 tags:
 - Reproducibility
 categories:

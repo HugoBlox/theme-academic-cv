@@ -2,7 +2,7 @@
 title: "Congratulations, Dr. Jimenez!"
 summary: 'Please join Peter Alvaro, Scott Brandt, Jay Lofstead, and me in congratulating Dr. Ivo Jimenez on his successful Ph.D. defense today on "Agile Research Delivery".'
 authors:
-- admin
+- carlosm
 tags:
 - Presentation
 categories:

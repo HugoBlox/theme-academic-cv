@@ -5,7 +5,7 @@ title: "Chairing the SC21 Reproducibility Initiative"
 subtitle: "Enhancing reproducibility of accepted papers and leading the student reproducibility challenge."
 summary: "Enhancing reproducibility of accepted papers and leading the student reproducibility challenge."
 authors:
-- admin
+- carlosm
 tags: [organization, reproducibility]
 categories: [News]
 date: 2021-02-27T17:00:00-08:00

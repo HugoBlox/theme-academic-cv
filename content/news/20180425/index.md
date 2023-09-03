@@ -2,7 +2,7 @@
 title: "Congratulations, Dr. Sevilla!"
 summary: 'Please join Peter Alvaro, Scott Brandt, Ike Nassi, and me in congratulating Dr. Michael Sevilla on his successful Ph.D. defense on "Scalable, Global Namespaces with Programmable Storage".'
 authors:
-- admin
+- carlosm
 tags:
 - Presentation
 categories:

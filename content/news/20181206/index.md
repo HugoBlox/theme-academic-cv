@@ -2,7 +2,7 @@
 title: "CROSS Incubator Project: Skyhook DM"
 summary: "Check out Skyhook Data Management, one of the CROSS incubator projects."
 authors:
-- admin
+- carlosm
 tags:
 - Project
 categories:

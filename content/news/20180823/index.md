@@ -2,7 +2,7 @@
 title: "New NSF Award: Declarative Storage"
 summary: "Peter Alvaro and I received a new CSR/Medium NSF Award to explore Declarative Programmable Storage. The award is a total of $850,000 over three years."
 authors:
-- admin
+- carlosm
 tags:
 - Funding
 categories:

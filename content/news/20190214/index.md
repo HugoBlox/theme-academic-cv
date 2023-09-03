@@ -2,7 +2,7 @@
 title: "Philip Kufeldt on Composable Infrastructure"
 summary: "CROSS Industry-Practitioner-in-Residence Philip Kufeldt contributed to the SNIA Live Webcast on [Why Composable Infrastructure](https://www.brighttalk.com/webcast/663/344762/why-composable-infrastructure)"
 authors:
-- admin
+- carlosm
 tags:
 - Presentation
 categories:

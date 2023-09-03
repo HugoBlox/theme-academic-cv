@@ -2,7 +2,7 @@
 title: "Congratulations, Dr. Watkins!"
 summary: 'Please join Peter Alvaro, Scott Brandt, and me in congratulating Dr. Noah Watkins on his successful Ph.D. defense today on "Programmable Storage".'
 authors:
-- admin
+- carlosm
 tags:
 - Presentation
 categories:

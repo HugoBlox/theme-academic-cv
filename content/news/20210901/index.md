@@ -5,7 +5,7 @@ title: "New in SC21: SC Best Reproducibility Advancemeent Award"
 subtitle: "Recognizing outstanding efforts in improving transparency and reproducibility of methods for high performance computing, storage, networking and analysis."
 summary: "Recognizing outstanding efforts in improving transparency and reproducibility of methods for high performance computing, storage, networking and analysis."
 authors:
-- admin
+- carlosm
 tags: [organization, reproducibility]
 categories: [News]
 date: 2021-09-01T17:00:00-08:00

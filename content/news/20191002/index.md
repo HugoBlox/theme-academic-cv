@@ -2,7 +2,7 @@
 title: "2019 CROSS Research Symposium"
 summary: "The  [4th Annual CROSS Research Symposium](https://cross.ucsc.edu/2019-symposium) is taking place today and tomorrow with three keynote speakers, Daniela Barbosa, Joseph Jacks, and Haoyuan Li."
 authors:
-- admin
+- carlosm
 tags:
 - Event
 categories:

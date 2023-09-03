@@ -2,7 +2,7 @@
 title: "Presidential Chair Appointment"
 subtitle: "Appointed as the Sage Weil Presidential Chair for Open Source Software."
 #summary: "Drop in and ask us questions about this summer program starting at 10:30am Pacific Time on January 26, 2023. Take a look at info about these programs on this website or watch one of the earlier [videos](https://youtube.com/playlist?list=PLgEgostMUSe0uH-iqE3kUbsb-W_LRZaLv). We will give a brief overview of the program and discuss the benefits of being a Summer of Reproducibility mentor, a joint program with the NSF-funded Repeto Project."
-authors: [admin]
+authors: [carlosm]
 tags: [cross]
 categories: [News]
 date: 2023-06-07

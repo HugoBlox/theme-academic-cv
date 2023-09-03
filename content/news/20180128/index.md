@@ -2,7 +2,7 @@
 title: "Papers accepted at IPDPS, ICPE, & CCGrid"
 summary: "In January we got three papers accepted -- one at IPDPS, one at CCGrid, and one at ICPE."
 authors:
-- admin
+- carlosm
 tags:
 - Publication
 categories:

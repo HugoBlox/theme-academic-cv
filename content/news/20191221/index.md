@@ -2,7 +2,7 @@
 title: "Paper accepted at NSDI ’20"
 summary: "Our paper ([arxiv](https://arxiv.org/abs/1912.09256)) led by Alexandru Uta at Vrije Universiteit Amsterdam was accepted at [NSDI ’20](https://www.usenix.org/conference/nsdi20). The final version of the paper is going to be available on 2/7/20."
 authors:
-- admin
+- carlosm
 tags:
 - Publication
 categories:

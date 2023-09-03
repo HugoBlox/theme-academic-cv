@@ -2,7 +2,7 @@
 title: "Register for upcoming CROSS Symposium!"
 summary: "On October 3-4, 2018, the Center for Research in Open Source Software (CROSS) will host its 3rd Annual Research Symposium at the Baskin School of Engineering, University of California, Santa Cruz."
 authors:
-- admin
+- carlosm
 tags:
 - Event
 categories:

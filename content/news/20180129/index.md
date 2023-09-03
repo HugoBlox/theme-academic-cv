@@ -2,7 +2,7 @@
 title: "Congratulations, Dr. Ionkov!"
 summary: 'Please join Scott Brandt, Maya Gokhale, Katia Obraczka, and me in congratulating Dr. Latchesar Ionkov on his successful Ph.D. defense today on "Optimizing Access to Scientific Data for Storage, Analysis and Visualization".'
 authors:
-- admin
+- carlosm
 tags:
 - Reproducibility
 categories:

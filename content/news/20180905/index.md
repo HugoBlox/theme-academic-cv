@@ -2,7 +2,7 @@
 title: "NSF Award to help establish IRIS-HEP"
 summary: "I very much look forward to have us work with Princeton University on an NSF-funded 5-year project to establish the Institute for Research and Innovation in Software for High Energy Physics (IRIS-HEP)."
 authors:
-- admin
+- carlosm
 tags:
 - Event
 categories:

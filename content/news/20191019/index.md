@@ -2,7 +2,7 @@
 title: "15th GSoC Mentor Summit in Munich"
 summary: "In the second year of CROSS being a mentor organization for Google Summer of Code, we received Google funding for 4 summer students. For more information, see my GSoC Mentor Summit [lightening talk](https://docs.google.com/presentation/d/17a8PSOWnuoOOfv-snVEno2oIaDFEUfQ6UirhHW4k6k0/edit?usp=sharing)."
 authors:
-- admin
+- carlosm
 tags:
 - Presentation
 categories:

@@ -2,7 +2,7 @@
 title: "Call for Participation for SSDBM 2019"
 summary: "The 31st International Conference on Scientific and Statistical Database Management ([SSDBM 2019](https://uccross.github.io/ssdbm2019/)) will be held in Santa Cruz, CA, USA on July 23-25, 2019."
 authors:
-- admin
+- carlosm
 tags:
 - Event
 categories:

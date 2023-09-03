@@ -5,7 +5,7 @@ title: "Jianshen Liu advanced to Candidacy!"
 subtitle: ""
 summary: "Congratulations!"
 authors:
-- admin
+- carlosm
 tags: [cross, advancement]
 categories: [News]
 date: 2020-06-23T11:16:45-07:00

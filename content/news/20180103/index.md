@@ -2,7 +2,7 @@
 title: "Huawei joins CROSS"
 summary: "CROSS is very pleased to welcome Huawei to our Industrial Advisory Board."
 authors:
-- admin
+- carlosm
 tags:
 - CROSS
 categories:

@@ -2,7 +2,7 @@
 title: "CROSS Welcomes 2 GSoC Students"
 summary: "CROSS is honored to be a mentor organization for two of the 2018 Google Summer of Code (GSoC) students. GSoC selected 1,264 students from 64 different countries working with over 200 open source projects."
 authors:
-- admin
+- carlosm
 tags:
 - CROSS
 categories:

@@ -2,7 +2,7 @@
 title: "Paper accepted at OSDI"
 summary: "Congratulations to everyone: two of Ryan Stutsman and Robert Ricci’s (University of Utah) OSDI submissions got accepted, one of which we co-authored."
 authors:
-- admin
+- carlosm
 tags:
 - Publication
 categories:

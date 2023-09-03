@@ -5,7 +5,7 @@ title: "Guest at the Sustain Podcast to talk about CROSS"
 subtitle: ""
 summary: "Touching on the history of CROSS, how one can get involved, and some of the great work CROSS Fellows are doing."
 authors:
-- admin
+- carlosm
 tags: [cross]
 categories: [News]
 date: 2020-06-05T11:16:45-07:00

@@ -2,7 +2,7 @@
 title: "Presentation at OSLS 2019"
 summary: "The Linux Foundation invited me to the Open Source Leadership Summit that this year, very conveniently, took place in Half Moon Bay."
 authors:
-- admin
+- carlosm
 tags:
 - Presentation
 categories:

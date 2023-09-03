@@ -5,7 +5,7 @@ title: "CROSS Featured in Linux Professional Institute Blog Post"
 subtitle: "The Value of Open Source to Universities: UC Santa Cruz Tests the Water"
 summary: "Andy Oram interviewed me the other day about CROSS and its successes and opportunities"
 authors:
-- admin
+- carlosm
 tags: [cross, interview]
 categories: [News]
 date: 2020-07-28T11:16:45-07:00

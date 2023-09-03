@@ -4,7 +4,7 @@
 title: "Mentoring FARR Fellow Milad Hakimshafaei"
 subtitle: "Investigating bias in technology through Baskin Engineering's anti-racism research fellowship"
 summary: "Incubator Fellow and PolyPhy Project Lead Oskar Elek and Stephanie Lieggi, executive director for OSPO and the Center for Research in Open Source Software, Hakimshafaei will develop an interface built off of an existing web-based AI generator that will allow the end user to control the system’s behavior to generate interesting and unique patterns."
-authors: [admin]
+authors: [carlosm]
 tags: []
 categories: [News]
 date: 2022-10-26T11:15:56-07:00

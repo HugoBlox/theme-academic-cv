@@ -3,7 +3,7 @@ title: "CROSS Workshop on Practical Reproducibility in Systems"
 summary: "Join Ivo Jimenez (UCSC), Marios Kogias (EPFL), Alexandru Uta
 (Leiden University) discussing aspects of practical reproducibility."
 authors:
-- admin
+- carlosm
 tags:
 - cross
 - event

@@ -2,7 +2,7 @@
 title: "Eusocial Storage Devices in USENIX ;login:"
 summary: "By Philip Kufeldt, Carlos Maltzahn, Tim Feldman, Christine Green, Grant Mackey, and Shingo Tanaka."
 authors:
-- admin
+- carlosm
 tags:
 - Publication
 categories:

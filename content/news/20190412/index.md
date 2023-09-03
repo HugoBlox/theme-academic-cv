@@ -2,7 +2,7 @@
 title: "Guest on Embedded.fm"
 summary: 'One of the outcomes of attending [!!Con West](http://bangbangcon.com/west/2019/) was an opportunity to join the 285th podcast of [Embedded.fm](https://www.embedded.fm/): “[A Chicken Getting to the Other Side](https://www.embedded.fm/episodes/285)”'
 authors:
-- admin
+- carlosm
 tags:
 - Presentation
 categories:
