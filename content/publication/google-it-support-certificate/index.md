@@ -8,6 +8,7 @@ image:
   filename: google-it-support-certificate.png
   focal_point: Smart
   preview_only: false
+  caption: Certificate of Completion
 date: 2023-09-15T11:24:38.692Z
 ---
 Issued on: November 09, 2021 | Issued by: Coursera
