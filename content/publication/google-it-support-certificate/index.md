@@ -5,7 +5,7 @@ publication_types:
 draft: false
 featured: false
 image:
-  filename: featured
+  filename: google-it-support-certificate.png
   focal_point: Smart
   preview_only: false
 date: 2023-09-15T11:24:38.692Z
