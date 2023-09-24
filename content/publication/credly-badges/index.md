@@ -12,7 +12,7 @@ image:
   filename: screencapture-credly-users-grace-wangui-njogu-badges-2023-09-24-13_40_58.png
   focal_point: Smart
   preview_only: false
-  caption: Badges
+  caption: "[Badges](https://www.credly.com/users/grace-wangui-njogu/badges)"
 date: 2023-09-23T11:30:30.619Z
 ---
 Verify: https://www.credly.com/users/grace-wangui-njogu/badges
