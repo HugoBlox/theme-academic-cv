@@ -2,8 +2,12 @@
 title: Credly Badges
 publication_types:
   - "0"
+authors:
+  - admin
 draft: false
 featured: true
+tags:
+  - certification
 image:
   filename: screencapture-credly-users-grace-wangui-njogu-badges-2023-09-24-13_40_58.png
   focal_point: Smart
