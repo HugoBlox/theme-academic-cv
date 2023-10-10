@@ -32,6 +32,10 @@ gallery_item:
     caption: Acrylic (on canvas)
 ---
 
-In the beginning of 2005, my school participate to a drawing contest. Two classes were invited to an exhibition, retracing the life of a famous regional poet. Back at school, each student had to produce a drawing about this story. Despite having zero experience, I won a price and was invited to a small ceremony where I met the jury. One of them, Emilia, was drawing and painting teacher in a non-profit association. This is how, in September 2005, I joined Gribouill’Art. 17 years later,  I'm still waiting for my weekly class impatiently!
+In early 2005, my school participated in a drawing contest that marked the beginning of my artistic journey. Two classes had been invited to an exhibition that commemorated the life of a renowned regional poet. Upon our return to school, each student was tasked with drawing about this story. Despite my lack of prior art experience, my work was recognised with an award, and I was honoured to attend a small ceremony where I had the privilege of meeting the judging panel.
+
+Among the judges, Emilia, a drawing and painting instructor with her own studio class, left a lasting impression on me. It was through this fortuitous encounter that, in September 2005, I became a part of Gribouill'Art, where Emilia shared her expertise and passion with me and others.
+
+Fast forward 17 years, and my enthusiasm for art remains undiminished. Each week, I eagerly anticipate my Gribouill'Art class, where I continue to refine my skills and draw inspiration from life in general.
 
 <center>{{< gallery album="paints">}}

@@ -6,7 +6,7 @@ title: Sophie Fortz
 superuser: true
 
 # Role/position/tagline
-role: PhD Student #in Software Testing
+role: Ph.D. #in Software Testing
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -30,7 +30,7 @@ education:
   courses:
     - course: PhD in Software Engineering
       institution: University of Namur
-      year: 2023 (ongoing)
+      year: 2023 
     - course: MSc in Computer Science, specialised in Software Engineering
       institution: University of Namur
       year: 2019
@@ -78,6 +78,13 @@ email: ''
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-My name is Sophie Fortz. I am a Ph.D. student in software engineering at the University of Namur, under the supervision of Dr. Gilles Perrouin and Pr. Patrick Heymans. I am also a member of the PReCISE research centre and the Namur Digital Institute. After one year of PhD funded by the EoS (Excellence of Science) VeriLearn project, I obtained a [FRIA (FNRS) Grant](https://www.frs-fnrs.be/en/financements-resp/chercheur-doctorant). My thesis is entitled: [*"LIFTS: Learning Featured Transition Systems"*](poster). My main research interests include variability-intensive systems, behavioural modelling, model-based software testing, AI4SE and SE4AI. Being in my last PhD year, I'm open to discuss about posdoctoral position. So, do not hesitate to contact me to discuss research!
 
-On my spare hours, I like to read and follow [drawing/painting classes](painting). I am also an active member of [the Belgian Guide Federation](guides), where I have been successively girl guide, group leader and trainer.
+My name is Sophie Fortz and I am a postdoctoral researcher specializing in software engineering at the University of Namur. My research is conducted under the expert guidance of Dr. Gilles Perrouin and Prof. Patrick Heymans. Additionally, I hold membership in the PReCISE research center and the Namur Digital Institute.
+
+My academic trajectory began with an initial year of PhD funded by the FNRS EoS (Excellence of Science) VeriLearn project, before I secured a competitive [FRIA (FNRS) Grant](https://www.frs-fnrs.be/en/financements-resp/chercheur-doctorant). 
+
+My doctoral thesis, [*"LIFTS: Learning Featured Transition Systems"*](poster), reflects my passion for exploring topics such as variability-intensive systems, behavioral modeling, model-based software testing, AI4SE and SE4AI.
+
+Currently, I have returned to the EoS VeriLearn project for a brief postdoctoral appointment before transitioning to a new chapter in my academic journey. I am excited to join Professor Mohammad Reza Mousavi's team at King's College, London, where I will be focusing on testing techniques for quantum programs. 
+
+On my spare hours, I like to read and follow [drawing/painting classes](painting). I was also an active member of [the Belgian Guide Federation](guides) for years, where I have been successively girl guide, group leader and trainer.

@@ -30,9 +30,13 @@ hugo server
 
 ## Deploy
 ```
+./deploy.sh
+
+OR
+
 hugo
 cd public
 git add .
 git commit -m "Build website"
-git push origin master
+git push origin main
 ```

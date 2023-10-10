@@ -26,5 +26,5 @@ main:
     url: 'poster'
     weight: 60
   - name: Curriculum Vitae
-    url: uploads/resume.pdf
+    url: uploads/cv.pdf
     weight: 70

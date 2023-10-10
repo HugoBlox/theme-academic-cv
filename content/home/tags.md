@@ -23,15 +23,4 @@ design:
   font_size_min: 0.7
   font_size_max: 2.0
 
-  # tags = [ -> A ajouter en fonction de mes publications! :)
-  #  "Behavioural modelling",
-  #  "Software testing",
-  #  "Software Product Lines",
-  #  "Software testing",
-  #  "SE4AI",
-  #  "AI4SE",
-  #  "Variability-intensive systems",
-  #  "Model-based software testing",
-  #  "Automata learning",
-  #  "Prioritization"]
 ---

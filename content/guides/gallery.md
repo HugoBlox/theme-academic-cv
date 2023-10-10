@@ -48,6 +48,6 @@ When I was five years old, my parents send me to a group of [Girl Guides](https:
 - Leader of the 12-16 year olds 2015-2016
 - Leader for young adults with mental disabilities 2017-2020
 
-In parallel, I obtained my Holiday Centre Trainer’s Certificate in 2014. The next year, I became a federal trainer for new leaders and now, the journey continue!
+In parallel, I obtained my Holiday Centre Trainer’s Certificate in 2014. The next year, I became a federal trainer for new leaders. In 2023, after many years of service, I finally hung up my Girl Guide scarf to begin a new journey.
 
 <center>{{< gallery album="guides">}}

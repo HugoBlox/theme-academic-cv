@@ -41,7 +41,7 @@ feature:
   # Leader of the 12-16 year olds 2015-2016
   # Leader for young adults with mental disabilities 2017-2020
   # Holiday Centre Trainer’s Certificate Obtained in 2014
-  # Federal Trainer Since 2015
+  # Federal Trainer 2015-2022
 
 
 # Uncomment to use emoji icons.

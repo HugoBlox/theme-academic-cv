@@ -23,14 +23,23 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
 
+  - title: Postdoctoral Researcher
+    company: University of Namur
+    company_url: ''
+    company_logo: unamur
+    location: Namur, Belgium
+    date_start: '2023-09-22'
+    date_end: ''
+    description: Working on the EoS VeriLearn Project.
+
   - title: PhD Student
     company: University of Namur
     company_url: ''
     company_logo: unamur
     location: Namur, Belgium
     date_start: '2019-09-01'
-    date_end: ''
-    description: My thesis is entitled [*Learning Featured Transition Systems*]({{< relref "../poster" >}}). I am studying how to model the behaviour of Software Product Lines and how to automatically generate those kind of models.
+    date_end: '2023-09-22'
+    description: My thesis is entitled [*Learning Featured Transition Systems*]({{< relref "../poster" >}}). I studied how to model the behaviour of Software Product Lines and how to automatically generate those kind of models.
 
   - title: ALMIN president
     company: University of Namur
@@ -38,7 +47,7 @@ experience:
     company_logo: almin-2
     location: Namur, Belgium
     date_start: '2021-09-01'
-    date_end: ''
+    date_end: '2023-09-01'
     description: The ALMIN is the alumni association of the computer science faculty in the university of Namur. This group organise activities for all the master and bachelor students who got their degree in the faculty. I am a board member of the association since 2019 and in 2021, I took the presidence.
 
   - title: Research internship
