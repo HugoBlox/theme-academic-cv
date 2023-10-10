@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Sophie Fortz, PhD Student # Website name
+title: Sophie Fortz, Ph.D. # Website name
 baseURL: 'https://sfortz.github.io/' # Website URL
 
 ############################

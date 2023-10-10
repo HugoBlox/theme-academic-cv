@@ -21,7 +21,7 @@ design:
 *Organisation:* 15h of tutoring <br/>
 *Public:* 2nd year of Bachelor students from the Economics and Computer Science faculties of the University of Namur, Belgium <br/>
 *Content:* Basic concepts of Mathematics for Cryptography mainly (modular arithmetic, discrete log, symmetric encryption and asymmetric encryption, elliptic curves) <br/>
-*Academic years:* 2019-2020, 2020-2021, 2021-2022
+*Academic years:* 2019-2020, 2020-2021, 2021-2022 <br/> <br/>
 
 * IHDCB339 - **Introduction to the Scientific Approach**: <br/> 
 *Organisation:* One group project supervision <br/>
