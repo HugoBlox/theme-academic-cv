@@ -71,7 +71,7 @@ user_groups:
 - Visitors
 ---
 
-I am a fourth year PhD candidate in the Department of Statistics at the University of Michigan, supervised by Johann Gagnon-Bartsch. My work bridges the gap between the causal analyses a researcher would like to do and the data that they actually have.
+I am a fifth year PhD candidate in the Department of Statistics at the University of Michigan, supervised by Johann Gagnon-Bartsch. My work bridges the gap between the causal analyses a researcher would like to do and the data that they actually have. 
 
 I am interested in ways that various data sources can be combined for casual inference to leverage the strengths of each source, while mitigating any limitations. I currently work on improved estimation by combining observational data and data from randomized controlled trials, precise estimators for paired cluster randomized trials, and data fusion for causal inference when data privacy is a concern. I have also worked with Ben B. Hansen on specialized propensity score matching methods for observational study design and design-based inference that accommodates censored outcomes.
 
