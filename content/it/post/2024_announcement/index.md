@@ -7,8 +7,8 @@ summary: "Segnate mercoledì 3 gennaio 2024 sui vostri calendari!"
 authors: [af]
 tags: [2024]
 categories: [2024, annuncio]
-date: 2024-08-01T16:05:08+01:00
-lastmod: 2024-08-01T16:05:08+01:00
+date: 2023-11-01T16:05:08+01:00
+lastmod: 2023-11-01T16:05:08+01:00
 featured: false
 draft: false
 
