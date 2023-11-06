@@ -47,7 +47,6 @@ researchers:
 # - "[Ivo Jimenez](http://www.linkedin.com/in/ivotron)"
 
 currentphds:
-- "[Saheed Adepoju](https://www.linkedin.com/in/saheedadepoju/)"
 - "[Jayjeet Chakraborty](https://www.linkedin.com/in/jayjeet-chakraborty-077579162/)"
 - "[Esmaeil Mirvakili](https://www.linkedin.com/in/esmaeil-m-12a71879/)"
 - "[Farid Zakaria](https://www.linkedin.com/in/fmzakari/)"
