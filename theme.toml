@@ -1,9 +1,9 @@
 name = "Academic"
 license = "MIT"
-licenselink = "https://github.com/wowchemy/starter-hugo-academic/blob/main/LICENSE.md"
+licenselink = "https://github.com/HugoBlox/theme-academic-cv/blob/main/LICENSE.md"
 description = "Use the no-code website framework to easily build your site. Choose from 50+ widgets and deploy with one click! Fully personalize your site with themes, plugins, and language packs."
-homepage = "https://github.com/wowchemy/starter-hugo-academic/"
-demosite = "https://wowchemy.com/templates/"
+homepage = "https://github.com/HugoBlox/theme-academic-cv"
+demosite = "https://hugoblox.com/templates/"
 tags = ["widgets",
         "resume",
         "portfolio",

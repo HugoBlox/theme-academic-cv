@@ -45,7 +45,7 @@ jobs:
           body: |
             Import the latest publications from `publications.bib` to `content/publication/`.
             将最新的出版物从`publications.bib`导入到`content/publication/`。
-            [View Documentation](https://github.com/wowchemy/bibtex-to-markdown)
+            [View Documentation](https://github.com/GetRD/academic-file-converter)
           base: main
           labels: automated-pr, content
           branch: wowchemy-import-publications
