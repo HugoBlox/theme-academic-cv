@@ -44,6 +44,7 @@ jobs:
       - name: Commit and push
         run: |
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > github_key
+          chmod 600 github_key
           git config --global user.email "n-yuta@ids.osaka-u.ac.jp"
           git config --global user.name "nyuta1212"
           git add .
