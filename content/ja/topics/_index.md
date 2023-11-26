@@ -2,7 +2,7 @@
 title = "Research Topics" 
 date = 2020-06-20
 toc = true # Show table of contents? true/false 
-type = "docs" # Do not modify. 
+type = "book" # Do not modify. 
 +++
 
 {{< figure library="true" src="intelligence.jpg" numbered="false" width="1000" >}}

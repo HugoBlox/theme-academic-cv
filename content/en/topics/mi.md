@@ -3,7 +3,7 @@ date = 2020-06-20
 title = "Medical Imaging" 
 
 toc = false # Show table of contents? true/false 
-type = "docs" # Do not modify. 
+type = "book" # Do not modify. 
 weight = 40
 
 [menu.topics] 
