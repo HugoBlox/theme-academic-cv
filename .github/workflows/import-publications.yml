@@ -43,9 +43,8 @@ jobs:
           echo "::set-output name=count::$(git diff --name-only | wc -l)"
       - name: Commit and push
         run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > github_key
           git add .
           git commit -m "Update publication"
-          git push
+          git -c core.sshCommand="ssh -i github_key" push 
         if: steps.changes.outputs.count > 0
