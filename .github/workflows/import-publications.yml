@@ -43,7 +43,7 @@ jobs:
         id: changes
         run: |
           git add -N .
-          echo "::set-output name=count::$(git diff --name-only | wc -l)"
+          echo "count=$(git diff --name-only | wc -l)" >> $GITHUB_OUTPUT
       - name: Commit and push
         run: |
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -51,11 +51,11 @@ jobs:
           git add .
           git commit -m ":robot: updated publication"
           git push origin dev
-         if: steps.changes.outputs.count > 0
+        if: steps.changes.outputs.count > 0
       - name: Create pull request
-         if: steps.changes.outputs.count > 0
+        if: steps.changes.outputs.count > 0
         uses: peter-evans/create-pull-request@v5
         with:
-          commit-message: ":robot: automatic pr"
+          commit-message: ":robot: created pr to update publication"
           base: master
-          title: ":robot: updated publication from bibtex"
+          title: ":robot: automatic"
