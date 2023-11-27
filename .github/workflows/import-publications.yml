@@ -57,3 +57,5 @@ jobs:
         uses: peter-evans/create-pull-request@v5
         with:
           commit-message: ":robot: created pr to update publication"
+          base: master
+          title: ":robot: automatic pr"
