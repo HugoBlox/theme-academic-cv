@@ -51,9 +51,9 @@ jobs:
           git add .
           git commit -m ":robot: updated publication"
           git push origin dev
-        if: steps.changes.outputs.count > 0
+        # if: steps.changes.outputs.count > 0
       - name: Create pull request
-        if: steps.changes.outputs.count > 0
+        # if: steps.changes.outputs.count > 0
         uses: peter-evans/create-pull-request@v5
         with:
           commit-message: ":robot: created pr to update publication"
