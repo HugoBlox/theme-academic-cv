@@ -4,11 +4,12 @@ name: Import Publications From Bibtex
 # Require permission to create a PR
 permissions:
   contents: write
+  pull-requests: write
 
 # Run workflow when a `.bib` file is added or updated in the `data/` folder
 on:
   push:
-    branches: ['master']
+    branches: ['dev']
     paths: ['bibtex/islab.bib']
 
   # Allows you to run this workflow manually from the Actions tab
@@ -20,7 +21,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          ref: $GITHUB_REF
       - name: Set up Python 3.12
         uses: actions/setup-python@v4
         with:
@@ -43,11 +46,14 @@ jobs:
           echo "::set-output name=count::$(git diff --name-only | wc -l)"
       - name: Commit and push
         run: |
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > github_key
-          chmod 600 github_key
-          git config --global user.email "n-yuta@ids.osaka-u.ac.jp"
-          git config --global user.name "nyuta1212"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
           git add .
-          git commit -m "Update publication"
-          git -c core.sshCommand="ssh -i github_key" push 
+          git commit -m ":robot: updated publication"
+          git push origin dev
         if: steps.changes.outputs.count > 0
+      - name: Create pull request
+        if: steps.changes.outputs.count > 0
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: ":robot: created pr to update publication"
