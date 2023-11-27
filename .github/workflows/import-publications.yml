@@ -23,7 +23,7 @@ jobs:
       - name: Checkout the repo
         uses: actions/checkout@v4
         with:
-          ref: $GITHUB_REF
+          ref: dev
       - name: Set up Python 3.12
         uses: actions/setup-python@v4
         with:
