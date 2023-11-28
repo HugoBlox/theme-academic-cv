@@ -1,11 +1,5 @@
 ---
 title: 'Match them up: visually explainable few-shot image classification'
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2022-01-01'
-publishDate: '2023-08-20T08:45:13.241185Z'
 authors:
 - Bowen Wang
 - Liangzhi Li
@@ -13,8 +7,12 @@ authors:
 - Yuta Nakashima
 - Ryo Kawasaki
 - Hajime Nagahara
+date: '2022-01-01'
+publishDate: '2023-11-27T07:32:34.783093Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*Applied Intelligence*'
+doi: https://doi.org/10.1007/s10489-022-04072-4
 abstract: Few-shot learning (FSL) approaches, mostly neural network-based, assume
   that pre-trained knowledge can be obtained from base (seen) classes and transferred
   to novel (unseen) classes. However, the black-box nature of neural networks makes
@@ -27,11 +25,7 @@ abstract: Few-shot learning (FSL) approaches, mostly neural network-based, assum
   knowledge. On three mainstream datasets, experimental results prove that the proposed
   method can enable satisfying explainability and achieve high classification results.
   Code is available at https://github.com/wbw520/MTUNet.
-featured: false
-publication: '*Applied Intelligence*'
-doi: https://doi.org/10.1007/s10489-022-04072-4
 links:
 - name: URL
   url: https://github.com/wbw520/MTUNet
 ---
-

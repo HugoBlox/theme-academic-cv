@@ -1,20 +1,18 @@
 ---
 title: Red-Fluorescent Pt Nanoclusters for Detecting and Imaging HER2 in Breast Cancer
   Cells
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2020-09-01'
-publishDate: '2023-08-20T08:45:16.287022Z'
 authors:
 - Shin-ichi Tanaka
 - Hiroki Wadati
 - Kazuhisa Sato
 - Hidehiro Yasuda
 - Hirohiko Niioka
+date: '2020-09-01'
+publishDate: '2023-11-27T07:32:35.086637Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*ACS Omega*'
+doi: https://doi.org/10.1021/acsomega.0c02578
 abstract: Overexpression of human epidermal growth factor receptor 2 (HER2) is associated
   with more frequent cancer recurrence and metastasis. Sensitive sensing of HER2 in
   living breast cancer cells is crucial in the early stages of cancer and to further
@@ -31,11 +29,7 @@ abstract: Overexpression of human epidermal growth factor receptor 2 (HER2) is a
   visualization of deep anatomical features because of enhanced tissue penetration
   and a decrease in background noise from tissue scattering. Our Pt nanoclusters are
   promising fluorescent probes for biomedical applications.
-featured: false
-publication: '*ACS Omega*'
-doi: https://doi.org/10.1021/acsomega.0c02578
 links:
 - name: URL
   url: https://pubs.acs.org/doi/pdf/10.1021/acsomega.0c02578
 ---
-

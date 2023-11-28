@@ -1,20 +1,19 @@
 ---
 title: 'Attending self-attention: A case study of visually grounded supervision in
   vision-and-language transformers'
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2021-08-01'
-publishDate: '2023-08-20T08:45:15.290121Z'
 authors:
 - Jules Samaran
 - Noa Garcia
 - Mayu Otani
 - Chenhui Chu
 - Yuta Nakashima
+date: '2021-08-01'
+publishDate: '2023-11-27T07:32:34.981458Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proc.~Annual Meeting of the Association for Computational Linguistics
+  and the 11th International Joint Conference on Natural Language Processing: Student
+  Research Workshop*'
 abstract: The impressive performances of pre-trained visually grounded language models
   have motivated a growing body of research investigating what has been learned during
   the pre-training. As a lot of these models are based on Transformers, several studies
@@ -24,12 +23,7 @@ abstract: The impressive performances of pre-trained visually grounded language 
   of such models. We compare three different methods on attention supervision and
   their impact on the performances of a state-of-the-art visually grounded language
   model on two popular vision-and-language tasks.
-featured: false
-publication: '*Proc.~Annual Meeting of the Association for Computational Linguistics
-  and the 11th International Joint Conference on Natural Language Processing: Student
-  Research Workshop*'
 links:
 - name: URL
   url: https://aclanthology.org/2021.acl-srw.8/
 ---
-

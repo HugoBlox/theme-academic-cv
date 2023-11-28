@@ -1,19 +1,18 @@
 ---
 title: High-speed imaging using CMOS image sensor with quasi pixel-wise exposure
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2016-06-01'
-publishDate: '2023-08-20T08:43:25.431442Z'
 authors:
 - Hajime Nagahara
 - Toshiki Sonoda
 - Kenta Endo
 - Yukinobu Sugiyama
 - Rin Ichiro Taniguchi
+date: '2016-06-01'
+publishDate: '2023-11-28T10:16:25.205657Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*2016 IEEE International Conference on Computational Photography, ICCP
+  2016 - Proceedings*'
+doi: 10.1109/ICCPHOT.2016.7492875
 abstract: Several recent studies in compressive video sensing have realized scene
   capture beyond the fundamental trade-off limit between spatial resolution and temporal
   resolution using random space-time sampling. However, most of these studies showed
@@ -31,9 +30,4 @@ abstract: Several recent studies in compressive video sensing have realized scen
   high-speed video sequence from the images produced by pseudo-random sampling using
   an over-complete dictionary. The proposed method also removes the rolling shutter
   effect from the reconstructed video.
-featured: false
-publication: '*2016 IEEE International Conference on Computational Photography, ICCP
-  2016 - Proceedings*'
-doi: 10.1109/ICCPHOT.2016.7492875
 ---
-

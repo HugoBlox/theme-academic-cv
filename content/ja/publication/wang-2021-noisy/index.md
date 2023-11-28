@@ -1,11 +1,5 @@
 ---
 title: 'Noisy-LSTM: Improving temporal awareness for video semantic segmentation'
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2021-03-01'
-publishDate: '2023-08-20T08:45:14.229355Z'
 authors:
 - Bowen Wang
 - Liangzhi Li
@@ -13,8 +7,12 @@ authors:
 - Ryo Kawasaki
 - Hajime Nagahara
 - Yasushi Yagi
+date: '2021-03-01'
+publishDate: '2023-11-27T07:32:34.878845Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*IEEE Access*'
+doi: https://doi.org/10.1109/ACCESS.2021.3067928
 abstract: Semantic video segmentation is a key challenge for various applications.
   This paper presents a new model named Noisy-LSTM, which is trainable in an end-to-end
   manner, with convolutional LSTMs (ConvLSTMs) to leverage the temporal coherence
@@ -26,11 +24,7 @@ abstract: Semantic video segmentation is a key challenge for various application
   extra data annotations or computational costs. Experimental results demonstrate
   that the proposed model can achieve state-of-the-art performances on both the CityScapes
   and EndoVis2018 datasets. The code for the proposed method is available at https://github.com/wbw520/NoisyLSTM.
-featured: false
-publication: '*IEEE Access*'
-doi: https://doi.org/10.1109/ACCESS.2021.3067928
 links:
 - name: URL
   url: https://doi.org/10.1109/ACCESS.2021.3067928
 ---
-

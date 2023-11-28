@@ -1,11 +1,5 @@
 ---
 title: A Coded Aperture for Watermark Extraction from Defocused Images
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2019-01-01'
-publishDate: '2023-08-20T08:45:21.466434Z'
 authors:
 - H. Hamasaki
 - S. Takeshita
@@ -14,8 +8,13 @@ authors:
 - H. Kawasaki
 - H. Nagahara
 - S. Ono
+date: '2019-01-01'
+publishDate: '2023-11-27T07:32:35.598446Z'
 publication_types:
-- '5'
+- book
+publication: '*Lecture Notes in Computer Science (including subseries Lecture Notes
+  in Artificial Intelligence and Lecture Notes in Bioinformatics)*'
+doi: 10.1007/978-3-030-20876-9_15
 abstract: © 2019, Springer Nature Switzerland AG. Barcodes and 2D codes are widely
   used for various purposes, such as electronic payments and product management. Special
   code readers, and consumer smartphones can be used to scan codes; thus concerns
@@ -32,9 +31,6 @@ abstract: © 2019, Springer Nature Switzerland AG. Barcodes and 2D codes are wid
   effects of the optical aberrations can be considered. Experimental results demonstrate
   that the proposed method can extend the depth of field for watermark extraction
   to 3.1 times wider than that of a general circular aperture.
-featured: false
-publication: '*Lecture Notes in Computer Science (including subseries Lecture Notes
-  in Artificial Intelligence and Lecture Notes in Bioinformatics)*'
 tags:
 - Coded aperture
 - Device-based optimization
@@ -42,6 +38,4 @@ tags:
 - Extended depth of field
 - Genetic algorithm
 - Two-dimensional code
-doi: 10.1007/978-3-030-20876-9_15
 ---
-

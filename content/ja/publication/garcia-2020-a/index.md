@@ -1,18 +1,15 @@
 ---
 title: 'KnowIT VQA: Answering knowledge-based questions about videos'
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2020-02-01'
-publishDate: '2023-08-20T08:45:19.477269Z'
 authors:
 - Noa Garcia
 - Mayu Otani
 - Chenhui Chu
 - Yuta Nakashima
+date: '2020-02-01'
+publishDate: '2023-11-27T07:32:35.398991Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proceedings - 2020 AAAI Conference on Artificial Intelligence*'
 abstract: 'We propose a novel video understanding task by fusing knowledge-based and
   video question answering. First, we introduce KnowIT VQA, a video dataset with 24,282
   human-generated question-answer pairs about a popular sitcom. The dataset combines
@@ -23,14 +20,11 @@ abstract: 'We propose a novel video understanding task by fusing knowledge-based
   the incorporation of knowledge produces outstanding improvements for VQA in video,
   and (ii) the performance on KnowIT VQA still lags well behind human accuracy, indicating
   its usefulness for studying current video modelling limitations.'
-featured: false
-publication: '*Proceedings - 2020 AAAI Conference on Artificial Intelligence*'
 tags:
-- Kvqa
+- kvqa
 links:
 - name: arXiv
   url: https://arxiv.org/abs/1910.10706
 - name: URL
   url: http://arxiv.org/abs/1910.10706 https://aaai.org/ojs/index.php/AAAI/article/view/6713/6567
 ---
-

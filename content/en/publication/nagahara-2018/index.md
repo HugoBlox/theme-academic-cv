@@ -1,18 +1,17 @@
 ---
 title: Space-time-brightness sampling using an adaptive pixel-wise coded exposure
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2018-12-01'
-publishDate: '2023-08-20T08:43:26.288911Z'
 authors:
 - Hajime Nagahara
 - Dengyu Liu
 - Toshiki Sonoda
 - Jinwei Gu
+date: '2018-12-01'
+publishDate: '2023-11-28T10:16:25.288011Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*IEEE Computer Society Conference on Computer Vision and Pattern Recognition
+  Workshops*'
+doi: 10.1109/CVPRW.2018.00237
 abstract: Most conventional digital video cameras face a fundamental trade-off between
   spatial resolution, temporal resolution and dynamic range (i.e., brightness resolution)
   because of a limited bandwidth for data transmission. A few recent studies have
@@ -29,9 +28,4 @@ abstract: Most conventional digital video cameras face a fundamental trade-off b
   video reconstruction results and high dynamic range with less computational cost,
   than previous method. To the best of our knowledge, our prototype is the first implementation
   of an adaptive pixel-wise coded exposure camera.
-featured: false
-publication: '*IEEE Computer Society Conference on Computer Vision and Pattern Recognition
-  Workshops*'
-doi: 10.1109/CVPRW.2018.00237
 ---
-

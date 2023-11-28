@@ -1,18 +1,16 @@
 ---
 title: Contrastive Losses Are Natural Criteria for Unsupervised Video Summarization
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2023-01-01'
-publishDate: '2023-08-20T08:45:13.729861Z'
 authors:
 - Zongshang Pang
 - Yuta Nakashima
 - Mayu Otani
 - Hajime Nagahara
+date: '2023-01-01'
+publishDate: '2023-11-27T07:32:34.829518Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proceedings of the IEEE/CVF Winter Conference on Applications of Computer
+  Vision*'
 abstract: 'Video summarization aims to select a most informative subset of frames
   in a video to facilitate efficient video browsing. Unsupervised methods usually
   rely on heuristic training objectives such as diversity and representativeness.
@@ -27,8 +25,4 @@ abstract: 'Video summarization aims to select a most informative subset of frame
   show that by refining the pre-trained features with contrastive learning, the frame-level
   importance scores can be further improved, and the model can learn from random videos
   and generalize to test videos with decent performance.'
-featured: false
-publication: '*Proceedings of the IEEE/CVF Winter Conference on Applications of Computer
-  Vision*'
 ---
-

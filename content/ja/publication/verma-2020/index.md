@@ -1,18 +1,16 @@
 ---
 title: 'Yoga-82: a new dataset for fine-grained classification of human poses'
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2020-04-01'
-publishDate: '2023-08-20T08:45:20.186085Z'
 authors:
 - Manisha Verma
 - Sudhakar Kumawat
 - Yuta Nakashima
 - Shanmuganathan Raman
+date: '2020-04-01'
+publishDate: '2023-11-27T07:32:35.467581Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*The IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  (CVPR) Workshops*'
 abstract: Human pose estimation is a well-known problem in computer vision to locate
   joint positions. Existing datasets for the learning of poses are observed to be
   not challenging enough in terms of pose diversity, object occlusion, and viewpoints.
@@ -28,12 +26,9 @@ abstract: Human pose estimation is a well-known problem in computer vision to lo
   of the state-of-the-art convolutional neural network architectures on Yoga-82. We
   also present several hierarchical variants of DenseNet in order to utilize the hierarchical
   labels.
-featured: false
-publication: '*The IEEE/CVF Conference on Computer Vision and Pattern Recognition
-  (CVPR) Workshops*'
-url_pdf: http://openaccess.thecvf.com/content_CVPRW_2020/papers/w70/Verma_Yoga-82_A_New_Dataset_for_Fine-Grained_Classification_of_Human_Poses_CVPRW_2020_paper.pdf
+url_pdf: 
+  http://openaccess.thecvf.com/content_CVPRW_2020/papers/w70/Verma_Yoga-82_A_New_Dataset_for_Fine-Grained_Classification_of_Human_Poses_CVPRW_2020_paper.pdf
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2004.10362
 ---
-

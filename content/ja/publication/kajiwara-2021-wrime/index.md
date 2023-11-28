@@ -1,20 +1,18 @@
 ---
 title: 'WRIME: A new dataset for emotional intensity estimation with subjective and
   objective annotations'
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2021-06-01'
-publishDate: '2023-08-20T08:45:15.360890Z'
 authors:
 - Tomoyuki Kajiwara
 - Chenhui Chu
 - Noriko Takemura
 - Yuta Nakashima
 - Hajime Nagahara
+date: '2021-06-01'
+publishDate: '2023-11-27T07:32:34.988277Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proc.~Conference of the North American Chapter of the Association for
+  Computational Linguistics: Human Language Technologies (NAACL-HLT)*'
 abstract: We annotate 17,000 SNS posts with both the writer’s subjective emotional
   intensity and the reader’s objective one to construct a Japanese emotion analysis
   dataset. In this study, we explore the difference between the emotional intensity
@@ -25,11 +23,7 @@ abstract: We annotate 17,000 SNS posts with both the writer’s subjective emoti
   gap between the subjective and objective emotions imply the complexity of the mapping
   from a post to the subjective emotion intensities, which also leads to a lower performance
   with machine learning models.
-featured: false
-publication: '*Proc.~Conference of the North American Chapter of the Association for
-  Computational Linguistics: Human Language Technologies (NAACL-HLT)*'
 links:
 - name: URL
   url: https://aclanthology.org/2021.naacl-main.169/
 ---
-

@@ -1,12 +1,6 @@
 ---
 title: 'Museum Experience into a Souvenir: Generating Memorable Postcards from Guide
   Device Behavior Log'
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2021-09-01'
-publishDate: '2023-08-20T08:43:20.841842Z'
 authors:
 - Yoshiyuki Shoji
 - Kenro Aihara
@@ -17,8 +11,12 @@ authors:
 - Masaki Ueta
 - Takehiro Yamamoto
 - Yusuke Yamamoto
+date: '2021-09-01'
+publishDate: '2023-11-28T10:16:24.757189Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proc.~ACM/IEEE Joint Conference on Digital Libraries (JCDL)*'
+doi: https://doi.org/10.1109/JCDL52503.2021.00024
 abstract: This paper proposes a method for automatically generating postcards that
   reflect each visitor's museum experience by analyzing the log of our original iPad
   app that supports and guides personalized navigation in the National Museum of Ethnology.
@@ -37,11 +35,7 @@ abstract: This paper proposes a method for automatically generating postcards th
   what exhibits had made an impression on visitors by using the implemented system.
   The results showed that the exhibits that were seen frequently and the exhibits
   that participants added to their favorites were the most memorable.
-featured: false
-publication: '*Proc.~ACM/IEEE Joint Conference on Digital Libraries (JCDL)*'
-doi: https://doi.org/10.1109/JCDL52503.2021.00024
 links:
 - name: URL
   url: https://ieeexplore.ieee.org/document/9651764
 ---
-

@@ -1,9 +1,5 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: 'Match them up: visually explainable few-shot image classification'
-subtitle: ''
-summary: ''
 authors:
 - Bowen Wang
 - Liangzhi Li
@@ -11,30 +7,12 @@ authors:
 - Yuta Nakashima
 - Ryo Kawasaki
 - Hajime Nagahara
-tags: []
-categories: []
 date: '2022-01-01'
-lastmod: 2023-02-15T15:27:31+09:00
-featured: false
-draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2023-08-20T08:43:19.394502Z'
+publishDate: '2023-11-28T10:16:24.621519Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*Applied Intelligence*'
+doi: https://doi.org/10.1007/s10489-022-04072-4
 abstract: Few-shot learning (FSL) approaches, mostly neural network-based, assume
   that pre-trained knowledge can be obtained from base (seen) classes and transferred
   to novel (unseen) classes. However, the black-box nature of neural networks makes
@@ -47,8 +25,6 @@ abstract: Few-shot learning (FSL) approaches, mostly neural network-based, assum
   knowledge. On three mainstream datasets, experimental results prove that the proposed
   method can enable satisfying explainability and achieve high classification results.
   Code is available at https://github.com/wbw520/MTUNet.
-publication: '*Applied Intelligence*'
-doi: https://doi.org/10.1007/s10489-022-04072-4
 links:
 - name: URL
   url: https://github.com/wbw520/MTUNet

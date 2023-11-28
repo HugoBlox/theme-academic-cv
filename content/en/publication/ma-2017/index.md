@@ -1,11 +1,5 @@
 ---
 title: Mixed features for face detection in thermal image
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2017-01-01'
-publishDate: '2023-08-20T08:43:27.077986Z'
 authors:
 - C. Ma
 - N.T. Trung
@@ -13,8 +7,12 @@ authors:
 - H. Nagahara
 - A. Shimada
 - R.-I. Taniguchi
+date: '2017-01-01'
+publishDate: '2023-11-28T10:16:25.363721Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proceedings of SPIE - The International Society for Optical Engineering*'
+doi: 10.1117/12.2266836
 abstract: © 2017 SPIE. An infrared (IR) camera captures the temperature distribution
   of an object as an IR image. Because facial temperature is almost constant, an IR
   camera has the potential to be used in detecting facial regions in IR images. However,
@@ -28,8 +26,6 @@ abstract: © 2017 SPIE. An infrared (IR) camera captures the temperature distrib
   and participants with and without glasses. Using leave-one-out cross-validation,
   we show that the proposed mixed features have an advantage over all the regular
   local features.
-featured: false
-publication: '*Proceedings of SPIE - The International Society for Optical Engineering*'
 tags:
 - Face detection
 - Haar-like
@@ -37,6 +33,4 @@ tags:
 - Local-binary pattern
 - Mixed features
 - Thermal image
-doi: 10.1117/12.2266836
 ---
-

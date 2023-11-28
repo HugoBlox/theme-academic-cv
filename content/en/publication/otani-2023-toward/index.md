@@ -1,9 +1,5 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: Toward verifiable and reproducible human evaluation for text-to-image generation
-subtitle: ''
-summary: ''
 authors:
 - Mayu Otani
 - Riku Togashi
@@ -13,30 +9,12 @@ authors:
 - Esa Rahtu
 - Janne Heikkilä
 - Shin’ichi Satoh
-tags: []
-categories: []
 date: '2023-06-01'
-lastmod: 2023-08-20T17:43:19+09:00
-featured: false
-draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2023-08-20T08:43:18.931769Z'
+publishDate: '2023-11-28T10:16:24.587103Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proc.~IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  (CVPR)*'
 abstract: Human evaluation is critical for validating the performance of text-to-image
   generative models, as this highly cognitive process requires deep comprehension
   of text and images. However, our survey of 37 recent papers reveals that many works
@@ -48,9 +26,8 @@ abstract: Human evaluation is critical for validating the performance of text-to
   of the text-to-image generation results. Furthermore, we provide insights for designing
   human evaluation experiments reliably and conclusively. Finally, we make several
   resources publicly available to the community to facilitate easy and fast implementations.
-publication: '*Proc.~IEEE/CVF Conference on Computer Vision and Pattern Recognition
-  (CVPR)*'
 links:
 - name: URL
-  url: https://openaccess.thecvf.com/content/CVPR2023/html/Otani_Toward_Verifiable_and_Reproducible_Human_Evaluation_for_Text-to-Image_Generation_CVPR_2023_paper.html
+  url: 
+    https://openaccess.thecvf.com/content/CVPR2023/html/Otani_Toward_Verifiable_and_Reproducible_Human_Evaluation_for_Text-to-Image_Generation_CVPR_2023_paper.html
 ---

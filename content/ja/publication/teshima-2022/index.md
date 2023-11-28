@@ -1,12 +1,6 @@
 ---
 title: Integration of gesture generation system using gesture library with DIY robot
   design kit
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2022-01-01'
-publishDate: '2023-08-20T08:45:14.581067Z'
 authors:
 - Hitoshi Teshima
 - Naoki Wake
@@ -15,8 +9,11 @@ authors:
 - David Baumert
 - Hiroshi Kawasaki
 - Katsushi Ikeuchi
+date: '2022-01-01'
+publishDate: '2023-11-27T07:32:34.912964Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proc.~IEEE/SICE International Symposium on System Integration (SII)*'
 abstract: Conversational agents are expected to improve the quality of communication
   by adding gestures to the speech, and are considered to be a promising tool. Recent
   data-driven methods are capable of attaching gestures to arbitrary speech, but the
@@ -34,10 +31,7 @@ abstract: Conversational agents are expected to improve the quality of communica
   gesture generation system on this robot. In order to evaluate the effectiveness
   of the conversational agent, we evaluated user impression when using various media
   for conversation and confirmed the advantage of using our agent.
-featured: false
-publication: '*Proc.~IEEE/SICE International Symposium on System Integration (SII)*'
 links:
 - name: URL
   url: https://ieeexplore.ieee.org/document/9708837
 ---
-

@@ -1,39 +1,16 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: Cross-language font style transfer
-subtitle: ''
-summary: ''
 authors:
 - Chenhao Li
 - Yuta Taniguchi
 - Min Lu
 - Shin'ichi Konomi
 - Hajime Nagahara
-tags: []
-categories: []
 date: '2023-01-01'
-lastmod: 2023-02-15T15:27:31+09:00
-featured: false
-draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2023-08-20T08:43:19.321566Z'
+publishDate: '2023-11-28T10:16:24.614900Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*Applied Intelligence*'
 abstract: In this paper, we propose a cross-language font style transfer system that
   can synthesize a new font by observing only a few samples from another language.
   Automatic font synthesis is a challenging task and has attracted much research interest.
@@ -48,5 +25,4 @@ abstract: In this paper, we propose a cross-language font style transfer system 
   of 847 fonts, each containing English and Chinese characters with the same style.
   Results show that our model generates 80.3% of users’ preferred images compared
   with state-of-the-art models.
-publication: '*Applied Intelligence*'
 ---

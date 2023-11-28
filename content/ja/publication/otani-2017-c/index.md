@@ -1,18 +1,16 @@
 ---
 title: Video summarization using textual descriptions for authoring video blogs
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2017-05-01'
-publishDate: '2023-08-20T08:45:18.977962Z'
 authors:
 - Mayu Otani
 - Yuta Nakashima
 - Tomokazu Sato
 - Naokazu Yokoya
+date: '2017-05-01'
+publishDate: '2023-11-27T07:32:35.350646Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*Multimedia Tools and Applications*'
+doi: 10.1007/s11042-016-4061-3
 abstract: Authoring video blogs requires a video editing process, which is cumbersome
   for ordinary users. Video summarization can automate this process by extracting
   important segments from original videos. Because bloggers typically have certain
@@ -30,12 +28,8 @@ abstract: Authoring video blogs requires a video editing process, which is cumbe
   from both blog viewers' and authors' perspectives in a user study. Experimental
   results demonstrate the advantages to the proposed text-based method for video blog
   authoring.
-featured: false
-publication: '*Multimedia Tools and Applications*'
 tags:
 - Text-based video summarization
 - User study
 - Video skimming
-doi: 10.1007/s11042-016-4061-3
 ---
-

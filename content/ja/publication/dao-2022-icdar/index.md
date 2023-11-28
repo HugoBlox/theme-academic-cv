@@ -1,11 +1,5 @@
 ---
 title: "ICDAR'22: Intelligent Cross-Data Analysis and Retrieval"
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2022-01-01'
-publishDate: '2023-08-20T08:45:13.450630Z'
 authors:
 - Minh-Son Dao
 - Michael Alexander Riegler
@@ -13,8 +7,11 @@ authors:
 - Cathal Gurrin
 - Yuta Nakashima
 - Mianxiong Dong
+date: '2022-01-01'
+publishDate: '2023-11-27T07:32:34.803024Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proceedings of the 2022 International Conference on Multimedia Retrieval*'
 abstract: We have witnessed the rise of cross-data against multimodal data problems
   recently. The cross-modal retrieval system uses a textual query to look for images;
   the air quality index can be predicted using lifelogging images; the congestion
@@ -28,7 +25,4 @@ abstract: We have witnessed the rise of cross-data against multimodal data probl
   Research Topic welcomes those who come from diverse research domains and disciplines
   such as well-being, disaster prevention and mitigation, mobility, climate change,
   tourism, healthcare, and food computing.
-featured: false
-publication: '*Proceedings of the 2022 International Conference on Multimedia Retrieval*'
 ---
-

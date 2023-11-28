@@ -1,12 +1,6 @@
 ---
 title: Efficacy of Novel Multispectral Imaging Device to Determine Anastomosis for
   Esophagogastrostomy
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2019-01-01'
-publishDate: '2023-08-20T08:45:17.906409Z'
 authors:
 - R. Tsutsumi
 - T. Ikeda
@@ -16,8 +10,12 @@ authors:
 - E. Oki
 - Y. Maehara
 - M. Hashizume
+date: '2019-01-01'
+publishDate: '2023-11-27T07:32:35.246559Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*Journal of Surgical Research*'
+doi: 10.1016/j.jss.2019.04.033
 abstract: '© 2019 The Authors  Background: Biomedical imaging devices that utilize
   the optical characteristics of hemoglobin (Hb) have become widespread. In the field
   of gastroenterology, there is a strong demand for devices that can apply this technique
@@ -38,14 +36,10 @@ abstract: '© 2019 The Authors  Background: Biomedical imaging devices that util
   tissue O 2 saturation and Hb level in real time and noninvasively using a multispectral
   device allows instantaneous determination of the anastomosis and related organ conditions,
   thereby contributing to determining the appropriate treatment direction.'
-featured: false
-publication: '*Journal of Surgical Research*'
 tags:
 - Anastomosis
 - Esophagogastrostomy
 - Hemoglobin
 - Oxygen saturation
 - Quantitative imaging
-doi: 10.1016/j.jss.2019.04.033
 ---
-

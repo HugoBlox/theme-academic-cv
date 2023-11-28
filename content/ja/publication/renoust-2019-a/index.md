@@ -1,12 +1,6 @@
 ---
 title: 'Buda.art: A multimodal content-based analysis and retrieval system for Buddha
   statues'
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2019-01-01'
-publishDate: '2023-08-20T08:45:19.050482Z'
 authors:
 - Benjamin Renoust
 - Matheus Oliveira M.O. Franca
@@ -17,8 +11,13 @@ authors:
 - Hajime Nagahara
 - Jueren Wang
 - Yutaka Fujioka
+date: '2019-01-01'
+publishDate: '2023-11-27T07:32:35.357723Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proceedings of the 27th ACM International Conference on Multimedia
+  (MM)*'
+doi: 10.1145/3343031.3350591
 abstract: © 2019 Copyright held by the owner/author(s). We introduce BUDA.ART, a system
   designed to assist researchers in Art History, to explore and analyze an archive
   of pictures of Buddha statues. The system combines different CBIR and classical
@@ -29,16 +28,11 @@ abstract: © 2019 Copyright held by the owner/author(s). We introduce BUDA.ART, 
   system allows for mobile, on-site search, and to explore similarities of statues
   in the archive. In addition, we provide search visualization and 3D analysis of
   the statues.
-featured: false
-publication: '*Proceedings of the 27th ACM International Conference on Multimedia
-  (MM)*'
 tags:
-- 2d
-- 3d
-- Art history
-- Multimedia database
+- 2D
+- 3D
+- Art History
+- Multimedia Database
 - Search system
-- Buddha
-doi: 10.1145/3343031.3350591
+- buddha
 ---
-

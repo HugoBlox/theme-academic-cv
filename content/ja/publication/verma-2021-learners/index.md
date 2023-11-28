@@ -1,11 +1,5 @@
 ---
 title: Learners' efficiency prediction using facial behavior analysis
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2021-09-01'
-publishDate: '2023-08-20T08:45:15.219399Z'
 authors:
 - Manisha Verma
 - Yuta Nakashima
@@ -16,8 +10,11 @@ authors:
 - Hajime Nagahara
 - Masayuki Numao
 - Kazumitsu Shinohara
+date: '2021-09-01'
+publishDate: '2023-11-27T07:32:34.974665Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proc.~International Conference on Image Processing (ICIP)*'
 abstract: In the e-learning context, how much the learner is concentrated and engaged,
   or the learners' efficiency, is essential for providing adaptive and flexible materials,
   timely suggestions, etc., which can lead to efficient learning. In this work, we
@@ -27,10 +24,7 @@ abstract: In the e-learning context, how much the learner is concentrated and en
   we predict one's efficiency from facial behavior. We predict the learners' efficiency
   using various convolutional neural networks. Results are discussed using different
   evaluation metrics.
-featured: false
-publication: '*Proc.~International Conference on Image Processing (ICIP)*'
 links:
 - name: URL
   url: https://ieeexplore.ieee.org/document/9506203
 ---
-

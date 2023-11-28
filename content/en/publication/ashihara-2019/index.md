@@ -1,18 +1,17 @@
 ---
 title: Contextualized context2vec
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2019-01-01'
-publishDate: '2023-08-20T08:43:27.292831Z'
 authors:
 - Kazuki Ashihara
 - Tomoyuki Kajiwara
 - Yuki Arase
 - Satoru Uchida
+date: '2019-01-01'
+publishDate: '2023-11-28T10:16:25.384560Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proceedings of the 5th Workshop on Noisy User-generated Text (W-NUT
+  2019)*'
+doi: 10.18653/v1/D19-5552
 abstract: 'Lexical substitution ranks substitution candidates from the viewpoint of
   paraphrasability for a target word in a given sentence. There are two major approaches
   for lexical substitution: (1) generating contextualized word embeddings by assigning
@@ -23,12 +22,7 @@ abstract: 'Lexical substitution ranks substitution candidates from the viewpoint
   dataset for the lexical substitution task. It has a wider coverage of substitution
   candidates than previous datasets and assigns English proficiency levels to all
   target words and substitution candidates.'
-featured: false
-publication: '*Proceedings of the 5th Workshop on Noisy User-generated Text (W-NUT
-  2019)*'
-doi: 10.18653/v1/D19-5552
 links:
 - name: URL
   url: https://www.aclweb.org/anthology/D19-5552
 ---
-

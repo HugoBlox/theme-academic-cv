@@ -1,44 +1,17 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: Fall detection using optical level anonymous image sensing system
-subtitle: ''
-summary: ''
 authors:
 - Chao Ma
 - Atsushi Shimada
 - Hideaki Uchiyama
 - Hajime Nagahara
 - Rin ichiro Taniguchi
-tags:
-- 3d convolutional neural network
-- Computational imaging
-- Fall detection
-- Optical level anonymous
-- Privacy protection
-categories: []
 date: '2019-02-01'
-lastmod: 2023-02-15T15:27:39+09:00
-featured: false
-draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2023-08-20T08:43:24.205647Z'
+publishDate: '2023-11-28T10:16:25.085978Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*Optics and Laser Technology*'
+doi: 10.1016/j.optlastec.2018.07.013
 abstract: Fall is one of the leading causes of injury for the elderly individuals.
   Systems that automatically detect falls can significantly reduce the delay of assistance.
   Most of commercialized fall detection systems are based on wearable devices, which
@@ -56,6 +29,10 @@ abstract: Fall is one of the leading causes of injury for the elderly individual
   validation experiment, and showed its effectiveness. In field tests, we showed and
   discussed the applicability of the optical level anonymous image sensing system
   for privacy protection and fall detection.
-publication: '*Optics and Laser Technology*'
-doi: 10.1016/j.optlastec.2018.07.013
+tags:
+- 3D convolutional neural network
+- Computational imaging
+- Fall detection
+- Optical level anonymous
+- Privacy protection
 ---

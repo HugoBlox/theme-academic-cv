@@ -1,11 +1,5 @@
 ---
 title: 'ICDAR’23: Intelligent Cross-Data Analysis and Retrieval'
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2023-06-01'
-publishDate: '2023-08-20T08:45:12.532394Z'
 authors:
 - Guillaume Habault
 - Minh-Son Dao
@@ -13,8 +7,11 @@ authors:
 - Duc Tien Dang Nguyen
 - Yuta Nakashima
 - Cathal Gurrin
+date: '2023-06-01'
+publishDate: '2023-11-27T07:32:34.713244Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proc.~ACM International Conference on Multimedia Retrieval*'
 abstract: Recently, there has been an increased interest in cross-data research problems,
   such as predicting air quality using life logging images, predicting congestion
   using weather and tweets data, and predicting sleep quality using daily exercises
@@ -25,7 +22,4 @@ abstract: Recently, there has been an increased interest in cross-data research 
   and retrieval and contribute to the creation of a sustainable society. Researchers
   from diverse domains such as well-being, disaster prevention and mitigation, mobility,
   climate, tourism and healthcare are welcome to contribute to this Research Topic.
-featured: false
-publication: '*Proc.~ACM International Conference on Multimedia Retrieval*'
 ---
-

@@ -1,16 +1,13 @@
 ---
 title: YOLO in the Dark - Domain adaptation method for merging multiple models -
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2020-08-01'
-publishDate: '2023-08-20T08:43:22.858676Z'
 authors:
 - Yukihiro Sasagawa
 - Hajime Nagahara
+date: '2020-08-01'
+publishDate: '2023-11-28T10:16:24.952674Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proceedings - European Conference on Computer Vision*'
 abstract: Generating models to handle new visual tasks requires additional datasets,
   which take considerable effort to create. We propose a method of domain adaptation
   for merging multiple models with less effort than creating an additional dataset.
@@ -24,9 +21,5 @@ abstract: Generating models to handle new visual tasks requires additional datas
   method and report the result of domain adaptation to detect objects from RAW short-exposure
   low-light images. The YOLO-in-the-Dark model uses fewer computing resources than
   the naive approach.
-featured: false
-publication: '*Proceedings - European Conference on Computer Vision*'
-doi: ''
 url_pdf: https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123660341.pdf
 ---
-

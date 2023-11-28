@@ -1,17 +1,14 @@
 ---
 title: 'Explain me the painting: Multi-topic knowledgeable art description generation'
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2021-10-01'
-publishDate: '2023-08-20T08:45:15.007602Z'
 authors:
 - Zechen Bai
 - Yuta Nakashima
 - Noa Garcia
+date: '2021-10-01'
+publishDate: '2023-11-27T07:32:34.954304Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proc.~IEEE/CVF International Conference on Computer Vision (ICCV)*'
 abstract: Have you ever looked at a painting and wondered what is the story behind
   it? This work presents a framework to bring art closer to people by generating comprehensive
   descriptions of fine-art paintings. Generating informative descriptions for artworks,
@@ -24,8 +21,6 @@ abstract: Have you ever looked at a painting and wondered what is the story behi
   is validated through an exhaustive analysis, both quantitative and qualitative,
   as well as a comparative human evaluation, demonstrating outstanding results in
   terms of both topic diversity and information veracity.
-featured: false
-publication: '*Proc.~IEEE/CVF International Conference on Computer Vision (ICCV)*'
-url_pdf: https://openaccess.thecvf.com/content/ICCV2021/papers/Bai_Explain_Me_the_Painting_Multi-Topic_Knowledgeable_Art_Description_Generation_ICCV_2021_paper.pdf
+url_pdf: 
+  https://openaccess.thecvf.com/content/ICCV2021/papers/Bai_Explain_Me_the_Painting_Multi-Topic_Knowledgeable_Art_Description_Generation_ICCV_2021_paper.pdf
 ---
-

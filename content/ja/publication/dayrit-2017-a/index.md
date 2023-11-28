@@ -1,18 +1,16 @@
 ---
 title: Increasing pose comprehension through augmented reality reenactment
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2017-01-01'
-publishDate: '2023-08-20T08:45:21.325118Z'
 authors:
 - Fabian Lorenzo Dayrit
 - Yuta Nakashima
 - Tomokazu Sato
 - Naokazu Yokoya
+date: '2017-01-01'
+publishDate: '2023-11-27T07:32:35.584777Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*Multimedia Tools and Applications*'
+doi: 10.1007/s11042-015-3116-1
 abstract: Standard video does not capture the 3D aspect of human motion, which is
   important for comprehension of motion that may be ambiguous. In this paper, we apply
   augmented reality (AR) techniques to give viewers insight into 3D motion by allowing
@@ -27,13 +25,9 @@ abstract: Standard video does not capture the 3D aspect of human motion, which i
   to the original capturing environment. We call this novel view of a moving human
   actor a reenactment, and evaluate its usefulness and quality with an experiment
   and a survey.
-featured: false
-publication: '*Multimedia Tools and Applications*'
 tags:
 - Augmented reality
 - Mobile
 - Novel view synthesis
 - Reenactment
-doi: 10.1007/s11042-015-3116-1
 ---
-

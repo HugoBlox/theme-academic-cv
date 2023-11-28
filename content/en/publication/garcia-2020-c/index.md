@@ -1,36 +1,13 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: Knowledge-based video question answering with unsupervised scene descriptions
-subtitle: ''
-summary: ''
 authors:
 - Noa Garcia
 - Yuta Nakashima
-tags: []
-categories: []
 date: '2020-08-01'
-lastmod: 2023-02-15T15:27:38+09:00
-featured: false
-draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2023-08-20T08:43:23.416703Z'
+publishDate: '2023-11-28T10:16:25.010330Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proceedings - European Conference on Computer Vision*'
 abstract: 'To understand movies, humans constantly reason over the dialogues and actions
   shown in specific scenes and relate them to the overall storyline already seen.
   Inspired by this behaviour, we design ROLL, a model for knowledge-based video story
@@ -44,8 +21,6 @@ abstract: 'To understand movies, humans constantly reason over the dialogues and
   from the different sources. Exhaustive evaluation demonstrates the effectiveness
   of our approach, which yields a new state-of-the-art on two challenging video question
   answering datasets: KnowIT VQA and TVQA+.'
-publication: '*Proceedings - European Conference on Computer Vision*'
-doi: ''
 links:
 - name: URL
   url: https://arxiv.org/abs/2007.08751

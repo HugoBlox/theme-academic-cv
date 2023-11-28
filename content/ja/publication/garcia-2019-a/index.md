@@ -1,17 +1,16 @@
 ---
 title: Context-aware embeddings for automatic art analysis
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2019-01-01'
-publishDate: '2023-08-20T08:45:21.681767Z'
 authors:
 - Noa Garcia
 - Benjamin Renoust
 - Yuta Nakashima
+date: '2019-01-01'
+publishDate: '2023-11-27T07:32:35.619691Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proceedings of the 2019 ACM International Conference on Multimedia
+  Retrieval (ICMR)*'
+doi: 10.1145/3323873.3325028
 abstract: © 2019 Association for Computing Machinery. Automatic art analysis aims
   to classify and retrieve artistic representations from a collection of images by
   using computer vision and machine learning techniques. In this work, we propose
@@ -28,15 +27,10 @@ abstract: © 2019 Association for Computing Machinery. Automatic art analysis ai
   such as author identification, type classification, or cross-modal retrieval, show
   that performance is improved by up to 7.3% in art classification and 37.24% in retrieval
   when context-aware embeddings are used.
-featured: false
-publication: '*Proceedings of the 2019 ACM International Conference on Multimedia
-  Retrieval (ICMR)*'
 tags:
 - Art classification
 - Knowledge graphs
 - Multi-modal retrieval
-- Buddha
-- Kbqa
-doi: 10.1145/3323873.3325028
+- buddha
+- kbqa
 ---
-

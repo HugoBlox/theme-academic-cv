@@ -1,10 +1,6 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: Warmer Environments Increase Implicit Mental Workload Even If Learning Efficiency
   Is Enhanced
-subtitle: ''
-summary: ''
 authors:
 - T. Kimura
 - N. Takemura
@@ -13,35 +9,12 @@ authors:
 - H. Nagahara
 - M. Numao
 - K. Shinohara
-tags:
-- Eeg
-- Autonomic nervous system
-- Learning efficiency
-- Mental workload
-- Thermal environment
-categories: []
 date: '2020-01-01'
-lastmod: 2023-02-15T15:27:45+09:00
-featured: false
-draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2023-08-20T08:43:28.091815Z'
+publishDate: '2023-11-28T10:16:25.462571Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*Frontiers in Psychology*'
+doi: 10.3389/fpsyg.2020.00568
 abstract: © Copyright © 2020 Kimura, Takemura, Nakashima, Kobori, Nagahara, Numao
   and Shinohara. Climate change is one of the most important issues for humanity.
   To defuse this problem, it is considered necessary to improve energy efficiency,
@@ -67,6 +40,10 @@ abstract: © Copyright © 2020 Kimura, Takemura, Nakashima, Kobori, Nagahara, Nu
   integrated evidence for relationships among task performance, psychological state,
   and thermal environment by analyzing behavioral, subjective, and physiological indexes
   multidirectionally.
-publication: '*Frontiers in Psychology*'
-doi: 10.3389/fpsyg.2020.00568
+tags:
+- EEG
+- autonomic nervous system
+- learning efficiency
+- mental workload
+- thermal environment
 ---

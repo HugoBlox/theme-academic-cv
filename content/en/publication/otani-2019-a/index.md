@@ -1,19 +1,18 @@
 ---
 title: Rethinking the evaluation of video summaries
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2019-01-01'
-publishDate: '2023-08-20T08:43:26.360359Z'
 authors:
 - Mayu Otani
 - Yuta Nakashima
 - Esa Rahtu
 - Janne Heikkilä
 - Janne Heikkila
+date: '2019-01-01'
+publishDate: '2023-11-28T10:16:25.295191Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proceedings of the IEEE Computer Society Conference on Computer Vision
+  and Pattern Recognition*'
+doi: 10.1109/CVPR.2019.00778
 abstract: Video summarization is a technique to create a short skim of the original
   video while preserving the main stories/content. There exists a substantial interest
   in automatizing this process due to the rapid growth of the available material.
@@ -29,15 +28,10 @@ abstract: Video summarization is a technique to create a short skim of the origi
   impact on the performance measure. Based on our observations, we propose alternative
   approaches for assessing the importance scores as well as an intuitive visualization
   of correlation between the estimated scoring and human annotations.
-featured: false
-publication: '*Proceedings of the IEEE Computer Society Conference on Computer Vision
-  and Pattern Recognition*'
 tags:
-- Datasets and evaluation
-- Vision applications and systems
-doi: 10.1109/CVPR.2019.00778
+- Datasets and Evaluation
+- Vision Applications and Systems
 links:
 - name: arXiv
   url: https://arxiv.org/abs/1903.11328
 ---
-

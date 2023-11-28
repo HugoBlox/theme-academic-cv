@@ -1,19 +1,17 @@
 ---
 title: Designing coded aperture camera based on PCA and NMF for light field acquisition
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2018-09-01'
-publishDate: '2023-08-20T08:45:20.472975Z'
 authors:
 - Yusuke Yagi
 - Keita Takahashi
 - Toshiaki Fujii
 - Toshiki Sonoda
 - Hajime Nagahara
+date: '2018-09-01'
+publishDate: '2023-11-27T07:32:35.495209Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*IEICE Transactions on Information and Systems*'
+doi: 10.1587/transinf.2017PCP0007
 abstract: A light field, which is often understood as a set of dense multi-view images,
   has been utilized in various 2D/3D applications. Efficient light field acquisition
   using a coded aperture camera is the target problem considered in this paper. Specifically,
@@ -28,13 +26,9 @@ abstract: A light field, which is often understood as a set of dense multi-view 
   non-negative aperture patterns and a straight-forward reconstruction algorithm.
   Even though our method is based on conventional techniques, it has proven to be
   more accurate and much faster than a state-of-the-art CS-based method.
-featured: false
-publication: '*IEICE Transactions on Information and Systems*'
 tags:
 - Coded aperture
 - Light field
 - Nonnegative matrix factorization
 - Principal component analysis
-doi: 10.1587/transinf.2017PCP0007
 ---
-

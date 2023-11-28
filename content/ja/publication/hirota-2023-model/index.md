@@ -1,17 +1,15 @@
 ---
 title: Model-agnostic gender debiased image captioning
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2023-06-01'
-publishDate: '2023-08-20T08:45:12.742528Z'
 authors:
 - Yusuke Hirota
 - Yuta Nakashima
 - Noa Garcia
+date: '2023-06-01'
+publishDate: '2023-11-27T07:32:34.733937Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proc.~IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  (CVPR)*'
 abstract: 'Image captioning models are known to perpetuate and amplify harmful societal
   bias in the training set. In this work, we aim to mitigate such gender bias in image
   captioning models. While prior work has addressed this problem by forcing models
@@ -23,11 +21,8 @@ abstract: 'Image captioning models are known to perpetuate and amplify harmful s
   both types of gender biases, we propose a framework, called LIBRA, that learns from
   synthetically biased samples to decrease both types of biases, correcting gender
   misclassification and changing gender-stereotypical words to more neutral ones.'
-featured: false
-publication: '*Proc.~IEEE/CVF Conference on Computer Vision and Pattern Recognition
-  (CVPR)*'
 links:
 - name: URL
-  url: https://openaccess.thecvf.com/content/CVPR2023/html/Hirota_Model-Agnostic_Gender_Debiased_Image_Captioning_CVPR_2023_paper.html
+  url: 
+    https://openaccess.thecvf.com/content/CVPR2023/html/Hirota_Model-Agnostic_Gender_Debiased_Image_Captioning_CVPR_2023_paper.html
 ---
-

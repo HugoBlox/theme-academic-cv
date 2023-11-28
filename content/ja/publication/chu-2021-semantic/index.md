@@ -1,11 +1,5 @@
 ---
 title: The semantic typology of visually grounded paraphrases
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2021-12-01'
-publishDate: '2023-08-20T08:45:14.157472Z'
 authors:
 - Chenhui Chu
 - Vinicius Oliveira
@@ -13,8 +7,12 @@ authors:
 - Mayu Otani
 - Noa Garcia
 - Yuta Nakashima
+date: '2021-12-01'
+publishDate: '2023-11-27T07:32:34.871732Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*Computer Vision and Image Understanding*'
+doi: https://doi.org/10.1016/j.cviu.2021.103333
 abstract: Visually grounded paraphrases (VGPs) are different phrasal expressions describing
   the same visual concept in an image. Previous studies treat VGP identification as
   a binary classification task, which ignores various phenomena behind VGPs (i.e.,
@@ -28,11 +26,7 @@ abstract: Visually grounded paraphrases (VGPs) are different phrasal expressions
   joint language and vision representation learning is important for VGP classification.
   We further demonstrate that our VGP typology can boost the performance of visually
   grounded textual entailment.
-featured: false
-publication: '*Computer Vision and Image Understanding*'
-doi: https://doi.org/10.1016/j.cviu.2021.103333
 links:
 - name: URL
   url: https://www.sciencedirect.com/science/article/pii/S1077314221001697
 ---
-

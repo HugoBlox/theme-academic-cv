@@ -1,12 +1,6 @@
 ---
 title: Coherent anti-stokes Raman scattering rigid endoscope toward robot-assisted
   surgery
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2018-01-01'
-publishDate: '2023-08-20T08:45:20.616799Z'
 authors:
 - K. Hirose
 - T. Aoki
@@ -15,8 +9,12 @@ authors:
 - H. Niioka
 - S. Deguchi
 - M. Hashimoto
+date: '2018-01-01'
+publishDate: '2023-11-27T07:32:35.508502Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*Biomedical Optics Express*'
+doi: 10.1364/BOE.9.000387
 abstract: © 2018 Optical Society of America. Label-free visualization of nerves and
   nervous plexuses will improve the preservation of neurological functions in nerve-sparing
   robot-assisted surgery. We have developed a coherent anti-Stokes Raman scattering
@@ -25,8 +23,4 @@ abstract: © 2018 Optical Society of America. Label-free visualization of nerves
   of 270 mm, achieved 0.91% image distortion and 8.6% non-uniformity of CARS intensity
   in the whole field of view (650 µm diameter). We demonstrated CARS imaging of a
   rat sciatic nerve and visualization of the fine structure of nerve fibers.
-featured: false
-publication: '*Biomedical Optics Express*'
-doi: 10.1364/BOE.9.000387
 ---
-

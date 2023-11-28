@@ -1,19 +1,17 @@
 ---
 title: PCA-coded aperture for light field photography
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2018-02-01'
-publishDate: '2023-08-20T08:43:23.630986Z'
 authors:
 - Yusuke Yagi
 - Keita Takahashi
 - Toshiaki Fujii
 - Toshiki Sonoda
 - Hajime Nagahara
+date: '2018-02-01'
+publishDate: '2023-11-28T10:16:25.030577Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proceedings - International Conference on Image Processing, ICIP*'
+doi: 10.1109/ICIP.2017.8296839
 abstract: A light field, which is often understood as a set of dense multi-view images,
   has been utilized in various 2D/3D applications. Efficient light field acquisition
   using a coded aperture camera is the target problem considered in this paper. Specifically,
@@ -25,12 +23,8 @@ abstract: A light field, which is often understood as a set of dense multi-view 
   straight-forward reconstruction algorithm. Even though it is based on a conventional
   technique, our method has proven to be more accurate and much faster than a state-of-the-art
   CS-based method.
-featured: false
-publication: '*Proceedings - International Conference on Image Processing, ICIP*'
 tags:
 - Coded aperture
 - Light field
-- Pca
-doi: 10.1109/ICIP.2017.8296839
+- PCA
 ---
-

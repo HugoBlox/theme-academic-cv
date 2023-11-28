@@ -1,44 +1,16 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: Speech-driven face reenactment for a video sequence
-subtitle: ''
-summary: ''
 authors:
 - Yuta Nakashima
 - Takaaki Yasui
 - Leon Nguyen
 - Noboru Babaguchi
-tags:
-- 3d geometry
-- Face reenactment
-- Speech-driven
-- Talking head
-- Speech-driven
-- Talking head
-categories: []
 date: '2020-01-01'
-lastmod: 2023-02-15T15:27:41+09:00
-featured: false
-draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2023-08-20T08:43:25.574204Z'
+publishDate: '2023-11-28T10:16:25.219814Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*ITE Transactions on Media Technology and Applications*'
+doi: 10.3169/mta.8.60
 abstract: We present a system for reenacting a person's face driven by speech. Given
   a video sequence with the corresponding audio track of a person giving a speech
   and another audio track containing different speech from the same person, we reconstruct
@@ -53,6 +25,11 @@ abstract: We present a system for reenacting a person's face driven by speech. G
   coined S2TH (speech to talking head), does not require any special hardware to capture
   the 3D geometry of faces but uses the state-of-the-art method for facial geometry
   regression. We visually and subjectively demonstrate reenactment quality.
-publication: '*ITE Transactions on Media Technology and Applications*'
-doi: 10.3169/mta.8.60
+tags:
+- 3D geometry
+- Face reenactment
+- Speech-driven
+- Talking head
+- speech-driven
+- talking head
 ---

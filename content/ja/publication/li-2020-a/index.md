@@ -1,19 +1,16 @@
 ---
 title: Joint learning of vessel segmentation and artery/vein classification with post-processing
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2020-01-01'
-publishDate: '2023-08-20T08:45:21.753380Z'
 authors:
 - Liangzhi Li
 - Manisha Verma
 - Yuta Nakashima
 - Ryo Kawasaki
 - Hajime Nagahara
+date: '2020-01-01'
+publishDate: '2023-11-27T07:32:35.626707Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Medical Imaging with Deep Learning (MIDL)*'
 abstract: Retinal imaging serves as a valuable tool for diagnosis of various diseases.
   However, reading retinal images is a difficult and time-consuming task even for
   experienced specialists. The fundamental step towards automated retinal image analysis
@@ -27,19 +24,16 @@ abstract: Retinal imaging serves as a valuable tool for diagnosis of various dis
   the structural information among vessels to propagate highly confident prediction
   to surrounding vessels. Our experiments show that our method improves AUC to 0.98
   for segmentation and the accuracy to 0.92 in classification over DRIVE dataset.
-featured: false
-publication: '*Medical Imaging with Deep Learning (MIDL)*'
 tags:
 - Medical imaging
-- Computer vision
-- Deep learning
-- Retina images
-- Vessel classification
-- Vessel segmentation
+- computer vision
+- deep learning
+- retina images
+- vessel classification
+- vessel segmentation
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2005.13337
 - name: URL
   url: https://www.liangzhili.com/publication/li-2020-joint/
 ---
-

@@ -1,19 +1,18 @@
 ---
 title: Learning to capture light fields through a coded aperture camera
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2018-01-01'
-publishDate: '2023-08-20T08:45:18.551062Z'
 authors:
 - Yasutaka Inagaki
 - Yuto Kobayashi
 - Keita Takahashi
 - Toshiaki Fujii
 - Hajime Nagahara
+date: '2018-01-01'
+publishDate: '2023-11-27T07:32:35.309241Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Lecture Notes in Computer Science (including subseries Lecture Notes
+  in Artificial Intelligence and Lecture Notes in Bioinformatics)*'
+doi: 10.1007/978-3-030-01234-2_26
 abstract: We propose a learning-based framework for acquiring a light field through
   a coded aperture camera. Acquiring a light field is a challenging task due to the
   amount of data. To make the acquisition process efficient, coded aperture cameras
@@ -29,13 +28,8 @@ abstract: We propose a learning-based framework for acquiring a light field thro
   reconstructed only from a few acquired images. Moreover, our method achieved superior
   performance over several state-of-the-art methods. We also applied our method to
   a real prototype camera to show that it is capable of capturing a real 3-D scene.
-featured: false
-publication: '*Lecture Notes in Computer Science (including subseries Lecture Notes
-  in Artificial Intelligence and Lecture Notes in Bioinformatics)*'
 tags:
-- Cnn
+- CNN
 - Coded aperture
 - Light field
-doi: 10.1007/978-3-030-01234-2_26
 ---
-

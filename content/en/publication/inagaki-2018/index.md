@@ -1,42 +1,18 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: Learning to capture light fields through a coded aperture camera
-subtitle: ''
-summary: ''
 authors:
 - Yasutaka Inagaki
 - Yuto Kobayashi
 - Keita Takahashi
 - Toshiaki Fujii
 - Hajime Nagahara
-tags:
-- Cnn
-- Coded aperture
-- Light field
-categories: []
 date: '2018-01-01'
-lastmod: 2023-02-15T15:27:40+09:00
-featured: false
-draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2023-08-20T08:43:24.780046Z'
+publishDate: '2023-11-28T10:16:25.142000Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Lecture Notes in Computer Science (including subseries Lecture Notes
+  in Artificial Intelligence and Lecture Notes in Bioinformatics)*'
+doi: 10.1007/978-3-030-01234-2_26
 abstract: We propose a learning-based framework for acquiring a light field through
   a coded aperture camera. Acquiring a light field is a challenging task due to the
   amount of data. To make the acquisition process efficient, coded aperture cameras
@@ -52,7 +28,8 @@ abstract: We propose a learning-based framework for acquiring a light field thro
   reconstructed only from a few acquired images. Moreover, our method achieved superior
   performance over several state-of-the-art methods. We also applied our method to
   a real prototype camera to show that it is capable of capturing a real 3-D scene.
-publication: '*Lecture Notes in Computer Science (including subseries Lecture Notes
-  in Artificial Intelligence and Lecture Notes in Bioinformatics)*'
-doi: 10.1007/978-3-030-01234-2_26
+tags:
+- CNN
+- Coded aperture
+- Light field
 ---

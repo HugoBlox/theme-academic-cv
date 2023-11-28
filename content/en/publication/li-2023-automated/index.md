@@ -1,10 +1,6 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: 'Automated grading system of retinal arterio-venous crossing patterns: A deep
   learning approach replicating ophthalmologist’s diagnostic process of arteriolosclerosis'
-subtitle: ''
-summary: ''
 authors:
 - Liangzhi Li
 - Manisha Verma
@@ -12,30 +8,12 @@ authors:
 - Yuta Nakashima
 - Hajime Nagahara
 - Ryo Kawasaki
-tags: []
-categories: []
 date: '2023-01-01'
-lastmod: 2023-02-15T15:27:33+09:00
-featured: false
-draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2023-08-20T08:43:20.041939Z'
+publishDate: '2023-11-28T10:16:24.680343Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*PLOS Digital Health*'
+doi: https://doi.org/10.1371/journal.pdig.0000174
 abstract: The morphological feature of retinal arterio-venous crossing patterns is
   a valuable source of cardiovascular risk stratification as it directly captures
   vascular health. Although Scheie’s classification, which was proposed in 1953, has
@@ -62,8 +40,6 @@ abstract: The morphological feature of retinal arterio-venous crossing patterns 
   of ophthalmologists. By the proposed models, we could build a pipeline reproducing
   ophthalmologists’ diagnostic process without requiring subjective feature extractions.
   The code is available (https://github.com/conscienceli/MDTNet).
-publication: '*PLOS Digital Health*'
-doi: https://doi.org/10.1371/journal.pdig.0000174
 links:
 - name: URL
   url: https://github.com/conscienceli/MDTNet

@@ -1,18 +1,16 @@
 ---
 title: Contextualized multi-sense word embedding
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2019-12-01'
-publishDate: '2023-08-20T08:45:21.969377Z'
 authors:
 - Kazuki Ashihara
 - Tomoyuki Kajiwara
 - Yuki Arase
 - Satoru Uchida
+date: '2019-12-01'
+publishDate: '2023-11-27T07:32:35.648600Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*Journal of Natural Language Processing*'
+doi: 10.5715/jnlp.26.689
 abstract: Currently, distributed word representations are employed in many natural
   language processing tasks. However, when generating one representation for each
   word, the meanings of a polysemous word cannot be differentiated because the meanings
@@ -26,11 +24,7 @@ abstract: Currently, distributed word representations are employed in many natur
   the words in the context is generated. The results of the extensive evaluation of
   the Lexical Substitution task and Context-Aware Word Similarity task confirmed the
   effectiveness of our approaches to generate more subtle multiple word representations.
-featured: false
-publication: '*Journal of Natural Language Processing*'
-doi: 10.5715/jnlp.26.689
 links:
 - name: URL
   url: https://www.jstage.jst.go.jp/article/jnlp/26/4/26_689/_article/-char/ja/
 ---
-

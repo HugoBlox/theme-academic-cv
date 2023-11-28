@@ -1,19 +1,17 @@
 ---
 title: Iterative applications of image completion with CNN-based failure detection
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2018-08-01'
-publishDate: '2023-08-20T08:45:21.179279Z'
 authors:
 - Takahiro Tanaka
 - Norihiko Kawai
 - Yuta Nakashima
 - Tomokazu Sato
 - Naokazu Yokoya
+date: '2018-08-01'
+publishDate: '2023-11-27T07:32:35.569873Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*Journal of Visual Communication and Image Representation*'
+doi: 10.1016/j.jvcir.2018.05.015
 abstract: Image completion is a technique to fill missing regions in a damaged or
   redacted image. A patch-based approach is one of major approaches, which solves
   an optimization problem that involves pixel values in missing regions and similar
@@ -30,13 +28,9 @@ abstract: Image completion is a technique to fill missing regions in a damaged o
   linear support vector machine. Our subjective evaluation demonstrates that our method
   drastically improves the visual quality of resulting images compared to non-iterative
   application.
-featured: false
-publication: '*Journal of Visual Communication and Image Representation*'
 tags:
 - Convolutional neural network
 - Failure detection
 - Image completion
 - Image inpainting
-doi: 10.1016/j.jvcir.2018.05.015
 ---
-

@@ -1,12 +1,6 @@
 ---
 title: Human shape reconstruction with loose clothes from partially observed data
   by pose specific deformation
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2019-11-01'
-publishDate: '2023-08-20T08:45:19.827748Z'
 authors:
 - Akihiko Sayo
 - Hayato Onizuka
@@ -14,8 +8,12 @@ authors:
 - Yuta Nakashima
 - Hiroshi Kawasaki
 - Katsushi Ikeuchi
+date: '2019-11-01'
+publishDate: '2023-11-27T07:32:35.432358Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proceedings - Pacific-Rim Symposium on Image and Video Technology*'
+doi: 10.1007/978-3-030-34879-3_18
 abstract: Reconstructing the entire body of moving human in a computer is important
   for various applications, such as tele-presence, virtual try-on, etc. For the purpose,
   realistic representation of loose clothes or non-rigid body deformation is a challenging
@@ -33,13 +31,9 @@ abstract: Reconstructing the entire body of moving human in a computer is import
   from a single 3D scanner, which is realized by shape fitting to only visible meshes
   as well as intra-frame shape interpolation. Our experiments with both unknown scene
   and partial body scans confirm the reconstruction ability of our proposed method.
-featured: false
-publication: '*Proceedings - Pacific-Rim Symposium on Image and Video Technology*'
 tags:
 - Eigen-deformation
 - Human shape reconstruction
 - Neural network
 - Non-rigid registration
-doi: 10.1007/978-3-030-34879-3_18
 ---
-

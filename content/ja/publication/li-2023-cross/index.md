@@ -1,19 +1,16 @@
 ---
 title: Cross-language font style transfer
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2023-01-01'
-publishDate: '2023-08-20T08:45:13.171024Z'
 authors:
 - Chenhao Li
 - Yuta Taniguchi
 - Min Lu
 - Shin'ichi Konomi
 - Hajime Nagahara
+date: '2023-01-01'
+publishDate: '2023-11-27T07:32:34.776353Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*Applied Intelligence*'
 abstract: In this paper, we propose a cross-language font style transfer system that
   can synthesize a new font by observing only a few samples from another language.
   Automatic font synthesis is a challenging task and has attracted much research interest.
@@ -28,7 +25,4 @@ abstract: In this paper, we propose a cross-language font style transfer system 
   of 847 fonts, each containing English and Chinese characters with the same style.
   Results show that our model generates 80.3% of users’ preferred images compared
   with state-of-the-art models.
-featured: false
-publication: '*Applied Intelligence*'
 ---
-

@@ -1,11 +1,5 @@
 ---
 title: Built year prediction from Buddha face with heterogeneous labels
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2021-10-01'
-publishDate: '2023-08-20T08:45:14.936416Z'
 authors:
 - Yiming Qian
 - Cheikh Brahim El Vaigh
@@ -13,8 +7,12 @@ authors:
 - Benjamin Renoust
 - Hajime Nagahara
 - Yutaka Fujioka
+date: '2021-10-01'
+publishDate: '2023-11-27T07:32:34.947253Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proc.~Workshop on Structuring and Understanding of Multimedia Heritage
+  Contents (SUMAC)*'
 abstract: 'Buddha statues are a part of human culture, especially of the Asia area,
   and they have been alongside human civilisation for more than 2,000 years. As history
   goes by, due to wars, natural disasters, and other reasons, the records that show
@@ -29,11 +27,7 @@ abstract: 'Buddha statues are a part of human culture, especially of the Asia ar
   on manifold assumption. By combining those three terms in the training process,
   we show that our method is able to estimate built years for given images with 37.5
   years of a mean absolute error on the test set.'
-featured: false
-publication: '*Proc.~Workshop on Structuring and Understanding of Multimedia Heritage
-  Contents (SUMAC)*'
 links:
 - name: URL
   url: https://dl.acm.org/doi/abs/10.1145/3475720.3484441
 ---
-

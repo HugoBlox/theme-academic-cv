@@ -1,11 +1,5 @@
 ---
 title: Deep Gesture Generation for Social Robots Using Type-Specific Libraries
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2022-01-01'
-publishDate: '2023-08-20T08:45:13.658799Z'
 authors:
 - Hitoshi Teshima
 - Naoki Wake
@@ -13,8 +7,12 @@ authors:
 - Yuta Nakashima
 - Hiroshi Kawasaki
 - Katsushi Ikeuchi
+date: '2022-01-01'
+publishDate: '2023-11-27T07:32:34.822497Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*2022 IEEE/RSJ International Conference on Intelligent Robots and Systems
+  (IROS)*'
 abstract: 'Body language such as conversational gesture is a powerful way to ease
   communication. Conversational gestures do not only make a speech more lively but
   also contain semantic meaning that helps to stress important information in the
@@ -32,8 +30,4 @@ abstract: 'Body language such as conversational gesture is a powerful way to eas
   the generated gestures into one final smooth gesture. In our comparative experiments,
   the effectiveness of the proposed method was confirmed in user studies for both
   avatar and humanoid robot.'
-featured: false
-publication: '*2022 IEEE/RSJ International Conference on Intelligent Robots and Systems
-  (IROS)*'
 ---
-

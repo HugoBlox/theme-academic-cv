@@ -1,12 +1,6 @@
 ---
 title: Convolutional Neural Network Can Recognize Drug Resistance of Single Cancer
   Cells
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2020-04-01'
-publishDate: '2023-08-20T08:45:19.121875Z'
 authors:
 - Kiminori Yanagisawa
 - Masayasu Toratani
@@ -21,8 +15,12 @@ authors:
 - Yuichiro Doki
 - Hidetoshi Eguchi
 - Hideshi Ishii
+date: '2020-04-01'
+publishDate: '2023-11-27T07:32:35.364588Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*International Journal of Molecular Sciences*'
+doi: 10.3390/ijms21093166
 abstract: textlessptextgreaterIt is known that single or isolated tumor cells enter
   cancer patients' circulatory systems. These circulating tumor cells (CTCs) are thought
   to be an effective tool for diagnosing cancer malignancy. However, handling CTC
@@ -38,11 +36,7 @@ abstract: textlessptextgreaterIt is known that single or isolated tumor cells en
   results show that, in the future, realizing precision medicine to identify effective
   antitumor drugs for individual patients may be possible by extracting CTCs from
   blood and performing classification by using an AI system.textless/ptextgreater
-featured: false
-publication: '*International Journal of Molecular Sciences*'
-doi: 10.3390/ijms21093166
 links:
 - name: URL
   url: https://www.mdpi.com/1422-0067/21/9/3166
 ---
-

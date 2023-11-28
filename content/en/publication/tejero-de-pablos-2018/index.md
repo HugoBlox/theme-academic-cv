@@ -1,12 +1,6 @@
 ---
 title: Summarization of user-generated sports video by using deep action recognition
   features
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2018-08-01'
-publishDate: '2023-08-20T08:43:24.923015Z'
 authors:
 - Antonio Tejero-De-Pablos
 - Yuta Nakashima
@@ -14,8 +8,12 @@ authors:
 - Naokazu Yokoya
 - Marko Linna
 - Esa Rahtu
+date: '2018-08-01'
+publishDate: '2023-11-28T10:16:25.154971Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*IEEE Transactions on Multimedia*'
+doi: 10.1109/TMM.2018.2794265
 abstract: Automatically generating a summary of a sports video poses the challenge
   of detecting interesting moments, or highlights, of a game. Traditional sports video
   summarization methods leverage editing conventions of broadcast sports video that
@@ -33,43 +31,39 @@ abstract: Automatically generating a summary of a sports video poses the challen
   to Kendo to demonstrate how the proposed method adapts to different needs. The performance
   of the proposed method is compared with several combinations of different features,
   and the results show that it outperforms previous summarization methods.
-featured: false
-publication: '*IEEE Transactions on Multimedia*'
 tags:
-- 3d convolutional neural networks
+- 3D convolutional neural networks
 - Cameras
 - Feature extraction
 - Games
-- Hidden markov models
+- Hidden Markov models
 - Japanese fencing
 - Kendo videos
 - Semantics
 - Sports video summarization
 - Three-dimensional displays
-- Action recognition
-- Action-related features
-- Deep action recognition features
-- Deep learning
-- Deep neural-network-based approach
-- Feature extraction
-- High-level semantics
-- Image segmentation
-- Interesting parts
-- Long short-term memory
-- Neural nets
-- Player action
-- Sport
-- Uninteresting parts
-- User-generated sport video summarization method
-- User-generated video
-- Video highlights
-- Video segments
-- Video signal processing
-doi: 10.1109/TMM.2018.2794265
+- action recognition
+- action-related features
+- deep action recognition features
+- deep learning
+- deep neural-network-based approach
+- feature extraction
+- high-level semantics
+- image segmentation
+- interesting parts
+- long short-term memory
+- neural nets
+- player action
+- sport
+- uninteresting parts
+- user-generated sport video summarization method
+- user-generated video
+- video highlights
+- video segments
+- video signal processing
 links:
 - name: arXiv
   url: https://arxiv.org/abs/1709.08421
 - name: URL
   url: https://ieeexplore.ieee.org/document/8259321
 ---
-

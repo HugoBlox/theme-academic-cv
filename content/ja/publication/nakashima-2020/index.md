@@ -1,18 +1,16 @@
 ---
 title: Speech-driven face reenactment for a video sequence
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2020-01-01'
-publishDate: '2023-08-20T08:45:19.337234Z'
 authors:
 - Yuta Nakashima
 - Takaaki Yasui
 - Leon Nguyen
 - Noboru Babaguchi
+date: '2020-01-01'
+publishDate: '2023-11-27T07:32:35.386022Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*ITE Transactions on Media Technology and Applications*'
+doi: 10.3169/mta.8.60
 abstract: We present a system for reenacting a person's face driven by speech. Given
   a video sequence with the corresponding audio track of a person giving a speech
   and another audio track containing different speech from the same person, we reconstruct
@@ -27,15 +25,11 @@ abstract: We present a system for reenacting a person's face driven by speech. G
   coined S2TH (speech to talking head), does not require any special hardware to capture
   the 3D geometry of faces but uses the state-of-the-art method for facial geometry
   regression. We visually and subjectively demonstrate reenactment quality.
-featured: false
-publication: '*ITE Transactions on Media Technology and Applications*'
 tags:
-- 3d geometry
+- 3D geometry
 - Face reenactment
 - Speech-driven
 - Talking head
-- Speech-driven
-- Talking head
-doi: 10.3169/mta.8.60
+- speech-driven
+- talking head
 ---
-

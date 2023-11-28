@@ -1,9 +1,5 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: High-Speed Imaging Using CMOS Image Sensor With Quasi Pixel-Wise Exposure
-subtitle: ''
-summary: ''
 authors:
 - Michitaka Yoshida
 - Toshiki Sonoda
@@ -11,30 +7,12 @@ authors:
 - Kenta Endo
 - Yukinobu Sugiyama
 - Rin-ichiro Taniguchi
-tags: []
-categories: []
 date: '2019-01-01'
-lastmod: 2023-02-15T15:27:31+09:00
-featured: false
-draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2023-08-20T08:43:19.241433Z'
+publishDate: '2023-11-28T10:16:24.607697Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*IEEE Transactions on Computational Imaging*'
+doi: 10.1109/TCI.2019.2956885
 abstract: Several recent studies on compressive video sensing realized scene capture
   beyond the fundamental trade-off limit between spatial resolution and temporal resolution
   using random space-time sampling. However, most of these studies obtained results
@@ -50,8 +28,6 @@ abstract: Several recent studies on compressive video sensing realized scene cap
   We propose a method of realizing pseudo-random sampling for high-speed video acquisition
   that uses the flexibility of the CMOS sensor. We reconstruct the high-speed video
   sequence from images produced in pseudo-random sampling using a pre-learned decoder.
-publication: '*IEEE Transactions on Computational Imaging*'
-doi: 10.1109/TCI.2019.2956885
 links:
 - name: URL
   url: https://ieeexplore.ieee.org/abstract/document/8918110

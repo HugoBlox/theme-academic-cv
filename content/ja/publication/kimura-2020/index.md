@@ -1,12 +1,6 @@
 ---
 title: Warmer Environments Increase Implicit Mental Workload Even If Learning Efficiency
   Is Enhanced
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2020-01-01'
-publishDate: '2023-08-20T08:45:21.825338Z'
 authors:
 - T. Kimura
 - N. Takemura
@@ -15,8 +9,12 @@ authors:
 - H. Nagahara
 - M. Numao
 - K. Shinohara
+date: '2020-01-01'
+publishDate: '2023-11-27T07:32:35.634026Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*Frontiers in Psychology*'
+doi: 10.3389/fpsyg.2020.00568
 abstract: © Copyright © 2020 Kimura, Takemura, Nakashima, Kobori, Nagahara, Numao
   and Shinohara. Climate change is one of the most important issues for humanity.
   To defuse this problem, it is considered necessary to improve energy efficiency,
@@ -42,14 +40,10 @@ abstract: © Copyright © 2020 Kimura, Takemura, Nakashima, Kobori, Nagahara, Nu
   integrated evidence for relationships among task performance, psychological state,
   and thermal environment by analyzing behavioral, subjective, and physiological indexes
   multidirectionally.
-featured: false
-publication: '*Frontiers in Psychology*'
 tags:
-- Eeg
-- Autonomic nervous system
-- Learning efficiency
-- Mental workload
-- Thermal environment
-doi: 10.3389/fpsyg.2020.00568
+- EEG
+- autonomic nervous system
+- learning efficiency
+- mental workload
+- thermal environment
 ---
-

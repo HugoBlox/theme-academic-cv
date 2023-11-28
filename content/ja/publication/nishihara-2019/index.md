@@ -1,17 +1,15 @@
 ---
 title: Controllable text simplification with lexical constraint loss
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2019-01-01'
-publishDate: '2023-08-20T08:45:18.906567Z'
 authors:
 - Daiki. Nishihara
 - Tomoyuki. Kajiwara
 - Yuki. Arase
+date: '2019-01-01'
+publishDate: '2023-11-27T07:32:35.343787Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proceedings of the ACL 2019 Student Research Workshop (ACL 2019 SRW)*'
+doi: 10.18653/v1/P19-2036
 abstract: We propose a method to control the level of a sentence in a text simplification
   task. Text simplification is a monolingual translation task translating a complex
   sentence into a simpler and easier to understand the alternative. In this study,
@@ -25,11 +23,7 @@ abstract: We propose a method to control the level of a sentence in a text simpl
   words beyond the target level. Our approach can control both the lexical and syntactic
   complexity and achieve an aggressive rewriting. Experiment results indicate that
   the proposed method improves the metrics of both BLEU and SARI.
-featured: false
-publication: '*Proceedings of the ACL 2019 Student Research Workshop (ACL 2019 SRW)*'
-doi: 10.18653/v1/P19-2036
 links:
 - name: URL
   url: https://www.aclweb.org/anthology/P19-2036/
 ---
-

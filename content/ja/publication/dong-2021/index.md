@@ -1,19 +1,17 @@
 ---
 title: Cross-lingual visual grounding
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2020-12-01'
-publishDate: '2023-08-20T08:45:15.712366Z'
 authors:
 - Wenjian Dong
 - Mayu Otani
 - Noa Garcia
 - Yuta Nakashima
 - Chenhui Chu
+date: '2020-12-01'
+publishDate: '2023-11-27T07:32:35.022518Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*IEEE Access*'
+doi: https://doi.org/10.1109/ACCESS.2020.3046719
 abstract: Visual grounding is a vision and language understanding task aiming at locating
   a region in an image according to a specific query phrase. However, most previous
   studies only address this task for the English language. Although there are previous
@@ -29,11 +27,7 @@ abstract: Visual grounding is a vision and language understanding task aiming at
   dataset, experiments indicate that our model achieves an accuracy of 65.17%, which
   is comparable to the accuracy 69.04% of the English model. Our dataset and codes
   are available at https://github.com/ids-cv/Multi-Lingual-Visual-Grounding.
-featured: false
-publication: '*IEEE Access*'
-doi: https://doi.org/10.1109/ACCESS.2020.3046719
 links:
 - name: URL
   url: https://ieeexplore.ieee.org/document/9305199
 ---
-

@@ -1,18 +1,16 @@
 ---
 title: Action recognition from a single coded image
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2020-01-01'
-publishDate: '2023-08-20T08:45:16.716839Z'
 authors:
 - Tadashi Okawara
 - Michitaka Yoshida
 - Hajime Nagahara
 - Yasushi Yagi
+date: '2020-01-01'
+publishDate: '2023-11-27T07:32:35.136365Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proceedings - 2020 IEEE International Conference on Computational Photography
+  (ICCP)*'
 abstract: Cameras are prevalent in society at the present time, for example, surveillance
   cameras, and smartphones equipped with cameras and smart speakers. There is an increasing
   demand to analyze human actions from these cameras to detect unusual behavior or
@@ -30,11 +28,7 @@ abstract: Cameras are prevalent in society at the present time, for example, sur
   single coded image. We also compared it with competitive inputs, such as low-resolution
   video with a high frame rate and high-resolution video with a single frame in simulation
   and real experiments.
-featured: false
-publication: '*Proceedings - 2020 IEEE International Conference on Computational Photography
-  (ICCP)*'
 links:
 - name: URL
   url: https://ieeexplore.ieee.org/document/9105176
 ---
-

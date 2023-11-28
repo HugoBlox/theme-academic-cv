@@ -1,12 +1,6 @@
 ---
 title: Representing a partially observed non-rigid 3D human using eigen-texture and
   eigen-deformation
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2018-11-01'
-publishDate: '2023-08-20T08:45:17.833388Z'
 authors:
 - Ryosuke Kimura
 - Akihiko Sayo
@@ -15,8 +9,12 @@ authors:
 - Hiroshi Kawasaki
 - Ambrosio Blanco
 - Katsushi Ikeuchi
+date: '2018-11-01'
+publishDate: '2023-11-27T07:32:35.239087Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proceedings - International Conference on Pattern Recognition (ICPR)*'
+doi: 10.1109/ICPR.2018.8545658
 abstract: Reconstruction of the shape and motion of humans from RGB-D is a challenging
   problem, receiving much attention in recent years. Recent approaches for full-body
   reconstruction use a statistic shape model, which is built upon accurate full-body
@@ -32,17 +30,13 @@ abstract: Reconstruction of the shape and motion of humans from RGB-D is a chall
   Combined with neural-network-based coefficient regression, our method synthesizes
   the texture and deformation from arbitrary viewpoints. We evaluate our method using
   simulated data and visually demonstrate how our method works on real data.
-featured: false
-publication: '*Proceedings - International Conference on Pattern Recognition (ICPR)*'
 tags:
-- Non-rigid 3d deformation
-- Eigen-deformation
-- Eigen-texture
-- Human motion capture
-- Sensing
-doi: 10.1109/ICPR.2018.8545658
+- Non-rigid 3D deformation
+- eigen-deformation
+- eigen-texture
+- human motion capture
+- sensing
 links:
 - name: arXiv
   url: https://arxiv.org/abs/1807.02632
 ---
-

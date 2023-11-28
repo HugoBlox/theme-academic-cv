@@ -1,17 +1,15 @@
 ---
 title: Quantifying Societal Bias Amplification in Image Captioning
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2022-06-01'
-publishDate: '2023-08-20T08:43:20.625736Z'
 authors:
 - Yusuke Hirota
 - Yuta Nakashima
 - Noa Garcia
+date: '2022-06-01'
+publishDate: '2023-11-28T10:16:24.736091Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proc.~IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  (CVPR)*'
 abstract: 'Vision-and-language tasks have increasingly drawn more attention as a means
   to evaluate human-like reasoning in machine learning models. A popular task in the
   field is visual question answering (VQA), which aims to answer questions about images.
@@ -29,9 +27,6 @@ abstract: 'Vision-and-language tasks have increasingly drawn more attention as a
   without considering and dealing with the potentially harmful stereotypes. We conclude
   the paper by proposing solutions to alleviate the problem before, during, and after
   the dataset collection process.'
-featured: false
-publication: '*Proc.~IEEE/CVF Conference on Computer Vision and Pattern Recognition
-  (CVPR)*'
-url_pdf: https://openaccess.thecvf.com/content/CVPR2022/papers/Hirota_Quantifying_Societal_Bias_Amplification_in_Image_Captioning_CVPR_2022_paper.pdf
+url_pdf: 
+  https://openaccess.thecvf.com/content/CVPR2022/papers/Hirota_Quantifying_Societal_Bias_Amplification_in_Image_Captioning_CVPR_2022_paper.pdf
 ---
-

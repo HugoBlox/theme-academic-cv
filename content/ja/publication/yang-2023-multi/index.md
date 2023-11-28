@@ -1,17 +1,15 @@
 ---
 title: Multi-modal humor segment prediction in video
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2023-06-01'
-publishDate: '2023-08-20T08:45:12.461068Z'
 authors:
 - Zekun Yang
 - n̆derlineYuta Nakashima
 - Haruo Takemura
+date: '2023-06-01'
+publishDate: '2023-11-27T07:32:34.706212Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*Multimedia Systems*'
+doi: https://doi.org/10.1007/s00530-023-01105-x
 abstract: Humor can be induced by various signals in the visual, linguistic, and vocal
   modalities emitted by humans. Finding humor in videos is an interesting but challenging
   task for an intelligent system. Previous methods predict humor in the sentence level
@@ -26,11 +24,7 @@ abstract: Humor can be induced by various signals in the visual, linguistic, and
   short-term memory networks to encode the temporal dependency in poses and facial
   features and pre-trained BERT to handle subtitles. Experimental results show that
   our method improves the performance of humor prediction.
-featured: false
-publication: '*Multimedia Systems*'
-doi: https://doi.org/10.1007/s00530-023-01105-x
 links:
 - name: URL
   url: https://link.springer.com/article/10.1007/s00530-023-01105-x
 ---
-

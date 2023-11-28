@@ -1,20 +1,18 @@
 ---
 title: Finding important people in a video using deep neural networks with conditional
   random fields
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2018-10-01'
-publishDate: '2023-08-20T08:45:18.407883Z'
 authors:
 - Mayu Otani
 - Atsushi Nishida
 - Yuta Nakashima
 - Tomokazu Sato
 - Naokazu Yokoya
+date: '2018-10-01'
+publishDate: '2023-11-27T07:32:35.295306Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*IEICE Transactions on Information and Systems*'
+doi: 10.1587/transinf.2018EDP7029
 abstract: Finding important regions is essential for applications, such as content-aware
   video compression and video retargeting to automatically crop a region in a video
   for small screens. Since people are one of main subjects when taking a video, some
@@ -30,12 +28,8 @@ abstract: Finding important regions is essential for applications, such as conte
   using conditional random fields (CRFs) built upon the DNN, which can be trained
   in an end-to-end manner. Our experimental results show that our method successfully
   classifies important people and the use of a DNN with CRFs improves the accuracy.
-featured: false
-publication: '*IEICE Transactions on Information and Systems*'
 tags:
 - Conditional random field
 - Important people classification
 - Neural network
-doi: 10.1587/transinf.2018EDP7029
 ---
-

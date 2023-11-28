@@ -1,12 +1,6 @@
 ---
 title: Joint optimization for compressive video sensing and reconstruction under hardware
   constraints
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2018-01-01'
-publishDate: '2023-08-20T08:43:24.707976Z'
 authors:
 - Michitaka Yoshida
 - Akihiko Torii
@@ -15,8 +9,13 @@ authors:
 - Yukinobu Sugiyama
 - Rin Ichiro Taniguchi
 - Hajime Nagahara
+date: '2018-01-01'
+publishDate: '2023-11-28T10:16:25.134957Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Lecture Notes in Computer Science (including subseries Lecture Notes
+  in Artificial Intelligence and Lecture Notes in Bioinformatics)*'
+doi: 10.1007/978-3-030-01249-6_39
 abstract: Compressive video sensing is the process of encoding multiple sub-frames
   into a single frame with controlled sensor exposures and reconstructing the sub-frames
   from the single compressed frame. It is known that spatially and temporally random
@@ -29,13 +28,8 @@ abstract: Compressive video sensing is the process of encoding multiple sub-fram
   the reconstruction framework under hardware constraints. By conducting a simulation
   and actual experiments, we demonstrated that the proposed framework can reconstruct
   multiple sub-frame images with higher quality.
-featured: false
-publication: '*Lecture Notes in Computer Science (including subseries Lecture Notes
-  in Artificial Intelligence and Lecture Notes in Bioinformatics)*'
 tags:
 - Compressive sensing
 - Deep neural network
 - Video reconstruction
-doi: 10.1007/978-3-030-01249-6_39
 ---
-

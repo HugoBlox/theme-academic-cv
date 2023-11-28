@@ -1,11 +1,5 @@
 ---
 title: Improving topic modeling through homophily for legal documents
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2020-10-01'
-publishDate: '2023-08-20T08:45:16.000811Z'
 authors:
 - Kazuki Ashihara
 - Cheikh Brahim El Vaigh
@@ -15,8 +9,12 @@ authors:
 - Noriko Takemura
 - Yuta Nakashima
 - Hajime Nagahara
+date: '2020-10-01'
+publishDate: '2023-11-27T07:32:35.051132Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*Applied Network Science*'
+doi: https://doi.org/10.1007/s41109-020-00321-y
 abstract: 'Topic modeling that can automatically assign topics to legal documents
   is very important in the domain of computational law. The relevance of the modeled
   topics strongly depends on the legal context they are used in. On the other hand,
@@ -40,11 +38,7 @@ abstract: 'Topic modeling that can automatically assign topics to legal document
   homophily networks. Experiments show that the use of the homophily networks for
   topic modeling significantly outperforms previous studies, and the weighting model
   is more effective than the cutting model.'
-featured: false
-publication: '*Applied Network Science*'
-doi: https://doi.org/10.1007/s41109-020-00321-y
 links:
 - name: URL
   url: https://appliednetsci.springeropen.com/articles/10.1007/s41109-020-00321-y
 ---
-

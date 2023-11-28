@@ -1,11 +1,5 @@
 ---
 title: Preventing fake information generation against media clone attacks
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2021-01-01'
-publishDate: '2023-08-20T08:45:15.784516Z'
 authors:
 - Noboru Babaguchi
 - Isao Echizen
@@ -18,8 +12,12 @@ authors:
 - Zhenzhong Kuang
 - Huy H Nguyen
 - Ngoc-Dung T Tieu
+date: '2021-01-01'
+publishDate: '2023-11-27T07:32:35.029645Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*IEICE Transactions on Information and Systems*'
+doi: https://doi.org/10.1587/transinf.2020MUI0001
 abstract: Fake media has been spreading due to remarkable advances in media processing
   and machine leaning technologies, causing serious problems in society. We are conducting
   a research project called Media Clone aimed at developing methods for protecting
@@ -31,11 +29,7 @@ abstract: Fake media has been spreading due to remarkable advances in media proc
   fake information. We focus on 1) fake information generation in the physical world,
   2) anonymization and abstraction in the cyber world, and 3) modeling of media clone
   attacks.
-featured: false
-publication: '*IEICE Transactions on Information and Systems*'
-doi: https://doi.org/10.1587/transinf.2020MUI0001
 links:
 - name: URL
   url: https://search.ieice.org/bin/summary.php?id=e104-d_1_2
 ---
-

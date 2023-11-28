@@ -1,11 +1,5 @@
 ---
 title: High-Speed Imaging Using CMOS Image Sensor With Quasi Pixel-Wise Exposure
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2019-01-01'
-publishDate: '2023-08-20T08:45:13.098925Z'
 authors:
 - Michitaka Yoshida
 - Toshiki Sonoda
@@ -13,8 +7,12 @@ authors:
 - Kenta Endo
 - Yukinobu Sugiyama
 - Rin-ichiro Taniguchi
+date: '2019-01-01'
+publishDate: '2023-11-27T07:32:34.769053Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*IEEE Transactions on Computational Imaging*'
+doi: 10.1109/TCI.2019.2956885
 abstract: Several recent studies on compressive video sensing realized scene capture
   beyond the fundamental trade-off limit between spatial resolution and temporal resolution
   using random space-time sampling. However, most of these studies obtained results
@@ -30,11 +28,7 @@ abstract: Several recent studies on compressive video sensing realized scene cap
   We propose a method of realizing pseudo-random sampling for high-speed video acquisition
   that uses the flexibility of the CMOS sensor. We reconstruct the high-speed video
   sequence from images produced in pseudo-random sampling using a pre-learned decoder.
-featured: false
-publication: '*IEEE Transactions on Computational Imaging*'
-doi: 10.1109/TCI.2019.2956885
 links:
 - name: URL
   url: https://ieeexplore.ieee.org/abstract/document/8918110
 ---
-

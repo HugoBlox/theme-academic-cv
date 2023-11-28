@@ -1,11 +1,5 @@
 ---
 title: Dynamic photometric stereo method using multi-tap CMOS image sensor
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2016-01-01'
-publishDate: '2023-08-20T08:45:20.329836Z'
 authors:
 - Takuya Yoda
 - Hajime Nagahara
@@ -13,8 +7,12 @@ authors:
 - Keiichiro Kagawa
 - Keita Yasutomi
 - Shoji Kawahito
+date: '2016-01-01'
+publishDate: '2023-11-27T07:32:35.481504Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proceedings - International Conference on Pattern Recognition*'
+doi: 10.1109/ICPR.2016.7899988
 abstract: Photometric stereo enables the estimation of surface normals from images
   that were captured using different known lighting directions. The classical photometric
   stereo method requires at least three images to determine the normals of a given
@@ -28,8 +26,4 @@ abstract: Photometric stereo enables the estimation of surface normals from imag
   lighting conditions with almost the same timing. We implemented a prototype camera
   that was synchronized with a lighting system, and subsequently realized photometric
   stereo of a dynamic scene.
-featured: false
-publication: '*Proceedings - International Conference on Pattern Recognition*'
-doi: 10.1109/ICPR.2016.7899988
 ---
-

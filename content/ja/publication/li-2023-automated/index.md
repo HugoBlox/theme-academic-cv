@@ -1,12 +1,6 @@
 ---
 title: 'Automated grading system of retinal arterio-venous crossing patterns: A deep
   learning approach replicating ophthalmologist’s diagnostic process of arteriolosclerosis'
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2023-01-01'
-publishDate: '2023-08-20T08:45:13.869490Z'
 authors:
 - Liangzhi Li
 - Manisha Verma
@@ -14,8 +8,12 @@ authors:
 - Yuta Nakashima
 - Hajime Nagahara
 - Ryo Kawasaki
+date: '2023-01-01'
+publishDate: '2023-11-27T07:32:34.842849Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*PLOS Digital Health*'
+doi: https://doi.org/10.1371/journal.pdig.0000174
 abstract: The morphological feature of retinal arterio-venous crossing patterns is
   a valuable source of cardiovascular risk stratification as it directly captures
   vascular health. Although Scheie’s classification, which was proposed in 1953, has
@@ -42,11 +40,7 @@ abstract: The morphological feature of retinal arterio-venous crossing patterns 
   of ophthalmologists. By the proposed models, we could build a pipeline reproducing
   ophthalmologists’ diagnostic process without requiring subjective feature extractions.
   The code is available (https://github.com/conscienceli/MDTNet).
-featured: false
-publication: '*PLOS Digital Health*'
-doi: https://doi.org/10.1371/journal.pdig.0000174
 links:
 - name: URL
   url: https://github.com/conscienceli/MDTNet
 ---
-

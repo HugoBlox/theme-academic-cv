@@ -1,18 +1,16 @@
 ---
 title: 'ContextNet: representation and exploration for painting classification and
   retrieval in context'
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2020-01-01'
-publishDate: '2023-08-20T08:45:21.609550Z'
 authors:
 - Noa Garcia
 - Benjamin Renoust
 - Yuta Nakashima
+date: '2020-01-01'
+publishDate: '2023-11-27T07:32:35.612583Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*International Journal of Multimedia Information Retrieval*'
+doi: 10.1007/s13735-019-00189-4
 abstract: '© 2019, The Author(s). In automatic art analysis, models that besides the
   visual elements of an artwork represent the relationships between the different
   artistic attributes could be very informative. Those kinds of relationships, however,
@@ -28,16 +26,12 @@ abstract: '© 2019, The Author(s). In automatic art analysis, models that beside
   on both painting classification and retrieval, and by visualising the resulting
   embeddings on a knowledge graph, we can confirm that our models represent specific
   stylistic aspects present in the data.'
-featured: false
-publication: '*International Journal of Multimedia Information Retrieval*'
 tags:
 - Art classification
 - Knowledge graphs
 - Multi-modal retrieval
 - Multitask learning
 - Visualisation
-- Buddha
-- Kvqa
-doi: 10.1007/s13735-019-00189-4
+- buddha
+- kvqa
 ---
-

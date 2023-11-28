@@ -1,19 +1,17 @@
 ---
 title: Adaptive background model registration for moving cameras
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2017-09-01'
-publishDate: '2023-08-20T08:45:19.265862Z'
 authors:
 - Tsubasa Minematsu
 - Hideaki Uchiyama
 - Atsushi Shimada
 - Hajime Nagahara
 - Rin ichiro Taniguchi
+date: '2017-09-01'
+publishDate: '2023-11-27T07:32:35.379110Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*Pattern Recognition Letters*'
+doi: 10.1016/j.patrec.2017.03.010
 abstract: We propose a framework for adaptively registering background models with
   an image for background subtraction with moving cameras. Existing methods search
   for a background model using a fixed window size, to suppress the number of false
@@ -28,13 +26,9 @@ abstract: We propose a framework for adaptively registering background models wi
   if it does not. We quantitatively confirmed that the proposed framework improved
   the background subtraction accuracy when applied to images from moving cameras in
   various public datasets.
-featured: false
-publication: '*Pattern Recognition Letters*'
 tags:
 - Background subtraction
 - Moving camera
 - Moving object detection
 - Re-projection error
-doi: 10.1016/j.patrec.2017.03.010
 ---
-

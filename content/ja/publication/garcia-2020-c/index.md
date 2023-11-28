@@ -1,16 +1,13 @@
 ---
 title: Knowledge-based video question answering with unsupervised scene descriptions
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2020-08-01'
-publishDate: '2023-08-20T08:45:17.197117Z'
 authors:
 - Noa Garcia
 - Yuta Nakashima
+date: '2020-08-01'
+publishDate: '2023-11-27T07:32:35.179135Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proceedings - European Conference on Computer Vision*'
 abstract: 'To understand movies, humans constantly reason over the dialogues and actions
   shown in specific scenes and relate them to the overall storyline already seen.
   Inspired by this behaviour, we design ROLL, a model for knowledge-based video story
@@ -24,11 +21,7 @@ abstract: 'To understand movies, humans constantly reason over the dialogues and
   from the different sources. Exhaustive evaluation demonstrates the effectiveness
   of our approach, which yields a new state-of-the-art on two challenging video question
   answering datasets: KnowIT VQA and TVQA+.'
-featured: false
-publication: '*Proceedings - European Conference on Computer Vision*'
-doi: ''
 links:
 - name: URL
   url: https://arxiv.org/abs/2007.08751
 ---
-

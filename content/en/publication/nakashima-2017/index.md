@@ -1,11 +1,5 @@
 ---
 title: Realtime novel view synthesis with eigen-texture regression
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2017-01-01'
-publishDate: '2023-08-20T08:43:24.564351Z'
 authors:
 - Yuta Nakashima
 - Fumio Okura
@@ -13,8 +7,11 @@ authors:
 - Hiroshi Kawasaki
 - Ambrosio Blanco
 - Katsushi Ikeuchi
+date: '2017-01-01'
+publishDate: '2023-11-28T10:16:25.120844Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proceedings - British Machine Vision Conference (BMVC)*'
 abstract: Realtime novel view synthesis, which generates a novel view of a real object
   or scene in realtime, enjoys a wide range of applications including augmented reality,
   telepresence, and immersive telecommunication. Image-based rendering (IBR) with
@@ -31,8 +28,5 @@ abstract: Realtime novel view synthesis, which generates a novel view of a real 
   a single hidden layer and hyperbolic tangent nonlinearity. We demonstrate the advantages
   of our IBR approach using our own datasets as well as publicly available datasets
   for comparison.
-featured: false
-publication: '*Proceedings - British Machine Vision Conference (BMVC)*'
 url_pdf: http://www.bmva.org/bmvc/2017/papers/paper083/paper083.pdf
 ---
-

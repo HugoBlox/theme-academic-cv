@@ -1,19 +1,17 @@
 ---
 title: Improvement of nerve imaging speed with coherent anti-Stokes Raman scattering
   rigid endoscope using deep-learning noise reduction
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2020-09-01'
-publishDate: '2023-08-20T08:45:16.359340Z'
 authors:
 - Naoki Yamato
 - Hirohiko Niioka
 - Jun Miyake
 - Mamoru Hashimoto
+date: '2020-09-01'
+publishDate: '2023-11-27T07:32:35.097615Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*Scientific Reports*'
+doi: https://doi.org/10.1038/s41598-020-72241-x
 abstract: A coherent anti-Stokes Raman scattering (CARS) rigid endoscope was developed
   to visualize peripheral nerves without labeling for nerve-sparing endoscopic surgery.
   The developed CARS endoscope had a problem with low imaging speed, i.e. low imaging
@@ -29,9 +27,5 @@ abstract: A coherent anti-Stokes Raman scattering (CARS) rigid endoscope was dev
   endoscopic image of 1.4 images/min. We believe that the improvement of the nerve
   imaging speed will open up the possibility of reducing postoperative dysfunction
   by intraoperative nerve identification.
-featured: false
-publication: '*Scientific Reports*'
-doi: https://doi.org/10.1038/s41598-020-72241-x
 url_pdf: https://www.nature.com/articles/s41598-020-72241-x.pdf
 ---
-

@@ -1,18 +1,15 @@
 ---
 title: 5D Light Field Synthesis from a Monocular Video
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2020-01-01'
-publishDate: '2023-08-20T08:45:15.500398Z'
 authors:
 - Kyuho Bae
 - Andre Ivan
 - Hajime Nagahara
 - In Kyu Park
+date: '2020-01-01'
+publishDate: '2023-11-27T07:32:35.001664Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*International Conference on Pattern Recognition*'
 abstract: Commercially available light field cameras have difficulty in capturing
   5D (4D + time) light field videos. They can only capture still light field images
   or are excessively expensive for normal users to capture the light field video.
@@ -26,8 +23,5 @@ abstract: Commercially available light field cameras have difficulty in capturin
   Experimental results show that our model can successfully synthesize the light field
   video for synthetic and real scenes and outperforms the previous frame-by-frame
   method quantitatively and qualitatively.
-featured: false
-publication: '*International Conference on Pattern Recognition*'
 url_pdf: http://image.inha.ac.kr/wp-content/uploads/2020/10/ICPR1980.L1u63.pdf
 ---
-

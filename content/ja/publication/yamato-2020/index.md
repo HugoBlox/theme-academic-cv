@@ -1,20 +1,18 @@
 ---
 title: Nerve segmentation with deep learning from label-free endoscopic images obtained
   using coherent anti-stokes Raman scattering
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2020-07-01'
-publishDate: '2023-08-20T08:45:16.501621Z'
 authors:
 - Naoki Yamato
 - Mana Matsuya
 - Hirohiko Niioka
 - Jun Miyake
 - Mamoru Hashimoto
+date: '2020-07-01'
+publishDate: '2023-11-27T07:32:35.115896Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Biomolecules*'
+doi: https://doi.org/10.3390/biom10071012
 abstract: Semantic segmentation with deep learning to extract nerves from label-free
   endoscopic images obtained using coherent anti-Stokes Raman scattering (CARS) for
   nerve-sparing surgery is described. We developed a CARS rigid endoscope in order
@@ -31,11 +29,7 @@ abstract: Semantic segmentation with deep learning to extract nerves from label-
   the mean accuracy and F1 value (p<0.05). Nerve segmentation of label-free endoscopic
   images will allow for safer endoscopic surgery, while reducing dysfunction and improving
   prognosis after surgery.
-featured: false
-publication: '*Biomolecules*'
-doi: https://doi.org/10.3390/biom10071012
 links:
 - name: URL
   url: https://www.mdpi.com/2218-273X/10/7/1012
 ---
-

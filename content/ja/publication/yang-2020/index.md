@@ -1,11 +1,5 @@
 ---
 title: BERT representations for video question answering
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2020-01-01'
-publishDate: '2023-08-20T08:45:21.538992Z'
 authors:
 - Zekun Yang
 - Noa Garcia
@@ -13,8 +7,13 @@ authors:
 - Mayu Otani
 - Yuta Nakashima
 - Haruo Takemura
+date: '2020-01-01'
+publishDate: '2023-11-27T07:32:35.605712Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proceedings - 2020 IEEE Winter Conference on Applications of Computer
+  Vision, WACV 2020*'
+doi: 10.1109/WACV45572.2020.9093596
 abstract: 'Visual question answering (VQA) aims at answering questions about the visual
   content of an image or a video. Currently, most work on VQA is focused on image-based
   question answering, and less attention has been paid into answering questions about
@@ -28,11 +27,6 @@ abstract: 'Visual question answering (VQA) aims at answering questions about the
   In our experiments, we exhaustively study the performance of our model by taking
   different input arrangements, showing outstanding improvements when compared against
   previous work on two well-known video VQA datasets: TVQA and Pororo.'
-featured: false
-publication: '*Proceedings - 2020 IEEE Winter Conference on Applications of Computer
-  Vision, WACV 2020*'
 tags:
-- Kvqa
-doi: 10.1109/WACV45572.2020.9093596
+- kvqa
 ---
-

@@ -1,19 +1,17 @@
 ---
 title: 'AxIoU: An Axiomatically Justified Measure for Video Moment Retrieval'
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2022-06-01'
-publishDate: '2023-08-20T08:43:20.696619Z'
 authors:
 - Riku Togashi
 - Mayu Otani
 - Yuta Nakashima
 - Janne Heikkilä Esa Rahtu
 - Tetsuya Sakai
+date: '2022-06-01'
+publishDate: '2023-11-28T10:16:24.743055Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proc.~IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  (CVPR)*'
 abstract: 'Evaluation measures have a crucial impact on the direction of research.
   Therefore, it is of utmost importance to develop appropriate and reliable evaluation
   measures for new applications where conventional measures are not well suited. Video
@@ -29,9 +27,6 @@ abstract: 'Evaluation measures have a crucial impact on the direction of researc
   with respect to the Best Moment, and also that R@K,θ satisfies the first axiom only.
   We also empirically examine how AxIoU agrees with R@K,θ, as well as its stability
   with respect to change in the test data and human-annotated temporal boundaries.'
-featured: false
-publication: '*Proc.~IEEE/CVF Conference on Computer Vision and Pattern Recognition
-  (CVPR)*'
-url_pdf: https://openaccess.thecvf.com/content/CVPR2022/papers/Togashi_AxIoU_An_Axiomatically_Justified_Measure_for_Video_Moment_Retrieval_CVPR_2022_paper.pdf
+url_pdf: 
+  https://openaccess.thecvf.com/content/CVPR2022/papers/Togashi_AxIoU_An_Axiomatically_Justified_Measure_for_Video_Moment_Retrieval_CVPR_2022_paper.pdf
 ---
-

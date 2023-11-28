@@ -1,19 +1,17 @@
 ---
 title: CFA Handling and Quality Analysis for Compressive Light Field Camera
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2021-01-01'
-publishDate: '2023-08-20T08:43:21.770814Z'
 authors:
 - Kohei Sakai
 - Yasutaka Inagaki
 - Keita Takahashi
 - Toshiaki Fujii
 - Hajime Nagahara
+date: '2021-01-01'
+publishDate: '2023-11-28T10:16:24.845305Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*ITE Transactions on Media Technology and Applications*'
+doi: https://doi.org/10.3169/mta.9.25
 abstract: A light field can carry rich visual information of a real 3-D scene, leading
   to many attractive applications. However, the acquisition of a light field is challenging
   due to the large amount of data. In our previous work, we proposed an efficient
@@ -26,8 +24,4 @@ abstract: A light field can carry rich visual information of a real 3-D scene, l
   analyzed how the reconstruction quality obtained with our method was affected by
   the complexity of light fields. We also showed the possibility of using this analysis
   to predict the reconstruction quality from the acquired images.
-featured: false
-publication: '*ITE Transactions on Media Technology and Applications*'
-doi: https://doi.org/10.3169/mta.9.25
 ---
-

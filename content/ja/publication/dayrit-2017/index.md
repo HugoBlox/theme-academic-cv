@@ -1,11 +1,5 @@
 ---
 title: 'ReMagicMirror: Action learning using human reenactment with the mirror metaphor'
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2017-01-01'
-publishDate: '2023-08-20T08:45:20.754523Z'
 authors:
 - Fabian Lorenzo Dayrit
 - Ryosuke Kimura
@@ -15,8 +9,12 @@ authors:
 - Katsushi Ikeuchi
 - Tomokazu Sato
 - Naokazu Yokoya
+date: '2017-01-01'
+publishDate: '2023-11-27T07:32:35.529317Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proceedings - International Conference on Multimedia Modeling (MMM)*'
+doi: 10.1007/978-3-319-51811-4_25
 abstract: We propose ReMagicMirror, a system to help people learn actions (e.g., martial
   arts, dances). We first capture the motions of a teacher performing the action to
   learn, using two RGB-D cameras. Next, we fit a parametric human body model to the
@@ -27,13 +25,9 @@ abstract: We propose ReMagicMirror, a system to help people learn actions (e.g.,
   viewpoint by simply rotating her body, allowing for easy comparisons between the
   learner and the teacher. We perform a user study to evaluate our system's ease of
   use, effectiveness, quality, and appeal.
-featured: false
-publication: '*Proceedings - International Conference on Multimedia Modeling (MMM)*'
 tags:
-- 3d human reconstruction
+- 3D human reconstruction
 - Human reenactment
-- Rgb-d sensors
-- Sensing
-doi: 10.1007/978-3-319-51811-4_25
+- RGB-D sensors
+- sensing
 ---
-

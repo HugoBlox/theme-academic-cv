@@ -1,11 +1,5 @@
 ---
 title: Adapting local features for face detection in thermal image
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2017-12-01'
-publishDate: '2023-08-20T08:45:21.251600Z'
 authors:
 - Chao Ma
 - Ngo Thanh Trung
@@ -13,8 +7,12 @@ authors:
 - Hajime Nagahara
 - Atsushi Shimada
 - Rin Ichiro Taniguchi
+date: '2017-12-01'
+publishDate: '2023-11-27T07:32:35.577043Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*Sensors (Switzerland)*'
+doi: 10.3390/s17122741
 abstract: A thermal camera captures the temperature distribution of a scene as a thermal
   image. In thermal images, facial appearances of different people under different
   lighting conditions are similar. This is because facial temperature distribution
@@ -38,10 +36,8 @@ abstract: A thermal camera captures the temperature distribution of a scene as a
   proposed approaches effectively improve the performance of face detection in thermal
   images. In the field experiment, we compared the face detection performance in realistic
   scenes using thermal and RGB images, and gave discussion based on the results.
-featured: false
-publication: '*Sensors (Switzerland)*'
 tags:
-- Adaboost
+- AdaBoost
 - Face detection
 - Haar-like
 - Histogram of oriented gradient
@@ -49,6 +45,4 @@ tags:
 - Local ternary pattern
 - Mixed features
 - Thermal image
-doi: 10.3390/s17122741
 ---
-

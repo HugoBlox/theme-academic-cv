@@ -1,17 +1,14 @@
 ---
 title: Human-Imperceptible Identification With Learnable Lensless Imaging
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2023-01-01'
-publishDate: '2023-09-20T07:13:57.839089Z'
 authors:
 - Thuong Nguyen Canh
 - Trung Thanh Ngo
 - Hajime Nagahara
+date: '2023-01-01'
+publishDate: '2023-11-27T07:32:34.684804Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*IEEE Access*'
 abstract: Lensless imaging protects visual privacy by capturing heavily blurred images
   that are imperceptible for humans to recognize the subject but contain enough information
   for machines to infer information. Unfortunately, protecting visual privacy comes
@@ -23,10 +20,7 @@ abstract: Lensless imaging protects visual privacy by capturing heavily blurred 
   of personal identity via a quantitative method based on a subjective evaluation.
   Moreover, we validate our simulation by implementing a hardware realization of lensless
   imaging with photo-lithographically printed masks.
-featured: false
-publication: '*IEEE Access*'
 links:
 - name: URL
   url: https://ieeexplore.ieee.org/document/10227292
 ---
-

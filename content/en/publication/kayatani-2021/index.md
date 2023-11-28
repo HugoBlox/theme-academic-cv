@@ -1,11 +1,5 @@
 ---
 title: 'The laughing machine: Predicting humor in video'
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2021-01-01'
-publishDate: '2023-08-20T08:43:22.134487Z'
 authors:
 - Yuta Kayatani
 - Zekun Yang
@@ -14,8 +8,12 @@ authors:
 - Chenhui Chu
 - Yuta Nakashima
 - Haruo Takemura
+date: '2021-01-01'
+publishDate: '2023-11-28T10:16:24.881128Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proceedings - IEEE/CVF Winter Conference on Applications of Computer
+  Vision (WACV)*'
 abstract: Humor is a very important communication tool; yet, it is an open problem
   for machines to understand humor. In this paper, we build a new multimodal dataset
   for humor prediction that includes subtitles and video frames, as well as humor
@@ -27,11 +25,8 @@ abstract: Humor is a very important communication tool; yet, it is an open probl
   our experimental results show that the performance boost by combinations of different
   modalities, and the attention mechanism and the model mostly relies on the verbal
   modality.
-featured: false
-publication: '*Proceedings - IEEE/CVF Winter Conference on Applications of Computer
-  Vision (WACV)*'
 links:
 - name: URL
-  url: https://openaccess.thecvf.com/content/WACV2021/html/Kayatani_The_Laughing_Machine_Predicting_Humor_in_Video_WACV_2021_paper.html
+  url: 
+    https://openaccess.thecvf.com/content/WACV2021/html/Kayatani_The_Laughing_Machine_Predicting_Humor_in_Video_WACV_2021_paper.html
 ---
-

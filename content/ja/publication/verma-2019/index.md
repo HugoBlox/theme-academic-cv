@@ -1,19 +1,17 @@
 ---
 title: Facial expression recognition with skip-connection to leverage low-level features
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2019-01-01'
-publishDate: '2023-08-20T08:45:20.258070Z'
 authors:
 - Manisha Verma
 - Hirokazu Kobori
 - Yuta Nakashima
 - Noriko Takemura
 - Hajime Nagahara
+date: '2019-01-01'
+publishDate: '2023-11-27T07:32:35.474667Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proceedings - IEEE International Conference on Image Processing (ICIP)*'
+doi: 10.1109/ICIP.2019.8803396
 abstract: Deep convolutional neural networks (CNNs) have established their feet in
   the ground of computer vision and machine learning, used in various applications.
   In this work, an attempt is made to learn a CNN for a task of facial expression
@@ -26,11 +24,7 @@ abstract: Deep convolutional neural networks (CNNs) have established their feet 
   motion trajectory features. These visual and landmark features are fused to improve
   the performance. Our method is evaluated on the CK+ and Oulu-CASIA facial expression
   datasets.
-featured: false
-publication: '*Proceedings - IEEE International Conference on Image Processing (ICIP)*'
-doi: 10.1109/ICIP.2019.8803396
 links:
 - name: URL
   url: https://ieeexplore.ieee.org/abstract/document/8803396
 ---
-

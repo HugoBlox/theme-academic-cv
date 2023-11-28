@@ -1,11 +1,5 @@
 ---
 title: A comparative study of language Transformers for video question answering
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2021-07-01'
-publishDate: '2023-08-20T08:45:14.299751Z'
 authors:
 - Zekun Yang
 - Noa Garcia
@@ -13,8 +7,12 @@ authors:
 - Mayu Otani
 - Yuta Nakashima
 - Haruo Takemura
+date: '2021-07-01'
+publishDate: '2023-11-27T07:32:34.885962Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*Neurocomputing*'
+doi: https://doi.org/10.1016/j.neucom.2021.02.092
 abstract: With the goal of correctly answering questions about images or videos, visual
   question answering (VQA) has quickly developed in recent years. However, current
   VQA systems mainly focus on answering questions about a single image and face many
@@ -27,11 +25,7 @@ abstract: With the goal of correctly answering questions about images or videos,
   Transformer. We investigate the performance of our model using four language Transformers
   over two different datasets. The results demonstrate outstanding improvements compared
   to previous work.
-featured: false
-publication: '*Neurocomputing*'
-doi: https://doi.org/10.1016/j.neucom.2021.02.092
 links:
 - name: URL
   url: https://doi.org/10.1016/j.neucom.2021.02.092
 ---
-

@@ -1,18 +1,16 @@
 ---
 title: Augmented reality marker hiding with texture deformation
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2017-10-01'
-publishDate: '2023-08-20T08:45:20.401185Z'
 authors:
 - Norihiko Kawai
 - Tomokazu Sato
 - Yuta Nakashima
 - Naokazu Yokoya
+date: '2017-10-01'
+publishDate: '2023-11-27T07:32:35.488250Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*IEEE Transactions on Visualization and Computer Graphics*'
+doi: 10.1109/TVCG.2016.2617325
 abstract: Augmented reality (AR) marker hiding is a technique to visually remove AR
   markers in a real-time video stream. A conventional approach transforms a background
   image with a homography matrix calculated on the basis of a camera pose and overlays
@@ -26,12 +24,8 @@ abstract: Augmented reality (AR) marker hiding is a technique to visually remove
   points around it, together with a smooth motion assumption, and deforms the background
   image according to it. Our experiments demonstrate the effectiveness of the proposed
   method in various environments with different background geometries and textures.
-featured: false
-publication: '*IEEE Transactions on Visualization and Computer Graphics*'
 tags:
 - Marker hiding
-- Diminished reality
-- Texture deformation
-doi: 10.1109/TVCG.2016.2617325
+- diminished reality
+- texture deformation
 ---
-

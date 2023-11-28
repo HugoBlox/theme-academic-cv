@@ -1,18 +1,15 @@
 ---
 title: Acquiring dynamic light fields through coded aperture camera
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2020-08-01'
-publishDate: '2023-08-20T08:45:16.575023Z'
 authors:
 - Kohei Sakai
 - Keita Takahashi
 - Toshiaki Fujii
 - Hajime Nagahara
+date: '2020-08-01'
+publishDate: '2023-11-27T07:32:35.123091Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proceedings - European Conference on Computer Vision*'
 abstract: We investigate the problem of compressive acquisition of a dynamic light
   field. A promising solution for compressive light field acquisition is to use a
   coded aperture camera, with which an entire light field can be computationally reconstructed
@@ -25,9 +22,5 @@ abstract: We investigate the problem of compressive acquisition of a dynamic lig
   of image observation, called V-shape observation, and train the CNN using a dynamic-light-field
   dataset with pseudo motions. Our method is validated through experiments using both
   a computer-generated scene and a real camera.
-featured: false
-publication: '*Proceedings - European Conference on Computer Vision*'
-doi: ''
 url_pdf: https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123640358.pdf
 ---
-

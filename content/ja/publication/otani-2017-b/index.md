@@ -1,21 +1,14 @@
 ---
 title: Video question answering to find a desired video eegment
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2017-01-01'
-publishDate: '2023-08-20T08:45:18.623773Z'
 authors:
 - Mayu Otani
 - Yuta Nakashima
 - Esa Rahtu
 - Janne Heikkilä
+date: '2017-01-01'
+publishDate: '2023-11-27T07:32:35.316256Z'
 publication_types:
-- '1'
-abstract: ''
-featured: false
+- paper-conference
 publication: '*Proceedings - Open Knowledge Base and Question Answering Workshop at
   SIGIR*'
 ---
-

@@ -1,19 +1,17 @@
 ---
 title: Fall detection using optical level anonymous image sensing system
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2019-02-01'
-publishDate: '2023-08-20T08:45:17.979140Z'
 authors:
 - Chao Ma
 - Atsushi Shimada
 - Hideaki Uchiyama
 - Hajime Nagahara
 - Rin ichiro Taniguchi
+date: '2019-02-01'
+publishDate: '2023-11-27T07:32:35.254043Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*Optics and Laser Technology*'
+doi: 10.1016/j.optlastec.2018.07.013
 abstract: Fall is one of the leading causes of injury for the elderly individuals.
   Systems that automatically detect falls can significantly reduce the delay of assistance.
   Most of commercialized fall detection systems are based on wearable devices, which
@@ -31,14 +29,10 @@ abstract: Fall is one of the leading causes of injury for the elderly individual
   validation experiment, and showed its effectiveness. In field tests, we showed and
   discussed the applicability of the optical level anonymous image sensing system
   for privacy protection and fall detection.
-featured: false
-publication: '*Optics and Laser Technology*'
 tags:
-- 3d convolutional neural network
+- 3D convolutional neural network
 - Computational imaging
 - Fall detection
 - Optical level anonymous
 - Privacy protection
-doi: 10.1016/j.optlastec.2018.07.013
 ---
-

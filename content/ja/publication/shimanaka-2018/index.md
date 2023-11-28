@@ -1,18 +1,17 @@
 ---
 title: 'RUSE: Regressor using sentence embeddings for automatic machine translation
   evaluation'
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2018-01-01'
-publishDate: '2023-08-20T08:45:17.619168Z'
 authors:
 - Hiroki Shimanaka
 - Tomoyuki Kajiwara
 - Mamoru Komachi
+date: '2018-01-01'
+publishDate: '2023-11-27T07:32:35.218901Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proceedings of the Third Conference on Machine Translation: Shared
+  Task Papers (WMT 18)*'
+doi: 10.18653/v1/W18-6456
 abstract: We introduce the RUSE metric for the WMT18 metrics shared task. Sentence
   embeddings can capture global information that cannot be captured by local features
   based on character or word N-grams. Although training sentence embeddings using
@@ -22,12 +21,7 @@ abstract: We introduce the RUSE metric for the WMT18 metrics shared task. Senten
   types of sentence embeddings. The experimental results of the WMT16 and WMT17 datasets
   show that the RUSE metric achieves a state-of-the-art performance in both segment-
   and system-level metrics tasks with embedding features only.
-featured: false
-publication: '*Proceedings of the Third Conference on Machine Translation: Shared
-  Task Papers (WMT 18)*'
-doi: 10.18653/v1/W18-6456
 links:
 - name: URL
   url: http://aclweb.org/anthology/W18-6456
 ---
-

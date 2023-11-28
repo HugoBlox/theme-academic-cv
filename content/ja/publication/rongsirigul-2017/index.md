@@ -1,19 +1,17 @@
 ---
 title: Novel view synthesis with light-weight view-dependent texture mapping for a
   stereoscopic HMD
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2017-08-01'
-publishDate: '2023-08-20T08:45:21.899215Z'
 authors:
 - Thiwat Rongsirigul
 - Yuta Nakashima
 - Tomokazu Sato
 - Naokazu Yokoya
+date: '2017-08-01'
+publishDate: '2023-11-27T07:32:35.641773Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Proceedings - IEEE International Conference on Multimedia and Expo*'
+doi: 10.1109/ICME.2017.8019417
 abstract: The proliferation of off-the-shelf head-mounted displays (HMDs) let end-users
   enjoy virtual reality applications, some of which render a real-world scene using
   a novel view synthesis (NVS) technique. View-dependent texture mapping (VDTM) has
@@ -26,12 +24,8 @@ abstract: The proliferation of off-the-shelf head-mounted displays (HMDs) let en
   method leverages the overlapping fields of view between a stereoscopic pair of HMD
   images and pruning the images to be scanned. We show that the proposed method drastically
   accelerates the VDTM process without spoiling the image quality through a user study.
-featured: false
-publication: '*Proceedings - IEEE International Conference on Multimedia and Expo*'
 tags:
 - Head-mounted displays
 - Image-based rendering
 - Novel view synthesis
-doi: 10.1109/ICME.2017.8019417
 ---
-

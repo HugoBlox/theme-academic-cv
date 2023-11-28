@@ -1,18 +1,17 @@
 ---
 title: Hyperspectral imaging using flickerless active LED illumination
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2017-03-01'
-publishDate: '2023-08-20T08:43:25.862908Z'
 authors:
 - Makoto Ohsaki
 - Hajime Nagahara
 - Tetsuo Ikeda
 - Rin-ichiro Taniguchi
+date: '2017-03-01'
+publishDate: '2023-11-28T10:16:25.247112Z'
 publication_types:
-- '1'
+- paper-conference
+publication: '*Thirteenth International Conference on Quality Control by Artificial
+  Vision 2017*'
+doi: 10.1117/12.2266765
 abstract: © 2017 SPIE. Hyperspectral imaging is used in various fields because it
   can obtain much more information than imaging by conventional RGB cameras. Hyperspectral
   imaging systems using active illumination, prisms, gratings, or narrowband filters
@@ -31,9 +30,4 @@ abstract: © 2017 SPIE. Hyperspectral imaging is used in various fields because 
   the optimal design of a flickerless illumination system for measuring oxygen saturation.
   To show the feasibility of our system, we clearly show the difference in saturation
   using the spectral images obtained by a prototype designed using the proposed method.
-featured: false
-publication: '*Thirteenth International Conference on Quality Control by Artificial
-  Vision 2017*'
-doi: 10.1117/12.2266765
 ---
-

@@ -1,12 +1,6 @@
 ---
 title: Classification of C2C12 cells at differentiation by convolutional neural network
   of deep learning using phase contrast images
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2017-01-01'
-publishDate: '2023-08-20T08:45:17.761103Z'
 authors:
 - H. Niioka
 - S. Asatani
@@ -14,8 +8,12 @@ authors:
 - H. Ohigashi
 - S. Tagawa
 - J. Miyake
+date: '2017-01-01'
+publishDate: '2023-11-27T07:32:35.231985Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*Human Cell*'
+doi: 10.1007/s13577-017-0191-9
 abstract: © 2017 The Author(s) In the field of regenerative medicine, tremendous numbers
   of cells are necessary for tissue/organ regeneration. Today automatic cell-culturing
   system has been developed. The next step is constructing a non-invasive method to
@@ -30,8 +28,6 @@ abstract: © 2017 The Author(s) In the field of regenerative medicine, tremendou
   in cellular shape depending on the number of days of culture (Day 0, Day 3, Day
   6) are classified with 91.3% accuracy. Image analysis with CNN has a potential to
   realize regenerative medicine industry.
-featured: false
-publication: '*Human Cell*'
 tags:
 - Automatic target recognition
 - Cell differentiation
@@ -39,6 +35,4 @@ tags:
 - Deep learning
 - Image analysis
 - Phase contrast microscopy
-doi: 10.1007/s13577-017-0191-9
 ---
-

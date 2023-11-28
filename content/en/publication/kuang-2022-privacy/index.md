@@ -1,11 +1,5 @@
 ---
 title: Anonymous identity sampling and reusable synthesis for sensitive face camouflage
-_build:
-  render: never
-  list: never
-  publishResources: false
-date: '2022-03-01'
-publishDate: '2023-08-20T08:43:20.189906Z'
 authors:
 - Zhenzhong Kuang
 - Longbin Teng
@@ -13,8 +7,12 @@ authors:
 - Jiajun Ding
 - Yuta Nakashima
 - Noboru Babaguchi
+date: '2022-03-01'
+publishDate: '2023-11-28T10:16:24.694814Z'
 publication_types:
-- '2'
+- article-journal
+publication: '*Journal of Electronic Imaging*'
+doi: https://doi.org/10.1117/1.JEI.31.2.023011
 abstract: An increasing amount of face images are being captured, shared, or applied
   in various applications. These images usually contain lots of sensitive information
   that may lead to privacy disclosure and misuse problems. Some pioneering works show
@@ -28,11 +26,7 @@ abstract: An increasing amount of face images are being captured, shared, or app
   the k-nearest neighbors to make a good balance between anonymity and utility of
   the original face image. The experimental results over the public dataset have verified
   the feasibility and state-of-the-art efficacy of our approach.
-featured: false
-publication: '*Journal of Electronic Imaging*'
-doi: https://doi.org/10.1117/1.JEI.31.2.023011
 links:
 - name: URL
   url: https://doi.org/10.1117/1.JEI.31.2.023011
 ---
-
