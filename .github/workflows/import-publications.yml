@@ -57,5 +57,7 @@ jobs:
         uses: peter-evans/create-pull-request@v5
         with:
           commit-message: ":robot: created pr to update publication"
-          branch: master
+          base: master
+          branch: dev
           title: ":robot: automatic"
+          token: ${{ secrets.GITHUB_TOKEN }}
