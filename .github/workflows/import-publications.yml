@@ -37,8 +37,10 @@ jobs:
         # Note GH only provides hashFiles func in `steps.if` context, not `jobs.if` context
         if: ${{ hashFiles('bibtex/islab.bib') != '' }}
         run: |
-          academic import bibtex/islab.bib content/en/publication/ --compact
-          academic import bibtex/islab.bib content/ja/publication/ --compact
+          cat bibtex/islab.bib | sed 's/\\underline{\(.*\)}/\1/g' > bibtex/temp.bib
+          academic import bibtex/temp.bib content/en/publication/ --compact --overwrite
+          academic import bibtex/temp.bib content/ja/publication/ --compact --overwrite
+          rm bibtex/temp.bib
       - name: Create pull request
         uses: peter-evans/create-pull-request@v5
         with:
