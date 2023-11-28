@@ -9,7 +9,7 @@ authors:
 - Shoko Miyauchi
 - Ryo Kurazume
 date: '2020-01-01'
-publishDate: '2023-11-27T07:32:35.330780Z'
+publishDate: '2023-11-28T13:40:05.735902Z'
 publication_types:
 - paper-conference
 publication: '*Lecture Notes in Computer Science (including subseries Lecture Notes

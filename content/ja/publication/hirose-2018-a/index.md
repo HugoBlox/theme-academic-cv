@@ -10,7 +10,7 @@ authors:
 - S. Deguchi
 - M. Hashimoto
 date: '2018-01-01'
-publishDate: '2023-11-27T07:32:35.508502Z'
+publishDate: '2023-11-28T13:40:05.917436Z'
 publication_types:
 - article-journal
 publication: '*Biomedical Optics Express*'

@@ -8,7 +8,7 @@ authors:
 - Atsushi Shimada
 - Rin Ichiro Taniguchi
 date: '2017-12-01'
-publishDate: '2023-11-27T07:32:35.577043Z'
+publishDate: '2023-11-28T13:40:05.978824Z'
 publication_types:
 - article-journal
 publication: '*Sensors (Switzerland)*'

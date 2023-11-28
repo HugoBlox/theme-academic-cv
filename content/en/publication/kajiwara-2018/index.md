@@ -4,7 +4,7 @@ authors:
 - Tomoyuki Kajiwara
 - Mamoru Komachi
 date: '2018-01-01'
-publishDate: '2023-11-28T10:16:25.254137Z'
+publishDate: '2023-11-28T13:40:04.228033Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of the Thirteenth Workshop on Innovative Use of NLP for

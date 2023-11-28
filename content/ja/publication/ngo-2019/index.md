@@ -7,7 +7,7 @@ authors:
 - Rin ichiro Taniguchi
 - Yasushi Yagi
 date: '2019-12-01'
-publishDate: '2023-11-27T07:32:35.406004Z'
+publishDate: '2023-11-28T13:40:05.812419Z'
 publication_types:
 - article-journal
 publication: '*International Journal of Computer Vision*'

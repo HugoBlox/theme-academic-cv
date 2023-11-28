@@ -8,7 +8,7 @@ authors:
 - Yuta Nakashima
 - Hajime Nagahara
 date: '2022-01-01'
-publishDate: '2023-11-28T10:16:24.673915Z'
+publishDate: '2023-11-28T13:40:03.642516Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of the 2nd Conference of the Asia-Pacific Chapter of the

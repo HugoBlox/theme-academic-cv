@@ -9,7 +9,7 @@ authors:
 - Yuta Nakashima
 - Hajime Nagahara
 date: '2020-11-01'
-publishDate: '2023-11-27T07:32:35.058960Z'
+publishDate: '2023-11-28T13:40:05.475402Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings - Workshop on Noisy User-generated Text (W-NUT 2020)*'
