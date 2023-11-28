@@ -5,7 +5,7 @@ authors:
 - Yuta Nakashima
 - Noa Garcia
 date: '2022-06-01'
-publishDate: '2023-11-28T10:16:24.730159Z'
+publishDate: '2023-11-28T13:40:03.700630Z'
 publication_types:
 - paper-conference
 publication: '*Proc.~ACM Conference on Fairness, Accountability, and Transparency

@@ -6,7 +6,7 @@ authors:
 - Leon Nguyen
 - Noboru Babaguchi
 date: '2020-01-01'
-publishDate: '2023-11-28T10:16:25.219814Z'
+publishDate: '2023-11-28T13:40:04.193217Z'
 publication_types:
 - article-journal
 publication: '*ITE Transactions on Media Technology and Applications*'

@@ -4,7 +4,7 @@ authors:
 - Yukihiro Sasagawa
 - Hajime Nagahara
 date: '2020-08-01'
-publishDate: '2023-11-28T10:16:24.952674Z'
+publishDate: '2023-11-28T13:40:03.923149Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings - European Conference on Computer Vision*'

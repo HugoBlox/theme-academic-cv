@@ -5,7 +5,7 @@ authors:
 - Tomoyuki. Kajiwara
 - Yuki. Arase
 date: '2019-01-01'
-publishDate: '2023-11-28T10:16:25.176995Z'
+publishDate: '2023-11-28T13:40:04.140446Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of the ACL 2019 Student Research Workshop (ACL 2019 SRW)*'

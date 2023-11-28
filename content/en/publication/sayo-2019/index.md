@@ -9,7 +9,7 @@ authors:
 - Hiroshi Kawasaki
 - Katsushi Ikeuchi
 date: '2019-11-01'
-publishDate: '2023-11-28T10:16:25.266518Z'
+publishDate: '2023-11-28T13:40:04.240693Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings - Pacific-Rim Symposium on Image and Video Technology*'

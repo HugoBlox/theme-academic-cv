@@ -5,7 +5,7 @@ authors:
 - Mayu Otani
 - Yuta Nakashima
 date: '2018-06-01'
-publishDate: '2023-11-28T10:16:25.037397Z'
+publishDate: '2023-11-28T13:40:04.000352Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings - International Conference on Compuational Linguistics

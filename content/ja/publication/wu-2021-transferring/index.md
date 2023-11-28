@@ -8,7 +8,7 @@ authors:
 - Yuta Nakashima
 - Haruo Takemura
 date: '2021-11-01'
-publishDate: '2023-11-27T07:32:34.927705Z'
+publishDate: '2023-11-28T13:40:05.343642Z'
 publication_types:
 - paper-conference
 publication: '*Proc.~British Machine Vision Conference (BMVC)*'

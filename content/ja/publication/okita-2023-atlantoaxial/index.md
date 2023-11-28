@@ -10,7 +10,7 @@ authors:
 - Hajime Nagahara
 - Atsushi Kumanogoh
 date: '2023-01-01'
-publishDate: '2023-11-27T07:32:34.670752Z'
+publishDate: '2023-11-28T13:40:05.098276Z'
 publication_types:
 - article-journal
 publication: '*Arthritis Research & Therapy*'

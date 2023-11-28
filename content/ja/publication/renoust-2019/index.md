@@ -12,7 +12,7 @@ authors:
 - J. Wang
 - Y. Fujioka
 date: '2019-01-01'
-publishDate: '2023-11-27T07:32:35.261245Z'
+publishDate: '2023-11-28T13:40:05.665364Z'
 publication_types:
 - paper-conference
 publication: '*SUMAC 2019 - Proceedings of the 1st Workshop on Structuring and Understanding

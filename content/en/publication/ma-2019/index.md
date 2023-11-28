@@ -7,7 +7,7 @@ authors:
 - Hajime Nagahara
 - Rin ichiro Taniguchi
 date: '2019-02-01'
-publishDate: '2023-11-28T10:16:25.085978Z'
+publishDate: '2023-11-28T13:40:04.049191Z'
 publication_types:
 - article-journal
 publication: '*Optics and Laser Technology*'

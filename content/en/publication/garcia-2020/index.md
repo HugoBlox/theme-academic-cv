@@ -6,7 +6,7 @@ authors:
 - Benjamin Renoust
 - Yuta Nakashima
 date: '2020-01-01'
-publishDate: '2023-11-28T10:16:25.440854Z'
+publishDate: '2023-11-28T13:40:04.417753Z'
 publication_types:
 - article-journal
 publication: '*International Journal of Multimedia Information Retrieval*'

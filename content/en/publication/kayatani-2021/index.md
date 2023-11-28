@@ -9,7 +9,7 @@ authors:
 - Yuta Nakashima
 - Haruo Takemura
 date: '2021-01-01'
-publishDate: '2023-11-28T10:16:24.881128Z'
+publishDate: '2023-11-28T13:40:03.852121Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings - IEEE/CVF Winter Conference on Applications of Computer

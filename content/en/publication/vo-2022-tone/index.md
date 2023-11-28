@@ -4,7 +4,7 @@ authors:
 - Anh-Khoa Vo
 - Yuta Nakashima
 date: '2022-01-01'
-publishDate: '2023-11-28T10:16:24.634930Z'
+publishDate: '2023-11-28T13:40:03.601132Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of the 3rd ACM Workshop on Intelligent Cross-Data Analysis

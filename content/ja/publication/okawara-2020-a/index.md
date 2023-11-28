@@ -6,7 +6,7 @@ authors:
 - Hajime Nagahara
 - Yasushi Yagi
 date: '2020-01-01'
-publishDate: '2023-11-27T07:32:35.136365Z'
+publishDate: '2023-11-28T13:40:05.538461Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings - 2020 IEEE International Conference on Computational Photography

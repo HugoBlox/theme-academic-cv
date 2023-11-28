@@ -6,7 +6,7 @@ authors:
 - Yankun Wu
 - Yuta Nakashima
 date: '2023-06-01'
-publishDate: '2023-11-28T10:16:24.580131Z'
+publishDate: '2023-11-28T13:40:03.544276Z'
 publication_types:
 - paper-conference
 publication: '*Proc.~IEEE/CVF Conference on Computer Vision and Pattern Recognition
