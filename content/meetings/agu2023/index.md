@@ -28,6 +28,7 @@ List of sessions where HiMAT researchers are presenting at the AGU 2023 Fall Mee
 | [H21T-1613](https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1425957) | Future of Multiday Monsoon Precipitation Extremes: A Case Study over Southern Pakistan | Tue 12 Dec | 08:30 - 12:50 | Ishrat Dollan | Yes |
 | [C22B](https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/211054) | Observations and Models of Glacier Change IV Oral | Tue 12 Dec | 10:20 - 11:50 | Bruce Raup | No |
 | [EP23D-1974](https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1444616) | Mapping the Proximal Hazard of Glacial Lake Outburst Floods across High Mountain Asia | Tue 12 Dec | 14:10 - 18:30 | Jonathan Jacquet | |
+| [Poster Hall A-C South Pod 5](https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/220312) | NASA HiMAT "Office Hours" | Tue 12 Dec | 15:00-16:00 | Summer Rupper, Albert Wu | |
 | [ED33B-0947](https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1423147) | GeoGradApp Workshop- Initial Findings of An Intervention Designed to Create a More Transparent Graduate School Application Process | Wed 13 Dec | 14:10 - 18:30 | Malisse Lummus | Yes |
 | [NH33B-04](https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1441596) | Mapping Glacial Lake Outburst Flood Hazard Through Time and Space in High Mountain Asia | Wed 13 Dec | 14:46 - 14:52 | Scott McCoy | No |
 | [GC41M-1286](https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1367834) | Effect of glaciers on orographic and synoptic-scale atmospheric circulations | Thu 14 Dec | 08:30 - 12:50 | Husile Bai | |
@@ -37,5 +38,5 @@ List of sessions where HiMAT researchers are presenting at the AGU 2023 Fall Mee
 | [C51C-0963](https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1281066) | Long-term trend and variability of black carbon source and transport to the High Mountain Asia | Fri 15 Dec | 08:30 - 12:50 | Cenlin He | Yes |
 | [C51C-0969](https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1322453) | Validation of an Atmospheric/Chemistry Reanalysis Dataset with MODIS Snow Products over High Mountain Asia | Fri 15 Dec | 08:30 - 12:50 | Will Cheng | No |
 | [Online Poster Session](https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1445411) | On the Importance and Confidence on Downscaled Climate Model Outputs for Hydrological Analysis in High Mountain Asia | Tue 23 Jan 2024 | 08:00 - 09:30 | Anju Vijayan Nair | Yes |
-| TBD | NASA HiMAT "Office Hours" | TBD | TBD | Summer Rupper, Albert Wu | No |
+
 
