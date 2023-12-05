@@ -7,9 +7,9 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@main
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2.6.0
+        uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: latest
+          hugo-version: v0.114.0
       - name: Build 
         run: hugo
       - name: Deploy
