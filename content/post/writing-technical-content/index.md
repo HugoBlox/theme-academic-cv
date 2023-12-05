@@ -7,6 +7,8 @@ image:
   caption: 'Image credit: [**John Moeses Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)'
 ---
 
+hugo自动化部署测试
+
 Wowchemy is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.
 
 **Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.**
@@ -111,7 +113,7 @@ renders as
       ```js
       console.log('hello');
       console.log('code block');
-      ```
+```
     - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
 ```
 
