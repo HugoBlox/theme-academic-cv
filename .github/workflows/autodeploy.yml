@@ -1,0 +1,22 @@
+name: Auto Deploy hugo acedemic
+on: [push]
+jobs:
+  hugo-auto-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: latest
+      - name: Build 
+        run: hugo
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ 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 }} # secret 中设置好私钥
+          external_repository: FanfanShen/starter-hugo-academic.git  # Page 仓库
+          publish_branch: main  # Page 仓库的分支
+          publish_dir: ./public # 静态网页路径
+          commit_message: ${{ github.event.head_commit.message }}
