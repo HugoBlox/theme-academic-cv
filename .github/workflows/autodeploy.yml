@@ -2,7 +2,7 @@ name: Auto Deploy hugo acedemic
 on:
   push:
     branches:
-      - master  # Set a branch to deploy
+      - main  # Set a branch to deploy
 
 jobs:
   hugo-auto-deploy:
