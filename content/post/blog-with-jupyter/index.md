@@ -32,3 +32,7 @@ academic import 'notebooks/**.ipynb' content/post/ --verbose
 ```
 
 The notebooks will be published to the folder you specify above. In this case, they will be published to your `content/post/` folder.
+
+
+
+做个测试
