@@ -1,22 +1,36 @@
 name: Auto Deploy hugo acedemic
-on: [push]
+on:
+  push:
+    branches:
+      - master  # Set a branch to deploy
+
 jobs:
   hugo-auto-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
-        uses: actions/checkout@main
+        uses: actions/checkout@v3
+        with:
+            submodules: true
+            fetch-depth: 0
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 0.114.0
+          hugo-version: "latest" # 0.114.0
+          extended: true
+
       - name: Build 
-        run: hugo
-      - name: Deploy
+        run: |
+        hugo -F --cleanDestinationDir  # 生成静态文件
+        mkdir -p public  # 确保public文件夹存在
+        cp -r public/* ./  # 复制生成的静态文件到仓库根目录
+
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{ secrets.HugoAutoDeployToken }} # secret 中设置好私钥
-          external_repository: FanfanShen/starter-hugo-academic.git  # Page 仓库
-          publish_branch: main  # Page 仓库的分支
-          publish_dir: ./public # 静态网页路径
+          personal_token: ${{ secrets.HUGO_TOKEN }} # secret 中设置好私钥
+          external_repository: FanfanShen/fanfanshen.github.io  # Page 仓库
+          publish_branch: master  # Page 仓库的分支
+          publish_dir: ./docs # 静态网页路径
           commit_message: ${{ github.event.head_commit.message }}
