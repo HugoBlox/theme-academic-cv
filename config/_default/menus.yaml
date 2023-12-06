@@ -7,21 +7,38 @@ main:
   - name: Home
     url: '#about'
     weight: 10
-  - name: Posts
-    url: '#posts'
+  - name: News
+    url: '#news'
     weight: 20
+  - name: Publications
+    url: '#publications'
+    weight: 30
   - name: Projects
     url: '#projects'
-    weight: 30
-  - name: Talks
-    url: '#talks'
     weight: 40
-  - name: Publications
-    url: '#featured'
+  - name: Students
+    url: '#students'
     weight: 50
+
+  - name: Courses
+    identifier: courses
+    weight: 60
+  - name: BigDataStorage
+    parent: courses
+    url: '/courses/BigDataStorage'
+    weight: 10
+  - name: OperatingSystem
+    parent: courses
+    url: '/courses/OperatingSystem'
+    weight: 10
+
+  - name: Library
+    url: 'library'
+    weight: 70
   - name: Contact
     url: '#contact'
-    weight: 60
+    weight: 80
+
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
