@@ -20,5 +20,8 @@
 
 ### 3.探索自动构建
 - codespaces只用编写源码，github workflow自动构建
+- 当前版本通过actions能够自动构建
+- 只用关心编写MD文件即可
+- starter-hugo-academic会自动发布到github pages的仓库
 
 -------------------------------------------------------------
