@@ -17,7 +17,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "latest" # 0.114.0
+          hugo-version: "latest"
           extended: true
 
       - name: Build 
@@ -32,5 +32,6 @@ jobs:
           personal_token: ${{ secrets.HUGO_TOKEN }} # secret 中设置好私钥
           external_repository: FanfanShen/fanfanshen.github.io  # Page 仓库
           publish_branch: master  # Page 仓库的分支
-          publish_dir: ./docs # 静态网页路径
+          publish_dir: ./ # 服务器上生成的静态网页源路径
+          destination_dir: ./docs
           commit_message: ${{ github.event.head_commit.message }}
