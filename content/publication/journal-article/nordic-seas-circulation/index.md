@@ -22,7 +22,7 @@ featured: false
 title: "The mid-depth circulation of the Nordic Seas derived from profiling float observations "
 url_code: ""
 url_dataset: ""
-url_pdf: "https://www.tandfonline.com/doi/abs/10.1111/j.1600-0870.2009.00444.x?needAccess=true#aHR0cHM6Ly93d3cudGFuZGZvbmxpbmUuY29tL2RvaS9wZGYvMTAuMTExMS9qLjE2MDAtMDg3MC4yMDA5LjAwNDQ0Lng/bmVlZEFjY2Vzcz10cnVlQEBAMA=="
+url_pdf: "https://www.tandfonline.com/doi/epdf/10.1111/j.1600-0870.2009.00444.x"
 url_project: ""
 url_slides: ""
 url_video: ""

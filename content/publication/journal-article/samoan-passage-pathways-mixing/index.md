@@ -24,7 +24,7 @@ featured: false
 title: "Pathways, Volume Transport and Mixing of Abyssal Water in the Samoan Passage"
 url_code: ""
 url_dataset: ""
-url_pdf: "http://journals.ametsoc.org/doi/pdf/10.1175/JPO-D-14-0096.1"
+url_pdf: "https://journals.ametsoc.org/downloadpdf/journals/phoc/45/2/jpo-d-14-0096.1.xml"
 url_project: ""
 url_slides: ""
 url_video: ""

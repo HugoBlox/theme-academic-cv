@@ -25,7 +25,7 @@ featured: false
 title: "Warming and Weakening of the flow through Samoan Passage"
 url_code: ""
 url_dataset: ""
-url_pdf: "http://journals.ametsoc.org/doi/pdf/10.1175/JPO-D-16-0063.1"
+url_pdf: "https://journals.ametsoc.org/downloadpdf/journals/phoc/46/8/jpo-d-16-0063.1.xml"
 url_project: ""
 url_slides: ""
 url_video: ""

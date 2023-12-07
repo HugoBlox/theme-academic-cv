@@ -26,7 +26,7 @@ featured: false
 title: "Pacific Abyssal Transport and Mixing: Through the Samoan Passage versus around the Manihiki Plateau"
 url_code: ""
 url_dataset: ""
-url_pdf: "http://journals.ametsoc.org/doi/pdf/10.1175/JPO-D-18-0124.1"
+url_pdf: "https://journals.ametsoc.org/downloadpdf/journals/phoc/49/6/jpo-d-18-0124.1.xml"
 url_project: ""
 url_slides: ""
 url_video: ""
