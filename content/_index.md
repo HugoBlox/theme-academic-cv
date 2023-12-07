@@ -101,13 +101,13 @@ sections:
       subtitle: ''
       text: ''
       # Contact details - edit or remove options as needed
-      email: ffshen AT nau DOT edu DOT cn （将AT替换为@，将DOT替换为点.） 
+      email: 邮箱：ffshen AT nau DOT edu DOT cn （将AT替换为“@”，将DOT替换为点“.”） 
       address:
-        street: 江苏省
+        street: 地址：江苏省
         city: 南京市
         region: 浦口区江浦街道雨山西路86号致明楼222办公室
       office_hours:
-        - '周一至周五 09:00 to 17:00'
+        - '工作时间：周一至周五 09:00 to 17:00'
       contact_links:
         - icon: weixin
           icon_pack: fab
