@@ -22,7 +22,7 @@ featured: false
 title: "Topographic Form Drag on Tides and Low-Frequency Flow: Observations of Nonlinear Lee Waves over a Tall Submarine Ridge near Palau"
 url_code: ""
 url_dataset: ""
-url_pdf: "http://onlinelibrary.wiley.com/doi/10.1002/grl.50684/pdf"
+url_pdf: "https://journals.ametsoc.org/downloadpdf/journals/phoc/50/5/jpo-d-19-0257.1.xml"
 url_project: ""
 url_slides: ""
 url_video: ""
