@@ -18,11 +18,11 @@ organizations:
   url: "https://scripps.ucsd.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include small-scale physical oceanic processes and their role for the global ocean circulation.
+bio: My research focus are small-scale physical oceanic processes and their role for the global ocean circulation.
 
 interests:
-- Overflows and Hydraulics
 - Flow-Topography Interaction
+- Overflows and Hydraulics
 - Ocean Turbulence and Mixing
 - Internal Waves
 - Global Overturning Circulation
@@ -51,18 +51,21 @@ social:
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.co.uk/citations?user=t_5BIqAAAAAJ
-- icon: semantic-scholar
-  icon_pack: ai
-  link: https://www.semanticscholar.org/author/Gunnar-Voet/152508655
+#- icon: semantic-scholar
+#  icon_pack: ai
+#  link: https://www.semanticscholar.org/author/Gunnar-Voet/152508655
 - icon: orcid
   icon_pack: ai
   link: https://orcid.org/0000-0003-1975-186X
-- icon: researchgate
-  icon_pack: ai
-  link: https://www.researchgate.net/profile/Gunnar-Voet
-- icon: osf
-  icon_pack: ai
-  link: https://osf.io/hvdn7/
+#- icon: researchgate
+#  icon_pack: ai
+#  link: https://www.researchgate.net/profile/Gunnar-Voet
+#- icon: osf
+#  icon_pack: ai
+#  link: https://osf.io/hvdn7/
+- icon: mastodon
+  icon_pack: fab
+  link: https://fediscience.org/@gvoet
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 - icon: cv
@@ -79,4 +82,4 @@ email: ""
 #- Visitors
 ---
 
-I am a physical oceanographer working as project scientist at the [Scripps Institution of Oceanography](https://scripps.ucsd.edu/). My research interests include oceanic processes like dense overflows and hydraulics, internal waves and turbulent mixing, and their impacts on the large-scale ocean circulation. My research is primarily based on the collection and analysis of shipboard and moored in-situ observations. I am a member of [Multiscale Ocean Dynamics](http://mod.ucsd.edu) at Scripps.
+I am a physical oceanographer at the [Scripps Institution of Oceanography](https://scripps.ucsd.edu/). My research interests include oceanic processes like dense overflows and hydraulics, internal waves and turbulent mixing, and their impacts on the large-scale ocean circulation. My research is primarily based on the collection and analysis of shipboard and moored in-situ observations. I am a member of [Multiscale Ocean Dynamics](http://mod.ucsd.edu) at Scripps.
