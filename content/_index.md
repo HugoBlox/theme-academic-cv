@@ -101,7 +101,7 @@ sections:
       subtitle: ''
       text: ''
       # Contact details - edit or remove options as needed
-      email: ffshen@nau.edu.cn
+      email: ffshen AT nau DOT edu DOT cn （将AT替换为@，将DOT替换为点.） 
       address:
         street: 江苏省
         city: 南京市
