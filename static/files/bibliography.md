@@ -1,3 +1,9 @@
+Voet, G., Waterhouse, A.F., Savage, A.C., Kunze, E., MacKinnon, J.A.,
+Alford, M.H., Colosi, J.A., Simmons, H.L., Klenz, T., Kelly, S.M., Moum,
+J.N., Whalen, C.B., Lien, R.-C., Girton, J.B. Near-inertial energy
+variability in a strong mesoscale eddy field in Iceland Basin.
+*Oceanography*. submitted.
+
 Cusack, J.M., Tan, S., Voet, G., Pratt, L.J., Alford, M.H., Carter,
 G.S., Girton, J.B. The dynamics and stability of a deep ocean overflow.
 *J. Geophys. Res. Oceans*. in preparation.
