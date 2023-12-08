@@ -4,14 +4,14 @@
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 42  # Order that this section will appear.
+weight = 43  # Order that this section will appear.
 
-title = "Data"
+title = "Publications"
 subtitle = ""
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "2"
+  columns = "1"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -47,18 +47,5 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-<!-- I {{< icon name="heart" pack="fas" padding_left="0" padding_right="0" >}} Open Data & Reproducible Research. -->
 
-### Samoan Passage
-Mooring and shipboard data from the [Samoan Passage project]({{< ref "/project/samoan-passage" >}}).
-
-[{{< icon name="github" pack="fab" padding_left="0" padding_right="1">}}data repository](https://github.com/gunnarvoet/sp-data-archive)
-
-### PISTON
-Mooring data from [PISTON]({{< ref "/project/piston" >}}). 
-
-[{{< icon name="github" pack="fab" padding_left="0" padding_right="1">}}data repository](https://github.com/gunnarvoet/piston-mooring-data)
-&nbsp; | &nbsp;
-[{{< icon name="github" pack="fab" padding_left="0" padding_right="1">}}processing code](https://github.com/gunnarvoet/piston-proc)
-
-PISTON data have also been archived to the official [{{< icon name="database" pack="fas" padding_left="1" padding_right="2">}}CAMP2EX_PISTON data repository](https://www-air.larc.nasa.gov/cgi-bin/ArcView/camp2ex?MOORING=1) hosted by NASA.
+{{% include file="static/files/bibliography.md" %}}

@@ -1,0 +1,3 @@
+{{ $file := .Get "file" }}
+{{ $file | readFile | replaceRE "^---[\\s\\S]+?---" "" | safeHTML }}
+
