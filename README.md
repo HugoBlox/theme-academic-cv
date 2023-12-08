@@ -7,6 +7,8 @@ To update the list, update `static/files/gv.bib` and run `make biblio`.
 ## Theme
 Based on the [Hugo Academic Theme](https://academic-demo.netlify.app/).
 
+Sort entries by scores in the headers of the files in `content/home`. Individual sections can also be turned on/off there.
+
 ### Theme License
 
 Copyright 2017-present [George Cushen](https://georgecushen.com).
