@@ -27,10 +27,12 @@ weight: 1
 
 ## 二、课程资源
 
-- [2023年课件PPT地址](https://pan.baidu.com/s/1qzxmW44K8OcAsm8T1Fjbrg?pwd=cvix)
+- updating：[2023年课件PPT地址](https://pan.baidu.com/s/1qzxmW44K8OcAsm8T1Fjbrg?pwd=cvix)
 - 教材：计算机操作系统（慕课版），汤小丹 王红玲 姜华 汤子瀛编著，人民邮电出版社
-- 数字化资源：[官方全书慕课视频(新书的封底有激活码)](https://www.rymooc.com/Course/show/714)，[B站官方教学视频王红玲主讲](https://www.bilibili.com/video/BV17h411B7yW/)
-- [Linux命令大全](http://www.runoob.com/linux/linux-command-manual.html)，[著名的操作系统专家Andrew S. Tanenbaum的个人网页](http://www.cs.vu.nl/~ast/)，
+- 本书官方视频资源：[1.官方全书慕课视频(新书的封底有刮刮卡激活码)](https://www.rymooc.com/Course/show/714)，[2.B站官方教学视频王红玲主讲](https://www.bilibili.com/video/BV17h411B7yW/)
+- MIT神级OS课程，强烈推荐学习：[operating systems 6.828](https://pdos.csail.mit.edu/6.828/2023/index.html) 
+- 上海交通大学陈海波老师，华为操作系统首席科学家，专注操作系统研究，[IPADS实验室](https://ipads.se.sjtu.edu.cn/start)，教材与实验：[操作系统原理与实现](https://ipads.se.sjtu.edu.cn/ospi/)，建议自学完成实验部分
+- [Linux命令大全](http://www.runoob.com/linux/linux-command-manual.html)，著名的操作系统专家[Andrew S. Tanenbaum的个人网站](http://www.cs.vu.nl/~ast/)
 
 ## 三、课程考核方式
 
@@ -44,7 +46,7 @@ weight: 1
 
 每章对应的PPT课件在这里，[2023年课件PPT地址](https://pan.baidu.com/s/1qzxmW44K8OcAsm8T1Fjbrg?pwd=cvix)
 
-| 第n次课 |                             章节                             |                             内容                             |            备注             |
+| Lesson Number |                             章节                             |                             内容                             |            备注             |
 | :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: | :-------------------------: |
 |    1    | 第1章 操作系统引论1.1-1.5节 <br />[第1章思维导图](/courses/OperatingSystem/mindmap/chapter1.png) | 操作系统的目标和作用、操作系统的发展过程、操作系统的基本特性、操作系统的主要功能、操作系统的结构设计 |                             |
 |    2    | 第1章 操作系统引论1.6节1.7节<br />第2章 进程描述与控制 2.1-2.4节<br />[第2章思维导图](/courses/OperatingSystem/mindmap/chapter2.png) |                前趋图、进程的描述、控制、通信                |   第1章作业，课后1，2，25   |
@@ -59,3 +61,4 @@ weight: 1
 |    11    | 习题讲解、期中测试  | 作业讲解、测试 |   |
 |    12    | 第7章 输入输出系统7.8 <br /> 第8章文件管理8.1和8.2 [第8章思维导图](/courses/OperatingSystem/mindmap/chapter8.png) | 磁盘调度、文件和文件系统、文件的逻辑结构 |   |
 |    13    |  第8章文件管理8.1和8.2[第8章思维导图](/courses/OperatingSystem/mindmap/chapter8.png) | 文件目录、文件共享、文件保护 | 作业13，14  |
+|    14    |  第9章磁盘存储器管理 9.1和9.2[第9章思维导图](/courses/OperatingSystem/mindmap/chapter9.png) | 外存的组织方式、文件存储空间管理 | 作业15，16  |
