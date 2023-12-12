@@ -24,6 +24,7 @@ List of sessions where HiMAT researchers are presenting at the AGU 2023 Fall Mee
 | [C21A-02](https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1291918) | Creating a Glacio-Hydrologic Disturbance Index for High Mountain Asia | Tue 12 Dec | 08:40 - 08:50 | Malisse Lummus | Yes |
 | [C21A-03](https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1411032) | Calibration of snow cover using HiMAT products and SAR time series for glacio-hydrological modelling in High Mountain Asia | Tue 12 Dec | 08:50 - 09:00 | Smriti Srivastava | Yes |
 | [H21U-1618](https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1353152) | Decadal changes in daily streamflow across High Mountain Asia | Tue 12 Dec | 08:30 - 12:50 | Jonathan Flores | Yes |
+| [H21U-1621](https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1423810) | A multi-model evaluation of water budget closure in High Mountain Asia | Tue 12 Dec | 08:30 - 12:50 | Sasha McLarty | No |
 | [GC21F-0962](https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1246319) | Landslide mapping and forecasting system for the Karnali River Basin, Nepal | Tue 12 Dec | 08:30 - 12:50 | Pukar Amatya | No |
 | [GC21K-1070](https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1381671) | How uncertain are BC emissions in High Mountain Asia? An inverse modeling approach | Tue 12 Dec | 08:30 - 12:50 | Chayan Roychoudhury | |
 | [H21T-1613](https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1425957) | Future of Multiday Monsoon Precipitation Extremes: A Case Study over Southern Pakistan | Tue 12 Dec | 08:30 - 12:50 | Ishrat Dollan | Yes |
