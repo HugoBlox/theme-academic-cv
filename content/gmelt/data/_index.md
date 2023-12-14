@@ -91,7 +91,7 @@ The following tables list data products that have been produced or will soon be 
 |[GFDL FLOR modeled daily precipitation](https://nsidc.org/data/HMA_EAPrecip_FLOR/versions/1)  | precip, model | 1961 to 2000, 1982 to 2017, 2061 to 2100  |HMA    |Kirschbaum, Kapnick (HMA-1)|
 |[GFDL FLOR modeled extreme precipitation indices](https://nsidc.org/data/HMA_Precip_FLOR/versions/1)   |precip, model |2000 to 2016   |HMA         |Kirschbaum, Kapnick (HMA-1)|
 |[TRMM-derived 3B42 extreme precipitation indices](https://nsidc.org/data/HMA_Precip_3B42/versions/1)  |precip |1999 to 2017   |near-global |Kirschbaum (HMA-1) |
-| Downscaled daily precipitation derived from GFDL SPEAR 30-member ensemble | precip, model | daily | 5 km resolution | Nikolopoulos (HMA-2) | 
+|[Daily 5 km Downscaled SPEAR Precipitation and Air Temperature Projections](https://nsidc.org/data/hma2_dspat/versions/1) | precip, model | daily, 2015 to 2100 | 5 km resolution | Nikolopoulos (HMA-2) | 
                                            
 
 ## Landslides and Hazards
@@ -125,10 +125,12 @@ The following tables list data products that have been produced or will soon be 
 | Title | Tags | Temporal Coverage | Geographic Coverage | PI | Notes/References
 |-------|------|-------------------|---------------------|----|----------------------
 |[Global Inter-Basin Hydrological Transfer Database](https://data.msdlive.org/records/fkaan-vw036) | hydrological modeling | | Global | Rounce (HMA-2) | [Lammers et al, 2022](https://doi.org/10.57931/1905995)
+| [Daily 0.05 x 0.05 deg Noah-MP Land Surface Model Reanalysis](https://nsidc.org/data/hma2_nlsmr/versions/1) | water budget | 2003 to 2020 | HMA | Kumar, S (HMA-2) | |
 |River vector discharge at overpass intervals over entire domain | discharge |  | | Gleason (HMA-2) | Estimated publication: TBD
 |Small river vector discahrge from Planet over select basins | discharge | | | Gleason (HMA-2) | Estimated publication: summer 2023
 |Total water storage, river discharge, other major water balance variables over HMA  | TWS, discharge | 1980 - | 6 arcminute resolution | Rounce (HMA-2) | Estimated publication: spring 2023
-|Water Balance Model output for Parts of Afghanistan, Tajikistan, Kyrgystan, and Pakistan | hydrological modeling | 2016-2099 | Western HMA | Rounce (HMA-2) |
+|[CMIP6 Monthly and Yearly Water Balance Projections, 2016-2099 for Parts of Afghanistan, Tajikistan, Kyrgyzstan, and Pakistan](https://nsidc.org/data/hma2_wbp/versions/1) | hydrological modeling | 2016-2099 | Western HMA | Rounce (HMA-2) |
+|[5 Arc-Minute Hydrological Flow Direction for the Headwaters of the Amu Darya and Indus River Basins](https://nsidc.org/data/hma2_hfd/versions/1) | flow direction | 2023 | Amu Darya, Indus River Basins | Rounce (HMA-2) |
 
 ## Weather Station Data
 
