@@ -59,6 +59,8 @@ weight: 1
 |    9    | 第6章 虚拟存储器6.4-6.6 <br /> [第6章思维导图](/courses/OperatingSystem/mindmap/chapter6.png) <br /> 第7章 输入输出系统7.1-7.2 <br /> [第7章思维导图](/courses/OperatingSystem/mindmap/chapter7.png)| 抖动、请求分段存储管理方式、I/0系统的功能模型接口、I/O设备控制器、 | 第6章作业，课后13，15，18 |
 |    10    | 第7章 输入输出系统7.3-7.7 <br /> [第7章思维导图](/courses/OperatingSystem/mindmap/chapter7.png)| 中断和中断处理程序、设备驱动程序、与设备无关的I/O软件、用户层的I/O软件、缓冲区管理 |   |
 |    11    | 习题讲解、期中测试  | 作业讲解、测试 |   |
-|    12    | 第7章 输入输出系统7.8 <br /> 第8章文件管理8.1和8.2 [第8章思维导图](/courses/OperatingSystem/mindmap/chapter8.png) | 磁盘调度、文件和文件系统、文件的逻辑结构 |   |
-|    13    |  第8章文件管理8.1和8.2[第8章思维导图](/courses/OperatingSystem/mindmap/chapter8.png) | 文件目录、文件共享、文件保护 | 作业13，14  |
-|    14    |  第9章磁盘存储器管理 9.1和9.2[第9章思维导图](/courses/OperatingSystem/mindmap/chapter9.png) | 外存的组织方式、文件存储空间管理 | 作业15，16  |
+|    12    | 第7章 输入输出系统7.8 <br /> 第8章文件管理8.1和8.2 <br /> [第8章思维导图](/courses/OperatingSystem/mindmap/chapter8.png) | 磁盘调度、文件和文件系统、文件的逻辑结构 |   |
+|    13    |  第8章文件管理8.1和8.2 <br /> [第8章思维导图](/courses/OperatingSystem/mindmap/chapter8.png) | 文件目录、文件共享、文件保护 | 作业13，14  |
+|    14    |  第9章磁盘存储器管理 9.1和9.2 <br />  [第9章思维导图](/courses/OperatingSystem/mindmap/chapter9.png) | 外存的组织方式、文件存储空间管理 | 作业15，16  |
+|    15    |  第9章磁盘存储器管理 9.3-9.6 <br /> [第9章思维导图](/courses/OperatingSystem/mindmap/chapter9.png) | 磁盘速度、可靠性、一致性等新技术 |    |
+|    16    |  复习课、习题课 | 练习：[配套练习题库](https://www.doc88.com/p-73247196945596.html) |    |
