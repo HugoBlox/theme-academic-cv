@@ -27,7 +27,7 @@ weight: 1
 
 ## 二、课程资源
 
-- updating：[2023年课件PPT地址](https://pan.baidu.com/s/1qzxmW44K8OcAsm8T1Fjbrg?pwd=cvix)
+- updating：[2023年操作系统课件PPT](https://pan.baidu.com/s/1qzxmW44K8OcAsm8T1Fjbrg?pwd=cvix)，[配套练习题库](https://www.doc88.com/p-73247196945596.html)
 - 教材：计算机操作系统（慕课版），汤小丹 王红玲 姜华 汤子瀛编著，人民邮电出版社
 - 本书官方视频资源：[1.官方全书慕课视频(新书的封底有刮刮卡激活码)](https://www.rymooc.com/Course/show/714)，[2.B站官方教学视频王红玲主讲](https://www.bilibili.com/video/BV17h411B7yW/)
 - MIT神级OS课程，强烈推荐学习：[operating systems 6.828](https://pdos.csail.mit.edu/6.828/2023/index.html) 
