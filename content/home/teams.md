@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 3  # Order that this section will appear.
 
-title = "Teams"
+title = "Topics"
 subtitle = ""
 
 [content]
@@ -33,6 +33,10 @@ subtitle = ""
   [[content.filter_button]]
      name = "Cross-team Collaborations"
      tag = "crossteam-collab"
+     
+  [[content.filter_button]]
+     name = "Science Highlights"
+     tag = "science highlight"
   
    # [[content.filter_button]]
    #   name = "PI-led"
