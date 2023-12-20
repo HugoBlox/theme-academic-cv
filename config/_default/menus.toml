@@ -20,7 +20,7 @@
 
 [[main]]
   name = "Topics"
-  url = "#teams"
+  url = "#topics"
   weight = 40
 
 [[main]]

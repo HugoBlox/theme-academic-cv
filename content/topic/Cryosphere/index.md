@@ -13,6 +13,9 @@ image:
   preview_only: true
   caption: 
   focal_point: Smart
+  
+aliases:
+- /team/Cryosphere
 
 ---
 
