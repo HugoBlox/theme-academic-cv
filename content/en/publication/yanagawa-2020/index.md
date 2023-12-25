@@ -18,7 +18,7 @@ authors:
 - Jun Miyake
 - Noriyuki Tomiyama
 date: '2020-10-01'
-publishDate: '2023-11-28T13:40:03.880078Z'
+publishDate: '2023-12-25T01:39:58.852997Z'
 publication_types:
 - article-journal
 publication: '*European Radiology*'

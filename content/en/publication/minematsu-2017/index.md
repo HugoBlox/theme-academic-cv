@@ -7,7 +7,7 @@ authors:
 - Hajime Nagahara
 - Rin ichiro Taniguchi
 date: '2017-09-01'
-publishDate: '2023-11-28T13:40:04.186061Z'
+publishDate: '2023-12-25T01:39:59.154700Z'
 publication_types:
 - article-journal
 publication: '*Pattern Recognition Letters*'

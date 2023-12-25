@@ -7,7 +7,7 @@ authors:
 - Tomokazu Sato
 - Naokazu Yokoya
 date: '2018-08-01'
-publishDate: '2023-11-28T13:40:05.971605Z'
+publishDate: '2023-12-25T01:40:00.901255Z'
 publication_types:
 - article-journal
 publication: '*Journal of Visual Communication and Image Representation*'

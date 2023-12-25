@@ -7,7 +7,7 @@ authors:
 - Janne Heikkilä Esa Rahtu
 - Tetsuya Sakai
 date: '2022-06-01'
-publishDate: '2023-11-28T13:40:03.713634Z'
+publishDate: '2023-12-25T01:39:58.684170Z'
 publication_types:
 - paper-conference
 publication: '*Proc.~IEEE/CVF Conference on Computer Vision and Pattern Recognition

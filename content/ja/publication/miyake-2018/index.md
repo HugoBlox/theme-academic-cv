@@ -8,7 +8,7 @@ authors:
 - H. Niioka
 - T. Hirano
 date: '2018-01-01'
-publishDate: '2023-11-28T13:40:05.964903Z'
+publishDate: '2023-12-25T01:40:00.894433Z'
 publication_types:
 - article-journal
 publication: '*Human Cell*'
