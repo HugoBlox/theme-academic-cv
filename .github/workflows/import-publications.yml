@@ -37,27 +37,15 @@ jobs:
         # Note GH only provides hashFiles func in `steps.if` context, not `jobs.if` context
         if: ${{ hashFiles('bibtex/islab.bib') != '' }}
         run: |
-          academic import bibtex/islab.bib content/en/publication/ --compact
-          academic import bibtex/islab.bib content/ja/publication/ --compact
-      - name: Update check
-        id: changes
-        run: |
-          git add -N .
-          echo "count=$(git diff --name-only | wc -l)" >> $GITHUB_OUTPUT
-      - name: Commit and push
-        run: |
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
-          git add .
-          git commit -m ":robot: updated publication"
-          git push origin dev
-        if: steps.changes.outputs.count > 0
+          cat bibtex/islab.bib | sed 's/\\underline{\(.*\)}/\1/g' > bibtex/temp.bib
+          academic import bibtex/temp.bib content/en/publication/ --compact --overwrite
+          academic import bibtex/temp.bib content/ja/publication/ --compact --overwrite
+          rm bibtex/temp.bib
       - name: Create pull request
-        if: steps.changes.outputs.count > 0
         uses: peter-evans/create-pull-request@v5
         with:
           commit-message: ":robot: created pr to update publication"
           base: master
-          branch: dev
+          branch: import-publications
           title: ":robot: automatic"
           token: ${{ secrets.GITHUB_TOKEN }}
