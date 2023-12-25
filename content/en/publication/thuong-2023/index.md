@@ -5,7 +5,7 @@ authors:
 - Trung Thanh Ngo
 - Hajime Nagahara
 date: '2023-01-01'
-publishDate: '2023-11-28T13:40:03.502704Z'
+publishDate: '2023-12-25T01:39:58.448143Z'
 publication_types:
 - article-journal
 publication: '*IEEE Access*'

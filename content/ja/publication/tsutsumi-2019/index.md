@@ -11,7 +11,7 @@ authors:
 - Y. Maehara
 - M. Hashizume
 date: '2019-01-01'
-publishDate: '2023-11-28T13:40:05.650334Z'
+publishDate: '2023-12-25T01:40:00.574869Z'
 publication_types:
 - article-journal
 publication: '*Journal of Surgical Research*'

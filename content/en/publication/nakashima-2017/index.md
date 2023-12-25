@@ -8,7 +8,7 @@ authors:
 - Ambrosio Blanco
 - Katsushi Ikeuchi
 date: '2017-01-01'
-publishDate: '2023-11-28T13:40:04.083826Z'
+publishDate: '2023-12-25T01:39:59.061435Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings - British Machine Vision Conference (BMVC)*'
