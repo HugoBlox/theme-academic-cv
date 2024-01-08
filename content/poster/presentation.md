@@ -21,6 +21,6 @@ My PhD project is called LIFTS for **_"LearnIng Featured Transition Systems"_**.
 3. Can we learn FTS in a **white/grey-box** testing fashion? (i.e. with access to source code);
 4. How do the proposed techniques **scale** in practice?
 
-The ongoing development were summarised in the following poster. It was presented in April 2022, during the second edition of the [Women & Girls in Science Day](https://wgis.unamur.be/) organised by the University of Namur (Belgium).
+This project was summarised in the following poster. It was presented in April 2022, during the second edition of the [Women & Girls in Science Day](https://wgis.unamur.be/) organised by the University of Namur (Belgium).
 
 <center><iframe src="/uploads/poster.pdf" width="70%" height="1350px"></center>

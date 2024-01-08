@@ -36,9 +36,6 @@ Additionally, CSLabs annually organizes a Hackathon, a thrilling programming con
 
 I had the privilege of joining CSLabs shortly after its inception, and my involvement deepened as I assumed the role of secretary on the board after a few months. I was in charge of tasks such as:
 
-# CSLabs also help student to find a student job in a computer science related field. They can help with the general organisation, building a team for bigger project or writing contrats to be sure that your rights are respected and that you will be paid the fair price.
-
-
 - Organising board meetings and general assembly
 - Writing new procedures (very important for such a young organisation!)
 - Being in charge of recruitment procedures

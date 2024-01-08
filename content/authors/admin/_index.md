@@ -6,22 +6,23 @@ title: Sophie Fortz
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. #in Software Testing
+role: Postdoctoral Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: University of Namur
-    url: https://www.unamur.be
+  - name: King's College London
+    url: https://www.kcl.ac.uk/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include software testing, software product lines and behavioural modelling.
+bio: My research interests include quantum programming, software product lines and behavioural modelling.
 
 # Interests to show in About widget
 interests:
-  - Software testing
+  - Quantum programming
   - Software product lines
   - Behavioural modelling
   - Automata learning
+  - Software testing
   - AI4SE & SE4AI
 
 
@@ -45,10 +46,10 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:sophie.fortz@unamur.be
-  - icon: university
-    icon_pack: fas
-    link: https://directory.unamur.be/staff/sfortz
+    link: mailto:sophie.fortz@kcl.ac.uk
+  # - icon: university
+  #  icon_pack: fas
+  #  link: https://directory.unamur.be/staff/sfortz
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/FortzSophie
@@ -79,12 +80,8 @@ email: ''
 highlight_name: true
 ---
 
-My name is Sophie Fortz and I am a postdoctoral researcher specializing in software engineering at the University of Namur. My research is conducted under the expert guidance of Dr. Gilles Perrouin and Prof. Patrick Heymans. Additionally, I hold membership in the PReCISE research center and the Namur Digital Institute.
+My name is Sophie Fortz and I am a postdoctoral researcher with expertise in software engineering. Currently, I'm deeply involved in quantum programming as part of the VSL-Q project at King's College London. In this exciting project, we are dedicated to providing verified simulation of large-scale quantum systems. Our focus extends beyond the theoretical to the practical, addressing platform specificities, noise and scalability issues. This endeavour represents a collaborative synergy, bringing together experts from diverse fields such as physics, programming languages, and software engineering. Working alongside Prof. Mohammad Reza Mousavi, I’ll be channeling my previous expertise towards pioneering testing techniques specifically tailored for quantum programs.
 
-My academic trajectory began with an initial year of PhD funded by the FNRS EoS (Excellence of Science) VeriLearn project, before I secured a competitive [FRIA (FNRS) Grant](https://www.frs-fnrs.be/en/financements-resp/chercheur-doctorant). 
+Before embarking on this quantum journey, I did a Ph.D. at the University of Namur. Under the guidance of Dr. Gilles Perrouin and Prof. Patrick Heymans, I delved into the intricacies of software engineering. After being funded by the FNRS EoS (Excellence of Science) VeriLearn project for a year, I secured a competitive [FRIA (FNRS) Grant](https://www.frs-fnrs.be/en/financements-resp/chercheur-doctorant). In September 2023, I successfully defended my thesis, entitled [*"LIFTS: Learning Featured Transition Systems"*](poster). 
 
-My doctoral thesis, [*"LIFTS: Learning Featured Transition Systems"*](poster), reflects my passion for exploring topics such as variability-intensive systems, behavioral modeling, model-based software testing, AI4SE and SE4AI.
-
-Currently, I have returned to the EoS VeriLearn project for a brief postdoctoral appointment before transitioning to a new chapter in my academic journey. I am excited to join Professor Mohammad Reza Mousavi's team at King's College, London, where I will be focusing on testing techniques for quantum programs. 
-
-On my spare hours, I like to read and follow [drawing/painting classes](painting). I was also an active member of [the Belgian Guide Federation](guides) for years, where I have been successively girl guide, group leader and trainer.
+On my spare hours, I like to read, [draw and paint](painting). I was also an active member of [the Belgian Guide Federation](guides) for years, where I have been successively girl guide, group leader and trainer.
