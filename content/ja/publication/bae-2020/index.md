@@ -6,7 +6,7 @@ authors:
 - Hajime Nagahara
 - In Kyu Park
 date: '2020-01-01'
-publishDate: '2023-12-25T01:40:00.338522Z'
+publishDate: '2024-01-12T12:26:49.530698Z'
 publication_types:
 - paper-conference
 publication: '*International Conference on Pattern Recognition*'

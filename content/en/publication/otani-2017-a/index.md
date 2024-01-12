@@ -7,7 +7,7 @@ authors:
 - Janne Heikkilä
 - Naokazu Yokoya
 date: '2017-01-01'
-publishDate: '2023-12-25T01:39:59.169311Z'
+publishDate: '2024-01-12T12:26:48.326876Z'
 publication_types:
 - paper-conference
 publication: '*画像の認識・理解シンポジウム(MIRU2017)論文集*'

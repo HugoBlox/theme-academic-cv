@@ -10,7 +10,7 @@ authors:
 - M. Numao
 - K. Shinohara
 date: '2020-01-01'
-publishDate: '2023-12-25T01:40:00.967706Z'
+publishDate: '2024-01-12T12:26:50.155181Z'
 publication_types:
 - article-journal
 publication: '*Frontiers in Psychology*'
