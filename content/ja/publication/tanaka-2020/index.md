@@ -8,7 +8,7 @@ authors:
 - Hidehiro Yasuda
 - Hirohiko Niioka
 date: '2020-09-01'
-publishDate: '2023-12-25T01:40:00.418460Z'
+publishDate: '2024-01-12T12:26:49.610258Z'
 publication_types:
 - article-journal
 publication: '*ACS Omega*'

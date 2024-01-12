@@ -6,7 +6,7 @@ authors:
 - Chenhui Chu
 - Yuta Nakashima
 date: '2020-02-01'
-publishDate: '2023-12-25T01:40:00.733116Z'
+publishDate: '2024-01-12T12:26:49.922571Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings - 2020 AAAI Conference on Artificial Intelligence*'

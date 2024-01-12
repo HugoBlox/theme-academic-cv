@@ -6,7 +6,7 @@ authors:
 - Yuta Nakashima
 - Shanmuganathan Raman
 date: '2020-04-01'
-publishDate: '2023-12-25T01:40:00.803848Z'
+publishDate: '2024-01-12T12:26:49.993150Z'
 publication_types:
 - paper-conference
 publication: '*The IEEE/CVF Conference on Computer Vision and Pattern Recognition

@@ -9,7 +9,7 @@ authors:
 - S. Tagawa
 - J. Miyake
 date: '2017-01-01'
-publishDate: '2023-12-25T01:39:59.003297Z'
+publishDate: '2024-01-12T12:26:48.160406Z'
 publication_types:
 - article-journal
 publication: '*Human Cell*'
