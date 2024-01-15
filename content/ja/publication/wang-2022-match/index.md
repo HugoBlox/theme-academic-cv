@@ -8,7 +8,7 @@ authors:
 - Ryo Kawasaki
 - Hajime Nagahara
 date: '2022-01-01'
-publishDate: '2024-01-12T12:26:49.309071Z'
+publishDate: '2024-01-15T05:01:00.900846Z'
 publication_types:
 - article-journal
 publication: '*Applied Intelligence*'

@@ -10,7 +10,7 @@ authors:
 - Yuta Nakashima
 - Hajime Nagahara
 date: '2020-10-01'
-publishDate: '2024-01-12T12:26:49.580813Z'
+publishDate: '2024-01-15T05:01:01.179291Z'
 publication_types:
 - article-journal
 publication: '*Applied Network Science*'

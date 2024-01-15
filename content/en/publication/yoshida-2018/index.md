@@ -10,7 +10,7 @@ authors:
 - Rin Ichiro Taniguchi
 - Hajime Nagahara
 date: '2018-01-01'
-publishDate: '2024-01-12T12:26:48.233484Z'
+publishDate: '2024-01-15T05:00:59.808008Z'
 publication_types:
 - paper-conference
 publication: '*Lecture Notes in Computer Science (including subseries Lecture Notes

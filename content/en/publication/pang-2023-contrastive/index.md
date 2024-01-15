@@ -6,7 +6,7 @@ authors:
 - Mayu Otani
 - Hajime Nagahara
 date: '2023-01-01'
-publishDate: '2024-01-12T12:26:47.762908Z'
+publishDate: '2024-01-15T05:00:59.342613Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of the IEEE/CVF Winter Conference on Applications of Computer

@@ -8,7 +8,7 @@ authors:
 - A. Shimada
 - R.-I. Taniguchi
 date: '2017-01-01'
-publishDate: '2024-01-12T12:26:50.055115Z'
+publishDate: '2024-01-15T05:01:01.656359Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of SPIE - The International Society for Optical Engineering*'

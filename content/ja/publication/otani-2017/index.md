@@ -6,7 +6,7 @@ authors:
 - Esa Rahtu
 - Janne Heikkilä
 date: '2017-01-01'
-publishDate: '2024-01-12T12:26:49.730696Z'
+publishDate: '2024-01-15T05:01:01.332473Z'
 publication_types:
 - paper-conference
 publication: '*Proceeedings - Workshop on Closing the Loop Between Vision and Language

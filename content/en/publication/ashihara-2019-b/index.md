@@ -9,7 +9,7 @@ authors:
 - Yuta Nakashima
 - Hajime Nagahara
 date: '2019-11-01'
-publishDate: '2024-01-12T12:26:48.374822Z'
+publishDate: '2024-01-15T05:00:59.949603Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings - International Conference on Complex Networks and Their

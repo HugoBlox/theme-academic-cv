@@ -8,7 +8,7 @@ authors:
 - Keita Yasutomi
 - Shoji Kawahito
 date: '2016-01-01'
-publishDate: '2024-01-12T12:26:48.417727Z'
+publishDate: '2024-01-15T05:00:59.992600Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings - International Conference on Pattern Recognition*'

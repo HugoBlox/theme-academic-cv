@@ -4,7 +4,7 @@ authors:
 - Thuong Nguyen Canh
 - Hajime Nagahara
 date: '2019-10-01'
-publishDate: '2024-01-12T12:26:48.473084Z'
+publishDate: '2024-01-15T05:01:00.047413Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings - 2019 International Conference on Computer Vision Workshop,

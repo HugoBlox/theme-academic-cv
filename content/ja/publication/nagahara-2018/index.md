@@ -6,7 +6,7 @@ authors:
 - Toshiki Sonoda
 - Jinwei Gu
 date: '2018-12-01'
-publishDate: '2024-01-12T12:26:49.978678Z'
+publishDate: '2024-01-15T05:01:01.579640Z'
 publication_types:
 - paper-conference
 publication: '*IEEE Computer Society Conference on Computer Vision and Pattern Recognition

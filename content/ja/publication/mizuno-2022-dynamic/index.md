@@ -8,7 +8,7 @@ authors:
 - Toshiaki Fujii
 - Hajime Nagahara
 date: '2022-06-01'
-publishDate: '2024-01-12T12:26:49.288078Z'
+publishDate: '2024-01-15T05:01:00.879591Z'
 publication_types:
 - paper-conference
 publication: '*Proc.~IEEE/CVF Conference on Computer Vision and Pattern Recognition

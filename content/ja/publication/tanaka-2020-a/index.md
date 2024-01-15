@@ -1,7 +1,7 @@
 ---
 title: Constructing a public meeting corpus
 date: '2020-05-01'
-publishDate: '2024-01-12T12:26:49.659374Z'
+publishDate: '2024-01-15T05:01:01.260999Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings - the 12th International Conference on Language Resources
