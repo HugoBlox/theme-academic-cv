@@ -13,7 +13,7 @@ authors:
 - Huy H Nguyen
 - Ngoc-Dung T Tieu
 date: '2021-01-01'
-publishDate: '2024-01-12T12:26:49.559114Z'
+publishDate: '2024-01-15T05:01:01.157331Z'
 publication_types:
 - article-journal
 publication: '*IEICE Transactions on Information and Systems*'

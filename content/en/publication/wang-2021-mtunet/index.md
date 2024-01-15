@@ -8,7 +8,7 @@ authors:
 - Ryo Kawasaki
 - Hajime Nagahara
 date: '2021-06-01'
-publishDate: '2024-01-12T12:26:47.933235Z'
+publishDate: '2024-01-15T05:00:59.510551Z'
 publication_types:
 - paper-conference
 publication: '*Proc.~IEEE/CVF Conference on Computer Vision and Pattern Recognition

@@ -7,7 +7,7 @@ authors:
 - Ryo Kawasaki
 - Hajime Nagahara
 date: '2020-01-01'
-publishDate: '2024-01-12T12:26:48.559218Z'
+publishDate: '2024-01-15T05:01:00.132801Z'
 publication_types:
 - paper-conference
 publication: '*Medical Imaging with Deep Learning (MIDL)*'

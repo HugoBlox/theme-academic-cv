@@ -8,7 +8,7 @@ authors:
 - K. Yasutomi
 - S. Kawahito
 date: '2018-01-01'
-publishDate: '2024-01-12T12:26:48.119597Z'
+publishDate: '2024-01-15T05:00:59.695745Z'
 publication_types:
 - article-journal
 publication: '*Sensors (Switzerland)*'

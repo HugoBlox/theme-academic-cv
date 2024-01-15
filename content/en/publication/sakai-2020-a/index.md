@@ -6,7 +6,7 @@ authors:
 - Toshiaki Fujii
 - Hajime Nagahara
 date: '2020-08-01'
-publishDate: '2024-01-12T12:26:48.048562Z'
+publishDate: '2024-01-15T05:00:59.625188Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings - European Conference on Computer Vision*'

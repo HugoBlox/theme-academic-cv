@@ -9,7 +9,7 @@ authors:
 - Hajime Nagahara
 - Ryo Kawasaki
 date: '2023-01-01'
-publishDate: '2024-01-12T12:26:47.776334Z'
+publishDate: '2024-01-15T05:00:59.355946Z'
 publication_types:
 - article-journal
 publication: '*PLOS Digital Health*'

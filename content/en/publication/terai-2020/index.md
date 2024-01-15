@@ -11,7 +11,7 @@ authors:
 - Haruo Takemura
 - Hajime Nagahara
 date: '2020-03-01'
-publishDate: '2024-01-12T12:26:48.381760Z'
+publishDate: '2024-01-15T05:00:59.956611Z'
 publication_types:
 - paper-conference
 publication: '*International Conference on Intelligent User Interfaces, Proceedings

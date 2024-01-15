@@ -8,7 +8,7 @@ authors:
 - Yuta Nakashima
 - Haruo Takemura
 date: '2020-01-01'
-publishDate: '2024-01-12T12:26:48.537619Z'
+publishDate: '2024-01-15T05:01:00.111441Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings - 2020 IEEE Winter Conference on Applications of Computer

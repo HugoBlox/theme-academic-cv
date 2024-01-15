@@ -8,7 +8,7 @@ authors:
 - Yuta Nakashima
 - Katsushi Ikeuchi
 date: '2021-09-01'
-publishDate: '2024-01-12T12:26:47.905559Z'
+publishDate: '2024-01-15T05:00:59.483137Z'
 publication_types:
 - paper-conference
 publication: '*Proc.~International Conference on Image Processing (ICIP)*'
