@@ -81,11 +81,11 @@ As a research institute with a mission to provide data science-related technolog
 
 ### We are hiring!
 
-We have multiple open postdoc positions. [Click here](/post/we-are-hiring/) for more details. 
+We have multiple open postdoc positions. [Click here](/en/post/we-are-hiring/) for more details. 
 
 ### For prospective students
 
-We welcome students who want to work with us. [Click here](/post/prospective-students/) for more details.
+We welcome students who want to work with us. [Click here](/en/post/prospective-students/) for more details.
 
 ### Interests
 - Computer Vision
