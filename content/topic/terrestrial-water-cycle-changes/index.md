@@ -26,11 +26,7 @@ impacts of a changing climate and human management on land surface processes and
 hydrology in HMA.
 
 {{<figure src="/img/topic/terrestrial-water-cycle-changes/figure1.png"
-caption="Figure 1: Key elements of the terrestrial water cycle reanalysis: Multisensor,
-multivariate constraints on the terrestrial water budget from remote sensing;
-Multi-decadal land reanalysis through data assimilation and land surface modeling;
-Quantification of the hydrological budget, trends, and extremes as a contribution to
-GMELT">}}
+caption="Figure 1: Key elements of the terrestrial water cycle reanalysis: Multisensor, multivariate constraints on the terrestrial water budget from remote sensing; Multi-decadal land reanalysis through data assimilation and land surface modeling; Quantification of the hydrological budget, trends, and extremes as a contribution to GMELT">}}
 
 High-quality precipitation datasets are critical for land surface modeling. Nonetheless,
 precipitation is highly uncertain especially in complex environments such as HMA where it
