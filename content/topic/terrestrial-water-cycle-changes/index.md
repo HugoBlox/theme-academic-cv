@@ -117,8 +117,8 @@ due to pumping decrease evapotranspiration, while laboriously meeting the demand
 ###### References
 
 [^1]:[Maina, F. Z., Kumar, S. V., Dollan, I. J., & Maggioni, V. 2022 "Development and
-evaluation of ensemble consensus precipitation estimates over High Mountain Asia"]
-(/publication/maina-development-2022/)
+evaluation of ensemble consensus precipitation estimates over High Mountain
+Asia"](/publication/maina-development-2022/)
 
 [^2]:[Maina, F.Z., Kumar, S. V., Albergel, C., Mahanama S. P. 2022 "Warming, increase in
 precipitation, and irrigation enhance greening in High Mountain
