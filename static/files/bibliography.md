@@ -1,8 +1,12 @@
-Voet, G., Waterhouse, A.F., Savage, A.C., Kunze, E., MacKinnon, J.A.,
-Alford, M.H., Colosi, J.A., Simmons, H.L., Klenz, T., Kelly, S.M., Moum,
-J.N., Whalen, C.B., Lien, R.-C., Girton, J.B. Near-inertial energy
-variability in a strong mesoscale eddy field in Iceland Basin.
-*Oceanography*. submitted.
+van Haren, H., Voet, G., Alford, M.H., Fernández-Castro, B., Naveira
+Garabato, A., Wynne-Cattanach, B.L., Mercier, H., Messias, M.-J.
+Near-slope turbulence in a Rockall canyon. *Deep Sea Res. I*. in review.
+
+Wynne-Cattanach, B.L., Couto, N., Drake, H.F., Ferrari, R., Le Boyer,
+A., Mercier, H., Messias, M.-J., Ruan, X., Spingys, C.P., van Haren, H.,
+Voet, G., Polzin, K., Naveira Garabato, A.C., Alford, M.H. Observational
+evidence of diapycnal upwelling within a sloping submarine canyon.
+*Nature*. in review.
 
 Cusack, J.M., Tan, S., Voet, G., Pratt, L.J., Alford, M.H., Carter,
 G.S., Girton, J.B. The dynamics and stability of a deep ocean overflow.
@@ -13,16 +17,23 @@ Polzin, K.L., Ferrari, R., Messias, M.-J., Mercier, H. Moored
 observations of tidal mixing and dynamics in a Rockall Trough canyon.
 *Geophys. Res. Lett.* in preparation.
 
+Voet, G., Waterhouse, A.F., Savage, A.C., Kunze, E., MacKinnon, J.A.,
+Alford, M.H., Colosi, J.A., Simmons, H.L., Klenz, T., Kelly, S.M., Moum,
+J.N., Whalen, C.B., Lien, R.-C., Girton, J.B. Near-inertial energy
+variability in a strong mesoscale eddy field in Iceland Basin.
+*Oceanography*. accepted.
+
+Marques, O.B., Alford, M.H., Pinkel, R., MacKinnon, J.A., Voet, G.,
+Klymak, J.M., Nash, J.D. Observations of Tidally Driven Turbulence over
+Steep, Small-Scale Topography Embedded in the Tasman Slope. *J. Phys.
+Oceanogr.* 54, 601–615. <https://doi.org/10.1175/JPO-D-23-0038.1>.
+**2024**.
+
 Gutiérrez Brizuela, N., Alford, M.H., Xie, S.-P., Sprintall, J., Voet,
 G., Warner, S.J., Hughes, K., Moum, J.N. Prolonged thermocline warming
 by near-inertial internal waves in the wakes of tropical cyclones.
 *Proc. Natl. Acad. Sci.* 120, e2301664120.
 <https://doi.org/10.1073/pnas.2301664120>. **2023**.
-
-Marques, O.B., Alford, M.H., Pinkel, R., MacKinnon, J.A., Voet, G.,
-Klymak, J.M., Nash, J.D. Observations of tidally driven turbulence over
-steep, small-scale topography embedded in the Tasman slope. *J. Phys.
-Oceanogr.* <https://doi.org/10.1175/JPO-D-23-0038.1>. **2023**.
 
 Voet, G., Alford, M.H., Cusack, J.M., Pratt, L.J., Girton, J.B., Carter,
 G.S., Klymak, J.M., Tan, S., Thurnherr, A.M. Energy and Momentum of a
