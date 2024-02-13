@@ -69,7 +69,7 @@ sections:
           location: Malatya, Turkey
           date_start: '2023-03-06'
           date_end: ''
-          description: |2-
+          #description: |2-
         - title: Visiting Associate Professor
           company: The University of British Columbia
           company_url: ''
@@ -77,17 +77,9 @@ sections:
           location: Vancouver, Canada
           date_start: '2019-02-15'
           date_end: '2019-08-15'
-          description: |2-
-    - title: Associate Professor of Statistics
-          company: The University of British Columbia
-          company_url: ''
-          # company_logo: org-x
-          location: Vancouver, Canada
-          date_start: '2017-01-15'
-          date_end: '2023-03-06'
-          description: |2-
+          #description: |2 - 
     design:
-      columns: '3'
+      columns: '2'
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
