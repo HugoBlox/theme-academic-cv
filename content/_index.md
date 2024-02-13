@@ -85,6 +85,14 @@ sections:
           location: Vancouver, Canada
           date_start: '2019-02-15'
           date_end: '2019-08-15'
+          #description: |2 -
+        - title: Visiting Associate Professor
+          company: The University of British Columbia
+          company_url: ''
+          # company_logo: org-x
+          location: Vancouver, Canada
+          date_start: '2019-02-15'
+          date_end: '2019-08-15'
           #description: |2 - 
     design:
       columns: '2'
