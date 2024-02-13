@@ -25,13 +25,13 @@ organizations:
     url: https://www.inonu.edu.tr/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My main research interests include shrinkage estimation, spatial regression, high-dimensional statistics, big data, and machine learning methods.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Statistical Learning
+  - Machine Learning
+  - Big data & High Dimensional Data
 
 # Education to show in About widget
 education:
