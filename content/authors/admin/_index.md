@@ -25,7 +25,7 @@ organizations:
     url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-Bio : My main research interests include shrinkage estimation, spatial regression, high-dimensional statistics, big data, and machine learning methods.
+Bio: My main research interests include shrinkage estimation, spatial regression, high-dimensional statistics, big data, and machine learning methods.
 The focus of my research started with improving parameter estimation. I and my co-authors have published papers related to shrinkage and pretest estimations in linear and partially linear models. We also combined these techniques with some robust estimations. Furthermore, I have been working on
 improving penalized estimation methods, especially for high-dimensional problems and Big Data. Such problems can be found in areas like computer science, biometrics,  nance, network security, social media analysis, and industrial applications. High-dimensional data brings not only new opportunities to the understanding of data but also new challenges to data analysis, such as noise accumulation,
 spurious correlations, heavy computational cost, and algorithmic instability. In order to tackle
