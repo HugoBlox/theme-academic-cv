@@ -70,7 +70,6 @@ sections:
           date_start: '2023-03-06'
           date_end: ''
           description: |2-
-           
         - title: Visiting Associate Professor
           company: The University of British Columbia
           company_url: ''
@@ -88,7 +87,7 @@ sections:
           date_end: '2023-03-06'
           description: |2-
     design:
-      columns: '2'
+      columns: '3'
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
