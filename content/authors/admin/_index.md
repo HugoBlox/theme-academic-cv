@@ -51,7 +51,7 @@ education:
 skills:
   - name: Technical
     items:
-      - name: Python
+      - name: R
         description: ''
         percent: 80
         icon: python
@@ -61,9 +61,9 @@ skills:
         percent: 100
         icon: chart-line
         icon_pack: fas
-      - name: SQL
+      - name: SPSS
         description: ''
-        percent: 40
+        percent: 95
         icon: database
         icon_pack: fas
   - name: Hobbies
@@ -75,12 +75,12 @@ skills:
         percent: 60
         icon: person-hiking
         icon_pack: fas
-      - name: Cats
+      - name: Swimming
         description: ''
         percent: 100
         icon: cat
         icon_pack: fas
-      - name: Photography
+      - name: Travelling
         description: ''
         percent: 80
         icon: camera-retro
