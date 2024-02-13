@@ -22,7 +22,7 @@ role: Professor of Statistics
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: Inonu Universitity
-    # url: https://www.stanford.edu/
+    url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
 Bio : My main research interests include shrinkage estimation, spatial regression, high-dimensional statistics, big data, and machine learning methods.
