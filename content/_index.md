@@ -78,21 +78,29 @@ sections:
           date_start: '2019-02-15'
           date_end: '2019-08-15'
           #description: |2 -
-        - title: Visiting Associate Professor
-          company: The University of British Columbia
+        - title: Associate Professor of Statistics
+          company: Inonu University
           company_url: ''
           # company_logo: org-x
-          location: Vancouver, Canada
-          date_start: '2019-02-15'
-          date_end: '2019-08-15'
+          location: Malatya, Turkey
+          date_start: '2017'
+          date_end: '2023'
           #description: |2 -
-        - title: Visiting Associate Professor
-          company: The University of British Columbia
+        - title: Visiting Assistant Professor
+          company: Brock University
           company_url: ''
           # company_logo: org-x
-          location: Vancouver, Canada
-          date_start: '2019-02-15'
-          date_end: '2019-08-15'
+          location: St. Catharines, Canada
+          date_start: '2016-05-15'
+          date_end: '2016-07-15'
+          #description: |2 -
+        - title: Assistant Professor of Statistics
+          company: Inonu University
+          company_url: ''
+          # company_logo: org-x
+          location: Malatya, Turkey
+          date_start: '2015'
+          date_end: '2017'
           #description: |2 - 
     design:
       columns: '2'
