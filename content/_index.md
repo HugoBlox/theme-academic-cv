@@ -66,19 +66,19 @@ sections:
           company: Inonu University
           company_url: ''
           # company_logo: org-gc
-          location: Malatya
+          location: Malatya, Turkey
           date_start: '2023-03-06'
           date_end: ''
           description: |2-
            
-        - title: Professor of Semiconductor Physics
-          company: University X
+        - title: Visiting Associate Professor
+          company: The University of British Columbia
           company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          # company_logo: org-x
+          location: Vancouver, Canada
+          date_start: '2019-02-15'
+          date_end: '2019-08-15'
+          description: |2-
     design:
       columns: '2'
   - block: accomplishments
