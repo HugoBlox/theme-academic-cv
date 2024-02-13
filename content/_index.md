@@ -83,8 +83,8 @@ sections:
           company_url: ''
           # company_logo: org-x
           location: Malatya, Turkey
-          date_start: '2019-02-15'
-          date_end: '2019-08-15'
+          date_start: '2017-02-15'
+          date_end: '2023-03-05'
           #description: |2 -
         - title: Visiting Assistant Professor
           company: Brock University
@@ -99,24 +99,24 @@ sections:
           company_url: ''
           # company_logo: org-x
           location: Malatya, Turkey
-          date_start: '2019-02-15'
-          date_end: '2019-08-15'
+          date_start: '2015-02-15'
+          date_end: '2017-08-15'
           #description: |2 -
         - title: Visiting International Scholar of PhD
           company: Brock University
           company_url: ''
           # company_logo: org-x
           location: St. Catharines, Canada
-          date_start: '2019-02-15'
-          date_end: '2019-08-15'
+          date_start: '2013-01-05'
+          date_end: '2014-01-05'
           #description: |2 -
         - title: Research Assistant
           company: Inonu University
           company_url: ''
           # company_logo: org-x
           location: Malatya, Turkey
-          date_start: '2009-02-15'
-          date_end: '2014-08-15'
+          date_start: '2009-09-15'
+          date_end: '2015-01-01'
           #description: |2 - 
     design:
       columns: '2'
