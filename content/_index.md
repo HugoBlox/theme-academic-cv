@@ -83,8 +83,8 @@ sections:
           company_url: ''
           # company_logo: org-x
           location: Malatya, Turkey
-          date_start: '2017'
-          date_end: '2023'
+          date_start: '2019-02-15'
+          date_end: '2019-08-15'
           #description: |2 -
         - title: Visiting Assistant Professor
           company: Brock University
@@ -99,8 +99,8 @@ sections:
           company_url: ''
           # company_logo: org-x
           location: Malatya, Turkey
-          date_start: '2015'
-          date_end: '2017'
+          date_start: '2019-02-15'
+          date_end: '2019-08-15'
           #description: |2 - 
     design:
       columns: '2'
