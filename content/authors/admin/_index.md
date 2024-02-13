@@ -25,25 +25,35 @@ organizations:
     # url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My main research interests include shrinkage estimation, spatial regression, high-dimensional statistics, big data, and machine learning methods.
+
+The focus of my research started with improving parameter estimation. I and my co-authors have published papers related to shrinkage and pretest estimations in linear and partially linear models. We also combined these techniques with some robust estimations. Furthermore, I have been working on
+improving penalized estimation methods, especially for high-dimensional problems and Big Data. Such problems can be found in areas like computer science, biometrics,  nance, network security, social media analysis, and industrial applications. High-dimensional data brings not only new opportunities to the understanding of data but also new challenges to data analysis, such as noise accumulation,
+spurious correlations, heavy computational cost, and algorithmic instability. In order to tackle
+these challenges, I have been working on not only developing the theory but also implementing
+algorithms in the R and C++ languages. I am also professionally working on coding my studies in
+R for publishing in CRAN.
+
+I am also deeply interested in doing collaborative research in each area rather than just in my main interest.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Machine Learning
+  - Big Data
+  - High Dimensional Data
+  - Spatial Data
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
+    - course: PhD in Applied Mathematics
+      institution: Inonu University
+      year: 2014
+    - course: Master in Mathematics
+      institution: Fırat University
+      year: 2010
+    - course: BSc in Mathematics
+      institution: Fırat University
       year: 2008
 
 # Skills
@@ -51,10 +61,10 @@ education:
 skills:
   - name: Technical
     items:
-      - name: Python
+      - name: R
         description: ''
-        percent: 80
-        icon: python
+        percent: 95
+        icon: R
         icon_pack: fab
       - name: Data Science
         description: ''
@@ -66,6 +76,11 @@ skills:
         percent: 40
         icon: database
         icon_pack: fas
+      - name: SPSS
+        description: ''
+        percent: 90
+        icon: chart-line
+        icon_pack: fas
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -75,12 +90,12 @@ skills:
         percent: 60
         icon: person-hiking
         icon_pack: fas
-      - name: Cats
+      - name: Swimming
         description: ''
         percent: 100
         icon: cat
         icon_pack: fas
-      - name: Photography
+      - name: Travelling
         description: ''
         percent: 80
         icon: camera-retro
@@ -96,19 +111,19 @@ social:
     link: '/#contact'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/BahadirYuzbasi
     label: Follow me on Twitter
     display:
       header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=XTmhw_cAAAAJ&hl=tr&oi=ao
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/byuzbasi
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: linkedin.com/in/bahadır-yüzbaşi-891507147
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -120,5 +135,5 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+# Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 {style="text-align: justify;"}
