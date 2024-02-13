@@ -120,5 +120,14 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+The focus of my research started with improving parameter estimation. I and my co-authors have published papers related to shrinkage and pretest estimations in linear and partially linear models. We also combined these techniques with some robust estimations. Furthermore, I have been working on
+improving penalized estimation methods, especially for high-dimensional problems and Big Data. Such problems can be found in areas like computer science, biometrics,  nance, network security, social media analysis, and industrial applications. High-dimensional data brings not only new opportunities to the understanding of data but also new challenges to data analysis, such as noise accumulation,
+spurious correlations, heavy computational cost, and algorithmic instability. In order to tackle
+these challenges, I have been working on not only developing the theory but also implementing
+algorithms in the R and C++ languages. I am also professionally working on coding my studies in
+R for publishing in CRAN.
+
+I am also deeply interested in doing collaborative research in each area rather than just in my
+main interest.
+
 {style="text-align: justify;"}
