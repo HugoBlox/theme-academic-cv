@@ -65,7 +65,7 @@ sections:
         - title: Professor of Statistics
           company: Inonu University
           company_url: ''
-          company_logo: org-gc
+          # company_logo: org-gc
           location: Malatya
           date_start: '2023-03-06'
           date_end: ''
