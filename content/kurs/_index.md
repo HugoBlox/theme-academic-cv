@@ -1,5 +1,5 @@
 ---
-title: Temel SPSS Kursu
+title: Kurs
 cms_exclude: true
 
 # View.
