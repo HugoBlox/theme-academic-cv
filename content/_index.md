@@ -173,7 +173,7 @@ sections:
       # Filter on criteria
       filters:
         folders:
-          - post
+          - kurs
         author: ""
         category: ""
         tag: ""
