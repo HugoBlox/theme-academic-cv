@@ -130,6 +130,6 @@ R for publishing in CRAN.
 I am also deeply interested in doing collaborative research in each area rather than just in my
 main interest.
 
-<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=22a3c9&w=a&t=tt&d=Ivy4oMrbYlVA0vsY8bFA4LKLiBP2TRvpN8ub_uN1km8&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080"></script>
+<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=Ivy4oMrbYlVA0vsY8bFA4LKLiBP2TRvpN8ub_uN1km8&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=0f0404"></script>
 
 {style="text-align: justify;"}
