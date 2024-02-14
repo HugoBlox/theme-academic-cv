@@ -206,8 +206,8 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
+        - name: Tubitak
+          tag: Tubitak
         - name: Other
           tag: Demo
     design:
