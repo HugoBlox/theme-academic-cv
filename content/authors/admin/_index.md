@@ -115,6 +115,8 @@ social:
   - icon: cv
     icon_pack: ai
     link: uploads/resume.pdf
+    
+    <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=6f7e82&w=250&t=tt&d=Ivy4oMrbYlVA0vsY8bFA4LKLiBP2TRvpN8ub_uN1km8&co=ffffff&cmo=41db47&cmn=cc3a66&ct=080101"></script>
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
