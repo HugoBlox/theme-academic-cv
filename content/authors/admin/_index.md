@@ -17,8 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Statistics
-Elected Member of International Statistical Institute 2023 -  
+role: Professor of Statistics - Elected Member of International Statistical Institute 2023 
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -32,7 +31,9 @@ bio: My main research interests include shrinkage estimation, spatial regression
 interests:
   - Statistical Learning
   - Machine Learning
-  - Big data & High Dimensional Data
+  - Big data High Dimensional Data
+  - High Dimensional Data
+  - Spatial Data
 
 # Education to show in About widget
 education:
