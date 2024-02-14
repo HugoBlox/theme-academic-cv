@@ -1,7 +1,7 @@
 ---
-title: Blog with Jupyter Notebooks!
-date: '2023-11-04'
-summary: Easily blog from Jupyter notebooks!
+title: Temel SPSS Kursu
+date: '2024-02-12'
+summary: İnönü Üniversitsi
 ---
 
 
