@@ -62,27 +62,62 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Professor of Statistics
+          company: Inonu University
           company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+          # company_logo: org-gc
+          location: Malatya, Turkey
+          date_start: '2023-03-06'
           date_end: ''
-          description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+          #description: |2-
+        - title: Visiting Associate Professor
+          company: The University of British Columbia
           company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          # company_logo: org-x
+          location: Vancouver, Canada
+          date_start: '2019-02-15'
+          date_end: '2019-08-15'
+          #description: |2 -
+        - title: Associate Professor of Statistics
+          company: Inonu University
+          company_url: ''
+          # company_logo: org-x
+          location: Malatya, Turkey
+          date_start: '2017-02-15'
+          date_end: '2023-03-05'
+          #description: |2 -
+        - title: Visiting Assistant Professor
+          company: Brock University
+          company_url: ''
+          # company_logo: org-x
+          location: St. Catharines, Canada
+          date_start: '2016-05-15'
+          date_end: '2016-07-15'
+          #description: |2 -
+        - title: Assistant Professor of Statistics
+          company: Inonu University
+          company_url: ''
+          # company_logo: org-x
+          location: Malatya, Turkey
+          date_start: '2015-02-15'
+          date_end: '2017-08-15'
+          #description: |2 -
+        - title: Visiting International Scholar of PhD
+          company: Brock University
+          company_url: ''
+          # company_logo: org-x
+          location: St. Catharines, Canada
+          date_start: '2013-01-05'
+          date_end: '2014-01-05'
+          #description: |2 -
+        - title: Research Assistant
+          company: Inonu University
+          company_url: ''
+          # company_logo: org-x
+          location: Malatya, Turkey
+          date_start: '2009-09-15'
+          date_end: '2015-01-01'
+          #description: |2 - 
     design:
       columns: '2'
   - block: accomplishments
@@ -128,7 +163,7 @@ sections:
     design:
       columns: '2'
   - block: collection
-    id: posts
+    id: kurs
     content:
       title: Recent Posts
       subtitle: ''
@@ -138,7 +173,7 @@ sections:
       # Filter on criteria
       filters:
         folders:
-          - post
+          - kurs
         author: ""
         category: ""
         tag: ""
