@@ -102,7 +102,7 @@ The following tables list data products that have been produced or will soon be 
 |[Landslide inventory, ver. 1](https://nsidc.org/data/hma_mtli/versions/1) |haz     |2009 to 2018    |Nepal        |Kirschbaum (HMA-1) |
 |[Multitemporal landslide inventory for Pumqu/Arun river basin](https://nsidc.org/data/HMA-2_mtli/versions/1) | haz | 2011 to 2020 | Pumqu/Arun River Basins | Kirschbaum (HMA-2)
 | Inventory of newly discovered glacial lake outburst floods across the Himalayas | lakes, haz, glof | | HMA | McCoy (HMA-2) | Estimated publication: TBD
-| Landslide hazard indicator | haz | | 5 km resolution | Kirschbaum (HMA-2) | Estimated publication: TBD
+|[Landslide Hazard Indicator](https://nsidc.org/data/hma2_lhi/versions/1)| haz | | 5 km resolution | Kirschbaum (HMA-2) | 
 | 30m Flood Geomorphic Potential Index for entire HMA | haz, floods | | HMA | Nikolopoulos (HMA-2) | 
 
 ## Lakes
