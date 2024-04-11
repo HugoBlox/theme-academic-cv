@@ -4,7 +4,7 @@
 title: "Mixing Below Tropical Instability Waves"
 summary: "Evaluating mixing mechanisms and associated turbulent heat fluxes below tropical instability waves near the equator."
 authors: []
-tags: [tiw]
+tags: [motive]
 categories: []
 date: "2022-09-12"
 
@@ -45,7 +45,7 @@ The equatorial Pacific Ocean is a key region for the El Niño Southern Oscillati
 
 The cold tongue of the eastern equatorial Pacific Ocean plays a critical role in driving and modifying ENSO conditions. It can become unstable and form tropical instability waves (TIWs) that extend several hundred kilometers away from the equator (see the figure at the top for an example of the cold tongue and how it forms waves). Recent studies have indicated that turbulent mixing in the ocean, caused by TIWs directly at the equator, plays an important role for the heat budget of the cold tongue with important implications for ENSO. TIWs are much more prevalent during La Niña conditions when the cold tongue is more pronounced than during El Niño or neutral ENSO years.
 
-In this project funded by the National Science Foundation we aim at studying turbulent mixing processes away from the equator (within about 5°) that may be associated with TIW fronts through their potential for creating or modifying internal waves. The generation of internal waves, or modification of incoming internal waves generated elsewhere, may lead to increased velocity shear which in turn can provide a route to wave breaking and turbulent mixing. Preliminary results from Argo float data show a correlation between elevated turbulent mixing well below the thermocline and stronger TIW activity during La Niña years. Using a combination of yearlong moored observations and two dedicated cruises in 2023 and 2024 where we  will bring the MOD fastCTD, Epsifish, and drifting Wirewalkers, we will collect data at TIW fronts that will help us better understand internal wave dynamics associated with the fronts and how they may lead to ocean turbulence and the turbulent transport of heat within the ocean.
+In this project funded by the National Science Foundation we aim at studying turbulent mixing processes away from the equator (within about 5°) that may be associated with TIW fronts through their potential for creating or modifying internal waves. The generation of internal waves, or modification of incoming internal waves generated elsewhere, may lead to increased velocity shear which in turn can provide a route to wave breaking and turbulent mixing. Preliminary results from Argo float data show a correlation between elevated turbulent mixing well below the thermocline and stronger TIW activity during La Niña years. Using a combination of yearlong moored observations and two dedicated cruises in 2024 and 2025 where we  will bring the MOD fastCTD, Epsifish, and drifting Wirewalkers, we will collect data at TIW fronts that will help us better understand internal wave dynamics associated with the fronts and how they may lead to ocean turbulence and the turbulent transport of heat within the ocean.
 
 The project is a collaboration between Caitlin Whalen at APL/UW, Jim Moum at OSU, and Amy Waterhouse & Gunnar Voet at Scripps.
 
