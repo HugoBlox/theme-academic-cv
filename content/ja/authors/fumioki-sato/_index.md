@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "佐藤史興"
+title: "佐藤 史興"
 
 # 2023-04-01 00:00:00
 weight: 3023103
@@ -13,7 +13,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: 学部学生
+role: 博士前期課程学生
 
 # Organizations/Affiliations
 organizations:

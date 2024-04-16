@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "大竹俊輔"
+title: "大竹 俊輔"
 
 weight: 2022300
 

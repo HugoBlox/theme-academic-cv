@@ -2,7 +2,7 @@
 # Display name
 title: "中島悠太"
 
-weight: 20
+weight: 15
 
 # Username (this should match the folder name and the name on publications)
 authors:
@@ -12,7 +12,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: 准教授
+role: 教授
 group: 知能情報基盤部門
 
 # Organizations/Affiliations
