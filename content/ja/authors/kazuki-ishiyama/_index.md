@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "石山和樹"
+title: "石山 和樹"
 
 # 2023-04-01 00:00:00
 weight: 3023101
@@ -13,7 +13,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: 学部学生
+role: 博士前期課程学生
 
 # Organizations/Affiliations
 organizations:

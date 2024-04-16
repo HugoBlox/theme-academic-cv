@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "山内大地"
+title: "山内 大地"
 
 weight: 2023100
 

@@ -1,13 +1,13 @@
 ---
 # Display name
-title: "Shunsuke Ichimiya"
+title: "Daigo Sato"
 
-# 2023-04-01 00:00:00
-weight: 3023102
+# 2024-04-01 00:00:00
+weight: 2024104
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "shunsuke-ichimiya"
+- "daigo-sato"
 
 # Is this the primary user of the site?
 superuser: false
@@ -17,8 +17,8 @@ role: Graduate Student
 
 # Organizations/Affiliations
 organizations:
-- name: "School of Engineering Science"
-  url: "https://www.es.osaka-u.ac.jp/en/"
+- name: "Graduate School of Information Science and Technology"
+  url: "http://www.ist.osaka-u.ac.jp/"
 - name: "Osaka University"
   url: "http://www.osaka-u.ac.jp/"
 
@@ -71,7 +71,7 @@ user_groups:
 - Students
 ---
 ### Contact
-- email: ichimiya-s@is.ids.
+- email: daigo-s@is.ids.
 
 
 Please add `osaka-u.ac.jp` to complete email address

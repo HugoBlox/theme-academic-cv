@@ -50,6 +50,10 @@ subtitle = ""
  css_class = ""
 +++
 
-<a class="twitter-timeline" data-width="520" data-height="400" data-theme="light" href="https://twitter.com/ids_ou?ref_src=twsrc%5Etfw">Tweets by ids_ou</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
+- :sparkles: A new member joined on April 16th: Jovana Panic. Welcome to Osaka, Japan!
+- :sparkles: New members joined on April 12th: Yuuki Kusu, Naoya Fukui, Yuta Murakami, Kim Hakmin, and Ryota Manaka. Enjoy your life with us!
+- :sparkles: New memberm joined on April 1st: Liyun Zhang, Ryan Ramos, Patrick Ramos, Tong Xiang, and Daigo Sato. Welcome!
+- :tada: Three papers are accepted to CVPR 2024 :tada:
+  - "Time-Efficient Light-Field Acquisition Using Coded Aperture and Events" by Shuji Habuchi, Keita Takahashi, Chihiro Tsutake, Toshiaki Fujii, Hajime 
+  - "NeISF: Neural Incident Stokes Field for Geometry and Material Estimation" by Chenhao Li, Taishi Ono, Takeshi Uemori, Hajime Mihara, Alexander Gatto, Hajime Nagahara, Yusuke Moriuchi
+  - "Would Deep Generative Models Amplify Bias in Future Models?" by Tianwei Chen, Yusuke Hirota, Mayu Otani, Noa Garcia, Yuta Nakashima

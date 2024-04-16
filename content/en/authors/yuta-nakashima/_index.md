@@ -2,7 +2,7 @@
 # Display name
 title: "Yuta Nakashima"
 
-weight: 20
+weight: 15
 
 # Username (this should match the folder name and the name on publications)
 authors:
@@ -12,7 +12,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Associate Professor
+role: Professor
 group: Artificial Intelligence and Mathematics
 
 # Organizations/Affiliations
@@ -23,7 +23,7 @@ organizations:
   url: "http://www.osaka-u.ac.jp/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Yuta Nakashima is an associate professor with Institute for Datability Science, Osaka University. His research interests include computer vision, pattern recognition, natural langauge processing, and their applications.
+bio: Yuta Nakashima is a professor with Institute for Datability Science, Osaka University. His research interests include computer vision, pattern recognition, natural langauge processing, and their applications.
 
 # List each interest with a dash
 interests:

@@ -1,25 +1,25 @@
 ---
 # Display name
-title: "Shunsuke Ichimiya"
+title: "佐藤 大吾"
 
-# 2023-04-01 00:00:00
-weight: 3023102
+# 2024-04-01 00:00:00
+weight: 2024104
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "shunsuke-ichimiya"
+- "daigo-sato"
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Graduate Student
+role: 博士前期課程学生
 
 # Organizations/Affiliations
 organizations:
-- name: "School of Engineering Science"
-  url: "https://www.es.osaka-u.ac.jp/en/"
-- name: "Osaka University"
+- name: "情報科学研究科"
+  url: "http://www.ist.osaka-u.ac.jp/"
+- name: "大阪大学"
   url: "http://www.osaka-u.ac.jp/"
 
 
@@ -68,10 +68,10 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Students
+- 学生
 ---
 ### Contact
-- email: ichimiya-s@is.ids.
+- email: daigo-s@is.ids.
 
 
 Please add `osaka-u.ac.jp` to complete email address
