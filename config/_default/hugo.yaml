@@ -3,8 +3,10 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Academic # Website name
-baseURL: 'https://example.com/' # Website URL
+# Website name
+title: Hugo Academic CV Theme
+# Website URL
+baseURL: 'https://example.com/'
 
 ############################
 ## LANGUAGE
@@ -19,6 +21,8 @@ removePathAccents: true
 ## ADVANCED
 ############################
 
+build:
+  writeStats: true
 enableGitInfo: false
 summaryLength: 30
 paginate: 10
@@ -27,38 +31,25 @@ enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
-  event: '/talk/:slug/'
-  tags: '/tag/:slug/'
-  categories: '/category/:slug/'
-  publication_types: '/publication-type/:slug/'
+  authors: '/author/:slug/'
 disableAliases: true
 outputs:
-  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
+  home: [HTML, RSS, headers, redirects, backlinks]
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
-  quality: 75
+  quality: 80
   anchor: smart
 timeout: 600000
 taxonomies:
-  tag: tags
-  category: categories
-  publication_type: publication_types
   author: authors
+  tag: tags
+  publication_type: publication_types
 markup:
   _merge: deep
-related:
-  threshold: 80
-  includeNewer: true
-  toLower: true
-  indices:
-    - name: tags
-      weight: 100
-    - name: categories
-      weight: 70
+  highlight:
+    lineNos: false
 security:
   _merge: deep
 sitemap:
-  _merge: deep
-minify:
   _merge: deep

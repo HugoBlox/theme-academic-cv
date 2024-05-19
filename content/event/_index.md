@@ -1,15 +1,13 @@
 ---
 title: Recent & Upcoming Talks
 cms_exclude: true
+#url: talk
 
-# View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
-view: 2
+# View
+view: card
 
-# Optional header image (relative to `static/media/` folder).
-header:
+# Optional cover image (relative to `assets/media/` folder).
+image:
   caption: ''
-  image: ''
+  filename: ''
 ---
