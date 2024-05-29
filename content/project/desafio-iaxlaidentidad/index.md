@@ -1,15 +1,15 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "texbuilder"
-summary: "Build and preview LaTeX documents with GitHub Actions"
+title: "desafio-iaxlaidentidad"
+summary: "Achieved second place in the machine learning competition [_\"Desafío IA por la Identidad\"_](https://desafio-ia-por-la-identidad.fundacionsadosky.org.ar/) hosted by Fundación Sadosky and the Ministry of Science, Technology and Innovation."
 authors: []
-tags: []
+tags: [machine learning, python]
 categories: []
-date: 2021-12-11T20:59:00-03:00
+date: 2023-06-01T20:59:00-03:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://github.com/epassaro/texbuilder"
+external_link: "https://fundacionsadosky.org.ar/proyectos-ganadores-ia-identidad-pcdia/"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -27,8 +27,8 @@ image:
 #   icon_pack: fab
 #   icon: twitter
 
-url_code: ""
-url_pdf: ""
+url_code: "https://github.com/epassaro/diaxi-training-tools"
+url_pdf: "files/iaxlaidentidad.pdf"
 url_slides: ""
 url_video: ""
 

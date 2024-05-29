@@ -28,15 +28,15 @@ date_format = "Jan 2006"
   date_end = ""
   description = ""
 
-#[[item]]
-#  organization = "IBM on Coursera"
-#  organization_url = "https://www.coursera.org/ibm"
-#  title = "IBM Data Science Professional Certificate"
-#  url = "https://www.coursera.org/professional-certificates/ibm-data-science"
-#  certificate_url = "https://www.coursera.org/account/accomplishments/professional-cert/certificate/BMYWRMMFT4UJ"
-#  date_start = "2019-05-01"
-#  date_end = ""
-#  description = ""
+[[item]]
+  organization = "IBM on Coursera"
+  organization_url = "https://www.coursera.org/ibm"
+  title = "IBM Data Science Professional Certificate"
+  url = "https://www.coursera.org/professional-certificates/ibm-data-science"
+  certificate_url = "https://www.coursera.org/account/accomplishments/professional-cert/certificate/BMYWRMMFT4UJ"
+  date_start = "2019-05-01"
+  date_end = ""
+  description = ""
 
 [[item]]
   organization = "DataCamp"
@@ -48,14 +48,14 @@ date_format = "Jan 2006"
   date_end = ""
   description = ""
   
-#[[item]]
-#  organization = "Dataquest"
-#  organization_url = "https://www.dataquest.io"
-#  title = "Data Analyst in Python"
-#  url = "https://www.dataquest.io/path/data-analyst/"
-#  certificate_url = "https://app.dataquest.io/view_cert/BX1C1RBG7TAOW1EHMS0B/"
-#  date_start = "2018-11-01"
-#  date_end = ""
-#  description = ""
+[[item]]
+  organization = "Dataquest"
+  organization_url = "https://www.dataquest.io"
+  title = "Data Analyst in Python"
+  url = "https://www.dataquest.io/path/data-analyst/"
+  certificate_url = "https://app.dataquest.io/view_cert/BX1C1RBG7TAOW1EHMS0B/"
+  date_start = "2018-11-01"
+  date_end = ""
+  description = ""
 
 +++

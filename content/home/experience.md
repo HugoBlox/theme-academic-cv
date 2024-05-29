@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
 title = "Experience"
-subtitle = ""
+subtitle = "Professional roles and achievements"
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
@@ -24,16 +24,16 @@ date_format = "Jan 2006"
   location = "Full-time"
   date_start = "2023-10-04"
   date_end = ""
-  description = ""
+  description = "As a Data Scientist at a consultancy firm, I analyze data, develop predictive models, and deliver insights to support client decision-making."
 
 [[experience]]
   title = "CI/CD Engineer"
   company = "NumFOCUS"
   company_url = "https://numfocus.org/"
-  location = "Contract"
+  location = "Independent contractor"
   date_start = "2021-05-21"
   date_end = "2023-10-04"
-  description = ""
+  description = "Contributed to the development of continuous integration solutions for open-source software projects under the fiscal sponsorship of NumFOCUS."
 
 [[experience]]
   title = "Student Developer"
@@ -44,7 +44,7 @@ date_format = "Jan 2006"
   date_end = "2020-08-31"
   description = """
   
-  Project funded by the [Google Summer of Code](https://summerofcode.withgoogle.com/) program.
+  This project was part of the [Google Summer of Code](https://summerofcode.withgoogle.com/) program, which managed candidate selection, provided funding, and oversaw the project execution through monthly evaluations.
 
   [See certificate](files/certificate-gsoc20.pdf)  &#183;
   [Completion letter](files/completion-letter-gsoc20.pdf)  """
@@ -58,7 +58,7 @@ date_format = "Jan 2006"
   date_end = "2019-08-26"
   description = """
 
-  Project funded by the [Google Summer of Code](https://summerofcode.withgoogle.com/) program.
+  This project was part of the [Google Summer of Code](https://summerofcode.withgoogle.com/) program, which managed candidate selection, provided funding, and oversaw the project execution through monthly evaluations.
 
   [See certificate](files/certificate-gsoc19.pdf)  &#183;
   [Completion letter](files/completion-letter-gsoc19.pdf)

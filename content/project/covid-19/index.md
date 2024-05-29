@@ -2,9 +2,9 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "covid-19"
-summary: "An example tracker dashboard made with Bokeh and Panel"
+summary: "A dashboard for tracking COVID-19 cases, developed with Bokeh and GitHub Actions."
 authors: []
-tags: []
+tags: [python, data visualization]
 categories: []
 date: 2021-12-11T20:44:37-03:00
 
@@ -16,7 +16,7 @@ external_link: "https://epassaro.github.io/covid-19"
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
-  focal_point: ""
+  focal_point: "Center"
   preview_only: false
 
 # Custom links (optional).

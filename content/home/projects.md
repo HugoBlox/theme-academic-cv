@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 60  # Order that this section will appear.
 
 title = "Projects"
-subtitle = "For learning purposes, or just for fun"
+subtitle = "Competitions, learning projects, and fun"
 
 [content]
   # Page type to display. E.g. project.
@@ -42,7 +42,7 @@ subtitle = "For learning purposes, or just for fun"
   #   2 = Compact
   #   3 = Card
   #   5 = Showcase
-  view = 2
+  view = 5
 
   # For Showcase view, flip alternate rows?
   flip_alt_rows = false
