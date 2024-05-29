@@ -9,7 +9,7 @@ active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
 title = "Publications"
-subtitle = "Papers, presentations and posters authored or co-authored by me"
+subtitle = "Authored or co-authored papers, presentations, and posters"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.

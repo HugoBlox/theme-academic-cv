@@ -1,10 +1,10 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "An Open Source Framework for Atomic Data"
-authors: [Pássaro E. A., Kerzendorf W. E., Floers A., Vogl C.]
-date: 2019-09-15T16:55:25-03:00
-doi: "10.5281/zenodo.4062426"
+title: "StaNdaRT: a repository of standardised test models and outputs for supernova radiative transfer"
+authors: [Stéphane Blondin, Sergei Blinnikov, Fionntan P. Callan, Christine E. Collins, Luc Dessart, Wesley Even, Andreas Flörs, Andrew G. Fullard, D. John Hillier, Anders Jerkstrand, Daniel Kasen, Boaz Katz, Wolfgang Kerzendorf, Alexandra Kozyreva, Jack O’Brien, Ezequiel A. Pássaro, Nathaniel Roth, Ken J. Shen, Luke Shingles, Stuart A. Sim, Jaladh Singhal, Isaac G. Smith, Elena Sorokina, Victor P. Utrobin, Christian Vogl, Marc Williamson, Ryan Wollaeger, Stan E. Woosley, and Nahliel Wygoda.]
+date: 2022-12-15T19:55:25-03:00
+doi: "https://doi.org/10.1051/0004-6361/202244134"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2020-02-21T16:55:25-03:00
@@ -13,18 +13,18 @@ publishDate: 2020-02-21T16:55:25-03:00
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["0"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In *61ª Reunión anual de la Asociación Argentina de Astronomía*"
-publication_short: "In *AAA2019*"
+publication: "Astronomy & Astrophysics (A&A)"
+publication_short: "In *A&A*"
 
-abstract: "Poster contribution for AAA2019 - Viedma, Río Negro (Argentina)"
+abstract: "Astronomy & Astrophysics, Volume 668, A163 (Dec. 2022)"
 
 # Summary. An optional shortened abstract.
 summary: ""
 
-tags: [astronomy, software, gsoc, tardis]
+tags: [astronomy, supernovae, radiative transfer]
 categories: []
 featured: true
 
@@ -36,7 +36,7 @@ featured: true
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: 'files/poster-aaa2019.pdf'
+url_pdf: 'https://www.aanda.org/articles/aa/pdf/2022/12/aa44134-22.pdf'
 url_code:
 url_dataset:
 url_poster:
