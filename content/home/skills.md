@@ -17,7 +17,7 @@ subtitle = ""
 [[feature]]
   icon = "python"
   icon_pack = "fab"
-  name = "Python"
+  name = "Python <br><br>"
   description = ""
 
 [[feature]]
@@ -27,15 +27,33 @@ subtitle = ""
   description = ""
 
 [[feature]]
+   icon = "infinity"
+   icon_pack = "fas"
+   name = "CI/CD"
+   description = ""
+
+[[feature]]
+   icon = "box"
+   icon_pack = "fas"
+   name = "Software Packaging"
+   description = ""
+
+[[feature]]
+  icon = "robot"
+  icon_pack = "fas"
+  name = "Scripting and Automation"
+  description = ""
+
+[[feature]]
   icon = "sun"
-  icon_pack = "fa"
+  icon_pack = "fas"
   name = "Astrophysics"
   description = ""
 
 [[feature]]
-   icon = "chart-bar"
-   icon_pack = "fas"
-   name = "Data Analysis"
-   description = ""
+  icon = "chart-bar"
+  icon_pack = "fas"
+  name = "Data Analysis"
+  description = ""
 
 +++
