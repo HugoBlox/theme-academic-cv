@@ -13,6 +13,9 @@ jobs:
         with:
           submodules: true
 
+      - name: Patch submodule
+        run: patch -p1 < patch.diff
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:

@@ -1,0 +1,16 @@
+Submodule themes/academic contains modified content
+diff --git a/themes/academic/assets/scss/academic/_widgets.scss b/themes/academic/assets/scss/academic/_widgets.scss
+index 6cd1b5f..6009535 100644
+--- a/themes/academic/assets/scss/academic/_widgets.scss
++++ b/themes/academic/assets/scss/academic/_widgets.scss
+@@ -266,8 +266,8 @@ a.hero-cta-alt:hover {
+ }
+ 
+ .avatar {
+-  width: 270px;
+-  height: 270px;
++  width: 210px;
++  height: 210px;
+   margin: 0 auto;
+   object-fit: cover;
+ }
