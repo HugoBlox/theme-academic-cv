@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: "Student. Developer."
+role: "Python Developer | CI/CD Engineer"
 
 # Organizations/Affiliations
 organizations:
@@ -22,8 +22,8 @@ bio:
 
 interests:
   - Supernovae
-  - Machine Learning
-  - HPC & Cloud Computing
+  - Open-source Software
+  - Continuous Integration / Delivery
 
 education:
   courses:
@@ -73,5 +73,8 @@ user_groups:
 #- Visitors
 ---
 
-I’m a last-year astronomy student at Universidad Nacional de La Plata and open-source enthusiast.
 
+I am a last-year astronomy student and a software developer with a deep passion for open-source software. 
+
+My professional experience includes developing software for astrophysics, designing and maintaining CI/CD pipelines, and
+working with machine learning models.
