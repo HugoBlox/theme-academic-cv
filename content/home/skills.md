@@ -15,19 +15,19 @@ subtitle = ""
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
-  icon = "python"
-  icon_pack = "fab"
-  name = "Python <br><br>"
-  description = ""
-
-[[feature]]
   icon = "linux"
   icon_pack = "fab"
   name = "GNU/Linux"
   description = ""
 
 [[feature]]
-   icon = "infinity"
+  icon = "python"
+  icon_pack = "fab"
+  name = "Python <br><br>"
+  description = ""
+
+[[feature]]
+   icon = "sync-alt"
    icon_pack = "fas"
    name = "CI/CD"
    description = ""
@@ -39,21 +39,21 @@ subtitle = ""
    description = ""
 
 [[feature]]
+  icon = ""
+  icon_pack = ""
+  name = ""
+  description = ""
+
+[[feature]]
   icon = "robot"
   icon_pack = "fas"
-  name = "Scripting and Automation"
+  name = "Machine Learning"
   description = ""
 
 [[feature]]
   icon = "sun"
   icon_pack = "fas"
   name = "Astrophysics"
-  description = ""
-
-[[feature]]
-  icon = "chart-bar"
-  icon_pack = "fas"
-  name = "Data Analysis"
   description = ""
 
 +++
