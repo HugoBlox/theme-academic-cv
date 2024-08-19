@@ -26,7 +26,8 @@ organizations:
 interests:
   - Artificial Intelligence
   - Visualization
-  - Computer Vision
+  - AI-Generated Content
+  - Explainable AI
 
 # Education to show in About widget
 education:
@@ -78,5 +79,4 @@ email: 'minfeng_zhu@zju.edu.cn'
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-I am a researcher in the School of Software & the State Key Laboratory of CAD&CG at Zhejiang University. I received Ph.D. Degree in Computer Science from Zhejiang University under the supervision of Prof. Wei Chen. My research interests include visual analysis and artificial intelligence.
-
+I am a tenure-track Assistant Professor in the School of Software at Zhejiang University. I received Ph.D. Degree in Computer Science from the State Key Laboratory of CAD&CG, Zhejiang University under the supervision of Prof. [Wei Chen](http://www.cad.zju.edu.cn/home/chenwei/). My research interests include explainable artificial intelligence, visualization and AI alignment. Here is the homepage of [Visual Analytics and Intelligence Group](https://zjuvag.org) of ZJU.
