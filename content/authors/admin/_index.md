@@ -51,7 +51,6 @@ interests:
   - Corporate Innovation
   - Corporate Governance
   - Information Disclosure
-
 education:
   - area: PhD Accounting
     institution: Sun Yat-Sen University
