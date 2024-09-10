@@ -139,9 +139,6 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/carlosmaltzahn/
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/CarlosMaltzahn
 - icon: mastodon
   icon_pack: fab
   link: https://discuss.systems/@Carlos
