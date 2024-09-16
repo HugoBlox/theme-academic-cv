@@ -1,0 +1,35 @@
+{{ $folder := .Get "folder" }}
+{{ $images := readDir (printf "static/%s" $folder) }}
+
+<div class="gallery">
+  {{ range $images }}
+    {{ if eq (path.Ext .Name) ".jpg" }}
+      <div class="gallery-item">
+        <img src="{{ printf "/%s/%s" $folder .Name }}" alt="{{ .Name }}">
+      </div>
+    {{ end }}
+  {{ end }}
+</div>
+
+
+<style>
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .gallery-item {
+    flex: 1 1 calc(33.333% - 10px); /* Adjust percentage to fit the number of images per row*/
+    display: flex;
+    align-items: center; /* Center items vertically within each item */
+    justify-content: center; /* Center items horizontally within each item */
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+</style>

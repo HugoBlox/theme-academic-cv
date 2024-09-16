@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3579028.3609007,
+author = {Fortz, Sophie},
+title = {Variability-Aware Behavioural Learning},
+year = {2023},
+isbn = {9798400700927},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3579028.3609007},
+doi = {10.1145/3579028.3609007},
+abstract = {Addressing variability proactively during software engineering activities means shifting from reasoning on individual systems to reasoning on families of systems. Adopting appropriate variability management techniques can yield important economies of scale and quality improvements. Conversely, variability can also be a curse, especially for Quality Assurance (QA), i.e., verification and testing of such systems, due to the combinatorial explosion of the number of software variants. Featured Transition Systems (FTSs) were introduced as a way to represent and reason about the behaviour of Variaility-intensive Systems (VISs). By labelling a transition system with feature expressions, FTSs capture multiple variants of a system in a single model, enabling reasoning at the family level. They have shown significant improvements in automated QA activities such as model-checking and model-based testing, as well as guiding design exploration activities. Yet, as most model-based approaches, FTS modelling requires both strong human expertise and significant effort that would be unaffordable in many cases, in particular for large legacy systems with outdated specifications and/or systems that evolve continuously.Therefore, this PhD project aims to automatically learn FTSs from existing artefacts, to ease the burden of modelling FTS and support continuous QA activities. To answer this research challenge, we propose a two-phase approach. First, we rely on deep learning techniques to locate variability from execution traces. For this purpose, we implemented a tool called VaryMinions. Then, we use these annotated traces to learn an FTS. In this second part, we adapt the seminal L algorithm to learn behavioural variability. Both frameworks are open-source and we evaluated them separately on several datasets of different sizes and origins (e.g., software product lines and configurable business processes).},
+booktitle = {Proceedings of the 27th ACM International Systems and Software Product Line Conference - Volume B},
+pages = {11–15},
+numpages = {5},
+keywords = {Featured Transition Systems, Software Product Lines, Variability Mining, Active Automata Learning, Reverse Engineering},
+location = {Tokyo, Japan},
+series = {SPLC '23}
+}

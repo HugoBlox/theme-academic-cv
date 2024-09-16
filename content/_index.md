@@ -13,113 +13,114 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: ""
-      # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: uploads/cv.pdf
     design:
-      css_class: dark
       background:
         color: black
         image:
-          # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
+          # Name of image in `assets/media/`.
+          filename: 'banner.jpg'
+          # Apply image filters?
           filters:
-            brightness: 1.0
+            # Darken the image? Range 0-1 where 1 is transparent and 0 is opaque.
+            brightness: 0.5
           size: cover
-          position: center
-          parallax: false
-  - block: markdown
-    content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+          # Use a fun parallax-like fixed background effect on desktop? true/false
+          parallax: true
+      biography:
+        # Customize the CSS style of your biography text (optional)
+        style: ''
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
-    design:
-      columns: '1'
-  - block: collection
-    id: papers
+  - block: resume-experience
+    id: experience
     content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
+      # The user's folder name in `content/authors/`
+      username: admin
     design:
-      view: article-grid
-      columns: 2
+      # Hugo date format
+      date_format: 'January 2006'
+      # Education or Experience section first?
+      is_education_first: false
+
   - block: collection
+    id: publications
     content:
-      title: Recent Publications
+      title: '📚 Recent Publications'
       text: ""
       filters:
         folders:
           - publication
-        exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: talks
+
+  - block: markdown
+    id: courses
     content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      columns: 1
-  - block: collection
-    id: news
-    content:
-      title: Recent News
+      title: 'Teaching activities'
       subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: post
+      text: |
+        * INFOM115 - **Software Testing**: <br/>
+        *Organisation:* Session labs and lectures for a total of 15h <br/>
+        *Public:* 1st year Masters students, specialised in Software Engineering, from the computer science faculty of the University of Namur, Belgium <br/>
+        *Content:* Supervised by Dr. Gilles Perrouin, we teach the fundamentals of software testing and more advanced techniques (mutation testing, metamorphic testing, fuzzy testing, test smells, etc.) <br/>
+        *Academic years:* 2019-2020, 2020-2021, 2021-2022, 2022-2023 <br/> <br/>
+
+        * INFOB221 - **Mathematics Fundamentals for Computer Science** (part 2): <br/>
+        *Organisation:* 15h of tutoring <br/>
+        *Public:* 2nd year of Bachelor students from the Economics and Computer Science faculties of the University of Namur, Belgium <br/>
+        *Content:* Basic concepts of Mathematics for Cryptography mainly (modular arithmetic, discrete log, symmetric encryption and asymmetric encryption, elliptic curves) <br/>
+        *Academic years:* 2019-2020, 2020-2021, 2021-2022 <br/> <br/>
+
+        * IHDCB339 - **Introduction to the Scientific Approach**: <br/> 
+        *Organisation:* One group project supervision <br/>
+        *Public:* 3d year of Bachelor students from the Computer Science faculty of the University of Namur, Belgium <br/>
+        *Content:* In this project, I supervised a group of two students, guiding them in developing essential skills such as bibliographic research, critical source appraisal, scientific state-of-the-art writing, and effective scientific result presentation, while also ensuring a deep understanding of research problem definition, context, motivation, and related work within the field of information systems. <br/>
+        *Academic years:* 2020-2021
+  
+  - block: markdown
+    id: services
+    content:
+      title: 'Service activities'
+      text: |
+        I'm taking part in several committees and helping the community in various ways:
+        
+        * ***Reviewing*** :<br/>
+        
+          * for specialised conferences: ICSR (research track, as a subreviewer), SPLC (research track, demo & tools), ESEC-FSE (artefacts), ECOOP (artefacts)&nbsp;;<br/>
+        
+          * for journals: EMSE (as a subreviewer), Software Quality Journal, SoSyM&nbsp;;<br/><br/>
+        
+        * Acting as a ***Student Volunteer*** for OR 2018 and SPLC 2023&nbsp;;<br/><br/>
+        
+        * Representing scientifics at the Computer Science ***Faculty Council***&nbsp;;<br/><br/>
+        
+        * Representing and promoting the Computer Science Faculty at several ***Students Fairs***&nbsp;;<br/><br/>
+        
+        * Representing scientifics at the ***Section Groups***, the place where students can express themselves to improve the faculty.
+  
+  - block: collection
+    id: activities
+    content:
+      title: Activities
+      text: 'Check out my recent blog posts below!'
       # Choose how many pages you would like to display (0 = all pages)
-      count: 5
+      count: 0
       # Filter on criteria
       filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
+        # The folders to display content from
+        folders:
+          - activities
       # Choose how many pages you would like to offset by
+      # Useful if you wish to show the first item in the Featured widget
       offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
+      # Field to sort by, such as Date or Title
+      sort_by: 'Date'
+      sort_ascending: false
     design:
-      # Choose a layout view
-      view: date-title-summary
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
-  - block: cta-card
-    demo: true # Only display this section in the Hugo Blox Builder demo site
-    content:
-      title: 👉 Build your own academic website like this
-      text: |-
-        This site is generated by Hugo Blox Builder - the FREE, Hugo-based open source website builder trusted by 250,000+ academics like you.
+      # Choose a listing view
+      view: article-grid #date-title-summary #card
+      columns: 3
 
-        <a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star HugoBlox/hugo-blox-builder on GitHub">Star</a>
-
-        Easily build anything with blocks - no-code required!
-        
-        From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
-      button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
-    design:
-      card:
-        # Card background color (CSS class)
-        css_class: "bg-primary-700"
-        css_style: ""
 ---
