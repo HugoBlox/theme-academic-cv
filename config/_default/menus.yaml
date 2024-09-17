@@ -5,7 +5,7 @@
 
 main:
   - name: Home
-    url: / #'#banner'
+    url: / 
     weight: 10
   - name: Experience
     url: '#experience'
