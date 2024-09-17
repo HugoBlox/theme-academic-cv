@@ -12,11 +12,13 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: 特任助教
+role: 准教授（兼任）
 group: 知能情報基盤部門
 
 # Organizations/Affiliations
 organizations:
+- name: "高等共創研究員"
+  url: "https://iacs.osaka-u.ac.jp/"
 - name: "データビリティフロンティア機構"
   url: "http://www.ids.osaka-u.ac.jp/"
 - name: "大阪大学"
