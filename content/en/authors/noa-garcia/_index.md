@@ -13,10 +13,12 @@ superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
 group: Artificial Intelligence and Mathematics
-role: Specially-Appointed Assistant Professor
+role: Associate Professor (Concurrent)
 
 # Organizations/Affiliations
 organizations:
+- name: "Institute for Advanced Co-Creation Studies"
+  url: "https://iacs.osaka-u.ac.jp/en/"
 - name: "Institute for Datability Science"
   url: "http://www.ids.osaka-u.ac.jp/"
 - name: "Osaka University"
