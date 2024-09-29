@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: Anahita Kumar
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+# name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Anahita
+last_name: Kumar
 
 # Status emoji
-status:
-  icon: ☕️
+#status:
+ # icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,70 +20,53 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Quantitative Methods Researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Penn GSE
+    url: https://www.gse.upenn.edu/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:kanahita@upenn.edu'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/anahita-kumar
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/anahita-kumar-101b2a106/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://scholar.google.com/citations?user=WjtxFtcAAAAJ&hl=en
+ # - icon: academicons/orcid
+ #   url: https://orcid.org/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Poverty Alleviation
+  - Impact Evaluations and Program Design
+  - Education in Developing Countries
+  - Early Childhood Development
+  - Food Insecurity
+  - GIS and Machine Learning 
+  
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+  - area: PhD in Human Development & Quantitative Methods (anticipated)
+    institution: University of Pennsylvania
+   # summary: |
+    #  Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+    #button:
+   #   text: 'Read Thesis'
+    #  url: 'https://example.com'
+  - area: MA in Statistics, 2024
+    institution: Wharton Business School
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-work:
+  - area: BA in Economics, 2014
+    institution: St. Xavier's College, Mumbai
+
+
+#work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
     company_url: ''
@@ -109,7 +92,7 @@ work:
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
-skills:
+#skills:
   - name: Technical Skills
     items:
       - name: Python
@@ -141,7 +124,7 @@ skills:
         percent: 80
         icon: camera
 
-languages:
+#languages:
   - name: English
     percent: 100
   - name: Chinese
@@ -153,7 +136,7 @@ languages:
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
+#awards:
   - title: Neural Networks and Deep Learning
     url: https://www.coursera.org/learn/neural-networks-deep-learning
     date: '2023-11-25'
@@ -183,4 +166,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Anahita Kumar (she/her) is a PhD candidate in Human Development and Quantitative Methods at the University of Pennsylvania. Her research focuses on children’s health and education in developing countries, household poverty, and food insecurity. She is interested in home-based interventions that can succeed in helping children thrive, such as cash transfer programs, parental engagement, and feeding initiatives. She received her MA in Statistics from Wharton Business School and BA from St. Xavier’s College in Mumbai, India. Prior to her doctoral studies, Anahita worked at UNESCO in Ethiopia on resilience-building programs. Currently, she is also an affiliate of the U.S. Institute of Education Sciences. 
