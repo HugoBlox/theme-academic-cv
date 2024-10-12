@@ -103,8 +103,8 @@ sections:
   - block: collection
     id: activities
     content:
-      title: Activities
-      text: 'Check out my recent blog posts below!'
+      title: My Adventures
+      text: 'Check out my activities and interests, extending beyond research!'
       # Choose how many pages you would like to display (0 = all pages)
       count: 0
       # Filter on criteria
