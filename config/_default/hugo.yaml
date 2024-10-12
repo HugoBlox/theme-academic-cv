@@ -4,15 +4,9 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name
-<<<<<<< HEAD
 title: Sophie Fortz, Ph.D.
 # Website URL
 baseURL: 'https://sfortz.github.io/'
-=======
-title: Hugo Academic CV Theme
-# Website URL
-baseURL: 'https://example.com/'
->>>>>>> 3329bfc281e2e85e0127cee8026a79f650a9b9d0
 
 ############################
 ## LANGUAGE
