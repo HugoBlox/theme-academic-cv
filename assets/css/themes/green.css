@@ -1,0 +1,58 @@
+/* 
+:root {
+  --color-primary-50: 240 253 244;
+  --color-primary-100: 220 252 231;
+  --color-primary-200: 187 247 208;
+  --color-primary-300: 134 239 172;
+  --color-primary-400: 74 222 128;
+  --color-primary-500: 34 197 94;
+  --color-primary-600: 22 163 74;
+  --color-primary-700: 21 128 61;
+  --color-primary-800: 22 101 52;
+  --color-primary-900: 20 83 45;
+  --color-primary-950: 5 46 22;
+}*/
+
+/* Hugo Blox color theme: GREEN */
+/* Theme metadata */
+:root {
+  --primary-light: #4caf50;
+  --menu-primary-light: #4caf50;
+  --menu-text-light: #ffffff;
+  --menu-text-active-light: #265728;
+  --menu-title-light: #ffffff;
+  --background-light: #d5e5f5;
+  --home-section-odd-light: #eaf2fa;
+  --home-section-even-light: #d5e5f5;
+  --link-hover-light: #2D6930;
+
+  --primary-dark: #5db761;
+  --menu-primary-dark: #4caf50;
+  --menu-text-dark: #ffffff;
+  --menu-text-active-dark: #265728;
+  --menu-title-dark: #ffffff;
+  --link-hover-dark: #92CF95;
+}
+
+/* Light theme styles */
+.light-theme {
+  --primary: var(--primary-light);
+  --menu-primary: var(--menu-primary-light);
+  --menu-text: var(--menu-text-light);
+  --menu-text-active: var(--menu-text-active-light);
+  --menu-title: var(--menu-title-light);
+  --background: var(--background-light);
+  --home-section-odd: var(--home-section-odd-light);
+  --home-section-even: var(--home-section-even-light);
+  --link-hover: var(--link-hover-light);
+}
+
+/* Dark theme styles */
+.dark-theme {
+  --primary: var(--primary-dark);
+  --menu-primary: var(--menu-primary-dark);
+  --menu-text: var(--menu-text-dark);
+  --menu-text-active: var(--menu-text-active-dark);
+  --menu-title: var(--menu-title-dark);
+  --link-hover: var(--link-hover-dark);
+}

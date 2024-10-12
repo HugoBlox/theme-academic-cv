@@ -13,11 +13,8 @@ doi: "10.1145/3634713.3634734"
 # Schedule page publish date (NOT publication's date).
 publishDate: 2024-01-08
 
-# Publication type.
-# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
-# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+# Publication type: paper-conference, article-journal, article-newspaper, book, chapter, masters-thesis, preprint, report, thesis, webpage (from CSL standard)
+publication_types: ["paper-conference"]
 
 # Publication name and optional abbreviated publication name.
 publication: "In the *18th International Working Conference on Variability Modelling of Software-Intensive Systems*"
