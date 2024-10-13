@@ -1,23 +1,20 @@
-/* Green color theme:*/
+/* Light Green color theme:*/
 :root {
   /* Primary Colors */
-  --lightest-shade: rgb(234, 242, 250);   /* Lightest shade */
-  --lighter-shade: rgb(213, 229, 245);    /* Lighter shade */ 
-  --light-shade: rgb(146, 207, 149);      /* Light shade */
-  --medium-shade: rgb(93, 183, 97);       /* Medium shade */
-  --main-shade: rgb(76, 175, 80);         /* Main shade */ 
-  --dark-shade: rgb(38, 87, 40);          /* Dark shade */
+  --lightest-shade: rgb(234, 242, 250);   /* Lightest shade OK */
+  --lighter-shade: rgb(213, 229, 245);    /* Lighter shade  OK */ 
+  --light-shade: rgb(157, 204, 152);      /* Light shade */
+  --medium-shade: rgb(116, 181, 106);     /* Medium shade */
+  --main-shade: rgb(76, 175, 80);         /* Main shade OK */ 
+  --dark-shade: rgb(38, 87, 40);         /* Dark shade OK */
   --darker-shade: rgb(39, 41, 52);        /* Darker shade */
   --darkest-shade: rgb(35, 37, 46);       /* Darkest shade */
+
 }
 
 /* Applying the colors to the relevant elements */
 body {
   background-color: var(--lightest-shade) !important;
-}
-
-.dark body {
-  background-color: var(--darkest-shade) !important;
 }
 
 /* Header*/
@@ -74,7 +71,12 @@ header {
   color: var(--lighter-shade); /* Change to your desired shade of red */
 }
 
+  
+
 /* Section Experience */
+
+
+/* Change left border color and size */
 #experience ol {
   border-left-color: white !important; /* Replace with your desired color */
   border-left-width: 3px !important; /* Set the left border width to 5 pixels */
@@ -90,21 +92,6 @@ header {
   fill: var(--main-shade);
 }
 
-.dark #experience ol {
-  border-left-color: var(--dark-shade) !important; /* Replace with your desired color */
-  border-left-width: 3px !important; /* Set the left border width to 5 pixels */
-  border-left-style: solid !important; /* Ensure the left border is solid */
-}
-
-.dark #experience li .absolute {
-  background-color: var(--main-shade) !important; /* Set background to darkest-shade */
-  border-color: white !important; /* Apply same color to border */
-}
-
-.dark #experience svg {
-  fill: var(--darkest-shade);
-}
-
 /* Sections -- general */
 section:nth-child(even) {
   background-color: var(--lighter-shade) !important; /* Even section background */ /* Darker shade / Lightest shade */
@@ -112,14 +99,6 @@ section:nth-child(even) {
 
 section:nth-child(odd) {
   background-color: var(--lightest-shade) !important; /* Odd section background */ /* Darkest shade / Lighter shade */
-}
-
-.dark section:nth-child(even) {
-  background-color: var(--darkest-shade) !important; /* Even section background */ /* Darker shade / Lightest shade */
-}
-
-.dark section:nth-child(odd) {
-  background-color: var(--darker-shade) !important; /* Odd section background */ /* Darkest shade / Lighter shade */
 }
 
 #section-resume-biography-3 {
@@ -135,28 +114,10 @@ a:hover {
   color: var(--dark-shade) !important;  /* Link hover color */ /* Light shade / Dark shade */
 }
 
-.dark a:hover {
-  color: var(--light-shade) !important;  /* Link hover color */ /* Light shade / Dark shade */
-}
-
-#courses ul li::marker {
-  color: var(--main-shade) !important;    /* Set bullet color to red */
-}
-
-#services ul li::marker {
-  color: var(--main-shade) !important;    /* Set bullet color to red */
-}
-
 /* Adventures group title, image and description */
 .cursor-pointer:hover h2.text-lg a,
 .cursor-pointer:hover p.mt-2 a {
     color: var(--dark-shade) !important; /* Change text color on hover */
-    transition: color 0.3s ease; /* Smooth color transition */
-}
-
-.dark .cursor-pointer:hover h2.text-lg a,
-.cursor-pointer:hover p.mt-2 a {
-    color: var(--light-shade) !important; /* Change text color on hover */
     transition: color 0.3s ease; /* Smooth color transition */
 }
 
@@ -165,3 +126,28 @@ a:hover {
     transform: scale(1.05); /* Scale the image */
     transition: transform 0.3s ease; /* Smooth transition for scaling */
 }
+
+
+/* Other possible styles 
+footer {
+  background-color: rgb(var(--color-footer-background)) !important;
+  color: rgb(var(--color-footer-text)) !important;  
+}
+
+h1, h2, h3, h4 {
+  color: rgb(var(--color-title-color)) !important; 
+}
+
+*/
+
+/* Dark mode adjustments 
+.dark #search_toggle, 
+.dark .theme-toggle {
+  color: rgb(255, 0, 0) !important; 
+}
+
+.dark #search_toggle svg, 
+.dark .theme-toggle svg {
+  fill: rgb(255, 0, 0) !important; 
+  stroke: rgb(255, 0, 0) !important; 
+}*/

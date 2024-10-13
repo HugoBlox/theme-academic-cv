@@ -1,4 +1,4 @@
-/* Green color theme:*/
+/* Dark Green color theme:*/
 :root {
   /* Primary Colors */
   --lightest-shade: rgb(234, 242, 250);   /* Lightest shade */
@@ -13,10 +13,6 @@
 
 /* Applying the colors to the relevant elements */
 body {
-  background-color: var(--lightest-shade) !important;
-}
-
-.dark body {
   background-color: var(--darkest-shade) !important;
 }
 
@@ -49,7 +45,6 @@ header {
   stroke: var(--dark-shade); 
 }
 
-
 /* Section Bio */
 .avatar-wrapper {
   display: flex !important; /* Enable flexbox */
@@ -76,55 +71,32 @@ header {
 
 /* Section Experience */
 #experience ol {
-  border-left-color: white !important; /* Replace with your desired color */
-  border-left-width: 3px !important; /* Set the left border width to 5 pixels */
-  border-left-style: solid !important; /* Ensure the left border is solid */
-}
-
-#experience li .absolute {
-  background-color: white !important; /* Use !important if necessary */
-}
-
-
-#experience svg {
-  fill: var(--main-shade);
-}
-
-.dark #experience ol {
   border-left-color: var(--dark-shade) !important; /* Replace with your desired color */
   border-left-width: 3px !important; /* Set the left border width to 5 pixels */
   border-left-style: solid !important; /* Ensure the left border is solid */
 }
 
-.dark #experience li .absolute {
+#experience li .absolute {
   background-color: var(--main-shade) !important; /* Set background to darkest-shade */
   border-color: white !important; /* Apply same color to border */
 }
 
-.dark #experience svg {
+#experience svg {
   fill: var(--darkest-shade);
 }
 
 /* Sections -- general */
 section:nth-child(even) {
-  background-color: var(--lighter-shade) !important; /* Even section background */ /* Darker shade / Lightest shade */
-}
-
-section:nth-child(odd) {
-  background-color: var(--lightest-shade) !important; /* Odd section background */ /* Darkest shade / Lighter shade */
-}
-
-.dark section:nth-child(even) {
   background-color: var(--darkest-shade) !important; /* Even section background */ /* Darker shade / Lightest shade */
 }
 
-.dark section:nth-child(odd) {
+section:nth-child(odd) {
   background-color: var(--darker-shade) !important; /* Odd section background */ /* Darkest shade / Lighter shade */
 }
 
 #section-resume-biography-3 {
   background-color: transparent !important; /* To allow my own background behind the Bio */
-  color: white !important; /* Change text color on hover */
+  color: white !important; 
 }
 
 a {
@@ -132,10 +104,6 @@ a {
 }
 
 a:hover {
-  color: var(--dark-shade) !important;  /* Link hover color */ /* Light shade / Dark shade */
-}
-
-.dark a:hover {
   color: var(--light-shade) !important;  /* Link hover color */ /* Light shade / Dark shade */
 }
 
@@ -143,18 +111,13 @@ a:hover {
   color: var(--main-shade) !important;    /* Set bullet color to red */
 }
 
+
 #services ul li::marker {
   color: var(--main-shade) !important;    /* Set bullet color to red */
 }
 
 /* Adventures group title, image and description */
 .cursor-pointer:hover h2.text-lg a,
-.cursor-pointer:hover p.mt-2 a {
-    color: var(--dark-shade) !important; /* Change text color on hover */
-    transition: color 0.3s ease; /* Smooth color transition */
-}
-
-.dark .cursor-pointer:hover h2.text-lg a,
 .cursor-pointer:hover p.mt-2 a {
     color: var(--light-shade) !important; /* Change text color on hover */
     transition: color 0.3s ease; /* Smooth color transition */
