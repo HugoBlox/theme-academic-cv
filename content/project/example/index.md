@@ -1,6 +1,6 @@
 ---
 title: Future Circular Collider and Next Generation Light Sources 
-summary: The e+/e- Future Circular Collider (FCC-ee) is currently favoured as the most likely next flagship collider project to follow on from the Large Hadron Collider (LHC) at CERN. At 90-km in circumference, FCC-ee aims to reach unprecedented luminosity.At the same time, the Accelerator Physics group at the Australian Synchrotron is currently developing a new, next generation synchrotron light source design called AS2, which will achieve orders of magnitude greater brilliance X-rays for the user community. 
+summary: The e+/e- Future Circular Collider (FCC-ee) is currently favoured as the most likely next flagship collider project to follow on from the Large Hadron Collider (LHC) at CERN. At the same time, the Accelerator Physics group at the Australian Synchrotron is currently developing a new, next generation synchrotron light source design, which will achieve orders of magnitude greater brilliance X-rays for the user community. 
 
 tags:
   - Rings
@@ -28,18 +28,18 @@ image:
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+#slides: example
 ---
 
-*Future Circular Collider*
+**Future Circular Collider**
 
 The e+/e- Future Circular Collider (FCC-ee) is currently favoured as the most likely next flagship collider project to follow on from the Large Hadron Collider (LHC) at CERN. At 90-km in circumference, FCC-ee aims to reach unprecedented luminosity.
 
-*Next generation light source*
+**Next generation light source**
 
 At the same time, the Accelerator Physics group at the Australian Synchrotron is currently developing a new, next generation synchrotron light source design called AS2, which will achieve orders of magnitude greater brilliance X-rays for the user community. 
 
-**Optics correction techniques **
+**Optics correction techniques**
 
 Despite different aims, AS2 and FCC-ee have many traits in common. Both high-performance machines have ultra-low emittance electron storage rings, needing impressive beam control and novel optics correction schemes. 
 A challenge facing both machines, AS2 and FCC-ee, arises from the far greater sensitivity to small misalignment and field errors. We need to determine how to steer and control the beam properties, particularly during the early stages of commissioning before initial corrections and calibrations have been applied. 
