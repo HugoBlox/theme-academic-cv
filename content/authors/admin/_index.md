@@ -1,13 +1,12 @@
 ---
 # Display name
-title: 吳健雄
-
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+title: Tessa Charles
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Tessa
+last_name: Charles
+
+name_pronounciation = ''
 
 # Status emoji
 status:
@@ -17,34 +16,32 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Accelerator Physicist
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name:  Australian Synchrotron
+    url: https://www.ansto.gov.au/facilities/australian-synchrotron
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Non-linear beam dynamics 
+  - Next generation light source design
+  - Compact accelerators for cultural heriatage and other applications
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
+    - course: PhD in Accelerator Physics
+      institution: Monash University
+      year: 2016
+    - course: BSc and BEng
+      institution: Monash University
       year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
