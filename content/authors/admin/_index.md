@@ -28,20 +28,20 @@ organizations:
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
-interests:
-  - Non-linear beam dynamics 
-  - Next generation light source design
-  - Compact accelerators for cultural heriatage and other applications
+#interests:
+#  - Non-linear beam dynamics 
+#  - Next generation light source design
+#  - Compact accelerators for cultural heriatage and other applications
 
 # Education to show in About widget
-education:
-  courses:
-    - course: PhD in Accelerator Physics
-      institution: Monash University
-      year: 2016
-    - course: BSc and BEng
-      institution: Monash University
-      year: 2012
+#education:
+#  courses:
+#    - course: PhD in Accelerator Physics
+#      institution: Monash University
+#      year: 2016
+#    - course: BSc and BEng
+#      institution: Monash University
+#      year: 2012
 
 
 # Skills
@@ -118,5 +118,8 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+
+Tessa Charles is an accelerator physicist at the Australian Synchrotron. Her reserach interests include
+ultra low emittance storage rings for colliders and 4th generation light sources, compact accelerators for cultural heritage and other applications, and non-linear beam dynamics. 
 {style="text-align: justify;"}
+
