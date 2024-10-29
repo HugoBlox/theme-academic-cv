@@ -179,8 +179,8 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
+        - name: Rings
+          tag: Rings
         - name: Other
           tag: Demo
     design:
