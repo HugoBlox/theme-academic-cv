@@ -78,7 +78,7 @@ sections:
         - title: Lecturer
           company: University of Liverpool / Cockcroft Institute
           company_url: ''
-          company_logo: 'Uni-of-Liverpool-logo.png'
+          company_logo: Uni-of-Liverpool-logo
           location: Liverpool, UK
           date_start: '2020-09-01'
           date_end: '2023-09-01'
