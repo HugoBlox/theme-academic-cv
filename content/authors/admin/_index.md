@@ -2,11 +2,12 @@
 # Display name
 title: Tessa Charles
 
+# Name pronunciation (optional)
+name_pronunciation: ''
+
 # Full name (for SEO)
 first_name: Tessa
 last_name: Charles
-
-name_pronounciation = ''
 
 # Status emoji
 status:
