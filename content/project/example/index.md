@@ -1,7 +1,6 @@
 ---
 title: Future Circular Collider and Next Generation Light Sources 
-summary: The e+/e- Future Circular Collider (FCC-ee) is currently favoured as the most likely next flagship collider project to follow on from the Large Hadron Collider (LHC) at CERN. At 90-km in circumference, FCC-ee aims to reach unprecedented luminosity.
-At the same time, the Accelerator Physics group at the Australian Synchrotron is currently developing a new, next generation synchrotron light source design called AS2, which will achieve orders of magnitude greater brilliance X-rays for the user community. 
+summary: The e+/e- Future Circular Collider (FCC-ee) is currently favoured as the most likely next flagship collider project to follow on from the Large Hadron Collider (LHC) at CERN. At 90-km in circumference, FCC-ee aims to reach unprecedented luminosity.At the same time, the Accelerator Physics group at the Australian Synchrotron is currently developing a new, next generation synchrotron light source design called AS2, which will achieve orders of magnitude greater brilliance X-rays for the user community. 
 
 tags:
   - Rings
