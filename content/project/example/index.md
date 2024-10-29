@@ -10,7 +10,7 @@ date: '2024-10-29T00:00:00Z'
 external_link: ''
 
 image:
-  caption: Photo credit: CERN
+  caption: Photo credit CERN
   focal_point: Smart
 
 #links:
