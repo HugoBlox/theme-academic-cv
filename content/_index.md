@@ -65,7 +65,7 @@ sections:
         - title: Accelerator Physicist
           company: ANSTO - the Australian Synchrotron
           company_url: ''
-          company_logo: org-gc
+          company_logo: ansto-logo
           location: Melbourne, Australia
           date_start: '2023-10-01'
           date_end: ''
@@ -78,7 +78,7 @@ sections:
         - title: Lecturer
           company: University of Liverpool / Cockcroft Institute
           company_url: ''
-          company_logo: Uni-of-Liverpool-logo
+          company_logo: UoL-Logo
           location: Liverpool, UK
           date_start: '2020-09-01'
           date_end: '2023-09-01'
@@ -86,7 +86,7 @@ sections:
         - title: Postdoc fellow
           company: CERN
           company_url: ''
-          company_logo: org-x
+          company_logo: CERN_logo
           location: Geneva, Switzerland
           date_start: '2017-06-01'
           date_end: '2020-09-01'
