@@ -232,7 +232,7 @@ sections:
     design:
       columns: '2'
       view: compact
-- block: collection
+  - block: collection
     id: news
     content:
       title: Recent News
