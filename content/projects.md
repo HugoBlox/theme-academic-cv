@@ -12,7 +12,7 @@ sections:
   - block: collection
     content:
       title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      text: I am a PhD student in Sociology at McGill University, specializing in Population Dynamics, with a passion for exploring family trajectories and transitions to adulthood among immigrant groups.
       filters:
         folders:
           - project
