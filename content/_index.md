@@ -21,7 +21,7 @@ sections:
     design:
       css_class: dark
       background:
-        color: black
+        color: grey
         image:
           # Add your image background to `assets/media/`.
           filename: stacked-peaks.svg
@@ -37,9 +37,7 @@ sections:
       text: |-
         Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+        I am a PhD student in Sociology at McGill University, specializing in Population Dynamics, with a passion for exploring family trajectories and transitions to adulthood among immigrant groups.
     design:
       columns: '1'
   - block: collection
