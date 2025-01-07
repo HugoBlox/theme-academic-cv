@@ -3,7 +3,7 @@
 title: Mahjoube AmaniChakani
 
 # Name pronunciation (optional)
-name_pronunciation: Mahjoube Amani Chakani
+name_pronunciation: 
 
 # Full name (for SEO)
 first_name: Mahjoube 
