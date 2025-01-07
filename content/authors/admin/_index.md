@@ -1,186 +1,124 @@
 ---
 # Display name
-title: 吳健雄
+title: Mahjoube AmaniChakani
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Mahjoube Amani Chakani
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Mahjoube 
+last_name:AmaniChakani
 
 # Status emoji
-status:
+status: PhD Student in Sociology-Population Dynamics at McGill University
   icon: ☕️
 
 # Is this the primary user of the site?
-superuser: true
-
-# Highlight the author in author lists? (true/false)
-highlight_name: true
+superuser: PhD Student
 
 # Role/position/tagline
-role: Chief Scientist
+role: Director of Cloud Infrastructure
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: McGill University
+    url: https://www.mcgill.ca/sociology/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mahjoube.amanichakani@mail.mcgill.com'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://x.com/mshjoob
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/mahjoobam
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url:https://www.linkedin.com/in/mahjoube-amanichakani-8661b0148?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+  - icon: brands/instagram
 
-interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD Student
+    institution: McGill University
+    date_start: 2023-09-01
+    date_end: 
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+    I am a PhD student in Sociology at McGill University, specializing in Population Dynamics, with a passion for exploring family trajectories and transitions to adulthood among immigrant groups. I hold a Master’s in Demography and a Bachelor’s in Social Planning, ranking among the top students in both programs. My research focuses on understanding how young immigrants navigate key life events, such as marriage, childbearing, and household formation, in a new cultural context. I aim to highlight that living in a high-income country is not the same experience for immigrants as it is for the native-born, as immigrants often face additional obstacles when adapting to a new place. With expertise in quantitative research methods, data analysis, and demographic modeling, my goal is to contribute to a deeper understanding of immigrant families and their vital role in shaping Canada’s demographic landscape.
     button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+     
+  - area: Population Dynamics
+    institution: McGill University
+    date_start: 2023-09-01
+    date_end: 
     summary: |
-      GPA: 3.8/4.0
+      GPA: 3.88/4.0
 
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Social Res Design&Practice
+      - Prof Dev Seminar in Sociology
+      - Demographic Methods
+      - Sociology of Population
+      - Qualitative Research Methods 1
+      - Reading and Research(EHA)
+ 
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
+  - position: Research Assistant9
+    company_name: McGill University
+    company_url: ' https://www.mcgill.ca/sociology/'
+    company_logo: 
+    date_start: 2023-09-01
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
+      - Through various projects related to global family changes led by Prof. Clark, my duties included literature review, identifying research gaps, data analysis, preparing presentations, and drafting issue and policy briefs. Recently, one of the issue briefs we worked on, titled "Family change and diversity in Canada," was published by The Vanier Institute of the Family. In this brief, we explained the increased diversity in types of unions and intimate partnerships formed. This collaboration taught me a great deal about working with independent institutes to highlight social changes over the years. Currently, I am a Co-investigator on another research project focusing on Rural Families in Canada.
+  - position: 3.	Teaching Assistant9
+    company_name: McGill University
+    company_url: ' https://www.mcgill.ca/sociology/'
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2023-09-01
+    date_end: 
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - I am working closely with Dr. Orsola Torrisi to make sure students gain an accurate conceptual understanding and statistical thinking. This course introduces students to the basics of statistics and probability, which are building blocks for much of the research that is done in the Social Sciences. My main responsibility is during Lab sessions and helping students learn how to use statistical concepts and tools especially STATA.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python
+      - name: STATA
         description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
+        percent: 90
+        icon: devicon/STATA
+      - name: RStudio
         description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
+        percent: 90
+        icon: devicon/rstudio
+      - name: SAS
         description: ''
-        percent: 40
-        icon: circle-stack
+        percent: 60
+        icon: devicon/SAS
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Chess
         description: ''
-        percent: 60
-        icon: person-simple-walk
+        percent: 70
+        icon: person-simple-CHESS
       - name: Cats
         description: ''
         percent: 100
         icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+
 
 languages:
   - name: English
+    percent: 90
+  - name: Farsi
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: French
+    percent: 20
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
----
-
-## About Me
-
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
