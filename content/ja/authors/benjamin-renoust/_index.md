@@ -16,8 +16,8 @@ role: 招へい准教授
 
 # Organizations/Affiliations
 organizations:
-- name: "データビリティフロンティア機構"
-  url: "http://www.ids.osaka-u.ac.jp/"
+- name: "D3センター"
+  url: "https://www.d3c.osaka-u.ac.jp/en/"
 - name: "大阪大学"
   url: "http://www.osaka-u.ac.jp/"
 
@@ -53,7 +53,7 @@ social:
   show_link: false
 - icon: home
   icon_pack: fas
-  link: http://www.ids.osaka-u.ac.jp/nagahara/
+  link: https://www.d3c.osaka-u.ac.jp/en/nagahara/
   str: personal
   show_link: true
 - icon: google-scholar

@@ -10,12 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-#role: Institute for Datability Science
+#role: D3 Center
 
 # Organizations/Affiliations
 organizations:
-- name: Institute for Datability Science
-  url: "https://www.ids.osaka-u.ac.jp/"
+- name: D3 Center
+  url: "https://www.d3c.osaka-u.ac.jp/en/"
 #- name: Graduate School of Information Science and Technology
 #  url: "https://www.ist.osaka-u.ac.jp/"
 - name: Osaka University
@@ -75,7 +75,7 @@ user_groups:
 #- Visitors
 ---
 
-ISLab is a research group with Graduate School of Information Science and Technology, Osaka University, also known as Artificial Intelligence and Mathematics Group with Institute for Datability Science, Osaka University.
+ISLab is a research group with Graduate School of Information Science and Technology, Osaka University, also known as Artificial Intelligence and Mathematics Group with D3 Center, Osaka University.
 
 As a research institute with a mission to provide data science-related technologies to everyone, we are collaborating with various departments in Osaka University and other research institutes, as well as companies. As ISLab, a part of the Graduate School of Information Science and Technology, we work with students to motivate them and cultivate their interests in research as well as knowledge in related fields. 
 

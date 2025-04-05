@@ -17,13 +17,13 @@ group: Artificial Intelligence and Mathematics
 
 # Organizations/Affiliations
 organizations:
-- name: "Institute for Datability Science"
-  url: "http://www.ids.osaka-u.ac.jp/"
+- name: "D3 Center"
+  url: "https://www.d3c.osaka-u.ac.jp/en/"
 - name: "Osaka University"
   url: "http://www.osaka-u.ac.jp/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Hideaki Hayashi is an associate professor with Institute for Datability Science, Osaka University. His research interests focus on neural networks, machine learning, and medical data analysis.
+bio: Hideaki Hayashi is an associate professor with D3 Center, Osaka University. His research interests focus on neural networks, machine learning, and medical data analysis.
 
 # List each interest with a dash
 interests:

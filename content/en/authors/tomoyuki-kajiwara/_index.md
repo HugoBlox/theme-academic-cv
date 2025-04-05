@@ -12,7 +12,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Guest Assistant Professor
+role: Guest Associate Professor
 group: Artificial Intelligence and Mathematics
 
 # Organizations/Affiliations

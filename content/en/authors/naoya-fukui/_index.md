@@ -3,7 +3,7 @@
 title: "Naoya Fukui"
 
 # 2024-04-01 00:00:00
-weight: 3024102
+weight: 2025101
 
 # Username (this should match the folder name and the name on publications)
 authors:
@@ -13,7 +13,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Undergraduate Student
+role: Graduate Student
 
 # Organizations/Affiliations
 organizations:

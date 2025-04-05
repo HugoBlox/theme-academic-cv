@@ -2,7 +2,7 @@
 # Display name
 title: "芦田 淳"
 
-weight: 58
+weight: 57
 
 # Username (this should match the folder name and the name on publications)
 authors:
@@ -12,13 +12,13 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: 特任研究員
+role: 特任助教
 group: 知能情報基盤部門
 
 # Organizations/Affiliations
 organizations:
-- name: "データビリティフロンティア機構"
-  url: "http://www.ids.osaka-u.ac.jp/"
+- name: "D3センター"
+  url: "https://www.d3c.osaka-u.ac.jp/en/"
 - name: "大阪大学"
   url: "http://www.osaka-u.ac.jp/"
 

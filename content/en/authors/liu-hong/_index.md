@@ -17,8 +17,8 @@ role: Specially-Appointed Assistant Professor
 
 # Organizations/Affiliations
 organizations:
-- name: "Institute for Datability Science"
-  url: "http://www.ids.osaka-u.ac.jp/"
+- name: "D3 Center"
+  url: "https://www.d3c.osaka-u.ac.jp/en/"
 - name: "Osaka University"
   url: "http://www.osaka-u.ac.jp/"
 
@@ -72,8 +72,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Researchers
-- Fulltime
+- Alumni
 ---
 ### Contact
 - email: hliu@ids.

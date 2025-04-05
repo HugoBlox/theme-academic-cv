@@ -50,10 +50,10 @@ subtitle = ""
  css_class = ""
 +++
 
-- :sparkles: A new member joined on April 16th: Jovana Panic. Welcome to Osaka, Japan!
-- :sparkles: New members joined on April 12th: Yuuki Kusu, Naoya Fukui, Yuta Murakami, Kim Hakmin, and Ryota Manaka. Enjoy your life with us!
-- :sparkles: New memberm joined on April 1st: Liyun Zhang, Ryan Ramos, Patrick Ramos, Tong Xiang, and Daigo Sato. Welcome!
-- :tada: Three papers are accepted to CVPR 2024 :tada:
-  - "Time-Efficient Light-Field Acquisition Using Coded Aperture and Events" by Shuji Habuchi, Keita Takahashi, Chihiro Tsutake, Toshiaki Fujii, Hajime 
-  - "NeISF: Neural Incident Stokes Field for Geometry and Material Estimation" by Chenhao Li, Taishi Ono, Takeshi Uemori, Hajime Mihara, Alexander Gatto, Hajime Nagahara, Yusuke Moriuchi
-  - "Would Deep Generative Models Amplify Bias in Future Models?" by Tianwei Chen, Yusuke Hirota, Mayu Otani, Noa Garcia, Yuta Nakashima
+<!-- - :sparkles: A new member joined on April 16th: Jovana Panic. Welcome to Osaka, Japan! -->
+<!-- - :sparkles: New members joined on April 12th: Yuuki Kusu, Naoya Fukui, Yuta Murakami, Kim Hakmin, and Ryota Manaka. Enjoy your life with us! -->
+- :sparkles: New members joined on April 1st: Wang Junqi, Bai Jihong, and Meng Siyuan. Welcome!
+- :tada: One paper is accepted to CVPR 2025 :tada:
+  - "NeISF++: Neural Incident Stokes Field for Polarized Inverse Rendering of Conductors and Dielectrics" by Chenhao Li, Taishi Ono, Takeshi Uemori, Sho Nitta, Hajime Mihara, Alexander Gatto, Hajime Nagahara, Yusuke Moriuchi
+- :tada: One paper is accepted to ICLR 2025 :tada:
+  - "Gaussian-Based Instance-Adaptive Intensity Modeling for Point-Supervised Facial Expression Spotting" by Yicheng Deng, Hideaki Hayashi, Hajime Nagahara

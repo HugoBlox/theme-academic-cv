@@ -31,7 +31,7 @@ ISLab is opening a few postdoctoral positions for computer vision and/or machine
 
 ## About ISLab
 
-ISLab is a research group at Osaka University, Japan, affiliated with [Institute for Datability Science (IDS)](https://www.ids.osaka-u.ac.jp/en/), Osaka University. Our mission includes providing/transferring the latest machine learning and data science techniques to other departments/institutes at Osaka University or any other organizations (e.g., universities and companies) through interdisciplinary collaborative research projects. 
+ISLab is a research group at Osaka University, Japan, affiliated with [D3 Center (IDS)](https://www.d3c.osaka-u.ac.jp/en/), Osaka University. Our mission includes providing/transferring the latest machine learning and data science techniques to other departments/institutes at Osaka University or any other organizations (e.g., universities and companies) through interdisciplinary collaborative research projects. 
 
 ISLab is also affiliated with [Graduate School of Information Science and Technology, Osaka University](https://www.ist.osaka-u.ac.jp/english/), and we cultivate undergraduate and graduate students' skills and knowledge in computer vision, machine learning, natural language processing, and related fields. 
 

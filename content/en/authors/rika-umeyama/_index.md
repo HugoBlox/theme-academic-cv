@@ -16,8 +16,8 @@ role: Undergraduate Student
 
 # Organizations/Affiliations
 organizations:
-- name: "Institute for Datability Science"
-  url: "http://www.ids.osaka-u.ac.jp/"
+- name: "D3 Center"
+  url: "https://www.d3c.osaka-u.ac.jp/en/"
 - name: "Graduate School of Information Science and Technology"
   url: "http://www.ist.osaka-u.ac.jp/"
 - name: "Osaka University"
