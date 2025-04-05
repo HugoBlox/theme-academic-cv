@@ -6,7 +6,7 @@ weight: 1022120
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "yusuke-hirota"
+- "yankun-wu"
 
 # Is this the primary user of the site?
 superuser: false

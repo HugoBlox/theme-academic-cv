@@ -10,12 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-#role: Institute for Datability Science
+#role: D3 Center
 
 # Organizations/Affiliations
 organizations:
-- name: データビリティフロンティア機構
-  url: "https://www.ids.osaka-u.ac.jp/"
+- name: D3センター
+  url: "https://www.d3c.osaka-u.ac.jp/"
 #- name: Graduate School of Information Science and Technology
 #  url: "https://www.ist.osaka-u.ac.jp/"
 - name: 大阪大学
@@ -75,7 +75,7 @@ user_groups:
 #- Visitors
 ---
 
-知能センシング講座（ISLab; 長原研究室）は大阪大学 大学院情報科学研究科の協力講座です。人工知能をはじめとするデータサイエンスに関する技術を多くの人に利用してもらうことをミッションとする大阪大学データビリティフロンティア機構知能情報基盤部門を母体としており、学内外の様々な組織との共同研究などを実施しています。2020年度から大学院情報科学研究科の協力講座となり、学生の皆様と一緒に研究を進めることができるようになりました。学生の皆様が主体的・積極的に実施する研究プロジェクトをサポートしつつ、関連分野の知識・技術の獲得をお手伝いしていきます。
+知能センシング講座（ISLab; 長原研究室）は大阪大学 大学院情報科学研究科の協力講座です。人工知能をはじめとするデータサイエンスに関する技術を多くの人に利用してもらうことをミッションとする大阪大学D3センター知能情報基盤研究部門を母体としており、学内外の様々な組織との共同研究などを実施しています。2020年度から大学院情報科学研究科の協力講座となり、学生の皆様と一緒に研究を進めることができるようになりました。学生の皆様が主体的・積極的に実施する研究プロジェクトをサポートしつつ、関連分野の知識・技術の獲得をお手伝いしていきます。
 
 当研究室で一緒に研究をしたい学生の皆様は[こちら](/ja/post/prospective-students/)。
 

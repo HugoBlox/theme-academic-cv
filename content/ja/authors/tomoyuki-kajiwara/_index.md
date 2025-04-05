@@ -12,7 +12,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: 招へい助教
+role: 招へい准教授
 group: 知能情報基盤部門
 
 # Organizations/Affiliations

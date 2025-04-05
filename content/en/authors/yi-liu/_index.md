@@ -3,7 +3,7 @@
 title: "Yi Liu"
 
 # 2023-04-01 00:00:00
-weight: 2023101
+weight: 1025101
 
 # Username (this should match the folder name and the name on publications)
 authors:
@@ -13,7 +13,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Graduate Student
+role: PhD Student
 
 # Organizations/Affiliations
 organizations:

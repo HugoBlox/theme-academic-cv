@@ -13,12 +13,12 @@ superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
 group: Artificial Intelligence and Mathematics
-role: Specially-Appointed Researcher/Fellow
+role: Specially-Appointed Assistant Professor
 
 # Organizations/Affiliations
 organizations:
-- name: "Institute for Datability Science"
-  url: "http://www.ids.osaka-u.ac.jp/"
+- name: "D3 Center"
+  url: "https://www.d3c.osaka-u.ac.jp/en/"
 - name: "Osaka University"
   url: "http://www.osaka-u.ac.jp/"
 

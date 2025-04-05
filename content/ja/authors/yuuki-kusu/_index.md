@@ -3,7 +3,7 @@
 title: "楠 裕貴"
 
 # 2024-04-01 00:00:00
-weight: 3024101
+weight: 2025101
 
 # Username (this should match the folder name and the name on publications)
 authors:
@@ -13,11 +13,11 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: 学部学生
+role: 博士前期課程学生
 
 # Organizations/Affiliations
 organizations:
-- name: "基礎工学部"
+- name: "情報科学研究科"
   url: "https://www.es.osaka-u.ac.jp/ja/"
 - name: "大阪大学"
   url: "http://www.osaka-u.ac.jp/"
@@ -68,7 +68,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- 学生
+- Alumni
 ---
 ### Contact
 - email: k-yuuki@is.ids.
