@@ -2,8 +2,8 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Society 5.0 Projects"
-summary: "データビリティフロンティア機構では、情報科学の様々な分野に渡る技術を利用して、[Society 5.0](http://www.ids.osaka-u.ac.jp/ildi/index.html)プロジェクトに取り組んでいます。"
-authors: ["Manisha Verma", "Tomoyuki Kajiwara", "Noriko Takemura", "Yuta Nakashima", "Hajime Nagahara"]
+summary: "D3センターでは、情報科学の様々な分野に渡る技術を利用して、[Society 5.0](https://www.ildi.ids.osaka-u.ac.jp/)プロジェクトに取り組んでいます。"
+authors: ["Atsushi Ashida", "Manisha Verma", "Tomoyuki Kajiwara", "Noriko Takemura", "Hideaki Hayashi", "Yuta Nakashima", "Hajime Nagahara"]
 tags: ["society5.0"]
 categories: []
 date: 2020-07-01T10:07:15+09:00
@@ -39,7 +39,7 @@ url_video: ""
 # Otherwise, set `slides = ""`.
 slides: ""
 ---
-データビリティフロンティア機構では、情報科学の様々な分野に渡る技術を利用して、[Society 5.0](http://www.ids.osaka-u.ac.jp/ildi/index.html)プロジェクトに取り組んでいます。
+D3センターでは、情報科学の様々な分野に渡る技術を利用して、[Society 5.0](https://www.ildi.ids.osaka-u.ac.jp/)プロジェクトに取り組んでいます。
 
 > Society 5.0 とは・・・IoTビッグデータ、ロボット技術、人工知能等のイノベーションを、産業や社会生活に活用し、人々が活力に満ちた質の高い生活を実感できる社会のこと。
 

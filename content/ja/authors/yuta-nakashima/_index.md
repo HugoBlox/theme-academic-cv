@@ -17,8 +17,8 @@ group: 知能情報基盤部門
 
 # Organizations/Affiliations
 organizations:
-- name: "データビリティフロンティア機構"
-  url: "http://www.ids.osaka-u.ac.jp/"
+- name: "D3センター"
+  url: "https://www.d3c.osaka-u.ac.jp/en/"
 - name: "大阪大学"
   url: "http://www.osaka-u.ac.jp/"
 
@@ -73,7 +73,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- 教員
+- 招へい研究員
 - 専任
 ---
 

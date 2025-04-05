@@ -16,8 +16,8 @@ role: Guest Associate Professor
 
 # Organizations/Affiliations
 organizations:
-- name: "Institute for Datability Science"
-  url: "http://www.ids.osaka-u.ac.jp/"
+- name: "D3 Center"
+  url: "https://www.d3c.osaka-u.ac.jp/en/"
 - name: "Osaka University"
   url: "http://www.osaka-u.ac.jp/"
 

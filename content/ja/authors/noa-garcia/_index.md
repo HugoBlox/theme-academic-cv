@@ -19,8 +19,8 @@ group: 知能情報基盤部門
 organizations:
 - name: "高等共創研究員"
   url: "https://iacs.osaka-u.ac.jp/"
-- name: "データビリティフロンティア機構"
-  url: "http://www.ids.osaka-u.ac.jp/"
+- name: "D3センター"
+  url: "https://www.d3c.osaka-u.ac.jp/en/"
 - name: "大阪大学"
   url: "http://www.osaka-u.ac.jp/"
 

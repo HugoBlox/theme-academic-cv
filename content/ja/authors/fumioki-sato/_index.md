@@ -3,7 +3,7 @@
 title: "佐藤 史興"
 
 # 2023-04-01 00:00:00
-weight: 3023103
+weight: 2024103
 
 # Username (this should match the folder name and the name on publications)
 authors:
@@ -17,7 +17,7 @@ role: 博士前期課程学生
 
 # Organizations/Affiliations
 organizations:
-- name: "基礎工学部"
+- name: "情報科学研究科"
   url: "https://www.es.osaka-u.ac.jp/ja/"
 - name: "大阪大学"
   url: "http://www.osaka-u.ac.jp/"

@@ -16,8 +16,8 @@ role: 学部学生
 
 # Organizations/Affiliations
 organizations:
-- name: "データビリティフロンティア機構"
-  url: "http://www.ids.osaka-u.ac.jp/"
+- name: "D3センター"
+  url: "https://www.d3c.osaka-u.ac.jp/en/"
 - name: "大阪大学"
   url: "http://www.osaka-u.ac.jp/"
 
