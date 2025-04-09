@@ -23,8 +23,8 @@ date_format = "Jan 2006"
   company_url = "https://www.rockingdata.com.ar/"
   location = "Full-time"
   date_start = "2023-10-04"
-  date_end = ""
-  description = "As a Data Scientist at a consultancy firm, I analyze data, develop predictive models, and deliver insights to support client decision-making."
+  date_end = "2025-01-01"
+  description = "As a Data Scientist at a consultancy firm, I analyzed data, developed predictive models, and delivered insights to support client decision-making."
 
 [[experience]]
   title = "CI/CD Engineer"
