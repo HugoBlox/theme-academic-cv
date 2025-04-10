@@ -29,31 +29,13 @@ subtitle = ""
 [[feature]]
    icon = "sync-alt"
    icon_pack = "fas"
-   name = "CI/CD"
+   name = "Continuous Integration/Delivery"
    description = ""
-
-[[feature]]
-   icon = "box"
-   icon_pack = "fas"
-   name = "Software Packaging"
-   description = ""
-
-[[feature]]
-  icon = ""
-  icon_pack = ""
-  name = ""
-  description = ""
 
 [[feature]]
   icon = "robot"
   icon_pack = "fas"
   name = "Machine Learning"
-  description = ""
-
-[[feature]]
-  icon = "sun"
-  icon_pack = "fas"
-  name = "Astrophysics"
   description = ""
 
 +++
