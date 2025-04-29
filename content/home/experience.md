@@ -24,7 +24,7 @@ date_format = "Jan 2006"
   location = "Full-time"
   date_start = "2023-10-04"
   date_end = "2025-01-01"
-  description = "As a Data Scientist at a consultancy firm, I analyzed data, developed predictive models, and delivered insights to support client decision-making."
+  description = "As a Data Scientist in consulting, I turned data into actionable insights, building predictive models to support client strategies."
 
 [[experience]]
   title = "CI/CD Engineer"
