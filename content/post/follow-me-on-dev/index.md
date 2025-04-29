@@ -31,6 +31,6 @@ aliases: []
 
 ---
 
-Hey there! I’m not very active here, so you can follow me on [dev.to/epassaro](https://dev.to/epassaro), where there's a great community! I've found it to be a fantastic place to connect with fellow developers and share insights on various tech topics.
+> Hey there! I’m not very active here, so you can follow me on [dev.to/epassaro](https://dev.to/epassaro), where there's a great community! I've found it to be a fantastic place to connect with fellow developers and share insights on various tech topics.
 
 ---
