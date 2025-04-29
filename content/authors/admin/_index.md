@@ -23,7 +23,8 @@ bio:
 interests:
   - Supernovae
   - Open-source Software
-  - Continuous Integration / Delivery
+  - Software Packaging
+  - Artificial Intelligence
 
 education:
   courses:

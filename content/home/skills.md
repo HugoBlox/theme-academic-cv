@@ -35,7 +35,7 @@ subtitle = ""
 [[feature]]
   icon = "robot"
   icon_pack = "fas"
-  name = "Machine Learning"
+  name = "Machine Learning & AI"
   description = ""
 
 +++
