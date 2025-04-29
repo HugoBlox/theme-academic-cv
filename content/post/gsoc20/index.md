@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "The End of Summer of Code"
-subtitle: "Final Evaluation: Aug 24-31th, 2021"
+subtitle: "Final Evaluation: Aug 24-31th, 2020"
 summary: ""
 authors: []
 tags: [gsoc, TARDIS]
@@ -16,7 +16,7 @@ draft: false
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: "At least the world didn't end."
+  caption: "Luckily, the world didn’t end in 2020 — but God came close."
   focal_point: ""
   preview_only: false
 
