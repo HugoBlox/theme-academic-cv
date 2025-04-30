@@ -23,8 +23,8 @@ bio:
 interests:
   - Supernovae
   - Open-source Software
-  - Software Packaging
   - Artificial Intelligence
+  - Software Packaging
 
 education:
   courses:
@@ -79,3 +79,5 @@ I am a last-year astronomy student and a software developer with a deep passion 
 
 My professional experience includes developing software for astrophysics, designing and maintaining CI/CD pipelines, and
 working with machine learning models.
+
+In my spare time, I contribute to open-source projects and enjoy building software packages.
