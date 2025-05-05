@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: "Python Developer | CI/CD Engineer"
+role: "Software Developer | CI/CD Engineer"
 
 # Organizations/Affiliations
 organizations:
