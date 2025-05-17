@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "desafio-iaxlaidentidad"
-summary: "Achieved second place in the machine learning competition [_\"Desafío IA por la Identidad\"_](https://desafio-ia-por-la-identidad.fundacionsadosky.org.ar/) hosted by Fundación Sadosky and the Ministry of Science, Technology and Innovation."
+summary: "My team won second place in the machine learning competition [_\"Desafío IA por la Identidad\"_](https://desafio-ia-por-la-identidad.fundacionsadosky.org.ar/) hosted by Fundación Sadosky and the Ministry of Science, Technology and Innovation."
 authors: []
 tags: [machine learning, python]
 categories: []
