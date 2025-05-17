@@ -44,7 +44,7 @@ date_format = "Jan 2006"
   date_end = "2020-08-31"
   description = """
   
-  This project was developed under the [Google Summer of Code](https://summerofcode.withgoogle.com/) program, which provided funding and assessed the project quality until its completion.
+  Part of the [Google Summer of Code 2020](https://summerofcode.withgoogle.com/) program, which provided funding and organizational support through to completion.
 
   [See certificate](files/certificate-gsoc20.pdf)  &#183;
   [Completion letter](files/completion-letter-gsoc20.pdf)  """
@@ -58,7 +58,8 @@ date_format = "Jan 2006"
   date_end = "2019-08-26"
   description = """
 
-  This project was developed under the [Google Summer of Code](https://summerofcode.withgoogle.com/) program, which provided funding and assessed the project quality until its completion.
+  Part of the [Google Summer of Code 2019](https://summerofcode.withgoogle.com/) program, which provided funding and organizational support through to completion.
+
   
   [See certificate](files/certificate-gsoc19.pdf)  &#183;
   [Completion letter](files/completion-letter-gsoc19.pdf)
