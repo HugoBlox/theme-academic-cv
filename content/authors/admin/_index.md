@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: "Software Developer | CI/CD Engineer"
+role: "Software Engineer | CI/CD & Automation"
 
 # Organizations/Affiliations
 organizations:
@@ -75,9 +75,9 @@ user_groups:
 ---
 
 
-I am a last-year astronomy student and a software developer with a deep passion for open-source software. 
+I am a final-year astronomy student and software developer with a keen interest in open-source collaboration.
 
-My professional experience includes developing software for astrophysics, designing and maintaining CI/CD pipelines, and
+My professional journey includes developing software for astrophysics, designing and maintaining CI/CD pipelines, and
 working with machine learning and AI models.
 
-In my spare time, I contribute to open-source projects and enjoy building software packages.
+In my spare time, I contribute to open-source projects and enjoy building software packages in different formats and distribution systems.
