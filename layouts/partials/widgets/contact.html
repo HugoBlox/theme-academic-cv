@@ -47,14 +47,14 @@
 
       {{ if and $data.email (not $page.Params.email_form) }}
       <li>
-        <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
+        <i class="fa-li fas fa-envelope fa-lg" aria-hidden="true" style="top: 0.4em;"></i>
         <span id="person-email">
         {{- if $autolink }}<a href="mailto:{{ $data.email }}">{{ $data.email }}</a>{{ else }}{{ $data.email }}{{ end -}}
         </span>
       </li>
 
       <li>
-        <i class="fa-li fas fa-university fa-2x" aria-hidden="true"></i>
+        <i class="fa-li fas fa-university fa-lg" aria-hidden="true" style="top: 0.4em;"></i>
         <span id="person-email">
         {{- if $autolink }}<a href="mailto:{{ $data.alt_email }}">{{ $data.alt_email }}</a>{{ else }}{{ $data.alt_email }}{{ end -}}
         </span>
