@@ -28,7 +28,7 @@ interests:
 
 education:
   courses:
-  - course: Lic. en Astronomía (ongoing)
+  - course: Lic. en Astronomía (in progress)
     institution: Universidad Nacional de La Plata
     year:
 
