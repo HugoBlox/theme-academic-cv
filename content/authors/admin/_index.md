@@ -1,17 +1,14 @@
 ---
 # Display name
-title: 吳健雄
-
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+title: Preston Garcia
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Preston
+last_name: Garcia
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🌎
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,36 +17,28 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Data Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: RCUH
+    url: https://www.rcuh.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'prestontgarcia@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/PrestonTGarcia
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://www.linkedin.com/in/preston-garcia-371112204/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Machine Learning
+  - Atmospheric Sciences
+  - Data Analysis
 
 education:
   - area: PhD Artificial Intelligence
@@ -78,7 +67,7 @@ education:
     date_end: 2020-12-31
     summary: |
       GPA: 3.4/4.0
-      
+
       Courses included:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -183,4 +172,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Preston Garcia is a data scientist employed by the Research Corporation of the University of Hawaii (RCUH) at the Maui High Performance Computing Center (MHPCC). His research interests are applying ML and data analysis to science and the environment, particularly in atmospheric sciences. He leads many ML and data science efforts within his projects.
