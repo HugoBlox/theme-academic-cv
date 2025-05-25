@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Second Brain | Information Nguyen Thanh Huy</title>
-    <link>http://localhost:63891/tags/second-brain/</link>
-      <atom:link href="http://localhost:63891/tags/second-brain/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:63999/tags/second-brain/</link>
+      <atom:link href="http://localhost:63999/tags/second-brain/index.xml" rel="self" type="application/rss+xml" />
     <description>Second Brain</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:63891/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:63999/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png</url>
       <title>Second Brain</title>
-      <link>http://localhost:63891/tags/second-brain/</link>
+      <link>http://localhost:63999/tags/second-brain/</link>
     </image>
     
     <item>
       <title>🧠 Sharpen your thinking with a second brain</title>
-      <link>http://localhost:63891/post/second-brain/</link>
+      <link>http://localhost:63999/post/second-brain/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63891/post/second-brain/</guid>
+      <guid>http://localhost:63999/post/second-brain/</guid>
       <description>&lt;p&gt;Create a personal knowledge base and share your knowledge with your peers.&lt;/p&gt;
 &lt;p&gt;Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.&lt;/p&gt;
 &lt;p&gt;Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.&lt;/p&gt;

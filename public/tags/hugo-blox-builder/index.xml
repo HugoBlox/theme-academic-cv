@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo Blox Builder | Information Nguyen Thanh Huy</title>
-    <link>http://localhost:63891/tags/hugo-blox-builder/</link>
-      <atom:link href="http://localhost:63891/tags/hugo-blox-builder/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:63999/tags/hugo-blox-builder/</link>
+      <atom:link href="http://localhost:63999/tags/hugo-blox-builder/index.xml" rel="self" type="application/rss+xml" />
     <description>Hugo Blox Builder</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:63891/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:63999/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png</url>
       <title>Hugo Blox Builder</title>
-      <link>http://localhost:63891/tags/hugo-blox-builder/</link>
+      <link>http://localhost:63999/tags/hugo-blox-builder/</link>
     </image>
     
     <item>
       <title>👩🏼‍🏫 Teach academic courses</title>
-      <link>http://localhost:63891/post/teach-courses/</link>
+      <link>http://localhost:63999/post/teach-courses/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63891/post/teach-courses/</guid>
+      <guid>http://localhost:63999/post/teach-courses/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -69,7 +69,7 @@
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;http://localhost:63891/post/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://localhost:63999/post/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
