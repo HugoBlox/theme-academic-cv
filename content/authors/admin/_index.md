@@ -11,7 +11,7 @@ last_name: Huy
 
 # Status emoji
 status:
-  icon: 🟢
+  icon: 🇻🇳
 
 # Is this the primary user of the site?
 superuser: true
@@ -33,23 +33,23 @@ profiles:
   - icon: at-symbol
     url: 'mailto:huynguyen2913@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+  # - icon: brands/x
+  #   url: https://twitter.com/GetResearchDev
+  # - icon: brands/instagram
+  #   url: https://www.instagram.com/
   - icon: brands/github
     url: https://github.com/gcushen
   - icon: brands/linkedin
     url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+  # - icon: academicons/google-scholar
+  #   url: https://scholar.google.com/
+  # - icon: academicons/orcid
+  #   url: https://orcid.org/
 
 interests:
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - System Design Architechture
+  - Cybersecurity
 
 education:
   # - area: PhD Artificial Intelligence

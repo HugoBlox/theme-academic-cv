@@ -26,3 +26,6 @@ Thumbs.db
 
 # Hugo environment config
 .env
+
+hugo_stats.json
+.hugo_build.lock
