@@ -1,28 +1,28 @@
-# # Hugo build output
-# /public/
-# /resources/_gen/
-# /hugo_stats.json
+# # # Hugo build output
+# # /public/
+# # /resources/_gen/
+# # /hugo_stats.json
 
-# Node.js dependencies
-/node_modules/
-/package-lock.json
-/yarn.lock
+# # Node.js dependencies
+# /node_modules/
+# /package-lock.json
+# /yarn.lock
 
-# OS and editor junk
-.DS_Store
-Thumbs.db
-*.swp
-*.swo
+# # OS and editor junk
+# .DS_Store
+# Thumbs.db
+# *.swp
+# *.swo
 
-# Logs
-*.log
+# # Logs
+# *.log
 
-# VS Code
-.vscode/
+# # VS Code
+# .vscode/
 
-# Backup files
-*~
-*.bak
+# # Backup files
+# *~
+# *.bak
 
-# Hugo environment config
-.env
+# # Hugo environment config
+# .env

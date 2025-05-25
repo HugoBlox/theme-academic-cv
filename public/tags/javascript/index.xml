@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JavaScript | Information Nguyen Thanh Huy</title>
-    <link>https://nguyenthanhhuy.info/tags/javascript/</link>
-      <atom:link href="https://nguyenthanhhuy.info/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:63891/tags/javascript/</link>
+      <atom:link href="http://localhost:63891/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <description>JavaScript</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://nguyenthanhhuy.info/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:63891/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png</url>
       <title>JavaScript</title>
-      <link>https://nguyenthanhhuy.info/tags/javascript/</link>
+      <link>http://localhost:63891/tags/javascript/</link>
     </image>
     
     <item>
       <title>Learn JavaScript</title>
-      <link>https://nguyenthanhhuy.info/teaching/js/</link>
+      <link>http://localhost:63891/teaching/js/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://nguyenthanhhuy.info/teaching/js/</guid>
+      <guid>http://localhost:63891/teaching/js/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -63,7 +63,7 @@
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;https://nguyenthanhhuy.info/teaching/js/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://localhost:63891/teaching/js/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
