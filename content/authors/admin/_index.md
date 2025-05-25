@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: Backend Software Engineer
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: #Nguyen Thanh Huy
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Nguyen Thanh
+last_name: Huy
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🟢
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,18 +20,18 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Backend Software Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: FPT Retail
+    url: https://frt.vn/en
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:huynguyen2913@gmail.com'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/GetResearchDev
@@ -52,94 +52,93 @@ interests:
   - Information Retrieval
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
+  # - area: PhD Artificial Intelligence
+  #   institution: Stanford University
+  #   date_start: 2016-01-01
+  #   date_end: 2020-12-31
+  #   summary: |
+  #     Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+  #   button:
+  #     text: 'Read Thesis'
+  #     url: 'https://example.com'
+  - area: The Degree of Master Information Technology
+    institution: Ho Chi Minh City University of Industry and Trade
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  - area: The Degree of Engineer Information Technology
+    institution: Ho Chi Minh City University of Food Industry
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Backend Software Engineer
+    company_name: FPT Retail
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2022-04-11
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+      - Integrated various vendor services, including bill payments (Payoo, SmartPay, Epay, FTEL,..),
+      software key distribution (PSD, FPT Play, HTECH,...), mobile top-up and recharge, and SIM
+      FPT activation and sales, ensuring smooth transactions and efficient system performance.
+
+      - Resolved technical debt by upgrading the system from .NET Core 2.1 to .NET 6, improving
+      performance, security, and maintainability.
+
+      - Optimized SQL query execution plans and Elasticsearch DSL, improving indexing efficiency,
+      minimizing round-trip time, and enhancing overall query performance.
+
+      - Refactored APIs to reduce latency (under 200ms), increase throughput, and optimize
+      microservices performance, enhancing scalability and system resilience.
+
+      - Reduced service bottlenecks by 70% during peak transaction periods, enhancing system
+      performance, throughput, and responsiveness.
+
+      - Handled concurrent transactions using Data Versioning and the Pub/Sub Pattern, ensuring
+      data consistency.
+
+      - Handled a high-throughput system, processing 5,000 requests per second, ensuring
+      scalability, performance
+
+      - Performed integration testing using Postman, improving deployment accuracy and reducing
+      errors in the production environment.
+  - position: Intern Backend Software Engineer
+    company_name: THL One
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2021-10-01
+    date_end: 2022-04-01
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Designed, developed, and tested a data import management screen for the ERP system
+
+      - Implemented CRUD operations using ADO.NET and SQL Server, improving data processing
+      speed and reducing query execution time
+
+      - Gained hands-on experience with the MVC framework, working on backend logic, data flow
+      management, and improving system maintainability
+
+      - Developed and optimized user interfaces using DevExtreme UI, HTML/CSS, and JavaScript,
+      enhancing the user experience and system responsiveness
+
+      - Assisted in testing and validation, ensuring system reliability before deployment
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+  - name: Core Technologies
+    summary: |
+      Core Technologies: C#, .NET Core, ASP.NET, Web API, Entity Framework Core
+      Architecture & Patterns: Microservices, Domain-Driven Design , RESTful APIs
+      Database & Caching: Microsoft SQL Server, MongoDB, Redis
+      Message Brokers & Search Engine: Kafka, Elasticsearch
+      DevOps & Tools: Docker, Jenkins, Git, Jira, Postman
+      Monitoring: Elastic APM
+      Methodologies: Agile (Scrum, Kanban)
 
 languages:
   - name: English
@@ -183,4 +182,8 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I worked as a Software Engineer at FPT Retail, where I focused on creating new features, maintaining projects, and fixing issues. In the "System Operation Management" system, making it easier for customers to pay bills and enabling store staff to perform tasks. Additionally, I contributed to projects that simplified managing information for SIM sections, as well as for the Pharmacy section at Long Chau drugstore chain.
+
+Through these projects, I became familiar with new technologies like Microservices, Redis, NoSQL (MongoDB), EKl stack, and Node.js. I always aim to improve my knowledge and skills in back-end development, with a recent focus on learning technologies like CI/CD.
+
+I believe that with these experiences, I can contribute significantly to future projects and enhance the quality of products.
