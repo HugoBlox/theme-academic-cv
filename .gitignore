@@ -1,7 +1,7 @@
-# Hugo build output
-/public/
-/resources/_gen/
-/hugo_stats.json
+# # Hugo build output
+# /public/
+# /resources/_gen/
+# /hugo_stats.json
 
 # Node.js dependencies
 /node_modules/
