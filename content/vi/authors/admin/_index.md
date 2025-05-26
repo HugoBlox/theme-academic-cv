@@ -173,7 +173,7 @@ awards:
 
 ## Về Tôi
 
-Tôi là Nguyễn Thành Huy, kỹ sư phần mềm backend với định hướng xây dựng các hệ thống ổn định, hiệu suất cao và đáp ứng tốt nhu cầu thực tế của doanh nghiệp.
+Tôi là Nguyễn Thanh Huy, kỹ sư phần mềm backend với định hướng xây dựng các hệ thống ổn định, hiệu suất cao và đáp ứng tốt nhu cầu thực tế của doanh nghiệp.
 
 Với kinh nghiệm phát triển và vận hành các dịch vụ backend, tôi từng tham gia các hệ thống có lưu lượng truy cập lớn, tích hợp nhiều API từ bên thứ ba và áp dụng các nguyên lý kiến trúc hiện đại như microservices và domain-driven design. Tôi sử dụng thành thạo các công nghệ như .NET, Redis, MongoDB, Kafka và Elasticsearch, đồng thời có khả năng làm việc tốt trong môi trường yêu cầu độ tin cậy cao.
 

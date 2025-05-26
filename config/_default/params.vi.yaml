@@ -30,12 +30,12 @@ header:
     show_search: false
     show_theme_chooser: true
     logo:
-      text: "Nguyễn Thành Huy"
+      text: "Nguyễn Thanh Huy"
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Nguyễn Thành Huy. Một số quyền được bảo lưu theo {license}'
+    notice: '© {year} Nguyễn Thanh Huy. Một số quyền được bảo lưu theo {license}'
     license:
       enable: true
       allow_derivatives: true
