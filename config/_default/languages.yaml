@@ -3,8 +3,10 @@
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
 # Default language
-en:
-  languageCode: en-us
+# en:
+  # languageCode: en-us
+  # languageCode: vi
+
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en
 
@@ -20,3 +22,12 @@ en:
 #      - name: 传
 #        url: '#about'
 #        weight: 1
+
+en:
+    languageName: English
+    weight: 1
+    contentDir: content/en
+vi:
+    languageName: Tiếng Việt
+    weight: 2
+    contentDir: content/vi
