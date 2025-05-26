@@ -1,3 +1,8 @@
+# SITE SETUP
+# Guide: https://docs.hugoblox.com/tutorial/
+# Documentation: https://docs.hugoblox.com/
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+
 # Appearance
 appearance:
   mode: system
@@ -7,12 +12,12 @@ appearance:
 marketing:
   seo:
     site_type: Person
-    local_business_type: Software Engineer
-    org_name: Nguyen Thanh Huy
-    description: 'Trang web cá nhân của Nguyễn Thành Huy - Kỹ sư phần mềm backend chuyên về .NET, hệ thống phân tán và phát triển hệ thống hiệu suất cao.'
-    twitter: ''
+    local_business_type: ''
+    org_name: ''
+    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
+    twitter: 'GetResearchDev'
   analytics:
-    google_analytics: 'G-7PZ31MEMJK'  # bạn có thể thêm mã GA nếu dùng
+    google_analytics: ''
     baidu_tongji: ''
     plausible: ''
     fathom: ''
@@ -30,12 +35,12 @@ header:
     show_search: false
     show_theme_chooser: true
     logo:
-      text: "Nguyễn Thành Huy"
+      text: "Nguyen Thanh Huy"
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Nguyễn Thành Huy. Một số quyền được bảo lưu theo {license}'
+    notice: '© {year} Me. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -44,8 +49,8 @@ footer:
 
 # Localization
 locale:
-  date_format: '2 Jan 2006'
-  time_format: '15:04'
+  date_format: 'Jan 2, 2006'
+  time_format: '3:04 PM'
 
 # Site features
 features:
