@@ -3,6 +3,11 @@ appearance:
   mode: system
   color: emerald
 
+extensions:
+  decap_cms:
+    branch: main
+
+
 # SEO
 marketing:
   seo:
@@ -47,9 +52,33 @@ locale:
   date_format: '2 Jan 2006'
   time_format: '15:04'
 
+# # Site features
+# features:
+#   math:
+#     enable: false
+#   privacy_pack:
+#     enable: false
+
+
 # Site features
 features:
   math:
     enable: false
   privacy_pack:
     enable: false
+  repository:
+    url: 'https://github.com/HugoBlox/hugo-blox-builder/'
+    content_dir: starters/blog/content
+    branch: main
+  comment:
+    # Choose a provider: giscus, disqus, commento, or '' to disable commenting
+    provider: 'giscus'
+    giscus:
+      repo: 'YoungBirds134/theme-academic-cv'
+      repo_id: 'R_kgDOOv6MXA'
+      category: 'General'
+      category_id: 'DIC_kwDOOv6MXM4CqmsT'
+      theme: catppuccin_mocha
+      language_code: vi
+      mapping: pathname
+      loading: lazy

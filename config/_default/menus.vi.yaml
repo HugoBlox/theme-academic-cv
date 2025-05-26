@@ -19,6 +19,10 @@ main:
   - name: Kinh nghiệm
     url: experience/
     weight: 20
+
+  # - name: Chủ đề
+  #   url: tags/
+  #   weight: 20
   # - name: Projects
   #   url: projects/
   #   weight: 30
