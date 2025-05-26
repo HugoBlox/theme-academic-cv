@@ -9,7 +9,7 @@ marketing:
     site_type: Person
     local_business_type: Software Engineer
     org_name: Nguyen Thanh Huy
-    description: 'Trang web cá nhân của Nguyễn Thành Huy - Kỹ sư phần mềm backend chuyên về .NET, hệ thống phân tán và phát triển hệ thống hiệu suất cao.'
+    description: 'Trang web cá nhân của Nguyễn Thanh Huy - Kỹ sư phần mềm backend chuyên về .NET, hệ thống phân tán và phát triển hệ thống hiệu suất cao.'
     twitter: ''
   analytics:
     google_analytics: 'G-7PZ31MEMJK'  # bạn có thể thêm mã GA nếu dùng
@@ -38,9 +38,9 @@ footer:
     notice: '© {year} Nguyễn Thành Huy. Một số quyền được bảo lưu theo {license}'
     license:
       enable: true
-      allow_derivatives: false
+      allow_derivatives: true
       share_alike: true
-      allow_commercial: false
+      allow_commercial: true
 
 # Localization
 locale:
