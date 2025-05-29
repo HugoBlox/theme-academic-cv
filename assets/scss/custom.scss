@@ -1,0 +1,13 @@
+// Modificar tamaño de texto del navbar
+.navbar-nav .nav-link {
+  font-size: 18px;
+}
+
+.navbar-brand {
+  font-size: 26px;
+}
+
+// Reducir espacio entre content y footer
+.site-footer {
+  margin-top: 0px; // Reduce este valor según necesites (por defecto suele ser mucho mayor)
+}
