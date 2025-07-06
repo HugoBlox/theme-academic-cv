@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Giriraj G | Aeronautical Engineer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      background: #f0f4f8;
+      color: #333;
+    }
+    header {
+      background: #004080;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #004080;
+    }
+    .skills span {
+      background: #004080;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 5px;
+      margin: 5px;
+      display: inline-block;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    a.button {
+      background: #004080;
+      color: white;
+      padding: 10px 15px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Giriraj G</h1>
+  <p>Aeronautical Engineering Student</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>I’m a passionate Aeronautical Engineering student with strong knowledge of aircraft systems, diagnostics, and maintenance protocols. I excel in tools like SolidWorks, Ansys, and Catia, and aim to contribute to AI-driven aerospace innovation and predictive maintenance systems.</p>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <ul>
+    <li><strong>Fighter Wing Structure Design</strong> – Led team to design and prototype a fighter aircraft wing.</li>
+    <li><strong>CFD Simulations</strong> – Optimized aircraft fuselage airflow using Ansys simulations.</li>
+    <li><strong>Blended Wing Aircraft</strong> – Conceptual design of a blended/mid-wing aircraft for competition.</li>
+  </ul>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <span>SolidWorks</span>
+    <span>ANSYS</span>
+    <span>Catia v5</span>
+    <span>CFD</span>
+    <span>Structural Analysis</span>
+    <span>Analytical Thinking</span>
+    <span>Innovation</span>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p><strong>Email:</strong> <a href="mailto:giripeter018@gmail.com">giripeter018@gmail.com</a></p>
+  <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/giri-peter-g06" target="_blank">linkedin.com/in/giri-peter-g06</a></p>
+  <p><a class="button" href="GirirajGResume.pdf" download>Download Resume</a></p>
+</section>
+
+<footer>
+  <p>© 2025 Giriraj G. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
