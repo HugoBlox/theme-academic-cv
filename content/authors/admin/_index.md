@@ -1,16 +1,16 @@
 ---
 # Display name
-title: 吳健雄
+title: Jay Polra
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Jay Polra
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Jay
+last_name: Polra
 
 # Pronouns (optional)
-pronouns: she/her
+pronouns: He/Him
 
 # Status emoji
 status:
@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Graduate Research Assistant · Computer Vision & LLMs
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -34,156 +34,138 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:jaypolra.2501@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/jp2501
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://www.linkedin.com/in/jaypolra/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Computer Vision (YOLO, multi-camera tracking)
+  - Large Language Models & NLP
+  - Edge/Cloud AI Systems & MLOps
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: MS, Computer Science
+    institution: Purdue University Northwest (PNW)
+    date_start: 2024-08-01
+    date_end: 2026-05-31
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      Graduate Research Assistant at CIVS. Focus on applied AI: real-time computer vision for industrial safety,
+      multimodal (vision–audio) 3D scene understanding, and vision-grounded LLMs for safety analysis/reporting.
+  - area: BE, Information Technology
+    institution: LJ Institute of Engineering & Technology
+    date_start: 2020-08-01
+    date_end: 2023-05-31
     summary: |
-      GPA: 3.8/4.0
+      Graduated with 9.22/10 CGPA. Academic Excellence Scholarship recipient.
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Graduate Research Assistant
+    company_name: Center for Innovation through Visualization & Simulation (CIVS), Purdue University
+    company_url: https://www.pnw.edu/civs/
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2025-01-01
     date_end: ''
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+      • Lead research on multimodal AI systems combining computer vision and audio for industrial safety monitoring.
+      • Develop 3D visual–acoustic scene understanding and vision-grounded LLMs that explain hazardous scenarios.
+      • Fine-tune language models for auto-generated incident summaries and safety reporting.
+  - position: Site Reliability Engineer (SRE)
+    company_name: Asite Solutions Pvt Ltd
+    company_url: https://www.asite.com/
+    company_logo: ''
+    date_start: 2023-01-01
+    date_end: 2024-07-31
+    summary: |2-
+      • Managed AWS/Azure infrastructure with Terraform; maintained ~99.9% uptime for critical services.
+      • Tuned Apache/Nginx and built Grafana/Prometheus dashboards for real-time observability.
+      • Cut deployment time ~25% via CI/CD (Jenkins, Ansible, Python automation) and log-based anomaly detection.
+  - position: Software Development Intern
+    company_name: Karbh IT Solutions Pvt Ltd
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    date_start: 2022-05-01
+    date_end: 2022-06-30
+    summary: |2-
+      • Built RESTful APIs with Flask + MySQL; improved data handling efficiency.
+      • Implemented backend services in Node.js to handle increased traffic with low latency.
 
 # Skills
-# Add your own SVG icons to `assets/media/icons/`
+# (You can tweak the percentages anytime—these only drive the visual bars.)
 skills:
   - name: Technical Skills
     items:
-      - name: Python
-        description: ''
+      - name: Python · OpenCV/YOLO
+        description: CV pipelines, tracking, metrics (mAP/Precision/Recall)
+        percent: 90
+        icon: camera
+      - name: LLMs & NLP
+        description: Prompting, fine-tuning, RAG, Transformers (Gemma/T5)
+        percent: 80
+        icon: sparkles
+      - name: Backend (FastAPI/React/Streamlit)
+        description: Real-time streaming, async APIs, UI overlays
         percent: 80
         icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
+      - name: Databases
+        description: MySQL, MongoDB, Vector DBs
+        percent: 70
         icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
+  - name: Cloud & DevOps
+    color: '#0ea5e9'
+    color_border: '#38bdf8'
     items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
+      - name: Azure & AWS
+        description: IaaS/PaaS, networking, monitoring
+        percent: 85
+        icon: cloud
+      - name: Terraform · Docker/K8s
+        description: IaC, containers, orchestration
         percent: 80
-        icon: camera
+        icon: cube
+      - name: CI/CD & Observability
+        description: Jenkins, Ansible, Prometheus, Grafana
+        percent: 85
+        icon: chart-bar
 
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Hindi
+    percent: 90
+  - name: Gujarati
+    percent: 100
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+  - title: Graduate Research Grant (AY 2025–26)
+    url: ''
+    date: '2025-08-01'
+    awarder: Purdue University Northwest
+    icon: award
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
+      Awarded funding to support applied AI Hazard Recognition research at CIVS.
+  - title: Research Poster — 1st Runner-up (Safety AI)
+    url: ''
+    date: '2025-04-01'
+    awarder: PNW (Academic Showcase)
+    icon: award
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
+      Recognized for multimodal AI safety system work (vision + audio + LLMs).
+  - title: Academic Excellence Scholarship
+    url: ''
+    date: '2020-08-01'
+    awarder: LJ Institute of Engineering & Technology
+    icon: award
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      Full tuition fee waiver for consistent academic performance during BE in IT.
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I’m a Graduate Research Assistant at **CIVS (PNW)** working at the intersection of **computer vision**, **LLMs**, and **cloud-native engineering**.  
+I build real-time safety systems—YOLO-based detection, multi-camera tracking, and polygon hazard zones—paired with **vision-grounded language models** that explain risks and generate incident summaries.  
+
+Previously, I was an **SRE at Asite**, where I automated Azure/AWS infrastructure with **Terraform**, built CI/CD with **Jenkins + Ansible**, and deployed monitoring with **Prometheus/Grafana**.  
+I enjoy turning research ideas into production-ready, observable systems that run reliably at the edge or in the cloud.
