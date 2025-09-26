@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Alex Johnson
+title: James Do
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: James
+last_name: Do
 
 # Pronouns (optional)
 pronouns: he/him
@@ -23,11 +23,11 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: VFX Artist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
+  - name: ZodiacII
     url: https://ai.meta.com/
 
 # Social network links
