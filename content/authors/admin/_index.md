@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Alex Johnson
+title: Hyangsuk Min
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Hyangsuk
+last_name: Min
 
 # Pronouns (optional)
-pronouns: he/him
+pronouns: 
 
 # Status emoji
 status:
-  icon: 🚀
+  icon: `🍀`
 
 # Is this the primary user of the site?
 superuser: true
@@ -23,80 +23,80 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: AI Research Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: KAIST
+    url: https://www.kaist.ac.kr/en
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'mailto:hyangsuk.min@kaist.ac.kr'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
+    url: 
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/hmin0503
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
+    url: https://www.linkedin.com/in/hyangsukmin
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
+    url: https://scholar.google.com/citations?user=U24LXHAAAAAJ&hl=en
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: 
 
 interests:
   - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Natural Language Processing
+  - Summarization
+  - Data-Centric AI
+  - Agentic 
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+  - area: PhD Industrial Systems and Engineering (AI Focus)
+    institution: KAIST
+    date_start: 2024-09-01
+    date_end: ''
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
+      ''
     button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    date_start: 2013-09-01
-    date_end: 2015-05-31
+      text: ''
+      url: ''
+  - area: MS Graduate School of Data Science
+    institution: KAIST
+    date_start: 2020-03-02
+    date_end: 2022-08-15
     summary: |
-      GPA: 4.0/4.0
+      GPA: 4.12/4.30
 
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    date_start: 2009-09-01
-    date_end: 2013-05-31
+      Specialized in deep learning and time-series analysis.
+  - area: BS Big Data Analysis and Statistics
+    institution: Kookmin University
+    date_start: 2015-03-02
+    date_end: 2019-08-26
     summary: |
-      GPA: 3.9/4.0
-
-      Minored in Mathematics. President of AI Club.
+      GPA: 4.4/4.5
+      Specialized in machine learning and data analysis.
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
+  - position: AI Research Scientist
+    company_name: HL Mando
+    company_url: 'https://www.hlmando.com/en/main.do'
     company_logo: ''
-    date_start: 2020-01-01
-    date_end: ''
+    date_start: 2022-10-24
+    date_end: 2024-08-27
     summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
+      ''      
+  - position: ASIC Engineering Intern
+    company_name: Uniquify
+    company_url: 'https://www.uniquify.com/'
     company_logo: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
+    date_start: 2018-08-01
+    date_end: 2019-06-30
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      ''
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
