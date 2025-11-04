@@ -95,7 +95,7 @@ sections:
             </div>
             <div class="modal-body">
               <!-- 头像照片 -->
-              <img src="uploads/liujing.jpg" alt="刘婧头像" style="width:150px; border-radius:50%; display:block; margin-bottom:15px;">
+              <img src="uploads/liujing.png" alt="刘婧头像" style="width:150px; border-radius:50%; display:block; margin-bottom:15px;">
               <p><strong>研究方向</strong>: 气候变化与生态学</p>
               <p><strong>联系方式</strong>: zhangsan@example.com</p>
               <p><strong>简历</strong>: <a href="uploads/zhangsan_resume.pdf">下载简历</a></p>
