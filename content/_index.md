@@ -1,123 +1,128 @@
 ---
-# Leave the homepage title empty to use the site title
-title: ''
-date: 2022-10-24
+title: '我们的学术团队'
+date: 2025-11-04
 type: landing
 
 design:
-  # Default section spacing
   spacing: '6rem'
 
 sections:
+  # 第一位老师 - 杨沛琦
   - block: resume-biography-3
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
-      text: ''
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
-      headings:
-        about: ''
-        education: ''
-        interests: ''
+      username: teacher_1
+      text: |
+        **姓名**: 杨沛琦  
+        **职称**: 教授  
+        **研究方向**: 遥感与生态学，植被物候变化研究  
+        **联系方式**: yangpeiqi@example.com
+        <button type="button" data-bs-toggle="modal" data-bs-target="#teacher1Modal">
+          点击查看详细信息
+        </button>
     design:
-      # Apply a gradient background
       css_class: hbx-bg-gradient
-      # Avatar customization
       avatar:
-        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: circle # Options: circle (default), square, rounded
+        size: medium
+        shape: circle
+
+  # 第二位老师 - 刘婧
+  - block: resume-biography-3
+    content:
+      username: teacher_2
+      text: |
+        **姓名**: 刘婧  
+        **职称**: 副教授  
+        **研究方向**: 气候变化与生态学  
+        **联系方式**: liujing@example.com
+        <button type="button" data-bs-toggle="modal" data-bs-target="#teacher2Modal">
+          点击查看详细信息
+        </button>
+    design:
+      css_class: hbx-bg-gradient
+      avatar:
+        size: medium
+        shape: circle
+
+  # 第三位老师 - 李龙
+  - block: resume-biography-3
+    content:
+      username: teacher_3
+      text: |
+        **姓名**: 李龙  
+        **职称**: 讲师  
+        **研究方向**: 植被遥感分析与气候影响  
+        **联系方式**: lilong@example.com
+        <button type="button" data-bs-toggle="modal" data-bs-target="#teacher3Modal">
+          点击查看详细信息
+        </button>
+    design:
+      css_class: hbx-bg-gradient
+      avatar:
+        size: medium
+        shape: circle
+
+  # 模态框 - 第一位老师（杨沛琦）
   - block: markdown
-    content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+    content: |
+      <div class="modal fade" id="teacher1Modal" tabindex="-1" aria-labelledby="teacher1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="teacher1ModalLabel">杨沛琦 - 教授</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <!-- 头像照片 -->
+              <img src="uploads/yangpeiqi.jpg" alt="杨沛琦头像" style="width:150px; border-radius:50%; display:block; margin-bottom:15px;">
+              <p><strong>研究方向</strong>: 遥感与生态学，植被物候变化研究</p>
+              <p><strong>联系方式</strong>: yangpeiqi@example.com</p>
+              <p><strong>简历</strong>: <a href="uploads/yangpeiqi_resume.pdf">下载简历</a></p>
+              <p><strong>研究兴趣</strong>: 遥感技术在植被物候监测中的应用，气候变化对生态系统的影响等。</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+  # 模态框 - 第二位老师（刘婧）
+  - block: markdown
+    content: |
+      <div class="modal fade" id="teacher2Modal" tabindex="-1" aria-labelledby="teacher2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="teacher2ModalLabel">刘婧 - 副教授</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <!-- 头像照片 -->
+              <img src="uploads/liujing.png" alt="刘婧头像" style="width:150px; border-radius:50%; display:block; margin-bottom:15px;">
+              <p><strong>研究方向</strong>: 气候变化与生态学</p>
+              <p><strong>联系方式</strong>: liujing@example.com</p>
+              <p><strong>简历</strong>: <a href="uploads/liujing_resume.pdf">下载简历</a></p>
+              <p><strong>研究兴趣</strong>: 研究气候变化对植物生长周期的影响，遥感数据的处理与分析等。</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-        Please reach out to collaborate 😃
-    design:
-      columns: '1'
-  - block: collection
-    id: papers
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publications
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-    design:
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - events
-    design:
-      view: card
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        author: ''
-        category: ''
-        tag: ''
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ''
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: card
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
-  - block: cta-card
-    demo: true # Only display this section in the Hugo Blox Builder demo site
-    content:
-      title: 👉 Build your own academic website like this
-      text: |-
-        This site is generated by Hugo Blox Builder - the FREE, Hugo-based open source website builder trusted by 250,000+ academics like you.
-
-        <a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star HugoBlox/hugo-blox-builder on GitHub">Star</a>
-
-        Easily build anything with blocks - no-code required!
-
-        From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
-      button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
-    design:
-      card:
-        # Card background color (CSS class)
-        css_class: 'bg-primary-300 dark:bg-primary-700'
-        css_style: ''
----
+  # 模态框 - 第三位老师（李龙）
+  - block: markdown
+    content: |
+      <div class="modal fade" id="teacher3Modal" tabindex="-1" aria-labelledby="teacher3ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="teacher3ModalLabel">李龙 - 讲师</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <!-- 头像照片 -->
+              <img src="uploads/lilong.jpg" alt="李龙头像" style="width:150px; border-radius:50%; display:block; margin-bottom:15px;">
+              <p><strong>研究方向</strong>: 植被遥感分析与气候影响</p>
+              <p><strong>联系方式</strong>: lilong@example.com</p>
+              <p><strong>简历</strong>: <a href="uploads/lilong_resume.pdf">下载简历</a></p>
+              <p><strong>研究兴趣</strong>: 专注于植被生长周期与气候因素之间的关系，遥感技术在农业中的应用。</p>
+            </div>
+          </div>
+        </div>
+      </div>
