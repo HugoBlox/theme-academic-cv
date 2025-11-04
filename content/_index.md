@@ -61,7 +61,7 @@ sections:
         size: medium
         shape: circle
 
-  # 模态框 - 第一位老师
+  # 模态框 - 第一位老师（李四）
   - block: markdown
     content: |
       <div class="modal fade" id="teacher1Modal" tabindex="-1" aria-labelledby="teacher1ModalLabel" aria-hidden="true">
@@ -72,16 +72,18 @@ sections:
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
+              <!-- 头像照片 -->
+              <img src="uploads/lisi.jpg" alt="李四头像" style="width:150px; border-radius:50%; display:block; margin-bottom:15px;">
               <p><strong>研究方向</strong>: 遥感与生态学，植被物候变化研究</p>
               <p><strong>联系方式</strong>: lisi@example.com</p>
-              <p><strong>简历</strong>: [下载简历](uploads/lisi_resume.pdf)</p>
-              <p><strong>研究兴趣</strong>: 主要研究遥感技术在植被物候监测中的应用，气候变化对生态系统的影响等。</p>
+              <p><strong>简历</strong>: <a href="uploads/lisi_resume.pdf">下载简历</a></p>
+              <p><strong>研究兴趣</strong>: 遥感技术在植被物候监测中的应用，气候变化对生态系统的影响等。</p>
             </div>
           </div>
         </div>
       </div>
 
-  # 模态框 - 第二位老师
+  # 模态框 - 第二位老师（张三）
   - block: markdown
     content: |
       <div class="modal fade" id="teacher2Modal" tabindex="-1" aria-labelledby="teacher2ModalLabel" aria-hidden="true">
@@ -92,16 +94,18 @@ sections:
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
+              <!-- 头像照片 -->
+              <img src="uploads/zhangsan.jpg" alt="张三头像" style="width:150px; border-radius:50%; display:block; margin-bottom:15px;">
               <p><strong>研究方向</strong>: 气候变化与生态学</p>
               <p><strong>联系方式</strong>: zhangsan@example.com</p>
-              <p><strong>简历</strong>: [下载简历](uploads/zhangsan_resume.pdf)</p>
+              <p><strong>简历</strong>: <a href="uploads/zhangsan_resume.pdf">下载简历</a></p>
               <p><strong>研究兴趣</strong>: 研究气候变化对植物生长周期的影响，遥感数据的处理与分析等。</p>
             </div>
           </div>
         </div>
       </div>
 
-  # 模态框 - 第三位老师
+  # 模态框 - 第三位老师（王五）
   - block: markdown
     content: |
       <div class="modal fade" id="teacher3Modal" tabindex="-1" aria-labelledby="teacher3ModalLabel" aria-hidden="true">
@@ -112,7 +116,13 @@ sections:
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
+              <!-- 头像照片 -->
+              <img src="uploads/wangwu.jpg" alt="王五头像" style="width:150px; border-radius:50%; display:block; margin-bottom:15px;">
               <p><strong>研究方向</strong>: 植被遥感分析与气候影响</p>
               <p><strong>联系方式</strong>: wangwu@example.com</p>
-              <p><strong>简历</strong>: [下载简历](uploads/wangwu_resume.pdf)</p>
-              <p><strong>研究兴趣</strong>: 专注于植被生长周期与气候
+              <p><strong>简历</strong>: <a href="uploads/wangwu_resume.pdf">下载简历</a></p>
+              <p><strong>研究兴趣</strong>: 专注于植被生长周期与气候因素之间的关系，遥感技术在农业中的应用。</p>
+            </div>
+          </div>
+        </div>
+      </div>
