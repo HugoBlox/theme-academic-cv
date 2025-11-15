@@ -1,0 +1,48 @@
+name: Sync Upstream into updated
+
+on:
+  schedule:
+    - cron: '0 4 * * *'      # 每天 04:00 UTC（欧洲中央时区大约凌晨5点）  
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Add upstream
+        run: |
+          git remote add upstream https://github.com/HugoBlox/theme-academic-cv.git
+          git fetch upstream
+
+      - name: Merge upstream into branch updated
+        run: |
+          git checkout updated
+          git merge upstream/main --no-edit || true
+
+      - name: Push updated branch
+        uses: ad-m/github-push-action@v0.8.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: updated
+          force: false
+
+      - name: Create Pull Request to updated if new commits
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: updated
+          base: updated
+          title: "Sync upstream updates"
+          body: |
+            This PR merges the latest updates from upstream repository.
+            Upstream: https://github.com/HugoBlox/theme-academic-cv
+          labels: upstream-sync
