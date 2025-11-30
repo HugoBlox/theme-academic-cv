@@ -8,6 +8,22 @@ date: 2023-10-27
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 
+cover:
+  image: "https://images.unsplash.com/photo-1557682250-33bd709cbe85?q=80&w=2560"
+  position:
+    x: 50
+    y: 40
+  overlay:
+    enabled: true
+    type: "gradient"
+    opacity: 0.4
+    gradient: "bottom"
+  fade:
+    enabled: true
+    height: "80px"
+  icon:
+    name: "✨"
+
 authors:
   - admin
   - Ted
@@ -41,7 +57,7 @@ Welcome 👋
 - 👉 [**Create a new site**](https://hugoblox.com/templates/)
 - 📚 [**Personalize your site**](https://docs.hugoblox.com/)
 - 💬 [Chat with the **Hugo Blox community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@GetResearchDev](https://x.com/BuildLore) [@GeorgeCushen](https://twitter.com/GeorgeCushen) #MadeWithHugoBlox
+- 🐦 Twitter: [@BuildLore](https://x.com/BuildLore) [@GeorgeCushen](https://x.com/GeorgeCushen) #MadeWithHugoBlox
 - 💡 [Request a **feature** or report a **bug** for _Hugo Blox_](https://github.com/HugoBlox/hugo-blox-builder/issues)
 - ⬆️ **Updating Hugo Blox?** View the [Update Guide](https://docs.hugoblox.com/reference/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
 

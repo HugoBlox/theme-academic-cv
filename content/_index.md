@@ -23,8 +23,11 @@ sections:
         education: ''
         interests: ''
     design:
-      # Apply a gradient background
-      css_class: hbx-bg-gradient
+      # Use the new Gradient Mesh which automatically adapts to the selected theme colors
+      background:
+        gradient_mesh:
+          enable: true
+
       # Avatar customization
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
@@ -80,7 +83,7 @@ sections:
       # Page type to display. E.g. post, talk, publication...
       page_type: blog
       # Choose how many pages you would like to display (0 = all pages)
-      count: 5
+      count: 10
       # Filter on criteria
       filters:
         author: ''
