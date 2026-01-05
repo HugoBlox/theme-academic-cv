@@ -14,7 +14,7 @@
     hugo --gc --minify -b $URL --logLevel debug --printI18nWarnings --printPathWarnings
     
     echo "=== Running Pagefind indexing ==="
-    pnpm run pagefind -- --verbose
+    pnpm run pagefind
     
     echo "=== Build completed successfully ==="
   """
@@ -24,6 +24,8 @@
   HUGO_VERSION = "0.154.2"
   GO_VERSION = "1.21.5"
   NODE_VERSION = "22"
+  # Netlify runs an implicit install step; ensure it never enforces frozen lockfiles
+  PNPM_FLAGS = "--no-frozen-lockfile"
   HUGO_ENABLEGITINFO = "true"
   HUGO_LOG_I18N_WARNINGS = "true"
   HUGO_LOG_WARNINGS = "true"
@@ -40,7 +42,7 @@
     echo "Deploy URL: $DEPLOY_PRIME_URL"
     pnpm install --verbose --no-frozen-lockfile
     hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL --logLevel debug --printI18nWarnings --printPathWarnings
-    pnpm run pagefind -- --verbose
+    pnpm run pagefind
   """
 
 [context.branch-deploy]
@@ -50,7 +52,7 @@
     echo "Deploy URL: $DEPLOY_PRIME_URL"
     pnpm install --verbose --no-frozen-lockfile
     hugo --gc --minify -b $DEPLOY_PRIME_URL --logLevel debug --printI18nWarnings --printPathWarnings
-    pnpm run pagefind -- --verbose
+    pnpm run pagefind
   """
 
 [[plugins]]
