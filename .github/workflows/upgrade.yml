@@ -6,11 +6,11 @@ on:
       version_type:
         description: 'Upgrade to version'
         required: true
-        default: 'stable'
+        default: 'Stable'
         type: choice
         options:
-        - stable
-        - canary
+        - Stable
+        - Beta (Preview)
   schedule:
     # Run at 05:00 on Monday
     - cron: '0 5 * * 1'
@@ -24,6 +24,8 @@ jobs:
     name: Upgrade
     if: github.repository_owner != 'HugoBlox'
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -34,6 +36,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          package_json_path: templates/academic-cv/package.json
+          run_install: false
 
       - name: Setup Go
         uses: actions/setup-go@v5
@@ -49,16 +57,16 @@ jobs:
       - name: Run Upgrade CLI
         env:
           # Use manual input or default to stable for scheduled runs
-          VERSION_TYPE: ${{ inputs.version_type || 'stable' }}
+          VERSION_TYPE: ${{ inputs.version_type || 'Stable' }}
         run: |
           FLAGS="--yes --ci"
           
-          if [ "$VERSION_TYPE" == "canary" ]; then
+          if [ "$VERSION_TYPE" == "Beta (Preview)" ]; then
             FLAGS="$FLAGS --canary"
           fi
           
           echo "Running upgrade with flags: $FLAGS"
-          npx --yes hugoblox@latest upgrade $FLAGS
+          pnpm dlx hugoblox@latest upgrade $FLAGS
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6

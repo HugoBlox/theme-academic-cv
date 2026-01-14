@@ -24,7 +24,7 @@ hugoblox:
     description: "The highly-customizable Hugo Academic theme powered by HugoBlox Kit. Easily create your personal academic website."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "BuildLore"              # Twitter/X handle for Twitter Cards (without @)
+      twitter: "LoreLabs_"              # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -253,7 +253,7 @@ hugoblox:
     csp:
       policy: ""
       report_only: false
-    frame_options: sameorigin           # deny | sameorigin | allow - sameorigin allows slides embedding
+    frame_options: allow                 # deny | sameorigin | allow - allow enables iframe embedding
     permissions_policy: ""
 
   # ────────────────────────────────────────────────────────────────────────────
